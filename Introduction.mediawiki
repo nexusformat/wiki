@@ -27,6 +27,8 @@ In fact, a NeXus file can be viewed as a computer file system. Just as files are
 ====Example of a NeXus File====
 The following diagram shows an example of a NeXus file represented as a tree structure.
 
+[[Image:Hierarchy.gif]]
+
 Note that each data item is identified by a name, e.g., counts, but each group is identified both by a name and, in parentheses, a class identifier, e.g., monitor (NXmonitor). The class names, which all begin with NX, define the sort of data items that the group should contain, in this case, counts from a beamline monitor. The hierarchical design, with data items nested in groups, makes it easy to identify information if you are browsing through a file.
 
 ====Important Classes====

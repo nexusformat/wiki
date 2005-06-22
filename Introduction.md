@@ -74,6 +74,8 @@ designed to make it easy to navigate a NeXus file.
 The following diagram shows an example of a NeXus file represented as a
 tree structure.
 
+![](Hierarchy.gif "Hierarchy.gif")
+
 Note that each data item is identified by a name, e.g., counts, but each
 group is identified both by a name and, in parentheses, a class
 identifier, e.g., monitor (NXmonitor). The class names, which all begin
