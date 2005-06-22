@@ -10,7 +10,7 @@ layout: wiki
    NeXus_version="{Version of NeXus API used in writing the file}" 
    HDF_version="?" HDF5_version="?" XML_version="?" 
    creator="{facility or program where file originated}?">  
-`   `<NXentry name="{entry name}">  
-`       +`  
-`   `</NXentry>  
+`      `<NXentry name="{entry name}">  
+`          +`  
+`      `</NXentry>  
 </NXroot>
