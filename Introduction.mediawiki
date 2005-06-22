@@ -50,7 +50,7 @@ This illustrates the fact that the structure of NeXus files is extremely flexibl
 If the design principles are followed, it will be easy for anyone browsing a NeXus file to understand what it contains, without any prior information. However, if you are writing visualization or analysis software, you will need to know precisely what information is contained in advance. For that reason, NeXus provides a way of defining the format for particular instrument types, e.g., time-of-flight small angle neutron scattering. This requires some agreement by the relevant communities, but would allow the development of much more portable software.
 
 These instrument definitions are being formalized as XML files, using a specially devised syntax that specifies the names of data items, and whether they are optional or required. The following is an example of such a file for the simple NeXus file shown above.
-<code>
+<pre>
  <?xml version="1.0" ?> 
  <!--
  URL: http://www.neutron.anl.gov/nexus/xml/simple.xml
@@ -66,7 +66,7 @@ These instrument definitions are being formalized as XML files, using a speciall
                    <data type="NX_INT32[i]" > {Counts} </data>
           </NXdata>
  </NXentry>
-</code>
+</pre>
 If you want to define the format of a particular type of NeXus file for your own use, e.g. as the standard output from a program, you are encouraged to "publish" the format using this XML format.
 
 ==How do I write a NeXus file?==

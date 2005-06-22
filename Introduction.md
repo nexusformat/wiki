@@ -128,19 +128,27 @@ software.
 These instrument definitions are being formalized as XML files, using a
 specially devised syntax that specifies the names of data items, and
 whether they are optional or required. The following is an example of
-such a file for the simple NeXus file shown above. <code>
+such a file for the simple NeXus file shown above.
 
-<?xml version="1.0" ?>
-<NXentry name="{Name of entry}">  
-`         `<NXdata name="{Name of data}">  
-`                  `<time_of_flight units="microseconds" type="NX_FLOAT32[i]">`{Time-of-flight} `</time_of_flight>  
-`                  `<data type="NX_INT32[i]" >` {Counts} `</data>  
-`         `</NXdata>  
-</NXentry>
+     <?xml version="1.0" ?> 
+     <!--
+     URL: http://www.neutron.anl.gov/nexus/xml/simple.xml
+     Editor: Ray Osborn <ROsborn@anl.gov>
+     $Id$
 
-</code> If you want to define the format of a particular type of NeXus
-file for your own use, e.g. as the standard output from a program, you
-are encouraged to “publish” the format using this XML format.
+     A very simple NeXus file
+
+     -->
+     <NXentry name="{Name of entry}">
+              <NXdata name="{Name of data}">
+                       <time_of_flight units="microseconds" type="NX_FLOAT32[i]">{Time-of-flight} </time_of_flight>
+                       <data type="NX_INT32[i]" > {Counts} </data>
+              </NXdata>
+     </NXentry>
+
+If you want to define the format of a particular type of NeXus file for
+your own use, e.g. as the standard output from a program, you are
+encouraged to “publish” the format using this XML format.
 
 How do I write a NeXus file?
 ----------------------------
