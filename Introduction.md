@@ -91,6 +91,10 @@ NXdata:Each NXentry group contains one or more groups with class NXdata. These g
 NXsample:A NXentry group will often contain a group with class NXsample. This group contains information pertaining to the sample, such as its chemical composition, mass, and environment variables (temperature, pressure, magnetic field, etc.).  
 NXinstrument:There might also be a group with class NXinstrument. This is designed to encapsulate all the instrumental information that might be relevant to a measurement, such as flight paths, collimations, chopper frequencies, etc.  
 
+<center>
+![](NXinstrument.gif "NXinstrument.gif")
+
+</center>
 Since an instrument can comprise several beamline components each
 defined by several parameters, they are each specified by a separate
 group. This hides the complexity from generic file browsers, but makes
