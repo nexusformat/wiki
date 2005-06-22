@@ -307,10 +307,11 @@ quit:Quit the browser
 The source code provides an example of how to write a NeXus reader. The
 test programs included in the NeXus API may also be useful to study.
 
-### Where to go from here?
+Where to go from here?
+----------------------
 
 The other sections of this web site give much more detailed descriptions
 of the NeXus data format.
 
-NeXus Design:This describes NeXus' hierarchical design, and gives more information on how to construct valid groups.  
-NeXus API:This describes the NeXus programming interface, with lists of all the subroutines and supported languages.  
+[NeXus Design](Design "wikilink"):This describes NeXus' hierarchical design, and gives more information on how to construct valid groups.  
+[NeXus Software](Software "wikilink"):This describes the NeXus programming interface, with lists of all the subroutines and supported languages, and various NeXus utilities.  
