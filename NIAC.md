@@ -8,18 +8,21 @@ Current Members
 ---------------
 
 -   Frederick Akeroyd, Rutherford Appleton Laboratory, UK
-
-Stephen Cottrell, Rutherford Appleton Laboratory, UK (Muon
-Representative) Matthias Drochner, Forschungzentrum Jülich, Germany Nick
-Hauser, Australian Nuclear Science and Technology Organisation,
-Australia Ron Ghosh, Institut Laue Langevin, France Andrew Götz,
-European Synchrotron Radiation Facility, France Przemek Klosowski,
-National Insitute of Standards and Technology, USA Mark Könnecke, Paul
-Scherrer Institut, Switzerland Peter Link, Technische Universität
-München, Germany Raymond Osborn, Argonne National Laboratory, USA
-(Chair) Toshiya Otomo, KEK, Japan Peter Peterson, Spallation Neutron
-Source, USA (Executive Secretary) Thomas Proffen, Los Alamos National
-Laboratory, USA
+-   Stephen Cottrell, Rutherford Appleton Laboratory, UK (Muon
+    Representative)
+-   Matthias Drochner, Forschungzentrum Jülich, Germany
+-   Nick Hauser, Australian Nuclear Science and Technology Organisation,
+    Australia
+-   Ron Ghosh, Institut Laue Langevin, France
+-   Andrew Götz, European Synchrotron Radiation Facility, France
+-   Przemek Klosowski, National Insitute of Standards and Technology,
+    USA
+-   Mark Könnecke, Paul Scherrer Institut, Switzerland
+-   Peter Link, Technische Universität München, Germany
+-   Raymond Osborn, Argonne National Laboratory, USA (Chair)
+-   Toshiya Otomo, KEK, Japan
+-   Peter Peterson, Spallation Neutron Source, USA (Executive Secretary)
+-   Thomas Proffen, Los Alamos National Laboratory, USA
 
 Constitution
 ------------
@@ -31,27 +34,27 @@ supervise the development and maintenance of the NeXus common data
 format for neutron, x-ray, and muon science. This purpose includes, but
 is not limited to, the following activities.
 
-1.  1.  To establish policies concerning the definition, use, and
-        promotion of the NeXus format.
-    2.  To ensure that the specification of the NeXus format is
-        sufficiently complete and clear for its use in the exchange and
-        archival of neutron, x-ray, and muon data.
-    3.  To receive and examine all proposed amendments and extensions to
-        the NeXus format. In particular, to ratify proposed instrument
-        and group class definitions, to ensure that the data structures
-        conform to the basic NeXus specification, and to ensure that the
-        definitions of data items are clear and unambiguous and conform
-        to accepted scientific usage.
-    4.  To ensure that documentation of the NeXus format is sufficient,
-        current, and available to potential users both on the internet
-        and in other forms.
-    5.  To coordinate with the developers of the NeXus Application
-        Programming Interface to ensure that it supports the use of the
-        NeXus format in the neutron, x-ray, and muon communities, and to
-        promote other software development that will benefit users of
-        the NeXus format.
-    6.  To coordinate with other organizations that maintain and develop
-        related data formats to ensure maximum compatibility.
+1.  To establish policies concerning the definition, use, and promotion
+    of the NeXus format.
+2.  To ensure that the specification of the NeXus format is sufficiently
+    complete and clear for its use in the exchange and archival of
+    neutron, x-ray, and muon data.
+3.  To receive and examine all proposed amendments and extensions to the
+    NeXus format. In particular, to ratify proposed instrument and group
+    class definitions, to ensure that the data structures conform to the
+    basic NeXus specification, and to ensure that the definitions of
+    data items are clear and unambiguous and conform to accepted
+    scientific usage.
+4.  To ensure that documentation of the NeXus format is sufficient,
+    current, and available to potential users both on the internet and
+    in other forms.
+5.  To coordinate with the developers of the NeXus Application
+    Programming Interface to ensure that it supports the use of the
+    NeXus format in the neutron, x-ray, and muon communities, and to
+    promote other software development that will benefit users of the
+    NeXus format.
+6.  To coordinate with other organizations that maintain and develop
+    related data formats to ensure maximum compatibility.
 
 The committee will meet at least once every calendar year.
 
@@ -70,25 +73,15 @@ limited period to ensure balanced representation.
 
 ### Organization
 
-1.  Accountability
+Accountability:The NeXus International Advisory Committee will ensure that their decisions are reported both on the NeXus web site and on the NeXus mailing list. Committee business will be conducted either through a mailing list, to which non-committee members can subscribe and whose archive will be available on the web, or through meetings, which will be advertised on the NeXus mailing list and which non-committee members may attend.  
 
-The NeXus International Advisory Committee will ensure that their
-decisions are reported both on the NeXus web site and on the NeXus
-mailing list. Committee business will be conducted either through a
-mailing list, to which non-committee members can subscribe and whose
-archive will be available on the web, or through meetings, which will be
-advertised on the NeXus mailing list and which non-committee members may
-attend. The NeXus International Advisory Committee will nominate a Chair
-to oversee committee deliberations, and appoint an Executive Secretary,
-who is not necessarily a member of the committee, to coordinate meetings
-and online debates.
+The NeXus International Advisory Committee will nominate a Chair to
+oversee committee deliberations, and appoint an Executive Secretary, who
+is not necessarily a member of the committee, to coordinate meetings and
+online debates.
 
-1.  Voting
+Voting:Only members of the NeXus International Advisory Committee will be able to vote on specific proposals that come under the remit of the committee. However, all debates will be conducted publicly and non-committee members are both allowed and encouraged to participate.  
 
-Only members of the NeXus International Advisory Committee will be able
-to vote on specific proposals that come under the remit of the
-committee. However, all debates will be conducted publicly and
-non-committee members are both allowed and encouraged to participate.
 Topics voted on will require a simple majority unless specifically
 challenged by a committee member. In the event of a challenge, the issue
 will be presented to the NeXus mailing list inviting comments for a
@@ -96,17 +89,7 @@ period of one month. At the end of this period, the challenge can be
 overruled by a two thirds majority. The constitution can only be changed
 by a two thirds majority of the NIAC.
 
-1.  1.  Special Interest Groups
-
-The NeXus International Advisory Committee will appoint editors to be in
-charge of particular groups that wish to specify instrument definitions
-or develop specialized uses of the NeXus format. The groups will
-establish their own mode of operation, but will be expected to consult
-widely with the community relevant to their work, and to refer back to
-the NeXus International Advisory Committee any matters that involve a
-change in the current NeXus specification. Specific proposals produced
-by these groups will be presented to the NeXus International Advisory
-Committee for comment and formal ratification.
+Special Interest Groups:The NeXus International Advisory Committee will appoint editors to be in charge of particular groups that wish to specify instrument definitions or develop specialized uses of the NeXus format. The groups will establish their own mode of operation, but will be expected to consult widely with the community relevant to their work, and to refer back to the NeXus International Advisory Committee any matters that involve a change in the current NeXus specification. Specific proposals produced by these groups will be presented to the NeXus International Advisory Committee for comment and formal ratification.  
 
 Procedures
 ----------
