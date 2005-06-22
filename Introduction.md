@@ -19,11 +19,8 @@ This section is designed to give a brief introduction to NeXus, the data
 format that has been developed in response to these needs. It explains
 what a modern data format such as NeXus is and how to write simple
 programs to read and write NeXus files. More detailed descriptions are
-contained in other sections. This page addresses three questions:
-
--   What is NeXus?
--   How do I write a NeXus file?
--   How do I read a NeXus file?
+contained in other sections. This page addresses three questions:1) What
+is NeXus? 2) How do I write a NeXus file? 3) How do I read a NeXus file?
 
 What is NeXus?
 --------------
