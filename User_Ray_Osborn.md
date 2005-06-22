@@ -4,7 +4,18 @@ permalink: User:Ray_Osborn/
 layout: wiki
 ---
 
-Materials Science Division Argonne National Laboratory Argonne, IL
-60439-4845
+Ray Osborn
+----------
 
-Phone: +1 630-252-9011 Fax: +1 630-252-7777 Email: ROsborn@anl.gov
+### Chair, NeXus International Advisory Committee
+
+Address:Materials Science Division  
+Argonne National Laboratory
+
+Argonne, IL 60439-4845
+
+<!-- -->
+
+Phone:+1 630-252-9011  
+Fax: +1 630-252-7777  
+Email: ROsborn@anl.gov  
