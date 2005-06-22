@@ -22,7 +22,8 @@ Current Members
 -   [Raymond Osborn](User%3ARay "wikilink"), Argonne National
     Laboratory, USA (Chair)
 -   Toshiya Otomo, KEK, Japan
--   Peter Peterson, Spallation Neutron Source, USA (Executive Secretary)
+-   [Peter Peterson](User%3APfpeterson "wikilink"), Spallation Neutron
+    Source, USA (Executive Secretary)
 -   Thomas Proffen, Los Alamos National Laboratory, USA
 
 Constitution
