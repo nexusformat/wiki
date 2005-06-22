@@ -5,4 +5,4 @@ The NeXus wiki is a collaborative forum that allows members of the neutron, x-ra
 *[[Software|NeXus Software]] - forum for disussing the API and other software issues
 *[[Documentation|NeXus Documentation]] - forum for collaborating on NeXus documentation
 *[[Miscellaneous|Miscellaneous Topics]] - forum for raising any other issues concerning the NeXus format
-*[[Niac|NeXus International Advisory Committee]]
+*[[NIAC|NeXus International Advisory Committee]]

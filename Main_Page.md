@@ -22,5 +22,5 @@ any changes.
     collaborating on NeXus documentation
 -   [Miscellaneous Topics](Miscellaneous "wikilink") - forum for raising
     any other issues concerning the NeXus format
--   [NeXus International Advisory Committee](Niac "wikilink")
+-   [NeXus International Advisory Committee](NIAC "wikilink")
 
