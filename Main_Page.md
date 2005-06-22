@@ -4,9 +4,9 @@ permalink: Main_Page/
 layout: wiki
 ---
 
-Wiki software successfully installed.
-
-Please see [documentation on customizing the
-interface](http://meta.wikipedia.org/wiki/MediaWiki_i18n) and the
-[User's Guide](http://meta.wikipedia.org/wiki/MediaWiki_User%27s_Guide)
-for usage and configuration help.
+The NeXus wiki is a collaborative forum that allows members of the
+neutron, x-ray, and muon communities to make contributions to the
+development of the NeXus format. We invite you to browse through the
+pages listed below, and, if you have a constructive suggestion, edit
+them accordingly. We only ask that you read a few simple guidelines
+before making any changes.
