@@ -24,7 +24,7 @@ Laboratory, USA
 Constitution
 ------------
 
-1.  Terms of Reference
+### Terms of Reference
 
 The purpose of the NeXus International Advisory Committee is to
 supervise the development and maintenance of the NeXus common data
@@ -55,7 +55,7 @@ is not limited to, the following activities.
 
 The committee will meet at least once every calendar year.
 
-1.  Membership
+### Membership
 
 The NeXus International Advisory Committee will seek balanced
 representation of the international community. It will consist of at
@@ -68,8 +68,9 @@ can appoint a substitute to attend a particular meeting.
 The committee reserves the right to appoint additional members for a
 limited period to ensure balanced representation.
 
-1.  Organization
-    1.  Accountability
+### Organization
+
+1.  Accountability
 
 The NeXus International Advisory Committee will ensure that their
 decisions are reported both on the NeXus web site and on the NeXus
@@ -82,7 +83,7 @@ to oversee committee deliberations, and appoint an Executive Secretary,
 who is not necessarily a member of the committee, to coordinate meetings
 and online debates.
 
-1.  1.  Voting
+1.  Voting
 
 Only members of the NeXus International Advisory Committee will be able
 to vote on specific proposals that come under the remit of the
