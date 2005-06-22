@@ -1,4 +1,4 @@
- <?xml version="1.0" encoding="UTF-8"?>
+ <code><?xml version="1.0" encoding="UTF-8"?>
  &lt;!--
  URL:     http://www.nexus.anl.gov/classes/xml/NXroot.xml
  Editor:  NIAC
@@ -16,4 +16,4 @@
        <NXentry name="{entry name}">
            +
        </NXentry>
- </NXroot>
+ </NXroot></code>

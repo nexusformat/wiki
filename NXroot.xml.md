@@ -4,6 +4,8 @@ permalink: NXroot.xml/
 layout: wiki
 ---
 
+<code>
+
 <?xml version="1.0" encoding="UTF-8"?>
 `<!--`  
 `URL:     `[`http://www.nexus.anl.gov/classes/xml/NXroot.xml`](http://www.nexus.anl.gov/classes/xml/NXroot.xml)  
@@ -22,4 +24,4 @@ layout: wiki
 `      `<NXentry name="{entry name}">  
 `          +`  
 `      `</NXentry>  
-</NXroot>
+</NXroot></code>
