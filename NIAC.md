@@ -19,7 +19,8 @@ Current Members
     USA
 -   Mark Könnecke, Paul Scherrer Institut, Switzerland
 -   Peter Link, Technische Universität München, Germany
--   Raymond Osborn, Argonne National Laboratory, USA (Chair)
+-   [Raymond Osborn](User%3ARay "wikilink"), Argonne National
+    Laboratory, USA (Chair)
 -   Toshiya Otomo, KEK, Japan
 -   Peter Peterson, Spallation Neutron Source, USA (Executive Secretary)
 -   Thomas Proffen, Los Alamos National Laboratory, USA
@@ -74,20 +75,20 @@ limited period to ensure balanced representation.
 ### Organization
 
 Accountability:The NeXus International Advisory Committee will ensure that their decisions are reported both on the NeXus web site and on the NeXus mailing list. Committee business will be conducted either through a mailing list, to which non-committee members can subscribe and whose archive will be available on the web, or through meetings, which will be advertised on the NeXus mailing list and which non-committee members may attend.  
-
 The NeXus International Advisory Committee will nominate a Chair to
 oversee committee deliberations, and appoint an Executive Secretary, who
 is not necessarily a member of the committee, to coordinate meetings and
 online debates.
 
 Voting:Only members of the NeXus International Advisory Committee will be able to vote on specific proposals that come under the remit of the committee. However, all debates will be conducted publicly and non-committee members are both allowed and encouraged to participate.  
-
 Topics voted on will require a simple majority unless specifically
 challenged by a committee member. In the event of a challenge, the issue
 will be presented to the NeXus mailing list inviting comments for a
 period of one month. At the end of this period, the challenge can be
-overruled by a two thirds majority. The constitution can only be changed
-by a two thirds majority of the NIAC.
+overruled by a two thirds majority.
+
+The constitution can only be changed by a two thirds majority of the
+NIAC.
 
 Special Interest Groups:The NeXus International Advisory Committee will appoint editors to be in charge of particular groups that wish to specify instrument definitions or develop specialized uses of the NeXus format. The groups will establish their own mode of operation, but will be expected to consult widely with the community relevant to their work, and to refer back to the NeXus International Advisory Committee any matters that involve a change in the current NeXus specification. Specific proposals produced by these groups will be presented to the NeXus International Advisory Committee for comment and formal ratification.  
 
