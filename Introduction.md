@@ -103,6 +103,8 @@ NeXus data files do not need to be complicated. In fact, the following
 diagram shows an extremely simple NeXus file that could be used to
 transfer data between programs.
 
+![](Simple.gif "Simple.gif")
+
 This illustrates the fact that the structure of NeXus files is extremely
 flexible. It can accommodate very complex instrumental information, if
 required, but it can also be used to store very simple data sets.
