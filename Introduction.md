@@ -128,7 +128,7 @@ software.
 These instrument definitions are being formalized as XML files, using a
 specially devised syntax that specifies the names of data items, and
 whether they are optional or required. The following is an example of
-such a file for the simple NeXus file shown above.
+such a file for the simple NeXus file shown above. <code>
 
 <?xml version="1.0" ?>
 <NXentry name="{Name of entry}">  
@@ -138,9 +138,9 @@ such a file for the simple NeXus file shown above.
 `         `</NXdata>  
 </NXentry>
 
-If you want to define the format of a particular type of NeXus file for
-your own use, e.g. as the standard output from a program, you are
-encouraged to “publish” the format using this XML format.
+</code> If you want to define the format of a particular type of NeXus
+file for your own use, e.g. as the standard output from a program, you
+are encouraged to “publish” the format using this XML format.
 
 How do I write a NeXus file?
 ----------------------------
