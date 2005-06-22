@@ -21,8 +21,8 @@ what a modern data format such as NeXus is and how to write simple
 programs to read and write NeXus files. More detailed descriptions are
 contained in other sections. This page addresses three questions:1)
 [What is NeXus?](#What_is_NeXus.3F "wikilink") 2) [How do I write a
-NeXus file?](How_do_I_write_a_NeXus_file.3F "wikilink") 3) [How do I
-read a NeXus file?](How_do_I_read_a_NeXus_file.3F "wikilink")
+NeXus file?](#How_do_I_write_a_NeXus_file.3F "wikilink") 3) [How do I
+read a NeXus file?](#How_do_I_read_a_NeXus_file.3F "wikilink")
 
 What is NeXus?
 --------------
