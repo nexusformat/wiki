@@ -27,17 +27,17 @@ opened. NXbrowse then lists the global attributes and prompts for
 further commands. The following commands may be given in upper or lower
 case (although the group and data names are case sensitive) :
 
-|                              |
-|------------------------------|
-|   ! |Command Definition      |
-| DIR                          |
-| OPEN <group>                 |
-| READ &lt;data\[i,j,...\]&gt; |
-| DUMP <data> <file>           |
-| BYTEASCHAR                   |
-| CLOSE                        |
-| EXIT, QUIT                   |
-| HELP                         |
+|                              |                                                                                                                                                                                                                                                                                                                                                 |
+|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                              | |Command Definition                                                                                                                                                                                                                                                                                                                             |
+| DIR                          | List the contents of the currently open group.                                                                                                                                                                                                                                                                                                  |
+| OPEN <group>                 | Open the specified group.                                                                                                                                                                                                                                                                                                                       |
+| READ &lt;data\[i,j,...\]&gt; | Read the contents of the specified data set. If no array indices are specified, the first three elements of the data set are output along with all its attributes. If an array index is specified, only that element is output. Note that the order of the array indices follows the C-convention (the last index is the most-rapidly varying). |
+| DUMP <data> <file>           | Write the entire contents of the specified data set to the specified ASCII file.                                                                                                                                                                                                                                                                |
+| BYTEASCHAR                   | Toggle the output format for NX\_INT8 and NX\_UINT8 variables. By default, they are output as integers, but after giving this command, they are printed as character strings.                                                                                                                                                                   |
+| CLOSE                        | Close the currently open group. At the root level of the NeXus file, this command is ignored.                                                                                                                                                                                                                                                   |
+| EXIT, QUIT                   | Exit the program.                                                                                                                                                                                                                                                                                                                               |
+| HELP                         | List the available commands.                                                                                                                                                                                                                                                                                                                    |
 
 On most systems, NXbrowse is compiled and linked during the standard
 NeXus installation. Precompiled binary versions are available for a
