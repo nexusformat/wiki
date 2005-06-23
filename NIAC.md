@@ -7,14 +7,18 @@ layout: wiki
 Current Members
 ---------------
 
--   Frederick Akeroyd, Rutherford Appleton Laboratory, UK
+-   Frederick Akeroyd, Rutherford Appleton Laboratory, UK (ISIS
+    Representative)
+-   [Stuart Campbel](User%3ASicampbell "wikilink"), Rutherford Appleton
+    Laboratory (Diamond Representative)
 -   Stephen Cottrell, Rutherford Appleton Laboratory, UK (Muon
     Representative)
 -   Matthias Drochner, Forschungzentrum Jülich, Germany
 -   Nick Hauser, Australian Nuclear Science and Technology Organisation,
     Australia
 -   Ron Ghosh, Institut Laue Langevin, France
--   Andrew Götz, European Synchrotron Radiation Facility, France
+-   \[User:Andygotz|Andrew Götz\]\], European Synchrotron Radiation
+    Facility, France
 -   Przemek Klosowski, National Insitute of Standards and Technology,
     USA
 -   Mark Könnecke, Paul Scherrer Institut, Switzerland
