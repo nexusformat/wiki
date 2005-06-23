@@ -39,8 +39,8 @@ For these reasons, we request that all NeXus files are written using the
 supplied API. We cannot be sure that anything written using the
 underlying HDF API will be recognized by NeXus-aware utilities.
 
-Description of Core API
------------------------
+Core API Routines
+-----------------
 
 The core API provides the basic routines for reading, writing and
 navigating NeXus files. It is designed to be modal; there is a hidden

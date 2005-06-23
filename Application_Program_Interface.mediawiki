@@ -10,7 +10,7 @@ The NeXus Application Program Interface is a suite of subroutines, written in C 
 #It hides the implementation details of the format. In particular, the API can read and write HDF4, HDF5 (and shortly XML) files using the same routines.
 For these reasons, we request that all NeXus files are written using the supplied API. We cannot be sure that anything written using the underlying HDF API will be recognized by NeXus-aware utilities.
 
-==Description of Core API==
+==Core API Routines==
 The core API provides the basic routines for reading, writing and navigating NeXus files. It is designed to be modal; there is a hidden state that determines which groups and data sets are open at any given moment, and subsequent operations are implicitly performed on these entities. This cuts down the number of parameters to pass around in API calls, at the cost of forcing a certain pre-approved mode d'emploi. This mode d'emploi will be familiar to most: it is very similar to navigating a directory hierarchy; in our case, NeXus groups are the directories, which contain data sets and/or other directories.
 
 The core API comprises the following functional groups:
