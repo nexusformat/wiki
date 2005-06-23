@@ -15,7 +15,8 @@ understand, at least by those familiar with the experimental technique.
 
 The logical design is distinct from the underlying format used to store
 the NeXus file on disk, which are written using the NeXus Application
-Program Interface (API). Refer to the API section for more details.
+Program Interface (API). Refer to the [ API
+section](Application_Program_Interface "wikilink") for more details.
 
 NeXus Objects
 -------------

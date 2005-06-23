@@ -1,6 +1,6 @@
 The structure of NeXus files is extremely flexible, allowing the storage both of simple data sets, e.g., a single data array and its axes, and also of highly complex data, e.g., the simulation results of an entire multi-component instrument. This flexibility is achieved through a hierarchical structure, with related data items collected together into groups, making NeXus files easy to navigate, even without any documentation. NeXus files are self-describing, and should be easy to understand, at least by those familiar with the experimental technique.
 
-The logical design is distinct from the underlying format used to store the NeXus file on disk, which are written using the NeXus Application Program Interface (API). Refer to the API section for more details.
+The logical design is distinct from the underlying format used to store the NeXus file on disk, which are written using the NeXus Application Program Interface (API). Refer to the [[Application_Program_Interface | API section]] for more details.
 
 ==NeXus Objects==
 NeXus data files contain two types of elementary object: data items and data groups. In addition, metadata required to describe a data item, e.g. its physical units, can be attached to the data as data attributes.
