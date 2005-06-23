@@ -88,14 +88,15 @@ I want to produce an instrument definition. How do I go about it?
 
 The first thing is to check whether the instrument you are interested in
 is already being defined by an instrument editor. Check the list on the
-NeXus Instruments page. The NeXus International Advisory Committee is
-responsible for appointing editors of special interest groups that wish
-to become a part of the standard, so contact the Executive Secretary,
-Peter Peterson, if a group does not yet exist. Of course, if you want to
-produce your own private definition for personal use, you are free to do
-so without our approval although we encourage people to share what they
-are doing . If you are an editor, the process of defining an instrument
-should be quite simple:
+NeXus Instruments page. The [NeXus International Advisory
+Committee](NIAC "wikilink") is responsible for appointing editors of
+special interest groups that wish to become a part of the standard, so
+contact the Executive Secretary, [Peter
+Peterson](User%3APfpeterson "wikilink"), if a group does not yet exist.
+Of course, if you want to produce your own private definition for
+personal use, you are free to do so without our approval although we
+encourage people to share what they are doing . If you are an editor,
+the process of defining an instrument should be quite simple:
 
 1.  Make sure that the data you wish to analyze are stored in NXdata
     groups. The rest of the definition is to supply what is necessary
@@ -107,14 +108,15 @@ should be quite simple:
 3.  Select those data items and groups that you consider important in
     analyzing data from your instrument.
 
-Insert the relevant grep character, as defined in the NeXus Meta-DTD
-format to denote the number of occurrences. If the item is optional (“?”
-or “\*”), then it does not need to be added to your definition.
+Insert the relevant grep character, as defined in the [NeXus Meta-DTD
+format](Metaformat "wikilink") to denote the number of occurrences. If
+the item is optional (“?” or “\*”), then it does not need to be added to
+your definition.
 
 1.  If you encounter any problems because the classes are not sufficient
     to describe your configuration, please contact the NIAC Executive
     Secretary explaining the problem, and post a suggestion at the
-    relevant class Swiki page. The NIAC is always willing to consider
+    relevant class wiki page. The NIAC is always willing to consider
     proposals to amend the base classes. The procedures are defined in
     the NIAC constitution.
 
