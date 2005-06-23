@@ -87,10 +87,9 @@ All other data items are XML entities defined by their name, e.g.
 -   Following the opening tag of a group entity and before the closing
     tag of a data entity, there may be one of three symbols, which have
     the same meanings that they have in regular expressions.
-
-`* May occur 0 or more times`  
-`+ May occur one or more times (i.e. at least once)`  
-`? May occur 0 or one times (i.e. no more than once)`
+    -   `*` May occur 0 or more times
+    -   `+` May occur one or more times (i.e. at least once)
+    -   `?` May occur 0 or one times (i.e. no more than once)
 
   
 e.g.
