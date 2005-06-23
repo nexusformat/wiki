@@ -21,7 +21,7 @@ Definition of a fake but well-formed NeXus group.
 <pre>
 <NXsample name="sample">
 </pre>
-::All other data items are XML entities defined by their name, e.g. <code><temperature></code>
+:All other data items are XML entities defined by their name, e.g. <code><temperature></code>
 *Data attributes are stored as XML attributes. The data type is defined as an XML attribute although it is not defined as an HDF attribute in the NeXus file itself, e.g.
 <pre>
 <temperature type="NX_FLOAT32" units="K">
@@ -55,6 +55,7 @@ Definition of a fake but well-formed NeXus group.
 <pre>
 <analysis version="$Revision$">
 </pre>
+
 ==Example==
 The instrument definitions are being constructed out of XML files for each of the component groups. If you are interested in defining your own definition, please form them from these component parts (remove the XML document type at the top of each file). See NXtofnpd.xml for a complete example. The following is a colorized version of NXmonitor.xml.
 ===NXmonitor.xml===

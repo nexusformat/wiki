@@ -58,7 +58,6 @@ opening tag of the XML entity, e.g.
     <NXsample name="sample">
 
   
-  
 All other data items are XML entities defined by their name, e.g.
 <temperature>
 
