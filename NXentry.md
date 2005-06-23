@@ -51,7 +51,8 @@ layout: wiki
             {Notes describing entry}?
         </notes>
         <thumbnail type="NXnote">
-            {An small image that is representative of the entry.} {An example of this is a 640x480 jpeg image automatically produced by a low resolution plot of the NXdata.}?
+            {An small image that is representative of the entry.} 
+                    {An example of this is a 640x480 jpeg image automatically produced by a low resolution plot of the NXdata.}?
         </thumbnail>
         <NXuser name="{user}">
             *
