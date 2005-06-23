@@ -20,7 +20,7 @@ NeXus file; it outputs the XML tags without the data or any annotation.
 Meta-DTD Definition
 -------------------
 
-1.  Each meta-DTD file should begin with a standard XML document tag,
+-   Each meta-DTD file should begin with a standard XML document tag,
     i.e.
 
 <!-- -->
@@ -44,66 +44,87 @@ a brief description of the file, e.g.
 
     -->
 
-1.  Each NeXus group is an XML entity defined by its class, e.g. NXuser,
+-   Each NeXus group is an XML entity defined by its class, e.g. NXuser,
     NXdata, ....
-2.  The name of the group is given by the name attribute of the entity.
+-   The name of the group is given by the name attribute of the entity.
 
+  
+  
 N.B. XML attributes are the name=“value” pairs located within the
 opening tag of the XML entity, e.g.
 
+<!-- -->
+
     <NXsample name="sample">
 
+  
+  
 All other data items are XML entities defined by their name, e.g.
+<temperature>
 
-    <temperature>
+-   Data attributes are stored as XML attributes. The data type is
+    defined as an XML attribute although it is not defined as an HDF
+    attribute in the NeXus file itself, e.g.
 
-Data attributes are stored as XML attributes. The data type is defined
-as an XML attribute although it is not defined as an HDF attribute in
-the NeXus file itself, e.g.
+<!-- -->
 
     <temperature type="NX_FLOAT32" units="K">
 
-If the value of an attribute is not defined by the DTD, a short
-description is enclosed within quotes and curly braces, e.g.
+-   If the value of an attribute is not defined by the DTD, a short
+    description is enclosed within quotes and curly braces, e.g.
+
+<!-- -->
 
     <NXdetector name="{Name of detector bank}">
 
-Similarly, the value of a data item which is not defined by the DTD
-should be placed within curly braces between the opening and closing
-tag, e.g.
+-   Similarly, the value of a data item which is not defined by the DTD
+    should be placed within curly braces between the opening and closing
+    tag, e.g.
+
+<!-- -->
 
     <temperature>{Temperature of sample}</temperature>
 
-Following the opening tag of a group entity and before the closing tag
-of a data entity, there may be one of three symbols, which have the same
-meanings that they have in regular expressions.
+-   Following the opening tag of a group entity and before the closing
+    tag of a data entity, there may be one of three symbols, which have
+    the same meanings that they have in regular expressions.
 
--   May occur 0 or more times
+`* May occur 0 or more times`  
+`+ May occur one or more times (i.e. at least once)`  
+`? May occur 0 or one times (i.e. no more than once)`
 
-+ May occur one or more times (i.e. at least once) ? May occur 0 or one
-times (i.e. no more than once)
-
+  
 e.g.
+
+<!-- -->
 
     <NXsample>?
        <temperature>{Temperature of sample}?</temperature> 
     </NXsample>
 
-If no symbol is given, the item is mandatory. If a data item is an
-array, add the array dimensions in square brackets to the type
-attribute. Use a colon if the dimension length is not defined by the
-DTD, e.g.
+  
+If no symbol is given, the item is mandatory.
+
+-   If a data item is an array, add the array dimensions in square
+    brackets to the type attribute. Use a colon if the dimension length
+    is not defined by the DTD, e.g.
+
+<!-- -->
 
     <polar_angle type="NX_FLOAT32[:]">
 
+  
 Replace the colon with i, j, ... if you wish to match the dimension
-length to other data items within the same group. If no data type is
-specified, it is assumed to be a character string (NX\_CHAR).
+length to other data items within the same group.
 
-The “version” attribute of the “analysis” entity, defined in each
-NXentry group should be set to $Revision$ when the file is first written
-so that the CVS revision number is substituted when the XML file is
-committed to the CVS server, e.g.
+-   If no data type is specified, it is assumed to be a character string
+    (NX\_CHAR).
+-   The “version” attribute of the “analysis” entity, defined in each
+    NXentry group should be set to $Revision$ when the file is first
+    written so that the CVS revision number is substituted when the XML
+    file is committed to the CVS server, e.g.
+
+<!-- -->
 
     <analysis version="$Revision$">
 
