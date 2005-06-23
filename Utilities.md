@@ -7,7 +7,7 @@ layout: wiki
 NeXus Browsers and Other Utilities
 ----------------------------------
 
-NXbrowse:A command-line utility for browsing NeXus files.  
+[NXbrowse](NXbrowse "wikilink"):A command-line utility for browsing NeXus files.  
 NXtoXML:A utility to translate NeXus files to XML, written in ISO C. If used from a terminal (and installed in the default PATH \[u\*\*x\] or defined as a symbol \[VMS\]), type  
 
 <!-- -->
