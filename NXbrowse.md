@@ -8,8 +8,8 @@ NXbrowse is a terminal browser that provides a simple command-line
 interface to view the contents of NeXus files. Datasets within the NeXus
 file can be dumped to an ASCII file.
 
-If you have any questions/comments/bug reports email
-\[[mailto:ROsborn@anl.gov](mailto:ROsborn@anl.gov) Ray Osborn\\.
+If you have any questions/comments/bug reports email [Ray
+Osborn](mailto:ROsborn@anl.gov).
 
 Usage
 -----
