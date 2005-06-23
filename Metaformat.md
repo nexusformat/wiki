@@ -49,19 +49,30 @@ a brief description of the file, e.g.
 2.  The name of the group is given by the name attribute of the entity.
 
 N.B. XML attributes are the name=“value” pairs located within the
-opening tag of the XML entity, e.g. <NXsample name="sample">. All other
-data items are XML entities defined by their name, e.g. <temperature>
+opening tag of the XML entity, e.g.
+
+    <NXsample name="sample">
+
+All other data items are XML entities defined by their name, e.g.
+
+    <temperature>
+
 Data attributes are stored as XML attributes. The data type is defined
 as an XML attribute although it is not defined as an HDF attribute in
-the NeXus file itself, e.g. <temperature type="NX_FLOAT32" units="K">
+the NeXus file itself, e.g.
+
+    <temperature type="NX_FLOAT32" units="K">
 
 If the value of an attribute is not defined by the DTD, a short
 description is enclosed within quotes and curly braces, e.g.
-<NXdetector name="{Name of detector bank}">
+
+    <NXdetector name="{Name of detector bank}">
 
 Similarly, the value of a data item which is not defined by the DTD
 should be placed within curly braces between the opening and closing
-tag, e.g. <temperature>{Temperature of sample}</temperature>
+tag, e.g.
+
+    <temperature>{Temperature of sample}</temperature>
 
 Following the opening tag of a group entity and before the closing tag
 of a data entity, there may be one of three symbols, which have the same
@@ -72,46 +83,62 @@ meanings that they have in regular expressions.
 + May occur one or more times (i.e. at least once) ? May occur 0 or one
 times (i.e. no more than once)
 
-e.g. <NXsample>?
+e.g.
 
-`  `<temperature>`{Temperature of sample}?`</temperature>` `
-
-</NXsample>
+    <NXsample>?
+       <temperature>{Temperature of sample}?</temperature> 
+    </NXsample>
 
 If no symbol is given, the item is mandatory. If a data item is an
 array, add the array dimensions in square brackets to the type
 attribute. Use a colon if the dimension length is not defined by the
-DTD, e.g. <polar_angle type="NX_FLOAT32[:]">
+DTD, e.g.
+
+    <polar_angle type="NX_FLOAT32[:]">
 
 Replace the colon with i, j, ... if you wish to match the dimension
 length to other data items within the same group. If no data type is
-specified, it is assumed to be a character string (NX\_CHAR). The
-“version” attribute of the “analysis” entity, defined in each NXentry
-group should be set to $Revision$ when the file is first written so that
-the CVS revision number is substituted when the XML file is committed to
-the CVS server, e.g. <analysis version="$Revision$">
+specified, it is assumed to be a character string (NX\_CHAR).
 
-Example The instrument definitions are being constructed out of XML
-files for each of the component groups. If you are interested in
-defining your own definition, please form them from these component
-parts (remove the XML document type at the top of each file). See
-NXtofnpd.xml for a complete example. The following is a colorized
-version of NXmonitor.xml. NXmonitor.xml
+The “version” attribute of the “analysis” entity, defined in each
+NXentry group should be set to $Revision$ when the file is first written
+so that the CVS revision number is substituted when the XML file is
+committed to the CVS server, e.g.
 
-<?xml version="1.0" ?>
-<NXmonitor name="{Name of monitor}">
+    <analysis version="$Revision$">
 
-`       `<distance units="m" type="NX_FLOAT32">` {Distance of monitor from sample} `</distance>` `  
-`       `<integral type="NX_FLOAT32">` {Integral over monitor spectrum}? `</integral>` `  
-`       `<range type="NX_FLOAT32[2]">` {Time-of-flight range over which the integral was calculated}? `</range>` `  
-`       `<type>` `“`Fission`` ``Chamber`”`|`“`Scintillator`”`? `</type>` `  
-`       `<height units="cm" type="NX_FLOAT32">` {Height of monitor}? `</height>` `  
-`       `<width units="cm" type="NX_FLOAT32">` {Width of monitor}? `</width>` `  
-`       `<time_of_flight units="microseconds" type="NX_FLOAT32[i]">` {Time-of-flight}? `</time_of_flight>` `  
-`       `<efficiency type="NX_FLOAT32[i]">` {Monitor efficiency}? `</efficiency>` `  
-`       `<data type="NX_INT32[i]">` {Monitor data}? `</data>` `
+Example
+-------
 
-</NXmonitor> Home Introduction Design Classes Instruments API Utilities
-FAQ Comments to: &lt;nexus-owner@anl.gov&gt; Revised: 2005-02-17
-Copyright © 2003-5 NeXus International Advisory Committee. All rights
-reserved.
+The instrument definitions are being constructed out of XML files for
+each of the component groups. If you are interested in defining your own
+definition, please form them from these component parts (remove the XML
+document type at the top of each file). See NXtofnpd.xml for a complete
+example. The following is a colorized version of NXmonitor.xml.
+
+### NXmonitor.xml
+
+    <?xml version="1.0" ?> 
+    <!--
+    URL: http://www.neutron.anl.gov/nexus/xml/NXmonitor.xml
+    Editor: Ray Osborn <ROsborn@anl.gov>
+    $Id$
+
+    Definition of monitor data. It is similar to the NXdata groups containing
+    monitor data and its associated dimension scale, e.g. time_of_flight or
+    wavelength in pulsed neutron instruments. However, it may also include
+    integrals, or scalar monitor counts, which are often used in both in both pulsed
+    and steady-state instrumentation.
+
+    --> 
+    <NXmonitor name="{Name of monitor}"> 
+            <distance units="m" type="NX_FLOAT32"> {Distance of monitor from sample} </distance> 
+            <integral type="NX_FLOAT32"> {Integral over monitor spectrum}? </integral> 
+            <range type="NX_FLOAT32[2]"> {Time-of-flight range over which the integral was calculated}? </range> 
+            <type> "Fission Chamber"|"Scintillator"? </type> 
+            <height units="cm" type="NX_FLOAT32"> {Height of monitor}? </height> 
+            <width units="cm" type="NX_FLOAT32"> {Width of monitor}? </width> 
+            <time_of_flight units="microseconds" type="NX_FLOAT32[i]"> {Time-of-flight}? </time_of_flight> 
+            <efficiency type="NX_FLOAT32[i]"> {Monitor efficiency}? </efficiency> 
+            <data type="NX_INT32[i]"> {Monitor data}? </data> 
+    </NXmonitor>
