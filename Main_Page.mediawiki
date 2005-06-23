@@ -1,9 +1,12 @@
 The NeXus wiki is a collaborative forum that allows members of the neutron, x-ray, and muon communities to make contributions to the development of the [http://www.nexus.anl.gov/ NeXus format]. We invite you to browse through the pages listed below, and, if you have a constructive suggestion, edit them accordingly. We only ask that you read a few simple [[Help:Guidelines|guidelines]] before making any changes.
 
-;[[Introduction|NeXus Introduction]]:Introduction to the basic ideas behind the NeXus data format
-;[[Design#NeXus_Classes|NeXus Classes]]:definitions of the base classes that make up NeXus files
-;[[Instruments|NeXus Instrument Definitions]]:generic instrument definitions or other specialized uses of NeXus
-;[[Software|NeXus Software]]:forum for disussing the API and other software issues
-;[[Documentation|NeXus Documentation]]:forum for collaborating on NeXus documentation
-;[[Miscellaneous|Miscellaneous Topics]]:forum for raising any other issues concerning the NeXus format
+;[[Introduction|NeXus Introduction]]:Introduction to the concepts behind the NeXus data format.
+;[[Introduction|NeXus Design]]:The logical design of the NeXus format.
+;[[Design#NeXus_Classes|NeXus Classes]]:Definitions of the base classes that make up NeXus files.
+;[[Instruments|NeXus Instrument Definitions]]:Generic instrument definitions or other specialized uses of NeXus.
+;[[Application_Program_Interface|NeXus API]]:Software library for reading and writing NeXus files.
+;[[Utilities|NeXus Utilities]]:Software applications that browse, plot, and analyze NeXus data.
+;[[FAQ|NeXus FAQ]]:A list of commonly asked questions about NeXus.
+;[[Documentation|NeXus Documentation]]:A forum for discussing NeXus documentation
+;[[Miscellaneous|Miscellaneous Topics]]:A forum for raising other issues concerning the NeXus format
 ;[[NIAC|NeXus International Advisory Committee]]
