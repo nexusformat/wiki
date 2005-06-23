@@ -7,8 +7,8 @@ layout: wiki
 Current Members
 ---------------
 
--   Frederick Akeroyd, Rutherford Appleton Laboratory, UK (ISIS
-    Representative)
+-   [Frederick Akeroyd](User%3AFreddieAkeroyd "wikilink"), Rutherford
+    Appleton Laboratory, UK (ISIS Representative)
 -   [Stuart Campbell](User%3ASicampbell "wikilink"), Rutherford Appleton
     Laboratory (Diamond Representative)
 -   Stephen Cottrell, Rutherford Appleton Laboratory, UK (Muon
