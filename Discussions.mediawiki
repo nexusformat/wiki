@@ -2,4 +2,4 @@ The NeXus wiki is a collaborative forum that allows members of the neutron, x-ra
 ;[[Design Issues]]: A forum for discussing any aspect of the NeXus design - the class hierarchy, structure, object linking, ''etc''.
 ;[[Software issues]]:A forum for discussing the NeXus API and other software issues.
 ;[[Documentation issues]]:A forum for discussing how the NeXus format should be documented.
-;[[Miscellaneous topics]];A forum for discussing anything else.
+;[[Miscellaneous topics]]:A forum for discussing anything else.
