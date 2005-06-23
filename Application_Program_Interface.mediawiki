@@ -135,38 +135,59 @@ IDL is an interactive data evaluation environment developed by Research Systems.
 
 ==Utility API==
 
-The NeXus F90 Utility API provides a number of routines that combine the operations of various core API routines in order to simplify the reading and writing of NeXus files. At present, they are only available as a Fortran 90 module.
+The NeXus F90 Utility API provides a number of routines that combine the operations of various core API routines in order to simplify the reading and writing of NeXus files. At present, they are only available as a Fortran 90 module but a C version is in preparation.
 
 The utility API comprises the following functional groups:
-Routines to read or write data.
-Routines to find if groups, data, or attributes exist, and to find data with specific signal or axis attributes i.e. to identify valid data or axes.
-Routines to open other groups to which NXdata items are linked, and to return again.
+*Routines to read or write data.
+*Routines to find if groups, data, or attributes exist, and to find data with specific signal or axis attributes i.e. to identify valid data or axes.
+*Routines to open other groups to which NXdata items are linked, and to return again.
 Any program using the F90 Utility API needs to put the following line near the top of the program (N.B. do not put USE statements for both NXmodule and NXUmodule; the former is included in the latter) :
+<pre>
 use NXUmodule
-
-List of NeXus Utility API Routines
-Reading and Writing
-NXUwriteglobals	Writes all the valid global attributes of a file.
-NXUwritegroup	Opens a group (creating it if necessary).
-NXUwritedata	Opens a data item (creating it if necessary) and writes data and its units.
-NXUreaddata	Opens and reads a data item and its units.
-NXUwritehistogram	Opens one dimensional data item (creating it if necessary) and writes histogram centers and their units.
-NXUreadhistogram	Opens and reads a one dimensional data item and converts it to histogram bin boundaries.
-NXUsetcompress	Defines the compression algorithm and minimum dataset size for subsequent write operations.
-Finding Groups, Data, and Attributes
-NXUfindgroup	Checks whether a group of the specified name is contained within the currently open group.
-NXUfindclass	Returns the name of a group of the specified class if it is contained within the currently open group.
-NXUfinddata	Checks whether a data item of the specified name is contained within the currently open group.
-NXUfindattr	Checks whether the currently open data item has the specified attribute.
-NXUfindsignal	Searches the currently open group for a data item with the specified SIGNAL attribute.
-NXUfindaxis	Searches the currently open group for a data item with the specified AXIS attribute.
-Finding Linked Groups
-NXUfindlink	Finds another link to the specified NeXus data item and opens the group it is in.
-NXUresumelink	Reopens the original group from which NXUfindlink was used.
+</pre>
+===List of NeXus Utility API Routines===
+{| {{Template:Tablestyle}} width="650"
+|-
+! {{Template:Headcellstyle}} colspan="2" | Reading and Writing
+|-
+|NXUwriteglobals || Writes all the valid global attributes of a file.
+|-
+|NXUwritegroup || Opens a group (creating it if necessary).
+|-
+|NXUwritedata || Opens a data item (creating it if necessary) and writes data and its units.
+|NXUreaddata || Opens and reads a data item and its units.
+|-
+|NXUwritehistogram || Opens one dimensional data item (creating it if necessary) and writes histogram centers and their units.
+|-
+|NXUreadhistogram || Opens and reads a one dimensional data item and converts it to histogram bin boundaries.
+|-
+|NXUsetcompress || Defines the compression algorithm and minimum dataset size for subsequent write operations.
+|-
+! {{Template:Headcellstyle}} colspan="2" | Finding Groups, Data, and Attributes
+|-
+|-
+|NXUfindclass || Returns the name of a group of the specified class if it is contained within the currently open group.
+|-
+|NXUfinddata || Checks whether a data item of the specified name is contained within the currently open group.
+|-
+|NXUfindattr || Checks whether the currently open data item has the specified attribute.
+|-
+|NXUfindsignal || Searches the currently open group for a data item with the specified SIGNAL attribute.
+|-
+|NXUfindaxis || Searches the currently open group for a data item with the specified AXIS attribute.
+|-
+! {{Template:Headcellstyle}} colspan="2" | Finding Linked Groups
+|-
+|NXUfindlink || Finds another link to the specified NeXus data item and opens the group it is in.
+|-
+|NXUresumelink || Reopens the original group from which NXUfindlink was used.
+|}
 Currently, the F90 utility API will only write character strings, 4-byte integers and reals, and 8-byte reals. It can read other integer sizes into four-byte integers, but does not differentiate between signed and unsigned integers.
 Here are two example programs which make heavy use of the Utility API.
-NXbrowse.f90 provides a simple terminal browser of any NeXus file. When compiled and linked with the NeXus API, it can be run interactively. Type HELP to obtain a list of available commands. (Please note that this version of the browser has now been superceded by a version written in C. Only the C version is now included in the Makefile distributed with the API.)
-NXlrcs.f90 is a program for converting IPNS data from the LRMECS chopper spectrometer into NeXus format. It cannot be run without linking to the IPNS run-file modules (not provided), but gives an example of how to write such programs.
+
+[[NXbrowse.f90]] provides a simple terminal browser of any NeXus file. When compiled and linked with the NeXus API, it can be run interactively. Type HELP to obtain a list of available commands. (Please note that this version of the browser has now been superceded by a version written in C. Only the C version is now included in the Makefile distributed with the API.)
+
+[[NXlrcs.f90]] is a program for converting IPNS data from the LRMECS chopper spectrometer into NeXus format. It cannot be run without linking to the IPNS run-file modules (not provided), but gives an example of how to write such programs.
 
 ==Example NeXus program==
 The following code reads a two-dimensional set 'counts' with dimension scales of 't' and 'phi' using local routines, and then writes a NeXus file containing a single NXentry group and a single NXdata group. This is the simplest data file that conforms to the NeXus standard.
