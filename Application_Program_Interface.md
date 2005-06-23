@@ -104,8 +104,7 @@ the amount of programming.
 
 -   NXdict.tex - a LaTeX file describing the NeXus Dictionary API
 
-Fortran 77 Interface
---------------------
+### Fortran 77 Interface
 
 Wrapper routines to interface the Fortran and C code have been developed
 by Freddie Akeroyd. The routines have the same names and argument lists
