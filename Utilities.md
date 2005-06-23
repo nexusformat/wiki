@@ -32,7 +32,7 @@ NeXus installation (v2.0 and later). Precompiled binary versions are
 available for a limited number of operating systems (Linux, VMS,
 Macintosh). Please contact Ray Osborn for more information.
 
-NXdir:CLI tool that lists contents of NeXus file and convert selected portions to ASCII.  
+[NXdir](NXdir "wikilink"):CLI tool that lists contents of NeXus file and convert selected portions to ASCII.  
 NXtree:A utility to output the structure of a NeXus file in a tree structure. It has options to produce either HTML or LaTeX output, with or without data values and attributes.  
 
 <!-- -->
