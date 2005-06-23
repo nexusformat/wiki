@@ -76,44 +76,53 @@ The core API comprises the following functional groups:
 | NXopendata                          |
 | NXcompress                          |
 | NXclosedata                         |
+| Reading and Writing                 |
+| NXgetdata                           |
+| NXgetslab                           |
+| NXgetattr                           |
+| NXputdata                           |
+| NXputslab                           |
+| NXputattr                           |
+| NXflush                             |
+| Meta-Data Routines                  |
+| NXgetinfo                           |
+| NXgetgroupinfo                      |
+| NXinitgroupdir                      |
+| NXgetnextentry                      |
+| NXgetattrinfo                       |
+| NXinitattrdir                       |
+| NXgetnextattr                       |
+| Linking and Group Hierarchy         |
+| NXgetgroupID                        |
+| NXgetdataID                         |
+| NXmakelink                          |
 
-#### Reading and Writing
+Although the NeXus API is considerably simpler than the underlying HDF
+code, writing NeXus files still involves much repetitive code. Mark
+Koennecke has therefore proposed a Data Dictionary Language to reduce
+the amount of programming.
 
-NXgetdata Reads data from currently open data set NXgetslab Reads a
-subset of the currently open data set NXgetattr Reads sdata attribute
-from open data set NXputdata Writes data into the currently open data
-set NXputslab Writes a subset of data into the currently open data set
-NXputattr Writes an attribute of the currently open data set NXflush
-Flushes output to a data file
+-   NXdict.tex - a LaTeX file describing the NeXus Dictionary API
 
-#### Meta-Data Routines
+Fortran 77 Interface
+--------------------
 
-NXgetinfo Gets rank, dimensions and type of currently open data set
-NXgetgroupinfo Returns the number of items, and the name and class of
-the current group NXinitgroupdir Initializes a group's directory search
-NXgetnextentry Implements a directory search of the currently open group
-NXgetattrinfo Returns the number of attributes of the current data set
-NXinitattrdir Initializes a data set's attribute search NXgetnextattr
-Implements a search of all the attributes of the currently open data set
-Linking and Group Hierarchy NXgetgroupID Returns the identifier of the
-currently open group as an NXlink structure NXgetdataID Returns the
-identifier of the currently open data set NXmakelink Links a data item
-(group or set) to another group Although the NeXus API is considerably
-simpler than the underlying HDF code, writing NeXus files still involves
-much repetitive code. Mark Koennecke has therefore proposed a Data
-Dictionary Language to reduce the amount of programming. NXdict.tex - a
-LaTeX file describing the NeXus Dictionary API Fortran 77 Interface
 Wrapper routines to interface the Fortran and C code have been developed
 by Freddie Akeroyd. The routines have the same names and argument lists
 as the corresponding C routines, although we have added extra routines
 for the input/output of character data and attributes. Care must be
 taken to ensure enough space is allocated for the input/output
-operations being performed. It is necessary to reverse the order of
-indices in multidimensional arrays, compared to an equivalent C program,
-so that data are stored in the same order in the NeXus file. Any program
-using the F77 API needs to include the following line near the top in
-order to define the required constants (NXHANDLESIZE, NXLINKSIZE, etc.)
-: include 'NAPIF.INC'
+operations being performed.
+
+It is necessary to reverse the order of indices in multidimensional
+arrays, compared to an equivalent C program, so that data are stored in
+the same order in the NeXus file.
+
+Any program using the F77 API needs to include the following line near
+the top in order to define the required constants (NXHANDLESIZE,
+NXLINKSIZE, etc.) :
+
+    include 'NAPIF.INC'
 
 List of NeXus Core API F77 Routines General Initialization and Shutdown
 NXopen Opens NeXus file and returns file id NXclose Closes NeXus file
