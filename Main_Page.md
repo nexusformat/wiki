@@ -19,6 +19,5 @@ any changes.
 [NeXus API](Application_Program_Interface "wikilink"):Software library for reading and writing NeXus files.  
 [NeXus Utilities](Utilities "wikilink"):Software applications that browse, plot, and analyze NeXus data.  
 [NeXus FAQ](FAQ "wikilink"):A list of commonly asked questions about NeXus.  
-[NeXus Documentation](Documentation "wikilink"):A forum for discussing NeXus documentation  
-[Miscellaneous Topics](Miscellaneous "wikilink"):A forum for raising other issues concerning the NeXus format  
-[NeXus International Advisory Committee](NIAC "wikilink")  
+[NeXus Discussions](Discussions "wikilink"):A forum for discussing any aspects of the NeXus format.  
+[NeXus International Advisory Committee](NIAC "wikilink"):Charged with supervising the development and maintenance of the NeXus format.  
