@@ -67,7 +67,8 @@ file can be constructed. Each data group is therefore identified by a
 name and a class. The group class, which always has “NX” as a prefix,
 defines the type of object and the properties that it can contain,
 whereas the group name defines a unique instance of that class. These
-classes are defined in XML.
+classes are defined in XML using the [NeXus MetaDTD
+format](Metaformat "wikilink").
 
 Not all classes define physical objects. Some refer to logical groupings
 of experimental information, such as plottable data, sample environment
