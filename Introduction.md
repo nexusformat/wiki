@@ -332,4 +332,4 @@ The other sections of this web site give much more detailed descriptions
 of the NeXus data format.
 
 [NeXus Design](Design "wikilink"):This describes NeXus' hierarchical design, and gives more information on how to construct valid groups.  
-[NeXus Software](Software "wikilink"):This describes the NeXus programming interface, with lists of all the subroutines and supported languages, and various NeXus utilities.  
+[NeXus API](Application_Program_Interface "wikilink"):This describes the NeXus programming interface, with lists of all the subroutines and supported languages.  
