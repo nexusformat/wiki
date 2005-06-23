@@ -1,4 +1,4 @@
-The NeXus wiki is a collaborative forum that allows members of the neutron, x-ray, and muon communities to make contributions to the development of the [http://www.nexus.anl.gov/ NeXus format]. We invite you to browse through the pages listed below, and, if you have a constructive suggestion, edit them accordingly. We only ask that you read a few simple [[Help:Content#Guidlines|guidelines]] before making any changes.
+The NeXus wiki is a collaborative forum that allows members of the neutron, x-ray, and muon communities to make contributions to the development of the [http://www.nexus.anl.gov/ NeXus format]. We invite you to browse through the pages listed below, and, if you have a constructive suggestion, edit them accordingly. We only ask that you read a few simple [[Help:Contents#Guidelines|guidelines]] before making any changes.
 
 ;[[Introduction|NeXus Introduction]]:Introduction to the concepts behind the NeXus data format.
 ;[[Introduction|NeXus Design]]:The logical design of the NeXus format.
