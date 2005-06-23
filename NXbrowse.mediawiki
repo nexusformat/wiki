@@ -9,8 +9,8 @@ nxbrowse <file_name>
 If no file name is given, the user is prompted for the file to be opened. NXbrowse then lists the global attributes and prompts for further commands. The following commands may be given in upper or lower case (although the group and data names are case sensitive) :
 {| {{Template:Tablestyle}} width="600"
 |-
-| &nbsp; 
-! {{Template:Headcellstyle}} |Command	 Definition
+! {{Template:Headcellstyle}} width="200" | Command
+! {{Template:Headcellstyle}} width="400" |Command	 Definition
 |-
 |DIR || List the contents of the currently open group.
 |-
