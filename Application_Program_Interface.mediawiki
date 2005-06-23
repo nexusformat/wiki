@@ -97,8 +97,8 @@ Any program using the F77 API needs to include the following line near the top i
 Here is a comparison of the types used in the C and F77 interface.
 {| {{Template:Tablestyle}} width="650"
 |-
-! {{Template:Headcellstyole}} | C
-! {{Template:Headcellstyole}} | Fortran
+! {{Template:Headcellstyle}} | C
+! {{Template:Headcellstyle}} | Fortran
 |-
 | int a, int* a || INTEGER A
 |-
