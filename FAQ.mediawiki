@@ -1,3 +1,4 @@
+This is a list of commonly asked questions concerning the NeXus data format.  If you wish to suggest any more questions to include on this page, please visit the [[Talk:FAQ|discussion page]] and add an entry.
 == How many facilities use NeXus==
 This is continually evolving. It has been used as the instrument format for several years on some or all instruments at a number of facilities including PSI (Switzerland), LLB (France), and LANSCE (USA). It will be used on all future instrumentation at ISIS (UK), NIST (USA), and instruments using the new data acquisition system at IPNS (USA). Finally, it has been formally adopted by two major facilities under construction, the SNS (USA) and JPARC (Japan).
 
@@ -31,6 +32,3 @@ If you are an editor, the process of defining an instrument should be quite simp
 #Select those data items and groups that you consider important in analyzing data from your instrument.
 Insert the relevant grep character, as defined in the NeXus Meta-DTD format to denote the number of occurrences. If the item is optional ("?" or "*"), then it does not need to be added to your definition.
 #If you encounter any problems because the classes are not sufficient to describe your configuration, please contact the NIAC Executive Secretary explaining the problem, and post a suggestion at the relevant class Swiki page. The NIAC is always willing to consider proposals to amend the base classes. The procedures are defined in the NIAC constitution.
-
-==FAQ Additions==
-Please send suggestions for FAQ items to Przemek Klosowski.

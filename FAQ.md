@@ -4,6 +4,11 @@ permalink: FAQ/
 layout: wiki
 ---
 
+This is a list of commonly asked questions concerning the NeXus data
+format. If you wish to suggest any more questions to include on this
+page, please visit the [discussion page](Talk:FAQ "wikilink") and add an
+entry.
+
 How many facilities use NeXus
 -----------------------------
 
@@ -113,7 +118,3 @@ or “\*”), then it does not need to be added to your definition.
     proposals to amend the base classes. The procedures are defined in
     the NIAC constitution.
 
-FAQ Additions
--------------
-
-Please send suggestions for FAQ items to Przemek Klosowski.
