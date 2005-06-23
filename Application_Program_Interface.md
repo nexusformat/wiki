@@ -203,6 +203,7 @@ NXmodule and NXUmodule; the former is included in the latter) :
 | NXUwriteglobals                      |
 | NXUwritegroup                        |
 | NXUwritedata                         |
+| NXUreaddata                          |
 | NXUwritehistogram                    |
 | NXUreadhistogram                     |
 | NXUsetcompress                       |

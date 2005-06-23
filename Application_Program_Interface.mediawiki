@@ -155,6 +155,7 @@ use NXUmodule
 |NXUwritegroup || Opens a group (creating it if necessary).
 |-
 |NXUwritedata || Opens a data item (creating it if necessary) and writes data and its units.
+|-
 |NXUreaddata || Opens and reads a data item and its units.
 |-
 |NXUwritehistogram || Opens one dimensional data item (creating it if necessary) and writes histogram centers and their units.
