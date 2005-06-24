@@ -12,4 +12,6 @@ discussion on the [NeXus Mailing
 List](http://www.neutron.anl.gov/mailmanlistinfo/nexus).
 
 -   [Detector Geometry](Detector_Geometry "wikilink")
+-   [Connecting NXdata to
+    NXdetector](Connecting_NXdata_to_NXdetector "wikilink")
 
