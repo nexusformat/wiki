@@ -219,9 +219,9 @@ Note that the indentation whenever a new data item or group are opened
 is just intended to make the structure of the NeXus file more
 transparent.
 
-         NXmakedata (fileID, "phi", NX_FLOAT32, 1, &n_p);
-           NXopendata (fileID, "phi");
-             NXputdata (fileID, phi);
+         NXmakedata (fileID, "polar_angle", NX_FLOAT32, 1, &n_p);
+           NXopendata (fileID, "polar_angle");
+             NXputdata (fileID, polar_angle);
              NXputattr (fileID, "units", "degrees", 7, NX_CHAR);
            NXclosedata (fileID);
            dims[0] = n_t;
