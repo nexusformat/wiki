@@ -142,7 +142,7 @@ such a file for the simple NeXus file shown above.
     <NXentry name="{Name of entry}">
        <NXdata name="{Name of data}">
          <time_of_flight units="microseconds" type="NX_FLOAT32[i]">{Time-of-flight}</time_of_flight>
-         <data type="NX_INT32[i]" > {Counts} </data>
+         <data type="NX_INT32[i]" axes="time_of_flight"> {Counts} </data>
        </NXdata>
     </NXentry>
 
