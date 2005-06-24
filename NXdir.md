@@ -61,8 +61,12 @@ file to write out selected NXdata to. Some common usages are:
 Downloads
 ---------
 
-NXdir-v0.2.5.tar.gz NXdir-v0.2.4.tar.gz NXdir-v0.2.3.tar.gz
-NXdir-v0.2.2.tar.gz CHANGES
+-   [NXdir-v0.2.5.tar.gz](ftp://ftp.neutron.anl.gov/nexus/NXdir/NXdir-0.2.5.tar.gz)
+-   [NXdir-v0.2.4.tar.gz](ftp://ftp.neutron.anl.gov/nexus/NXdir/NXdir-0.2.5.tar.gz)
+-   [NXdir-v0.2.3.tar.gz](ftp://ftp.neutron.anl.gov/nexus/NXdir/NXdir-0.2.5.tar.gz)
+-   <ftp://ftp.neutron.anl.gov/nexus/NXdir/NXdir-0.2.5.tar.gz>
+    NXdir-v0.2.2.tar.gz\]
+-   [CHANGES](ftp://ftp.neutron.anl.gov/nexus/NXdir/CHANGES)
 
 Prerequisites
 -------------
