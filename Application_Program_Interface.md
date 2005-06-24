@@ -492,12 +492,42 @@ be big enough to compile the package.
 
 The following packages are required:
 
-| | SZIP  |  [i386 Binary RPM](http://www.nexus.anl.gov/szip-2.0-1.i386.rpm)|  |   [Source RPM](http://www.nexus.anl.gov/szip-2.0-1.src.rpm)  |
-|---------|:------------------------------------------------------------------:|:------------------------------------------------------------:|
-| | HDF4  |  [i386 Binary RPM](http://www.nexus.anl.gov/hdf-4.2.1-1.i386.rpm)  |  [Source RPM](http://www.nexus.anl.gov/hdf-4.2.1-1.src.rpm)  |
-| | HDF5  |  [i386 Binary RPM](http://www.nexus.anl.gov/hdf5-1.6.4-1.i386.rpm) |  [Source RPM](http://www.nexus.anl.gov/hdf5-1.6.4-1.src.rpm) |
-| | MXML  |  [i386 Binary RPM](http://www.nexus.anl.gov/mxml-2.2.2-1.i386.rpm) |  [Source RPM](http://www.nexus.anl.gov/mxml-2.2.2-1.src.rpm) |
-| | NeXus | [i386 Binary RPM](http://www.nexus.anl.gov/nexus-3.0.0-1.i386.rpm) | [Source RPM](http://www.nexus.anl.gov/nexus-3.0.0-1.src.rpm) |
+<table>
+<colgroup>
+<col width="0%" />
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>| SZIP</p></th>
+<th align="center"><p><a href="http://www.nexus.anl.gov/szip-2.0-1.i386.rpm">i386 Binary RPM</a>|</p></th>
+<th align="center"><p><a href="http://www.nexus.anl.gov/szip-2.0-1.src.rpm">Source RPM</a></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>| HDF4</p></td>
+<td align="center"><p><a href="http://www.nexus.anl.gov/hdf-4.2.1-1.i386.rpm">i386 Binary RPM</a></p></td>
+<td align="center"><p><a href="http://www.nexus.anl.gov/hdf-4.2.1-1.src.rpm">Source RPM</a></p></td>
+</tr>
+<tr class="even">
+<td><p>| HDF5</p></td>
+<td align="center"><p><a href="http://www.nexus.anl.gov/hdf5-1.6.4-1.i386.rpm">i386 Binary RPM</a></p></td>
+<td align="center"><p><a href="http://www.nexus.anl.gov/hdf5-1.6.4-1.src.rpm">Source RPM</a></p></td>
+</tr>
+<tr class="odd">
+<td><p>| MXML</p></td>
+<td align="center"><p><a href="http://www.nexus.anl.gov/mxml-2.2.2-1.i386.rpm">i386 Binary RPM</a></p></td>
+<td align="center"><p><a href="http://www.nexus.anl.gov/mxml-2.2.2-1.src.rpm">Source RPM</a></p></td>
+</tr>
+<tr class="even">
+<td><p>| NeXus</p></td>
+<td align="center"><p><a href="http://www.nexus.anl.gov/nexus-3.0.0-1.i386.rpm">i386 Binary RPM</a></p></td>
+<td align="center"><p><a href="http://www.nexus.anl.gov/nexus-3.0.0-1.src.rpm">Source RPM</a></p></td>
+</tr>
+</tbody>
+</table>
 
 Reporting Bugs in the NeXus API
 -------------------------------

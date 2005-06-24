@@ -379,11 +379,11 @@ rpmbuild --rebuild file.src.rpm
 This should then give you a binary RPM file file.something.rpm which you can install as above. Be careful if you think about specifying an alternative buildroot for rpmbuild by using --buildroot option as the "buildroot" directory tree will get remove (so --buildroot / is a really bad idea). Only change buildroot it if the default area turns out not to be big enough to compile the package.
 
 The following packages are required:
-{| {{Template:Tablestyle}} width="650"
+{| {{Template:Tablestyle}}
 |-
 ! {{Template:Headcellstyle}} | SZIP
-| align="center" | [http://www.nexus.anl.gov/szip-2.0-1.i386.rpm i386 Binary RPM]| 
-| align="center" | [http://www.nexus.anl.gov/szip-2.0-1.src.rpm Source RPM]
+| align="center" width="30%" | [http://www.nexus.anl.gov/szip-2.0-1.i386.rpm i386 Binary RPM]| 
+| align="center" width="70%" | [http://www.nexus.anl.gov/szip-2.0-1.src.rpm Source RPM]
 |-
 ! {{Template:Headcellstyle}} | HDF4
 | align="center" | [http://www.nexus.anl.gov/hdf-4.2.1-1.i386.rpm i386 Binary RPM]
