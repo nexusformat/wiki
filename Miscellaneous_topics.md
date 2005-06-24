@@ -9,7 +9,7 @@ please add it to the following list and start a new page (see the [help
 pages](Help:Contents "wikilink") for instructions on adding new pages).
 If you want others to participate, you should announce the new
 discussion on the \[<http://www.neutron.anl.gov/mailman/listinfo/nexus>
-NeXus Mailing List\\.
+NeXus Mailing List.
 
 -   [NXnet Proposal](NXnet_Proposal "wikilink")
 

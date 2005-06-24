@@ -1,3 +1,3 @@
-If you wish to start a discussion of any topic concerning the NeXus API, please add it to the following list and start a new page (see the [[Help:Contents|help pages]] for instructions on adding new pages). If you want others to participate, you should announce the new discussion on the [http://www.neutron.anl.gov/mailman/listinfo/nexus NeXus Mailing List\.
+If you wish to start a discussion of any topic concerning the NeXus API, please add it to the following list and start a new page (see the [[Help:Contents|help pages]] for instructions on adding new pages). If you want others to participate, you should announce the new discussion on the [http://www.neutron.anl.gov/mailman/listinfo/nexus NeXus Mailing List.
 
 * [[NXnet Proposal]]
