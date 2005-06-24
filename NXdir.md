@@ -24,22 +24,24 @@ Usage
 
 NXdir runs on the command line with a variety of arguments. Below is the
 online help information (note that defaults can be changed during
-compilation). About NXdir -h|--help Print this help information
---version Print the version information Node Selection -p Path inside
-the file to look in. This can be absolute or relative and can be class
-or name of a given field. To anchor the path at the beginning or end
-place a “/” there. To specify that a level must exist, but the name or
-class can be anything, use a dot “.”. To specify that any number of
-levels can exist, use a star “\*”. Output Control -o/+o Print (or not)
-the value of selected nodes, if possible. Defaults to false (+o).
--l|--max-array \[value\] Change the number of elements that are printed
-for arrays. Forces “-o”. (10) -t|--tree-mode <value> Sets the formatting
-of the tree. Allowed values are (script)|multi|tree --path-mode <value>
-Select whether paths are written with names or classes. Allowed values
-are (name)|class|both --data-mode <value> How data is printed. Allowed
-values are (script) --printline <value> How data is printed with respect
-to tree. Allowed values are (single). --write-data <filename> Select a
-file to write out selected NXdata to. Some common usages are:
+compilation).
+
+| About NXdir              |
+|--------------------------|
+| -h|--help                |
+| --version                |
+| Node Selection           |
+| -p                       |
+| Output Control           |
+| -o/+o                    |
+| -l|--max-array \[value\] |
+| -t|--tree-mode <value>   |
+| --path-mode <value>      |
+| --data-mode <value>      |
+| --printline <value>      |
+| --write-data <filename>  |
+
+Some common usages are:
 
 -   Print the online help:
         nxdir --help
