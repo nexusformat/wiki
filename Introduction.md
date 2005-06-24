@@ -263,9 +263,10 @@ created by the example above.
        NXclosegroup (fileID);
      NXclose (fileID);
 
-NeXus files can also be viewed by a command-line browser, NXbrowse,
-which is included with the NeXus API. The following is an example
-session of using NXbrowse to view a data file from the LRMECS
+NeXus files can also be viewed by a command-line browser,
+[NXbrowse](NXbrowse "wikilink"), which is included with the [NeXus
+API](Application_Program_Interface "wikilink"). The following is an
+example session of using NXbrowse to view a data file from the LRMECS
 spectrometer at IPNS. The following commands are used (see the [NXbrowse
 web page](NXbrowse "wikilink") ):
 
