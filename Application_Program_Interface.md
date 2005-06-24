@@ -125,15 +125,48 @@ NXLINKSIZE, etc.) :
 
 Here is a comparison of the types used in the C and F77 interface.
 
-| | C                      | | Fortran                                   |
-|--------------------------|---------------------------------------------|
-| int a, int\* a           | INTEGER A                                   |
-| char\* a                 | CHARACTER\*(\*) A                           |
-| NXhandle a, NXhandle\* a | INTEGER A(NXHANDLESIZE)                     |
-| NXstatus                 | INTEGER                                     |
-| int\[\] a                | INTEGER A(\*)                               |
-| void\* a                 | REAL A(\*) or DOUBLE A(\*) or INTEGER A(\*) |
-| NXlink a, NXlink\* a     | INTEGER A(NXLINKSIZE)                       |
+<table>
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>C</p></th>
+<th><p>Fortran</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>int a, int* a</p></td>
+<td><p>INTEGER A</p></td>
+</tr>
+<tr class="even">
+<td><p>char* a</p></td>
+<td><p>CHARACTER*(*) A</p></td>
+</tr>
+<tr class="odd">
+<td><p>NXhandle a, NXhandle* a</p></td>
+<td><p>INTEGER A(NXHANDLESIZE)</p></td>
+</tr>
+<tr class="even">
+<td><p>NXstatus</p></td>
+<td><p>INTEGER</p></td>
+</tr>
+<tr class="odd">
+<td><p>int[] a</p></td>
+<td><p>INTEGER A(*)</p></td>
+</tr>
+<tr class="even">
+<td><p>void* a</p></td>
+<td><p>REAL A(*) or DOUBLE A(*) or INTEGER A(*)</p></td>
+</tr>
+<tr class="odd">
+<td><p>NXlink a, NXlink* a</p></td>
+<td><p>INTEGER A(NXLINKSIZE)</p></td>
+</tr>
+</tbody>
+</table>
 
 ### Fortran 90 Interface
 

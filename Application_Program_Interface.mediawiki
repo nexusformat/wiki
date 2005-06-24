@@ -95,10 +95,10 @@ Any program using the F77 API needs to include the following line near the top i
 
 <pre>include 'NAPIF.INC'</pre>
 Here is a comparison of the types used in the C and F77 interface.
-{| {{Template:Tablestyle}} width="650"
+{| {{Template:Tablestyle}}
 |-
-! {{Template:Headcellstyle}} | C
-! {{Template:Headcellstyle}} | Fortran
+! {{Template:Headcellstyle}} width="30%" | C
+! {{Template:Headcellstyle}} width="70%" | Fortran
 |-
 | int a, int* a || INTEGER A
 |-
