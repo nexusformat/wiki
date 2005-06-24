@@ -46,5 +46,5 @@ direction. phi is the angle between the x axis and the normal, projected
 onto the xy plane. theta is the angle between the xy plane and the
 normal. This does assume that a normal direction is well defined.
 
-[Peter Peterson](Pfpeterson "wikilink") Thursday, 28 August 2003,
+[Peter Peterson](User%3APfpeterson "wikilink") Thursday, 28 August 2003,
 12:04:51 pm
