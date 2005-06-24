@@ -147,11 +147,12 @@ Any program using the F90 Utility API needs to put the following line near the t
 use NXUmodule
 </pre>
 ===List of NeXus Utility API Routines===
-{| {{Template:Tablestyle}} width="650"
+{| {{Template:Tablestyle}}
 |-
 ! {{Template:Headcellstyle}} colspan="2" | Reading and Writing
 |-
-|NXUwriteglobals || Writes all the valid global attributes of a file.
+| width="30%" | NXUwriteglobals 
+| width="70%" | Writes all the valid global attributes of a file.
 |-
 |NXUwritegroup || Opens a group (creating it if necessary).
 |-
