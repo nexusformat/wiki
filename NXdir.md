@@ -86,8 +86,10 @@ Unix/Linux/Irix/MacOSX:Unpack the tarball, enter the directory and type make. Co
 Un-installing
 -------------
 
-Remove the file nxdir. The installation process did not modify the
-registry or other system settings in any way.
+Remove the file `nxdir`.
+
+The installation process did not modify the registry or other system
+settings in any way.
 
 Frequently Asked Questions (FAQ)
 --------------------------------

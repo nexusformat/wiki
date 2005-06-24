@@ -48,7 +48,8 @@ or
 ;Unix/Linux/Irix/MacOSX:Unpack the tarball, enter the directory and type make. Copy the resulting binary nxdir into your path.
 
 ==Un-installing==
-Remove the file nxdir.
+Remove the file <code>nxdir</code>.
+
 The installation process did not modify the registry or other system settings in any way.
 
 ==Frequently Asked Questions (FAQ)==
