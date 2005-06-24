@@ -251,31 +251,31 @@ and length of the data before allocating an array to store it.
 Here is part of a program to read the time-of-flight array from the file
 created by the example above.
 
-`NXopen ('NXfile.nxs', NXACC_READ, &fileID);`  
-`  NXopengroup (fileID, `“`Entry`”`, `“`NXentry`”`);`  
-`    NXopengroup (fileID, `“`Data`”`, `“`NXdata`”`);`  
-`      NXopendata (fileID, `“`time_of_flight`”`);`  
-`        NXgetinfo (fileID, &rank, dims, &datatype);`  
-`        NXmalloc ((void **) &tof, rank, dims, datatype);`  
-`        NXgetdata (fileID, tof);`  
-`      NXclosedata (fileID);`  
-`    NXclosegroup (fileID);`  
-`  NXclosegroup (fileID);`  
-`NXclose (fileID);`
+     NXopen ('NXfile.nxs', NXACC_READ, &fileID);
+       NXopengroup (fileID, "Entry", "NXentry");
+         NXopengroup (fileID, "Data", "NXdata");
+           NXopendata (fileID, "time_of_flight");
+             NXgetinfo (fileID, &rank, dims, &datatype);
+             NXmalloc ((void **) &tof, rank, dims, datatype);
+             NXgetdata (fileID, tof);
+           NXclosedata (fileID);
+         NXclosegroup (fileID);
+       NXclosegroup (fileID);
+     NXclose (fileID);
 
 NeXus files can also be viewed by a command-line browser, NXbrowse,
 which is included with the NeXus API. The following is an example
 session of using NXbrowse to view a data file from the LRMECS
-spectrometer at IPNS. The following commands are used (see the NXbrowse
-web page ): **NXBrowse Command Description**
+spectrometer at IPNS. The following commands are used (see the [NXbrowse
+web page](NXbrowse "wikilink") ):
 
-dir:List the contents of the current group  
-open Histogram1:Open the NeXus group “Histogram1”  
-read title:Print the contents of the NeXus data labelled “title”  
-close:Close the current group  
-quit:Quit the browser  
-
-<!-- -->
+| NXBrowse Command Description |
+|------------------------------|
+| dir                          |
+| open Histogram1              |
+| read title                   |
+| close                        |
+| quit                         |
 
     %> nxbrowse lrcs3701.nxs
 

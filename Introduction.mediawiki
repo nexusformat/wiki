@@ -138,6 +138,7 @@ Finally, close the groups (NXdata and NXentry) before closing the file itself.
 Reading a NeXus file is almost identical to writing one. Obviously, it is not necessary to call NXmakedata since the item already exists, but it is necessary to call one of the query routines to find out the rank and length of the data before allocating an array to store it.
 
 Here is part of a program to read the time-of-flight array from the file created by the example above.
+<pre>
  NXopen ('NXfile.nxs', NXACC_READ, &fileID);
    NXopengroup (fileID, "Entry", "NXentry");
      NXopengroup (fileID, "Data", "NXdata");
@@ -149,13 +150,23 @@ Here is part of a program to read the time-of-flight array from the file created
      NXclosegroup (fileID);
    NXclosegroup (fileID);
  NXclose (fileID);
-NeXus files can also be viewed by a command-line browser, NXbrowse, which is included with the NeXus API. The following is an example session of using NXbrowse to view a data file from the LRMECS spectrometer at IPNS. The following commands are used (see the NXbrowse web page ):
-'''NXBrowse Command Description'''
-;dir:List the contents of the current group
-;open Histogram1:Open the NeXus group "Histogram1"
-;read title:Print the contents of the NeXus data labelled "title"
-;close:Close the current group
-;quit:Quit the browser
+</pre>
+NeXus files can also be viewed by a command-line browser, NXbrowse, which is included with the NeXus API. The following is an example session of using NXbrowse to view a data file from the LRMECS spectrometer at IPNS. The following commands are used (see the [[NXbrowse|NXbrowse web page]] ):
+{| {{Template:Tablestyle}} width="600"
+|-
+! {{Template:Headcellstyle}} colspan="2" | NXBrowse Command Description
+|-
+| width="200" | dir
+| width="400" | List the contents of the current group
+|-
+| open Histogram1 || Open the NeXus group "Histogram1"
+|-
+| read title || Print the contents of the NeXus data labelled "title"
+|-
+| close || Close the current group
+|-
+| quit || Quit the browser
+|}
 
 <pre>
 %> nxbrowse lrcs3701.nxs
