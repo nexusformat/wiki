@@ -11,7 +11,8 @@ object.
 
     class NeXusFile{
     public:
-      enum access(READ=NXACC_READ, WRITE=NXACC_CREATE, WRITE_HDF4=NXACC_CREATE4, WRITE_HDF5=NXACC_CREATE5, READ_WRITE=NXACC_RDWR);
+      enum access(READ=NXACC_READ, WRITE=NXACC_CREATE, WRITE_HDF4=NXACC_CREATE4, 
+                          WRITE_HDF5=NXACC_CREATE5, READ_WRITE=NXACC_RDWR);
       enum compress(COMP_LZW=NX_COMP_LZW,COMP_HUF=NX_COMP_HUF,COMP_RLE=NX_COMP_RLE,COMP_NONE);
 
       // constructor, default mode is read
@@ -26,7 +27,8 @@ object.
       void make_group(const std::string &name, const std::string &class);
 
       // creates and opens a data. this throws an exception when fails
-      void make_data(const std::string &name, const std::string &type, const std::vector<int> &dimensions, const compress comp_type=COMP_NONE);
+      void make_data(const std::string &name, const std::string &type, const std::vector<int> 
+                               &dimensions, const compress comp_type=COMP_NONE);
     };
 
 [Peter Peterson](User%3APfpeterson "wikilink"), SNS
