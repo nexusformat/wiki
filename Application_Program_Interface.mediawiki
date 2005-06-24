@@ -381,9 +381,9 @@ This should then give you a binary RPM file file.something.rpm which you can ins
 The following packages are required:
 {| {{Template:Tablestyle}}
 |-
-! {{Template:Headcellstyle}} | SZIP
-| align="center" width="30%" | [http://www.nexus.anl.gov/szip-2.0-1.i386.rpm i386 Binary RPM]| 
-| align="center" width="70%" | [http://www.nexus.anl.gov/szip-2.0-1.src.rpm Source RPM]
+! {{Template:Headcellstyle}} width="20%" | SZIP
+| align="center" width="40%" | [http://www.nexus.anl.gov/szip-2.0-1.i386.rpm i386 Binary RPM]| 
+| align="center" width="40%" | [http://www.nexus.anl.gov/szip-2.0-1.src.rpm Source RPM]
 |-
 ! {{Template:Headcellstyle}} | HDF4
 | align="center" | [http://www.nexus.anl.gov/hdf-4.2.1-1.i386.rpm i386 Binary RPM]

@@ -494,13 +494,13 @@ The following packages are required:
 
 <table>
 <colgroup>
-<col width="0%" />
-<col width="30%" />
-<col width="70%" />
+<col width="20%" />
+<col width="40%" />
+<col width="40%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>| SZIP</p></th>
+<th><p>SZIP</p></th>
 <th align="center"><p><a href="http://www.nexus.anl.gov/szip-2.0-1.i386.rpm">i386 Binary RPM</a>|</p></th>
 <th align="center"><p><a href="http://www.nexus.anl.gov/szip-2.0-1.src.rpm">Source RPM</a></p></th>
 </tr>
