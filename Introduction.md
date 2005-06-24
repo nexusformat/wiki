@@ -277,9 +277,9 @@ quit:Quit the browser
 
 <!-- -->
 
-    %> NXbrowse lrcs3701.nxs
+    %> nxbrowse lrcs3701.nxs
 
-    NXBrowse 2.0.0. Copyright (C) 2000 R. Osborn, M. Koennecke, P. Klosowski
+    NXBrowse 3.0.0. Copyright (C) 2000 R. Osborn, M. Koennecke, P. Klosowski
         NeXus_version = 1.3.3
         file_name = lrcs3701.nxs
         file_time = 2001-02-11 00:02:35-0600
@@ -316,7 +316,7 @@ quit:Quit the browser
         units = counts
         signal = 1 
         long_name = Neutron Counts
-        axes = [polar_angle,time_of_flight]
+        axes = polar_angle:time_of_flight
     NX/Histogram1/data> close
     NX/Histogram1> close
     NX> quit
