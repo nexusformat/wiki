@@ -18,11 +18,7 @@ design of more sophisticated visualization tools.
 This section is designed to give a brief introduction to NeXus, the data
 format that has been developed in response to these needs. It explains
 what a modern data format such as NeXus is and how to write simple
-programs to read and write NeXus files. More detailed descriptions are
-contained in other sections. This page addresses three questions:1)
-[What is NeXus?](#What_is_NeXus.3F "wikilink") 2) [How do I write a
-NeXus file?](#How_do_I_write_a_NeXus_file.3F "wikilink") 3) [How do I
-read a NeXus file?](#How_do_I_read_a_NeXus_file.3F "wikilink")
+programs to read and write NeXus files.
 
 What is NeXus?
 --------------
