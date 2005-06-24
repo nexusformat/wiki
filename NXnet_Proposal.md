@@ -52,19 +52,13 @@ The proposal is in three parts.
     pragmatically (like we have done with HDF) because it currently
     seems to do the job and support is what standards like this need to
     develop.
-
-<!-- -->
-
-1.  More fundamentally, we extend our remit of defining and organizing
+2.  More fundamentally, we extend our remit of defining and organizing
     data types within the NeXus file to also giving some sort of
     standardisation to the organisation and location of data within a
     global file system. Quite simply, this just avoids things being lost
     by everyone storing things under different names and in different
     places (for example, a naming convention for raw files).
-
-<!-- -->
-
-1.  Even more fundamentally, we spend some effort defining the sort of
+3.  Even more fundamentally, we spend some effort defining the sort of
     meta-data which we might associate with each file (possibly not
     contained in the NeXus file itself). This meta-data would enable a
     data portal style search engine, just like a super data-Google
