@@ -170,76 +170,75 @@ program written in C. See the API section for a more complete version.
 First, it is necessary to open the file, specifying whether we want read
 or write access.
 
-1.  include “napi.h”
+    #include "napi.h"
 
-`int main()`  
-`{`  
-`  NXhandle fileID;`  
-`  NXopen ('NXfile.nxs', NXACC_CREATE, &fileID);`
+     int main()
+     {
+       NXhandle fileID;
+       NXopen ('NXfile.nxs', NXACC_CREATE, &fileID);
 
 The file is opened with “create” access (implying write access), and the
 API returns a file identifier of type NXhandle. Next, we create an
 NXentry group to contain the scan using NXmakegroup and then open it for
 access using NXopengroup.
 
-` NXmakegroup (fileID, `“`Entry`”`, `“`NXentry`”`);`  
-` NXopengroup (fileID, `“`Entry`”`, `“`NXentry`”`);`
+      NXmakegroup (fileID, "Entry", "NXentry");
+      NXopengroup (fileID, "Entry", "NXentry");
 
 The plottable data is contained within an NXdata group, which must also
 be created and opened.
 
-` NXmakegroup (fileID, `“`Data`”`, `“`NXdata`”`);`  
-` NXopengroup (fileID, `“`Data`”`, `“`NXdata`”`);`
+      NXmakegroup (fileID, "Data", "NXdata");
+      NXopengroup (fileID, "Data", "NXdata");
 
 To create a data item, call NXmakedata, specifying the data name, type
 (NX\_FLOAT32), rank (in this case, 1), and length of the array (n\_t).
 Then, it can be opened for writing.
 
-` NXmakedata (fileID, `“`time_of_flight`”`, NX_FLOAT32, 1, &n_t);`  
-` NXopendata (fileID, `“`time_of_flight`”`)`
+      NXmakedata (fileID, "time_of_flight", NX_FLOAT32, 1, &n_t);
+      NXopendata (fileID, "time_of_flight")
 
 Then write the data using NXputdata.
 
-` NXputdata (fileID, t);`
+      NXputdata (fileID, t);
 
 With data item is still open, we can also add some data attributes, such
 as the data units, which are specified as a character string (type
 NX\_CHAR) that is 12 bytes long.
 
-` NXputattr (fileID, `“`units`”`, `“`microseconds`”`, 12, NX_CHAR);`
+      NXputattr (fileID, "units", "microseconds", 12, NX_CHAR);
 
 Then we close the data item before opening another. In fact, the API
 will do this automatically if you attempt to open another data item, but
 it is better style to close it yourself.
 
-` NXclosedata (fileID);`
+      NXclosedata (fileID);
 
 The remaining data items in this group are added in a similar fashion.
 Note that the indentation whenever a new data item or group are opened
 is just intended to make the structure of the NeXus file more
 transparent.
 
-`    NXmakedata (fileID, `“`phi`”`, NX_FLOAT32, 1, &n_p);`  
-`      NXopendata (fileID, `“`phi`”`);`  
-`        NXputdata (fileID, phi);`  
-`        NXputattr (fileID, `“`units`”`, `“`degrees`”`, 7, NX_CHAR);`  
-`      NXclosedata (fileID);`  
-`      dims[0] = n_t;`  
-`      dims[1] = n_p;`  
-`      NXmakedata (fileID, `“`counts`”`, NX_INT32, 2, dims);`  
-`      NXopendata (fileID, `“`counts`”`);`  
-`        NXputdata (fileID, counts);`  
-`      NXclosedata (fileID);`
+         NXmakedata (fileID, "phi", NX_FLOAT32, 1, &n_p);
+           NXopendata (fileID, "phi");
+             NXputdata (fileID, phi);
+             NXputattr (fileID, "units", "degrees", 7, NX_CHAR);
+           NXclosedata (fileID);
+           dims[0] = n_t;
+           dims[1] = n_p;
+           NXmakedata (fileID, "counts", NX_INT32, 2, dims);
+           NXopendata (fileID, "counts");
+             NXputdata (fileID, counts);
+           NXclosedata (fileID);
 
 Finally, close the groups (NXdata and NXentry) before closing the file
 itself.
 
-`  NXclosegroup (fileID);`  
-`  NXclosegroup (fileID);`  
-`  NXclose (&fileID);`  
-`  return;`
-
-}
+       NXclosegroup (fileID);
+       NXclosegroup (fileID);
+       NXclose (&fileID);
+       return;
+    }
 
 How do I read a NeXus file?
 ---------------------------

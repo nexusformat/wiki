@@ -75,29 +75,44 @@ The NeXus Application Program Interface (API) provides a set of subroutines that
 The API uses a very simple "state" model to navigate through a NeXus file. When you open a file, the API provides a file "handle", which then stores the current location, i.e. which group and/or data item is currently open. Read and write operations then act on the currently open entity. In the following, we walk through some parts of a typical NeXus program written in C. See the API section for a more complete version.
 
 First, it is necessary to open the file, specifying whether we want read or write access.
+<pre>
 #include "napi.h"
 
  int main()
  {
    NXhandle fileID;
    NXopen ('NXfile.nxs', NXACC_CREATE, &fileID);
+</pre>
 The file is opened with "create" access (implying write access), and the API returns a file identifier of type NXhandle.
 Next, we create an NXentry group to contain the scan using NXmakegroup and then open it for access using NXopengroup.
+<pre>
   NXmakegroup (fileID, "Entry", "NXentry");
   NXopengroup (fileID, "Entry", "NXentry");
+</pre>
 The plottable data is contained within an NXdata group, which must also be created and opened.
+<pre>
   NXmakegroup (fileID, "Data", "NXdata");
   NXopengroup (fileID, "Data", "NXdata");
+</pre>
 To create a data item, call NXmakedata, specifying the data name, type (NX_FLOAT32), rank (in this case, 1), and length of the array (n_t). Then, it can be opened for writing.
+<pre>
   NXmakedata (fileID, "time_of_flight", NX_FLOAT32, 1, &n_t);
   NXopendata (fileID, "time_of_flight")
+</pre>
 Then write the data using NXputdata.
+<pre>
   NXputdata (fileID, t);
+</pre>
 With data item is still open, we can also add some data attributes, such as the data units, which are specified as a character string (type NX_CHAR) that is 12 bytes long.
+<pre>
   NXputattr (fileID, "units", "microseconds", 12, NX_CHAR);
+</pre>
 Then we close the data item before opening another. In fact, the API will do this automatically if you attempt to open another data item, but it is better style to close it yourself.
+<pre>
   NXclosedata (fileID);
+</pre>
 The remaining data items in this group are added in a similar fashion. Note that the indentation whenever a new data item or group are opened is just intended to make the structure of the NeXus file more transparent.
+<pre>
      NXmakedata (fileID, "phi", NX_FLOAT32, 1, &n_p);
        NXopendata (fileID, "phi");
          NXputdata (fileID, phi);
@@ -109,12 +124,15 @@ The remaining data items in this group are added in a similar fashion. Note that
        NXopendata (fileID, "counts");
          NXputdata (fileID, counts);
        NXclosedata (fileID);
+</pre>
 Finally, close the groups (NXdata and NXentry) before closing the file itself.
+<pre>
    NXclosegroup (fileID);
    NXclosegroup (fileID);
    NXclose (&fileID);
    return;
 }
+</pre>
 
 ==How do I read a NeXus file?==
 Reading a NeXus file is almost identical to writing one. Obviously, it is not necessary to call NXmakedata since the item already exists, but it is necessary to call one of the query routines to find out the rank and length of the data before allocating an array to store it.
