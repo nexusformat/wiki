@@ -80,10 +80,8 @@ or
 Installation
 ------------
 
-Binary: Some binaries can be found above. Download, rename to something
-you will remember (like nxdir) and move into your path.
-Unix/Linux/Irix/MacOSX: Unpack the tarball, enter the directory and type
-make. Copy the resulting binary nxdir into your path.
+Binary:Some binaries can be found above. Download, rename to something you will remember (like nxdir) and move into your path.  
+Unix/Linux/Irix/MacOSX:Unpack the tarball, enter the directory and type make. Copy the resulting binary nxdir into your path.  
 
 Un-installing
 -------------
