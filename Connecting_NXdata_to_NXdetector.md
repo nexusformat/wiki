@@ -4,9 +4,6 @@ permalink: Connecting_NXdata_to_NXdetector/
 layout: wiki
 ---
 
-Summary of Proposals
---------------------
-
 This is an attempt to summarize the various proposals that have been
 discussed on this page. Proposal 1 is, I believe
 ([Ray](User%3ARay "wikilink")), the original proposal when NeXus was
@@ -143,18 +140,19 @@ or
        <detector(1:N)>
     </NXdata>
 
-A proper solution should address the following:
+Criteria of a Good Solution
+---------------------------
+
+= A proper solution should address the following:
 
 -   Linking - should it be used as a method of saving space or carry
     relational information (associating things).
 -   Grouping information into NXdetectors in a logical manner. For
     example, an instrument may want to have a NXdetector for each bank,
     or one for each panel, irrespective of how the NXdata is grouped.
-
-NXdata must be rectangular ( lxm or lxmxn so data that would be grouped
-together in the analysis needs to be split up to conform to the
-standard. How should the data be associated with each other.
-
+-   NXdata must be rectangular ( lxm or lxmxn so data that would be
+    grouped together in the analysis needs to be split up to conform to
+    the standard. How should the data be associated with each other.
 -   How do you properly deal with multi-dimensional detectors, i.e.
     single ended tubes AND linear position sensitive detectors AND area
     detectors all used in the same measurement.
