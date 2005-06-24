@@ -19,11 +19,11 @@ The core API comprises the following functional groups:
 *Routines to obtain meta-data and to iterate over component datasets and attributes.
 *Handling of linking and group hierarchy.
 ===List of NeXus Core API Routines===
-{| {{Template:Tablestyle}} width="650"
+{| {{Template:Tablestyle}}
 |-
 ! {{Template:Headcellstyle}} colspan="2" | General Initialization and Shutdown
 |-
-|NXopen	|| Opens NeXus file and returns file id
+| width="30%" |NXopen	| width="70%" | Opens NeXus file and returns file id
 |-
 |NXclose	|| Closes NeXus file
 |-
