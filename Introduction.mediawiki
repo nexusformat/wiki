@@ -61,10 +61,10 @@ A very simple NeXus file
 
 -->
 <NXentry name="{Name of entry}">
-    <NXdata name="{Name of data}">
-       <time_of_flight units="microseconds" type="NX_FLOAT32[i]">{Time-of-flight} </time_of_flight>
-       <data type="NX_INT32[i]" > {Counts} </data>
-    </NXdata>
+   <NXdata name="{Name of data}">
+     <time_of_flight units="microseconds" type="NX_FLOAT32[i]">{Time-of-flight}</time_of_flight>
+     <data type="NX_INT32[i]" > {Counts} </data>
+   </NXdata>
 </NXentry>
 </pre>
 If you want to define the format of a particular type of NeXus file for your own use, e.g. as the standard output from a program, you are encouraged to "publish" the format using this XML format.
