@@ -153,12 +153,12 @@ Here is part of a program to read the time-of-flight array from the file created
  NXclose (fileID);
 </pre>
 NeXus files can also be viewed by a command-line browser, [[NXbrowse]], which is included with the [[Application_Program_Interface|NeXus API]]. The following is an example session of using NXbrowse to view a data file from the LRMECS spectrometer at IPNS. The following commands are used (see the [[NXbrowse|NXbrowse web page]] ):
-{| {{Template:Tablestyle}} width="600"
+{| {{Template:Tablestyle}}
 |-
 ! {{Template:Headcellstyle}} colspan="2" | NXBrowse Command Description
 |-
-| width="200" | dir
-| width="400" | List the contents of the current group
+| width="30%" | dir
+| width="70%" | List the contents of the current group
 |-
 | open Histogram1 || Open the NeXus group "Histogram1"
 |-
