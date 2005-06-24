@@ -23,7 +23,8 @@ The core API comprises the following functional groups:
 |-
 ! {{Template:Headcellstyle}} colspan="2" | General Initialization and Shutdown
 |-
-| width="30%" |NXopen	| width="70%" | Opens NeXus file and returns file id
+| width="30%" |NXopen
+| width="70%" | Opens NeXus file and returns file id
 |-
 |NXclose	|| Closes NeXus file
 |-

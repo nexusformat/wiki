@@ -64,38 +64,38 @@ The core API comprises the following functional groups:
 
 ### List of NeXus Core API Routines
 
-| General Initialization and Shutdown                         |
-|-------------------------------------------------------------|
-| NXopen | width=“70%” | Opens NeXus file and returns file id |
-| NXclose                                                     |
-| NXmakegroup                                                 |
-| NXopengroup                                                 |
-| NXclosegroup                                                |
-| NXmakedata                                                  |
-| NXcompmakedata                                              |
-| NXopendata                                                  |
-| NXcompress                                                  |
-| NXclosedata                                                 |
-| Reading and Writing                                         |
-| NXgetdata                                                   |
-| NXgetslab                                                   |
-| NXgetattr                                                   |
-| NXputdata                                                   |
-| NXputslab                                                   |
-| NXputattr                                                   |
-| NXflush                                                     |
-| Meta-Data Routines                                          |
-| NXgetinfo                                                   |
-| NXgetgroupinfo                                              |
-| NXinitgroupdir                                              |
-| NXgetnextentry                                              |
-| NXgetattrinfo                                               |
-| NXinitattrdir                                               |
-| NXgetnextattr                                               |
-| Linking and Group Hierarchy                                 |
-| NXgetgroupID                                                |
-| NXgetdataID                                                 |
-| NXmakelink                                                  |
+| General Initialization and Shutdown |
+|-------------------------------------|
+| NXopen                              |
+| NXclose                             |
+| NXmakegroup                         |
+| NXopengroup                         |
+| NXclosegroup                        |
+| NXmakedata                          |
+| NXcompmakedata                      |
+| NXopendata                          |
+| NXcompress                          |
+| NXclosedata                         |
+| Reading and Writing                 |
+| NXgetdata                           |
+| NXgetslab                           |
+| NXgetattr                           |
+| NXputdata                           |
+| NXputslab                           |
+| NXputattr                           |
+| NXflush                             |
+| Meta-Data Routines                  |
+| NXgetinfo                           |
+| NXgetgroupinfo                      |
+| NXinitgroupdir                      |
+| NXgetnextentry                      |
+| NXgetattrinfo                       |
+| NXinitattrdir                       |
+| NXgetnextattr                       |
+| Linking and Group Hierarchy         |
+| NXgetgroupID                        |
+| NXgetdataID                         |
+| NXmakelink                          |
 
 Although the NeXus API is considerably simpler than the underlying HDF
 code, writing NeXus files still involves much repetitive code. Mark
