@@ -46,8 +46,8 @@ experiment would contain lines similar to the following:
 `NXclosedata (fileID);`
 
 In this example, the program requests the value of the data that has the
-label “wavelength”, storing the result in the variable lambda. fileID is
-a file identifier that is provided by NeXus when the file is opened.
+label `wavelength`, storing the result in the variable lambda. `fileID`
+is a file identifier that is provided by NeXus when the file is opened.
 
 We shall provide a more complete example when we have discussed the
 contents of the NeXus files.
