@@ -14,7 +14,8 @@ NXdir runs on the command line with a variety of arguments. Below is the online 
 |-
 ! {{Template:Headcellstyle}} colspan="2" | About NXdir
 |-
-| width="200" | -h<nowiki>|</nowiki>--help | width="400" | Print this help information
+| width="200" | -h<nowiki>|</nowiki>--help 
+| width="400" | Print this help information
 |-
 | --version || Print the version information
 |-

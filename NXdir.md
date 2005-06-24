@@ -26,20 +26,20 @@ NXdir runs on the command line with a variety of arguments. Below is the
 online help information (note that defaults can be changed during
 compilation).
 
-| About NXdir                                           |
-|-------------------------------------------------------|
-| -h|--help | width=“400” | Print this help information |
-| --version                                             |
-| Node Selection                                        |
-| -p                                                    |
-| Output Control                                        |
-| -o/+o                                                 |
-| -l|--max-array \[value\]                              |
-| -t|--tree-mode <value>                                |
-| --path-mode <value>                                   |
-| --data-mode <value>                                   |
-| --printline <value>                                   |
-| --write-data <filename>                               |
+| About NXdir              |
+|--------------------------|
+| -h|--help                |
+| --version                |
+| Node Selection           |
+| -p                       |
+| Output Control           |
+| -o/+o                    |
+| -l|--max-array \[value\] |
+| -t|--tree-mode <value>   |
+| --path-mode <value>      |
+| --data-mode <value>      |
+| --printline <value>      |
+| --write-data <filename>  |
 
 Some common usages are:
 
