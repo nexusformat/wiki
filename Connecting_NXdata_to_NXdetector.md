@@ -143,7 +143,7 @@ or
 Criteria of a Good Solution
 ---------------------------
 
-= A proper solution should address the following:
+A proper solution should address the following:
 
 -   Linking - should it be used as a method of saving space or carry
     relational information (associating things).

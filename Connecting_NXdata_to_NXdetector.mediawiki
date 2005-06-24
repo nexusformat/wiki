@@ -116,7 +116,7 @@ or
 </NXdata>
 </pre>
 
-==Criteria of a Good Solution===
+==Criteria of a Good Solution==
 A proper solution should address the following:
 *Linking - should it be used as a method of saving space or carry relational information (associating things).
 *Grouping information into NXdetectors in a logical manner. For example, an instrument may want to have a NXdetector for each bank, or one for each panel, irrespective of how the NXdata is grouped.
