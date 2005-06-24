@@ -86,6 +86,10 @@ you are browsing through a file.
 
 #### Important Classes
 
+Here are some of the important classes found in nearly all NeXus files.
+A complete list can be found in the [NeXus Design
+page](Design "wikilink").
+
 NXentry:The top level of any NeXus file contains one or more groups with the class NXentry. These contain all the data that is required to describe an experimental run or scan. Each NXentry typically contains a number of groups describing sample information (class NXsample), instrument details (class NXinstrument), and monitor counts (class NXmonitor).  
 NXdata:Each NXentry group contains one or more groups with class NXdata. These groups contain the experimental results in a self-contained way, i.e., it should be possible to generate a sensible plot of the data from the information contained in each NXdata group. That means it should contain the axis labels and titles as well as the data.  
 NXsample:A NXentry group will often contain a group with class NXsample. This group contains information pertaining to the sample, such as its chemical composition, mass, and environment variables (temperature, pressure, magnetic field, etc.).  
