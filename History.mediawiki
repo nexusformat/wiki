@@ -110,7 +110,7 @@ Several steps have been taken to obtain the support of the neutron and X-ray sca
 #Jon Tischler, ORNL and UNI-CAT. (Chairman of the data standards committee for the APS CATs.) "Draft of Proposed Data Standards for the APS", version 6, August 19, 1994. 
 #Mark Koennecke, PSI. "Proposal for a European Neutron Scattering Data Exchange Format", version 4.2, June 17, 1994. 
 #Przemek Klosowski, NIST. "NEXUS - a portable, extensible, self-describing data format for neutron and X-ray scattering data," version 1.24, October 7 1996. 
-#P. Klosowski, M. Koennecke, J. Z. Tischler and R. Osborn, "NeXus: A common format for the exchange of neutron and synchrotron data" Physica B 241-243, 151-153 (1998) 
+#P. Klosowski, M. Koennecke, J. Z. Tischler and R. Osborn, "NeXus: A common format for the exchange of neutron and synchrotron data" Physica B '''241-243''', 151-153 (1998)
 
 ==Current Status==
 NeXus is still in the early stages of its development. We consider that it is now ready for evaluation by any interested members of the neutron and X-ray scattering communities. We therefore invite them to subscribe to the NeXus Mailing List to receive news updates and to send feedback. A critical component of the NeXus format is the Application Program Interface for reading and writing NeXus files. Mark Koennecke, Przemek Klosowski, and Freddie Akeroyd have produced the first version of the API, along with more detailed documentation for the interested programmer, which is available for downloading. Please see the API section for more details.

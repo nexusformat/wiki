@@ -299,7 +299,7 @@ X-ray scattering communities:
     version 1.24, October 7 1996.
 4.  P. Klosowski, M. Koennecke, J. Z. Tischler and R. Osborn, “NeXus: A
     common format for the exchange of neutron and synchrotron data”
-    Physica B 241-243, 151-153 (1998)
+    Physica B **241-243**, 151-153 (1998)
 
 Current Status
 --------------
