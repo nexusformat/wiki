@@ -133,10 +133,10 @@ In this example, there are two axis scales, "magnetic_field" and "time_of_flight
 |}
 
 ===Data Attributes===
-{| {{Template:Tablestyle}} width="650"
-! {{Template:Headcellstyle}} width="100" | Name
-! {{Template:Headcellstyle}} width="100" | Type
-! {{Template:Headcellstyle}} width="450" | Description
+{| {{Tablestyle}} width="650"
+! {{Headcellstyle}} width="100" | Name
+! {{Headcellstyle}} width="100" | Type
+! {{Headcellstyle}} width="450" | Description
 |- 
 | units
 | align="center" | NX_CHAR
