@@ -106,10 +106,10 @@ In this example, there are two axis scales, "magnetic_field" and "time_of_flight
 
 ==NeXus Attributes==
 ===Global Attributes===
-{| {{Template:Tablestyle}} width="650" 
-! width="100" {{Template:Headcellstyle}} | Name
-! width="100" {{Template:Headcellstyle}} | Type
-! width="450" {{Template:Headcellstyle}} | Description
+{| {{Tablestyle}} width="650" 
+! width="100" {{Headcellstyle}} | Name
+! width="100" {{Headcellstyle}} | Type
+! width="450" {{Headcellstyle}} | Description
 |- 
 | file_name
 | align="center" | NX_CHAR
