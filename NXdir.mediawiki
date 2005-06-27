@@ -10,20 +10,20 @@ If you have any questions/comments/bug reports email Peter Peterson <petersonpf@
 
 ==Usage==
 NXdir runs on the command line with a variety of arguments. Below is the online help information (note that defaults can be changed during compilation).
-{| {{Template:Tablestyle}}
+{| {{Tablestyle}}
 |-
-! {{Template:Headcellstyle}} colspan="2" | About NXdir
+! {{Headcellstyle}} colspan="2" | About NXdir
 |-
 | width="200" | -h<nowiki>|</nowiki>--help 
 | width="400" | Print this help information
 |-
 | --version || Print the version information
 |-
-! {{Template:Headcellstyle}} colspan="2" | Node Selection
+! {{Headcellstyle}} colspan="2" | Node Selection
 |-
 | -p || Path inside the file to look in. This can be absolute or relative and can be class or name of a given field. To anchor the path at the beginning or end place a "/" there. To specify that a level must exist, but the name or class can be anything, use a dot ".". To specify that any number of levels can exist, use a star "*".
 |-
-! {{Template:Headcellstyle}} colspan="2" | Output Control
+! {{Headcellstyle}} colspan="2" | Output Control
 |-
 | -o/+o || Print (or not) the value of selected nodes, if possible. Defaults to false (+o).
 |-
