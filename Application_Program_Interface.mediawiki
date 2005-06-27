@@ -379,25 +379,25 @@ rpmbuild --rebuild file.src.rpm
 This should then give you a binary RPM file file.something.rpm which you can install as above. Be careful if you think about specifying an alternative buildroot for rpmbuild by using --buildroot option as the "buildroot" directory tree will get remove (so --buildroot / is a really bad idea). Only change buildroot it if the default area turns out not to be big enough to compile the package.
 
 The following packages are required:
-{| {{Template:Tablestyle}}
+{| {{Tablestyle}}
 |-
-! {{Template:Headcellstyle}} width="20%" | SZIP
+! {{Headcellstyle}} width="20%" | SZIP
 | align="center" width="40%" | [http://www.nexus.anl.gov/szip-2.0-1.i386.rpm i386 Binary RPM]| 
 | align="center" width="40%" | [http://www.nexus.anl.gov/szip-2.0-1.src.rpm Source RPM]
 |-
-! {{Template:Headcellstyle}} | HDF4
+! {{Headcellstyle}} | HDF4
 | align="center" | [http://www.nexus.anl.gov/hdf-4.2.1-1.i386.rpm i386 Binary RPM]
 | align="center" | [http://www.nexus.anl.gov/hdf-4.2.1-1.src.rpm Source RPM]
 |-
-! {{Template:Headcellstyle}} | HDF5
+! {{Headcellstyle}} | HDF5
 | align="center" | [http://www.nexus.anl.gov/hdf5-1.6.4-1.i386.rpm i386 Binary RPM]
 | align="center" | [http://www.nexus.anl.gov/hdf5-1.6.4-1.src.rpm Source RPM]
 |-
-! {{Template:Headcellstyle}} | MXML
+! {{Headcellstyle}} | MXML
 | align="center" | [http://www.nexus.anl.gov/mxml-2.2.2-1.i386.rpm i386 Binary RPM]
 | align="center" | [http://www.nexus.anl.gov/mxml-2.2.2-1.src.rpm Source RPM]
 |-
-! {{Template:Headcellstyle}} | NeXus
+! {{Headcellstyle}} | NeXus
 | align="center" | [http://www.nexus.anl.gov/nexus-3.0.0-1.i386.rpm i386 Binary RPM]
 | align="center" | [http://www.nexus.anl.gov/nexus-3.0.0-1.src.rpm Source RPM]
 |}
