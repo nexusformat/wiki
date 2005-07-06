@@ -386,17 +386,15 @@ Returns the number of items in the current group, and the name and class of the 
 | NXhandle
 | Identifier of NeXus file
 |-
-! {{Headcellstyle}} | Output Arguments
+! {{Headcellstyle}} rowspan="3" | Output Arguments
 | item_number
 | int *
 | Number of NeXus data items in the current group
 |-
-| &nbsp;
 | group_name
 | char *
 | Name of currently open NeXus group
 |-
-| &nbsp;
 | group_class
 | char *
 | Class of currently open NeXus group

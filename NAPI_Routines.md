@@ -302,9 +302,9 @@ of the current group.
     status = NXgetgroupinfo (file_id, item_number, group_name, group_class)
 
 |- ! | Input Arguments | file\_id | NXhandle | Identifier of NeXus file
-|- ! | Output Arguments | item\_number | int \* | Number of NeXus data
-items in the current group |- |   | group\_name | char \* | Name of
-currently open NeXus group |- |   | group\_class | char \* | Class of
+|- ! rowspan=“3” | Output Arguments | item\_number | int \* | Number of
+NeXus data items in the current group |- | group\_name | char \* | Name
+of currently open NeXus group |- | group\_class | char \* | Class of
 currently open NeXus group |}
 
 ### NXinitgroupdir
