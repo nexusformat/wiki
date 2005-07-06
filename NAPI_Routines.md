@@ -251,9 +251,27 @@ overwrite.
 |- ! rowspan=“4” | Input Arguments | file\_id | NXhandle | Identifier of
 NeXus file |- | attr\_name | char \* | Name of attribute |- | length |
 int \* | Length of buffer for storing attribute data |- | type | int \*
-| Type of attribute data (see list of valid data types) |- ! rowspan=“2”
-| Output Arguments | value | void \* | Value of attribute |- | length |
-int \* | Actual length of attribute data |}
+|
+
+Attribute Data Type:NX\_CHAR - Character string  
+NX\_FLOAT32 - 4-byte real
+
+NX\_FLOAT64 - 8-byte real
+
+NX\_INT8 - 1-byte integer
+
+NX\_UINT8 - unsigned 1-byte integer
+
+NX\_INT16 - 2-byte integer
+
+NX\_UINT16 - unsigned 2-byte integer
+
+NX\_INT32 - 4-byte integer
+
+NX\_UINT32 - unsigned 4-byte integer
+
+|- ! rowspan=“2” | Output Arguments | value | void \* | Value of
+attribute |- | length | int \* | Actual length of attribute data |}
 
 ### NXputdata
 
