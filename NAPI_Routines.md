@@ -288,8 +288,8 @@ Gets the rank, dimensions and data type of the currently open data set.
     status = NXgetinfo (file_id, rank, dimensions[], data_type)
 
 |- ! | Input Arguments | file\_id | NXhandle | Identifier of NeXus file
-|- ! | Output Arguments | rank | int \* | Rank of data |- |   |
-dimensions | int\[\] | Dimensions of data |- |   | data\_type | int \* |
+|- ! rowspan=“3” | Output Arguments | rank | int \* | Rank of data |- |
+dimensions | int\[\] | Dimensions of data |- | data\_type | int \* |
 Type of data (see list of valid data types) |}
 
 ### NXgetgroupinfo

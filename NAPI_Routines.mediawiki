@@ -362,17 +362,15 @@ Gets the rank, dimensions and data type of the currently open data set.
 | NXhandle
 | Identifier of NeXus file
 |-
-! {{Headcellstyle}} | Output Arguments
+! {{Headcellstyle}} rowspan="3" | Output Arguments
 | rank
 | int *
 | Rank of data
 |-
-| &nbsp;
 | dimensions
 | int[]
 | Dimensions of data
 |-
-| &nbsp;
 | data_type
 | int *
 | Type of data (see list of valid data types)
