@@ -4,19 +4,20 @@ Opens the NeXus file, and creates and initializes the NeXus file structure. The 
 ;Usage:<pre>status = NXopen (file_name, access_method, file_id)</pre>
 {{APItable}}
 |-
-! {{Headcellstyle}} | Input Arguments
+! {{Headcellstyle}} rowspan="2" | Input Arguments
 | file_name
 | char *
 | Name of NeXus file to be opened
 |-
-| &nbsp;
 | access_method
 | int
-| NXACC_READ - read only access<br>
-NXACC_RDWR - read and write access<br>
-NXACC_CREATE - create (HDF4) access<br>
-NXACC_CREATE4 - create HDF4 access<br>
-NXACC_CREATE5 - create HDF5 access<br>
+| 
+;File Access:NXACC_READ - read only 
+:NXACC_RDWR - read and write access
+:NXACC_CREATE - create (HDF4) file
+:NXACC_CREATE4 - create HDF4 file
+:NXACC_CREATE5 - create HDF5 file
+:NXACC_CREATEXML - create XML file
 |-
 ! {{Headcellstyle}} | Output Arguments
 | file_id

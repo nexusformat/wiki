@@ -16,12 +16,20 @@ structure. The returned handle is a pointer to this structure.
 
     status = NXopen (file_name, access_method, file_id)
 
-|- ! | Input Arguments | file\_name | char \* | Name of NeXus file to be
-opened |- |   | access\_method | int | NXACC\_READ - read only access  
-NXACC\_RDWR - read and write access  
-NXACC\_CREATE - create (HDF4) access  
-NXACC\_CREATE4 - create HDF4 access  
-NXACC\_CREATE5 - create HDF5 access  
+|- ! rowspan=“2” | Input Arguments | file\_name | char \* | Name of
+NeXus file to be opened |- | access\_method | int |
+
+File Access:NXACC\_READ - read only  
+NXACC\_RDWR - read and write access
+
+NXACC\_CREATE - create (HDF4) file
+
+NXACC\_CREATE4 - create HDF4 file
+
+NXACC\_CREATE5 - create HDF5 file
+
+NXACC\_CREATEXML - create XML file
+
 |- ! | Output Arguments | file\_id | NXhandle \* | Identifier of NeXus
 file |}
 
