@@ -18,7 +18,7 @@ The core API comprises the following functional groups:
 *Reading and writing data and attributes to previously opened datasets.
 *Routines to obtain meta-data and to iterate over component datasets and attributes.
 *Handling of linking and group hierarchy.
-===List of NeXus Core API Routines===
+===List of Routines===
 {| {{Tablestyle}}
 |-
 ! {{Headcellstyle}} colspan="2" | General Initialization and Shutdown

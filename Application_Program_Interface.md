@@ -62,7 +62,7 @@ The core API comprises the following functional groups:
     and attributes.
 -   Handling of linking and group hierarchy.
 
-### List of NeXus Core API Routines
+### List of Routines
 
 | General Initialization and Shutdown                       |
 |-----------------------------------------------------------|
