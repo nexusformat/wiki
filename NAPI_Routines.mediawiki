@@ -2,7 +2,7 @@
 ===NXopen===
 Opens the NeXus file, and creates and initializes the NeXus file structure. The returned handle is a pointer to this structure.
 ;Usage:<pre>status = NXopen (file_name, access_method, file_id)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} rowspan="2" | Input Arguments
 | file_name
@@ -28,7 +28,7 @@ Opens the NeXus file, and creates and initializes the NeXus file structure. The 
 ===NXclose===
 Closes NeXus file and deletes all associated data structures from memory.
 ;Usage:<pre>status = NXclose (file_id)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} | Input Arguments
 | file_id
@@ -39,7 +39,7 @@ Closes NeXus file and deletes all associated data structures from memory.
 ===NXmakegroup===
 Creates a NeXus group at the current level in the group hierarchy, defining its name and class. This does not open the new group automatically.
 ;Usage:<pre>status = NXmakegroup (file_id, group_name, group_class)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} rowspan="3" | Input Arguments
 | file_id
@@ -58,7 +58,7 @@ Creates a NeXus group at the current level in the group hierarchy, defining its 
 ===NXopengroup===
 Opens an existing NeXus group for input and output of data.
 ;Usage:<pre>status = NXopengroup (file_id, group_name, group_class)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} rowspan="3" | Input Arguments
 | file_id
@@ -77,7 +77,7 @@ Opens an existing NeXus group for input and output of data.
 ===NXclosegroup===
 Closes the currently open group. If this group is a top-level group (i.e. with class NXentry), no groups are left open. Otherwise, the next group up in the hierarchy (i.e. the group containing the currently open group) is left open.
 ;Usage:<pre>status = NXclosegroup (file_id)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} | Input Arguments
 | file_id
@@ -88,7 +88,7 @@ Closes the currently open group. If this group is a top-level group (i.e. with c
 ===NXmakedata===
 Creates a new NeXus data set with the specified name, type, rank and dimensions.
 ;Usage:<pre>status = NXmakedata (file_id, data_name, data_type, rank, dimensions[])</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} rowspan="5" | Input Arguments
 | file_id
@@ -124,7 +124,7 @@ Creates a new NeXus data set with the specified name, type, rank and dimensions.
 ===NXcompmakedata===
 Creates a new NeXus data set with the specified name, type, rank and dimensions, compressed using the specified protocol.
 ;Usage:<pre>status = NXcompmakedata (file_id, data_name, data_type, rank, dimensions[], compress_type)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} rowspan="6" | Input Arguments
 | file_id
@@ -167,7 +167,7 @@ Creates a new NeXus data set with the specified name, type, rank and dimensions,
 ===NXopendata===
 Opens an existing NeXus data set for further processing i.e. reading and writing data or attributes, defining compression algorithms, and obtaining data set information.
 ;Usage:<pre>status = NXopendata (file_id, data_name)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} rowspan="2" | Input Arguments
 | file_id
@@ -182,7 +182,7 @@ Opens an existing NeXus data set for further processing i.e. reading and writing
 ===NXcompress===
 Defines a compression algorithm for subsequent calls to NXputdata. This routine is now deprecated; please use NXcompmakedata instead.
 ;Usage:<pre>status = NXcompress (file_id, compress_type)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} rowspan="2" | Input Arguments
 | file_id
@@ -200,7 +200,7 @@ Defines a compression algorithm for subsequent calls to NXputdata. This routine 
 ===NXclosedata===
 Ends access to the currently active data set
 ;Usage:<pre>status = NXclosedata (file_id)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} | Input Arguments
 | file_id
@@ -213,7 +213,7 @@ Ends access to the currently active data set
 ===NXgetdata===
 Reads data values from the currently open data set. Please note that memory overwrite occurs if the caller has not allocated enough memory to hold all the data available. Call NXgetinfo to determine the required dimension sizes. The data set must have been opened by NXopendata.
 ;Usage:<pre>status = NXgetdata (file_id, data)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} | Input Arguments
 | file_id
@@ -229,7 +229,7 @@ Reads data values from the currently open data set. Please note that memory over
 ===NXgetslab===
 Reads a subset of the data in the current data set specifying the starting indices and size of each dimension. The caller is responsible for allocating enough memory for the data.
 ;Usage:<pre>status = NXgetslab (file_id, data, start[], size[])</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} rowspan="3" | Input Arguments
 | file_id
@@ -253,7 +253,7 @@ Reads a subset of the data in the current data set specifying the starting indic
 ===NXgetattr===
 Reads attribute values associated with the currently open data set. The attribute is defined by its name. Attributes are meta-data; data that provides information on the associated data set such as units, long names etc. If no data set is open, it looks for a global attribute i.e. attributes of the NeXus file. The caller is responsible for allocating enough memory for the attribute values. Note, however, that only the first 'length' bytes of the attribute are read to prevent memory overwrite.
 ;Usage:<pre>status = NXgetattr (file_id, attr_name, value, length, type)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} rowspan="4" | Input Arguments
 | file_id
@@ -294,7 +294,7 @@ Reads attribute values associated with the currently open data set. The attribut
 ===NXputdata===
 Writes data into the specified data set.
 ;Usage:<pre>status = NXputdata (file_id, data[])</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} rowspan="2" | Input Arguments
 | file_id
@@ -309,7 +309,7 @@ Writes data into the specified data set.
 ===NXputslab===
 Writes a subset of a multidimensional data array, specified by the starting indices and size of each dimension, into the currently open dataset.
 ;Usage:<pre>status = NXputslab (file_id, data, start[], size[])</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} rowspan="4" | Input Arguments
 | file_id
@@ -332,7 +332,7 @@ Writes a subset of a multidimensional data array, specified by the starting indi
 ===NXputattr===
 Writes an attribute of the currently open data set. If no data set is open, a global attribute is generated. The attribute has both a name and a value.
 ;Usage:<pre>status = NXputattr (file_id, attr_name, value, length, type)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} | Return Value
 | status
@@ -373,7 +373,7 @@ Writes an attribute of the currently open data set. If no data set is open, a gl
 ===NXflush===
 Flushes all data to the NeXus file. Since this command closes and reopens the file, a new file handle is returned. The command leaves the program in the same state, i.e. with the same group and/or data set open.
 ;Usage:<pre>status = NXflush (file_id)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} | Input & Output Argument
 | file_id
@@ -386,7 +386,7 @@ Flushes all data to the NeXus file. Since this command closes and reopens the fi
 ===NXgetinfo===
 Gets the rank, dimensions and data type of the currently open data set.
 ;Usage:<pre>status = NXgetinfo (file_id, rank, dimensions[], data_type)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} | Input Arguments
 | file_id
@@ -419,7 +419,7 @@ Gets the rank, dimensions and data type of the currently open data set.
 ===NXgetgroupinfo===
 Returns the number of items in the current group, and the name and class of the current group.
 ;Usage:<pre>status = NXgetgroupinfo (file_id, item_number, group_name, group_class)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} | Input Arguments
 | file_id
@@ -443,7 +443,7 @@ Returns the number of items in the current group, and the name and class of the 
 ===NXinitgroupdir===
 Initializes directory searches of the currently open group. This is required to reset searches using NXgetnextentry that may have been interrupted before completion.
 ;Usage:<pre>status = NXinitgroupdir (file_id)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} | Input Arguments
 | file_id
@@ -454,7 +454,7 @@ Initializes directory searches of the currently open group. This is required to 
 ===NXgetnextentry===
 Implements a directory search facility on the current group level. The first call initializes the search and returns information on the first data item in the list. Subsequent calls yield information about the remaining items. If the item is a group, its name and class is returned. If it is a data set, its name and type is returned with a class of "SDS."
 ;Usage:<pre>status = NXgetnextentry (file_id, name, class, data_type)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR, NX_EOD)}}
 |-
 ! {{Headcellstyle}} | Input Arguments
 | file_id
@@ -487,7 +487,7 @@ Implements a directory search facility on the current group level. The first cal
 ===NXgetattrinfo===
 Returns the number of attributes in the current data set.
 ;Usage:<pre>status = NXgetattrinfo (file_id, attr_number)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} | Input Arguments
 | file_id
@@ -503,7 +503,7 @@ Returns the number of attributes in the current data set.
 ===NXinitattrdir===
 Initializes attribute searches of the currently open data set. This is required to reset searches using NXgetnextattr that may have been interrupted before completion.
 ;Usage:<pre>status = NXinitattrdir (file_id)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} | Input Arguments
 | file_id
@@ -514,7 +514,7 @@ Initializes attribute searches of the currently open data set. This is required 
 ===NXgetnextattr===
 Implements a search facility of the attributes of the currently open data set. The first call initializes the search and returns information on the first attribute in the list. Subsequent calls yield information about the remaining attributes. This routine returns global attributes if no data set is open.
 ;Usage:<pre>status = NXgetnextattr (file_id, attr_name, length, attr_type)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR, NX_EOD)}}
 |-
 ! {{Headcellstyle}} | Input Arguments
 | file_id
@@ -547,7 +547,7 @@ Implements a search facility of the attributes of the currently open data set. T
 ===NXgetgroupID===
 Returns the identifier of the currently open group as an NXlink structure.
 ;Usage:<pre>status = NXgetgroupID (file_id, group_id)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} | Input Arguments
 | file_id
@@ -563,7 +563,7 @@ Returns the identifier of the currently open group as an NXlink structure.
 ===NXgetdataID===
 Gets the identifier of the currently open data set as an NXlink structure. Returns NX_ERROR if there is no open data set.
 ;Usage:<pre>status = NXgetdataID (file_id, data_id)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} | Input Arguments
 | file_id
@@ -579,7 +579,7 @@ Gets the identifier of the currently open data set as an NXlink structure. Retur
 ===NXmakelink===
 Links a data item (group or set) to a NeXus group. Returns NX_ERROR if the current group level is the root level, since no data item can be linked here.
 ;Usage:<pre>status = NXmakelink (file_id, link)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} | Input Arguments
 | file_id
@@ -597,7 +597,7 @@ Links a data item (group or set) to a NeXus group. Returns NX_ERROR if the curre
 ===NXmalloc===
 Allocates memory to the specified data pointer according to the specifed data type, rank and dimensions.
 ;Usage:<pre>status = NXmalloc (void** data, int rank, int dimensions[], int datatype)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} | Output Arguments
 | data
@@ -630,7 +630,7 @@ Allocates memory to the specified data pointer according to the specifed data ty
 ===NXfree===
 Frees memory allocated to the specified data pointer.
 ;Usage:<pre>status = NXfree (data)</pre>
-{{APItable}}
+{{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} | Input Arguments
 | data
