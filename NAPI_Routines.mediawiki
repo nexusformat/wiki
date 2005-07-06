@@ -152,7 +152,8 @@ Creates a new NeXus data set with the specified name, type, rank and dimensions,
 | &nbsp;
 | compress_type
 | int
-| ;Compression algorithm:NX_COMP_LZW - GZIP
+| 
+;Compression algorithm:NX_COMP_LZW - GZIP
 :NX_COMP_HUF - Skipping Huffman
 :NX_COMP_RLE - Run Length Encoding
 |}

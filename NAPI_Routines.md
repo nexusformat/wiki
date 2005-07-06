@@ -106,9 +106,8 @@ dimensions, compressed using the specified protocol.
 data\_type | int | Type of data (see list of valid data types) |- |   |
 rank | int | Rank of data |- |   | dimensions | int\[\] | Dimensions of
 data. The array is of size 'rank' |- |   | compress\_type | int |
-;Compression algorithm:NX\_COMP\_LZW - GZIP
 
-  
+Compression algorithm:NX\_COMP\_LZW - GZIP  
 NX\_COMP\_HUF - Skipping Huffman
 
 NX\_COMP\_RLE - Run Length Encoding
