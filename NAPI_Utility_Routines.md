@@ -179,12 +179,11 @@ group is found.
 
     status = NXUfindclass (file_id, group_class, group_name, find_index)
 
-|- ! | Return Value | status | integer | Error status = NX\_OK if the
-group is found |- ! rowspan=“3” | Input Arguments | file\_id |
-type(NXhandle) | Identifier of NeXus file |- | group\_class |
-character(len=\*) | Requested class |- | find\_index | integer | Search
-index |- ! | Output Arguments | group\_name | character(len=\*) | Name
-of group with that class |}
+|- ! rowspan=“3” | Input Arguments | file\_id | type(NXhandle) |
+Identifier of NeXus file |- | group\_class | character(len=\*) |
+Requested class |- | find\_index | integer | Search index |- ! | Output
+Arguments | group\_name | character(len=\*) | Name of group with that
+class |}
 
 ### NXUfinddata
 
@@ -195,10 +194,9 @@ group. The returned status is NX\_EOD if the data set is not found.
 
     status = NXUfinddata (file_id, data_name)
 
-|- ! | Return Value | status | integer | Error status = NX\_OK if the
-data set is found |- ! rowspan=“2” | Input Arguments | file\_id |
-type(NXhandle) | Identifier of NeXus file |- | data\_name |
-character(len=\*) | Requested data set |}
+|- ! rowspan=“2” | Input Arguments | file\_id | type(NXhandle) |
+Identifier of NeXus file |- | data\_name | character(len=\*) | Requested
+data set |}
 
 ### NXUfindattr
 
@@ -209,10 +207,9 @@ status is NX\_EOD if the attribute is not found.
 
     status = NXUfindattr (file_id, attr_name)
 
-|- ! | Return Value | status | integer | Error status = NX\_OK if the
-attribute is found |- ! rowspan=“2” | Input Arguments | file\_id |
-type(NXhandle) | Identifier of NeXus file |- | attr\_name |
-character(len=\*) | Requested attribute name |}
+|- ! rowspan=“2” | Input Arguments | file\_id | type(NXhandle) |
+Identifier of NeXus file |- | attr\_name | character(len=\*) | Requested
+attribute name |}
 
 ### NXUfindsignal
 
@@ -224,13 +221,12 @@ status is NX\_EOD if the signal data set is not found.
 
     status = NXUfindsignal (file_id, signal, data_name, data_rank, data_type, data_dimensions)
 
-|- ! | Return Value | status | integer | Error status = NX\_OK if the
-data set is found |- ! rowspan=“2” | Input Arguments | file\_id |
-type(NXhandle) | Identifier of NeXus file |- | signal | integer |
-Required value of signal attribute |- ! rowspan=“4” | Output Arguments |
-data\_name | character(len=\*) | Data set with required signal attribute
-|- | data\_rank | integer | Rank of data set |- | data\_type | integer |
-Type of data set (see list of valid data types) |- | data\_dimensions |
+|- ! rowspan=“2” | Input Arguments | file\_id | type(NXhandle) |
+Identifier of NeXus file |- | signal | integer | Required value of
+signal attribute |- ! rowspan=“4” | Output Arguments | data\_name |
+character(len=\*) | Data set with required signal attribute |- |
+data\_rank | integer | Rank of data set |- | data\_type | integer | Type
+of data set (see list of valid data types) |- | data\_dimensions |
 integer(:) | Dimensions of data set |}
 
 ### NXUfindaxis
@@ -244,15 +240,14 @@ status is NX\_EOD if the axis data set is not found.
 
     status = NXUfindaxis (file_id, axis, primary, data_name, data_rank, data_type, data_dimensions)
 
-|- ! | Return Value | status | integer | Error status = NX\_OK if the
-data set is found |- ! rowspan=“3” | Input Arguments | file\_id |
-type(NXhandle) | Identifier of NeXus file |- | axis | integer | Required
-value of axis attribute |- | primary | integer | Required value of
-primary attribute |- ! rowspan=“4” | Output Arguments | data\_name |
-character(len=\*) | Data set with required signal attribute |- |
-data\_rank | integer | Rank of data set |- | data\_type | integer | Type
-of data set (see list of valid data types) |- | data\_dimensions |
-integer(:) | Dimensions of data set |}
+|- ! rowspan=“3” | Input Arguments | file\_id | type(NXhandle) |
+Identifier of NeXus file |- | axis | integer | Required value of axis
+attribute |- | primary | integer | Required value of primary attribute
+|- ! rowspan=“4” | Output Arguments | data\_name | character(len=\*) |
+Data set with required signal attribute |- | data\_rank | integer | Rank
+of data set |- | data\_type | integer | Type of data set (see list of
+valid data types) |- | data\_dimensions | integer(:) | Dimensions of
+data set |}
 
 ### NXUfindlink
 
@@ -267,11 +262,10 @@ not found.
 
     status = NXUfindlink (file_id, group_id, group_class)
 
-|- ! | Return Value | status | integer | Error status = NX\_OK if the
-data set is found |- ! rowspan=“2” | Input Arguments | file\_id |
-type(NXhandle) | Identifier of NeXus file |- | group\_class |
-character(len=\*) | Group classes to be searched. |- ! | Output
-Arguments | group\_id | type(NXlink) | ID of current group. |}
+|- ! rowspan=“2” | Input Arguments | file\_id | type(NXhandle) |
+Identifier of NeXus file |- | group\_class | character(len=\*) | Group
+classes to be searched. |- ! | Output Arguments | group\_id |
+type(NXlink) | ID of current group. |}
 
 ### NXUresumelink
 
@@ -281,7 +275,6 @@ Returns to the original group from which an NXfindlink call was issued.
 
     status = NXUresumelink (file_id, group_id)
 
-|- ! | Return Value | status | integer | Error status = NX\_OK if the
-data set is found |- ! rowspan=“2” | Input Arguments | file\_id |
-type(NXhandle) | Identifier of NeXus file |- | group\_id | type(NXlink)
-| ID of original group |}
+|- ! rowspan=“2” | Input Arguments | file\_id | type(NXhandle) |
+Identifier of NeXus file |- | group\_id | type(NXlink) | ID of original
+group |}

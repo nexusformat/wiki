@@ -228,11 +228,6 @@ Finds if a NeXus group of the requested class exists in the current group and re
 ;Usage:<pre>status = NXUfindclass (file_id, group_class, group_name, find_index)</pre>
 {{API90table|(NX_OK, NX_ERROR, NX_EOD)}}
 |-
-! {{Headcellstyle}} | Return Value
-| status
-| integer
-| Error status = NX_OK if the group is found
-|-
 ! {{Headcellstyle}} rowspan="3" | Input Arguments
 | file_id
 | type(NXhandle)
@@ -257,11 +252,6 @@ Finds if a NeXus data set of the requested name exists in the current group.  Th
 ;Usage:<pre>status = NXUfinddata (file_id, data_name)</pre>
 {{API90table|(NX_OK, NX_ERROR, NX_EOD)}}
 |-
-! {{Headcellstyle}} | Return Value
-| status
-| integer
-| Error status = NX_OK if the data set is found
-|-
 ! {{Headcellstyle}} rowspan="2" | Input Arguments
 | file_id
 | type(NXhandle)
@@ -277,11 +267,6 @@ Finds if a NeXus attribute of the current data set exists.  The returned status 
 ;Usage:<pre>status = NXUfindattr (file_id, attr_name)</pre>
 {{API90table|(NX_OK, NX_ERROR, NX_EOD)}}
 |-
-! {{Headcellstyle}} | Return Value
-| status
-| integer
-| Error status = NX_OK if the attribute is found
-|-
 ! {{Headcellstyle}} rowspan="2" | Input Arguments
 | file_id
 | type(NXhandle)
@@ -296,11 +281,6 @@ Finds if a NeXus attribute of the current data set exists.  The returned status 
 Finds the NeXus data set in the current group with the required signal attribute, and returns its name, rank, type and dimensions.  The returned status is NX_EOD if the signal data set is not found.
 ;Usage:<pre>status = NXUfindsignal (file_id, signal, data_name, data_rank, data_type, data_dimensions)</pre>
 {{API90table|(NX_OK, NX_ERROR, NX_EOD)}}
-|-
-! {{Headcellstyle}} | Return Value
-| status
-| integer
-| Error status = NX_OK if the data set is found
 |-
 ! {{Headcellstyle}} rowspan="2" | Input Arguments
 | file_id
@@ -333,11 +313,6 @@ Finds the NeXus data set in the current group with the required signal attribute
 Finds the NeXus data set in the current group with the required axis and primary attributes, and returns its name, rank, type and dimensions. Note that the axis data set should be one-dimensional. The returned status is NX_EOD if the axis data set is not found.
 ;Usage:<pre>status = NXUfindaxis (file_id, axis, primary, data_name, data_rank, data_type, data_dimensions)</pre>
 {{API90table|(NX_OK, NX_ERROR, NX_EOD)}}
-|-
-! {{Headcellstyle}} | Return Value
-| status
-| integer
-| Error status = NX_OK if the data set is found
 |-
 ! {{Headcellstyle}} rowspan="3" | Input Arguments
 | file_id
@@ -375,11 +350,6 @@ Finds another group to which the currently open data set is linked and leaves it
 ;Usage:<pre>status = NXUfindlink (file_id, group_id, group_class)</pre>
 {{API90table|(NX_OK, NX_ERROR, NX_EOD)}}
 |-
-! {{Headcellstyle}} | Return Value
-| status
-| integer
-| Error status = NX_OK if the data set is found
-|-
 ! {{Headcellstyle}} rowspan="2" | Input Arguments
 | file_id
 | type(NXhandle)
@@ -399,11 +369,6 @@ Finds another group to which the currently open data set is linked and leaves it
 Returns to the original group from which an NXfindlink call was issued.
 ;Usage:<pre>status = NXUresumelink (file_id, group_id)</pre>
 {{API90table|(NX_OK, NX_ERROR)}}
-|-
-! {{Headcellstyle}} | Return Value
-| status
-| integer
-| Error status = NX_OK if the data set is found
 |-
 ! {{Headcellstyle}} rowspan="2" | Input Arguments
 | file_id
