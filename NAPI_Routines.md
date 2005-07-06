@@ -132,8 +132,8 @@ obtaining data set information.
 
     status = NXopendata (file_id, data_name)
 
-|- ! | Input Arguments | file\_id | NXhandle | Identifier of NeXus file
-|- |   | data\_name | char \* | Name of NeXus data set |}
+|- ! rowspan=“2” | Input Arguments | file\_id | NXhandle | Identifier of
+NeXus file |- | data\_name | char \* | Name of NeXus data set |}
 
 ### NXcompress
 

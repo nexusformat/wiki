@@ -151,17 +151,15 @@ Opens an existing NeXus data set for further processing i.e. reading and writing
 ;Usage:<pre>status = NXopendata (file_id, data_name)</pre>
 {{APItable}}
 |-
-! {{Headcellstyle}} | Input Arguments
+! {{Headcellstyle}} rowspan="2" | Input Arguments
 | file_id
 | NXhandle
 | Identifier of NeXus file
 |-
-| &nbsp;
 | data_name
 | char *
 | Name of NeXus data set
 |}
-
 
 ===NXcompress===
 Defines a compression algorithm for subsequent calls to NXputdata. This routine is now deprecated; please use NXcompmakedata instead.
