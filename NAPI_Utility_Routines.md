@@ -162,11 +162,10 @@ The returned status is NX\_EOD if the group is not found.
 
     status = NXUfindgroup (file_id, group_name, group_class)
 
-|- ! | Return Value | status | integer | Error status = NX\_OK if the
-group is found |- ! rowspan=“2” | Input Arguments | file\_id |
-type(NXhandle) | Identifier of NeXus file |- | group\_name |
-character(len=\*) | Name of group |- ! | Output Arguments | group\_class
-| character(len=\*) | Class of group |}
+|- ! rowspan=“2” | Input Arguments | file\_id | type(NXhandle) |
+Identifier of NeXus file |- | group\_name | character(len=\*) | Name of
+group |- ! | Output Arguments | group\_class | character(len=\*) | Class
+of group |}
 
 ### NXUfindclass
 
