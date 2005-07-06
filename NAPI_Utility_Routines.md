@@ -156,6 +156,7 @@ before data compression is attempted. |}
 ### NXUfindgroup
 
 Finds if NeXus group exists in the current group and returns its class.
+The returned status is NX\_EOD if the group is not found.
 
 ;Usage:
 

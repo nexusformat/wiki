@@ -204,7 +204,7 @@ Sets the compression type to be used in subsequent calls to NXUwritedata. The se
 |}
 
 ===NXUfindgroup===
-Finds if NeXus group exists in the current group and returns its class.
+Finds if NeXus group exists in the current group and returns its class. The returned status is NX_EOD if the group is not found.
 ;Usage:<pre>status = NXUfindgroup (file_id, group_name, group_class)</pre>
 {{API90table|(NX_OK, NX_ERROR, NX_EOD)}}
 |-
