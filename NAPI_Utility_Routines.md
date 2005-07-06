@@ -218,7 +218,8 @@ character(len=\*) | Requested attribute name |}
 ### NXUfindsignal
 
 Finds the NeXus data set in the current group with the required signal
-attribute, and returns its name, rank, type and dimensions.
+attribute, and returns its name, rank, type and dimensions. The returned
+status is NX\_EOD if the signal data set is not found.
 
 ;Usage:
 

@@ -298,7 +298,7 @@ Finds if a NeXus attribute of the current data set exists.  The returned status 
 |}
 
 ===NXUfindsignal===
-Finds the NeXus data set in the current group with the required signal attribute, and returns its name, rank, type and dimensions.
+Finds the NeXus data set in the current group with the required signal attribute, and returns its name, rank, type and dimensions.  The returned status is NX_EOD if the signal data set is not found.
 ;Usage:<pre>status = NXUfindsignal (file_id, signal, data_name, data_rank, data_type, data_dimensions)</pre>
 {{API90table|(NX_OK, NX_ERROR, NX_EOD)}}
 |-
