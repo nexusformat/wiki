@@ -91,19 +91,23 @@ The core API comprises the following functional groups:
 |[[NAPI Routines#NXfree|NXfree]] || Frees previously allocated memory
 |}
 
+===C Interface===
+C programs that call the above routines should include the following header file:
+<pre>#include "napi.h"</pre>
+
 ===Fortran 77 Interface===
 Wrapper routines to interface the Fortran and C code have been developed by Freddie Akeroyd. The routines have the same names and argument lists as the corresponding C routines, although we have added extra routines for the input/output of character data and attributes. Care must be taken to ensure enough space is allocated for the input/output operations being performed.
 
 It is necessary to reverse the order of indices in multidimensional arrays, compared to an equivalent C program, so that data are stored in the same order in the NeXus file.
 
 Any program using the F77 API needs to include the following line near the top in order to define the required constants (NXHANDLESIZE, NXLINKSIZE, etc.) :
-
 <pre>include 'NAPIF.INC'</pre>
-Here is a comparison of the types used in the C and F77 interface.
-{| {{Template:Tablestyle}}
+
+Use the following table to convert from the C data types listed with each routine to the F77 data types.
+{| {{Tablestyle}}
 |-
-! {{Template:Headcellstyle}} width="30%" | C
-! {{Template:Headcellstyle}} width="70%" | Fortran
+! {{Headcellstyle}} width="40%" | C
+! {{Headcellstyle}} width="60%" | Fortran
 |-
 | int a, int* a || INTEGER A
 |-

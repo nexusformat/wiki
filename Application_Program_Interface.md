@@ -100,6 +100,13 @@ The core API comprises the following functional groups:
 | [NXmalloc](NAPI_Routines#NXmalloc "wikilink")             |
 | [NXfree](NAPI_Routines#NXfree "wikilink")                 |
 
+### C Interface
+
+C programs that call the above routines should include the following
+header file:
+
+    #include "napi.h"
+
 ### Fortran 77 Interface
 
 Wrapper routines to interface the Fortran and C code have been developed
@@ -119,12 +126,13 @@ NXLINKSIZE, etc.) :
 
     include 'NAPIF.INC'
 
-Here is a comparison of the types used in the C and F77 interface.
+Use the following table to convert from the C data types listed with
+each routine to the F77 data types.
 
 <table>
 <colgroup>
-<col width="30%" />
-<col width="70%" />
+<col width="40%" />
+<col width="60%" />
 </colgroup>
 <thead>
 <tr class="header">
