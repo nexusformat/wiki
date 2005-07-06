@@ -14,9 +14,9 @@ structure. The returned handle is a pointer to this structure.
 
 <table>
 <colgroup>
-<col width="25%" />
+<col width="20%" />
 <col width="15%" />
-<col width="10%" />
+<col width="15%" />
 <col width="50%" />
 </colgroup>
 <thead>
