@@ -152,6 +152,27 @@ Use the following table to convert from the C data types listed with each routin
 |-
 |NXlink a, NXlink* a || type(NXlink)
 |}
+The following parameters, which are defined in NXmodule, may be used in defining variables.
+{| {{Tablestyle}}
+|-
+! {{Headcellstyle}} width="25%" | Name
+! {{Headcellstyle}} width="50%" | Description
+! {{Headcellstyle}} width="25%" | Value
+|-
+|NX_MAXRANK||Maximum number of dimensions||32
+|-
+|NX_MAXNAMELEN||Maximum length of NeXus name||64
+|-
+|NXi1||Kind parameter for a 1-byte integer||selected_int_kind(2)
+|-
+|NXi2||Kind parameter for a 2-byte integer||selected_int_kind(4)
+|-
+|NXi4||Kind parameter for a 4-byte integer||selected_int_kind(8)
+|-
+|NXr4||Kind parameter for a 4-byte real||kind(1.0)
+|-
+|NXr8||Kind parameter for an 8-byte real||kind(1.0D0)
+|}
 
 ===Java Interface===
 NeXus for Java provides access to NeXus data files for programs written in Java. This API was implemented by Java code calling the original C language NeXus API through the Java Native Methods Interface.

@@ -233,6 +233,61 @@ character(len=*)</p></td>
 </tbody>
 </table>
 
+The following parameters, which are defined in NXmodule, may be used in
+defining variables.
+
+<table>
+<colgroup>
+<col width="25%" />
+<col width="50%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Name</p></th>
+<th><p>Description</p></th>
+<th><p>Value</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>NX_MAXRANK</p></td>
+<td><p>Maximum number of dimensions</p></td>
+<td><p>32</p></td>
+</tr>
+<tr class="even">
+<td><p>NX_MAXNAMELEN</p></td>
+<td><p>Maximum length of NeXus name</p></td>
+<td><p>64</p></td>
+</tr>
+<tr class="odd">
+<td><p>NXi1</p></td>
+<td><p>Kind parameter for a 1-byte integer</p></td>
+<td><p>selected_int_kind(2)</p></td>
+</tr>
+<tr class="even">
+<td><p>NXi2</p></td>
+<td><p>Kind parameter for a 2-byte integer</p></td>
+<td><p>selected_int_kind(4)</p></td>
+</tr>
+<tr class="odd">
+<td><p>NXi4</p></td>
+<td><p>Kind parameter for a 4-byte integer</p></td>
+<td><p>selected_int_kind(8)</p></td>
+</tr>
+<tr class="even">
+<td><p>NXr4</p></td>
+<td><p>Kind parameter for a 4-byte real</p></td>
+<td><p>kind(1.0)</p></td>
+</tr>
+<tr class="odd">
+<td><p>NXr8</p></td>
+<td><p>Kind parameter for an 8-byte real</p></td>
+<td><p>kind(1.0D0)</p></td>
+</tr>
+</tbody>
+</table>
+
 ### Java Interface
 
 NeXus for Java provides access to NeXus data files for programs written
