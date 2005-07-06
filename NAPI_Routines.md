@@ -51,7 +51,7 @@ automatically.
 |- |   | group\_name | char \* | Name of NeXus group |- |   |
 group\_class | char \* | Class of NeXus group |}
 
-### NXopengroup (file\_id, group\_name, group\_class)
+### NXopengroup
 
 Opens an existing NeXus group for input and output of data.
 
@@ -63,7 +63,7 @@ Opens an existing NeXus group for input and output of data.
 |- |   | group\_name | char \* | Name of NeXus group |- |   |
 group\_class | char \* | Class of NeXus group |}
 
-### NXclosegroup (file\_id)
+### NXclosegroup
 
 Closes the currently open group. If this group is a top-level group
 (i.e. with class NXentry), no groups are left open. Otherwise, the next
@@ -77,7 +77,7 @@ group) is left open.
 |- ! | Input Arguments | file\_id | NXhandle | Identifier of NeXus file
 |}
 
-### NXmakedata (file\_id, data\_name, data\_type, rank, dimensions\[\])
+### NXmakedata
 
 Creates a new NeXus data set with the specified name, type, rank and
 dimensions.
@@ -92,7 +92,7 @@ data\_type | int | Type of data (see list of valid data types) |- |   |
 rank | int | Rank of data |- |   | dimensions | int\[\] | Dimensions of
 data. The array is of size 'rank' |}
 
-### NXcompmakedata (file\_id, data\_name, data\_type, rank, dimensions\[\], compress\_type)
+### NXcompmakedata
 
 Creates a new NeXus data set with the specified name, type, rank and
 dimensions, compressed using the specified protocol.
@@ -106,10 +106,16 @@ dimensions, compressed using the specified protocol.
 data\_type | int | Type of data (see list of valid data types) |- |   |
 rank | int | Rank of data |- |   | dimensions | int\[\] | Dimensions of
 data. The array is of size 'rank' |- |   | compress\_type | int |
-Compression algorithm to be used : NX\_COMP\_LZW - GZIP NX\_COMP\_HUF -
-Skipping Huffman NX\_COMP\_RLE - Run Length Encoding |}
+;Compression algorithm:NX\_COMP\_LZW - GZIP
 
-### NXopendata (file\_id, data\_name)
+  
+NX\_COMP\_HUF - Skipping Huffman
+
+NX\_COMP\_RLE - Run Length Encoding
+
+|}
+
+### NXopendata
 
 Opens an existing NeXus data set for further processing i.e. reading and
 writing data or attributes, defining compression algorithms, and
@@ -122,7 +128,7 @@ obtaining data set information.
 |- ! | Input Arguments | file\_id | NXhandle | Identifier of NeXus file
 |- |   | data\_name | char \* | Name of NeXus data set |}
 
-### NXcompress (file\_id, compress\_type)
+### NXcompress
 
 Defines a compression algorithm for subsequent calls to NXputdata. This
 routine is now deprecated; please use NXcompmakedata instead.
@@ -136,7 +142,7 @@ routine is now deprecated; please use NXcompmakedata instead.
 NX\_COMP\_LZW - GZIP NX\_COMP\_HUF - Skipping Huffman NX\_COMP\_RLE -
 Run Length Encoding |}
 
-### NXclosedata (file\_id)
+### NXclosedata
 
 Ends access to the currently active data set
 
@@ -150,7 +156,7 @@ Ends access to the currently active data set
 Reading and Writing
 -------------------
 
-### NXgetdata (file\_id, data)
+### NXgetdata
 
 Reads data values from the currently open data set. Please note that
 memory overwrite occurs if the caller has not allocated enough memory to
@@ -165,7 +171,7 @@ dimension sizes. The data set must have been opened by NXopendata.
 | file\_id | NXhandle | Identifier of NeXus file |- ! | Output Arguments
 | data | void \* | Data values |}
 
-### NXgetslab (file\_id, data, start\[\], size\[\])
+### NXgetslab
 
 Reads a subset of the data in the current data set specifying the
 starting indices and size of each dimension. The caller is responsible
@@ -180,7 +186,7 @@ for allocating enough memory for the data.
 |- |   | size\[\] | int | Length of slab in each dimension |- ! | Output
 Arguments | data | void \* | Data values |}
 
-### NXgetattr (file\_id, attr\_name, value, length, type)
+### NXgetattr
 
 Reads attribute values associated with the currently open data set. The
 attribute is defined by its name. Attributes are meta-data; data that
@@ -202,7 +208,7 @@ overwrite.
 Arguments | value | void \* | Value of attribute |- |   | length | int
 \* | Actual length of attribute data |}
 
-### NXputdata (file\_id, data\[\])
+### NXputdata
 
 Writes data into the specified data set.
 
@@ -213,7 +219,7 @@ Writes data into the specified data set.
 |- ! | Input Arguments | file\_id | NXhandle | Identifier of NeXus file
 |- |   | data | void \* | Data values |}
 
-### NXputslab (file\_id, data, start\[\], size\[\])
+### NXputslab
 
 Writes a subset of a multidimensional data array, specified by the
 starting indices and size of each dimension, into the currently open
@@ -228,7 +234,7 @@ dataset.
 of starting values in each dimension |- |   | size\[\] | int | Length of
 slab in each dimension |}
 
-### NXputattr (file\_id, attr\_name, value, length, type)
+### NXputattr
 
 Writes an attribute of the currently open data set. If no data set is
 open, a global attribute is generated. The attribute has both a name and
@@ -244,7 +250,7 @@ char \* | Name of attribute |- |   | value | void \* | Value of
 attribute |- |   | length | int | Length of data |- |   | type | int |
 Type of attribute data (see list of valid data types) |}
 
-### NXflush (file\_id)
+### NXflush
 
 Flushes all data to the NeXus file. Since this command closes and
 reopens the file, a new file handle is returned. The command leaves the
@@ -262,7 +268,7 @@ NeXus file |}
 Meta-Data Routines
 ------------------
 
-### NXgetinfo (file\_id, rank, dimensions\[\], data\_type)
+### NXgetinfo
 
 Gets the rank, dimensions and data type of the currently open data set.
 
@@ -275,7 +281,7 @@ Gets the rank, dimensions and data type of the currently open data set.
 dimensions | int\[\] | Dimensions of data |- |   | data\_type | int \* |
 Type of data (see list of valid data types) |}
 
-### NXgetgroupinfo (file\_id, item\_number, group\_name, group\_class)
+### NXgetgroupinfo
 
 Returns the number of items in the current group, and the name and class
 of the current group.
@@ -290,7 +296,7 @@ items in the current group |- |   | group\_name | char \* | Name of
 currently open NeXus group |- |   | group\_class | char \* | Class of
 currently open NeXus group |}
 
-### NXinitgroupdir (file\_id)
+### NXinitgroupdir
 
 Initializes directory searches of the currently open group. This is
 required to reset searches using NXgetnextentry that may have been
@@ -303,7 +309,7 @@ interrupted before completion.
 |- ! | Input Arguments | file\_id | NXhandle | Identifier of NeXus file
 |}
 
-### NXgetnextentry (file\_id, name, class, data\_type)
+### NXgetnextentry
 
 Implements a directory search facility on the current group level. The
 first call initializes the search and returns information on the first
@@ -321,7 +327,7 @@ If it is a data set, its name and type is returned with a class of
 (group or set) |- |   | class | char \* | Class of NeXus group |- |   |
 data\_type | int \* | Type of data set (see list of valid data types) |}
 
-### NXgetattrinfo (file\_id, attr\_number)
+### NXgetattrinfo
 
 Returns the number of attributes in the current data set.
 
@@ -333,7 +339,7 @@ Returns the number of attributes in the current data set.
 |- ! | Output Arguments | attr\_number | int \* | Number of attributes
 in the current data set |}
 
-### NXinitattrdir (file\_id)
+### NXinitattrdir
 
 Initializes attribute searches of the currently open data set. This is
 required to reset searches using NXgetnextattr that may have been
@@ -346,7 +352,7 @@ interrupted before completion.
 |- ! | Input Arguments | file\_id | NXhandle | Identifier of NeXus file
 |}
 
-### NXgetnextattr (file\_id, attr\_name, length, type)
+### NXgetnextattr
 
 Implements a search facility of the attributes of the currently open
 data set. The first call initializes the search and returns information
@@ -363,7 +369,7 @@ if no data set is open.
 |- |   | length | int \* | Length of next attribute |- |   | type | int
 \* | Type of next attribute (see list of valid data types) |}
 
-### NXgetgroupID (file\_id, group\_id)
+### NXgetgroupID
 
 Returns the identifier of the currently open group as an NXlink
 structure.
@@ -376,7 +382,7 @@ structure.
 |- ! | Output Arguments | group\_id | NXlink \* | Identifier of NeXus
 group |}
 
-### NXgetdataID (file\_id, data\_id)
+### NXgetdataID
 
 Gets the identifier of the currently open data set as an NXlink
 structure. Returns NX\_ERROR if there is no open data set.
@@ -389,7 +395,7 @@ structure. Returns NX\_ERROR if there is no open data set.
 |- ! | Output Arguments | data\_id | NXlink \* | Identifier of NeXus
 data set |}
 
-### NXmakelink (file\_id, link)
+### NXmakelink
 
 Links a data item (group or set) to a NeXus group. Returns NX\_ERROR if
 the current group level is the root level, since no data item can be
