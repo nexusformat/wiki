@@ -261,7 +261,8 @@ Finds another group to which the currently open data set is linked and
 leaves it open for getting associated data. “group\_id” stores the ID of
 the original group to enable a subsequent return (see NXUresumelink).
 “group\_class” is an optional argument which restricts the search to the
-specified group class.
+specified group class. The returned status is NX\_EOD if the group is
+not found.
 
 ;Usage:
 

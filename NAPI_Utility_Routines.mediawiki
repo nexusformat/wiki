@@ -376,7 +376,7 @@ Finds the NeXus data set in the current group with the required axis and primary
 |}
 
 ===NXUfindlink===
-Finds another group to which the currently open data set is linked and leaves it open for getting associated data. "group_id" stores the ID of the original group to enable a subsequent return (see NXUresumelink). "group_class" is an optional argument which restricts the search to the specified group class.
+Finds another group to which the currently open data set is linked and leaves it open for getting associated data. "group_id" stores the ID of the original group to enable a subsequent return (see NXUresumelink). "group_class" is an optional argument which restricts the search to the specified group class.  The returned status is NX_EOD if the group is not found.
 ;Usage:<pre>status = NXUfindlink (file_id, group_id, group_class)</pre>
 {{API90table|(NX_OK, NX_ERROR, NX_EOD)}}
 |-
