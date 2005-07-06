@@ -180,11 +180,6 @@ necessary to reverse the order of indices in multidimensional arrays,
 compared to an equivalent C program, so that data are stored in the same
 order in the NeXus file.
 
-Furthermore, we have developed a set of utility functions which are
-designed to make the reading and writing of NeXus data files even easier
-to code. When the manpower is available, equivalent functions will be
-ported back to C.
-
 Any program using the F90 API needs to put the following line at the top
 (after the PROGRAM statement) :
 
