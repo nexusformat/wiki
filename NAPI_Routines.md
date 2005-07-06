@@ -192,10 +192,10 @@ for allocating enough memory for the data.
 
     status = NXgetslab (file_id, data, start[], size[])
 
-|- ! | Input Arguments | file\_id | NXhandle | Identifier of NeXus file
-|- |   | start\[\] | int | Indices of starting values in each dimension
-|- |   | size\[\] | int | Length of slab in each dimension |- ! | Output
-Arguments | data | void \* | Data values |}
+|- ! rowspan=“3” | Input Arguments | file\_id | NXhandle | Identifier of
+NeXus file |- | start\[\] | int | Indices of starting values in each
+dimension |- | size\[\] | int | Length of slab in each dimension |- ! |
+Output Arguments | data | void \* | Data values |}
 
 ### NXgetattr
 

@@ -213,17 +213,15 @@ Reads a subset of the data in the current data set specifying the starting indic
 ;Usage:<pre>status = NXgetslab (file_id, data, start[], size[])</pre>
 {{APItable}}
 |-
-! {{Headcellstyle}} | Input Arguments
+! {{Headcellstyle}} rowspan="3" | Input Arguments
 | file_id
 | NXhandle
 | Identifier of NeXus file
 |-
-| &nbsp;
 | start[]
 | int
 | Indices of starting values in each dimension
 |-
-| &nbsp;
 | size[]
 | int
 | Length of slab in each dimension
