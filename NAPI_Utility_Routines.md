@@ -17,13 +17,12 @@ syntax can be used for all of them, *e.g.*,
 
     status = NXUwriteglobals (file_id, user, affiliation, address, phone, fax, email)
 
-|- ! | Return Value | status | integer | Error status |- ! rowspan=“7” |
-Input Arguments | file\_id | type(NXhandle) | Identifier of NeXus file
-|- | user | character(len=\*) | Name of user |- | affiliation |
-character(len=\*) | User's affiliation |- | address | character(len=\*)
-| User's address |- | phone | character(len=\*) | User's telephone
-number |- | fax | character(len=\*) | User's fax number |- | email |
-character(len=\*) | User's email address |}
+|- ! rowspan=“7” | Input Arguments | file\_id | type(NXhandle) |
+Identifier of NeXus file |- | user | character(len=\*) | Name of user |-
+| affiliation | character(len=\*) | User's affiliation |- | address |
+character(len=\*) | User's address |- | phone | character(len=\*) |
+User's telephone number |- | fax | character(len=\*) | User's fax number
+|- | email | character(len=\*) | User's email address |}
 
 ### NXUwritegroup
 
@@ -33,10 +32,9 @@ Creates a NeXus group leaving it open for subsequent data output.
 
     status = NXUwritegroup (file_id, group_name, group_class)
 
-|- ! | Return Value | status | integer | Error status |- ! rowspan=“3” |
-Input Arguments | file\_id | type(NXhandle) | Identifier of NeXus file
-|- | group\_name | character(len=\*) | Name of group |- | group\_class |
-character(len=\*) | Class of group |}
+|- ! rowspan=“3” | Input Arguments | file\_id | type(NXhandle) |
+Identifier of NeXus file |- | group\_name | character(len=\*) | Name of
+group |- | group\_class | character(len=\*) | Class of group |}
 
 ### NXUwritedata
 
@@ -51,10 +49,9 @@ in NXUsetcompress.
 
     status = NXUwritedata (file_id, data_name, data, units, data_start, data_size)
 
-|- ! | Return Value | status | integer | Error status |- ! rowspan=“7”|
-Input Arguments |- | file\_id | type(NXhandle) | Identifier of NeXus
-file |- | data\_name | character(len=\*) | Name of data set |- | data |
-integer  
+|- ! rowspan=“7”| Input Arguments |- | file\_id | type(NXhandle) |
+Identifier of NeXus file |- | data\_name | character(len=\*) | Name of
+data set |- | data | integer  
 integer(:)  
 integer(:,:)  
 integer(:,:,:)  
@@ -78,12 +75,11 @@ dimensions are required, use the core API (see NXgetdata). “units”,
 
     status = NXUreaddata (file_id, data_name, data, units, data_start, data_size)
 
-|- ! | Return Value | status | integer | Error status |- ! rowspan=“4” |
-Input Arguments | file\_id | type(NXhandle) | Identifier of NeXus file
-|- | data\_name | character(len=\*) | Name of data set |- | start |
-integer(:) | Starting indices of data slab (optional) |- | size |
-integer(:) | Length of each dimension of data slab (optional) |- !
-rowspan=“2” | Output Arguments | data | integer  
+|- ! rowspan=“4” | Input Arguments | file\_id | type(NXhandle) |
+Identifier of NeXus file |- | data\_name | character(len=\*) | Name of
+data set |- | start | integer(:) | Starting indices of data slab
+(optional) |- | size | integer(:) | Length of each dimension of data
+slab (optional) |- ! rowspan=“2” | Output Arguments | data | integer  
 integer(:)  
 integer(:,:)  
 integer(:,:,:)  
@@ -107,11 +103,10 @@ regeneration of the bin boundaries by NXUreadhistogram.
 
     status = NXUwritehistogram (file_id, data_name, data, units)
 
-|- ! | Return Value | status | integer | Error status |- ! rowspan=“4” |
-Input Arguments | file\_id | type(NXhandle) | Identifier of NeXus file
-|- | data\_name | character(len=\*) | Name of histogram |- | data |
-real(:), pointer | Histogram bin boundaries |- | units |
-character(len=\*) | Data units (optional) |}
+|- ! rowspan=“4” | Input Arguments | file\_id | type(NXhandle) |
+Identifier of NeXus file |- | data\_name | character(len=\*) | Name of
+histogram |- | data | real(:), pointer | Histogram bin boundaries |- |
+units | character(len=\*) | Data units (optional) |}
 
 ### NXUreadhistogram
 
@@ -127,11 +122,11 @@ first bin width equals the separation of the first two bin centers.
 
     status = NXUreadhistogram (file_id, data_name, data, units)
 
-|- ! | Return Value | status | integer | Error status |- ! rowspan=“2” |
-Input Arguments | file\_id | type(NXhandle) | Identifier of NeXus file
-|- | data\_name | character(len=\*) | Name of histogram |- ! rowspan=“2”
-| Output Arguments | data | real(:), pointer | Histogram bin boundaries
-|- | units | character(len=\*) | Data units (optional) |}
+|- ! rowspan=“2” | Input Arguments | file\_id | type(NXhandle) |
+Identifier of NeXus file |- | data\_name | character(len=\*) | Name of
+histogram |- ! rowspan=“2” | Output Arguments | data | real(:), pointer
+| Histogram bin boundaries |- | units | character(len=\*) | Data units
+(optional) |}
 
 ### NXUsetcompress
 
@@ -145,9 +140,8 @@ default value is 100.
 
     status = NXUsetcompress (file_id, compress_type, compress_size)
 
-|- ! | Return Value | status | integer | Error status |- ! rowspan=“3” |
-Input Arguments | file\_id | type(NXhandle) | Identifier of NeXus file
-|- | compress\_type | integer |
+|- ! rowspan=“3” | Input Arguments | file\_id | type(NXhandle) |
+Identifier of NeXus file |- | compress\_type | integer |
 
 Compression algorithm:NX\_COMP\_LZW - GZIP  
 NX\_COMP\_HUF - Skipping Huffman

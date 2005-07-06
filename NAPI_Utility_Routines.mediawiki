@@ -4,11 +4,6 @@ Writes the global attributes defined in the NeXus standard. Note that NeXus_vers
 ;Usage:<pre>status = NXUwriteglobals (file_id, user, affiliation, address, phone, fax, email)</pre>
 {{API90table|(NX_OK, NX_ERROR)}}
 |-
-! {{Headcellstyle}} | Return Value
-| status
-| integer
-| Error status
-|-
 ! {{Headcellstyle}} rowspan="7" | Input Arguments
 | file_id
 | type(NXhandle)
@@ -44,11 +39,6 @@ Creates a NeXus group leaving it open for subsequent data output.
 ;Usage:<pre>status = NXUwritegroup (file_id, group_name, group_class)</pre>
 {{API90table|(NX_OK, NX_ERROR)}}
 |-
-! {{Headcellstyle}} | Return Value
-| status
-| integer
-| Error status
-|-
 ! {{Headcellstyle}} rowspan="3" | Input Arguments
 | file_id
 | type(NXhandle)
@@ -67,11 +57,6 @@ Creates a NeXus group leaving it open for subsequent data output.
 Creates, opens and writes a NeXus data set in the current group. "data" can be a scalar value, or a one-, two-, or three-dimensional array. If higher dimensions are required, use the core API (see NXputdata). "units", "data_start" and "data_size" are optional parameters. If you want the data set to be compressed, set default compression parameters in NXUsetcompress.
 ;Usage:<pre>status = NXUwritedata (file_id, data_name, data, units, data_start, data_size)</pre>
 {{API90table|(NX_OK, NX_ERROR)}}
-|-
-! {{Headcellstyle}} | Return Value
-| status
-| integer
-| Error status
 |-
 ! {{Headcellstyle}} rowspan="7"| Input Arguments
 |-
@@ -113,11 +98,6 @@ Opens and reads a NeXus data set in the current group. "data" can be a scalar va
 ;Usage:<pre>status = NXUreaddata (file_id, data_name, data, units, data_start, data_size)</pre>
 {{API90table|(NX_OK, NX_ERROR)}}
 |-
-! {{Headcellstyle}} | Return Value
-| status
-| integer
-| Error status
-|-
 ! {{Headcellstyle}} rowspan="4" | Input Arguments
 | file_id
 | type(NXhandle)
@@ -158,11 +138,6 @@ Creates, opens and writes a one dimensional NeXus data item with units. The inpu
 ;Usage:<pre>status = NXUwritehistogram (file_id, data_name, data, units)</pre>
 {{API90table|(NX_OK, NX_ERROR)}}
 |-
-! {{Headcellstyle}} | Return Value
-| status
-| integer
-| Error status
-|-
 ! {{Headcellstyle}} rowspan="4" | Input Arguments
 | file_id
 | type(NXhandle)
@@ -185,11 +160,6 @@ Creates, opens and writes a one dimensional NeXus data item with units. The inpu
 Opens and reads a one dimensional real data set in the current group. The data are assumed to be histogram bin boundaries, which are stored in NeXus files as bin centers with the first bin offset defined as the attribute "histogram_offset", i.e. the returned array has a dimension one greater than the stored array (see NXUwritehistogram). If the "histogram_offset" attribute is not present, it is assumed that the first bin width equals the separation of the first two bin centers.
 ;Usage:<pre>status = NXUreadhistogram (file_id, data_name, data, units)</pre>
 {{API90table|(NX_OK, NX_ERROR)}}
-|-
-! {{Headcellstyle}} | Return Value
-| status
-| integer
-| Error status
 |-
 ! {{Headcellstyle}} rowspan="2" | Input Arguments
 | file_id
@@ -214,11 +184,6 @@ Opens and reads a one dimensional real data set in the current group. The data a
 Sets the compression type to be used in subsequent calls to NXUwritedata. The second parameter, which is optional, sets the minimum number of elements in a data set before any compression is performed. This is to prevent inefficient compression of small data sets. The default value is 100.
 ;Usage:<pre>status = NXUsetcompress (file_id, compress_type, compress_size)</pre>
 {{API90table|(NX_OK, NX_ERROR)}}
-|-
-! {{Headcellstyle}} | Return Value
-| status
-| integer
-| Error status
 |-
 ! {{Headcellstyle}} rowspan="3" | Input Arguments
 | file_id
