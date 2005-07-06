@@ -132,6 +132,27 @@ Any program using the F90 API needs to put the following line at the top (after 
 use NXmodule
 </pre>
 
+Use the following table to convert from the C data types listed with each routine to the Fortran 90 data types.
+{| {{Tablestyle}}
+|-
+! {{Headcellstyle}} width="50%" | C
+! {{Headcellstyle}} width="50%" | Fortran 90
+|-
+| int, int* || integer
+|-
+|char* || character(len=*)
+|-
+|NXhandle, NXhandle* || type(NXhandle)
+|-
+|NXstatus	|| integer
+|-
+|int[] || integer(:)
+|-
+|void* || real(:) <br> integer(:) <br> character(len=*)
+|-
+|NXlink a, NXlink* a || type(NXlink)
+|}
+
 ===Java Interface===
 NeXus for Java provides access to NeXus data files for programs written in Java. This API was implemented by Java code calling the original C language NeXus API through the Java Native Methods Interface.
 *[[Java API|Description of NeXus-Java interface]]

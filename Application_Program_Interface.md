@@ -185,6 +185,54 @@ Any program using the F90 API needs to put the following line at the top
 
     use NXmodule
 
+Use the following table to convert from the C data types listed with
+each routine to the Fortran 90 data types.
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>C</p></th>
+<th><p>Fortran 90</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>int, int*</p></td>
+<td><p>integer</p></td>
+</tr>
+<tr class="even">
+<td><p>char*</p></td>
+<td><p>character(len=*)</p></td>
+</tr>
+<tr class="odd">
+<td><p>NXhandle, NXhandle*</p></td>
+<td><p>type(NXhandle)</p></td>
+</tr>
+<tr class="even">
+<td><p>NXstatus</p></td>
+<td><p>integer</p></td>
+</tr>
+<tr class="odd">
+<td><p>int[]</p></td>
+<td><p>integer(:)</p></td>
+</tr>
+<tr class="even">
+<td><p>void*</p></td>
+<td><p>real(:)<br />
+integer(:)<br />
+character(len=*)</p></td>
+</tr>
+<tr class="odd">
+<td><p>NXlink a, NXlink* a</p></td>
+<td><p>type(NXlink)</p></td>
+</tr>
+</tbody>
+</table>
+
 ### Java Interface
 
 NeXus for Java provides access to NeXus data files for programs written
