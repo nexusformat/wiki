@@ -425,7 +425,25 @@ If it is a data set, its name and type is returned with a class of
 |- ! | Input Arguments | file\_id | NXhandle | Identifier of NeXus file
 |- ! rowspan=“3” | Output Arguments | name | char \* | Name of NeXus
 data item (group or set) |- | class | char \* | Class of NeXus group |-
-| data\_type | int \* | Type of data set (see list of valid data types)
+| data\_type | int \* |
+
+Data Type:NX\_CHAR - Character string  
+NX\_FLOAT32 - 4-byte real
+
+NX\_FLOAT64 - 8-byte real
+
+NX\_INT8 - 1-byte integer
+
+NX\_UINT8 - unsigned 1-byte integer
+
+NX\_INT16 - 2-byte integer
+
+NX\_UINT16 - unsigned 2-byte integer
+
+NX\_INT32 - 4-byte integer
+
+NX\_UINT32 - unsigned 4-byte integer
+
 |}
 
 ### NXgetattrinfo
