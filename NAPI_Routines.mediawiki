@@ -60,17 +60,15 @@ Opens an existing NeXus group for input and output of data.
 ;Usage:<pre>status = NXopengroup (file_id, group_name, group_class)</pre>
 {{APItable}}
 |-
-! {{Headcellstyle}} | Input Arguments
+! {{Headcellstyle}} rowspan="3" | Input Arguments
 | file_id
 | NXhandle
 | Identifier of NeXus file
 |-
-| &nbsp;
 | group_name
 | char *
 | Name of NeXus group
 |-
-| &nbsp;
 | group_class
 | char *
 | Class of NeXus group

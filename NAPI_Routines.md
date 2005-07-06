@@ -67,8 +67,8 @@ Opens an existing NeXus group for input and output of data.
 
     status = NXopengroup (file_id, group_name, group_class)
 
-|- ! | Input Arguments | file\_id | NXhandle | Identifier of NeXus file
-|- |   | group\_name | char \* | Name of NeXus group |- |   |
+|- ! rowspan=“3” | Input Arguments | file\_id | NXhandle | Identifier of
+NeXus file |- | group\_name | char \* | Name of NeXus group |- |
 group\_class | char \* | Class of NeXus group |}
 
 ### NXclosegroup
