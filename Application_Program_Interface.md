@@ -96,6 +96,9 @@ The core API comprises the following functional groups:
 | [NXgetgroupID](NAPI_Routines#NXgetgroupID "wikilink")     |
 | [NXgetdataID](NAPI_Routines#NXgetdataID "wikilink")       |
 | [NXmakelink](NAPI_Routines#NXmakelink "wikilink")         |
+| Memory Allocation                                         |
+| [NXmalloc](NAPI_Routines#NXmalloc "wikilink")             |
+| [NXfree](NAPI_Routines#NXfree "wikilink")                 |
 
 ### Fortran 77 Interface
 

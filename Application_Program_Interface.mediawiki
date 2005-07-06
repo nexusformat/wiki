@@ -83,6 +83,12 @@ The core API comprises the following functional groups:
 |[[NAPI Routines#NXgetdataID|NXgetdataID]] || Returns the identifier of the currently open data set
 |-
 |[[NAPI Routines#NXmakelink|NXmakelink]] || Links a data item (group or set) to another group
+|-
+! {{Template:Headcellstyle}} colspan="2" | Memory Allocation
+|-
+|[[NAPI Routines#NXmalloc|NXmalloc]] || Allocates memory for NeXus data
+|-
+|[[NAPI Routines#NXfree|NXfree]] || Frees previously allocated memory
 |}
 
 ===Fortran 77 Interface===
