@@ -317,6 +317,7 @@ Writes a subset of a multidimensional data array, specified by the starting indi
 | size[]
 | int
 | Length of slab in each dimension
+|}
 
 ===NXputattr (file_id, attr_name, value, length, type)===
 Writes an attribute of the currently open data set. If no data set is open, a global attribute is generated. The attribute has both a name and a value.

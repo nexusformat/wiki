@@ -144,7 +144,7 @@ starting indices and size of each dimension, into the currently open
 dataset. |- ! | Input Arguments | file\_id | NXhandle | Identifier of
 NeXus file |- |   | data | void \* | Data values |- |   | start\[\] |
 int | Indices of starting values in each dimension |- |   | size\[\] |
-int | Length of slab in each dimension
+int | Length of slab in each dimension |}
 
 ### NXputattr (file\_id, attr\_name, value, length, type)
 
