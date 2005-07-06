@@ -420,3 +420,49 @@ linked here.
 |- ! | Input Arguments | file\_id | NXhandle | Identifier of NeXus file
 |- ! | Output Arguments | link | NXlink \* | Identifier of linked group
 |}
+
+Memory Allocation
+-----------------
+
+### NXmalloc
+
+Allocates memory to the specified data pointer according to the specifed
+data type, rank and dimensions.
+
+;Usage:
+
+    status = NXmalloc (void** data, int rank, int dimensions[], int datatype)
+
+|- ! | Output Arguments | data | void \*\* | Data pointer |- !
+rowspan=“3” | Input Arguments | rank | int | Rank of data |- |
+dimensions | int\[\] | Dimensions of data |- | datatype | int |
+
+Data Type:NX\_CHAR - Character string  
+NX\_FLOAT32 - 4-byte real
+
+NX\_FLOAT64 - 8-byte real
+
+NX\_INT8 - 1-byte integer
+
+NX\_UINT8 - unsigned 1-byte integer
+
+NX\_INT16 - 2-byte integer
+
+NX\_UINT16 - unsigned 2-byte integer
+
+NX\_INT32 - 4-byte integer
+
+NX\_UINT32 - unsigned 4-byte integer
+
+|}
+
+### NXfree
+
+Frees memory allocated to the specified data pointer.
+
+;Usage:
+
+    status = NXfree (data)
+
+|- ! | Input Arguments | data | void \*\* | Pointer to the allocated
+memory |}
