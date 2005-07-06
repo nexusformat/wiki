@@ -96,9 +96,27 @@ dimensions.
 
 |- ! rowspan=“5” | Input Arguments | file\_id | NXhandle | Identifier of
 NeXus file |- | data\_name | char \* | Name of NeXus data set |- |
-data\_type | int | Type of data (see list of valid data types) |- | rank
-| int | Rank of data |- | dimensions | int\[\] | Dimensions of data. The
-array is of size 'rank' |}
+data\_type | int |
+
+Data Type:NX\_CHAR - Character string  
+NX\_FLOAT32 - 4-byte real
+
+NX\_FLOAT64 - 8-byte real
+
+NX\_INT8 - 1-byte integer
+
+NX\_UINT8 - unsigned 1-byte integer
+
+NX\_INT16 - 2-byte integer
+
+NX\_UINT16 - unsigned 2-byte integer
+
+NX\_INT32 - 4-byte integer
+
+NX\_UINT32 - unsigned 4-byte integer
+
+|- | rank | int | Rank of data |- | dimensions | int\[\] | Dimensions of
+data. The array is of size 'rank' |}
 
 ### NXcompmakedata
 

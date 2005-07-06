@@ -101,7 +101,16 @@ Creates a new NeXus data set with the specified name, type, rank and dimensions.
 |-
 | data_type
 | int
-| Type of data (see list of valid data types)
+| 
+;Data Type:NX_CHAR - Character string
+:NX_FLOAT32 - 4-byte real
+:NX_FLOAT64 - 8-byte real
+:NX_INT8 - 1-byte integer
+:NX_UINT8 - unsigned 1-byte integer
+:NX_INT16 - 2-byte integer
+:NX_UINT16 - unsigned 2-byte integer
+:NX_INT32 - 4-byte integer
+:NX_UINT32 - unsigned 4-byte integer
 |-
 | rank
 | int
