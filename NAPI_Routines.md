@@ -109,11 +109,11 @@ dimensions, compressed using the specified protocol.
 
     status = NXcompmakedata (file_id, data_name, data_type, rank, dimensions[], compress_type)
 
-|- ! | Input Arguments | file\_id | NXhandle | Identifier of NeXus file
-|- |   | data\_name | char \* | Name of NeXus data set |- |   |
-data\_type | int | Type of data (see list of valid data types) |- |   |
-rank | int | Rank of data |- |   | dimensions | int\[\] | Dimensions of
-data. The array is of size 'rank' |- |   | compress\_type | int |
+|- ! rowspan=“6” | Input Arguments | file\_id | NXhandle | Identifier of
+NeXus file |- | data\_name | char \* | Name of NeXus data set |- |
+data\_type | int | Type of data (see list of valid data types) |- | rank
+| int | Rank of data |- | dimensions | int\[\] | Dimensions of data. The
+array is of size 'rank' |- | compress\_type | int |
 
 Compression algorithm:NX\_COMP\_LZW - GZIP  
 NX\_COMP\_HUF - Skipping Huffman
