@@ -144,8 +144,8 @@ routine is now deprecated; please use NXcompmakedata instead.
 
     status = NXcompress (file_id, compress_type)
 
-|- ! | Input Arguments | file\_id | NXhandle | Identifier of NeXus file
-|- |   | compress\_type | int |
+|- ! rowspan=“2” | Input Arguments | file\_id | NXhandle | Identifier of
+NeXus file |- | compress\_type | int |
 
 Compression algorithm:NX\_COMP\_LZW - GZIP  
 NX\_COMP\_HUF - Skipping Huffman

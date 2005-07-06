@@ -166,12 +166,11 @@ Defines a compression algorithm for subsequent calls to NXputdata. This routine 
 ;Usage:<pre>status = NXcompress (file_id, compress_type)</pre>
 {{APItable}}
 |-
-! {{Headcellstyle}} | Input Arguments
+! {{Headcellstyle}} rowspan="2" | Input Arguments
 | file_id
 | NXhandle
 | Identifier of NeXus file
 |-
-| &nbsp;
 | compress_type
 | int
 | 
