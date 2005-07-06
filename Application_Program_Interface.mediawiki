@@ -106,8 +106,8 @@ Any program using the F77 API needs to include the following line near the top i
 Use the following table to convert from the C data types listed with each routine to the F77 data types.
 {| {{Tablestyle}}
 |-
-! {{Headcellstyle}} width="40%" | C
-! {{Headcellstyle}} width="60%" | Fortran
+! {{Headcellstyle}} width="50%" | C
+! {{Headcellstyle}} width="50%" | Fortran 77
 |-
 | int a, int* a || INTEGER A
 |-

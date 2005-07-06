@@ -131,13 +131,13 @@ each routine to the F77 data types.
 
 <table>
 <colgroup>
-<col width="40%" />
-<col width="60%" />
+<col width="50%" />
+<col width="50%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th><p>C</p></th>
-<th><p>Fortran</p></th>
+<th><p>Fortran 77</p></th>
 </tr>
 </thead>
 <tbody>
