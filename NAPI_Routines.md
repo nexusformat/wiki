@@ -179,9 +179,8 @@ dimension sizes. The data set must have been opened by NXopendata.
 
     status = NXgetdata (file_id, data)
 
-|- ! | Return Value | status | int | Error status |- ! | Input Arguments
-| file\_id | NXhandle | Identifier of NeXus file |- ! | Output Arguments
-| data | void \* | Data values |}
+|- ! | Input Arguments | file\_id | NXhandle | Identifier of NeXus file
+|- ! | Output Arguments | data | void \* | Data values |}
 
 ### NXgetslab
 

@@ -197,11 +197,6 @@ Reads data values from the currently open data set. Please note that memory over
 ;Usage:<pre>status = NXgetdata (file_id, data)</pre>
 {{APItable}}
 |-
-! {{Headcellstyle}} | Return Value
-| status
-| int
-| Error status
-|-
 ! {{Headcellstyle}} | Input Arguments
 | file_id
 | NXhandle
