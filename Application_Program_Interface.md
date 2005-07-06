@@ -458,6 +458,11 @@ run the standard configure procedure from the resulting nexus directory
     % make
     % make install
 
+To find out how to customize the installation, *e.g.*, to choose
+different installation directories, type
+
+    % ./configure --help
+
 See the README file for further instructions.
 
 -   [Download NeXus API
