@@ -240,10 +240,10 @@ dataset.
 
     status = NXputslab (file_id, data, start[], size[])
 
-|- ! | Input Arguments | file\_id | NXhandle | Identifier of NeXus file
-|- |   | data | void \* | Data values |- |   | start\[\] | int | Indices
-of starting values in each dimension |- |   | size\[\] | int | Length of
-slab in each dimension |}
+|- ! rowspan=“4” | Input Arguments | file\_id | NXhandle | Identifier of
+NeXus file |- | data | void \* | Data values |- | start\[\] | int |
+Indices of starting values in each dimension |- | size\[\] | int |
+Length of slab in each dimension |}
 
 ### NXputattr
 

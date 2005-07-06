@@ -284,22 +284,19 @@ Writes a subset of a multidimensional data array, specified by the starting indi
 ;Usage:<pre>status = NXputslab (file_id, data, start[], size[])</pre>
 {{APItable}}
 |-
-! {{Headcellstyle}} | Input Arguments
+! {{Headcellstyle}} rowspan="4" | Input Arguments
 | file_id
 | NXhandle
 | Identifier of NeXus file
 |-
-| &nbsp;
 | data
 | void *
 | Data values
 |-
-| &nbsp;
 | start[]
 | int
 | Indices of starting values in each dimension
 |-
-| &nbsp;
 | size[]
 | int
 | Length of slab in each dimension
