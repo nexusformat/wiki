@@ -159,19 +159,19 @@ The following parameters, which are defined in NXmodule, may be used in defining
 ! {{Headcellstyle}} width="50%" | Description
 ! {{Headcellstyle}} width="25%" | Value
 |-
-|NX_MAXRANK||Maximum number of dimensions||32
+|NX_MAXRANK||Maximum number of dimensions||align="center"|32
 |-
-|NX_MAXNAMELEN||Maximum length of NeXus name||64
+|NX_MAXNAMELEN||Maximum length of NeXus name||align="center"|64
 |-
-|NXi1||Kind parameter for a 1-byte integer||selected_int_kind(2)
+|NXi1||Kind parameter for a 1-byte integer||align="center"|selected_int_kind(2)
 |-
-|NXi2||Kind parameter for a 2-byte integer||selected_int_kind(4)
+|NXi2||Kind parameter for a 2-byte integer||align="center"|selected_int_kind(4)
 |-
-|NXi4||Kind parameter for a 4-byte integer||selected_int_kind(8)
+|NXi4||Kind parameter for a 4-byte integer||align="center"|selected_int_kind(8)
 |-
-|NXr4||Kind parameter for a 4-byte real||kind(1.0)
+|NXr4||Kind parameter for a 4-byte real||align="center"|kind(1.0)
 |-
-|NXr8||Kind parameter for an 8-byte real||kind(1.0D0)
+|NXr8||Kind parameter for an 8-byte real||align="center"|kind(1.0D0)
 |}
 
 ===Java Interface===
