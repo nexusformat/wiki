@@ -428,12 +428,31 @@ if no data set is open.
 
 ;Usage:
 
-    status = NXgetnextattr (file_id, attr_name, length, type)
+    status = NXgetnextattr (file_id, attr_name, length, attr_type)
 
 |- ! | Input Arguments | file\_id | NXhandle | Identifier of NeXus file
-|- ! | Output Arguments | attr\_name | char \* | Name of next attribute
-|- |   | length | int \* | Length of next attribute |- |   | type | int
-\* | Type of next attribute (see list of valid data types) |}
+|- ! rowspan=“3” | Output Arguments | attr\_name | char \* | Name of
+next attribute |- | length | int \* | Length of next attribute |- |
+attr\_type | int \* |
+
+Data type of next attribute:NX\_CHAR - Character string  
+NX\_FLOAT32 - 4-byte real
+
+NX\_FLOAT64 - 8-byte real
+
+NX\_INT8 - 1-byte integer
+
+NX\_UINT8 - unsigned 1-byte integer
+
+NX\_INT16 - 2-byte integer
+
+NX\_UINT16 - unsigned 2-byte integer
+
+NX\_INT32 - 4-byte integer
+
+NX\_UINT32 - unsigned 4-byte integer
+
+|}
 
 ### NXgetgroupID
 

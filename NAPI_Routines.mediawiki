@@ -491,7 +491,7 @@ Initializes attribute searches of the currently open data set. This is required 
 
 ===NXgetnextattr===
 Implements a search facility of the attributes of the currently open data set. The first call initializes the search and returns information on the first attribute in the list. Subsequent calls yield information about the remaining attributes. This routine returns global attributes if no data set is open.
-;Usage:<pre>status = NXgetnextattr (file_id, attr_name, length, type)</pre>
+;Usage:<pre>status = NXgetnextattr (file_id, attr_name, length, attr_type)</pre>
 {{APItable}}
 |-
 ! {{Headcellstyle}} | Input Arguments
@@ -499,20 +499,27 @@ Implements a search facility of the attributes of the currently open data set. T
 | NXhandle
 | Identifier of NeXus file
 |-
-! {{Headcellstyle}} | Output Arguments
+! {{Headcellstyle}} rowspan="3" | Output Arguments
 | attr_name
 | char *
 | Name of next attribute
 |-
-| &nbsp;
 | length
 | int *
 | Length of next attribute
 |-
-| &nbsp;
-| type
+| attr_type
 | int *
-| Type of next attribute (see list of valid data types)
+| 
+;Data type of next attribute:NX_CHAR - Character string
+:NX_FLOAT32 - 4-byte real
+:NX_FLOAT64 - 8-byte real
+:NX_INT8 - 1-byte integer
+:NX_UINT8 - unsigned 1-byte integer
+:NX_INT16 - 2-byte integer
+:NX_UINT16 - unsigned 2-byte integer
+:NX_INT32 - 4-byte integer
+:NX_UINT32 - unsigned 4-byte integer
 |}
 
 ===NXgetgroupID===
