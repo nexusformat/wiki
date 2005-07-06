@@ -100,10 +100,9 @@ Reading and Writing
 Reads data values from the currently open data set. Please note that
 memory overwrite occurs if the caller has not allocated enough memory to
 hold all the data available. Call NXgetinfo to determine the required
-dimension sizes. The data set must have been opened by NXopendata. |
-Name |Type |Description |- ! | Return Value | status | int | Error
-status |- ! | Input Arguments | file\_id | NXhandle | Identifier of
-NeXus file |- ! | Output Arguments | data | void \* | Data values |}
+dimension sizes. The data set must have been opened by NXopendata. |- !
+| Input Arguments | file\_id | NXhandle | Identifier of NeXus file |- !
+| Output Arguments | data | void \* | Data values |}
 
 ### NXgetslab (file\_id, data, start\[\], size\[\])
 
