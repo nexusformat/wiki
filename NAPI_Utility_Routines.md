@@ -190,7 +190,7 @@ of group with that class |}
 ### NXUfinddata
 
 Finds if a NeXus data set of the requested name exists in the current
-group.
+group. The returned status is NX\_EOD if the data set is not found.
 
 ;Usage:
 

@@ -258,7 +258,7 @@ Finds if a NeXus group of the requested class exists in the current group and re
 |}
 
 ===NXUfinddata===
-Finds if a NeXus data set of the requested name exists in the current group.
+Finds if a NeXus data set of the requested name exists in the current group.  The returned status is NX_EOD if the data set is not found.
 ;Usage:<pre>status = NXUfinddata (file_id, data_name)</pre>
 {{API90table|(NX_OK, NX_ERROR, NX_EOD)}}
 |-
