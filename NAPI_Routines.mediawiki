@@ -421,17 +421,15 @@ Implements a directory search facility on the current group level. The first cal
 | NXhandle
 | Identifier of NeXus file
 |-
-! {{Headcellstyle}} | Output Arguments
+! {{Headcellstyle}} rowspan="3" | Output Arguments
 | name
 | char *
 | Name of NeXus data item (group or set)
 |-
-| &nbsp;
 | class
 | char *
 | Class of NeXus group
 |-
-| &nbsp;
 | data_type
 | int *
 | Type of data set (see list of valid data types)

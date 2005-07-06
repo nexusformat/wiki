@@ -334,9 +334,10 @@ If it is a data set, its name and type is returned with a class of
     status = NXgetnextentry (file_id, name, class, data_type)
 
 |- ! | Input Arguments | file\_id | NXhandle | Identifier of NeXus file
-|- ! | Output Arguments | name | char \* | Name of NeXus data item
-(group or set) |- |   | class | char \* | Class of NeXus group |- |   |
-data\_type | int \* | Type of data set (see list of valid data types) |}
+|- ! rowspan=“3” | Output Arguments | name | char \* | Name of NeXus
+data item (group or set) |- | class | char \* | Class of NeXus group |-
+| data\_type | int \* | Type of data set (see list of valid data types)
+|}
 
 ### NXgetattrinfo
 
