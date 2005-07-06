@@ -41,17 +41,15 @@ Creates a NeXus group at the current level in the group hierarchy, defining its 
 ;Usage:<pre>status = NXmakegroup (file_id, group_name, group_class)</pre>
 {{APItable}}
 |-
-! {{Headcellstyle}} | Input Arguments
+! {{Headcellstyle}} rowspan="3" | Input Arguments
 | file_id
 | NXhandle
 | Identifier of NeXus file
 |-
-| &nbsp;
 | group_name
 | char *
 | Name of NeXus group
 |-
-| &nbsp;
 | group_class
 | char *
 | Class of NeXus group
