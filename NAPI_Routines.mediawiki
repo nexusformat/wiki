@@ -269,12 +269,11 @@ Writes data into the specified data set.
 ;Usage:<pre>status = NXputdata (file_id, data[])</pre>
 {{APItable}}
 |-
-! {{Headcellstyle}} | Input Arguments
+! {{Headcellstyle}} rowspan="2" | Input Arguments
 | file_id
 | NXhandle
 | Identifier of NeXus file
 |-
-| &nbsp;
 | data
 | void *
 | Data values

@@ -227,8 +227,8 @@ Writes data into the specified data set.
 
     status = NXputdata (file_id, data[])
 
-|- ! | Input Arguments | file\_id | NXhandle | Identifier of NeXus file
-|- |   | data | void \* | Data values |}
+|- ! rowspan=“2” | Input Arguments | file\_id | NXhandle | Identifier of
+NeXus file |- | data | void \* | Data values |}
 
 ### NXputslab
 
