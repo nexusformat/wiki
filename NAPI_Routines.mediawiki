@@ -237,32 +237,28 @@ Reads attribute values associated with the currently open data set. The attribut
 ;Usage:<pre>status = NXgetattr (file_id, attr_name, value, length, type)</pre>
 {{APItable}}
 |-
-! {{Headcellstyle}} | Input Arguments
+! {{Headcellstyle}} rowspan="4" | Input Arguments
 | file_id
 | NXhandle
 | Identifier of NeXus file
 |-
-| &nbsp;
 | attr_name
 | char *
 | Name of attribute
 |-
-| &nbsp;
 | length
 | int *
 | Length of buffer for storing attribute data
 |-
-| &nbsp;
 | type
 | int *
 | Type of attribute data (see list of valid data types)
 |-
-! {{Headcellstyle}} | Output Arguments
+! {{Headcellstyle}} rowspan="2" | Output Arguments
 | value
 | void *
 | Value of attribute
 |-
-| &nbsp;
 | length
 | int *
 | Actual length of attribute data

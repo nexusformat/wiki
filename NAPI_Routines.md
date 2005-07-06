@@ -212,12 +212,12 @@ overwrite.
 
     status = NXgetattr (file_id, attr_name, value, length, type)
 
-|- ! | Input Arguments | file\_id | NXhandle | Identifier of NeXus file
-|- |   | attr\_name | char \* | Name of attribute |- |   | length | int
-\* | Length of buffer for storing attribute data |- |   | type | int \*
-| Type of attribute data (see list of valid data types) |- ! | Output
-Arguments | value | void \* | Value of attribute |- |   | length | int
-\* | Actual length of attribute data |}
+|- ! rowspan=“4” | Input Arguments | file\_id | NXhandle | Identifier of
+NeXus file |- | attr\_name | char \* | Name of attribute |- | length |
+int \* | Length of buffer for storing attribute data |- | type | int \*
+| Type of attribute data (see list of valid data types) |- ! rowspan=“2”
+| Output Arguments | value | void \* | Value of attribute |- | length |
+int \* | Actual length of attribute data |}
 
 ### NXputdata
 
