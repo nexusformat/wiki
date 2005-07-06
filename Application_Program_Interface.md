@@ -276,27 +276,27 @@ NXmodule and NXUmodule; the former is included in the latter) :
 
     use NXUmodule
 
-### List of NeXus Utility API Routines
+### List of Routines
 
-| Reading and Writing                  |
-|--------------------------------------|
-| NXUwriteglobals                      |
-| NXUwritegroup                        |
-| NXUwritedata                         |
-| NXUreaddata                          |
-| NXUwritehistogram                    |
-| NXUreadhistogram                     |
-| NXUsetcompress                       |
-| Finding Groups, Data, and Attributes |
+| Reading and Writing                                                     |
+|-------------------------------------------------------------------------|
+| [NXUwriteglobals](NAPI_Utility_Routines#NXUwriteglobals "wikilink")     |
+| [NXUwritegroup](NAPI_Utility_Routines#NXUwritegroup "wikilink")         |
+| [NXUwritedata](NAPI_Utility_Routines#NXUwritedata "wikilink")           |
+| [NXUreaddata](NAPI_Utility_Routines#NXUreaddata "wikilink")             |
+| [NXUwritehistogram](NAPI_Utility_Routines#NXUwritehistogram "wikilink") |
+| [NXUreadhistogram](NAPI_Utility_Routines#NXUreadhistogram "wikilink")   |
+| [NXUsetcompress](NAPI_Utility_Routines#NXUsetcompress "wikilink")       |
+| Finding Groups, Data, and Attributes                                    |
 ||
-| NXUfindclass                         |
-| NXUfinddata                          |
-| NXUfindattr                          |
-| NXUfindsignal                        |
-| NXUfindaxis                          |
-| Finding Linked Groups                |
-| NXUfindlink                          |
-| NXUresumelink                        |
+| [NXUfindclass](NAPI_Utility_Routines#NXUfindclass "wikilink")           |
+| [NXUfinddata](NAPI_Utility_Routines#NXUfinddata "wikilink")             |
+| [NXUfindattr](NAPI_Utility_Routines#NXUfindattr "wikilink")             |
+| [NXUfindsignal](NAPI_Utility_Routines#NXUfindsignal "wikilink")         |
+| [NXUfindaxis](NAPI_Utility_Routines#NXUfindaxis "wikilink")             |
+| Finding Linked Groups                                                   |
+| [NXUfindlink](NAPI_Utility_Routines#NXUfindlink "wikilink")             |
+| [NXUresumelink](NAPI_Utility_Routines#NXUresumelink "wikilink")         |
 
 Currently, the F90 utility API will only write character strings, 4-byte
 integers and reals, and 8-byte reals. It can read other integer sizes

@@ -173,44 +173,44 @@ Any program using the F90 Utility API needs to put the following line near the t
 <pre>
 use NXUmodule
 </pre>
-===List of NeXus Utility API Routines===
+===List of Routines===
 {| {{Tablestyle}}
 |-
 ! {{Headcellstyle}} colspan="2" | Reading and Writing
 |-
-| width="30%" | NXUwriteglobals 
+| width="30%" | [[NAPI Utility Routines#NXUwriteglobals|NXUwriteglobals]]
 | width="70%" | Writes all the valid global attributes of a file.
 |-
-|NXUwritegroup || Opens a group (creating it if necessary).
+|[[NAPI Utility Routines#NXUwritegroup|NXUwritegroup]] || Opens a group (creating it if necessary).
 |-
-|NXUwritedata || Opens a data item (creating it if necessary) and writes data and its units.
+|[[NAPI Utility Routines#NXUwritedata|NXUwritedata]] || Opens a data item (creating it if necessary) and writes data and its units.
 |-
-|NXUreaddata || Opens and reads a data item and its units.
+|[[NAPI Utility Routines#NXUreaddata|NXUreaddata]] || Opens and reads a data item and its units.
 |-
-|NXUwritehistogram || Opens one dimensional data item (creating it if necessary) and writes histogram centers and their units.
+|[[NAPI Utility Routines#NXUwritehistogram|NXUwritehistogram]] || Opens one dimensional data item (creating it if necessary) and writes histogram centers and their units.
 |-
-|NXUreadhistogram || Opens and reads a one dimensional data item and converts it to histogram bin boundaries.
+|[[NAPI Utility Routines#NXUreadhistogram|NXUreadhistogram]] || Opens and reads a one dimensional data item and converts it to histogram bin boundaries.
 |-
-|NXUsetcompress || Defines the compression algorithm and minimum dataset size for subsequent write operations.
+|[[NAPI Utility Routines#NXUsetcompress|NXUsetcompress]] || Defines the compression algorithm and minimum dataset size for subsequent write operations.
 |-
 ! {{Template:Headcellstyle}} colspan="2" | Finding Groups, Data, and Attributes
 |-
 |-
-|NXUfindclass || Returns the name of a group of the specified class if it is contained within the currently open group.
+|[[NAPI Utility Routines#NXUfindclass|NXUfindclass]] || Returns the name of a group of the specified class if it is contained within the currently open group.
 |-
-|NXUfinddata || Checks whether a data item of the specified name is contained within the currently open group.
+|[[NAPI Utility Routines#NXUfinddata|NXUfinddata]] || Checks whether a data item of the specified name is contained within the currently open group.
 |-
-|NXUfindattr || Checks whether the currently open data item has the specified attribute.
+|[[NAPI Utility Routines#NXUfindattr|NXUfindattr]] || Checks whether the currently open data item has the specified attribute.
 |-
-|NXUfindsignal || Searches the currently open group for a data item with the specified SIGNAL attribute.
+|[[NAPI Utility Routines#NXUfindsignal|NXUfindsignal]] || Searches the currently open group for a data item with the specified SIGNAL attribute.
 |-
-|NXUfindaxis || Searches the currently open group for a data item with the specified AXIS attribute.
+|[[NAPI Utility Routines#NXUfindaxis|NXUfindaxis]] || Searches the currently open group for a data item with the specified AXIS attribute.
 |-
 ! {{Template:Headcellstyle}} colspan="2" | Finding Linked Groups
 |-
-|NXUfindlink || Finds another link to the specified NeXus data item and opens the group it is in.
+|[[NAPI Utility Routines#NXUfindlink|NXUfindlink]] || Finds another link to the specified NeXus data item and opens the group it is in.
 |-
-|NXUresumelink || Reopens the original group from which NXUfindlink was used.
+|[[NAPI Utility Routines#NXUresumelink|NXUresumelink]] || Reopens the original group from which NXUfindlink was used.
 |}
 Currently, the F90 utility API will only write character strings, 4-byte integers and reals, and 8-byte reals. It can read other integer sizes into four-byte integers, but does not differentiate between signed and unsigned integers.
 Here are two example programs which make heavy use of the Utility API.
