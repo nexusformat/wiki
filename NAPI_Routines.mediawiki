@@ -90,27 +90,23 @@ Creates a new NeXus data set with the specified name, type, rank and dimensions.
 ;Usage:<pre>status = NXmakedata (file_id, data_name, data_type, rank, dimensions[])</pre>
 {{APItable}}
 |-
-! {{Headcellstyle}} | Input Arguments
+! {{Headcellstyle}} rowspan="5" | Input Arguments
 | file_id
 | NXhandle
 | Identifier of NeXus file
 |-
-| &nbsp;
 | data_name
 | char *
 | Name of NeXus data set
 |-
-| &nbsp;
 | data_type
 | int
 | Type of data (see list of valid data types)
 |-
-| &nbsp;
 | rank
 | int
 | Rank of data
 |-
-| &nbsp;
 | dimensions
 | int[]
 | Dimensions of data. The array is of size 'rank'

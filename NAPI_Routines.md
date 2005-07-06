@@ -94,11 +94,11 @@ dimensions.
 
     status = NXmakedata (file_id, data_name, data_type, rank, dimensions[])
 
-|- ! | Input Arguments | file\_id | NXhandle | Identifier of NeXus file
-|- |   | data\_name | char \* | Name of NeXus data set |- |   |
-data\_type | int | Type of data (see list of valid data types) |- |   |
-rank | int | Rank of data |- |   | dimensions | int\[\] | Dimensions of
-data. The array is of size 'rank' |}
+|- ! rowspan=“5” | Input Arguments | file\_id | NXhandle | Identifier of
+NeXus file |- | data\_name | char \* | Name of NeXus data set |- |
+data\_type | int | Type of data (see list of valid data types) |- | rank
+| int | Rank of data |- | dimensions | int\[\] | Dimensions of data. The
+array is of size 'rank' |}
 
 ### NXcompmakedata
 
