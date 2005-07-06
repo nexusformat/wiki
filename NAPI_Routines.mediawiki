@@ -188,10 +188,10 @@ Defines a compression algorithm for subsequent calls to NXputdata. This routine 
 | &nbsp;
 | compress_type
 | int
-| Compression algorithm to be used :
-NX_COMP_LZW - GZIP
-NX_COMP_HUF - Skipping Huffman
-NX_COMP_RLE - Run Length Encoding
+| 
+;Compression algorithm:NX_COMP_LZW - GZIP
+:NX_COMP_HUF - Skipping Huffman
+:NX_COMP_RLE - Run Length Encoding
 |}
 
 ===NXclosedata===
