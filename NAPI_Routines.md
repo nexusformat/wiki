@@ -12,12 +12,12 @@ General Initialization and Shutdown
 Opens the NeXus file, and creates and initializes the NeXus file
 structure. The returned handle is a pointer to this structure.
 
-<table style="width:110%;">
+<table>
 <colgroup>
-<col width="35%" />
 <col width="20%" />
 <col width="15%" />
-<col width="40%" />
+<col width="15%" />
+<col width="50%" />
 </colgroup>
 <thead>
 <tr class="header">

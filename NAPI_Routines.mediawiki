@@ -3,10 +3,10 @@
 Opens the NeXus file, and creates and initializes the NeXus file structure. The returned handle is a pointer to this structure.
 {| {{Tablestyle}}
 |-
-! {{Headcellstyle}} width="35%" |&nbsp;
-! {{Headcellstyle}} width="20%" |Name
+! {{Headcellstyle}} width="20%" |&nbsp;
+! {{Headcellstyle}} width="15%" |Name
 ! {{Headcellstyle}} width="15%" |Type	
-! {{Headcellstyle}} width="40%" |Description
+! {{Headcellstyle}} width="50%" |Description
 |-
 ! {{Headcellstyle}} | Return Value
 | status
@@ -32,6 +32,7 @@ NXACC_CREATE5 - create HDF5 access<br>
 | NXhandle *
 | Identifier of NeXus file
 |}
+
 ===NXclose (file_id)===
 Closes NeXus file and deletes all associated data structures from memory.
 Name	Type	Description
