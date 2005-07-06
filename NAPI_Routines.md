@@ -312,8 +312,26 @@ a value.
 |- ! | Return Value | status | int | Error status |- ! rowspan=“5” |
 Input Arguments | file\_id | NXhandle | Identifier of NeXus file |- |
 attr\_name | char \* | Name of attribute |- | value | void \* | Value of
-attribute |- | length | int | Length of data |- | type | int | Type of
-attribute data (see list of valid data types) |}
+attribute |- | length | int | Length of data |- | type | int |
+
+Data Type:NX\_CHAR - Character string  
+NX\_FLOAT32 - 4-byte real
+
+NX\_FLOAT64 - 8-byte real
+
+NX\_INT8 - 1-byte integer
+
+NX\_UINT8 - unsigned 1-byte integer
+
+NX\_INT16 - 2-byte integer
+
+NX\_UINT16 - unsigned 2-byte integer
+
+NX\_INT32 - 4-byte integer
+
+NX\_UINT32 - unsigned 4-byte integer
+
+|}
 
 ### NXflush
 
