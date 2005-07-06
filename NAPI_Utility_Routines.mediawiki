@@ -335,7 +335,7 @@ Finds the NeXus data set in the current group with the required signal attribute
 |}
 
 ===NXUfindaxis===
-Finds the NeXus data set in the current group with the required axis and primary attributes, and returns its name, rank, type and dimensions. Note that the axis data set should be one-dimensional.
+Finds the NeXus data set in the current group with the required axis and primary attributes, and returns its name, rank, type and dimensions. Note that the axis data set should be one-dimensional. The returned status is NX_EOD if the axis data set is not found.
 ;Usage:<pre>status = NXUfindaxis (file_id, axis, primary, data_name, data_rank, data_type, data_dimensions)</pre>
 {{API90table|(NX_OK, NX_ERROR, NX_EOD)}}
 |-

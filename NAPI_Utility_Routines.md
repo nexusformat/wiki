@@ -238,7 +238,8 @@ integer(:) | Dimensions of data set |}
 
 Finds the NeXus data set in the current group with the required axis and
 primary attributes, and returns its name, rank, type and dimensions.
-Note that the axis data set should be one-dimensional.
+Note that the axis data set should be one-dimensional. The returned
+status is NX\_EOD if the axis data set is not found.
 
 ;Usage:
 
