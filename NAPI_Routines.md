@@ -255,11 +255,11 @@ a value.
 
     status = NXputattr (file_id, attr_name, value, length, type)
 
-|- ! | Return Value | status | int | Error status |- ! | Input Arguments
-| file\_id | NXhandle | Identifier of NeXus file |- |   | attr\_name |
-char \* | Name of attribute |- |   | value | void \* | Value of
-attribute |- |   | length | int | Length of data |- |   | type | int |
-Type of attribute data (see list of valid data types) |}
+|- ! | Return Value | status | int | Error status |- ! rowspan=“5” |
+Input Arguments | file\_id | NXhandle | Identifier of NeXus file |- |
+attr\_name | char \* | Name of attribute |- | value | void \* | Value of
+attribute |- | length | int | Length of data |- | type | int | Type of
+attribute data (see list of valid data types) |}
 
 ### NXflush
 
