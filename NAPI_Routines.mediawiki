@@ -375,12 +375,7 @@ Flushes all data to the NeXus file. Since this command closes and reopens the fi
 ;Usage:<pre>status = NXflush (file_id)</pre>
 {{APItable}}
 |-
-! {{Headcellstyle}} | Input Arguments
-| file_id
-| NXhandle *
-| Identifier of NeXus file
-|-
-! {{Headcellstyle}} | Output Arguments
+! {{Headcellstyle}} | Input & Output Argument
 | file_id
 | NXhandle *
 | Identifier of NeXus file

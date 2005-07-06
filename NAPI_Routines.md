@@ -344,8 +344,7 @@ open.
 
     status = NXflush (file_id)
 
-|- ! | Input Arguments | file\_id | NXhandle \* | Identifier of NeXus
-file |- ! | Output Arguments | file\_id | NXhandle \* | Identifier of
+|- ! | Input & Output Argument | file\_id | NXhandle \* | Identifier of
 NeXus file |}
 
 Meta-Data Routines
