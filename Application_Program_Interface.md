@@ -66,7 +66,7 @@ The core API comprises the following functional groups:
 
 | General Initialization and Shutdown |
 |-------------------------------------|
-| NXopen                              |
+| [NXopen](NAPI_Routines "wikilink")  |
 | NXclose                             |
 | NXmakegroup                         |
 | NXopengroup                         |
