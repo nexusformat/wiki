@@ -173,7 +173,8 @@ character(len=\*) | Name of group |- ! | Output Arguments | group\_class
 Finds if a NeXus group of the requested class exists in the current
 group and returns its name. “find\_index” is used when there is more
 than one group of the required class; find\_index = 3 returns the name
-of the third group found.
+of the third group found. The returned status is NX\_EOD if no such
+group is found.
 
 ;Usage:
 

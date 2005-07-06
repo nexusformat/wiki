@@ -229,7 +229,7 @@ Finds if NeXus group exists in the current group and returns its class. The retu
 |}
 
 ===NXUfindclass===
-Finds if a NeXus group of the requested class exists in the current group and returns its name. "find_index" is used when there is more than one group of the required class; find_index = 3 returns the name of the third group found.
+Finds if a NeXus group of the requested class exists in the current group and returns its name. "find_index" is used when there is more than one group of the required class; find_index = 3 returns the name of the third group found.  The returned status is NX_EOD if no such group is found.
 ;Usage:<pre>status = NXUfindclass (file_id, group_class, group_name, find_index)</pre>
 {{API90table|(NX_OK, NX_ERROR, NX_EOD)}}
 |-
