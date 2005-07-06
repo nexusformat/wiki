@@ -10,55 +10,15 @@ General Initialization and Shutdown
 ### NXopen (file\_name, access\_method, file\_id)
 
 Opens the NeXus file, and creates and initializes the NeXus file
-structure. The returned handle is a pointer to this structure.
-
-<table>
-<colgroup>
-<col width="20%" />
-<col width="15%" />
-<col width="15%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p> </p></th>
-<th><p>Name</p></th>
-<th><p>Type</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>| Return Value</p></td>
-<td><p>status</p></td>
-<td><p>int</p></td>
-<td><p>Error status</p></td>
-</tr>
-<tr class="even">
-<td><p>| Input Arguments</p></td>
-<td><p>file_name</p></td>
-<td><p>char *</p></td>
-<td><p>Name of NeXus file to be opened</p></td>
-</tr>
-<tr class="odd">
-<td><p> </p></td>
-<td><p>access_method</p></td>
-<td><p>int</p></td>
-<td><p>NXACC_READ - read only access<br />
-NXACC_RDWR - read and write access<br />
-NXACC_CREATE - create (HDF4) access<br />
-NXACC_CREATE4 - create HDF4 access<br />
-NXACC_CREATE5 - create HDF5 access<br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p>| Output Arguments</p></td>
-<td><p>file_id</p></td>
-<td><p>NXhandle *</p></td>
-<td><p>Identifier of NeXus file</p></td>
-</tr>
-</tbody>
-</table>
+structure. The returned handle is a pointer to this structure. |- ! |
+Input Arguments | file\_name | char \* | Name of NeXus file to be opened
+|- |   | access\_method | int | NXACC\_READ - read only access  
+NXACC\_RDWR - read and write access  
+NXACC\_CREATE - create (HDF4) access  
+NXACC\_CREATE4 - create HDF4 access  
+NXACC\_CREATE5 - create HDF5 access  
+|- ! | Output Arguments | file\_id | NXhandle \* | Identifier of NeXus
+file |}
 
 ### NXclose (file\_id)
 

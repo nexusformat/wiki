@@ -1,17 +1,7 @@
 ==General Initialization and Shutdown==
 ===NXopen (file_name, access_method, file_id)===
 Opens the NeXus file, and creates and initializes the NeXus file structure. The returned handle is a pointer to this structure.
-{| {{Tablestyle}}
-|-
-! {{Headcellstyle}} width="20%" |&nbsp;
-! {{Headcellstyle}} width="15%" |Name
-! {{Headcellstyle}} width="15%" |Type	
-! {{Headcellstyle}} width="50%" |Description
-|-
-! {{Headcellstyle}} | Return Value
-| status
-| int
-| Error status
+{{APItable}}
 |-
 ! {{Headcellstyle}} | Input Arguments
 | file_name
