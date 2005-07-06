@@ -203,7 +203,8 @@ character(len=\*) | Requested data set |}
 
 ### NXUfindattr
 
-Finds if a NeXus attribute of the current data set exists.
+Finds if a NeXus attribute of the current data set exists. The returned
+status is NX\_EOD if the attribute is not found.
 
 ;Usage:
 

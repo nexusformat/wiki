@@ -278,7 +278,7 @@ Finds if a NeXus data set of the requested name exists in the current group.  Th
 |}
 
 ===NXUfindattr===
-Finds if a NeXus attribute of the current data set exists.
+Finds if a NeXus attribute of the current data set exists.  The returned status is NX_EOD if the attribute is not found.
 ;Usage:<pre>status = NXUfindattr (file_id, attr_name)</pre>
 {{API90table|(NX_OK, NX_ERROR, NX_EOD)}}
 |-
