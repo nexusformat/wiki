@@ -385,7 +385,7 @@ program WRITEDATA
 end program WRITEDATA
 </pre>
 
-==Downloading the API==
+==Downloads==
 The NeXus API is distributed under the terms of the GNU Lesser General Public License.
 
 ===External Libraries===

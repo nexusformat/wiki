@@ -518,8 +518,8 @@ is the simplest data file that conforms to the NeXus standard.
 
     end program WRITEDATA
 
-Downloading the API
--------------------
+Downloads
+---------
 
 The NeXus API is distributed under the terms of the GNU Lesser General
 Public License.
