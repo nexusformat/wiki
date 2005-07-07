@@ -408,7 +408,7 @@ is the simplest data file that conforms to the NeXus standard.
     /* Output detector angles */
               NXmakedata (file_id, "polar_angle", NX_FLOAT32, 1, &n_p);
               NXopendata (file_id, "polar_angle")
-                NXputdata (file_id, polar_angle);
+                NXputdata (file_id, phi);
                 NXputattr (file_id, "units", "degrees", 7, NX_CHAR);
               NXclosedata (file_id);
     /* Output data */
