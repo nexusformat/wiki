@@ -1,7 +1,7 @@
 ==2005==
-;Thursday, June 23, 2005:The NeXus wiki is born.  It uses the MediaWiki software that powers [http://www.wikipedia.org/ Wikipedia] and is much more flexible than the Swiki we have been using until now.
+;Thursday, June 23, 2005:The NeXus wiki is born.  It uses the MediaWiki software that powers [http://www.wikipedia.org/ Wikipedia] and is much more flexible than the [http://www.neutron.anl.gov:8080/NeXus Swiki] we have been using until now.
 ;Thursday, March 17, 2005:The next meeting of the NeXus International Advisory Committee (NIAC) will be held April 26-28 at the [http://www.bishopslodge.com/ Bishop's Lodge] in Sante Fe, NM. The main task during these three days is to create instrument definitions.
- 
+
 ==2004==
 ;Monday, November 1, 2004:The minutes of the second meeting of the NeXus International Advisory Committee (October 21-22, 2004) are now available.
 ;Wednesday, October 13, 2004:The draft agenda of the upcoming NIAC meeting is now on the NeXus Swiki - we invite comments up to the day of the meeting.
