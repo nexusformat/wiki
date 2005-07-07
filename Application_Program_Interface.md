@@ -632,8 +632,7 @@ The following packages are required:
 </tbody>
 </table>
 
-CYGWIN Kits
------------
+### CYGWIN Kits
 
 You need to install the HDF4, SZIP and JPEG libraries before you can
 compile a NeXus distribution kit. They are combined in a single gzipped
