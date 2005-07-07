@@ -461,7 +461,7 @@ tar xf hdf42r1.tar
 </pre>
 It should create /usr/local/hdf/* directories ''etc.''
 
-Then you can build NeXus using the instructions for source code installations above.
+Then you can build NeXus using the instructions for [[#Source Code Distribution| source code distribution]] above.
 
 ==Reporting Bugs in the NeXus API==
 If you encounter any bugs in the installation or running of the NeXus API, please report them online using the ISIS Bugzilla reporting system.

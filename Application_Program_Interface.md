@@ -648,8 +648,8 @@ After downloading it, do the following:
 
 It should create /usr/local/hdf/\* directories *etc.*
 
-Then you can build NeXus using the instructions for source code
-installations above.
+Then you can build NeXus using the instructions for [ source code
+distribution](#Source_Code_Distribution "wikilink") above.
 
 Reporting Bugs in the NeXus API
 -------------------------------
