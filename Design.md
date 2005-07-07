@@ -193,9 +193,9 @@ dimension scale.
 1.  The first method is to define an attribute of each dimension scale
     called “axis”. It is an integer whose value is the number of the
     dimension, in order of fastest varying dimension. i.e. if the array
-    being stored is data, with elements data\[j\]\[i\] in C and
-    data(i,j) in Fortran, where i is the time-of-flight index and j is
-    the polar angle index, the NXdata group would contain :
+    being stored is data, with elements `data[j][i]` in C and
+    `data(i,j)` in Fortran, where `i` is the time-of-flight index and
+    `j` is the polar angle index, the NXdata group would contain :
 
 <!-- -->
 
@@ -219,7 +219,7 @@ This attribute must be defined for each dimension scale.
     <NXdata name=" data " > 
              <time_of_flight > 1500.0 1502.0 1504.0 … </time_of_flight> 
              <polar_angle > 15.0 15.6 16.2 … </polar_angle> 
-             <data axes=" [polar_angle,time_of_flight] " > 5 7 14 … </data> 
+             <data axes="polar_angle:time_of_flight" > 5 7 14 … </data> 
     </NXdata>
 
   

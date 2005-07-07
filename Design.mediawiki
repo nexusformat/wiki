@@ -56,7 +56,7 @@ The NXdata groups have to be flexible enough to cope with data of arbitrary rank
 *For each data dimension, there should be a one-dimensional array of the same length.
 *These one-dimensional arrays are the "dimension scales" of the data i.e. the values of the independent variables at which the data is measured e.g. scattering angle or energy transfer.
 There are two methods of linking each data dimension to its respective dimension scale.
-#The first method is to define an attribute of each dimension scale called "axis". It is an integer whose value is the number of the dimension, in order of fastest varying dimension. i.e. if the array being stored is data, with elements data[j][i] in C and data(i,j) in Fortran, where i is the time-of-flight index and j is the polar angle index, the NXdata group would contain :
+#The first method is to define an attribute of each dimension scale called "axis". It is an integer whose value is the number of the dimension, in order of fastest varying dimension. i.e. if the array being stored is data, with elements <tt>data[j][i]</tt> in C and <tt>data(i,j)</tt> in Fortran, where <tt>i</tt> is the time-of-flight index and <tt>j</tt> is the polar angle index, the NXdata group would contain :
 <pre>
 <NXdata name=" data " > 
          <time_of_flight axis= 1 primary= 1 > 1500.0 1502.0 1504.0 … </time_of_flight> 
@@ -70,7 +70,7 @@ There are two methods of linking each data dimension to its respective dimension
 <NXdata name=" data " > 
          <time_of_flight > 1500.0 1502.0 1504.0 … </time_of_flight> 
          <polar_angle > 15.0 15.6 16.2 … </polar_angle> 
-         <data axes=" [polar_angle,time_of_flight] " > 5 7 14 … </data> 
+         <data axes="polar_angle:time_of_flight" > 5 7 14 … </data> 
 </NXdata>
 </pre>
 :The second method is required when the dimension scale is used in more than one NXdata group in a different context, e.g. it is used as the x-axis in one group and the y-axis in another.
