@@ -455,14 +455,12 @@ is the simplest data file that conforms to the NeXus standard.
                   status = NXputdata (file_id, t)
                   status = NXputcharattr 
          +         (file_id, 'units', 'microseconds', 12, NX_CHAR)
-                  status = NXputattr (file_id, 'axis', 1, 1, NX_INT32)
                 status = NXclosedata (file_id)
     !Output detector angles
-                status = NXmakedata (file_id, 'phi', NX_FLOAT32, 1, n_p)
-                status = NXopendata (file_id, 'phi')
+                status = NXmakedata (file_id, 'polar_angle', NX_FLOAT32, 1, n_p)
+                status = NXopendata (file_id, 'polar_angle')
                   status = NXputdata (file_id, phi)
                   status = NXputcharattr (file_id, 'units', 'degrees', 7, NX_CHAR)
-                  status = NXputattr (file_id, 'axis', 2, 1, NX_INT32)
                 status = NXclosedata (file_id)
     !Output data
                 dims(1) = n_t
@@ -471,6 +469,8 @@ is the simplest data file that conforms to the NeXus standard.
                 status = NXopendata (file_id, 'counts')
                   status = NXputdata (file_id, counts)
                   status = NXputattr (file_id, 'signal', 1, 1, NX_INT32)
+                  status = NXputattr
+         +          (file_id, 'axes', 'polar_angle:time_of_flight', 26, NX_CHAR)
                 status = NXclosedata (file_id)
     !Close NXdata and NXentry groups and close file
               status = NXclosegroup (file_id)
