@@ -1,6 +1,7 @@
+NeXus is a common data format for neutron, x-ray, and muon science.  It is being developed as an international standard by scientists and programmers representing major scientific facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the analysis and visualization of neutron, x-ray, and muon data.   
 ;[[Introduction|NeXus Introduction]]:Introduction to the concepts behind the NeXus data format.
-;[[Introduction|NeXus Design]]:The logical design of the NeXus format.
-;[[Design#NeXus_Classes|NeXus Classes]]:Definitions of the base classes that make up NeXus files.
+;[[Introduction|NeXus Design]]:The hierarchical design of NeXus files.
+;[[Design#NeXus_Classes|NeXus Classes]]:Definitions of the base classes that make up NeXus data.
 ;[[Instruments|NeXus Instrument Definitions]]:Generic instrument definitions or other specialized uses of NeXus.
 ;[[Application_Program_Interface|NeXus API]]:Software library for reading and writing NeXus files.
 ;[[Utilities|NeXus Utilities]]:Software applications that browse, plot, and analyze NeXus data.
@@ -10,5 +11,5 @@
 
 {| align="center"  width="80%"  style="border:solid navy 1px; padding: 5px;font-size:0.85em"  
 |-
-|The NeXus wiki is a collaborative forum that allows members of the neutron, x-ray, and muon communities to make contributions to the development and documentation of the [http://www.nexus.anl.gov/ NeXus format].  If you wish to make a contribution, please set up an account, identifying who you are in your user page, and read the [[Help:Contents#Guidelines|wiki guidelines]].
+|The NeXus wiki is a collaborative forum that allows members of the neutron, x-ray, and muon communities to make contributions to the development and documentation of the [http://www.nexus.anl.gov/ NeXus format].  If you wish to help, please set up an account, identifying who you are in your user page, and read the [[Help:Contents#Guidelines|wiki guidelines]].
 |}
