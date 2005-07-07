@@ -411,7 +411,7 @@ See the README file for further instructions.
 *[http://nexus.isis.rl.ac.uk/cgi-bin/viewcvs.cgi/cvs_root.tar.gz?tarball=1&only_with_tag=NEXUS_2_0_0 Download NeXus API v2.0.0]
 *[http://nexus.isis.rl.ac.uk/kits/nexus-latest.tar.gz Download latest CVS version]
 
-===NeXus RPM Distribution Kits===
+===RPM Distribution Kits===
 To install and use NeXus you will need to install all of the binary RPMS - these were built on a Fedora Core 2 Linux machine. Install using
 <pre>
 rpm -Uvh file.i386.rpm
@@ -449,6 +449,19 @@ The following packages are required:
 | align="center" | [http://www.nexus.anl.gov/nexus-3.0.0-1.i386.rpm i386 Binary RPM]
 | align="center" | [http://www.nexus.anl.gov/nexus-3.0.0-1.src.rpm Source RPM]
 |}
+
+==CYGWIN Kits==
+You need to install the HDF4, SZIP and JPEG libraries before you can compile a NeXus distribution kit.  They are combined in a single gzipped tar file here.
+*[http://nexus.isis.rl.ac.uk/kits/cygwin/hdf42r1.tar.gz http://nexus.isis.rl.ac.uk/kits/cygwin/hdf42r1.tar.gz]
+After downloading it, do the following:
+<pre>
+cd /usr/local
+gunzip hdf42r1.tar.gz
+tar xf hdf42r1.tar
+</pre>
+It should create /usr/local/hdf/* directories ''etc.''
+
+Then you can build NeXus using the instructions for source code installations above.
 
 ==Reporting Bugs in the NeXus API==
 If you encounter any bugs in the installation or running of the NeXus API, please report them online using the ISIS Bugzilla reporting system.
