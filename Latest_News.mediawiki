@@ -1,3 +1,7 @@
+==2005==
+;Thursday, June 23, 2005:The NeXus wiki is born.  It uses the MediaWiki software that powers [http://www.wikipedia.org/ Wikipedia] and is much more flexible than the Swiki we have been using until now.
+;Thursday, March 17, 2005:The next meeting of the NeXus International Advisory Committee (NIAC) will be held April 26-28 at the [http://www.bishopslodge.com/ Bishop's Lodge] in Sante Fe, NM. The main task during these three days is to create instrument definitions.
+ 
 ==2004==
 ;Monday, November 1, 2004:The minutes of the second meeting of the NeXus International Advisory Committee (October 21-22, 2004) are now available.
 ;Wednesday, October 13, 2004:The draft agenda of the upcoming NIAC meeting is now on the NeXus Swiki - we invite comments up to the day of the meeting.
@@ -5,6 +9,7 @@
 ;Thursday, August 31, 2004:NXvalid allows a user to look at the contents of a NeXus file, like a graphical version of NXbrowse. The latest version is the first to incorporate the ISAW viewers for plotting 1D and 2D NXdata and NXmonitor. ISAW is a separate application developed at IPNS and needs to be separately installed. If ISAW is not installed, NXvalid will still work, but the viewers will not be available.
 ;Friday, June 4, 2004:The second meeting of the NeXus International Advisory Committee will be held at the Paul Scherrer Institut, near Villigen, Switzerland, on October 21-22, 2004, immediately following NOBUGS 2004. See the NeXus Swiki page for more details.
 ;Thursday, April 15, 2004:NXdir is a console based tool that allows inspecting the contents of a NeXus file. It allows for directory like listing of contents as well as printing out data. Version 0.2.4, which allows the user to select a 1D or 2D NXdata to write out to a file, has just been released.
+
 ==2003==
 ;Friday, September 24, 2003:The minutes of the first meeting of the NeXus International Advisory Committee are now available.
 ;Friday, July 25, 2003:The first meeting of the NeXus International Advisory Committee will be held at the California Institute of Technology, Pasadena, California, USA, from 1:30pm September 8 to 12:30pm, September 10, 2003. See the NIAC 2003 web page for more details.

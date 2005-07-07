@@ -4,6 +4,12 @@ permalink: Latest_News/
 layout: wiki
 ---
 
+2005
+----
+
+Thursday, June 23, 2005:The NeXus wiki is born. It uses the MediaWiki software that powers [Wikipedia](http://www.wikipedia.org/) and is much more flexible than the Swiki we have been using until now.  
+Thursday, March 17, 2005:The next meeting of the NeXus International Advisory Committee (NIAC) will be held April 26-28 at the [Bishop's Lodge](http://www.bishopslodge.com/) in Sante Fe, NM. The main task during these three days is to create instrument definitions.  
+
 2004
 ----
 
