@@ -395,7 +395,7 @@ The latest beta version of the NeXus API allows the reading and writing of NeXus
 *http://www.easysw.com/~mike/mxml/
 
 ===Source Code Distribution===
-The NeXus API may be built from source by downloading one of the installation kits from the NeXus CVS server. The compilation uses the GNU Autotools. Download the appropriate gzipped tar file, unpack it, and run the standard configure procedure from the resulting nexus directory 
+The NeXus API may be built from source by downloading one of the installation kits from the [http://nexus.isis.rl.ac.uk/cgi-bin/viewcvs.cgi NeXus CVS server]. The compilation uses the GNU Autotools. Download the appropriate gzipped tar file, unpack it, and run the standard configure procedure from the resulting nexus directory 
 <pre>
 % tar -zxvf nexus-3.0.0.tar.gz
 % cd nexus

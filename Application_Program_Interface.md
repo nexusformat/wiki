@@ -546,9 +546,11 @@ for several operating systems. Please ensure that you install version
 ### Source Code Distribution
 
 The NeXus API may be built from source by downloading one of the
-installation kits from the NeXus CVS server. The compilation uses the
-GNU Autotools. Download the appropriate gzipped tar file, unpack it, and
-run the standard configure procedure from the resulting nexus directory
+installation kits from the [NeXus CVS
+server](http://nexus.isis.rl.ac.uk/cgi-bin/viewcvs.cgi). The compilation
+uses the GNU Autotools. Download the appropriate gzipped tar file,
+unpack it, and run the standard configure procedure from the resulting
+nexus directory
 
     % tar -zxvf nexus-3.0.0.tar.gz
     % cd nexus
