@@ -566,7 +566,7 @@ different installation directories, type
 See the README file for further instructions.
 
 -   [Download NeXus API
-    v2.0.0](http://nexus.isis.rl.ac.uk/cgi-bin/viewcvs.cgi/cvs_root.tar.gz?tarball=1&only_with_tag=NEXUS_2_0_0)
+    v3.0.0](http://nexus.isis.rl.ac.uk/cgi-bin/viewcvs.cgi/cvs_root.tar.gz?tarball=1&only_with_tag=NEXUS_3_0_0)
 -   [Download latest CVS
     version](http://nexus.isis.rl.ac.uk/kits/nexus-latest.tar.gz)
 
