@@ -8,8 +8,7 @@ The Application Program Interface (API) has been developed to facilitate
 the reading and writing of NeXus files. Those writing applications to
 produce NeXus files are encouraged to use the API in order to ensure
 compliance with the NeXus standard. The latest version supports the
-reading and writing of HDF4, HDF5, and, in the latest CVS version, XML
-files.
+reading and writing of HDF4, HDF5, and, since version 3.0.0, XML files.
 
 The core routines have been written in C but wrappers are available for
 a number of other languages including Fortran 77, Fortran 90, Java, and
