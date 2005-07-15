@@ -535,11 +535,11 @@ other flavors of Unix. Check the HDF web pages for more information:
 
 -   <http://hdf.ncsa.uiuc.edu/>
 
-The latest beta version of the NeXus API allows the reading and writing
-of NeXus files in XML. This uses the Mini-XML library, developed by
-Michael Sweet, which is also available as a precompiled binary library
-for several operating systems. Please ensure that you install version
-2.2.2 or later. Check the Mini-XML web pages for more information:
+Version 3.0.0 of the NeXus API allows the reading and writing of NeXus
+files in XML. This uses the Mini-XML library, developed by Michael
+Sweet, which is also available as a precompiled binary library for
+several operating systems. Please ensure that you install version 2.2.2
+or later. Check the Mini-XML web pages for more information:
 
 -   <http://www.easysw.com/~mike/mxml/>
 
