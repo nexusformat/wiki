@@ -102,8 +102,8 @@ The core API comprises the following functional groups:
 
 ### NeXus Datatypes
 
-This is a list of valid NeXus datatypes. These constants can be used as
-arguments when the type has to be specified in any API routine.
+This is a list of valid NeXus datatypes. These constants should be used
+as arguments when the type has to be specified in any API routine.
 
 <table>
 <colgroup>
