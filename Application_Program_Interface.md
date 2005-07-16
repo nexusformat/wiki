@@ -100,6 +100,62 @@ The core API comprises the following functional groups:
 | [NXmalloc](NAPI_Routines#NXmalloc "wikilink")             |
 | [NXfree](NAPI_Routines#NXfree "wikilink")                 |
 
+### NeXus Datatypes
+
+This is a list of valid NeXus datatypes. These constants can be used as
+arguments when the type has to be specified in any API routine.
+
+<table>
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Name</p></th>
+<th><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>|NX_CHAR</p></td>
+<td><p>Data type for character string</p></td>
+</tr>
+<tr class="even">
+<td><p>| NX_FLOAT32</p></td>
+<td><p>Data type for 4-byte floating point</p></td>
+</tr>
+<tr class="odd">
+<td><p>|NX_FLOAT64</p></td>
+<td><p>Data type for 8-byte floating point</p></td>
+</tr>
+<tr class="even">
+<td><p>|NX_INT8</p></td>
+<td><p>Data type for 1-byte signed integer</p></td>
+</tr>
+<tr class="odd">
+<td><p>|NX_UINT8</p></td>
+<td><p>Data type for 1-byte unsigned integer</p></td>
+</tr>
+<tr class="even">
+<td><p>|NX_INT16</p></td>
+<td><p>Data type for 2-byte signed integer</p></td>
+</tr>
+<tr class="odd">
+<td><p>|NX_UINT16</p></td>
+<td><p>Data type for 2-byte unsigned integer</p></td>
+</tr>
+<tr class="even">
+<td><p>|NX_INT32</p></td>
+<td><p>Data type for 4-byte signed integer</p></td>
+</tr>
+<tr class="odd">
+<td><p>|NX_UINT32</p></td>
+<td><p>Data type for 4-byte unsigned integer</p></td>
+</tr>
+</tbody>
+</table>
+
 ### C Interface
 
 C programs that call the above routines should include the following

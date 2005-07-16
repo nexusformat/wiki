@@ -92,6 +92,32 @@ The core API comprises the following functional groups:
 |[[NAPI Routines#NXfree|NXfree]] || Frees previously allocated memory
 |}
 
+===NeXus Datatypes===
+This is a list of valid NeXus datatypes.   These constants can be used as arguments when the type has to be specified in any API routine.
+{| {{Tablestyle}}
+|-
+! {{Headcellstyle}} width="30%" | Name
+! {{Headcellstyle}} width="70%" | Description
+|-
+||NX_CHAR || Data type for character string
+|-
+|| NX_FLOAT32 || Data type for 4-byte floating point
+|-
+||NX_FLOAT64 || Data type for 8-byte floating point
+|-
+||NX_INT8 || Data type for 1-byte signed integer
+|-
+||NX_UINT8 || Data type for 1-byte unsigned integer
+|-
+||NX_INT16 || Data type for 2-byte signed integer
+|-
+||NX_UINT16 || Data type for 2-byte unsigned integer
+|-
+||NX_INT32 || Data type for 4-byte signed integer
+|-
+||NX_UINT32 || Data type for 4-byte unsigned integer
+|}
+
 ===C Interface===
 C programs that call the above routines should include the following header file:
 <pre>#include "napi.h"</pre>
