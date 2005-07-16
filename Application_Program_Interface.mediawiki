@@ -97,7 +97,7 @@ C programs that call the above routines should include the following header file
 <pre>#include "napi.h"</pre>
 
 ===Fortran 77 Interface===
-Wrapper routines to interface the Fortran and C code have been developed by Freddie Akeroyd. The routines have the same names and argument lists as the corresponding C routines, although we have added extra routines for the input/output of character data and attributes. Care must be taken to ensure enough space is allocated for the input/output operations being performed.
+Wrapper routines to interface the Fortran and C code have been developed by [[User:FreddieAkeroyd|Freddie Akeroyd]]. The routines have the same names and argument lists as the corresponding C routines, although we have added extra routines for the input/output of character data and attributes. Care must be taken to ensure enough space is allocated for the input/output operations being performed.
 
 It is necessary to reverse the order of indices in multidimensional arrays, compared to an equivalent C program, so that data are stored in the same order in the NeXus file.
 

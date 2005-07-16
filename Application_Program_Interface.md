@@ -110,11 +110,11 @@ header file:
 ### Fortran 77 Interface
 
 Wrapper routines to interface the Fortran and C code have been developed
-by Freddie Akeroyd. The routines have the same names and argument lists
-as the corresponding C routines, although we have added extra routines
-for the input/output of character data and attributes. Care must be
-taken to ensure enough space is allocated for the input/output
-operations being performed.
+by [Freddie Akeroyd](User%3AFreddieAkeroyd "wikilink"). The routines
+have the same names and argument lists as the corresponding C routines,
+although we have added extra routines for the input/output of character
+data and attributes. Care must be taken to ensure enough space is
+allocated for the input/output operations being performed.
 
 It is necessary to reverse the order of indices in multidimensional
 arrays, compared to an equivalent C program, so that data are stored in
