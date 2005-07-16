@@ -11,13 +11,14 @@ The NeXus Application Program Interface is a suite of subroutines, written in C 
 For these reasons, we request that all NeXus files are written using the supplied API. We cannot be sure that anything written using the underlying HDF API will be recognized by NeXus-aware utilities.
 
 ==Core API==
-The core API provides the basic routines for reading, writing and navigating NeXus files. It is designed to be modal; there is a hidden state that determines which groups and data sets are open at any given moment, and subsequent operations are implicitly performed on these entities. This cuts down the number of parameters to pass around in API calls, at the cost of forcing a certain pre-approved mode d'emploi. This mode d'emploi will be familiar to most: it is very similar to navigating a directory hierarchy; in our case, NeXus groups are the directories, which contain data sets and/or other directories.
+The core API provides the basic routines for reading, writing and navigating NeXus files. It is designed to be modal; there is a hidden state that determines which groups and data sets are open at any given moment, and subsequent operations are implicitly performed on these entities. This cuts down the number of parameters to pass around in API calls, at the cost of forcing a certain pre-approved ''mode d'emploi''. This ''mode d'emploi'' will be familiar to most: it is very similar to navigating a directory hierarchy; in our case, NeXus groups are the directories, which contain data sets and/or other directories.
 
 The core API comprises the following functional groups:
 *General initialization and shutdown: opening and closing the file, creating or opening an existing group or dataset, and closing them.
 *Reading and writing data and attributes to previously opened datasets.
 *Routines to obtain meta-data and to iterate over component datasets and attributes.
 *Handling of linking and group hierarchy.
+*Routines to handle memory allocation.
 ===List of Routines===
 {| {{Tablestyle}}
 |-

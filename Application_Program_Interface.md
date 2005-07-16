@@ -46,10 +46,10 @@ navigating NeXus files. It is designed to be modal; there is a hidden
 state that determines which groups and data sets are open at any given
 moment, and subsequent operations are implicitly performed on these
 entities. This cuts down the number of parameters to pass around in API
-calls, at the cost of forcing a certain pre-approved mode d'emploi. This
-mode d'emploi will be familiar to most: it is very similar to navigating
-a directory hierarchy; in our case, NeXus groups are the directories,
-which contain data sets and/or other directories.
+calls, at the cost of forcing a certain pre-approved *mode d'emploi*.
+This *mode d'emploi* will be familiar to most: it is very similar to
+navigating a directory hierarchy; in our case, NeXus groups are the
+directories, which contain data sets and/or other directories.
 
 The core API comprises the following functional groups:
 
@@ -60,6 +60,7 @@ The core API comprises the following functional groups:
 -   Routines to obtain meta-data and to iterate over component datasets
     and attributes.
 -   Handling of linking and group hierarchy.
+-   Routines to handle memory allocation.
 
 ### List of Routines
 
