@@ -544,12 +544,10 @@ or later. Check the Mini-XML web pages for more information:
 
 ### Source Code Distribution
 
-The NeXus API may be built from source by downloading one of the
-installation kits from the [NeXus CVS
-server](http://nexus.isis.rl.ac.uk/cgi-bin/viewcvs.cgi). The compilation
-uses the GNU Autotools. Download the appropriate gzipped tar file,
-unpack it, and run the standard configure procedure from the resulting
-nexus directory
+The NeXus API may be built from source using one of the installation
+kits linked below. The compilation uses the GNU Autotools. Download the
+appropriate gzipped tar file, unpack it, and run the standard configure
+procedure from the resulting nexus directory.
 
     % tar -zxvf nexus-3.0.0.tar.gz
     % cd nexus
@@ -565,9 +563,10 @@ different installation directories, type
 See the README file for further instructions.
 
 -   [Download NeXus API
-    v3.0.0](http://nexus.isis.rl.ac.uk/cgi-bin/viewcvs.cgi/cvs_root.tar.gz?tarball=1&only_with_tag=NEXUS_3_0_0)
+    v3.0.0](http://www.nexus.anl.gov/downloads/nexus-3.0.0.tar.gz)
 -   [Download latest CVS
     version](http://nexus.isis.rl.ac.uk/kits/nexus-latest.tar.gz)
+-   [NeXus CVS server](http://nexus.isis.rl.ac.uk/cgi-bin/viewcvs.cgi)
 
 ### RPM Distribution Kits
 
