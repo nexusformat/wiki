@@ -29,4 +29,8 @@ If no file name is given, the user is prompted for the file to be opened. NXbrow
 |-
 |help || List the available commands.
 |}
+
+==Installation==
 NXbrowse is now installed as part of the standard NeXus installation. See the [[Application_Program_Interface#Downloads|NeXus Downloads section]] for more details.
+
+If you encounter any bugs, please report them using the [[Application_Program_Interface#Reporting_Bugs_in_the_NeXus_API|NeXus bugzilla]].
