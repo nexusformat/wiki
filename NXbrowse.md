@@ -40,41 +40,41 @@ case (although the group and data names are case sensitive) :
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>DIR</p></td>
+<td><p>dir</p></td>
 <td><p>List the contents of the currently open group.</p></td>
 </tr>
 <tr class="even">
-<td><p>OPEN <group></p></td>
+<td><p>open <group></p></td>
 <td><p>Open the specified group.</p></td>
 </tr>
 <tr class="odd">
-<td><p>READ &lt;data[i,j,...]&gt;</p></td>
+<td><p>read &lt;data[i,j,...]&gt;</p></td>
 <td><p>Read the contents of the specified data set. If no array indices are specified, the first three elements of the data set are output along with all its attributes. If an array index is specified, only that element is output. Note that the order of the array indices follows the C-convention (the last index is the most-rapidly varying).</p></td>
 </tr>
 <tr class="even">
-<td><p>DUMP <data> <file></p></td>
+<td><p>dump <data> <file></p></td>
 <td><p>Write the entire contents of the specified data set to the specified ASCII file.</p></td>
 </tr>
 <tr class="odd">
-<td><p>BYTEASCHAR</p></td>
+<td><p>byteaschar</p></td>
 <td><p>Toggle the output format for NX_INT8 and NX_UINT8 variables. By default, they are output as integers, but after giving this command, they are printed as character strings.</p></td>
 </tr>
 <tr class="even">
-<td><p>CLOSE</p></td>
+<td><p>close</p></td>
 <td><p>Close the currently open group. At the root level of the NeXus file, this command is ignored.</p></td>
 </tr>
 <tr class="odd">
-<td><p>EXIT, QUIT</p></td>
+<td><p>exit, quit</p></td>
 <td><p>Exit the program.</p></td>
 </tr>
 <tr class="even">
-<td><p>HELP</p></td>
+<td><p>help</p></td>
 <td><p>List the available commands.</p></td>
 </tr>
 </tbody>
 </table>
 
-On most systems, NXbrowse is compiled and linked during the standard
-NeXus installation. Precompiled binary versions are available for a
-limited number of operating systems (Linux, VMS, Macintosh). Please
-contact Ray Osborn for more information.
+NXbrowse is now installed as part of the standard NeXus installation.
+See the [NeXus Downloads
+section](Application_Program_Interface#Downloads "wikilink") for more
+details.
