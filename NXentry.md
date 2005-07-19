@@ -8,18 +8,15 @@ layout: wiki
     <!--
     URL:     http://www.nexus.anl.gov/classes/xml/NXentry.xml
     Editor:  NIAC
-    NIAC Version: 1.0
-    $Id$
+    $Id: NXentry.xml,v 1.2 2005/07/19 04:10:26 rio Exp $
 
-    Template of the top-level NeXus group which contains all the data and
-    associated information that comprise a single measurement. It is mandatory 
-    that there is at least one group of this type in the NeXus file.
+    Template of the top-level NeXus group which contains all the data and associated information
+    that comprise a single measurement. It is mandatory that there is at least one group of this type 
+    in the NeXus file.
 
     -->
     <NXentry name="{Entry Name}">
-        <title>
-            {Extended title for entry}?
-        </title>
+        <title>{Extended title for entry}?</title> 
         <definition version="{DTD version number}" URL="{URL of DTD file}">
             {Name of entry DTD}?
         </definition>
@@ -29,17 +26,17 @@ layout: wiki
         <end_time type="ISO8601">
             {Ending time of measurement}?
         </end_time>
-        <duration type="NX_INT">
+        <duration type="NX_INT" units="seconds">
             {Duration of measurement}?
         </duration>
-        <experiment_identifier type="NX_CHAR">
+        <experiment_identifier type="NX_CHAR[]">
             {}?
         </experiment_identifier>
         <run_number type="NX_INT">
             {Number of run or scan stored in this entry}?
         </run_number>
-        <run_cycle type="NX_CHAR">
-            {Number of the facility cycle in which the measurements were made}?
+        <run_cycle type="NX_CHAR[]">
+            {}?
         </run_cycle>
         <program_name version="{Program version number}">
             {Name of program used to generate this file}?
@@ -50,10 +47,14 @@ layout: wiki
         <notes>
             {Notes describing entry}?
         </notes>
-        <thumbnail type="NXnote">
-            {An small image that is representative of the entry.} 
-                    {An example of this is a 640x480 jpeg image automatically produced by a low resolution plot of the NXdata.}?
+        <thumbnail type="NXnote" mime_type="{image/*}">
+            {An small image that is representative of the entry.} {An example of this is a 
+                    640x480 jpeg image automatically produced by a low resolution plot of the 
+                    NXdata.}?
         </thumbnail>
+        <NXcharacterizations>
+            ?
+        </NXcharacterizations>
         <NXuser name="{user}">
             *
         </NXuser>
