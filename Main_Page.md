@@ -11,7 +11,7 @@ Australia, and North America in order to facilitate greater cooperation
 in the analysis and visualization of neutron, x-ray, and muon data.
 
 [NeXus Introduction](Introduction "wikilink"):Introduction to the concepts behind the NeXus data format.  
-[NeXus Design](Introduction "wikilink"):The hierarchical design of NeXus files.  
+[NeXus Design](Design "wikilink"):The hierarchical design of NeXus files.  
 [NeXus Classes](Design#NeXus_Classes "wikilink"):Definitions of the base classes that make up NeXus data.  
 [NeXus Instrument Definitions](Instruments "wikilink"):Generic instrument definitions or other specialized uses of NeXus.  
 [NeXus API](Application_Program_Interface "wikilink"):Application program interface for reading and writing NeXus files.  
