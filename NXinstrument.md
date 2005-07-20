@@ -10,12 +10,11 @@ layout: wiki
     Editor:  NIAC
     $Id: NXinstrument.xml,v 1.2 2005/07/19 04:10:26 rio Exp $
 
-    Template of instrument descriptions comprising various beamline 
-    components. Each component will also be a NeXus group defined by its 
-    distance from the sample. Negative distances represent beamline 
-    components that are before the sample while positive distances 
-    represent components that are after the sample. This device allows 
-    the unique identification of beamline components in a way that is 
+    Template of instrument descriptions comprising various beamline components. Each
+    component will also be a NeXus group defined by its distance from the sample.
+    Negative distances represent beamline components that are before the sample
+    while positive distances represent components that are after the sample. This
+    device allows the unique identification of beamline components in a way that is
     valid for both reactor and pulsed instrumentation.
 
     -->
