@@ -20,8 +20,8 @@ layout: wiki
             {Effective distance as seen by measuring radiation}?
         </distance>
         <type type="NX_CHAR">
-            {"H20" | "D20" | "Liquid H2" | "Liquid CH4" | "Liquid D2" | "Solid D2" | "C" |
-                    "Solid CH4" | "Solid H2"}?
+            { "H20" | "D20" | "Liquid H2" | "Liquid CH4" | "Liquid D2" | "Solid D2" 
+            | "C" |"Solid CH4" | "Solid H2"}?
         </type>
         <poison_depth type="NX_FLOAT" units="cm">
             {Poison depth}?
