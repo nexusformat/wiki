@@ -1,0 +1,53 @@
+---
+title: NXfermi chopper
+permalink: NXfermi_chopper/
+layout: wiki
+---
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <!--
+    URL:     http://www.nexus.anl.gov/classes/xml/NXfermi_chopper.xml
+    Editor:  Ron Ghosh
+    $Id: NXfermi_chopper.xml,v 1.2 2005/07/19 04:10:26 rio Exp $
+
+    This is the description for a  Fermi chopper, possibly with curved slits.
+
+    -->
+    <NXfermi_chopper name="chopper_name">
+        <type type="NX_CHAR">
+            {fchopper type}?
+        </type>
+        <rotation_speed type="NX_FLOAT" units="rpm">
+            {chopper rotation speed}? 
+        </rotation_speed>
+        <radius type="NX_FLOAT" units="cm">
+            {radius of chopper}? 
+        </radius>
+        <slit type="NX_FLOAT" units="cm">
+            {width of an individual slit}? 
+        </slit>
+        <r_slit type="NX_FLOAT" units="cm">
+            {radius of curvature of slits}? 
+        </r_slit>
+        <num type="NX_INT">
+            {number of slits}? 
+        </num>
+        <height type="NX_FLOAT" units="cm">
+            {input beam height}? 
+        </height>
+        <width type="NX_FLOAT" units="cm">
+            {input beam width}? 
+        </width>
+        <wavelength type="NX_FLOAT">
+            {Wavelength transmitted by chopper}?
+        </wavelength>
+        <NXgeometry name="">
+            {geometry of the fermi chopper}?
+        </NXgeometry>
+        <absorbing_material type="NX_CHAR">
+            {absorbing material}?
+        </absorbing_material>
+        <transmitting_material type="NX_CHAR">
+            {transmitting material}?
+        </transmitting_material>
+    </NXfermi_chopper>
