@@ -10,9 +10,9 @@ layout: wiki
     Editor:  NIAC
     $Id: NXentry.xml,v 1.2 2005/07/19 04:10:26 rio Exp $
 
-    Template of the top-level NeXus group which contains all the data and associated information
-    that comprise a single measurement. It is mandatory that there is at least one group of this type 
-    in the NeXus file.
+    Template of the top-level NeXus group which contains all the data and
+    associated information that comprise a single measurement. It is mandatory that 
+    there is at least one group of this type in the NeXus file.
 
     -->
     <NXentry name="{Entry Name}">
@@ -48,9 +48,9 @@ layout: wiki
             {Notes describing entry}?
         </notes>
         <thumbnail type="NXnote" mime_type="{image/*}">
-            {An small image that is representative of the entry.} {An example of this is a 
-                    640x480 jpeg image automatically produced by a low resolution plot of the 
-                    NXdata.}?
+            {An small image that is representative of the entry.} {An example of
+            this is a 640x480 jpeg image automatically produced by a low resolution
+            plot of the NXdata.}?
         </thumbnail>
         <NXcharacterizations>
             ?
