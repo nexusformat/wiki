@@ -11,15 +11,12 @@ layout: wiki
     $Id: NXcrystal.xml,v 1.2 2005/07/19 04:10:26 rio Exp $
 
     Template of a crystal monochromator or analyzer. Permits double bent
-    monochromator comprised of multiple segments with anisotropic 
-    Gaussian mosaic.
+    monochromator comprised of multiple segments with anisotropic Gaussian mosaic.
 
-    If curvatures are set to zero or are absent, array 
-    is considered to be flat.
+    If curvatures are set to zero or are absent, array is considered to be flat.
 
-    Scattering vector is perpendicular to surface. Crystal is oriented
-    parallel to beam incident on crystal before rotation, and lies in
-    vertical plane.
+    Scattering vector is perpendicular to surface. Crystal is oriented parallel to
+    beam incident on crystal before rotation, and lies in vertical plane.
 
     -->
     <NXcrystal name="{Name of crystal}">
@@ -27,8 +24,8 @@ layout: wiki
             {Position of crystal}?
         </NXgeometry>
         <type type="NX_CHAR">
-            {"PG (Highly Oriented Pyrolytic Graphite)" | "Ge" | "Si" | "Cu" | "Fe3Si" | 
-                    "CoFe" | "Cu2MnAl (Heusler)" | "Multilayer" }?
+            { "PG (Highly Oriented Pyrolytic Graphite)" | "Ge" | "Si" | "Cu" | 
+            "Fe3Si" | "CoFe" | "Cu2MnAl (Heusler)" | "Multilayer" }?
         </type>
         <cut_angle type="NXFLOAT" units="degrees">
             {Cut angle of reflecting Bragg plane and plane of crystal surface}?
@@ -40,7 +37,8 @@ layout: wiki
             {Volume of the unit cell}?
         </unit_cell_volume>
         <orientation_matrix type="NX_FLOAT[3,3]">
-            {Orientation matrix of single crystal sample using Busing-Levy convention}?
+            {Orientation matrix of single crystal sample using Busing-Levy 
+            convention}?
         </orientation_matrix>
         <wavelength type="NX_FLOAT[i]" units="Angstroms">
             {Optimum diffracted wavelength}?
