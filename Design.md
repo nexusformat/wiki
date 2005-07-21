@@ -143,7 +143,7 @@ detector banks producing plottable data.
 data set in which each count is recorded as a separate data event. This
 form might be chosen when the data are too sparse to be stored
 efficiently in histograms. Normally, such data will have to be converted
-to a regular [NXdata group](NXdata_group "wikilink") before it can be
+to a regular [NXdata](NXdata "wikilink") group before it can be
 analyzed.
 
 ::;[NXuser](NXuser "wikilink"):Details of a user, i.e., name,
