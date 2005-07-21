@@ -150,30 +150,52 @@ analyzed.
 affiliation, email address, *etc*.
 
 ::;[NXprocess](NXprocess "wikilink"):Group used to store details of how
-the data have been processed. In addition to these classes, which appear
-in the locations shown above, the following groups can be added to any
-group in a NeXus file.
+the data have been processed.
 
-[NXlog](NXlog "wikilink"):This group contains any logged information, *i.e.*, information monitored during the run. It comprises the logged values and the times at which they were measured as elapsed time since a specified starting time.  
-[NXnote](NXnote "wikilink"):This is a generic group designed to hold annotations or images stored in order to describe the experiment.  
-[NXbeam](NXbeam "wikilink"):This group records the state of the neutron or X-ray beam at any location. It could be referenced by instrument components within the NXinstrument group or by the NXsample group. In storing the results of instrument simulations in which it is useful to specify the beam profile, time distribution etc., at various stages down the beamline. Otherwise, its most likely use is in the NXsample group in which it defines the results of the neutron scattering by the sample, *e.g.*, energy transfer, polarizations.  
-[NXgeometry](NXgeometry "wikilink"):This group contains the geometrical information required to define the position, shape, and orientation of a NeXus object. This is especially important if the NeXus file contains the results of a comprehensive instrument simulation.  
+::;[NXcharacterizations](NXcharacterizations "wikilink"):Pointers to
+other data required for the analysis of this
+[NXentry](NXentry "wikilink"), *e.g.* empty can runs, vanadium runs,
+*etc.* In addition to these classes, which appear in the locations shown
+above, the following groups can be added to any group in a NeXus file.
 
-:;[NXtranslation](NXtranslation "wikilink"):This group defines the
+:;[NXlog](NXlog "wikilink"):This group contains any logged information,
+*i.e.*, information monitored during the run. It comprises the logged
+values and the times at which they were measured as elapsed time since a
+specified starting time.
+
+:;[NXnote](NXnote "wikilink"):This is a generic group designed to hold
+annotations or images stored in order to describe the experiment.
+
+:;[NXbeam](NXbeam "wikilink"):This group records the state of the
+neutron or X-ray beam at any location. It could be referenced by
+instrument components within the NXinstrument group or by the NXsample
+group. In storing the results of instrument simulations in which it is
+useful to specify the beam profile, time distribution etc., at various
+stages down the beamline. Otherwise, its most likely use is in the
+NXsample group in which it defines the results of the neutron scattering
+by the sample, *e.g.*, energy transfer, polarizations.
+
+:;[NXgeometry](NXgeometry "wikilink"):This group contains the
+geometrical information required to define the position, shape, and
+orientation of a NeXus object. This is especially important if the NeXus
+file contains the results of a comprehensive instrument simulation.
+
+::;[NXtranslation](NXtranslation "wikilink"):This group defines the
 position of the object in either absolute coordinates or relative to
 another object.
 
-:;[NXshape](NXshape "wikilink"):This group defines the shape of an
+::;[NXshape](NXshape "wikilink"):This group defines the shape of an
 object.
 
-:;[NXorientation](NXorientation "wikilink"):This group defines the
+::;[NXorientation](NXorientation "wikilink"):This group defines the
 orientation of the object. The NXgeometry group defines the shape of an
 object in terms of a conventional set of coordinate axes, but this group
 allows it to be rotated into an arbitrary orientation.
 
-[NXenvironment](NXenvironment "wikilink"):This group contains details of the environment of a beamline component.  
+:;[NXenvironment](NXenvironment "wikilink"):This group contains details
+of the environment of a beamline component.
 
-:;[NXsensor](NXsensor "wikilink"):This group defines an environment
+::;[NXsensor](NXsensor "wikilink"):This group defines an environment
 sensor.
 
 ### NeXus Data
