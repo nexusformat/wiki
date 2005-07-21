@@ -152,11 +152,11 @@ affiliation, email address, *etc*.
 ::;[NXprocess](NXprocess "wikilink"):Group used to store details of how
 the data have been processed.
 
-::;[NXcharacterizations](NXcharacterizations "wikilink"):Pointers to
-other data required for the analysis of this
-[NXentry](NXentry "wikilink"), *e.g.* empty can runs, vanadium runs,
-*etc.* In addition to these classes, which appear in the locations shown
-above, the following groups can be added to any group in a NeXus file.
+::;[NXcharacterizations](NXcharacterizations "wikilink"):Information
+required for the analysis of this [NXentry](NXentry "wikilink"), *e.g.*
+identification of empty can runs, vanadium runs, *etc.* In addition to
+these classes, which appear in the locations shown above, the following
+groups can be added to any group in a NeXus file.
 
 :;[NXlog](NXlog "wikilink"):This group contains any logged information,
 *i.e.*, information monitored during the run. It comprises the logged
