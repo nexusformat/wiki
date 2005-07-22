@@ -50,4 +50,4 @@ To accept the voting procedure described in [Voting](Voting "wikilink").
 ### Abstain
 
   
-\[\[User%3AJoeBloggs|JoeBloggs\] 15:30, 22 Jul 2005 (CDT)
+[JoeBloggs](User%3AJoeBloggs "wikilink") 15:30, 22 Jul 2005 (CDT)
