@@ -31,7 +31,8 @@ Here is an example motion (the real one will be on this page's
 Motion
 ------
 
-To accept the voting procedure described in [Voting](Voting "wikilink").
+To follow the procedure described in [Voting](Voting "wikilink") in
+future online votes of the NeXus International Advisory Committee.
 
 ### Yes
 

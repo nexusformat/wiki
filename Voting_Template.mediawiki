@@ -8,7 +8,7 @@ The NeXus wiki is configured so that people have to be logged in before editing 
 Here is an example motion (the real one will be on this page's '''Discussion""" page):
 
 ==Motion==
-To accept the voting procedure described in [[Voting]].
+To follow the procedure described in [[Voting]] in future online votes of the NeXus International Advisory Committee.
 ===Yes===
 :[[User:Ray|Ray]] 15:30, 22 Jul 2005 (CDT)
 :[[User:Pfpeterson|Pfpeterson]] 15:30, 22 Jul 2005 (CDT)
