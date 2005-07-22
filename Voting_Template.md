@@ -18,11 +18,12 @@ votes by the [NIAC](NIAC "wikilink"). Here is the mechanism:
     discussion, at the end of the **Discussion** page.
 4.  After the motion, there are separate sub-headings marked **Yes**,
     **No**, and **Abstain**.
-5.  Each NIAC member adds their signature below the sub-heading
-    representing their vote. They should vote by typing on a new line
-    :~~~~. The colon ensures that the vote is formatted on a new line,
-    while the ~~~~ records the committee members username and the time
-    of entry.
+5.  Each NIAC member adds their
+    [signature](Help:Contents#Signatures "wikilink") below the
+    sub-heading representing their vote. They should vote by typing on a
+    new line :~~~~. The colon ensures that the vote is formatted on a
+    new line, while the ~~~~ records the committee members username and
+    the time of entry.
 
 Here is an example motion (the real one will be on this page's
 '''Discussion“"” page):
