@@ -44,9 +44,9 @@ To accept the voting procedure described in [Voting](Voting "wikilink").
 ### No
 
   
-[Ray](User%3ARay "wikilink") 15:30, 22 Jul 2005 (CDT)
+[JaneDoe](User%3AJaneDoe "wikilink") 15:30, 22 Jul 2005 (CDT)
 
 ### Abstain
 
   
-[Ray](User%3ARay "wikilink") 15:30, 22 Jul 2005 (CDT)
+\[\[User%3AJoeBloggs|JoeBloggs\] 15:30, 22 Jul 2005 (CDT)
