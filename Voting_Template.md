@@ -37,9 +37,9 @@ To accept the voting procedure described in [Voting](Voting "wikilink").
   
 [Ray](User%3ARay "wikilink") 15:30, 22 Jul 2005 (CDT)
 
-[Ray](User%3ARay "wikilink") 15:30, 22 Jul 2005 (CDT)
+[Pfpeterson](User%3APfpeterson "wikilink") 15:30, 22 Jul 2005 (CDT)
 
-[Ray](User%3ARay "wikilink") 15:30, 22 Jul 2005 (CDT)
+[JohnDoe](User%3AJohnDoe "wikilink") 15:30, 22 Jul 2005 (CDT)
 
 ### No
 

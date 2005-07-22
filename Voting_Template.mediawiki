@@ -11,8 +11,9 @@ Here is an example motion (the real one will be on this page's '''Discussion""" 
 To accept the voting procedure described in [[Voting]].
 ===Yes===
 :[[User:Ray|Ray]] 15:30, 22 Jul 2005 (CDT)
-:[[User:Ray|Ray]] 15:30, 22 Jul 2005 (CDT)
-:[[User:Ray|Ray]] 15:30, 22 Jul 2005 (CDT)
+:[[User:Pfpeterson|Pfpeterson]] 15:30, 22 Jul 2005 (CDT)
+:[[User:JohnDoe|JohnDoe]] 15:30, 22 Jul 2005 (CDT)
+
 ===No===
 :[[User:Ray|Ray]] 15:30, 22 Jul 2005 (CDT)
 ===Abstain===
