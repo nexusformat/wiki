@@ -12,4 +12,5 @@ discussion on the [NeXus Mailing
 List](http://www.neutron.anl.gov/mailman/listinfo/nexus).
 
 -   [NXnet Proposal](NXnet_Proposal "wikilink")
+-   [Voting](Voting "wikilink")
 
