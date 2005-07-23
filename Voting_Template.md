@@ -26,7 +26,7 @@ votes by the [NIAC](NIAC "wikilink"). Here is the mechanism:
     the time of entry.
 
 Here is an example motion (the real one will be on this page's
-'''Discussion“"” page):
+**Discussion** page):
 
 Motion
 ------

@@ -5,7 +5,7 @@ The NeXus wiki is configured so that people have to be logged in before editing 
 # After the motion, there are separate sub-headings marked '''Yes''', '''No''', and '''Abstain'''.
 # Each NIAC member adds their [[Help:Contents#Signatures|signature]] below the sub-heading representing their vote.  They should vote by typing on a new line <nowiki>:~~~~</nowiki>.  The colon ensures that the vote is formatted on a new line, while the <nowiki>~~~~</nowiki> records the committee members username and the time of entry.
 
-Here is an example motion (the real one will be on this page's '''Discussion""" page):
+Here is an example motion (the real one will be on this page's '''Discussion''' page):
 
 ==Motion==
 To follow the procedure described in [[Voting]] in future online votes of the NeXus International Advisory Committee.
