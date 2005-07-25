@@ -4,7 +4,7 @@ permalink: User:Nick_Hauser/
 layout: wiki
 ---
 
-### Chair, NeXus International Advisory Committee
+### Member, NeXus International Advisory Committee
 
 Address:Bragg Institute  
 B82
