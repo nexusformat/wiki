@@ -34,10 +34,10 @@ layout: wiki
             {Source power}?
         </power>
         <current type="NX_FLOAT" units="microamps">
-            {Accelerator proton current}?
+            {Accelerator current}?
         </current>
         <voltage type="NX_FLOAT" units="MeV">
-            {Accelerator proton voltage}?
+            {Accelerator voltage}?
         </voltage>
         <frequency type="NX_FLOAT" units="Hz">
             {Frequency of pulsed source}?
