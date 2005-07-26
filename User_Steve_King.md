@@ -1,0 +1,30 @@
+---
+title: User:Steve King
+permalink: User:Steve_King/
+layout: wiki
+---
+
+Steve King
+----------
+
+SANS Instrument Scientist
+
+NeXus Instrument Definition Editor for TOF-SANS
+
+Large-Scale Structures Group
+
+ISIS Facility
+
+Rutherford Appleton Laboratory
+
+Chilton
+
+Oxforshire OX11 0QX
+
+UK
+
+Phone: +44 1235-44-6437
+
+Fax: +44 1235-44-5642
+
+Email: s.m.king@rl.ac.uk (mailto:s.m.king@rl.ac.uk)
