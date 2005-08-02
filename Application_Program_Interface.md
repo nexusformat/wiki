@@ -689,8 +689,8 @@ The following packages are required:
 </tbody>
 </table>
 
--   [Download NeXus development snapshots as
-    RPMs](http://nexus.isis.rl.ac.uk/kits/rpm/)
+-   [Download latest NeXus development snapshot as
+    RPM](http://nexus.isis.rl.ac.uk/kits/rpm/)
 
 ### CYGWIN Kits
 
