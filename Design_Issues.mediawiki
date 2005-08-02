@@ -2,3 +2,4 @@ If you have a specific subject concerning the NeXus format design, please add it
 
 *[[Detector Geometry]]
 *[[Connecting NXdata to NXdetector]]
+*[[Indirect Time-of-Flight and Coordinates]]
