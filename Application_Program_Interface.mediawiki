@@ -478,6 +478,8 @@ The following packages are required:
 | align="center" | [http://www.nexus.anl.gov/nexus-3.0.0-1.src.rpm Source RPM]
 |}
 
+*[http://nexus.isis.rl.ac.uk/kits/rpm/ Download NeXus development snapshots as RPMs]
+
 ===CYGWIN Kits===
 You need to install the HDF4, SZIP and JPEG libraries before you can compile a NeXus distribution kit.  They are combined in a single gzipped tar file here.
 *[http://nexus.isis.rl.ac.uk/kits/cygwin/hdf42r1.tar.gz http://nexus.isis.rl.ac.uk/kits/cygwin/hdf42r1.tar.gz]

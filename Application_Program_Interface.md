@@ -689,6 +689,9 @@ The following packages are required:
 </tbody>
 </table>
 
+-   [Download NeXus development snapshots as
+    RPMs](http://nexus.isis.rl.ac.uk/kits/rpm/)
+
 ### CYGWIN Kits
 
 You need to install the HDF4, SZIP and JPEG libraries before you can
