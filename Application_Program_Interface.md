@@ -722,3 +722,14 @@ API, please report them online using the ISIS Bugzilla reporting system.
 -   [Enter a new NeXus bug
     report](http://bugs.isis.rl.ac.uk/enter_bug.cgi?product=NeXus)
 
+Mailing Lists
+-------------
+
+-   [NeXus developers mailing
+    list](http://www.neutron.anl.gov/mailman/listinfo/nexus-developers/)
+    and [message
+    archive](http://www.neutron.anl.gov/pipermail/nexus-developers/)
+-   [NeXus CVS (source code changes) mailing
+    list](http://www.neutron.anl.gov/mailman/listinfo/nexus-cvs) and
+    [message archive](http://www.neutron.anl.gov/pipermail/nexus-cvs/)
+
