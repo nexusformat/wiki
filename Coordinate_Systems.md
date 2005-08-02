@@ -1,0 +1,20 @@
+---
+title: Coordinate Systems
+permalink: Coordinate_Systems/
+layout: wiki
+---
+
+The MARS experience showed me that it is easy to get confused about the
+NeXus coordinate systems. I therefore suggest the following:
+
+-   Remove coordinates from all component DTD
+-   Make a dosumentation page describing our two coordinate systems:
+    -   The simple polare\_angle, distance etc system
+    -   The NXgeometry system
+-   State that coordinate describing datasets can occur in any component
+    group
+-   State that one system must be used throughout the whole definition
+
+The last point should prohibit to have both NXgeometry and simple
+coordinates in one DTD. This can be confusing. As NXgemoetry is anyway
+intended to be used by the simulation community this should be OK.
