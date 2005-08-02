@@ -436,7 +436,7 @@ To find out how to customize the installation, ''e.g.'', to choose different ins
 </pre>
 See the README file for further instructions.
 *[http://www.nexus.anl.gov/downloads/nexus-3.0.0.tar.gz Download NeXus API v3.0.0]
-*[http://nexus.isis.rl.ac.uk/kits/ Download NeXus development snapshots]
+*[http://nexus.isis.rl.ac.uk/kits/ Download latest NeXus development snapshots]
 *[http://nexus.isis.rl.ac.uk/cgi-bin/viewcvs.cgi NeXus CVS server]
 
 ===RPM Distribution Kits===

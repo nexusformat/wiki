@@ -621,7 +621,7 @@ See the README file for further instructions.
 
 -   [Download NeXus API
     v3.0.0](http://www.nexus.anl.gov/downloads/nexus-3.0.0.tar.gz)
--   [Download NeXus development
+-   [Download latest NeXus development
     snapshots](http://nexus.isis.rl.ac.uk/kits/)
 -   [NeXus CVS server](http://nexus.isis.rl.ac.uk/cgi-bin/viewcvs.cgi)
 
