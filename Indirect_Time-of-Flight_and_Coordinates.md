@@ -6,7 +6,9 @@ layout: wiki
 
 I am having some problems describing a indirect time-of-flight
 instrument we are currently building. The name of the instrument is
-MARS. See this ![](mars.png "fig:mars.png") image for a schema.
+MARS. See this image for a schema.
+
+![MARS|center](mars.png "MARS|center")
 
 The instrument has 12 elastic detectors. These go in a separate NXentry
 group and are covered by the the TOFNPD DTD. However, I missed
