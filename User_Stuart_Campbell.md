@@ -7,7 +7,7 @@ layout: wiki
 Stuart Campbell
 ---------------
 
-### Diamond Representative, NeXus International Advisory Committee
+### Member, NeXus International Advisory Committee
 
 Address:Diamond Light Source  
 Chilton, Didcot, OX11 0DE, UK
