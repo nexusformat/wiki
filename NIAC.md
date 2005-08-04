@@ -9,8 +9,8 @@ Current Members
 
 -   [Frederick Akeroyd](User%3AFreddieAkeroyd "wikilink"), Rutherford
     Appleton Laboratory, UK (ISIS Representative)
--   [Stuart Campbell](User%3ASicampbell "wikilink"), Rutherford Appleton
-    Laboratory (Diamond Representative)
+-   [Stuart Campbell](User%3ASicampbell "wikilink"), Diamond Light
+    Source, UK
 -   Stephen Cottrell, Rutherford Appleton Laboratory, UK (Muon
     Representative)
 -   Matthias Drochner, Forschungzentrum Jülich, Germany
