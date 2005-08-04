@@ -43,6 +43,8 @@ future online votes of the NeXus International Advisory Committee.
 
 [JohnDoe](User%3AJohnDoe "wikilink") 15:30, 22 Jul 2005 (CDT)
 
+[Mkoennecke](User%3AMkoennecke "wikilink") 08:00, 4 Aug 2005 (CDT)
+
 ### No
 
   
