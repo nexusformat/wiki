@@ -13,7 +13,8 @@ Current Members
     Source, UK
 -   Stephen Cottrell, Rutherford Appleton Laboratory, UK (Muon
     Representative)
--   Matthias Drochner, Forschungzentrum Jülich, Germany
+-   [Matthias Drochner](User%3Adrochner "wikilink"), Forschungzentrum
+    Jülich, Germany
 -   [Nick Hauser](User%3Anick "wikilink"), Australian Nuclear Science
     and Technology Organisation, Australia
 -   Ron Ghosh, Institut Laue Langevin, France
