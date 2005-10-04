@@ -4,13 +4,6 @@ permalink: Design/
 layout: wiki
 ---
 
-NeXus Objects
--------------
-
-NeXus data files contain two types of elementary object: data items and
-data groups. In addition, metadata required to describe a data item,
-e.g. its physical units, can be attached to the data as data attributes.
-
 ### Data Items
 
 Data items contain the essential information stored in a NeXus file.
@@ -21,23 +14,3 @@ detector angles, etc), and other information associated with the
 experiment (start and end times, user names, etc). Data items are
 identified by their names, which must be unique within the group in
 which they are stored.
-
-### Data Attributes
-
-Attributes are extra (meta-)information that are associated with
-particular data items. They are used to annotate the data, e.g. with
-physical units or calibration offsets, and may be scalar numbers or
-character strings. In addition, NeXus uses attributes to identify
-plottable data and their axes, etc. Finally, NeXus files themselves have
-global attributes that identify the NeXus version, file creation time,
-etc.. Attributes are identified by their names, which must be unique in
-each data item.
-
-### Data Groups
-
-NeXus files consist of data groups, which contain data items and/or
-other groups to form a hierarchical structure. This hierarchy is
-designed to make it easy to navigate a NeXus file by storing related
-data items together. Data groups are identified both by a name, which
-must be unique within a particular group, and a class. There can be
-multiple groups with the same class.
