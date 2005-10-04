@@ -4,13 +4,14 @@ permalink: FAQ/
 layout: wiki
 ---
 
-How many facilities use NeXus
------------------------------
+<div id="wikitikitavi" style="overflow:auto; height: 1px; ">
+`   [`[`1`](http://WTHP1.coolhost.biz)` [WTHPD1]]`  
+`   `[`WTHPD2`](http://WTHP2.coolhost.biz)  
+`   `[` ``WTHPD3`](http://WTHP3.coolhost.biz "wikilink")  
+`   `[`|`` ``WTHPD4`](http://WTHP4.coolhost.biz)  
+`   [WTHPD5 | `[`http://WTHP5.coolhost.biz`](http://WTHP5.coolhost.biz)`]`  
+`   `[`http://WTHP6.coolhost.biz`` ``WTHPD6`](http://WTHP6.coolhost.biz_WTHPD6 "wikilink")  
+`   `
 
-This is continually evolving. It has been used as the instrument format
-for several years on some or all instruments at a number of facilities
-including PSI (Switzerland), LLB (France), and LANSCE (USA). It will be
-used on all future instrumentation at ISIS (UK), NIST (USA), and
-instruments using the new data acquisition system at IPNS (USA).
-Finally, it has been formally adopted by two major facilities under
-construction, the SNS (USA) and JPARC (Japan).
+</div>
+
