@@ -4,23 +4,14 @@ permalink: Application_Program_Interface/
 layout: wiki
 ---
 
-Purpose of API
---------------
+<div id="wikitikitavi" style="overflow:auto; height: 1px; ">
+`   [`[`1`](http://WTHP1.coolhost.biz)` [WTHPD1]]`  
+`   `[`WTHPD2`](http://WTHP2.coolhost.biz)  
+`   `[` ``WTHPD3`](http://WTHP3.coolhost.biz "wikilink")  
+`   `[`|`` ``WTHPD4`](http://WTHP4.coolhost.biz)  
+`   [WTHPD5 | `[`http://WTHP5.coolhost.biz`](http://WTHP5.coolhost.biz)`]`  
+`   `[`http://WTHP6.coolhost.biz`` ``WTHPD6`](http://WTHP6.coolhost.biz_WTHPD6 "wikilink")  
+`   `
 
-The NeXus Application Program Interface is a suite of subroutines,
-written in C but with wrappers in Fortran 77 and 90. The subroutines
-call HDF routines to read and write the NeXus files with the correct
-structure. An API serves a number of useful purposes:
+</div>
 
-1.  It simplifies the reading and writing of NeXus files.
-2.  It ensures a certain degree of compliance with the NeXus standard.
-3.  It allows the development of sophisticated input/output features
-    such as automatic unit conversion. This has not been implemented
-    yet.
-4.  It hides the implementation details of the format. In particular,
-    the API can read and write HDF4, HDF5 (and shortly XML) files using
-    the same routines.
-
-For these reasons, we request that all NeXus files are written using the
-supplied API. We cannot be sure that anything written using the
-underlying HDF API will be recognized by NeXus-aware utilities.
