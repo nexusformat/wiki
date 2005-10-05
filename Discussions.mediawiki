@@ -3,15 +3,3 @@ The NeXus wiki is a collaborative forum that allows members of the neutron, x-ra
 ;[[Software issues]]:A forum for discussing the NeXus API and other software issues.
 ;[[Documentation issues]]:A forum for discussing how the NeXus format should be documented.
 ;[[Miscellaneous topics]]:A forum for discussing anything else.
-
-
-
-
-	<div id="wikitikitavi" style="overflow:auto; height: 1px; ">
-	[[http://WTHP1.coolhost.biz] [WTHPD1]]
-	[http://WTHP2.coolhost.biz  WTHPD2]
-	[[http://WTHP3.coolhost.biz | WTHPD3]]
-	[http://WTHP4.coolhost.biz | WTHPD4]
-	[WTHPD5 | http://WTHP5.coolhost.biz]
-	[[http://WTHP6.coolhost.biz WTHPD6]]
-	</div>
