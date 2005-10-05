@@ -4,14 +4,23 @@ permalink: NeXus:General_disclaimer/
 layout: wiki
 ---
 
-<div id="wikitikitavi" style="overflow:auto; height: 1px; ">
-`   [`[`1`](http://WTHP1.coolhost.biz)` [WTHPD1]]`  
-`   `[`WTHPD2`](http://WTHP2.coolhost.biz)  
-`   `[` ``WTHPD3`](http://WTHP3.coolhost.biz "wikilink")  
-`   `[`|`` ``WTHPD4`](http://WTHP4.coolhost.biz)  
-`   [WTHPD5 | `[`http://WTHP5.coolhost.biz`](http://WTHP5.coolhost.biz)`]`  
-`   `[`http://WTHP6.coolhost.biz`` ``WTHPD6`](http://WTHP6.coolhost.biz_WTHPD6 "wikilink")  
-`   `
+Security Notice
+---------------
 
-</div>
+October 31, 2000
 
+This web site is part of a Federal computer system used to accomplish
+Federal functions. The Department of Energy monitors this web site for
+security purposes to ensure it remains available to all users and to
+protect information in the system. By accessing this web site, you are
+expressly consenting to these monitoring activities.
+
+Unauthorized attempts to defeat or circumvent security features, to use
+the system for other than intended purposes, to deny service to
+authorized users, to access, obtain, alter, damage, or destroy
+information, or otherwise to interfere with the system or its operation
+are prohibited. Evidence of such acts may be disclosed to law
+enforcement authorities and result in criminal prosecution under the
+Computer Fraud and Abuse Act of 1986 (Pub. L. 99-474) and the National
+Information Infrastructure Protection Act of 1996 (Pub. L. 104-294), (18
+U.S.C. 1030), or other applicable criminal laws.
