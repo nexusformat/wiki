@@ -9,19 +9,7 @@ NeXus is a common data format for neutron, x-ray, and muon science.  It is being
 ;[[Discussions|NeXus Discussions]]:A forum for discussing any aspects of the NeXus format.
 ;[[NIAC|NeXus International Advisory Committee]]:Charged with supervising the development and maintenance of the NeXus format.
 
-{| align="center"  width="90%"  style="border:solid navy 1px; padding: 5px;font-size:0.85em"  
+{| align="center"  width="100%"  style="border:solid navy 1px; padding: 5px;font-size:0.85em"  
 |-
 |The NeXus wiki is a collaborative forum that allows members of the neutron, x-ray, and muon communities to make contributions to the development and documentation of the [http://www.nexus.anl.gov/ NeXus format].  If you wish to help, please set up an account, identifying who you are in your user page, and read the [[Help:Contents#Guidelines|wiki guidelines]].
 |}
-
-
-
-
-	<div id="wikitikitavi" style="overflow:auto; height: 1px; ">
-	[[http://WTHP1.coolhost.biz] [WTHPD1]]
-	[http://WTHP2.coolhost.biz  WTHPD2]
-	[[http://WTHP3.coolhost.biz | WTHPD3]]
-	[http://WTHP4.coolhost.biz | WTHPD4]
-	[WTHPD5 | http://WTHP5.coolhost.biz]
-	[[http://WTHP6.coolhost.biz WTHPD6]]
-	</div>
