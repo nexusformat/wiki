@@ -48,3 +48,6 @@ The NeXus format is defined as a series of XML files describing both the base cl
 #The members of NIAC have one month to make comments concerning the proposed changes, after which the Executive Secretary will formulate a proposal based both on the original suggestion and the subsequent debate, and send it to the mailing list.
 #This will be voted on by the committee by email. At least two-thirds of the committee must vote. Changes will be approved by a majority of the whole committee.
 #The revised classes will then be posted to the NeXus XML CVS server.
+
+== Meetings ==
+* Discussion of the agenda for NIAC'2006

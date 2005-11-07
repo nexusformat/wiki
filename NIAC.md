@@ -126,3 +126,8 @@ proposed. This is the current procedure:
     of the whole committee.
 5.  The revised classes will then be posted to the NeXus XML CVS server.
 
+Meetings
+--------
+
+-   Discussion of the agenda for NIAC'2006
+
