@@ -15,4 +15,4 @@ Chilton, Didcot, OX11 0DE, UK
 <!-- -->
 
 Phone:+44 1235 778411  
-Email: <Stuart.Campbell@diamond.ac.uk>  
+Email: <stuart.campbell@diamond.ac.uk>  
