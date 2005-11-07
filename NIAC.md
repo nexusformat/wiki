@@ -129,5 +129,5 @@ proposed. This is the current procedure:
 Meetings
 --------
 
--   Discussion of the agenda for NIAC'2006
+-   [Discussion of the agenda for NIAC'2006](NIAC_Meetings "wikilink")
 
