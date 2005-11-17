@@ -1,8 +1,9 @@
-A proposal for a NeXus Time-of-Flight raw data file format (NXTOFRW)
+A proposal for a NeXus Time-of-Flight Raw Data File Format (NXTOFRW)
 
 ==Introduction==
 
-[http://www.nexus.anl.gov/ NeXus] is moving onto the idea of inherited incremental definitions as discussed at the last meeting of the [http://www.nexus.anl.gov/nexus_committee.html NeXus International Advisory Committee (NIAC)] – for example with powder diffractometers there is a definition for both time focussing and total scattering with one being a subset of the other; a file can conform to one or both. The initial work on this definition comes from discussions between [http://www.sns.gov/ SNS], [http://j-parc.jp/index-e.html J-PARC] and [http://www.isis.rl.ac.uk/ ISIS] and the goal is to propose a “NeXus TOF raw data file” definition which will form a common root/parent definition for files produced at the three facilities. This will allow greater sharing of first look data applications.
+[http://www.nexus.anl.gov/ NeXus] is moving onto the idea of inherited incremental definitions as discussed at the last meeting of the [http://www.nexus.anl.gov/nexus_committee.html NeXus International Advisory Committee (NIAC)] – for example with powder diffractometers there is a definition for both time focussing and total scattering with one being a subset of the other; a file can conform to one or both. The initial work on this definition comes from discussions between [http://www.sns.gov/ SNS], [http://j-parc.jp/index-e.html J-PARC] and [http://www.isis.rl.ac.uk/ ISIS] -
+the three facilities are interested in having a unified base for all instruments to allow for low level instrument debugging tools to be used, without change, in a given facility.
 
 ==Goal of the Definition==
 

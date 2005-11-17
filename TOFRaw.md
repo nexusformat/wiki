@@ -4,7 +4,7 @@ permalink: TOFRaw/
 layout: wiki
 ---
 
-A proposal for a NeXus Time-of-Flight raw data file format (NXTOFRW)
+A proposal for a NeXus Time-of-Flight Raw Data File Format (NXTOFRW)
 
 Introduction
 ------------
@@ -18,10 +18,10 @@ focussing and total scattering with one being a subset of the other; a
 file can conform to one or both. The initial work on this definition
 comes from discussions between [SNS](http://www.sns.gov/),
 [J-PARC](http://j-parc.jp/index-e.html) and
-[ISIS](http://www.isis.rl.ac.uk/) and the goal is to propose a “NeXus
-TOF raw data file” definition which will form a common root/parent
-definition for files produced at the three facilities. This will allow
-greater sharing of first look data applications.
+[ISIS](http://www.isis.rl.ac.uk/) - the three facilities are interested
+in having a unified base for all instruments to allow for low level
+instrument debugging tools to be used, without change, in a given
+facility.
 
 Goal of the Definition
 ----------------------
