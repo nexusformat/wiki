@@ -4,6 +4,8 @@ permalink: TOFRaw/
 layout: wiki
 ---
 
+A proposal for a NeXus Time-of-Flight raw data file format (NXTOFRW)
+
 Introduction
 ------------
 
@@ -142,7 +144,7 @@ required rather an optional. Additional items are highlighted in
 <font color=red>red</font>.
 
 This definition covers a single run experiment - extensions are proposed
-for [scan type experiments](NeXusRawScanFormat "wikilink")
+for [scan type experiments](TOFRawScan "wikilink")
 
 #### NXentry
 

@@ -1,3 +1,5 @@
+A proposal for a NeXus Time-of-Flight raw data file format (NXTOFRW)
+
 ==Introduction==
 
 [http://www.nexus.anl.gov/ NeXus] is moving onto the idea of inherited incremental definitions as discussed at the last meeting of the [http://www.nexus.anl.gov/nexus_committee.html NeXus International Advisory Committee (NIAC)] – for example with powder diffractometers there is a definition for both time focussing and total scattering with one being a subset of the other; a file can conform to one or both. The initial work on this definition comes from discussions between [http://www.sns.gov/ SNS], [http://j-parc.jp/index-e.html J-PARC] and [http://www.isis.rl.ac.uk/ ISIS] and the goal is to propose a “NeXus TOF raw data file” definition which will form a common root/parent definition for files produced at the three facilities. This will allow greater sharing of first look data applications.
@@ -98,7 +100,7 @@ The root is not a real class in the NeXus file, it is a convenient name under wh
 
 This is the top level group in a file that contains a complete set of information (e.g. a “run”) - raw, reduced, and analyzed data can occur in the same file, each as a separate NXentry . The definition  below is taken from the NeXus technical reference changing some elements to be required rather an optional. Additional items are highlighted in <font color=red>red</font>.
 
-This definition covers a single run experiment - extensions are proposed for [[NeXusRawScanFormat|scan type experiments]]
+This definition covers a single run experiment - extensions are proposed for [[TOFRawScan|scan type experiments]]
 
 ====NXentry====
   
