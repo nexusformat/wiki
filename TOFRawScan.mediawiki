@@ -1,9 +1,3 @@
-Please select the '''watch''' tab at the top of this page to enable an email alert to be sent to you when a page changes - this will help speed up discussions.
-
-----
-
-For questions and to explain any edits you do to this page please use the '''discussion''' tab  - further information is detailed on the [[UsageGuidelines]] page. 
-
 ==Introduction==
 
 This document defines extensions to the [[NeXusRawFileFormat|single run format]] to deal with scans and ISIS period type experiments; the same conventions used there apply here. 

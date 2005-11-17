@@ -4,16 +4,6 @@ permalink: TOFRawScan/
 layout: wiki
 ---
 
-Please select the **watch** tab at the top of this page to enable an
-email alert to be sent to you when a page changes - this will help speed
-up discussions.
-
-------------------------------------------------------------------------
-
-For questions and to explain any edits you do to this page please use
-the **discussion** tab - further information is detailed on the
-[UsageGuidelines](UsageGuidelines "wikilink") page.
-
 Introduction
 ------------
 
