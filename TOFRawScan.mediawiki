@@ -1,3 +1,5 @@
+NXTOFRWSC - a NeXus Time-Of-Flight Raw Data File Scan Format
+
 ==Introduction==
 
 This document defines extensions to the [[TOFRaw|single run format]] to deal with scans and ISIS period type experiments; the same conventions used there apply here. 
