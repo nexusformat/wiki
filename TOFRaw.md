@@ -13,12 +13,13 @@ International Advisory Committee
 (NIAC)](http://www.nexus.anl.gov/nexus_committee.html) – for example
 with powder diffractometers there is a definition for both time
 focussing and total scattering with one being a subset of the other; a
-file can conform to one or both. The goal of this paper is to propose a
-“NeXus TOF raw data file” definition which will hopefully form a common
-root/parent definition for files produced at [SNS](http://www.sns.gov/),
+file can conform to one or both. The initial work on this definition
+comes from discussions between [SNS](http://www.sns.gov/),
 [J-PARC](http://j-parc.jp/index-e.html) and
-[ISIS](http://www.isis.rl.ac.uk/) and so allow greater sharing of first
-look data applications.
+[ISIS](http://www.isis.rl.ac.uk/) and the goal is to propose a “NeXus
+TOF raw data file” definition which will form a common root/parent
+definition for files produced at the three facilities. This will allow
+greater sharing of first look data applications.
 
 Goal of the Definition
 ----------------------
