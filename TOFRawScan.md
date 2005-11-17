@@ -22,7 +22,7 @@ contain several measurements. The single measurement case is outlined in
 [TOFRaw](TOFRaw "wikilink") and we outline here two possible methods of
 storing multiple measurements.
 
-#### NXentry (Type 1: linking entries to describe scans)
+#### Type 1: linking entries to describe scans
 
 Often each scan point will be written as an NXentry in a separate file
 e.g. the scan is controlled by some external script. In this case all
@@ -69,7 +69,7 @@ could be ordered quickly. NeXus convention is that entries are called
 “entry1”, “entry2”, … maybe for scans this could be extended to
 “entry1\_1”, “entry1\_2” for scan points 1 and 2 etc.
 
-#### NXentry (Type 2: containing multiple measurements)
+#### Type 2: containing multiple measurements
 
 *Note: we are considering splitting “single measurement” and “scan” into
 separate definitions - see the **discussion** tab for more information*

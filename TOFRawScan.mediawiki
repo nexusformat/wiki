@@ -8,7 +8,7 @@ This document defines extensions to the [[TOFRaw|single run format]] to deal wit
 
 One question that is the subject of much debate is whether a single NXentry should only describe a single measurement or whether it could contain several measurements. The single measurement case is outlined in [[TOFRaw]] and we outline here two possible methods of storing multiple measurements.
  
-====NXentry (Type 1: linking entries to describe scans)====
+====Type 1: linking entries to describe scans====
 
 Often each scan point will be written as an NXentry in a separate file e.g. the scan is controlled by some external script. In this case all that is needed is:
 # a way to identify which files belong together
@@ -35,7 +35,7 @@ In the case of a scan of two variables, we could set scanned=1 for the fastest v
 
 If several NXentry objects are written to the same file to describe scan points, it would be useful to have a naming convention so that they could be ordered quickly. NeXus convention is that entries are called “entry1”, “entry2”, … maybe for scans this could be extended to “entry1_1”, “entry1_2” for scan points 1 and 2 etc.
 
-====NXentry (Type 2: containing multiple measurements)====
+====Type 2: containing multiple measurements====
 
 ''Note: we are considering splitting "single measurement" and "scan" into separate definitions - see the '''discussion''' tab for more information''
 
