@@ -13,4 +13,8 @@ List](http://www.neutron.anl.gov/mailman/listinfo/nexus).
 
 -   [NXnet Proposal](NXnet_Proposal "wikilink")
 -   [Voting](Voting "wikilink")
+-   [ NXTOFRW - NeXus Time-of-Flight Raw File Format (simple sit and
+    count case)](TOFRaw "wikilink")
+-   [ NXTOFRWSC - NeXus Time-of-Flight Raw File Format (NXTOFRW with
+    extensions for scans)](TOFRawScan "wikilink")
 
