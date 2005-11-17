@@ -8,16 +8,16 @@ Introduction
 ------------
 
 This document defines extensions to the [single run
-format](NeXusRawFileFormat "wikilink") to deal with scans and ISIS
-period type experiments; the same conventions used there apply here.
+format](TOFRaw "wikilink") to deal with scans and ISIS period type
+experiments; the same conventions used there apply here.
 
 ### NXentry
 
 One question that is the subject of much debate is whether a single
 NXentry should only describe a single measurement or whether it could
 contain several measurements. The single measurement case is outlined in
-[NeXusRawFileFormat](NeXusRawFileFormat "wikilink") and we outline here
-two possible methods of storing multiple measurements.
+[TOFRaw](TOFRaw "wikilink") and we outline here two possible methods of
+storing multiple measurements.
 
 #### NXentry (Type 1: linking entries to describe scans)
 

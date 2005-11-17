@@ -1,10 +1,10 @@
 ==Introduction==
 
-This document defines extensions to the [[NeXusRawFileFormat|single run format]] to deal with scans and ISIS period type experiments; the same conventions used there apply here. 
+This document defines extensions to the [[TOFRaw|single run format]] to deal with scans and ISIS period type experiments; the same conventions used there apply here. 
 
 ===NXentry===
 
-One question that is the subject of much debate is whether a single NXentry should only describe a single measurement or whether it could contain several measurements. The single measurement case is outlined in [[NeXusRawFileFormat]] and we outline here two possible methods of storing multiple measurements.
+One question that is the subject of much debate is whether a single NXentry should only describe a single measurement or whether it could contain several measurements. The single measurement case is outlined in [[TOFRaw]] and we outline here two possible methods of storing multiple measurements.
  
 ====NXentry (Type 1: linking entries to describe scans)====
 
