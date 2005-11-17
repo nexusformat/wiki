@@ -4,7 +4,8 @@ permalink: TOFRawScan/
 layout: wiki
 ---
 
-NXTOFRWSC - a NeXus Time-Of-Flight Raw Data File Scan Format
+NXTOFRWSC - proposed extensions to NXTOFRW to provide a NeXus
+Time-Of-Flight Raw Data File Scan Format
 
 Introduction
 ------------
