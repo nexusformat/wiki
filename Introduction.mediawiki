@@ -2,6 +2,8 @@ In recent years, a number of scientists and computer programmers working in neut
 
 This section is designed to give a brief introduction to NeXus, the data format that has been developed in response to these needs. It explains what a modern data format such as NeXus is and how to write simple programs to read and write NeXus files. 
 
+__TOC__
+
 ==What is NeXus?==
 The NeXus data format has three components:
 ;A set of subroutines:to make it easy to read and write NeXus files.
