@@ -19,6 +19,8 @@ in the analysis and visualization of neutron, x-ray, and muon data.
 [NeXus FAQ](FAQ "wikilink"):A list of commonly asked questions about NeXus.  
 [NeXus Discussions](Discussions "wikilink"):A forum for discussing any aspects of the NeXus format.  
 [NeXus International Advisory Committee](NIAC "wikilink"):Charged with supervising the development and maintenance of the NeXus format.  
+The next meeting of NIAC will be at the ILL on February 1-3, 2006 -
+[NIAC'2006](NIAC_Meetings "wikilink")
 
 |                                                                                                                                                                                                                                                                                                                                                                                     |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
