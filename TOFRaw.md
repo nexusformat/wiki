@@ -55,7 +55,7 @@ The NeXus classes we will ultimately consider are then:
     NXuser
     NXevent_data 
     NXsource
-    NXdetector_groups (proposed)
+    NXdetector_group (proposed)
 
 Some of these classes, such as NXgeometry, are taken directly from what
 was ratified by the
@@ -126,13 +126,13 @@ directly from the NeXus technical reference without change.
 | 0/1 |         | HDF\_version                           | NX\_CHAR |       |                                                                                                                                                                                                      |
 | 0/1 |         | HDF5\_version                          | NX\_CHAR |       |                                                                                                                                                                                                      |
 | 0/1 |         | XML\_version                           | NX\_CHAR |       |                                                                                                                                                                                                      |
-| 1   |         | Creator                                | NX\_CHAR |       |                                                                                                                                                                                                      |
-| 1   |         | File\_name                             | NX\_CHAR |       | Original file name                                                                                                                                                                                   |
-| 1   |         | File\_time                             | NX\_CHAR |       | Original creation time of file                                                                                                                                                                       |
-| 1   |         | File\_update\_time                     | NX\_CHAR |       | Last time file contents were changed                                                                                                                                                                 |
+| 1   |         | creator                                | NX\_CHAR |       |                                                                                                                                                                                                      |
+| 1   |         | file\_name                             | NX\_CHAR |       | Original file name                                                                                                                                                                                   |
+| 1   |         | file\_time                             | NX\_CHAR |       | Original creation time of file                                                                                                                                                                       |
+| 1   |         | file\_update\_time                     | NX\_CHAR |       | Last time file contents were changed                                                                                                                                                                 |
 | 1   |         | <font color=red>initial\_format</font> | NX\_CHAR |       | Initial format file was created in (HDF4,HDF5 or XML)                                                                                                                                                |
 | 1+  | {entry} |                                        | NXentry  |       |                                                                                                                                                                                                      |
-| 0/1 |         | Unique\_id                             | NX\_CHAR |       | UUID to uniquely identify file (even if name changes .etc). Maybe useful to have it in the NXentry instead so that you can indentify where an entry comes from even if it is copied into a new file? |
+| 0/1 |         | unique\_id                             | NX\_CHAR |       | UUID to uniquely identify file (even if name changes .etc). Maybe useful to have it in the NXentry instead so that you can indentify where an entry comes from even if it is copied into a new file? |
 
 ### NXentry
 
@@ -150,21 +150,21 @@ for [scan type experiments](TOFRawScan "wikilink")
 
 | RE   | Name                                     | Attribute     | Type                          | Value          | Description                                                                                                                      |
 |------|------------------------------------------|---------------|-------------------------------|----------------|----------------------------------------------------------------------------------------------------------------------------------|
-| 0/1  | Title                                    |               | NX\_CHAR                      |                | run title                                                                                                                        |
-| 1    | Definition                               |               | NX\_CHAR                      |                | Official NeXus definitions this file conforms to                                                                                 |
+| 0/1  | title                                    |               | NX\_CHAR                      |                | run title                                                                                                                        |
+| 1    | definition                               |               | NX\_CHAR                      |                | Official NeXus definitions this file conforms to                                                                                 |
 | 1    |                                          | URL           | NX\_CHAR                      |                |                                                                                                                                  |
 | 1    |                                          | version       | NX\_CHAR                      |                |                                                                                                                                  |
-| 0/1  | <font color=red>Definition\_local</font> |               | NX\_CHAR                      |                | Local definition this file also conforms to – this will describe the meaning of any additional local data items etc.             |
-| 1    |                                          | URL           | NX\_CHAR                      |                |                                                                                                                                  |
+| 0/1  | <font color=red>definition\_local</font> |               | NX\_CHAR                      |                | Local definition this file also conforms to – this will describe the meaning of any additional local data items etc.             |
+| 1    |                                          | url           | NX\_CHAR                      |                |                                                                                                                                  |
 | 1    |                                          | version       | NX\_CHAR                      |                | This would correspond to the ISIS Muon IDF\_Version                                                                              |
 | 1    | start\_time                              |               | ISO8601                       |                | Time data collection started                                                                                                     |
 | 1    | end\_time                                |               | ISO8601                       |                | Time data collection ended                                                                                                       |
-| 1    | Duration                                 |               | NX\_FLOAT                     |                | wall clock time transpired (end – start)                                                                                         |
-| 1    |                                          | Units         | NX\_CHAR                      | second         |                                                                                                                                  |
+| 1    | duration                                 |               | NX\_FLOAT                     |                | wall clock time transpired (end – start)                                                                                         |
+| 1    |                                          | units         | NX\_CHAR                      | second         |                                                                                                                                  |
 | 1    | <font color=red>collection\_time</font>  |               | NX\_FLOAT                     |                | Time transpired actually collecting data i.e. taking out time when collection was suspended due to e.g. temperature out of range |
-| 1    |                                          | Units         | NX\_CHAR                      | second         |                                                                                                                                  |
+| 1    |                                          | units         | NX\_CHAR                      | second         |                                                                                                                                  |
 | 1    | proton\_charge                           |               | NX\_FLOAT                     |                |                                                                                                                                  |
-| 1    |                                          | Units         | NX\_CHAR                      | microAmp\*hour |                                                                                                                                  |
+| 1    |                                          | units         | NX\_CHAR                      | microAmp\*hour |                                                                                                                                  |
 | 1    | raw\_frames                              |               | NX\_INT                       |                | number of proton pulses on target                                                                                                |
 | 1    | good\_frames                             |               | NX\_INT                       |                | number of proton pulses used (i.e. not vetoed)                                                                                   |
 | 0/1  | <font color=red>total\_counts</font>     |               | NX\_INT                       |                | Total number of detector counts (events)                                                                                         |
@@ -174,8 +174,8 @@ for [scan type experiments](TOFRawScan "wikilink")
 | 0/1  | program\_name                            |               | NX\_CHAR                      |                |                                                                                                                                  |
 | 1    |                                          | version       | NX\_CHAR                      |                |                                                                                                                                  |
 | 0/1  |                                          | command\_line | NX\_CHAR                      |                |                                                                                                                                  |
-| 0/1  | Notes                                    |               | <font color=red>NXnote</font> |                | User notes                                                                                                                       |
-| 0/1  | Thumbnail                                |               | NXnote                        |                |                                                                                                                                  |
+| 0/1  | notes                                    |               | <font color=red>NXnote</font> |                | User notes                                                                                                                       |
+| 0/1  | thumbnail                                |               | NXnote                        |                |                                                                                                                                  |
 | 1    |                                          | mime\_type    | NX\_CHAR                      | image/\*       |                                                                                                                                  |
 | 0+   | {characterisation}                       |               | NXcharacterization            |                |                                                                                                                                  |
 | 1+   | {user1,user2,…}                          |               | NXuser                        |                |                                                                                                                                  |
@@ -184,7 +184,6 @@ for [scan type experiments](TOFRawScan "wikilink")
 | 1+   | {monitor}                                |               | NXmonitor                     |                |                                                                                                                                  |
 | 1+   | {data}                                   |               | NXdata                        |                |                                                                                                                                  |
 | 0/1  | {process}                                |               | NXprocess                     |                |                                                                                                                                  |
-| 1    | {source}                                 |               | NXsource                      |                |                                                                                                                                  |
 
 ### NXuser
 
@@ -196,13 +195,13 @@ optional.
 
 | RE  | Name               | Attribute | Type     | Value                                        | Description |
 |-----|--------------------|-----------|----------|----------------------------------------------|-------------|
-| 1   | Name               |           | NX\_CHAR |                                              |             |
-| 0/1 | Role               |           | NX\_CHAR | “local\_contact”,”Principle Investigator”, … |             |
-| 0/1 | Affiliation        |           | NX\_CHAR |                                              |             |
-| 0/1 | Address            |           | NX\_CHAR |                                              |             |
+| 1   | name               |           | NX\_CHAR |                                              |             |
+| 0/1 | role               |           | NX\_CHAR | “local\_contact”,”Principle Investigator”, … |             |
+| 0/1 | affiliation        |           | NX\_CHAR |                                              |             |
+| 0/1 | address            |           | NX\_CHAR |                                              |             |
 | 0/1 | telephone\_number  |           | NX\_CHAR |                                              |             |
 | 0/1 | fax\_number        |           | NX\_CHAR |                                              |             |
-| 0/1 | Email              |           | NX\_CHAR |                                              |             |
+| 0/1 | email              |           | NX\_CHAR |                                              |             |
 | 1   | facility\_user\_id |           | NX\_CHAR |                                              |             |
 
 ### NXsample
@@ -213,16 +212,16 @@ NeXus technical reference for a full list of possible items.
 | RE  | Name                                     | Attribute | Type       | Value                                    | Description                                                                                 |
 |-----|------------------------------------------|-----------|------------|------------------------------------------|---------------------------------------------------------------------------------------------|
 | 1   | Name                                     |           | NX\_CHAR   |                                          |                                                                                             |
-| 1   | Identifier                               |           | NX\_CHAR   |                                          | Identity given to the sample by health physics or sample environment. (Could be a bar code) |
+| 1   | identifier                               |           | NX\_CHAR   |                                          | Identity given to the sample by health physics or sample environment. (Could be a bar code) |
 | 0/1 |                                          | Type      | NX\_CHAR   | e.g.“barcode                             |                                                                                             |
 | 0/1 | chemical\_formula                        |           | NX\_CHAR   |                                          |                                                                                             |
-| 0/1 | Mass                                     |           | NX\_FLOAT  |                                          |                                                                                             |
+| 0/1 | mass                                     |           | NX\_FLOAT  |                                          |                                                                                             |
 | 1   |                                          | Units     | NX\_CHAR   |                                          |                                                                                             |
-| 0/1 | Volume                                   |           | NX\_FLOAT  |                                          |                                                                                             |
+| 0/1 | volume                                   |           | NX\_FLOAT  |                                          |                                                                                             |
 | 1   |                                          | Units     | NX\_CHAR   |                                          |                                                                                             |
 | 0/1 | geometry                                 |           | NXgeometry |                                          |                                                                                             |
-| 1   | Nature                                   |           | NX\_CHAR   | solid | powder | liquid | single crystal |                                                                                             |
-| 0/1 | Preparation                              |           | NX\_CHAR   |                                          | Sample handling/preparation prior to experiment                                             |
+| 1   | nature                                   |           | NX\_CHAR   | solid | powder | liquid | single crystal |                                                                                             |
+| 0/1 | preparation                              |           | NX\_CHAR   |                                          | Sample handling/preparation prior to experiment                                             |
 | 0/1 | Changer\_position                        |           | NX\_INT    |                                          | Sample changer position                                                                     |
 | 0/1 | <font color=red>sample\_holder</font>    |           | NX\_CHAR   |                                          |                                                                                             |
 | 0/1 | <font color=red>preparation\_date</font> |           | ISO8601    |                                          |                                                                                             |
@@ -269,28 +268,28 @@ changing some elements to be required rather an optional.
 
 | RE  | Name                                    | Attribute | Type             | Value           | Description                                           |
 |-----|-----------------------------------------|-----------|------------------|-----------------|-------------------------------------------------------|
-| 0/1 | Mode                                    |           | NX\_CHAR         | monitor | timer |                                                       |
-| 0/1 | Preset                                  |           | NX\_FLOAT        |                 |                                                       |
-| 0/1 | Distance                                |           | NX\_FLOAT        |                 |                                                       |
-| 0/1 |                                         | Units     | NX\_CHAR         | metre           |                                                       |
-| 0/1 | Range                                   |           | NX\_FLOAT\[2\]   |                 |                                                       |
+| 0/1 | mode                                    |           | NX\_CHAR         | monitor | timer |                                                       |
+| 0/1 | preset                                  |           | NX\_FLOAT        |                 |                                                       |
+| 0/1 | distance                                |           | NX\_FLOAT        |                 |                                                       |
+| 0/1 |                                         | units     | NX\_CHAR         | metre           |                                                       |
+| 0/1 | range                                   |           | NX\_FLOAT\[2\]   |                 |                                                       |
+| 1   |                                         | units     | NX\_CHAR         |                 |                                                       |
+| 0/1 | integral                                |           | NX\_FLOAT        |                 |                                                       |
 | 1   |                                         | Units     | NX\_CHAR         |                 |                                                       |
-| 0/1 | Integral                                |           | NX\_FLOAT        |                 |                                                       |
-| 1   |                                         | Units     | NX\_CHAR         |                 |                                                       |
-| 0/1 | Integral\_log                           |           | NXlog            |                 | Time log of monitor integrals                         |
-| 0/1 | Type                                    |           | NX\_CHAR         |                 |                                                       |
-| 0/1 | time\_of\_flight                        |           | NX\_FLOAT\[i+1\] |                 |                                                       |
+| 0/1 | integral\_log                           |           | NXlog            |                 | Time log of monitor integrals                         |
+| 0/1 | type                                    |           | NX\_CHAR         |                 |                                                       |
+| 1   | time\_of\_flight                        |           | NX\_FLOAT\[i+1\] |                 |                                                       |
 | 1   |                                         | Units     | NX\_CHAR         | microsecond     |                                                       |
 | 0/1 | efficiency                              |           | NX\_FLOAT\[i\]   |                 |                                                       |
-| 0/1 | Data                                    |           | NX\_FLOAT\[i\]   |                 |                                                       |
-| 1   |                                         | Units     | NX\_CHAR         |                 |                                                       |
-| 1   |                                         | Signal    | NX\_INT          |                 |                                                       |
-| 1   |                                         | Axes      | NX\_CHAR         |                 |                                                       |
-| 0/1 | Sampled\_fraction                       |           | NX\_FLOAT        |                 |                                                       |
-| 1   |                                         | Units     | NX\_CHAR         | unitless        |                                                       |
+| 1   | data                                    |           | NX\_FLOAT\[i\]   |                 |                                                       |
+| 1   |                                         | units     | NX\_CHAR         |                 |                                                       |
+| 1   |                                         | signal    | NX\_INT          |                 |                                                       |
+| 1   |                                         | axes      | NX\_CHAR         |                 |                                                       |
+| 0/1 | sampled\_fraction                       |           | NX\_FLOAT        |                 |                                                       |
+| 1   |                                         | units     | NX\_CHAR         | unitless        |                                                       |
 | 0/1 | geometry                                |           | NXgeometry       |                 |                                                       |
-| 0/1 | <font color=red>Monitor\_number</font>  |           | NX\_INT          |                 | If monitors are numbered, this is what it is known as |
-| 0/1 | <font color=red>Detector\_number</font> |           | NX\_INT          |                 | Detector/spectrum number for this monitor             |
+| 1   | <font color=red>monitor\_number</font>  |           | NX\_INT          |                 | If monitors are numbered, this is what it is known as |
+| 1   | <font color=red>detector\_number</font> |           | NX\_INT          |                 | Detector/spectrum number for this monitor             |
 
 Note that for a position sensitive monitor detector\_number etc. will
 need to be an array and NXmonitor will have other fields and look more
@@ -302,7 +301,8 @@ We will now look at possible representations of the detector – we will
 start with a general one and then consider the special case of an area
 detector. Though the general detector representation would cover all
 cases, if the detector is physically “rectangular” in nature there are
-advantages in using this symmetry in the representation.
+advantages in using this symmetry in the representation. Which
+representation is used is recorded in the stored attribute
 
 #### General Detector
 
@@ -311,21 +311,22 @@ pixels arranged in no particular order. Each pixel will be identified by
 a unique single index i and then the following information will be
 stored:
 
-| RE  | Name                                | Attribute | Type             | Value                | Description                                                  |
-|-----|-------------------------------------|-----------|------------------|----------------------|--------------------------------------------------------------|
-| 1   | Detector\_number                    |           | NX\_INT\[i\]     |                      |                                                              |
-| 1   | Polar\_angle                        |           | NX\_FLOAT\[i\]   |                      |                                                              |
-| 0/1 | Azimuthal\_angle                    |           | NX\_FLOAT\[i\]   |                      |                                                              |
-| 0/1 | solid\_angle                        |           | NX\_FLOAT\[i\]   |                      |                                                              |
-| 0/1 | Distance                            |           | NX\_FLOAT\[i\]   | distance from sample |                                                              |
-| 0/1 | Time\_of\_flight                    |           | NX\_FLOAT\[j+1\] |                      | Bin boundaries                                               |
-| 0/1 |                                     | Units     | NX\_CHAR         | Micro.second         |                                                              |
-| 0/1 | time\_of\_flight\_raw               |           | NX\_INT\[j+1\]   |                      | in DAQ clock pulses                                          |
-| 0/1 |                                     | Units     | NX\_CHAR         | Clock\_pulses        |                                                              |
-| 0/1 |                                     | Frequency | NX\_FLOAT        |                      | Clock frequency of acquisition system (Hz)                   |
-| 0/1 | Data                                |           | NX\_FLOAT\[i,j\] |                      |                                                              |
-| 0/1 | Geometry                            |           | NXgeometry\[i\]  |                      | These will be relative to “Origin” below                     |
-| 0/1 | <font color=red>Group\_index</font> |           | NX\_INT\[i\]     |                      | Detector grouping information – see NXdetector\_groups class |
+| RE  | Name                                | Attribute | Type             | Value                | Description                                                                 |
+|-----|-------------------------------------|-----------|------------------|----------------------|-----------------------------------------------------------------------------|
+| 1   | <font color=red>stored</font>       |           | NX\_CHAR         |                      | How detector is represented ( general | centre\_extent | edges | cornders ) |
+| 1   | detector\_number                    |           | NX\_INT\[i\]     |                      |                                                                             |
+| 0/1 | polar\_angle                        |           | NX\_FLOAT\[i\]   |                      |                                                                             |
+| 0/1 | azimuthal\_angle                    |           | NX\_FLOAT\[i\]   |                      |                                                                             |
+| 0/1 | solid\_angle                        |           | NX\_FLOAT\[i\]   |                      |                                                                             |
+| 0/1 | distance                            |           | NX\_FLOAT\[i\]   | distance from sample |                                                                             |
+| 1   | time\_of\_flight                    |           | NX\_FLOAT\[j+1\] |                      | Bin boundaries                                                              |
+| 0/1 |                                     | units     | NX\_CHAR         | Micro.second         |                                                                             |
+| 0/1 | time\_of\_flight\_raw               |           | NX\_INT\[j+1\]   |                      | in DAQ clock pulses                                                         |
+| 0/1 |                                     | units     | NX\_CHAR         | Clock\_pulses        |                                                                             |
+| 0/1 |                                     | frequency | NX\_FLOAT        |                      | Clock frequency of acquisition system (Hz)                                  |
+| 1   | data                                |           | NX\_FLOAT\[i,j\] |                      |                                                                             |
+| 0/1 | geometry                            |           | NXgeometry\[i\]  |                      | These will be relative to “Origin” below                                    |
+| 0/1 | <font color=red>Group\_index</font> |           | NX\_INT\[i\]     |                      | Detector grouping information – see NXdetector\_groups class                |
 
 The detector data would be plotted with axes (detector number, tof) by
 any program. An NXgeometry object included in the detector contains
