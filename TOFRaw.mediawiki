@@ -467,11 +467,11 @@ azimuthal_angle, polar_angle and distance can be left out of NXdetector as they 
 |-
 | 1	|| Data	 || &nbsp; 	|| NX_FLOAT[i,j,k]		 || &nbsp;  || &nbsp; 
 |-
-| 0/1	|| Geometry || &nbsp; || 		NXgeometry[i,j]		 || &nbsp;  || &nbsp; 
+| 0/1	|| geometry || &nbsp; || 		NXgeometry[i,j]		 || &nbsp;  || &nbsp; 
 |-
-| 0/1|| 	X_pixel_offset	 || &nbsp; 	|| NX_FLOAT[i+1]	 || &nbsp;  || &nbsp; 	
+| 0/1|| 	x_pixel_offset	 || &nbsp; 	|| NX_FLOAT[i+1]	 || &nbsp;  || &nbsp; 	
 |-
-| 0/1	|| Y_pixel_offset	 || &nbsp; || 	NX_FLOAT[j+1]	 || &nbsp;  || &nbsp; 	
+| 0/1	|| y_pixel_offset	 || &nbsp; || 	NX_FLOAT[j+1]	 || &nbsp;  || &nbsp; 	
 |}					
 
 All pixels are edge to edge.
@@ -483,31 +483,31 @@ All pixels are edge to edge.
 |-
 ! RE ||	Name||	Attribute||	Type	|| Value	 || Description
 |-
-| 1	|| Detector_number || &nbsp; 	|| 	NX_INT[i,j]	 || &nbsp;  || &nbsp; 	
+| 1	|| detector_number || &nbsp; 	|| 	NX_INT[i,j]	 || &nbsp;  || &nbsp; 	
 |-
-| 1	|| Polar_angle	 || &nbsp;  || 	NX_FLOAT[i,j]	 || &nbsp;  || &nbsp; 	
+| 1	|| polar_angle	 || &nbsp;  || 	NX_FLOAT[i,j]	 || &nbsp;  || &nbsp; 	
 |-
-| 1|| 	Azimuthal_angle	 || &nbsp; || 	NX_FLOAT[i,j]	 || &nbsp;  || &nbsp; 	
+| 1|| 	azimuthal_angle	 || &nbsp; || 	NX_FLOAT[i,j]	 || &nbsp;  || &nbsp; 	
 |-
-| 1	|| Distance	 || &nbsp; || 	NX_FLOAT[i,j]	 || &nbsp;  || &nbsp; 	
+| 1	|| distance	 || &nbsp; || 	NX_FLOAT[i,j]	 || &nbsp;  || &nbsp; 	
 |-
-| 1	|| Time_of_flight || &nbsp; 	|| 	NX_FLOAT[k+1]	 || &nbsp; || 	Bin boundaries
+| 1	|| time_of_flight || &nbsp; 	|| 	NX_FLOAT[k+1]	 || &nbsp; || 	Bin boundaries
 |-
 | 0/1  || &nbsp; 	||	Units	|| NX_CHAR	|| Micro.second	 || &nbsp; 
 |-
-| 1	|| Raw_time_of_flight || &nbsp; 	|| 	NX_FLOAT[k+1]		 || &nbsp;  || &nbsp; 
+| 1	|| raw_time_of_flight || &nbsp; 	|| 	NX_FLOAT[k+1]		 || &nbsp;  || &nbsp; 
 |-
 | 0/1  || &nbsp;  	|| 	Units	|| NX_CHAR|| 	Clock_pulses	 || &nbsp; 
 |-
 | 0/1	 || &nbsp; || 	Frequency|| 	NX_FLOAT|| 		Clock frequency || &nbsp; 
 |-
-| 1	|| Data	 || &nbsp; || 	NX_FLOAT[i,j,k]	 || &nbsp;  || &nbsp; 	
+| 1	|| data	 || &nbsp; || 	NX_FLOAT[i,j,k]	 || &nbsp;  || &nbsp; 	
 |-
-| 0/1	|| Geometry	 || &nbsp; || 	NXgeometry[i,j]		 || &nbsp;  || &nbsp; 
+| 0/1	|| geometry	 || &nbsp; || 	NXgeometry[i,j]		 || &nbsp;  || &nbsp; 
 |-
-| 0/1	|| X_pixel_offset || &nbsp; 	|| 	NX_FLOAT[i+1, j+1]		 || &nbsp;  || &nbsp; 
+| 0/1	|| x_pixel_offset || &nbsp; 	|| 	NX_FLOAT[i+1, j+1]		 || &nbsp;  || &nbsp; 
 |-
-| 0/1	|| Y_pixel_offset	 || &nbsp; || 	NX_FLOAT[i+1,j+1]	 || &nbsp;  || &nbsp; 	
+| 0/1	|| y_pixel_offset	 || &nbsp; || 	NX_FLOAT[i+1,j+1]	 || &nbsp;  || &nbsp; 	
 |}					
 
 '''Hardware ganging of detector elements'''
@@ -517,9 +517,9 @@ In some cases individual detector elements are ganged together by the acquisitio
 {| align="centre" border="1"
 ! RE  || Name       || Attribute || Type      || Value || Description
 |-
-| 0/1 || <font color=red>Gang_count</font> || &nbsp;    || NX_INT[i]  || Number of physical detectors elements ganged together  || &nbsp; 
+| 0/1 || <font color=red>gang_count</font> || &nbsp;    || NX_INT[i]  || Number of physical detectors elements ganged together  || &nbsp; 
 |-
-| 0/1 || <font color=red>Gang_index</font> || &nbsp;    || NX_INT[i]  || Index of first ganged element	 || &nbsp; 
+| 0/1 || <font color=red>gang_index</font> || &nbsp;    || NX_INT[i]  || Index of first ganged element	 || &nbsp; 
 |}
 
 Detector_number[i] is ganged from gang_count[i] elements. The values of polar_angle[i] was obtained by average the gang_count[i] values of polar_angle_unganged[gang_index[i]], polar_angle_unganged[gang_index[i]+1], … , polar_angle[gang_index[i]+gang_count[i]-1]

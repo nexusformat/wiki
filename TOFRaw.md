@@ -405,9 +405,9 @@ NXdetector as they can be calculated from the detector geometry
 | 0/1 |                       | Units     | NX\_CHAR           | Clock\_pulses   |                |
 | 0/1 |                       | Frequency | NX\_FLOAT          | Clock frequency |                |
 | 1   | Data                  |           | NX\_FLOAT\[i,j,k\] |                 |                |
-| 0/1 | Geometry              |           | NXgeometry\[i,j\]  |                 |                |
-| 0/1 | X\_pixel\_offset      |           | NX\_FLOAT\[i+1\]   |                 |                |
-| 0/1 | Y\_pixel\_offset      |           | NX\_FLOAT\[j+1\]   |                 |                |
+| 0/1 | geometry              |           | NXgeometry\[i,j\]  |                 |                |
+| 0/1 | x\_pixel\_offset      |           | NX\_FLOAT\[i+1\]   |                 |                |
+| 0/1 | y\_pixel\_offset      |           | NX\_FLOAT\[j+1\]   |                 |                |
 
 All pixels are edge to edge.
 
@@ -415,19 +415,19 @@ All pixels are edge to edge.
 
 | RE  | Name                  | Attribute | Type                  | Value           | Description    |
 |-----|-----------------------|-----------|-----------------------|-----------------|----------------|
-| 1   | Detector\_number      |           | NX\_INT\[i,j\]        |                 |                |
-| 1   | Polar\_angle          |           | NX\_FLOAT\[i,j\]      |                 |                |
-| 1   | Azimuthal\_angle      |           | NX\_FLOAT\[i,j\]      |                 |                |
-| 1   | Distance              |           | NX\_FLOAT\[i,j\]      |                 |                |
-| 1   | Time\_of\_flight      |           | NX\_FLOAT\[k+1\]      |                 | Bin boundaries |
+| 1   | detector\_number      |           | NX\_INT\[i,j\]        |                 |                |
+| 1   | polar\_angle          |           | NX\_FLOAT\[i,j\]      |                 |                |
+| 1   | azimuthal\_angle      |           | NX\_FLOAT\[i,j\]      |                 |                |
+| 1   | distance              |           | NX\_FLOAT\[i,j\]      |                 |                |
+| 1   | time\_of\_flight      |           | NX\_FLOAT\[k+1\]      |                 | Bin boundaries |
 | 0/1 |                       | Units     | NX\_CHAR              | Micro.second    |                |
-| 1   | Raw\_time\_of\_flight |           | NX\_FLOAT\[k+1\]      |                 |                |
+| 1   | raw\_time\_of\_flight |           | NX\_FLOAT\[k+1\]      |                 |                |
 | 0/1 |                       | Units     | NX\_CHAR              | Clock\_pulses   |                |
 | 0/1 |                       | Frequency | NX\_FLOAT             | Clock frequency |                |
-| 1   | Data                  |           | NX\_FLOAT\[i,j,k\]    |                 |                |
-| 0/1 | Geometry              |           | NXgeometry\[i,j\]     |                 |                |
-| 0/1 | X\_pixel\_offset      |           | NX\_FLOAT\[i+1, j+1\] |                 |                |
-| 0/1 | Y\_pixel\_offset      |           | NX\_FLOAT\[i+1,j+1\]  |                 |                |
+| 1   | data                  |           | NX\_FLOAT\[i,j,k\]    |                 |                |
+| 0/1 | geometry              |           | NXgeometry\[i,j\]     |                 |                |
+| 0/1 | x\_pixel\_offset      |           | NX\_FLOAT\[i+1, j+1\] |                 |                |
+| 0/1 | y\_pixel\_offset      |           | NX\_FLOAT\[i+1,j+1\]  |                 |                |
 
 **Hardware ganging of detector elements**
 
@@ -448,8 +448,8 @@ provided by
 
 | RE  | Name                               | Attribute | Type         | Value                                                 | Description |
 |-----|------------------------------------|-----------|--------------|-------------------------------------------------------|-------------|
-| 0/1 | <font color=red>Gang\_count</font> |           | NX\_INT\[i\] | Number of physical detectors elements ganged together |             |
-| 0/1 | <font color=red>Gang\_index</font> |           | NX\_INT\[i\] | Index of first ganged element                         |             |
+| 0/1 | <font color=red>gang\_count</font> |           | NX\_INT\[i\] | Number of physical detectors elements ganged together |             |
+| 0/1 | <font color=red>gang\_index</font> |           | NX\_INT\[i\] | Index of first ganged element                         |             |
 
 Detector\_number\[i\] is ganged from gang\_count\[i\] elements. The
 values of polar\_angle\[i\] was obtained by average the gang\_count\[i\]
