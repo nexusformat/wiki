@@ -691,21 +691,21 @@ This requires that a Pixel_number field is provided in the NXdetector for determ
 {| align="centre" border="1"
 ! RE  || Name       || Attribute  || Type      || Value || Description
 |-
-| 0/1	|| Time_of_flight	|| &nbsp; || 	NX_INT[i]	|| &nbsp; || A list of time of flight for each event as it comes in. This list is for all pulses with information to attach to a particular pulse located in events_per_pulse
+| 0/1	|| time_of_flight	|| &nbsp; || 	NX_INT[i]	|| &nbsp; || A list of time of flight for each event as it comes in. This list is for all pulses with information to attach to a particular pulse located in events_per_pulse
 |-
 | 1	|| &nbsp; || 	units|| 	NX_CHAR	|| 	Micro.second|| &nbsp; 
 |-
-| 0/1	|| Pixel_number	|| &nbsp; 	|| NX_INT[i]	|| &nbsp; || 	There will be extra information in the NXdetector to convert pixel_number to detector_number. This list is for all pulses with information to attach to a particular pulse located in events_per_pulse
+| 0/1	|| pixel_number	|| &nbsp; 	|| NX_INT[i]	|| &nbsp; || 	There will be extra information in the NXdetector to convert pixel_number to detector_number. This list is for all pulses with information to attach to a particular pulse located in events_per_pulse
 |-
-| 0/1	|| Pulse_time	|| &nbsp;  	|| NX_INT[j]	|| &nbsp; || 	The time that each pulse started with respect to the offset
+| 0/1	|| pulse_time	|| &nbsp;  	|| NX_INT[j]	|| &nbsp; || 	The time that each pulse started with respect to the offset
 |-
 | 1 || &nbsp; ||  Units || NX_CHAR || &nbsp; || &nbsp; 			
 |-
 | 1|| &nbsp; 	|| 	Offset	|| ISO8601		|| &nbsp; || &nbsp; 
 |-
-| 0/1	|| Events_per_pulse|| &nbsp; 	|| 	NX_INT[j]	|| &nbsp; || 	This connects the index "i" to the index "j". The jth element is the number of events in "i" that occured during the jth pulse
+| 0/1	|| events_per_pulse|| &nbsp; 	|| 	NX_INT[j]	|| &nbsp; || 	This connects the index "i" to the index "j". The jth element is the number of events in "i" that occured during the jth pulse
 |-
-| 0/1	|| Pulse_height	|| &nbsp; || 	NX_FLOAT[I,k?]		|| &nbsp; || If voltages from the ends of the detector are read out this is where they go. This list is for all events with information to attach to a particular pulse height. The information to attach to a particular pulse is located in events_per_pulse
+| 0/1	|| pulse_height	|| &nbsp; || 	NX_FLOAT[I,k?]		|| &nbsp; || If voltages from the ends of the detector are read out this is where they go. This list is for all events with information to attach to a particular pulse height. The information to attach to a particular pulse is located in events_per_pulse
 |}
 
 ===NXsource===
