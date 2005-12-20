@@ -349,7 +349,7 @@ Note that for a position sensitive monitor detector_number etc. will need to be 
 
 ===NXdetector===
 
-We will now look at possible representations of the detector – we will start with a general one and then consider the special case of an area detector. Though the general detector representation would cover all cases, if the detector is physically “rectangular” in nature there are advantages in using this symmetry in the representation. Which representation is used is recorded in the stored attribute
+We will now look at possible representations of the detector – we will start with a general one and then consider the special case of an area detector. Though the general detector representation would cover all cases, if the detector is physically “rectangular” in nature there are advantages in using this symmetry in the representation. Which representation is used is recorded in the <font color=red>stored</font> attribute
 
 ====General Detector====
 

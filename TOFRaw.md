@@ -302,7 +302,8 @@ start with a general one and then consider the special case of an area
 detector. Though the general detector representation would cover all
 cases, if the detector is physically “rectangular” in nature there are
 advantages in using this symmetry in the representation. Which
-representation is used is recorded in the stored attribute
+representation is used is recorded in the <font color=red>stored</font>
+attribute
 
 #### General Detector
 
