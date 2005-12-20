@@ -275,11 +275,11 @@ changing some elements to be required rather an optional.
 | 0/1 | range                                   |           | NX\_FLOAT\[2\]   |                 |                                                       |
 | 1   |                                         | units     | NX\_CHAR         |                 |                                                       |
 | 0/1 | integral                                |           | NX\_FLOAT        |                 |                                                       |
-| 1   |                                         | Units     | NX\_CHAR         |                 |                                                       |
+| 1   |                                         | units     | NX\_CHAR         |                 |                                                       |
 | 0/1 | integral\_log                           |           | NXlog            |                 | Time log of monitor integrals                         |
 | 0/1 | type                                    |           | NX\_CHAR         |                 |                                                       |
 | 1   | time\_of\_flight                        |           | NX\_FLOAT\[i+1\] |                 |                                                       |
-| 1   |                                         | Units     | NX\_CHAR         | microsecond     |                                                       |
+| 1   |                                         | units     | NX\_CHAR         | microsecond     |                                                       |
 | 0/1 | efficiency                              |           | NX\_FLOAT\[i\]   |                 |                                                       |
 | 1   | data                                    |           | NX\_FLOAT\[i\]   |                 |                                                       |
 | 1   |                                         | units     | NX\_CHAR         |                 |                                                       |

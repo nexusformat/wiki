@@ -314,7 +314,7 @@ This is the class that contains all information about instrument components exce
 |-
 | 0/1	|| integral || &nbsp; 	|| 	NX_FLOAT	 || &nbsp;  || &nbsp; 	
 |-
-| 1	 || &nbsp; || 	Units|| 	NX_CHAR	 || &nbsp;  || &nbsp; 	
+| 1	 || &nbsp; || 	units|| 	NX_CHAR	 || &nbsp;  || &nbsp; 	
 |-
 | 0/1	|| integral_log	 || &nbsp; || 	NXlog	 || &nbsp; 	|| Time log of monitor integrals
 |-
@@ -322,7 +322,7 @@ This is the class that contains all information about instrument components exce
 |-
 | 1	|| time_of_flight || &nbsp; 	|| 	NX_FLOAT[i+1]		 || &nbsp;  || &nbsp; 
 |-
-| 1	 || &nbsp; ||	Units	|| NX_CHAR	|| microsecond	 || &nbsp; 
+| 1	 || &nbsp; ||	units	|| NX_CHAR	|| microsecond	 || &nbsp; 
 |-
 | 0/1	|| efficiency	 || &nbsp; || 	NX_FLOAT[i]	 || &nbsp;  || &nbsp; 	
 |-
