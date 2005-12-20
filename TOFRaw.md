@@ -318,7 +318,7 @@ stored:
 
 | RE  | Name                                | Attribute | Type             | Value                | Description                                                            |
 |-----|-------------------------------------|-----------|------------------|----------------------|------------------------------------------------------------------------|
-| 1   | <font color=red>stored</font>       |           | NX\_CHAR         |                      | How detector is represented: general, centre\_extent, edges or corners |
+| 1   | <font color=red>stored</font>       |           | NX\_CHAR         | general              | How detector is represented: general, centre\_extent, edges or corners |
 | 1   | detector\_number                    |           | NX\_INT\[i\]     |                      |                                                                        |
 | 0/1 | polar\_angle                        |           | NX\_FLOAT\[i\]   |                      |                                                                        |
 | 0/1 | azimuthal\_angle                    |           | NX\_FLOAT\[i\]   |                      |                                                                        |

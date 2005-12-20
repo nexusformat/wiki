@@ -361,7 +361,7 @@ The general representation is to consider a detector as just a group of pixels a
 |-
 ! RE	|| Name	|| Attribute	|| Type	|| Value	|| Description
 |-
-| 1	|| <font color=red>stored</font> || &nbsp; 	|| 	NX_CHAR		 || &nbsp;  || How detector is represented:  general, centre_extent, edges or corners   
+| 1	|| <font color=red>stored</font> || &nbsp; 	|| 	NX_CHAR		 || general  || How detector is represented:  general, centre_extent, edges or corners   
 |-
 | 1	|| detector_number || &nbsp; 	|| 	NX_INT[i]		 || &nbsp;  || &nbsp; 
 |-
