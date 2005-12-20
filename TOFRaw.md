@@ -311,22 +311,22 @@ pixels arranged in no particular order. Each pixel will be identified by
 a unique single index i and then the following information will be
 stored:
 
-| RE  | Name                                | Attribute | Type             | Value                | Description                                                                 |
-|-----|-------------------------------------|-----------|------------------|----------------------|-----------------------------------------------------------------------------|
-| 1   | <font color=red>stored</font>       |           | NX\_CHAR         |                      | How detector is represented ( general | centre\_extent | edges | cornders ) |
-| 1   | detector\_number                    |           | NX\_INT\[i\]     |                      |                                                                             |
-| 0/1 | polar\_angle                        |           | NX\_FLOAT\[i\]   |                      |                                                                             |
-| 0/1 | azimuthal\_angle                    |           | NX\_FLOAT\[i\]   |                      |                                                                             |
-| 0/1 | solid\_angle                        |           | NX\_FLOAT\[i\]   |                      |                                                                             |
-| 0/1 | distance                            |           | NX\_FLOAT\[i\]   | distance from sample |                                                                             |
-| 1   | time\_of\_flight                    |           | NX\_FLOAT\[j+1\] |                      | Bin boundaries                                                              |
-| 0/1 |                                     | units     | NX\_CHAR         | Micro.second         |                                                                             |
-| 0/1 | time\_of\_flight\_raw               |           | NX\_INT\[j+1\]   |                      | in DAQ clock pulses                                                         |
-| 0/1 |                                     | units     | NX\_CHAR         | Clock\_pulses        |                                                                             |
-| 0/1 |                                     | frequency | NX\_FLOAT        |                      | Clock frequency of acquisition system (Hz)                                  |
-| 1   | data                                |           | NX\_FLOAT\[i,j\] |                      |                                                                             |
-| 0/1 | geometry                            |           | NXgeometry\[i\]  |                      | These will be relative to “Origin” below                                    |
-| 0/1 | <font color=red>group\_index</font> |           | NX\_INT\[i\]     |                      | Detector grouping information – see NXdetector\_groups class                |
+| RE  | Name                                | Attribute | Type             | Value                | Description                                                            |
+|-----|-------------------------------------|-----------|------------------|----------------------|------------------------------------------------------------------------|
+| 1   | <font color=red>stored</font>       |           | NX\_CHAR         |                      | How detector is represented: general, centre\_extent, edges or corners |
+| 1   | detector\_number                    |           | NX\_INT\[i\]     |                      |                                                                        |
+| 0/1 | polar\_angle                        |           | NX\_FLOAT\[i\]   |                      |                                                                        |
+| 0/1 | azimuthal\_angle                    |           | NX\_FLOAT\[i\]   |                      |                                                                        |
+| 0/1 | solid\_angle                        |           | NX\_FLOAT\[i\]   |                      |                                                                        |
+| 0/1 | distance                            |           | NX\_FLOAT\[i\]   | distance from sample |                                                                        |
+| 1   | time\_of\_flight                    |           | NX\_FLOAT\[j+1\] |                      | Bin boundaries                                                         |
+| 0/1 |                                     | units     | NX\_CHAR         | Micro.second         |                                                                        |
+| 0/1 | time\_of\_flight\_raw               |           | NX\_INT\[j+1\]   |                      | in DAQ clock pulses                                                    |
+| 0/1 |                                     | units     | NX\_CHAR         | Clock\_pulses        |                                                                        |
+| 0/1 |                                     | frequency | NX\_FLOAT        |                      | Clock frequency of acquisition system (Hz)                             |
+| 1   | data                                |           | NX\_FLOAT\[i,j\] |                      |                                                                        |
+| 0/1 | geometry                            |           | NXgeometry\[i\]  |                      | These will be relative to “Origin” below                               |
+| 0/1 | <font color=red>group\_index</font> |           | NX\_INT\[i\]     |                      | Detector grouping information – see NXdetector\_groups class           |
 
 The detector data would be plotted with axes (detector number, tof) by
 any program. An NXgeometry object included in the detector contains
