@@ -715,21 +715,21 @@ This requires that a Pixel_number field is provided in the NXdetector for determ
 |-
 | &nbsp;	|| NXsource	|| &nbsp; 	|| &nbsp; || 	Name of source	|| &nbsp; 
 |-
-| 1	|| Name	|| &nbsp; 	|| NX_CHAR	|| &nbsp; || Facility name	
+| 1	|| name	|| &nbsp; 	|| NX_CHAR	|| &nbsp; || Facility name	
 |-
-| 1	|| Type	|| &nbsp; 	|| NX_CHAR	|| "Spallation Neutron Source" | ”Pulsed Reactor Source” | ”Reactor Neutron Source” | “Synchrotron X-ray Source”	|| &nbsp; 
+| 1	|| type	|| &nbsp; 	|| NX_CHAR	|| "Spallation Neutron Source" | ”Pulsed Reactor Source” | ”Reactor Neutron Source” | “Synchrotron X-ray Source”	|| &nbsp; 
 |-
-| 1	|| Probe	|| &nbsp; || 	NX_CHAR	|| “neutrons” | “muons” | “x-rays”	|| &nbsp; 
+| 1	|| probe	|| &nbsp; || 	NX_CHAR	|| “neutrons” | “muons” | “x-rays”	|| &nbsp; 
 |-
-| 1	|| Frequency	|| &nbsp;  || 	NX_FLOAT32|| &nbsp; || 	Frequency of pulsed source at the target	“at target” allows for the main proton beam being split with.g. 1 in 5 pulses diverted to another target
+| 1	|| frequency	|| &nbsp;  || 	NX_FLOAT32|| &nbsp; || 	Frequency of pulsed source at the target	“at target” allows for the main proton beam being split with.g. 1 in 5 pulses diverted to another target
 |-
-| 1	|| &nbsp; || 	Units	|| NX_CHAR	|| Hertz	|| &nbsp; 
+| 1	|| &nbsp; || 	units	|| NX_CHAR	|| Hertz	|| &nbsp; 
 |-
-|0/1	|| Period	|| &nbsp; || 	NX_FLOAT	|| &nbsp; || &nbsp; 	
+|0/1	|| period	|| &nbsp; || 	NX_FLOAT	|| &nbsp; || &nbsp; 	
 |-
 | 0/1 || &nbsp; ||	units	|| 	NX_CHAR|| microseconds	|| Length of an acquisition frame
 |-
-| 0/1	|| Notes	|| &nbsp; || 	NX_TEXT	|| Source/facility related messages or announcements during the experiment	|| At ISIS, the MCR beam messages
+| 0/1	|| notes	|| &nbsp; || 	NX_TEXT	|| Source/facility related messages or announcements during the experiment	|| At ISIS, the MCR beam messages
 |}
 
 ===NXdetector_groups===
