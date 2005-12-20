@@ -12,7 +12,7 @@
 *[[User:Ray|Raymond Osborn]], Argonne National Laboratory, USA (Chair)
 *Toshiya Otomo, KEK, Japan
 *[[User:Pfpeterson|Peter Peterson]], Spallation Neutron Source, USA (Executive Secretary)
-*Thomas Proffen, Los Alamos National Laboratory, USA
+*[[User:Tproffen|Thomas Proffen]], Los Alamos National Laboratory, USA
 
 == Constitution ==
 === Terms of Reference ===
