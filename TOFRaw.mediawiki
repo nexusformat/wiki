@@ -403,39 +403,39 @@ Below are the three cases for describing the pixels on a detector.
 |-
 ! RE	|| Name	|| Attribute	|| Type|| 	Value|| 	Description
 |-
-| 1	|| Detector_number	 || &nbsp; 	|| NX_INT[i,j]	 || &nbsp;  || &nbsp; 	
+| 1	|| detector_number	 || &nbsp; 	|| NX_INT[i,j]	 || &nbsp;  || &nbsp; 	
 |-
-| 1	|| Polar_angle	  || &nbsp; 	|| NX_FLOAT[i,j]		 || &nbsp;  || &nbsp; 
+| 1	|| polar_angle	  || &nbsp; 	|| NX_FLOAT[i,j]		 || &nbsp;  || &nbsp; 
 |-
-| 1	|| Azimuthal_angle || &nbsp; || 		NX_FLOAT[i,j]		 || &nbsp;  || &nbsp; 
+| 1	|| azimuthal_angle || &nbsp; || 		NX_FLOAT[i,j]		 || &nbsp;  || &nbsp; 
 |-
-| 1	|| Distance || &nbsp; 	|| 	NX_FLOAT[i,j]	 || &nbsp;  || &nbsp; 	
+| 1	|| distance || &nbsp; 	|| 	NX_FLOAT[i,j]	 || &nbsp;  || &nbsp; 	
 |-
-| 1	|| Time_of_flight	 || &nbsp; || 	NX_FLOAT[k+1]	 || &nbsp; || 	Bin boundaries
+| 1	|| time_of_flight	 || &nbsp; || 	NX_FLOAT[k+1]	 || &nbsp; || 	Bin boundaries
 |-
 | 0/1  || &nbsp; 	||	Units|| 	NX_CHAR|| 	Micro.second	 || &nbsp; 
 |-
-| 1	|| Raw_time_of_flight	 || &nbsp; 	|| NX_INT[k+1]		 || &nbsp;  || in DAQ clock pulses
+| 1	|| raw_time_of_flight	 || &nbsp; 	|| NX_INT[k+1]		 || &nbsp;  || in DAQ clock pulses
 |-
 | 0/1  || &nbsp; ||		Units	|| NX_CHAR	|| Clock_pulses	 || &nbsp; 
 |-
 | 0/1  || &nbsp; ||		Frequency|| 	NX_FLOAT	|| 	Clock frequency || &nbsp; 
 |-
-| 1	|| Data	 || &nbsp; || 	NX_FLOAT[i,j,k]		 || &nbsp;  || &nbsp; 
+| 1	|| data	 || &nbsp; || 	NX_FLOAT[i,j,k]		 || &nbsp;  || &nbsp; 
 |-
-| 0/1	|| Geometry	 || &nbsp; || 	NXgeometry[i,j]	 || &nbsp; || 	These will be relative to “Origin” below
+| 0/1	|| geometry	 || &nbsp; || 	NXgeometry[i,j]	 || &nbsp; || 	These will be relative to “Origin” below
 |-
-| 0/1	|| X_pixel_offset	 || &nbsp; || 	NX_FLOAT[i]	 || &nbsp;  || 0 at origin 	
+| 0/1	|| x_pixel_offset	 || &nbsp; || 	NX_FLOAT[i]	 || &nbsp;  || 0 at origin 	
 |-
-| 0/1	|| X_pixel_size		 || &nbsp; || NX_FLOAT[i]	 || &nbsp;  || &nbsp; 	
+| 0/1	|| x_pixel_size		 || &nbsp; || NX_FLOAT[i]	 || &nbsp;  || &nbsp; 	
 |-
-| 0/1	|| Y_pixel_offset	 || &nbsp; || 	NX_FLOAT[j]	 || &nbsp;  || 0 at origin	
+| 0/1	|| y_pixel_offset	 || &nbsp; || 	NX_FLOAT[j]	 || &nbsp;  || 0 at origin	
 |-
-| 0/1	|| Y_pixel_size		 || &nbsp; || NX_FLOAT[j]	 || &nbsp;  || &nbsp; 	
+| 0/1	|| y_pixel_size		 || &nbsp; || NX_FLOAT[j]	 || &nbsp;  || &nbsp; 	
 |-
 | 0/1	|| <font color=red>x_radius</font>	 || &nbsp; || 	NX_FLOAT	 || &nbsp; || 	If we are curved, the radius of curvature ( *_offset above will then be arc lengths)
 |-
-| 0/1	|| <font color=red>Y_radius</font>	 || &nbsp; || 	NX_FLOAT	 || &nbsp; || 	If we are curved, the radius of curvature ( *_offset above will then be arc lengths)
+| 0/1	|| <font color=red>y_radius</font>	 || &nbsp; || 	NX_FLOAT	 || &nbsp; || 	If we are curved, the radius of curvature ( *_offset above will then be arc lengths)
 |}
 You can either specify an NXgeometry[i,j] for the pixels or instead use the x_pixel_* arrays. By specifying both size and offset “dead space” between pixels can be accounted for.
 

@@ -366,23 +366,23 @@ Below are the three cases for describing the pixels on a detector.
 
 | RE  | Name                             | Attribute | Type               | Value           | Description                                                                            |
 |-----|----------------------------------|-----------|--------------------|-----------------|----------------------------------------------------------------------------------------|
-| 1   | Detector\_number                 |           | NX\_INT\[i,j\]     |                 |                                                                                        |
-| 1   | Polar\_angle                     |           | NX\_FLOAT\[i,j\]   |                 |                                                                                        |
-| 1   | Azimuthal\_angle                 |           | NX\_FLOAT\[i,j\]   |                 |                                                                                        |
-| 1   | Distance                         |           | NX\_FLOAT\[i,j\]   |                 |                                                                                        |
-| 1   | Time\_of\_flight                 |           | NX\_FLOAT\[k+1\]   |                 | Bin boundaries                                                                         |
+| 1   | detector\_number                 |           | NX\_INT\[i,j\]     |                 |                                                                                        |
+| 1   | polar\_angle                     |           | NX\_FLOAT\[i,j\]   |                 |                                                                                        |
+| 1   | azimuthal\_angle                 |           | NX\_FLOAT\[i,j\]   |                 |                                                                                        |
+| 1   | distance                         |           | NX\_FLOAT\[i,j\]   |                 |                                                                                        |
+| 1   | time\_of\_flight                 |           | NX\_FLOAT\[k+1\]   |                 | Bin boundaries                                                                         |
 | 0/1 |                                  | Units     | NX\_CHAR           | Micro.second    |                                                                                        |
-| 1   | Raw\_time\_of\_flight            |           | NX\_INT\[k+1\]     |                 | in DAQ clock pulses                                                                    |
+| 1   | raw\_time\_of\_flight            |           | NX\_INT\[k+1\]     |                 | in DAQ clock pulses                                                                    |
 | 0/1 |                                  | Units     | NX\_CHAR           | Clock\_pulses   |                                                                                        |
 | 0/1 |                                  | Frequency | NX\_FLOAT          | Clock frequency |                                                                                        |
-| 1   | Data                             |           | NX\_FLOAT\[i,j,k\] |                 |                                                                                        |
-| 0/1 | Geometry                         |           | NXgeometry\[i,j\]  |                 | These will be relative to “Origin” below                                               |
-| 0/1 | X\_pixel\_offset                 |           | NX\_FLOAT\[i\]     |                 | 0 at origin                                                                            |
-| 0/1 | X\_pixel\_size                   |           | NX\_FLOAT\[i\]     |                 |                                                                                        |
-| 0/1 | Y\_pixel\_offset                 |           | NX\_FLOAT\[j\]     |                 | 0 at origin                                                                            |
-| 0/1 | Y\_pixel\_size                   |           | NX\_FLOAT\[j\]     |                 |                                                                                        |
+| 1   | data                             |           | NX\_FLOAT\[i,j,k\] |                 |                                                                                        |
+| 0/1 | geometry                         |           | NXgeometry\[i,j\]  |                 | These will be relative to “Origin” below                                               |
+| 0/1 | x\_pixel\_offset                 |           | NX\_FLOAT\[i\]     |                 | 0 at origin                                                                            |
+| 0/1 | x\_pixel\_size                   |           | NX\_FLOAT\[i\]     |                 |                                                                                        |
+| 0/1 | y\_pixel\_offset                 |           | NX\_FLOAT\[j\]     |                 | 0 at origin                                                                            |
+| 0/1 | y\_pixel\_size                   |           | NX\_FLOAT\[j\]     |                 |                                                                                        |
 | 0/1 | <font color=red>x\_radius</font> |           | NX\_FLOAT          |                 | If we are curved, the radius of curvature ( \*\_offset above will then be arc lengths) |
-| 0/1 | <font color=red>Y\_radius</font> |           | NX\_FLOAT          |                 | If we are curved, the radius of curvature ( \*\_offset above will then be arc lengths) |
+| 0/1 | <font color=red>y\_radius</font> |           | NX\_FLOAT          |                 | If we are curved, the radius of curvature ( \*\_offset above will then be arc lengths) |
 
 You can either specify an NXgeometry\[i,j\] for the pixels or instead
 use the x\_pixel\_\* arrays. By specifying both size and offset “dead
