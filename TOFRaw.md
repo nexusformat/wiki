@@ -611,10 +611,10 @@ PSD tube and hence have e.g. the same dead time.
 | RE  | Name          | Attribute | Type         | Value                                  | Description                               |
 |-----|---------------|-----------|--------------|----------------------------------------|-------------------------------------------|
 | RE  | Name          | Attribute | Type         | Value                                  | Description                               |
-| 1   | Group\_names  |           | NX\_CHAR     |                                        | Comma separated list of name              |
-| 1   | Group\_index  |           | NX\_INT\[i\] |                                        | Unique ID for group                       |
-| 1   | Group\_parent |           | NX\_INT\[i\] | Index of group parent in the hierarchy | -1 means no parent i.e. a top level group |
-| 1   | Group\_type   |           | NX\_INT\[i\] | Code number for group type             | e.g. bank=1, tube=2 etc.                  |
+| 1   | group\_names  |           | NX\_CHAR     |                                        | Comma separated list of name              |
+| 1   | group\_index  |           | NX\_INT\[i\] |                                        | Unique ID for group                       |
+| 1   | group\_parent |           | NX\_INT\[i\] | Index of group parent in the hierarchy | -1 means no parent i.e. a top level group |
+| 1   | group\_type   |           | NX\_INT\[i\] | Code number for group type             | e.g. bank=1, tube=2 etc.                  |
 
 For example of we had “bank1” composed of “tube1”, “tube2” and “tube3”
 then Group\_names would be the string “bank1, bank1/tube1,

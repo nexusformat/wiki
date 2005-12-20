@@ -740,13 +740,13 @@ This class is used to allow a logical grouping of detector elements (e.g. which 
 |-
 | RE	|| Name 	|| Attribute	|| Type || 	Value || 	Description 
 |-
-| 1	|| Group_names	|| &nbsp; 	|| NX_CHAR	|| &nbsp; || Comma separated list of name 	
+| 1	|| group_names	|| &nbsp; 	|| NX_CHAR	|| &nbsp; || Comma separated list of name 	
 |-
-| 1	|| Group_index	|| &nbsp; 	|| NX_INT[i]|| &nbsp; || 	Unique ID for group	
+| 1	|| group_index	|| &nbsp; 	|| NX_INT[i]|| &nbsp; || 	Unique ID for group	
 |-
-| 1	|| Group_parent	|| &nbsp; 	|| NX_INT[i]	|| Index of group parent in the hierarchy	|| -1 means no parent i.e. a top level group
+| 1	|| group_parent	|| &nbsp; 	|| NX_INT[i]	|| Index of group parent in the hierarchy	|| -1 means no parent i.e. a top level group
 |-
-| 1	|| Group_type	|| &nbsp; 	|| NX_INT[i]	|| 	Code number for group type || e.g. bank=1, tube=2 etc.
+| 1	|| group_type	|| &nbsp; 	|| NX_INT[i]	|| 	Code number for group type || e.g. bank=1, tube=2 etc.
 |}
 
 For example of we had “bank1” composed of “tube1”, “tube2” and “tube3” then
