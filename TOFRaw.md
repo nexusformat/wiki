@@ -370,7 +370,7 @@ Below are the three cases for describing the pixels on a detector.
 
 | RE  | Name                             | Attribute | Type               | Value           | Description                                                                            |
 |-----|----------------------------------|-----------|--------------------|-----------------|----------------------------------------------------------------------------------------|
-| 1   | <font color=red>stored</font>    |           | NX\_CHAR           |                 | How detector is represented: general, centre\_extent, edges or corners                 |
+| 1   | <font color=red>stored</font>    |           | NX\_CHAR           | centre\_extent  | How detector is represented: general, centre\_extent, edges or corners                 |
 | 1   | detector\_number                 |           | NX\_INT\[i,j\]     |                 |                                                                                        |
 | 1   | polar\_angle                     |           | NX\_FLOAT\[i,j\]   |                 |                                                                                        |
 | 1   | azimuthal\_angle                 |           | NX\_FLOAT\[i,j\]   |                 |                                                                                        |
@@ -400,7 +400,7 @@ NXdetector as they can be calculated from the detector geometry
 
 | RE  | Name                          | Attribute | Type               | Value           | Description                                                            |
 |-----|-------------------------------|-----------|--------------------|-----------------|------------------------------------------------------------------------|
-| 1   | <font color=red>stored</font> |           | NX\_CHAR           |                 | How detector is represented: general, centre\_extent, edges or corners |
+| 1   | <font color=red>stored</font> |           | NX\_CHAR           | edges           | How detector is represented: general, centre\_extent, edges or corners |
 | 1   | detector\_number              |           | NX\_INT\[i,j\]     |                 |                                                                        |
 | 1   | polar\_angle                  |           | NX\_FLOAT\[i,j\]   |                 |                                                                        |
 | 1   | azimuthal\_angle              |           | NX\_FLOAT\[i,j\]   |                 |                                                                        |
@@ -421,7 +421,7 @@ All pixels are edge to edge.
 
 | RE  | Name                          | Attribute | Type                  | Value           | Description                                                            |
 |-----|-------------------------------|-----------|-----------------------|-----------------|------------------------------------------------------------------------|
-| 1   | <font color=red>stored</font> |           | NX\_CHAR              |                 | How detector is represented: general, centre\_extent, edges or corners |
+| 1   | <font color=red>stored</font> |           | NX\_CHAR              | corners         | How detector is represented: general, centre\_extent, edges or corners |
 | 1   | detector\_number              |           | NX\_INT\[i,j\]        |                 |                                                                        |
 | 1   | polar\_angle                  |           | NX\_FLOAT\[i,j\]      |                 |                                                                        |
 | 1   | azimuthal\_angle              |           | NX\_FLOAT\[i,j\]      |                 |                                                                        |
