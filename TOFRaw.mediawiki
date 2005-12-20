@@ -447,25 +447,25 @@ azimuthal_angle, polar_angle and distance can be left out of NXdetector as they 
 |-
 ! RE	|| Name	|| Attribute	|| Type	|| Value|| 	Description
 |-
-| 1	|| Detector_number	 || &nbsp; 	|| NX_INT[i,j]	 || &nbsp;  || &nbsp; 	
+| 1	|| detector_number	 || &nbsp; 	|| NX_INT[i,j]	 || &nbsp;  || &nbsp; 	
 |-
-| 1	|| Polar_angle	 || &nbsp; ||  	NX_FLOAT[i,j]		 || &nbsp;  || &nbsp; 
+| 1	|| polar_angle	 || &nbsp; ||  	NX_FLOAT[i,j]		 || &nbsp;  || &nbsp; 
 |-
-| 1 	|| Azimuthal_angle || &nbsp; 	|| 	NX_FLOAT[i,j]	 || &nbsp;  || &nbsp; 	
+| 1 	|| azimuthal_angle || &nbsp; 	|| 	NX_FLOAT[i,j]	 || &nbsp;  || &nbsp; 	
 |-
-| 1	|| Distance	 || &nbsp; || 	NX_FLOAT[i,j]		 || &nbsp;  || &nbsp; 
+| 1	|| distance	 || &nbsp; || 	NX_FLOAT[i,j]		 || &nbsp;  || &nbsp; 
 |-
-| 1	|| Time_of_flight || &nbsp; 	|| 	NX_FLOAT[k+1]	 || &nbsp; || 	Bin boundaries
+| 1	|| time_of_flight || &nbsp; 	|| 	NX_FLOAT[k+1]	 || &nbsp; || 	Bin boundaries
 |-
 | 0/1	 || &nbsp; || 	Units	|| NX_CHAR	|| Micro.second	  || &nbsp; 
 |-
-| 1	|| Raw_time_of_flight	 || &nbsp; 	|| NX_FLOAT[k+1]	 || &nbsp;  || &nbsp; 	
+| 1	|| raw_time_of_flight	 || &nbsp; 	|| NX_FLOAT[k+1]	 || &nbsp;  || &nbsp; 	
 |-
 | 0/1  || &nbsp; 		|| Units	|| NX_CHAR|| 	Clock_pulses	 || &nbsp; 
 |-
 | 0/1	 || &nbsp; 	|| Frequency|| 	NX_FLOAT	|| 	Clock frequency || &nbsp; 
 |-
-| 1	|| Data	 || &nbsp; 	|| NX_FLOAT[i,j,k]		 || &nbsp;  || &nbsp; 
+| 1	|| data	 || &nbsp; 	|| NX_FLOAT[i,j,k]		 || &nbsp;  || &nbsp; 
 |-
 | 0/1	|| geometry || &nbsp; || 		NXgeometry[i,j]		 || &nbsp;  || &nbsp; 
 |-
