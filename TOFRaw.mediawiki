@@ -385,7 +385,7 @@ The general representation is to consider a detector as just a group of pixels a
 |-
 | 0/1|| 	geometry || &nbsp; || 		NXgeometry[i]	 || &nbsp; || 	These will be relative to “Origin” below
 |-
-| 0/1|| 	<font color=red>Group_index</font> || &nbsp; 	|| 	NX_INT[i]	 || &nbsp; || 	Detector grouping information – see NXdetector_groups class
+| 0/1|| 	<font color=red>group_index</font> || &nbsp; 	|| 	NX_INT[i]	 || &nbsp; || 	Detector grouping information – see NXdetector_groups class
 |}
 
 The detector data would be plotted with axes (detector number, tof) by any program. An NXgeometry object included in the detector contains arrays that store the position and orientation of each pixel. As this detector representation imposes no constraint on the relationship between pixels, a single NXdetector could represent the entire instrument (so long as all detectors have the same time_of_flight) – however in practice an NXdetector and NXdata would be created for each bank.

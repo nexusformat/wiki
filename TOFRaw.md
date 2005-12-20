@@ -326,7 +326,7 @@ stored:
 | 0/1 |                                     | frequency | NX\_FLOAT        |                      | Clock frequency of acquisition system (Hz)                                  |
 | 1   | data                                |           | NX\_FLOAT\[i,j\] |                      |                                                                             |
 | 0/1 | geometry                            |           | NXgeometry\[i\]  |                      | These will be relative to “Origin” below                                    |
-| 0/1 | <font color=red>Group\_index</font> |           | NX\_INT\[i\]     |                      | Detector grouping information – see NXdetector\_groups class                |
+| 0/1 | <font color=red>group\_index</font> |           | NX\_INT\[i\]     |                      | Detector grouping information – see NXdetector\_groups class                |
 
 The detector data would be plotted with axes (detector number, tof) by
 any program. An NXgeometry object included in the detector contains
