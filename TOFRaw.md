@@ -465,9 +465,9 @@ polar\_angle\[gang\_index\[i\]+gang\_count\[i\]-1\]
 | 1   | data             |            | NX\_FLOAT\[i,j,k,m\] |       |               |
 | 1   |                  | units      | NX\_CHAR             |       |               |
 | 1   |                  | long\_name | NX\_CHAR             |       | Title of data |
-| 1   | Time\_of\_flight |            | NX\_FLOAT\[k+1\]     |       |               |
-| 0/1 | X\_pixel\_offset |            | NX\_FLOAT\[i\]       |       |               |
-| 0/1 | Y\_pixel\_offset |            | NX\_FLOAT\[j\]       |       |               |
+| 1   | time\_of\_flight |            | NX\_FLOAT\[k+1\]     |       |               |
+| 0/1 | x\_pixel\_offset |            | NX\_FLOAT\[i\]       |       |               |
+| 0/1 | y\_pixel\_offset |            | NX\_FLOAT\[j\]       |       |               |
 ||
 
 The exact format of this will depend on the NXdetector definition used.

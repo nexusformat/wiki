@@ -537,11 +537,11 @@ Detector_number[i] is ganged from gang_count[i] elements. The values of polar_an
 |-
 | 1   || &nbsp;     || long_name	  || NX_CHAR		 || &nbsp;  || Title of data
 |-
-| 1   || Time_of_flight || &nbsp; || NX_FLOAT[k+1]		 || &nbsp;  || &nbsp; 
+| 1   || time_of_flight || &nbsp; || NX_FLOAT[k+1]		 || &nbsp;  || &nbsp; 
 |-
-| 0/1   || X_pixel_offset	|| &nbsp; || NX_FLOAT[i]		 || &nbsp;  || &nbsp; 
+| 0/1   || x_pixel_offset	|| &nbsp; || NX_FLOAT[i]		 || &nbsp;  || &nbsp; 
 |-
-| 0/1   || Y_pixel_offset	|| &nbsp; || NX_FLOAT[j]		 || &nbsp;  || &nbsp; 
+| 0/1   || y_pixel_offset	|| &nbsp; || NX_FLOAT[j]		 || &nbsp;  || &nbsp; 
 |-
 
 |}
