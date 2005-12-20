@@ -220,11 +220,11 @@ This list is limited to items that were desired by the group. See the NeXus tech
 |-
 | 0/1	|| mass			|| &nbsp; || NX_FLOAT			|| &nbsp; 	|| &nbsp; 
 |-
-| 1	|| 	&nbsp; || Units|| 	NX_CHAR			|| &nbsp; 	|| &nbsp; 
+| 1	|| 	&nbsp; || units|| 	NX_CHAR			|| &nbsp; 	|| &nbsp; 
 |-
 | 0/1	|| volume	|| &nbsp; 	|| 	NX_FLOAT	|| &nbsp; || &nbsp;	
 |-
-| 1	|| &nbsp;	|| Units|| 	NX_CHAR			|| &nbsp; 	|| &nbsp; 
+| 1	|| &nbsp;	|| units|| 	NX_CHAR			|| &nbsp; 	|| &nbsp; 
 |-
 | 0/1	|| geometry || &nbsp; 	|| 	NXgeometry		|| &nbsp; 	|| &nbsp; 	
 |-
@@ -232,7 +232,7 @@ This list is limited to items that were desired by the group. See the NeXus tech
 |-
 | 0/1|| 	preparation		|| &nbsp; || 	NX_CHAR	|| &nbsp;	|| Sample handling/preparation prior to experiment
 |-
-| 0/1|| 	Changer_position	|| &nbsp; 	|| 	NX_INT	|| &nbsp;	|| Sample changer position
+| 0/1|| 	changer_position	|| &nbsp; 	|| 	NX_INT	|| &nbsp;	|| Sample changer position
 |-
 | 0/1	|| <font color=red>sample_holder</font>	|| &nbsp; || 	NX_CHAR || &nbsp; || &nbsp;		
 |-
