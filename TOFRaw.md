@@ -370,6 +370,7 @@ Below are the three cases for describing the pixels on a detector.
 
 | RE  | Name                             | Attribute | Type               | Value           | Description                                                                            |
 |-----|----------------------------------|-----------|--------------------|-----------------|----------------------------------------------------------------------------------------|
+| 1   | <font color=red>stored</font>    |           | NX\_CHAR           |                 | How detector is represented: general, centre\_extent, edges or corners                 |
 | 1   | detector\_number                 |           | NX\_INT\[i,j\]     |                 |                                                                                        |
 | 1   | polar\_angle                     |           | NX\_FLOAT\[i,j\]   |                 |                                                                                        |
 | 1   | azimuthal\_angle                 |           | NX\_FLOAT\[i,j\]   |                 |                                                                                        |
@@ -397,41 +398,43 @@ NXdetector as they can be calculated from the detector geometry
 
 **Edges**
 
-| RE  | Name                  | Attribute | Type               | Value           | Description    |
-|-----|-----------------------|-----------|--------------------|-----------------|----------------|
-| 1   | detector\_number      |           | NX\_INT\[i,j\]     |                 |                |
-| 1   | polar\_angle          |           | NX\_FLOAT\[i,j\]   |                 |                |
-| 1   | azimuthal\_angle      |           | NX\_FLOAT\[i,j\]   |                 |                |
-| 1   | distance              |           | NX\_FLOAT\[i,j\]   |                 |                |
-| 1   | time\_of\_flight      |           | NX\_FLOAT\[k+1\]   |                 | Bin boundaries |
-| 0/1 |                       | Units     | NX\_CHAR           | Micro.second    |                |
-| 1   | raw\_time\_of\_flight |           | NX\_FLOAT\[k+1\]   |                 |                |
-| 0/1 |                       | Units     | NX\_CHAR           | Clock\_pulses   |                |
-| 0/1 |                       | Frequency | NX\_FLOAT          | Clock frequency |                |
-| 1   | data                  |           | NX\_FLOAT\[i,j,k\] |                 |                |
-| 0/1 | geometry              |           | NXgeometry\[i,j\]  |                 |                |
-| 0/1 | x\_pixel\_offset      |           | NX\_FLOAT\[i+1\]   |                 |                |
-| 0/1 | y\_pixel\_offset      |           | NX\_FLOAT\[j+1\]   |                 |                |
+| RE  | Name                          | Attribute | Type               | Value           | Description                                                            |
+|-----|-------------------------------|-----------|--------------------|-----------------|------------------------------------------------------------------------|
+| 1   | <font color=red>stored</font> |           | NX\_CHAR           |                 | How detector is represented: general, centre\_extent, edges or corners |
+| 1   | detector\_number              |           | NX\_INT\[i,j\]     |                 |                                                                        |
+| 1   | polar\_angle                  |           | NX\_FLOAT\[i,j\]   |                 |                                                                        |
+| 1   | azimuthal\_angle              |           | NX\_FLOAT\[i,j\]   |                 |                                                                        |
+| 1   | distance                      |           | NX\_FLOAT\[i,j\]   |                 |                                                                        |
+| 1   | time\_of\_flight              |           | NX\_FLOAT\[k+1\]   |                 | Bin boundaries                                                         |
+| 0/1 |                               | Units     | NX\_CHAR           | Micro.second    |                                                                        |
+| 1   | raw\_time\_of\_flight         |           | NX\_FLOAT\[k+1\]   |                 |                                                                        |
+| 0/1 |                               | Units     | NX\_CHAR           | Clock\_pulses   |                                                                        |
+| 0/1 |                               | Frequency | NX\_FLOAT          | Clock frequency |                                                                        |
+| 1   | data                          |           | NX\_FLOAT\[i,j,k\] |                 |                                                                        |
+| 0/1 | geometry                      |           | NXgeometry\[i,j\]  |                 |                                                                        |
+| 0/1 | x\_pixel\_offset              |           | NX\_FLOAT\[i+1\]   |                 |                                                                        |
+| 0/1 | y\_pixel\_offset              |           | NX\_FLOAT\[j+1\]   |                 |                                                                        |
 
 All pixels are edge to edge.
 
 **Corners**
 
-| RE  | Name                  | Attribute | Type                  | Value           | Description    |
-|-----|-----------------------|-----------|-----------------------|-----------------|----------------|
-| 1   | detector\_number      |           | NX\_INT\[i,j\]        |                 |                |
-| 1   | polar\_angle          |           | NX\_FLOAT\[i,j\]      |                 |                |
-| 1   | azimuthal\_angle      |           | NX\_FLOAT\[i,j\]      |                 |                |
-| 1   | distance              |           | NX\_FLOAT\[i,j\]      |                 |                |
-| 1   | time\_of\_flight      |           | NX\_FLOAT\[k+1\]      |                 | Bin boundaries |
-| 0/1 |                       | Units     | NX\_CHAR              | Micro.second    |                |
-| 1   | raw\_time\_of\_flight |           | NX\_FLOAT\[k+1\]      |                 |                |
-| 0/1 |                       | Units     | NX\_CHAR              | Clock\_pulses   |                |
-| 0/1 |                       | Frequency | NX\_FLOAT             | Clock frequency |                |
-| 1   | data                  |           | NX\_FLOAT\[i,j,k\]    |                 |                |
-| 0/1 | geometry              |           | NXgeometry\[i,j\]     |                 |                |
-| 0/1 | x\_pixel\_offset      |           | NX\_FLOAT\[i+1, j+1\] |                 |                |
-| 0/1 | y\_pixel\_offset      |           | NX\_FLOAT\[i+1,j+1\]  |                 |                |
+| RE  | Name                          | Attribute | Type                  | Value           | Description                                                            |
+|-----|-------------------------------|-----------|-----------------------|-----------------|------------------------------------------------------------------------|
+| 1   | <font color=red>stored</font> |           | NX\_CHAR              |                 | How detector is represented: general, centre\_extent, edges or corners |
+| 1   | detector\_number              |           | NX\_INT\[i,j\]        |                 |                                                                        |
+| 1   | polar\_angle                  |           | NX\_FLOAT\[i,j\]      |                 |                                                                        |
+| 1   | azimuthal\_angle              |           | NX\_FLOAT\[i,j\]      |                 |                                                                        |
+| 1   | distance                      |           | NX\_FLOAT\[i,j\]      |                 |                                                                        |
+| 1   | time\_of\_flight              |           | NX\_FLOAT\[k+1\]      |                 | Bin boundaries                                                         |
+| 0/1 |                               | Units     | NX\_CHAR              | Micro.second    |                                                                        |
+| 1   | raw\_time\_of\_flight         |           | NX\_FLOAT\[k+1\]      |                 |                                                                        |
+| 0/1 |                               | Units     | NX\_CHAR              | Clock\_pulses   |                                                                        |
+| 0/1 |                               | Frequency | NX\_FLOAT             | Clock frequency |                                                                        |
+| 1   | data                          |           | NX\_FLOAT\[i,j,k\]    |                 |                                                                        |
+| 0/1 | geometry                      |           | NXgeometry\[i,j\]     |                 |                                                                        |
+| 0/1 | x\_pixel\_offset              |           | NX\_FLOAT\[i+1, j+1\] |                 |                                                                        |
+| 0/1 | y\_pixel\_offset              |           | NX\_FLOAT\[i+1,j+1\]  |                 |                                                                        |
 
 **Hardware ganging of detector elements**
 
