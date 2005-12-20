@@ -23,6 +23,10 @@ in having a unified base for all instruments to allow for low level
 instrument debugging tools to be used, without change, in a given
 facility.
 
+There are example files in
+[HDF4](http://nexus.isis.rl.ac.uk/hrp08639.nx4) and
+[HDF5](http://nexus.isis.rl.ac.uk/hrp08639.nx5) available.
+
 Goal of the Definition
 ----------------------
 

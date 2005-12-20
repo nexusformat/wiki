@@ -5,6 +5,8 @@ NXTOFRW - A proposal for a NeXus Time-of-Flight Raw Data File Format
 [http://www.nexus.anl.gov/ NeXus] is moving onto the idea of inherited incremental definitions as discussed at the last meeting of the [http://www.nexus.anl.gov/nexus_committee.html NeXus International Advisory Committee (NIAC)] – for example with powder diffractometers there is a definition for both time focussing and total scattering with one being a subset of the other; a file can conform to one or both. The initial work on this definition comes from discussions between [http://www.sns.gov/ SNS], [http://j-parc.jp/index-e.html J-PARC] and [http://www.isis.rl.ac.uk/ ISIS] -
 the three facilities are interested in having a unified base for all instruments to allow for low level instrument debugging tools to be used, without change, in a given facility.
 
+There are example files in [http://nexus.isis.rl.ac.uk/hrp08639.nx4 HDF4] and [http://nexus.isis.rl.ac.uk/hrp08639.nx5 HDF5] available.
+
 ==Goal of the Definition==
 
 The definition/format should: 
