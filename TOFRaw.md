@@ -521,10 +521,10 @@ directly from the NeXus technical reference without change.
 
 | RE  | Name                                 | Attribute | Type                | Value | Description                                  |
 |-----|--------------------------------------|-----------|---------------------|-------|----------------------------------------------|
-| 0/1 | Time                                 |           | NX\_FLOAT           |       | relative to “start”                          |
+| 0/1 | time                                 |           | NX\_FLOAT           |       | relative to “start”                          |
 | 1   |                                      | units     | NX\_CHAR            |       |                                              |
 | 1   |                                      | start     | ISO8601             |       | start time of logging                        |
-| 0/1 | Value                                |           | NX\_FLOAT / NX\_INT |       |                                              |
+| 0/1 | value                                |           | NX\_FLOAT / NX\_INT |       |                                              |
 | 1   |                                      | units     | NX\_CHAR            |       |                                              |
 | 0/1 | raw\_value                           |           | NX\_FLOAT / NX\_INT |       | e.g. voltage from thermocouple               |
 | 1   |                                      | units     | NX\_CHAR            |       |                                              |
@@ -533,11 +533,11 @@ directly from the NeXus technical reference without change.
 | 1   |                                      | units     | NX\_CHAR            |       |                                              |
 | 0/1 | average\_value\_error                |           | NX\_FLOAT           |       |                                              |
 | 1   |                                      | units     | NX\_CHAR            |       |                                              |
-| 0/1 | Minimum\_value                       |           | NX\_FLOAT           |       |                                              |
+| 0/1 | minimum\_value                       |           | NX\_FLOAT           |       |                                              |
 | 1   |                                      | units     | NX\_CHAR            |       |                                              |
-| 0/1 | Maximum\_value                       |           | NX\_FLOAT           |       |                                              |
+| 0/1 | maximum\_value                       |           | NX\_FLOAT           |       |                                              |
 | 1   |                                      | units     | NX\_CHAR            |       |                                              |
-| 0/1 | Duration                             |           | NX\_FLOAT           |       |                                              |
+| 0/1 | duration                             |           | NX\_FLOAT           |       |                                              |
 | 1   |                                      | units     | NX\_CHAR            |       |                                              |
 | 0/1 | <font color=red>display\_name</font> |           | NX\_CHAR            |       | short name displayed on instrument dashboard |
 | 0/1 | <font color=red>software</font>      |           | NX\_CHAR            |       | program or software used to measure value    |

@@ -605,13 +605,13 @@ Contains log information monitored during the run in a timed fashion.  This can 
 {| align="centre" border="1"
 ! RE  || Name       || Attribute  || Type      || Value || Description
 |-
-| 0/1 ||	Time	|| &nbsp; ||	NX_FLOAT|| &nbsp; || relative to "start" 		
+| 0/1 ||	time	|| &nbsp; ||	NX_FLOAT|| &nbsp; || relative to "start" 		
 |-
 | 1	|| &nbsp; ||	units	|| NX_CHAR		|| &nbsp; || &nbsp; 
 |-
 | 1	|| &nbsp; ||	start	|| ISO8601		|| &nbsp; || start time of logging
 |-
-| 0/1 ||	Value	|| &nbsp; ||	NX_FLOAT / NX_INT		|| &nbsp; || &nbsp; 
+| 0/1 ||	value	|| &nbsp; ||	NX_FLOAT / NX_INT		|| &nbsp; || &nbsp; 
 |-
 | 1	|| &nbsp; ||	units	|| NX_CHAR		|| &nbsp; || &nbsp; 
 |-
@@ -629,15 +629,15 @@ Contains log information monitored during the run in a timed fashion.  This can 
 |-
 | 1	|| &nbsp; || 	units	|| NX_CHAR		|| &nbsp; || &nbsp; 
 |-
-| 0/1	|| Minimum_value	|| &nbsp; || 	NX_FLOAT		|| &nbsp; || &nbsp; 
+| 0/1	|| minimum_value	|| &nbsp; || 	NX_FLOAT		|| &nbsp; || &nbsp; 
 |-
 | 1	|| &nbsp; 	|| units	|| NX_CHAR		|| &nbsp; || &nbsp; 
 |-
-| 0/1	|| Maximum_value	|| &nbsp; || 	NX_FLOAT		|| &nbsp; || &nbsp; 
+| 0/1	|| maximum_value	|| &nbsp; || 	NX_FLOAT		|| &nbsp; || &nbsp; 
 |-
 | 1	|| &nbsp; 	|| units	|| NX_CHAR		|| &nbsp; || &nbsp; 
 |-
-| 0/1	|| Duration	|| &nbsp; 	|| NX_FLOAT		|| &nbsp; || &nbsp; 
+| 0/1	|| duration	|| &nbsp; 	|| NX_FLOAT		|| &nbsp; || &nbsp; 
 |-
 | 1	|| &nbsp; 	|| units	|| NX_CHAR		|| &nbsp; || &nbsp; 
 |-
