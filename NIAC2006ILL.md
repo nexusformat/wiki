@@ -7,21 +7,19 @@ layout: wiki
 NIAC Meeting - February 2006
 ----------------------------
 
-Ron Ghosh has offered to host the next meeting of the [ NeXus
-International Advisory Committee](NIAC "wikilink") in Grenoble, France.
+The next meeting of the [ NeXus International Advisory
+Committee](NIAC "wikilink") will be held at the Institut Laue Langeving
+in Grenoble, France. The meeting will be held from February 1 to 3,
+2006, preceded by an informal workshop to prepare agenda items on
+January 30-31, 2006.
 
-This is the current proposal:
+Accommodation will be at the ILL/ESRF guest-house (approx 28 Euros per
+night bed+breakfast) and a contribution towards meals of about 130 Euros
+per person (3 lunches, 2 dinners, coffee etc.), based on 20
+participants.
 
--   Meeting to be held meeting 1-3 February 2006, with accommodation at
-    the site guest-house (approx 28 Euros per night bed+breakfast) and a
-    contribution towards meals of about 130 Euros per person (3 lunches,
-    2 dinners, coffee etc.), based on 20 participants.
-
-<!-- -->
-
--   We wish to attract external synchrotron observers from SOLEIL,
-    Trieste, APS, etc.; it would be useful to offer a “public”
-    presentation on one afternoon to the ESRF and the ILL.
+If you wish to attend, please contact [Ron Ghosh](mailto:ghosh@ill.fr)
+as soon as possible.
 
 ### Proposed Agenda
 
