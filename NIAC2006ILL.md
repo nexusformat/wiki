@@ -8,10 +8,10 @@ NIAC Meeting - February 2006
 ----------------------------
 
 The next meeting of the [ NeXus International Advisory
-Committee](NIAC "wikilink") will be held at the Institut Laue Langeving
-in Grenoble, France. The meeting will be held from February 1 to 3,
-2006, preceded by an informal workshop to prepare agenda items on
-January 30-31, 2006.
+Committee](NIAC "wikilink") will be held at the [Institut Laue
+Langevin](http://www.ill.fr) in Grenoble, France. The meeting will be
+held from February 1 to 3, 2006, preceded by an informal workshop to
+prepare agenda items on January 30-31, 2006.
 
 Accommodation will be at the ILL/ESRF guest-house (approx 28 Euros per
 night bed+breakfast) and a contribution towards meals of about 130 Euros
