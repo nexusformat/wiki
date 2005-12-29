@@ -36,5 +36,5 @@ stated in the [constitution](NIAC "wikilink")
 
 ### Expire March 10, 2008
 
--   Stuart Campbell Diamond Light Source, UK
+-   Stuart Campbell - Diamond Light Source, UK
 
