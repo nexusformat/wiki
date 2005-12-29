@@ -30,7 +30,7 @@ Page](Talk:NIAC_Meetings "wikilink").
 
 -   Welcome and Introduction
 -   Review of NIAC'2005 minutes
--   Renew members
+-   [Renew members](Membership_Dates "wikilink")
 
 The members of the NIAC, with the experation of their membership is
 listed below. If a member wishes to be renewed, they must provide a

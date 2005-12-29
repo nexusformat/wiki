@@ -9,7 +9,7 @@ If you wish to attend, please contact [mailto:ghosh@ill.fr Ron Ghosh] as soon as
 Please add suggestions for agenda items here in [[Help:Editing#Lists | bullet form]].  If you want to add extended comments concerning any agenda item, please use this Wiki page's [[Talk:NIAC_Meetings | Talk Page]].
 * Welcome and Introduction
 * Review of NIAC'2005 minutes
-* Renew members
+* [[Membership Dates|Renew members]]
 The members of the NIAC, with the experation of their membership is listed below. If a member wishes to be renewed, they must provide a letter of support from the facility and be approved by the NIAC as stated in the [[NIAC|constitution]]
 
 ''Expire September 8, 2006''
