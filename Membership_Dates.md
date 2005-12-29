@@ -31,8 +31,8 @@ stated in the [constitution](NIAC "wikilink")
 
 ### Expire March 18, 2007
 
--   Matthias Drochner Forschungzentrum Juelich, Germany
--   Andy Goetz European Synchrotron Radiation Facility, France
+-   Matthias Drochner - Forschungzentrum Juelich, Germany
+-   Andy Goetz European - Synchrotron Radiation Facility, France
 
 ### Expire March 10, 2008
 
