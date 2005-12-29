@@ -11,16 +11,16 @@ stated in the [constitution](NIAC "wikilink")
 
 ### Expire September 8, 2006
 
--   Freddie Akeroyd ISIS Pulsed Neutron Facility, UK
--   Stephen Cottrell ISIS Pulsed Muon Facility, UK
--   Ron Ghosh Institut Laue Langevin, France
--   Nick Hauser Bragg Institute, Australia
--   Przemek Klosowski NIST Center for Neutron Research, USA
--   Mark Koennecke SINQ, Switzerland
--   Harmut Gilde FRM2, Germany
--   Ray Osborn Intense Pulsed Neutron Source, USA (Chair)
--   Toshiya Otomo J-PARC, Japan
--   Thomas Proffen Lujan Neutron Scattering Center, USA
+-   Freddie Akeroyd - ISIS Pulsed Neutron Facility, UK
+-   Stephen Cottrell - ISIS Pulsed Muon Facility, UK
+-   Ron Ghosh - Institut Laue Langevin, France
+-   Nick Hauser - Bragg Institute, Australia
+-   Przemek Klosowski - NIST Center for Neutron Research, USA
+-   Mark Koennecke - SINQ, Switzerland
+-   Harmut Gilde - FRM2, Germany
+-   Ray Osborn - Intense Pulsed Neutron Source, USA (Chair)
+-   Toshiya Otomo - J-PARC, Japan
+-   Thomas Proffen - Lujan Neutron Scattering Center, USA
 
 ### Expire October 21, 2007
 
