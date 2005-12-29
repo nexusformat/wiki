@@ -39,23 +39,30 @@ stated in the [constitution](NIAC "wikilink")
 
 **Expire September 8, 2006**
 
--   -   Freddie Akeroyd ISIS Pulsed Neutron Facility, UK
-    -   Stuart Campbell2 Diamond Light Source, UK
-    -   Stephen Cottrell ISIS Pulsed Muon Facility, UK
-    -   Matthias Drochner2 Forschungzentrum Juelich, Germany
-    -   Ron Ghosh Institut Laue Langevin, France
-    -   Andy Goetz2 European Synchrotron Radiation Facility, France
-    -   Nick Hauser2 Bragg Institute, Australia
-    -   Przemek Klosowski NIST Center for Neutron Research, USA
-    -   Mark Koennecke SINQ, Switzerland
-    -   Harmut Gilde2 FRM2, Germany
-    -   Nick Maliszewskyj1 NIST Center for Neutron Research, USA
-        (Technical Committee Chair)
-    -   Ray Osborn Intense Pulsed Neutron Source, USA (Chair)
-    -   Toshiya Otomo J-PARC, Japan
-    -   Peter Peterson Spallation Neutron Source, USA (Executive
-        Secretary)
-    -   Thomas Proffen Lujan Neutron Scattering Center, USA
+-   Freddie Akeroyd ISIS Pulsed Neutron Facility, UK
+-   Stephen Cottrell ISIS Pulsed Muon Facility, UK
+-   Ron Ghosh Institut Laue Langevin, France
+-   Nick Hauser2 Bragg Institute, Australia
+-   Przemek Klosowski NIST Center for Neutron Research, USA
+-   Mark Koennecke SINQ, Switzerland
+-   Harmut Gilde2 FRM2, Germany
+-   Nick Maliszewskyj1 NIST Center for Neutron Research, USA (Technical
+    Committee Chair)
+-   Ray Osborn Intense Pulsed Neutron Source, USA (Chair)
+-   Toshiya Otomo J-PARC, Japan
+-   Peter Peterson Spallation Neutron Source, USA (Executive Secretary)
+-   Thomas Proffen Lujan Neutron Scattering Center, USA
+
+**Expire March 18, 2007**
+
+-   Matthias Drochner2 Forschungzentrum Juelich, Germany
+-   Andy Goetz2 European Synchrotron Radiation Facility, France
+
+**Expire March 10, 2008**
+
+-   Stuart Campbell2 Diamond Light Source, UK
+
+<!-- -->
 
 -   Add additional member
     -   Pete Jemian Advanced Photon Source, USA
