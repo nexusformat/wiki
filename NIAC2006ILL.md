@@ -37,7 +37,7 @@ listed below. If a member wishes to be renewed, they must provide a
 letter of support from the facility and be approved by the NIAC as
 stated in the [constitution](NIAC "wikilink")
 
-**Expire September 8, 2006**
+*Expire September 8, 2006*
 
 -   Freddie Akeroyd ISIS Pulsed Neutron Facility, UK
 -   Stephen Cottrell ISIS Pulsed Muon Facility, UK
@@ -46,19 +46,22 @@ stated in the [constitution](NIAC "wikilink")
 -   Przemek Klosowski NIST Center for Neutron Research, USA
 -   Mark Koennecke SINQ, Switzerland
 -   Harmut Gilde2 FRM2, Germany
--   Nick Maliszewskyj1 NIST Center for Neutron Research, USA (Technical
-    Committee Chair)
 -   Ray Osborn Intense Pulsed Neutron Source, USA (Chair)
 -   Toshiya Otomo J-PARC, Japan
--   Peter Peterson Spallation Neutron Source, USA (Executive Secretary)
 -   Thomas Proffen Lujan Neutron Scattering Center, USA
 
-**Expire March 18, 2007**
+*Expire October 21, 2007*
+
+-   Peter Peterson Spallation Neutron Source, USA (Executive Secretary)
+-   Nick Maliszewskyj1 NIST Center for Neutron Research, USA (Technical
+    Committee Chair)
+
+*Expire March 18, 2007*
 
 -   Matthias Drochner2 Forschungzentrum Juelich, Germany
 -   Andy Goetz2 European Synchrotron Radiation Facility, France
 
-**Expire March 10, 2008**
+*Expire March 10, 2008*
 
 -   Stuart Campbell2 Diamond Light Source, UK
 
