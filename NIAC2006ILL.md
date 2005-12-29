@@ -70,3 +70,8 @@ stated in the [constitution](NIAC "wikilink")
 -   Add additional member
     -   Pete Jemian Advanced Photon Source, USA
 
+<!-- -->
+
+-   Elect chair and executive secretary - effective at the end of the
+    meeting
+
