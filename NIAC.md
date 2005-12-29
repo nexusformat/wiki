@@ -4,8 +4,8 @@ permalink: NIAC/
 layout: wiki
 ---
 
-[Membership](Current_Members "wikilink")
-----------------------------------------
+[Membership Dates](Current_Members "wikilink")
+----------------------------------------------
 
 -   [Frederick Akeroyd](User%3AFreddieAkeroyd "wikilink"), Rutherford
     Appleton Laboratory, UK (ISIS Representative)
