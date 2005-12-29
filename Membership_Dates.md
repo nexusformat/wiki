@@ -26,7 +26,7 @@ stated in the [constitution](NIAC "wikilink")
 
 -   Peter Peterson Spallation Neutron Source, USA (Executive Secretary)
 -   Nick Maliszewskyj NIST Center for Neutron Research, USA (Technical
-    Committee Chair)
+    Committee Chair, non-voting)
 
 ### Expire March 18, 2007
 
