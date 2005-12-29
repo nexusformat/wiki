@@ -4,7 +4,7 @@ permalink: NIAC/
 layout: wiki
 ---
 
-[Membership Dates](Current_Members "wikilink")
+[Current Members](Membership_Dates "wikilink")
 ----------------------------------------------
 
 -   [Frederick Akeroyd](User%3AFreddieAkeroyd "wikilink"), Rutherford
