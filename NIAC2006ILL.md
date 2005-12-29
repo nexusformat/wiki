@@ -35,8 +35,9 @@ Page](Talk:NIAC_Meetings "wikilink").
 The members of the NIAC, with the experation of their membership is
 listed below. If a member wishes to be renewed, they must provide a
 letter of support from the facility and be approved by the NIAC as
-stated in the [constitution](NIAC "wikilink") **Expire September 8,
-2006**
+stated in the [constitution](NIAC "wikilink")
+
+**Expire September 8, 2006**
 
 -   -   Freddie Akeroyd ISIS Pulsed Neutron Facility, UK
     -   Stuart Campbell2 Diamond Light Source, UK
