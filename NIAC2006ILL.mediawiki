@@ -22,8 +22,7 @@ The members of the NIAC, with the experation of their membership is listed below
 ***Przemek Klosowski NIST Center for Neutron Research, USA
 ***Mark Koennecke SINQ, Switzerland
 ***Harmut Gilde2 FRM2, Germany
-***Nick Maliszewskyj1 NIST Center for Neutron Research, USA (Technical
-Committee Chair)
+***Nick Maliszewskyj1 NIST Center for Neutron Research, USA (Technical Committee Chair)
 ***Ray Osborn Intense Pulsed Neutron Source, USA (Chair)
 ***Toshiya Otomo J-PARC, Japan
 ***Peter Peterson Spallation Neutron Source, USA (Executive Secretary)

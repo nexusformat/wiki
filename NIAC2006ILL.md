@@ -49,15 +49,12 @@ stated in the [constitution](NIAC "wikilink")
         -   Mark Koennecke SINQ, Switzerland
         -   Harmut Gilde2 FRM2, Germany
         -   Nick Maliszewskyj1 NIST Center for Neutron Research, USA
-            (Technical
-
-Committee Chair)
-
--   -   Ray Osborn Intense Pulsed Neutron Source, USA (Chair)
-    -   Toshiya Otomo J-PARC, Japan
-    -   Peter Peterson Spallation Neutron Source, USA (Executive
-        Secretary)
-    -   Thomas Proffen Lujan Neutron Scattering Center, USA
+            (Technical Committee Chair)
+        -   Ray Osborn Intense Pulsed Neutron Source, USA (Chair)
+        -   Toshiya Otomo J-PARC, Japan
+        -   Peter Peterson Spallation Neutron Source, USA (Executive
+            Secretary)
+        -   Thomas Proffen Lujan Neutron Scattering Center, USA
 
 -   Add additional member
     -   Pete Jemian Advanced Photon Source, USA
