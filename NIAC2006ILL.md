@@ -35,26 +35,26 @@ Page](Talk:NIAC_Meetings "wikilink").
 The members of the NIAC, with the experation of their membership is
 listed below. If a member wishes to be renewed, they must provide a
 letter of support from the facility and be approved by the NIAC as
-stated in the [constitution](NIAC "wikilink")
+stated in the [constitution](NIAC "wikilink") **Expire September 8,
+2006**
 
--   -   Expire September 8, 2006
-        -   Freddie Akeroyd ISIS Pulsed Neutron Facility, UK
-        -   Stuart Campbell2 Diamond Light Source, UK
-        -   Stephen Cottrell ISIS Pulsed Muon Facility, UK
-        -   Matthias Drochner2 Forschungzentrum Juelich, Germany
-        -   Ron Ghosh Institut Laue Langevin, France
-        -   Andy Goetz2 European Synchrotron Radiation Facility, France
-        -   Nick Hauser2 Bragg Institute, Australia
-        -   Przemek Klosowski NIST Center for Neutron Research, USA
-        -   Mark Koennecke SINQ, Switzerland
-        -   Harmut Gilde2 FRM2, Germany
-        -   Nick Maliszewskyj1 NIST Center for Neutron Research, USA
-            (Technical Committee Chair)
-        -   Ray Osborn Intense Pulsed Neutron Source, USA (Chair)
-        -   Toshiya Otomo J-PARC, Japan
-        -   Peter Peterson Spallation Neutron Source, USA (Executive
-            Secretary)
-        -   Thomas Proffen Lujan Neutron Scattering Center, USA
+-   -   Freddie Akeroyd ISIS Pulsed Neutron Facility, UK
+    -   Stuart Campbell2 Diamond Light Source, UK
+    -   Stephen Cottrell ISIS Pulsed Muon Facility, UK
+    -   Matthias Drochner2 Forschungzentrum Juelich, Germany
+    -   Ron Ghosh Institut Laue Langevin, France
+    -   Andy Goetz2 European Synchrotron Radiation Facility, France
+    -   Nick Hauser2 Bragg Institute, Australia
+    -   Przemek Klosowski NIST Center for Neutron Research, USA
+    -   Mark Koennecke SINQ, Switzerland
+    -   Harmut Gilde2 FRM2, Germany
+    -   Nick Maliszewskyj1 NIST Center for Neutron Research, USA
+        (Technical Committee Chair)
+    -   Ray Osborn Intense Pulsed Neutron Source, USA (Chair)
+    -   Toshiya Otomo J-PARC, Japan
+    -   Peter Peterson Spallation Neutron Source, USA (Executive
+        Secretary)
+    -   Thomas Proffen Lujan Neutron Scattering Center, USA
 
 -   Add additional member
     -   Pete Jemian Advanced Photon Source, USA
