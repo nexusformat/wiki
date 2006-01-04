@@ -219,16 +219,18 @@ name and a facility identifier and this is taken directly from the NeXus
 technical reference changing some elements to be required rather an
 optional.
 
-| RE  | Name               | Attribute | Type     | Value                                        | Description |
-|-----|--------------------|-----------|----------|----------------------------------------------|-------------|
-| 1   | name               |           | NX\_CHAR |                                              |             |
-| 0/1 | role               |           | NX\_CHAR | “local\_contact”,”Principle Investigator”, … |             |
-| 0/1 | affiliation        |           | NX\_CHAR |                                              |             |
-| 0/1 | address            |           | NX\_CHAR |                                              |             |
-| 0/1 | telephone\_number  |           | NX\_CHAR |                                              |             |
-| 0/1 | fax\_number        |           | NX\_CHAR |                                              |             |
-| 0/1 | email              |           | NX\_CHAR |                                              |             |
-| 1   | facility\_user\_id |           | NX\_CHAR |                                              |             |
+| RE  | Name                                     | Attribute                           | Type     | Value                                         | Description               |
+|-----|------------------------------------------|-------------------------------------|----------|-----------------------------------------------|---------------------------|
+| 1   | name                                     |                                     | NX\_CHAR |                                               |                           |
+| 0/1 |                                          | <font  color="red">info\_src</font> | NX\_CHAR | “proposal”, “updated”, “corrected”, “logging” | Source of the information |
+| 0/1 | role                                     |                                     | NX\_CHAR | “local\_contact”,”Principle Investigator”, …  |                           |
+| 0/1 | affiliation                              |                                     | NX\_CHAR |                                               |                           |
+| 0/1 | address                                  |                                     | NX\_CHAR |                                               |                           |
+| 0/1 | telephone\_number                        |                                     | NX\_CHAR |                                               |                           |
+| 0/1 | fax\_number                              |                                     | NX\_CHAR |                                               |                           |
+| 0/1 | email                                    |                                     | NX\_CHAR |                                               |                           |
+| 1   | facility\_user\_id                       |                                     | NX\_CHAR |                                               |                           |
+| 0/1 | <font color="red">affiliation\_id</font> |                                     | NX\_CHAR |                                               |                           |
 
 ### NXsample
 

@@ -235,6 +235,8 @@ As denoted in NXentry, there can be multiple NXuser, one for each person involve
 |-
 | 1	|| name	|| &nbsp;	|| NX_CHAR		|| &nbsp; || &nbsp;
 |-
+| 0/1	|| &nbsp;	|| <font  color="red">info_src</font>	|| NX_CHAR		|| "proposal", "updated", "corrected", "logging" || Source of the information
+|-
 | 0/1	|| role	|| &nbsp;	|| NX_CHAR	|| “local_contact”,”Principle Investigator”, …	|| &nbsp;
 |-
 | 0/1	|| affiliation	|| &nbsp;	|| NX_CHAR		|| &nbsp; || &nbsp;
@@ -248,6 +250,8 @@ As denoted in NXentry, there can be multiple NXuser, one for each person involve
 | 0/1	|| email	|| &nbsp;	|| NX_CHAR		|| &nbsp; || &nbsp;
 |-
 | 1	|| facility_user_id	|| &nbsp; || 	NX_CHAR || &nbsp; || &nbsp;		
+|-
+| 0/1	|| <font color="red">affiliation_id</font>	|| &nbsp; || 	NX_CHAR || &nbsp; || &nbsp;		
 |}
 
 ===NXsample===
