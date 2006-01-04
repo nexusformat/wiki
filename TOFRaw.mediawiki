@@ -152,6 +152,47 @@ This definition covers a single run experiment - extensions are proposed for [[T
 | 0/1	|| <font color=red>total_counts</font>	|| &nbsp; || 	NX_INT	|| &nbsp; || 	Total number of detector counts (events) 
 |-
 | 1	|| experiment_identifier || &nbsp; 	|| 	NX_CHAR	|| &nbsp; || proposal number
+
+|-    
+| 0/1	|| <font color=red>discipline </font>     || &nbsp; 	|| 	NX_CHAR	|| &nbsp; || Keyword domain (e.g. chemistry, astronomy, ecology, … )
+|-
+| 1	|| &nbsp; 	|| <font color=red>info_src</font>     || 	NX_CHAR	|| propsal	|| Source of the information (proposal, updated during experiment, after, ...) 
+|-
+| 0/1	|| <font color=red>keyword </font>        || &nbsp; 	|| 	NX_CHAR	|| &nbsp; || Keywords defined for this study. 
+|-
+| 1	|| &nbsp; 	|| <font color=red>info_src</font>     || 	NX_CHAR	|| propsal	|| Source of the information 
+|-
+| 0/1	|| <font color=red>keyword_source</font>  || &nbsp; 	|| 	NX_CHAR	|| &nbsp; || A pointer to a reference work providing the definition of the restricted vocabulary of which the keyword list is a subset.
+|-
+| 1	|| &nbsp; 	|| <font color=red>info_src </font>    || 	NX_CHAR	|| propsal	|| Source of the information  
+|-
+| 0/1	|| <font color=red>subject </font>        || &nbsp; 	|| 	NX_CHAR	|| &nbsp; || Subject categorisations for this study
+|-
+| 1	|| &nbsp; 	|| <font color=red>info_src</font>     || 	NX_CHAR	|| propsal	|| Source of the information  
+|-
+| 0/1	|| <font color=red>description_summary</font> || &nbsp; 	|| 	NX_CHAR	|| &nbsp; || Brief summary of the experiment, including key objectives
+|-
+| 1	|| &nbsp; 	|| <font color=red>info_src</font>     || 	NX_CHAR	|| propsal	|| Source of the information 
+|-
+| 0/1	|| <font color=red>description</font> || &nbsp; 	|| 	NXnote	|| &nbsp; || Description of the full experiment (document in pdf, latex, …)
+|-
+| 1	|| &nbsp; 	|| <font color=red>info_src </font>    || 	NX_CHAR	|| propsal	|| Source of the information 
+|-
+| 0/1	|| <font color=red>requirement</font> || &nbsp; 	|| 	NX_CHAR	|| &nbsp; || Special requirements of instrument
+|-
+| 1	|| &nbsp; 	|| <font color=red>info_src </font>    || 	NX_CHAR	|| propsal	|| Source of the information  
+|-
+| 0/1	|| <font color=red>publications</font> || &nbsp; 	|| 	NX_CHAR	|| &nbsp; || List of publication related to the proposal
+|-
+| 1	|| &nbsp; 	|| <font color=red>info_src</font>     || 	NX_CHAR	|| propsal	|| Source of the information  
+|-
+| 0/1	|| <font color=red>facility_access_type</font> || &nbsp; 	|| 	NX_CHAR	|| &nbsp; || Facility access type (normal, rapid access, programme access …)
+|-
+| 1	|| &nbsp; 	|| <font color=red>info_src</font>     || 	NX_CHAR	|| propsal	|| Source of the information  
+|-
+| 0/1	|| <font color=red>grant_id </font>    || &nbsp; 	|| 	NX_CHAR	|| &nbsp; || Identifier of the funding grant.
+|-
+| 1	|| &nbsp; 	|| <font color=red>info_src</font>     || 	NX_CHAR	|| propsal	|| Source of the information  
 |-
 | 1	|| run_number	|| &nbsp; 	|| NX_INT	|| &nbsp; || 	Unique number identifying this data collection
 |-
