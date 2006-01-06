@@ -32,6 +32,10 @@ The core API comprises the following functional groups:
 |[[NAPI Routines#NXmakegroup|NXmakegroup]] || Creates NeXus group
 |-
 |[[NAPI Routines#NXopengroup|NXopengroup]] || Opens existing NeXus group for input/output
+|- 
+|[[NAPI Routines#NXopenpath|NXopenpath]] || Directly opens a dataset or group from  a path string
+|-
+|[[NAPI Routines#NXopensourcegroup|NXopensourcegroup]] || Directly opens the group below a give path string
 |-
 |[[NAPI Routines#NXclosegroup|NXclosegroup]] || Closes NeXus group
 |-
@@ -44,6 +48,8 @@ The core API comprises the following functional groups:
 |[[NAPI Routines#NXcompress|NXcompress]] || Marks the NeXus data set for compression
 |-
 |[[NAPI Routines#NXclosedata|NXclosedata]] || Closes NeXus data set
+|-
+|[[NAPI Routines#NXsetnumberformat|NXsetnumberformat]] ||Sets the format for printing numbers when writing XML files
 |-
 ! {{Template:Headcellstyle}} colspan="2" | Reading and Writing
 |-
@@ -84,6 +90,10 @@ The core API comprises the following functional groups:
 |[[NAPI Routines#NXgetdataID|NXgetdataID]] || Returns the identifier of the currently open data set
 |-
 |[[NAPI Routines#NXmakelink|NXmakelink]] || Links a data item (group or set) to another group
+|-
+|[[NAPI Routines#NXsameID|NXsameID]] || Tests if two items are linked.
+|-
+|[[NAPI Routines#NXopensourcegroup|NXopensourcegroup]] || Opens the source group of a linked data item
 |-
 ! {{Template:Headcellstyle}} colspan="2" | Memory Allocation
 |-

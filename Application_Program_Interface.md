@@ -64,41 +64,46 @@ The core API comprises the following functional groups:
 
 ### List of Routines
 
-| General Initialization and Shutdown                       |
-|-----------------------------------------------------------|
-| [NXopen](NAPI_Routines "wikilink")                        |
-| [NXclose](NAPI_Routines#NXclose "wikilink")               |
-| [NXmakegroup](NAPI_Routines#NXmakegroup "wikilink")       |
-| [NXopengroup](NAPI_Routines#NXopengroup "wikilink")       |
-| [NXclosegroup](NAPI_Routines#NXclosegroup "wikilink")     |
-| [NXmakedata](NAPI_Routines#NXmakedata "wikilink")         |
-| [NXcompmakedata](NAPI_Routines#NXcompmakedata "wikilink") |
-| [NXopendata](NAPI_Routines#NXopendata "wikilink")         |
-| [NXcompress](NAPI_Routines#NXcompress "wikilink")         |
-| [NXclosedata](NAPI_Routines#NXclosedata "wikilink")       |
-| Reading and Writing                                       |
-| [NXgetdata](NAPI_Routines#NXgetdata "wikilink")           |
-| [NXgetslab](NAPI_Routines#NXgetslab "wikilink")           |
-| [NXgetattr](NAPI_Routines#NXgetattr "wikilink")           |
-| [NXputdata](NAPI_Routines#NXputdata "wikilink")           |
-| [NXputslab](NAPI_Routines#NXputslab "wikilink")           |
-| [NXputattr](NAPI_Routines#NXputattr "wikilink")           |
-| [NXflush](NAPI_Routines#NXflush "wikilink")               |
-| Meta-Data Routines                                        |
-| [NXgetinfo](NAPI_Routines#NXgetinfo "wikilink")           |
-| [NXgetgroupinfo](NAPI_Routines#NXgetgroupinfo "wikilink") |
-| [NXinitgroupdir](NAPI_Routines#NXinitgroupdir "wikilink") |
-| [NXgetnextentry](NAPI_Routines#NXgetnextentry "wikilink") |
-| [NXgetattrinfo](NAPI_Routines#NXgetattrinfo "wikilink")   |
-| [NXinitattrdir](NAPI_Routines#NXinitattrdir "wikilink")   |
-| [NXgetnextattr](NAPI_Routines#NXgetnextattr "wikilink")   |
-| Linking and Group Hierarchy                               |
-| [NXgetgroupID](NAPI_Routines#NXgetgroupID "wikilink")     |
-| [NXgetdataID](NAPI_Routines#NXgetdataID "wikilink")       |
-| [NXmakelink](NAPI_Routines#NXmakelink "wikilink")         |
-| Memory Allocation                                         |
-| [NXmalloc](NAPI_Routines#NXmalloc "wikilink")             |
-| [NXfree](NAPI_Routines#NXfree "wikilink")                 |
+| General Initialization and Shutdown                             |
+|-----------------------------------------------------------------|
+| [NXopen](NAPI_Routines "wikilink")                              |
+| [NXclose](NAPI_Routines#NXclose "wikilink")                     |
+| [NXmakegroup](NAPI_Routines#NXmakegroup "wikilink")             |
+| [NXopengroup](NAPI_Routines#NXopengroup "wikilink")             |
+| [NXopenpath](NAPI_Routines#NXopenpath "wikilink")               |
+| [NXopensourcegroup](NAPI_Routines#NXopensourcegroup "wikilink") |
+| [NXclosegroup](NAPI_Routines#NXclosegroup "wikilink")           |
+| [NXmakedata](NAPI_Routines#NXmakedata "wikilink")               |
+| [NXcompmakedata](NAPI_Routines#NXcompmakedata "wikilink")       |
+| [NXopendata](NAPI_Routines#NXopendata "wikilink")               |
+| [NXcompress](NAPI_Routines#NXcompress "wikilink")               |
+| [NXclosedata](NAPI_Routines#NXclosedata "wikilink")             |
+| [NXsetnumberformat](NAPI_Routines#NXsetnumberformat "wikilink") |
+| Reading and Writing                                             |
+| [NXgetdata](NAPI_Routines#NXgetdata "wikilink")                 |
+| [NXgetslab](NAPI_Routines#NXgetslab "wikilink")                 |
+| [NXgetattr](NAPI_Routines#NXgetattr "wikilink")                 |
+| [NXputdata](NAPI_Routines#NXputdata "wikilink")                 |
+| [NXputslab](NAPI_Routines#NXputslab "wikilink")                 |
+| [NXputattr](NAPI_Routines#NXputattr "wikilink")                 |
+| [NXflush](NAPI_Routines#NXflush "wikilink")                     |
+| Meta-Data Routines                                              |
+| [NXgetinfo](NAPI_Routines#NXgetinfo "wikilink")                 |
+| [NXgetgroupinfo](NAPI_Routines#NXgetgroupinfo "wikilink")       |
+| [NXinitgroupdir](NAPI_Routines#NXinitgroupdir "wikilink")       |
+| [NXgetnextentry](NAPI_Routines#NXgetnextentry "wikilink")       |
+| [NXgetattrinfo](NAPI_Routines#NXgetattrinfo "wikilink")         |
+| [NXinitattrdir](NAPI_Routines#NXinitattrdir "wikilink")         |
+| [NXgetnextattr](NAPI_Routines#NXgetnextattr "wikilink")         |
+| Linking and Group Hierarchy                                     |
+| [NXgetgroupID](NAPI_Routines#NXgetgroupID "wikilink")           |
+| [NXgetdataID](NAPI_Routines#NXgetdataID "wikilink")             |
+| [NXmakelink](NAPI_Routines#NXmakelink "wikilink")               |
+| [NXsameID](NAPI_Routines#NXsameID "wikilink")                   |
+| [NXopensourcegroup](NAPI_Routines#NXopensourcegroup "wikilink") |
+| Memory Allocation                                               |
+| [NXmalloc](NAPI_Routines#NXmalloc "wikilink")                   |
+| [NXfree](NAPI_Routines#NXfree "wikilink")                       |
 
 ### NeXus Datatypes
 
