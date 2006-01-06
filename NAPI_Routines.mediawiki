@@ -242,13 +242,49 @@ Ends access to the currently active data set
 | file_id
 | NXhandle
 | Identifier of NeXus file
+|-
 |}
+
+
+===NXsetnumberformat===
+Sets the number format when writing to ASCII files. When serializing NeXus file to ASCII-XML files a 
+format for printing numbers is required. The NeXus-API has reasonable defaults for this. However, with this
+function a desired format can be choosen for special cases. Please note that calls to this function will be silently ignored for the binary NeXus formats HDF-4 and HDF-5.
+;Usage:<pre>status = NXsetnumberformat(file_id,data_type,format_string</pre>
+{{APItable|(NX_OK, NX_ERROR)}}
+|-
+! {{Headcellstyle}} rowspan="3" | Input Arguments
+| file_id
+| NXhandle
+| Identifier of NeXus file
+|- 
+|data_type
+| int
+| The NeXus data type for which to change the print format.
+;Data Type:NX_CHAR - Character string
+:NX_FLOAT32 - 4-byte real
+:NX_FLOAT64 - 8-byte real
+:NX_INT8 - 1-byte integer
+:NX_UINT8 - unsigned 1-byte integer
+:NX_INT16 - 2-byte integer
+:NX_UINT16 - unsigned 2-byte integer
+:NX_INT32 - 4-byte integer
+:NX_UINT32 - unsigned 4-byte integer
+|-
+| format_string
+| char*
+| A ANSI-C language style format string
+|-
+|}
+
+
 
 ==Reading and Writing==
 
 ===NXgetdata===
 Reads data values from the currently open data set. Please note that memory overwrite occurs if the caller has not allocated enough memory to hold all the data available. Call NXgetinfo to determine the required dimension sizes. The data set must have been opened by NXopendata.
-;Usage:<pre>status = NXgetdata (file_id, data)</pre>
+;U
+sage:<pre>status = NXgetdata (file_id, data)</pre>
 {{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} | Input Arguments
