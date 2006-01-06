@@ -3,3 +3,4 @@ If you have a specific subject concerning the NeXus API or related software, ple
 Please submit any bugs in the NeXus API to the [http://bugs.isis.rl.ac.uk/buglist.cgi?query_format=specific&order=relevance+desc&bug_status=__open__&product=NeXus&content= NeXus Bugzilla pages].
 
 *[[Object Oriented Interface]]
+*[[Group Attributes]]

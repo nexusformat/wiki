@@ -16,4 +16,5 @@ Please submit any bugs in the NeXus API to the
 NeXus Bugzilla pages\].
 
 -   [Object Oriented Interface](Object_Oriented_Interface "wikilink")
+-   [Group Attributes](Group_Attributes "wikilink")
 
