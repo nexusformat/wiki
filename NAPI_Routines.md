@@ -71,6 +71,21 @@ Opens an existing NeXus group for input and output of data.
 NeXus file |- | group\_name | char \* | Name of NeXus group |- |
 group\_class | char \* | Class of NeXus group |}
 
+### NXopenpath
+
+Opens a NeXus group or dataset from a path string. The NeXus item must
+exist for NXopenpath to work correctly. The path string for NXopenpath
+has the same form as a unix path string: /group1/group/group2/dataset.
+Both absolute and relative path are supported.
+
+;Usage:
+
+    status = NXopenpath(file_id, path_string)
+
+|- | rowspan=“3” | Input Arguments | file\_id | NXhandle |Identifier of
+NeXus file |- | path\_string | char\* | path to dataset or group in
+NeXus file |}
+
 ### NXclosegroup
 
 Closes the currently open group. If this group is a top-level group
