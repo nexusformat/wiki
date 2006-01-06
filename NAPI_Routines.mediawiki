@@ -664,6 +664,27 @@ Links a data item (group or set) to a NeXus group. Returns NX_ERROR if the curre
 | Identifier of linked group
 |}
 
+===NXsameID===
+Tests if two data items are the same, i.e. one is linked to the other.
+;Usage:<pre>status = NXsameID (file_id, link1, link2)</pre>
+{{APItable|(NX_OK, NX_ERROR)}}
+|-
+! {{Headcellstyle}} rowspan="3"| Input Arguments
+| file_id
+| NXhandle
+| Identifier of NeXus file
+|-
+| link1
+| NXlink *
+| Identifier of first item
+|-
+| link2
+| NXlink *
+| Indentifier of second item
+|-
+|}
+
+
 ==Memory Allocation==
 
 ===NXmalloc===

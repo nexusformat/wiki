@@ -618,6 +618,18 @@ linked here.
 |- ! | Output Arguments | link | NXlink \* | Identifier of linked group
 |}
 
+### NXsameID
+
+Tests if two data items are the same, i.e. one is linked to the other.
+
+;Usage:
+
+    status = NXsameID (file_id, link1, link2)
+
+|- ! rowspan=“3”| Input Arguments | file\_id | NXhandle | Identifier of
+NeXus file |- | link1 | NXlink \* | Identifier of first item |- | link2
+| NXlink \* | Indentifier of second item |- |}
+
 Memory Allocation
 -----------------
 
