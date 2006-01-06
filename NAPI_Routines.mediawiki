@@ -684,6 +684,17 @@ Tests if two data items are the same, i.e. one is linked to the other.
 |-
 |}
 
+===NXopensourcegroup===
+Opens the group from which a linked dataset was linked. This is useful for accessing auxiliary information related to the dataset. This works only if the linked dataset is currently open.
+;Usage:<pre>status = NXopensourcegroup (file_id)</pre>
+{{APItable|(NX_OK, NX_ERROR)}}
+|-
+! {{Headcellstyle}}| Input Arguments
+| file_id
+| NXhandle
+| Identifier of NeXus file
+|-
+|}
 
 ==Memory Allocation==
 

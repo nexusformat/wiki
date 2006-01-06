@@ -630,6 +630,19 @@ Tests if two data items are the same, i.e. one is linked to the other.
 NeXus file |- | link1 | NXlink \* | Identifier of first item |- | link2
 | NXlink \* | Indentifier of second item |- |}
 
+### NXopensourcegroup
+
+Opens the group from which a linked dataset was linked. This is useful
+for accessing auxiliary information related to the dataset. This works
+only if the linked dataset is currently open.
+
+;Usage:
+
+    status = NXopensourcegroup (file_id)
+
+|- ! | Input Arguments | file\_id | NXhandle | Identifier of NeXus file
+|- |}
+
 Memory Allocation
 -----------------
 
