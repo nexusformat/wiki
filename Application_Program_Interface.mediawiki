@@ -35,7 +35,7 @@ The core API comprises the following functional groups:
 |- 
 |[[NAPI Routines#NXopenpath|NXopenpath]] || Directly opens a dataset or group from  a path string
 |-
-|[[NAPI Routines#NXopensourcegroup|NXopensourcegroup]] || Directly opens the group below a give path string
+|[[NAPI Routines#NXopengrouppath|NXopengrouppath]] || Directly opens the group below a give path string
 |-
 |[[NAPI Routines#NXclosegroup|NXclosegroup]] || Closes NeXus group
 |-

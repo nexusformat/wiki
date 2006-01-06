@@ -71,7 +71,7 @@ The core API comprises the following functional groups:
 | [NXmakegroup](NAPI_Routines#NXmakegroup "wikilink")             |
 | [NXopengroup](NAPI_Routines#NXopengroup "wikilink")             |
 | [NXopenpath](NAPI_Routines#NXopenpath "wikilink")               |
-| [NXopensourcegroup](NAPI_Routines#NXopensourcegroup "wikilink") |
+| [NXopengrouppath](NAPI_Routines#NXopengrouppath "wikilink")     |
 | [NXclosegroup](NAPI_Routines#NXclosegroup "wikilink")           |
 | [NXmakedata](NAPI_Routines#NXmakedata "wikilink")               |
 | [NXcompmakedata](NAPI_Routines#NXcompmakedata "wikilink")       |
