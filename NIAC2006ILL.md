@@ -32,8 +32,9 @@ Page](Talk:NIAC_Meetings "wikilink").
 -   Review of NIAC'2005 minutes
 -   [Renew members](Membership_Dates "wikilink")
 -   Add additional member - Pete Jemian Advanced Photon Source, USA
--   Elect chair and executive secretary - effective at the end of the
-    meeting
+-   Elect [chair and executive
+    secretary](Nominees_for_officers "wikilink") - effective at the end
+    of the meeting
 -   Ammend constitution to state that all officers, including technical
     chair, are elected at each meeting, effective at the end of the
     meeting
