@@ -35,7 +35,7 @@ Page](Talk:NIAC_Meetings "wikilink").
 -   Elect [chair and executive
     secretary](Nominees_for_officers "wikilink") - effective at the end
     of the meeting
--   Ammend constitution to state that all officers, including technical
+-   Amend constitution to state that all officers, including technical
     chair, are elected at each meeting, effective at the end of the
     meeting
 
