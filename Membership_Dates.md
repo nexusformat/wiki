@@ -30,7 +30,7 @@ stated in the [constitution](NIAC "wikilink").
 
 ### Expire July 7, 2007
 
--   Peter Link - FRM2
+-   Peter Link - FRM2, Germany
 
 ### Expire March 18, 2007
 
