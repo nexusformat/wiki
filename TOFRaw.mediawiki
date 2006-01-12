@@ -98,7 +98,7 @@ The root is not a real class in the NeXus file, it is a convenient name under wh
 |-
 | 0/1	|| &nbsp; ||	unique_id	|| NX_CHAR	|| &nbsp; || UUID to uniquely identify file (even if name changes .etc). Maybe useful to have it in the NXentry instead so that you can indentify where an entry comes from even if it is copied into a new file?
 |-
-| 0/1	|| &nbsp; ||	revision	|| NX_CHAR	|| &nbsp; || Revision id of the file due to re-calibration, reprocessing, new analysis, new instrument definition format, ...
+| 0/1	|| &nbsp; || <font color=red>revision</font>	|| NX_CHAR	|| &nbsp; || Revision id of the file due to re-calibration, reprocessing, new analysis, new instrument definition format, ...
 |}
 
 ===NXentry===

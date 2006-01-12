@@ -137,7 +137,7 @@ directly from the NeXus technical reference without change.
 | 1   |         | <font color=red>initial\_format</font> | NX\_CHAR |       | Initial format file was created in (HDF4,HDF5 or XML)                                                                                                                                                |
 | 1+  | {entry} |                                        | NXentry  |       |                                                                                                                                                                                                      |
 | 0/1 |         | unique\_id                             | NX\_CHAR |       | UUID to uniquely identify file (even if name changes .etc). Maybe useful to have it in the NXentry instead so that you can indentify where an entry comes from even if it is copied into a new file? |
-| 0/1 |         | revision                               | NX\_CHAR |       | Revision id of the file due to re-calibration, reprocessing, new analysis, new instrument definition format, ...                                                                                     |
+| 0/1 |         | <font color=red>revision</font>        | NX\_CHAR |       | Revision id of the file due to re-calibration, reprocessing, new analysis, new instrument definition format, ...                                                                                     |
 
 ### NXentry
 
