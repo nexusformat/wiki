@@ -17,7 +17,6 @@ stated in the [constitution](NIAC "wikilink").
 -   Nick Hauser - Bragg Institute, Australia
 -   Przemek Klosowski - NIST Center for Neutron Research, USA
 -   Mark Koennecke - SINQ, Switzerland
--   Harmut Gilde - FRM2, Germany
 -   Ray Osborn - Intense Pulsed Neutron Source, USA (Chair)
 -   Toshiya Otomo - J-PARC, Japan
 -   Thomas Proffen - Lujan Neutron Scattering Center, USA
