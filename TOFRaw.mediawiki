@@ -94,8 +94,6 @@ The root is not a real class in the NeXus file, it is a convenient name under wh
 |-
 | 1	|| &nbsp; || <font color=red>initial_format</font>	 || 	NX_CHAR	|| &nbsp; || 	Initial format file was created in (HDF4,HDF5 or XML) 
 |-
-| 0/1	|| &nbsp; ||	release_date	|| NX_CHAR	|| &nbsp; || Date of the public release of the data. (file_time + X years)
-|-
 | 1+	|| {entry} ||	&nbsp; || 	NXentry		|| &nbsp; || &nbsp;
 |-
 | 0/1	|| &nbsp; ||	unique_id	|| NX_CHAR	|| &nbsp; || UUID to uniquely identify file (even if name changes .etc). Maybe useful to have it in the NXentry instead so that you can indentify where an entry comes from even if it is copied into a new file?
@@ -203,6 +201,8 @@ This definition covers a single run experiment - extensions are proposed for [[T
 | 1	|| &nbsp; || 	version	|| NX_CHAR	|| &nbsp; || &nbsp; 	
 |-
 | 0/1	|| &nbsp; || command_line		|| NX_CHAR		|| &nbsp; || &nbsp; 
+|-
+| 0/1	|| &nbsp; || <font color=red>release_date</font>	|| NX_CHAR	|| &nbsp; || Date of the public release of the data. (file_time + X years)
 |-
 | 0/1	|| notes	|| &nbsp; 	|| <font color=red>NXnote</font>	|| &nbsp; || 	User notes
 |-
