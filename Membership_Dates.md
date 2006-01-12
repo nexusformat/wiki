@@ -28,6 +28,10 @@ stated in the [constitution](NIAC "wikilink").
 -   Nick Maliszewskyj - NIST Center for Neutron Research, USA (Technical
     Committee Chair, non-voting)
 
+### Expire July 7, 2007
+
+-   Peter Link - FRM2
+
 ### Expire March 18, 2007
 
 -   Matthias Drochner - Forschungzentrum Juelich, Germany
