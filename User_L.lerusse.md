@@ -1,0 +1,28 @@
+---
+title: User:L.lerusse
+permalink: User:L.lerusse/
+layout: wiki
+---
+
+### Laurent Lerusse
+
+**Rutherford Appleton Laboratory : e-Science - Data management Group**
+
+Involved in the development and integration of automatic metadata
+capturing for the CCLRC facilities. - Background: Degree in Physics and
+in Space Sciences and Space Techniques. Worked in a data centre
+developing, testing and running operations software for an astrophysics
+satellite.
+
+Address:CCLRC - Rutherford Appleton Laboratory  
+e-Science Data management Group
+
+Rutherford Appleton Laboratory
+
+Chilton, Didcot, OX11 0QX, GB
+
+<!-- -->
+
+Phone:+44 1235 77 8358  
+Fax: +44 1235 77 8468  
+Email: <l.lerusse@rl.ac.uk>  
