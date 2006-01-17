@@ -83,24 +83,25 @@ technical programming the api
 
 instruments-1 3-axis/reflection/SAS/polarised/muons
 
-`       (step-scanning/multi-detector/X-ray/neutron)`  
-`       examples...`  
-`   update definitions`  
-`       prototype treated data`
+-   (step-scanning/multi-detector/X-ray/neutron)
+-   examples...
+-   update definitions
+-   prototype treated data
 
 instruments-2 TOF inelastic/TOF Powder diffraction
 
-`       (Principally multi-detector neutron instruments)`  
-`       experts from completed instruments offer feedback to the remainder`  
-`       example data`  
-`   update definitions`  
-`       prototype treated data 1D,2D data`  
-`       rebinning, constant (Q,w)`
+-   (Principally multi-detector neutron instruments)
+-   experts from completed instruments offer feedback to the remainder
+-   example data
+-   update definitions
+-   prototype treated data 1D,2D data
+-   rebinning, constant (Q,w)
 
 Synchrotron specialists (A. Goetz)
 
-`       this group will meet separately on the second and third days, and may be expected to offer objective feedback `  
-`       and criticism on the NeXus project from their fresh point of view.`  
+-   this group will meet separately on the second and third days, and
+    may be expected to offer objective feedback and criticism on the
+    NeXus project from their fresh point of view.
 
 It will be possible, too, to find additional space if other specific
 interest groups wish to meet separately.
@@ -111,31 +112,24 @@ Synchrotron Radiation News and Neutron News
 I have posed the problem of regular finance of NIAC activities to the
 ILL directors, and invited one to the opening of the meeting.
 
+### NIAC Meeting Provisional Timetable
+
 #### pre-meeting 31st January
 
 0900 onwards ILL4-117 (R. Ghosh) 1100 onwards ILL4-158
 
-### NIAC Meeting Provisional Timetable
-
 #### 1st February
 
 0900 Initial welcome formalities in the CIBB conference room (214) 0910
-Greeting from one of the directors of the ILL
-
-`       (ESRF and ILL have each offered to contribute 500 Euros`  
-`        towards the meeting, and someone should remember to`  
-`        thank them!)`
-
-0915 brief self-presentation of participants and their
-
-`       activities`
-
-0930 basic committee business, adoption of new members etc. 0945 reports
-on general progress 1000 review of synchrotron special needs 1015
-membership for initial break-out group activities 1045 coffee, cash
-payment for meeting etc. 1100 First try at break-out sessions CIBB/ILL4
-1300 lunch - ILL/ESRF joint restaurant 1400 working groups coninue..
-1600 coffee
+Greeting from one of the directors of the ILL (ESRF and ILL have each
+offered to contribute 500 Euros towards the meeting, and someone should
+remember to thank them!) 0915 brief self-presentation of participants
+and their activities 0930 basic committee business, adoption of new
+members etc. 0945 reports on general progress 1000 review of synchrotron
+special needs 1015 membership for initial break-out group activities
+1045 coffee, cash payment for meeting etc. 1100 First try at break-out
+sessions CIBB/ILL4 1300 lunch - ILL/ESRF joint restaurant 1400 working
+groups coninue.. 1600 coffee
 
 `       reconvene together`  
 `       break-out chairs report progress`  
@@ -162,19 +156,15 @@ coffee
 
   
 
-1600 Presentation to ESRF/ILL scientists and engineers (see below)
-
-`      in the main amphitheatre of the ESRF`
-
-1715 Apperitif for all at presentation
+1600 Presentation to ESRF/ILL scientists and engineers (see below) in
+the main amphitheatre of the ESRF 1715 Apperitif for all at presentation
 
 1930 Dinner in Grenoble
 
 #### 3rd February
 
-0900 changes to work-groups 0915 synchrotron specialists group
-
-`      and other work groups`
+0900 changes to work-groups 0915 synchrotron specialists group and other
+work groups
 
   
 coffee
@@ -182,7 +172,7 @@ coffee
 1300 lunch ILL/ESRF joint restaurant 1400 reconvene - open discussion
 1500 achievements to go in reports... 1600 close
 
-`                  NeXus Presentation `
+### NeXus Presentation
 
 The aim is to show that the basic structure is now in place to allow
 data sharing and to have common visualisation and data treatment
@@ -194,24 +184,33 @@ Since it is universally agreed that I should not give presentations I
 suggest that we divide the period amongst several speakers, who might
 like to consider (or reject) the task.
 
-“From our sponsor” - Ray Osborn 5 minutes introduction on hopes and
-aspirations
+-   “From our sponsor” - Ray Osborn
 
-“the platform independent technical challenge” Przemek 15 minutes on
-self describing data and re-use of software XML definitions/HDF or XML
-packaging of experimental info
+5 minutes introduction on hopes and aspirations
 
-“The muon community uses NeXus” Steve Cottrell 5-10 mins actual
-advantages achieved.
+-   “the platform independent technical challenge” Przemek
 
-“killer applications” ? what about a demo of ISAW what about DANSE..? -
-Ray 10-15 minutes
+15 minutes on self describing data and re-use of software XML
+definitions/HDF or XML packaging of experimental info
 
-“bringing synchrotrons up to speed and sharing NeXus” Andy Goetz/Stuart
-Campbell 10 minutes
+-   “The muon community uses NeXus” Steve Cottrell
 
-“HDF software and utilities a sound and evolving foundation for NeXus”
+5-10 mins actual advantages achieved.
+
+-   “killer applications” ? what about a demo of ISAW
+
+what about DANSE..? - Ray 10-15 minutes
+
+-   “bringing synchrotrons up to speed and sharing NeXus”
+
+Andy Goetz/Stuart Campbell 10 minutes
+
+-   “HDF software and utilities a sound and evolving foundation for
+    NeXus”
+
 Elena Pourmal 15 minutes
 
-“Where we are today (and tomorrow) with this must-have solution” Nick
-Hauser conclusions... 10 minutes
+-   “Where we are today (and tomorrow) with this must-have solution”
+    Nick Hauser
+
+conclusions... 10 minutes
