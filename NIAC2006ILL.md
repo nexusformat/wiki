@@ -120,39 +120,24 @@ ILL directors, and invited one to the opening of the meeting.
 
 #### 1st February
 
-0900 Initial welcome formalities in the CIBB conference room (214)
-
-0910 Greeting from one of the directors of the ILL (ESRF and ILL have
-each offered to contribute 500 Euros towards the meeting, and someone
-should remember to thank them!)
-
-0915 brief self-presentation of participants and their activities
-
-0930 basic committee business, adoption of new members etc.
-
-0945 reports on general progress
-
-1000 review of synchrotron special needs
-
-1015 membership for initial break-out group activities
-
-1045 coffee, cash payment for meeting etc.
-
-1100 First try at break-out sessions CIBB/ILL4
-
-1300 lunch - ILL/ESRF joint restaurant
-
-1400 working groups coninue..
-
-1600 coffee
-
-reconvene together
-
-break-out chairs report progress
-
-review first impressions considering treated data in NeXus files
-
-1900 dinner - buffet at Guesthouse
+-   0900 Initial welcome formalities in the CIBB conference room (214)
+-   0910 Greeting from one of the directors of the ILL (ESRF and ILL
+    have each offered to contribute 500 Euros towards the meeting, and
+    someone should remember to thank them!)
+-   0915 brief self-presentation of participants and their activities
+-   0930 basic committee business, adoption of new members etc.
+-   0945 reports on general progress
+-   1000 review of synchrotron special needs
+-   1015 membership for initial break-out group activities
+-   1045 coffee, cash payment for meeting etc.
+-   1100 First try at break-out sessions CIBB/ILL4
+-   1300 lunch - ILL/ESRF joint restaurant
+-   1400 working groups coninue.
+-   1600 coffee
+-   reconvene together
+-   break-out chairs report progress
+-   review first impressions considering treated data in NeXus files
+-   1900 dinner - buffet at Guesthouse
 
 This first day will act as introduction to newcomers and put pressure on
 the remainder to demonstrate rapid and clear progress. We expect the
