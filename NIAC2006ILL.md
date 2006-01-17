@@ -178,31 +178,36 @@ Since it is universally agreed that I should not give presentations I
 suggest that we divide the period amongst several speakers, who might
 like to consider (or reject) the task.
 
--   “From our sponsor” - Ray Osborn
+-   “From our sponsor” - Ray Osborn (5 minutes) introduction on hopes
+    and aspirations
 
-5 minutes introduction on hopes and aspirations
+<!-- -->
 
--   “the platform independent technical challenge” Przemek
+-   “the platform independent technical challenge” - Przemek Klosowski
+    (15 minutes) on self describing data and re-use of software XML
+    definitions/HDF or XML packaging of experimental info
 
-15 minutes on self describing data and re-use of software XML
-definitions/HDF or XML packaging of experimental info
+<!-- -->
 
--   “The muon community uses NeXus” Steve Cottrell
+-   “The muon community uses NeXus” - Steve Cottrell (5-10 mins) actual
+    advantages achieved.
 
-5-10 mins actual advantages achieved.
+<!-- -->
 
--   “killer applications” ? what about a demo of ISAW
+-   “killer applications” ? what about a demo of ISAW? what about
+    DANSE..? - Ray Osborn (10-15 minutes)
 
-what about DANSE..? - Ray 10-15 minutes
+<!-- -->
 
--   “bringing synchrotrons up to speed and sharing NeXus”
+-   “bringing synchrotrons up to speed and sharing NeXus” - Andy
+    Goetz/Stuart Campbell (10 minutes)
 
-Andy Goetz/Stuart Campbell 10 minutes
+<!-- -->
 
 -   “HDF software and utilities a sound and evolving foundation for
-    NeXus”
+    NeXus” - Elena Pourmal (15 minutes)
 
-Elena Pourmal 15 minutes
+<!-- -->
 
 -   “Where we are today (and tomorrow) with this must-have solution”
     Nick Hauser
