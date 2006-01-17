@@ -90,6 +90,7 @@ the meeting.
 1100 onwards ILL4-158
 
 ====1st February====
+<pre>
 0900 	Initial welcome formalities in the CIBB conference room (214)
 0910	Greeting from one of the directors of the ILL (ESRF and ILL have each offered to contribute 500 Euros towards the meeting, and someone should remember to thank them!)
 0915	brief self-presentation of participants and their activities
@@ -106,8 +107,9 @@ the meeting.
         break-out chairs report progress
         review first impressions considering treated data in NeXus files
 1900    dinner - buffet at Guesthouse
+</pre>
 
-This first day will act as introduction to newcomers and put pressure on the remainder to demonstrate rapid and clear progress. We expect the memberships of the work-groups to be very flexible and that participants vote with their feet, changing venues. 
+This first day will act as introduction to newcomers and put pressure on the remainder to demonstrate rapid and clear progress. We expect the memberships of the work-groups to be very flexible and that participants vote with their feet, changing venues.
 
 ====2nd February====
 0900   changes to work-groups
