@@ -146,22 +146,15 @@ vote with their feet, changing venues.
 
 #### 2nd February
 
-0900 changes to work-groups 0915 synchrotron specialists group
-
-`      other work groups`  
-` `
-
-  
-coffee
-
-1300 lunch - ILL/ESRF joint resturant 1400 reconvene to assess progress
-
-  
-
-1600 Presentation to ESRF/ILL scientists and engineers (see below) in
-the main amphitheatre of the ESRF 1715 Apperitif for all at presentation
-
-1930 Dinner in Grenoble
+-   0900 changes to work-groups
+-   0915 synchrotron specialists group other work groups
+-   coffee
+-   1300 lunch - ILL/ESRF joint resturant
+-   1400 reconvene to assess progress
+-   1600 Presentation to ESRF/ILL scientists and engineers (see below)
+    in the main amphitheatre of the ESRF
+-   1715 Apperitif for all at presentation
+-   1930 Dinner in Grenoble
 
 #### 3rd February
 
