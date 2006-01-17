@@ -45,7 +45,7 @@ Page](Talk:NIAC_Meetings "wikilink").
 I would welcome a second party to adapt the following information to the
 wiki - this would at least show that a second person has read it!
 
-Arriving at the site
+**Arriving at the site**
 
 Try:
 
@@ -55,7 +55,7 @@ or
 
 [`http://www.esrf.fr/AboutUs/CompanyInfo/Access`](http://www.esrf.fr/AboutUs/CompanyInfo/Access)
 
-General information
+**General information**
 
 CIBB-&gt;Carl-Ivar Braenden Building is adjacent to the roundabout
 before reaching the ESRF main building. Our main meeting room is here on
@@ -67,11 +67,11 @@ building.
 ILL4-&gt;The ILL main building (most offices/meeting rooms to be used
 are on 1st floor above ground floor)
 
-Ron Ghosh office ILL4-117 tel. 7178 Sectretariat Marie-Rose Guillermet
-office ILL4-114 tel. 7226
-
-`               +33-4 76 20 72 26`  
-`           FAX +33-4 76 20 76 48`
+    Ron Ghosh       office ILL4-117 tel. 7178
+    Sectretariat
+    Marie-Rose Guillermet   office ILL4-114 tel. 7226
+                    +33-4 76 20 72 26
+                FAX +33-4 76 20 76 48
 
 ### Meeting layout
 
