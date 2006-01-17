@@ -73,7 +73,7 @@ office ILL4-114 tel. 7226
 `               +33-4 76 20 72 26`  
 `           FAX +33-4 76 20 76 48`
 
-Meeting layout
+### Meeting layout
 
 I found the format of the last meeting at Santa Fe was very productive,
 and so I have envisaged break-out group meeting rooms with this in mind.
@@ -91,8 +91,7 @@ instruments-1 3-axis/reflection/SAS/polarised/muons
 instruments-2 TOF inelastic/TOF Powder diffraction
 
 `       (Principally multi-detector neutron instruments)`  
-`       experts from completed instruments offer feedback to`  
-`       the remainder`  
+`       experts from completed instruments offer feedback to the remainder`  
 `       example data`  
 `   update definitions`  
 `       prototype treated data 1D,2D data`  
@@ -100,10 +99,8 @@ instruments-2 TOF inelastic/TOF Powder diffraction
 
 Synchrotron specialists (A. Goetz)
 
-`       this group will meet separately on the second and third`  
-`       days, and may be expected to offer objective feedback `  
-`       and criticism on the NeXus project from their`  
-`       fresh point of view.`  
+`       this group will meet separately on the second and third days, and may be expected to offer objective feedback `  
+`       and criticism on the NeXus project from their fresh point of view.`  
 
 It will be possible, too, to find additional space if other specific
 interest groups wish to meet separately.
@@ -114,7 +111,7 @@ Synchrotron Radiation News and Neutron News
 I have posed the problem of regular finance of NIAC activities to the
 ILL directors, and invited one to the opening of the meeting.
 
-pre-meeting 31st January
+#### pre-meeting 31st January
 
 0900 onwards ILL4-117 (R. Ghosh) 1100 onwards ILL4-158
 
