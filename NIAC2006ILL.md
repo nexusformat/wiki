@@ -72,8 +72,8 @@ are on 1st floor above ground floor)
 
 ### Meeting layout
 
-I found the format of the last meeting at Santa Fe was very productive,
-and so I have envisaged break-out group meeting rooms with this in mind.
+The format of the last meeting at Santa Fe was very productive, and so
+similar break-out group meeting rooms are envisaged at this meeting.
 Such groups might be
 
 **technical programming the api**
@@ -106,8 +106,8 @@ interest groups wish to meet separately.
 We should designate a publication sub-committee to write a report for
 Synchrotron Radiation News and Neutron News
 
-I have posed the problem of regular finance of NIAC activities to the
-ILL directors, and invited one to the opening of the meeting.
+The problem of regular finance of NIAC activities has been posed to the
+ILL directors, and one is invited to the opening of the meeting.
 
 ### NIAC Meeting Provisional Timetable
 
