@@ -16,9 +16,7 @@ Please add suggestions for agenda items here in [[Help:Editing#Lists | bullet fo
 * Discus and vote on [[TOFRaw|TOF raw file definition]]
 
 ===General Information===
-I would welcome a second party to adapt the following
-information to the wiki - this would at least show that
-a second person has read it!
+
 
 
 '''Arriving at the site'''

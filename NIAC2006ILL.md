@@ -42,9 +42,6 @@ Page](Talk:NIAC_Meetings "wikilink").
 
 ### General Information
 
-I would welcome a second party to adapt the following information to the
-wiki - this would at least show that a second person has read it!
-
 **Arriving at the site**
 
 Try:
