@@ -38,7 +38,7 @@ Page](Talk:NIAC_Meetings "wikilink").
 -   Amend constitution to state that all officers, including technical
     chair, are elected at each meeting, effective at the end of the
     meeting
--   Discus and vote on [TOF raw file definition](TOFRaw "wikilink")
+-   Discuss and vote on [TOF raw file definition](TOFRaw "wikilink")
 
 ### General Information
 
