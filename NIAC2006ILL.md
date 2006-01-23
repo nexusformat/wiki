@@ -167,14 +167,8 @@ vote with their feet, changing venues.
 
 ### NeXus Presentation
 
-The aim is to show that the basic structure is now in place to allow
-data sharing and to have common visualisation and data treatment
-programs across facilities, and between X-ray and neutron activities. I
-will need an agreed abstract perhaps one week before the meeting so it
-can be distributed and posted-up at the ESRF and the ILL.
-
-Since it is universally agreed that I should not give presentations I
-suggest that we divide the period amongst several speakers, who might
+Since it is universally agreed that Ron should not give presentations he
+suggests that we divide the period amongst several speakers, who might
 like to consider (or reject) the task.
 
 -   “From our sponsor” - Ray Osborn (5 minutes) introduction on hopes
@@ -209,6 +203,5 @@ like to consider (or reject) the task.
 <!-- -->
 
 -   “Where we are today (and tomorrow) with this must-have solution”
-    Darren Kelly
+    Darren Kelly conclusions... (10 minutes)
 
-conclusions... 10 minutes

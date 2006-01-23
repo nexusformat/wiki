@@ -131,10 +131,8 @@ This first day will act as introduction to newcomers and put pressure on the rem
 
 ===NeXus Presentation===
 
-The aim is to show that the basic structure is now in place to allow data sharing and to have common visualisation and
-data treatment programs across facilities, and between X-ray and neutron activities. I will need an agreed abstract perhaps one week before the meeting so it can be distributed and posted-up at the ESRF and the ILL.
 
-Since it is universally agreed that I should not give presentations I suggest that we divide the period amongst several speakers, who might like to consider (or reject) the task.
+Since it is universally agreed that Ron should not give presentations he suggests that we divide the period amongst several speakers, who might like to consider (or reject) the task.
 
 * "From our sponsor" - Ray Osborn (5 minutes) introduction on hopes and aspirations
 
@@ -148,6 +146,4 @@ Since it is universally agreed that I should not give presentations I suggest th
 
 * "HDF software and utilities a sound and evolving foundation for NeXus" - Elena Pourmal (15 minutes)
 
-* "Where we are today (and tomorrow) with this must-have solution" Darren Kelly
-conclusions...
-10 minutes
+* "Where we are today (and tomorrow) with this must-have solution" Darren Kelly  conclusions...  (10 minutes)
