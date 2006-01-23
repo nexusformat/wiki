@@ -148,6 +148,6 @@ Since it is universally agreed that I should not give presentations I suggest th
 
 * "HDF software and utilities a sound and evolving foundation for NeXus" - Elena Pourmal (15 minutes)
 
-* "Where we are today (and tomorrow) with this must-have solution" Nick Hauser
+* "Where we are today (and tomorrow) with this must-have solution" Darren Kelly
 conclusions...
 10 minutes

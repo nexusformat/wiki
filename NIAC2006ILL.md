@@ -209,6 +209,6 @@ like to consider (or reject) the task.
 <!-- -->
 
 -   “Where we are today (and tomorrow) with this must-have solution”
-    Nick Hauser
+    Darren Kelly
 
 conclusions... 10 minutes
