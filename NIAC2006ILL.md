@@ -147,12 +147,13 @@ vote with their feet, changing venues.
 
 -   0900 changes to work-groups
 -   0915 synchrotron specialists group other work groups
--   coffee
+-   1045 coffee
 -   1300 lunch - ILL/ESRF joint resturant
 -   1400 reconvene to assess progress
+-   1545 refreshments on the Mezzanine of the ESRF main building
 -   1600 Presentation to ESRF/ILL scientists and engineers (see below)
-    in the main amphitheatre of the ESRF
--   1715 Apperitif for all at presentation
+    in the main Auditorium of the ESRF
+-   1715 Apperitif for all at presentation, Mezzanine, ESRF
 -   1930 Dinner in Grenoble
 
 #### 3rd February
