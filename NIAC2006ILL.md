@@ -129,14 +129,14 @@ ILL directors, and one is invited to the opening of the meeting.
 -   1020 overview of aims of public presentation on 2nd Feb.
 -   1030 membership for initial break-out group activities
 -   1045 coffee
--   1100 First try at break-out sessions CIBB/ILL4
+-   1100 First try at break-out sessions CIBB/ILL4-127/ESRF3-1-114/5
 -   1300 lunch - ILL/ESRF joint restaurant
 -   1400 working groups coninue.
 -   1600 coffee
 -   reconvene together
 -   break-out chairs report progress
 -   review first impressions considering treated data in NeXus files
--   1900 dinner - buffet at Guesthouse
+-   1930 dinner - buffet at Guesthouse
 
 This first day will act as introduction to newcomers and put pressure on
 the remainder to demonstrate rapid and clear progress. We expect the
