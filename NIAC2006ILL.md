@@ -160,7 +160,7 @@ vote with their feet, changing venues.
 
 -   0900 changes to work-groups
 -   0915 synchrotron specialists group and other work groups
--   coffee
+-   1045 coffee
 -   1300 lunch ILL/ESRF joint restaurant
 -   1400 reconvene - open discussion
 -   1500 achievements to go in reports...
