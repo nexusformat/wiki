@@ -115,6 +115,14 @@ ILL directors, and one is invited to the opening of the meeting.
 
 0900 onwards ILL4-117 (R. Ghosh) 1100 onwards ILL4-158
 
+`    This will be an opportunity to propose priorities for discussing`  
+`    fine details, establishing a forum for helping in design of`  
+`    data files for new, possibly more complex instruments, documentation`  
+`    tools and standards, minimal representation of treated data`  
+`    (notions of one-step histories, tree display of treatment,`  
+`    maximising compatibility of neutron and X-ray data), and`  
+`    generally list and filter new ideas for later refinement.`
+
 #### 1st February
 
 -   0840 registration, payment
