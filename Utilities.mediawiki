@@ -22,7 +22,7 @@ NXtree [-[no]attr] [-[no]data] [-html | -latex] <NeXus_file>
 ;NDS:NeXus data server, publish NeXus files on TCP/IP, read only (SINQ)
 ;NNDB:Java program to browse NeXus files published through NDS (SINQ)
 ;HDFView:Java-based tool for browsing and visualizing HDF4/5 files.
-;HDFExplorer:Windows 95/98/NT HDF viewer. Since this link is now broken, I have no idea if they are still maintaining the product.
+;HDFExplorer:Windows 95/98/NT HDF viewer for HDF4 and HDF5 files from http://www.space-research.org/explorer.htm offers grid/scalar image/vector images and data export
 
 ==Plotting Applications==
 ;[http://www.isis.rl.ac.uk/openGENIE Open Genie]:Open Genie is an object-oriented data analysis and visualization package developed at the ISIS pulsed neutron facility. The latest version has the ability to load an entire NeXus file into a workspace structure, as well as write NeXus files.
