@@ -154,7 +154,7 @@ Since it is universally agreed that Ron should not give presentations he suggest
 
 * "killer applications" ? what about a demo of ISAW? what about DANSE..? - Ray Osborn (10-15 minutes)
 
-* "bringing synchrotrons up to speed and sharing NeXus" - Andy Goetz/Stuart Campbell (10 minutes)
+* "bringing synchrotrons up to speed and sharing NeXus" - Andy Goetz (10 minutes)
 
 * "HDF software and utilities a sound and evolving foundation for NeXus" - Elena Pourmal (15 minutes)
 

@@ -206,8 +206,8 @@ like to consider (or reject) the task.
 
 <!-- -->
 
--   “bringing synchrotrons up to speed and sharing NeXus” - Andy
-    Goetz/Stuart Campbell (10 minutes)
+-   “bringing synchrotrons up to speed and sharing NeXus” - Andy Goetz
+    (10 minutes)
 
 <!-- -->
 
