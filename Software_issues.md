@@ -17,4 +17,5 @@ NeXus Bugzilla pages\].
 
 -   [Object Oriented Interface](Object_Oriented_Interface "wikilink")
 -   [Group Attributes](Group_Attributes "wikilink")
+-   [Linking External Files](Linking_External_Files "wikilink")
 

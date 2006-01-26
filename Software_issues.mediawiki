@@ -4,3 +4,4 @@ Please submit any bugs in the NeXus API to the [http://bugs.isis.rl.ac.uk/buglis
 
 *[[Object Oriented Interface]]
 *[[Group Attributes]]
+*[[Linking External Files]]
