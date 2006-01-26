@@ -14,7 +14,24 @@ changed to access the bottom element of this stack. NXopengroup would then be mo
 
 
 ===Actually Accessing The External File===
-This section is about schemes for actually opening an external file as specified by a URL. Accessing an external NeXus file within the same file system is the easiest case: just open the path! It becomes moderatly more complex when accessing NeXus files which are available through the http or ftp series of protocolls. In that case I suggest to download such a file through a suitable library and access them on the cache area. Such a copy and access method would also help minimise the download of possibly large files as a cache lookup can implemented to preceed an actual download. A good library to choose for http and ftp style downloads might be [http://curl.haxx.se/ cURL]. 
+This section is about schemes for actually opening an external file as specified by a URL. Accessing an external NeXus file within the same file system is the easiest case: just open the path! It becomes moderatly more complex when accessing NeXus files which are available through the http or ftp series of protocolls. In that case I suggest to download such a file through a suitable library and access them on the cache area. Such a copy and access method would also help minimise the download of possibly large files as a cache lookup can be implemented to preceed an actual download. A good library to choose for http and ftp style downloads might be [http://curl.haxx.se/ cURL]. A drawback of such a solution (or any general URL solution) is that another 
+meta data API would be required in order to keep such information as usernames, passwords and possibly proxy servers.
 
 
-The degree of implementation complexity increases when we wish to support general URL schemes or wish to support files not in a supported NeXus physical file format. In such cases a means would be needed to dynamically add URL handlers to the NeXus-API.
+The degree of implementation complexity increases when we wish to support general URL schemes or wish to support files not in a supported NeXus physical file format. In such cases a means would be needed to dynamically add URL handlers to the NeXus-API. However, if we restrict ourselves to the copy, cache and access scheme outlined above, another easily implemented option is to call external utility programs for downloading files into the cache. This solution will appeal to the unix crowd (including the Macintoshes who are unix without noticing it), but might leave the utility deprived windows users in a tight spot. The most ambitious implementation would allow to dynamically load both file format and URL handlers dynamically into the NeXus-API. Both is possible but will cause stability and maintainance problems due to the reliance on many shared libraries.
+
+
+
+===Summary And Open Issues===
+Summing it up, implementing external linking is definitly possible and implementable within a reasonable amount of time. Group attributes would have to be implemented first though. Open questions include:
+* Do we restrict external linking to groups?
+* Is the suggested path to an implementation agreeable? There might be others.
+* Which level do we implement?
+**Local NeXus files only?
+**Download, cache, access through a library included with the NeXus-API? Which library then?
+*** cURL?
+**Download and cache delegated to external programs?
+**Dynamically loadable URL Handlers?
+**Dynamically loadable physical file format handlers?
+* Your question here!
+My two cents worth of opinion: shared libraries always annoy me, I like big statically built things, especially as disk space is cheap these days. I would implement a local disk access version first in order to get the mechanics right, followed by a version implementing the download, cache and access NeXus files scheme using cURL. Both versions would restrict external linking to groups.
