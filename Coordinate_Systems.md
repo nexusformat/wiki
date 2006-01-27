@@ -8,7 +8,7 @@ The MARS experience showed me that it is easy to get confused about the
 NeXus coordinate systems. I therefore suggest the following:
 
 -   Remove coordinates from all component DTD
--   Make a dosumentation page describing our two coordinate systems:
+-   Make a documentation page describing our two coordinate systems:
     -   The simple polare\_angle, distance etc system
     -   The NXgeometry system
 -   State that coordinate describing datasets can occur in any component
