@@ -1,0 +1,9 @@
+==Mark Koennecke==
+===PSI Representative, NeXus International Advisory Committee===
+;Address:SINQ
+:Paul Scherrer Institut
+:CH-5232 Villigen PSI
+:Switzerland
+
+;Phone: +41 56 310 25 12
+;Email: [mailto:Mark.Koennecke@psi.ch Mark.Koennecke@psi.ch]
