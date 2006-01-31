@@ -9,7 +9,10 @@ Thomas Proffen
 
 ### LANSCE Representative, NeXus International Advisory Committee
 
-Address:Manuel Lujan Neutron Scattering Center  
+Address:[Los Alamos Neutron Science Center](http://lansce.lanl.gov)  
+[Manuel Lujan Neutron Scattering
+Center](http://www.lansce.lanl.gov/lujan/index.html)
+
 Los Alamos National Laboratory
 
 Los Alamos, NM 87545
