@@ -115,6 +115,10 @@ ILL directors, and one is invited to the opening of the meeting.
 
 0900 onwards ILL4-117 (R. Ghosh) 1100 onwards ILL4-158
 
+1400 Planning of discussions (subjects, leaders) 1430 Pre-discussions
+(detector configurations, scanning) 1530 Coffee 1600 Break out into
+groups
+
 `    This will be an opportunity to propose priorities for discussing`  
 `    fine details, establishing a forum for helping in design of`  
 `    data files for new, possibly more complex instruments, documentation`  
