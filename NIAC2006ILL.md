@@ -136,19 +136,14 @@ ILL directors, and one is invited to the opening of the meeting.
 -   1000 Review of current NeXus design
 -   1030 Review of current NeXus API
 -   1045 Coffee
--   1100 Establishing working groups (CIBB/ILL4-127/ESRF3-1-114/5)
+-   1100 Discussion of online documentation
+-   1115 Generic scanning discussion
 -   1300 Lunch - ILL/ESRF joint restaurant
 -   1400 Generic detector discussion
--   1600 coffee
--   reconvene together
--   break-out chairs report progress
--   review first impressions considering treated data in NeXus files
--   1930 dinner - buffet at Guesthouse
-
-This first day will act as introduction to newcomers and put pressure on
-the remainder to demonstrate rapid and clear progress. We expect the
-memberships of the work-groups to be very flexible and that participants
-vote with their feet, changing venues.
+-   1600 Coffee
+-   1615 Establish working groups (CIBB/ILL4-127/ESRF3-1-114/5)
+-   1630 Break out into working groups
+-   1930 Dinner - buffet at Guesthouse
 
 #### 2nd February
 
