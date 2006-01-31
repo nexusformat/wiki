@@ -13,7 +13,7 @@ Address:[Los Alamos Neutron Science Center](http://lansce.lanl.gov)
 [Manuel Lujan Neutron Scattering
 Center](http://www.lansce.lanl.gov/lujan/index.html)
 
-Los Alamos National Laboratory
+[Los Alamos National Laboratory](http://www.lanl.gov)
 
 Los Alamos, NM 87545
 

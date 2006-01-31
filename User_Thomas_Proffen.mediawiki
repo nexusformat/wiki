@@ -2,7 +2,7 @@
 ===LANSCE Representative, NeXus International Advisory Committee===
 ;Address:[http://lansce.lanl.gov Los Alamos Neutron Science Center]
 :[http://www.lansce.lanl.gov/lujan/index.html Manuel Lujan Neutron Scattering Center]
-:Los Alamos National Laboratory
+:[http://www.lanl.gov Los Alamos National Laboratory]
 :Los Alamos, NM 87545
 
 ;Phone:+1 505-665-6573
