@@ -127,21 +127,18 @@ ILL directors, and one is invited to the opening of the meeting.
 
 #### 1st February
 
--   0840 registration, payment
+-   0840 Registration, payment
 -   0900 Initial welcome formalities in the CIBB conference room (214)
--   0910 Greeting from one of the directors of the ILL (ESRF and ILL
-    have each offered to contribute 500 Euros towards the meeting, and
-    someone should remember to thank them!)
--   0915 brief self-presentation of participants and their activities
--   0930 basic committee business, adoption of new members etc.
--   0945 reports on general progress
--   1000 review of synchrotron special needs
--   1020 overview of aims of public presentation on 2nd Feb.
--   1030 membership for initial break-out group activities
--   1045 coffee
--   1100 First try at break-out sessions CIBB/ILL4-127/ESRF3-1-114/5
--   1300 lunch - ILL/ESRF joint restaurant
--   1400 working groups coninue.
+-   0910 Greeting from one of the directors of the ILL
+-   0915 Brief self-presentation of participants and their activities
+-   0930 Basic committee business, adoption of new members etc.
+-   0945 Overview of aims of public presentation on 2nd Feb.
+-   1000 Review of current NeXus design
+-   1030 Review of current NeXus API
+-   1045 Coffee
+-   1100 Establishing working groups (CIBB/ILL4-127/ESRF3-1-114/5)
+-   1300 Lunch - ILL/ESRF joint restaurant
+-   1400 Generic detector discussion
 -   1600 coffee
 -   reconvene together
 -   break-out chairs report progress
