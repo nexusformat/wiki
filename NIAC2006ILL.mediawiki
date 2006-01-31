@@ -85,13 +85,13 @@ the meeting.
 ====pre-meeting 31st January====
 
 
-0900 onwards ILL4-117 (R. Ghosh)
-1100 onwards ILL4-158
+*0900 onwards ILL4-117 (R. Ghosh)
+*1100 onwards ILL4-158
 
-1400 Planning of discussions (subjects, leaders)
-1430 Pre-discussions (detector configurations, scanning)
-1530 Coffee
-1600 Break out into groups
+*1400 Planning of discussions (subjects, leaders)
+*1430 Pre-discussions (detector configurations, scanning)
+*1530 Coffee
+*1600 Break out into groups
 
 
 
