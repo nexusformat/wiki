@@ -84,11 +84,11 @@ PJ – basic questions about which class contains which ?
     harmonic    NX_INT  harmonic of peak    
     spectrum    NXdata  spectrum of insertion device    
 
-| Name                                                                         | Type      | Description |
-|------------------------------------------------------------------------------|-----------|-------------|
-| name | align=“center” | NX\_CHAR | align=“center” | name of insertion device |
-| gap                                                                          | NX\_FLOAT | gap in mm   |
-| taper                                                                        | NX\_FLOAT | taper in mm |
+| Name  | Type      | Description              |
+|-------|-----------|--------------------------|
+| name  | NX\_CHAR  | name of insertion device |
+| gap   | NX\_FLOAT | gap in mm                |
+| taper | NX\_FLOAT | taper in mm              |
 
 #### NXbending\_magnet
 
