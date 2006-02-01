@@ -94,7 +94,7 @@ Such groups might be
 -   prototype treated data 1D,2D data
 -   rebinning, constant (Q,w)
 
-**Synchrotron specialists (A. Goetz)**
+**[Synchrotron\_Group](Synchrotron_Group "wikilink") (A. Goetz)**
 
 -   this group will meet separately on the second and third days, and
     may be expected to offer objective feedback and criticism on the
