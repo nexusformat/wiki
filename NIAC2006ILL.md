@@ -141,16 +141,18 @@ ILL directors, and one is invited to the opening of the meeting.
 -   0915 Brief self-presentation of participants and their activities
 -   0930 Basic committee business, adoption of new members etc.
 -   0945 Overview of aims of public presentation on 2nd Feb.
--   1000 Review of current NeXus design
--   1030 Review of current NeXus API
+-   1000 Review of current NeXus design (Ray Osborn)
+-   1030 Review of current NeXus API (Mark Koennecke)
 -   1045 Coffee
 -   1100 Discussion of online documentation
 -   1115 Generic scanning discussion
 -   1300 Lunch - ILL/ESRF joint restaurant
--   1400 Generic detector discussion
+-   1400 Review of HDF (Elena Pourmal; ESRF3-1-114)
+-   1430 Establishment of working groups
+-   1445 Break out into working groups (CIBB/ILL4-127/ESRF3-1-114/5)
 -   1600 Coffee
--   1615 Establish working groups (CIBB/ILL4-127/ESRF3-1-114/5)
--   1630 Break out into working groups
+-   1615 Generic detector discussion
+-   1645 Break out into working groups
 -   1930 Dinner - buffet at Guesthouse
 
 #### 2nd February
