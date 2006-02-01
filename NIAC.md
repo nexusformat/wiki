@@ -29,8 +29,8 @@ layout: wiki
 -   Toshiya Otomo, KEK, Japan
 -   [Peter Peterson](User%3APfpeterson "wikilink"), Spallation Neutron
     Source, USA (Executive Secretary)
--   [Thomas Proffen](User%3ATproffen "wikilink"), Los Alamos National
-    Laboratory, USA
+-   [Thomas Proffen](User%3AThomas_Proffen "wikilink"), Los Alamos
+    National Laboratory, USA
 
 Constitution
 ------------
