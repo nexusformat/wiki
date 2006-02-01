@@ -60,8 +60,6 @@ PJ – basic questions about which class contains which ?
     -   ionisation chamber
     -   opaque data (image plates, other large data slugs)
 
-**NXsource is more like NXfacility for us**
-
 #### NXsource additions
 
 | Name  | Type       | Description                                          |
