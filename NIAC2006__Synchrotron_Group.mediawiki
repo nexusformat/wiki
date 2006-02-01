@@ -128,21 +128,21 @@ spectrum	NXdata	spectrum of insertion device
 
 ====NXbending_magnet====
 
-{| align="center" border="1"
+{|border="1"
 |-
 ! Name || Type || Description
 |-
 ! name
-| align="center" | NX_CHAR
-| align="center" | name of bending magnet
+|| NX_CHAR
+|| name of bending magnet
 |-
 ! critical energy
-| align="center" | NX_FLOAT
-| align="center" | critical energy
+|| NX_FLOAT
+|| critical energy
 |-
 ! bending radius
-| align="center" | NX_FLOAT
-| align="center" | &nbsp;
+|| NX_FLOAT
+|| &nbsp;
 |}
 
 ===Questions===

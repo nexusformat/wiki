@@ -100,11 +100,11 @@ PJ – basic questions about which class contains which ?
 
 #### NXbending\_magnet
 
-| Name            | Type      | Description            |
-|-----------------|-----------|------------------------|
-| name            | NX\_CHAR  | name of bending magnet |
-| critical energy | NX\_FLOAT | critical energy        |
-| bending radius  | NX\_FLOAT |                        |
+| Name            | Type        | Description              |
+|-----------------|-------------|--------------------------|
+| name            | | NX\_CHAR  | | name of bending magnet |
+| critical energy | | NX\_FLOAT | | critical energy        |
+| bending radius  | | NX\_FLOAT | |                        |
 
 ### Questions
 
