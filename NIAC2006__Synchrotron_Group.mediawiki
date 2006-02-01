@@ -82,16 +82,16 @@ spectrum	NXdata	spectrum of insertion device
 ! Name || Type || Description
 |-
 ! name 
-| align="center" | NX_CHAR    
-| align="center" | name of insertion device
+|| NX_CHAR    
+|| name of insertion device
 |-
 ! gap
-| align="center" | NX_FLOAT
-| align="center" | gap in mm
+|| NX_FLOAT
+|| gap in mm
 |-
 ! taper
-| align="center" | NX_FLOAT
-| align="center" | taper in mm
+|| NX_FLOAT
+|| taper in mm
 |-
 !phase	
 ||NX_FLOAT	

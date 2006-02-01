@@ -84,19 +84,19 @@ PJ – basic questions about which class contains which ?
     harmonic    NX_INT  harmonic of peak    
     spectrum    NXdata  spectrum of insertion device    
 
-| Name      | Type       | Description                                |
-|-----------|------------|--------------------------------------------|
-| name      | NX\_CHAR   | name of insertion device                   |
-| gap       | NX\_FLOAT  | gap in mm                                  |
-| taper     | NX\_FLOAT  | taper in mm                                |
-| phase     | |NX\_FLOAT | |phase in degrees                          |
-| poles     | |NX\_INT   | |number of poles                           |
-| length    | |NX\_FLOAT | |length of insertion device                |
-| power     | |NX\_FLOAT | |total power delivered by insertion device |
-| energy    | |NX\_FLOAT | |energy of peak                            |
-| bandwidth | |NX\_FLOAT | |bandwidth of peak energy                  |
-| harmonic  | |NX\_INT   | |harmonic of peak                          |
-| spectrum  | |NXdata    | |spectrum of insertion device              |
+| Name      | Type        | Description                                |
+|-----------|-------------|--------------------------------------------|
+| name      | | NX\_CHAR  | | name of insertion device                 |
+| gap       | | NX\_FLOAT | | gap in mm                                |
+| taper     | | NX\_FLOAT | | taper in mm                              |
+| phase     | |NX\_FLOAT  | |phase in degrees                          |
+| poles     | |NX\_INT    | |number of poles                           |
+| length    | |NX\_FLOAT  | |length of insertion device                |
+| power     | |NX\_FLOAT  | |total power delivered by insertion device |
+| energy    | |NX\_FLOAT  | |energy of peak                            |
+| bandwidth | |NX\_FLOAT  | |bandwidth of peak energy                  |
+| harmonic  | |NX\_INT    | |harmonic of peak                          |
+| spectrum  | |NXdata     | |spectrum of insertion device              |
 
 #### NXbending\_magnet
 
