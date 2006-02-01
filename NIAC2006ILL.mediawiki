@@ -123,9 +123,11 @@ the meeting.
 * 0930   Break out into working groups
 * 1045   Coffee CIBB-214
 * 1100   Break out into working groups
+* 1215   Reconvent in CIBB-214 for review
 * 1300   Lunch - ILL/ESRF joint resturant
 * 1400   Speakers convene to review presentation
          remainder - site visits
+* 1500   Reconvene in CIBB-214 for review
 * 1545   Refreshments on the Mezzanine of the ESRF  main building
 * 1600   Presentation to ESRF/ILL scientists and engineers (see below) in the main Auditorium of the ESRF
 * 1715   Apperitif for all at presentation, Mezzanine, ESRF
