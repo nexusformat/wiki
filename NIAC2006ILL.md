@@ -175,7 +175,7 @@ ILL directors, and one is invited to the opening of the meeting.
 
 #### 3rd February
 
--   0900 Plenary review of working group progress
+-   0900 Plenary review of working group progress (CIBB 214)
 -   0915 Presentation of TOFraw proposal (Peter Peterson)
 -   0945 Break out into working groups
 -   1045 coffee (CIBB 214)
