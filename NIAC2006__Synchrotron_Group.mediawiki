@@ -62,21 +62,6 @@ PJ – basic questions about which class contains which ?
 
 ====NXinsertion_device====
 
-<pre>
-Name		Type	Description	
-name		NX_CHAR	name of insertion device	
-gap		NX_FLOAT	gap in mm
-taper		NX_FLOAT	taper in mm	
-phase		NX_FLOAT	phase in degrees	
-poles		NX_INT	number of poles	
-length		NX_FLOAT	length of insertion device	
-power		NX_FLOAT	total power delivered by insertion device	
-energy		NX_FLOAT	energy of peak	
-bandwidth	NX_FLOAT	bandwidth of peak energy	
-harmonic	NX_INT	harmonic of peak	
-spectrum	NXdata	spectrum of insertion device	
-</pre>
-
 {| border="1"
 |-
 ! Name || Type || Description
