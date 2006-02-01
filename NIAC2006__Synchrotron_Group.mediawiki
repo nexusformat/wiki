@@ -47,17 +47,17 @@ PJ – basic questions about which class contains which ?
 
 ====NXsource additions====
 
-{| align="center" border="1"
+{|border="1"
 |-
 ! Name || Type || Description
 |-
 ! mode	
-| align="center" | NX_CHAR
-| align="center" | synchrotron mode e.g. single bunch, multi bunch...
+|| NX_CHAR
+|| synchrotron mode e.g. single bunch, multi bunch...
 |-
 ! topup
-| align="center" | NX_INT
-| align="center" | flag indicating topup mode (0=no, 1=yes)
+|| NX_INT
+|| flag indicating topup mode (0=no, 1=yes)
 |}
 
 ====NXinsertion_device====

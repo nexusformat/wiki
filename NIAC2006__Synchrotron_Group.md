@@ -64,10 +64,10 @@ PJ – basic questions about which class contains which ?
 
 #### NXsource additions
 
-| Name  | Type     | Description                                        |
-|-------|----------|----------------------------------------------------|
-| mode  | NX\_CHAR | synchrotron mode e.g. single bunch, multi bunch... |
-| topup | NX\_INT  | flag indicating topup mode (0=no, 1=yes)           |
+| Name  | Type       | Description                                          |
+|-------|------------|------------------------------------------------------|
+| mode  | | NX\_CHAR | | synchrotron mode e.g. single bunch, multi bunch... |
+| topup | | NX\_INT  | | flag indicating topup mode (0=no, 1=yes)           |
 
 #### NXinsertion\_device
 
