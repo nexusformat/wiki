@@ -69,6 +69,8 @@ PJ – basic questions about which class contains which ?
 | mode  | | NX\_CHAR | | synchrotron mode e.g. single bunch, multi bunch... |
 | topup | | NX\_INT  | | flag indicating topup mode (0=no, 1=yes)           |
 
+<i>NXsource is more like NXfacility for us</i>
+
 #### NXinsertion\_device
 
 | Name      | Type        | Description                                |

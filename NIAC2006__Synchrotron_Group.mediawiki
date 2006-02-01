@@ -60,6 +60,8 @@ PJ – basic questions about which class contains which ?
 || flag indicating topup mode (0=no, 1=yes)
 |}
 
+<i>NXsource is more like NXfacility for us</i>
+
 ====NXinsertion_device====
 
 {| border="1"
