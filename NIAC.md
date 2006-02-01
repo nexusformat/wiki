@@ -20,6 +20,8 @@ layout: wiki
 -   Ron Ghosh, Institut Laue Langevin, France
 -   [Andrew Götz](User%3AAndygotz "wikilink"), European Synchrotron
     Radiation Facility, France
+-   [Pete Jemian](User%3APete_Jemian "wikilink"), Advanced Photon
+    Source, USA
 -   Przemek Klosowski, National Insitute of Standards and Technology,
     USA
 -   Mark Könnecke, Paul Scherrer Institut, Switzerland
