@@ -140,9 +140,11 @@ ILL directors, and one is invited to the opening of the meeting.
 -   1400 Review of HDF (Elena Pourmal; ESRF3-1-114)
 -   1430 Establishment of working groups
     -   [Synchrotron\_Group](Synchrotron_Group "wikilink") (Andy Goetz)
-    -   TOF Group (Freddie Akeroyd)
-    -   Scanning Group (Paul Kienzle)
-    -   Technical Computing/API group (Nick Maliszewskyj)
+    -   [TOF Group](TOF_Group "wikilink") (Freddie Akeroyd)
+    -   [Scanning Group](Scanning_Group "wikilink") (Paul Kienzle)
+    -   [Technical Computing/API
+        Group](Technical_Computing/API_Group "wikilink") (Nick
+        Maliszewskyj)
 -   1445 Break out into working groups (CIBB/ILL4-127/ESRF3-1-114/5)
 -   1600 Coffee (CIBB 214)
 -   1615 Generic detector discussion
