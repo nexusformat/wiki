@@ -10,9 +10,8 @@ Jiro Suzuki
 ### Software Scientist
 
 Address:J-PARC  
+KEK Computing Research Center
 
-<!-- -->
+1-1 Oho Tsukuba Ibaraki Japan
 
-Phone:+88  
-Fax: +88  
-Email: <jiro.suzuki@j-parc.jp>  
+Email: [1](mailto:jiro.suzuki@j-parc.jp)  

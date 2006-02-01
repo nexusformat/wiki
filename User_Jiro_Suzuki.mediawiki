@@ -1,9 +1,6 @@
 ==Jiro Suzuki==
 ===Software Scientist===
 ;Address:J-PARC
-:
-:
-
-;Phone:+88 
-;Fax: +88
-;Email: [mailto:jiro.suzuki@j-parc.jp jiro.suzuki@j-parc.jp]
+: KEK Computing Research Center
+: 1-1 Oho Tsukuba Ibaraki Japan
+;Email: [mailto:jiro.suzuki@j-parc.jp]
