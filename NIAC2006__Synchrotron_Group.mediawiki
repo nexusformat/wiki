@@ -81,9 +81,7 @@ spectrum	NXdata	spectrum of insertion device
 |-
 ! Name || Type || Description
 |-
-! name
-| align="center" | NX_CHAR
-| align="center" | name of insertion device
+! name | align="center" | NX_CHAR    | align="center" | name of insertion device
 |-
 ! gap
 | align="center" | NX_FLOAT
