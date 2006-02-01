@@ -139,7 +139,7 @@ ILL directors, and one is invited to the opening of the meeting.
 -   1300 Lunch - ILL/ESRF joint restaurant
 -   1400 Review of HDF (Elena Pourmal; ESRF3-1-114)
 -   1430 Establishment of working groups
-    -   Synchrotron Group (Andy Goetz)
+    -   [Synchrotron\_Group](Synchrotron_Group "wikilink") (Andy Goetz)
     -   TOF Group (Freddie Akeroyd)
     -   Scanning Group (Paul Kienzle)
     -   Technical Computing/API group (Nick Maliszewskyj)
