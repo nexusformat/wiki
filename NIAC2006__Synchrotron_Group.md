@@ -29,63 +29,79 @@ portal to access different type of data for modelled and measured data
 
 PJ – basic questions about which class contains which ?
 
-PROPOSED CLASSES
+### PROPOSED CLASSES
 
-COMMON
+-   COMMON
+    -   source
+    -   insertion device
+    -   bending magnet
 
-`   source`  
-`   insertion device`  
-`   bending magnet`
+<!-- -->
 
-INSTRUMENTS
+-   INSTRUMENTS
+    -   tomography
+    -   pin hole saxs
+    -   exafs
+    -   powder diffraction
+    -   single crystal diffraction
+    -   protein crystallography
 
-`   tomography `  
-`   pin hole sax`  
-`   exafs`  
-`   powder diffraction `  
-`   single crystal diffraction`  
-`   protein crystallography`
+<!-- -->
 
-BEAMLINE COMPONENTS
+-   BEAMLINE COMPONENTS
+    -   bpm
+    -   goniometer
 
-`   bpm`  
-`   goniometer`
+<!-- -->
 
-DETECTORS
+-   DETECTORS
+    -   ccd
+    -   psd
+    -   ionisation chamber
+    -   opaque data (image plates, other large data slugs)
 
-`   ccd`  
-`   psd`  
-`   ionisation chamber`  
-`   opaque data`
+### NXsource is more like NXfacility for us
 
-NXsource is more like NXfacility for us
+#### NXsource additions
 
-NXsource additions
+| Name  | Type     | Description                                        |
+|-------|----------|----------------------------------------------------|
+| mode  | NX\_CHAR | synchrotron mode e.g. single bunch, multi bunch... |
+| topup | NX\_INT  | flag indicating topup mode (0=no, 1=yes)           |
 
-Name Type Description mode NX\_CHAR synchrotron mode e.g. single bunch,
-multi bunch... topup NX\_INT flag indicating topup mode (0=no, 1=yes)
+    Name    Type    Description 
+    mode    NX_CHAR synchrotron mode e.g. single bunch, multi bunch...  
+    topup   NX_INT  flag indicating topup mode (0=no, 1=yes)    
 
-NXinsertion\_device
+#### NXinsertion\_device
 
-Name Type Description name NX\_CHAR name of insertion device gap
-NX\_FLOAT gap in mm taper NX\_FLOAT taper in mm phase NX\_FLOAT phase in
-degrees poles NX\_INT number of poles length NX\_FLOAT length of
-insertion device power NX\_FLOAT total power delivered by insertion
-device energy NX\_FLOAT energy of peak bandwidth NX\_FLOAT bandwidth of
-peak energy harmonic NX\_INT harmonic of peak spectrum NXdata spectrum
-of insertion device
+    Name        Type    Description 
+    name        NX_CHAR name of insertion device    
+    gap     NX_FLOAT    gap in mm   
+    taper       NX_FLOAT    taper in mm 
+    phase       NX_FLOAT    phase in degrees    
+    poles       NX_INT  number of poles 
+    length      NX_FLOAT    length of insertion device  
+    power       NX_FLOAT    total power delivered by insertion device   
+    energy      NX_FLOAT    energy of peak  
+    bandwidth   NX_FLOAT    bandwidth of peak energy    
+    harmonic    NX_INT  harmonic of peak    
+    spectrum    NXdata  spectrum of insertion device    
 
-NXbending\_magnet
+#### NXbending\_magnet
 
-Name Type Description name NX\_CHAR name of bending magnet critical
-energy NX\_FLOAT critical energy bending radius NX\_FLOAT
+    Name        Type    Description 
+    name        NX_CHAR name of bending magnet  
+    critical energy NX_FLOAT    critical energy 
+    bending radius  NX_FLOAT        
 
-Questions
+### Questions
 
-1. Can we have NX\_BOOLEAN ? 2. Do we have to use microamp units for
-current ? 3. Why is NXmonitor not NXdata ?
+1.  Can we have NX\_BOOLEAN ?
+2.  Do we have to use microamp units for current ?
+3.  Why is NXmonitor not NXdata ?
 
-IDEAS
+### IDEAS
 
 NXbeam\_position\_monitor could be a separate class (subclass of NXlog)
 ?
