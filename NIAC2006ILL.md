@@ -123,16 +123,6 @@ ILL directors, and one is invited to the opening of the meeting.
 -   1530 Coffee
 -   1600 Break out into groups
 
-`    This will be an opportunity to propose priorities for discussing`  
-`    fine details, establishing a forum for helping in design of`  
-`    data files for new, possibly more complex instruments, documentation`  
-`    tools and standards, minimal representation of treated data`  
-`    (notions of one-step histories, tree display of treatment,`  
-`    maximising compatibility of neutron and X-ray data),`  
-`    NeXus, HDF, GRIDS and SRBs, `  
-`    and generally list and filter new ideas for later refinement at the `  
-`    main meeting.`
-
 #### 1st February
 
 -   0840 Registration, payment
