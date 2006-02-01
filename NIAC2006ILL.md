@@ -150,7 +150,7 @@ ILL directors, and one is invited to the opening of the meeting.
 -   1400 Review of HDF (Elena Pourmal; ESRF3-1-114)
 -   1430 Establishment of working groups
 -   1445 Break out into working groups (CIBB/ILL4-127/ESRF3-1-114/5)
--   1600 Coffee
+-   1600 Coffee (CIBB 214)
 -   1615 Generic detector discussion
 -   1645 Break out into working groups
 -   1930 Dinner - buffet at Guesthouse
