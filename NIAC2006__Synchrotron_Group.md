@@ -73,7 +73,7 @@ PJ – basic questions about which class contains which ?
 
     Name        Type    Description 
     name        NX_CHAR name of insertion device    
-    gap     NX_FLOAT    gap in mm   
+    gap     NX_FLOAT    gap in mm
     taper       NX_FLOAT    taper in mm 
     phase       NX_FLOAT    phase in degrees    
     poles       NX_INT  number of poles 
@@ -83,6 +83,12 @@ PJ – basic questions about which class contains which ?
     bandwidth   NX_FLOAT    bandwidth of peak energy    
     harmonic    NX_INT  harmonic of peak    
     spectrum    NXdata  spectrum of insertion device    
+
+| Name  | Type      | Description              |
+|-------|-----------|--------------------------|
+| name  | NX\_CHAR  | name of insertion device |
+| gap   | NX\_FLOAT | gap in mm                |
+| taper | NX\_FLOAT | taper in mm              |
 
 #### NXbending\_magnet
 

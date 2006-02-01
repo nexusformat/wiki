@@ -65,7 +65,7 @@ PJ – basic questions about which class contains which ?
 <pre>
 Name		Type	Description	
 name		NX_CHAR	name of insertion device	
-gap		NX_FLOAT	gap in mm	
+gap		NX_FLOAT	gap in mm
 taper		NX_FLOAT	taper in mm	
 phase		NX_FLOAT	phase in degrees	
 poles		NX_INT	number of poles	
@@ -76,9 +76,23 @@ bandwidth	NX_FLOAT	bandwidth of peak energy
 harmonic	NX_INT	harmonic of peak	
 spectrum	NXdata	spectrum of insertion device	
 </pre>
-			
-			
-			
+
+{| border="1"
+|-
+! Name || Type || Description
+|-
+! name
+| align="center" | NX_CHAR
+| align="center" | name of insertion device
+|-
+! gap
+| align="center" | NX_FLOAT
+| align="center" | gap in mm
+|-
+! taper
+| align="center" | NX_FLOAT
+| align="center" | taper in mm
+|}
 
 ====NXbending_magnet====
 
