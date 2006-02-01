@@ -41,24 +41,44 @@ Applications which want to help the user select the appropriate runs will need t
 
 * How are detectors associated with detector number in the bank of analyzer case?  Or is there only one detector with an additional dimension?
 
-* Decide if we are using names such as precollimator_analyzer or if we are using component index instead to figure out where things are.
+* Are we using names such as precollimator_analyzer or are we using component index instead to figure out where things are.  Latter is slightly more work for reduction, but otherwise better.  What happens with multiple beam paths?
 
-* How do we know it is a scan?  What about scan intent, such as spec/back/slit?
+* How do we know it is a scan?  
+* What about scan intent, such as spec/back/slit?  
+* Where to store start time for each measurement?
+** NXmonitor? Okay.
+** NXdata? Data doesn't otherwise contain data.
+** NXentry? Okay.
+** New NXscan class?  Too complex, unless needed for other things.
+** NXlog? No synchronization with scan points in general.
+** NXsample? Maybe.
+
+* Definition should list fields and maybe attributes needed for reduction; others should be dropped.
+
+* Monitor and detector need efficiency and dead time correction information
+
+* Need NXbeamstop for details such as shadow on the detector.
+
+* Polarizer/flipper: only want the angle of incidence on the sample, not things such as flipper current from which it is derived.
+
+* Partial reduction
+** Summary data
+** treated data
+** excluded data
+** resolution function
 
 * TAS
+** Fewer collimator types available than in NXcollimator...is this what we want?  Similarly for filter.
+** HKL in sample rather than detector still feels wrong.
+** Add efficiency, deadtime and sampled portion to monitor description
+** Need polarizers and flippers?
 
 * Reflectometry
+** Generic scan for things which are not reflectometry measurements?
+** How to link to background and slit scan
+** NXcrystal is missing wavelength spread
+** How to store slits; how to reference in-plane and out of plane slits?
+** Raw counts may be meaningless without normalization.
+** Combine spec, back, slit, rock for all +- polarization in one entry?  Or use separate entries?
 
 * SAS
-
-==General concerns==
-
-* Summary data
-
-* treated data
-
-* excluded data
-
-* resolution function
-
-* ...
