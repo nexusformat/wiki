@@ -141,12 +141,13 @@ the meeting.
 * 1930   Dinner in Grenoble
 
 ====3rd February====
-* 0900   changes to work-groups
-* 0915   synchrotron specialists group and other work groups
-* 1045   coffee
-* 1300   lunch ILL/ESRF joint restaurant
-* 1400   reconvene - open discussion
-* 1500   achievements to go in reports...
+* 0900   Plenary review of working group progress
+* 0915   Presentation of TOFraw proposal (Peter Peterson)
+* 0945   Break out into working groups
+* 1045   coffee (CIBB 214)
+* 1300   Lunch ILL/ESRF joint restaurant
+* 1400   Report from working groups and votes on resulting definitions (CIBB 214)
+* 1500   Discussion of meeting reports and any other business
 * 1600   close
 
 ===NeXus Presentation===
