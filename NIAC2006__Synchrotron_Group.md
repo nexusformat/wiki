@@ -4,10 +4,10 @@ permalink: NIAC2006:_Synchrotron_Group/
 layout: wiki
 ---
 
-These are notes from our first discussion on 2006-02-01:
---------------------------------------------------------
-
 Nexus – Synchrotron breakout group
+----------------------------------
+
+These are notes from our first discussion on 2006-02-01
 
 present : AG (ESRF), RW (ESRF), PJ (APS), CM (Soleil), SL (Soleil), SC
 (Diamond), LL (ISIS)
