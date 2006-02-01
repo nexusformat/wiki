@@ -155,9 +155,11 @@ ILL directors, and one is invited to the opening of the meeting.
 
 #### 2nd February
 
--   0900 changes to work-groups
--   0915 synchrotron specialists group, other work groups
+-   0900 Introduction to using UML's and schemas to optimize code
+    production (Darren Kelly)
+-   0930 Breakout groups
 -   1045 coffee CIBB-214
+-   1100 Breakout groups
 -   1300 lunch - ILL/ESRF joint resturant
 -   1400 speakers convene to review presentation
 
