@@ -181,41 +181,32 @@ ILL directors, and one is invited to the opening of the meeting.
 
 ### NeXus Presentation
 
-Since it is universally agreed that Ron should not give presentations he
-suggests that we divide the period amongst several speakers, who might
-like to consider (or reject) the task.
-
--   “From our sponsor” - Ray Osborn (5 minutes) introduction on hopes
-    and aspirations
+-   “Welcome” - Ray Osborn (5 minutes)
 
 <!-- -->
 
--   “the platform independent technical challenge” - Przemek Klosowski
-    (15 minutes) on self describing data and re-use of software XML
-    definitions/HDF or XML packaging of experimental info
+-   “Introduction to NeXus design” - Przemek Klosowski (15 minutes)
 
 <!-- -->
 
--   “The muon community uses NeXus” - Steve Cottrell (5-10 mins) actual
-    advantages achieved.
+-   “The potential for NeXus at synchrotron sources” - Andy Goetz (10
+    minutes)
 
 <!-- -->
 
--   “killer applications” ? what about a demo of ISAW? what about
-    DANSE..? - Ray Osborn (10-15 minutes)
+-   “The muon community” - Steve Cottrell (5-10 mins)
 
 <!-- -->
 
--   “bringing synchrotrons up to speed and sharing NeXus” - Andy Goetz
-    (10 minutes)
+-   “Demonstration” - Ray Osborn (10-15 minutes)
 
 <!-- -->
 
 -   “HDF software and utilities a sound and evolving foundation for
-    NeXus” - Elena Pourmal (15 minutes)
+    NeXus” - Elena Pourmal (10 minutes)
 
 <!-- -->
 
--   “Where we are today (and tomorrow) with this must-have solution”
-    Darren Kelly conclusions... (10 minutes)
+-   “Where we are today (and tomorrow) with this must-have solution” -
+    Darren Kelly (10 minutes)
 
