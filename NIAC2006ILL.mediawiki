@@ -147,7 +147,7 @@ the meeting.
 
 * "Introduction to NeXus design" - Przemek Klosowski (15 minutes) 
 
-* "The potential for NeXus at synchrotron sources" - Andy Goetz (10 minutes)
+* "The potential for NeXus at synchrotron sources" - Andy Gotz (10 minutes)
 
 * "The muon community" - Steve Cottrell (5-10 mins)
 

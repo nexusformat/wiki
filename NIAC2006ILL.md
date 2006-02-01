@@ -189,7 +189,7 @@ ILL directors, and one is invited to the opening of the meeting.
 
 <!-- -->
 
--   “The potential for NeXus at synchrotron sources” - Andy Goetz (10
+-   “The potential for NeXus at synchrotron sources” - Andy Gotz (10
     minutes)
 
 <!-- -->
