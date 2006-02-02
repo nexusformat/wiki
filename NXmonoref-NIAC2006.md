@@ -40,7 +40,8 @@ layout: wiki
     *** accomodated in the spectrum measurement
   -->
 
-` `<NXinstrument>  
+` `<NXinstrument>
+
 `   `<C !-- wavelength selection -->  
 `   `<NXcrystal name="monochromator">  
 `     `<wavelength />  
@@ -101,7 +102,8 @@ layout: wiki
 `         interpreted as inverting the scattering length density profile`  
 `         of the film (after accounting for absorption in the substrate. }`  
 `     `</azimuthal_angle>  
-`   `</NXdetector>  
+`   `</NXdetector>
+
 ` `</NXinstrument>
 
 ` `<NXsample>  

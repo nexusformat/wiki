@@ -35,6 +35,7 @@
   -->
 
   <NXinstrument>
+
     <C !-- wavelength selection -->
     <NXcrystal name="monochromator">
       <wavelength />
@@ -96,6 +97,7 @@
           of the film (after accounting for absorption in the substrate. }
       </azimuthal_angle>
     </NXdetector>
+
   </NXinstrument>
 
   <NXsample>
