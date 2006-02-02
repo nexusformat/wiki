@@ -202,12 +202,12 @@ ILL directors, and one is invited to the opening of the meeting.
 
 <!-- -->
 
--   “Demonstration” - Ray Osborn (10-15 minutes)
+-   “HDF software and utilities a sound and evolving foundation for
+    NeXus” - Elena Pourmal (10 minutes)
 
 <!-- -->
 
--   “HDF software and utilities a sound and evolving foundation for
-    NeXus” - Elena Pourmal (10 minutes)
+-   “Demonstration” - Ray Osborn (10-15 minutes)
 
 <!-- -->
 

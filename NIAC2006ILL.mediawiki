@@ -153,8 +153,8 @@ the meeting.
 
 * "The muon community" - Steve Cottrell (5-10 mins)
 
-* "Demonstration" -  Ray Osborn (10-15 minutes)
-
 * "HDF software and utilities a sound and evolving foundation for NeXus" - Elena Pourmal (10 minutes)
+
+* "Demonstration" -  Ray Osborn (10-15 minutes)
 
 * "Where we are today (and tomorrow) with this must-have solution" - Darren Kelly  (10 minutes)
