@@ -12,6 +12,7 @@ Present
 -   Stephen Cotrell (RAL)
 -   Ron Ghosh (ILL)
 -   Mark Konnecke (PSI)
+-   Laurent Lerusse(RAL)
 -   Stefan Flemming (HMI)
 
 Decisions
