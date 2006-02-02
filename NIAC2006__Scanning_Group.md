@@ -20,7 +20,16 @@ Decisions
 
 1. A scan is a set of tuples.
 
-Scan dimension is the slowest moving dimension, and is of length np.
+The intention is to associate intensity data with a collection of
+independent variables (e.g., motor positions, tunable physical
+quantities, etc.).
+
+Scan dimension is the slowest moving dimension, and is of length np
+(number of points).
+
+Scans can be an extension to “sit and count” measurements and may
+therefore be applied to parametric studies (e.g., varying sample
+temperature).
 
 2. Components of the tuples are stored in separate vectors in the
 instrument definition.
@@ -48,7 +57,9 @@ If the detectors can move relative to each other, or if they have
 separate analyzers, then we need a bank of detectors and analyzers. The
 Q/HKL coordinates are defined in NXsample as usual, but there is an
 additional leading dimension of length nd for each detector angle and
-analyzer.
+analyzer. Quantities that can be used as dimension scales must have the
+same dimensionality as the stored dataset (to make the association of
+intensity data with the other members of the measurement tuple).
 
 4. Optional components such as polarizers and analyzers are listed.
 
@@ -57,7 +68,8 @@ instrument though not required. Software which claims to fully support
 e.g. monochromatic reflectometers should treat polarizers and analyzers
 correctly.
 
-5. Sample contains optional |Q| for powder data samples with no HKL.
+5. Sample contains optional momentum transfer |Q| for powder data
+samples with no HKL.
 
 6. Agree on the definition of sample.
 
@@ -65,7 +77,8 @@ correctly.
 
 Applications which want to help the user select the appropriate runs
 will need to keep track of the range of data in the datafiles
-themselves. This may be part of the data catalogue at the institution.
+themselves. This may be part of the data catalogue at the institution
+(but not explicitly in the datafile?).
 
 To be decided
 -------------
