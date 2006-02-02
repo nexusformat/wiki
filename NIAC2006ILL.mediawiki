@@ -108,21 +108,17 @@ the meeting.
 * 1300 Lunch - ILL/ESRF joint restaurant
 * 1400 Review of HDF (Elena Pourmal; ESRF3-1-114)
 * 1430 Establishment of working groups
-** [[Synchrotron_Group]] (Andy Goetz)
-** [[TOF Group]] (Freddie Akeroyd)
-** [[Scanning Group]] (Paul Kienzle)
-** [[Technical Computing/API Group]] (Nick Maliszewskyj)
 * 1445 Break out into working groups (CIBB/ILL4-127/ESRF3-1-114/5)
 * 1600 Coffee (CIBB 214)
 * 1615 Generic detector discussion
-* 1645 Break out into working groups
+* 1645 Break out into working groups (see below)
 * 1930 Dinner - buffet at Guesthouse
 
 ====2nd February====
 * 0900   Introduction to using UML's and schemas to optimize code production (Darren Kelly)
 * 0930   Break out into working groups
 * 1045   Coffee CIBB-214
-* 1100   Break out into working groups
+* 1100   Break out into working groups (see below)
 * 1215   Reconvent in CIBB-214 for review
 * 1300   Lunch - ILL/ESRF joint resturant
 * 1400   Speakers convene to review presentation
@@ -136,7 +132,7 @@ the meeting.
 ====3rd February====
 * 0900   Plenary review of working group progress (CIBB 214)
 * 0915   Discussion of TOFraw proposal (Peter Peterson)
-* 0945   Break out into working groups
+* 0945   Break out into working groups (see below)
 * 1045   coffee (CIBB 214)
 * 1300   Lunch ILL/ESRF joint restaurant
 * 1400   Report from working groups and votes on resulting definitions (CIBB 214)
@@ -158,3 +154,10 @@ the meeting.
 * "Demonstration" -  Ray Osborn (10-15 minutes)
 
 * "Where we are today (and tomorrow) with this must-have solution" - Darren Kelly  (10 minutes)
+
+===Working Groups===
+
+* [[Synchrotron_Group]] (Andy Goetz)
+* [[TOF Group]] (Freddie Akeroyd)
+* [[Scanning Group]] (Paul Kienzle)
+* [[Technical Computing/API Group]] (Nick Maliszewskyj)

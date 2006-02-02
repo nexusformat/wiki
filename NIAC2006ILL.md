@@ -140,16 +140,10 @@ ILL directors, and one is invited to the opening of the meeting.
 -   1300 Lunch - ILL/ESRF joint restaurant
 -   1400 Review of HDF (Elena Pourmal; ESRF3-1-114)
 -   1430 Establishment of working groups
-    -   [Synchrotron\_Group](Synchrotron_Group "wikilink") (Andy Goetz)
-    -   [TOF Group](TOF_Group "wikilink") (Freddie Akeroyd)
-    -   [Scanning Group](Scanning_Group "wikilink") (Paul Kienzle)
-    -   [Technical Computing/API
-        Group](Technical_Computing/API_Group "wikilink") (Nick
-        Maliszewskyj)
 -   1445 Break out into working groups (CIBB/ILL4-127/ESRF3-1-114/5)
 -   1600 Coffee (CIBB 214)
 -   1615 Generic detector discussion
--   1645 Break out into working groups
+-   1645 Break out into working groups (see below)
 -   1930 Dinner - buffet at Guesthouse
 
 #### 2nd February
@@ -158,7 +152,7 @@ ILL directors, and one is invited to the opening of the meeting.
     production (Darren Kelly)
 -   0930 Break out into working groups
 -   1045 Coffee CIBB-214
--   1100 Break out into working groups
+-   1100 Break out into working groups (see below)
 -   1215 Reconvent in CIBB-214 for review
 -   1300 Lunch - ILL/ESRF joint resturant
 -   1400 Speakers convene to review presentation
@@ -176,7 +170,7 @@ ILL directors, and one is invited to the opening of the meeting.
 
 -   0900 Plenary review of working group progress (CIBB 214)
 -   0915 Discussion of TOFraw proposal (Peter Peterson)
--   0945 Break out into working groups
+-   0945 Break out into working groups (see below)
 -   1045 coffee (CIBB 214)
 -   1300 Lunch ILL/ESRF joint restaurant
 -   1400 Report from working groups and votes on resulting definitions
@@ -214,4 +208,12 @@ ILL directors, and one is invited to the opening of the meeting.
 
 -   “Where we are today (and tomorrow) with this must-have solution” -
     Darren Kelly (10 minutes)
+
+### Working Groups
+
+-   [Synchrotron\_Group](Synchrotron_Group "wikilink") (Andy Goetz)
+-   [TOF Group](TOF_Group "wikilink") (Freddie Akeroyd)
+-   [Scanning Group](Scanning_Group "wikilink") (Paul Kienzle)
+-   [Technical Computing/API
+    Group](Technical_Computing/API_Group "wikilink") (Nick Maliszewskyj)
 
