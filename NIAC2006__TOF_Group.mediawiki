@@ -19,6 +19,9 @@ This group was charged with discussing matters arising from the [[TOFRaw|NXTOFRW
 * Some thoughts about scans (now in NXTOFRWSC)
 * Additional attributes for 
 
+
+[[User:L.lerusse|Laurent Lerusse]]
+
 == Inheritance ==
 
 We would use a period (.) in a class name to denote inheritance and so define classes called NXdetector.area and NXdetector.point which would imply they inherited from NXdetector. The API would need a minor change so that is you asked for '''getnext("NXdetector")''' it would not look for an exact match of this string, but look for any NeXus class that started with the prefix "detector" and so would return either an NXarea_detector or NXpoint_detector etc.

@@ -35,6 +35,8 @@ Summary of main proposals in [TOFRaw](TOFRaw "wikilink")
 -   Some thoughts about scans (now in NXTOFRWSC)
 -   Additional attributes for
 
+[Laurent Lerusse](User%3AL.lerusse "wikilink")
+
 Inheritance
 -----------
 
