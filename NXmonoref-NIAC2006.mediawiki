@@ -1,13 +1,14 @@
- <C ?xml version="1.0" ?>
- <C !--
- Instrument Definition for Monochromatic Source Reflectometers.
- Editor: Paul Kienzle <pkienzle@nist.gov>
- Mangled_by: Nick Maliszewskyj <nickm@nist.gov>
- $Id$
- See http://www.neutron.anl.gov:8080/NeXus/5 for component definitions.
- -->
+<pre>
+<?xml version="1.0" ?>
+<!--
+Instrument Definition for Monochromatic Source Reflectometers.
+Editor: Paul Kienzle <pkienzle@nist.gov>
+Mangled_by: Nick Maliszewskyj <nickm@nist.gov>
+$Id$
+See http://www.neutron.anl.gov:8080/NeXus/5 for component definitions.
+-->
 
- <NXentry>
+<NXentry>
 
   <definition version="1.0" URL="http://www.nexus.anl.gov/instruments/xml/monoref.xml">
     NXmonoref
@@ -16,6 +17,19 @@
 
   <tag name="scan">"intensity|background+|background-|specular|rock|area"</tag>
   <tag name="polarization">"++|+-|-+|--|+|-"?</tag>
+
+  <NXsample>
+    <polar_angle type="NX_FLOAT[i]" units="degrees"/>
+    <momentum_transfer type="NX_FLOAT[i]" />
+  </NXsample>
+
+  <!--
+    *** link to spectrum measurement for intensity vs. wavelength
+    *** for a given slit setting
+  
+    *** warning: beam profile is not regular, but this effect is 
+    *** accomodated in the spectrum measurement
+  -->
   <intensity_scan NAPIlink="">
     {Slit scans for determining incident beam intensity}*
   </intensity_scan>
@@ -23,18 +37,6 @@
     {Off-specular scans for determining background intensity}*
   </background_scan>
 
-  <NXsample>
-    <polar_angle type="NX_FLOAT[i]" units="degrees"/>
-    <momentum_transfer type="NX_FLOAT[i]" />
-  </NXsample>
-
-  <C !--
-    *** link to spectrum measurement for intensity vs. wavelength
-    *** for a given slit setting
-  
-    *** warning: beam profile is not regular, but this effect is 
-    *** accomodated in the spectrum measurement
-  -->
 
   <NXinstrument>
 
@@ -43,7 +45,7 @@
       <wavelength />
     </NXcrystal>
 
-    <C !-- collimation -->
+    <!-- collimation -->
     <NXaperture name="pre[sample|detector]_slit#">
       <NXgeometry name="geometry">?
         <NXtranslation name="translation">
@@ -60,7 +62,7 @@
       </NXgeometry>
     </NXaperture>
 
-    <C !-- 
+    <!-- 
       The polarizer-flipper-guidefield combination selects polarization vectors 
       in and out of the sample.  A number of scans are required to tune the 
       instrument so that polarization is either 'up' or 'down' on the sample.  
@@ -133,4 +135,5 @@
       data points. }*
   </NXlog>
 
- </NXentry>
+</NXentry>
+</pre>
