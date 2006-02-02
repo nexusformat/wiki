@@ -4,8 +4,8 @@ permalink: NIAC2006:_Scanning_Group/
 layout: wiki
 ---
 
-TAS [NXmonotas-NIAC2006](NXmonotas-NIAC2006 "wikilink") Reflectometry
-[NXmonoref-NIAC2006](NXmonoref-NIAC2006 "wikilink")
+-   TAS [NXmonotas-NIAC2006](NXmonotas-NIAC2006 "wikilink")
+-   Reflectometry [NXmonoref-NIAC2006](NXmonoref-NIAC2006 "wikilink")
 
 Session 1
 ---------

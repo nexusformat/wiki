@@ -1,5 +1,5 @@
-TAS [[NXmonotas-NIAC2006]]
-Reflectometry [[NXmonoref-NIAC2006]]
+* TAS [[NXmonotas-NIAC2006]]
+* Reflectometry [[NXmonoref-NIAC2006]]
 
 ==Session 1==
 * Paul Kienzle (NIST)
