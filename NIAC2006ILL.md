@@ -78,7 +78,8 @@ Such groups might be
 
 **technical programming the api**
 
-'''instruments-1 3-axis/reflection/SAS/polarised/muons '''
+'''instruments-1 3-axis/reflection/[SAS](SAS "wikilink")/polarised/muons
+'''
 
 -   (step-scanning/multi-detector/X-ray/neutron)
 -   examples...

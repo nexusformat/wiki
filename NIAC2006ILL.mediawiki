@@ -56,7 +56,7 @@ rooms are envisaged at this meeting.  Such groups might be
 
 '''technical         programming the api'''
 
-'''instruments-1     3-axis/reflection/SAS/polarised/muons '''
+'''instruments-1     3-axis/reflection/[[SAS]]/polarised/muons '''
 * (step-scanning/multi-detector/X-ray/neutron)
 * examples...
 * update definitions
