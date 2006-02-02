@@ -109,12 +109,11 @@ layout: wiki
 ` `</NXinstrument>
 
 ` `<NXmonitor>  
-`   `<preset />  
-`   `<data />  
+`   `<data type="FLOAT32[np]" />  
 ` `</NXmonitor>
 
 ` `<NXlog name="timer">  
-`   `<start />  
+`   `<time />  
 `   `<value type="FLOAT32[np]" units="second" />  
 ` `</NXlog>
 
