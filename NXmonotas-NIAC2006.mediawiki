@@ -4,13 +4,16 @@
  NIAC Version: 0.1
  $Id: monotas.docbook,v 1.1 2005/06/14 16:50:35 pfp Exp $
  Template of a generic NeXus file containing neutron or x-ray triple-axis data.-->
+
  <NXentry name="{Name of entry}">
+
   <title />
   <definition URL="http://www.nexus.anl.gov/instruments/xml/NXmonotas.xml"
       version="1.0">
     NXmonotas
   </definition>
   <start_time />
+
   <NXsample name="sample">
     <name />
     <unit_cell />
@@ -48,14 +51,16 @@
       {Energy transfer of scan}
     </energy_transfer>
   </NXsample>
+
   <NXinstrument name="{Name of instrument}">
-    <NXcollimator name="premonochromator_collimator">
+
+    <NXcollimator name="premonochromator_collimator">?
       <type />
       <soller_angle />
-    ?</NXcollimator>
-    <NXfilter name="premonochromator_filter">
+    </NXcollimator>
+    <NXfilter name="premonochromator_filter">?
       <description />
-    ?</NXfilter>
+    </NXfilter>
     <NXcrystal name="monochromator">
       <type />
       <energy units="meV" type="NX_FLOAT32[np]">
@@ -94,12 +99,15 @@
         the analyzer}
       </azimuthal_angle>
     </NXdetector>
+
   </NXinstrument>
+
   <NXmonitor name="monitor">
     <mode />
     <preset />
     <data />
   </NXmonitor>
+
   <NXdata name="data">
     <Qh NAPIlink="NXentry/NXsample/Qh" />
     <Qk NAPIlink="NXentry/NXsample/Qk" />
@@ -108,4 +116,5 @@
     <counts NAPIlink="NXentry/NXinstrument/detector/counts" />
     <energy NAPIlink="NXentry/NXinstrument/analyzer/energy" />
   </NXdata>
+
  </NXentry>

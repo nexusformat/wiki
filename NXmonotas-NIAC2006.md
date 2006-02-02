@@ -9,16 +9,17 @@ layout: wiki
  Editor:  NIAC
  NIAC Version: 0.1
  $Id: monotas.docbook,v 1.1 2005/06/14 16:50:35 pfp Exp $
- Template of a generic NeXus file containing neutron or x-ray triple-axis data.-->  
-<NXentry name="{Name of entry}">  
-` `
+ Template of a generic NeXus file containing neutron or x-ray triple-axis data.-->
+
+<NXentry name="{Name of entry}">
 
 <title />
 ` `<definition URL="http://www.nexus.anl.gov/instruments/xml/NXmonotas.xml"
       version="1.0">  
 `   NXmonotas`  
 ` `</definition>  
-` `<start_time />  
+` `<start_time />
+
 ` `<NXsample name="sample">  
 `   `<name />  
 `   `<unit_cell />  
@@ -55,15 +56,17 @@ layout: wiki
 `   `<energy_transfer units="meV" type="NX_FLOAT32[nd,np]">  
 `     {Energy transfer of scan}`  
 `   `</energy_transfer>  
-` `</NXsample>  
-` `<NXinstrument name="{Name of instrument}">  
-`   `<NXcollimator name="premonochromator_collimator">  
+` `</NXsample>
+
+` `<NXinstrument name="{Name of instrument}">
+
+`   `<NXcollimator name="premonochromator_collimator">`?`  
 `     `<type />  
 `     `<soller_angle />  
-`   ?`</NXcollimator>  
-`   `<NXfilter name="premonochromator_filter">  
+`   `</NXcollimator>  
+`   `<NXfilter name="premonochromator_filter">`?`  
 `     `<description />  
-`   ?`</NXfilter>  
+`   `</NXfilter>  
 `   `<NXcrystal name="monochromator">  
 `     `<type />  
 `     `<energy units="meV" type="NX_FLOAT32[np]">  
@@ -101,13 +104,16 @@ layout: wiki
 `       {Azimuthal angle of the detector with respect to the beam incident on`  
 `       the analyzer}`  
 `     `</azimuthal_angle>  
-`   `</NXdetector>  
-` `</NXinstrument>  
+`   `</NXdetector>
+
+` `</NXinstrument>
+
 ` `<NXmonitor name="monitor">  
 `   `<mode />  
 `   `<preset />  
 `   `<data />  
-` `</NXmonitor>  
+` `</NXmonitor>
+
 ` `<NXdata name="data">  
 `   `<Qh NAPIlink="NXentry/NXsample/Qh" />  
 `   `<Qk NAPIlink="NXentry/NXsample/Qk" />  
@@ -115,5 +121,6 @@ layout: wiki
 `   `<energy_transfer NAPIlink="NXentry/NXsample/energy_transfer" />  
 `   `<counts NAPIlink="NXentry/NXinstrument/detector/counts" />  
 `   `<energy NAPIlink="NXentry/NXinstrument/analyzer/energy" />  
-` `</NXdata>  
+` `</NXdata>
+
 </NXentry>
