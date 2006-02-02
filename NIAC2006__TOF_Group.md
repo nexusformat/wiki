@@ -27,7 +27,8 @@ Summary of main proposals in [TOFRaw](TOFRaw "wikilink")
 1.  Some new meta-data names in NXentry for archiving and cataloguing of
     data
 2.  Some thoughts about scans (now moved to
-    [NXTOFRWSC](TOFRawScan "wikilink"))
+    [NXTOFRWSC](TOFRawScan "wikilink") and being considered by the
+    [Scanning Group](Scanning_Group "wikilink"))
 3.  General and Area detector specific NXdetector
 4.  Additional options for specifying pixel geometry with area detectors
     (edges, corners, etc.)

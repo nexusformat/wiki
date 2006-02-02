@@ -12,7 +12,7 @@ This group was charged with discussing matters arising from the [[TOFRaw|NXTOFRW
 
 [[TOFRaw]] 
 # Some new meta-data names in NXentry for archiving and cataloguing of data
-# Some thoughts about scans (now moved to [[TOFRawScan|NXTOFRWSC]])
+# Some thoughts about scans (now moved to [[TOFRawScan|NXTOFRWSC]] and being considered by the [[Scanning Group]])
 # General and Area detector specific NXdetector
 # Additional options for specifying pixel geometry with area detectors (edges, corners, etc.) 
 # New NXdetector_groups class for logically grouping and labelling detector elements
