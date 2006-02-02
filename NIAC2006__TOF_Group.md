@@ -22,8 +22,6 @@ discussion.
 Summary of main proposals in [TOFRaw](TOFRaw "wikilink")
 --------------------------------------------------------
 
-[TOFRaw](TOFRaw "wikilink")
-
 1.  Some new meta-data names in NXentry for archiving and cataloguing of
     data
 2.  Some thoughts about scans (now moved to

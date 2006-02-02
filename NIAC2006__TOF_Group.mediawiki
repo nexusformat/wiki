@@ -10,7 +10,6 @@ This group was charged with discussing matters arising from the [[TOFRaw|NXTOFRW
 
 ==Summary of main proposals in [[TOFRaw]]==
 
-[[TOFRaw]] 
 # Some new meta-data names in NXentry for archiving and cataloguing of data
 # Some thoughts about scans (now moved to [[TOFRawScan|NXTOFRWSC]] and being considered by the [[Scanning Group]])
 # General and Area detector specific NXdetector
