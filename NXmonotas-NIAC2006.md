@@ -4,7 +4,14 @@ permalink: NXmonotas-NIAC2006/
 layout: wiki
 ---
 
-<NXentry name="{Name of entry}">
+<COMMENT !--
+ URL:     http://www.nexus.anl.gov/classes/xml/NXmonotas.xml
+ Editor:  NIAC
+ NIAC Version: 0.1
+ $Id: monotas.docbook,v 1.1 2005/06/14 16:50:35 pfp Exp $
+ Template of a generic NeXus file containing neutron or x-ray triple-axis data.-->  
+<NXentry name="{Name of entry}">  
+` `
 
 <title />
 ` `<definition URL="http://www.nexus.anl.gov/instruments/xml/NXmonotas.xml"
@@ -108,6 +115,5 @@ layout: wiki
 `   `<energy_transfer NAPIlink="NXentry/NXsample/energy_transfer" />  
 `   `<counts NAPIlink="NXentry/NXinstrument/detector/counts" />  
 `   `<energy NAPIlink="NXentry/NXinstrument/analyzer/energy" />  
-` `</NXdata>
-
+` `</NXdata>  
 </NXentry>
