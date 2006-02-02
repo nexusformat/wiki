@@ -83,7 +83,8 @@ To be decided
 <!-- -->
 
 -   How do we know it is a scan?
--   What about scan intent, such as spec/back/slit?
+-   What about scan intent, such as spec/back/slit and ++/--
+    polarization?
 -   Where to store start time for each measurement?
     -   NXmonitor? Okay.
     -   NXdata? Data doesn't otherwise contain data.
@@ -108,8 +109,10 @@ To be decided
 
 <!-- -->
 
--   Polarizer/flipper: only want the angle of incidence on the sample,
-    not things such as flipper current from which it is derived.
+-   Polarizer/flipper: reduction only wants the angle of incidence on
+    the sample, not things such as flipper current from which it is
+    derived. Alternatively, use a scan intent tag such as
+    polarization=++.
 
 <!-- -->
 

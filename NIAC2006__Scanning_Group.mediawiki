@@ -44,7 +44,7 @@ Applications which want to help the user select the appropriate runs will need t
 * Are we using names such as precollimator_analyzer or are we using NXgeometry.component_index instead to figure out where things are.  Latter is slightly more work for reduction, but otherwise better.  What happens with multiple beam paths?
 
 * How do we know it is a scan?  
-* What about scan intent, such as spec/back/slit?  
+* What about scan intent, such as spec/back/slit and ++/-- polarization?  
 * Where to store start time for each measurement?
 ** NXmonitor? Okay.
 ** NXdata? Data doesn't otherwise contain data.
@@ -59,7 +59,7 @@ Applications which want to help the user select the appropriate runs will need t
 
 * Need NXbeamstop for details such as shadow on the detector.
 
-* Polarizer/flipper: only want the angle of incidence on the sample, not things such as flipper current from which it is derived.
+* Polarizer/flipper: reduction only wants the angle of incidence on the sample, not things such as flipper current from which it is derived.  Alternatively, use a scan intent tag such as polarization=++.
 
 * Partial reduction
 ** Summary data
