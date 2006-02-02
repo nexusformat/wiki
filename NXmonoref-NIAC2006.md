@@ -20,9 +20,6 @@ layout: wiki
       </definition>
       <start_time type="ISO8601" />
 
-      <tag name="scan">"intensity|background+|background-|specular|rock|area"</tag>
-      <tag name="polarization">"++|+-|-+|--|+|-"?</tag>
-
       <NXcharacterization name="intensity">*
         {Suggested spectrum measurement for intensity vs. wavelength
          for a given slit setting.  Warning: beam profile is not 
@@ -104,6 +101,7 @@ layout: wiki
               interpreted as inverting the scattering length density profile
               of the film (after accounting for absorption in the substrate. }
           </azimuthal_angle>
+          <counts />
         </NXdetector>
 
       </NXinstrument>
@@ -118,6 +116,9 @@ layout: wiki
       </NXlog>
 
       <NXdata>
+        <tag name="scan">"intensity|background+|background-|specular|rock|area"</tag>
+        <tag name="polarization">"++|+-|-+|--|+|-"?</tag>
+
         <momentum_transfer NAPIlink="NXentry/NXsample/momentum_transfer" />
         <theta NAPIlink="NXentry/NXsample/polar_angle" />
         <twotheta NAPIlink="NXentry/detector/polar_angle" />
@@ -127,7 +128,7 @@ layout: wiki
         <predetector_slit2 NAPIlink="NXentry/predetector_slit2/opening" />
         <counts NAPIlink="NXentry/detector/counts" signal=1 />
         <count_start NAPIlink="NXentry/timer/time" />
-        <count_length NAPIlink="NXentry/timer/value" />
+        <count_duration NAPIlink="NXentry/timer/value" />
         <count_monitor NAPIlink="NXentry/monitor/data" />
       </NXdata>
 
