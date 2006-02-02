@@ -24,6 +24,12 @@ either an NXarea\_detector or NXpoint\_detector etc.
 
 Following an inheritance system would allow for clearer definitions
 
+Implementation would be via a group attribute that would be written at
+object creation by the NeXus API. The API would come with a description
+of the current inheritance hierarchy and all parents of a class would be
+written to the new attribute, which would then be used by e.g. the
+**getnext** function
+
 NXdetector
 ----------
 
