@@ -152,7 +152,7 @@ Present: NickM, MarkK, PaulK, MatthiasD, Jens-UweH
 
 <!-- -->
 
--   TAS
+-   TAS \[agreed\]
     -   Fewer collimator types available than in NXcollimator...is this
         what we want? Similarly for filter. \[use base component as is\]
     -   HKL in sample rather than detector still feels wrong.
@@ -161,13 +161,15 @@ Present: NickM, MarkK, PaulK, MatthiasD, Jens-UweH
         description \[out of scope\]
     -   Polarization analysis:
         -   Store cross section measurements in separate NXentries
+            \[agreed\]
         -   Need refinements to NXflipper, NXpolarizer base classes
+            \[deferred\]
         -   Still need symbolic means of identifying which cross section
-            is which
+            is which \[deferred\]
 
 <!-- -->
 
--   Reflectometry
+-   Reflectometry \[good progress\]
     -   Generic scan for things which are not reflectometry
         measurements? \[out of scope\]
     -   How to link to background and slit scan? \[deferred\]

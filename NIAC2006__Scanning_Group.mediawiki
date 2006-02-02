@@ -80,16 +80,16 @@ Present: NickM, MarkK, PaulK, MatthiasD, Jens-UweH
 ** excluded data
 ** resolution function
 
-* TAS
+* TAS [agreed]
 ** Fewer collimator types available than in NXcollimator...is this what we want?  Similarly for filter. [use base component as is]
 ** HKL in sample rather than detector still feels wrong. [overruled]
 ** Add efficiency, deadtime and sampled portion to monitor description [out of scope]
 ** Polarization analysis:
-*** Store cross section measurements in separate NXentries
-*** Need refinements to NXflipper, NXpolarizer base classes
-*** Still need symbolic means of identifying which cross section is which
+*** Store cross section measurements in separate NXentries [agreed]
+*** Need refinements to NXflipper, NXpolarizer base classes [deferred]
+*** Still need symbolic means of identifying which cross section is which [deferred]
 
-* Reflectometry
+* Reflectometry [good progress]
 ** Generic scan for things which are not reflectometry measurements? [out of scope]
 ** How to link to background and slit scan? [deferred]
 ** NXcrystal is missing wavelength spread [calculate from mosaic]
