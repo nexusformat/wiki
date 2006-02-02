@@ -8,14 +8,13 @@
 
 == Inheritance ==
 
-We would use a . in a class name to denote inheritance and so define classes called NXdetector.area and NXdetector.point which would imply they inherited from NXdetector. The API would need a minor change so that is you asked for '''getnext("NXdetector")''' it swould not look for an exact match of this string, but look for any NeXus class that started with the prefix "detector" and so would return either an NXarea_detector or NXpoint_detector etc.
+We would use a period (.) in a class name to denote inheritance and so define classes called NXdetector.area and NXdetector.point which would imply they inherited from NXdetector. The API would need a minor change so that is you asked for '''getnext("NXdetector")''' it would not look for an exact match of this string, but look for any NeXus class that started with the prefix "detector" and so would return either an NXarea_detector or NXpoint_detector etc.
 
 Following an inheritance system would allow for clearer definitions
 
 == NXdetector ==
 
 Three types: point, linear and area
-
 
 == NXdetector.point ==
 
@@ -28,8 +27,8 @@ solid_angle[i]
 If desired, additional information about pixels (shape, engineering position) can be added via an NXgeometry[i]
 
 == NXdetector.linear ==
-NXgeometry[i] defines tube centre
-offet[j+1] or offset[j+1] defines edges of tube pixels
+NXgeometry[i] defines tube centre and
+pixel_edge[j+1] defines the edges of the pixels - if a pixel_size[j] array is also present it means the pixels have "dead space" between them  
 
 == NXdetector.area ==
 

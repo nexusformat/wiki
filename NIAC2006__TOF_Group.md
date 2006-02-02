@@ -17,10 +17,10 @@ Time-of-Flight Working Group
 Inheritance
 -----------
 
-We would use a . in a class name to denote inheritance and so define
-classes called NXdetector.area and NXdetector.point which would imply
-they inherited from NXdetector. The API would need a minor change so
-that is you asked for **getnext(“NXdetector”)** it swould not look for
+We would use a period (.) in a class name to denote inheritance and so
+define classes called NXdetector.area and NXdetector.point which would
+imply they inherited from NXdetector. The API would need a minor change
+so that is you asked for **getnext(“NXdetector”)** it would not look for
 an exact match of this string, but look for any NeXus class that started
 with the prefix “detector” and so would return either an
 NXarea\_detector or NXpoint\_detector etc.
@@ -45,8 +45,9 @@ position) can be added via an NXgeometry\[i\]
 NXdetector.linear
 -----------------
 
-NXgeometry\[i\] defines tube centre offet\[j+1\] or offset\[j+1\]
-defines edges of tube pixels
+NXgeometry\[i\] defines tube centre and pixel\_edge\[j+1\] defines the
+edges of the pixels - if a pixel\_size\[j\] array is also present it
+means the pixels have “dead space” between them
 
 NXdetector.area
 ---------------
