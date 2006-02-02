@@ -1,11 +1,12 @@
- <COMMENT !--
- URL:     http://www.nexus.anl.gov/classes/xml/NXmonotas.xml
- Editor:  NIAC
- NIAC Version: 0.1
- $Id: monotas.docbook,v 1.1 2005/06/14 16:50:35 pfp Exp $
- Template of a generic NeXus file containing neutron or x-ray triple-axis data.-->
+<pre>
+<!--
+URL:     http://www.nexus.anl.gov/classes/xml/NXmonotas.xml
+Editor:  NIAC
+NIAC Version: 0.1
+$Id: monotas.docbook,v 1.1 2005/06/14 16:50:35 pfp Exp $
+Template of a generic NeXus file containing neutron or x-ray triple-axis data.-->
 
- <NXentry name="{Name of entry}">
+<NXentry name="{Name of entry}">
 
   <title />
   <definition URL="http://www.nexus.anl.gov/instruments/xml/NXmonotas.xml"
@@ -120,4 +121,5 @@
     <energy NAPIlink="NXentry/NXinstrument/analyzer/energy" />
   </NXdata>
 
- </NXentry>
+</NXentry>
+</pre>
