@@ -108,11 +108,15 @@ layout: wiki
 
 ` `</NXinstrument>
 
-` `<NXmonitor name="monitor">  
-`   `<mode />  
+` `<NXmonitor>  
 `   `<preset />  
 `   `<data />  
 ` `</NXmonitor>
+
+` `<NXlog name="timer">  
+`   `<start />  
+`   `<value type="FLOAT32[np]" units="second" />  
+` `</NXlog>
 
 ` `<NXdata name="data">  
 `   `<Qh NAPIlink="NXentry/NXsample/Qh" />  
