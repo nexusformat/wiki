@@ -23,24 +23,20 @@ layout: wiki
       <tag name="scan">"intensity|background+|background-|specular|rock|area"</tag>
       <tag name="polarization">"++|+-|-+|--|+|-"?</tag>
 
+      <NXcharacterization name="intensity">*
+        {Suggested spectrum measurement for intensity vs. wavelength
+         for a given slit setting.  Warning: beam profile is not 
+         regular, but this effect is accomodated in the spectrum measurement}
+      </NXcharacterization>
+      <NXcharacterization name="background">*
+        {Suggested background measurement}
+      </NXcharacterization>
+
+
       <NXsample>
         <polar_angle type="NX_FLOAT[i]" units="degrees"/>
         <momentum_transfer type="NX_FLOAT[i]" />
       </NXsample>
-
-      <!--
-        *** link to spectrum measurement for intensity vs. wavelength
-        *** for a given slit setting
-      
-        *** warning: beam profile is not regular, but this effect is 
-        *** accomodated in the spectrum measurement
-      -->
-      <intensity_scan NAPIlink="">
-        {Slit scans for determining incident beam intensity}*
-      </intensity_scan>
-      <background_scan NAPIlink"">
-        {Off-specular scans for determining background intensity}*
-      </background_scan>
 
 
       <NXinstrument>
@@ -79,6 +75,9 @@ layout: wiki
           Raw values from the instrument, such as time dependent field applied
           to flipper coils or current on the current sheet can be recorded for
           specialized reduction programs which know how to handle them.
+
+          In practice, these fields can be dropped because we are tagging the
+          entry with polarization ++, etc.
           -->
         <NXpolarizer name="presample_polarizer">?</NXpolarizer>
         <NXflipper name="presample_flipper">?</NXflipper>
@@ -86,7 +85,7 @@ layout: wiki
         <NXpolarizer name="predetector_polarizer">?</NXpolarizer>
         <NXflipper name="predetector_flipper">?</NXflipper>
 
-        <C !-- detector may be protected by an attenuator and/or a beam stop -->
+        <!-- detector may be protected by an attenuator and/or a beam stop -->
         <NXattenuator>?
           <attenuator_transmission />
         </NXattenuator>
