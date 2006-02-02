@@ -27,9 +27,11 @@ layout: wiki
 ` `</intensity_scan>  
 ` `<background_scan NAPIlink"">  
 `   {Off-specular scans for determining background intensity}*`  
-` `</background_scan>  
+` `</background_scan>
+
 ` `<NXsample>  
 `   `<polar_angle type="NX_FLOAT[i]" units="degrees"/>  
+`   `<momentum_transfer type="NX_FLOAT[i]" />  
 ` `</NXsample>
 
 ` `<C !--
@@ -105,10 +107,6 @@ layout: wiki
 `   `</NXdetector>
 
 ` `</NXinstrument>
-
-` `<NXsample>  
-`   `<momentum_transfer type="NXFLOAT[np]" />  
-` `</NXsample>
 
 ` `<NXmonitor name="monitor">`?`  
 `   `<mode>`monitor`</mode>  
