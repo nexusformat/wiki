@@ -80,19 +80,30 @@ will need to keep track of the range of data in the datafiles
 themselves. This may be part of the data catalogue at the institution
 (but not explicitly in the datafile?).
 
-To be decided
--------------
+Session 2
+---------
+
+Present: NickM, MarkK, PaulK, MatthiasD, Jens-UweH
 
 -   How are detectors associated with detector number in the bank of
     analyzer case? Or is there only one detector with an additional
-    dimension?
+    dimension? \[option 2\]
 
 <!-- -->
 
 -   Are we using names such as precollimator\_analyzer or are we using
     NXgeometry.component\_index instead to figure out where things are.
     Latter is slightly more work for reduction, but otherwise better.
-    What happens with multiple beam paths?
+    \[answer: use symbolic name in NXdata and link to appropriate
+    element for varying; can reconstruct order from geometry;
+    NXgeometry.component\_index is required for each component; names of
+    particular components are part of the definition, matching the names
+    in the NXdata\]
+
+<!-- -->
+
+-   What happens with multiple beam paths? \[ignore this issue for now
+    since we invented analyzer banks\]
 
 <!-- -->
 
@@ -110,12 +121,13 @@ To be decided
 <!-- -->
 
 -   Definition should list fields and maybe attributes needed for
-    reduction; others should be dropped.
+    standard reduction for that instrument class; others should be
+    dropped from definition. \[agreed elsewhere\]
 
 <!-- -->
 
 -   Monitor and detector need efficiency and dead time correction
-    information
+    information \[out of scope\]
 
 <!-- -->
 
@@ -126,11 +138,15 @@ To be decided
 -   Polarizer/flipper: reduction only wants the angle of incidence on
     the sample, not things such as flipper current from which it is
     derived. Alternatively, use a scan intent tag such as
-    polarization=++.
+    polarization=++. \[unresolved\]
 
 <!-- -->
 
--   Partial reduction
+-   Links to calibration files \[out of scope\]
+
+<!-- -->
+
+-   Partial reduction \[out of scope\]
     -   Summary data
     -   treated data
     -   excluded data
@@ -140,18 +156,23 @@ To be decided
 
 -   TAS
     -   Fewer collimator types available than in NXcollimator...is this
-        what we want? Similarly for filter.
+        what we want? Similarly for filter. \[use base component as is\]
     -   HKL in sample rather than detector still feels wrong.
+        \[overruled\]
     -   Add efficiency, deadtime and sampled portion to monitor
-        description
-    -   Need polarizers and flippers?
+        description \[out of scope\]
+    -   Polarization analysis:
+        -   Store cross section measurements in separate NXentries
+        -   Need refinements to NXflipper, NXpolarizer base classes
+        -   Still need symbolic means of identifying which cross section
+            is which
 
 <!-- -->
 
 -   Reflectometry
     -   Generic scan for things which are not reflectometry
         measurements?
-    -   How to link to background and slit scan
+    -   How to link to background and slit scan?
     -   NXcrystal is missing wavelength spread
     -   How to store slits; how to reference in-plane and out of plane
         slits?
