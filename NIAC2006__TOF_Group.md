@@ -45,7 +45,7 @@ position) can be added via an NXgeometry\[i\]
 NXdetector.linear
 -----------------
 
-NXgeometry\[i\] defines tube centre offet\[j+1\] or offset\[i,j+1\]
+NXgeometry\[i\] defines tube centre offet\[j+1\] or offset\[j+1\]
 defines edges of tube pixels
 
 NXdetector.area

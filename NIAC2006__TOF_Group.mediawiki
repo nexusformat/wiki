@@ -29,7 +29,7 @@ If desired, additional information about pixels (shape, engineering position) ca
 
 == NXdetector.linear ==
 NXgeometry[i] defines tube centre
-offet[j+1] or offset[i,j+1] defines edges of tube pixels 
+offet[j+1] or offset[j+1] defines edges of tube pixels
 
 == NXdetector.area ==
 
