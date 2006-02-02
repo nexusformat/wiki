@@ -4,6 +4,9 @@ permalink: NIAC2006:_Scanning_Group/
 layout: wiki
 ---
 
+TAS [NXmonotas-NIAC2006](NXmonotas-NIAC2006 "wikilink") Reflectometry
+[NXmonoref-NIAC2006](NXmonoref-NIAC2006 "wikilink")
+
 Session 1
 ---------
 
@@ -152,7 +155,7 @@ Present: NickM, MarkK, PaulK, MatthiasD, Jens-UweH
 
 <!-- -->
 
--   TAS \[agreed\] [NXmonotas-NIAC2006](NXmonotas-NIAC2006 "wikilink")
+-   TAS \[agreed\]
     -   Fewer collimator types available than in NXcollimator...is this
         what we want? Similarly for filter. \[use base component as is\]
     -   HKL in sample rather than detector still feels wrong.
@@ -170,7 +173,6 @@ Present: NickM, MarkK, PaulK, MatthiasD, Jens-UweH
 <!-- -->
 
 -   Reflectometry \[good progress\]
-    [NXmonoref-NIAC2006](NXmonoref-NIAC2006 "wikilink")
     -   Generic scan for things which are not reflectometry
         measurements? \[out of scope\]
     -   How to link to background and slit scan? \[deferred\]
@@ -182,8 +184,4 @@ Present: NickM, MarkK, PaulK, MatthiasD, Jens-UweH
     -   Combine spec, back, slit, rock for all +- polarization in one
         entry? Or use separate entries?
     -   Scan start times
-
-<!-- -->
-
--   [SAS](SAS "wikilink")
 

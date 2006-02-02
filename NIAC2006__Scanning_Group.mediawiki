@@ -1,3 +1,6 @@
+TAS [[NXmonotas-NIAC2006]]
+Reflectometry [[NXmonoref-NIAC2006]]
+
 ==Session 1==
 * Paul Kienzle (NIST)
 * Nick Maliszewskyj (NIST)
@@ -80,7 +83,7 @@ Present: NickM, MarkK, PaulK, MatthiasD, Jens-UweH
 ** excluded data
 ** resolution function
 
-* TAS [agreed] [[NXmonotas-NIAC2006]]
+* TAS [agreed]
 ** Fewer collimator types available than in NXcollimator...is this what we want?  Similarly for filter. [use base component as is]
 ** HKL in sample rather than detector still feels wrong. [overruled]
 ** Add efficiency, deadtime and sampled portion to monitor description [out of scope]
@@ -89,7 +92,7 @@ Present: NickM, MarkK, PaulK, MatthiasD, Jens-UweH
 *** Need refinements to NXflipper, NXpolarizer base classes [deferred]
 *** Still need symbolic means of identifying which cross section is which [deferred]
 
-* Reflectometry [good progress] [[NXmonoref-NIAC2006]]
+* Reflectometry [good progress]
 ** Generic scan for things which are not reflectometry measurements? [out of scope]
 ** How to link to background and slit scan? [deferred]
 ** NXcrystal is missing wavelength spread [calculate from mosaic]
@@ -97,5 +100,3 @@ Present: NickM, MarkK, PaulK, MatthiasD, Jens-UweH
 ** Raw counts may be meaningless without normalization.
 ** Combine spec, back, slit, rock for all +- polarization in one entry?  Or use separate entries?
 ** Scan start times
-
-* [[SAS]]
