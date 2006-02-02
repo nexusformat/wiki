@@ -41,7 +41,7 @@ Applications which want to help the user select the appropriate runs will need t
 
 * How are detectors associated with detector number in the bank of analyzer case?  Or is there only one detector with an additional dimension?
 
-* Are we using names such as precollimator_analyzer or are we using component index instead to figure out where things are.  Latter is slightly more work for reduction, but otherwise better.  What happens with multiple beam paths?
+* Are we using names such as precollimator_analyzer or are we using NXgeometry.component_index instead to figure out where things are.  Latter is slightly more work for reduction, but otherwise better.  What happens with multiple beam paths?
 
 * How do we know it is a scan?  
 * What about scan intent, such as spec/back/slit?  

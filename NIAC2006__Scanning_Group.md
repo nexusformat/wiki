@@ -76,9 +76,9 @@ To be decided
 <!-- -->
 
 -   Are we using names such as precollimator\_analyzer or are we using
-    component index instead to figure out where things are. Latter is
-    slightly more work for reduction, but otherwise better. What happens
-    with multiple beam paths?
+    NXgeometry.component\_index instead to figure out where things are.
+    Latter is slightly more work for reduction, but otherwise better.
+    What happens with multiple beam paths?
 
 <!-- -->
 
