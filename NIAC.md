@@ -22,9 +22,10 @@ layout: wiki
     Radiation Facility, France
 -   [Pete Jemian](User%3APete_Jemian "wikilink"), Advanced Photon
     Source, USA
--   Przemek Klosowski, National Insitute of Standards and Technology,
-    USA
--   Mark Könnecke, Paul Scherrer Institut, Switzerland
+-   [Przemek Klosowski](User%3APrzemek_Klosowski "wikilink"), National
+    Insitute of Standards and Technology, USA
+-   [Mark Könnecke](User%3AMark_Koennecke "wikilink"), Paul Scherrer
+    Institut, Switzerland
 -   Peter Link, Technische Universität München, Germany
 -   [Raymond Osborn](User%3ARay "wikilink"), Argonne National
     Laboratory, USA (Chair)

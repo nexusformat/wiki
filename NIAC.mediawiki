@@ -7,8 +7,8 @@
 *Ron Ghosh, Institut Laue Langevin, France
 *[[User:Andygotz|Andrew Götz]], European Synchrotron Radiation Facility, France
 *[[User:Pete Jemian|Pete Jemian]], Advanced Photon Source, USA
-*Przemek Klosowski, National Insitute of Standards and Technology, USA
-*Mark Könnecke, Paul Scherrer Institut, Switzerland
+*[[User:Przemek Klosowski|Przemek Klosowski]], National Insitute of Standards and Technology, USA
+*[[User:Mark Koennecke|Mark Könnecke]], Paul Scherrer Institut, Switzerland
 *Peter Link, Technische Universität München, Germany
 *[[User:Ray|Raymond Osborn]], Argonne National Laboratory, USA (Chair)
 *Toshiya Otomo, KEK, Japan
