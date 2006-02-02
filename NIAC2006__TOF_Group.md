@@ -23,3 +23,18 @@ hierarchy so that the function **getnext(“NXdetector”)** would return
 either an NXarea\_detector or NXpoint\_detector etc.
 
 Following an inheritance system would allow for clearer definitions
+
+NXdetector
+----------
+
+Three types: NXpoint\_detector, NXlinear\_detector and NXarea\_detector
+
+NXpoint\_detector
+-----------------
+
+A collection of pixels **i** over some surface. Defined by:
+
+polar\_angle\[i\] distance\[i\] solid\_angle\[i\]
+
+If desired, additional information about pixels (shape, engineering
+position) can be added via an NXgeometry\[i\]

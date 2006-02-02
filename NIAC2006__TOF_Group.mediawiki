@@ -11,3 +11,19 @@
 e.g. define NXarea_detector and NXpoint_detector as inheriting from NXdetector; the API would need to have knowledge of the inheritance hierarchy so that the function '''getnext("NXdetector")''' would return either an NXarea_detector or NXpoint_detector etc.
 
 Following an inheritance system would allow for clearer definitions
+
+
+== NXdetector ==
+
+Three types: NXpoint_detector, NXlinear_detector and NXarea_detector
+
+
+== NXpoint_detector ==
+
+A collection of pixels '''i''' over some surface. Defined by:
+
+polar_angle[i]
+distance[i]
+solid_angle[i]
+
+If desired, additional information about pixels (shape, engineering position) can be added via an NXgeometry[i]
