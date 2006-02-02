@@ -41,3 +41,15 @@ polar\_angle\[i\] distance\[i\] solid\_angle\[i\]
 
 If desired, additional information about pixels (shape, engineering
 position) can be added via an NXgeometry\[i\]
+
+NXdetector.linear
+-----------------
+
+NXgeometry\[i\] defines tube centre offet\[j+1\] or offset\[i,j+1\]
+defines edges of tube pixels
+
+NXdetector.area
+---------------
+
+NXgeometry defines tube centre xoffet\[i+1\] and yoffset\[j+1\] defines
+edges of pixels
