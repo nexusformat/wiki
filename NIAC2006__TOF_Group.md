@@ -56,8 +56,24 @@ instance, it is something that is needed. For the moment we will just
 have an NXdetector with the **layout** variable indicating the type
 (area, point or linear)
 
-NXdetector
-----------
+### NXgeometry revisited
+
+Before giving the definitions a quick recap of
+[NXgeometry](NXgeometry "wikilink") is in order. This class, through its
+members [NXtranslation](NXtranslation "wikilink"),
+[NXorientation](NXorientation "wikilink") and
+[NXshape](NXshape "wikilink"), allows the position, orientation and
+physical extent (size) of an object, or set of objects, to be specified.
+Translation and orientation can be relative i.e. with respect to an
+arbitrary origin whihc is just another
+[NXgeometry](NXgeometry "wikilink") object which defines a point in
+space and a set of default axes directions. When we write
+NXgeometry\[i\] in the definitions below we do not mean an array of
+NXgeometry object (which is not allowed by NeXus) - instead we are using
+this as shorthand for indexing the **numobj** array dimension the
+[NXtranslation](NXtranslation "wikilink"),
+[NXorientation](NXorientation "wikilink") and
+[NXshape](NXshape "wikilink") objects within the NXgeometry
 
 Three types: point, linear and area
 
