@@ -91,7 +91,7 @@ layout: wiki
         </NXbeam_stop>
 
         <NXdetector>
-          <polar_angle type="NX_FLOAT[np]/>
+          <polar_angle type="NX_FLOAT[np] />
           <azimuthal_angle type="NX_FLOAT" units="degrees">
             { Indicate sense of scattering: 0 is front surface of sample, 
               180 is back surface of sample.  If 180, change the sign of the
