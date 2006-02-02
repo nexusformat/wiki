@@ -8,19 +8,16 @@
 
 == Inheritance ==
 
-e.g. define NXarea_detector and NXpoint_detector as inheriting from NXdetector; the API would need to have knowledge of the inheritance hierarchy so that the function '''getnext("NXdetector")''' would return either an NXarea_detector or NXpoint_detector etc.
+We would use a . in a class name to denote inheritance and so define classes called NXdetector.area and NXdetector.point which would imply they inherited from NXdetector. The API would need a minor change so that is you asked for '''getnext("NXdetector")''' it swould not look for an exact match of this string, but look for any NeXus class that started with the prefix "detector" and so would return either an NXarea_detector or NXpoint_detector etc.
 
 Following an inheritance system would allow for clearer definitions
 
-Implementation would be via a group attribute that would be written at object creation by the NeXus API. The API would come with a description of the current inheritance hierarchy and all parents of a class would be written to the new attribute, which would then be used by e.g. the '''getnext''' function 
-
-
 == NXdetector ==
 
-Three types: NXpoint_detector, NXlinear_detector and NXarea_detector
+Three types: point, linear and area
 
 
-== NXpoint_detector ==
+== NXdetector.point ==
 
 A collection of pixels '''i''' over some surface. Defined by:
 
