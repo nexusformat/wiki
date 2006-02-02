@@ -38,7 +38,7 @@
 
   <NXinstrument>
 
-    <C !-- wavelength selection -->
+    <!-- wavelength selection -->
     <NXcrystal name="monochromator">
       <wavelength />
     </NXcrystal>

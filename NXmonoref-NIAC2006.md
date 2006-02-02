@@ -44,7 +44,6 @@ layout: wiki
 
 ` `<NXinstrument>
 
-`   `<C !-- wavelength selection -->  
 `   `<NXcrystal name="monochromator">  
 `     `<wavelength />  
 `   `</NXcrystal>
