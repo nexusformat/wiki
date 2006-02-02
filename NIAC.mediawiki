@@ -1,18 +1,18 @@
 == [[Membership Dates|Current Members]] ==
 *[[User:FreddieAkeroyd|Frederick Akeroyd]], Rutherford Appleton Laboratory, UK (ISIS Representative)
 *[[User:Sicampbell|Stuart Campbell]], Diamond Light Source, UK
-*Stephen Cottrell, Rutherford Appleton Laboratory, UK (Muon Representative)
+*[[User:Stephen Cottrell|Stephen Cottrell]], Rutherford Appleton Laboratory, UK (Muon Representative)
 *[[User:drochner|Matthias Drochner]], Forschungzentrum Jülich, Germany
 *[[User:nick|Nick Hauser]], Australian Nuclear Science and Technology Organisation, Australia
-*Ron Ghosh, Institut Laue Langevin, France
-*[[User:Andygotz|Andrew Götz]], European Synchrotron Radiation Facility, France
+*[[User:Ron Ghosh|Ron Ghosh]], Institut Laue Langevin, France
+*[[User:Andy Gotz|Andrew Götz]], European Synchrotron Radiation Facility, France
 *[[User:Pete Jemian|Pete Jemian]], Advanced Photon Source, USA
 *[[User:Przemek Klosowski|Przemek Klosowski]], National Insitute of Standards and Technology, USA
 *[[User:Mark Koennecke|Mark Könnecke]], Paul Scherrer Institut, Switzerland
 *Peter Link, Technische Universität München, Germany
 *[[User:Ray|Raymond Osborn]], Argonne National Laboratory, USA (Chair)
 *Toshiya Otomo, KEK, Japan
-*[[User:Pfpeterson|Peter Peterson]], Spallation Neutron Source, USA (Executive Secretary)
+*[[User:Peter Peterson|Peter Peterson]], Spallation Neutron Source, USA (Executive Secretary)
 *[[User:Thomas Proffen|Thomas Proffen]], Los Alamos National Laboratory, USA
 
 == Constitution ==

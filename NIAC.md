@@ -11,14 +11,15 @@ layout: wiki
     Appleton Laboratory, UK (ISIS Representative)
 -   [Stuart Campbell](User%3ASicampbell "wikilink"), Diamond Light
     Source, UK
--   Stephen Cottrell, Rutherford Appleton Laboratory, UK (Muon
-    Representative)
+-   [Stephen Cottrell](User%3AStephen_Cottrell "wikilink"), Rutherford
+    Appleton Laboratory, UK (Muon Representative)
 -   [Matthias Drochner](User%3Adrochner "wikilink"), Forschungzentrum
     Jülich, Germany
 -   [Nick Hauser](User%3Anick "wikilink"), Australian Nuclear Science
     and Technology Organisation, Australia
--   Ron Ghosh, Institut Laue Langevin, France
--   [Andrew Götz](User%3AAndygotz "wikilink"), European Synchrotron
+-   [Ron Ghosh](User%3ARon_Ghosh "wikilink"), Institut Laue Langevin,
+    France
+-   [Andrew Götz](User%3AAndy_Gotz "wikilink"), European Synchrotron
     Radiation Facility, France
 -   [Pete Jemian](User%3APete_Jemian "wikilink"), Advanced Photon
     Source, USA
@@ -30,8 +31,8 @@ layout: wiki
 -   [Raymond Osborn](User%3ARay "wikilink"), Argonne National
     Laboratory, USA (Chair)
 -   Toshiya Otomo, KEK, Japan
--   [Peter Peterson](User%3APfpeterson "wikilink"), Spallation Neutron
-    Source, USA (Executive Secretary)
+-   [Peter Peterson](User%3APeter_Peterson "wikilink"), Spallation
+    Neutron Source, USA (Executive Secretary)
 -   [Thomas Proffen](User%3AThomas_Proffen "wikilink"), Los Alamos
     National Laboratory, USA
 
