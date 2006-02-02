@@ -14,8 +14,26 @@ Time-of-Flight Working Group
 -   [Thomas Proffen](User%3AThomas_Proffen "wikilink")
 -   [Jiro Suzuki](User%3AJiro_Suzuki "wikilink")
 
-This group was charged with discussing the proposed
-[TOFRaw](TOFRaw "wikilink") in preparation for a full group discussion.
+This group was charged with discussing matters arising from the [NXTOFRW
+- NeXus Time-of-Flight Raw File Format (simple sit and count
+case)](TOFRaw "wikilink") proposal in preparation for a full group
+discussion.
+
+Summary of main proposals in [TOFRaw](TOFRaw "wikilink")
+--------------------------------------------------------
+
+[TOFRaw](TOFRaw "wikilink")
+
+-   General and Area detector specific NXdetector
+-   Additional options for specifying pixel geometry with area detectors
+    (edges, corners, etc.)
+-   New NXdetector\_groups class for logically grouping and labelling
+    detector elements
+-   Some new meta-data names in NXentry for archiving and cataloguing of
+    data
+-   Representing hardware ganging of detectors
+-   Some thoughts about scans (now in NXTOFRWSC)
+-   Additional attributes for
 
 Inheritance
 -----------

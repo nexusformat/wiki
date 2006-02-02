@@ -6,8 +6,19 @@
 *[[User:Thomas Proffen|Thomas Proffen]]
 *[[User:Jiro Suzuki|Jiro Suzuki]]
 
-This group was charged with discussing the proposed [[TOFRaw]] in preparation for a full group discussion.
- 
+This group was charged with discussing matters arising from the [[TOFRaw|NXTOFRW  - NeXus Time-of-Flight Raw File Format (simple sit and count case)]] proposal in preparation for a full group discussion.
+
+==Summary of main proposals in [[TOFRaw]]==
+
+[[TOFRaw]] 
+* General and Area detector specific NXdetector
+* Additional options for specifying pixel geometry with area detectors (edges, corners, etc.) 
+* New NXdetector_groups class for logically grouping and labelling detector elements
+* Some new meta-data names in NXentry for archiving and cataloguing of data
+* Representing hardware ganging of detectors
+* Some thoughts about scans (now in NXTOFRWSC)
+* Additional attributes for 
+
 == Inheritance ==
 
 We would use a period (.) in a class name to denote inheritance and so define classes called NXdetector.area and NXdetector.point which would imply they inherited from NXdetector. The API would need a minor change so that is you asked for '''getnext("NXdetector")''' it would not look for an exact match of this string, but look for any NeXus class that started with the prefix "detector" and so would return either an NXarea_detector or NXpoint_detector etc.
