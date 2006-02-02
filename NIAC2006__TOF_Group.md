@@ -14,6 +14,9 @@ Time-of-Flight Working Group
 -   [Thomas Proffen](User%3AThomas_Proffen "wikilink")
 -   [Jiro Suzuki](User%3AJiro_Suzuki "wikilink")
 
+This group was charged with discussing the proposed
+[TOFRaw](TOFRaw "wikilink") in preparation for a full group discussion.
+
 Inheritance
 -----------
 
