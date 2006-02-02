@@ -34,18 +34,27 @@ Summary of main proposals in [TOFRaw](TOFRaw "wikilink")
     detector elements
 6.  Representing hardware ganging of detectors
 
-Inheritance
------------
+General and Area detector specific NXdetector
+---------------------------------------------
 
-We would use a period (.) in a class name to denote inheritance and so
-define classes called NXdetector.area and NXdetector.point which would
-imply they inherited from NXdetector. The API would need a minor change
-so that is you asked for **getnext(“NXdetector”)** it would not look for
-an exact match of this string, but look for any NeXus class that started
-with the prefix “detector” and so would return either an
-NXarea\_detector or NXpoint\_detector etc.
+### Inheritance of definitions
 
-Following an inheritance system would allow for clearer definitions
+To aid with making definitions clearer we spent some time considereing
+an inheritance system for NeXus. One method would be to use a period (.)
+in a class name to denote inheritance and so define classes called
+NXdetector.area and NXdetector.point which would imply they inherited
+from NXdetector. The API would need a minor change so that is you asked
+for **getnext(“NXdetector”)** it would not look for an exact match of
+this string, but look for any NeXus class that started with the prefix
+“detector” and so would return either an NXdetector.area or
+NXdetector.point etc. By using this (.) method the reading API does not
+need to know about separately about the inheritance structure as it is
+encoded in the name of the item when it is written by the API.
+
+Though we would not introduce such inheritance into the API at thois
+instance, it is something that is needed. For the moment we will just
+have an NXdetector with the **layout** variable indicating the type
+(area, point or linear)
 
 NXdetector
 ----------
@@ -83,4 +92,6 @@ Proposals
     Lerusse](User%3AL.lerusse "wikilink") has volunteered to produce a
     description such that any instruement definition that wishes can
     “conform to” this.
+2.  That NeXus implement inheritance in definitions and classes by a
+    method yet to be finalised.
 

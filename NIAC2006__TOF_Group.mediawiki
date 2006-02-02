@@ -17,11 +17,13 @@ This group was charged with discussing matters arising from the [[TOFRaw|NXTOFRW
 # New NXdetector_groups class for logically grouping and labelling detector elements
 # Representing hardware ganging of detectors
 
-== Inheritance ==
+==General and Area detector specific NXdetector==
 
-We would use a period (.) in a class name to denote inheritance and so define classes called NXdetector.area and NXdetector.point which would imply they inherited from NXdetector. The API would need a minor change so that is you asked for '''getnext("NXdetector")''' it would not look for an exact match of this string, but look for any NeXus class that started with the prefix "detector" and so would return either an NXarea_detector or NXpoint_detector etc.
+===Inheritance of definitions===
 
-Following an inheritance system would allow for clearer definitions
+To aid with making definitions clearer we spent some time considereing an inheritance system for NeXus. One method would be to use a period (.) in a class name to denote inheritance and so define classes called NXdetector.area and NXdetector.point which would imply they inherited from NXdetector. The API would need a minor change so that is you asked for '''getnext("NXdetector")''' it would not look for an exact match of this string, but look for any NeXus class that started with the prefix "detector" and so would return either an NXdetector.area or NXdetector.point etc. By using this (.) method the reading API does not need to know about separately about the inheritance structure as it is encoded in the name of the item when it is written by the API.
+
+Though we would not introduce such inheritance into the API at thois instance, it is something that is needed. For the moment we will just have an NXdetector with the '''layout'''  variable indicating the type (area, point or linear)
 
 == NXdetector ==
 
@@ -52,3 +54,4 @@ xoffet[i+1] and yoffset[j+1] defines edges of pixels
 ==Proposals==
 
 # That the new data items in required in NXentry and NXuser for archiving be ratified. [[User:L.lerusse|Laurent Lerusse]] has volunteered to produce a description such that any instruement definition that wishes can "conform to" this.
+# That NeXus implement inheritance in definitions and classes by a method yet to be finalised.
