@@ -27,13 +27,13 @@ layout: wiki
             {Number of turns/cm in guide field coils}?
         </guide_turns>
         <flip_current type="NX_FLOAT" units="amperes">
-            {Flipping field coil current in "on" state"}?
+            {Flipping field coil current in "on" state}?
         </flip_current>
         <comp_current type="NX_FLOAT" units="amperes">
-            {Compensating field coil current in "on" state"}?
+            {Compensating field coil current in "on" state}?
         </comp_current>
         <guide_current type="NX_FLOAT" units="amperes">
-            {Guide field coil current in "on" state"}?
+            {Guide field coil current in "on" state}?
         </guide_current>
         <thickness type="NX_FLOAT" units="cm">
             {thickness along path of neutron travel}?
