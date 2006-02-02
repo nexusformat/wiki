@@ -11,16 +11,12 @@ This group was charged with discussing matters arising from the [[TOFRaw|NXTOFRW
 ==Summary of main proposals in [[TOFRaw]]==
 
 [[TOFRaw]] 
-* General and Area detector specific NXdetector
-* Additional options for specifying pixel geometry with area detectors (edges, corners, etc.) 
-* New NXdetector_groups class for logically grouping and labelling detector elements
-* Some new meta-data names in NXentry for archiving and cataloguing of data
-* Representing hardware ganging of detectors
-* Some thoughts about scans (now in NXTOFRWSC)
-* Additional attributes for 
-
-
-[[User:L.lerusse|Laurent Lerusse]]
+# Some new meta-data names in NXentry for archiving and cataloguing of data
+# Some thoughts about scans (now moved to [[TOFRawScan|NXTOFRWSC]])
+# General and Area detector specific NXdetector
+# Additional options for specifying pixel geometry with area detectors (edges, corners, etc.) 
+# New NXdetector_groups class for logically grouping and labelling detector elements
+# Representing hardware ganging of detectors
 
 == Inheritance ==
 
@@ -50,3 +46,10 @@ pixel_edge[j+1] defines the edges of the pixels - if a pixel_size[j] array is al
 
 NXgeometry defines tube centre
 xoffet[i+1] and yoffset[j+1] defines edges of pixels
+
+
+
+
+==Proposals==
+
+# That the new data items in required in NXentry and NXuser for archiving be ratified. [[User:L.lerusse|Laurent Lerusse]] has volunteered to produce a description such that any instruement definition that wishes can "conform to" this.
