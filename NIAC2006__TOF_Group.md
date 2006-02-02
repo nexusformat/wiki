@@ -14,3 +14,12 @@ Time-of-Flight Working Group
 -   [Thomas Proffen](User%3AThomas_Proffen "wikilink")
 -   [Jiro Suzuki](User%3AJiro_Suzuki "wikilink")
 
+Inheritance
+-----------
+
+e.g. define NXarea\_detector and NXpoint\_detector as inheriting from
+NXdetector; the API would need to have knowledge of the inheritance
+hierarchy so that the function **getnext(“NXdetector”)** would return
+either an NXarea\_detector or NXpoint\_detector etc.
+
+Following an inheritance system would allow for clearer definitions

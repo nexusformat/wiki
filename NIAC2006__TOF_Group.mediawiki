@@ -5,3 +5,11 @@
 *[[User:Peter Peterson|Peter Peterson]]
 *[[User:Thomas Proffen|Thomas Proffen]]
 *[[User:Jiro Suzuki|Jiro Suzuki]]
+
+
+
+== Inheritance ==
+
+e.g. define NXarea_detector and NXpoint_detector as inheriting from NXdetector; the API would need to have knowledge of the inheritance hierarchy so that the function '''getnext("NXdetector")''' would return either an NXarea_detector or NXpoint_detector etc.
+
+Following an inheritance system would allow for clearer definitions
