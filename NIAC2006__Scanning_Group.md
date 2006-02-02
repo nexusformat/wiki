@@ -171,14 +171,15 @@ Present: NickM, MarkK, PaulK, MatthiasD, Jens-UweH
 
 -   Reflectometry
     -   Generic scan for things which are not reflectometry
-        measurements?
-    -   How to link to background and slit scan?
-    -   NXcrystal is missing wavelength spread
+        measurements? \[out of scope\]
+    -   How to link to background and slit scan? \[deferred\]
+    -   NXcrystal is missing wavelength spread \[calculate from mosaic\]
     -   How to store slits; how to reference in-plane and out of plane
         slits?
     -   Raw counts may be meaningless without normalization.
     -   Combine spec, back, slit, rock for all +- polarization in one
         entry? Or use separate entries?
+    -   Scan start times
 
 <!-- -->
 
