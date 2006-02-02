@@ -108,14 +108,14 @@ layout: wiki
 
 ` `</NXinstrument>
 
-` `<NXmonitor name="monitor">`?`  
-`   `<mode>`monitor`</mode>  
-`   `<data />  
-` `</NXmonitor>  
-` `<NXmonitor name="timer">`?`  
-`   `<mode>`timer`</mode>  
-`   `<data />  
+` `<NXmonitor>`?`  
+`   `<data type="FLOAT32[np]" />  
 ` `</NXmonitor>
+
+` `<NXlog name="timer">`?`  
+`   `<time />  
+`   `<value type="FLOAT32[np]" units="second" />  
+` `</NXlog>
 
 ` `<NXdata>  
 `   `<momentum_transfer NAPIlink="NXentry/NXsample/momentum_transfer" />  
@@ -125,13 +125,10 @@ layout: wiki
 `   `<presample_slit2 NAPIlink="NXentry/presample_slit2/opening" />  
 `   `<predetector_slit1 NAPIlink="NXentry/predetector_slit1/opening" />  
 `   `<predetector_slit2 NAPIlink="NXentry/predetector_slit2/opening" />  
-`   `<counts NAPIlink="NXentry/detector/counts" />  
-`   `<count_start type="NX_FLOAT[i]" units="second">  
-`     `  
-`     { start time of each measurement point relative to start time of entry. }`  
-`   `</count_start>  
-`   `<timer NAPIlink="NXentry/timer/data" />  
-`   `<monitor NAPIlink="NXentry/monitor/data" />  
+`   `<counts NAPIlink="NXentry/detector/counts" signal=1 />  
+`   `<count_start NAPIlink="NXentry/timer/time" />  
+`   `<count_length NAPIlink="NXentry/timer/value" />  
+`   `<count_monitor NAPIlink="NXentry/monitor/data" />  
 ` `</NXdata>
 
 ` `<NXlog name="??">  
