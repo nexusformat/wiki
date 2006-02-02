@@ -1,4 +1,4 @@
-==Present==
+==Session 1==
 * Paul Kienzle (NIST)
 * Nick Maliszewskyj (NIST)
 * Stephen Cotrell (RAL)
@@ -6,8 +6,7 @@
 * Mark Konnecke (PSI)
 * Laurent Lerusse(RAL)
 * Stefan Flemming (HMI)
-
-==Decisions==
+* Jens-Uwe Hoffmann (HMI)
 
 1. A scan is a set of tuples.
 

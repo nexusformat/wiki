@@ -4,8 +4,8 @@ permalink: NIAC2006:_Scanning_Group/
 layout: wiki
 ---
 
-Present
--------
+Session 1
+---------
 
 -   Paul Kienzle (NIST)
 -   Nick Maliszewskyj (NIST)
@@ -14,9 +14,7 @@ Present
 -   Mark Konnecke (PSI)
 -   Laurent Lerusse(RAL)
 -   Stefan Flemming (HMI)
-
-Decisions
----------
+-   Jens-Uwe Hoffmann (HMI)
 
 1. A scan is a set of tuples.
 
