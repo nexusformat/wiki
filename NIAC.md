@@ -11,7 +11,7 @@ layout: wiki
     Appleton Laboratory, UK (ISIS Representative)
 -   [Stuart Campbell](User%3ASicampbell "wikilink"), Diamond Light
     Source, UK
--   [Stephen Cottrell](User%3AStephen_Cottrell "wikilink"), Rutherford
+-   [Stephen Cottrell](User%3ASteve_Cottrell "wikilink"), Rutherford
     Appleton Laboratory, UK (Muon Representative)
 -   [Matthias Drochner](User%3Adrochner "wikilink"), Forschungzentrum
     Jülich, Germany
