@@ -40,8 +40,7 @@ layout: wiki
     *** accomodated in the spectrum measurement
   -->
 
-` `<NXinstrument>
-
+` `<NXinstrument>  
 `   `<C !-- wavelength selection -->  
 `   `<NXcrystal name="monochromator">  
 `     `<wavelength />  
@@ -102,9 +101,12 @@ layout: wiki
 `         interpreted as inverting the scattering length density profile`  
 `         of the film (after accounting for absorption in the substrate. }`  
 `     `</azimuthal_angle>  
-`   `</NXdetector>
-
+`   `</NXdetector>  
 ` `</NXinstrument>
+
+` `<NXsample>  
+`   `<momentum_transfer type="NXFLOAT[np]" />  
+` `</NXsample>
 
 ` `<NXmonitor name="monitor">`?`  
 `   `<mode>`monitor`</mode>  
@@ -116,11 +118,7 @@ layout: wiki
 ` `</NXmonitor>
 
 ` `<NXdata>  
-`   `<specular_Q type="NXFLOAT[i]" units="inverse angstroms"
-      offset="theta|twotheta|Q">  
-`     { For background scans, need to know the corresponding Q values`  
-`       in the specular scan.}?`  
-`     `</specular_Q>  
+`   `<momentum_transfer NAPIlink="NXentry/NXsample/momentum_transfer" />  
 `   `<theta NAPIlink="NXentry/NXsample/polar_angle" />  
 `   `<twotheta NAPIlink="NXentry/detector/polar_angle" />  
 `   `<presample_slit1 NAPIlink="NXentry/presample_slit1/opening" />  
