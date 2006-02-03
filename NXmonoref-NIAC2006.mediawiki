@@ -120,7 +120,7 @@ See http://www.neutron.anl.gov:8080/NeXus/5 for component definitions.
 
   <NXmonitor>?
     <momentum_transfer NAPIlink="NXentry/NXsample/momentum_transfer" />
-    <presample_slit1 NAPIlink="NXentry/presample_slit1/geometry/shape/size" />
+    <presample_slit1 NAPIlink="NXentry/presample_slit1/NXgeometry/NXshape/size" />
     <data type="FLOAT32[np]" signal=1 axes="momentum_transfer|presample_slit1" />
   </NXmonitor>
 
@@ -144,18 +144,18 @@ See http://www.neutron.anl.gov:8080/NeXus/5 for component definitions.
        *** Maybe require some of these, e.g., theta, two theta, momentum transfer, presample_slit1.
      -->
     <theta NAPIlink="NXentry/NXsample/polar_angle">?</theta>
-    <twotheta NAPIlink="NXentry/detector/polar_angle">?</twotheta>
+    <twotheta NAPIlink="NXentry/NXdetector/polar_angle">?</twotheta>
     <momentum_transfer NAPIlink="NXentry/NXsample/momentum_transfer">?</momentum_transfer>
-    <presample_slit1 NAPIlink="NXentry/presample_slit1/geometry/shape/size">?</presample_slit1>
-    <presample_slit2 NAPIlink="NXentry/presample_slit2/geometry/shape/size">?</presample_slit2>
-    <predetector_slit1 NAPIlink="NXentry/predetector_slit1/geometry/shape/size">?<predetector_slit1>
-    <predetector_slit2" NAPIlink="NXentry/predetector_slit2/geometry/shape/size">?<predetector_slit2>
+    <presample_slit1 NAPIlink="NXentry/presample_slit1/NXgeometry/NXshape/size">?</presample_slit1>
+    <presample_slit2 NAPIlink="NXentry/presample_slit2/NXgeometry/NXshape/size">?</presample_slit2>
+    <predetector_slit1 NAPIlink="NXentry/predetector_slit1/NXgeometry/NXshape/size">?<predetector_slit1>
+    <predetector_slit2" NAPIlink="NXentry/predetector_slit2/NXgeometry/NXshape/size">?<predetector_slit2>
 
     <!-- Counts and monitors -->
-    <counts NAPIlink="NXentry/detector/counts" signal="1" axes="momentum_transfer|presample_slit1" />
+    <counts NAPIlink="NXentry/NXdetector/counts" signal="1" axes="momentum_transfer|presample_slit1" />
     <count_start NAPIlink="NXentry/timer/time">?</count_start>
     <count_duration NAPIlink="NXentry/timer/value">?</count_duration>
-    <monitor NAPIlink="NXentry/monitor/data">?</count_monitor>
+    <monitor NAPIlink="NXentry/NXmonitor/data">?</count_monitor>
   </NXdata>
 
   <NXlog name="">*
