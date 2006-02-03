@@ -53,9 +53,9 @@ PJ – basic questions about which class contains which ?
 || NX_CHAR
 || synchrotron mode e.g. single bunch, multi bunch...
 |-
-! topup
-|| NX_INT
-|| flag indicating topup mode (0=no, 1=yes)
+! top_up
+|| NX_BOOLEAN
+|| flag indicating top-up mode
 |}
 
 <i>NXsource is more like NXfacility for us</i>
