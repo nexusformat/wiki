@@ -54,7 +54,9 @@ layout: wiki
               </distances>          
             </NXtranslation>
             <NXshape name="shape">
-              <shape />
+              <shape>
+                { Need to add "slit" to list of possible shapes. }
+              </shape>
               <size type="NX_FLOAT[nshapepars,np]" units="mm" />
             </NXshape>
           </NXgeometry>
@@ -74,7 +76,7 @@ layout: wiki
           specialized reduction programs which know how to handle them.
 
           In practice, these fields can be dropped because we are tagging the
-          entry with polarization ++, etc.
+          data entry with polarization ++, etc.
           -->
         <NXpolarizer name="presample_polarizer">?</NXpolarizer>
         <NXflipper name="presample_flipper">?</NXflipper>
@@ -107,7 +109,9 @@ layout: wiki
       </NXinstrument>
 
       <NXmonitor>?
-        <data type="FLOAT32[np]" />
+        <momentum_transfer NAPIlink="NXentry/NXsample/momentum_transfer" />
+        <presample_slit1 NAPIlink="NXentry/presample_slit1/geometry/shape/size" />
+        <data type="FLOAT32[np]" signal=1 axes="momentum_transfer|presample_slit1" />
       </NXmonitor>
 
       <NXlog name="timer">?
@@ -116,23 +120,34 @@ layout: wiki
       </NXlog>
 
       <NXdata>
-        <tag name="scan">"intensity|background+|background-|specular|rock|area"</tag>
-        <tag name="polarization">"++|+-|-+|--|+|-"?</tag>
+        <!-- Scan identification tags for the specific measurement type -->
+        <scan_type type="NX_CHAR"> 
+          { "intensity"|"background"|"specular"|"rock"|"slice"|"area" }
+        </scan_type>
+        <polarization_crosssection type="NX_CHAR">?
+          { "++"|"+-"|"-+"|"--"|"+"|"-" }
+        </polarization_crosssection>
 
-        <momentum_transfer NAPIlink="NXentry/NXsample/momentum_transfer" />
+        <!-- Scan variables
+           *** Note: these are renamed from their original location, which
+           *** which is a problem with the current API.
+         -->
         <theta NAPIlink="NXentry/NXsample/polar_angle" />
         <twotheta NAPIlink="NXentry/detector/polar_angle" />
-        <presample_slit1 NAPIlink="NXentry/presample_slit1/opening" />
-        <presample_slit2 NAPIlink="NXentry/presample_slit2/opening" />
-        <predetector_slit1 NAPIlink="NXentry/predetector_slit1/opening" />
-        <predetector_slit2 NAPIlink="NXentry/predetector_slit2/opening" />
-        <counts NAPIlink="NXentry/detector/counts" signal=1 />
-        <count_start NAPIlink="NXentry/timer/time" />
-        <count_duration NAPIlink="NXentry/timer/value" />
-        <count_monitor NAPIlink="NXentry/monitor/data" />
+        <momentum_transfer NAPIlink="NXentry/NXsample/momentum_transfer" />
+        <presample_slit1 NAPIlink="NXentry/presample_slit1/geometry/shape/size" />
+        <presample_slit2 NAPIlink="NXentry/presample_slit2/geometry/shape/size">?</presample_slit2>
+        <predetector_slit1 NAPIlink="NXentry/predetector_slit1/geometry/shape/size">?<predetector_slit1>
+        <predetector_slit2" NAPIlink="NXentry/predetector_slit2/geometry/shape/size">?<predetector_slit2>
+
+        <!-- Counts and monitors -->
+        <counts NAPIlink="NXentry/detector/counts" signal="1" axes="momentum_transfer|presample_slit1" />
+        <count_start NAPIlink="NXentry/timer/time">?</count_start>
+        <count_duration NAPIlink="NXentry/timer/value">?</count_duration>
+        <monitor NAPIlink="NXentry/monitor/data">?</count_monitor>
       </NXdata>
 
-      <NXlog name="??">
+      <NXlog name="">
         { Various logs for temperature, field, etc. which are assumed to
           be constant over the duration of the run.  The reduction program
           should be able to display their values on a parallel graph.  Note
