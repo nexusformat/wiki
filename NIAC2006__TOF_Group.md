@@ -166,8 +166,8 @@ suffix on the ungrouped elements e.g. polar\_angle\_unganged. It was
 decided that creating a substructure within the NXdetector and putting
 the information there was better so we will now have e.g.
 
--   detector.counts\[i\] - gouped values
--   detector.polar\_angle\[i\] - gouped values
+-   detector.counts\[i\] - grouped values
+-   detector.polar\_angle\[i\] - grouped values
 -   detector.detector\_number\[i\] - identifier for each grouped
     detector
 -   detector.gang.polar\_angle\[j\] - raw values

@@ -85,8 +85,8 @@ As the detector is a rectangle we just need to specdify x and y offsets from the
 
 [[TOFRaw]] originally suggested using an '''_unganged''' suffix on the ungrouped elements e.g. polar_angle_unganged. It was decided that creating a substructure within the NXdetector and putting the information there was better so we will now have e.g.
 
-* detector.counts[i]   -  gouped values
-* detector.polar_angle[i]   -  gouped values
+* detector.counts[i]   -  grouped values
+* detector.polar_angle[i]   -  grouped values
 * detector.detector_number[i] - identifier for each grouped detector  
 * detector.gang.polar_angle[j]  -  raw values
 * detector.gang.detector_number[j] - identifier for each raw detector  
