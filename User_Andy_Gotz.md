@@ -4,7 +4,12 @@ permalink: User:Andy_Gotz/
 layout: wiki
 ---
 
-Andy Gotz
+**Andy Gotz**
 
-European Synchrotron Radiation Facility 6 rue Jules Horowitz Grenoble
+European Synchrotron Radiation Facility
+
+6 rue Jules Horowitz
+
+Grenoble
+
 FRANCE
