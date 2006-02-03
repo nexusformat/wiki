@@ -30,3 +30,5 @@ I am in favour of the first solution because it prevents API-bloat. But
 what does everyone else think?
 
 Mark Koennecke, January, 6, 2006
+
+Decided: february, 3, 2006, we go with the incompatible change

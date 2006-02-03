@@ -21,3 +21,6 @@ think?
 
 
 Mark Koennecke, January, 6, 2006
+
+
+Decided: february, 3, 2006, we go with the incompatible change
