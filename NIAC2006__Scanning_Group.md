@@ -4,8 +4,12 @@ permalink: NIAC2006:_Scanning_Group/
 layout: wiki
 ---
 
--   TAS [NXmonotas-NIAC2006](NXmonotas-NIAC2006 "wikilink")
--   Reflectometry [NXmonoref-NIAC2006](NXmonoref-NIAC2006 "wikilink")
+-   Triple axis definition:
+    [NXmonotas-NIAC2006](NXmonotas-NIAC2006 "wikilink")
+-   Reflectometry definition:
+    [NXmonoref-NIAC2006](NXmonoref-NIAC2006 "wikilink")
+-   TOF Reflectometry definition:
+    [NXtofnref-NIAC2006](NXtofnref-NIAC2006 "wikilink")
 
 Session 1
 ---------

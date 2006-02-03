@@ -1,5 +1,6 @@
-* TAS [[NXmonotas-NIAC2006]]
-* Reflectometry [[NXmonoref-NIAC2006]]
+* Triple axis definition: [[NXmonotas-NIAC2006]]
+* Reflectometry definition: [[NXmonoref-NIAC2006]]
+* TOF Reflectometry definition: [[NXtofnref-NIAC2006]]
 
 ==Session 1==
 * Paul Kienzle (NIST)
