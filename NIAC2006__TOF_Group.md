@@ -34,8 +34,18 @@ Summary of main proposals in [TOFRaw](TOFRaw "wikilink")
     detector elements
 6.  Representing hardware ganging of detectors
 
-General and Area detector specific NXdetector
----------------------------------------------
+General, linear and Area detector specific NXdetector
+-----------------------------------------------------
+
+In all the definitions below we will leave out the Time-of-flight array
+index as what we are discussing is equally valid for non time-of-flight
+instruments. One new member of type NXgeometry called **origin** is
+introduced into all NXdetectors - this member is used to define a
+logical centre of the detector and its [NXshape](NXshape "wikilink")
+member defines a bounding box for the whole detector bank/array. If the
+[NXgeometry](NXgeometry "wikilink") instance **geometry** within
+NXdetector is used to specify pixel locations, it should be define
+positions relative to this detector origin.
 
 ### Inheritance of definitions
 
@@ -73,26 +83,54 @@ NXgeometry object (which is not allowed by NeXus) - instead we are using
 this as shorthand for indexing the **numobj** array dimension the
 [NXtranslation](NXtranslation "wikilink"),
 [NXorientation](NXorientation "wikilink") and
-[NXshape](NXshape "wikilink") objects within the NXgeometry
+[NXshape](NXshape "wikilink") objects within the
+[NXgeometry](NXgeometry "wikilink")
 
-Three types: point, linear and area
+### Type 1: Point Detector
 
-NXdetector.point
-----------------
+A point detector is the most general case and represents a collection of
+pixels **i** over some surface. Within the NXdetector all pixels
+properties would be indxed by **i** e.g.:
 
-A collection of pixels **i** over some surface. Defined by:
+-   NX\_CHAR layout = “point” (Really an Enum)
+-   NX\_INT counts\[i\]
+-   NX\_FLOAT polar\_angle\[i\]
+-   NX\_FLOAT distance\[i\]
+-   NX\_FLOAT solid\_angle\[i\]
 
-polar\_angle\[i\] distance\[i\] solid\_angle\[i\]
+If desired, additional information about each pixel (shape, engineering
+position) can be added via an
 
-If desired, additional information about pixels (shape, engineering
-position) can be added via an NXgeometry\[i\]
+-   NXgeometry geometry\[i\]
 
-NXdetector.linear
------------------
+instance **geometry**. Any detector can be represented by this general
+case, though in the case of e.g. flat rectangualar detectors it is
+useful to make use of simplifications introduced by this topology (see
+below).
 
-NXgeometry\[i\] defines tube centre and pixel\_edge\[j+1\] defines the
-edges of the pixels - if a pixel\_size\[j\] array is also present it
-means the pixels have “dead space” between them
+### NXdetector.linear
+
+Here we mean a collection of linear straight strips e.g. tubes. We have
+two indicies: **i** will label the strip/tube and **j** the position
+along the tube. All tubes must have the same number of pixels; if not,
+you must use the point detector representation above. The tubes do not
+need to be parallel - they just need to be straight. Thus:
+
+-   NX\_CHAR layout = “linear”
+-   NX\_INT counts\[i,j\]
+-   NX\_FLOAT polar\_angle\[i,j\]
+-   NX\_FLOAT distance\[i,j\]
+-   NX\_FLOAT solid\_angle\[i,j\]
+
+So far this just looks like the point detector, but with two array
+indices. However when we start adding geometry information the
+differences become clear. As the tubes are straight we need only specify
+a tube centre and an offset along the tube. Thus
+
+The difference is NXgeometry\[i\] defines tube centre and
+pixel\_edge\[j+1\] defines the edges of the pixels - if a
+pixel\_size\[j\] array is also present it means the pixels have “dead
+space” between them
 
 NXdetector.area
 ---------------
