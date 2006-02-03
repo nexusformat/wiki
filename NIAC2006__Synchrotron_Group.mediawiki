@@ -137,6 +137,16 @@ PJ – basic questions about which class contains which ?
 ! bending radius
 || NX_FLOAT
 || &nbsp;
+|
+|-
+!spectrum	
+||NXdata	
+||spectrum of insertion device	
+|
+|-
+!geometry
+||NXgeometry
+||position, orientation of insertion device
 |}
 
 ===Questions===
