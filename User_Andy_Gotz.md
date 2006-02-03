@@ -20,4 +20,4 @@ FRANCE
 
 Phone:+33  
 Fax: +33  
-Email: <goetz@esrf.fr>  
+Email: <andy.gotz@esrf.fr>  

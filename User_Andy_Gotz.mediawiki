@@ -7,4 +7,4 @@
 
 ;Phone:+33
 ;Fax: +33
-;Email: [mailto:goetz@esrf.fr goetz@esrf.fr]
+;Email: [mailto:andy.gotz@esrf.fr andy.gotz@esrf.fr]
