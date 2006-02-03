@@ -9,14 +9,14 @@ Nexus – Synchrotron breakout group
 
 These are notes from our first discussion on 2006-02-01
 
-present : AG (ESRF), RW (ESRF), PJ (APS), CM (Soleil), SL (Soleil), SC
+present : AG (ESRF), RW (ESRF), PJ (APS), CM (Soleil), SP (Soleil), SC
 (Diamond), LL (ISIS)
 
 RW – ESRF has their own format but willing to adopt
 
 PJ – need an international collaborative effort, EPICS low level
 
-SL – Soleil has adopted Nexus, need tools, developed a tango generic
+SP – Soleil has adopted Nexus, need tools, developed a tango generic
 system store data in Nexus, NO DATA to store yet, need to start quickly
 to store data, do not need a complete DTD
 
