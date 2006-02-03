@@ -216,6 +216,5 @@ ILL directors, and one is invited to the opening of the meeting.
 -   [Scanning Group](Scanning_Group "wikilink") (Paul Kienzle)
 -   [Technical Computing/API
     Group](Technical_Computing/API_Group "wikilink") (Nick Maliszewskyj)
--   [SAS:Small-Angle Scattering
-    Group](SAS:Small-Angle_Scattering_Group "wikilink") (Ron Ghosh)
+-   [Small-Angle Scattering Group](SAS "wikilink") (Ron Ghosh)
 
