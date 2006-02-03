@@ -4,6 +4,16 @@ permalink: NXtofnref-NIAC2006/
 layout: wiki
 ---
 
+Concerns:
+
+-   mono and tof reflectometry must inherit from a common base class;
+    the current definition of tofnref inheriting from monoref leaves the
+    definition of the monochromator in the TOF definition.
+-   SNS Liquids has two monitors, but our definitions only have one.
+    Both are not always active.
+
+<!-- -->
+
     <?xml version="1.0" ?>
     <!--
 
