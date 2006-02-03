@@ -21,20 +21,6 @@ stated in the [constitution](NIAC "wikilink").
 -   Thomas Proffen - Lujan Neutron Scattering Center, USA - presented
     letter
 
-### Expire September 8, 2006
-
--   Freddie Akeroyd - ISIS Pulsed Neutron Facility, UK (presented
-    letter)
--   Stephen Cottrell - ISIS Pulsed Muon Facility, UK
--   Ron Ghosh - Institut Laue Langevin, France
--   Nick Hauser - Bragg Institute, Australia
--   Przemek Klosowski - NIST Center for Neutron Research, USA
--   Mark Koennecke - SINQ, Switzerland - presented letter
--   Ray Osborn - Intense Pulsed Neutron Source, USA (Chair)
--   Toshiya Otomo - J-PARC, Japan
--   Thomas Proffen - Lujan Neutron Scattering Center, USA - presented
-    letter
-
 ### Expire October 21, 2007
 
 -   Peter Peterson - Spallation Neutron Source, USA (Executive
