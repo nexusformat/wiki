@@ -95,7 +95,7 @@ Such groups might be
 -   prototype treated data 1D,2D data
 -   rebinning, constant (Q,w)
 
-**[Synchrotron\_Group](Synchrotron_Group "wikilink") (Andy Gotz)**
+**[Synchrotron\_Group](Synchrotron_Group "wikilink") (Andy Götz)**
 
 -   this group will meet separately on the second and third days, and
     may be expected to offer objective feedback and criticism on the
@@ -188,7 +188,7 @@ ILL directors, and one is invited to the opening of the meeting.
 
 <!-- -->
 
--   “The potential for NeXus at synchrotron sources” - Andy Gotz (10
+-   “The potential for NeXus at synchrotron sources” - Andy Götz (10
     minutes)
 
 <!-- -->
@@ -211,7 +211,7 @@ ILL directors, and one is invited to the opening of the meeting.
 
 ### Working Groups
 
--   [Synchrotron\_Group](Synchrotron_Group "wikilink") (Andy Gotz)
+-   [Synchrotron\_Group](Synchrotron_Group "wikilink") (Andy Götz)
 -   [TOF Group](TOF_Group "wikilink") (Freddie Akeroyd)
 -   [Scanning Group](Scanning_Group "wikilink") (Paul Kienzle)
 -   [Technical Computing/API
