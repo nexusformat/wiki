@@ -85,11 +85,11 @@
   </NXinstrument>
 
   <NXdata>
-   <presample_slit1 axis="1" NAPIlink="entry/instrument/presample_slit1/geometry/shape/size"/>
-   <presample_slit2 axis="1" NAPIlink="entry/instrument/presample_slit2/geometry/shape/size"/>
-   <theta axis="1" NAPIlink="entry/sample/polar_angle"/>
-   <twotheta axis="1" NAPIlink="entry/instrument/detector/polar_angle"/>
-   <counts axes="[twotheta]" ratio="entry/monitor" NAPIlink="entry/instrument/detector/counts"/>
+   <presample_slit1 axis="1" NAPIlink="NXentry/NXinstrument/presample_slit1/NXgeometry/NXshape/size"/>
+   <presample_slit2 axis="1" NAPIlink="NXentry/NXinstrument/presample_slit2/NXgeometry/NXshape/size"/>
+   <theta axis="1" NAPIlink="NXentry/NXsample/polar_angle"/>
+   <twotheta axis="1" NAPIlink="NXentry/NXinstrument/detector/polar_angle"/>
+   <counts axes="[twotheta]" NAPIlink="NXentry/NXinstrument/NXdetector/counts"/>
    <count_start NAPIlink="NXentry/timer/time" />
    <count_duration NAPIlink="NXentry/timer/value" />
    <count_monitor NAPIlink="NXentry/monitor/data" />
