@@ -5,12 +5,12 @@ layout: wiki
 ---
 
 This is an attempt to summarize the various proposals that have been
-discussed on this page. Proposal 1 is, I believe
-([Ray](User%3ARay "wikilink")), the original proposal when NeXus was
-first designed (although we didn't link the data item itself as Freddie
-has sensibly suggested). If anyone thinks that the remaining proposals
-have been incorrectly summarized, please let the NeXus committee mailing
-list know as soon as possible.
+discussed on this page. Proposal 1 is, I believe ([Ray
+Osborn](User%3ARay_Osborn "wikilink")), the original proposal when NeXus
+was first designed (although we didn't link the data item itself as
+Freddie has sensibly suggested). If anyone thinks that the remaining
+proposals have been incorrectly summarized, please let the NeXus
+committee mailing list know as soon as possible.
 
 Proposal 1
 ----------
