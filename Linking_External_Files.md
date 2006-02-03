@@ -105,6 +105,7 @@ download, cache and access NeXus files scheme using cURL. Both versions
 would restrict external linking to groups.
 
 Decisions NIAC 2006, ILL, February 2006
+---------------------------------------
 
 -   mount becomes napimount
 -   NXinquirefile, which file we are actually
