@@ -81,6 +81,21 @@ As the detector is a rectangle we just need to specdify x and y offsets from the
 * pixel_size_x[k,i] # x extent of pixel
 * pixel_size_y[k,j] # y extent of pixel
 
+==Hardware detector ganging==
+
+[[TOFRaw]] originally suggested using an '''_unganged''' suffix on the ungrouped elements e.g. polar_angle_unganged. It was decided that creating a substructure within the NXdetector and putting the information there was better so we will now have e.g.
+
+* detector.counts[i]   -  gouped values
+* detector.polar_angle[i]   -  gouped values
+* detector.detector_number[i] - identifier for each grouped detector  
+* detector.gang.polar_angle[j]  -  raw values
+* detector.gang.polar_angle[j]  -  raw values
+* detector.gang.detector_number[j] - identifier for each raw detector  
+
+As for showing the maping scheme
+
+* detector.gang.gouping[j]  -  raw values
+
 ==Proposals==
 
 # That the new data items in required in NXentry and NXuser for archiving be ratified. [[User:L.lerusse|Laurent Lerusse]] has volunteered to produce a description such that any instruement definition that wishes can "conform to" this.

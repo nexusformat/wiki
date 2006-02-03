@@ -158,6 +158,27 @@ from the centre to indicate each pixel. Thus:
 -   pixel\_size\_x\[k,i\] \# x extent of pixel
 -   pixel\_size\_y\[k,j\] \# y extent of pixel
 
+Hardware detector ganging
+-------------------------
+
+[TOFRaw](TOFRaw "wikilink") originally suggested using an **\_unganged**
+suffix on the ungrouped elements e.g. polar\_angle\_unganged. It was
+decided that creating a substructure within the NXdetector and putting
+the information there was better so we will now have e.g.
+
+-   detector.counts\[i\] - gouped values
+-   detector.polar\_angle\[i\] - gouped values
+-   detector.detector\_number\[i\] - identifier for each grouped
+    detector
+-   detector.gang.polar\_angle\[j\] - raw values
+-   detector.gang.polar\_angle\[j\] - raw values
+-   detector.gang.detector\_number\[j\] - identifier for each raw
+    detector
+
+As for showing the maping scheme
+
+-   detector.gang.gouping\[j\] - raw values
+
 Proposals
 ---------
 
