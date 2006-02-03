@@ -15,4 +15,4 @@ There are two options:
 -   Keep DTD's in nexus-api cvs tree and be careful when tagging
 -   Two different repositories to prevent accidental versioning tagging
 
-Decision: separate versioning for DTD and NAPI.
+NIAC 2006, ILL: separate versioning for DTD and NAPI.
