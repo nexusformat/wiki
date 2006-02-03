@@ -4,6 +4,8 @@ permalink: NIAC2006:_Scanning_Group/
 layout: wiki
 ---
 
+Definitions for some measurement classes:
+
 -   Triple axis definition:
     [NXmonotas-NIAC2006](NXmonotas-NIAC2006 "wikilink")
 -   Reflectometry definition:
