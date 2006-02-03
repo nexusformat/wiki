@@ -111,16 +111,16 @@ below).
 ### Type 2: linear Detector
 
 Here we mean a collection of linear straight strips e.g. tubes. We have
-two indicies: **i** will label the strip/tube and **j** the position
+two indicies: **j** will label the strip/tube and **i** the position
 along the tube. All tubes must have the same number of pixels; if not,
 you must use the point detector representation above. The tubes do not
 need to be parallel - they just need to be straight. Thus:
 
 -   NX\_CHAR layout = “linear” (Really an Enum)
--   NX\_INT counts\[i,j\]
--   NX\_FLOAT polar\_angle\[i,j\]
--   NX\_FLOAT distance\[i,j\]
--   NX\_FLOAT solid\_angle\[i,j\]
+-   NX\_INT counts\[j,i\]
+-   NX\_FLOAT polar\_angle\[j,i\]
+-   NX\_FLOAT distance\[j,i\]
+-   NX\_FLOAT solid\_angle\[j,i\]
 
 So far this just looks like the point detector, but with two array
 indices rather than one. However when we start adding geometry
@@ -128,11 +128,11 @@ information the differences become more clear. As the tubes are straight
 we need only specify a location of the tube centre and an offset along
 the tube. Thus:
 
--   NXgeometry geometry\[i\] \# defines tube/strip centre; each NXshape
+-   NXgeometry geometry\[j\] \# defines tube/strip centre; each NXshape
     member give the tube size and shape; each NXorientation member
     rotates the axes such that **x** points along each tube.
--   pixel\_offset\[j\] \# offset from tube centre of each pixel centre
--   pixel\_size\[j\] \# size of each pixel
+-   pixel\_offset\[i\] \# offset from tube centre of each pixel centre
+-   pixel\_size\[i\] \# size of each pixel
 
 ### Type 3: Area Detector
 
@@ -142,15 +142,15 @@ and **j** the pixel along the local y axis. Using a third index **k**
 allows us to represent a group of such detectors so:
 
 -   NX\_CHAR layout = “area” (Really an Enum)
--   NX\_INT counts\[k,i,j\]
--   NX\_FLOAT polar\_angle\[k,i,j\]
--   NX\_FLOAT distance\[k,i,j\]
--   NX\_FLOAT solid\_angle\[k,i,j\]
+-   NX\_INT counts\[k,j,i\]
+-   NX\_FLOAT polar\_angle\[k,j,i\]
+-   NX\_FLOAT distance\[k,j,i\]
+-   NX\_FLOAT solid\_angle\[k,j,i\]
 
 As the detector is a rectangle we just need to specdify x and y offsets
 from the centre to indicate each pixel. Thus:
 
--   NXgeometry geometry\[k\] defines detector centre and extent
+-   NXgeometry geometry\[k\] defines each detector centre and extent
 -   pixel\_offset\_x\[k,i\] \# offset from detector centre of each
     pixel's x centre
 -   pixel\_offset\_y\[k,j\] \# offset from detector centre of each
