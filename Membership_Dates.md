@@ -9,9 +9,22 @@ listed below. If a member wishes to be renewed, they must provide a
 letter of support from the facility and be approved by the NIAC as
 stated in the [constitution](NIAC "wikilink").
 
+### Expire Feburary 3, 2009
+
+-   Freddie Akeroyd - ISIS Pulsed Neutron Facility, UK - presented
+    letter
+-   Stephen Cottrell - ISIS Pulsed Muon Facility, UK - presented letter
+-   Emmanuel Farhi - Institut Laue Langevin, France - presented letter
+-   Pete Jemian - APS, ANL, USA - presented letter - presented letter
+-   Mark Koennecke - SINQ, Switzerland - presented letter - presented
+    letter
+-   Thomas Proffen - Lujan Neutron Scattering Center, USA - presented
+    letter
+
 ### Expire September 8, 2006
 
--   Freddie Akeroyd - ISIS Pulsed Neutron Facility, UK
+-   Freddie Akeroyd - ISIS Pulsed Neutron Facility, UK (presented
+    letter)
 -   Stephen Cottrell - ISIS Pulsed Muon Facility, UK
 -   Ron Ghosh - Institut Laue Langevin, France
 -   Nick Hauser - Bragg Institute, Australia
