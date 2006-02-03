@@ -116,8 +116,9 @@ classes. It is the role of the NeXus International Advisory Committee to
 ratify those base classes, and to approve modifications when they are
 proposed. This is the current procedure:
 
-1.  The current version of the base classes shall be kept on the NeXus
-    Swiki so that people can post suggested modifications.
+1.  The current version of the base classes shall be kept on the [NeXus
+    wiki](Main_page "wikilink") so that people can post suggested
+    modifications.
 2.  The Executive Secretary of the NIAC will review those changes at
     regular intervals, monthly or bimonthly. If in his or her judgement,
     a reasonable proposal has been made, the information will be

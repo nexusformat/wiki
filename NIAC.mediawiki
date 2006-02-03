@@ -45,7 +45,7 @@ The committee reserves the right to appoint additional members for a limited per
 == Procedures ==
 === Ratification of Base Classes ===
 The NeXus format is defined as a series of XML files describing both the base classes and generic instruments that contain a subset of those classes. It is the role of the NeXus International Advisory Committee to ratify those base classes, and to approve modifications when they are proposed. This is the current procedure:
-#The current version of the base classes shall be kept on the NeXus Swiki so that people can post suggested modifications.
+#The current version of the base classes shall be kept on the [[Main_page|NeXus wiki]] so that people can post suggested modifications.
 #The Executive Secretary of the NIAC will review those changes at regular intervals, monthly or bimonthly. If in his or her judgement, a reasonable proposal has been made, the information will be forwarded to the NIAC mailing list for discussion. If the change is significant, or has implications for backward compatibility, the proposal will also be sent to the NeXus mailing list.
 #The members of NIAC have one month to make comments concerning the proposed changes, after which the Executive Secretary will formulate a proposal based both on the original suggestion and the subsequent debate, and send it to the mailing list.
 #This will be voted on by the committee by email. At least two-thirds of the committee must vote. Changes will be approved by a majority of the whole committee.
