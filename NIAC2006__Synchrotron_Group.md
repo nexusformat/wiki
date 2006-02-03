@@ -73,7 +73,8 @@ PJ – basic questions about which class contains which ?
 
 | Name      | Type        | Description                                |
 |-----------|-------------|--------------------------------------------|
-| name      | | NX\_CHAR  | | name of insertion device                 |
+| name      | | NX\_CHAR  | | name of insertion device (ID33, UD02)    |
+| type      | | NX\_CHAR  | | undulator, wiggler                       |
 | gap       | | NX\_FLOAT | | gap in mm                                |
 | taper     | | NX\_FLOAT | | taper in mm                              |
 | phase     | |NX\_FLOAT  | |phase in degrees                          |

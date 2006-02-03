@@ -68,7 +68,11 @@ PJ – basic questions about which class contains which ?
 |-
 ! name 
 || NX_CHAR    
-|| name of insertion device
+|| name of insertion device (ID33, UD02)
+|-
+! type 
+|| NX_CHAR    
+|| undulator, wiggler
 |-
 ! gap
 || NX_FLOAT
