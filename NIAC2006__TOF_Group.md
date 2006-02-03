@@ -78,7 +78,7 @@ Translation and orientation can be relative i.e. with respect to an
 arbitrary origin whihc is just another
 [NXgeometry](NXgeometry "wikilink") object which defines a point in
 space and a set of default axes directions. When we write
-NXgeometry\[i\] in the definitions below we do not mean an array of
+**NXgeometry\[i\]** in the definitions below we do not mean an array of
 NXgeometry object (which is not allowed by NeXus) - instead we are using
 this as shorthand for indexing the **numobj** array dimension the
 [NXtranslation](NXtranslation "wikilink"),
@@ -108,7 +108,7 @@ case, though in the case of e.g. flat rectangualar detectors it is
 useful to make use of simplifications introduced by this topology (see
 below).
 
-### NXdetector.linear
+### Type 2: linear Detector
 
 Here we mean a collection of linear straight strips e.g. tubes. We have
 two indicies: **i** will label the strip/tube and **j** the position
@@ -134,33 +134,29 @@ the tube. Thus:
 -   pixel\_offset\[j\] \# offset from tube centre of each pixel centre
 -   pixel\_size\[j\] \# size of each pixel
 
-NXdetector.area
----------------
+### Type 3: Area Detector
 
-Here we have a rectangle for which each position on the tube can be
-defined by two indices: **i** will label the pixel along the local
-detector **x** axis and **j** the pixel along the local y axis. Thus:
+Here we have a rectangle for which each position can be defined by two
+indices: **i** will label the pixel along the local detector **x** axis
+and **j** the pixel along the local y axis. Using a third index **k**
+allows us to represent a group of such detectors so:
 
 -   NX\_CHAR layout = “area” (Really an Enum)
--   NX\_INT counts\[i,j\]
--   NX\_FLOAT polar\_angle\[i,j\]
--   NX\_FLOAT distance\[i,j\]
--   NX\_FLOAT solid\_angle\[i,j\]
+-   NX\_INT counts\[k,i,j\]
+-   NX\_FLOAT polar\_angle\[k,i,j\]
+-   NX\_FLOAT distance\[k,i,j\]
+-   NX\_FLOAT solid\_angle\[k,i,j\]
 
-This again looks like the point detector, but with two array indices
-rather than one. However when we add geometry information the
-differences become more clear. As the detector is a rectangle we just
-need to specdify x and y offsets from the centre to indicate each pixel.
-Thus:
+As the detector is a rectangle we just need to specdify x and y offsets
+from the centre to indicate each pixel. Thus:
 
--   NXgeometry geometry not needed - detector centre specified by
-    **origin**
--   pixel\_offset\_x\[i\] \# offset from detector centre of each pixel's
-    x centre
--   pixel\_offset\_y\[j\] \# offset from detector centre of each pixel's
-    y centre
--   pixel\_size\_x\[i\] \# x extent of pixel
--   pixel\_size\_y\[j\] \# y extent of pixel
+-   NXgeometry geometry\[k\] defines detector centre and extent
+-   pixel\_offset\_x\[k,i\] \# offset from detector centre of each
+    pixel's x centre
+-   pixel\_offset\_y\[k,j\] \# offset from detector centre of each
+    pixel's y centre
+-   pixel\_size\_x\[k,i\] \# x extent of pixel
+-   pixel\_size\_y\[k,j\] \# y extent of pixel
 
 Proposals
 ---------
@@ -172,4 +168,5 @@ Proposals
     “conform to” this.
 2.  That NeXus implement inheritance in definitions and classes by a
     method yet to be finalised.
+3.  That the three types of detector repersentation are accepted
 
