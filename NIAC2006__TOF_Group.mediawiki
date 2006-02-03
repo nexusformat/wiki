@@ -93,7 +93,7 @@ As the detector is a rectangle we just need to specdify x and y offsets from the
 
 As for showing the mapping scheme, a simple scheme would be
 
-* detector.gang.gouping[j]  -  gives the grouped value '''i''' appropriate for each detector element '''j''' (only allows 1->1 mapping)
+* detector.gang.grouping[j]  -  gives the grouped value '''i''' appropriate for each detector element '''j''' (only allows 1->1 mapping)
 
 * An alternative is the gang_count and gang_index method in [[TOFRaw]], but this does require sorting of the polar_angle etc. arrays prior to writing to the file
 

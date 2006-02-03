@@ -176,7 +176,7 @@ the information there was better so we will now have e.g.
 
 As for showing the mapping scheme, a simple scheme would be
 
--   detector.gang.gouping\[j\] - gives the grouped value **i**
+-   detector.gang.grouping\[j\] - gives the grouped value **i**
     appropriate for each detector element **j** (only allows 1-&gt;1
     mapping)
 
