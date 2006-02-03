@@ -50,9 +50,10 @@ future online votes of the NeXus International Advisory Committee.
 ### No
 
   
-[JaneDoe](User%3AJaneDoe "wikilink") 15:30, 22 Jul 2005 (CDT)
+[Jane Doe](User%3AJane_Doe "wikilink") 15:30, 22 Jul 2005 (CDT)
 
-[Tproffen](User%3ATproffen "wikilink") 06:03, 25 Jul 2005 (CDT)
+[Thomas Proffen](User%3AThomas_Proffen "wikilink") 06:03, 25 Jul 2005
+(CDT)
 
 ### Abstain
 
