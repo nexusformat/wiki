@@ -7,7 +7,7 @@ layout: wiki
 Ray Osborn
 ----------
 
-### Chair, NeXus International Advisory Committee
+### Member, NeXus International Advisory Committee
 
 Address:Materials Science Division  
 Argonne National Laboratory
