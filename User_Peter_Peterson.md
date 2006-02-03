@@ -7,7 +7,7 @@ layout: wiki
 Peter Peterson
 --------------
 
-### Executive Secretary, NeXus International Advisory Committee
+### Chair, NeXus International Advisory Committee
 
 Address:Spallation Neutron Source  
 Oak Ridge National Laboratory
