@@ -4,6 +4,9 @@ permalink: NXmonotas-NIAC2006/
 layout: wiki
 ---
 
+Example:
+[NXmonotas\_example-NIAC2006](NXmonotas_example-NIAC2006 "wikilink")
+
     <!--
     URL:     http://www.nexus.anl.gov/classes/xml/NXmonotas.xml
     Editor:  NIAC
@@ -123,6 +126,9 @@ layout: wiki
         <Ql NAPIlink="NXentry/NXsample/Ql" />
         <energy_transfer NAPIlink="NXentry/NXsample/energy_transfer" />
         <counts NAPIlink="NXentry/NXinstrument/detector/counts" />
+        <count_start NAPIlink="NXentry/timer/time" />
+        <count_duration NAPIlink="NXentry/timer/value" />
+        <count_monitor NAPIlink="NXentry/NXmonitor/data" />
         <energy NAPIlink="NXentry/NXinstrument/analyzer/energy" />
       </NXdata>
 

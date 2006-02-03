@@ -1,3 +1,5 @@
+Example: [[NXmonotas_example-NIAC2006]]
+
 <pre>
 <!--
 URL:     http://www.nexus.anl.gov/classes/xml/NXmonotas.xml
@@ -118,6 +120,9 @@ Template of a generic NeXus file containing neutron or x-ray triple-axis data.--
     <Ql NAPIlink="NXentry/NXsample/Ql" />
     <energy_transfer NAPIlink="NXentry/NXsample/energy_transfer" />
     <counts NAPIlink="NXentry/NXinstrument/detector/counts" />
+    <count_start NAPIlink="NXentry/timer/time" />
+    <count_duration NAPIlink="NXentry/timer/value" />
+    <count_monitor NAPIlink="NXentry/NXmonitor/data" />
     <energy NAPIlink="NXentry/NXinstrument/analyzer/energy" />
   </NXdata>
 
