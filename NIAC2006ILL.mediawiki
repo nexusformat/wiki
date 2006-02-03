@@ -70,7 +70,7 @@ rooms are envisaged at this meeting.  Such groups might be
 * prototype treated data 1D,2D data
 * rebinning, constant (Q,w)
 
-'''[[Synchrotron_Group]] (A. Goetz)'''
+'''[[Synchrotron_Group]] (Andy Gotz)'''
 * this group will meet separately on the second and third days, and may be expected to offer objective feedback         and criticism on the NeXus project from their fresh point of view.
 
 It will be possible, too, to find additional space if other specific interest groups wish to meet separately.
@@ -157,7 +157,7 @@ the meeting.
 
 ===Working Groups===
 
-* [[Synchrotron_Group]] (Andy Goetz)
+* [[Synchrotron_Group]] (Andy Gotz)
 * [[TOF Group]] (Freddie Akeroyd)
 * [[Scanning Group]] (Paul Kienzle)
 * [[Technical Computing/API Group]] (Nick Maliszewskyj)
