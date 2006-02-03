@@ -103,3 +103,16 @@ days. I would implement a local disk access version first in order to
 get the mechanics right, followed by a version implementing the
 download, cache and access NeXus files scheme using cURL. Both versions
 would restrict external linking to groups.
+
+Decisions NIAC 2006, ILL, February 2006
+
+-   mount becomes napimount
+-   NXinquirefile, which file we are actually
+-   nxdir expanded to print and copy dependencies
+-   Files are searched in NX\_LOAD\_PATH
+-   getenv becomes napigetenv in order to address platform problems with
+    getenv
+-   External linking will only implement local linking first.
+-   If network linking is implemented, the use of libcurl is preferred.
+-   network linking is deferred, may be indefinitly
+
