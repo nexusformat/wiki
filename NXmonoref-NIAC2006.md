@@ -5,8 +5,10 @@ layout: wiki
 ---
 
 The following is the proposed monochromatic reflectometry definition.
-One detail that is missing is whether it is horizontal or vertical
-geometry.
+
+One detail that is missing is whether the reflectometer is horizontal or
+vertical geometry, but with slit and angles defined relative to the
+sample surface this doesn't matter.
 
     <?xml version="1.0" ?>
     <!--
