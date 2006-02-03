@@ -33,6 +33,8 @@ Example:
     Mangled_by: Nick Maliszewskyj <nickm@nist.gov>
     $Id$
     See http://www.neutron.anl.gov:8080/NeXus/5 for component definitions.
+
+    2006-02-03 Refined by NIAC group meetings.
     -->
 
     <NXentry>
