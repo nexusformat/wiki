@@ -137,7 +137,7 @@ This definition covers a single run experiment - extensions are proposed for [[T
 |-
 | 1	|| &nbsp; 	|| units|| 	NX_CHAR	|| second	|| &nbsp; 
 |-
-| 1	|| proton_charge	|| &nbsp; || 	NX_FLOAT	|| &nbsp; || &nbsp; 	
+| 0/1	|| proton_charge	|| &nbsp; || 	NX_FLOAT	|| &nbsp; || &nbsp; 	
 |-
 | 1	|| &nbsp; 	|| units|| 	NX_CHAR	|| microAmp*hour	|| &nbsp; 
 |-
