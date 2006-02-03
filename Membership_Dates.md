@@ -21,6 +21,13 @@ stated in the [constitution](NIAC "wikilink").
 -   Thomas Proffen - Lujan Neutron Scattering Center, USA - presented
     letter
 
+### Expire September 8, 2006
+
+-   Nick Hauser - Bragg Institute, Australia
+-   Przemek Klosowski - NIST Center for Neutron Research, USA
+-   Ray Osborn - Intense Pulsed Neutron Source, USA (Chair)
+-   Toshiya Otomo - J-PARC, Japan
+
 ### Expire October 21, 2007
 
 -   Peter Peterson - Spallation Neutron Source, USA (Executive
