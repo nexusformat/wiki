@@ -44,10 +44,10 @@ Example:
 
 
       <NXsample>
-        <polar_angle type="NX_FLOAT[i]" units="degrees">
+        <polar_angle type="NX_FLOAT[i]" units="degrees">?
            {Angle relative to the scattering plane, not to gravity.}
         </polar_angle>
-        <momentum_transfer type="NX_FLOAT[i]" />
+        <momentum_transfer type="NX_FLOAT[i]">{|Q|}?</momentum_transfeer>
       </NXsample>
 
 
@@ -72,7 +72,7 @@ Example:
             </NXtranslation>
             <NXshape name="shape">
               <shape>
-                { Need to add "slit" to list of possible shapes.  If the
+                { Need to add "nxslit" to list of possible shapes.  If the
                   shape is a box, first dimension changes the sample footprint. }
               </shape>
               <size type="NX_FLOAT[nshapepars,np]" units="mm" />
@@ -151,11 +151,12 @@ Example:
         <!-- Scan variables
            *** Note: these are renamed from their original location, which
            *** which is a problem with the current API.
+           *** Maybe require some of these, e.g., theta, two theta, momentum transfer, presample_slit1.
          -->
-        <theta NAPIlink="NXentry/NXsample/polar_angle" />
-        <twotheta NAPIlink="NXentry/detector/polar_angle" />
-        <momentum_transfer NAPIlink="NXentry/NXsample/momentum_transfer" />
-        <presample_slit1 NAPIlink="NXentry/presample_slit1/geometry/shape/size" />
+        <theta NAPIlink="NXentry/NXsample/polar_angle">?</theta>
+        <twotheta NAPIlink="NXentry/detector/polar_angle">?</twotheta>
+        <momentum_transfer NAPIlink="NXentry/NXsample/momentum_transfer">?</momentum_transfer>
+        <presample_slit1 NAPIlink="NXentry/presample_slit1/geometry/shape/size">?</presample_slit1>
         <presample_slit2 NAPIlink="NXentry/presample_slit2/geometry/shape/size">?</presample_slit2>
         <predetector_slit1 NAPIlink="NXentry/predetector_slit1/geometry/shape/size">?<predetector_slit1>
         <predetector_slit2" NAPIlink="NXentry/predetector_slit2/geometry/shape/size">?<predetector_slit2>
@@ -167,12 +168,12 @@ Example:
         <monitor NAPIlink="NXentry/monitor/data">?</count_monitor>
       </NXdata>
 
-      <NXlog name="">
+      <NXlog name="">*
         { Various logs for temperature, field, etc. which are assumed to
           be constant over the duration of the run.  The reduction program
           should be able to display their values on a parallel graph.  Note
           that logs are not necessarily sampled synchronously with the
-          data points. }*
+          data points. }
       </NXlog>
 
     </NXentry>
