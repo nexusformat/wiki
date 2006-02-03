@@ -4,6 +4,10 @@ permalink: NXmonoref-NIAC2006/
 layout: wiki
 ---
 
+The following is the proposed monochromatic reflectometry definition.
+One detail that is missing is whether it is horizontal or vertical
+geometry.
+
     <?xml version="1.0" ?>
     <!--
     Instrument Definition for Monochromatic Source Reflectometers.
@@ -31,7 +35,9 @@ layout: wiki
 
 
       <NXsample>
-        <polar_angle type="NX_FLOAT[i]" units="degrees"/>
+        <polar_angle type="NX_FLOAT[i]" units="degrees">
+           {Angle relative to the scattering plane, not to gravity.}
+        </polar_angle>
         <momentum_transfer type="NX_FLOAT[i]" />
       </NXsample>
 
@@ -40,6 +46,7 @@ layout: wiki
 
         <!-- wavelength selection -->
         <NXcrystal name="monochromator">
+          <!-- Include fields required to compute the wavelength L, and spread dL -->
           <wavelength />
         </NXcrystal>
 
@@ -55,7 +62,8 @@ layout: wiki
             </NXtranslation>
             <NXshape name="shape">
               <shape>
-                { Need to add "slit" to list of possible shapes. }
+                { Need to add "slit" to list of possible shapes.  If the
+                  shape is a box, first dimension changes the sample footprint. }
               </shape>
               <size type="NX_FLOAT[nshapepars,np]" units="mm" />
             </NXshape>
@@ -93,7 +101,9 @@ layout: wiki
         </NXbeam_stop>
 
         <NXdetector>
-          <polar_angle type="NX_FLOAT[np] />
+          <polar_angle type="NX_FLOAT[np]>
+            { Angle of the detector relative to the scattering plane. }
+          </polar_angle>
           <azimuthal_angle type="NX_FLOAT" units="degrees">
             { Indicate sense of scattering: 0 is front surface of sample, 
               180 is back surface of sample.  If 180, change the sign of the
