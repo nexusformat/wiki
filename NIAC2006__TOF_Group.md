@@ -171,13 +171,20 @@ the information there was better so we will now have e.g.
 -   detector.detector\_number\[i\] - identifier for each grouped
     detector
 -   detector.gang.polar\_angle\[j\] - raw values
--   detector.gang.polar\_angle\[j\] - raw values
 -   detector.gang.detector\_number\[j\] - identifier for each raw
     detector
 
-As for showing the maping scheme
+As for showing the mapping scheme, a simple scheme would be
 
--   detector.gang.gouping\[j\] - raw values
+-   detector.gang.gouping\[j\] - gives the grouped value **i**
+    appropriate for each detector element **j** (only allows 1-&gt;1
+    mapping)
+
+<!-- -->
+
+-   An alternative is the gang\_count and gang\_index method in
+    [TOFRaw](TOFRaw "wikilink"), but this does require sorting of the
+    polar\_angle etc. arrays prior to writing to the file
 
 Proposals
 ---------
