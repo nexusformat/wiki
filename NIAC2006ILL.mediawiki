@@ -161,3 +161,4 @@ the meeting.
 * [[TOF Group]] (Freddie Akeroyd)
 * [[Scanning Group]] (Paul Kienzle)
 * [[Technical Computing/API Group]] (Nick Maliszewskyj)
+* [[SAS:Small-Angle Scattering Group]] (Ron Ghosh)
