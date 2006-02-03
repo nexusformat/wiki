@@ -10,10 +10,10 @@ Here is an example motion (the real one will be on this page's '''Discussion''' 
 ==Motion==
 To follow the procedure described in [[Voting]] in future online votes of the NeXus International Advisory Committee.
 ===Yes===
-:[[User:Ray|Ray]] 15:30, 22 Jul 2005 (CDT)
-:[[User:Pfpeterson|Pfpeterson]] 15:30, 22 Jul 2005 (CDT)
-:[[User:JohnDoe|JohnDoe]] 15:30, 22 Jul 2005 (CDT)
-:[[User:Mkoennecke|Mkoennecke]] 08:00, 4 Aug 2005 (CDT)
+:[[User:Ray Osborn|Ray Osborn]] 15:30, 22 Jul 2005 (CDT)
+:[[User:Peter Peterson|Peter Peterson]] 15:30, 22 Jul 2005 (CDT)
+:[[User:John Doe|John Doe]] 15:30, 22 Jul 2005 (CDT)
+:[[User:Mark Koennecke|Mark Koennecke]] 08:00, 4 Aug 2005 (CDT)
 
 ===No===
 :[[User:JaneDoe|JaneDoe]] 15:30, 22 Jul 2005 (CDT)

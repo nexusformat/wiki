@@ -37,13 +37,15 @@ future online votes of the NeXus International Advisory Committee.
 ### Yes
 
   
-[Ray](User%3ARay "wikilink") 15:30, 22 Jul 2005 (CDT)
+[Ray Osborn](User%3ARay_Osborn "wikilink") 15:30, 22 Jul 2005 (CDT)
 
-[Pfpeterson](User%3APfpeterson "wikilink") 15:30, 22 Jul 2005 (CDT)
+[Peter Peterson](User%3APeter_Peterson "wikilink") 15:30, 22 Jul 2005
+(CDT)
 
-[JohnDoe](User%3AJohnDoe "wikilink") 15:30, 22 Jul 2005 (CDT)
+[John Doe](User%3AJohn_Doe "wikilink") 15:30, 22 Jul 2005 (CDT)
 
-[Mkoennecke](User%3AMkoennecke "wikilink") 08:00, 4 Aug 2005 (CDT)
+[Mark Koennecke](User%3AMark_Koennecke "wikilink") 08:00, 4 Aug 2005
+(CDT)
 
 ### No
 
