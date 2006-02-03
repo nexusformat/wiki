@@ -6,13 +6,22 @@ layout: wiki
 
 The following is the proposed monochromatic reflectometry definition.
 
-One detail that is missing is whether the reflectometer is horizontal or
-vertical geometry, but with slit and angles defined relative to the
-sample surface this doesn't matter.
+Concerns:
 
-Another detail is that I'm asking the control software to write the
-wavelength divergence into the file so that the user can read it off
-directly without performing calculations.
+-   Using classes rather than names in links (e.g., NXdetector) will
+    break if the user adds another detector group to the entry.
+-   I don't record whether the reflectometer is horizontal or vertical
+    geometry, but with slit and angles defined relative to the sample
+    surface this doesn't matter.
+-   I'm asking the control software to write the wavelength divergence
+    into the file so that the user can read it off directly without
+    performing calculations.
+-   Not recording “region of interest” used to measure count duration.
+    Could create a virtual detector for this.
+-   Normalization by monitor/timer not currently supported
+-   For backgrounds, don't know if the nominal Qz should be calculated
+    from the theta or twotheta. The “correct” choice depends on the
+    source of background.
 
 Example:
 [NXmonoref\_example-NIAC2006](NXmonoref_example-NIAC2006 "wikilink")
