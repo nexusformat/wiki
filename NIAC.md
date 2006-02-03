@@ -117,7 +117,7 @@ ratify those base classes, and to approve modifications when they are
 proposed. This is the current procedure:
 
 1.  The current version of the base classes shall be kept on the [NeXus
-    wiki](Main_page "wikilink") so that people can post suggested
+    wiki](Main_Page "wikilink") so that people can post suggested
     modifications.
 2.  The Executive Secretary of the NIAC will review those changes at
     regular intervals, monthly or bimonthly. If in his or her judgement,
