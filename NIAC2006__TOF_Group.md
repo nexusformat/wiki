@@ -101,7 +101,7 @@ properties would be indxed by **i** e.g.:
 If desired, additional information about each pixel (shape, engineering
 position) can be added via an
 
--   NXgeometry geometry\[i\]
+-   NXgeometry geometry\[i\] \# for each pixel
 
 instance **geometry**. Any detector can be represented by this general
 case, though in the case of e.g. flat rectangualar detectors it is
@@ -116,27 +116,51 @@ along the tube. All tubes must have the same number of pixels; if not,
 you must use the point detector representation above. The tubes do not
 need to be parallel - they just need to be straight. Thus:
 
--   NX\_CHAR layout = “linear”
+-   NX\_CHAR layout = “linear” (Really an Enum)
 -   NX\_INT counts\[i,j\]
 -   NX\_FLOAT polar\_angle\[i,j\]
 -   NX\_FLOAT distance\[i,j\]
 -   NX\_FLOAT solid\_angle\[i,j\]
 
 So far this just looks like the point detector, but with two array
-indices. However when we start adding geometry information the
-differences become clear. As the tubes are straight we need only specify
-a tube centre and an offset along the tube. Thus
+indices rather than one. However when we start adding geometry
+information the differences become more clear. As the tubes are straight
+we need only specify a location of the tube centre and an offset along
+the tube. Thus:
 
-The difference is NXgeometry\[i\] defines tube centre and
-pixel\_edge\[j+1\] defines the edges of the pixels - if a
-pixel\_size\[j\] array is also present it means the pixels have “dead
-space” between them
+-   NXgeometry geometry\[i\] \# defines tube/strip centre; each NXshape
+    member give the tube size and shape; each NXorientation member
+    rotates the axes such that **x** points along each tube.
+-   pixel\_offset\[j\] \# offset from tube centre of each pixel centre
+-   pixel\_size\[j\] \# size of each pixel
 
 NXdetector.area
 ---------------
 
-NXgeometry defines tube centre xoffet\[i+1\] and yoffset\[j+1\] defines
-edges of pixels
+Here we have a rectangle for which each position on the tube can be
+defined by two indices: **i** will label the pixel along the local
+detector **x** axis and **j** the pixel along the local y axis. Thus:
+
+-   NX\_CHAR layout = “area” (Really an Enum)
+-   NX\_INT counts\[i,j\]
+-   NX\_FLOAT polar\_angle\[i,j\]
+-   NX\_FLOAT distance\[i,j\]
+-   NX\_FLOAT solid\_angle\[i,j\]
+
+This again looks like the point detector, but with two array indices
+rather than one. However when we add geometry information the
+differences become more clear. As the detector is a rectangle we just
+need to specdify x and y offsets from the centre to indicate each pixel.
+Thus:
+
+-   NXgeometry geometry not needed - detector centre specified by
+    **origin**
+-   pixel\_offset\_x\[i\] \# offset from detector centre of each pixel's
+    x centre
+-   pixel\_offset\_y\[j\] \# offset from detector centre of each pixel's
+    y centre
+-   pixel\_size\_x\[i\] \# x extent of pixel
+-   pixel\_size\_y\[j\] \# y extent of pixel
 
 Proposals
 ---------
