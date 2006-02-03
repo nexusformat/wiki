@@ -196,5 +196,5 @@ Proposals
     “conform to” this.
 2.  That NeXus implement inheritance in definitions and classes by a
     method yet to be finalised.
-3.  That the three types of detector repersentation are accepted
+3.  That the three types of detector representation are accepted
 

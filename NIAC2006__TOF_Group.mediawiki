@@ -101,4 +101,4 @@ As for showing the mapping scheme, a simple scheme would be
 
 # That the new data items in required in NXentry and NXuser for archiving be ratified. [[User:L.lerusse|Laurent Lerusse]] has volunteered to produce a description such that any instruement definition that wishes can "conform to" this.
 # That NeXus implement inheritance in definitions and classes by a method yet to be finalised.
-# That the three types of detector repersentation are accepted
+# That the three types of detector representation are accepted
