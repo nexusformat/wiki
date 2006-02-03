@@ -1,9 +1,10 @@
-'''Andy Gotz'''
+==Andy Gotz==
+===Executive Secretary, NeXus International Advisory Committee===
+;Address:European Synchrotron Radiation Facility
+:6 rue Jules Horowitz
+:Grenoble
+:FRANCE
 
-European Synchrotron Radiation Facility
-
-6 rue Jules Horowitz
-
-Grenoble
-
-FRANCE
+;Phone:+33
+;Fax: +33
+;Email: [mailto:goetz@esrf.fr goetz@esrf.fr]
