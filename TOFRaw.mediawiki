@@ -141,9 +141,9 @@ This definition covers a single run experiment - extensions are proposed for [[T
 |-
 | 1	|| &nbsp; 	|| units|| 	NX_CHAR	|| microAmp*hour	|| &nbsp; 
 |-
-| 1	|| raw_frames	|| &nbsp; ||	NX_INT	|| &nbsp; 	|| number of proton pulses on target
+| 0/1	|| raw_frames	|| &nbsp; ||	NX_INT	|| &nbsp; 	|| number of proton pulses on target
 |-
-| 1	|| good_frames	|| &nbsp; ||	NX_INT	|| &nbsp; 	|| number of proton pulses used (i.e. not vetoed)
+| 0/1	|| good_frames	|| &nbsp; ||	NX_INT	|| &nbsp; 	|| number of proton pulses used (i.e. not vetoed)
 |-
 | 0/1	|| <font color=red>total_counts</font>	|| &nbsp; || 	NX_INT	|| &nbsp; || 	Total number of detector counts (events) 
 |-
@@ -626,7 +626,7 @@ The moderator is the effective source for all time-of-flight instruments. This i
 |-
 | 0/1	|| poison_material	 || &nbsp; 	||NX_CHAR		 || &nbsp;  || &nbsp; 
 |-
-| 1	|| temperature || &nbsp; 	||	NX_FLOAT || &nbsp;  || &nbsp; 		
+| 0/1	|| temperature || &nbsp; 	||	NX_FLOAT || &nbsp;  || &nbsp; 		
 |-
 | 1	|| &nbsp; ||	units	|| NX_CHAR	||Kelvin || &nbsp; 	
 |-

@@ -169,8 +169,8 @@ for [scan type experiments](TOFRawScan "wikilink")
 | 1    |                                               | units                             | NX\_CHAR                      | second         |                                                                                                                                  |
 | 1    | proton\_charge                                |                                   | NX\_FLOAT                     |                |                                                                                                                                  |
 | 1    |                                               | units                             | NX\_CHAR                      | microAmp\*hour |                                                                                                                                  |
-| 1    | raw\_frames                                   |                                   | NX\_INT                       |                | number of proton pulses on target                                                                                                |
-| 1    | good\_frames                                  |                                   | NX\_INT                       |                | number of proton pulses used (i.e. not vetoed)                                                                                   |
+| 0/1  | raw\_frames                                   |                                   | NX\_INT                       |                | number of proton pulses on target                                                                                                |
+| 0/1  | good\_frames                                  |                                   | NX\_INT                       |                | number of proton pulses used (i.e. not vetoed)                                                                                   |
 | 0/1  | <font color=red>total\_counts</font>          |                                   | NX\_INT                       |                | Total number of detector counts (events)                                                                                         |
 | 1    | experiment\_identifier                        |                                   | NX\_CHAR                      |                | proposal number                                                                                                                  |
 | 0/1  | <font color=red>discipline </font>            |                                   | NX\_CHAR                      |                | Keyword domain (e.g. chemistry, astronomy, ecology, … )                                                                          |
@@ -519,7 +519,7 @@ items are in red.
 | 1   |                  | units     | NX\_CHAR    |        |                        |
 | 0/1 | coupled          |           | NX\_BOOLEAN |        |                        |
 | 0/1 | poison\_material |           | NX\_CHAR    |        |                        |
-| 1   | temperature      |           | NX\_FLOAT   |        |                        |
+| 0/1 | temperature      |           | NX\_FLOAT   |        |                        |
 | 1   |                  | units     | NX\_CHAR    | Kelvin |                        |
 | 0/1 | temperature\_log |           | NXlog       |        |                        |
 | 0/1 | pulse\_shape     |           | NXdata      |        |                        |
