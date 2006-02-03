@@ -72,7 +72,7 @@ PJ – basic questions about which class contains which ?
 |-
 ! type 
 || NX_CHAR    
-|| undulator, wiggler
+|| undulator, wiggler, ...
 |-
 ! gap
 || NX_FLOAT
@@ -113,6 +113,11 @@ PJ – basic questions about which class contains which ?
 !spectrum	
 ||NXdata	
 ||spectrum of insertion device	
+|
+|-
+!geometry
+||NXgeometry
+||position, orientation of insertion device
 |}
 
 ====NXbending_magnet====
