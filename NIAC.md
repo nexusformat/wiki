@@ -13,14 +13,16 @@ layout: wiki
     Source, UK
 -   [Stephen Cottrell](User%3ASteve_Cottrell "wikilink"), Rutherford
     Appleton Laboratory, UK (Muon Representative)
--   [Matthias Drochner](User%3Adrochner "wikilink"), Forschungzentrum
-    Jülich, Germany
+-   [Matthias Drochner](User%3AMatthias_Drochner "wikilink"),
+    Forschungzentrum Jülich, Germany
+-   [Emmanuel Farhi](User%3AEmmanuel_Farhi "wikilink"), Institut Laue
+    Langevin (Executive Secretary)
 -   [Nick Hauser](User%3Anick "wikilink"), Australian Nuclear Science
     and Technology Organisation, Australia
 -   [Ron Ghosh](User%3ARon_Ghosh "wikilink"), Institut Laue Langevin,
     France
 -   [Andrew Götz](User%3AAndy_Gotz "wikilink"), European Synchrotron
-    Radiation Facility, France
+    Radiation Facility, France (Executive Secretary)
 -   [Pete Jemian](User%3APete_Jemian "wikilink"), Advanced Photon
     Source, USA
 -   [Przemek Klosowski](User%3APrzemek_Klosowski "wikilink"), National
@@ -29,10 +31,10 @@ layout: wiki
     Institut, Switzerland
 -   Peter Link, Technische Universität München, Germany
 -   [Raymond Osborn](User%3ARay "wikilink"), Argonne National
-    Laboratory, USA (Chair)
+    Laboratory, USA
 -   Toshiya Otomo, KEK, Japan
 -   [Peter Peterson](User%3APeter_Peterson "wikilink"), Spallation
-    Neutron Source, USA (Executive Secretary)
+    Neutron Source, USA (Chair)
 -   [Thomas Proffen](User%3AThomas_Proffen "wikilink"), Los Alamos
     National Laboratory, USA
 
