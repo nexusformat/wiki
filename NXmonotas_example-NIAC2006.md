@@ -145,7 +145,7 @@ layout: wiki
          40.0 
         </soller_angle>
        </NXcollimator>
-       <NXcrystal name="analyzer">
+      <NXcrystal name="analyzer">
        <type type="NX_CHAR"> 
         "PG (Highly Oriented Pyrolytic Graphite)" 
        </type>
@@ -177,20 +177,20 @@ layout: wiki
        <soller_angle type="NX_FLOAT32" units="minutes">
         99.0 
        </soller_angle>
-       </NXcollimator>
-       <NXdetector name="detector">
-        <counts type="NX_INT32[21]" signal="1" axes="energy_transfer">
-         49 43 29 22 25 21 27 44 53 80 89 80 36 20 9 18 12 16 8 13 12 
-        </counts>
-        <polar_angle type="NX_FLOAT32[21]" units="degrees">
-         44.461 44.929 45.412 45.912 46.428 46.962 47.515 48.089 48.683 
-         49.300 49.942 50.609 51.304 52.028 52.784 53.574 54.401 55.267 
-         56.177 57.133 58.140 
-        </polar_angle>
-        <azimuthal_angle type="NX_FLOAT32" units="degrees">
-         180.0
-        </azimuthal_angle>
-       </NXdetector>
+      </NXcollimator>
+      <NXdetector name="detector">
+       <counts type="NX_INT32[21]" signal="1" axes="energy_transfer">
+        49 43 29 22 25 21 27 44 53 80 89 80 36 20 9 18 12 16 8 13 12 
+       </counts>
+       <polar_angle type="NX_FLOAT32[21]" units="degrees">
+        44.461 44.929 45.412 45.912 46.428 46.962 47.515 48.089 48.683 
+        49.300 49.942 50.609 51.304 52.028 52.784 53.574 54.401 55.267 
+        56.177 57.133 58.140 
+       </polar_angle>
+       <azimuthal_angle type="NX_FLOAT32" units="degrees">
+        180.0
+       </azimuthal_angle>
+      </NXdetector>
       </NXinstrument>
 
       <NXmonitor name="monitor">
