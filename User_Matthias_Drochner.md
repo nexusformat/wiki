@@ -4,10 +4,15 @@ permalink: User:Matthias_Drochner/
 layout: wiki
 ---
 
-Address:Matthias Drochner  
-FZ Juelich / ZEL
+Matthias Drochner
+-----------------
 
+===Member, NeXus International Advisory Committee==
+
+Address:FZ Juelich / ZEL  
 D-52425 Juelich
+
+Germany
 
 <!-- -->
 
