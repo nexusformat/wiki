@@ -30,7 +30,7 @@ layout: wiki
 -   [Mark Könnecke](User%3AMark_Koennecke "wikilink"), Paul Scherrer
     Institut, Switzerland
 -   Peter Link, Technische Universität München, Germany
--   [Raymond Osborn](User%3ARay "wikilink"), Argonne National
+-   [Raymond Osborn](User%3ARay_Osborn "wikilink"), Argonne National
     Laboratory, USA
 -   Toshiya Otomo, KEK, Japan
 -   [Peter Peterson](User%3APeter_Peterson "wikilink"), Spallation
