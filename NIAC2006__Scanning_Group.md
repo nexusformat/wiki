@@ -187,7 +187,11 @@ Present: NickM, MarkK, PaulK, MatthiasD, Jens-UweH
         slits? \[box or slit; need 'vertical/horizontal slit' shapes in
         NXshape\]
     -   Raw counts may be meaningless without normalization.
+        \[deferred\]
     -   Combine spec, back, slit, rock for all +- polarization in one
-        entry? Or use separate entries?
-    -   Scan start times
+        entry? Or use separate entries? \[separate\]
+    -   Scan start times \[in NXlog called 'timer'\]
 
+Note: Paul Kienzle added wavelength\_spread back into NXcrystal. May
+want to simply list the formula for calculating it from other NXcrystal
+fields instead.

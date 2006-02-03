@@ -99,6 +99,9 @@ Present: NickM, MarkK, PaulK, MatthiasD, Jens-UweH
 ** How to link to background and slit scan? [deferred]
 ** NXcrystal is missing wavelength spread [calculate from mosaic]
 ** How to store slits; how to reference in-plane and out of plane slits? [box or slit; need 'vertical/horizontal slit' shapes in NXshape]
-** Raw counts may be meaningless without normalization.
-** Combine spec, back, slit, rock for all +- polarization in one entry?  Or use separate entries?
-** Scan start times
+** Raw counts may be meaningless without normalization. [deferred]
+** Combine spec, back, slit, rock for all +- polarization in one entry?  Or use separate entries? [separate]
+** Scan start times [in NXlog called 'timer']
+
+
+Note: Paul Kienzle added wavelength_spread back into NXcrystal.  May want to simply list the formula for calculating it from other NXcrystal fields instead.
