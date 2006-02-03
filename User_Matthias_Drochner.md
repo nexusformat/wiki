@@ -7,7 +7,7 @@ layout: wiki
 Matthias Drochner
 -----------------
 
-===Member, NeXus International Advisory Committee==
+### Member, NeXus International Advisory Committee
 
 Address:FZ Juelich / ZEL  
 D-52425 Juelich
