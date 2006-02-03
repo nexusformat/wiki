@@ -10,6 +10,13 @@ One detail that is missing is whether the reflectometer is horizontal or
 vertical geometry, but with slit and angles defined relative to the
 sample surface this doesn't matter.
 
+Another detail is that I'm asking the control software to write the
+wavelength divergence into the file so that the user can read it off
+directly without performing calculations.
+
+Example:
+[NXmonoref\_example-NIAC2006](NXmonoref_example-NIAC2006 "wikilink")
+
     <?xml version="1.0" ?>
     <!--
     Instrument Definition for Monochromatic Source Reflectometers.
@@ -48,8 +55,9 @@ sample surface this doesn't matter.
 
         <!-- wavelength selection -->
         <NXcrystal name="monochromator">
-          <!-- Include fields required to compute the wavelength L, and spread dL -->
+          <!-- May want to include fields required to compute the wavelength L, and spread dL -->
           <wavelength />
+          <wavelength_spread type="NX_FLOAT" units="Angstrom" />
         </NXcrystal>
 
         <!-- collimation -->

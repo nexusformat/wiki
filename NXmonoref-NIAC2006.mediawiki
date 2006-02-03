@@ -2,6 +2,10 @@ The following is the proposed monochromatic reflectometry definition.
 
 One detail that is missing is whether the reflectometer is horizontal or vertical geometry, but with slit and angles defined relative to the sample surface this doesn't matter.
 
+Another detail is that I'm asking the control software to write the wavelength divergence into the file so that the user can read it off directly without performing calculations.
+
+Example: [[NXmonoref_example-NIAC2006]]
+
 <pre>
 <?xml version="1.0" ?>
 <!--
@@ -41,8 +45,9 @@ See http://www.neutron.anl.gov:8080/NeXus/5 for component definitions.
 
     <!-- wavelength selection -->
     <NXcrystal name="monochromator">
-      <!-- Include fields required to compute the wavelength L, and spread dL -->
+      <!-- May want to include fields required to compute the wavelength L, and spread dL -->
       <wavelength />
+      <wavelength_spread type="NX_FLOAT" units="Angstrom" />
     </NXcrystal>
 
     <!-- collimation -->
