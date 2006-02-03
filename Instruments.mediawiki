@@ -9,7 +9,7 @@ As part of the NeXus standard, we have identified a number of generic instrument
 *[[Time-of-Flight Neutron Single Crystal Diffractometer]] Editor: TBA
 *[[Monochromatic Neutron and X-ray Single Crystal Diffractometer]] Editor: TBA
 *[[Time-of-Flight Small Angle Scattering]] Editor: Stephen King (ISIS Pulsed Neutron and Muon Source, UK).
-*[[Monochromatic Neutron and X-ray Small Angle Scattering]] Editor: Ron Ghosh (Institut Laue Langevin, France).
+*[[SAS|Monochromatic Neutron and X-ray Small Angle Scattering]] Editor: Ron Ghosh (Institut Laue Langevin, France).
 *[[Time-of-Flight Neutron Reflectometery]] Editor: Robert Dalgliesh (ISIS Pulsed Neutron and Muon Source, UK)
 *[[Monochromatic Neutron and X-ray Reflectometry]] Editor: Paul Kienzle (NIST Center for Neutron Research, USA)
 *[[Time-of-Flight Neutron Direct Geometry Spectrometer]] Editor: Toby Perring (ISIS Pulsed Neutron and Muon Source, UK)

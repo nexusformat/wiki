@@ -48,8 +48,8 @@ Instrument List
     Scattering](Time-of-Flight_Small_Angle_Scattering "wikilink")
     Editor: Stephen King (ISIS Pulsed Neutron and Muon Source, UK).
 -   [Monochromatic Neutron and X-ray Small Angle
-    Scattering](Monochromatic_Neutron_and_X-ray_Small_Angle_Scattering "wikilink")
-    Editor: Ron Ghosh (Institut Laue Langevin, France).
+    Scattering](SAS "wikilink") Editor: Ron Ghosh (Institut Laue
+    Langevin, France).
 -   [Time-of-Flight Neutron
     Reflectometery](Time-of-Flight_Neutron_Reflectometery "wikilink")
     Editor: Robert Dalgliesh (ISIS Pulsed Neutron and Muon Source, UK)
