@@ -33,8 +33,8 @@ Instrument List
     Neutron Source, USA).
 -   [Monochromatic Neutron and X-ray Triple-Axis
     Spectrometer](Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer "wikilink")
-    Editor: Nicholas Maliszewskyj (NIST Center for Neutron Research,
-    USA).
+    Editor: [Nicholas Maliszewskyj](User%3ANickm "wikilink")(NIST Center
+    for Neutron Research, USA).
 -   [Monochromatic Neutron and X-ray Powder
     Diffraction](Monochromatic_Neutron_and_X-ray_Powder_Diffraction "wikilink")
     Editor: TBA

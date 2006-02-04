@@ -4,7 +4,7 @@ As part of the NeXus standard, we have identified a number of generic instrument
 
 ==Instrument List==
 *[[Time-of-Flight Neutron Powder Diffraction]] Editor: [[User:Pfpeterson|Peter Peterson]] (Spallation Neutron Source, USA).
-*[[Monochromatic Neutron and X-ray Triple-Axis Spectrometer]] Editor: Nicholas Maliszewskyj (NIST Center for Neutron Research, USA).
+*[[Monochromatic Neutron and X-ray Triple-Axis Spectrometer]] Editor: [[User:Nickm|Nicholas Maliszewskyj]](NIST Center for Neutron Research, USA).
 *[[Monochromatic Neutron and X-ray Powder Diffraction]] Editor: TBA
 *[[Time-of-Flight Neutron Single Crystal Diffractometer]] Editor: TBA
 *[[Monochromatic Neutron and X-ray Single Crystal Diffractometer]] Editor: TBA
