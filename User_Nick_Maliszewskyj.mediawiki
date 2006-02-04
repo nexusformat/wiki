@@ -1,7 +1,13 @@
-Dr. Nicholas C. Maliszewskyj
+=== Chair, Technical Committee ===
 
-100 Bureau Drive, Stop 8562
+:Dr. Nicholas C. Maliszewskyj
+:''Leader, Data Acquisition & Electronics''
 
-Gaithersburg, MD 20899
+:NIST Center for Neutron Research
+:100 Bureau Drive, Stop 8562
+:Gaithersburg, MD 20899
+:<nickm@nist.gov>   
 
-<nickm@nist.gov>   Tel: (301)975-3171  Fax: (301)921-9847
+;Telephone: (301)975-3171 
+
+;Fax: (301)921-9847
