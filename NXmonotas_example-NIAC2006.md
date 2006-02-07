@@ -198,20 +198,20 @@ layout: wiki
         4052000
        </preset>
       </NXmonitor>
-      <NXlog name="time">
-       <value type="NX_FLOAT32[21]" units="seconds">
+      <NXtimer name "timer">
+       <duration type="NX_FLOAT32[21]" units="seconds">
         238.20 238.20 238.20 238.20 238.20 238.20 238.20 238.20 238.20 
         238.20 238.20 238.20 238.20 238.20 238.20 238.20 238.20 238.20 
         238.20 238.20 238.20 
-       </value>
-      </NXlog>
+       </duration>
+      </NXtimer>
       <NXdata name="data">
        <Qh NAPIlink="/entry_0/sample/Qh" primary="1" />
        <Qk NAPIlink="/entry_0/sample/Qk" />
        <Ql NAPIlink="/entry_0/sample/Ql" />
        <energy_transfer NAPIlink="/entry_0/sample/energy_transfer" />
        <counts NAPIlink="/entry_0/BT2/detector/counts" signal="1" axes="Qh" />
-       <count_durations NAPIlink="/entry_0/time/data" />
+       <count_durations NAPIlink="/entry_0/timer/duration" />
       </NXdata>
      </NXentry>
     </NXroot>
