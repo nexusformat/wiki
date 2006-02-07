@@ -7,9 +7,9 @@ layout: wiki
 [Current Members](Membership_Dates "wikilink")
 ----------------------------------------------
 
--   [Frederick Akeroyd](User%3AFreddieAkeroyd "wikilink"), Rutherford
+-   [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink"), Rutherford
     Appleton Laboratory, UK (ISIS Representative)
--   [Stuart Campbell](User%3ASicampbell "wikilink"), Diamond Light
+-   [Stuart Campbell](User%3AStuart_Campbell "wikilink"), Diamond Light
     Source, UK
 -   [Stephen Cottrell](User%3ASteve_Cottrell "wikilink"), Rutherford
     Appleton Laboratory, UK (Muon Representative)
