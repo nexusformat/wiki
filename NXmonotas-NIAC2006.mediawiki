@@ -110,9 +110,22 @@ Template of a generic NeXus file containing neutron or x-ray triple-axis data.--
   </NXmonitor>
 
   <NXtimer>
-    <preset type="FLOAT32" units="second">?</preset>
-    <start type="FLOAT32[np]" units="second" />
-    <duration type="FLOAT32[np]" units="second" />
+    <preset type="FLOAT32[1|np]" units="second">
+     {Preset timer value. This may be a vector if your control software
+      can allow different points in the sequence to be counted for different
+      lengths.  The measured duration is not necessarily equal to the preset
+      since the monitor or detector may reach their presets earlier}?
+    </preset>
+    <start type="FLOAT32[np]" units="second">
+     {Start times of the individual measurements relative to the start of
+      the scan.  This field is recommend so that for example NXlog entries
+      can be plotted on the same scale as individual points, but it is
+      not required since many old data sets do not store it.}?
+    </start>
+    <duration type="FLOAT32[np]" units="second">
+     {Duration of the individual measurements in the scan. If absent, then
+      the duration is assumed to be the value of the preset.}?
+    </duration>
   </NXtimer>
 
   <NXdata name="data">
