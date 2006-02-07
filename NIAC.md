@@ -19,8 +19,6 @@ layout: wiki
     Langevin (Executive Secretary)
 -   [Nick Hauser](User%3Anick "wikilink"), Australian Nuclear Science
     and Technology Organisation, Australia
--   [Ron Ghosh](User%3ARon_Ghosh "wikilink"), Institut Laue Langevin,
-    France
 -   [Andrew Götz](User%3AAndy_Gotz "wikilink"), European Synchrotron
     Radiation Facility, France (Executive Secretary)
 -   [Pete Jemian](User%3APete_Jemian "wikilink"), Advanced Photon
