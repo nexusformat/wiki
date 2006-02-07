@@ -109,10 +109,11 @@ Template of a generic NeXus file containing neutron or x-ray triple-axis data.--
     <data type="FLOAT32[np]" />
   </NXmonitor>
 
-  <NXlog name="timer">
-    <time />
-    <value type="FLOAT32[np]" units="second" />
-  </NXlog>
+  <NXtimer>
+    <preset type="FLOAT32" units="second">?</preset>
+    <start type="FLOAT32[np]" units="second" />
+    <duration type="FLOAT32[np]" units="second" />
+  </NXtimer>
 
   <NXdata name="data">
     <Qh NAPIlink="NXentry/NXsample/Qh" />
@@ -120,8 +121,8 @@ Template of a generic NeXus file containing neutron or x-ray triple-axis data.--
     <Ql NAPIlink="NXentry/NXsample/Ql" />
     <energy_transfer NAPIlink="NXentry/NXsample/energy_transfer" />
     <counts NAPIlink="NXentry/NXinstrument/detector/counts" />
-    <count_start NAPIlink="NXentry/timer/time" />
-    <count_duration NAPIlink="NXentry/timer/value" />
+    <count_start NAPIlink="NXentry/NXtimer/start" />
+    <count_duration NAPIlink="NXentry/NXtimer/duration" />
     <count_monitor NAPIlink="NXentry/NXmonitor/data" />
     <energy NAPIlink="NXentry/NXinstrument/analyzer/energy" />
   </NXdata>
