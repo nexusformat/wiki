@@ -7,10 +7,11 @@ layout: wiki
 Steve King
 ----------
 
+### NeXus Instrument Definition Editor for TOF-SANS
+
 SANS Instrument Scientist
 
-NeXus Instrument Definition Editor for TOF-SANS
-
+Address  
 Large-Scale Structures Group
 
 ISIS Facility
@@ -23,8 +24,11 @@ Oxforshire OX11 0QX
 
 UK
 
-Phone: +44 1235-44-6437
+Phone:  
++44 1235-44-6437
 
-Fax: +44 1235-44-5642
+Fax:  
++44 1235-44-5642
 
-Email: s.m.king@rl.ac.uk (mailto:s.m.king@rl.ac.uk)
+Email:  
+<s.m.king@rl.ac.uk>
