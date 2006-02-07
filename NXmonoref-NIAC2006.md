@@ -145,10 +145,7 @@ Example:
         <data type="FLOAT32[np]" signal=1 axes="momentum_transfer|presample_slit1" />
       </NXmonitor>
 
-      <NXlog name="timer">?
-        <time />
-        <value type="FLOAT32[np]" units="second" />
-      </NXlog>
+      <NXtimer>?</NXtimer>
 
       <NXdata>
         <!-- Scan identification tags for the specific measurement type -->
@@ -174,8 +171,8 @@ Example:
 
         <!-- Counts and monitors -->
         <counts NAPIlink="NXentry/NXdetector/counts" signal="1" axes="momentum_transfer|presample_slit1" />
-        <count_start NAPIlink="NXentry/timer/time">?</count_start>
-        <count_duration NAPIlink="NXentry/timer/value">?</count_duration>
+        <count_start NAPIlink="NXentry/NXtimer/start">?</count_start>
+        <count_duration NAPIlink="NXentry/NXtimer/duration">?</count_duration>
         <monitor NAPIlink="NXentry/NXmonitor/data">?</count_monitor>
       </NXdata>
 
