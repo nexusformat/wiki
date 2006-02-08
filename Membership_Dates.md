@@ -19,6 +19,8 @@ stated in the [constitution](NIAC "wikilink").
 ### Expire October 21, 2007
 
 -   Peter Peterson - Spallation Neutron Source, USA (Chair)
+-   Nick Maliszewskyj - NIST Center for Neutron Research, USA (Technical
+    Committee Chair, non-voting)
 
 ### Expire July 7, 2007
 
@@ -42,7 +44,5 @@ stated in the [constitution](NIAC "wikilink").
     co-Secretary)
 -   Pete Jemian - APS, ANL, USA
 -   Mark Koennecke - SINQ, Switzerland
--   Nick Maliszewskyj - NIST Center for Neutron Research, USA (Technical
-    Committee Chair, non-voting)
 -   Thomas Proffen - Lujan Neutron Scattering Center, USA
 
