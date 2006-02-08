@@ -10,7 +10,7 @@
 *[[User:Przemek Klosowski|Przemek Klosowski]], National Insitute of Standards and Technology, USA
 *[[User:Mark Koennecke|Mark Könnecke]], Paul Scherrer Institut, Switzerland
 *Peter Link, Technische Universität München, Germany
-*Nick Maliszewskyj - NIST Center for Neutron Research, USA (Technical Committee Chair, non-voting)
+*[[User:Nick Maliszewskyj|Nick Maliszewskyj]] - NIST Center for Neutron Research, USA (Technical Committee Chair, non-voting)
 *[[User:Ray Osborn|Raymond Osborn]], Argonne National Laboratory, USA
 *Toshiya Otomo, KEK, Japan
 *[[User:Peter Peterson|Peter Peterson]], Spallation Neutron Source, USA (Chair)

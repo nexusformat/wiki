@@ -28,8 +28,9 @@ layout: wiki
 -   [Mark Könnecke](User%3AMark_Koennecke "wikilink"), Paul Scherrer
     Institut, Switzerland
 -   Peter Link, Technische Universität München, Germany
--   Nick Maliszewskyj - NIST Center for Neutron Research, USA (Technical
-    Committee Chair, non-voting)
+-   [Nick Maliszewskyj](User%3ANick_Maliszewskyj "wikilink") - NIST
+    Center for Neutron Research, USA (Technical Committee Chair,
+    non-voting)
 -   [Raymond Osborn](User%3ARay_Osborn "wikilink"), Argonne National
     Laboratory, USA
 -   Toshiya Otomo, KEK, Japan
