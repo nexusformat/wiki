@@ -15,6 +15,8 @@
 *[[User:Peter Peterson|Peter Peterson]], Spallation Neutron Source, USA (Chair)
 *[[User:Thomas Proffen|Thomas Proffen]], Los Alamos National Laboratory, USA
 
+The [[Membership Dates|experation dates]] for the various members.
+
 == Constitution ==
 === Terms of Reference ===
 The purpose of the NeXus International Advisory Committee is to supervise the development and maintenance of the NeXus common data format for neutron, x-ray, and muon science. This purpose includes, but is not limited to, the following activities.
