@@ -14,5 +14,10 @@ This page is to propose a possible structure for an NXmotor base class.
     This is the description for a generic motor.
     -->
     <NXmotor name="{Name of motor}">
-
+            <value type="NX_FLOAT[n]" units="{}">
+                    {value of motor - need [n] as may be scanned}
+            </value>
+            <controller_record type="NX_CHAR">
+                    {Hardware device record, e.g. EPICS process variable, taco/tango ...}
+            <\controller_record>
     </NXmotor>
