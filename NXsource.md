@@ -8,7 +8,7 @@ layout: wiki
     <!--
     URL:     http://www.nexus.anl.gov/classes/xml/NXsource.xml
     Editor:  NIAC
-    $Id: NXsource.xml,v 1.2 2005/07/19 04:10:26 rio Exp $
+    $Id: NXsource.xml,v 1.3 2006/02/10 13:59:54 sic78 Exp $
 
     Template of the neutron or x-ray source, insertion devices and/or moderators.
 
@@ -16,16 +16,16 @@ layout: wiki
     <NXsource name="source">
         <distance type="NX_FLOAT" units="m">
             {Effective distance from sample}{Distance as seen by radiation from 
-            sample. This number should be negative to signify that it is upstream of 
-            the sample.}?
+                    sample.  This number should be negative to signify that it is upstream 
+                    of the sample.}?
         </distance>
         <name type="NX_CHAR">
             {Name of source}?
         </name>
         <type type="NX_CHAR">
-            "Spallation Neutron Source"|"Pulsed Reactor Neutron Source"|"Reactor 
-            Neutron Source"|"Synchrotron X-ray Source"|"Pulsed Muon 
-            Source"|"Rotating Anode X-ray"|Fixed Tube X-ray"?
+            "Spallation Neutron Source"|"Pulsed Reactor Neutron Source"|
+                    "Reactor Neutron Source"|"Synchrotron X-ray Source"|"Pulsed Muon Source"|
+                    "Rotating Anode X-ray"|Fixed Tube X-ray"?
         </type>
         <probe type="NX_CHAR">
             neutron|x-ray|muon|electron?
@@ -47,11 +47,11 @@ layout: wiki
         </period>
         <target_material type="NX_CHAR">
             {Pulsed source target material} 
-            {"Ta"|"W"|"depleted_U"|"enriched_U"|"Hg"|"Pb"|"C"}?
+                    {"Ta"|"W"|"depleted_U"|"enriched_U"|"Hg"|"Pb"|"C"}?
         </target_material>
         <notes type="NX_CHAR">
             {any source/facility related messages/events that occurred during the 
-            experiment}?
+                    experiment}?
         </notes>
         <pulse_width type="NX_FLOAT" units="micro.second">
             {width of source pulse}?
@@ -59,6 +59,12 @@ layout: wiki
         <pulse_shape type="NXdata">
             {source pulse shape}?
         </pulse_shape>
+        <mode type="NX_CHAR">
+            {synchrotron operating mode}{"Single Bunch"|"Multi Bunch"}?
+        </mode>
+        <top_up type="NX_BOOLEAN">
+            {Is the synchrotron operating in top_up mode}?
+        </top_up>
         <NXgeometry name="">
             {"Engineering" location of source}?
         </NXgeometry>
