@@ -98,6 +98,10 @@ instrument components e.g. choppers, collimators, detectors.
 
 :::[NXmoderator](NXmoderator "wikilink")
 
+:::[NXinsertion\_device](NXinsertion_device "wikilink")
+
+:::[NXbending\_magnet](NXbending_magnet "wikilink")
+
 :::[NXcrystal](NXcrystal "wikilink")
 
 :::[NXdisk\_chopper](NXdisk_chopper "wikilink")

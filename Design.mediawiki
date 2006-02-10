@@ -24,6 +24,8 @@ Click on any of the class names below for a more detailed description compiled f
 ::;[[NXinstrument]]:The information needed to describe the instrument. This group contains other groups that describe instrument components e.g. choppers, collimators, detectors.
 :::[[NXsource]]
 :::[[NXmoderator]]
+:::[[NXinsertion_device]]
+:::[[NXbending_magnet]]
 :::[[NXcrystal]]
 :::[[NXdisk_chopper]]
 :::[[NXfermi_chopper]]
