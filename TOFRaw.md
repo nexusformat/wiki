@@ -316,8 +316,8 @@ changing some elements to be required rather an optional.
 | 0/1 | sampled\_fraction                       |           | NX\_FLOAT        |                 |                                                       |
 | 1   |                                         | units     | NX\_CHAR         | unitless        |                                                       |
 | 0/1 | geometry                                |           | NXgeometry       |                 |                                                       |
-| 1   | <font color=red>monitor\_number</font>  |           | NX\_INT          |                 | If monitors are numbered, this is what it is known as |
-| 1   | <font color=red>detector\_number</font> |           | NX\_INT          |                 | Detector/spectrum number for this monitor             |
+| 0/1 | <font color=red>monitor\_number</font>  |           | NX\_INT          |                 | If monitors are numbered, this is what it is known as |
+| 0/1 | <font color=red>detector\_number</font> |           | NX\_INT          |                 | Detector/spectrum number for this monitor             |
 
 Note that for a position sensitive monitor detector\_number etc. will
 need to be an array and NXmonitor will have other fields and look more

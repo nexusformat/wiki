@@ -391,9 +391,9 @@ This is the class that contains all information about instrument components exce
 |-
 | 0/1	|| geometry	 || &nbsp; 	|| NXgeometry		 || &nbsp;  || &nbsp; 
 |-
-| 1	|| <font color=red>monitor_number</font>  || &nbsp; 	|| 	NX_INT	 || &nbsp; || 	If monitors are numbered, this is what it is known as 
+| 0/1	|| <font color=red>monitor_number</font>  || &nbsp; 	|| 	NX_INT	 || &nbsp; || 	If monitors are numbered, this is what it is known as 
 |-
-| 1	|| <font color=red>detector_number</font>	 || &nbsp; || NX_INT  || &nbsp; 		|| 	Detector/spectrum number for this monitor
+| 0/1	|| <font color=red>detector_number</font>	 || &nbsp; || NX_INT  || &nbsp; 		|| 	Detector/spectrum number for this monitor
 |}
 
 Note that for a position sensitive monitor detector_number etc. will need to be an array and NXmonitor will have other fields and look more like NXdetector.
