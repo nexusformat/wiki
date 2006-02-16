@@ -475,16 +475,19 @@ Group](TOF_Group "wikilink") if was decided to move these arrays into a
 substructure of NXdetector so we would have NXdetector.polar\_angle and
 NXdetector.distance for the ganed values;
 NXdetector.unganged.polar\_angle and NXdetector.unganged.distance for
-the raw values. To relate the ganged and unganged arrays, a simple
-grouping scheme can be used: detector.unganged.grouping\[j\] give the
-value \[i\] detector.polar\_angle\[i\] that this detector contributes
-to. This covers most cases, except for when a detector may have its
-signal fed into more than one place; in which case a more complex
-mapping schem is needed such as:
+the raw values.
 
-The “unganged” arrays are arranged so that elements that are ganged
-together appear sequentially and information to relate these arrays to
-the hardware ganged “polar\_angle” etc arrays are provided by
+To relate the ganged and unganged arrays, a simple grouping scheme can
+usually be used: detector.unganged.grouping\[j\] give the value \[i\]
+detector.polar\_angle\[i\] that this detector contributes to. This
+covers most cases, except for when a detector may have its signal fed
+into more than one place; in which case a more complex mapping scheme is
+needed.
+
+To cover the general case the “unganged” arrays are arranged so that
+elements that are ganged together appear sequentially and information to
+relate these arrays to the hardware ganged “polar\_angle” etc arrays are
+provided by
 
 | RE  | Name                               | Attribute | Type         | Value                                                 | Description |
 |-----|------------------------------------|-----------|--------------|-------------------------------------------------------|-------------|
