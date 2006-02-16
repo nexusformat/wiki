@@ -467,13 +467,24 @@ files. In these cases the above formalisms can still be used, but the
 the values of “polar\_angle”, “distance”, “azimuthal\_angle” are some
 sort of average over the ganged elements. When analysis and simulation
 of the data is performed, it is sometimes necessary to know the details
-of the individual detectors that have been ganged together. The proposal
-is that in these cases additional arrays would be stored with the
+of the individual detectors that have been ganged together. An initial
+proposal was that these additional arrays would be stored with the
 “\_unganged” suffix e.g. “Polar\_angle\_unganged”, “distance\_unganged”,
-“detector\_number\_unganged”. The “unganged” arrays are arranged so that
-elements that are ganged together appear sequentially and information to
-relate these arrays to the hardware ganged “polar\_angle” etc arrays are
-provided by
+“detector\_number\_unganged”. However after discussions of [TOF
+Group](TOF_Group "wikilink") if was decided to move these arrays into a
+substructure of NXdetector so we would have NXdetector.polar\_angle and
+NXdetector.distance for the ganed values;
+NXdetector.unganged.polar\_angle and NXdetector.unganged.distance for
+the raw values. To relate the ganged and unganged arrays, a simple
+grouping scheme can be used: detector.unganged.grouping\[j\] give the
+value \[i\] detector.polar\_angle\[i\] that this detector contributes
+to. This covers most cases, except for when a detector may have its
+signal fed into more than one place; in which case a more complex
+mapping schem is needed such as:
+
+The “unganged” arrays are arranged so that elements that are ganged
+together appear sequentially and information to relate these arrays to
+the hardware ganged “polar\_angle” etc arrays are provided by
 
 | RE  | Name                               | Attribute | Type         | Value                                                 | Description |
 |-----|------------------------------------|-----------|--------------|-------------------------------------------------------|-------------|
