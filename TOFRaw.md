@@ -328,35 +328,35 @@ like NXdetector.
 
 We will now look at possible representations of the detector – we will
 start with a general one and then consider the special case of an area
-detector. Though the general detector representation would cover all
-cases, if the detector is physically “rectangular” in nature there are
-advantages in using this symmetry in the representation. Which
-representation is used is recorded in the <font color=red>stored</font>
+detector. Though the general (point) detector representation would cover
+all cases, if the detector is physically “rectangular” in nature there
+are advantages in using this symmetry in the representation. Which
+representation is used is recorded in the <font color=red>layout</font>
 attribute
 
-#### General Detector
+#### Point Detector
 
 The general representation is to consider a detector as just a group of
 pixels arranged in no particular order. Each pixel will be identified by
 a unique single index i and then the following information will be
 stored:
 
-| RE  | Name                                | Attribute | Type             | Value                | Description                                                            |
-|-----|-------------------------------------|-----------|------------------|----------------------|------------------------------------------------------------------------|
-| 1   | <font color=red>stored</font>       |           | NX\_CHAR         | general              | How detector is represented: general, centre\_extent, edges or corners |
-| 1   | detector\_number                    |           | NX\_INT\[i\]     |                      |                                                                        |
-| 0/1 | polar\_angle                        |           | NX\_FLOAT\[i\]   |                      |                                                                        |
-| 0/1 | azimuthal\_angle                    |           | NX\_FLOAT\[i\]   |                      |                                                                        |
-| 0/1 | solid\_angle                        |           | NX\_FLOAT\[i\]   |                      |                                                                        |
-| 0/1 | distance                            |           | NX\_FLOAT\[i\]   | distance from sample |                                                                        |
-| 1   | time\_of\_flight                    |           | NX\_FLOAT\[j+1\] |                      | Bin boundaries                                                         |
-| 0/1 |                                     | units     | NX\_CHAR         | Micro.second         |                                                                        |
-| 0/1 | time\_of\_flight\_raw               |           | NX\_INT\[j+1\]   |                      | in DAQ clock pulses                                                    |
-| 0/1 |                                     | units     | NX\_CHAR         | Clock\_pulses        |                                                                        |
-| 0/1 |                                     | frequency | NX\_FLOAT        |                      | Clock frequency of acquisition system (Hz)                             |
-| 1   | data                                |           | NX\_FLOAT\[i,j\] |                      |                                                                        |
-| 0/1 | geometry                            |           | NXgeometry\[i\]  |                      | These will be relative to “Origin” below                               |
-| 0/1 | <font color=red>group\_index</font> |           | NX\_INT\[i\]     |                      | Detector grouping information – see NXdetector\_groups class           |
+| RE  | Name                                | Attribute | Type             | Value                | Description                                                  |
+|-----|-------------------------------------|-----------|------------------|----------------------|--------------------------------------------------------------|
+| 1   | <font color=red>layout</font>       |           | NX\_CHAR         | point                | How detector is represented                                  |
+| 1   | detector\_number                    |           | NX\_INT\[i\]     |                      |                                                              |
+| 0/1 | polar\_angle                        |           | NX\_FLOAT\[i\]   |                      |                                                              |
+| 0/1 | azimuthal\_angle                    |           | NX\_FLOAT\[i\]   |                      |                                                              |
+| 0/1 | solid\_angle                        |           | NX\_FLOAT\[i\]   |                      |                                                              |
+| 0/1 | distance                            |           | NX\_FLOAT\[i\]   | distance from sample |                                                              |
+| 1   | time\_of\_flight                    |           | NX\_FLOAT\[j+1\] |                      | Bin boundaries                                               |
+| 0/1 |                                     | units     | NX\_CHAR         | Micro.second         |                                                              |
+| 0/1 | time\_of\_flight\_raw               |           | NX\_INT\[j+1\]   |                      | in DAQ clock pulses                                          |
+| 0/1 |                                     | units     | NX\_CHAR         | Clock\_pulses        |                                                              |
+| 0/1 |                                     | frequency | NX\_FLOAT        |                      | Clock frequency of acquisition system (Hz)                   |
+| 1   | data                                |           | NX\_FLOAT\[i,j\] |                      |                                                              |
+| 0/1 | geometry                            |           | NXgeometry\[i\]  |                      | These will be relative to “Origin” below                     |
+| 0/1 | <font color=red>group\_index</font> |           | NX\_INT\[i\]     |                      | Detector grouping information – see NXdetector\_groups class |
 
 The detector data would be plotted with axes (detector number, tof) by
 any program. An NXgeometry object included in the detector contains
@@ -369,33 +369,70 @@ bank. The “origin” object provides a reference point for the pixel
 geometries – the “shape” part of origin is the bounding box of the
 entire detector/detector bank.
 
+#### Linear Detector
+
+Here we mean a collection of linear straight strips e.g. tubes. We have
+two indicies: **j** will label the strip/tube and **i** the position
+along the tube. All tubes must have the same number of pixels; if not,
+you must use the point detector representation above. The tubes do not
+need to be parallel - they just need to be straight. Thus:
+
+| RE  | Name                          | Attribute | Type               | Value           | Description                              |
+|-----|-------------------------------|-----------|--------------------|-----------------|------------------------------------------|
+| 1   | <font color=red>layout</font> |           | NX\_CHAR           | linear          | How detector is represented              |
+| 1   | detector\_number              |           | NX\_INT\[i,j\]     |                 |                                          |
+| 1   | polar\_angle                  |           | NX\_FLOAT\[i,j\]   |                 |                                          |
+| 1   | azimuthal\_angle              |           | NX\_FLOAT\[i,j\]   |                 |                                          |
+| 1   | distance                      |           | NX\_FLOAT\[i,j\]   |                 |                                          |
+| 1   | time\_of\_flight              |           | NX\_FLOAT\[k+1\]   |                 | Bin boundaries                           |
+| 0/1 |                               | Units     | NX\_CHAR           | Micro.second    |                                          |
+| 1   | raw\_time\_of\_flight         |           | NX\_INT\[k+1\]     |                 | in DAQ clock pulses                      |
+| 0/1 |                               | Units     | NX\_CHAR           | Clock\_pulses   |                                          |
+| 0/1 |                               | Frequency | NX\_FLOAT          | Clock frequency |                                          |
+| 1   | data                          |           | NX\_FLOAT\[i,j,k\] |                 |                                          |
+| 0/1 | geometry                      |           | NXgeometry\[i\]    |                 | These will be relative to “Origin” below |
+| 0/1 | pixel\_offset                 |           | NX\_FLOAT\[j\]     |                 | 0 at origin                              |
+| 0/1 | pixel\_size                   |           | NX\_FLOAT\[j\]     |                 |                                          |
+||
+
+By specifying both size and offset “dead space” between pixels can be
+accounted for.
+
+This looks similar to a point detector, but with two array indices
+rather than one. However note the geometry information is different - as
+the tubes are straight we need only specify a location of the tube
+centre and an offset along the tube. Thus:
+
+-   NXgeometry geometry\[i\] \# defines tube/strip centre; each NXshape
+    member give the tube size and shape; each NXorientation member
+    rotates the axes such that **x** points along each tube.
+-   pixel\_offset\[j\] \# offset from tube centre of each pixel centre
+-   pixel\_size\[j\] \# size of each pixel
+
 #### Area Detector
 
-We will start off by considering a flat rectangular area detector. While
-this could be described by the “general” representation above, taking
-account of the two dimensional symmetry of the detector allows several
-potential savings in the calculation of angles and in plotting time of
-the data. An area detector will have indices (i,j) indexing each pixel
-with i along the local detector “x” axis and j along the local detector
-“y”. In the case of curved detectors the offsets and sizes are to be
-considered as arc lengths along the face of the detector. An offset of
-“0” is the origin of the detector and the NXgeometry named “origin”
-describes the geometry of the entire detector: the NXtranslation part
-describes the position of the detector, the NXorientation part defines
-the local coordinates (local x and y axes) with respect to the global
-position, and the NXshape describe the size (bounding box) and topology
-of the detector as a whole. The NXgeometry named “geometry” describes
-the pixels and their shape (assuming that they are uniform). The
-necessary shapes are: rectangular prism, cylindrical slice, and
-spherical slice.
+A flat rectangular area detector could be described by the “general”
+representation above, but taking account of the two dimensional symmetry
+of the detector allows several potential savings in the calculation of
+angles and in plotting time of the data. An area detector will have
+indices (i,j) indexing each pixel with i along the local detector “x”
+axis and j along the local detector “y”. In the case of curved detectors
+the offsets and sizes are to be considered as arc lengths along the face
+of the detector. An offset of “0” is the origin of the detector and the
+NXgeometry named “origin” describes the geometry of the entire detector:
+the NXtranslation part describes the position of the detector, the
+NXorientation part defines the local coordinates (local x and y axes)
+with respect to the global position, and the NXshape describe the size
+(bounding box) and topology of the detector as a whole. The NXgeometry
+named “geometry” describes the pixels and their shape (assuming that
+they are uniform). The necessary shapes are: rectangular prism,
+cylindrical slice, and spherical slice.
 
 Below are the three cases for describing the pixels on a detector.
 
-**Centre and Extent**
-
 | RE  | Name                             | Attribute | Type               | Value           | Description                                                                            |
 |-----|----------------------------------|-----------|--------------------|-----------------|----------------------------------------------------------------------------------------|
-| 1   | <font color=red>stored</font>    |           | NX\_CHAR           | centre\_extent  | How detector is represented: general, centre\_extent, edges or corners                 |
+| 1   | <font color=red>layout</font>    |           | NX\_CHAR           | area            | How detector is represented                                                            |
 | 1   | detector\_number                 |           | NX\_INT\[i,j\]     |                 |                                                                                        |
 | 1   | polar\_angle                     |           | NX\_FLOAT\[i,j\]   |                 |                                                                                        |
 | 1   | azimuthal\_angle                 |           | NX\_FLOAT\[i,j\]   |                 |                                                                                        |
@@ -420,46 +457,6 @@ space” between pixels can be accounted for.
 
 azimuthal\_angle, polar\_angle and distance can be left out of
 NXdetector as they can be calculated from the detector geometry
-
-**Edges**
-
-| RE  | Name                          | Attribute | Type               | Value           | Description                                                            |
-|-----|-------------------------------|-----------|--------------------|-----------------|------------------------------------------------------------------------|
-| 1   | <font color=red>stored</font> |           | NX\_CHAR           | edges           | How detector is represented: general, centre\_extent, edges or corners |
-| 1   | detector\_number              |           | NX\_INT\[i,j\]     |                 |                                                                        |
-| 1   | polar\_angle                  |           | NX\_FLOAT\[i,j\]   |                 |                                                                        |
-| 1   | azimuthal\_angle              |           | NX\_FLOAT\[i,j\]   |                 |                                                                        |
-| 1   | distance                      |           | NX\_FLOAT\[i,j\]   |                 |                                                                        |
-| 1   | time\_of\_flight              |           | NX\_FLOAT\[k+1\]   |                 | Bin boundaries                                                         |
-| 0/1 |                               | Units     | NX\_CHAR           | Micro.second    |                                                                        |
-| 1   | raw\_time\_of\_flight         |           | NX\_FLOAT\[k+1\]   |                 |                                                                        |
-| 0/1 |                               | Units     | NX\_CHAR           | Clock\_pulses   |                                                                        |
-| 0/1 |                               | Frequency | NX\_FLOAT          | Clock frequency |                                                                        |
-| 1   | data                          |           | NX\_FLOAT\[i,j,k\] |                 |                                                                        |
-| 0/1 | geometry                      |           | NXgeometry\[i,j\]  |                 |                                                                        |
-| 0/1 | x\_pixel\_offset              |           | NX\_FLOAT\[i+1\]   |                 |                                                                        |
-| 0/1 | y\_pixel\_offset              |           | NX\_FLOAT\[j+1\]   |                 |                                                                        |
-
-All pixels are edge to edge.
-
-**Corners**
-
-| RE  | Name                          | Attribute | Type                  | Value           | Description                                                            |
-|-----|-------------------------------|-----------|-----------------------|-----------------|------------------------------------------------------------------------|
-| 1   | <font color=red>stored</font> |           | NX\_CHAR              | corners         | How detector is represented: general, centre\_extent, edges or corners |
-| 1   | detector\_number              |           | NX\_INT\[i,j\]        |                 |                                                                        |
-| 1   | polar\_angle                  |           | NX\_FLOAT\[i,j\]      |                 |                                                                        |
-| 1   | azimuthal\_angle              |           | NX\_FLOAT\[i,j\]      |                 |                                                                        |
-| 1   | distance                      |           | NX\_FLOAT\[i,j\]      |                 |                                                                        |
-| 1   | time\_of\_flight              |           | NX\_FLOAT\[k+1\]      |                 | Bin boundaries                                                         |
-| 0/1 |                               | Units     | NX\_CHAR              | Micro.second    |                                                                        |
-| 1   | raw\_time\_of\_flight         |           | NX\_FLOAT\[k+1\]      |                 |                                                                        |
-| 0/1 |                               | Units     | NX\_CHAR              | Clock\_pulses   |                                                                        |
-| 0/1 |                               | Frequency | NX\_FLOAT             | Clock frequency |                                                                        |
-| 1   | data                          |           | NX\_FLOAT\[i,j,k\]    |                 |                                                                        |
-| 0/1 | geometry                      |           | NXgeometry\[i,j\]     |                 |                                                                        |
-| 0/1 | x\_pixel\_offset              |           | NX\_FLOAT\[i+1, j+1\] |                 |                                                                        |
-| 0/1 | y\_pixel\_offset              |           | NX\_FLOAT\[i+1,j+1\]  |                 |                                                                        |
 
 **Hardware ganging of detector elements**
 
