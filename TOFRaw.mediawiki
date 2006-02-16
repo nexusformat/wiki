@@ -340,7 +340,7 @@ This is the class that contains all information about instrument components exce
 |-
 | 1+	 || &nbsp;  || &nbsp; ||		NXdetector	 || &nbsp;  || &nbsp; 	
 |-
-| 1+	 || &nbsp;  || &nbsp; ||		<font color="red">NXdetector_group</font> || &nbsp;  || &nbsp; 	
+| 0+	 || &nbsp;  || &nbsp; ||		<font color="red">NXdetector_group</font> || &nbsp;  || &nbsp; 	
 |-
 | 0+	 || &nbsp;  || &nbsp; ||		NXbeam_stop	 || &nbsp;  || &nbsp; 	
 |}

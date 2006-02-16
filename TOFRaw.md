@@ -289,7 +289,7 @@ changing some elements to be required rather an optional.
 | 0+  |          |             | NXflipper                                  |       |                                    |
 | 0+  |          |             | NXmirror                                   |       |                                    |
 | 1+  |          |             | NXdetector                                 |       |                                    |
-| 1+  |          |             | <font color="red">NXdetector\_group</font> |       |                                    |
+| 0+  |          |             | <font color="red">NXdetector\_group</font> |       |                                    |
 | 0+  |          |             | NXbeam\_stop                               |       |                                    |
 
 ### NXmonitor
