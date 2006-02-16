@@ -21,7 +21,8 @@ comes from discussions between [SNS](http://www.sns.gov/),
 [ISIS](http://www.isis.rl.ac.uk/) - the three facilities are interested
 in having a unified base for all instruments to allow for low level
 instrument debugging tools to be used, without change, in a given
-facility.
+facility. Further discussions occured in the [TOF Breakout Group at NIAC
+2006](TOF_Group "wikilink")
 
 There are example files in
 [HDF4](http://nexus.isis.rl.ac.uk/hrp08639.nx4) and
