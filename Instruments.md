@@ -65,3 +65,9 @@ Instrument List
 -   [Neutron Spin Echo](Neutron_Spin_Echo "wikilink") Editor: Robert
     Georgii (FRM-II, Germany)\]
 
+<!-- -->
+
+-   [Archive Definition](Archive_Definition "wikilink") Editor: [Laurent
+    Lerusse](User%3AL.lerusse "wikilink") (CCLRC - Rutherford Appleton
+    Laboratory, e-Science, UK)
+
