@@ -23,3 +23,4 @@ layout: wiki
        <NXentry name="{Name of entry}">
           <title>{Extended title for entry}?</title>
        </NXentry>
+    </NXroot>

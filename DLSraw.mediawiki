@@ -18,5 +18,5 @@ Draft definition of a Diamond Light Source raw Nexus file.
    <NXentry name="{Name of entry}">
       <title>{Extended title for entry}?</title>
    </NXentry>
-
+</NXroot>
 </pre>
