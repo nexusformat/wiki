@@ -19,5 +19,5 @@ This page is to propose a possible structure for an NXmotor base class.
             </value>
             <controller_record type="NX_CHAR">
                     {Hardware device record, e.g. EPICS process variable, taco/tango ...}
-            <\controller_record>
+            </controller_record>
     </NXmotor>
