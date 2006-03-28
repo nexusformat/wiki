@@ -17,6 +17,7 @@ layout: wiki
             HDF_version="?" 
             HDF5_version="?" 
             XML_version="?"
+            initial_format="{Initial format for file}"
             creator="{facility or program where file originated}?"
             unique_id="{unique file identifier}">
 
