@@ -85,7 +85,7 @@ layout: wiki
            </name>
            <type type="NX_CHAR">
             "Spallation Neutron Source"|"Pulsed Reactor Neutron Source"|
-                    "Reactor Neutron Source"|"Synchrotron X-ray Source"|"Pulsed Muon        Source"|
+                    "Reactor Neutron Source"|"Synchrotron X-ray Source"|"Pulsed Muon Source"|
                     "Rotating Anode X-ray"|Fixed Tube X-ray"?
            </type>
            <probe type="NX_CHAR">
