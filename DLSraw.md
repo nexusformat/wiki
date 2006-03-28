@@ -58,26 +58,75 @@ layout: wiki
             this is a 640x480 jpeg image automatically produced by a low resolution
             plot of the NXdata.}?
           </thumbnail>
+
           <NXcharacterizations>
             ?
           </NXcharacterizations>
+
           <NXuser name="{user}">
             *
           </NXuser>
+
           <NXsample name="{sample}">
             ?
           </NXsample>
+
           <NXinstrument name="{Name of instrument}">
-            ?
+             ?
+             <NXsource name="{Name of facility}">
+               *
+           <distance type="NX_FLOAT" units="m">
+            {Effective distance from sample}{Distance as seen by radiation from 
+                    sample.  This number should be negative to signify that it is upstream 
+                    of the sample.}?
+           </distance>
+           <name type="NX_CHAR">
+            {Name of source}?
+           </name>
+           <type type="NX_CHAR">
+            "Spallation Neutron Source"|"Pulsed Reactor Neutron Source"|
+                    "Reactor Neutron Source"|"Synchrotron X-ray Source"|"Pulsed Muon        Source"|
+                    "Rotating Anode X-ray"|Fixed Tube X-ray"?
+           </type>
+           <probe type="NX_CHAR">
+            neutron|x-ray|muon|electron?
+           </probe>
+           <power type="NX_FLOAT" units="MW">
+            {Source power}?
+               </power>
+           <current type="NX_FLOAT" units="*amps">
+            {Accelerator current}?
+           </current>
+           <voltage type="NX_FLOAT" units="MeV">
+            {Accelerator voltage}?
+           </voltage>
+           <notes type="NX_CHAR">
+            {any source/facility related messages/events that occurred during the 
+                    experiment}?
+           </notes>
+           <mode type="NX_CHAR">
+            {synchrotron operating mode}{"Single Bunch"|"Multi Bunch"}?
+           </mode>
+           <top_up type="NX_BOOLEAN">
+            {Is the synchrotron operating in top_up mode}?
+           </top_up>
+           <NXgeometry name="">
+            {"Engineering" location of source}?
+           </NXgeometry>
+             </NXsource>
           </NXinstrument>
+
           <NXmonitor name="{Name of monitor}">
             *
           </NXmonitor>
+
           <NXdata name="{Name of data block}">
             *
           </NXdata>
+
           <NXprocess name="{Name of the process}">
             ?
           </NXprocess>
+
        </NXentry>
     </NXroot>
