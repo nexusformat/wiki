@@ -58,7 +58,7 @@ The NeXus format is defined as a series of XML files describing both the base cl
 #The revised classes will then be posted to the NeXus XML CVS server.
 
 == Meetings ==
-* [[NIAC2006ILL|February 1-3, 2006]] at ILL, FR
+* ([[Image:NIAC2006minutes.pdf|minutes]]) [[NIAC2006ILL|February 1-3, 2006]] at ILL, FR
 * ([[Image:NIAC2005minutes.pdf|minutes]]) April 26-28, 2005 at Bishops Lodge in Sante Fe, NM, USA
 * October 21-22, 2004 at PSI, CH
 * September 8-10, 2003 at Pasadena, CA, USA
