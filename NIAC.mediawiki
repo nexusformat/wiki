@@ -54,4 +54,4 @@ The NeXus format is defined as a series of XML files describing both the base cl
 #The revised classes will then be posted to the NeXus XML CVS server.
 
 == Meetings ==
-* [[NIAC2006ILL|Discussion of the agenda for NIAC'2006]]
+* [[NIAC2006ILL|February 1-3, 2006]] at ILL

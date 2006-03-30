@@ -141,5 +141,5 @@ proposed. This is the current procedure:
 Meetings
 --------
 
--   [Discussion of the agenda for NIAC'2006](NIAC2006ILL "wikilink")
+-   [February 1-3, 2006](NIAC2006ILL "wikilink") at ILL
 
