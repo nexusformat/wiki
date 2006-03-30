@@ -7,7 +7,7 @@ layout: wiki
 2005
 ----
 
-Monday, November 7, 2005:We are planning the next meeting of the [NeXus International Advisory Committee](NIAC "wikilink"). The current proposal is to hold it in Grenoble in the first week of February, but details will be announced as they are finalized. In the meantime, check the [NeXus Wiki pages](NIAC_Meetings "wikilink") for discussions of the agenda.  
+Monday, November 7, 2005:We are planning the next meeting of the [NeXus International Advisory Committee](NIAC "wikilink"). The current proposal is to hold it in Grenoble in the first week of February, but details will be announced as they are finalized. In the meantime, check the [NeXus Wiki pages](NIAC2006ILL "wikilink") for discussions of the agenda.  
 Friday, July 15, 2005:The technical committee is pleased to announce the official release of [version 3.0.0 of the NeXus API](http://www.nexus.anl.gov/nexus_api.html#download). Mark Koennecke has incorporated infrastructure permitting the use of XML as an additional data format in the same way that it is already possible to switch between HDF4 and HDF5. The same API calls will be used for all underlying formats so that their use will be transparent to the calling program.  
 
 <!-- -->
