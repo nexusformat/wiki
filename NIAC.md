@@ -155,5 +155,6 @@ Meetings
     at Bishops Lodge in Sante Fe, NM, USA
 -   ([minutes](Media:NeXusMinutes-Oct2004.pdf "wikilink")) October
     21-22, 2004 at PSI, CH
--   September 8-10, 2003 at Pasadena, CA, USA
+-   (![minute](NIAC_minute.pdf "fig:minute")) September 8-10, 2003 at
+    Pasadena, CA, USA
 
