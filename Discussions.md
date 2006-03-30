@@ -14,4 +14,3 @@ guidelines](Help:Contents "wikilink") before making any changes.
 [Software issues](Software_issues "wikilink"):A forum for discussing the NeXus API and other software issues.  
 [Documentation issues](Documentation_issues "wikilink"):A forum for discussing how the NeXus format should be documented.  
 [Miscellaneous topics](Miscellaneous_topics "wikilink"):A forum for discussing anything else.  
-[NIAC Meetings](NIAC_Meetings "wikilink"):A forum for discussing the agenda of future NIAC meetings.  
