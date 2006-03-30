@@ -102,7 +102,8 @@ officers:
     committee, with the responsibility to oversee the NeXus API
 
 All of these officers will be elected at the beginning of each annual
-meeting, effective at the end of that meeting.
+meeting, effective at the end of that meeting. The position of chair and
+executive secretary carry a term limit of three years.
 
 Voting:Only members of the NeXus International Advisory Committee will be able to vote on specific proposals that come under the remit of the committee. However, all debates will be conducted publicly and non-committee members are both allowed and encouraged to participate.  
 Topics voted on will require a simple majority unless specifically
