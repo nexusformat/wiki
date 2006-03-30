@@ -153,7 +153,7 @@ Meetings
     2006](NIAC2006ILL "wikilink") at ILL, FR
 -   (![minutes](NIAC2005minutes.pdf "fig:minutes")) April 26-28, 2005 at
     Bishops Lodge in Sante Fe, NM, USA
--   ([minutes](NeXusMinutes-Oct2004.pdf "wikilink")) October 21-22, 2004
-    at PSI, CH
+-   ([minutes](Media:NeXusMinutes-Oct2004.pdf "wikilink")) October
+    21-22, 2004 at PSI, CH
 -   September 8-10, 2003 at Pasadena, CA, USA
 
