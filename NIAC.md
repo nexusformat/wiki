@@ -142,4 +142,5 @@ Meetings
 --------
 
 -   [February 1-3, 2006](NIAC2006ILL "wikilink") at ILL
+-   April 26-28, 2005 at Bishops Lodge in Sante Fe, NM, USA
 

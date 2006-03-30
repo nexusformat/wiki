@@ -55,3 +55,4 @@ The NeXus format is defined as a series of XML files describing both the base cl
 
 == Meetings ==
 * [[NIAC2006ILL|February 1-3, 2006]] at ILL
+* April 26-28, 2005 at Bishops Lodge in Sante Fe, NM, USA
