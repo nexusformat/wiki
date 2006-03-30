@@ -64,10 +64,9 @@ Instrument List
     Editor: Martyn Bull (ISIS Pulsed Neutron and Muon Source, UK)
 -   [Neutron Spin Echo](Neutron_Spin_Echo "wikilink") Editor: Robert
     Georgii (FRM-II, Germany)\]
-
-<!-- -->
-
 -   [Archive Definition](Archive_Definition "wikilink") Editor: [Laurent
     Lerusse](User%3AL.lerusse "wikilink") (CCLRC - Rutherford Appleton
     Laboratory, e-Science, UK)
 
+To Be Voted On in April 2006
+----------------------------
