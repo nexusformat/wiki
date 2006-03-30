@@ -98,8 +98,8 @@ officers:
 -   Chair to oversee committee deliberations
 -   Executive Secretary, who is not necessarily a member of the
     committee, to coordinate meetings and online debates
--   Technical Committee Char with the responsibility to oversee the
-    NeXus API
+-   Technical Committee Chair, who is not necessarily a member of the
+    committee, with the responsibility to oversee the NeXus API
 
 All of these officers will be elected at the beginning of each annual
 meeting, effective at the end of that meeting.

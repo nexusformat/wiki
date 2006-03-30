@@ -41,7 +41,7 @@ The committee reserves the right to appoint additional members for a limited per
 :The NeXus International Advisory Committee will have the following officers:
 :* Chair to oversee committee deliberations
 :* Executive Secretary, who is not necessarily a member of the committee, to coordinate meetings and online debates
-:* Technical Committee Char with the responsibility to oversee the NeXus API
+:* Technical Committee Chair, who is not necessarily a member of the committee, with the responsibility to oversee the NeXus API
 :All of these officers will be elected at the beginning of each annual meeting, effective at the end of that meeting.
 ;Voting:Only members of the NeXus International Advisory Committee will be able to vote on specific proposals that come under the remit of the committee. However, all debates will be conducted publicly and non-committee members are both allowed and encouraged to participate.
 :Topics voted on will require a simple majority unless specifically challenged by a committee member. In the event of a challenge, the issue will be presented to the NeXus mailing list inviting comments for a period of one month. At the end of this period, the challenge can be overruled by a two thirds majority.
