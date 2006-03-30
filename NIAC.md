@@ -149,10 +149,10 @@ proposed. This is the current procedure:
 Meetings
 --------
 
--   (![minutes](NIAC2006minutes.pdf "fig:minutes")) [February 1-3,
+-   ([minutes](Media:NIAC2006minutes.pdf "wikilink")) [February 1-3,
     2006](NIAC2006ILL "wikilink") at ILL, FR
--   (![minutes](NIAC2005minutes.pdf "fig:minutes")) April 26-28, 2005 at
-    Bishops Lodge in Sante Fe, NM, USA
+-   ([minutes](Media:NIAC2005minutes.pdf "wikilink")) April 26-28, 2005
+    at Bishops Lodge in Sante Fe, NM, USA
 -   ([minutes](Media:NeXusMinutes-Oct2004.pdf "wikilink")) October
     21-22, 2004 at PSI, CH
 -   September 8-10, 2003 at Pasadena, CA, USA
