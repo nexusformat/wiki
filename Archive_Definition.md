@@ -108,9 +108,8 @@ DTD definition
               new analysis, new instrument definition format, ... }
         </revision>
         <revision_comment type="NX_CHAR">
-            {Reason for the new revision. {e.g.: first revision, re-calibration,}?
+        {Reason for the new revision. {e.g.: first revision, re-calibration,}?
         </revision_comment>
-        
 
         <!-- Nexus format information
             The definition tag is meant to contains the most precise instrument 
@@ -189,6 +188,9 @@ DTD definition
         <publications type="NX_CHAR">
             {List of publication related to the proposal}?
         </publications>
+        <publication_references type="NX_CHAR">
+            {List of publication references related to the proposal.}?
+        </publication_references>
         <facility_access_type type="NX_CHAR">
             {Facility access type (normal, rapid access, program access …)}?
         </facility_access_type>
@@ -340,27 +342,128 @@ DTD definition
                 For actual analysis, time dependent measurement, the 
                 data are stored in an NXlog (e.g temperature_log, ..). 
             -->
-            <temperature type="NX_FLOAT" param_type="fixed|scanned|free" 
-                        sampled="start|end|middle|average">
-                {Sample temperature.}?
-            </temperature>
-            <electric_field type="NX_FLOAT" param_type="fixed|scanned|free"     
-                        direction="x|y|z" sampled="start|end|middle|average">
-                {Applied electric field}?
-            </electric_field>
-            <magnetic_field type="NX_FLOAT" param_type="fixed|scanned|free"         
-                        direction="x|y|z" sampled="start|end|middle|average">
-                {Applied magnetic field}?
-            </magnetic_field>
-            <stress_field type="NX_FLOAT" param_type="fixed|scanned|free" 
-                        direction="x|y|z" sampled="start|end|middle|average">
-                {External stress}?
-            </stress_field>
-            <pressure type="NX_FLOAT" param_type="fixed|scanned|free" 
-                        sampled="start|end|middle|average">
-                {Applied pressure}?
-            </pressure>
+            <min_temperature type="NX_FLOAT" param_type="fixed|scanned|free">
+                {Minimum of Sample temperature.}?
+            </min_temperature>
+            <max_temperature type="NX_FLOAT" param_type="fixed|scanned|free">
+                {Maximum of Sample temperature.}?
+            </max_temperature>        
+            <min_electric_field type="NX_FLOAT" param_type="fixed|scanned|free">
+                {Minimum of Applied electric field}?
+            </min_electric_field>
+            <min_electric_field type="NX_FLOAT" param_type="fixed|scanned|free">
+                {Maximum of Applied electric field}?
+            </min_electric_field>
+            <min_magnetic_field type="NX_FLOAT" param_type="fixed|scanned|free" >
+                {Minimum of Applied magnetic field}?
+            </min_magnetic_field>
+            <max_magnetic_field type="NX_FLOAT" param_type="fixed|scanned|free" >
+                {Maximum of Applied magnetic field}?
+            </max_magnetic_field>        
+            <min_stress_field type="NX_FLOAT" param_type="fixed|scanned|free">
+                {Minimum of External stress}?
+            </min_stress_field>
+            <max_stress_field type="NX_FLOAT" param_type="fixed|scanned|free">
+                {Maximum amplitude of External stress}?
+            </max_stressMin_field>
+            <min_pressure type="NX_FLOAT" param_type="fixed|scanned|free">
+                {Mininum of Applied pressure}?
+            </min_pressure>
+            <max_pressure type="NX_FLOAT" param_type="fixed|scanned|free">
+                {Maximum of Applied pressure}?
+            </max_pressure>    
         </NXsample>
     </NXentry>
 
---[L.lerusse](User%3AL.lerusse "wikilink") 08:57, 17 February 2006 (CST)
+Example
+-------
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <!--
+    URL:     http://www.nexus.anl.gov/
+    Editor:  L. Lerusse, CCLRC e-Science
+    $Id: ArchiveDefinition.xml,v 0.1 2006/02/10 $
+
+    Template of the Archive Definition.
+
+    -->
+    <NXroot>
+        <NXentry name="entry 0">
+            <title type="NX_CHAR"> Study of different table salts structure at room temperature. </title> 
+            <experiment_identifier type="NX_CHAR">  ISIS-TOSCA-20060306.001</experiment_identifier>
+            <run_number type="NX_INT"> 1 </run_number>
+            <run_cycle type="NX_CHAR"> winter 2006 </run_cycle>   
+            <release_date type="NX_CHAR"> 2007-03-06    </release_date>
+            <revision type="NX_CHAR"> 1.0   </revision>
+            <revision_comment type="NX_CHAR"> File Creation </revision_comment>
+            <definition type="NX_CHAR" version="0.1" URL="generic_definition.xml"> Generic Instrument Definition </definition>
+            <archive_definition type="NX_CHAR" version="1.0" URL="archive_definition.xml"> Archive Definition </archive_definition>
+            <local_definition type="NX_CHAR" version="1.5" URL="TOFRaw.xml"> Time Of Flight Raw definition. </local_definition>   
+            <start_time type="ISO8601"> 2006-03-06T15:20:05.45+00:00 </start_time>
+            <end_time type="ISO8601"> 2006-03-06T15:44:29.47+00:00 </end_time>
+            <duration type="NX_FLOAT" units="seconds"> 1464.02 </duration>
+            <collection_time type="NX_FLOAT" units="seconds"> 1005.12 </collection_time>
+            <info_reliability  type="NX_CHAR"> Updated at Experiment Time </info_reliability>
+            <discipline type="NX_CHAR"> Physics  </discipline>
+            <keyword type="NX_CHAR"> salt, cooking, crystal</keyword>
+            <keyword_source type="NX_CHAR"> http://www.saltinstitute.org/ </keyword_source>
+            <subject type="NX_CHAR">  </subject>
+            <description_summary type="NX_CHAR"> This study will look for difference in the different table 
+                salt structure to determine which one is best suited to be put on chips. </description_summary>
+            <description type="NXNote"> "best_salt.pdf" </description>
+            <requirement type="NX_CHAR"> Humidity level should be minimal. </requirement>
+            <publications type="NX_CHAR"> L.L. & al, " The best salt for Margaritas shots", 
+                The Tequila Journal, june 2004. </publications>
+            <facility_access_type type="NX_CHAR"> Program access </facility_access_type>
+            <grant_id  type="NX_CHAR" type="NX_CHAR"> BE-2006.02361 </grant_id>
+            <program_name type="NX_CHAR" version="2.1.1"> TextWrangler </program_name>
+                
+            <NXuser name="user 01">
+                <name type="NX_CHAR"> Laurent Lerusse </name>
+                <role type="NX_CHAR"> principal_investigator, experimenter </role>
+                <affiliation type="NX_CHAR"> frite.be  </affiliation>
+                <address type="NX_CHAR">1 Grand Place, 1000 Bruxelles </address>
+                <telephone_number type="NX_CHAR">+32/2-12345678 </telephone_number>
+                <fax_number type="NX_CHAR">+32/2-12345690  </fax_number>
+                <email type="NX_CHAR">ll@frites.be  </email>
+                <facility_user_id type="NX_CHAR"> ll56 </facility_user_id>
+                <affiliation_id type="NX_CHAR"> BE-frite.be.001 </affiliation_id>
+            </NXuser>
+            <NXuser name="user 01">
+                <name type="NX_CHAR"> Damian Flannery </name>
+                <role type="NX_CHAR"> local_contact </role>
+                <affiliation type="NX_CHAR"> ISIS  </affiliation>
+                <address type="NX_CHAR">Didcot OX11 0QX </address>
+                <telephone_number type="NX_CHAR">+44/2-1235661234 </telephone_number>
+                <fax_number type="NX_CHAR">+44/1235775678  </fax_number>
+                <email type="NX_CHAR"> df@isis.uk  </email>
+                <facility_user_id type="NX_CHAR"> df07 </facility_user_id>
+                <affiliation_id type="NX_CHAR"> ISIS </affiliation_id>
+            </NXuser>
+            <NXinstrument name="ISIS - PRISMA">
+                <name type="NX_CHAR" short_name="PRISMA"> The inverse geometry crystal-analyser spectrometer and high resolution diffractometer - PRISMA </name>
+                <NXsource name="ISIS">
+                    <name type="NX_CHAR"> ISIS TS1 / solid methane  </name>
+                    <type type="NX_CHAR"> Spallation Neutron Source </type>
+                    <probe type="NX_CHAR"> neutron </probe>
+                </NXsource>
+            </NXinstrument>
+            <NXsample name="sample 1">
+                <name type="NX_CHAR"> Himalayan Crystal Salts - sample 1 </name>
+                <sample_id type="NX_CHAR"> salt-himalaya.001 </sample_id>
+                <chemical_formula type="NX_CHAR"> Cl Na </chemical_formula>
+                <description type="NX_CHAR"> The larger Himalayan salt crystals are hand-crushed to make this holistic,
+                    natural salt small enough to be used in a common saltshaker. This salt has all the natural 
+                    characteristics of the original crystals from which it comes and has a distinctive "alive" 
+                    taste that's naturally delicious. Slightly pink in color, it contains 84 minerals in a form that 
+                    can be easily assimilated and metabolized by the body. This salt is truly wholesome and delicious! </description>
+                <short_title type="NX_CHAR"> Himalayan Salts 1 </short_title>        
+                <min_temperature type="NX_FLOAT" param_type="free" units="Kelvin"> 280.85 </min_temperature>
+                <max_temperature type="NX_FLOAT" param_type="free" units="Kelvin"> 299.53 </max_temperature>    
+                    <min_pressure type="NX_FLOAT" param_type="free" UNIT="pascal"> 97.85 </min_pressure>
+                    <max_pressure type="NX_FLOAT" param_type="free" UNIT="pascal"> 98.24 </max_pressure>
+            </NXsample>
+        </NXentry>
+    </NXroot>
+
+--[L.lerusse](User%3AL.lerusse "wikilink") 09:04, 4 April 2006 (CDT)
