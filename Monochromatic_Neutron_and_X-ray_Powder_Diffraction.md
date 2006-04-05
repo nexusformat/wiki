@@ -8,10 +8,9 @@ Monochromatic Neutron and X-Ray Powder Diffraction
 --------------------------------------------------
 
 Find below my version of a DTD for monochromatic powder diffraction. I
-kept it fairly
-
-`minimal; just the necessary stuff to do a normal Rietveld with it. You can download the `  
-`XML from `[`http://lns00.psi.ch/NXexample/NXmonopd.xml`](http://lns00.psi.ch/NXexample/NXmonopd.xml)` `
+kept it fairly minimal; just the necessary stuff to do a normal Rietveld
+with it. You can download the XML from
+<http://lns00.psi.ch/NXexample/NXmonopd.xml>
 
     <?xml version="1.0"?>
     <!--
