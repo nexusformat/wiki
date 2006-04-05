@@ -37,8 +37,7 @@ Instrument List
     for Neutron Research, USA).
 -   [Monochromatic Neutron and X-ray Powder
     Diffraction](Monochromatic_Neutron_and_X-ray_Powder_Diffraction "wikilink")
-    Editor: [User%3AMark Koennecke](User%3AMark_Koennecke "wikilink"),
-    PSI
+    Editor: Mark Koennecke, PSI
 -   [Time-of-Flight Neutron Single Crystal
     Diffractometer](Time-of-Flight_Neutron_Single_Crystal_Diffractometer "wikilink")
     Editor: TBA
