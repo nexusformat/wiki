@@ -40,7 +40,7 @@ Instrument List
     Editor: Mark Koennecke, PSI
 -   [Time-of-Flight Neutron Single Crystal
     Diffractometer](Time-of-Flight_Neutron_Single_Crystal_Diffractometer "wikilink")
-    Editor: TBA
+    Editor: Mark Koennecke, PSI
 -   [Monochromatic Neutron and X-ray Single Crystal
     Diffractometer](Monochromatic_Neutron_and_X-ray_Single_Crystal_Diffractometer "wikilink")
     Editor: TBA
