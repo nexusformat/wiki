@@ -6,8 +6,8 @@ As part of the NeXus standard, we have identified a number of generic instrument
 *[[Time-of-Flight Neutron Powder Diffraction]] Editor: [[User:Pfpeterson|Peter Peterson]] (Spallation Neutron Source, USA).
 *[[Monochromatic Neutron and X-ray Triple-Axis Spectrometer]] Editor: [[User:Nickm|Nicholas Maliszewskyj]](NIST Center for Neutron Research, USA).
 *[[Monochromatic Neutron and X-ray Powder Diffraction]] Editor: Mark Koennecke, PSI
-*[[Time-of-Flight Neutron Single Crystal Diffractometer]] Editor: Mark Koennecke, PSI
-*[[Monochromatic Neutron and X-ray Single Crystal Diffractometer]] Editor: TBA
+*[[Time-of-Flight Neutron Single Crystal Diffractometer]] Editor: TBA
+*[[Monochromatic Neutron and X-ray Single Crystal Diffractometer]] Editor: Mark Koennecke, PSI
 *[[Time-of-Flight Small Angle Scattering]] Editor: Stephen King (ISIS Pulsed Neutron and Muon Source, UK).
 *[[SAS|Monochromatic Neutron and X-ray Small Angle Scattering]] Editor: Ron Ghosh (Institut Laue Langevin, France).
 *[[Time-of-Flight Neutron Reflectometery]] Editor: Robert Dalgliesh (ISIS Pulsed Neutron and Muon Source, UK)

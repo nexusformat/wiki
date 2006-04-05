@@ -40,10 +40,10 @@ Instrument List
     Editor: Mark Koennecke, PSI
 -   [Time-of-Flight Neutron Single Crystal
     Diffractometer](Time-of-Flight_Neutron_Single_Crystal_Diffractometer "wikilink")
-    Editor: Mark Koennecke, PSI
+    Editor: TBA
 -   [Monochromatic Neutron and X-ray Single Crystal
     Diffractometer](Monochromatic_Neutron_and_X-ray_Single_Crystal_Diffractometer "wikilink")
-    Editor: TBA
+    Editor: Mark Koennecke, PSI
 -   [Time-of-Flight Small Angle
     Scattering](Time-of-Flight_Small_Angle_Scattering "wikilink")
     Editor: Stephen King (ISIS Pulsed Neutron and Muon Source, UK).
