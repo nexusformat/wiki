@@ -124,12 +124,19 @@ General Notes:
    </NXsample>
 
    <NXdata name="{Name of Data Block}">+
-      <data type="NX_INT32[i]" signal="1">
+      <data type="NX_INT32[xdim,ydim,np]" signal="1">
          {Link to detector counts in NXdetector}
       </data>
       <polar_angle type="NX_FLOAT32[i]" axis="1">
          {Link to polar angle data in NXdetector}
       </polar_angle>
+      <pixel_offset_x units="mm" type="NX_FLOAT[]">
+          {Link to pixel_offset_x in NXdetector}
+      </pixel_offset_x>
+       <pixel_offset_y units="mm" type="NX_FLOAT[]">
+
+          {Link to pixel_offset_y in NXdetector}
+      </pixel_offset_y>
    </NXdata>
   </NXentry>
 </NXroot>
