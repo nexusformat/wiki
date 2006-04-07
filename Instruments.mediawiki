@@ -18,3 +18,4 @@ As part of the NeXus standard, we have identified a number of generic instrument
 *[[Archive Definition]] Editor: [[User:L.lerusse|Laurent Lerusse]] (CCLRC - Rutherford Appleton Laboratory, e-Science, UK)
 
 ==To Be Voted On in April 2006==
+* [[NXpositioner]], Editor: Pete Jemian (Advanced Photon Source, USA)

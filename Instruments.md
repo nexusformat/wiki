@@ -70,3 +70,7 @@ Instrument List
 
 To Be Voted On in April 2006
 ----------------------------
+
+-   [NXpositioner](NXpositioner "wikilink"), Editor: Pete Jemian
+    (Advanced Photon Source, USA)
+
