@@ -25,7 +25,7 @@ layout: wiki
                     {engineering units, e.g. mm, degrees, VDC, ...}
             </units >
             <soft_limit_min type="NX_FLOAT">
-                    {minimum allowed limit to set value}
+                    {maximum allowed limit to set value}
             </soft_limit_min>
             <soft_limit_max type="NX_FLOAT">
                     {minimum allowed limit to set value}
