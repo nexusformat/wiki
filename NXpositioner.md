@@ -24,6 +24,9 @@ layout: wiki
             <units type="NX_CHAR">
                     {engineering units, e.g. mm, degrees, VDC, ...}
             </units >
+            <raw_units type="NX_CHAR">
+                    {units of values used by positioner device or controller, e.g. pulses, steps, VDC, ...}
+            </raw_units >
             <soft_limit_min type="NX_FLOAT">
                     {maximum allowed limit to set value}
             </soft_limit_min>
