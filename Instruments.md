@@ -27,6 +27,8 @@ format.
 Instrument List
 ---------------
 
+-   [Generic Scanning Instrument](GenericScan "wikilink") Editor: Make
+    Koennecke, PSI
 -   [Time-of-Flight Neutron Powder
     Diffraction](Time-of-Flight_Neutron_Powder_Diffraction "wikilink")
     Editor: [Peter Peterson](User%3APfpeterson "wikilink") (Spallation
