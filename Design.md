@@ -130,6 +130,8 @@ instrument components e.g. choppers, collimators, detectors.
 
 :::[NXbeam\_stop](NXbeam_stop "wikilink")
 
+:::[NXpositioner](NXpositioner "wikilink")
+
 ::;[NXsample](NXsample "wikilink"):The information needed to define the
 physical state of the sample during the scan <i>e.g.</i> temperature,
 magnetic field, crystal mosaic.

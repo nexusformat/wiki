@@ -40,6 +40,7 @@ Click on any of the class names below for a more detailed description compiled f
 :::[[NXmirror]]
 :::[[NXdetector]]
 :::[[NXbeam_stop]]
+:::[[NXpositioner]]
 ::;[[NXsample]]:The information needed to define the physical state of the sample during the scan <i>e.g.</i> temperature, magnetic field, crystal mosaic.
 ::;[[NXmonitor]]:Monitor data, i.e., counts, integrals, ''etc''.
 ::;[[NXdata]]:The data to be plotted i.e. a single data set comprising the measurements along with the data errors, and the default axis scales and labels required to plot the data. There can be more than one [[NXentry]], e.g., if there are several detector banks producing plottable data. 
