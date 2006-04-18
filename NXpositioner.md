@@ -17,7 +17,7 @@ layout: wiki
             </value>
             <readback type="NX_FLOAT[n]" units="{}">
                     {value of positioner readback - need [n] as may be scanned}
-            </value>
+            </readback>
             <!-- since units are used by more than one field, 
                  we declare them as a field rather than as an attribute to a field
             -->
