@@ -6,18 +6,5 @@ layout: wiki
 
 This page is to propose a possible structure for an NXmotor base class.
 
-    <?xml version="1.0" encoding="UTF-8"?>
-    <!--
-    URL:     http://www.nexus.anl.gov/classes/xml/NXmotor.xml
-    Editor:  NIAC
-
-    This is the description for a generic motor.
-    -->
-    <NXmotor name="{Name of motor}">
-            <value type="NX_FLOAT[n]" units="{}">
-                    {value of motor - need [n] as may be scanned}
-            </value>
-            <controller_record type="NX_CHAR">
-                    {Hardware device record, e.g. EPICS process variable, taco/tango ...}
-            </controller_record>
-    </NXmotor>
+It has been decided to rename this class to
+[Nxpositioner](Nxpositioner "wikilink")
