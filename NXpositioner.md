@@ -28,10 +28,10 @@ layout: wiki
                     {units of values used by positioner device or controller, e.g. pulses, steps, VDC, ...}
             </raw_units >
             <soft_limit_min type="NX_FLOAT">
-                    {maximum allowed limit to set value}
+                    {minimum allowed limit to set value}
             </soft_limit_min>
             <soft_limit_max type="NX_FLOAT">
-                    {minimum allowed limit to set value}
+                    {maximum allowed limit to set value}
             </soft_limit_max>
             <!--
               What about conversion factors between engineering units and raw units
