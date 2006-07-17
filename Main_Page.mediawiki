@@ -8,7 +8,7 @@ NeXus is a common data format for neutron, x-ray, and muon science.  It is being
 ;[[FAQ|NeXus FAQ]]:A list of commonly asked questions about NeXus.
 ;[[Discussions|NeXus Discussions]]:A forum for discussing any aspects of the NeXus format.
 ;[[NIAC|NeXus International Advisory Committee]]:Charged with supervising the development and maintenance of the NeXus format.
-:* The next meeting of NIAC will be at the [http://www.lbl.gov LBL] on October 5-6, 2006. This is immediately following [http://nobugs2006.lbl.gov/ NOBUGS 2006]. - [[NIAC2006LBL|NIAC2006-2]]
+:* The next meeting of NIAC will be at the [http://www.lbl.gov LBL] on October 5-6, 2006. This is immediately following [http://nobugs2006.lbl.gov/ NOBUGS 2006]. - [[NIAC2006LBL|NIAC'2006-2]]
 :* ILL on February 1-3, 2006 - [[NIAC2006ILL|NIAC'2006]]
 
 {| align="center"  width="90%"  style="border:solid navy 1px; padding: 5px;font-size:0.85em"  
