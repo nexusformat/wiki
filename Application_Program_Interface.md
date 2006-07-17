@@ -694,6 +694,12 @@ The following packages are required:
 </tbody>
 </table>
 
+If you are using [Fedora Core](http://fedora.redhat.com/) Linux,
+pre-built hdf packages are contained in the fedora-extras repository and
+can be installed with
+
+    yum install hdf hdf-devel hdf5 hdf5-devel
+
 -   [Download latest NeXus development snapshot as
     RPM](http://nexus.isis.rl.ac.uk/kits/rpm/)
 

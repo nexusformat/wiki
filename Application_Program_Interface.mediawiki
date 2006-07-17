@@ -488,6 +488,10 @@ The following packages are required:
 | align="center" | [http://www.nexus.anl.gov/nexus-3.0.0-1.src.rpm Source RPM]
 |}
 
+If you are using [http://fedora.redhat.com/ Fedora Core] Linux, pre-built hdf packages are contained in the fedora-extras repository and can be installed with
+<pre>
+yum install hdf hdf-devel hdf5 hdf5-devel
+</pre>
 *[http://nexus.isis.rl.ac.uk/kits/rpm/ Download latest NeXus development snapshot as RPM]
 
 ===CYGWIN Kits===
