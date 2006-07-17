@@ -723,11 +723,11 @@ build simple programs
 
 This script links in the various libraries for you and reading its
 contents would provide the necessary information for creating a separate
-Makefile. You can also use nxbuild with the example files in the NeXus
-distribution kit which are installed into **/usr/local/nexus/examples**
-- note that the executable name is important in this case as the test
-program uses it internally to determine the NXACC\_CREATE\* argument to
-pass to NXopen.
+Makefile. You can also use **nxbuild** with the example files in the
+NeXus distribution kit which are installed into
+**/usr/local/nexus/examples** - note that the executable name is
+important in this case as the test program uses it internally to
+determine the NXACC\_CREATE\* argument to pass to NXopen.
 
       nxbuild -o napi_test-hdf5 napi_test.c  #  builds HDF5 specific test
       ./napi_test-hdf5
