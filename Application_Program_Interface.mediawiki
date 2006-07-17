@@ -499,6 +499,18 @@ Otherwise you will have to use the '''--with-hdf5=/path/to/hdf5''' option when c
 
 Build NeXus using the instructions for [[#Source Code Distribution| source code distribution]] above.
 
+==Building Programs==
+
+The install kit provides a utility call '''nxbuild''' that can be used to build simple programs
+<pre>
+  nxbuild -o test test.c
+</pre>
+This script links in the various libraries for you and reading its contents would provide the necessary information for creating a separate Makefile. You can also use nxbuild with the example files in the NeXus distribution kit which are installed into '''/usr/local/nexus/examples''' - note that the executable name is important in this case as the test program uses it internally to determine the NXACC_CREATE* argument to pass to NXopen. 
+<pre>
+  nxbuild -o napi_test-hdf5 napi_test.c  #  builds HDF5 specific test
+  ./napi_test-hdf5
+</pre>
+
 ==Reporting Bugs in the NeXus API==
 If you encounter any bugs in the installation or running of the NeXus API, please report them online using the ISIS Bugzilla reporting system.
 *[http://bugs.isis.rl.ac.uk/buglist.cgi?query_format=specific&order=relevance+desc&bug_status=__open__&product=NeXus&content= List current NeXus bug reports]
