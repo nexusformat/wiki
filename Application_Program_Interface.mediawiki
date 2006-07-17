@@ -491,13 +491,13 @@ The following packages are required:
 *[http://nexus.isis.rl.ac.uk/kits/rpm/ Download latest NeXus development snapshot as RPM]
 
 ===CYGWIN Kits===
-HDF4 is not supported under CYGWIN - both HDF5 and MXML are supported and can be downloaded and built as usual. With HDF5 you should explicitly pass a prefix to the configure script to make sure the libraries are installed in a "usual" location i.e.
+HDF4 is not supported under CYGWIN - both HDF5 and MXML are supported and can be downloaded and built as usual. When configuring HDF5 you should explicitly pass a prefix to the configure script to make sure the libraries are installed in a "usual" location i.e.
 <pre>
 ./configure --prefix=/usr/local/hdf5
 </pre>
-Otherwise you will have to use the '''--with-hdf5=/path/to/hdf5''' option when configuring NeXus to tell it where to look. 
+Otherwise you will have to use the '''--with-hdf5=/path/to/hdf5''' option later when configuring NeXus to tell it where to look for hdf5. 
 
-Build NeXus using the instructions for [[#Source Code Distribution| source code distribution]] above.
+After building hdf5, configure and build NeXus using the instructions for [[#Source Code Distribution| source code distribution]] above.
 
 ==Building Programs==
 

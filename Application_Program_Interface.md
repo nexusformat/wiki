@@ -700,17 +700,18 @@ The following packages are required:
 ### CYGWIN Kits
 
 HDF4 is not supported under CYGWIN - both HDF5 and MXML are supported
-and can be downloaded and built as usual. With HDF5 you should
-explicitly pass a prefix to the configure script to make sure the
+and can be downloaded and built as usual. When configuring HDF5 you
+should explicitly pass a prefix to the configure script to make sure the
 libraries are installed in a “usual” location i.e.
 
     ./configure --prefix=/usr/local/hdf5
 
 Otherwise you will have to use the **--with-hdf5=/path/to/hdf5** option
-when configuring NeXus to tell it where to look.
+later when configuring NeXus to tell it where to look for hdf5.
 
-Build NeXus using the instructions for [ source code
-distribution](#Source_Code_Distribution "wikilink") above.
+After building hdf5, configure and build NeXus using the instructions
+for [ source code distribution](#Source_Code_Distribution "wikilink")
+above.
 
 Building Programs
 -----------------
