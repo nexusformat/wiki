@@ -699,21 +699,17 @@ The following packages are required:
 
 ### CYGWIN Kits
 
-You need to install the HDF4, SZIP and JPEG libraries before you can
-compile a NeXus distribution kit. They are combined in a single gzipped
-tar file here.
+HDF4 is not supported under CYGWIN - both HDF5 and MXML are supported
+and can be downloaded and built as usual. With HDF5 you should
+explicitly pass a prefix to the configure script to make sure the
+libraries are installed in a “usual” location i.e.
 
--   [<http://nexus.isis.rl.ac.uk/kits/cygwin/hdf42r1.tar.gz>](http://nexus.isis.rl.ac.uk/kits/cygwin/hdf42r1.tar.gz)
+    ./configure --prefix=/usr/local/hdf5
 
-After downloading it, do the following:
+Otherwise you will have to use the **--with-hdf5=/path/to/hdf5** option
+when configuring NeXus to tell it where to look.
 
-    cd /usr/local
-    gunzip hdf42r1.tar.gz
-    tar xf hdf42r1.tar
-
-It should create /usr/local/hdf/\* directories *etc.*
-
-Then you can build NeXus using the instructions for [ source code
+Build NeXus using the instructions for [ source code
 distribution](#Source_Code_Distribution "wikilink") above.
 
 Reporting Bugs in the NeXus API
