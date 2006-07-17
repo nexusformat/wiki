@@ -21,7 +21,8 @@ in the analysis and visualization of neutron, x-ray, and muon data.
 [NeXus International Advisory Committee](NIAC "wikilink"):Charged with supervising the development and maintenance of the NeXus format.  
 
 :\* The next meeting of NIAC will be at the [LBL](http://www.lbl.gov) on
-October 5-6, 2006.
+October 5-6, 2006. This is immediately following [NOBUGS
+2006](http://nobugs2006.lbl.gov/)
 
 :\* ILL on February 1-3, 2006 - [NIAC'2006](NIAC2006ILL "wikilink")
 
