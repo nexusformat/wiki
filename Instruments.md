@@ -70,9 +70,3 @@ Instrument List
     Lerusse](User%3AL.lerusse "wikilink") (CCLRC - Rutherford Appleton
     Laboratory, e-Science, UK)
 
-To Be Voted On in April 2006
-----------------------------
-
--   [NXpositioner](NXpositioner "wikilink"), Editor: Pete Jemian
-    (Advanced Photon Source, USA)
-
