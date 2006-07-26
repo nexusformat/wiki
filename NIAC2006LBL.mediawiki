@@ -1,2 +1,4 @@
 ==NIAC Meeting - October 2006==
 The next meeting of the  [[NIAC | NeXus International Advisory Committee]] will be held at the [http://www.lbl.gov Lawrence Berkeley National Laboratory] near San Francisco, California, USA. The meeting will be held from October 5 to 6, 2006, immediately following [http://nobugs2006.lbl.gov/ NOBUGS 2006].
+
+If you are interested in attending, contact [[User:Andy Gotz|Andrew Götz]].
