@@ -4,3 +4,4 @@ If you wish to start a discussion of any topic concerning the NeXus API, please 
 * [[Voting]]
 * [[TOFRaw | NXTOFRW  - NeXus Time-of-Flight Raw File Format (simple sit and count case)]]
 * [[TOFRawScan | NXTOFRWSC - NeXus Time-of-Flight Raw File Format (NXTOFRW with extensions for scans)]]
+* [[ReflectDiscuss | NeXus Reflectometry discussion ]]
