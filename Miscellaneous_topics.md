@@ -18,4 +18,5 @@ List](http://www.neutron.anl.gov/mailman/listinfo/nexus).
 -   [ NXTOFRWSC - NeXus Time-of-Flight Raw File Format (NXTOFRW with
     extensions for scans)](TOFRawScan "wikilink")
 -   [ NeXus Reflectometry discussion ](ReflectDiscuss "wikilink")
+-   [ NeXus Indirect geometry discussion ](IndirectDiscuss "wikilink")
 
