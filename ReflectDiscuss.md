@@ -4,6 +4,11 @@ permalink: ReflectDiscuss/
 layout: wiki
 ---
 
+Three files as a starting point for discussion ... the idea is to come
+up with reflectometer definitions based on inheritance from other
+definitions such as [TOFRaw](TOFRaw "wikilink")
+
+
     <?xml version="1.0" ?>
     <!--
     Instrument Definition for Reflectometers.
