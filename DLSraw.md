@@ -391,14 +391,14 @@ layout: wiki
                     We would include a different NXmotor entry for each 'scannable' or
                     motor/variable that we want to record the position of at each scan point.
                 -->
-                <NXmotor name="{Name of motor}">+
+                <NXpositioner name="{Name of scannable}">+
                     <value type="NX_FLOAT[n]" units="{}">
                         {value of motor - need [n] as may be scanned}
                     </value>
                     <controller_record type="NX_CHAR">
                         {Hardware device record, e.g. EPICS process variable, taco/tango ...}
                     </controller_record>
-                </NXmotor>
+                </NXpositioner>
 
 
                 <NXdetector name="{Name of detector}">1+
