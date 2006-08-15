@@ -15,3 +15,38 @@ following [NOBUGS 2006](http://nobugs2006.lbl.gov/).
 
 If you are interested in attending, contact [Andrew
 Götz](User%3AAndy_Gotz "wikilink").
+
+### Proposed Agenda
+
+Please add suggestions for agenda items here in [ bullet
+form](Help:Editing#Lists "wikilink"). If you want to add extended
+comments concerning any agenda item, please use the Wiki's talk page [
+Talk Page](Talk:NIAC_Meetings "wikilink").
+
+-   Welcome and Introduction
+-   Review of NIAC'2006ILL minutes
+-   [Renew members](Membership_Dates "wikilink")
+
+### General Information
+
+**Accomodations**
+
+LBL has a list of housing in the area:
+[1](http://www.lbl.gov/Workplace/near-our-shuttle.html)
+
+The NOBUGS 2006 conference suggests two hotels:
+[2](http://nobugs2006.lbl.gov/index.php?content=Lodging)
+
+**General information**
+
+### Meeting layout
+
+### NIAC Meeting Provisional Timetable
+
+#### October 5
+
+#### October 6
+
+### NeXus Presentation
+
+### Working Groups
