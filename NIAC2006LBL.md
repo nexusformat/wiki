@@ -47,6 +47,4 @@ The NOBUGS 2006 conference suggests two hotels:
 
 #### October 6
 
-### NeXus Presentation
-
 ### Working Groups
