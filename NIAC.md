@@ -39,7 +39,7 @@ layout: wiki
 -   [Thomas Proffen](User%3AThomas_Proffen "wikilink"), Los Alamos
     National Laboratory, USA
 
-The [experation dates](Membership_Dates "wikilink") for the various
+The [expiration dates](Membership_Dates "wikilink") for the various
 members.
 
 Constitution
@@ -149,6 +149,8 @@ proposed. This is the current procedure:
 Meetings
 --------
 
+-   (minutes) [October 5-6, 2006](NIAC2006LBL "wikilink") at LBL,
+    Berkeley, CA, USA
 -   (![minutes](NIAC2006minutes.pdf "fig:minutes")) [February 1-3,
     2006](NIAC2006ILL "wikilink") at ILL, FR
 -   (![minutes](NIAC2005minutes.pdf "fig:minutes")) April 26-28, 2005 at

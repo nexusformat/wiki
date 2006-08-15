@@ -16,7 +16,7 @@
 *[[User:Peter Peterson|Peter Peterson]], Spallation Neutron Source, USA (Chair)
 *[[User:Thomas Proffen|Thomas Proffen]], Los Alamos National Laboratory, USA
 
-The [[Membership Dates|experation dates]] for the various members.
+The [[Membership Dates|expiration dates]] for the various members.
 
 == Constitution ==
 === Terms of Reference ===
@@ -58,6 +58,7 @@ The NeXus format is defined as a series of XML files describing both the base cl
 #The revised classes will then be posted to the NeXus XML CVS server.
 
 == Meetings ==
+* (minutes) [[NIAC2006LBL|October 5-6, 2006]] at LBL, Berkeley, CA, USA
 * ([[Image:NIAC2006minutes.pdf|minutes]]) [[NIAC2006ILL|February 1-3, 2006]] at ILL, FR
 * ([[Image:NIAC2005minutes.pdf|minutes]]) April 26-28, 2005 at Bishops Lodge in Sante Fe, NM, USA
 * ([[Image:NeXusMinutes-Oct2004.pdf|minutes]]) October 21-22, 2004 at PSI, CH
