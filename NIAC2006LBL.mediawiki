@@ -19,8 +19,6 @@ LBL has a list of housing in the area:
 The NOBUGS 2006 conference suggests two hotels:
 [http://nobugs2006.lbl.gov/index.php?content=Lodging http://nobugs2006.lbl.gov/index.php?content=Lodging]
 
-'''General information'''
-
 ===Meeting layout===
 
 ===NIAC Meeting Provisional Timetable===
