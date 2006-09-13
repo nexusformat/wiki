@@ -27,9 +27,8 @@ Talk Page](Talk:NIAC_Meetings "wikilink").
 -   Review of NIAC'2006ILL minutes
 -   [Renew members](Membership_Dates "wikilink")
 -   Add new members
-
-`* Jens-Uwe Hoffmann - Hahn-Meitner-Institut Berlin`  
-`* Paul Kienzle - DANSE`
+    -   Jens-Uwe Hoffmann - Hahn-Meitner-Institut Berlin
+    -   Paul Kienzle - DANSE
 
 ### General Information
 
