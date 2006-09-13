@@ -8,6 +8,9 @@ Please add suggestions for agenda items here in [[Help:Editing#Lists | bullet fo
 * Welcome and Introduction
 * Review of NIAC'2006ILL minutes
 * [[Membership Dates|Renew members]]
+* Add new members
+ * Jens-Uwe Hoffmann - Hahn-Meitner-Institut Berlin
+ * Paul Kienzle - DANSE
 
 ===General Information===
 
