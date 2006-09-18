@@ -29,7 +29,7 @@ Talk Page](Talk:NIAC_Meetings "wikilink").
 -   Add new members
     -   Jens-Uwe Hoffmann - Hahn-Meitner-Institut Berlin
     -   Paul Kienzle - DANSE
--   Moving from Meta-DTD to XML Schema
+-   Moving from [Meta-DTDs](Metaformat "wikilink") to XML Schema
 
 ### General Information
 
