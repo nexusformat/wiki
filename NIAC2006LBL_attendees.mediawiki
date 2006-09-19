@@ -1,0 +1,52 @@
+==NIAC 2006 at LBL List of Attendees==
+
+Attendees of the 
+[[NIAC2006LBL|2006 NIAC Meeting]] at Lawrence Berkeley Laboratory, Berkeley, CA, USA.
+
+{| border="1"
+|-
+! [[User:Freddie_Akeroyd|Freddie Akeroyd]]
+|| CCLRC
+|-
+! [[User:Stuart_Campbell|Stuart Campbell]]
+|| Diamond Light Source
+|-
+! Matthias Drochner
+|| Forschungzentrum Jülich
+|-
+! [[User:Andy_Gotz|Andrew Gotz]]
+|| European Synchrotron Radiation Facility
+|-
+! [[User:Nick|Nick Hauser]]
+|| Australian Nuclear Science and Technology Organisation
+|-
+! Jens-Uwe Hoffman
+|| Hahn-Meitner-Institut
+|-
+! [[User:Pete_Jemian|Pete Jemian]]
+|| Argonne National Laboratory
+|-
+! Paul Kienzle
+|| National Institute of Standards and Technology
+|-
+! [[User:Przemek_Klosowski|Przemek Klosowski]]
+|| National Institute of Standards and Technology
+|-
+! [[User:Mark_Koennecke|Mark Koennecke]]
+|| Paul Scherrer Institut
+|-
+! Laurent Lerusse
+|| Rutherford Appleton Laboratory
+|-
+! [http://www.its.caltech.edu/~mmckerns Mike McKerns]
+|| CalTech
+|-
+! [[User:Peter_Peterson|Peter Peterson]]
+|| Spallation Neutron Source
+|-
+! [[User:Thomas_Proffen|Thomas Proffen]]
+|| Los Alamos National Laboratory
+|-
+! Jiro Suzuki
+|| J-Parc
+|}
