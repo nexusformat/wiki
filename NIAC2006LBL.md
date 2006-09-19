@@ -13,7 +13,10 @@ National Laboratory](http://www.lbl.gov) near San Francisco, California,
 USA. The meeting will be held from October 5 to 6, 2006, immediately
 following [NOBUGS 2006](http://nobugs2006.lbl.gov/).
 
-If you are interested in attending, contact [Andrew
+### List of Attendees
+
+If you are interested in attending (and are not already on the [list of
+attendees](NIAC2006LBL_attendees "wikilink")), contact [Andrew
 Götz](User%3AAndy_Gotz "wikilink").
 
 ### Proposed Agenda
