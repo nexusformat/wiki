@@ -73,6 +73,18 @@ The NOBUGS 2006 conference suggests two hotels:
 
 ### NIAC Meeting Provisional Timetable
 
+#### Room Reservations
+
+For help in locating the buildings with the meeting rooms, please refer
+to the [http://www.lbl.gov/Workplace/lab-site-map.html LBL campus
+map](http://www.lbl.gov/Workplace/lab-site-map.html_LBL_campus_map "wikilink").
+
+| | room       | | session | | network | | projector? | | 10/5             | | 10/6             |
+|--------------|-----------|-----------|--------------|--------------------|--------------------|
+| Bldg. 2-100B | Plenary   | wireless  | no           | 7:00 AM to 6:30 PM | 7:00 AM to 6:30 PM |
+| Bldg. 6-2202 | Breakout  | wired     | yes          | 12:00 - 6:30 PM    | 7:00 AM - 6:30 PM  |
+| Bldg. 7-211  | Breakout  | wired     | no           | 12:00 - 6:30 PM    | 7:00 AM - 6:30 PM  |
+
 #### October 5
 
 #### October 6
