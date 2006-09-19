@@ -29,7 +29,18 @@ Talk Page](Talk:NIAC_Meetings "wikilink").
 -   Add new members
     -   Jens-Uwe Hoffmann - Hahn-Meitner-Institut Berlin
     -   Paul Kienzle - DANSE
--   Moving from [Meta-DTDs](Metaformat "wikilink") to XML Schema
+-   Moving from [Meta-DTDs](Metaformat "wikilink") to XML Schema. see
+    [NeXML proposal](http://www.webel.com.au/nexml)
+-   Discuss NeXus amalgamating with imgCIF. see [MEDSBIO
+    proposal](http://www.medsbio.org/)
+-   Request institutes from the NeXus community sponsor a full-time
+    technical secretary for next 12-24 months.
+-   Institutes that write NeXus files are **Bold text**data
+    providers.**Bold text**. NeXus provides an interface between **Bold
+    text**data providers**Bold text** and **Bold text**data
+    requirers**Bold text**. Discuss if the NIAC constitution should be
+    change to allow data requirers e.g. DANSE to have representation on
+    the NIAC as a stakeholder that requires NeXus.
 
 ### General Information
 
