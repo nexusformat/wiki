@@ -41,6 +41,16 @@ Talk Page](Talk:NIAC_Meetings "wikilink").
     allow data requirers e.g. DANSE to have representation on the NIAC
     as a stakeholder that requires NeXus.
 
+#### API/Technical Issues
+
+-   Improving NeXus internal code documention on private structures and
+    functions. Only API developer needs to know about these, but at the
+    moment the knowledge is restricted to a few people. The existing
+    in-code documentation needs to be tidied up and it would be a good
+    idea if programs such as
+    [Doxygen](http://www.stack.nl/~dimitri/doxygen/index.html) could
+    parse it.
+
 ### General Information
 
 **Accomodations**
