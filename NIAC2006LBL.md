@@ -51,6 +51,11 @@ Talk Page](Talk:NIAC_Meetings "wikilink").
     [Doxygen](http://www.stack.nl/~dimitri/doxygen/index.html) could
     parse it.
 
+<!-- -->
+
+-   Simplifying Nexus to increase its adoption for analysis programs.
+    Proposal by ILL+ESRF
+
 ### General Information
 
 **Accomodations**
