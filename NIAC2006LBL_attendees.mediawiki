@@ -6,7 +6,7 @@ Attendees of the
 {| border="1"
 |-
 ! [[User:Freddie_Akeroyd|Freddie Akeroyd]]
-|| CCLRC
+|| CCLRC ISIS facility
 |-
 ! [[User:Stuart_Campbell|Stuart Campbell]]
 || Diamond Light Source

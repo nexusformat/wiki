@@ -10,7 +10,7 @@ NIAC 2006 at LBL List of Attendees
 Attendees of the [2006 NIAC Meeting](NIAC2006LBL "wikilink") at Lawrence
 Berkeley Laboratory, Berkeley, CA, USA.
 
-| [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink")     | | CCLRC                                                  |
+| [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink")     | | CCLRC ISIS facility                                    |
 |----------------------------------------------------------|----------------------------------------------------------|
 | [Stuart Campbell](User%3AStuart_Campbell "wikilink")     | | Diamond Light Source                                   |
 | Matthias Drochner                                        | | Forschungzentrum Jülich                                |
