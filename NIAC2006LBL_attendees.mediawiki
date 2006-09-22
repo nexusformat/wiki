@@ -24,7 +24,7 @@ Attendees of the
 || Hahn-Meitner-Institut
 |-
 ! [[User:Pete_Jemian|Pete Jemian]]
-|| Argonne National Laboratory
+|| Advanced Photon Source, Argonne National Laboratory
 |-
 ! Paul Kienzle
 || National Institute of Standards and Technology
@@ -41,8 +41,11 @@ Attendees of the
 ! [http://www.its.caltech.edu/~mmckerns Mike McKerns]
 || CalTech
 |-
+! [[User:Ray_Osborn|Ray Osborn]]
+|| Intense Pulsed Neutron Source, Argonne National Laboratory
+|-
 ! [[User:Peter_Peterson|Peter Peterson]]
-|| Spallation Neutron Source
+|| Spallation Neutron Source, Oak Ridge National Laboratory
 |-
 ! [[User:Thomas_Proffen|Thomas Proffen]]
 || Los Alamos National Laboratory
