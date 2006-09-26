@@ -149,14 +149,14 @@ proposed. This is the current procedure:
 Meetings
 --------
 
--   (minutes) [October 5-6, 2006](NIAC2006LBL "wikilink") at LBL,
-    Berkeley, CA, USA
--   (![minutes](NIAC2006minutes.pdf "fig:minutes")) [February 1-3,
-    2006](NIAC2006ILL "wikilink") at ILL, FR
--   (![minutes](NIAC2005minutes.pdf "fig:minutes")) April 26-28, 2005 at
-    Bishops Lodge in Sante Fe, NM, USA
--   (![minutes](NeXusMinutes-Oct2004.pdf "fig:minutes")) October 21-22,
-    2004 at PSI, CH
--   (![minutes](NIAC_minute.pdf "fig:minutes")) September 8-10, 2003 at
-    Pasadena, CA, USA
+-   [October 5-6, 2006](NIAC2006LBL "wikilink") at LBL, Berkeley, CA,
+    USA
+-   [February 1-3, 2006](NIAC2006ILL "wikilink") at ILL, Grenoble,
+    France ([minutes](Media:NIAC2006minutes.pdf "wikilink"))
+-   April 26-28, 2005 at Bishops Lodge in Sante Fe, NM, USA
+    ([minutes](Media:NIAC2005minutes.pdf "wikilink"))
+-   October 21-22, 2004 at PSI, Villigen, Switzerland
+    ([minutes](Media:NeXusMinutes-Oct2004.pdf "wikilink"))
+-   September 8-10, 2003 at Pasadena, CA, USA
+    ([minutes](Media:NIAC_minute.pdf "wikilink"))
 
