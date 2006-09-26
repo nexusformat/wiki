@@ -1,3 +1,6 @@
+==2006==
+;Tuesday, September 26, 2006: The NeXus WIKI has been moved to new site at [http://www.nexusformat.org/ http://www.nexusformat.org/] and updated to MediaWiki 1.7.1
+
 ==2005==
 ;Monday, November 7, 2005:We are planning the next meeting of the [[NIAC|NeXus International Advisory Committee]]. The current proposal is to hold it in Grenoble in the first week of February, but details will be announced as they are finalized. In the meantime, check the [[NIAC2006ILL|NeXus Wiki pages]] for discussions of the agenda.
 ;Friday, July 15, 2005:The technical committee is pleased to announce the official release of [http://www.nexus.anl.gov/nexus_api.html#download version 3.0.0 of the NeXus API]. Mark Koennecke has incorporated infrastructure permitting the use of XML as an additional data format in the same way that it is already possible to switch between HDF4 and HDF5. The same API calls will be used for all underlying formats so that their use will be transparent to the calling program.

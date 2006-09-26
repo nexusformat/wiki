@@ -4,6 +4,11 @@ permalink: Latest_News/
 layout: wiki
 ---
 
+2006
+----
+
+Tuesday, September 26, 2006: The NeXus WIKI has been moved to new site at [<http://www.nexusformat.org/>](http://www.nexusformat.org/) and updated to MediaWiki 1.7.1  
+
 2005
 ----
 
