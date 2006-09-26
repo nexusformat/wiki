@@ -97,4 +97,4 @@ Frequently Asked Questions (FAQ)
 --------------------------------
 
 What is NXdir?:NXdir is a console tool used for inspection the contents of a NeXus file, it can print out the organization of the file as well as any data enclosed. It is intended to be a cross between the unix tools ls and grep. It should help people writing scripts access to NeXus files without having to compile in the NeXus API.  
-The way NXdir prints arrays is hard to read, could you please change it?:No, but a format easier for you to read can be added. Please send \[mailoto:petersonpf@ornl.gov petersonpf@ornl.gov\] an example of a two dimensional array in a format you like.  
+The way NXdir prints arrays is hard to read, could you please change it?:No, but a format easier for you to read can be added. Please send <petersonpf@ornl.gov> an example of a two dimensional array in a format you like.  
