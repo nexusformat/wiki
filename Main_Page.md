@@ -24,8 +24,4 @@ in the analysis and visualization of neutron, x-ray, and muon data.
 
 :\* ILL on February 1-3, 2006 - [NIAC'2006](NIAC2006ILL "wikilink")
 
-|                                                                                                                                                                                                                                                                                                                                                                                     |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| The NeXus wiki is a collaborative forum that allows members of the neutron, x-ray, and muon communities to make contributions to the development and documentation of the [NeXus format](http://www.nexus.anl.gov/). If you wish to help, please set up an account, identifying who you are in your user page, and read the [wiki guidelines](Help:Contents#Guidelines "wikilink"). |
-
-
+[Latest News](Latest_News "wikilink"):Recent news and developments concerning the NeXus format.  
