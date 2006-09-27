@@ -34,7 +34,7 @@ Talk Page](Talk:NIAC_Meetings "wikilink").
     -   Paul Kienzle - DANSE
 -   Moving from [Meta-DTDs](Metaformat "wikilink") to XML Schema. see
     [NeXML proposal](http://www.webel.com.au/nexml)
--   Discuss NeXus amalgamating with imgCIF. see [MEDSBIO
+-   Discuss NeXus collaborating with imgCIF. see [MEDSBIO
     proposal](http://www.medsbio.org/)
 -   Request institutes from the NeXus community sponsor a full-time
     technical secretary for next 12-24 months.
