@@ -59,6 +59,13 @@ Talk Page](Talk:NIAC_Meetings "wikilink").
 -   Simplifying Nexus to increase its adoption for analysis programs.
     Proposal by ILL+ESRF
 
+<!-- -->
+
+-   Move from the current CVS (for version control) / Bugzilla (for
+    bugs/issues) system to Subversion / TRAC. I have set up two test
+    sites at [<http://svn.nexusformat.org/>](http://svn.nexusformat.org)
+    and [<http://trac.nexusformat.org/>](http://trac.nexusformat.org)
+
 ### General Information
 
 **Accomodations**
