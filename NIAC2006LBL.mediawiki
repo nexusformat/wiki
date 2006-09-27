@@ -26,7 +26,7 @@ Please add suggestions for agenda items here in [[Help:Editing#Lists | bullet fo
 
 * Simplifying Nexus to increase its adoption for analysis programs. Proposal by ILL+ESRF
 
-* Move from the current [CVS http://www.nongnu.org/cvs/] (for version control) / [Bugzilla http://www.bugzilla.org/] (for bugs/issues) system to using [Subversion http://subversion.tigris.org/] / [TRAC http://trac.edgewall.org/]. I have set up two sites at [http://svn.nexusformat.org http://svn.nexusformat.org/] and [http://trac.nexusformat.org http://trac.nexusformat.org/] for testing
+* Move from the current [http://www.nongnu.org/cvs/ CVS] (for version control) / [http://www.bugzilla.org/ Bugzilla] (for bugs/issues) system to using [http://subversion.tigris.org/ Subversion] / [http://trac.edgewall.org/ TRAC]. I have set up two sites at [http://svn.nexusformat.org] and [http://trac.nexusformat.org] for testing
 
 ===General Information===
 
