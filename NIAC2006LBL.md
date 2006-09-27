@@ -65,8 +65,9 @@ Talk Page](Talk:NIAC_Meetings "wikilink").
     control) / [Bugzilla](http://www.bugzilla.org/) (for bugs/issues)
     system to using [Subversion](http://subversion.tigris.org/) /
     [TRAC](http://trac.edgewall.org/). I have set up two sites at
-    [1](http://svn.nexusformat.org) and [2](http://trac.nexusformat.org)
-    for testing
+    [<http://svn.nexusformat.org>](http://svn.nexusformat.org) and
+    [<http://trac.nexusformat.org>](http://trac.nexusformat.org) for
+    testing
 
 ### General Information
 
