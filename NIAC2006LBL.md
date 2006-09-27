@@ -61,10 +61,14 @@ Talk Page](Talk:NIAC_Meetings "wikilink").
 
 <!-- -->
 
--   Move from the current CVS (for version control) / Bugzilla (for
-    bugs/issues) system to Subversion / TRAC. I have set up two test
-    sites at [<http://svn.nexusformat.org/>](http://svn.nexusformat.org)
-    and [<http://trac.nexusformat.org/>](http://trac.nexusformat.org)
+-   Move from the current \[CVS <http://www.nongnu.org/cvs/>\] (for
+    version control) / \[Bugzilla <http://www.bugzilla.org/>\] (for
+    bugs/issues) system to using \[Subversion
+    <http://subversion.tigris.org/>\] / \[TRAC
+    <http://trac.edgewall.org/>\]. I have set up two sites at
+    [<http://svn.nexusformat.org/>](http://svn.nexusformat.org) and
+    [<http://trac.nexusformat.org/>](http://trac.nexusformat.org) for
+    testing
 
 ### General Information
 
