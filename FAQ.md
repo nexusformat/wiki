@@ -17,8 +17,9 @@ for several years on some or all instruments at a number of facilities
 including PSI (Switzerland), LLB (France), and LANSCE (USA). It will be
 used on all future instrumentation at ISIS (UK), NIST (USA), and
 instruments using the new data acquisition system at IPNS (USA).
-Finally, it has been formally adopted by two major facilities under
-construction, the SNS (USA) and JPARC (Japan).
+Finally, it has been formally adopted by major facilities under
+construction, the SNS (USA), JPARC (Japan) and Diamond Light Source
+(UK).
 
 NeXus files are only useful for archiving instrumental data, aren't they?
 -------------------------------------------------------------------------
