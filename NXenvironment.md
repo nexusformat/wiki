@@ -4,4 +4,4 @@ permalink: NXenvironment/
 layout: wiki
 ---
 
-<nxformat file="NXenvironment.xml"></nxformat>
+<nxformat file="NXsensor.xml"></nxformat>
