@@ -4,4 +4,4 @@ permalink: NXcollimator/
 layout: wiki
 ---
 
-<nxformat file="NXcollimator.xml"></nxformat>
+<nxformat file="NXaperture.xml"></nxformat>
