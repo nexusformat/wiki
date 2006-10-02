@@ -1,4 +1,4 @@
-<nowiki>
+<pre>
 <!--
 URL:     http://www.nexus.anl.gov/classes/xml/NXmonotas.xml
 Editor:  NIAC
@@ -180,4 +180,4 @@ s data.-->
     </energy>
   </NXdata>
 </NXentry>
-</nowiki>
+</pre>
