@@ -7,18 +7,22 @@ Attendees of the
 |-
 ! [[User:Freddie_Akeroyd|Freddie Akeroyd]]
 || CCLRC ISIS facility
+|| DoubleTree
 |-
 ! [[User:Stuart_Campbell|Stuart Campbell]]
 || Diamond Light Source
+|| DoubleTree
 |-
 ! Matthias Drochner
 || Forschungzentrum Jülich
 |-
 ! [[User:Andy_Gotz|Andrew Gotz]]
 || European Synchrotron Radiation Facility
+|| DoubleTree
 |-
 ! [[User:Nick|Nick Hauser]]
 || Australian Nuclear Science and Technology Organisation
+|| Durant
 |-
 ! Jens-Uwe Hoffman
 || Hahn-Meitner-Institut
@@ -46,6 +50,7 @@ Attendees of the
 |-
 ! [[User:Peter_Peterson|Peter Peterson]]
 || Spallation Neutron Source, Oak Ridge National Laboratory
+|| DoubleTree
 |-
 ! [[User:Thomas_Proffen|Thomas Proffen]]
 || Los Alamos National Laboratory
