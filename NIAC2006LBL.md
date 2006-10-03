@@ -87,7 +87,7 @@ Talk Page](Talk:NIAC_Meetings "wikilink").
     -   Add new members
         -   Jens-Uwe Hoffmann - Hahn-Meitner-Institut Berlin
         -   Paul Kienzle - DANSE
--   Triage Session
+-   Triage
     -   Define missing agenda items
     -   Vote on things already ready for voting
     -   Define working groups and divide items
