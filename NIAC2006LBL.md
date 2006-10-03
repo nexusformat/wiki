@@ -65,8 +65,8 @@ Talk Page](Talk:NIAC_Meetings "wikilink").
 
 <!-- -->
 
--   Simplifying Nexus to increase its adoption for analysis programs.
-    Proposal by ILL+ESRF
+-   [Proposal\_to\_Simplify\_Nexus](Proposal_to_Simplify_Nexus "wikilink")
+    to increase its adoption for analysis programs. Proposal by ILL+ESRF
 
 <!-- -->
 
