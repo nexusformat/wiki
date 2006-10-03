@@ -7,7 +7,8 @@ layout: wiki
 Proposal to simplify NeXus
 ==========================
 
-*A. Gotz, E. Farhi, R. Ghosh, D. Richard, M. Johnson, R. Wilcke*
+*E. Farhi (ILL), A. Gotz (ESRF), R. Ghosh (ILL), D. Richard (ILL), M.
+Johnson (ILL), R. Wilcke (ESRF)*
 
 This document presents conclusions and proposals from the NeXus ILL/ESRF
 Local Advisory Committee (NLAC).
