@@ -54,6 +54,7 @@ Attendees of the
 |-
 ! [[User:Thomas_Proffen|Thomas Proffen]]
 || Los Alamos National Laboratory
+|| Berkeley Travelodge, 1820 University Ave. 
 |-
 ! Jiro Suzuki
 || J-Parc
