@@ -32,19 +32,27 @@ Götz](User%3AAndy_Gotz "wikilink").
     room 100B. This is the biggest room and will be where refreshments
     are served.
 
-### Proposed Agenda
+### Agenda
+
+-   08:30 Welcome and Introduction
+-   First buisiness
+    -   Review of NIAC'2006ILL minutes
+    -   [Renew members](Membership_Dates "wikilink")
+    -   Add new members
+        -   Jens-Uwe Hoffmann - Hahn-Meitner-Institut Berlin
+        -   Paul Kienzle - DANSE
+-   Triage Session
+    -   Define missing agenda items
+    -   Vote on things already ready for voting
+    -   Define working groups and divide items
+
+#### Proposed Agenda Items
 
 Please add suggestions for agenda items here in [ bullet
 form](Help:Editing#Lists "wikilink"). If you want to add extended
 comments concerning any agenda item, please use the Wiki's talk page [
 Talk Page](Talk:NIAC_Meetings "wikilink").
 
--   Welcome and Introduction
--   Review of NIAC'2006ILL minutes
--   [Renew members](Membership_Dates "wikilink")
--   Add new members
-    -   Jens-Uwe Hoffmann - Hahn-Meitner-Institut Berlin
-    -   Paul Kienzle - DANSE
 -   Moving from [Meta-DTDs](Metaformat "wikilink") to XML Schema. see
     [NeXML proposal](http://www.webel.com.au/nexml)
 -   Discuss NeXus collaborating with imgCIF. see [MEDSBIO

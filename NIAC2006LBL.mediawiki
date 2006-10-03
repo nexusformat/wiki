@@ -14,14 +14,20 @@ contact [[User:Andy Gotz|Andrew Götz]].
 * Arrive at the badging office and they will give you a visitor badge and a "blue triangle" parking pass. For those of you without a  car there is a lab shuttle bus that will take you from there to building two (2).
 * We will be starting at 8:30 am (pacific time) in building two (2) room 100B. This is the biggest room and will be where refreshments are served.
 
-===Proposed Agenda===
+===Agenda===
+* 08:30 Welcome and Introduction
+* First buisiness
+** Review of NIAC'2006ILL minutes
+** [[Membership Dates|Renew members]]
+** Add new members
+*** Jens-Uwe Hoffmann - Hahn-Meitner-Institut Berlin
+*** Paul Kienzle - DANSE
+* Triage Session
+** Define missing agenda items
+** Vote on things already ready for voting
+** Define working groups and divide items
+====Proposed Agenda Items====
 Please add suggestions for agenda items here in [[Help:Editing#Lists | bullet form]].  If you want to add extended comments concerning any agenda item, please use the Wiki's talk page [[Talk:NIAC_Meetings | Talk Page]].
-* Welcome and Introduction
-* Review of NIAC'2006ILL minutes
-* [[Membership Dates|Renew members]]
-* Add new members
-** Jens-Uwe Hoffmann - Hahn-Meitner-Institut Berlin
-** Paul Kienzle - DANSE
 * Moving from [[Metaformat|Meta-DTDs]] to XML Schema. see [http://www.webel.com.au/nexml NeXML proposal]
 * Discuss NeXus collaborating with imgCIF. see [http://www.medsbio.org/ MEDSBIO proposal] 
 * Request institutes from the NeXus community sponsor a full-time technical secretary for next 12-24 months.
