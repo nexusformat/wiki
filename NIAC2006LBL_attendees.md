@@ -23,7 +23,7 @@ Berkeley Laboratory, Berkeley, CA, USA.
 | [Mark Koennecke](User%3AMark_Koennecke "wikilink")       | | Paul Scherrer Institut                                     |
 | Laurent Lerusse                                          | | Rutherford Appleton Laboratory                             |
 | [Mike McKerns](http://www.its.caltech.edu/~mmckerns)     | | CalTech                                                    |
-| [Ray Osborn](User%3ARay_Osborn "wikilink")               | | Intense Pulsed Neutron Source, Argonne National Laboratory |
+| [Ray Osborn](User%3ARay_Osborn "wikilink")               | | Intense Pulsed Neutron Source, Argonne National Laboratory | | DoubleTree                                |
 | [Peter Peterson](User%3APeter_Peterson "wikilink")       | | Spallation Neutron Source, Oak Ridge National Laboratory   | | DoubleTree                                |
 | [Thomas Proffen](User%3AThomas_Proffen "wikilink")       | | Los Alamos National Laboratory                             | | Berkeley Travelodge, 1820 University Ave. |
 | Jiro Suzuki                                              | | J-Parc                                                     |
