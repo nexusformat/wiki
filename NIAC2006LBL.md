@@ -19,6 +19,19 @@ If you are interested in attending (and are not already on the [list of
 attendees](NIAC2006LBL_attendees "wikilink")), contact [Andrew
 Götz](User%3AAndy_Gotz "wikilink").
 
+### Start of the Meeting
+
+-   You are responsible for your own breakfast and travel to the lab. In
+    theory there are many people staying at the DoubleTree and the
+    Durant so carpooling is encouraged.
+-   Arrive at the badging office and they will give you a visitor badge
+    and a “blue triangle” parking pass. For those of you without a car
+    there is a lab shuttle bus that will take you from there to building
+    two (2).
+-   We will be starting at 8:30 am (pacific time) in building two (2)
+    room 100B. This is the biggest room and will be where refreshments
+    are served.
+
 ### Proposed Agenda
 
 Please add suggestions for agenda items here in [ bullet
