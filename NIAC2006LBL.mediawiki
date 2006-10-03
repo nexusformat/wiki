@@ -15,17 +15,6 @@ contact [[User:Andy Gotz|Andrew Götz]].
 * We will be starting at 8:30 am (pacific time) in building two (2) room 100B. This is the biggest room and will be where refreshments are served.
 
 ===Agenda===
-* 08:30 Welcome and Introduction
-* First buisiness
-** Review of NIAC'2006ILL minutes
-** [[Membership Dates|Renew members]]
-** Add new members
-*** Jens-Uwe Hoffmann - Hahn-Meitner-Institut Berlin
-*** Paul Kienzle - DANSE
-* Triage Session
-** Define missing agenda items
-** Vote on things already ready for voting
-** Define working groups and divide items
 ====Proposed Agenda Items====
 Please add suggestions for agenda items here in [[Help:Editing#Lists | bullet form]].  If you want to add extended comments concerning any agenda item, please use the Wiki's talk page [[Talk:NIAC_Meetings | Talk Page]].
 * Moving from [[Metaformat|Meta-DTDs]] to XML Schema. see [http://www.webel.com.au/nexml NeXML proposal]
@@ -39,6 +28,23 @@ Please add suggestions for agenda items here in [[Help:Editing#Lists | bullet fo
 * Simplifying Nexus to increase its adoption for analysis programs. Proposal by ILL+ESRF
 
 * Move from the current [http://www.nongnu.org/cvs/ CVS] (for version control) / [http://www.bugzilla.org/ Bugzilla] (for bugs/issues) system to using [http://subversion.tigris.org/ Subversion] / [http://trac.edgewall.org/ TRAC]. I have set up two sites at [http://svn.nexusformat.org http://svn.nexusformat.org] and [http://trac.nexusformat.org http://trac.nexusformat.org] for testing
+====October 5====
+* 08:30 Welcome and Introduction
+* First buisiness
+** Review of NIAC'2006ILL minutes
+** [[Membership Dates|Renew members]]
+** Add new members
+*** Jens-Uwe Hoffmann - Hahn-Meitner-Institut Berlin
+*** Paul Kienzle - DANSE
+* Triage Session
+** Define missing agenda items
+** Vote on things already ready for voting
+** Define working groups and divide items
+====October 6====
+* 08:30 Triage
+** Define missing agenda items
+** Vote on things already ready for voting
+** Define working groups and divide items
 
 ===General Information===
 

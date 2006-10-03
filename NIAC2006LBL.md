@@ -34,18 +34,6 @@ Götz](User%3AAndy_Gotz "wikilink").
 
 ### Agenda
 
--   08:30 Welcome and Introduction
--   First buisiness
-    -   Review of NIAC'2006ILL minutes
-    -   [Renew members](Membership_Dates "wikilink")
-    -   Add new members
-        -   Jens-Uwe Hoffmann - Hahn-Meitner-Institut Berlin
-        -   Paul Kienzle - DANSE
--   Triage Session
-    -   Define missing agenda items
-    -   Vote on things already ready for voting
-    -   Define working groups and divide items
-
 #### Proposed Agenda Items
 
 Please add suggestions for agenda items here in [ bullet
@@ -89,6 +77,27 @@ Talk Page](Talk:NIAC_Meetings "wikilink").
     [<http://svn.nexusformat.org>](http://svn.nexusformat.org) and
     [<http://trac.nexusformat.org>](http://trac.nexusformat.org) for
     testing
+
+#### October 5
+
+-   08:30 Welcome and Introduction
+-   First buisiness
+    -   Review of NIAC'2006ILL minutes
+    -   [Renew members](Membership_Dates "wikilink")
+    -   Add new members
+        -   Jens-Uwe Hoffmann - Hahn-Meitner-Institut Berlin
+        -   Paul Kienzle - DANSE
+-   Triage Session
+    -   Define missing agenda items
+    -   Vote on things already ready for voting
+    -   Define working groups and divide items
+
+#### October 6
+
+-   08:30 Triage
+    -   Define missing agenda items
+    -   Vote on things already ready for voting
+    -   Define working groups and divide items
 
 ### General Information
 
