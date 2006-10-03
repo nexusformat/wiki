@@ -100,10 +100,6 @@ LBL has a list of housing in the area:
 The NOBUGS 2006 conference suggests two hotels:
 [<http://nobugs2006.lbl.gov/index.php?content=Lodging>](http://nobugs2006.lbl.gov/index.php?content=Lodging)
 
-### Meeting layout
-
-### NIAC Meeting Provisional Timetable
-
 #### Room Reservations
 
 For help in locating the buildings with the meeting rooms, please refer
@@ -115,9 +111,5 @@ map](http://www.lbl.gov/Workplace/lab-site-map.html_LBL_campus_map "wikilink").
 | Bldg. 2-100B | Plenary   | wireless  | no           | 7:00 AM to 6:30 PM | 7:00 AM to 6:30 PM |
 | Bldg. 6-2202 | Breakout  | wired     | yes          | 12:00 - 6:30 PM    | 7:00 AM - 6:30 PM  |
 | Bldg. 7-211  | Breakout  | wired     | no           | 12:00 - 6:30 PM    | 7:00 AM - 6:30 PM  |
-
-#### October 5
-
-#### October 6
 
 ### Working Groups

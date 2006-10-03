@@ -50,10 +50,6 @@ LBL has a list of housing in the area:
 The NOBUGS 2006 conference suggests two hotels:
 [http://nobugs2006.lbl.gov/index.php?content=Lodging http://nobugs2006.lbl.gov/index.php?content=Lodging]
 
-===Meeting layout===
-
-===NIAC Meeting Provisional Timetable===
-
 ====Room Reservations====
 
 For help in locating the buildings with the meeting rooms,
@@ -89,11 +85,5 @@ please refer to the [[http://www.lbl.gov/Workplace/lab-site-map.html LBL campus 
 | 12:00 - 6:30 PM
 | 7:00 AM - 6:30 PM
 |}
-
-====October 5====
-
-
-====October 6====
-
 
 ===Working Groups===
