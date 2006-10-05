@@ -19,24 +19,23 @@ The first NXentry will be named 'Header' or '{name}_0' where name c an be any st
 
 == Open Issue ==
 
+=== NXentry order ===
+
 The order of multiple NXentry is not recorded by the data format. Now, we only have a naming convention to record the creation/logical order. How well can we enforce such convention? 
 
 It could be good to add a 'entry_num' parameter in NXentry class to define the order.
 
-== Processed Data Archive ==
+=== External  links ===
 
-This definition is mostly written for raw data archive. Simulation and analysis results may use similar metadata but will probably use a smaller subset. 
-
-One addition necessary for Archived analysis result is links to the input data. There is currently no scheme for such links in the neXus definition. I added an 'external_reference' class that can be replaced by an official one when defined. 
-
+For processed data, NIAC should define a way to link to external files. 
 
 == DTD definition ==
 <pre>
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-URL:     http://www.nexus.anl.gov/
-Editor:  L. Lerusse, CCLRC e-Science
-$Id: ArchiveDefinition.xml,v 0.1 2006/02/10 $
+URL:    : http://www.nexusformat.org/
+Editor: : L. Lerusse, CCLRC e-Science
+Version : October 2006
 
 Template of the Archive Definition.
 
@@ -56,17 +55,16 @@ Template of the Archive Definition.
         linked to the proposals}?
     </experiment_identifier>
     <run_number type="NX_INT">
-        {Number of run or scan stored in this entry}?
+        {Data file sequence number}?
     </run_number>
     <run_cycle type="NX_CHAR">
         {}?
     </run_cycle>   
 
 
-    <!-- Data management metadata
-    -->
+    <!-- Data management metadata -->
     <release_date type="NX_CHAR"> 	   	 
-    	{ Date of the public release of the data. (file_time + X years)}
+    	{ Date of the public release of the data. (file_time + X years)}?
     </release_date>
     <revision type="NX_CHAR">
     	{ Revision id of the file due to re-calibration, reprocessing, 
@@ -86,13 +84,7 @@ Template of the Archive Definition.
     <definition type="NX_CHAR" version="{DTD version number}" URL="{URL of DTD file}">
         {Name of entry DTD}
     </definition>
-    <archive_definition type="NX_CHAR" version="{DTD version number}" URL="{URL of DTD file}">
-        {Name of entry DTD}?
-    </archive_definition>
-    <local_definition type="NX_CHAR" version="{DTD version number}" URL="{URL of DTD file}">
-        {Name of entry DTD}?
-    </local_definition>   
-    
+
     
     <!-- Timing metadata : 
     	start_time and end_time are mandatory
@@ -111,8 +103,7 @@ Template of the Archive Definition.
     	{Time transpired actually collecting data i.e. taking out time when 
     	collection was suspended due to e.g. temperature out of range}?
     </collection_time>
-    
-    
+        
     <!-- Reliability metadata
     	Having the wrong information may be worst than having no information. 
     	The accuracy of the information provided by the experimenter may be  
@@ -128,9 +119,9 @@ Template of the Archive Definition.
     <!-- Experiment metadata
     	Description of the science related to the data.
     -->
-    <discipline type="NX_CHAR">
-    	{Keyword domain (e.g. chemistry, astronomy, ecology, … )}?
-    </discipline>
+        <discipline type="NX_CHAR">
+    	        {Keyword domain (e.g. chemistry, astronomy, ecology, … )}?
+        </discipline>
  	<keyword type="NX_CHAR">
 		{Keywords defined for this study.}?
 	</keyword>
@@ -172,19 +163,19 @@ Template of the Archive Definition.
         {Name of program used to generate this file}?
     </program_name>
 
-	<!-- User metadata
-		At least one user with role 'principal_investigator' must be present to 
-		define the owner of the data. 
-		Other important roles are :
-			'experimenter' to know who physically made the experiment,
-			'local_contact' for any instrument configuration questions,
-		Nice to have would be 'funding_agency', it may help to get money for 
-		the next experiments. 
+    <!-- User metadata
+	At least one user with role 'principal_investigator' must be present to 
+	define the owner of the data. 
+	Other important roles are :
+	        'experimenter' to know who physically made the experiment,
+		'local_contact' for any instrument configuration questions,
+	Nice to have would be 'funding_agency', it may help to get money for 
+	the next experiments. 
 		
-		I think that the users with role 'principal_investigator', 'proposer'  
-		and 'experimenter' should be given access to the data. 
-		To be define in the data right policy of the facility.
-	-->		
+        I think that the users with role 'principal_investigator', 'proposer'  
+	and 'experimenter' should be given access to the data. 
+	To be define in the data right policy of the facility.
+    -->		
     <NXuser name="user XX">1+
         <name type="NX_CHAR">
             {Name of user responsible for this entry}
@@ -219,10 +210,10 @@ Template of the Archive Definition.
         </affiliation_id>
     </NXuser>
 
-	<!-- Instruments metadata
-		The instrument name should be descriptive as much as possible, 
-		telling in which mode the instrument was working.
-	-->
+    <!-- Instruments metadata
+	The instrument name should be descriptive as much as possible, 
+	telling in which mode the instrument was working.
+    -->
     <NXinstrument name="{Name of instrument}">
         <name type="NX_CHAR" short_name="{abbreviated name of instrument}">
             {Name of instrument}
@@ -242,8 +233,8 @@ Template of the Archive Definition.
         </NXsource>
     </NXinstrument>
 
-	<!-- Sample metadata
-	-->
+    <!-- Sample metadata
+    -->
     <NXsample name="sample 1">
         <name type="NX_CHAR">
             {Descriptive name of sample}
@@ -294,96 +285,3 @@ Template of the Archive Definition.
     </NXsample>
 </NXentry>
 </pre>
-
-== Example ==
-
-<pre>
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-URL:     http://www.nexus.anl.gov/
-Editor:  L. Lerusse, CCLRC e-Science
-$Id: ArchiveDefinition.xml,v 0.1 2006/02/10 $
-
-Template of the Archive Definition.
-
--->
-<NXroot>
-	<NXentry name="entry 0">
-    	<title type="NX_CHAR"> Study of different table salts structure at room temperature. </title> 
-    	<experiment_identifier type="NX_CHAR">	ISIS-TOSCA-20060306.001</experiment_identifier>
-    	<run_number type="NX_INT"> 1 </run_number>
-    	<run_cycle type="NX_CHAR"> winter 2006 </run_cycle>   
-    	<release_date type="NX_CHAR"> 2007-03-06    </release_date>
-    	<revision type="NX_CHAR"> 1.0   </revision>
-   		<revision_comment type="NX_CHAR"> File Creation </revision_comment>
-   		<definition type="NX_CHAR" version="0.1" URL="generic_definition.xml"> Generic Instrument Definition </definition>
-    	<archive_definition type="NX_CHAR" version="1.0" URL="archive_definition.xml"> Archive Definition </archive_definition>
-    	<local_definition type="NX_CHAR" version="1.5" URL="TOFRaw.xml"> Time Of Flight Raw definition. </local_definition>   
-    	<start_time type="ISO8601"> 2006-03-06T15:20:05.45+00:00 </start_time>
-    	<end_time type="ISO8601"> 2006-03-06T15:44:29.47+00:00 </end_time>
-    	<duration type="NX_FLOAT" units="seconds"> 1464.02 </duration>
-    	<collection_time type="NX_FLOAT" units="seconds"> 1005.12 </collection_time>
-    	<info_reliability  type="NX_CHAR"> Updated at Experiment Time </info_reliability>
-		<discipline type="NX_CHAR"> Physics  </discipline>
- 		<keyword type="NX_CHAR"> salt, cooking, crystal</keyword>
- 		<keyword_source type="NX_CHAR">	http://www.saltinstitute.org/ </keyword_source>
- 		<subject type="NX_CHAR">  </subject>
- 		<description_summary type="NX_CHAR"> This study will look for difference in the different table 
- 			salt structure to determine which one is best suited to be put on chips. </description_summary>
- 		<description type="NXNote"> "best_salt.pdf" </description>
- 		<requirement type="NX_CHAR"> Humidity level should be minimal. </requirement>
- 		<publications type="NX_CHAR"> L.L. & al, " The best salt for Margaritas shots", 
- 			The Tequila Journal, june 2004. </publications>
- 		<facility_access_type type="NX_CHAR"> Program access </facility_access_type>
- 		<grant_id  type="NX_CHAR" type="NX_CHAR"> BE-2006.02361	</grant_id>
-	    <program_name type="NX_CHAR" version="2.1.1"> TextWrangler </program_name>
-    		
-    	<NXuser name="user 01">
-        	<name type="NX_CHAR"> Laurent Lerusse </name>
-        	<role type="NX_CHAR"> principal_investigator, experimenter </role>
-        	<affiliation type="NX_CHAR"> frite.be  </affiliation>
-        	<address type="NX_CHAR">1 Grand Place, 1000 Bruxelles </address>
-        	<telephone_number type="NX_CHAR">+32/2-12345678 </telephone_number>
-        	<fax_number type="NX_CHAR">+32/2-12345690  </fax_number>
-        	<email type="NX_CHAR">ll@frites.be  </email>
-        	<facility_user_id type="NX_CHAR"> ll56 </facility_user_id>
-        	<affiliation_id type="NX_CHAR"> BE-frite.be.001 </affiliation_id>
-    	</NXuser>
-    	<NXuser name="user 01">
-        	<name type="NX_CHAR"> Damian Flannery </name>
-        	<role type="NX_CHAR"> local_contact </role>
-        	<affiliation type="NX_CHAR"> ISIS  </affiliation>
-        	<address type="NX_CHAR">Didcot OX11 0QX </address>
-        	<telephone_number type="NX_CHAR">+44/2-1235661234 </telephone_number>
-        	<fax_number type="NX_CHAR">+44/1235775678  </fax_number>
-        	<email type="NX_CHAR"> df@isis.uk  </email>
-        	<facility_user_id type="NX_CHAR"> df07 </facility_user_id>
-        	<affiliation_id type="NX_CHAR"> ISIS </affiliation_id>
-    	</NXuser>
-	    <NXinstrument name="ISIS - PRISMA">
-        	<name type="NX_CHAR" short_name="PRISMA"> The inverse geometry crystal-analyser spectrometer and high resolution diffractometer - PRISMA </name>
-        	<NXsource name="ISIS">
-            	<name type="NX_CHAR"> ISIS TS1 / solid methane  </name>
-            	<type type="NX_CHAR"> Spallation Neutron Source </type>
-            	<probe type="NX_CHAR"> neutron </probe>
-        	</NXsource>
-    	</NXinstrument>
-    	<NXsample name="sample 1">
-     		<name type="NX_CHAR"> Himalayan Crystal Salts - sample 1 </name>
-        	<sample_id type="NX_CHAR"> salt-himalaya.001 </sample_id>
-        	<chemical_formula type="NX_CHAR"> Cl Na </chemical_formula>
-			<description type="NX_CHAR"> The larger Himalayan salt crystals are hand-crushed to make this holistic,
-				natural salt small enough to be used in a common saltshaker. This salt has all the natural 
-				characteristics of the original crystals from which it comes and has a distinctive "alive" 
-				taste that's naturally delicious. Slightly pink in color, it contains 84 minerals in a form that 
-				can be easily assimilated and metabolized by the body. This salt is truly wholesome and delicious! </description>
-        	<short_title type="NX_CHAR"> Himalayan Salts 1 </short_title>        
-        	<min_temperature type="NX_FLOAT" param_type="free" units="Kelvin"> 280.85 </min_temperature>
-        	<max_temperature type="NX_FLOAT" param_type="free" units="Kelvin"> 299.53 </max_temperature>    
-                <min_pressure type="NX_FLOAT" param_type="free" UNIT="pascal"> 97.85 </min_pressure>
-                <max_pressure type="NX_FLOAT" param_type="free" UNIT="pascal"> 98.24 </max_pressure>
-    	</NXsample>
-	</NXentry>
-</NXroot>
-</pre>
---[[User:L.lerusse|L.lerusse]] 09:04, 4 April 2006 (CDT)
