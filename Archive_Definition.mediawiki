@@ -104,55 +104,55 @@ Template of the Archive Definition.
     	collection was suspended due to e.g. temperature out of range}?
     </collection_time>
         
-'''    <!-- Reliability metadata
-    	Having the wrong information may be worst than having no information. 
-    	The accuracy of the information provided by the experimenter may be  
-    	difficult to determine. The minimum we can do is determine in which
-    	condition the information was filled. 
-    -->
-    <info_reliability  type="NX_CHAR">
-    	{information on the reliability/source of the information provided by
-    	the experimenter.(e.g. : From proposal, updated at experiment time, ...}?
-    </info_reliability>'''
+*    <!-- Reliability metadata
+*    	Having the wrong information may be worst than having no information. 
+*    	The accuracy of the information provided by the experimenter may be  
+*    	difficult to determine. The minimum we can do is determine in which
+*    	condition the information was filled. 
+*    -->
+*    <info_reliability  type="NX_CHAR">
+*    	{information on the reliability/source of the information provided by
+*    	the experimenter.(e.g. : From proposal, updated at experiment time, ...}?
+*    </info_reliability>
 
     
-'''    <!-- Experiment metadata
-    	Description of the science related to the data.
-    -->
-        <discipline type="NX_CHAR">
-    	        {Keyword domain (e.g. chemistry, astronomy, ecology, … )}?
-        </discipline>
- 	<keyword type="NX_CHAR">
-		{Keywords defined for this study.}?
-	</keyword>
- 	<keyword_source type="NX_CHAR">
-		{A pointer to a reference work providing the definition of the 
-		restricted vocabulary of which the keyword list is a subset.}?
-	</keyword_source>
- 	<subject type="NX_CHAR">  	
-		{Subject categorizations for this study}?
-	</subject>
- 	<description_summary type="NX_CHAR">
-		{Brief summary of the experiment, including key objectives}
-	</description_summary>
- 	<description type="NXNote">
-		{Description of the full experiment (document in pdf, latex, …)}?
-	</description>
- 	<requirement type="NX_CHAR">
-		{Special requirements of instrument}?
-	</requirement>
- 	<publications type="NX_CHAR">
-		{List of publication related to the proposal}?
-	</publications>
- 	<publication_references type="NX_CHAR">
-		{List of publication references related to the proposal.}?
-	</publication_references>
- 	<facility_access_type type="NX_CHAR">
-		{Facility access type (normal, rapid access, program access …)}?
-	</facility_access_type>
- 	<grant_id  type="NX_CHAR" type="NX_CHAR"> 	  	
-		{Identifier of the funding grant.}?
-	</grant_id>'''
+*    <!-- Experiment metadata
+*    	Description of the science related to the data.
+*    -->
+*        <discipline type="NX_CHAR">
+*    	        {Keyword domain (e.g. chemistry, astronomy, ecology, … )}?
+*        </discipline>
+* 	<keyword type="NX_CHAR">
+*		{Keywords defined for this study.}?
+*	</keyword>
+* 	<keyword_source type="NX_CHAR">
+*		{A pointer to a reference work providing the definition of the 
+*		restricted vocabulary of which the keyword list is a subset.}?
+*	</keyword_source>
+* 	<subject type="NX_CHAR">  	
+*		{Subject categorizations for this study}?
+*	</subject>
+* 	<description_summary type="NX_CHAR">
+*		{Brief summary of the experiment, including key objectives}
+*	</description_summary>
+* 	<description type="NXNote">
+*		{Description of the full experiment (document in pdf, latex, …)}?
+*	</description>
+* 	<requirement type="NX_CHAR">
+*		{Special requirements of instrument}?
+*	</requirement>
+* 	<publications type="NX_CHAR">
+*		{List of publication related to the proposal}?
+*	</publications>
+* 	<publication_references type="NX_CHAR">
+*		{List of publication references related to the proposal.}?
+*	</publication_references>
+* 	<facility_access_type type="NX_CHAR">
+*		{Facility access type (normal, rapid access, program access …)}?
+*	</facility_access_type>
+* 	<grant_id  type="NX_CHAR" type="NX_CHAR"> 	  	
+*		{Identifier of the funding grant.}?
+*	</grant_id>
 			
 			
     <!-- Software metadata
@@ -205,9 +205,9 @@ Template of the Archive Definition.
             identification code on the facility address/contact database, 
             should allow owner identification by the archive system.}
         </facility_user_id>
-'''        <affiliation_id type="NX_CHAR">
-            {Affiliation unique identifier.}?
-        </affiliation_id>'''
+*        <affiliation_id type="NX_CHAR">
+*            {Affiliation unique identifier.}?
+*        </affiliation_id>'''
     </NXuser>
 
     <!-- Instruments metadata
@@ -218,9 +218,12 @@ Template of the Archive Definition.
         <name type="NX_CHAR" short_name="{abbreviated name of instrument}">
             {Name of instrument}
         </name>
-'''        <description type="NX_CHAR">
-            { Description of the instrument}?
-        </description>'''
+* 	<description_summary type="NX_CHAR">
+*		{Brief description of the experiment}?
+*	</description_summary>
+* 	<description type="NXNote">
+*		{Description of the instrument (document in pdf, latex, …)}?
+*	</description>
         <NXsource name="{Name of facility}">
             <name type="NX_CHAR">
                 {Name of source}
