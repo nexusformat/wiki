@@ -82,7 +82,7 @@ This is a DTD for a generic instrument which performs scans.
                 <data type="NX_INT32[np]" signal="1">
                   {Link to detector counts}
                 </data>
-                <polar_angle axis="1">
+                <polar_angle axis="1" primary="2">
                   {Link to detector polar_angle}
                </polar_angle>
                <rotation_angle axis="1" primary="1">
