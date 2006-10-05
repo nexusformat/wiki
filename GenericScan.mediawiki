@@ -14,6 +14,10 @@ an omega-two-theta scan and serves to highlight NeXus scan data storage principl
   their proper place in the NXinstrument hierarchy.
 - In NXdata links to all varied positions and the dectector counts are created. This
   provides for easy access to the popular table format for scans. 
+- In the case of multi dimesnional detectors, the PSD data must be stored with the scan 
+  variable being the fastest varying dimension(the first) for technical reasons.
+- If you to choose to store PSD scans in separate files or separate entries, it is the users
+  responsibility to process the data in the right order.  
 
 Note:
 This definition is fairly minimal. Feel free to add whatever you think necessary. However, if
@@ -22,31 +26,13 @@ editor of this definition.
 
 -->
 
-<NXroot NeXus_version="{Version of NeXus API}"
-        file_name="{Name of file when originally created}"
-        file_time="{Time when this file was originally created}"
-        user="{Name of file owner}"
-        email="{email of owner}"
-        affiliation="{affiliation of owner}"
-        address="{address of owner}"
-        telephone_number="{telephone of owner}"
-        fax_number="{fax of owner}">
-		  
-    <NXentry name="{Entry name}">+
+<NXroot NeXus_version="{Version of NeXus API}">
+   <NXentry name="{Entry name}">+
         <title>{Extended title for entry}</title>
         <start_time type="ISO8601">{starting time of measurement}</start_time>
         <end_time   type="ISO8601">{ending time of measurement}</end_time>
         <duration   units="seconds" type="NX_INT32">{duration}</duration>
 
-        <NXuser name="user">
-            <name>{name of user responsible for this entry}</name>
-            <affiliation>{affiliation of user}</affiliation>
-            <address>{address of user}</address>
-            <telephone_number>{telephone of user}?</telephone_number>
-            <fax_number>{fax of user}?</fax_number>
-
-            <email>{email of user}?</email>
-        </NXuser>
         <NXsample name="sample">*
             <name>{Descriptive name of sample}</name>
             <environment>{Type of sample environment}</environment>
