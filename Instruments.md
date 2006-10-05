@@ -76,6 +76,8 @@ Instrument List
 -   [Time-of-Flight Neutron Single Crystal
     Diffractometer](Time-of-Flight_Neutron_Single_Crystal_Diffractometer "wikilink")
     Editor: TBA
+-   [Time-of-Flight Neutron Spin
+    Echo](Time-of-Flight_Neutron_Spin_Echo "wikilink") Editor: TBA
 -   [Time-of-Flight Small Angle
     Scattering](Time-of-Flight_Small_Angle_Scattering "wikilink")
     Editor: Stephen King (ISIS Pulsed Neutron and Muon Source, UK).
