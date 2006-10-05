@@ -85,7 +85,7 @@ This is a DTD for a generic instrument which performs scans.
                 <polar_angle axis="1">
                   {Link to detector polar_angle}
                </polar_angle>
-               <rotation_angle axis="1">
+               <rotation_angle axis="1" primary="1">
                   {Link to sample rotation_angle}
                </rotation_angle>
             </NXdata>
