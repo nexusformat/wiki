@@ -84,8 +84,45 @@ layout: wiki
 Example:
 
 
-    <NXroot filename="XES_Example.nxs">
-     <NXentry name="entry1"
-      <title></title>
-     </NXentry>
+    <NXroot>
+        <NXentry name="{Entry name}">
+            <title>{Extended title for entry}</title>
+            
+            <NXinstrument name="I18">
+                    <name>"I18"</name>
+                    <NXsource name="source">
+                        <name>"Diamond Light Source"</name>
+                        <type>"Synchrotron X-ray Source"</type>
+                        <probe>"x-ray"</probe>
+                    </NXsource>
+                    <NXpositioner name="energy">
+                        <energy>[3001.0, 3002.0, 3003.0]</energy>
+                    </NXpositioner>
+                    <NXpositioner name="time">
+                        <time>[1.22, 2.34, 3.53]</time>
+                    </NXpositioner>
+                    <NXdetector name="detector1">
+                        <description>"Ortec C-TRAIN"</description>
+                        <type>"Counter Timer"</type>
+                        <data>[203.0, 245.0, 233.0]</data>
+                    </NXdetector>
+                    <NXdetector name="detector2">
+                        <description>"Quantum 315"</description>
+                        <type>"CCD"</type>
+                        <data>{a data array with dimensions[3, nx, ny]}</data>
+                    </NXdetector>
+            </NXinstrument>
+            
+            <NXdata name="detector1">
+                <data>{Link to detector1 counts}</data>
+                <energy axis=1 primary=1>{Link to values in NXpositioner}</energy>
+                <time axis=1 primary=2>{Link to values in NXpositioner}</time>
+            </NXdata>
+                    <NXdata name="detector2">
+                <data>{Link to detector2 counts}</data>
+                <energy axis=1 primary=1>{Link to values in NXpositioner}</energy>
+                <time axis=1 primary=2>{Link to values in NXpositioner}</time>
+            </NXdata>
+            
+        </NXentry>
     </NXroot>
