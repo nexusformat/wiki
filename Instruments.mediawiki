@@ -4,9 +4,9 @@ As part of the NeXus standard, we have identified a number of generic instrument
 
 ==Instrument List==
 
-*[[GenericScan|Generic Scanning Instrument]] Editor: Make Koennecke, PSI
-*[[Monochromatic Neutron and X-ray Powder Diffraction]] Editor: Mark Koennecke, PSI
-*[[Monochromatic Neutron and X-ray Single Crystal Diffractometer]] Editor: Mark Koennecke, PSI
+*[[GenericScan|Generic Scanning Instrument]] Editor: [[User:Mark_Koennecke|Mark Könnecke]], PSI
+*[[Monochromatic Neutron and X-ray Powder Diffraction]] Editor: [[User:Mark_Koennecke|Mark Könnecke]], PSI
+*[[Monochromatic Neutron and X-ray Single Crystal Diffractometer]] Editor: [[User:Mark_Koennecke|Mark Könnecke]], PSI
 *[[Monochromatic Neutron and X-ray Triple-Axis Spectrometer]] Editor: [[User:Nickm|Nicholas Maliszewskyj]] (NIST Center for Neutron Research, USA).
 
 ===Ratified===
