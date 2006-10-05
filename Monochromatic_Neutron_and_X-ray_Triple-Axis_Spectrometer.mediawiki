@@ -18,7 +18,7 @@ s data.-->
   <start_time type="ISO8601">
     {Starting time of measurement}
   </start_time>
-  <NXsample name="sample">
+  <NXsample name="{name of sample}">
     <name type="NX_CHAR">
       {Descriptive name of sample}?
     </name>
