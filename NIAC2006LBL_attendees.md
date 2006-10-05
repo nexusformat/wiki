@@ -21,7 +21,7 @@ Berkeley Laboratory, Berkeley, CA, USA.
 | Paul Kienzle                                             | | National Institute of Standards and Technology             |
 | [Przemek Klosowski](User%3APrzemek_Klosowski "wikilink") | | National Institute of Standards and Technology             |
 | [Mark Koennecke](User%3AMark_Koennecke "wikilink")       | | Paul Scherrer Institut                                     |
-| Laurent Lerusse                                          | | Rutherford Appleton Laboratory                             |
+| [Laurent Lerusse](User%3AL.lerusse "wikilink")           | | Rutherford Appleton Laboratory , e-Science                 | | Durant                                    |
 | [Mike McKerns](http://www.its.caltech.edu/~mmckerns)     | | CalTech                                                    |
 | [Ray Osborn](User%3ARay_Osborn "wikilink")               | | Intense Pulsed Neutron Source, Argonne National Laboratory | | DoubleTree                                |
 | [Peter Peterson](User%3APeter_Peterson "wikilink")       | | Spallation Neutron Source, Oak Ridge National Laboratory   | | DoubleTree                                |
