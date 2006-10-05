@@ -1,0 +1,16 @@
+== Items to think about ==
+
+* TOFRaw is doing 90% of what is needed
+** Add data_error
+
+* Missing items for data binning
+** time_focusing_type (e.g. difc, cubic, ..)
+** time_focusing_parameters [ndetector,nparameters]
+** Deadtime correction information (in combination with gang_..)
+
+* Missing items for Rietveld refinement
+** Profile types and starting parameters
+** Incident spectrum (parameters or run in NXcharacterization)
+
+* Other
+** Binned data - this actually is used in Rietveld.
