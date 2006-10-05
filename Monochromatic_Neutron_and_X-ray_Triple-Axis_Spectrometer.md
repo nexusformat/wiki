@@ -159,7 +159,7 @@ layout: wiki
           </azimuthal_angle>
         </NXdetector>
       </NXinstrument>
-      <NXmonitor name="monitor">
+      <NXmonitor name="control">
         <mode type="NX_CHAR">
           "monitor"|"timer"
         </mode>
