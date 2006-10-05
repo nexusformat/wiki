@@ -36,11 +36,6 @@ Götz](User%3AAndy_Gotz "wikilink").
 
 #### Proposed Agenda Items
 
-Please add suggestions for agenda items here in [ bullet
-form](Help:Editing#Lists "wikilink"). If you want to add extended
-comments concerning any agenda item, please use the Wiki's talk page [
-Talk Page](Talk:NIAC_Meetings "wikilink").
-
 -   Moving from [Meta-DTDs](Metaformat "wikilink") to XML Schema. see
     [NeXML proposal](http://www.webel.com.au/nexml)
 -   Discuss NeXus collaborating with imgCIF. see [MEDSBIO

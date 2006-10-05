@@ -16,7 +16,6 @@ contact [[User:Andy Gotz|Andrew Götz]].
 
 ===Agenda===
 ====Proposed Agenda Items====
-Please add suggestions for agenda items here in [[Help:Editing#Lists | bullet form]].  If you want to add extended comments concerning any agenda item, please use the Wiki's talk page [[Talk:NIAC_Meetings | Talk Page]].
 * Moving from [[Metaformat|Meta-DTDs]] to XML Schema. see [http://www.webel.com.au/nexml NeXML proposal]
 * Discuss NeXus collaborating with imgCIF. see [http://www.medsbio.org/ MEDSBIO proposal] 
 * Request institutes from the NeXus community sponsor a full-time technical secretary for next 12-24 months.
