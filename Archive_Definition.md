@@ -37,21 +37,23 @@ needed for processed / result or simulation files
 Multiple NXentry issue
 ----------------------
 
+In the case of archiving and cataloguing, multiple NXentry make it
+difficult to extract metadata to characterize a file, (e.g. 1 file with
+multiple samples in multiple NXentry?).
+
+Only the metadata from the first NXentry will be used in the indexing of
+the NeXus file. The first NXentry will be named 'Header' or '{name}\_0'
+where name c an be any string (e.g. 'scan\_0').
+
+Open Issue
+----------
+
 The order of multiple NXentry is not recorded by the data format. Now,
 we only have a naming convention to record the creation/logical order.
-How well can we enforce such convention? It could be good to add a
-'entry\_num' metadata in the class for that.
+How well can we enforce such convention?
 
-In the case of archiving and cataloguing, multiple NXentry make it
-difficult to extract metadata to characterize a file, (e.g. what if
-different samples?). In the case of high number of NXentry, it may be
-difficult to detect the varying part among all the constant information
-linked from a NXentry to another. We could define by convention that in
-files, which contains multiple NXentry, the first NXentry (named
-'header' or 'entry 0'; or with 'entry\_num = 0') would contain only
-constant information that does not need to be repeated or linked in all
-the NXentry. This NXentry would never contains NXdata, NXmonitor,
-NXevent\_data, NXprocess, ...
+It could be good to add a 'entry\_num' parameter in NXentry class to
+define the order.
 
 Processed Data Archive
 ----------------------
