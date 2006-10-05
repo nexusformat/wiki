@@ -4,4 +4,4 @@ permalink: Muon_Time_Differential/
 layout: wiki
 ---
 
-<nxformat name="NXmuontd.xml"></nxformat>
+<nxformat file="NXmuontd.xml"></nxformat>
