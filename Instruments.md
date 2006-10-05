@@ -31,42 +31,48 @@ Instrument List
     Koennecke, PSI
 -   [Time-of-Flight Neutron Powder
     Diffraction](Time-of-Flight_Neutron_Powder_Diffraction "wikilink")
-    Editor: [Peter Peterson](User%3APfpeterson "wikilink") (Spallation
-    Neutron Source, USA).
+    (*not yet created*) Editor: [Peter
+    Peterson](User%3APfpeterson "wikilink") (Spallation Neutron Source,
+    USA).
 -   [Monochromatic Neutron and X-ray Triple-Axis
     Spectrometer](Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer "wikilink")
-    Editor: [Nicholas Maliszewskyj](User%3ANickm "wikilink")(NIST Center
-    for Neutron Research, USA).
+    Editor: [Nicholas Maliszewskyj](User%3ANickm "wikilink") (NIST
+    Center for Neutron Research, USA).
 -   [Monochromatic Neutron and X-ray Powder
     Diffraction](Monochromatic_Neutron_and_X-ray_Powder_Diffraction "wikilink")
     Editor: Mark Koennecke, PSI
 -   [Time-of-Flight Neutron Single Crystal
     Diffractometer](Time-of-Flight_Neutron_Single_Crystal_Diffractometer "wikilink")
-    Editor: TBA
+    (*not yet created*) Editor: TBA
 -   [Monochromatic Neutron and X-ray Single Crystal
     Diffractometer](Monochromatic_Neutron_and_X-ray_Single_Crystal_Diffractometer "wikilink")
     Editor: Mark Koennecke, PSI
 -   [Time-of-Flight Small Angle
-    Scattering](Time-of-Flight_Small_Angle_Scattering "wikilink")
-    Editor: Stephen King (ISIS Pulsed Neutron and Muon Source, UK).
+    Scattering](Time-of-Flight_Small_Angle_Scattering "wikilink") (*not
+    yet created*) Editor: Stephen King (ISIS Pulsed Neutron and Muon
+    Source, UK).
 -   [Monochromatic Neutron and X-ray Small Angle
-    Scattering](SAS "wikilink") Editor: Ron Ghosh (Institut Laue
-    Langevin, France).
+    Scattering](SAS "wikilink") (*proposed*) Editor: Ron Ghosh (Institut
+    Laue Langevin, France).
 -   [Time-of-Flight Neutron
     Reflectometery](Time-of-Flight_Neutron_Reflectometery "wikilink")
-    Editor: Robert Dalgliesh (ISIS Pulsed Neutron and Muon Source, UK)
+    (*not yet created*) Editor: Robert Dalgliesh (ISIS Pulsed Neutron
+    and Muon Source, UK)
 -   [Monochromatic Neutron and X-ray
     Reflectometry](Monochromatic_Neutron_and_X-ray_Reflectometry "wikilink")
-    Editor: Paul Kienzle (NIST Center for Neutron Research, USA)
+    (*not yet created*) Editor: Paul Kienzle (NIST Center for Neutron
+    Research, USA)
 -   [Time-of-Flight Neutron Direct Geometry
     Spectrometer](Time-of-Flight_Neutron_Direct_Geometry_Spectrometer "wikilink")
-    Editor: Toby Perring (ISIS Pulsed Neutron and Muon Source, UK)
+    (*not yet created*) Editor: Toby Perring (ISIS Pulsed Neutron and
+    Muon Source, UK)
 -   [Time-of-Flight Neutron Indirect Geometry
     Spectrometer](Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer "wikilink")
-    Editor: Martyn Bull (ISIS Pulsed Neutron and Muon Source, UK)
--   [Neutron Spin Echo](Neutron_Spin_Echo "wikilink") Editor: Robert
-    Georgii (FRM-II, Germany)\]
--   [Archive Definition](Archive_Definition "wikilink") Editor: [Laurent
-    Lerusse](User%3AL.lerusse "wikilink") (CCLRC - Rutherford Appleton
-    Laboratory, e-Science, UK)
+    (*not yet created*) Editor: Martyn Bull (ISIS Pulsed Neutron and
+    Muon Source, UK)
+-   [Neutron Spin Echo](Neutron_Spin_Echo "wikilink") (*not yet
+    created*) Editor: Robert Georgii (FRM-II, Germany)\]
+-   [Archive Definition](Archive_Definition "wikilink") (*proposed*)
+    Editor: [Laurent Lerusse](User%3AL.lerusse "wikilink") (CCLRC -
+    Rutherford Appleton Laboratory, e-Science, UK)
 
