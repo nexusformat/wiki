@@ -36,10 +36,10 @@ downloaded](http://lns00.psi.ch/NXexample/NXscan.xml_downloaded "wikilink").
 
     -->
 
-    <NXroot NeXus_version="{Version of NeXus API}">
+    <NXroot>
        <NXentry name="{Entry name}">+
             <title>{Extended title for entry}</title>
-            <NXsample name="sample">*
+            <NXsample name="sample">
                 <name>{Descriptive name of sample}</name>
                 <environment>{Type of sample environment}</environment>
                 <polar_angle type="NX_FLOAT32[np]>
@@ -87,9 +87,9 @@ downloaded](http://lns00.psi.ch/NXexample/NXscan.xml_downloaded "wikilink").
                 <polar_angle axis="1">
                   {Link to detector polar_angle}
                </polar_angle>
-               <rotation axis="1">
+               <rotation_angle axis="1">
                   {Link to sample rotation}
-               </rotation>
+               </rotation_angle>
             </NXdata>
         </NXentry>
     </NXroot>
