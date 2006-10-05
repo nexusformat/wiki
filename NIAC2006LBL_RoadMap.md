@@ -25,7 +25,7 @@ The current documentation describes that the fastest varying dimension
 is annotated with “axis=1”. In practice the slowest varying dimension is
 “axis=1”.
 
-#### Detector dimensions
+#### Detector dimensions and array dimensions
 
 ### Later
 
