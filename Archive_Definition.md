@@ -9,7 +9,9 @@ Introduction
 
 This 'NeXus Archive Definition' proposal is similar to an 'Instrument
 Definition' but it describe the required information for neXus files
-that are meant to be centrally archived.
+that are meant to be centrally archived. It contains important
+information that will not be found in the instrument definition as they
+are not needed for data analysis.
 
 The Instrument Definitions should allow the creation of analysis
 software that are common among several instruments and/or facilities.
@@ -29,9 +31,8 @@ be very practical to catalogue the data so finely, at least not at a
 facility level. This definition assumes an indexing at the file level.
 
 A large part of the definition are optional parameters for nice to have
-information. For the moment, this definition represents only my
-understanding of the issue. Lot more discussion must occur to reach an
-agreement among NIAC members
+information. It is build with RAW file in mind. other parameters may be
+needed for processed / result or simulation files
 
 Multiple NXentry issue
 ----------------------
