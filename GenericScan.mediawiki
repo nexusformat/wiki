@@ -29,20 +29,15 @@ editor of this definition.
 <NXroot NeXus_version="{Version of NeXus API}">
    <NXentry name="{Entry name}">+
         <title>{Extended title for entry}</title>
-        <start_time type="ISO8601">{starting time of measurement}</start_time>
-        <end_time   type="ISO8601">{ending time of measurement}</end_time>
-        <duration   units="seconds" type="NX_INT32">{duration}</duration>
-
         <NXsample name="sample">*
             <name>{Descriptive name of sample}</name>
             <environment>{Type of sample environment}</environment>
-            <polar_angle type="NX_FLOAT32">
+            <polar_angle type="NX_FLOAT32[np]>
                {polar_angle to monochromator}
             </polar_angle>
-
-            <rotation type="NX_FLOAT32[np]">
+            <rotation_angle type="NX_FLOAT32[np]">
                { sample rotation}
-            </rotation>
+            </rotation_angle>
         </NXsample>
         <NXinstrument name="name">
             <name>{name of instrument}</name>
@@ -57,8 +52,7 @@ editor of this definition.
                   {wavelength at each scan position}
                 </wavelength>
             </NXcrystal>
-
-            <NXmonitor name="pre_sample_monitor">
+            <NXmonitor name="control">
                 <mode type="NX_CHAR">monitor | timer</mode>
                 <preset type="NX_FLOAT32">
                   {preset value for monitor or timer}
@@ -67,18 +61,16 @@ editor of this definition.
                 {Monitor counts for each scan position}
               </data>
             </NXmonitor>
-
             <NXdetector name="primary">
               <data type="NX_INT32[np]" signal="1">
                 {Detector counts for each scan position}
               </data>
-              <polar_angle type="NX_FLOAT32[n]" axis="1">
+              <polar_angle type="NX_FLOAT32[np]" axis="1">
                  {polar angle for each scan position}
               </polar_angle>
             </NXdetector>
         </NXinstrument>
         <NXdata name="data">
-
             <data type="NX_INT32[np]" signal="1">
               {Link to detector counts}
             </data>
@@ -89,7 +81,6 @@ editor of this definition.
               {Link to sample rotation}
            </rotation>
         </NXdata>
-
     </NXentry>
 </NXroot>
 </pre>
