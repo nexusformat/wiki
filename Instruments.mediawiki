@@ -8,10 +8,10 @@ As part of the NeXus standard, we have identified a number of generic instrument
 
 *[[TOFRaw|NXTOFRaw: Time-of-Flight Raw Data]]
 *[[Monochromatic Neutron and X-ray Powder Diffraction]] Editor: [[User:Mark_Koennecke|Mark Könnecke]], PSI
+*[[GenericScan|Generic Scanning Instrument]] Editor: [[User:Mark_Koennecke|Mark Könnecke]], PSI
 
 ===Proposed===
 
-*[[GenericScan|Generic Scanning Instrument]] Editor: [[User:Mark_Koennecke|Mark Könnecke]], PSI
 *[[Monochromatic Neutron and X-ray Single Crystal Diffractometer]] Editor: [[User:Mark_Koennecke|Mark Könnecke]], PSI
 *[[Monochromatic Neutron and X-ray Triple-Axis Spectrometer]] Editor: [[User:Nickm|Nicholas Maliszewskyj]] (NIST Center for Neutron Research, USA).
 *[[Archive Definition]] Editor: [[User:L.lerusse|Laurent Lerusse]] (CCLRC - Rutherford Appleton Laboratory, e-Science, UK)
