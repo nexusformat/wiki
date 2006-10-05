@@ -30,7 +30,7 @@ This is a DTD for a generic instrument which performs scans.
     Note:
     This example is fairly minimal. Feel free to add whatever you think necessary. However, if
     items are missing which are required for standard data reduction tasks, please consult the
-    editor of this definition.
+    editor of this example.
 
     -->
 

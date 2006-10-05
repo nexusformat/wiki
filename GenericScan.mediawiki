@@ -22,7 +22,7 @@ an omega-two-theta scan and serves to highlight NeXus scan data storage principl
 Note:
 This example is fairly minimal. Feel free to add whatever you think necessary. However, if
 items are missing which are required for standard data reduction tasks, please consult the
-editor of this definition.
+editor of this example.
 
 -->
 
