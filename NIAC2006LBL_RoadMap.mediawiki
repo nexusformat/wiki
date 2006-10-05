@@ -1,14 +1,22 @@
 == '''ALL''' neutron definitions '''done''' ==
-* Monochromatic Neutron and X-ray Reflectometry
-* Monochromatic Neutron and X-ray Small Angle Scattering
-* Monochromatic Neutron Triple-Axis
-* Time-of-Flight Neutron Direct Geometry Spectrometer
-* Time-of-Flight Neutron Indirect Geometry Spectrometer
-* Time-of-Flight Neutron Powder Diffraction
-* Time-of-Flight Neutron Reflectometery
-* Time-of-Flight Neutron Single-Crystal Diffractometer
-* Time-of-Flight Neutron Spin Echo Editor
-* Time-of-Flight Small Angle Scattering
+
+* priority 1
+** Monochromatic Neutron and X-ray Reflectometry
+** Time-of-Flight Neutron Reflectometery
+** Monochromatic Neutron and X-ray Single Crystal Diffractometer
+** Monochromatic Neutron and X-ray Triple-Axis Spectrometer
+** Archive Definition
+* priority 2
+** Monochromatic Neutron Triple-Axis
+** Time-of-Flight Neutron Powder Diffraction
+** Monochromatic Neutron and X-ray Small Angle Scattering
+** Time-of-Flight Small Angle Scattering
+* priority 3
+** Time-of-Flight Neutron Indirect Geometry Spectrometer
+** Time-of-Flight Neutron Direct Geometry Spectrometer
+* priority 4
+** Time-of-Flight Neutron Single-Crystal Diffractometer
+** Time-of-Flight Neutron Spin Echo Editor
 
 =Small Items=
 ==Axis attributes on fields==
