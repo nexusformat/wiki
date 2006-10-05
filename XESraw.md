@@ -85,8 +85,8 @@ Example:
 
 
     <NXroot>
-        <NXentry name="{Entry name}">
-            <title>{Extended title for entry}</title>
+        <NXentry name="Entry1">
+            <title>"Example Data File"</title>
             
             <NXinstrument name="I18">
                     <name>"I18"</name>
