@@ -13,4 +13,4 @@
 ** Incident spectrum (parameters or run in NXcharacterization)
 
 * Other
-** Binned data - this actually is used in Rietveld.
+** Binned data back in NeXus - this actually is used in Rietveld.

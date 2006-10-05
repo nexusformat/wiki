@@ -26,5 +26,5 @@ Items to think about
 <!-- -->
 
 -   Other
-    -   Binned data - this actually is used in Rietveld.
+    -   Binned data back in NeXus - this actually is used in Rietveld.
 
