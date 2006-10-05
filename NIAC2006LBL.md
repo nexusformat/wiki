@@ -92,6 +92,10 @@ Talk Page](Talk:NIAC_Meetings "wikilink").
     -   Define missing agenda items
     -   Vote on things already ready for voting
     -   Define working groups and divide items
+-   12:00 break for lunch
+-   13:00 Ratify instrument definitions
+-   15:00 break
+-   15:30 split into groups
 
 #### October 6
 
