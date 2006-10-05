@@ -101,7 +101,8 @@ Talk Page](Talk:NIAC_Meetings "wikilink").
 
 #### October 6
 
--   08:30 Triage
+-   08:30 Small items (see below)
+-   ??:?? Triage
     -   Define missing agenda items
     -   Vote on things already ready for voting
     -   Define working groups and divide items

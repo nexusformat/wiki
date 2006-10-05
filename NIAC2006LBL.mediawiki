@@ -53,7 +53,8 @@ Please add suggestions for agenda items here in [[Help:Editing#Lists | bullet fo
 * 15:30 split into groups
 
 ====October 6====
-* 08:30 Triage
+* 08:30 Small items (see below)
+* ??:?? Triage
 ** Define missing agenda items
 ** Vote on things already ready for voting
 ** Define working groups and divide items
