@@ -84,3 +84,8 @@ layout: wiki
 Example:
 
 
+    <NXroot filename="XES_Example.nxs">
+     <NXentry name="entry1"
+      <title></title>
+     </NXentry>
+    </NXroot>
