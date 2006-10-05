@@ -74,6 +74,7 @@ Talk Page](Talk:NIAC_Meetings "wikilink").
     [<http://trac.nexusformat.org>](http://trac.nexusformat.org) for
     testing
 -   Move mailing list to nexusformat.org
+-   Determine location to store defititions
 
 #### October 5
 
