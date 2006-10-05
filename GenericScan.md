@@ -28,7 +28,7 @@ This is a DTD for a generic instrument which performs scans.
       responsibility to process the data in the right order.  
 
     Note:
-    This definition is fairly minimal. Feel free to add whatever you think necessary. However, if
+    This example is fairly minimal. Feel free to add whatever you think necessary. However, if
     items are missing which are required for standard data reduction tasks, please consult the
     editor of this definition.
 
@@ -47,9 +47,9 @@ This is a DTD for a generic instrument which performs scans.
                    { sample rotation}
                 </rotation_angle>
             </NXsample>
-            <NXinstrument name="name">
+            <NXinstrument name="{name}">
                 <name>{name of instrument}</name>
-                <NXsource name="name">
+                <NXsource name="{name}">
                     <name>{name of facility}</name>
 
                     <type>"Reactor"</type>
@@ -78,7 +78,7 @@ This is a DTD for a generic instrument which performs scans.
                   </polar_angle>
                 </NXdetector>
             </NXinstrument>
-            <NXdata name="data">
+            <NXdata name="{data}">
                 <data type="NX_INT32[np]" signal="1">
                   {Link to detector counts}
                 </data>
