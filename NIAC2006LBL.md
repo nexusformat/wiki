@@ -53,6 +53,7 @@ Talk Page](Talk:NIAC_Meetings "wikilink").
     allow data requirers e.g. DANSE to have representation on the NIAC
     as a stakeholder that requires NeXus.
 -   SCAN definition similar to TOFRAW definition
+-   NXcharacterization needs to be formalized
 
 #### API/Technical Issues
 
