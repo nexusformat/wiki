@@ -67,8 +67,7 @@ General Notes:
           {Monitor counts}
         </data>
      </NXmonitor>
-
-   <NXsample name="{Name of Sample">
+   <NXsample name="{Name of Sample}">
      <name type="NX_CHAR">
       {Descriptive name of sample}
      </name>
