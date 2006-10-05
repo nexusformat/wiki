@@ -101,8 +101,7 @@ Talk Page](Talk:NIAC_Meetings "wikilink").
 
 #### October 6
 
--   08:30 Small items (see [NIACLBL2006\_Roadmap
-    Roadmap](NIACLBL2006_Roadmap_Roadmap "wikilink"))
+-   08:30 Small items (see [Roadmap](NIACLBL2006_Roadmap "wikilink"))
 -   ??:?? Triage
     -   Define missing agenda items
     -   Vote on things already ready for voting
