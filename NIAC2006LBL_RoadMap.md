@@ -31,4 +31,7 @@ is annotated with “axis=1”. In practice the slowest varying dimension is
 ### Later
 
 -   sequencing entries and measurements
+-   counting time for each data point
+    -   Does this belong to some base class?
+    -   Which one?
 

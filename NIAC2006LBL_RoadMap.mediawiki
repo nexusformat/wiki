@@ -17,3 +17,6 @@ The current documentation describes that the fastest varying dimension is annota
 
 ===Later===
 * sequencing entries and measurements
+*counting time for each data point
+** Does this belong to some base class?
+** Which one?
