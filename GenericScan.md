@@ -37,7 +37,7 @@ This is a DTD for a generic instrument which performs scans.
     <NXroot>
        <NXentry name="{Entry name}">+
             <title>{Extended title for entry}</title>
-            <NXsample name="sample">
+            <NXsample name="{sample}">
                 <name>{Descriptive name of sample}</name>
                 <environment>{Type of sample environment}</environment>
                 <polar_angle type="NX_FLOAT32[np]>
