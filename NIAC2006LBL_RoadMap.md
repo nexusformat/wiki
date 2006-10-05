@@ -38,6 +38,12 @@ is annotated with “axis=1”. In practice the slowest varying dimension is
 Detector dimensions and array dimensions
 ----------------------------------------
 
+Geometry order of operations
+----------------------------
+
+When looking at a geometry is the orientation applied before the
+translation or the other way around.
+
 Later
 =====
 
