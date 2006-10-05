@@ -19,7 +19,9 @@ As part of the NeXus standard, we have identified a number of generic instrument
 
 ===Planned===
 
-*[[Reflectometry]] Time-of-Flight Neutron (Robert Dalgliesh (ISIS Pulsed Neutron and Muon Source, UK)), Monochromatic Neutron and X-ray Reflectometry (Paul Kienzle (NIST Center for Neutron Research, USA))
+*[[Reflectometry]] 
+  ** Time-of-Flight Neutron (Robert Dalgliesh (ISIS Pulsed Neutron and Muon Source, UK))
+  ** Monochromatic Neutron and X-ray Reflectometry (Paul Kienzle (NIST Center for Neutron Research, USA))
 *[[Neutron Spin Echo]] Editor: Robert Georgii (FRM-II, Germany)
 *[[Time-of-Flight Neutron Direct Geometry Spectrometer]] Editor: Toby Perring (ISIS Pulsed Neutron and Muon Source, UK)
 *[[Time-of-Flight Neutron Indirect Geometry Spectrometer]] Editor: Martyn Bull (ISIS Pulsed Neutron and Muon Source, UK)

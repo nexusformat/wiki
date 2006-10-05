@@ -54,10 +54,11 @@ Instrument List
 
 ### Planned
 
--   [Reflectometry](Reflectometry "wikilink") Time-of-Flight Neutron
-    (Robert Dalgliesh (ISIS Pulsed Neutron and Muon Source, UK)),
-    Monochromatic Neutron and X-ray Reflectometry (Paul Kienzle (NIST
-    Center for Neutron Research, USA))
+-   [Reflectometry](Reflectometry "wikilink")
+
+` ** Time-of-Flight Neutron (Robert Dalgliesh (ISIS Pulsed Neutron and Muon Source, UK))`  
+` ** Monochromatic Neutron and X-ray Reflectometry (Paul Kienzle (NIST Center for Neutron Research, USA))`
+
 -   [Neutron Spin Echo](Neutron_Spin_Echo "wikilink") Editor: Robert
     Georgii (FRM-II, Germany)
 -   [Time-of-Flight Neutron Direct Geometry
