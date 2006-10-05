@@ -137,7 +137,7 @@ DTD definition
             collection was suspended due to e.g. temperature out of range}?
         </collection_time>
             
-        <!-- Reliability metadata
+    '''    <!-- Reliability metadata
             Having the wrong information may be worst than having no information. 
             The accuracy of the information provided by the experimenter may be  
             difficult to determine. The minimum we can do is determine in which
@@ -146,10 +146,10 @@ DTD definition
         <info_reliability  type="NX_CHAR">
             {information on the reliability/source of the information provided by
             the experimenter.(e.g. : From proposal, updated at experiment time, ...}?
-        </info_reliability>
+        </info_reliability>'''
 
         
-        <!-- Experiment metadata
+    '''    <!-- Experiment metadata
             Description of the science related to the data.
         -->
             <discipline type="NX_CHAR">
@@ -185,7 +185,7 @@ DTD definition
         </facility_access_type>
         <grant_id  type="NX_CHAR" type="NX_CHAR">       
             {Identifier of the funding grant.}?
-        </grant_id>
+        </grant_id>'''
                 
                 
         <!-- Software metadata
@@ -238,9 +238,9 @@ DTD definition
                 identification code on the facility address/contact database, 
                 should allow owner identification by the archive system.}
             </facility_user_id>
-            <affiliation_id type="NX_CHAR">
+    '''        <affiliation_id type="NX_CHAR">
                 {Affiliation unique identifier.}?
-            </affiliation_id>
+            </affiliation_id>'''
         </NXuser>
 
         <!-- Instruments metadata
@@ -251,6 +251,9 @@ DTD definition
             <name type="NX_CHAR" short_name="{abbreviated name of instrument}">
                 {Name of instrument}
             </name>
+    '''        <description type="NX_CHAR">
+                { Description of the instrument}?
+            </description>'''
             <NXsource name="{Name of facility}">
                 <name type="NX_CHAR">
                     {Name of source}
