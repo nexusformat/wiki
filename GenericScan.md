@@ -61,15 +61,6 @@ This is a DTD for a generic instrument which performs scans.
                       {wavelength at each scan position}
                     </wavelength>
                 </NXcrystal>
-                <NXmonitor name="control">
-                    <mode type="NX_CHAR">monitor | timer</mode>
-                    <preset type="NX_FLOAT32">
-                      {preset value for monitor or timer}
-                    </preset>
-                  <data type="NX_INT32[np]">
-                    {Monitor counts for each scan position}
-                  </data>
-                </NXmonitor>
                 <NXdetector name="primary">
                   <data type="NX_INT32[np]" signal="1">
                     {Detector counts for each scan position}
@@ -79,6 +70,15 @@ This is a DTD for a generic instrument which performs scans.
                   </polar_angle>
                 </NXdetector>
             </NXinstrument>
+            <NXmonitor name="control">
+               <mode type="NX_CHAR">monitor | timer</mode>
+               <preset type="NX_FLOAT32">
+                  {preset value for monitor or timer}
+                </preset>
+                <data type="NX_INT32[np]">
+                   {Monitor counts for each scan position}
+                </data>
+            </NXmonitor>
             <NXdata name="{data}">
                 <data type="NX_INT32[np]" signal="1">
                   {Link to detector counts}
