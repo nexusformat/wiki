@@ -87,6 +87,12 @@ layout: wiki
           <rotation_angle units="degree" type="NX_FLOAT32[:]">
             {Rotation angle of the monochromator}
           </rotation_angle>
+          <curvature_horizontal type="NX_FLOAT" units="degrees">?
+            {Horizontal curvature of focusing crystal}?
+          </curvature_horizontal>
+          <curvature_vertical type="NX_FLOAT" units="degrees">?
+            {Vertical curvature of focusing crystal}?
+          </curvature_vertical>
         </NXcrystal>
         <NXcollimator name="presample_collimator">
           <type type="NX_CHAR">
@@ -136,6 +142,12 @@ layout: wiki
           <rotation_angle units="degree" type="NX_FLOAT32[:]">
             {Rotation angle of the monochromator}
           </rotation_angle>
+          <curvature_horizontal type="NX_FLOAT" units="degrees">?
+            {Horizontal curvature of focusing crystal}?
+          </curvature_horizontal>
+          <curvature_vertical type="NX_FLOAT" units="degrees">?
+            {Vertical curvature of focusing crystal}?
+          </curvature_vertical>
         </NXcrystal>
         <NXcollimator name="predetector_collimator">
           <type type="NX_CHAR">
