@@ -41,3 +41,5 @@ As part of the NeXus standard, we have identified a number of generic instrument
 *Spin-Echo
 **[[Neutron Spin Echo]], Editor: Robert Georgii (FRM-II, Germany)
 **[[Time-of-Flight Neutron Spin Echo]], Editor: TBA
+*Muon
+**[[Muon Time Differential]], Editor: Stephen Cottrell (ISIS, UK)
