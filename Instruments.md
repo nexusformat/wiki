@@ -29,9 +29,6 @@ Instrument List
 
 -   [Generic Scanning Instrument](GenericScan "wikilink") Editor: [Mark
     Könnecke](User%3AMark_Koennecke "wikilink"), PSI
--   [Monochromatic Neutron and X-ray Powder
-    Diffraction](Monochromatic_Neutron_and_X-ray_Powder_Diffraction "wikilink")
-    Editor: [Mark Könnecke](User%3AMark_Koennecke "wikilink"), PSI
 -   [Monochromatic Neutron and X-ray Single Crystal
     Diffractometer](Monochromatic_Neutron_and_X-ray_Single_Crystal_Diffractometer "wikilink")
     Editor: [Mark Könnecke](User%3AMark_Koennecke "wikilink"), PSI
@@ -43,6 +40,9 @@ Instrument List
 ### Ratified
 
 -   [NXTOFRaw: Time-of-Flight Raw Data](TOFRaw "wikilink")
+-   [Monochromatic Neutron and X-ray Powder
+    Diffraction](Monochromatic_Neutron_and_X-ray_Powder_Diffraction "wikilink")
+    Editor: [Mark Könnecke](User%3AMark_Koennecke "wikilink"), PSI
 
 ### Proposed
 
