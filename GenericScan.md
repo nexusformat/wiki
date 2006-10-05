@@ -14,24 +14,19 @@ principles:
 
 -   Assume np to be the number of scan points
 -   Variable data (such as motors) which can vary during the scan are
-    stored as arrays of length np at
-
-` their proper place in the NXinstrument hierarchy.`
-
+    stored as arrays of length np at their proper place in the
+    NXinstrument hierarchy.
 -   In NXdata links to all varied positions and the dectector counts are
-    created. This
-
-` provides for easy access to the popular table format for scans. `
-
+    created. This provides for easy access to the popular table format
+    for scans.
 -   In the case of multi dimensional detectors, the PSD data must be
-    stored with the scan
-
-` variable being the fastest varying dimension(the first) for technical reasons.`
-
+    stored with the scan variable being the fastest varying
+    dimension(the first) for technical reasons.
 -   If you to choose to store PSD scans in separate files or separate
-    entries, it is the users
+    entries, it is the users responsibility to process the data in the
+    right order.
 
-` responsibility to process the data in the right order.  `
+<!-- -->
 
     <?xml version="1.0" ?>
     <!--
