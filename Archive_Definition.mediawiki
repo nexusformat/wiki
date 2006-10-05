@@ -115,7 +115,7 @@ Template of the Archive Definition.
     -->
     <info_reliability  type="NX_CHAR">
     	{information on the reliability/source of the information provided by
-    	the experimenter.(e.g. : From proposal, updated at experiment time, ...}
+    	the experimenter.(e.g. : From proposal, updated at experiment time, ...}?
     </info_reliability>
 
     
@@ -294,43 +294,16 @@ Template of the Archive Definition.
         
         <!-- Sample Environment metadata
         	These parameters are to give an idea of the sample environment. 
-        	One value may seems too limited but it is mostly to understand under 
-        	which type of condition the experiment occurs (high, low, very    	
-        	high, very low temperature, pressure, ...) Very few experiment will 		
-        	go from 5 to 5000 Kelvin in one scan.         	
-        	For actual analysis, time dependent measurement, the 
-        	data are stored in an NXlog (e.g temperature_log, ..). 
+      	
+        	The data are stored in an NXlog (e.g temperature_log, ..) 
+                those may be links from a sensor class located in the 
+                NXinstrument class. 
         -->
-        <min_temperature type="NX_FLOAT" param_type="fixed|scanned|free">
-            {Minimum of Sample temperature.}?
-        </min_temperature>
-        <max_temperature type="NX_FLOAT" param_type="fixed|scanned|free">
-            {Maximum of Sample temperature.}?
-        </max_temperature>        
-        <min_electric_field type="NX_FLOAT" param_type="fixed|scanned|free">
-            {Minimum of Applied electric field}?
-        </min_electric_field>
-        <min_electric_field type="NX_FLOAT" param_type="fixed|scanned|free">
-            {Maximum of Applied electric field}?
-        </min_electric_field>
-        <min_magnetic_field type="NX_FLOAT" param_type="fixed|scanned|free" >
-            {Minimum of Applied magnetic field}?
-        </min_magnetic_field>
-        <max_magnetic_field type="NX_FLOAT" param_type="fixed|scanned|free" >
-            {Maximum of Applied magnetic field}?
-        </max_magnetic_field>        
-        <min_stress_field type="NX_FLOAT" param_type="fixed|scanned|free">
-            {Minimum of External stress}?
-        </min_stress_field>
-        <max_stress_field type="NX_FLOAT" param_type="fixed|scanned|free">
-            {Maximum amplitude of External stress}?
-        </max_stressMin_field>
-        <min_pressure type="NX_FLOAT" param_type="fixed|scanned|free">
-            {Mininum of Applied pressure}?
-        </min_pressure>
-        <max_pressure type="NX_FLOAT" param_type="fixed|scanned|free">
-            {Maximum of Applied pressure}?
-        </max_pressure>    
+        <temperature type="NXlog"> {Sample temperature. }? </temperature>
+        <electric_field type="NXlog"> {Applied electric field}? </electric_field>
+        <magnetic_field type="NXlog" > {Applied magnetic field}? </magnetic_field>
+        <stress_field type="NXlog"> {External stress}? </stress_field>
+        <pressure type="NXlog"> {Mininum of Applied pressure}?  </pressure>   
     </NXsample>
 </NXentry>
 </pre>
