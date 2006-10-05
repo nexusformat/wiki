@@ -1,4 +1,4 @@
-* '''ALL''' neutron definitions '''done'''
+=== '''ALL''' neutron definitions '''done''' ===
 ** Monochromatic Neutron and X-ray Reflectometry
 ** Monochromatic Neutron and X-ray Small Angle Scattering
 ** Monochromatic Neutron Triple-Axis
@@ -10,5 +10,5 @@
 ** Time-of-Flight Neutron Spin Echo Editor
 ** Time-of-Flight Small Angle Scattering
 
-*later
-** sequencing entries and measurements
+===later===
+* sequencing entries and measurements

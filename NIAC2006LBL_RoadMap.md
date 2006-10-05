@@ -4,8 +4,9 @@ permalink: NIAC2006LBL_RoadMap/
 layout: wiki
 ---
 
--   **ALL** neutron definitions **done**
-    -   Monochromatic Neutron and X-ray Reflectometry
+### **ALL** neutron definitions **done**
+
+-   -   Monochromatic Neutron and X-ray Reflectometry
     -   Monochromatic Neutron and X-ray Small Angle Scattering
     -   Monochromatic Neutron Triple-Axis
     -   Time-of-Flight Neutron Direct Geometry Spectrometer
@@ -16,8 +17,7 @@ layout: wiki
     -   Time-of-Flight Neutron Spin Echo Editor
     -   Time-of-Flight Small Angle Scattering
 
-<!-- -->
+### later
 
--   later
-    -   sequencing entries and measurements
+-   sequencing entries and measurements
 
