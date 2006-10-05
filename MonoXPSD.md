@@ -34,13 +34,10 @@ The XML source can be downloaded from:
       reduction needs. If your most favourite items are missing, feel free to
       add them. If you think something is missing which is required for standard
       data reduction tasks, please contact the maintainer of this definition.
+    - If you to choose to store PSD scans in separate files or separate entries, it is the users
+      responsibility to process the data in the right order.  
     -->
-    <NXroot  file_name="{File name of original NeXus file}"
-             file_time="{Date and time of file creation}"
-             file_update_time="{Date and time of last file change at close}"
-             NeXus_version="{Version of NeXus API used in writing the file}"
-             HDF_version="?"
-             HDF5_version="?">
+    <NXroot>
       <NXentry name="{Entry Name}">+
          <title type="NX_CHAR">{Title of the experiment}</title>
          <start_time type="ISO8601">?{start time of measurement}
@@ -60,7 +57,7 @@ The XML source can be downloaded from:
                  {Polar Angle, or two theta as an array with values for each
                   detector element}
                </polar_angle>
-           <data type="NX_INT32[xdim,ydim,np]" signal="1" axes="polar_angle">
+           <data type="NX_INT32[np,xdim,ydim]" signal="1" axes="polar_angle">
               {The counts detected in the area detector, np is the 
                     number of scan points}
            </data>
@@ -87,27 +84,6 @@ The XML source can be downloaded from:
             </data>
 
          </NXmonitor>
-         <NXuser name="">+
-           <name type="NX_CHAR">
-              {Name of user responsible for this entry}
-           </name>
-           <affiliation type="NX_CHAR">
-              {Affiliation of user}?
-           </affiliation>
-         <address type="NX_CHAR">
-          {Address of user}
-         </address>
-
-         <telephone_number type="NX_CHAR">
-           {Telephone number of user}?
-         </telephone_number>
-         <fax_number type="NX_CHAR">
-           {Fax number of user}?
-         </fax_number>
-         <email type="NX_CHAR">
-           {Email of user}?
-         </email>
-       </NXuser>
 
        <NXsample name="{Name of Sample">
          <name type="NX_CHAR">
@@ -133,7 +109,7 @@ The XML source can be downloaded from:
        </NXsample>
 
        <NXdata name="{Name of Data Block}">+
-          <data type="NX_INT32[xdim,ydim,np]" signal="1">
+          <data type="NX_INT32[np,xdim,ydim]" signal="1">
              {Link to detector counts in NXdetector}
           </data>
           <polar_angle type="NX_FLOAT32[i]" axis="1">
