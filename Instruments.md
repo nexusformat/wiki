@@ -55,6 +55,7 @@ Instrument List
 ### Planned
 
 -   Diffraction
+    -   Protein Crystallography
     -   [Time-of-Flight Neutron Powder
         Diffraction](Time-of-Flight_Neutron_Powder_Diffraction "wikilink"),
         Editor: [Peter Peterson](User%3APfpeterson "wikilink")
@@ -67,6 +68,8 @@ Instrument List
         (ISIS Pulsed Neutron and Muon Source, UK)
     -   Monochromatic Neutron and X-ray Reflectometry, Editor: Paul
         Kienzle (NIST Center for Neutron Research, USA)
+-   Imaging
+    -   X-ray Tomography
 -   Small-Angle Scattering
     -   Grazing Incidence Small-Angle X-ray Scattering, Editor: TBA
     -   [Time-of-Flight Small Angle
@@ -83,6 +86,8 @@ Instrument List
     -   [Time-of-Flight Neutron Indirect Geometry
         Spectrometer](Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer "wikilink"),
         Editor: Martyn Bull (ISIS Pulsed Neutron and Muon Source, UK)
+    -   XAS: X-ray Absorption Spectroscopy
+    -   XPCS: X-ray Photon Correlation Spectroscopy
 -   Spin-Echo
     -   [Neutron Spin Echo](Neutron_Spin_Echo "wikilink"), Editor:
         Robert Georgii (FRM-II, Germany)
