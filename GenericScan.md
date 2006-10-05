@@ -16,7 +16,8 @@ This is a DTD for a generic instrument which performs scans.
     Version: October 2006
 
     Instrument Definition for a simple two axis scan. This example is for 
-    an omega-two-theta scan and serves to highlight NeXus scan data storage principles:
+    an omega-two-theta (rotation_angle polar_angle in NeXus notation)
+    scan and serves to highlight NeXus scan data storage principles:
     - Assume np to be the number of scan points 
     - Data (such as motors) varied during the scan are stored as arrays of length np at 
       their proper place in the NXinstrument hierarchy.
