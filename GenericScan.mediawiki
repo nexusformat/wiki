@@ -5,7 +5,7 @@ This is a DTD for a generic instrument which performs scans.
 <!--
 URL: http://www.neutron.anl.gov/nexus/xml/NXscan.xml
 Editor: Mark Koennecke
-Initial version: April 2006
+Version: October 2006
 
 Instrument Definition for a simple two axis scan. This example is for 
 an omega-two-theta scan and serves to highlight NeXus scan data storage principles:
