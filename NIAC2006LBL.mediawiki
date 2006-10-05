@@ -23,7 +23,7 @@ Please add suggestions for agenda items here in [[Help:Editing#Lists | bullet fo
 * Institutes that write NeXus files are '''data providers.'''. NeXus provides an interface between '''data providers''' and '''data requirers'''. Discuss if the NIAC constitution should be change to allow data requirers e.g. DANSE to have representation on the NIAC as a stakeholder that requires NeXus.
 * SCAN definition similar to TOFRAW definition
 * NXcharacterization needs to be formalized
-* Finalize archive definition
+* Finalize [Archive_Definition archive definition]
 
 ====API/Technical Issues====
 * Improving NeXus internal code documention on private structures and functions. Only API developer needs to know about these, but at the moment the knowledge is restricted to a few people. The existing in-code documentation needs to be tidied up and it would be a good idea if programs such as [http://www.stack.nl/~dimitri/doxygen/index.html Doxygen] could parse it.
