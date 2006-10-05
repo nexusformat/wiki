@@ -62,14 +62,8 @@ Talk Page](Talk:NIAC_Meetings "wikilink").
     idea if programs such as
     [Doxygen](http://www.stack.nl/~dimitri/doxygen/index.html) could
     parse it.
-
-<!-- -->
-
 -   [Proposal to Simplify Nexus](Proposal_to_Simplify_Nexus "wikilink")
     to increase its adoption for analysis programs. Proposal by ILL+ESRF
-
-<!-- -->
-
 -   Move from the current [CVS](http://www.nongnu.org/cvs/) (for version
     control) / [Bugzilla](http://www.bugzilla.org/) (for bugs/issues)
     system to using [Subversion](http://subversion.tigris.org/) /
@@ -77,6 +71,7 @@ Talk Page](Talk:NIAC_Meetings "wikilink").
     [<http://svn.nexusformat.org>](http://svn.nexusformat.org) and
     [<http://trac.nexusformat.org>](http://trac.nexusformat.org) for
     testing
+-   Move mailing list to nexusformat.org
 
 #### October 5
 
