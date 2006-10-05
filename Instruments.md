@@ -27,16 +27,6 @@ format.
 Instrument List
 ---------------
 
--   [Generic Scanning Instrument](GenericScan "wikilink") Editor: [Mark
-    Könnecke](User%3AMark_Koennecke "wikilink"), PSI
--   [Monochromatic Neutron and X-ray Single Crystal
-    Diffractometer](Monochromatic_Neutron_and_X-ray_Single_Crystal_Diffractometer "wikilink")
-    Editor: [Mark Könnecke](User%3AMark_Koennecke "wikilink"), PSI
--   [Monochromatic Neutron and X-ray Triple-Axis
-    Spectrometer](Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer "wikilink")
-    Editor: [Nicholas Maliszewskyj](User%3ANickm "wikilink") (NIST
-    Center for Neutron Research, USA).
-
 ### Ratified
 
 -   [NXTOFRaw: Time-of-Flight Raw Data](TOFRaw "wikilink")
@@ -46,6 +36,15 @@ Instrument List
 
 ### Proposed
 
+-   [Generic Scanning Instrument](GenericScan "wikilink") Editor: [Mark
+    Könnecke](User%3AMark_Koennecke "wikilink"), PSI
+-   [Monochromatic Neutron and X-ray Single Crystal
+    Diffractometer](Monochromatic_Neutron_and_X-ray_Single_Crystal_Diffractometer "wikilink")
+    Editor: [Mark Könnecke](User%3AMark_Koennecke "wikilink"), PSI
+-   [Monochromatic Neutron and X-ray Triple-Axis
+    Spectrometer](Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer "wikilink")
+    Editor: [Nicholas Maliszewskyj](User%3ANickm "wikilink") (NIST
+    Center for Neutron Research, USA).
 -   [Archive Definition](Archive_Definition "wikilink") Editor: [Laurent
     Lerusse](User%3AL.lerusse "wikilink") (CCLRC - Rutherford Appleton
     Laboratory, e-Science, UK)
@@ -55,9 +54,10 @@ Instrument List
 
 ### Planned
 
--   [Monochromatic Neutron and X-ray
-    Reflectometry](Monochromatic_Neutron_and_X-ray_Reflectometry "wikilink")
-    Editor: Paul Kienzle (NIST Center for Neutron Research, USA)
+-   [Reflectometry](Reflectometry "wikilink") Time-of-Flight Neutron
+    (Robert Dalgliesh (ISIS Pulsed Neutron and Muon Source, UK)),
+    Monochromatic Neutron and X-ray Reflectometry (Paul Kienzle (NIST
+    Center for Neutron Research, USA))
 -   [Neutron Spin Echo](Neutron_Spin_Echo "wikilink") Editor: Robert
     Georgii (FRM-II, Germany)
 -   [Time-of-Flight Neutron Direct Geometry
@@ -70,9 +70,6 @@ Instrument List
     Diffraction](Time-of-Flight_Neutron_Powder_Diffraction "wikilink")
     Editor: [Peter Peterson](User%3APfpeterson "wikilink") (Spallation
     Neutron Source, USA).
--   [Time-of-Flight Neutron
-    Reflectometery](Time-of-Flight_Neutron_Reflectometery "wikilink")
-    Editor: Robert Dalgliesh (ISIS Pulsed Neutron and Muon Source, UK)
 -   [Time-of-Flight Neutron Single Crystal
     Diffractometer](Time-of-Flight_Neutron_Single_Crystal_Diffractometer "wikilink")
     Editor: TBA
