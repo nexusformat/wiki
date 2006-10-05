@@ -165,25 +165,6 @@ Template of the Archive Definition.
     <program_name type="NX_CHAR" version="{Program version number}">
         {Name of program used to generate this file}?
     </program_name>
-    
-    
-    <!-- External reference   
-    	To archive processed data, you need to be able to point to the input 
-    	data that were used.
-      	
-      	This class is not an official neXus class. When the NIAC decide for 
-      	a way to link to external resources. ; it will have to be replaced by 
-      	its official equivalent.
-   	-->
-    	<external_reference name="input data XX">+
-       	<name type="NX_CHAR" >
-       		{Descriptive name of the input data}
-       	</name>
-       	<uri type="NX_CHAR">
-       		{Uniform Resource Identifier of the input data}
-        </uri>
-    </external_reference>
-
 
 	<!-- User metadata
 		At least one user with role 'principal_investigator' must be present to 
