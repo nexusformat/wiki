@@ -55,28 +55,28 @@ Instrument List
 
 ### Planned
 
--   [Time-of-Flight Neutron Powder
-    Diffraction](Time-of-Flight_Neutron_Powder_Diffraction "wikilink")
-    Editor: [Peter Peterson](User%3APfpeterson "wikilink") (Spallation
-    Neutron Source, USA).
--   [Time-of-Flight Neutron Single Crystal
-    Diffractometer](Time-of-Flight_Neutron_Single_Crystal_Diffractometer "wikilink")
-    Editor: TBA
--   [Time-of-Flight Small Angle
-    Scattering](Time-of-Flight_Small_Angle_Scattering "wikilink")
-    Editor: Stephen King (ISIS Pulsed Neutron and Muon Source, UK).
--   [Time-of-Flight Neutron
-    Reflectometery](Time-of-Flight_Neutron_Reflectometery "wikilink")
-    Editor: Robert Dalgliesh (ISIS Pulsed Neutron and Muon Source, UK)
 -   [Monochromatic Neutron and X-ray
     Reflectometry](Monochromatic_Neutron_and_X-ray_Reflectometry "wikilink")
     Editor: Paul Kienzle (NIST Center for Neutron Research, USA)
+-   [Neutron Spin Echo](Neutron_Spin_Echo "wikilink") Editor: Robert
+    Georgii (FRM-II, Germany)
 -   [Time-of-Flight Neutron Direct Geometry
     Spectrometer](Time-of-Flight_Neutron_Direct_Geometry_Spectrometer "wikilink")
     Editor: Toby Perring (ISIS Pulsed Neutron and Muon Source, UK)
 -   [Time-of-Flight Neutron Indirect Geometry
     Spectrometer](Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer "wikilink")
     Editor: Martyn Bull (ISIS Pulsed Neutron and Muon Source, UK)
--   [Neutron Spin Echo](Neutron_Spin_Echo "wikilink") Editor: Robert
-    Georgii (FRM-II, Germany)
+-   [Time-of-Flight Neutron Powder
+    Diffraction](Time-of-Flight_Neutron_Powder_Diffraction "wikilink")
+    Editor: [Peter Peterson](User%3APfpeterson "wikilink") (Spallation
+    Neutron Source, USA).
+-   [Time-of-Flight Neutron
+    Reflectometery](Time-of-Flight_Neutron_Reflectometery "wikilink")
+    Editor: Robert Dalgliesh (ISIS Pulsed Neutron and Muon Source, UK)
+-   [Time-of-Flight Neutron Single Crystal
+    Diffractometer](Time-of-Flight_Neutron_Single_Crystal_Diffractometer "wikilink")
+    Editor: TBA
+-   [Time-of-Flight Small Angle
+    Scattering](Time-of-Flight_Small_Angle_Scattering "wikilink")
+    Editor: Stephen King (ISIS Pulsed Neutron and Muon Source, UK).
 
