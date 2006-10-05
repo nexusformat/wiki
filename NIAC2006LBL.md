@@ -54,7 +54,7 @@ Talk Page](Talk:NIAC_Meetings "wikilink").
     as a stakeholder that requires NeXus.
 -   SCAN definition similar to TOFRAW definition
 -   NXcharacterization needs to be formalized
--   Finalize \[Archive\_Definition archive definition\]
+-   Finalize [archive definition](Archive_Definition "wikilink")
 
 #### API/Technical Issues
 
