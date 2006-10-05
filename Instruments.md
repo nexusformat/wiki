@@ -54,29 +54,38 @@ Instrument List
 
 ### Planned
 
--   [Reflectometry](Reflectometry "wikilink")
-    -   Time-of-Flight Neutron Editor: Robert Dalgliesh (ISIS Pulsed
-        Neutron and Muon Source, UK)
-    -   Monochromatic Neutron and X-ray Reflectometry Editor: Paul
+-   Diffraction
+    -   [Time-of-Flight Neutron Powder
+        Diffraction](Time-of-Flight_Neutron_Powder_Diffraction "wikilink"),
+        Editor: [Peter Peterson](User%3APfpeterson "wikilink")
+        (Spallation Neutron Source, USA).
+    -   [Time-of-Flight Neutron Single Crystal
+        Diffractometer](Time-of-Flight_Neutron_Single_Crystal_Diffractometer "wikilink"),
+        Editor: TBA
+-   Reflectometry
+    -   Time-of-Flight Neutron Reflectometry, Editor: Robert Dalgliesh
+        (ISIS Pulsed Neutron and Muon Source, UK)
+    -   Monochromatic Neutron and X-ray Reflectometry, Editor: Paul
         Kienzle (NIST Center for Neutron Research, USA)
--   [Neutron Spin Echo](Neutron_Spin_Echo "wikilink") Editor: Robert
-    Georgii (FRM-II, Germany)
--   [Time-of-Flight Neutron Direct Geometry
-    Spectrometer](Time-of-Flight_Neutron_Direct_Geometry_Spectrometer "wikilink")
-    Editor: Toby Perring (ISIS Pulsed Neutron and Muon Source, UK)
--   [Time-of-Flight Neutron Indirect Geometry
-    Spectrometer](Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer "wikilink")
-    Editor: Martyn Bull (ISIS Pulsed Neutron and Muon Source, UK)
--   [Time-of-Flight Neutron Powder
-    Diffraction](Time-of-Flight_Neutron_Powder_Diffraction "wikilink")
-    Editor: [Peter Peterson](User%3APfpeterson "wikilink") (Spallation
-    Neutron Source, USA).
--   [Time-of-Flight Neutron Single Crystal
-    Diffractometer](Time-of-Flight_Neutron_Single_Crystal_Diffractometer "wikilink")
-    Editor: TBA
--   [Time-of-Flight Neutron Spin
-    Echo](Time-of-Flight_Neutron_Spin_Echo "wikilink") Editor: TBA
--   [Time-of-Flight Small Angle
-    Scattering](Time-of-Flight_Small_Angle_Scattering "wikilink")
-    Editor: Stephen King (ISIS Pulsed Neutron and Muon Source, UK).
+-   Small-Angle Scattering
+    -   Grazing Incidence Small-Angle X-ray Scattering, Editor: TBA
+    -   [Time-of-Flight Small Angle
+        Scattering](Time-of-Flight_Small_Angle_Scattering "wikilink"),
+        Editor: Stephen King (ISIS Pulsed Neutron and Muon Source, UK)
+    -   Ultra-Small-Angle Neutron Scattering, Editor: TBA
+    -   Ultra-Small-Angle X-ray Scattering, Editor: [User%3APete
+        Jemian](User%3APete_Jemian "wikilink") (Advanced Photon Source,
+        USA)
+-   Spectrometers
+    -   [Time-of-Flight Neutron Direct Geometry
+        Spectrometer](Time-of-Flight_Neutron_Direct_Geometry_Spectrometer "wikilink"),
+        Editor: Toby Perring (ISIS Pulsed Neutron and Muon Source, UK)
+    -   [Time-of-Flight Neutron Indirect Geometry
+        Spectrometer](Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer "wikilink"),
+        Editor: Martyn Bull (ISIS Pulsed Neutron and Muon Source, UK)
+-   Spin-Echo
+    -   [Neutron Spin Echo](Neutron_Spin_Echo "wikilink"), Editor:
+        Robert Georgii (FRM-II, Germany)
+    -   [Time-of-Flight Neutron Spin
+        Echo](Time-of-Flight_Neutron_Spin_Echo "wikilink"), Editor: TBA
 
