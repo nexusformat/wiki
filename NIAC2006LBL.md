@@ -56,29 +56,6 @@ Talk Page](Talk:NIAC_Meetings "wikilink").
 -   NXcharacterization needs to be formalized
 -   Finalize [archive definition](Archive_Definition "wikilink")
 
-#### API/Technical Issues
-
--   Improving NeXus internal code documention on private structures and
-    functions. Only API developer needs to know about these, but at the
-    moment the knowledge is restricted to a few people. The existing
-    in-code documentation needs to be tidied up and it would be a good
-    idea if programs such as
-    [Doxygen](http://www.stack.nl/~dimitri/doxygen/index.html) could
-    parse it.
--   [Proposal to Simplify Nexus](Proposal_to_Simplify_Nexus "wikilink")
-    to increase its adoption for analysis programs. Proposal by ILL+ESRF
--   Move from the current [CVS](http://www.nongnu.org/cvs/) (for version
-    control) / [Bugzilla](http://www.bugzilla.org/) (for bugs/issues)
-    system to using [Subversion](http://subversion.tigris.org/) /
-    [TRAC](http://trac.edgewall.org/). Freddie has set up two sites at
-    [<http://svn.nexusformat.org>](http://svn.nexusformat.org) and
-    [<http://trac.nexusformat.org>](http://trac.nexusformat.org) for
-    testing
--   Move mailing list to nexusformat.org
--   Determine location to store definitions
--   Design and implement a way to deal with having approved definitions
-    and a way to modify a working copy on the website
-
 #### October 5
 
 -   08:30 Welcome and Introduction
@@ -130,3 +107,27 @@ map](http://www.lbl.gov/Workplace/lab-site-map.html_LBL_campus_map "wikilink").
 | Bldg. 7-211  | Breakout  | wired     | no           | 12:00 - 6:30 PM    | 7:00 AM - 6:30 PM  |
 
 ### Working Groups
+
+#### API/Technical Issues
+
+-   Improving NeXus internal code documention on private structures and
+    functions. Only API developer needs to know about these, but at the
+    moment the knowledge is restricted to a few people. The existing
+    in-code documentation needs to be tidied up and it would be a good
+    idea if programs such as
+    [Doxygen](http://www.stack.nl/~dimitri/doxygen/index.html) could
+    parse it.
+-   [Proposal to Simplify Nexus](Proposal_to_Simplify_Nexus "wikilink")
+    to increase its adoption for analysis programs. Proposal by ILL+ESRF
+-   Move from the current [CVS](http://www.nongnu.org/cvs/) (for version
+    control) / [Bugzilla](http://www.bugzilla.org/) (for bugs/issues)
+    system to using [Subversion](http://subversion.tigris.org/) /
+    [TRAC](http://trac.edgewall.org/). Freddie has set up two sites at
+    [<http://svn.nexusformat.org>](http://svn.nexusformat.org) and
+    [<http://trac.nexusformat.org>](http://trac.nexusformat.org) for
+    testing
+-   Move mailing list to nexusformat.org
+-   Determine location to store definitions
+-   Design and implement a way to deal with having approved definitions
+    and a way to modify a working copy on the website
+
