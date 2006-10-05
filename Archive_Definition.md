@@ -292,17 +292,17 @@ DTD definition
             </short_title>        
 
             
-            <!-- Sample Environment metadata
-                These parameters are to give an idea of the sample environment. 
-            
-                The data are stored in an NXlog (e.g temperature_log, ..) 
-                    those may be links from a sensor class located in the 
-                    NXinstrument class. 
-            -->
-            <temperature type="NXlog"> {Sample temperature. }? </temperature>
-            <electric_field type="NXlog"> {Applied electric field}? </electric_field>
-            <magnetic_field type="NXlog" > {Applied magnetic field}? </magnetic_field>
-            <stress_field type="NXlog"> {External stress}? </stress_field>
-            <pressure type="NXlog"> {Applied pressure}?  </pressure>   
+    *        <!-- Sample Environment metadata
+    *           These parameters are to give an idea of the sample environment. 
+    *       
+    *           The data are stored in an NXlog (e.g temperature_log, ..) 
+    *                those may be links from a sensor class located in the 
+    *                NXinstrument class. 
+    *        -->
+    *        <temperature type="NXlog"> {Sample temperature. }? </temperature>
+    *        <electric_field type="NXlog"> {Applied electric field}? </electric_field>
+    *        <magnetic_field type="NXlog" > {Applied magnetic field}? </magnetic_field>
+    *        <stress_field type="NXlog"> {External stress}? </stress_field>
+    *        <pressure type="NXlog"> {Applied pressure}?  </pressure>   
         </NXsample>
     </NXentry>
