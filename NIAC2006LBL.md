@@ -128,4 +128,5 @@ map](http://www.lbl.gov/Workplace/lab-site-map.html_LBL_campus_map "wikilink").
 -   Determine location to store definitions
 -   Design and implement a way to deal with having approved definitions
     and a way to modify a working copy on the website
+-   It would be useful if NeXus could support arrays of strings
 
