@@ -30,7 +30,8 @@ Please add suggestions for agenda items here in [[Help:Editing#Lists | bullet fo
 * [[Proposal to Simplify Nexus]] to increase its adoption for analysis programs. Proposal by ILL+ESRF
 * Move from the current [http://www.nongnu.org/cvs/ CVS] (for version control) / [http://www.bugzilla.org/ Bugzilla] (for bugs/issues) system to using [http://subversion.tigris.org/ Subversion] / [http://trac.edgewall.org/ TRAC]. Freddie has set up two sites at [http://svn.nexusformat.org http://svn.nexusformat.org] and [http://trac.nexusformat.org http://trac.nexusformat.org] for testing
 * Move mailing list to nexusformat.org
-* Determine location to store defititions
+* Determine location to store definitions
+* Design and implement a way to deal with having approved definitions and a way to modify a working copy on the website
 
 ====October 5====
 * 08:30 Welcome and Introduction
