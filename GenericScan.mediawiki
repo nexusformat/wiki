@@ -1,5 +1,5 @@
 == Generic Scan Instrument ==
-This is a DTD for a generic instrument which performs scans. The DTD can also be [[http://lns00.psi.ch/NXexample/NXscan.xml downloaded]].
+This is a DTD for a generic instrument which performs scans.
 <pre>
 <?xml version="1.0" ?>
 <!--

@@ -7,9 +7,7 @@ layout: wiki
 Generic Scan Instrument
 -----------------------
 
-This is a DTD for a generic instrument which performs scans. The DTD can
-also be [http://lns00.psi.ch/NXexample/NXscan.xml
-downloaded](http://lns00.psi.ch/NXexample/NXscan.xml_downloaded "wikilink").
+This is a DTD for a generic instrument which performs scans.
 
     <?xml version="1.0" ?>
     <!--
