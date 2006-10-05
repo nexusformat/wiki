@@ -6,7 +6,7 @@ minimal; just the necessary stuff to do a normal Rietveld with it.
 <!--
 URL:
 Editor: Mark Koennecke <Mark.Koennecke@psi.ch>
-version: April 2006
+version: October 2006
 $Id$
 
 Instrument definition for a powder diffractometer at a monochromatic
@@ -14,12 +14,7 @@ neutron or X-ray beam. This is both suited for a powder diffractometer
 with a single detector or a powder diffractometer with a position 
  sensitive detector.
 -->
-<NXroot  file_name="{File name of original NeXus file}"
-         file_time="{Date and time of file creation}"
-         file_update_time="{Date and time of last file change at close}"
-         NeXus_version="{Version of NeXus API used in writing the file}"
-         HDF_version="?"
-         HDF5_version="?">
+<NXroot>
   <NXentry name="{Entry Name}">+
      <title type="NX_CHAR">{Title of the experiment}</title>
      <start_time type="ISO8601">?{start time of measurement}
@@ -31,15 +26,16 @@ with a single detector or a powder diffractometer with a position
 
 	   <name type="NX_CHAR">{Name of Source}</name>
 	   <type type="NX_CHAR">{Type of Source}</type>
+	   <probe type="NX_CHAR">"{Neutron|X-ray}"</probe>
         </NXsource>
         <NXcrystal name="{Name of Monochromator Crystal}">
-	   <wavelength type="NX_FLOAT32" units="Angstroems">
+	   <wavelength type="NX_FLOAT32" units="Angstrom">
                {nominal wavelength selected}
            </wavelength>
         </NXcrystal>
 
         <NXdetector name="{Name of Detector}">+
-	   <polar_angle type="NX_FLOAT32[]" axis="1">
+	   <polar_angle type="NX_FLOAT32[]">
              {Polar Angle, commonly known as two theta}
              {Polar Angle, or two theta as an array with values for each
               detector element}
@@ -68,11 +64,11 @@ with a single detector or a powder diffractometer with a position
      <name type="NX_CHAR">
       {Descriptive name of sample}
      </name>
-     <rotation type="NX_FLOAT[]" units="degree">? 
+     <rotation_angle type="NX_FLOAT[]" units="degree">? 
        { Optional rotation angle for the case when the powder diagram
          has been obtained through an omega - two theta scan like from
          a traditional single detector powder diffractometer}
-     </rotation>
+     </rotation_angle>
    </NXsample>
    <NXdata name="{Name of Data Block}">+
       <data type="NX_INT32[i]" signal="1">
