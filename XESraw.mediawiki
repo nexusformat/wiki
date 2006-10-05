@@ -76,3 +76,8 @@ Draft definition of a X-Ray Experimental (Synchrotron) raw Nexus file.
 
    </NXentry>
 </pre>
+
+Example:
+<pre>
+
+</pre>
