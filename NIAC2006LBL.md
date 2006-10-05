@@ -52,6 +52,7 @@ Talk Page](Talk:NIAC_Meetings "wikilink").
     requirers**. Discuss if the NIAC constitution should be change to
     allow data requirers e.g. DANSE to have representation on the NIAC
     as a stakeholder that requires NeXus.
+-   SCAN definition similar to TOFRAW definition
 
 #### API/Technical Issues
 
