@@ -31,7 +31,8 @@ is annotated with “axis=1”. In practice the slowest varying dimension is
 Detector dimensions and array dimensions
 ----------------------------------------
 
-### Later
+Later
+=====
 
 -   sequencing entries and measurements
 -   counting time for each data point
