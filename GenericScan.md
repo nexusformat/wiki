@@ -69,12 +69,6 @@ This is a DTD for a generic instrument which performs scans.
                   <data type="NX_INT32[np]">
                     {Monitor counts for each scan position}
                   </data>
-                  <scan_start type="NX_INT[np]">
-                    {Offset to starttime of scan for each scan point}
-                  </scan_start>
-                  <counting_time type="NX_FLOAT[np]">
-                    {Elapsed counting time for each scan point}
-                  </counting_time>
                 </NXmonitor>
                 <NXdetector name="primary">
                   <data type="NX_INT32[np]" signal="1">
