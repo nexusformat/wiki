@@ -88,7 +88,7 @@ downloaded](http://lns00.psi.ch/NXexample/NXscan.xml_downloaded "wikilink").
                   {Link to detector polar_angle}
                </polar_angle>
                <rotation_angle axis="1">
-                  {Link to sample rotation}
+                  {Link to sample rotation_angle}
                </rotation_angle>
             </NXdata>
         </NXentry>

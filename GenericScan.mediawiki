@@ -78,7 +78,7 @@ editor of this definition.
               {Link to detector polar_angle}
            </polar_angle>
            <rotation_angle axis="1">
-              {Link to sample rotation}
+              {Link to sample rotation_angle}
            </rotation_angle>
         </NXdata>
     </NXentry>
