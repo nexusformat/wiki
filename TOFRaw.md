@@ -4,7 +4,7 @@ permalink: TOFRaw/
 layout: wiki
 ---
 
-NXTOFRW - A proposal for a NeXus Time-of-Flight Raw Data File Format
+NXTOFRAW - A proposal for a NeXus Time-of-Flight Raw Data File Format
 
 Introduction
 ------------
