@@ -16,13 +16,15 @@ contact [[User:Andy Gotz|Andrew Götz]].
 
 ===Agenda===
 ====Proposed Agenda Items====
-* Moving from [[Metaformat|Meta-DTDs]] to XML Schema. see [http://www.webel.com.au/nexml NeXML proposal]
 * Discuss NeXus collaborating with imgCIF. see [http://www.medsbio.org/ MEDSBIO proposal] 
 * Request institutes from the NeXus community sponsor a full-time technical secretary for next 12-24 months.
 * Institutes that write NeXus files are '''data providers.'''. NeXus provides an interface between '''data providers''' and '''data requirers'''. Discuss if the NIAC constitution should be change to allow data requirers e.g. DANSE to have representation on the NIAC as a stakeholder that requires NeXus.
 * SCAN definition similar to TOFRAW definition
 * NXcharacterization needs to be formalized
 * Finalize [[Archive_Definition|archive definition]]
+
+====Tabled Until Next Time====
+* Moving from [[Metaformat|Meta-DTDs]] to XML Schema. see [http://www.webel.com.au/nexml NeXML proposal]
 
 ====October 5====
 * 08:30 Welcome and Introduction

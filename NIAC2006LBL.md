@@ -36,8 +36,6 @@ Götz](User%3AAndy_Gotz "wikilink").
 
 #### Proposed Agenda Items
 
--   Moving from [Meta-DTDs](Metaformat "wikilink") to XML Schema. see
-    [NeXML proposal](http://www.webel.com.au/nexml)
 -   Discuss NeXus collaborating with imgCIF. see [MEDSBIO
     proposal](http://www.medsbio.org/)
 -   Request institutes from the NeXus community sponsor a full-time
@@ -50,6 +48,11 @@ Götz](User%3AAndy_Gotz "wikilink").
 -   SCAN definition similar to TOFRAW definition
 -   NXcharacterization needs to be formalized
 -   Finalize [archive definition](Archive_Definition "wikilink")
+
+#### Tabled Until Next Time
+
+-   Moving from [Meta-DTDs](Metaformat "wikilink") to XML Schema. see
+    [NeXML proposal](http://www.webel.com.au/nexml)
 
 #### October 5
 
