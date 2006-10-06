@@ -131,8 +131,8 @@ should be adopted:
 -   All units are written in singular form, without abbreviation.
 -   There will be no spaces in units.
 -   SI units will be used (e.g., metre, kilogram, second, ampere,
-    kelvin), using the European spellings (e.g., “metre”, not “meter”),
-    but “angstrom” and “barn” are also allowed.
+    kelvin), using the British English spellings (e.g., “metre”, not
+    “meter”), but “angstrom” and “barn” are also allowed.
 -   More complex units will be written with mathematical operators
     (+,-,/,^) and parentheses, with traditional operator precedence
     (e.g.,metre/second)
