@@ -134,7 +134,8 @@ should be adopted:
     kelvin), using the European spellings (e.g., “metre”, not “meter”),
     but “angstrom” and “barn” are also allowed.
 -   More complex units will be written with mathematical operators
-    (+,-,/,^) and parantheses, with traditional operator precedence.
+    (+,-,/,^) and parentheses, with traditional operator precedence
+    (e.g.,metre/second)
 -   Prefixes are allowed, but will be separated from the unit using the
-    appropriate mathematical operator (e.g. centi\*meter).
+    appropriate mathematical operator (e.g., centi\*meter).
 
