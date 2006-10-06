@@ -64,10 +64,10 @@ layout: wiki
         <rotation_angle units="degree" type="NX_FLOAT32[np]">
           {Rotation angle of the sample}
         </rotation_angle>
-        <sgu type="NX_FLOAT[np]" units="degree">
+        <sgu type="NX_FLOAT[np]" units="degree">?
             {Sample stage tilt angle as defined by Lumsden}
         </sgu>
-        <sgl type="NX_FLOAT[np]" units="degree">
+        <sgl type="NX_FLOAT[np]" units="degree">?
             {Sample stage tilt angle as defined by Lumsden}
         </sgl>
         <Qh type="NX_FLOAT32[np,na?]">
@@ -84,7 +84,7 @@ layout: wiki
         </energy_transfer>
       </NXsample>
       <NXinstrument name="{Name of instrument}">
-        <NXcollimator name="premonochromator_collimator">
+        <NXcollimator name="premonochromator_collimator">?
           <type type="NX_CHAR">
             "Soller"|"radial"
           </type>
@@ -92,7 +92,7 @@ layout: wiki
             {Angular divergence of Soller collimator}
           </soller_angle>
         </NXcollimator>
-        <NXfilter name="premonochromator_filter">
+        <NXfilter name="premonochromator_filter">?
           <description type="NX_CHAR">
             {"Beryllium" | "Pyrolytic Graphite" | "Graphite"}
           </description>
@@ -118,7 +118,7 @@ layout: wiki
             {Vertical curvature of focusing crystal}?
           </curvature_vertical>
         </NXcrystal>
-        <NXcollimator name="presample_collimator">
+        <NXcollimator name="presample_collimator">?
           <type type="NX_CHAR">
             "Soller"|"radial"
           </type>
@@ -126,12 +126,12 @@ layout: wiki
             {Angular divergence of Soller collimator}
           </soller_angle>
         </NXcollimator>
-        <NXfilter name="presample_filter">
+        <NXfilter name="presample_filter">?
           <description type="NX_CHAR">
             {"Beryllium" | "Pyrolytic Graphite" | "Graphite"}
           </description>
         </NXfilter>
-        <NXcollimator name="preanalyzer_collimator">
+        <NXcollimator name="preanalyzer_collimator">?
           <type type="NX_CHAR">
             "Soller"|"radial"
           </type>
@@ -139,7 +139,7 @@ layout: wiki
             {Angular divergence of Soller collimator}
           </soller_angle>
         </NXcollimator>
-        <NXfilter name="preanalyzer_filter">
+        <NXfilter name="preanalyzer_filter">?
           <description type="NX_CHAR">
             {"Beryllium" | "Pyrolytic Graphite" | "Graphite"}
           </description>
@@ -173,7 +173,7 @@ layout: wiki
             {Vertical curvature of focusing crystal}?
           </curvature_vertical>
         </NXcrystal>
-        <NXcollimator name="predetector_collimator">
+        <NXcollimator name="predetector_collimator">?
           <type type="NX_CHAR">
             "Soller"|"radial"
           </type>
