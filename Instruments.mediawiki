@@ -16,6 +16,7 @@ As part of the NeXus standard, we have identified a number of generic instrument
 *[[Monochromatic Neutron and X-ray Single Crystal Diffractometer]] Editor: [[User:Mark_Koennecke|Mark Könnecke]], PSI
 *[[Archive Definition]] Editor: [[User:L.lerusse|Laurent Lerusse]] (CCLRC - Rutherford Appleton Laboratory, e-Science, UK)
 *[[SAS|Monochromatic Neutron and X-ray Small Angle Scattering]] Editor: Ron Ghosh (Institut Laue Langevin, France).
+*[[Processed Data]] Editor: [[User:Ray Osborn|Ray Osborn]] (Argonne National Laboratory, USA)
 
 ===Planned===
 
