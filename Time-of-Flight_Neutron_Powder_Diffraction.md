@@ -10,6 +10,8 @@ Comments
 -   Missing items
     -   time\_focusing\_type (e.g. difc, cubic, ..)
     -   time\_focusing\_parameters \[ndetector,nparameters\]
+    -   Definition of groups for binning (another NXdetector with
+        special type ?)
     -   Deadtime correction information (in combination with gang\_..)
     -   Profile types and starting parameters
     -   Incident spectrum (parameters or run in NXcharacterization)
@@ -41,25 +43,25 @@ Proposal
        <NXinstrument name="{name of the instrument}">
           <name short_name="{abbreviated name of instrument}" type="NX_CHAR[]">{Name of instrument}</name>
 
-          <NXsource name="source">
+          <NXsource name="source">+
              <distance type="NX_FLOAT" units="meter">{distance from the sample (should be negative)}</distance>
           </NXsource>
 
          <NXdetector name="{Name of detector bank}">
         <time_of_flight type="NX_FLOAT[tof+1]" axis="3" primary="1?" units="microsecond">
-            {Total time of flight}
+            {Total time of flight}+
         </time_of_flight>
 
-        <detector_number type="NX_INT[i,j]">
-            {Identifier for detector}?
+        <detector_number type="NX_INT[i?,j?]">
+            {Identifier for detector}
         </detector_number>
 
-        <data type="NX_FLOAT[np,i,j,tof]|NX_INT[np,i,j,tof]" signal="1" axes="[number of scan points,x_offset,y_offset,time_of_flight]">
+        <data type="NX_FLOAT[np,i,j,tof]|NX_INT[np,i?,j?,tof?]" signal="1" axes="[number of scan points,x_offset,y_offset,time_of_flight]">
             {Data values}
         </data>
 
         <data_error type="NX_FLOAT[np?,i?,j?,tof?]|NX_INT[np?,i?,j?,tof?]" units="number">
-            {Data values}
+            {Data values}?
         </data_error>
 
         <x_pixel_offset axis="1" primary="1?" type="NX_FLOAT[i?]" units="centimetre">
@@ -75,9 +77,11 @@ Proposal
         </distance>
 
         <polar_angle type="NX_FLOAT[np?,i?,j?]">
+                   {polar angle for each detector pixel}
         </polar_angle>
 
         <azimuthal_angle type="NX_FLOAT[np?,i?,j?]">
+                   {azimuthal angle for each detector pixel. If missing, angle assumed to be zero.}?
         </azimuthal_angle>
 
         <solid_angle type="NX_FLOAT[i?,j?]" units="steradians">
@@ -92,17 +96,9 @@ Proposal
             {Size of each detector pixel. If it is scalar all pixels are the same size}?
         </y_pixel_size>
 
-        <dead_time type="NX_FLOAT[np?,i,j?]">
+        <dead_time type="NX_FLOAT[np?,i?,j?]">
             {Detector dead time}?
         </dead_time>
-
-        <gas_pressure type="NX_FLOAT[i?,j?]" units="bars">
-            {Detector gas pressure}?
-        </gas_pressure>
-
-        <NXdata name="efficiency">
-            {Efficiency of detector with respect to e.g. wavelength}?
-        </NXdata>
 
         <calibration_date type="ISO8601">
             {date of last calibration (geometry and/or efficiency) measurements}?
@@ -113,10 +109,6 @@ Proposal
         </calibration_method>
 
             <layout type="NX_CHAR">point|linear|area{How the detector is represented}</layout>
-
-            <group_index type="NX_INT[i?,j?]">Detector grouping information</group_index>
-            <gang_count type="NX_INT[i?,j?]">Number of physical detector elements that are ganged together</gang_count>
-            <gang_index type="NX_INT[i?,j?]">Index of the first ganged detector</gang_index>
           </NXdetector>
      
        </NXinstrument>
