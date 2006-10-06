@@ -1,3 +1,4 @@
+<pre>
 <NXmonochromator name="name of monochromator">
   <wavelength type="NX_FLOAT[]" units="angstrom">
      {wavelength selected}
@@ -7,3 +8,4 @@
   </wavelength_fwhm> 
   <NXdata name="wavelength_distribution"/> 
 </NXmonochromator>
+</pre>

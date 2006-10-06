@@ -4,14 +4,12 @@ permalink: NXmonochromator/
 layout: wiki
 ---
 
-<NXmonochromator name="name of monochromator">
-
-` `<wavelength type="NX_FLOAT[]" units="angstrom">  
-`    {wavelength selected}`  
-` `</wavelength>` `  
-` `<wavelength_fwhm type="NX_FLOAT[]" units="angstrom">  
-`    {wavelength full width at half maximum}`  
-` `</wavelength_fwhm>` `  
-` `<NXdata name="wavelength_distribution"/>` `
-
-</NXmonochromator>
+    <NXmonochromator name="name of monochromator">
+      <wavelength type="NX_FLOAT[]" units="angstrom">
+         {wavelength selected}
+      </wavelength> 
+      <wavelength_fwhm type="NX_FLOAT[]" units="angstrom">
+         {wavelength full width at half maximum}
+      </wavelength_fwhm> 
+      <NXdata name="wavelength_distribution"/> 
+    </NXmonochromator>
