@@ -137,16 +137,16 @@ DTD definition
             collection was suspended due to e.g. temperature out of range}?
         </collection_time>
             
-    *    <!-- Reliability metadata
-    *       Having the wrong information may be worst than having no information. 
-    *       The accuracy of the information provided by the experimenter may be  
-    *       difficult to determine. The minimum we can do is determine in which
-    *       condition the information was filled. 
-    *    -->
-    *    <info_reliability  type="NX_CHAR">
-    *       {information on the reliability/source of the information provided by
-    *       the experimenter.(e.g. : From proposal, updated at experiment time, ...}?
-    *    </info_reliability>
+    *#    <!-- Reliability metadata
+    *#      Having the wrong information may be worst than having no information. 
+    *#      The accuracy of the information provided by the experimenter may be  
+    *#      difficult to determine. The minimum we can do is determine in which
+    *#      condition the information was filled. 
+    *#    -->
+    *#    <info_reliability  type="NX_CHAR">
+    *#      {information on the reliability/source of the information provided by
+    *#      the experimenter.(e.g. : From proposal, updated at experiment time, ...}?
+    *#    </info_reliability>
 
         
     *    <!-- Experiment metadata
@@ -165,12 +165,12 @@ DTD definition
     *   <subject type="NX_CHAR">    
     *       {Subject categorizations for this study}?
     *   </subject>
-    *   <description_summary type="NX_CHAR">
-    *       {Brief summary of the experiment, including key objectives}
-    *   </description_summary>
-    *   <description type="NXNote">
-    *       {Description of the full experiment (document in pdf, latex, …)}?
-    *   </description>
+    *#  <description type="NX_CHAR">
+    *#      {Brief summary of the experiment, including key objectives}
+    *#  </description>
+    *#  <description_document type="NXNote">
+    *#      {Description of the full experiment (document in pdf, latex, …)}?
+    *#  </description_document>
     *   <requirement type="NX_CHAR">
     *       {Special requirements of instrument}?
     *   </requirement>
@@ -251,12 +251,12 @@ DTD definition
             <name type="NX_CHAR" short_name="{abbreviated name of instrument}">
                 {Name of instrument}
             </name>
-    *   <description_summary type="NX_CHAR">
-    *       {Brief description of the experiment}?
-    *   </description_summary>
-    *   <description type="NXNote">
-    *       {Description of the instrument (document in pdf, latex, …)}?
-    *   </description>
+    *#  <description type="NX_CHAR">
+    *#      {Brief description of the experiment}?
+    *#  </description_summary>
+    *#  <description_document type="NXNote">
+    *#      {Description of the instrument (document in pdf, latex, …)}?
+    *#  </description>
             <NXsource name="{Name of facility}">
                 <name type="NX_CHAR">
                     {Name of source}
@@ -295,9 +295,10 @@ DTD definition
     *        <!-- Sample Environment metadata
     *           These parameters are to give an idea of the sample environment. 
     *       
-    *           The data are stored in an NXlog (e.g temperature_log, ..) 
-    *                those may be links from a sensor class located in the 
-    *                NXinstrument class. 
+    *           The data are stored in an NXlog (e.g temperature, ..) 
+    *               those could have been links from a sensor class located in the 
+    *               NXinstrument class. But in that case, the name would all 
+    *               be value and that would cause problems. 
     *        -->
     *        <temperature type="NXlog"> {Sample temperature. }? </temperature>
     *        <electric_field type="NXlog"> {Applied electric field}? </electric_field>
