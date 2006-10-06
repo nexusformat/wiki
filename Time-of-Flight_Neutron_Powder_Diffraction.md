@@ -68,14 +68,6 @@ Proposal
             {Data values}?
         </data_error>
 
-        <x_pixel_offset axis="1" primary="1?" type="NX_FLOAT[i?]" units="centimetre">
-            {offset from the detector center in x-direction}?
-        </x_pixel_offset>
-
-        <y_pixel_offset axis="2" primary="1?" type="NX_FLOAT[j?]" units="centimetre">
-            {offset from the detector center in the y-direction}?
-        </y_pixel_offset>
-
         <distance type="NX_FLOAT[np?,i?,j?]">
                    {secondary flightpath}
         </distance>
@@ -92,25 +84,9 @@ Proposal
             {Solid angle subtended by the detector at the sample}?
         </solid_angle>
 
-        <x_pixel_size type="NX_FLOAT[i?,j?]" units="milimetre">
-            {Size of each detector pixel. If it is scalar all pixels are the same size}?
-        </x_pixel_size>
-
-        <y_pixel_size type="NX_FLOAT[i?,j?]" units="milimetre">
-            {Size of each detector pixel. If it is scalar all pixels are the same size}?
-        </y_pixel_size>
-
         <dead_time type="NX_FLOAT[np?,i?,j?]">
             {Detector dead time}?
         </dead_time>
-
-        <calibration_date type="ISO8601">
-            {date of last calibration (geometry and/or efficiency) measurements}?
-        </calibration_date>
-
-        <calibration_method type="NXnote">
-            {summary of conversion of array data to pixels (e.g. polynomial approximations) and location of details of the calibrations}?
-        </calibration_method>
 
             <layout type="NX_CHAR">point|linear|area{How the detector is represented}</layout>
           </NXdetector>
