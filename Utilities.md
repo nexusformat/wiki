@@ -59,7 +59,7 @@ Plotting Applications
 ISAW:ISAW is a java-based analysis package used to read, manipulate, view, and save neutron scattering data. ISAW can read data from NeXus files and can merge and sort data from separate measurements..  
 IDL:Mark Koennecke has written a set of IDL utilities for interfacing to NeXus files.  
 LAMP:This is a general purpose neutron data analysis package, developed at ILL and layered on IDL. A run-time version is available for those without an IDL license. It can read and write NeXus files.  
-KUPLOT:This is a universal data plotting program, that is used to visualize DISCUS or PDFFIT results as well as for other plotting purposes  
+[KUPLOT](http://discus.sourceforge.net):This is a universal data plotting program, that is used to visualize DISCUS or PDFFIT results as well as for other plotting purposes  
 NXviewer:OpenDave based viewer (FRM2).  
 HDFLook:Motif HDF viewer which has some impressive plotting capabilities. For example, it is possible to plot 2D data sets and then take arbitrary 1D cuts. However, it does not recognize Vgroups, so the NeXus file hierarchy is lost making it hard to identify the plottable data. However, the price is right (i.e. it's free).  
 
