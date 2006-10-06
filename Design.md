@@ -94,43 +94,43 @@ group. There can be many NXentry groups in each NeXus file.
 describe the instrument. This group contains other groups that describe
 instrument components e.g. choppers, collimators, detectors.
 
-:::[NXsource](NXsource "wikilink")
+:::[NXaperture](NXaperture "wikilink")
 
-:::[NXmoderator](NXmoderator "wikilink")
+:::[NXattenuator](NXattenuator "wikilink")
 
-:::[NXinsertion\_device](NXinsertion_device "wikilink")
+:::[NXbeam\_stop](NXbeam_stop "wikilink")
 
 :::[NXbending\_magnet](NXbending_magnet "wikilink")
 
+:::[NXcollimator](NXcollimator "wikilink")
+
 :::[NXcrystal](NXcrystal "wikilink")
+
+:::[NXdetector](NXdetector "wikilink")
 
 :::[NXdisk\_chopper](NXdisk_chopper "wikilink")
 
 :::[NXfermi\_chopper](NXfermi_chopper "wikilink")
 
-:::[NXvelocity\_selector](NXvelocity_selector "wikilink")
-
-:::[NXguide](NXguide "wikilink")
-
-:::[NXcollimator](NXcollimator "wikilink")
-
-:::[NXaperture](NXaperture "wikilink")
-
 :::[NXfilter](NXfilter "wikilink")
-
-:::[NXattenuator](NXattenuator "wikilink")
-
-:::NXpolarizer
 
 :::[NXflipper](NXflipper "wikilink")
 
+:::[NXguide](NXguide "wikilink")
+
+:::[NXinsertion\_device](NXinsertion_device "wikilink")
+
 :::[NXmirror](NXmirror "wikilink")
 
-:::[NXdetector](NXdetector "wikilink")
+:::[NXmoderator](NXmoderator "wikilink")
 
-:::[NXbeam\_stop](NXbeam_stop "wikilink")
+:::NXpolarizer
 
 :::[NXpositioner](NXpositioner "wikilink")
+
+:::[NXsource](NXsource "wikilink")
+
+:::[NXvelocity\_selector](NXvelocity_selector "wikilink")
 
 ::;[NXsample](NXsample "wikilink"):The information needed to define the
 physical state of the sample during the scan <i>e.g.</i> temperature,
