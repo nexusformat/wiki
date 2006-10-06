@@ -207,7 +207,7 @@ layout: wiki
         <mode type="NX_CHAR">
           "monitor"|"timer"
         </mode>
-        <preset type="NX_FLOAT32[1]">
+        <preset type="NX_FLOAT32">
           {preset value for time or monitor}
         </preset>
         <data type="NX_FLOAT[np]" units="seconds">
