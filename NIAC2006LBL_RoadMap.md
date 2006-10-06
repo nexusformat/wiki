@@ -61,4 +61,7 @@ Later
 -   counting time for each data point
     -   Does this belong to some base class?
     -   Which one?
+-   implement a versioning system
+    -   switch to subversion
+    -   use SVN tagging system
 
