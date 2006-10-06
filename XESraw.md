@@ -4,9 +4,6 @@ permalink: XESraw/
 layout: wiki
 ---
 
-XESraw
-======
-
 XESraw is a draft example of a X-Ray Experimental (Synchrotron) raw
 Nexus file.
 
