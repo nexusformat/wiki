@@ -15,9 +15,10 @@ layout: wiki
     Multianalyzer systems are going to be complicated.  Each analyzer is measuring a
     separate H-K-L-dE.  How this measurement is performed will vary from instrument
     to instrument.  Some will have a different detector for each analyzer.  Others
-    will have windows within a 2D detector.  The detector group will contain the
-    counts associated with each analyzer.  There may in addition be a raw_detector
-    group which contains the raw detector counts independent of the masks.
+    will have windows within a 2D detector.  The detector group (which must be
+    named "detector") will contain the counts associated with each analyzer.  There 
+    may in addition be raw_detector groups which contains the raw detector 
+    counts independent of the masks.
 
     H-K-L-dE are all stored with the sample.  In the multianalyzer case these will
     be arrays with one for each scan point (length np) and one for each analyzer
@@ -187,6 +188,10 @@ layout: wiki
             {Relative weight of the different analyzers e.g., because the integrated
              regions are not all the same size.}
           </weight>
+        </NXdetector>
+        <NXdetector name={"raw_detector"}>*
+          {Possible set of raw detectors in case the "detector" detector is really
+           a virtual detector.}
         </NXdetector>
       </NXinstrument>
       <NXmonitor name="control">
