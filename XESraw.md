@@ -43,19 +43,29 @@ Nexus file.
                     <NXdetector name="detector2">
                         <description>"Quantum 315"</description>
                         <type>"CCD"</type>
-                        <data>{a data array with dimensions[3, nx, ny]}</data>
+                        <data>
+                          {a data array with dimensions[3, nx, ny]}
+                        </data>
                     </NXdetector>
             </NXinstrument>
             
             <NXdata name="detector1">
                 <data>{Link to detector1 counts}</data>
-                <sampleX axis="1" primary="1">{Link to values in NXpositioner}</energy>
-                <time axis="1" primary="2">{Link to values in NXpositioner}</time>
+                <sampleX axis="1" primary="1">
+                  {Link to values in NXpositioner}
+                </sampleX>
+                <time axis="1" primary="2">
+                  {Link to values in NXpositioner}
+                  </time>
             </NXdata>
             <NXdata name="detector2">
                 <data>{Link to detector2 counts}</data>
-                <sampleX axis="1" primary="1">{Link to values in NXpositioner}</energy>
-                <time axis="1" primary="2">{Link to values in NXpositioner}</time>
+                <sampleX axis="1" primary="1">
+                  {Link to values in NXpositioner}
+                </sampleX>
+                <time axis="1" primary="2">
+                  {Link to values in NXpositioner}
+                </time>
             </NXdata>
             
         </NXentry>
