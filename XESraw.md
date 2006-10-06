@@ -46,7 +46,7 @@ layout: wiki
                 <energy axis=1 primary=1>{Link to values in NXpositioner}</energy>
                 <time axis=1 primary=2>{Link to values in NXpositioner}</time>
             </NXdata>
-                    <NXdata name="detector2">
+            <NXdata name="detector2">
                 <data>{Link to detector2 counts}</data>
                 <energy axis=1 primary=1>{Link to values in NXpositioner}</energy>
                 <time axis=1 primary=2>{Link to values in NXpositioner}</time>
