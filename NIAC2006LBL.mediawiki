@@ -47,10 +47,21 @@ contact [[User:Andy Gotz|Andrew Götz]].
 
 ====October 6====
 * 08:30 Small items (see [[NIAC2006LBL RoadMap|Roadmap]])
+** Examine classes for ratification
+*** [[XESraw | X-ray Experimental (Synchrotron) raw NeXus data]]
+*** [[Archive_Definition]]
+
+** Examine instruments for ratification
+*** [[SAS | Monochromatic Neutron and X-ray Small-Angle Scattering]]
+*** Reflectometry
+*** [[Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer]]
+*** [[Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer]]
+*** [[Time-of-Flight_Neutron_Powder_Diffraction]]
+*** [[Muon_Time_Differential]]
+*** [[MonoXPSD]] Monochromatic Single Crystal Diffractometer with Position Sensitive Detector
+*** [[MonoXSingle]] Monochromatic Single Crystal Diffractometer with Single Detector
+
 * ??:?? Triage
-** Define missing agenda items
-** Vote on things already ready for voting
-** Define working groups and divide items
 
 ===General Information===
 

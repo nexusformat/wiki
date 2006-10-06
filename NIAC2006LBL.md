@@ -77,10 +77,29 @@ Götz](User%3AAndy_Gotz "wikilink").
 #### October 6
 
 -   08:30 Small items (see [Roadmap](NIAC2006LBL_RoadMap "wikilink"))
+    -   Examine classes for ratification
+        -   [ X-ray Experimental (Synchrotron) raw NeXus
+            data](XESraw "wikilink")
+        -   [Archive\_Definition](Archive_Definition "wikilink")
+
+<!-- -->
+
+-   -   Examine instruments for ratification
+        -   [ Monochromatic Neutron and X-ray Small-Angle
+            Scattering](SAS "wikilink")
+        -   Reflectometry
+        -   [Time-of-Flight\_Neutron\_Indirect\_Geometry\_Spectrometer](Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer "wikilink")
+        -   [Monochromatic\_Neutron\_and\_X-ray\_Triple-Axis\_Spectrometer](Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer "wikilink")
+        -   [Time-of-Flight\_Neutron\_Powder\_Diffraction](Time-of-Flight_Neutron_Powder_Diffraction "wikilink")
+        -   [Muon\_Time\_Differential](Muon_Time_Differential "wikilink")
+        -   [MonoXPSD](MonoXPSD "wikilink") Monochromatic Single Crystal
+            Diffractometer with Position Sensitive Detector
+        -   [MonoXSingle](MonoXSingle "wikilink") Monochromatic Single
+            Crystal Diffractometer with Single Detector
+
+<!-- -->
+
 -   ??:?? Triage
-    -   Define missing agenda items
-    -   Vote on things already ready for voting
-    -   Define working groups and divide items
 
 ### General Information
 
