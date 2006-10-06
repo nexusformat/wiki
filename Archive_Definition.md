@@ -278,7 +278,7 @@ DTD definition
 
         <!-- Sample metadata
         -->
-        <NXsample name="sample 1">
+        <NXsample name="{name of sample}">
             <name type="NX_CHAR">
                 {Descriptive name of sample}
             </name>
