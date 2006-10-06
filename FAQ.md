@@ -137,5 +137,5 @@ should be adopted:
     (+,-,/,^) and parentheses, with traditional operator precedence
     (e.g.,metre/second)
 -   Prefixes are allowed, but will be separated from the unit using the
-    appropriate mathematical operator (e.g., centi\*meter).
+    appropriate mathematical operator (e.g., centi\*metre).
 
