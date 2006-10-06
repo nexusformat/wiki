@@ -65,7 +65,8 @@ Later
     -   switch to subversion
     -   use SVN tagging system
 
-#### Proposed Agenda Items
+Proposed Agenda Items
+=====================
 
 -   Discuss NeXus collaborating with imgCIF. see [MEDSBIO
     proposal](http://www.medsbio.org/)
