@@ -213,7 +213,7 @@ layout: wiki
         <data type="NX_INT[np]">
           {Monitor data}?
         </data>
-        <count_time type="NX_FLOAT[np]" units="seconds">
+        <count_time type="NX_FLOAT[np]" units="second">
          {Elapsed time for each scan point}
         </count_time>
       </NXmonitor>
