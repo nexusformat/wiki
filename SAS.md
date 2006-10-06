@@ -9,11 +9,17 @@ Small-Angle Scattering
 
 ### 2006-04-19
 
-Given the complex requirements forinitial data treatment on pulsed
+Given the complex requirements for initial data treatment on pulsed
 source SANS instruments there has been general agreement to separate
 these from the much simpler pin-hole geometry cameras used for
 monochromatic X-ray and Neutron SAS studies, shown together below as
 NXmonosas.
+
+### 2006-10-05
+
+Effort was made to simplify the definition below, correct errors (such
+as removed fields that did not exist in base classes), and remove
+unnecessary information.
 
 <?xml version="1.0" encoding="utf-8"?>
 <NXroot>
