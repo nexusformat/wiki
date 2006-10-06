@@ -36,3 +36,11 @@ Add "current" (units: mA) to NXmonitor "mode" field to represent a normalization
 * implement a versioning system
 ** switch to subversion
 ** use SVN tagging system
+
+====Proposed Agenda Items====
+* Discuss NeXus collaborating with imgCIF. see [http://www.medsbio.org/ MEDSBIO proposal] 
+* Request institutes from the NeXus community sponsor a full-time technical secretary for next 12-24 months.
+* (''completed'') Institutes that write NeXus files are '''data providers.'''. NeXus provides an interface between '''data providers''' and '''data requirers'''. Discuss if the NIAC constitution should be change to allow data requirers e.g. DANSE to have representation on the NIAC as a stakeholder that requires NeXus.
+* (''working'') SCAN definition similar to TOFRAW definition
+* (''working'') NXcharacterization needs to be formalized
+* (''working'') Finalize [[Archive_Definition|archive definition]]
