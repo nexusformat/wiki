@@ -14,4 +14,4 @@ KEK Computing Research Center
 
 1-1 Oho Tsukuba Ibaraki Japan
 
-Email: [1](mailto:jiro.suzuki@j-parc.jp)  
+Email: <jiro.suzuki@j-parc.jp>  

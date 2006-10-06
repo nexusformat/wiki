@@ -3,4 +3,4 @@
 ;Address:J-PARC
 : KEK Computing Research Center
 : 1-1 Oho Tsukuba Ibaraki Japan
-;Email: [mailto:jiro.suzuki@j-parc.jp]
+;Email: [mailto:jiro.suzuki@j-parc.jp jiro.suzuki@j-parc.jp]
