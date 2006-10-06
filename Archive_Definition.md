@@ -73,8 +73,8 @@ DTD definition
     Template of the Archive Definition.
 
     line starting with 
-         * are not yet in the vase classes. 
-         # are a modification of the TOFraw
+         * are element not yet in the base classes. 
+         # are a addition or modification of the TOFraw definition.
     -->
     <NXroot>
      <NXentry name="entry 0"> <!-- See Multiple Entry comment above -->
