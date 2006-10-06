@@ -48,9 +48,6 @@ The current documentation describes that the fastest varying dimension
 is annotated with “axis=1”. In practice the slowest varying dimension is
 “axis=1”.
 
-Detector dimensions and array dimensions
-----------------------------------------
-
 Geometry order of operations
 ----------------------------
 
@@ -59,13 +56,6 @@ translation or the other way around.
 
 [XESraw](XESraw "wikilink")
 ---------------------------
-
-modify NXmonitor
-----------------
-
-Add “current” (units: mA) to NXmonitor “mode” field to represent a
-normalization against the X-ray storage ring current or X-ray tube
-operating current.
 
 scanning environment variables
 ------------------------------
