@@ -4,10 +4,8 @@ permalink: Voting_Template/
 layout: wiki
 ---
 
-The NeXus wiki is configured so that people have to be logged in before
-editing a page. Since we can verify who made a particular edit by
-looking at the page's history, I propose that we use the wiki for future
-votes by the [NIAC](NIAC "wikilink"). Here is the mechanism:
+This is the mechanism for conducting online votes of the
+[NIAC](NIAC "wikilink"):
 
 1.  The **Article** page is used to make a proposal, record an XML
     definition, provide documentation, *etc*.
@@ -25,14 +23,13 @@ votes by the [NIAC](NIAC "wikilink"). Here is the mechanism:
     new line, while the ~~~~ records the committee members username and
     the time of entry.
 
-Here is an example motion (the real one will be on this page's
-**Discussion** page):
+Here is an example motion:
 
 Motion
 ------
 
-To follow the procedure described in [Voting](Voting "wikilink") in
-future online votes of the NeXus International Advisory Committee.
+The NeXus International Advisory Committee recommends the use of NeXus
+as a standard data format.
 
 ### Yes
 
@@ -42,8 +39,6 @@ future online votes of the NeXus International Advisory Committee.
 [Peter Peterson](User%3APeter_Peterson "wikilink") 15:30, 22 Jul 2005
 (CDT)
 
-[John Doe](User%3AJohn_Doe "wikilink") 15:30, 22 Jul 2005 (CDT)
-
 [Mark Koennecke](User%3AMark_Koennecke "wikilink") 08:00, 4 Aug 2005
 (CDT)
 
@@ -52,8 +47,7 @@ future online votes of the NeXus International Advisory Committee.
   
 [Jane Doe](User%3AJane_Doe "wikilink") 15:30, 22 Jul 2005 (CDT)
 
-[Thomas Proffen](User%3AThomas_Proffen "wikilink") 06:03, 25 Jul 2005
-(CDT)
+[Jean Dupont](User%3AJean_Dupont "wikilink") 15:30, 22 Jul 2005 (CDT)
 
 ### Abstain
 
