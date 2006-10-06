@@ -4,22 +4,13 @@ permalink: Time-of-Flight_Neutron_Powder_Diffraction/
 layout: wiki
 ---
 
-Items to think about
---------------------
+Comments
+--------
 
--   TOFRaw is doing 90% of what is needed
-    -   Add data\_error
-
-<!-- -->
-
--   Missing items for data binning
+-   Missing items
     -   time\_focusing\_type (e.g. difc, cubic, ..)
     -   time\_focusing\_parameters \[ndetector,nparameters\]
     -   Deadtime correction information (in combination with gang\_..)
-
-<!-- -->
-
--   Missing items for Rietveld refinement
     -   Profile types and starting parameters
     -   Incident spectrum (parameters or run in NXcharacterization)
 
@@ -28,84 +19,119 @@ Items to think about
 -   Other
     -   Binned data back in NeXus - this actually is used in Rietveld.
 
-Old definition
---------------
+Proposal
+--------
 
     <?xml version="1.0" encoding="UTF-8"?>
     <!--
-    URL:     http://www.neutron.anl.gov/nexus/xml/NXtofnpd.xml
-    Editor:  Peter Peterson <PFPeterson@anl.gov>
+    URL:     http://definitions.nexusformat.org/NXtofnpd.xml
+    Editor:  Peter Peterson <petersonpf@sns.gov>
     $Id$
 
-    Instrument definition for a time-of-flight neutron powder diffractometer.
+    Instrument definition for a time-of-flight neutron powder diffractometer. 
 
     -->
     <NXentry name="{Entry Name}">
 
        <title type="NX_CHAR[]">{Extended title for entry}</title>
-       <definition type="NX_CHAR[]" version="$Revision$" URL="http://www.neutron.anl.gov/nexus/xml/NXtofnpd.xml">TOFNPD</definition>
+       <definition type="NX_CHAR[]" version="$Revision$" URL="definitions.nexusformat.org/NXtofnpd.xml">TOFNPD</definition>
        <start_time type="ISO8601">{Starting time of measurement}</start_time>
        <end_time type="ISO8601">{Ending time of measurement}</end_time>
 
        <NXinstrument name="{name of the instrument}">
           <name short_name="{abbreviated name of instrument}" type="NX_CHAR[]">{Name of instrument}</name>
+
           <NXsource name="source">
              <distance type="NX_FLOAT" units="meter">{distance from the sample (should be negative)}</distance>
           </NXsource>
 
-          <NXdetector name="{Name of detector bank}">+
-             <time_of_flight type="NX_FLOAT[j+1]"
-                      axis="1" primary="1?"
-                      long_name="{Axis label}"
-                          units="10^-6 second|10^-7 second" link="{absolute path to location in NXdetector}">
-                  {Total time of flight}</time_of_flight>
-             <detector_number type="NX_INT[i]" axis="2" primary="1?" long_name="{Axis
-                           label}" link="{absolute path to location in NXdetector}">{Identifier for detector}?</detector_number>
-             <data type="NX_FLOAT[i,j,k?,l?]|NX_INT[i,j,k?,l?]" signal="1" axes="[time_of_flight,detector_number,x_offset?,y_offset?]?" long_name="{Title of measurement}?"
-                      check_sum="{Integral of data as check of data
-                integrity} (NX_INT)?" units="number"  link="{absolute path to location in NXdetector}">
-                  {Data values}</data>
-             <data_error type="NX_FLOAT[i,j,k?,l?]|NX_INT[i,j,k?,l?]" units="number"  link="{absolute path to location in NXdetector}">
-                  {Data values}</data_error>
-             <x_offset axis="3" primary="1?" type="NX_FLOAT[k+1]" units="10^-3
-    meter|10^-2 meter" long_name="{Axis label}"  link="{absolute path to location in NXdetector}">{offset from the
-    detector center in x-direction}?</x_offset>
-             <y_offset axis="4" primary="1?" type="NX_FLOAT[l+1]" units="10^-3
-    meter|10^-2 meter" long_name="{Axis label}"  link="{absolute path to location in NXdetector}">{offset from the
-    detector center in the y-direction}?</y_offset>
-         <distance type="NX_FLOAT[j,k?,l?]" axes="detector_number,x_offset?,y_offset?"></distance>
-             <polar_angle type="NX_FLOAT[j,k?,l?]" axes="detector_number,x_offset?,y_offset?"></polar_angle>
-             <azimuthal_angle type="NX_FLOAT[j,k?,l?]" axes="detector_number,x_offset?,y_offset?"></azimuthal_angle>
+         <NXdetector name="{Name of detector bank}">
+        <time_of_flight type="NX_FLOAT[tof+1]" axis="3" primary="1?" units="microsecond">
+            {Total time of flight}
+        </time_of_flight>
+
+        <detector_number type="NX_INT[i,j]">
+            {Identifier for detector}?
+        </detector_number>
+
+        <data type="NX_FLOAT[np,i,j,tof]|NX_INT[np,i,j,tof]" signal="1" axes="[number of scan points,x_offset,y_offset,time_of_flight]">
+            {Data values}
+        </data>
+
+        <data_error type="NX_FLOAT[np?,i?,j?,tof?]|NX_INT[np?,i?,j?,tof?]" units="number">
+            {Data values}
+        </data_error>
+
+        <x_pixel_offset axis="1" primary="1?" type="NX_FLOAT[i?]" units="centimetre">
+            {offset from the detector center in x-direction}?
+        </x_pixel_offset>
+
+        <y_pixel_offset axis="2" primary="1?" type="NX_FLOAT[j?]" units="centimetre">
+            {offset from the detector center in the y-direction}?
+        </y_pixel_offset>
+
+        <distance type="NX_FLOAT[np?,i?,j?]">
+                   {secondary flightpath}
+        </distance>
+
+        <polar_angle type="NX_FLOAT[np?,i?,j?]">
+        </polar_angle>
+
+        <azimuthal_angle type="NX_FLOAT[np?,i?,j?]">
+        </azimuthal_angle>
+
+        <solid_angle type="NX_FLOAT[i?,j?]" units="steradians">
+            {Solid angle subtended by the detector at the sample}?
+        </solid_angle>
+
+        <x_pixel_size type="NX_FLOAT[i?,j?]" units="milimetre">
+            {Size of each detector pixel. If it is scalar all pixels are the same size}?
+        </x_pixel_size>
+
+        <y_pixel_size type="NX_FLOAT[i?,j?]" units="milimetre">
+            {Size of each detector pixel. If it is scalar all pixels are the same size}?
+        </y_pixel_size>
+
+        <dead_time type="NX_FLOAT[np?,i,j?]">
+            {Detector dead time}?
+        </dead_time>
+
+        <gas_pressure type="NX_FLOAT[i?,j?]" units="bars">
+            {Detector gas pressure}?
+        </gas_pressure>
+
+        <NXdata name="efficiency">
+            {Efficiency of detector with respect to e.g. wavelength}?
+        </NXdata>
+
+        <calibration_date type="ISO8601">
+            {date of last calibration (geometry and/or efficiency) measurements}?
+        </calibration_date>
+
+        <calibration_method type="NXnote">
+            {summary of conversion of array data to pixels (e.g. polynomial approximations) and location of details of the calibrations}?
+        </calibration_method>
+
+            <layout type="NX_CHAR">point|linear|area{How the detector is represented}</layout>
+
+            <group_index type="NX_INT[i?,j?]">Detector grouping information</group_index>
+            <gang_count type="NX_INT[i?,j?]">Number of physical detector elements that are ganged together</gang_count>
+            <gang_index type="NX_INT[i?,j?]">Index of the first ganged detector</gang_index>
           </NXdetector>
+     
        </NXinstrument>
 
        <NXmonitor name="{name of the monitor}">*
           <distance type="NX_FLOAT" units="meter"></distance>
-          <time_of_flight type="NX_FLOAT[i]|NX_INT[i]" units="10^-6 second|10^-7 second"></time_of_flight>
+          <time_of_flight type="NX_FLOAT[i]|NX_INT[i]" units="microsecond"></time_of_flight>
           <data type="NX_FLOAT[i]|NX_INT[i]" units="number"></data>
           <data_error type="NX_FLOAT[i]|NX_INT[i]" units="number">?</data_error>
        </NXmonitor>
 
        <NXdata name="">+
-          <time_of_flight type="NX_FLOAT[j+1]"
-                      axis="1" primary="1?"
-                      long_name="{Axis label}"
-                          units="10^-6 second|10^-7 second" link="{absolute path to location in NXdetector}">
-                  {Total time of flight}</time_of_flight>
-          <detector_number type="NX_INT[i]" axis="2" primary="1?" long_name="{Axis
-                           label}" link="{absolute path to location in NXdetector}">{Identifier for detector}?</detector_number>
-          <data type="NX_FLOAT[i,j,k?,l?]|NX_INT[i,j,k?,l?]" signal="1" axes="[time_of_flight,detector_number,x_offset?,y_offset?]?" long_name="{Title of measurement}?"
-                      check_sum="{Integral of data as check of data
-                integrity} (NX_INT)?" units="number"  link="{absolute path to location in NXdetector}">
-                  {Data values}</data>
-          <data_error type="NX_FLOAT[i,j,k?,l?]|NX_INT[i,j,k?,l?]" units="number"  link="{absolute path to location in NXdetector}">
-                  {Data values}</data_error>
-          <x_offset axis="3" primary="1?" type="NX_FLOAT[k+1]" units="10^-3
-    meter|10^-2 meter" long_name="{Axis label}"  link="{absolute path to location in NXdetector}">{offset from the
-    detector center in x-direction}?</x_offset>
-          <y_offset axis="4" primary="1?" type="NX_FLOAT[l+1]" units="10^-3
-    meter|10^-2 meter" long_name="{Axis label}"  link="{absolute path to location in NXdetector}">{offset from the
-    detector center in the y-direction}?</y_offset>
+          <time_of_flight>{Link to time_of_flight in NXdetector}</time_of_flight>
+          <detector_number>{Link to detector_number in NXdetector}</detector_number>
+          <data>{Link to data in NXdetector}</data>
        </NXdata>
 
     </NXentry>
