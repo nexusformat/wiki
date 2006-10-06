@@ -44,6 +44,16 @@ Geometry order of operations
 When looking at a geometry is the orientation applied before the
 translation or the other way around.
 
+[XESraw](XESraw "wikilink")
+---------------------------
+
+modify NXmonitor
+----------------
+
+Add “current” (units: mA) to NXmonitor “mode” field to represent a
+normalization against the X-ray storage ring current or X-ray tube
+operating current.
+
 Later
 =====
 
