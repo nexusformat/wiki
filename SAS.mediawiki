@@ -13,13 +13,13 @@ Effort was made to simplify the definition below, correct errors
 (such as removed fields that did not exist in base classes),
 and remove unnecessary information.
 
-Suggest that this be called ''NXsasareamono'' (very cumbersome) since the fields are appropriate to SAS instruments with area detectors at monochromatics sources.  The definition does not match well to other types of SAS instrument such as USAS, Kratky, or slit-camera with PSD.
+Suggest that this be called ''NXsas_mono_area'' (very cumbersome) since the fields are appropriate to SAS instruments with area detectors at monochromatics sources.  The definition does not match well to other types of SAS instrument such as USAS, Kratky, step-scanning, or slit-camera with PSD.
 
 <pre>
 <?xml version="1.0" encoding="utf-8"?>
 <!--
  URL: ?
- Name:     NXsasareamono (candidate)
+ Name:     NXsas_mono_area (candidate name)
  Editor:   Ron Ghosh <ron@ill.fr>
  Principal Contributors:  Steve King <s.m.king@rl.ac.uk>, Mark Koennecke <Mark.Koennecke@psi.ch>, P.Jemian APS, J.Suzuki-san JPARC, A.Gotz ESRF 
 
