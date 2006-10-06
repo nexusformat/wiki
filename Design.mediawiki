@@ -37,6 +37,7 @@ Click on any of the class names below for a more detailed description compiled f
 :::[[NXinsertion_device]]
 :::[[NXmirror]]
 :::[[NXmoderator]]
+:::[[NXmonochromator]]
 :::NXpolarizer
 :::[[NXpositioner]]
 :::[[NXsource]]
