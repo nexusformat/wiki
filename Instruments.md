@@ -35,16 +35,16 @@ Instrument List
     Editor: [Mark Könnecke](User%3AMark_Koennecke "wikilink"), PSI
 -   [Generic Scanning Instrument](GenericScan "wikilink") Editor: [Mark
     Könnecke](User%3AMark_Koennecke "wikilink"), PSI
+-   [Monochromatic Neutron and X-ray Triple-Axis
+    Spectrometer](Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer "wikilink")
+    Editor: [Nicholas Maliszewskyj](User%3ANickm "wikilink") (NIST
+    Center for Neutron Research, USA).
 
 ### Proposed
 
 -   [Monochromatic Neutron and X-ray Single Crystal
     Diffractometer](Monochromatic_Neutron_and_X-ray_Single_Crystal_Diffractometer "wikilink")
     Editor: [Mark Könnecke](User%3AMark_Koennecke "wikilink"), PSI
--   [Monochromatic Neutron and X-ray Triple-Axis
-    Spectrometer](Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer "wikilink")
-    Editor: [Nicholas Maliszewskyj](User%3ANickm "wikilink") (NIST
-    Center for Neutron Research, USA).
 -   [Archive Definition](Archive_Definition "wikilink") Editor: [Laurent
     Lerusse](User%3AL.lerusse "wikilink") (CCLRC - Rutherford Appleton
     Laboratory, e-Science, UK)
