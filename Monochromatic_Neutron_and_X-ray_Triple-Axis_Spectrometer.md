@@ -213,6 +213,9 @@ layout: wiki
         <data type="NX_INT[np]">
           {Monitor data}?
         </data>
+        <count_time type="NX_INT[np]">
+         {Elapsed time for each scan point}
+        </count_time>
       </NXmonitor>
       <NXdata name="data">
         <Qh NAPIlink="NXentry/NXsample/Qh">
