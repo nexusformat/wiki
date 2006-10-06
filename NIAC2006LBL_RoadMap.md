@@ -67,6 +67,14 @@ Add “current” (units: mA) to NXmonitor “mode” field to represent a
 normalization against the X-ray storage ring current or X-ray tube
 operating current.
 
+scanning environment variables
+------------------------------
+
+-   Make sure we have an example of scanning an environment variable in
+    scanraw
+-   Consider how parametric scans will be represented (within and
+    between entries)
+
 Later
 =====
 
