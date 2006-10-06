@@ -4,6 +4,12 @@ permalink: XESraw/
 layout: wiki
 ---
 
+XESraw
+======
+
+XESraw is a draft example of a X-Ray Experimental (Synchrotron) raw
+Nexus file.
+
     <?xml version="1.0" encoding="UTF-8"?>
     <!--
     URL:      http://www.nexus.anl.gov/
@@ -23,8 +29,8 @@ layout: wiki
                         <type>"Synchrotron X-ray Source"</type>
                         <probe>"x-ray"</probe>
                     </NXsource>
-                    <NXpositioner name="energy">
-                        <energy>[3001.0, 3002.0, 3003.0]</energy>
+                    <NXpositioner name="sampleX">
+                        <value>[3001.0, 3002.0, 3003.0]</value>
                     </NXpositioner>
                     <NXpositioner name="time">
                         <time>[1.22, 2.34, 3.53]</time>
@@ -43,13 +49,13 @@ layout: wiki
             
             <NXdata name="detector1">
                 <data>{Link to detector1 counts}</data>
-                <energy axis=1 primary=1>{Link to values in NXpositioner}</energy>
-                <time axis=1 primary=2>{Link to values in NXpositioner}</time>
+                <sampleX axis="1" primary="1">{Link to values in NXpositioner}</energy>
+                <time axis="1" primary="2">{Link to values in NXpositioner}</time>
             </NXdata>
             <NXdata name="detector2">
                 <data>{Link to detector2 counts}</data>
-                <energy axis=1 primary=1>{Link to values in NXpositioner}</energy>
-                <time axis=1 primary=2>{Link to values in NXpositioner}</time>
+                <sampleX axis="1" primary="1">{Link to values in NXpositioner}</energy>
+                <time axis="1" primary="2">{Link to values in NXpositioner}</time>
             </NXdata>
             
         </NXentry>
