@@ -5,9 +5,10 @@ layout: wiki
 ---
 
 Small-Angle Scattering
-----------------------
+======================
 
-### 2006-04-19
+2006-04-19
+----------
 
 Given the complex requirements for initial data treatment on pulsed
 source SANS instruments there has been general agreement to separate
@@ -15,7 +16,8 @@ these from the much simpler pin-hole geometry cameras used for
 monochromatic X-ray and Neutron SAS studies, shown together below as
 NXmonosas.
 
-### 2006-10-05
+2006-10-05
+----------
 
 Effort was made to simplify the definition below, correct errors (such
 as removed fields that did not exist in base classes), and remove
@@ -26,6 +28,41 @@ the fields are appropriate to SAS instruments with area detectors at
 monochromatics sources. The definition does not match well to other
 types of SAS instrument such as USAS, Kratky, step-scanning, or
 slit-camera with PSD.
+
+2006-10-06
+----------
+
+A description of the wavelength and possibly a spectral description
+(either vague or detailed such as a spectral profile) is needed for
+analysis software to account for not only wavelength but wavelength
+smearing and other spectral effects (high-order harmonics, for example).
+Due to the variety of optics used to provide such a beam, rather than
+define each of those possible optics in the generic instrument
+definition, we define the spectral properties of the beam incident on
+the sample that results from all the upstream optics.
+
+Two possible ways:
+
+-   Object-oriented approach
+    -   This needs a new base class since a generic SAS description will
+        define wavelength using generic hardware; not everyone has
+        helical velocity selector or a crystal monochromator. X-rays are
+        admittedly the more tedious case.
+    -   NXspectrum might be a good choice.
+    -   NXwavelength\_selector is more to the point.
+    -   NXmonochromator is our choice. This will sit well next to
+        NXbending\_magnet, NXcrystal, NXinsertion\_device, NXmirror,
+        NXmoderator, and NXvelocity\_selector.
+
+<!-- -->
+
+-   NXbeam
+    -   Imperfect becuase NXbeam was intended for the simulation
+        community despite the note in the documentation about beamline
+        use. The fields are not entirely appropriate and some questions
+        will often arise.
+
+<!-- -->
 
     <?xml version="1.0" encoding="utf-8"?>
     <!--
@@ -73,28 +110,9 @@ slit-camera with PSD.
         (either vague or detailed such as a spectral profile) is needed for 
         analysis software to account for not only wavelength but wavelength 
         smearing and other spectral effects (high-order harmonics, for example).
-        Due to the variety of optics used to provide such a beam, rather than 
-        define each of those possible optics in the generic instrument definition,
-        we define the spectral properties of the beam incident on the sample
+        Due to the variety of optics used to provide a generic beam, define 
+        the spectral properties of the beam incident on the sample
         that results from all the upstream optics.
-        Two possible ways:
-          1  Object-oriented approach
-               This needs a new base class since a generic SAS description
-               will define wavelength using generic hardware; not everyone has 
-               helical velocity selector or a crystal monochromator.  X-rays are
-               admittedly the more tedious case.
-               NXspectrum might be a good choice.
-               NXwavelength_selector is more to the point.
-
-               NXmonochromator is our choice.  This will sit well next to 
-               NXbending_magnet, NXcrystal, NXinsertion_device, NXmirror, 
-               NXmoderator, and NXvelocity_selector.
-
-          2  NXbeam
-               Imperfect becuase NXbeam was intended for the simulation community
-               despite the note in the documentation about beamline use.
-               The fields are not entirely appropriate and some questions will
-               often arise.
       -->
          
        <NXmonochromator name="Beam_at_sample"> {characteristics of beam at sample}
@@ -145,6 +163,11 @@ slit-camera with PSD.
           {signal from monitor when not illuminated}?
           <!-- This field needs to be added to NXmonitor -->
         </quiet_count>
+        <count_time type="NX_FLOAT" units="second">
+           {Elapsed actual counting time, the time the instrument 
+           was really counting, without pauses or times lost due 
+           beam unavailability}
+        </count_time>
       </NXmonitor>
 
       <NXsample name="{Name of sample}"></NXsample>
