@@ -50,5 +50,10 @@ and steady-state instrumentation.
     <NXgeometry name="">
         {Geometry of the monitor}?
     </NXgeometry>
+    <count_time type="NX_FLOAT" units="seconds">
+       {Elapsed actual counting time, can be an array of size np when scanning. This is not the 
+        difference of the calendar time but the time the instrument was really counting, without 
+        pauses or times lost due beam unavailability}
+    </count_time>
 </NXmonitor>
 </pre>
