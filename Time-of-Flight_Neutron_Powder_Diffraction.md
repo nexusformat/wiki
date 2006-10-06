@@ -7,14 +7,15 @@ layout: wiki
 Comments
 --------
 
--   Missing items
+-   Discussion items
     -   time\_focusing\_type (e.g. difc, cubic, ..)
     -   time\_focusing\_parameters \[ndetector,nparameters\]
-    -   Definition of groups for binning (another NXdetector with
-        special type ?)
+    -   Definition of groups for binning in NeXus file or via NXdetector
+        ?
     -   Deadtime correction information (in combination with gang\_..)
     -   Profile types and starting parameters
-    -   Incident spectrum (parameters or run in NXcharacterization)
+    -   Incident spectrum (here in NXcharacterization, alternative
+        analytical description ?)
 
 <!-- -->
 
@@ -48,6 +49,9 @@ Proposal
           </NXsource>
 
          <NXdetector name="{Name of detector bank}">
+            <time_focusing_type type="NX_CHAR">gsas_difc|gsas_cubic|jason</time_focusing_type>
+            <time_focusing_parameters type="NX_FLOAT[fp]">{Parameters for focusing depending on type}</time_focusing_type>
+
         <time_of_flight type="NX_FLOAT[tof+1]" axis="3" primary="1?" units="microsecond">
             {Total time of flight}+
         </time_of_flight>
@@ -111,6 +115,20 @@ Proposal
             <layout type="NX_CHAR">point|linear|area{How the detector is represented}</layout>
           </NXdetector>
      
+          <NXcharacterization name="isotropic_scatterer" NXS:source="{If missing the source file is the
+              current file}?" NXS:location="" NXS:mime_type="{If missing the source file is NAPI readable}">
+          <definition version="$Revision$" URL="definitions.nexusformat.org/NXtofnpd.xml">TOFNPD</definition>
+          </NXcharacterization>
+
+         <NXcharacterization name="isotropic_scatterer_background" NXS:source="{If missing the source file is the
+              current file}?" NXS:location="" NXS:mime_type="{If missing the source file is NAPI readable}?">
+          <definition version="$Revision$" URL="definitions.nexusformat.org/NXtofnpd.xml">TOFNPD</definition>
+          </NXcharacterization>
+
+        <NXcharacterization name="empty_environment" NXS:source="{If missing the source file is the
+              current file}?" NXS:location="" NXS:mime_type="{If missing the source file is NAPI readable}?">
+          <definition version="$Revision$" URL="definitions.nexusformat.org/NXtofnpd.xml">TOFNPD</definition>
+          </NXcharacterization>
        </NXinstrument>
 
        <NXmonitor name="{name of the monitor}">*
