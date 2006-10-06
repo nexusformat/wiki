@@ -17,6 +17,7 @@ The NeXus International Advisory Committee recommends the use of NeXus as a stan
 ===No===
 :[[User:Jane Doe|Jane Doe]] 15:30, 22 Jul 2005 (CDT)
 :[[User:Jean Dupont|Jean Dupont]] 15:30, 22 Jul 2005 (CDT)
+:[[User:Peter Peterson|Peter Peterson]] 00:06, 7 October 2006 (BST)
 
 ===Abstain===
 :[[User:JoeBloggs|JoeBloggs]] 15:30, 22 Jul 2005 (CDT)
