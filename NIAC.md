@@ -120,6 +120,12 @@ Special Interest Groups:The NeXus International Advisory Committee will appoint 
 Procedures
 ----------
 
+### Online Votes
+
+The NeXus wiki will be used to conduct online votes of current members
+of the [NIAC](NIAC "wikilink"). The procedure and an example vote are
+described [here](Voting "wikilink").
+
 ### Ratification of Base Classes
 
 The NeXus format is defined as a series of XML files describing both the
@@ -141,9 +147,9 @@ proposed. This is the current procedure:
     proposed changes, after which the Executive Secretary will formulate
     a proposal based both on the original suggestion and the subsequent
     debate, and send it to the mailing list.
-4.  This will be voted on by the committee by email. At least two-thirds
-    of the committee must vote. Changes will be approved by a majority
-    of the whole committee.
+4.  This will be voted online as described above. At least two-thirds of
+    the committee must vote. Changes will be approved by a majority of
+    the whole committee.
 5.  The revised classes will then be posted to the NeXus XML CVS server.
 
 Meetings
