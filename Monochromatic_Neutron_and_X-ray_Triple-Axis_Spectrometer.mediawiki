@@ -40,6 +40,9 @@ depending on whether i,j indices are present.
     <unit_cell type="NX_FLOAT32[1,6])">
       {Unit cell parameters (lengths and angles)}?
     </unit_cell>
+    <orientation_matrix type="NX_FLOAT[3,3]">?
+        {Orientation matrix when appropriate}
+    </orientation_matrix> 
     <plane_vector_0 type="NX_FLOAT32[3]">
       {Reciprocal space vector of primary reflection in the scattering plane}
     </plane_vector_0>
@@ -56,6 +59,12 @@ depending on whether i,j indices are present.
     <rotation_angle units="degree" type="NX_FLOAT32[np]">
       {Rotation angle of the sample}
     </rotation_angle>
+    <sgu type="NX_FLOAT[np]" units="degree">
+        {Sample stage tilt angle as defined by Lumsden}
+    </sgu>
+    <sgl type="NX_FLOAT[np]" units="degree">
+        {Sample stage tilt angle as defined by Lumsden}
+    </sgl>
     <Qh type="NX_FLOAT32[np,na?]">
       {Reciprocal space component of scan}
     </Qh>
