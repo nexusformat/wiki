@@ -18,6 +18,9 @@ layout: wiki
     to store the multidimensional array containing the processed data within one or more
     NXdata groups.
 
+    This is not a true metaDTD because both the values and the axis names can use 
+    something more descriptive.
+
     -->
     <NXentry name="{Name of entry}">
       <title>
