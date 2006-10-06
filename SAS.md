@@ -29,47 +29,74 @@ slit-camera with PSD.
 
     <?xml version="1.0" encoding="utf-8"?>
     <!--
-     URL: ?
-     Name:     NXsas_mono_area (candidate name)
-     Editor:   Ron Ghosh <ron@ill.fr>
-     Principal Contributors:  Steve King <s.m.king@rl.ac.uk>, Mark Koennecke <Mark.Koennecke@psi.ch>, P.Jemian APS, J.Suzuki-san JPARC, A.Gotz ESRF 
+    URL: ?
+    Name:     NXsas_mono_area (candidate name)
+    Editor:   Ron Ghosh <ron@ill.fr>
+    Principal Contributors:  Steve King <s.m.king@rl.ac.uk>, Mark Koennecke <Mark.Koennecke@psi.ch>, P.Jemian APS, J.Suzuki-san JPARC, A.Gotz ESRF 
+                             
+    Valuable comments from N. Maliszewskyj, P Kienzle NIST, N. Terrill DIAMOND
 
-     Valuable comments from N. Maliszewskyj, P Kienzle NIST, N. Terrill DIAMOND
-
-     Version October 2006
-     -->
+    Version October 2006
+    -->
     <NXroot>
      <NXentry name="{Entry Name}">
-      <title>{Extended title for entry}?</title>
-      <short_title>{20 characters max. for legends etc.}</short_title>
-      <start_time type="ISO8601">{Starting time of measurement}?</start_time>
-      <end_time type="ISO8601">{Ending time of measurement}?</end_time>
-      <experiment_identifier type="NX_CHAR">{}?</experiment_identifier>
-      <run_number type="NX_INT">{Number of run or scan stored in this entry}?</run_number>
-      <run_cycle type="NX_CHAR">{Number of the facility cycle in which the measurements were made}?</run_cycle>
       <NXinstrument name="{Name of instrument}">
-       <name short_name="{short name of instrument}">{Name of instrument}?</name>
+       <name short_name="{short name of instrument}">{Name of instrument}?
+       </name>
        <NXsource name="{Name of facility}">
-        <name type="NX_CHAR">{Name of source}?</name>
-        <type type="NX_CHAR">
-         "Spallation Neutron Source"|
-         "Reactor Neutron Source"|"Synchrotron X-ray Source"|
-         "Rotating Anode X-ray"|"Fixed Tube X-ray"?
-        </type>
-        <probe type="NX_CHAR">"neutron"|"x-ray"?</probe>
-        <bunch_mode type="NX_CHAR">"Single Bunch"|"Multi Bunch"?</bunch_mode>
-        <power type="NX_FLOAT">"nominal power"</power>
+        <probe type="NX_CHAR">"neutron"|"x-ray"</probe>
        </NXsource>
+
        <NXattenuator name="{Name of beam attenuator}">
         <attenuator_transmission type="NX_FLOAT">
          {The nominal fraction of the beam transmitted by the attenuator}
         </attenuator_transmission>
        </NXattenuator>
+
        <NXaperture name="Name of beamline aperture">
         <NXgeometry name="geometry">{location and shape of aperture}</NXgeometry>
        </NXaperture>
-    <!-- the key components for analysing resolution effects are contained in the following NXbeam, REQUIRED, defining 
-       <NXbeam name="Beam_at_sample"> {characteristics of beam at sample}</NXbeam>
+       <NXcollimator name="Name of beam collimator">
+        <NXgeometry name="geometry">{location and shape of collimator}</NXgeometry>
+       </NXcollimator>
+
+      <!-- 
+        A description of the wavelength and possibly a spectral description
+        (either vague or detailed such as a spectral profile) is needed for 
+        analysis software to account for not only wavelength but wavelength 
+        smearing and other spectral effects (high-order harmonics, for example).
+        Due to the variety of optics used to provide such a beam, rather than 
+        define each of those possible optics in the generic instrument definition,
+        we define the spectral properties of the beam incident on the sample
+        that results from all the upstream optics.
+        Two possible ways:
+          1  Object-oriented approach
+               This needs a new base class since a generic SAS description
+               will define wavelength using generic hardware; not everyone has 
+               helical velocity selector or a crystal monochromator.  X-rays are
+               admittedly the more tedious case.
+               NXspectrum might be a good choice.
+               NXwavelength_selector is more to the point.
+
+               NXmonochromator is our choice.  This will sit well next to 
+               NXbending_magnet, NXcrystal, NXinsertion_device, NXmirror, 
+               NXmoderator, and NXvelocity_selector.
+
+          2  NXbeam
+               Imperfect becuase NXbeam was intended for the simulation community
+               despite the note in the documentation about beamline use.
+               The fields are not entirely appropriate and some questions will
+               often arise.
+      -->
+         
+       <NXmonochromator name="Beam_at_sample"> {characteristics of beam at sample}
+         <wavelength type="NX_FLOAT[]" units="angstrom">{selected wavelength}</wavelength>
+         <wavelength_fwhm type="NX_FLOAT[]" units="angstrom">
+           {wavelength distribution full width at half maximum}?
+         </wavelength_fwhm>
+         <NXdata name="wavelength_distribution">?</NXdata>
+       </NXmonochromator>
+
        <NXdetector name="{Name(s) of detector(s)}">
         <data type="NX_FLOAT[i,j,...]|NX_INT[i,j,...]">{Data values}?</data>
         <data_errors type="NX_FLOAT[i,j,...]">{Data errors}?</data_errors>
@@ -80,7 +107,7 @@ slit-camera with PSD.
         <NXgeometry name="SD_Distance">{distance from sample to detector}?</NXgeometry>
          <x_pixelsize type="NX_FLOAT[i?]">{Size of each detector pixel.  If it is scalar all pixels are the same size}?</x_pixelsize>
          <y_pixelsize type="NX_FLOAT[i?]">{Size of each detector pixel.  If it is scalar all pixels are the same size}?</y_pixelsize>
-         <NXcharacterization name="quiet_count "></NXcharacterization>
+         <NXcharacterization name="quiet_count "><!--NXcharacterization to be defined--></NXcharacterization>
          <NXgeometry name="beam_center">{x,y position of straight-through beam (a.k.a. beam center) on the detector}?</NXgeometry>
        </NXdetector>
         <NXbeam_stop name="Name of beam stop">
@@ -95,6 +122,7 @@ slit-camera with PSD.
           <status type="NX_CHAR">{"in"|"out"}</status>
         </NXbeam_stop>
       </NXinstrument>
+
       <NXmonitor name="control {Name of the monitor}">
         <mode type="NX_CHAR">
           "time"|"neutrons"|"charge"?
@@ -103,9 +131,11 @@ slit-camera with PSD.
         <preset type="NX_FLOAT32">{preset for terminating run}?</preset>
         <data type="NX_INT32"> {Monitor value}
         </data>
-        <NXcharacterization name="quiet_count "></NXcharacterization>
+         <NXcharacterization name="quiet_count "><!--NXcharacterization to be defined--></NXcharacterization>
       </NXmonitor>
+
       <NXsample name="{Name of sample}"></NXsample>
+
       <NXdata name="Datablock name">+
        <data type="NX_INT[...] | NX_FLOAT[...]" signal="1">{link to detector counts in NXdetector}</data>
       </NXdata>
