@@ -149,3 +149,9 @@ map](http://www.lbl.gov/Workplace/lab-site-map.html_LBL_campus_map "wikilink").
     and a way to modify a working copy on the website
 -   It would be useful if NeXus could support arrays of strings
 
+Photos
+------
+
+-   [ Group photos](NIAC2006LBL_photos "wikilink")
+-   [ other photos](NIAC2006LBL_photos_other "wikilink")
+
