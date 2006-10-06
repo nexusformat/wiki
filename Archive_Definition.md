@@ -66,16 +66,18 @@ DTD definition
 
     <?xml version="1.0" encoding="UTF-8"?>
     <!--
-    URL:    : http://www.nexusformat.org/
-    Editor: : L. Lerusse, CCLRC e-Science
+    URL     : http://www.nexusformat.org/
+    Editor  : L. Lerusse, CCLRC e-Science
     Version : October 2006
 
     Template of the Archive Definition.
 
+    line starting with 
+         * are not yet in the vase classes. 
+         # are a modification of the TOFraw
     -->
-    <NXentry name="entry 0"> <!-- See Multiple Entry comment above -->
-
-
+    <NXroot>
+     <NXentry name="entry 0"> <!-- See Multiple Entry comment above -->
        <!-- Identification metadata
             A unique identifier separate from the filename should be defined. 
             These parameters seems the more promising for this. 
@@ -85,10 +87,10 @@ DTD definition
         <title>{Extended title for file}?</title> 
         <experiment_identifier type="NX_CHAR">
             {unique identifier for the experiment, defined by the facility, possibly
-            linked to the proposals}?
+            linked to the proposals (see : proposal_identifier below)}
         </experiment_identifier>
         <run_number type="NX_INT">
-            {Data file sequence number}?
+            {Data file sequence number}
         </run_number>
         <run_cycle type="NX_CHAR">
             {}?
@@ -117,7 +119,6 @@ DTD definition
         <definition type="NX_CHAR" version="{DTD version number}" URL="{URL of DTD file}">
             {Name of entry DTD}
         </definition>
-
         
         <!-- Timing metadata : 
             start_time and end_time are mandatory
@@ -134,7 +135,7 @@ DTD definition
         </duration>
         <collection_time type="NX_FLOAT" units="seconds">
             {Time transpired actually collecting data i.e. taking out time when 
-            collection was suspended due to e.g. temperature out of range}?
+            collection was suspended due to e.g. temperature out of range}
         </collection_time>
             
     *#    <!-- Reliability metadata
@@ -152,6 +153,9 @@ DTD definition
     *    <!-- Experiment metadata
     *       Description of the science related to the data.
     *    -->
+    *#       <proposal_identifier>
+    *#              {identification of the proposal}?
+    *#       </proposal_identifier>
     *        <discipline type="NX_CHAR">
     *               {Keyword domain (e.g. chemistry, astronomy, ecology, … )}?
     *        </discipline>
@@ -252,7 +256,7 @@ DTD definition
                 {Name of instrument}
             </name>
     *#  <description type="NX_CHAR">
-    *#      {Brief description of the experiment}?
+    *#      {Brief description of the instrument}?
     *#  </description_summary>
     *#  <description_document type="NXNote">
     *#      {Description of the instrument (document in pdf, latex, …)}?
@@ -286,10 +290,7 @@ DTD definition
             </chemical_formula>
         <description type="NX_CHAR">
                 {Description of the sample}?
-            </description>
-            <short_title type="NX_CHAR">
-                {20 character fixed length sample description for legends}?
-            </short_title>        
+            </description>       
 
             
     *        <!-- Sample Environment metadata
@@ -300,10 +301,11 @@ DTD definition
     *               NXinstrument class. But in that case, the name would all 
     *               be value and that would cause problems. 
     *        -->
-    *        <temperature type="NXlog"> {Sample temperature. }? </temperature>
-    *        <electric_field type="NXlog"> {Applied electric field}? </electric_field>
-    *        <magnetic_field type="NXlog" > {Applied magnetic field}? </magnetic_field>
-    *        <stress_field type="NXlog"> {External stress}? </stress_field>
-    *        <pressure type="NXlog"> {Applied pressure}?  </pressure>   
+    *        <NXlog name="temperature_log"> {Sample temperature. }? </NXlog>
+    *        <NXlog name="electric_field_log"> {Applied electric field}? </NXlog>
+    *        <NXlog name="magnetic_field_log"> {Applied magnetic field}? </NXlog>
+    *        <NXlog name="stress_field_log"> {External stress}? </NXlog>
+    *        <NXlog name="pressure_log"> {Applied pressure}?  </NXlog>   
         </NXsample>
-    </NXentry>
+     </NXentry>
+    </NXroot>
