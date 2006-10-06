@@ -3,17 +3,21 @@
 * priority 1
 ** Monochromatic Neutron and X-ray Reflectometry
 ** Time-of-Flight Neutron Reflectometery
-** Monochromatic Neutron and X-ray Single Crystal Diffractometer
-** Monochromatic Neutron and X-ray Triple-Axis Spectrometer
-** Archive Definition
+** Monochromatic Neutron and X-ray Single Crystal Diffractometers
+*** [[MonoXPSD]] Monochromatic Single Crystal Diffractometer with Position Sensitive Detector
+*** [[MonoXSingle]] Monochromatic Single Crystal Diffractometer with Single Detector
+** [[Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer]]
+** [[Archive_Definition]]
+
 * priority 2
-** Monochromatic Neutron Triple-Axis
-** Time-of-Flight Neutron Powder Diffraction
-** Monochromatic Neutron and X-ray Small Angle Scattering
+** [[Time-of-Flight_Neutron_Powder_Diffraction]]
+** [[SAS | Monochromatic Neutron and X-ray Small Angle Scattering]]
 ** Time-of-Flight Small Angle Scattering
+
 * priority 3
-** Time-of-Flight Neutron Indirect Geometry Spectrometer
+** [[Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer]]
 ** Time-of-Flight Neutron Direct Geometry Spectrometer
+
 * priority 4
 ** Time-of-Flight Neutron Single-Crystal Diffractometer
 ** Time-of-Flight Neutron Spin Echo Editor
