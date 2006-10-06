@@ -54,11 +54,10 @@ problem.  In either case a solution similar to that in TAS can be applied.
 
     <!-- wavelength selection -->
     <NXsource><probe /></NXsource>
-    <NXcrystal name="monochromator">
-      <!-- May want to include fields required to compute the wavelength L, and spread dL -->
+    <NXmonochromator name="monochromator">
       <wavelength />
-      <wavelength_spread type="NX_FLOAT" units="Angstrom" />
-    </NXcrystal>
+      <wavelength_error type="NX_FLOAT" units="Angstrom" />
+    </NXmonochromator>
 
     <!-- collimation -->
     <NXaperture name="pre[sample|detector]_slit#">

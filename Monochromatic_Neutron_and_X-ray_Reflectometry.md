@@ -59,11 +59,10 @@ layout: wiki
 
         <!-- wavelength selection -->
         <NXsource><probe /></NXsource>
-        <NXcrystal name="monochromator">
-          <!-- May want to include fields required to compute the wavelength L, and spread dL -->
+        <NXmonochromator name="monochromator">
           <wavelength />
-          <wavelength_spread type="NX_FLOAT" units="Angstrom" />
-        </NXcrystal>
+          <wavelength_error type="NX_FLOAT" units="Angstrom" />
+        </NXmonochromator>
 
         <!-- collimation -->
         <NXaperture name="pre[sample|detector]_slit#">
