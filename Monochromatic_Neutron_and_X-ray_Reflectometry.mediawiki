@@ -1,21 +1,21 @@
 <PRE>
- <?xml version="1.0" ?>
- <!--
- Instrument Definition for Monochromatic Source Reflectometers.
- Editor: Paul Kienzle <pkienzle@nist.gov>
- Mangled_by: Nick Maliszewskyj <nickm@nist.gov>
- $Id$
- See http://www.neutron.anl.gov:8080/NeXus/5 for component definitions.
+<?xml version="1.0" ?>
+<!--
+Instrument Definition for Monochromatic Source Reflectometers.
+Editor: Paul Kienzle <pkienzle@nist.gov>
+Mangled_by: Nick Maliszewskyj <nickm@nist.gov>
+$Id$
+See http://www.neutron.anl.gov:8080/NeXus/5 for component definitions.
   
- Not handled: recording both the transmitted and the reflected beam off
- the polarizer onto the 2D detector.  Multiple analyzers is a similar
- problem.  In either case a solution similar to that in TAS can be applied.
+Not handled: recording both the transmitted and the reflected beam off
+the polarizer onto the 2D detector.  Multiple analyzers is a similar
+problem.  In either case a solution similar to that in TAS can be applied.
   
- 2006-02-03 Refined by NIAC group meetings.
- 2006-10-04 Refined by NIAC group meetings.
- -->
+2006-02-03 Refined by NIAC group meetings.
+2006-10-04 Refined by NIAC group meetings.
+-->
 
- <NXentry>
+<NXentry>
 
   <definition version="1.0" 
       URL="http://www.nexusformat.org/instruments/xml/monoref.xml"
@@ -151,9 +151,10 @@
       that logs are not necessarily sampled synchronously with the
       data points; use NXtimer and plot data points vs. start_time}
   </NXlog>
-  <NXlog name="elapsed">
-     <value unit="second">
+  <NXlog name="elapsed">?
+     <time type="FLOAT[np]" unit="second">{Start of the measurement of point np}</time>
+     <value type="FLOAT[np]" unit="second">{Duration of the measurement of point}</value>
   </NXlog>
 
- </NXentry>
+</NXentry>
 </PRE>
