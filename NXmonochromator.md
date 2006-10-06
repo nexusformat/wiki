@@ -8,13 +8,12 @@ This is a base class for everything which selects a wavelength or
 energy, be it a monochromator crystal, a velocity selector, a undulator
 or whatever.
 
--   units
-    -   wavelength: angstrom
-    -   energy: eV
-
-<!-- -->
-
     <NXmonochromator name="name of monochromator">
+      <!--
+        expected units
+        wavelength: angstrom
+        energy:     eV
+      -->
       <wavelength type="NX_FLOAT[]" units="{unit}">
          {wavelength selected}
       </wavelength> 
