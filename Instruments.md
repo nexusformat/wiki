@@ -64,10 +64,13 @@ Instrument List
         Diffractometer](Time-of-Flight_Neutron_Single_Crystal_Diffractometer "wikilink"),
         Editor: TBA
 -   Reflectometry
-    -   Time-of-Flight Neutron Reflectometry, Editor: Robert Dalgliesh
-        (ISIS Pulsed Neutron and Muon Source, UK)
-    -   Monochromatic Neutron and X-ray Reflectometry, Editor: Paul
-        Kienzle (NIST Center for Neutron Research, USA)
+    -   [Time-of-Flight Neutron
+        Reflectometry](Time-of-Flight_Neutron_Reflectometry "wikilink"),
+        Editor: Robert Dalgliesh (ISIS Pulsed Neutron and Muon Source,
+        UK)
+    -   [Monochromatic Neutron and X-ray
+        Reflectometry](Monochromatic_Neutron_and_X-ray_Reflectometry "wikilink"),
+        Editor: Paul Kienzle (NIST Center for Neutron Research, USA)
 -   Imaging
     -   X-ray Tomography
 -   Small-Angle Scattering
