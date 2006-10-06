@@ -32,9 +32,17 @@ slit-camera with PSD.
     URL: ?
     Name:     NXsas_mono_area (candidate name)
     Editor:   Ron Ghosh <ron@ill.fr>
-    Principal Contributors:  Steve King <s.m.king@rl.ac.uk>, Mark Koennecke <Mark.Koennecke@psi.ch>, P.Jemian APS, J.Suzuki-san JPARC, A.Gotz ESRF 
+    Principal Contributors:  
+              Steve King <s.m.king@rl.ac.uk>, 
+              Mark Koennecke <Mark.Koennecke@psi.ch>, 
+              P.Jemian APS, 
+              J.Suzuki-san JPARC, 
+              A.Gotz ESRF 
                              
-    Valuable comments from N. Maliszewskyj, P Kienzle NIST, N. Terrill DIAMOND
+    Valuable comments from 
+              N. Maliszewskyj, 
+              P Kienzle NIST, 
+              N. Terrill DIAMOND
 
     Version October 2006
     -->
@@ -98,46 +106,59 @@ slit-camera with PSD.
        </NXmonochromator>
 
        <NXdetector name="{Name(s) of detector(s)}">
-        <data type="NX_FLOAT[i,j,...]|NX_INT[i,j,...]">{Data values}?</data>
-        <data_errors type="NX_FLOAT[i,j,...]">{Data errors}?</data_errors>
-        <detector_number type="NX_INT[i]">{Identifier for detector}?
-        </detector_number>
-        <x_offset type="NX_FLOAT[k+1]">{pixel offset from the detector center in x-direction}?</x_offset>
-        <y_offset type="NX_FLOAT[l+1]">{pixel offset from the detector center in the y-direction}?</y_offset>
-        <NXgeometry name="SD_Distance">{distance from sample to detector}?</NXgeometry>
-         <x_pixelsize type="NX_FLOAT[i?]">{Size of each detector pixel.  If it is scalar all pixels are the same size}?</x_pixelsize>
-         <y_pixelsize type="NX_FLOAT[i?]">{Size of each detector pixel.  If it is scalar all pixels are the same size}?</y_pixelsize>
-         <NXcharacterization name="quiet_count "><!--NXcharacterization to be defined--></NXcharacterization>
-         <NXgeometry name="beam_center">{x,y position of straight-through beam (a.k.a. beam center) on the detector}?</NXgeometry>
+        <data type="NX_FLOAT[i,j,...]|NX_INT[i,j,...]" signal="1">
+          {Data values}?
+        </data>
+        <distance type="NX_FLOAT" units="mm">
+          {distance between sample and detector}
+        </distance>
+        <x_offset type="NX_FLOAT[k+1]" axis="1">
+          {X-direction pixel coordinate on the detector with origin at detector center}?
+        </x_offset>
+        <y_offset type="NX_FLOAT[l+1]" axis="2">
+          {Y-direction pixel coordinate on the detector with origin at detector center}?
+        </y_offset>
+        <quiet_count type="NX_FLOAT[i,j,...]|NX_INT[i,j,...]">
+          {signal from detector when not illuminated}?
+          <!-- This field needs to be added to NXdetector -->
+        </quiet_count>
+        <NXgeometry name="beam_center">
+          {x,y position of straight-through beam (a.k.a. beam center) on the detector}?
+        </NXgeometry>
        </NXdetector>
         <NXbeam_stop name="Name of beam stop">
          <NXgeometry name="geometry">{shape, orientation and position of the beam stop}
          </NXgeometry>
-          <description type="NX_CHAR">{ "circular"|"rectangular"}?</description>
-          <size type="NX_FLOAT">{size of beamstop}</size>
-          <x type="NX_FLOAT">
-           {x position of the beamstop in relation to the detector}?</x>
-          <y type="NX_FLOAT">
-           {y position of the beamstop in relation to the detector}?</y>
           <status type="NX_CHAR">{"in"|"out"}</status>
         </NXbeam_stop>
       </NXinstrument>
 
       <NXmonitor name="control {Name of the monitor}">
         <mode type="NX_CHAR">
-          "time"|"neutrons"|"charge"?
-          <!--CHANGE THE NXMonitor base class !-->
+          "monitor"|"timer"?
         </mode>
-        <preset type="NX_FLOAT32">{preset for terminating run}?</preset>
-        <data type="NX_INT32"> {Monitor value}
+        <preset type="NX_FLOAT">{preset for terminating measurement}</preset>
+        <data type="NX_INT[i]|NX_FLOAT[i]">
+          {Monitor value}
         </data>
-         <NXcharacterization name="quiet_count "><!--NXcharacterization to be defined--></NXcharacterization>
+        <quiet_count type="NX_FLOAT[i,j,...]|NX_INT[i,j,...]">
+          {signal from monitor when not illuminated}?
+          <!-- This field needs to be added to NXmonitor -->
+        </quiet_count>
       </NXmonitor>
 
       <NXsample name="{Name of sample}"></NXsample>
 
       <NXdata name="Datablock name">+
-       <data type="NX_INT[...] | NX_FLOAT[...]" signal="1">{link to detector counts in NXdetector}</data>
+       <data type="NX_INT[...] | NX_FLOAT[...]" signal="1">
+         {link to detector counts in NXdetector}
+       </data>
+        <x_offset type="NX_FLOAT[k+1]">
+          {link to x_offset in detector group}
+        </x_offset>
+        <y_offset type="NX_FLOAT[l+1]">
+          {link to y_offset in detector group}
+        </y_offset>
       </NXdata>
      </NXentry>
     </NXroot>
