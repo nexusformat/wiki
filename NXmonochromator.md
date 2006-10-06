@@ -11,8 +11,8 @@ monochromator crystal, a velocity selector, a undulator or whatever.
       <wavelength type="NX_FLOAT[]" units="angstrom">
          {wavelength selected}
       </wavelength> 
-      <wavelength_fwhm type="NX_FLOAT[]" units="angstrom">
-         {wavelength full width at half maximum}
-      </wavelength_fwhm> 
+      <wavelength_error type="NX_FLOAT[]" units="angstrom">
+         {wavelength standard deviation}
+      </wavelength_error> 
       <NXdata name="wavelength_distribution"/> 
     </NXmonochromator>
