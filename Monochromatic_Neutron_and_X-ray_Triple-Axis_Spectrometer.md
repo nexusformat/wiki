@@ -210,10 +210,10 @@ layout: wiki
         <preset type="NX_FLOAT">
           {preset value for time or monitor}
         </preset>
-        <data type="NX_FLOAT[np]">
+        <data type="NX_INT[np]">
           {Monitor data}?
         </data>
-        <count_time type="NX_INT[np]" units="second">
+        <count_time type="NX_FLOAT[np]" units="seconds">
          {Elapsed time for each scan point}
         </count_time>
       </NXmonitor>
