@@ -207,13 +207,13 @@ layout: wiki
         <mode type="NX_CHAR">
           "monitor"|"timer"
         </mode>
-        <preset type="NX_FLOAT32">
+        <preset type="NX_FLOAT">
           {preset value for time or monitor}
         </preset>
-        <data type="NX_FLOAT[np]" units="seconds">
+        <data type="NX_FLOAT[np]">
           {Monitor data}?
         </data>
-        <count_time type="NX_INT[np]">
+        <count_time type="NX_INT[np]" units="second">
          {Elapsed time for each scan point}
         </count_time>
       </NXmonitor>
