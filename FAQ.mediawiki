@@ -34,7 +34,7 @@ Insert the relevant grep character, as defined in the [[Metaformat|NeXus Meta-DT
 #If you encounter any problems because the classes are not sufficient to describe your configuration, please contact the NIAC Executive Secretary explaining the problem, and post a suggestion at the relevant class wiki page. The NIAC is always willing to consider proposals to amend the base classes. The procedures are defined in the NIAC constitution.
 ==How do I specify units?==
 The units of any stored data or metadata should be specified as an attribute, unless they are dimensionless.  The following conventions should be adopted:
-*All units should be written in singular form, without abbreviation.
+*All units are written in singular form, without abbreviation.
 *There will be no spaces in units.
 *SI units will be used (e.g., metre, kilogram, second, ampere, kelvin), using the European spellings (e.g., "metre", not "meter"), but "angstrom" and "barn" are also allowed. 
 *More complex units will be written with mathematical operators (+,-,/,^) and parantheses, with traditional operator precedence.

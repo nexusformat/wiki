@@ -128,7 +128,7 @@ The units of any stored data or metadata should be specified as an
 attribute, unless they are dimensionless. The following conventions
 should be adopted:
 
--   All units should be written in singular form, without abbreviation.
+-   All units are written in singular form, without abbreviation.
 -   There will be no spaces in units.
 -   SI units will be used (e.g., metre, kilogram, second, ampere,
     kelvin), using the European spellings (e.g., “metre”, not “meter”),
