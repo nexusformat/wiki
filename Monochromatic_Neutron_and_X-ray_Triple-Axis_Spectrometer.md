@@ -210,7 +210,7 @@ layout: wiki
         <preset type="NX_FLOAT32[1]">
           {preset value for time or monitor}
         </preset>
-        <data type="NX_INT[np]">
+        <data type="NX_FLOAT[np]" units="seconds">
           {Monitor data}?
         </data>
         <count_time type="NX_INT[np]">
