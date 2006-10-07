@@ -88,8 +88,6 @@ layout: wiki
           <azimuthal_angle type="NX_FLOAT[np]" units="" />
         </NXspin>
 
-        <NXspin name="predetector_spin" />
-
         <!-- detector may be protected by an attenuator and/or a beam stop -->
         <NXattenuator>?
           <attenuator_transmission />
