@@ -147,6 +147,7 @@ map](http://www.lbl.gov/Workplace/lab-site-map.html_LBL_campus_map "wikilink").
     and a way to modify a working copy on the website
 -   It would be useful if NeXus could support arrays of strings
 -   Source and target of a link must have same name
+-   Java package name should be org.nexusformat
 
 Photos
 ------

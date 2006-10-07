@@ -119,6 +119,7 @@ please refer to the [[http://www.lbl.gov/Workplace/lab-site-map.html LBL campus 
 * Design and implement a way to deal with having approved definitions and a way to modify a working copy on the website
 * It would be useful if NeXus could support arrays of strings
 * Source and target of a link must have same name
+* Java package name should be org.nexusformat
 
 ==Photos==
 * [[NIAC2006LBL_photos | Group photos]]
