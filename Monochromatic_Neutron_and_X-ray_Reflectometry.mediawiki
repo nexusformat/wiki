@@ -76,28 +76,14 @@ problem.  In either case a solution similar to that in TAS can be applied.
       </NXgeometry>
     </NXaperture>
 
-    <!-- 
-      The polarizer-flipper-guidefield combination selects polarization vectors 
-      in and out of the sample.  A number of scans are required to tune the 
-      instrument so that polarization is either 'up' or 'down' on the sample.  
-      On correctly tuned instruments the polarization angle selected should 
-      be recorded by the flipper using polar_angle relative to the surface 
-      (0/180 for +/-, or with out of plane polarization, 90/270 for +/-).  
-      The polarization efficiency must be determined from a spectrum scan
-      and the appropriate correction applied to the data.
-      Raw values from the instrument, such as time dependent field applied
-      to flipper coils or current on the current sheet can be recorded for
-      specialized reduction programs which know how to handle them.
+    <NXspin name="presample_spin">
+      <azimuthal_angle type="NX_FLOAT[np]" units="" />
+    </NXspin>
+    <NXspin name="predetector_spin">
+      <azimuthal_angle type="NX_FLOAT[np]" units="" />
+    </NXspin>
 
-      In practice, these fields can be dropped because we are tagging the
-      data entry with polarization ++, etc.
-      -->
-    <NXpolarizer name="presample_polarizer">?</NXpolarizer>
-    <NXflipper name="presample_flipper">?</NXflipper>
-
-    <NXpolarizer name="predetector_polarizer">?</NXpolarizer>
-    <NXflipper name="predetector_flipper">?</NXflipper>
-
+    <NXspin name="predetector_spin" />
 
     <!-- detector may be protected by an attenuator and/or a beam stop -->
     <NXattenuator>?
