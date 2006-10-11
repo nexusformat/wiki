@@ -27,7 +27,7 @@ Nexus file.
                         <probe>"x-ray"</probe>
                     </NXsource>
                     <NXpositioner name="sampleX">
-                        <value>[3001.0, 3002.0, 3003.0]</value>
+                        <sampleX>[3001.0, 3002.0, 3003.0]</value>
                     </NXpositioner>
                     <NXpositioner name="time">
                         <time>[1.22, 2.34, 3.53]</time>
@@ -53,7 +53,7 @@ Nexus file.
                 </sampleX>
                 <time axis="1" primary="2">
                   {Link to values in NXpositioner}
-                  </time>
+                </time>
             </NXdata>
             <NXdata name="detector2">
                 <data>{Link to detector2 counts}</data>
