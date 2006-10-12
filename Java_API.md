@@ -12,17 +12,19 @@ programs written in the programming language Java. This API was
 implemented by Java code calling the original C language NeXus API
 through the Java Native Methods Interface.
 
-**Documentation**
+### Documentation
 
 The following documentation is browsable online:
 
-1) The NeXus for Java API general instructions including installation
-notes, instructions for running NeXus for Java programs and a brief
-introduction to the API. 2) A verbose tutorial for the NeXus for Java
-API. 3) The API Reference. 4) Finally, the source code for the test
-driver for the API which als serves as a documented usage example.
+1.  The NeXus for Java API general instructions including installation
+    notes, instructions for running NeXus for Java programs and a brief
+    introduction to the API.
+2.  A verbose tutorial for the NeXus for Java API.
+3.  The API Reference.
+4.  Finally, the source code for the test driver for the API which also
+    serves as a documented usage example.
 
-**Acknowledgement**
+### Acknowledgement
 
 All the code for number type conversion has been taken from the Java HDF
 Interface library provided by NCSA. JHI also served as an inspiration
@@ -34,7 +36,7 @@ files and the shared libraries necessary to run the NeXus for Java API
 on the platforms supported. By downloading anything from here you agree
 to the following disclaimer:
 
-DISCLAIMER
+### DISCLAIMER
 
 THIS SOFTWARE IS PROVIDED BY THE AUTHORS AND THE CONTRIBUTORS “AS IS”
 WITH NO WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED. In no event
