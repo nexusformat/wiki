@@ -16,10 +16,11 @@ through the Java Native Methods Interface.
 
 The following documentation is browsable online:
 
-`   ** The NeXus for Java API general instructions including installation notes, instructions for running NeXus for Java programs and a brief introduction to the API.`  
-`   ** A verbose tutorial for the NeXus for Java API.`  
-`   ** The API Reference.`  
-`   ** Finally, the source code for the test driver for the API which als serves as a documented usage example. `
+1) The NeXus for Java API general instructions including installation
+notes, instructions for running NeXus for Java programs and a brief
+introduction to the API. 2) A verbose tutorial for the NeXus for Java
+API. 3) The API Reference. 4) Finally, the source code for the test
+driver for the API which als serves as a documented usage example.
 
 **Acknowledgement**
 
