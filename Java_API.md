@@ -16,12 +16,12 @@ through the Java Native Methods Interface.
 
 The following documentation is browsable online:
 
-`   * The NeXus for Java API general instructions including installation notes, instructions for running NeXus for Java programs and a brief introduction to the API.`  
-`   * A verbose tutorial for the NeXus for Java API.`  
-`   * The API Reference.`  
-`   * Finally, the source code for the test driver for the API which als serves as a documented usage example. `
+`   ** The NeXus for Java API general instructions including installation notes, instructions for running NeXus for Java programs and a brief introduction to the API.`  
+`   ** A verbose tutorial for the NeXus for Java API.`  
+`   ** The API Reference.`  
+`   ** Finally, the source code for the test driver for the API which als serves as a documented usage example. `
 
-*' Acknowledgement*'
+**Acknowledgement**
 
 All the code for number type conversion has been taken from the Java HDF
 Interface library provided by NCSA. JHI also served as an inspiration
