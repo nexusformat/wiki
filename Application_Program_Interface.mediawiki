@@ -494,6 +494,9 @@ yum install hdf hdf-devel hdf5 hdf5-devel
 </pre>
 *[http://nexus.isis.rl.ac.uk/kits/rpm/ Download latest NeXus development snapshot as RPM]
 
+===Microsoft Windows Install Kit===
+[http://nexus.isis.rl.ac.uk/kits/windows/ Windows Installer kits for NeXus]
+
 ===CYGWIN Kits===
 HDF4 is not supported under CYGWIN - both HDF5 and MXML are supported and can be downloaded and built as usual. When configuring HDF5 you should explicitly pass a prefix to the configure script to make sure the libraries are installed in a "usual" location i.e.
 <pre>

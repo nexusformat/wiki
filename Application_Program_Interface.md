@@ -703,6 +703,11 @@ can be installed with
 -   [Download latest NeXus development snapshot as
     RPM](http://nexus.isis.rl.ac.uk/kits/rpm/)
 
+### Microsoft Windows Install Kit
+
+[Windows Installer kits for
+NeXus](http://nexus.isis.rl.ac.uk/kits/windows/)
+
 ### CYGWIN Kits
 
 HDF4 is not supported under CYGWIN - both HDF5 and MXML are supported
