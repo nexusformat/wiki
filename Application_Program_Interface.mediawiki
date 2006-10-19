@@ -493,6 +493,7 @@ If you are using [http://fedora.redhat.com/ Fedora Core] Linux, pre-built hdf pa
 yum install hdf hdf-devel hdf5 hdf5-devel
 </pre>
 *[http://nexus.isis.rl.ac.uk/kits/rpm/ Download latest NeXus development snapshot as RPM]
+*[[SubversionAccess]]
 
 ===Microsoft Windows Install Kit===
 [http://nexus.isis.rl.ac.uk/kits/windows/ Windows Installer kits for NeXus]

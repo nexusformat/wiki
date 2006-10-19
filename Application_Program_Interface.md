@@ -702,6 +702,7 @@ can be installed with
 
 -   [Download latest NeXus development snapshot as
     RPM](http://nexus.isis.rl.ac.uk/kits/rpm/)
+-   [SubversionAccess](SubversionAccess "wikilink")
 
 ### Microsoft Windows Install Kit
 
