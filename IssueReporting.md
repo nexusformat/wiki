@@ -7,8 +7,8 @@ layout: wiki
 NeXus is using [TRAC](http://trac.edgewall.org) for problem/issue
 reporting. You can browse issues without logging on, but to report
 issues you will need to login using your WIKI username and password (the
-login notes mentioned for
-[SubversionAccess](SubversionAccess "wikilink") also apply)
+login notes mentioned for write access to the
+[SubversionServer](SubversionServer "wikilink") apply to TRAC login too)
 
 -   [Browse/Report issues with the NeXus
     library](http://trac.nexusformat.org/code)
