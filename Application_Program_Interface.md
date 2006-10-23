@@ -628,7 +628,7 @@ See the README file for further instructions.
     v3.0.0](http://www.nexus.anl.gov/downloads/nexus-3.0.0.tar.gz)
 -   [Download latest NeXus development
     snapshots](http://nexus.isis.rl.ac.uk/kits/)
--   [NeXus CVS server](http://nexus.isis.rl.ac.uk/cgi-bin/viewcvs.cgi)
+-   [SubversionServer](SubversionServer "wikilink")
 
 ### RPM Distribution Kits
 
@@ -702,7 +702,7 @@ can be installed with
 
 -   [Download latest NeXus development snapshot as
     RPM](http://nexus.isis.rl.ac.uk/kits/rpm/)
--   [SubversionAccess](SubversionAccess "wikilink")
+-   [SubversionServer](SubversionServer "wikilink")
 
 ### Microsoft Windows Install Kit
 

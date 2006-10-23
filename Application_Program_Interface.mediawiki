@@ -447,7 +447,7 @@ To find out how to customize the installation, ''e.g.'', to choose different ins
 See the README file for further instructions.
 *[http://www.nexus.anl.gov/downloads/nexus-3.0.0.tar.gz Download NeXus API v3.0.0]
 *[http://nexus.isis.rl.ac.uk/kits/ Download latest NeXus development snapshots]
-*[http://nexus.isis.rl.ac.uk/cgi-bin/viewcvs.cgi NeXus CVS server]
+*[[SubversionServer]]
 
 ===RPM Distribution Kits===
 To install and use NeXus you will need to install all of the binary RPMS - these were built on a Fedora Core 2 Linux machine. Install using
@@ -493,7 +493,7 @@ If you are using [http://fedora.redhat.com/ Fedora Core] Linux, pre-built hdf pa
 yum install hdf hdf-devel hdf5 hdf5-devel
 </pre>
 *[http://nexus.isis.rl.ac.uk/kits/rpm/ Download latest NeXus development snapshot as RPM]
-*[[SubversionAccess]]
+*[[SubversionServer]]
 
 ===Microsoft Windows Install Kit===
 [http://nexus.isis.rl.ac.uk/kits/windows/ Windows Installer kits for NeXus]
