@@ -30,9 +30,9 @@ Meta-DTD Definition
   
 This should be followed by a comment block giving the URL of the XML
 file, the name of the editor, the keyword $Id$, which will generate a
-revision number when the file is committed to the [NeXus CVS
-server](http://nexus.isis.rl.ac.uk/cgi-bin/viewcvs.cgi/), and a brief
-description of the file, e.g.
+revision number when the file is committed to the
+[SubversionServer](SubversionServer "wikilink"), and a brief description
+of the file, e.g.
 
 <!-- -->
 
