@@ -220,3 +220,4 @@ The source code provides an example of how to write a NeXus reader. The test pro
 The other sections of this web site give much more detailed descriptions of the NeXus data format.
 ;[[Design|NeXus Design]]:This describes NeXus' hierarchical design, and gives more information on how to construct valid groups.
 ;[[Application_Program_Interface|NeXus API]]:This describes the NeXus programming interface, with lists of all the subroutines and supported languages.
+;[[MailingLists|NeXus Mailing Lists]]:NeXus mailing lists
