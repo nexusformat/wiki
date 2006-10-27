@@ -4,4 +4,4 @@ permalink: Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer/
 layout: wiki
 ---
 
-<nxformat file="NXtofnigs.xml"></nxformat>
+<nxformattest file="NXtofnigs.xml" tree="yes"></nxformattest>
