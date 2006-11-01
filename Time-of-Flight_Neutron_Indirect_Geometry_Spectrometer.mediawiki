@@ -1,1 +1,1 @@
-<nxformattest file="NXtofnigs.xml" tree="yes"></nxformattest>
+<nxformat file="NXtofnigs.xml" tree="yes"></nxformat>
