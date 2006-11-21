@@ -748,10 +748,5 @@ Reporting Bugs in the NeXus API
 -------------------------------
 
 If you encounter any bugs in the installation or running of the NeXus
-API, please report them online using the ISIS Bugzilla reporting system.
-
--   \[<http://bugs.isis.rl.ac.uk/buglist.cgi?query_format=specific&order=relevance+desc&bug_status=__open__&product=NeXus&content>=
-    List current NeXus bug reports\]
--   [Enter a new NeXus bug
-    report](http://bugs.isis.rl.ac.uk/enter_bug.cgi?product=NeXus)
-
+API, please report them online using our
+[IssueReporting](IssueReporting "wikilink") system.
