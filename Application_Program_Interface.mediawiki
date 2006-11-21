@@ -523,7 +523,3 @@ This script links in the various libraries for you and reading its contents woul
 If you encounter any bugs in the installation or running of the NeXus API, please report them online using the ISIS Bugzilla reporting system.
 *[http://bugs.isis.rl.ac.uk/buglist.cgi?query_format=specific&order=relevance+desc&bug_status=__open__&product=NeXus&content= List current NeXus bug reports]
 *[http://bugs.isis.rl.ac.uk/enter_bug.cgi?product=NeXus Enter a new NeXus bug report]
-
-==Mailing Lists==
-*[http://www.neutron.anl.gov/mailman/listinfo/nexus-developers/ NeXus developers mailing list] and [http://www.neutron.anl.gov/pipermail/nexus-developers/ message archive]
-*[http://www.neutron.anl.gov/mailman/listinfo/nexus-cvs NeXus CVS (source code changes) mailing list] and [http://www.neutron.anl.gov/pipermail/nexus-cvs/ message archive]
