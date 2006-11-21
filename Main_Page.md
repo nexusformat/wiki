@@ -18,6 +18,7 @@ in the analysis and visualization of neutron, x-ray, and muon data.
 [NeXus Utilities](Utilities "wikilink"):Software applications that browse, plot, and analyze NeXus data.  
 [NeXus FAQ](FAQ "wikilink"):A list of commonly asked questions about NeXus.  
 [NeXus Discussions](Discussions "wikilink"):A forum for discussing any aspects of the NeXus format.  
+[NeXus Mailing Lists](Mailinglists "wikilink"):Mailing lists covering different aspects of the NeXus format.  
 [NeXus International Advisory Committee](NIAC "wikilink"):Charged with supervising the development and maintenance of the NeXus format.  
 
 :\* LBL on October 5-6, 2006. - [NIAC'2006-2](NIAC2006LBL "wikilink")
