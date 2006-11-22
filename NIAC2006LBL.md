@@ -138,8 +138,8 @@ map](http://www.lbl.gov/Workplace/lab-site-map.html_LBL_campus_map "wikilink").
     control) / [Bugzilla](http://www.bugzilla.org/) (for bugs/issues)
     system to using [Subversion](http://subversion.tigris.org/) /
     [TRAC](http://trac.edgewall.org/). Freddie has set up two sites at
-    [<http://svn.nexusformat.org>](http://svn.nexusformat.org) and
-    [<http://trac.nexusformat.org>](http://trac.nexusformat.org) for
+    [<http://svn.nexusformat.org/code>](http://svn.nexusformat.org/code)
+    and [<http://trac.nexusformat.org>](http://trac.nexusformat.org) for
     testing
 -   Move mailing list to nexusformat.org
 -   Determine location to store definitions

@@ -113,7 +113,7 @@ please refer to the [[http://www.lbl.gov/Workplace/lab-site-map.html LBL campus 
 
 ====API/Technical Issues====
 * Improving NeXus internal code documention on private structures and functions. Only API developer needs to know about these, but at the moment the knowledge is restricted to a few people. The existing in-code documentation needs to be tidied up and it would be a good idea if programs such as [http://www.stack.nl/~dimitri/doxygen/index.html Doxygen] could parse it.
-* Move from the current [http://www.nongnu.org/cvs/ CVS] (for version control) / [http://www.bugzilla.org/ Bugzilla] (for bugs/issues) system to using [http://subversion.tigris.org/ Subversion] / [http://trac.edgewall.org/ TRAC]. Freddie has set up two sites at [http://svn.nexusformat.org http://svn.nexusformat.org] and [http://trac.nexusformat.org http://trac.nexusformat.org] for testing
+* Move from the current [http://www.nongnu.org/cvs/ CVS] (for version control) / [http://www.bugzilla.org/ Bugzilla] (for bugs/issues) system to using [http://subversion.tigris.org/ Subversion] / [http://trac.edgewall.org/ TRAC]. Freddie has set up two sites at [http://svn.nexusformat.org/code http://svn.nexusformat.org/code] and [http://trac.nexusformat.org http://trac.nexusformat.org] for testing
 * Move mailing list to nexusformat.org
 * Determine location to store definitions
 * Design and implement a way to deal with having approved definitions and a way to modify a working copy on the website
