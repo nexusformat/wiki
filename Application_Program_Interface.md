@@ -625,9 +625,9 @@ different installation directories, type
 See the README file for further instructions.
 
 -   [Download NeXus API
-    v3.0.0](http://www.nexus.anl.gov/downloads/nexus-3.0.0.tar.gz)
+    v3.0.0](http://download.nexusformat.org/kits/nexus-3.0.0.tar.gz)
 -   [Download latest NeXus development
-    snapshots](http://nexus.isis.rl.ac.uk/kits/)
+    snapshots](http://download.nexusformat.org/kits/)
 -   [SubversionServer](SubversionServer "wikilink")
 
 ### RPM Distribution Kits
@@ -666,30 +666,30 @@ The following packages are required:
 <thead>
 <tr class="header">
 <th><p>SZIP</p></th>
-<th align="center"><p><a href="http://nexus.isis.rl.ac.uk/kits/rpm/szip-2.0-1.i386.rpm">i386 Binary RPM</a>|</p></th>
-<th align="center"><p><a href="http://nexus.isis.rl.ac.uk/kits/rpm/szip-2.0-1.src.rpm">Source RPM</a></p></th>
+<th align="center"><p><a href="http://download.nexusformat.org/kits/rpm/szip-2.0-1.i386.rpm">i386 Binary RPM</a>|</p></th>
+<th align="center"><p><a href="http://download.nexusformat.org/kits/rpm/szip-2.0-1.src.rpm">Source RPM</a></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>| HDF4</p></td>
-<td align="center"><p><a href="http://nexus.isis.rl.ac.uk/kits/rpm/hdf-4.2.1-1.i386.rpm">i386 Binary RPM</a></p></td>
-<td align="center"><p><a href="http://nexus.isis.rl.ac.uk/kits/rpm/hdf-4.2.1-1.src.rpm">Source RPM</a></p></td>
+<td align="center"><p><a href="http://download.nexusformat.org/kits/rpm/hdf-4.2.1-1.i386.rpm">i386 Binary RPM</a></p></td>
+<td align="center"><p><a href="http://download.nexusformat.org/kits/rpm/hdf-4.2.1-1.src.rpm">Source RPM</a></p></td>
 </tr>
 <tr class="even">
 <td><p>| HDF5</p></td>
-<td align="center"><p><a href="http://nexus.isis.rl.ac.uk/kits/rpm/hdf5-1.6.4-1.i386.rpm">i386 Binary RPM</a></p></td>
-<td align="center"><p><a href="http://nexus.isis.rl.ac.uk/kits/rpm/hdf5-1.6.4-1.src.rpm">Source RPM</a></p></td>
+<td align="center"><p><a href="http://download.nexusformat.org/kits/rpm/hdf5-1.6.4-1.i386.rpm">i386 Binary RPM</a></p></td>
+<td align="center"><p><a href="http://download.nexusformat.org/kits/rpm/hdf5-1.6.4-1.src.rpm">Source RPM</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>| MXML</p></td>
-<td align="center"><p><a href="http://nexus.isis.rl.ac.uk/kits/rpm/mxml-2.2.2-1.i386.rpm">i386 Binary RPM</a></p></td>
-<td align="center"><p><a href="http://nexus.isis.rl.ac.uk/kits/rpm/mxml-2.2.2-1.src.rpm">Source RPM</a></p></td>
+<td align="center"><p><a href="http://download.nexusformat.org/kits/rpm/mxml-2.2.2-1.i386.rpm">i386 Binary RPM</a></p></td>
+<td align="center"><p><a href="http://download.nexusformat.org/kits/rpm/mxml-2.2.2-1.src.rpm">Source RPM</a></p></td>
 </tr>
 <tr class="even">
 <td><p>| NeXus</p></td>
-<td align="center"><p><a href="http://www.nexus.anl.gov/nexus-3.0.0-1.i386.rpm">i386 Binary RPM</a></p></td>
-<td align="center"><p><a href="http://www.nexus.anl.gov/nexus-3.0.0-1.src.rpm">Source RPM</a></p></td>
+<td align="center"><p><a href="http://download.nexusformat.org/kits/rpm/nexus-3.0.0-1.i386.rpm">i386 Binary RPM</a></p></td>
+<td align="center"><p><a href="http://download.nexusformat.org/kits/rpm/nexus-3.0.0-1.src.rpm">Source RPM</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -701,13 +701,13 @@ can be installed with
     yum install hdf hdf-devel hdf5 hdf5-devel
 
 -   [Download latest NeXus development snapshot as
-    RPM](http://nexus.isis.rl.ac.uk/kits/rpm/)
+    RPM](http://download.nexusformat.org/kits/rpm/)
 -   [SubversionServer](SubversionServer "wikilink")
 
 ### Microsoft Windows Install Kit
 
 [Windows Installer kits for
-NeXus](http://nexus.isis.rl.ac.uk/kits/windows/)
+NeXus](http://download.nexusformat.org/kits/windows/)
 
 ### CYGWIN Kits
 

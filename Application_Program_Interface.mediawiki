@@ -445,8 +445,8 @@ To find out how to customize the installation, ''e.g.'', to choose different ins
 % ./configure --help
 </pre>
 See the README file for further instructions.
-*[http://www.nexus.anl.gov/downloads/nexus-3.0.0.tar.gz Download NeXus API v3.0.0]
-*[http://nexus.isis.rl.ac.uk/kits/ Download latest NeXus development snapshots]
+*[http://download.nexusformat.org/kits/nexus-3.0.0.tar.gz Download NeXus API v3.0.0]
+*[http://download.nexusformat.org/kits/ Download latest NeXus development snapshots]
 *[[SubversionServer]]
 
 ===RPM Distribution Kits===
@@ -468,35 +468,35 @@ The following packages are required:
 {| {{Tablestyle}}
 |-
 ! {{Headcellstyle}} width="20%" | SZIP
-| align="center" width="40%" | [http://nexus.isis.rl.ac.uk/kits/rpm/szip-2.0-1.i386.rpm i386 Binary RPM]| 
-| align="center" width="40%" | [http://nexus.isis.rl.ac.uk/kits/rpm/szip-2.0-1.src.rpm Source RPM]
+| align="center" width="40%" | [http://download.nexusformat.org/kits/rpm/szip-2.0-1.i386.rpm i386 Binary RPM]| 
+| align="center" width="40%" | [http://download.nexusformat.org/kits/rpm/szip-2.0-1.src.rpm Source RPM]
 |-
 ! {{Headcellstyle}} | HDF4
-| align="center" | [http://nexus.isis.rl.ac.uk/kits/rpm/hdf-4.2.1-1.i386.rpm i386 Binary RPM]
-| align="center" | [http://nexus.isis.rl.ac.uk/kits/rpm/hdf-4.2.1-1.src.rpm Source RPM]
+| align="center" | [http://download.nexusformat.org/kits/rpm/hdf-4.2.1-1.i386.rpm i386 Binary RPM]
+| align="center" | [http://download.nexusformat.org/kits/rpm/hdf-4.2.1-1.src.rpm Source RPM]
 |-
 ! {{Headcellstyle}} | HDF5
-| align="center" | [http://nexus.isis.rl.ac.uk/kits/rpm/hdf5-1.6.4-1.i386.rpm i386 Binary RPM]
-| align="center" | [http://nexus.isis.rl.ac.uk/kits/rpm/hdf5-1.6.4-1.src.rpm Source RPM]
+| align="center" | [http://download.nexusformat.org/kits/rpm/hdf5-1.6.4-1.i386.rpm i386 Binary RPM]
+| align="center" | [http://download.nexusformat.org/kits/rpm/hdf5-1.6.4-1.src.rpm Source RPM]
 |-
 ! {{Headcellstyle}} | MXML
-| align="center" | [http://nexus.isis.rl.ac.uk/kits/rpm/mxml-2.2.2-1.i386.rpm i386 Binary RPM]
-| align="center" | [http://nexus.isis.rl.ac.uk/kits/rpm/mxml-2.2.2-1.src.rpm Source RPM]
+| align="center" | [http://download.nexusformat.org/kits/rpm/mxml-2.2.2-1.i386.rpm i386 Binary RPM]
+| align="center" | [http://download.nexusformat.org/kits/rpm/mxml-2.2.2-1.src.rpm Source RPM]
 |-
 ! {{Headcellstyle}} | NeXus
-| align="center" | [http://www.nexus.anl.gov/nexus-3.0.0-1.i386.rpm i386 Binary RPM]
-| align="center" | [http://www.nexus.anl.gov/nexus-3.0.0-1.src.rpm Source RPM]
+| align="center" | [http://download.nexusformat.org/kits/rpm/nexus-3.0.0-1.i386.rpm i386 Binary RPM]
+| align="center" | [http://download.nexusformat.org/kits/rpm/nexus-3.0.0-1.src.rpm Source RPM]
 |}
 
 If you are using [http://fedora.redhat.com/ Fedora Core] Linux, pre-built hdf packages are contained in the fedora-extras repository and can be installed with
 <pre>
 yum install hdf hdf-devel hdf5 hdf5-devel
 </pre>
-*[http://nexus.isis.rl.ac.uk/kits/rpm/ Download latest NeXus development snapshot as RPM]
+*[http://download.nexusformat.org/kits/rpm/ Download latest NeXus development snapshot as RPM]
 *[[SubversionServer]]
 
 ===Microsoft Windows Install Kit===
-[http://nexus.isis.rl.ac.uk/kits/windows/ Windows Installer kits for NeXus]
+[http://download.nexusformat.org/kits/windows/ Windows Installer kits for NeXus]
 
 ===CYGWIN Kits===
 HDF4 is not supported under CYGWIN - both HDF5 and MXML are supported and can be downloaded and built as usual. When configuring HDF5 you should explicitly pass a prefix to the configure script to make sure the libraries are installed in a "usual" location i.e.
