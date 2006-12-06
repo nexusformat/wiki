@@ -594,7 +594,7 @@ HDF source code since precompiled object libraries exist for a variety
 of operating systems including Windows, Mac OS X, Linux, and various
 other flavors of Unix. Check the HDF web pages for more information:
 
--   <http://http://www.hdfgroup.org/>
+-   <http://www.hdfgroup.org/>
 
 Version 3.0.0 of the NeXus API allows the reading and writing of NeXus
 files in XML. This uses the Mini-XML library, developed by Michael
