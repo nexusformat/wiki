@@ -7,6 +7,7 @@ layout: wiki
 2006
 ----
 
+Thursday, December 7, 2006: Site updated to MediaWiki 1.8.2  
 Tuesday, November 28, 2006: A NeXus install kit for Microsoft Windows is [now available](http://download.nexusformat.org/kits/windows) The kit includes the standard NeXus applications as well as libraries for building applications with both [MinGW](http://www.mingw.org/) and Microsoft Visual Studio.  
 Tuesday, November 21, 2006: The NeXus [MailingLists](MailingLists "wikilink") have been moved to a [new server](http://lists.nexusformat.org). Future postings should be made to *listname*@nexusformat.org rather than to *listname*@anl.gov  
 Tuesday, September 26, 2006: The NeXus WIKI has been moved to new site at [<http://www.nexusformat.org/>](http://www.nexusformat.org/) and updated to MediaWiki 1.7.1  
