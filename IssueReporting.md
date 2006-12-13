@@ -19,6 +19,8 @@ NeXus Library and Applications
 
 -   [Report a new issue](http://trac.nexusformat.org/code)
 -   [View current issues](http://trac.nexusformat.org/code/report/1)
+-   [Archive of ticket update
+    emails](http://lists.nexusformat.org/pipermail/nexus-code-tickets/)
 
 NeXus Instrument/Base Class Definitions
 ---------------------------------------
@@ -26,4 +28,6 @@ NeXus Instrument/Base Class Definitions
 -   [Report a new issue](http://trac.nexusformat.org/definitions)
 -   [View current
     issues](http://trac.nexusformat.org/definitions/report/1)
+-   [Archive of ticket update
+    emails](http://lists.nexusformat.org/pipermail/nexus-definitions-tickets/)
 
