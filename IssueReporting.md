@@ -10,8 +10,16 @@ issues you will need to login using your WIKI username and password (the
 login notes mentioned for write access to the
 [SubversionServer](SubversionServer "wikilink") apply to TRAC login too)
 
--   [Browse/Report issues with the NeXus
-    library](http://trac.nexusformat.org/code)
--   [Browse/Report issues with NeXus instrument/base class
-    definitions](http://trac.nexusformat.org/definitions)
+NeXus Library and Applications
+------------------------------
+
+-   [Report a new issue](http://trac.nexusformat.org/code)
+-   [View current issues](http://trac.nexusformat.org/code/report/1)
+
+NeXus Instrument/Base Class Definitions
+---------------------------------------
+
+-   [Report a new issue](http://trac.nexusformat.org/definitions)
+-   [View current
+    issues](http://trac.nexusformat.org/definitions/report/1)
 

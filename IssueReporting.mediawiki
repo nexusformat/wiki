@@ -1,4 +1,10 @@
 NeXus is using [http://trac.edgewall.org TRAC] for problem/issue reporting. You can browse issues without logging on, but to report issues you will need to login using your WIKI username and password (the login notes mentioned for write access to the [[SubversionServer]] apply to TRAC login too)
 
-* [http://trac.nexusformat.org/code Browse/Report issues with the NeXus library]
-* [http://trac.nexusformat.org/definitions Browse/Report issues with NeXus instrument/base class definitions]
+==NeXus Library and Applications==
+* [http://trac.nexusformat.org/code Report a new issue]
+* [http://trac.nexusformat.org/code/report/1 View current issues]
+
+==NeXus Instrument/Base Class Definitions==
+
+* [http://trac.nexusformat.org/definitions Report a new issue]
+* [http://trac.nexusformat.org/definitions/report/1 View current issues]
