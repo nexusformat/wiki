@@ -283,8 +283,7 @@ function a desired format can be choosen for special cases. Please note that cal
 
 ===NXgetdata===
 Reads data values from the currently open data set. Please note that memory overwrite occurs if the caller has not allocated enough memory to hold all the data available. Call NXgetinfo to determine the required dimension sizes. The data set must have been opened by NXopendata.
-;U
-sage:<pre>status = NXgetdata (file_id, data)</pre>
+;Usage:<pre>status = NXgetdata (file_id, data)</pre>
 {{APItable|(NX_OK, NX_ERROR)}}
 |-
 ! {{Headcellstyle}} | Input Arguments

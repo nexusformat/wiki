@@ -280,9 +280,7 @@ memory overwrite occurs if the caller has not allocated enough memory to
 hold all the data available. Call NXgetinfo to determine the required
 dimension sizes. The data set must have been opened by NXopendata.
 
-U  
-
-sage:
+;Usage:
 
     status = NXgetdata (file_id, data)
 
