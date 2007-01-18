@@ -38,7 +38,7 @@ Click on any of the class names below for a more detailed description compiled f
 :::[[NXmirror]]
 :::[[NXmoderator]]
 :::[[NXmonochromator]]
-:::NXpolarizer
+:::[[NXpolarizer]]
 :::[[NXpositioner]]
 :::[[NXsource]]
 :::[[NXvelocity_selector]]

@@ -126,7 +126,7 @@ instrument components e.g. choppers, collimators, detectors.
 
 :::[NXmonochromator](NXmonochromator "wikilink")
 
-:::NXpolarizer
+:::[NXpolarizer](NXpolarizer "wikilink")
 
 :::[NXpositioner](NXpositioner "wikilink")
 
