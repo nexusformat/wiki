@@ -25,4 +25,4 @@ Comments
 Proposal
 --------
 
-<nxformat file="NXtofnpd.xml"></nxformat>
+<nxformat file="NXtofnpd.xml" tree="yes"></nxformat>
