@@ -1,1 +1,1 @@
-<nxformat file="NXmuontd.xml"></nxformat>
+<nxformat file="NXmuontd.xml" tree="yes"></nxformat>
