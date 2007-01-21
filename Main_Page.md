@@ -26,3 +26,4 @@ in the analysis and visualization of neutron, x-ray, and muon data.
 :\* ILL on February 1-3, 2006 - [NIAC'2006](NIAC2006ILL "wikilink")
 
 [Latest News](Latest_News "wikilink"):Recent news and developments concerning the NeXus format.  
+[NeXus Downloads](Download "wikilink"):Download NeXus library and applications  
