@@ -1,12 +1,13 @@
 The NeXus API is distributed under the terms of the GNU Lesser General Public License. For information on using the NeXus API see the [[Application Program Interface]] page. Please report any problems/bugs/suggestions/enhancement requests via our [[IssueReporting]] system.
 
-==External Libraries===
+==Requirements==
+===External Libraries===
 Since NeXus uses HDF as the underlying binary format, it is necessary first to install the HDF subroutine libraries and include files before installing the NeXus API. It is not usually necessary to download the HDF source code since precompiled object libraries exist for a variety of operating systems including Windows, Mac OS X, Linux, and various other flavors of Unix. Check the HDF web pages for more information:
 *http://www.hdfgroup.org/
 Version 3.0.0 of the NeXus API allows the reading and writing of NeXus files in XML. This uses the Mini-XML library, developed by Michael Sweet, which is also available as a precompiled binary library for several operating systems. Please ensure that you install version 2.2.2 or later. Check the Mini-XML web pages for more information:
 *http://www.easysw.com/~mike/mxml/
 
-==Source Code Distribution===
+==NeXus Source Code Distribution==
 The NeXus API may be built from source using one of the installation kits linked below. The compilation uses the GNU Autotools. Download the appropriate gzipped tar file, unpack it, and run the standard configure procedure from the resulting nexus directory. 
 <pre>
 % tar -zxvf nexus-3.0.0.tar.gz
@@ -24,7 +25,8 @@ See the README file for further instructions.
 *[http://download.nexusformat.org/kits/ Download latest NeXus development snapshots]
 *[[SubversionServer]]
 
-===RPM Distribution Kits===
+==NeXus Binary Distributions==
+===Linux RPM Distribution Kits===
 To install and use NeXus you will need to install all of the binary RPMS - these were built on a Fedora Core 2 Linux machine. Install using
 <pre>
 rpm -Uvh file.i386.rpm
