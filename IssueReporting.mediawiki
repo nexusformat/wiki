@@ -6,7 +6,7 @@ Whenever an update is made to a ticket, a message is also posted to the appropri
 * [http://trac.nexusformat.org/code Report a new issue]
 * [http://trac.nexusformat.org/code/report/1 View current issues]
 * [http://lists.nexusformat.org/pipermail/nexus-code-tickets/ Archive of ticket update emails]
-* [http://trac.nexusformat.org/code/timeline Library timeline]
+* [http://trac.nexusformat.org/code/timeline Library timeline (recent ticket and code changes)]
 * [http://trac.nexusformat.org/code/roadmap Library roadmap]
 
 ==NeXus Instrument/Base Class Definitions==

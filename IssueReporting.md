@@ -22,7 +22,8 @@ NeXus Library and Applications
 -   [View current issues](http://trac.nexusformat.org/code/report/1)
 -   [Archive of ticket update
     emails](http://lists.nexusformat.org/pipermail/nexus-code-tickets/)
--   [Library timeline](http://trac.nexusformat.org/code/timeline)
+-   [Library timeline (recent ticket and code
+    changes)](http://trac.nexusformat.org/code/timeline)
 -   [Library roadmap](http://trac.nexusformat.org/code/roadmap)
 
 NeXus Instrument/Base Class Definitions
