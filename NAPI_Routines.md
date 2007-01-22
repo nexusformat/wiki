@@ -157,9 +157,9 @@ dimensions, compressed using the specified protocol.
 
 ;Usage:
 
-    status = NXcompmakedata (file_id, data_name, data_type, rank, dimensions[], compress_type)
+    status = NXcompmakedata (file_id, data_name, data_type, rank, dimensions[], compress_type, bufsize[])
 
-|- ! rowspan=“6” | Input Arguments | file\_id | NXhandle | Identifier of
+|- ! rowspan=“7” | Input Arguments | file\_id | NXhandle | Identifier of
 NeXus file |- | data\_name | char \* | Name of NeXus data set |- |
 data\_type | int |
 
@@ -188,7 +188,16 @@ NX\_COMP\_HUF - Skipping Huffman
 
 NX\_COMP\_RLE - Run Length Encoding
 
-|}
+|- | bufsize | int\[\] | The typical buffersize for writing. |} The
+buffersize requires further explanation. HDF-5 compresses data in
+chunks. And the buffersize is this chunksize. If data is written in one
+go with a NXputdata, this is the dimensions of the data. If data is
+written in slabs, this is the preferred size of the slabs. Please note,
+that this has only a performance impact when writing, it is no show
+stopper. Please note that HDF-4 does not support compression on data
+sets written in slabs: If you want compression with HDF-4, data must be
+written with one call to NXputdata. Compression is ignored for XML-NeXus
+files.
 
 ### NXopendata
 
