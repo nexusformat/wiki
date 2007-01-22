@@ -27,4 +27,4 @@ in the analysis and visualization of neutron, x-ray, and muon data.
 
 [Latest News](Latest_News "wikilink"):Recent news and developments concerning the NeXus format.  
 [NeXus Downloads](Download "wikilink"):Download NeXus library and applications  
-[Issue Reporting](IssueReporting "wikilink"):View or report bugs/problems/enhancement requests for the NeXus library and definitions  
+[Bug/Issue Reporting](IssueReporting "wikilink"):View or report bugs/problems/enhancement requests for the NeXus library and definitions  
