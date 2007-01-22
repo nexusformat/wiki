@@ -1,4 +1,4 @@
-The NeXus API is distributed under the terms of the GNU Lesser General Public License. For information on using the NeXus API see the [[Application Program Interface]] page. Please report any problems/bugs/suggestions/enhancement requests via our [[IssueReporting]] system.
+The NeXus API is distributed under the terms of the GNU Lesser General Public License. For information on using the NeXus API see the [[Application Program Interface]] page. To report or view problems/bugs/suggestions/enhancement requests goto our [[IssueReporting]] system.
 
 ==Requirements==
 ===External Libraries===

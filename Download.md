@@ -7,8 +7,8 @@ layout: wiki
 The NeXus API is distributed under the terms of the GNU Lesser General
 Public License. For information on using the NeXus API see the
 [Application Program
-Interface](Application_Program_Interface "wikilink") page. Please report
-any problems/bugs/suggestions/enhancement requests via our
+Interface](Application_Program_Interface "wikilink") page. To report or
+view problems/bugs/suggestions/enhancement requests goto our
 [IssueReporting](IssueReporting "wikilink") system.
 
 Requirements
