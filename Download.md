@@ -155,5 +155,5 @@ Otherwise you will have to use the **--with-hdf5=/path/to/hdf5** option
 later when configuring NeXus to tell it where to look for hdf5.
 
 After building hdf5, configure and build NeXus using the instructions
-for [ source code distribution](#Source_Code_Distribution "wikilink")
-above.
+for [ source code
+distribution](#NeXus_Source_Code_Distribution "wikilink") above.

@@ -82,4 +82,4 @@ HDF4 is not supported under CYGWIN - both HDF5 and MXML are supported and can be
 </pre>
 Otherwise you will have to use the '''--with-hdf5=/path/to/hdf5''' option later when configuring NeXus to tell it where to look for hdf5. 
 
-After building hdf5, configure and build NeXus using the instructions for [[#Source Code Distribution| source code distribution]] above.
+After building hdf5, configure and build NeXus using the instructions for [[#NeXus Source Code Distribution| source code distribution]] above.
