@@ -34,5 +34,6 @@ NeXus Instrument/Base Class Definitions
     emails](http://lists.nexusformat.org/pipermail/nexus-definitions-tickets/)
 -   [Definitions
     timeline](http://trac.nexusformat.org/definitions/timeline)
--   [Definitions roadmap](http://trac.nexusformat.org/code/roadmap)
+-   [Definitions
+    roadmap](http://trac.nexusformat.org/definitions/roadmap)
 
