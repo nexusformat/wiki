@@ -12,7 +12,8 @@ login notes mentioned for write access to the
 too).
 
 Whenever an update is made to a ticket, a message is also posted to the
-appropriate [ ticket mailing list](Mailing_Lists "wikilink")
+appropriate [ ticket mailing
+list](Mailing_Lists#NeXus_Code_Tickets_Mailing_List "wikilink")
 
 NeXus Library and Applications
 ------------------------------

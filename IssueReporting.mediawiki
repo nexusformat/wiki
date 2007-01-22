@@ -1,6 +1,6 @@
 NeXus is using [http://trac.edgewall.org TRAC] for problem/issue reporting. You can browse issues without logging on, but to report issues you will need to login using your WIKI username and password (the login notes mentioned for write access to the [[SubversionServer]] apply to TRAC login too). 
 
-Whenever an update is made to a ticket, a message is also posted to the appropriate [[Mailing Lists | ticket mailing list]]
+Whenever an update is made to a ticket, a message is also posted to the appropriate [[Mailing Lists#NeXus Code Tickets Mailing List | ticket mailing list]]
 
 ==NeXus Library and Applications==
 * [http://trac.nexusformat.org/code Report a new issue]
