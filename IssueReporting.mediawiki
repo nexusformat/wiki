@@ -14,5 +14,5 @@ Whenever an update is made to a ticket, a message is also posted to the appropri
 * [http://trac.nexusformat.org/definitions Report a new issue]
 * [http://trac.nexusformat.org/definitions/report/1 View current issues]
 * [http://lists.nexusformat.org/pipermail/nexus-definitions-tickets/ Archive of ticket update emails]
-* [http://trac.nexusformat.org/definitions/timeline Definitions timeline]
+* [http://trac.nexusformat.org/definitions/timeline Definitions timeline  (recent ticket and definition changes)]
 * [http://trac.nexusformat.org/definitions/roadmap Definitions roadmap]
