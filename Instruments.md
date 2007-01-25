@@ -9,11 +9,11 @@ constructed. They provide the glossary of items that could, in
 principle, be stored in a standard-conforming NeXus file (other items
 may be inserted into the file if the author wishes, but they won't be
 part of the standard). If you are going to include a particular piece of
-metadata, consult the class definitions to find out what to call it.
-However, to assist those writing data analysis software, it is useful to
-provide more than a glossary; it is important to define the required
-contents of NeXus files that contain data from particular classes of
-neutron, x-ray, or muon instrument.
+metadata, consult the [class definitions](Design "wikilink") to find out
+what to call it. However, to assist those writing data analysis
+software, it is useful to provide more than a glossary; it is important
+to define the required contents of NeXus files that contain data from
+particular classes of neutron, x-ray, or muon instrument.
 
 As part of the NeXus standard, we have identified a number of generic
 instruments that describe an appreciable number of existing instruments
@@ -21,13 +21,16 @@ around the world. Although not identical in every detail, they share
 enough common characteristics, and more importantly, they require
 sufficiently similar modes of data analysis, to make a standard
 description useful. They are in the process of being defined for the
-NeXus standard. The definitions will be in XML using the NeXus Meta-DTD
-format.
+NeXus standard. The definitions will be in XML using the [NeXus Meta-DTD
+format](Metaformat "wikilink").
 
-Instrument List
----------------
+Instrument Definitions List
+---------------------------
 
 ### Ratified
+
+These have been voted on by the [NIAC](NIAC "wikilink") and so are
+official NeXus definitions
 
 -   [NXTOFRaw: Time-of-Flight Raw Data](TOFRaw "wikilink")
 -   [Monochromatic Neutron and X-ray Powder
@@ -41,6 +44,11 @@ Instrument List
     Center for Neutron Research, USA).
 
 ### Proposed
+
+In this case the need for a particular definition has been identified
+and some detailed discussions have taken place; however the definition
+has not yet been voted on by the [NIAC](NIAC "wikilink") and so could
+still undergo modification.
 
 -   [Monochromatic Neutron and X-ray Single Crystal
     Diffractometer](Monochromatic_Neutron_and_X-ray_Single_Crystal_Diffractometer "wikilink")
@@ -56,6 +64,10 @@ Instrument List
     USA)
 
 ### Planned
+
+These definitions are currently being worked on and so could still
+undergo major revisions. When they near completion they will be moved
+into the *Proposed* category above.
 
 -   Diffraction
     -   Protein Crystallography
