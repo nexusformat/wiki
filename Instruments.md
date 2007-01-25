@@ -64,6 +64,9 @@ place; however the definition has not yet been voted on by the
 -   [Processed Data](Processed_Data "wikilink") Editor: [Ray
     Osborn](User%3ARay_Osborn "wikilink") (Argonne National Laboratory,
     USA)
+-   [X-Ray Synchrotron Raw](XESraw "wikilink") Editor: [Stuart
+    Campbell](User%3AStuart_Campbell "wikilink") (Diamond Light Source,
+    UK)
 
 ### Planned
 
