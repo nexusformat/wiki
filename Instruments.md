@@ -32,7 +32,9 @@ Instrument Definitions List
 These have been voted on by the [NIAC](NIAC "wikilink") and so are
 official NeXus definitions
 
--   [NXTOFRaw: Time-of-Flight Raw Data](TOFRaw "wikilink")
+-   [NXTOFRaw: Time-of-Flight Raw Data](TOFRaw "wikilink") Editors:
+    [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink"), [Peter
+    Peterson](User%3APeter_Peterson "wikilink")
 -   [Monochromatic Neutron and X-ray Powder
     Diffraction](Monochromatic_Neutron_and_X-ray_Powder_Diffraction "wikilink")
     Editor: [Mark Könnecke](User%3AMark_Koennecke "wikilink"), PSI
