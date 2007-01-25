@@ -12,7 +12,7 @@ These have been voted on by the [[NIAC]] and so are official NeXus definitions
 *[[Monochromatic Neutron and X-ray Triple-Axis Spectrometer]] Editor: [[User:Nickm|Nicholas Maliszewskyj]] (NIST Center for Neutron Research, USA).
 
 ===Proposed===
-In this case the need for a particular definition has been identified and some detailed discussions have taken place; however the definition has not yet been voted on by the [[NIAC]] and so could still undergo modification.
+In this case the need for a particular definition has been identified, an editor has been assigned and some detailed discussions have taken place; however the definition has not yet been voted on by the [[NIAC]] and so could still undergo modification.
 *[[Monochromatic Neutron and X-ray Single Crystal Diffractometer]] Editor: [[User:Mark_Koennecke|Mark Könnecke]], PSI
 *[[Archive Definition]] Editor: [[User:L.lerusse|Laurent Lerusse]] (CCLRC - Rutherford Appleton Laboratory, e-Science, UK)
 *[[SAS|Monochromatic Neutron and X-ray Small Angle Scattering]] Editor: Ron Ghosh (Institut Laue Langevin, France).

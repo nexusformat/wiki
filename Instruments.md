@@ -45,10 +45,10 @@ official NeXus definitions
 
 ### Proposed
 
-In this case the need for a particular definition has been identified
-and some detailed discussions have taken place; however the definition
-has not yet been voted on by the [NIAC](NIAC "wikilink") and so could
-still undergo modification.
+In this case the need for a particular definition has been identified,
+an editor has been assigned and some detailed discussions have taken
+place; however the definition has not yet been voted on by the
+[NIAC](NIAC "wikilink") and so could still undergo modification.
 
 -   [Monochromatic Neutron and X-ray Single Crystal
     Diffractometer](Monochromatic_Neutron_and_X-ray_Single_Crystal_Diffractometer "wikilink")
