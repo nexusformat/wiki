@@ -106,26 +106,29 @@ The core API comprises the following functional groups:
 This is a list of valid NeXus datatypes.   These constants should be used as arguments when the type has to be specified in any API routine.
 {| {{Tablestyle}}
 |-
-! {{Headcellstyle}} width="30%" | Name
-! {{Headcellstyle}} width="70%" | Description
+! {{Headcellstyle}} width="25%" | Name
+! {{Headcellstyle}} width="10%" | Enum
+! {{Headcellstyle}} width="65%" | Description
 |-
-||NX_CHAR || Data type for character string
+||NX_CHAR || 4 ||Data type for character string
 |-
-|| NX_FLOAT32 || Data type for 4-byte floating point
+|| NX_FLOAT32 || 5 || Data type for 4-byte floating point
 |-
-||NX_FLOAT64 || Data type for 8-byte floating point
+||NX_FLOAT64 || 6 || Data type for 8-byte floating point
 |-
-||NX_INT8 || Data type for 1-byte signed integer
+||NX_INT8 || 20 || Data type for 1-byte signed integer
 |-
-||NX_UINT8 || Data type for 1-byte unsigned integer
+||NX_UINT8 || 21 || Data type for 1-byte unsigned integer
 |-
-||NX_INT16 || Data type for 2-byte signed integer
+||NX_INT16 || 22 || Data type for 2-byte signed integer
 |-
-||NX_UINT16 || Data type for 2-byte unsigned integer
+||NX_UINT16 || 23 || Data type for 2-byte unsigned integer
 |-
-||NX_INT32 || Data type for 4-byte signed integer
+||NX_INT32 || 24 || Data type for 4-byte signed integer
 |-
-||NX_UINT32 || Data type for 4-byte unsigned integer
+||NX_UINT32 || 25 || Data type for 4-byte unsigned integer
+|-
+||NX_BINARY || 21 || Data type for a binary block
 |}
 
 ===C Interface===

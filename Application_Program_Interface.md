@@ -112,51 +112,67 @@ as arguments when the type has to be specified in any API routine.
 
 <table>
 <colgroup>
-<col width="30%" />
-<col width="70%" />
+<col width="25%" />
+<col width="10%" />
+<col width="65%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
+<th><p>Enum</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>|NX_CHAR</p></td>
+<td><p>4</p></td>
 <td><p>Data type for character string</p></td>
 </tr>
 <tr class="even">
 <td><p>| NX_FLOAT32</p></td>
+<td><p>5</p></td>
 <td><p>Data type for 4-byte floating point</p></td>
 </tr>
 <tr class="odd">
 <td><p>|NX_FLOAT64</p></td>
+<td><p>6</p></td>
 <td><p>Data type for 8-byte floating point</p></td>
 </tr>
 <tr class="even">
 <td><p>|NX_INT8</p></td>
+<td><p>20</p></td>
 <td><p>Data type for 1-byte signed integer</p></td>
 </tr>
 <tr class="odd">
 <td><p>|NX_UINT8</p></td>
+<td><p>21</p></td>
 <td><p>Data type for 1-byte unsigned integer</p></td>
 </tr>
 <tr class="even">
 <td><p>|NX_INT16</p></td>
+<td><p>22</p></td>
 <td><p>Data type for 2-byte signed integer</p></td>
 </tr>
 <tr class="odd">
 <td><p>|NX_UINT16</p></td>
+<td><p>23</p></td>
 <td><p>Data type for 2-byte unsigned integer</p></td>
 </tr>
 <tr class="even">
 <td><p>|NX_INT32</p></td>
+<td><p>24</p></td>
 <td><p>Data type for 4-byte signed integer</p></td>
 </tr>
 <tr class="odd">
 <td><p>|NX_UINT32</p></td>
+<td><p>25</p></td>
 <td><p>Data type for 4-byte unsigned integer</p></td>
+</tr>
+<tr class="even">
+<td><p>|NX_BINARY</p></td>
+<td><p>21</p></td>
+<td><p>Data type for a binary block</p></td>
 </tr>
 </tbody>
 </table>
