@@ -6,4 +6,4 @@ If you have a specific subject concerning the NeXus format design, please add it
 *[[Coordinate Systems]]
 *[[Double Linking]]
 *[[Units]]
-*[[containers and inheritance]] - the "has a" / "is a" relationship
+*[[Containers and Inheritance]] - the "has a" / "is a" relationship
