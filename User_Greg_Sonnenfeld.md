@@ -23,4 +23,4 @@ company that supported networks and web services.
 In 2002, I entered the CS department at NMSU. In 2003, despite doing
 very well in CS, I became disinterested in the field and changed my
 major to Engineering physics. Since then i have worked on several
-software engineering projects, the latest being IsomerX.
+software engineering projects, the latest being the Isomer X project.
