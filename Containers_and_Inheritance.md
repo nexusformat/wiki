@@ -12,7 +12,10 @@ object/container-orientated approach to its user defined instrument
 definitions. By allowing base user definitions for components, datasets
 from from full datasets can be expressed as a sum of components.
 
-------------------------------------------------------------------------
+Relationship between Inheritance and Containers in a neXus dataset
+------------------------------------------------------------------
+
+![](COP_neXus_slide1.PNG "COP_neXus_slide1.PNG")
 
 “Instrument” definitions can be assembled in a multitude of ways using
 the neXus predefined classes. An instrument definitions are most often
@@ -29,34 +32,32 @@ A dataset is also a container, and thus contain small data subsets,
 usually base neXus classes. This is a “has a” relationship, as a
 container “has a” data subset.
 
-![](COP_neXus_slide1.PNG "COP_neXus_slide1.PNG")
-
 ------------------------------------------------------------------------
 
-What is of interest in this discussion is the “has a” relationship. A
-parent data set acts as a container for many simpler datasets. If these
-“subsets” are specified independently, a greater deal of compatibility
-and standardization can be achieved between software written by vendors,
+![](COP_neXus_slide2.PNG "fig:COP_neXus_slide2.PNG") What is of interest
+in this discussion is the “has a” relationship. A parent data set acts
+as a container for many simpler datasets. If these “subsets” are
+specified independently, a greater deal of compatibility and
+standardization can be achieved between software written by vendors,
 scientists and engineers working on different aspects of a project.
 
-![](COP_neXus_slide2.PNG "COP_neXus_slide2.PNG")
+user-defined component types can be shared amoung multiple experiment types
+---------------------------------------------------------------------------
 
-------------------------------------------------------------------------
+![](COP_neXus_slide3.PNG "fig:COP_neXus_slide3.PNG") Independent
+component definitions allow vastly different experiments to share common
+equipment or data, without having to redefine the data type for each
+experiment. An equpiment or data library can have, in itself, a standard
+format.
 
-Independent component definitions allow vastly different experiments to
-share common equipment or data, without having to redefine the data type
-for each experiment. An equpiment or data library can have, in itself, a
-standard format. ![](COP_neXus_slide3.PNG "fig:COP_neXus_slide3.PNG")
+User-defined components can be inherited by more specific user components
+-------------------------------------------------------------------------
 
-------------------------------------------------------------------------
-
-**Should additional data be needed for a more complicated equipment or
-data library, it can inherent the previous definition, and add
-additional information. This allows experiments that only require a
-basic component definition to also use datasets that have additional
-data appended.**
-
-![](COP_neXus_slide4.PNG "COP_neXus_slide4.PNG")
+![](COP_neXus_slide4.PNG "fig:COP_neXus_slide4.PNG") Should additional
+data be needed for a more complicated equipment or data library, it can
+inherent the previous definition, and add additional information. This
+allows experiments that only require a basic component definition to
+also use datasets that have additional data appended.
 
 --[Greg Sonnenfeld](User%3AGreg_Sonnenfeld "wikilink") 15:22, 27 January
 2007 (UTC)
