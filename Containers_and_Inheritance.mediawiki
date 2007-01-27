@@ -27,6 +27,15 @@ Independent component definitions allow vastly different experiments to share co
 
 ----
 
-Should additional data be needed for a more complicated equipment or data library, it can inherent the previous definition, and add additional information. This allows experiments that only require a basic component definition to also use datasets that have additional data appended.
+<nowiki>
+
+
+
+</nowiki>
+
+'''Should additional data be needed for a more complicated equipment or data library, it can inherent the previous definition, and add additional information. This allows experiments that only require a basic component definition to also use datasets that have additional data appended.'''
+
 
 [[Image:COP neXus slide4.PNG ]]
+
+--[[User:Greg Sonnenfeld|Greg Sonnenfeld]] 15:22, 27 January 2007 (UTC)

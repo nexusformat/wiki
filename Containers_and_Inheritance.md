@@ -50,10 +50,13 @@ standard format. ![](COP_neXus_slide3.PNG "fig:COP_neXus_slide3.PNG")
 
 ------------------------------------------------------------------------
 
-Should additional data be needed for a more complicated equipment or
+**Should additional data be needed for a more complicated equipment or
 data library, it can inherent the previous definition, and add
 additional information. This allows experiments that only require a
 basic component definition to also use datasets that have additional
-data appended.
+data appended.**
 
 ![](COP_neXus_slide4.PNG "COP_neXus_slide4.PNG")
+
+--[Greg Sonnenfeld](User%3AGreg_Sonnenfeld "wikilink") 15:22, 27 January
+2007 (UTC)
