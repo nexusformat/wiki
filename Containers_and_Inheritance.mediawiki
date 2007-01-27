@@ -1,4 +1,4 @@
-''Currently Under Construction - will be linked to the discussion page when completed''
+''Currently Under Construction - will be linked to the discussion page when reviewed and completed''
 
 This page presents how neXus could benefit from an object/container-orientated approach to its user defined instrument definitions. By allowing base user definitions for components, datasets from from full datasets can be expressed as a sum of components.
 

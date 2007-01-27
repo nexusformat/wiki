@@ -5,7 +5,7 @@ layout: wiki
 ---
 
 *Currently Under Construction - will be linked to the discussion page
-when completed*
+when reviewed and completed*
 
 This page presents how neXus could benefit from an
 object/container-orientated approach to its user defined instrument
