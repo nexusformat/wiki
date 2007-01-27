@@ -19,7 +19,4 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 -   [Coordinate Systems](Coordinate_Systems "wikilink")
 -   [Double Linking](Double_Linking "wikilink")
 -   [Units](Units "wikilink")
--   [Containers and
-    Inheritance](Containers_and_Inheritance "wikilink") - the “has a” /
-    “is a” relationship
 
