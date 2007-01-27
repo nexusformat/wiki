@@ -23,6 +23,7 @@ What is of interest in this discussion is the "has a" relationship. A parent dat
 == user-defined component types can be shared amoung multiple experiment types==
 
 [[Image:COP neXus slide3.PNG ]]
+
 Independent component definitions allow vastly different experiments to share common equipment or data, without having to redefine the data type for each experiment. An equpiment or data library can have, in itself, a standard format. 
 
 
@@ -30,6 +31,7 @@ Independent component definitions allow vastly different experiments to share co
 == User-defined components can be inherited by more specific user components==
 
 [[Image:COP neXus slide4.PNG ]]
+
 Should additional data be needed for a more complicated equipment or data library, it can inherent the previous definition, and add additional information. This allows experiments that only require a basic component definition to also use datasets that have additional data appended.
 
 --[[User:Greg Sonnenfeld|Greg Sonnenfeld]] 15:22, 27 January 2007 (UTC)

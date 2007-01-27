@@ -44,20 +44,23 @@ scientists and engineers working on different aspects of a project.
 user-defined component types can be shared amoung multiple experiment types
 ---------------------------------------------------------------------------
 
-![](COP_neXus_slide3.PNG "fig:COP_neXus_slide3.PNG") Independent
-component definitions allow vastly different experiments to share common
-equipment or data, without having to redefine the data type for each
-experiment. An equpiment or data library can have, in itself, a standard
-format.
+![](COP_neXus_slide3.PNG "COP_neXus_slide3.PNG")
+
+Independent component definitions allow vastly different experiments to
+share common equipment or data, without having to redefine the data type
+for each experiment. An equpiment or data library can have, in itself, a
+standard format.
 
 User-defined components can be inherited by more specific user components
 -------------------------------------------------------------------------
 
-![](COP_neXus_slide4.PNG "fig:COP_neXus_slide4.PNG") Should additional
-data be needed for a more complicated equipment or data library, it can
-inherent the previous definition, and add additional information. This
-allows experiments that only require a basic component definition to
-also use datasets that have additional data appended.
+![](COP_neXus_slide4.PNG "COP_neXus_slide4.PNG")
+
+Should additional data be needed for a more complicated equipment or
+data library, it can inherent the previous definition, and add
+additional information. This allows experiments that only require a
+basic component definition to also use datasets that have additional
+data appended.
 
 --[Greg Sonnenfeld](User%3AGreg_Sonnenfeld "wikilink") 15:22, 27 January
 2007 (UTC)
