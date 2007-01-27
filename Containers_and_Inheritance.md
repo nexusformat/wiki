@@ -34,11 +34,12 @@ container “has a” data subset.
 
 ------------------------------------------------------------------------
 
-![](COP_neXus_slide2.PNG "fig:COP_neXus_slide2.PNG") What is of interest
-in this discussion is the “has a” relationship. A parent data set acts
-as a container for many simpler datasets. If these “subsets” are
-specified independently, a greater deal of compatibility and
-standardization can be achieved between software written by vendors,
+![](COP_neXus_slide2.PNG "COP_neXus_slide2.PNG")
+
+What is of interest in this discussion is the “has a” relationship. A
+parent data set acts as a container for many simpler datasets. If these
+“subsets” are specified independently, a greater deal of compatibility
+and standardization can be achieved between software written by vendors,
 scientists and engineers working on different aspects of a project.
 
 user-defined component types can be shared amoung multiple experiment types
