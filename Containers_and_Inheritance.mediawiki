@@ -1,7 +1,7 @@
+[[Containers and Inheritance]]- the "has a" / "is a" relationship
+
 See discussion-
 
 Currently Under Construction
 
 will be added to discussion when presentation is drafted
-
-[[Containers and Inheritance]]- the "has a" / "is a" relationship
