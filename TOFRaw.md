@@ -9,14 +9,13 @@ NXTOFRAW - A proposal for a NeXus Time-of-Flight Raw Data File Format
 Introduction
 ------------
 
-[NeXus](http://www.nexus.anl.gov/) is moving onto the idea of inherited
-incremental definitions as discussed at the last meeting of the [NeXus
-International Advisory Committee
-(NIAC)](http://www.nexus.anl.gov/nexus_committee.html) – for example
-with powder diffractometers there is a definition for both time
-focussing and total scattering with one being a subset of the other; a
-file can conform to one or both. The initial work on this definition
-comes from discussions between [SNS](http://www.sns.gov/),
+[NeXus](http://www.nexusformat.org/) is moving onto the idea of
+inherited incremental definitions as discussed at the last meeting of
+the [NeXus International Advisory Committee (NIAC)](NIAC "wikilink") –
+for example with powder diffractometers there is a definition for both
+time focussing and total scattering with one being a subset of the
+other; a file can conform to one or both. The initial work on this
+definition comes from discussions between [SNS](http://www.sns.gov/),
 [J-PARC](http://j-parc.jp/index-e.html) and
 [ISIS](http://www.isis.rl.ac.uk/) - the three facilities are interested
 in having a unified base for all instruments to allow for low level
@@ -67,15 +66,13 @@ The NeXus classes we will ultimately consider are then:
     NXdetector_group (proposed)
 
 Some of these classes, such as NXgeometry, are taken directly from what
-was ratified by the
-[NIAC](http://www.nexus.anl.gov/nexus_committee.html).
+was ratified by the [NIAC](NIAC "wikilink").
 
 Conventions Used in this Document
 ---------------------------------
 
 A tabular format is used for ease of viewing and printing rather than
-the [NeXus XML meta-DTD
-format](http://www.nexus.anl.gov/nexus_metaformat.html). The Name column
+the [NeXus XML meta-DTD format](Metaformat "wikilink"). The Name column
 in a table identifies an item in an instance of a NeXus class. Items can
 have extra “meta data” associated with them, which are called attributes
 – these, if any, are listed in the next few lines in the attributes
@@ -102,7 +99,7 @@ The following convention will be used:
 
 This information is also included in a RE column (the name derives from
 the fact that a “Regular Expression” is used here in the [XML DTD
-format](http://www.nexus.anl.gov/nexus_metaformat.html)). Thus:
+format](Metaformat "wikilink")). Thus:
 
 | Font/style in Name Column | RE Column | Meaning                                                                                                | XML DTD symbol |
 |---------------------------|-----------|--------------------------------------------------------------------------------------------------------|----------------|
