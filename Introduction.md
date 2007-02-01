@@ -13,7 +13,8 @@ even institutions, have found it difficult to keep up with new
 developments. A common data format makes it easier, both to exchange
 experimental results and to exchange ideas about how to analyze them. It
 promotes greater cooperation in software development and stimulate the
-design of more sophisticated visualization tools.
+design of more sophisticated visualization tools. For background
+information see the [history of the NeXus format](History "wikilink").
 
 This section is designed to give a brief introduction to NeXus, the data
 format that has been developed in response to these needs. It explains
