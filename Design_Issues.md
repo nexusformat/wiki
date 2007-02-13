@@ -19,4 +19,5 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 -   [Coordinate Systems](Coordinate_Systems "wikilink")
 -   [Double Linking](Double_Linking "wikilink")
 -   [Units](Units "wikilink")
+-   [Housekeeping pre-NeXus2.0](Housekeeping_pre-NeXus2.0 "wikilink")
 
