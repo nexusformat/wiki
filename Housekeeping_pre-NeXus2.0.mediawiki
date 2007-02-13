@@ -11,7 +11,7 @@ As an action item from the NIAC October 5-6, 2006 at LBL, Berkeley, CA, USA, hou
 #* check all units against the standard [[Units]]
 Some of these task may not be possible in the timeframe
 
-===Proposal: Execute housekeeping tasks===
+==Proposal: Execute housekeeping tasks==
 It is proposed to execute these task using XSLT.
 We (ANSTO) have been using regular expression in xslt to clean up the metaDTD for ANSTO use.
 The tasks include:

@@ -27,7 +27,8 @@ Proposal: Definition of housekeeping tasks
 
 Some of these task may not be possible in the timeframe
 
-### Proposal: Execute housekeeping tasks
+Proposal: Execute housekeeping tasks
+------------------------------------
 
 It is proposed to execute these task using XSLT. We (ANSTO) have been
 using regular expression in xslt to clean up the metaDTD for ANSTO use.
