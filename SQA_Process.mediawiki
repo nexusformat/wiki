@@ -13,6 +13,13 @@ For each versioned release of the code there will be two milestones: one associa
 ;4.0 Release: Any defects discovered while testing the '4.0 Ready' milestone.
 
 ==Code Versioning==
+===Numbering Scheme===
+Versions are generically labeled as <tt>major</tt>.<tt>minor</tt>.<tt>patch</tt>.
+* The major number changes with big feature changes. While they won't always break backwards compatibility there is no guarantee.
+* The minor number changes with minor feature changes and bug fix releases.
+* The patch number will not be changed and will always be at '0'.
+
+===Branches and Tags===
 This discussion assumes that the version in progress is '4.0'.
 * Day-to-day changes will be made to the <tt>trunk</tt> of the repository during the 'Ready' phase of development.
 * Once all of the tickets associated with the 'Ready' phase are closed a branch will be created from the trunk. '''this needs to be tested'''

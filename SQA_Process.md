@@ -35,6 +35,18 @@ examples where the release version is '4.0'
 Code Versioning
 ---------------
 
+### Numbering Scheme
+
+Versions are generically labeled as `major`.`minor`.`patch`.
+
+-   The major number changes with big feature changes. While they won't
+    always break backwards compatibility there is no guarantee.
+-   The minor number changes with minor feature changes and bug fix
+    releases.
+-   The patch number will not be changed and will always be at '0'.
+
+### Branches and Tags
+
 This discussion assumes that the version in progress is '4.0'.
 
 -   Day-to-day changes will be made to the `trunk` of the repository
