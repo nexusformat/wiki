@@ -1,0 +1,78 @@
+---
+title: SQA Process
+permalink: SQA_Process/
+layout: wiki
+---
+
+Context
+-------
+
+This process is a living document that is intended to change over time.
+Rather than try to follow 'best practices' from the beginning it was
+decided to document current practices and modify them over time as
+deficiencies are found. To this point the testing suite will be the main
+tool for maintaining quality of the releases and will have additional
+tests added as new features are added and defects are corrected.
+
+Roles
+-----
+
+Release manager: Person in charge of determining what features are to be included in a version, when a milestone should be closed, and oversees the addition of individual tests.  
+
+Milestone Conventions
+---------------------
+
+For each versioned release of the code there will be two milestones: one
+associated with feature enhancement, and one with fixing defects
+introduced by the new features. The following milestone names are
+examples where the release version is '4.0'
+
+4.0 Ready: The next set of features are defined. Known defects can also be added to this milestone.  
+4.0 Release: Any defects discovered while testing the '4.0 Ready' milestone.  
+
+Code Versioning
+---------------
+
+This discussion assumes that the version in progress is '4.0'.
+
+-   Day-to-day changes will be made to the `trunk` of the repository
+    during the 'Ready' phase of development.
+-   Once all of the tickets associated with the 'Ready' phase are closed
+    a branch will be created from the trunk. **this needs to be tested**
+
+<!-- -->
+
+    $svn cp -m "Creating 4.0 branch" https://svn.nexusformat.org/code/trunk https://svn.nexusformat.org/code/branches/4.0
+
+-   Fixes to defects found during the the 'Ready' stage are done in the
+    `branch` and then merged back into the trunk. **this needs to be
+    tested**
+
+<!-- -->
+
+    NEED TO DOCUMENT THE COMMAND
+
+-   Once all of the tickets in the 'Release' stage are completed the
+    `branch` is tagged directly. Note that all changes to the branch
+    should be merged back into the `trunk` by this time as well. **this
+    needs to be tested**
+
+<!-- -->
+
+    $svn cp -m "Tagging 4.0" https://svn.nexusformat.org/code/branches/4.0 https://svn.nexusformat.org/code/tags/4.0.
+
+-   Once the final release is tagged the `branch` can be safely removed.
+    **this needs to be tested**
+
+<!-- -->
+
+    $svn rm -m "Removing branch" https://svn.nexusformat.org/code/branches/4.0
+
+Testing
+-------
+
+The principle of testing is that automated testing will be used to find
+the majority of defects in the code. This decision was made based on the
+fact that The NeXus code is developed almost exclusively by volunteer
+work. All tests that are applicable to a particular configuration will
+be run using `make check`.
