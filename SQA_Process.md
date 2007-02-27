@@ -80,3 +80,11 @@ work. All tests that are applicable to a particular configuration will
 be run using
 
     $make check
+
+As new tests are needed they will be added to the code in python, unless
+another language is more appropriate.
+
+The tests will be run on the following systems:
+
+-   **need to enumerate supported systems**
+
