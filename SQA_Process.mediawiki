@@ -2,7 +2,10 @@
 This process is a living document that is intended to change over time. Rather than try to follow 'best practices' from the beginning it was decided to document current practices and modify them over time as deficiencies are found. To this point the testing suite will be the main tool for maintaining quality of the releases and will have additional tests added as new features are added and defects are corrected.
 
 ==Roles==
-;Release manager: Person in charge of determining what features are to be included in a version, when a milestone should be closed, and oversees the addition of individual tests.
+;Release manager: Person in charge of determining what features are to be included in a version and when a milestone should be closed.
+;Quality manager: Oversees the addition of individual tests coordinates tests being executed with the appropriate configuration on the appropriate systems.
+;Developer: Works on individual changes.
+
 ==Milestone Conventions==
 For each versioned release of the code there will be two milestones: one associated with feature enhancement, and one with fixing defects introduced by the new features. The following milestone names are examples where the release version is '4.0'
 

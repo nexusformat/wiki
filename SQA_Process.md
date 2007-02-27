@@ -17,7 +17,9 @@ tests added as new features are added and defects are corrected.
 Roles
 -----
 
-Release manager: Person in charge of determining what features are to be included in a version, when a milestone should be closed, and oversees the addition of individual tests.  
+Release manager: Person in charge of determining what features are to be included in a version and when a milestone should be closed.  
+Quality manager: Oversees the addition of individual tests coordinates tests being executed with the appropriate configuration on the appropriate systems.  
+Developer: Works on individual changes.  
 
 Milestone Conventions
 ---------------------
