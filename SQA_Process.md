@@ -75,4 +75,6 @@ The principle of testing is that automated testing will be used to find
 the majority of defects in the code. This decision was made based on the
 fact that The NeXus code is developed almost exclusively by volunteer
 work. All tests that are applicable to a particular configuration will
-be run using `make check`.
+be run using
+
+    $make check
