@@ -30,6 +30,14 @@ $svn cp -m "Creating 4.0 branch" https://svn.nexusformat.org/code/trunk https://
 <pre>
 NEED TO DOCUMENT THE COMMAND
 </pre>
+The developer can work on the branch by checking it out directly '''this needs to be tested'''
+<pre>
+svn co https://svn.nexusformat.org/code/branches/4.0 nexus-code-4.0branch
+</pre>
+or using the switch command '''this needs to be tested'''
+<pre>
+svn switch https://svn.nexusformat.org/code/branches/4.0
+</pre>
 * Once all of the tickets in the 'Release' stage are completed the <tt>branch</tt> is tagged directly. Note that all changes to the branch should be merged back into the <tt>trunk</tt> by this time as well. '''this needs to be tested'''
 <pre>
 $svn cp -m "Tagging 4.0" https://svn.nexusformat.org/code/branches/4.0 https://svn.nexusformat.org/code/tags/4.0.

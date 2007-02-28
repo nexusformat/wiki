@@ -66,6 +66,15 @@ This discussion assumes that the version in progress is '4.0'.
 
     NEED TO DOCUMENT THE COMMAND
 
+The developer can work on the branch by checking it out directly **this
+needs to be tested**
+
+    svn co https://svn.nexusformat.org/code/branches/4.0 nexus-code-4.0branch
+
+or using the switch command **this needs to be tested**
+
+    svn switch https://svn.nexusformat.org/code/branches/4.0
+
 -   Once all of the tickets in the 'Release' stage are completed the
     `branch` is tagged directly. Note that all changes to the branch
     should be merged back into the `trunk` by this time as well. **this
