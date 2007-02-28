@@ -34,10 +34,6 @@ NEED TO DOCUMENT THE COMMAND
 <pre>
 $svn cp -m "Tagging 4.0" https://svn.nexusformat.org/code/branches/4.0 https://svn.nexusformat.org/code/tags/4.0.
 </pre>
-* Once the final release is tagged the <tt>branch</tt> can be safely removed. '''this needs to be tested'''
-<pre>
-$svn rm -m "Removing branch" https://svn.nexusformat.org/code/branches/4.0
-</pre>
 
 ==Testing==
 The principle of testing is that automated testing will be used to find the majority of defects in the code. This decision was made based on the fact that The NeXus code is developed almost exclusively by volunteer work. All tests that are applicable to a particular configuration will be run using

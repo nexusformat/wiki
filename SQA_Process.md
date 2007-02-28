@@ -75,13 +75,6 @@ This discussion assumes that the version in progress is '4.0'.
 
     $svn cp -m "Tagging 4.0" https://svn.nexusformat.org/code/branches/4.0 https://svn.nexusformat.org/code/tags/4.0.
 
--   Once the final release is tagged the `branch` can be safely removed.
-    **this needs to be tested**
-
-<!-- -->
-
-    $svn rm -m "Removing branch" https://svn.nexusformat.org/code/branches/4.0
-
 Testing
 -------
 
