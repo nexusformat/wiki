@@ -85,11 +85,17 @@ work. All tests that are applicable to a particular configuration will
 be run using
 
     $make check
+    $make distcheck
+
+The second command will only be run on appropriate systems.
 
 As new tests are needed they will be added to the code in python, unless
 another language is more appropriate.
 
-The tests will be run on the following systems:
+### Supported Systems
 
--   **need to enumerate supported systems**
+**need to enumerate supported systems**
 
+### List of tests
+
+**Need to describe the tests run**

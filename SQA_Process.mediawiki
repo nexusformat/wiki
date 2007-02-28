@@ -39,9 +39,14 @@ $svn cp -m "Tagging 4.0" https://svn.nexusformat.org/code/branches/4.0 https://s
 The principle of testing is that automated testing will be used to find the majority of defects in the code. This decision was made based on the fact that The NeXus code is developed almost exclusively by volunteer work. All tests that are applicable to a particular configuration will be run using
 <pre>
 $make check
+$make distcheck
 </pre>
+The second command will only be run on appropriate systems.
 
 As new tests are needed they will be added to the code in python, unless another language is more appropriate.
 
-The tests will be run on the following systems:
-*'''need to enumerate supported systems'''
+===Supported Systems===
+'''need to enumerate supported systems'''
+
+===List of tests===
+'''Need to describe the tests run'''
