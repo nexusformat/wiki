@@ -18,4 +18,5 @@ Please submit any bugs in the NeXus API via our
 -   [Group Attributes](Group_Attributes "wikilink")
 -   [Linking External Files](Linking_External_Files "wikilink")
 -   [Versioning](Versioning "wikilink")
+-   [Nexus 4 Release Notes](Nexus_4_Release_Notes "wikilink")
 

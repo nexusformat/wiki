@@ -6,3 +6,4 @@ Please submit any bugs in the NeXus API via our [[IssueReporting]] system.
 *[[Group Attributes]]
 *[[Linking External Files]]
 *[[Versioning]]
+*[[Nexus 4 Release Notes]]
