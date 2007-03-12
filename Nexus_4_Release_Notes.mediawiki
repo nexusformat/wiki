@@ -4,8 +4,8 @@ functionality to the core library or to assist in the build process.
 *Extended XML-API to handle unlimited dimensions
 *Add building of Doxygen documentation
 *Add support for two dimensional character arrays
-*Added group attributes to HDF4 (5/2/06)
-*Add NXmakenamedlink (1/9/07) to all three file formats (external linking)
+*Added group attributes to HDF4 (2006/05/02)
+*Add NXmakenamedlink (2007/01/09) to all three file formats (external linking)
 *Add NXprintlink
 *Improved link testing in test suite
 *Allow HDF5 support to read generic HDF5 files
@@ -24,4 +24,4 @@ the 4.0 release.
 ==Upcoming Features==
 Work on these features is still in progress. They are expected to be part 
 of the NeXus 4.1 release.
-*Add skeletal utility functions (NXU) to API (4/26/05)
+*Add skeletal utility functions (NXU) to API (2005/04/26)
