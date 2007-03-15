@@ -16,7 +16,7 @@ should record:
     *Source RPM (.src.rpm)* / *Binary RPM (.i386.rpm)*
 -   The file formats picked up and tested by configure (HDF4/HDF5/XML)
 -   The result of a “make check”
--   Any remarks that are not bugs/failures
+-   Any remarks that are neither bugs nor build/test failures
 
 Please file bug reports for build/test failures into the
 [IssueReporting](IssueReporting "wikilink") system and choose the **rc**
