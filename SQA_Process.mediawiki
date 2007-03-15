@@ -28,14 +28,14 @@ $svn cp -m "Creating 4.0 branch" https://svn.nexusformat.org/code/trunk https://
 </pre>
 This branch is then tagged to create the first beta distribution kit
 <pre>
-$svn cp -m "Creating 4.0beta1 tag" https://svn.nexusformat.org/code/branches/4.0  https://svn.nexusformat.org/code/tags/4.0beta1
+$svn cp -m "Creating 4.0rc1 tag" https://svn.nexusformat.org/code/branches/4.0  https://svn.nexusformat.org/code/tags/4.0rc1
 </pre>
-A distribution kit is then created from this tag and placed on the nexus web site for download and testing. A TRAC version tag "4.0beta1" is also created for filinf bug reports against.
+A distribution kit is then created from this tag and placed on the nexus web site for download and testing. A TRAC version tag "4.0rc1" is also created for filinf bug reports against.
 * Fixes to defects found during the the 'Ready' stage are done in the <tt>branch</tt> and then merged back into the trunk. '''this needs to be tested'''
 <pre>
 NEED TO DOCUMENT THE COMMAND
 </pre>
-* If needed, 4.0beta2 etc. tags are created and kits released
+* If needed, 4.0rc2 etc. tags are created and kits released
 
 The developer can work on the 4.0 branch by checking it out directly '''this needs to be tested'''
 <pre>
@@ -47,7 +47,7 @@ svn switch https://svn.nexusformat.org/code/branches/4.0
 </pre>
 * Once all of the tickets in the 'Release' stage are completed the <tt>branch</tt> is tagged directly. Note that all changes to the branch should be merged back into the <tt>trunk</tt> by this time as well. '''this needs to be tested'''
 <pre>
-$svn cp -m "Tagging 4.0" https://svn.nexusformat.org/code/branches/4.0 https://svn.nexusformat.org/code/tags/4.0.
+$svn cp -m "Tagging 4.0 final release" https://svn.nexusformat.org/code/branches/4.0 https://svn.nexusformat.org/code/tags/4.0.0
 </pre>
 
 ==Testing==
