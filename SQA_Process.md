@@ -58,14 +58,17 @@ This discussion assumes that the version in progress is '4.0'.
 
     $svn cp -m "Creating 4.0 branch" https://svn.nexusformat.org/code/trunk https://svn.nexusformat.org/code/branches/4.0
 
-This branch is then tagged to create the first beta distribution kit
+-   This branch is then tagged to create the first release candidate
+    distribution kit
+
+<!-- -->
 
     $svn cp -m "Creating 4.0rc1 tag" https://svn.nexusformat.org/code/branches/4.0  https://svn.nexusformat.org/code/tags/4.0rc1
 
-A distribution kit is then created from this tag and placed on the nexus
-web site for download and testing. A TRAC version tag “4.0rc1” is also
-created for filinf bug reports against.
-
+-   A distribution kit is then created from this tag and placed on the
+    [NeXus download site](http://download.nexusformat.org/kits/) for
+    testing. An [IssueReporting](IssueReporting "wikilink") version tag
+    “4.0rc1” is also created for filing bug reports against.
 -   Fixes to defects found during the the 'Ready' stage are done in the
     `branch` and then merged back into the trunk. **this needs to be
     tested**
@@ -74,7 +77,8 @@ created for filinf bug reports against.
 
     NEED TO DOCUMENT THE COMMAND
 
--   If needed, 4.0rc2 etc. tags are created and kits released
+-   If needed, 4.0rc2 etc. tags are created and kits released from the
+    4.0 branch
 
 The developer can work on the 4.0 branch by checking it out directly
 **this needs to be tested**
@@ -86,9 +90,9 @@ or using the switch command **this needs to be tested**
     svn switch https://svn.nexusformat.org/code/branches/4.0
 
 -   Once all of the tickets in the 'Release' stage are completed the
-    `branch` is tagged directly. Note that all changes to the branch
-    should be merged back into the `trunk` by this time as well. **this
-    needs to be tested**
+    `branch` is tagged again for final release. Note that all changes to
+    the branch should be merged back into the `trunk` by this time as
+    well. **this needs to be tested**
 
 <!-- -->
 
@@ -109,7 +113,8 @@ be run using
 The second command will only be run on appropriate systems.
 
 As new tests are needed they will be added to the code in python, unless
-another language is more appropriate.
+another language is more appropriate. Results of tests will be recorded
+on [NeXus 4 Testing](NeXus_4_Testing "wikilink")
 
 ### Supported Systems
 
