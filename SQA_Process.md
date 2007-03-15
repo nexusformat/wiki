@@ -58,6 +58,14 @@ This discussion assumes that the version in progress is '4.0'.
 
     $svn cp -m "Creating 4.0 branch" https://svn.nexusformat.org/code/trunk https://svn.nexusformat.org/code/branches/4.0
 
+This branch is then tagged to create the first beta distribution kit
+
+    $svn cp -m "Creating 4.0beta1 tag" https://svn.nexusformat.org/code/branches/4.0  https://svn.nexusformat.org/code/tags/4.0beta1
+
+A distribution kit is then created from this tag and placed on the nexus
+web site for download and testing. A TRAC version tag “4.0beta1” is also
+created for filinf bug reports against.
+
 -   Fixes to defects found during the the 'Ready' stage are done in the
     `branch` and then merged back into the trunk. **this needs to be
     tested**
@@ -66,8 +74,10 @@ This discussion assumes that the version in progress is '4.0'.
 
     NEED TO DOCUMENT THE COMMAND
 
-The developer can work on the branch by checking it out directly **this
-needs to be tested**
+-   If needed, 4.0beta2 etc. tags are created and kits released
+
+The developer can work on the 4.0 branch by checking it out directly
+**this needs to be tested**
 
     svn co https://svn.nexusformat.org/code/branches/4.0 nexus-code-4.0branch
 
