@@ -1,6 +1,11 @@
 == NeXus 4.0 Testing ==
 
-This page will be used to record the results of testing for NeXus 4.0. The appropriate kit should be downloaded and then the result of the test recorded here. Please indicate which bindings (HDF4, HDF5, XML) were configured 
+This page will be used to record the results of testing for NeXus 4.0. The appropriate kit should be downloaded and then the result of the test recorded here. The table should record:
+* The operating system and version
+* The name of the tester
+* The file formats picked up by configure (HDF4/HDF5/XML)
+* The result of a "make check"
+* Any other problems
 
 === 4.0rc1 ===
 
@@ -9,12 +14,14 @@ This page will be used to record the results of testing for NeXus 4.0. The appro
 ! {{Headcellstyle}} | Operating System
 ! {{Headcellstyle}} | Tester
 ! {{Headcellstyle}} | File Formats
+! {{Headcellstyle}} | "make check"
 ! {{Headcellstyle}} | Remarks
 |-
-! {{Headcellstyle}} | Linux
-| align="center" | &nbsp; 
-| align="center" | &nbsp; 
-| align="center" | &nbsp; 
+! {{Headcellstyle}} | Linux (FC6)
+| align="center" | Freddie Akeroyd
+| align="center" | HDF4/HDF5/XML 
+| align="center" | passed
+| align="center" | &nbsp;
 |-
 ! {{Headcellstyle}} | MacOS-X 
 | align="center" | &nbsp; 
