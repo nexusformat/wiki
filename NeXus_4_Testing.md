@@ -4,11 +4,12 @@ permalink: NeXus_4_Testing/
 layout: wiki
 ---
 
-The NeXus API testing procedure is detailed at
-[SQA\_Process](SQA_Process "wikilink") and this page will be used to
-record the results of testing for NeXus 4.0. The appropriate kit should
-be downloaded and then the results of the tests recorded here. The table
-should record:
+The provisional release notes for NeXus 4.0 [can be found
+here](NeXus_4_Release_Notes "wikilink") The NeXus API testing procedure
+is detailed at [SQA\_Process](SQA_Process "wikilink") and this page will
+be used to record the results of testing for NeXus 4.0. The appropriate
+kit should be downloaded and then the results of the tests recorded
+here. The table should record:
 
 -   The operating system version tested
 -   The name of the tester
