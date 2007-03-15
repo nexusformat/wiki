@@ -1,24 +1,29 @@
-This page will be used to record the results of testing for NeXus 4.0. The appropriate kit should be downloaded and then the result of the test recorded here. The table should record:
-* The operating system and version
+The NeXus API testing procedure is detailed at [[SQA_Process]] and this page will be used to record the results of testing for NeXus 4.0. The appropriate kit should be downloaded and then the results of the tests recorded here. The table should record:
+* The operating system version tested
 * The name of the tester
-* The file formats picked up by configure (HDF4/HDF5/XML)
+* The kit type used: '''tar''' / '''src''' / '''bin'''   for   ''.tar.gz''  /  ''Source RPM (.src.rpm)''  /  ''Binary RPM (.i386.rpm)''
+* The file formats picked up and tested by configure (HDF4/HDF5/XML)
 * The result of a "make check"
-* Any other problems
+* Any remarks that are not bugs/failures 
 
-Please file bug reports into the [[IssueReporting]] system and indicate the version of the kit being tested
+Please file bug reports for build/test failures into the [[IssueReporting]] system and choose the '''rc''' number of the kit being tested from the version menu.
 
 === 4.0rc1 ===
+
+The kit can be downloaded from [http://download.nexusformat.org/kits NeXus download page]
 
 {| {{Tablestyle}}
 |-
 ! {{Headcellstyle}} | Operating System
 ! {{Headcellstyle}} | Tester
+! {{Headcellstyle}} | Kit Type
 ! {{Headcellstyle}} | File Formats
 ! {{Headcellstyle}} | "make check"
 ! {{Headcellstyle}} | Remarks
 |-
 ! {{Headcellstyle}} | Linux (FC6)
 | align="center" | Freddie Akeroyd
+| align="center" | tar
 | align="center" | HDF4/HDF5/XML 
 | align="center" | passed
 | align="center" | &nbsp;
