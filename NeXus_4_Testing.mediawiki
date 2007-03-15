@@ -10,7 +10,7 @@ Please file bug reports for build/test failures into the [[IssueReporting]] syst
 
 === 4.0rc1 ===
 
-The kit can be downloaded from [http://download.nexusformat.org/kits NeXus download page]
+The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus download page]
 
 {| {{Tablestyle}}
 |-

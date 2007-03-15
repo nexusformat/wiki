@@ -24,7 +24,7 @@ number of the kit being tested from the version menu.
 
 ### 4.0rc1
 
-The kit can be downloaded from [NeXus download
+The kit can be downloaded from the [NeXus download
 page](http://download.nexusformat.org/kits)
 
 | | Operating System | | Tester        | | Kit Type | | File Formats | | “make check” | | Remarks |
