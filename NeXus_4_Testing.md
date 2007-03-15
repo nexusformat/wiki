@@ -28,9 +28,9 @@ number of the kit being tested from the version menu.
 The kit can be downloaded from the [NeXus download
 page](http://download.nexusformat.org/kits)
 
-| | Operating System | | Tester        | | Kit Type | | File Formats | | “make check” | | Remarks |
-|--------------------|-----------------|------------|----------------|----------------|-----------|
-| | Linux (FC6)      | Freddie Akeroyd | tar        | HDF4/HDF5/XML  | passed         |           |
-| | MacOS-X          |                 |            |                |
+| | Operating System | | Tester        | | Kit Type | | File Formats | | “make check” | | Remarks            |
+|--------------------|-----------------|------------|----------------|----------------|----------------------|
+| | Linux (FC6)      | Freddie Akeroyd | tar        | HDF4/HDF5/XML  | passed         |                      |
+| | MacOS-X          | Jean Bilheux    | tar        | HDF4/HDF5/XML  | failed         | HDF4 and HDF5 failed |
 
 

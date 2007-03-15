@@ -30,7 +30,9 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus d
 | align="center" | &nbsp;
 |-
 ! {{Headcellstyle}} | MacOS-X 
-| align="center" | &nbsp; 
-| align="center" | &nbsp; 
-| align="center" | &nbsp; 
+| align="center" | Jean Bilheux 
+| align="center" | tar 
+| align="center" | HDF4/HDF5/XML
+| align="center" | failed
+| align="center" | HDF4 and HDF5 failed
 |}
