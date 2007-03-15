@@ -1,4 +1,4 @@
-The provisional release notes for NeXus 4.0 [[NeXus 4 Release Notes|can be found here]]
+The provisional release notes for NeXus 4.0 [[Nexus 4 Release Notes|can be found here]]
 The NeXus API testing procedure is detailed at [[SQA_Process]] and this page will be used to record the results of testing for NeXus 4.0. The appropriate kit should be downloaded and then the results of the tests recorded here. The table should record:
 * The operating system version tested
 * The name of the tester
