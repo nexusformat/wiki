@@ -35,4 +35,11 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus d
 | align="center" | HDF4/HDF5/XML
 | align="center" | failed
 | align="center" | HDF4 and HDF5 failed
+|-
+! {{Headcellstyle}} | Linux (RHEL4) 
+| align="center" | Stuart Campbell
+| align="center" | tar 
+| align="center" | HDF4/HDF5/XML
+| align="center" | passed
+| align="center" | &nbsp;
 |}

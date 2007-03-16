@@ -32,5 +32,6 @@ page](http://download.nexusformat.org/kits)
 |--------------------|-----------------|------------|----------------|----------------|----------------------|
 | | Linux (FC6)      | Freddie Akeroyd | tar        | HDF4/HDF5/XML  | passed         |                      |
 | | MacOS-X          | Jean Bilheux    | tar        | HDF4/HDF5/XML  | failed         | HDF4 and HDF5 failed |
+| | Linux (RHEL4)    | Stuart Campbell | tar        | HDF4/HDF5/XML  | passed         |                      |
 
 
