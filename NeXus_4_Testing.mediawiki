@@ -48,5 +48,5 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus d
 | align="center" | tar 
 | align="center" | HDF4/HDF5/XML
 | align="center" | passed
-| align="center" | gfortran compiler and java 1.5.0_11;
+| align="center" | gfortran compiler and java 1.5.0_11
 |}
