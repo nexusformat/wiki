@@ -46,6 +46,9 @@ parent data set acts as a container for many simpler datasets. If these
 and standardization can be achieved between software written by vendors,
 scientists and engineers working on different aspects of a project.
 
+XLST or a similar XML transform standard can be used to realize this
+type of conversion in practice.
+
 user-defined component types can be shared amoung multiple experiment types
 ---------------------------------------------------------------------------
 
