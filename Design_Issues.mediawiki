@@ -7,3 +7,4 @@ If you have a specific subject concerning the NeXus format design, please add it
 *[[Double Linking]]
 *[[Units]]
 *[[Housekeeping pre-NeXus2.0]]
+*[[Containers and Inheritance]] - XLST and Reusable definitions

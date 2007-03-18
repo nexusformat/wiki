@@ -20,4 +20,7 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 -   [Double Linking](Double_Linking "wikilink")
 -   [Units](Units "wikilink")
 -   [Housekeeping pre-NeXus2.0](Housekeeping_pre-NeXus2.0 "wikilink")
+-   [Containers and
+    Inheritance](Containers_and_Inheritance "wikilink") - XLST and
+    Reusable definitions
 
