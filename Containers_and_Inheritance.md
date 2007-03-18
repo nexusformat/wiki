@@ -12,6 +12,10 @@ object/container-orientated approach to its user defined instrument
 definitions. By allowing base user definitions for components, datasets
 from from full datasets can be expressed as a sum of components.
 
+The XSLT standard is a method that can possibly realize the extraction
+of data from one or more XML based neXus definition and create a new
+neXus XML document as desired.
+
 Relationship between Inheritance and Containers in a neXus dataset
 ------------------------------------------------------------------
 
