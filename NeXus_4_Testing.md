@@ -28,11 +28,11 @@ number of the kit being tested from the version menu.
 The kit can be downloaded from the [NeXus download
 page](http://download.nexusformat.org/kits)
 
-| | Operating System    | | Tester        | | Kit Type | | File Formats | | “make check” | | Remarks                            |
-|-----------------------|-----------------|------------|----------------|----------------|--------------------------------------|
-| | Linux (FC6)         | Freddie Akeroyd | tar        | HDF4/HDF5/XML  | passed         |                                      |
-| | MacOS-X             | Jean Bilheux    | tar        | HDF4/HDF5/XML  | failed         | HDF4 and HDF5 failed                 |
-| | Linux (RHEL4)       | Stuart Campbell | tar        | HDF4/HDF5/XML  | passed         | gfortran compiler and Sun Java 5     |
-| | Linux (RHEL4 64bit) | Peter Peterson  | tar        | HDF4/HDF5/XML  | passed         | gfortran compiler and java 1.5.0\_11 |
+| | Operating System    | | Tester        | | Kit Type | | File Formats | | “make check” | | Remarks                                |
+|-----------------------|-----------------|------------|----------------|----------------|------------------------------------------|
+| | Linux (FC6)         | Freddie Akeroyd | tar        | HDF4/HDF5/XML  | passed         |                                          |
+| | MacOS-X             | Jean Bilheux    | tar        | HDF4/HDF5/XML  | failed         | HDF4 and HDF5 failed                     |
+| | Linux (RHEL4)       | Stuart Campbell | tar        | HDF4/HDF5/XML  | passed         | g77, gfortran and Sun Java 5 (update 11) |
+| | Linux (RHEL4 64bit) | Peter Peterson  | tar        | HDF4/HDF5/XML  | passed         | gfortran compiler and java 1.5.0\_11     |
 
 
