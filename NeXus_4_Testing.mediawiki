@@ -41,7 +41,7 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus d
 | align="center" | tar 
 | align="center" | HDF4/HDF5/XML
 | align="center" | passed
-| align="center" | &nbsp;
+| align="center" | gfortran compiler and Sun Java 5
 |-
 ! {{Headcellstyle}} | Linux (RHEL4 64bit)
 | align="center" | Peter Peterson
