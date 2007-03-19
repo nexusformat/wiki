@@ -60,7 +60,7 @@ principles:
             <NXsample name="{sample}">
                 <name>{Descriptive name of sample}</name>
                 <environment>{Type of sample environment}</environment>
-                <polar_angle type="NX_FLOAT32[np]>
+                <polar_angle type="NX_FLOAT32[np]">
                    {polar_angle to monochromator}
                 </polar_angle>
                 <rotation_angle type="NX_FLOAT32[np]">
