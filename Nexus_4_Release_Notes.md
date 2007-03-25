@@ -26,7 +26,8 @@ functionality to the core library or to assist in the build process.
 -   New NXsummary tool for summarising contentes of a NeXus file
 -   Fortran 90 API now works with gfortran 4.2 and above as well as with
     G95
--   PYTHON and TCL bindings provided via a SWIG interface
+-   PYTHON and TCL bindings provided via a [SWIG
+    interface](http://www.swig.org/)
 
 Changed Features
 ----------------
