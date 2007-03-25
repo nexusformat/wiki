@@ -1,13 +1,17 @@
 The provisional release notes for NeXus 4.0 [[Nexus 4 Release Notes|can be found here]]
 The NeXus API testing procedure is detailed at [[SQA_Process]] and this page will be used to record the results of testing for NeXus 4.0. The appropriate kit should be downloaded and then the results of the tests recorded here. The table should record:
 * The operating system version tested
-* The name of the tester
+* The name of the tester. If you write <nowiki>~~~~</nowiki> in this space your Wiki name will be inserted when the page is saved.
 * The kit type used: '''tar''' / '''src''' / '''bin'''   for   ''.tar.gz''  /  ''Source RPM (.src.rpm)''  /  ''Binary RPM (.i386.rpm)''
-* The file formats picked up and tested by configure (HDF4/HDF5/XML)
+* The file formats picked up and tested by configure (HDF4/HDF5/XML) and the programs used for compiling the API (e.g. gcc/gfortran/java 1.5.0_11)
 * The result of a "make check"
 * Any remarks that are neither bugs nor build/test failures 
 
-Please file bug reports for build/test failures into the [[IssueReporting]] system and choose the '''rc''' number of the kit being tested from the version menu.
+If the build or check fails, please file a bug report into the [[IssueReporting]] system and choose the '''rc''' number of the kit being tested from the version menu. Please also include/attach:
+* A copy of any error messages displayed on your screen
+* For a "make check" failure, the file ''test/testsuite.log''
+* The versions of the HDF4/HDF5/XML libraries used
+* Where these HDF4/HDF5/XML libraries were obtained e.g. built locally from source, installed by <whatever> package management tool. 
 
 === 4.0rc1 ===
 
@@ -23,7 +27,7 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus d
 ! {{Headcellstyle}} | Remarks
 |-
 ! {{Headcellstyle}} | Linux (FC6)
-| align="center" | Freddie Akeroyd
+| align="center" | [[User:Freddie Akeroyd|Freddie Akeroyd]] 20:39, 25 March 2007 (BST)
 | align="center" | tar
 | align="center" | HDF4/HDF5/XML 
 | align="center" | passed

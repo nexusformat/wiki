@@ -12,27 +12,37 @@ kit should be downloaded and then the results of the tests recorded
 here. The table should record:
 
 -   The operating system version tested
--   The name of the tester
+-   The name of the tester. If you write ~~~~ in this space your Wiki
+    name will be inserted when the page is saved.
 -   The kit type used: **tar** / **src** / **bin** for *.tar.gz* /
     *Source RPM (.src.rpm)* / *Binary RPM (.i386.rpm)*
 -   The file formats picked up and tested by configure (HDF4/HDF5/XML)
+    and the programs used for compiling the API (e.g. gcc/gfortran/java
+    1.5.0\_11)
 -   The result of a “make check”
 -   Any remarks that are neither bugs nor build/test failures
 
-Please file bug reports for build/test failures into the
+If the build or check fails, please file a bug report into the
 [IssueReporting](IssueReporting "wikilink") system and choose the **rc**
-number of the kit being tested from the version menu.
+number of the kit being tested from the version menu. Please also
+include/attach:
+
+-   A copy of any error messages displayed on your screen
+-   For a “make check” failure, the file *test/testsuite.log*
+-   The versions of the HDF4/HDF5/XML libraries used
+-   Where these HDF4/HDF5/XML libraries were obtained e.g. built locally
+    from source, installed by <whatever> package management tool.
 
 ### 4.0rc1
 
 The kit can be downloaded from the [NeXus download
 page](http://download.nexusformat.org/kits)
 
-| | Operating System    | | Tester        | | Kit Type | | File Formats | | “make check” | | Remarks                                |
-|-----------------------|-----------------|------------|----------------|----------------|------------------------------------------|
-| | Linux (FC6)         | Freddie Akeroyd | tar        | HDF4/HDF5/XML  | passed         |                                          |
-| | MacOS-X             | Jean Bilheux    | tar        | HDF4/HDF5/XML  | failed         | HDF4 and HDF5 failed                     |
-| | Linux (RHEL4)       | Stuart Campbell | tar        | HDF4/HDF5/XML  | passed         | g77, gfortran and Sun Java 5 (update 11) |
-| | Linux (RHEL4 64bit) | Peter Peterson  | tar        | HDF4/HDF5/XML  | passed         | gfortran compiler and java 1.5.0\_11     |
+| | Operating System    | | Tester                                                                        | | Kit Type | | File Formats | | “make check” | | Remarks                                |
+|-----------------------|---------------------------------------------------------------------------------|------------|----------------|----------------|------------------------------------------|
+| | Linux (FC6)         | [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink") 20:39, 25 March 2007 (BST) | tar        | HDF4/HDF5/XML  | passed         |                                          |
+| | MacOS-X             | Jean Bilheux                                                                    | tar        | HDF4/HDF5/XML  | failed         | HDF4 and HDF5 failed                     |
+| | Linux (RHEL4)       | Stuart Campbell                                                                 | tar        | HDF4/HDF5/XML  | passed         | g77, gfortran and Sun Java 5 (update 11) |
+| | Linux (RHEL4 64bit) | Peter Peterson                                                                  | tar        | HDF4/HDF5/XML  | passed         | gfortran compiler and java 1.5.0\_11     |
 
 
