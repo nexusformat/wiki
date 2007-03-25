@@ -40,7 +40,7 @@ page](http://download.nexusformat.org/kits)
 
 | | Operating System    | | Tester                                                                        | | Kit Type | | File Formats | | “make check” | | Remarks                                |
 |-----------------------|---------------------------------------------------------------------------------|------------|----------------|----------------|------------------------------------------|
-| | Linux (FC6)         | [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink") 20:39, 25 March 2007 (BST) | tar        | HDF4/HDF5/XML  | passed         |                                          |
+| | Linux (FC6)         | [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink") 15:04, 16 March 2007 (GMT) | tar        | HDF4/HDF5/XML  | passed         |                                          |
 | | MacOS-X             | Jean Bilheux                                                                    | tar        | HDF4/HDF5/XML  | failed         | HDF4 and HDF5 failed                     |
 | | Linux (RHEL4)       | Stuart Campbell                                                                 | tar        | HDF4/HDF5/XML  | passed         | g77, gfortran and Sun Java 5 (update 11) |
 | | Linux (RHEL4 64bit) | Peter Peterson                                                                  | tar        | HDF4/HDF5/XML  | passed         | gfortran compiler and java 1.5.0\_11     |
