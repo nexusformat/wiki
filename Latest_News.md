@@ -4,6 +4,11 @@ permalink: Latest_News/
 layout: wiki
 ---
 
+2007
+----
+
+Friday, March 16, 2007: The upcoming 4.0 release of the NeXus API is now undergoing testing. More details can be found on the [testing site](NeXus_4_Testing "wikilink") as well as [provisional release notes](Nexus_4_Release_Notes "wikilink")  
+
 2006
 ----
 

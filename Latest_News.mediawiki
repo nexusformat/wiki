@@ -1,3 +1,6 @@
+==2007==
+;Friday, March 16, 2007: The upcoming 4.0 release of the NeXus API is now undergoing testing. More details can be found on the [[NeXus 4 Testing|testing site]] as well as [[Nexus 4 Release Notes|provisional release notes]]
+
 ==2006==
 ;Thursday, December 7, 2006: Site updated to MediaWiki 1.8.2
 ;Tuesday, November 28, 2006: A NeXus install kit for Microsoft Windows is [http://download.nexusformat.org/kits/windows now available] The kit includes the standard NeXus applications as well as libraries for building applications with both [http://www.mingw.org/ MinGW] and Microsoft Visual Studio. 
