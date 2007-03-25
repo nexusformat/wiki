@@ -12,14 +12,28 @@ functionality to the core library or to assist in the build process.
 
 -   Extended XML-API to handle unlimited dimensions
 -   Add building of Doxygen documentation
--   Add support for two dimensional character arrays
--   Added group attributes to HDF4 (2006/05/02)
+-   Add support for two dimensional character arrays (HDF4 and HDF5
+    only)
+-   Added group attribute support to HDF4 (2006/05/02). Requires HDF4
+    version (???)
 -   Add NXmakenamedlink (2007/01/09) to all three file formats (external
     linking)
 -   Add NXprintlink
 -   Improved link testing in test suite
--   Allow HDF5 support to read generic HDF5 files
+-   API can now read generic HDF5 files, such as those produced by
+    matlab
 -   Add facility to enable/disable error reporting
+-   New NXsummary tool for summarising contentes of a NeXus file
+-   Fortran 90 API now builds with gfortran and G95
+
+Changed Features
+----------------
+
+The following aspects of the API have changed in a potentially
+non-backward compatible way
+
+-   The JAVA API now uses org.nexusformat rather than
+    gov.anl.neutron.nexus
 
 Miscellaneous bug fixes
 -----------------------
@@ -27,12 +41,13 @@ Miscellaneous bug fixes
 The following items are bugs reported in the 3.x releases and resolved
 for the 4.0 release.
 
--   Strip whitespace from char data on reads
+-   Leading and trailing whitespace is stripped from char data on a
+    read; this can be disabled by passing the NXACC\_NOSTRIP option to
+    NXopen
 -   Fix problems with MXML (what problems?)
 -   Improve test procedures when not all libraries are present
 -   Correct sourcepath for javadoc
--   Updated makefiles for swig
--   Build with gfortran
+-   Updated makefiles for swig bindings (python, tcl)
 
 Upcoming Features
 -----------------
