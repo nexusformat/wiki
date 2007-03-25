@@ -36,7 +36,9 @@ include/attach:
 ### 4.0rc1
 
 The kit can be downloaded from the [NeXus download
-page](http://download.nexusformat.org/kits)
+page](http://download.nexusformat.org/kits). Issues reported with this
+release [can be found
+here](http://trac.nexusformat.org/code/query?status=new&status=assigned&status=reopened&status=closed&version=4.0rc1&order=priority).
 
 | | Operating System    | | Tester                                                                        | | Kit Type | | File Formats | | “make check” | | Remarks                                |
 |-----------------------|---------------------------------------------------------------------------------|------------|----------------|----------------|------------------------------------------|

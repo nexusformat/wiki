@@ -15,7 +15,7 @@ If the build or check fails, please file a bug report into the [[IssueReporting]
 
 === 4.0rc1 ===
 
-The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus download page]
+The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus download page]. Issues reported with this release [http://trac.nexusformat.org/code/query?status=new&status=assigned&status=reopened&status=closed&version=4.0rc1&order=priority can be found here].
 
 {| {{Tablestyle}}
 |-
