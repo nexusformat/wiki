@@ -68,27 +68,41 @@ This discussion assumes that the version in progress is '4.0'.
 -   A distribution kit is then created from this tag and placed on the
     [NeXus download site](http://download.nexusformat.org/kits/) for
     testing. An [IssueReporting](IssueReporting "wikilink") version tag
-    “4.0rc1” is also created for filing bug reports against.
--   Fixes to defects found during the the 'Ready' stage are done in the
-    `branch` and then merged back into the trunk. **this needs to be
-    tested**
+    “4.0rc1” is also created for filing bug reports against. If you wish
+    to check out this version from subversion the command is
 
 <!-- -->
 
-    NEED TO DOCUMENT THE COMMAND
+    $svn co https://svn.nexusformat.org/code/tags/4.0rc1 nexus-4.0rc1
 
--   If needed, 4.0rc2 etc. tags are created and kits released from the
-    4.0 branch
+-   The developer should work and put fixes for the 'Ready' stage back
+    onto the 4.0 branch and NOT onto the 4.0rc1 tag. This branch is
+    obtained via
 
-The developer can work on the 4.0 branch by checking it out directly
-**this needs to be tested**
+<!-- -->
 
-    svn co https://svn.nexusformat.org/code/branches/4.0 nexus-code-4.0branch
+    svn co https://svn.nexusformat.org/code/branches/4.0 nexus-4.0-branch
 
-or using the switch command **this needs to be tested**
+or using the switch command on an existing checked out area
 
     svn switch https://svn.nexusformat.org/code/branches/4.0
 
+-   Fixes to the 4.0 branch that are relevant to the trunk should be
+    merged back into the trunk. To do this you run a command similar to
+    the following from a checked out trunk working copy area
+
+<!-- -->
+
+    svn merge -r first:last https://svn.nexusformat.org/code/branches/4.0
+
+where first and last are the revision numbers for the range of changes
+to be merged from the 4.0 branch into the local working copy. If the
+merge is OK, commit them to the trunk with
+
+    svn commit -m "Merge in branch 4.0 changes from reviosions first to last"
+
+-   If needed, 4.0rc2 etc. tags are created and kits released from the
+    4.0 branch
 -   Once all of the tickets in the 'Release' stage are completed the
     `branch` is tagged again for final release. Note that all changes to
     the branch should be merged back into the `trunk` by this time as
