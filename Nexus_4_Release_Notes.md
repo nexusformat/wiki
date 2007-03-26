@@ -28,6 +28,7 @@ functionality to the core library or to assist in the build process.
     G95
 -   PYTHON and TCL bindings provided via a [SWIG
     interface](http://www.swig.org/)
+-   Additional NXtranslate translators: SPEC, ESRF-EDF
 
 Changed Features
 ----------------
