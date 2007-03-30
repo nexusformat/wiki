@@ -68,3 +68,24 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus d
 | align="center" | passed
 | align="center" | gcc, gfortran (4.2), gcj, fink HDF
 |}
+
+=== 4.0rc2 ===
+
+The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus download page]. Issues reported with this release [http://trac.nexusformat.org/code/query?status=new&status=assigned&status=reopened&status=closed&version=4.0rc2&order=priority can be found here].
+
+{| {{Tablestyle}}
+|-
+! {{Headcellstyle}} | Operating System
+! {{Headcellstyle}} | Tester
+! {{Headcellstyle}} | Kit Type
+! {{Headcellstyle}} | File Formats
+! {{Headcellstyle}} | "make check"
+! {{Headcellstyle}} | Remarks
+|-
+! {{Headcellstyle}} | Linux (FC6)
+| align="center" | [[User:Freddie Akeroyd|Freddie Akeroyd]] 18:27, 30 March 2007 (BST)
+| align="center" | tar
+| align="center" | HDF4/HDF5/XML 
+| align="center" | passed
+| align="center" | gcc/g95/gcj/python
+|}
