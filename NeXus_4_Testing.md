@@ -58,7 +58,7 @@ here](http://trac.nexusformat.org/code/query?status=new&status=assigned&status=r
 
 | | Operating System | | Processor                                                                     | | Tester | | Kit Type | | File Formats | | “make check” | | Remarks                   |
 |--------------------|---------------------------------------------------------------------------------|----------|------------|----------------|----------------|-----------------------------|
-| | Linux (FC6)      | [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink") 18:27, 30 March 2007 (BST) |          | tar        | HDF4/HDF5/XML  | passed         | gcc/g95/gcj/python          |
-| | Linux (RHEL4)    | [Stuart Campbell](User%3AStuart_Campbell "wikilink") 16:21, 2 April 2007 (BST)  |          | tar        | HDF4/HDF5/XML  | passed         | gcc/gfortran/java 1.5.0\_11 |
+| | Linux (FC6)      | [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink") 18:27, 30 March 2007 (BST) |          | tar        | HDF4/HDF5/XML  | passed         | gcc/g95/gcj/python          |
+| | Linux (RHEL4)    | [Stuart Campbell](User%3AStuart_Campbell "wikilink") 16:21, 2 April 2007 (BST)  |          | tar        | HDF4/HDF5/XML  | passed         | gcc/gfortran/java 1.5.0\_11 |
 
 
