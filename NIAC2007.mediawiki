@@ -1,0 +1,17 @@
+==NIAC Meeting - September 2007==
+The next meeting of the  [[NIAC | NeXus International Advisory Committee]] will be held at the [http://www.hmi.de Hahn-Meitner-Institut] in Berlin, Germany. The meeting is planed from September 24 to 26, 2007.
+
+Accommodation will be at the HMI guest-house (detail information coming soon). 
+
+Local contact is [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]] [mailto:hoffmann-j@hmi.de].
+
+
+===List of Attendees===
+
+[[NIAC2007_attendees|list of attendees]] coming soon
+
+===Proposed Agenda===
+* Welcome and Introduction
+* Review of NIAC'2006LBL minutes
+* [[Membership Dates|Renew members]]?
+* ...
