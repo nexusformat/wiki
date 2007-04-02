@@ -12,7 +12,8 @@ Hahn-Meitner-Institut Berlin, Germany.
 
 |                                                           |                                                            |
 |-----------------------------------------------------------|------------------------------------------------------------|
-| [Stephen Cottrell](User%3ASteve_Cottrell "wikilink")      | | Rutherford Appleton Laboratory, UK (Muon Representative) |
+| [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink")    | | Rutherford Appleton Laboratory, UK                       |
+| [Stephen Cottrell](User%3ASteve_Cottrell "wikilink")      | | Rutherford Appleton Laboratory, UK                       |
 | [ Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann "wikilink") | | Hahn-Meitner-Institut Berlin, Germany                    |
 | [Peter Peterson](User%3APeter_Peterson "wikilink")        | | Spallation Neutron Source, Oak Ridge National Laboratory |
 ||

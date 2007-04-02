@@ -4,9 +4,11 @@ Attendees of the
 [[NIAC2007|2007 NIAC Meeting]] at Hahn-Meitner-Institut Berlin, Germany.
 
 {| border="1"
+| [[User:Freddie Akeroyd|Frederick Akeroyd]] 
+|| Rutherford Appleton Laboratory, UK
 |-
 | [[User:Steve Cottrell|Stephen Cottrell]]
-|| Rutherford Appleton Laboratory, UK (Muon Representative)
+|| Rutherford Appleton Laboratory, UK
 |-
 | [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]]
 || Hahn-Meitner-Institut Berlin, Germany
