@@ -88,4 +88,11 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus d
 | align="center" | HDF4/HDF5/XML 
 | align="center" | passed
 | align="center" | gcc/g95/gcj/python
+|-
+! {{Headcellstyle}} | Linux (RHEL4)
+| align="center" | [[User:Stuart Campbell|Stuart Campbell]] 16:21, 2 April 2007 (BST)
+| align="center" | tar
+| align="center" | HDF4/HDF5/XML 
+| align="center" | passed
+| align="center" | gcc/gfortran/java 1.5.0_11
 |}
