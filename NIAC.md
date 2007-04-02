@@ -155,6 +155,7 @@ proposed. This is the current procedure:
 Meetings
 --------
 
+-   [September 24-26, 2007](NIAC2007 "wikilink") at HMI, Berlin, Germany
 -   [October 5-6, 2006](NIAC2006LBL "wikilink") at LBL, Berkeley, CA,
     USA
 -   [February 1-3, 2006](NIAC2006ILL "wikilink") at ILL, Grenoble,
