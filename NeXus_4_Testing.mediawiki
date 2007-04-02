@@ -84,16 +84,16 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus d
 ! {{Headcellstyle}} | Remarks
 |-
 ! {{Headcellstyle}} | Linux (FC6)
-| align="center" | [[User:Freddie Akeroyd|Freddie Akeroyd]] 18:27, 30 March 2007 (BST)
 | align="center" | &nbsp;
+| align="center" | [[User:Freddie Akeroyd|Freddie Akeroyd]] 18:27, 30 March 2007 (BST)
 | align="center" | tar
 | align="center" | HDF4/HDF5/XML 
 | align="center" | passed
 | align="center" | gcc/g95/gcj/python
 |-
 ! {{Headcellstyle}} | Linux (RHEL4)
-| align="center" | [[User:Stuart Campbell|Stuart Campbell]] 16:21, 2 April 2007 (BST)
 | align="center" | &nbsp;
+| align="center" | [[User:Stuart Campbell|Stuart Campbell]] 16:21, 2 April 2007 (BST)
 | align="center" | tar
 | align="center" | HDF4/HDF5/XML 
 | align="center" | passed
