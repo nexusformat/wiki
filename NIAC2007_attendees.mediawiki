@@ -1,0 +1,17 @@
+==NIAC 2007 at HMI List of Attendees==
+
+Attendees of the 
+[[NIAC2007|2007 NIAC Meeting]] at Hahn-Meitner-Institut Berlin, Germany.
+
+{| border="1"
+|-
+| [[User:Steve Cottrell|Stephen Cottrell]]
+|| Rutherford Appleton Laboratory, UK (Muon Representative)
+|-
+| [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]]
+|| Hahn-Meitner-Institut Berlin, Germany
+|-
+| [[User:Peter_Peterson|Peter Peterson]]
+|| Spallation Neutron Source, Oak Ridge National Laboratory
+|-
+|}
