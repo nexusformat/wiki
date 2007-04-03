@@ -81,7 +81,7 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus d
 ! {{Headcellstyle}} | Kit Type
 ! {{Headcellstyle}} | HDF4
 ! {{Headcellstyle}} | HDF5
-! {{Headcellstyle}} | XML
+! {{Headcellstyle}} | MXML
 ! {{Headcellstyle}} | "make check"
 ! {{Headcellstyle}} | Remarks
 |-
