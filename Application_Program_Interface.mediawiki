@@ -442,5 +442,10 @@ This script links in the various libraries for you and reading its contents woul
   ./napi_test-hdf5
 </pre>
 
+NeXus is also set up for pkg-config so the build can be done as
+<pre>
+  gcc `pkg-config --cflags` `pkg-config --libs` -o test test.c
+</pre>
+
 ==Reporting Bugs in the NeXus API==
 If you encounter any bugs in the installation or running of the NeXus API, please report them online using our [[IssueReporting]] system.

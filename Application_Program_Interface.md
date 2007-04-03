@@ -619,6 +619,10 @@ determine the NXACC\_CREATE\* argument to pass to NXopen.
       nxbuild -o napi_test-hdf5 napi_test.c  #  builds HDF5 specific test
       ./napi_test-hdf5
 
+NeXus is also set up for pkg-config so the build can be done as
+
+      gcc `pkg-config --cflags` `pkg-config --libs` -o test test.c
+
 Reporting Bugs in the NeXus API
 -------------------------------
 
