@@ -79,7 +79,9 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus d
 ! {{Headcellstyle}} | Processor
 ! {{Headcellstyle}} | Tester
 ! {{Headcellstyle}} | Kit Type
-! {{Headcellstyle}} | File Formats
+! {{Headcellstyle}} | HDF4
+! {{Headcellstyle}} | HDF5
+! {{Headcellstyle}} | XML
 ! {{Headcellstyle}} | "make check"
 ! {{Headcellstyle}} | Remarks
 |-
@@ -87,7 +89,9 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus d
 | align="center" | &nbsp;
 | align="center" | [[User:Freddie Akeroyd|Freddie Akeroyd]] 18:27, 30 March 2007 (BST)
 | align="center" | tar
-| align="center" | HDF4/HDF5/XML 
+| align="center" | yes 
+| align="center" | yes
+| align="center" | yes
 | align="center" | passed
 | align="center" | gcc/g95/gcj/python
 |-
@@ -95,7 +99,9 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus d
 | align="center" | &nbsp;
 | align="center" | [[User:Stuart Campbell|Stuart Campbell]] 16:21, 2 April 2007 (BST)
 | align="center" | tar
-| align="center" | HDF4/HDF5/XML 
+| align="center" | yes 
+| align="center" | yes
+| align="center" | yes
 | align="center" | passed
 | align="center" | gcc/gfortran/java 1.5.0_11
 |-
@@ -103,7 +109,9 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus d
 | align="center" | 64bit intel
 | align="center" | [[User:Peter Peterson|Peter Peterson]] 2007-04-02T14:54:34-0400
 | align="center" | tar
-| align="center" | HDF4/HDF5/XML 
+| align="center" | yes 
+| align="center" | yes
+| align="center" | yes
 | align="center" | passed
 | align="center" | gcc/gfortran/java 1.5.0_11/python
 |}
