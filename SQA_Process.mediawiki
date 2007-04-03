@@ -70,4 +70,10 @@ As new tests are needed they will be added to the code in python, unless another
 '''need to enumerate supported systems'''
 
 ===List of tests===
-'''Need to describe the tests run'''
+Running a ''make check'' runs the NeXus test suite (testsuit.at) from the "tests" directory, which does the following:
+* It writes a file using the C API, reads it back in using the C API and then compares the result with known correct output. This is done for all the bindings (HDF4, HDF5, XML) that are available and also for both the static and shared version of the NeXus library
+* If the Fortran 77 and 90 APIs are avilable, a similar test to above is performed with these
+* The NeXus file converter is tested by running up to the complete 3x3 possible conversions
+* The NXbrowse utility is tested by reading an example file and checking the output again a known correct listing. This is again done for HDF4, HDF5, XML.
+* A very basic test is performed on the NXdir utility
+* If it has been built, a very basic test is also perfomed on the NXsummary application
