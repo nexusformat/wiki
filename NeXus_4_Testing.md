@@ -58,7 +58,7 @@ here](http://trac.nexusformat.org/code/query?status=new&status=assigned&status=r
 
 | | Operating System | | Processor | | Tester                                                                        | | Kit Type | | HDF4 | | HDF5 | | XML | | “make check” | | Remarks                          |
 |--------------------|-------------|---------------------------------------------------------------------------------|------------|--------|--------|-------|----------------|------------------------------------|
-| | Linux (FC6)      |             | [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink") 18:27, 30 March 2007 (BST) | tar        | yes    | yes    | yes   | passed         | gcc/g95/gcj/python                 |
+| | Linux (FC6)      | 32bit Intel | [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink") 18:27, 30 March 2007 (BST) | tar        | yes    | yes    | yes   | passed         | gcc/g95/gcj/python                 |
 | | Linux (RHEL4)    |             | [Stuart Campbell](User%3AStuart_Campbell "wikilink") 16:21, 2 April 2007 (BST)  | tar        | yes    | yes    | yes   | passed         | gcc/gfortran/java 1.5.0\_11        |
 | | Linux (RHEL4)    | 64bit intel | [Peter Peterson](User%3APeter_Peterson "wikilink") 2007-04-02T14:54:34-0400     | tar        | 4.2.1  | 1.6.4  | 2.2.2 | passed         | gcc/gfortran/java 1.5.0\_11/python |
 

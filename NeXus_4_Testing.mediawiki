@@ -86,7 +86,7 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus d
 ! {{Headcellstyle}} | Remarks
 |-
 ! {{Headcellstyle}} | Linux (FC6)
-| align="center" | &nbsp;
+| align="center" | 32bit Intel
 | align="center" | [[User:Freddie Akeroyd|Freddie Akeroyd]] 18:27, 30 March 2007 (BST)
 | align="center" | tar
 | align="center" | yes 
