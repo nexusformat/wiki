@@ -96,12 +96,12 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus d
 | align="center" | gcc/g95/gcj/python
 |-
 ! {{Headcellstyle}} | Linux (RHEL4)
-| align="center" | &nbsp;
+| align="center" | 32bit Intel
 | align="center" | [[User:Stuart Campbell|Stuart Campbell]] 16:21, 2 April 2007 (BST)
 | align="center" | tar
-| align="center" | yes 
-| align="center" | yes
-| align="center" | yes
+| align="center" | 4.2.1 
+| align="center" | 1.6.4
+| align="center" | 2.2.2
 | align="center" | passed
 | align="center" | gcc/gfortran/java 1.5.0_11
 |-
