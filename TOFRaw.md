@@ -23,10 +23,13 @@ instrument debugging tools to be used, without change, in a given
 facility. Further discussions occured in the [TOF Breakout Group at NIAC
 2006](TOF_Group "wikilink")
 
-There are example files in
-[HDF4](http://download.nexusformat.org/TOFRAW/examples/hrp08639.nx4) and
-[HDF5](http://download.nexusformat.org/TOFRAW/examples/hrp08639.nx5)
-available.
+An example file is available in [HDF4
+(2MB)](http://download.nexusformat.org/TOFRAW/examples/hrp08639.nx4),
+[HDF5
+(2MB)](http://download.nexusformat.org/TOFRAW/examples/hrp08639.nx5) and
+[XML(16MB)](http://download.nexusformat.org/TOFRAW/examples/hrp08639.xml)
+format as well as a [basic
+DTD](http://download.nexusformat.org/TOFRAW/examples/TOFRAW.xml).
 
 For historical information see the [draft proposal for an ISIS NeXus
 based RAW data file format](Media:Isis_nexus_016.pdf "wikilink").
