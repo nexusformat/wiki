@@ -4,6 +4,17 @@ permalink: Nexus_4_Release_Notes/
 layout: wiki
 ---
 
+System Requirements
+-------------------
+
+**MXML XML Parsing Library**
+
+Version 2.2.2 of mxml is required. Earlier versions have a bug and the
+XML API will not work. This package can be downloded in source form and
+is also avialable as an RPM from Fedora Extras. IMPORTANT NOTE: Debian
+also provides the mxml package, but it based on 2.0 and will not work
+properly.
+
 New Features
 ------------
 
