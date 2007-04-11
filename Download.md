@@ -37,9 +37,16 @@ NeXus Source Code Distribution
 ------------------------------
 
 The NeXus API may be built from source using one of the installation
-kits linked below. The compilation uses the GNU Autotools. Download the
-appropriate gzipped tar file, unpack it, and run the standard configure
-procedure from the resulting nexus directory.
+kits linked below. Depending on which low-level file formats shall be
+supported, one or several of the following libraries are required:
+
+` * libhdf4g`  
+` * libhdf5-`<subversion?>  
+` * libmxml`
+
+The compilation uses the GNU Autotools. Download the appropriate gzipped
+tar file, unpack it, and run the standard configure procedure from the
+resulting nexus directory.
 
     % tar -zxvf nexus-3.0.0.tar.gz
     % cd nexus
