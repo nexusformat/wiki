@@ -89,11 +89,11 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus d
 | align="center" | 32bit Intel
 | align="center" | [[User:Freddie Akeroyd|Freddie Akeroyd]] 18:27, 30 March 2007 (BST)
 | align="center" | tar
-| align="center" | 4.2r1
+| align="center" | 4.2.1
 | align="center" | 1.6.5
 | align="center" | 2.2.2
 | align="center" | passed
-| align="center" | gcc/g95/gcj/python
+| align="center" | gcc/g95/java(gcj)/python
 |-
 ! {{Headcellstyle}} | Linux (RHEL4)
 | align="center" | 32bit Intel
@@ -106,7 +106,7 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus d
 | align="center" | gcc/gfortran/java 1.5.0_11
 |-
 ! {{Headcellstyle}} | Linux (RHEL4)
-| align="center" | 64bit intel
+| align="center" | 64bit Intel
 | align="center" | [[User:Peter Peterson|Peter Peterson]] 2007-04-02T14:54:34-0400
 | align="center" | tar
 | align="center" | 4.2.1 
@@ -114,4 +114,14 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus d
 | align="center" | 2.2.2
 | align="center" | passed
 | align="center" | gcc/gfortran/java 1.5.0_11/python
+|-
+! {{Headcellstyle}} | MS Windows (MinGW)
+| align="center" | 32bit Intel
+| align="center" | [[User:Freddie Akeroyd|Freddie Akeroyd]] 11:40, 11 April 2007 (BST)
+| align="center" | tar
+| align="center" | 4.2.1 
+| align="center" | 1.6.5
+| align="center" | 2.2.2
+| align="center" | passed
+| align="center" | gcc/java(gcj)
 |}
