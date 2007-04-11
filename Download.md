@@ -40,11 +40,16 @@ The NeXus API may be built from source using one of the installation
 kits linked below. Depending on which low-level file formats shall be
 supported, one or several of the following libraries are required:
 
--   libhdf4g
--   libhdf5-<subversion?>
--   libmxml (note that libmxml1 which comes with some Linux distros is
-    outdated. Use v2.2 from <http://www.easysw.com/~mike/mxml> or
-    <http://cilibrar.com/~cilibrar/projsup/nex4/>)
+-   HDF4: packages **hdf** and **hdf-devel** on Fedora Core,
+    **libhdf4g** on Debian
+-   HDF5: packages **hdf5** and **hdf5-devel** on Fedora Core,
+    **libhdf5** on Debian
+-   MXML: packages **libmxml1** and **libmxml-devel** on Debian,
+    **mxml** and **mxml-devel** on Fedora Core. Note that libmxml1 on
+    Debian is curently version 2.0 and will not work; until this is
+    updated you need to download version 2.2.2 from either
+    <http://www.easysw.com/~mike/mxml> or
+    <http://cilibrar.com/~cilibrar/projsup/nex4/>
 
 The compilation uses the GNU Autotools. Download the appropriate gzipped
 tar file, unpack it, and run the standard configure procedure from the
