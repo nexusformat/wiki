@@ -3,10 +3,12 @@ In recent years, a number of scientists and computer programmers working in neut
 This section is designed to give a brief introduction to NeXus, the data format that has been developed in response to these needs. It explains what a modern data format such as NeXus is and how to write simple programs to read and write NeXus files. 
 
 ==What is NeXus?==
-The NeXus data format has three components:
+The NeXus data format has four components:
 ;A set of subroutines:to make it easy to read and write NeXus files.
 ;A set of design principles:to help people understand what is in them.
 ;A set of instrument definitions:to allow the development of more portable analysis software.
+;A set of low-level file formats: to actually store NeXus files on physical media.
+
 ===A Set of Subroutines===
 In the past, a data format was defined by a document describing the precise location of every item in the data file, either as row and column numbers in an ASCII file, or as record and byte numbers in a binary file. In modern data formats, such as NeXus, the user does not need to know where the data are stored, just what they are called. It is the job of the subroutine library to retrieve the data.
 
@@ -69,6 +71,10 @@ A very simple NeXus file
 </NXentry>
 </pre>
 If you want to define the format of a particular type of NeXus file for your own use, e.g. as the standard output from a program, you are encouraged to "publish" the format using this XML format.
+
+===A Set of Low-Level File Formats===
+
+To actually store NeXus files on physical media, different low-level file formats are available, namely HDF4, HDF5, and XML. The NeXus library may be configured to support all of them, or any nonempty subset. Applications that create NeXus files need to decide (or let the user decide) in which low-level format they shall be stored. Generic data analysis applications should be able to read any low-level format.
 
 ==How do I write a NeXus file?==
 The NeXus Application Program Interface (API) provides a set of subroutines that make it easy to read and write NeXus files. These subroutines are available in C, Fortran 77, Fortran 90, Java, and IDL. Access from other languages, such as Python, is anticipated in the near future. It is also possible to read NeXus files in a number of data analysis tools, such as LAMP, ISAW, and open Genie.

@@ -25,11 +25,12 @@ programs to read and write NeXus files.
 What is NeXus?
 --------------
 
-The NeXus data format has three components:
+The NeXus data format has four components:
 
 A set of subroutines:to make it easy to read and write NeXus files.  
 A set of design principles:to help people understand what is in them.  
 A set of instrument definitions:to allow the development of more portable analysis software.  
+A set of low-level file formats: to actually store NeXus files on physical media.  
 
 ### A Set of Subroutines
 
@@ -151,6 +152,15 @@ such a file for the simple NeXus file shown above.
 If you want to define the format of a particular type of NeXus file for
 your own use, e.g. as the standard output from a program, you are
 encouraged to “publish” the format using this XML format.
+
+### A Set of Low-Level File Formats
+
+To actually store NeXus files on physical media, different low-level
+file formats are available, namely HDF4, HDF5, and XML. The NeXus
+library may be configured to support all of them, or any nonempty
+subset. Applications that create NeXus files need to decide (or let the
+user decide) in which low-level format they shall be stored. Generic
+data analysis applications should be able to read any low-level format.
 
 How do I write a NeXus file?
 ----------------------------
