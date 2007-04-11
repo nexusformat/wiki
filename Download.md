@@ -42,7 +42,9 @@ supported, one or several of the following libraries are required:
 
 -   libhdf4g
 -   libhdf5-<subversion?>
--   libmxml
+-   libmxml (note that libmxml1 which comes with some Linux distros is
+    outdated. Use v2.2 from <http://www.easysw.com/~mike/mxml> or
+    <http://cilibrar.com/~cilibrar/projsup/nex4/>)
 
 The compilation uses the GNU Autotools. Download the appropriate gzipped
 tar file, unpack it, and run the standard configure procedure from the
