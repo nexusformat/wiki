@@ -159,7 +159,7 @@ To actually store NeXus files on physical media, different low-level
 file formats are available, namely HDF4, HDF5, and XML. The NeXus
 library may be configured to support all of them, or any nonempty
 subset. Applications that create NeXus files need to decide (or let the
-user decide) in which low-level format they shall be stored. Generic
+user decide) in which low-level format data shall be stored. Generic
 data analysis applications should be able to read any low-level format.
 
 How do I write a NeXus file?

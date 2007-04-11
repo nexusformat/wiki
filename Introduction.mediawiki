@@ -74,7 +74,7 @@ If you want to define the format of a particular type of NeXus file for your own
 
 ===A Set of Low-Level File Formats===
 
-To actually store NeXus files on physical media, different low-level file formats are available, namely HDF4, HDF5, and XML. The NeXus library may be configured to support all of them, or any nonempty subset. Applications that create NeXus files need to decide (or let the user decide) in which low-level format they shall be stored. Generic data analysis applications should be able to read any low-level format.
+To actually store NeXus files on physical media, different low-level file formats are available, namely HDF4, HDF5, and XML. The NeXus library may be configured to support all of them, or any nonempty subset. Applications that create NeXus files need to decide (or let the user decide) in which low-level format data shall be stored. Generic data analysis applications should be able to read any low-level format.
 
 ==How do I write a NeXus file?==
 The NeXus Application Program Interface (API) provides a set of subroutines that make it easy to read and write NeXus files. These subroutines are available in C, Fortran 77, Fortran 90, Java, and IDL. Access from other languages, such as Python, is anticipated in the near future. It is also possible to read NeXus files in a number of data analysis tools, such as LAMP, ISAW, and open Genie.
