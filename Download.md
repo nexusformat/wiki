@@ -50,7 +50,7 @@ resulting nexus directory.
 
     % tar -zxvf nexus-3.0.0.tar.gz
     % cd nexus
-    % ./configure
+    % ./configure 
     % make
     % make install
 
@@ -58,6 +58,10 @@ To find out how to customize the installation, *e.g.*, to choose
 different installation directories, type
 
     % ./configure --help
+
+To prevent trouble with unneeded drivers, specify e.g.
+
+    % ./configure --without-java
 
 See the README file for further instructions.
 
