@@ -322,8 +322,8 @@ Here is a simple example to illustrate the concept:
         </NXsample>
         <NXinstrument name="instrument">
             <NXdetector name="detector">
-                <data axes=" time_of_flight:magnetic_field " link="/entry/instrument/detector">5 7 14 …</data>
-                <time_of_flight link="/entry/instrument/detector ">1500.0 1502.0 1504.0 … </time_of_flight>
+                <data axes=" time_of_flight:magnetic_field " link="/entry/instrument/detector">5 7 14 etc </data>
+                <time_of_flight link="/entry/instrument/detector ">1500.0 1502.0 1504.0 etc </time_of_flight>
             </NXdetector>
         </NXinstrument>
         <NXdata>
@@ -358,12 +358,12 @@ Hard links have the characteristics that:
 
 To overcome this and allow us to link from NXdata to, say, NXsample and
 to know that the original data belongs to NXsample we write the “link”
-attribute that contains the path of the original data. All linked
-entities will share this “link” attribute and thus can use it to locate
-the original source. We are effectively using the “link” attribute to
-allow us to simulate “symbolic links”. So in the above both the original
-“time\_of\_flight” and the linked one will share a link attribute
-containing the text “/entry/instrument/detector” because
+attribute that contains the path of the original group containing it.
+All linked entities will share this “link” attribute and thus can use it
+to locate the original source group. We are effectively using the “link”
+attribute to simulate “symbolic links”. So in the above example both the
+original “time\_of\_flight” and the linked one will share a link
+attribute containing the text “/entry/instrument/detector” because
 “/entry/instrument/detector/time\_of\_flight” is the original instance.
 
 NeXus Attributes
