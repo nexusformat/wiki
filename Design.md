@@ -316,27 +316,55 @@ can be accessed.
 
 Here is a simple example to illustrate the concept:
 
-    <NXsample>
-             <magnetic_field link=" entry/sample " >
-    </NXsample>
-    <NXinstrument>
-             <NXdetector>
-                     <data axes=" time_of_flight:magnetic_field " link=" /entry/instrument/detector " >
-                     <time_of_flight link=" entry/instrument/detector " >
-             </NXdetector>
-    </NXinstrument>
-    <NXdata>
-             <data axes=" time_of_flight:magnetic_field " link=" /entry/instrument/detector " >
-             <time_of_flight link=" entry/instrument/detector " >
-             <magnetic_field link=" entry/sample " >
-    </NXdata>
+    <NXentry name="entry">
+        <NXsample name="sample">
+            <magnetic_field link="/entry/sample">10.0</magnetic_field>
+        </NXsample>
+        <NXinstrument name="instrument">
+            <NXdetector name="detector">
+                <data axes=" time_of_flight:magnetic_field " link="/entry/instrument/detector">5 7 14 …</data>
+                <time_of_flight link="/entry/instrument/detector ">1500.0 1502.0 1504.0 … </time_of_flight>
+            </NXdetector>
+        </NXinstrument>
+        <NXdata>
+            <data axes="time_of_flight:magnetic_field" link="/entry/instrument/detector">{link to values in NXdetector}</data>
+            <time_of_flight link="/entry/instrument/detector">{link to values in NXdetector}</time_of_flight>
+            <magnetic_field link="/entry/sample">{link to values in NXsample}</magnetic_field>
+        </NXdata>
+    </NXentry>
 
-In this example, there are two axis scales, “magnetic\_field” and
-“time\_of\_flight”, which are stored in NXsample and NXdetector groups
-respectively. A program is able to use the link information in order to
-locate the respective groups. One corollary of this is that there will
-should be one NXdetector group for each NXdata group, e.g. one for each
-detector bank in a multi-bank instrument.
+The general principle is that physical quantites are stored in the
+groups that they refer to (e.g. counts in NXdetector, temperature in
+NXsample) and these quantities are then linked into NXdata for
+interpretation. In this example, there are two axis scales,
+“magnetic\_field” and “time\_of\_flight”, which are stored in NXsample
+and NXdetector groups respectively. A program is able to use the
+information in the “link” attribute to locate the respective groups. One
+corollary of this is that there should be one NXdetector group for each
+NXdata group, e.g. one for each detector bank in a multi-bank
+instrument.
+
+The syntax of the “link” attribute requires a bit of explanation. Under
+HDF4 you can only create, what would be called under UNIX, “hard links”.
+Hard links have the characteristics that:
+
+-   The name of the entity must be the same in both the original and
+    linked groups
+-   The attributes of both the origial entity and the linked one are the
+    same
+-   You cannot distinguish the original entity from the linked one
+-   You cannot follow a link - it is like an inode in a filesystem and
+    just points at the data
+
+To overcome this and allow us to link from NXdata to, say, NXsample and
+to know that the original data belongs to NXsample we write the “link”
+attribute that contains the path of the original data. All linked
+entities will share this “link” attribute and thus can use it to locate
+the original source. We are effectively using the “link” attribute to
+allow us to simulate “symbolic links”. So in the above both the original
+“time\_of\_flight” and the linked one will share a link attribute
+containing the text “/entry/instrument/detector” because
+“/entry/instrument/detector/time\_of\_flight” is the original instance.
 
 NeXus Attributes
 ----------------
