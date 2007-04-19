@@ -17,6 +17,17 @@ Extras](http://fedoraproject.org/wiki/Extras/UsingExtras). IMPORTANT
 NOTE: Debian also provides the mxml package, but it based on 2.0 and
 will not work properly.
 
+Building Notes
+--------------
+
+### NAG F90/F95 Compiler
+
+The NAG compiler needs the **-mismatch** flag to be specified or else it
+will not compile NXmodule.f90 This is achieve by running configure with
+the **FCFLAGS** environment variable set to contain the flag e.g.
+
+    env FCFLAGS="-mismatch" ./configure --with-f90=f95
+
 New Features
 ------------
 
