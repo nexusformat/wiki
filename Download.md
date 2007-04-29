@@ -53,10 +53,10 @@ supported, one or several of the following libraries are required:
 
 The compilation uses the GNU Autotools. Download the appropriate gzipped
 tar file, unpack it, and run the standard configure procedure from the
-resulting nexus directory.
+resulting nexus directory. For example, for version 3.0.0
 
     % tar -zxvf nexus-3.0.0.tar.gz
-    % cd nexus
+    % cd nexus-3.0.0
     % ./configure 
     % make
     % make install
@@ -72,41 +72,46 @@ To prevent trouble with unneeded drivers, specify e.g.
 
 See the README file for further instructions.
 
--   [Download NeXus API
-    v3.0.0](http://download.nexusformat.org/kits/nexus-3.0.0.tar.gz)
--   [Download latest NeXus development
-    snapshots](http://download.nexusformat.org/kits/)
--   [SubversionServer](SubversionServer "wikilink")
+-   [Download the NeXus API Source
+    Code](http://download.nexusformat.org/kits/)
+-   Information on the NeXus Code
+    [SubversionServer](SubversionServer "wikilink")
 
 NeXus Binary Distributions
 --------------------------
 
 ### Linux RPM Distribution Kits
 
-To install and use NeXus you will need to install all of the binary RPMS
-- these were built on a Fedora Core 2 Linux machine. Install using
+A NeXus binary RPM (nexus-\*.i386.rpm) contains ready compiled NeXus
+libraries whereas a source RPM (nexus-\*.src.rpm) needs to be compiled
+into a binary RPM before it can be installed. In general, a binary RPM
+is installed using the command
 
     rpm -Uvh file.i386.rpm
 
-or to change installation location from the default area (/usr/local)
-use
+or, to change installation location from the default (/usr/local) area,
+using
 
     rpm -Uvh --prefix /alternative/directory file.i386.rpm
 
 If the binary RPMS are not the correct architecture for you (e.g. you
-need x64 rather than i386), instead download the Source RPM (.src.rpm)
-and build a binary RPM for you machine using
+need x86\_64 rather than i386) or the binary RPM requires libraries
+(e.g. HDF4) that you do not have, you can instead rebuild a source RPM
+(.src.rpm) to generate the correct binary RPM for you machine. Download
+the source RPM file and then run
 
     rpmbuild --rebuild file.src.rpm
 
-This should then give you a binary RPM file file.something.rpm which you
-can install as above. Be careful if you think about specifying an
-alternative buildroot for rpmbuild by using --buildroot option as the
-“buildroot” directory tree will get remove (so --buildroot / is a really
-bad idea). Only change buildroot it if the default area turns out not to
-be big enough to compile the package.
+This should generate a binary RPM file which you can install as above.
+Be careful if you think about specifying an alternative buildroot for
+rpmbuild by using --buildroot option as the “buildroot” directory tree
+will get remove (so --buildroot / is a really bad idea). Only change
+buildroot it if the default area turns out not to be big enough to
+compile the package.
 
-The following packages are required:
+The nexus binary RPM requires hdf4, hdf5 and mxml to already be
+installed. Some or all of the following packages may be required in
+addition to the NeXus binary RPM:
 
 <table>
 <colgroup>
@@ -149,11 +154,12 @@ If you are using [Fedora Core](http://fedora.redhat.com/) Linux,
 pre-built hdf packages are contained in the fedora-extras repository and
 can be installed with
 
-    yum install hdf hdf-devel hdf5 hdf5-devel
+    yum install hdf hdf-devel hdf5 hdf5-devel mxml mxml-devel
 
--   [Download latest NeXus development snapshot as
-    RPM](http://download.nexusformat.org/kits/rpm/)
--   [SubversionServer](SubversionServer "wikilink")
+-   [Download NeXus API in RPM
+    format](http://download.nexusformat.org/kits/)
+-   Information on the NeXus Code
+    [SubversionServer](SubversionServer "wikilink")
 
 ### Microsoft Windows Install Kit
 

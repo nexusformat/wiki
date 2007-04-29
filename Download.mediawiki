@@ -14,10 +14,10 @@ Depending on which low-level file formats shall be supported, one or several of 
 * HDF4: packages '''hdf''' and '''hdf-devel''' on Fedora Core, '''libhdf4g''' on Debian
 * HDF5: packages '''hdf5''' and '''hdf5-devel''' on Fedora Core, '''libhdf5''' on Debian
 * MXML: packages '''libmxml1''' and '''libmxml-devel''' on Debian, '''mxml''' and '''mxml-devel''' on Fedora Core. Note that libmxml1 on Debian is curently version 2.0 and will not work; until this is updated you need to download version 2.2.2 from either http://www.easysw.com/~mike/mxml or http://cilibrar.com/~cilibrar/projsup/nex4/
-The compilation uses the GNU Autotools. Download the appropriate gzipped tar file, unpack it, and run the standard configure procedure from the resulting nexus directory. 
+The compilation uses the GNU Autotools. Download the appropriate gzipped tar file, unpack it, and run the standard configure procedure from the resulting nexus directory. For example, for version 3.0.0
 <pre>
 % tar -zxvf nexus-3.0.0.tar.gz
-% cd nexus
+% cd nexus-3.0.0
 % ./configure 
 % make
 % make install
@@ -31,27 +31,26 @@ To prevent trouble with unneeded drivers, specify e.g.
 % ./configure --without-java
 </pre>
 See the README file for further instructions.
-*[http://download.nexusformat.org/kits/nexus-3.0.0.tar.gz Download NeXus API v3.0.0]
-*[http://download.nexusformat.org/kits/ Download latest NeXus development snapshots]
-*[[SubversionServer]]
+*[http://download.nexusformat.org/kits/ Download the NeXus API Source Code]
+*Information on the NeXus Code [[SubversionServer]]
 
 ==NeXus Binary Distributions==
 ===Linux RPM Distribution Kits===
-To install and use NeXus you will need to install all of the binary RPMS - these were built on a Fedora Core 2 Linux machine. Install using
+A NeXus binary RPM (nexus-*.i386.rpm) contains ready compiled NeXus libraries whereas a source RPM (nexus-*.src.rpm) needs to be compiled into a binary RPM before it can be installed. In general, a binary RPM is installed using the command
 <pre>
 rpm -Uvh file.i386.rpm
 </pre>
-or to change installation location from the default area (/usr/local) use
+or, to change installation location from the default (/usr/local) area, using
 <pre>
 rpm -Uvh --prefix /alternative/directory file.i386.rpm
 </pre>
-If the binary RPMS are not the correct architecture for you (e.g. you need x64 rather than i386), instead download the Source RPM (.src.rpm) and build a binary RPM for you machine using
+If the binary RPMS are not the correct architecture for you (e.g. you need x86_64 rather than i386) or the binary RPM requires libraries (e.g. HDF4) that you do not have, you can instead rebuild a source RPM (.src.rpm) to generate the correct binary RPM for you machine. Download the source RPM file and then run
 <pre>
 rpmbuild --rebuild file.src.rpm
 </pre>
-This should then give you a binary RPM file file.something.rpm which you can install as above. Be careful if you think about specifying an alternative buildroot for rpmbuild by using --buildroot option as the "buildroot" directory tree will get remove (so --buildroot / is a really bad idea). Only change buildroot it if the default area turns out not to be big enough to compile the package.
+This should generate a binary RPM file which you can install as above. Be careful if you think about specifying an alternative buildroot for rpmbuild by using --buildroot option as the "buildroot" directory tree will get remove (so --buildroot / is a really bad idea). Only change buildroot it if the default area turns out not to be big enough to compile the package.
 
-The following packages are required:
+The nexus binary RPM requires hdf4, hdf5 and mxml to already be installed. Some or all of the following packages may be required in addition to the NeXus binary RPM:
 {| {{Tablestyle}}
 |-
 ! {{Headcellstyle}} width="20%" | SZIP
@@ -77,10 +76,11 @@ The following packages are required:
 
 If you are using [http://fedora.redhat.com/ Fedora Core] Linux, pre-built hdf packages are contained in the fedora-extras repository and can be installed with
 <pre>
-yum install hdf hdf-devel hdf5 hdf5-devel
+yum install hdf hdf-devel hdf5 hdf5-devel mxml mxml-devel
 </pre>
-*[http://download.nexusformat.org/kits/rpm/ Download latest NeXus development snapshot as RPM]
-*[[SubversionServer]]
+
+*[http://download.nexusformat.org/kits/ Download NeXus API in RPM format]
+*Information on the NeXus Code [[SubversionServer]]
 
 ===Microsoft Windows Install Kit===
 [http://download.nexusformat.org/kits/windows/ Windows Installer kits for NeXus]
