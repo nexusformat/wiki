@@ -156,7 +156,7 @@ can be installed with
 
     yum install hdf hdf-devel hdf5 hdf5-devel mxml mxml-devel
 
--   [Download NeXus API in RPM
+-   [Download NeXus API in RPM (binary and/or source)
     format](http://download.nexusformat.org/kits/)
 -   Information on the NeXus Code
     [SubversionServer](SubversionServer "wikilink")
