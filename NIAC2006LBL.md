@@ -153,8 +153,7 @@ Minutes
 -------
 
 Here are the minutes in [pdf
-format](Media:NIAC2006LBL_minutes.pdf "wikilink"), [OpenOffice
-format](Media:NIAC2006LBL_minutes.odt "wikilink") or [MS-Word
+format](Media:NIAC2006LBL_minutes.pdf "wikilink") or [MS-Word
 format](Media:NIAC2006LBL_minutes.doc "wikilink").
 
 Photos
