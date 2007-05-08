@@ -149,6 +149,11 @@ map](http://www.lbl.gov/Workplace/lab-site-map.html_LBL_campus_map "wikilink").
 -   Source and target of a link must have same name
 -   Java package name should be org.nexusformat
 
+Minutes
+-------
+
+Here are the <Media:NIAC2006LBL_minutes.pdf>
+
 Photos
 ------
 

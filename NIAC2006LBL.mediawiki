@@ -121,6 +121,10 @@ please refer to the [[http://www.lbl.gov/Workplace/lab-site-map.html LBL campus 
 * Source and target of a link must have same name
 * Java package name should be org.nexusformat
 
+== Minutes ==
+
+Here are the [[Media:NIAC2006LBL_minutes.pdf]]
+
 ==Photos==
 * [[NIAC2006LBL_photos | Group photos]]
 * [[NIAC2006LBL_photos_other | other photos]]
