@@ -152,7 +152,7 @@ map](http://www.lbl.gov/Workplace/lab-site-map.html_LBL_campus_map "wikilink").
 Minutes
 -------
 
-Here are the <Media:NIAC2006LBL_minutes.pdf>
+Here are the [minutes](Media:NIAC2006LBL_minutes.pdf "wikilink")
 
 Photos
 ------
