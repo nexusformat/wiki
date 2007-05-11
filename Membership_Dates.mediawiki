@@ -5,13 +5,13 @@ The members of the NIAC, with the experation of their membership is listed below
 
 ===Expire March 18, 2007===
 *Matthias Drochner - Forschungzentrum Juelich, Germany
-*Andy Goetz European - Synchrotron Radiation Facility, France (Executive co-Secretary)
+*Andy Goetz European - Synchrotron Radiation Facility, France (Executive co-Secretary - 1 year)
 
 ===Expire July 7, 2007===
 *Peter Link - FRM2, Germany
 
 ===Expire October 21, 2007===
-*Peter Peterson - Spallation Neutron Source, USA (Chair)
+*Peter Peterson - Spallation Neutron Source, USA (Chair - 1 year)
 *Nick Maliszewskyj - NIST Center for Neutron Research, USA (Technical Committee Chair, non-voting)
 
 ===Expire March 10, 2008===
@@ -20,7 +20,7 @@ The members of the NIAC, with the experation of their membership is listed below
 ===Expire Feburary 3, 2009===
 *Freddie Akeroyd - ISIS Pulsed Neutron Facility, UK
 *Stephen Cottrell - ISIS Pulsed Muon Facility, UK
-*Emmanuel Farhi - Institut Laue Langevin, France (Executive co-Secretary)
+*Emmanuel Farhi - Institut Laue Langevin, France (Executive co-Secretary - 1 year)
 *Pete Jemian - APS, ANL, USA
 *Mark Koennecke - SINQ, Switzerland
 *Thomas Proffen - Lujan Neutron Scattering Center, USA
