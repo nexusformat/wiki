@@ -22,5 +22,5 @@ If you are interested in attending (and not already on the [[NIAC2007_attendees|
 ===Proposed Agenda===
 * Welcome and Introduction
 * Review of NIAC'2006LBL minutes
-* [[Membership Dates|Renew members]]?
-* ...
+* [[Membership Dates|Renew members]]
+* Elect Chair, Executive Secretary, and Technical Committee Chair
