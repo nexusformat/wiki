@@ -11,26 +11,23 @@ stated in the [constitution](NIAC "wikilink").
 
 ### Expire September 8, 2006
 
--   Nick Hauser - Bragg Institute, Australia
 -   Przemek Klosowski - NIST Center for Neutron Research, USA
--   Ray Osborn - Intense Pulsed Neutron Source, USA
--   Toshiya Otomo - J-PARC, Japan
-
-### Expire October 21, 2007
-
--   Peter Peterson - Spallation Neutron Source, USA (Chair)
--   Nick Maliszewskyj - NIST Center for Neutron Research, USA (Technical
-    Committee Chair, non-voting)
-
-### Expire July 7, 2007
-
--   Peter Link - FRM2, Germany
 
 ### Expire March 18, 2007
 
 -   Matthias Drochner - Forschungzentrum Juelich, Germany
 -   Andy Goetz European - Synchrotron Radiation Facility, France
     (Executive co-Secretary)
+
+### Expire July 7, 2007
+
+-   Peter Link - FRM2, Germany
+
+### Expire October 21, 2007
+
+-   Peter Peterson - Spallation Neutron Source, USA (Chair)
+-   Nick Maliszewskyj - NIST Center for Neutron Research, USA (Technical
+    Committee Chair, non-voting)
 
 ### Expire March 10, 2008
 
@@ -45,4 +42,12 @@ stated in the [constitution](NIAC "wikilink").
 -   Pete Jemian - APS, ANL, USA
 -   Mark Koennecke - SINQ, Switzerland
 -   Thomas Proffen - Lujan Neutron Scattering Center, USA
+
+### Expire October 5, 2009
+
+-   Jens-Uwe Hoffman - HMI, Germany
+-   Paul Kienzle - DANSE project, USA
+-   Ray Osborn - Intense Pulsed Neutron Source, USA
+-   Nick Hauser - Bragg Institute, Australia
+-   Jiro Suzuki - J-PARC, Japan
 
