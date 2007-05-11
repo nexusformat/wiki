@@ -15,6 +15,10 @@ Local contact is [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]] [mailto:hoffmann
 
 If you are interested in attending (and not already on the [[NIAC2007_attendees|list of attendees]]), contact [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]].
 
+===Start of the Meeting===
+
+'''Add information about getting onsite to the guest house.'''
+
 ===Proposed Agenda===
 * Welcome and Introduction
 * Review of NIAC'2006LBL minutes
