@@ -167,3 +167,8 @@ Meetings
 -   September 8-10, 2003 at Pasadena, CA, USA
     ([minutes](Media:NIAC_minute.pdf "wikilink"))
 
+Action Items
+------------
+
+[Action Items](NIACActionItems "wikilink") for members of the NIAC that
+are not associated to one of the repositories.

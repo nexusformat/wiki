@@ -66,3 +66,5 @@ The NeXus format is defined as a series of XML files describing both the base cl
 * April 26-28, 2005 at Bishops Lodge in Sante Fe, NM, USA ([[Media:NIAC2005minutes.pdf|minutes]]) 
 * October 21-22, 2004 at PSI, Villigen, Switzerland ([[Media:NeXusMinutes-Oct2004.pdf|minutes]]) 
 * September 8-10, 2003 at Pasadena, CA, USA ([[Media:NIAC minute.pdf|minutes]])
+== Action Items ==
+[[NIACActionItems|Action Items]] for members of the NIAC that are not associated to one of the repositories.
