@@ -5,21 +5,19 @@ Accommodation will be at the HMI guest-house on the [http://www.hmi.de/hmi/stand
 
 Arriving information [http://www.hmi.de/hmi/wegwannsee_en.html to Berlin Wannsee].
 
-
-
 Local contact is [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]] [mailto:hoffmann-j@hmi.de].
-
-
 
 ===List of Attendees===
 
 If you are interested in attending (and not already on the [[NIAC2007_attendees|list of attendees]]), contact [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]].
 
+===Suggested Discussion Topics===
+
 ===Start of the Meeting===
 
 '''Add information about getting onsite to the guest house.'''
 
-===Proposed Agenda===
+==Proposed Agenda==
 * Welcome and Introduction
 * Review of NIAC'2006LBL minutes
 * [[Membership Dates|Renew members]]
