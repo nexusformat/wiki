@@ -7,12 +7,13 @@
 *[[User:nick|Nick Hauser]], Australian Nuclear Science and Technology Organisation, Australia
 *[[User:Andy Gotz|Andrew Götz]], European Synchrotron Radiation Facility, France (Executive Secretary)
 *[[User:Pete Jemian|Pete Jemian]], Advanced Photon Source, USA
+*[[User:Paul Kienzle|Paul Kienzle]], DANSE, USA
 *[[User:Przemek Klosowski|Przemek Klosowski]], National Insitute of Standards and Technology, USA
 *[[User:Mark Koennecke|Mark Könnecke]], Paul Scherrer Institut, Switzerland
 *Peter Link, Technische Universität München, Germany
 *[[User:Nick Maliszewskyj|Nick Maliszewskyj]] - NIST Center for Neutron Research, USA (Technical Committee Chair, non-voting)
 *[[User:Ray Osborn|Raymond Osborn]], Argonne National Laboratory, USA
-*Toshiya Otomo, KEK, Japan
+*Jiro Suzuki, KEK, Japan
 *[[User:Peter Peterson|Peter Peterson]], Spallation Neutron Source, USA (Chair)
 *[[User:Thomas Proffen|Thomas Proffen]], Los Alamos National Laboratory, USA
 

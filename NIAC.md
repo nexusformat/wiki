@@ -23,6 +23,7 @@ layout: wiki
     Radiation Facility, France (Executive Secretary)
 -   [Pete Jemian](User%3APete_Jemian "wikilink"), Advanced Photon
     Source, USA
+-   [Paul Kienzle](User%3APaul_Kienzle "wikilink"), DANSE, USA
 -   [Przemek Klosowski](User%3APrzemek_Klosowski "wikilink"), National
     Insitute of Standards and Technology, USA
 -   [Mark Könnecke](User%3AMark_Koennecke "wikilink"), Paul Scherrer
@@ -33,7 +34,7 @@ layout: wiki
     non-voting)
 -   [Raymond Osborn](User%3ARay_Osborn "wikilink"), Argonne National
     Laboratory, USA
--   Toshiya Otomo, KEK, Japan
+-   Jiro Suzuki, KEK, Japan
 -   [Peter Peterson](User%3APeter_Peterson "wikilink"), Spallation
     Neutron Source, USA (Chair)
 -   [Thomas Proffen](User%3AThomas_Proffen "wikilink"), Los Alamos
