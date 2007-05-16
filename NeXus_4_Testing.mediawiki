@@ -125,10 +125,13 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus d
 | align="center" | passed
 | align="center" | gcc/java(gcj)
 |-
-! {{Headcellstyle}} | MacOS-X (Intel)
+! {{Headcellstyle}} | MacOS-X
+| align="center" | Intel
 | align="center" | [[User:Freddie Akeroyd|Freddie Akeroyd]] 14:45, 16 May 2007 (BST)
-| align="center" | tar 
-| align="center" | HDF5/XML
+| align="center" | tar
+| align="center" | N/A
+| align="center" | 1.6.4
+| align="center" | 2.2.2
 | align="center" | passed
 | align="center" | gcc, gfortran (4.2), gcj, fink HDF
 |}
