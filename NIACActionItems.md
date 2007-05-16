@@ -18,6 +18,8 @@ Action Items for Code
 Generic Action Items
 --------------------
 
+### In Progress
+
 From [2006 LBL Meeting](Media:NIAC2006LBL_minutes.pdf "wikilink")
 
 -   [Mark Könnecke](User%3AMark_Koennecke "wikilink") - to make a
@@ -49,13 +51,6 @@ From [2006 LBL Meeting](Media:NIAC2006LBL_minutes.pdf "wikilink")
     NXcharacterisation
 -   Unassigned - to provide an example file of using NXlog instead of
     NXtimer
--   [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink") - to move
-    NeXus code and definitions from CVS to Subversion
--   [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink") - to move
-    NeXus mailing lists from anl.gov to lists.nexusformat.org
--   [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink") - to provide
-    a Mediawiki extension for rendering definitions held in Subversion
-    onto a Wiki page in a tabular format on the fly
 -   Unassigned - some definitions exist only on the WIKI, some are in
     source control (Subversion); they should all be moved into
     Subversion
@@ -85,3 +80,16 @@ From [2006 ILL Meeting](Media:NIAC2006minutes.pdf "wikilink")
 -   Unassigned - Modify/add base class definitions in accordance with
     what was voted on in February.
 
+### Completed
+
+From [2006 LBL Meeting](Media:NIAC2006LBL_minutes.pdf "wikilink")
+
+-   [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink") - to move
+    NeXus code and definitions from CVS to Subversion
+-   [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink") - to move
+    NeXus mailing lists from anl.gov to lists.nexusformat.org
+-   [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink") - to provide
+    a Mediawiki extension for rendering definitions held in Subversion
+    onto a Wiki page in a tabular format on the fly
+
+From [2006 ILL Meeting](Media:NIAC2006minutes.pdf "wikilink")

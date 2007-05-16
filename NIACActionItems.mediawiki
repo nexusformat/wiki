@@ -3,6 +3,7 @@
 == Action Items for Code ==
 [http://trac.nexusformat.org/code/report/1|Code active tickets]
 == Generic Action Items ==
+===In Progress===
 From [[Media:NIAC2006LBL_minutes.pdf|2006 LBL Meeting]]
 * [[User:Mark Koennecke|Mark Könnecke]] - to make a picture of his geometry
 * Unassigned - to change FLOAT32 to FLOAT
@@ -18,11 +19,9 @@ From [[Media:NIAC2006LBL_minutes.pdf|2006 LBL Meeting]]
 * [[User:Paul Kienzle|Paul Kienzle]] -  to make a proposal for a measurement type scan
 * [[User:Peter Peterson|Peter Peterson]] and [[User:Paul Kienzle|Paul Kienzle]] - to make a proposal for NXcharacterisation
 * Unassigned - to provide an example file of using NXlog instead of NXtimer
-* [[User:Freddie Akeroyd|Frederick Akeroyd]] - to move NeXus code and definitions from CVS to Subversion
-* [[User:Freddie Akeroyd|Frederick Akeroyd]] - to move NeXus mailing lists from anl.gov to lists.nexusformat.org
-* [[User:Freddie Akeroyd|Frederick Akeroyd]] - to provide a Mediawiki extension for rendering definitions held in Subversion onto a Wiki page in a tabular format on the fly
 * Unassigned - some definitions exist only on the WIKI, some are in source control (Subversion); they should all be moved into Subversion
 * [[User:Peter Peterson|Peter Peterson]] - tag current version [as of meeting] of NeXus definitions as version 1.0
+
 From [[Media:NIAC2006minutes.pdf|2006 ILL Meeting]]
 * [[User:Peter Peterson|Peter Peterson]] - Write down the current responsibilities for the officers and circulate to the committee for approval
 * [[User:Andy Gotz|Andrew Götz]] - Write a report on NeXus and submit to both the Neutron News and Synchrotron News
@@ -33,3 +32,11 @@ From [[Media:NIAC2006minutes.pdf|2006 ILL Meeting]]
 * Unassigned - Update website with constitution changes (some are even from the last meeting)
 * Unassigned - Synchronize the website definitions with those in cvs (the website are considered more correct)
 * Unassigned - Modify/add base class definitions in accordance with what was voted on in February.
+
+===Completed===
+From [[Media:NIAC2006LBL_minutes.pdf|2006 LBL Meeting]]
+* [[User:Freddie Akeroyd|Frederick Akeroyd]] - to move NeXus code and definitions from CVS to Subversion
+* [[User:Freddie Akeroyd|Frederick Akeroyd]] - to move NeXus mailing lists from anl.gov to lists.nexusformat.org
+* [[User:Freddie Akeroyd|Frederick Akeroyd]] - to provide a Mediawiki extension for rendering definitions held in Subversion onto a Wiki page in a tabular format on the fly
+
+From [[Media:NIAC2006minutes.pdf|2006 ILL Meeting]]
