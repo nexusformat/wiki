@@ -134,4 +134,14 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus d
 | align="center" | 2.2.2
 | align="center" | passed
 | align="center" | gcc, gfortran (4.2), gcj, fink HDF
+|-
+! {{Headcellstyle}} | MacOS-X
+| align="center" | PowerPC
+| align="center" | [[User:Freddie Akeroyd|Freddie Akeroyd]] 16:54, 16 May 2007 (BST)
+| align="center" | tar
+| align="center" | 4.2.0
+| align="center" | 1.6.4
+| align="center" | 2.2.2
+| align="center" | passed
+| align="center" | gcc, g77, g95, gcj, fink HDF
 |}

@@ -63,5 +63,6 @@ here](http://trac.nexusformat.org/code/query?status=new&status=assigned&status=r
 | | Linux (RHEL4)      | 64bit Intel | [Peter Peterson](User%3APeter_Peterson "wikilink") 2007-04-02T14:54:34-0400     | tar        | 4.2.1  | 1.6.4  | 2.2.2  | passed         | gcc/gfortran/java 1.5.0\_11/python |
 | | MS Windows (MinGW) | 32bit Intel | [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink") 11:40, 11 April 2007 (BST) | tar        | 4.2.1  | 1.6.5  | 2.2.2  | passed         | gcc/java(gcj)                      |
 | | MacOS-X            | Intel       | [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink") 14:45, 16 May 2007 (BST)   | tar        | N/A    | 1.6.4  | 2.2.2  | passed         | gcc, gfortran (4.2), gcj, fink HDF |
+| | MacOS-X            | PowerPC     | [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink") 16:54, 16 May 2007 (BST)   | tar        | 4.2.0  | 1.6.4  | 2.2.2  | passed         | gcc, g77, g95, gcj, fink HDF       |
 
 
