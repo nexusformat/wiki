@@ -16,4 +16,7 @@ Attendees of the
 | [[User:Peter_Peterson|Peter Peterson]]
 || Spallation Neutron Source, Oak Ridge National Laboratory
 |-
+| [[User:Thomas Proffen|Thomas Proffen]]
+|| Lujan Neutron Scattering Center, Los Alamos National Laboratory
+|-
 |}
