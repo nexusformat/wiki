@@ -25,7 +25,7 @@ From [[Media:NIAC2006LBL_minutes.pdf|2006 LBL Meeting]]
 From [[Media:NIAC2006minutes.pdf|2006 ILL Meeting]]
 * [[User:Peter Peterson|Peter Peterson]] - Write down the current responsibilities for the officers and circulate to the committee for approval
 * [[User:Andy Gotz|Andrew Götz]] - Write a report on NeXus and submit to both the Neutron News and Synchrotron News
-* [[User:Mark Koennecke|Mark Könnecke]] and [[User:Ray Osborn|Raymond Osborn]] - Whut down existing website and mirror, leaving a redirection page to new site
+* [[User:Mark Koennecke|Mark Könnecke]] and [[User:Ray Osborn|Raymond Osborn]] - Shut down existing website and mirror, leaving a redirection page to new site
 * Darren Kelly and [[User:Ray Osborn|Raymond Osborn]] - Existing definitions will be rendered in colored meta-DTD and table formats. Results will be added to website
 * Darren Kelly - Style sheets (XSLT) will be created to convert definitions into colorized meta-DTD and table formats
 * Unassigned - NXcharacterization needs to be formalized and ratified

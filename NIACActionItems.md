@@ -65,7 +65,7 @@ From [2006 ILL Meeting](Media:NIAC2006minutes.pdf "wikilink")
 -   [Andrew Götz](User%3AAndy_Gotz "wikilink") - Write a report on NeXus
     and submit to both the Neutron News and Synchrotron News
 -   [Mark Könnecke](User%3AMark_Koennecke "wikilink") and [Raymond
-    Osborn](User%3ARay_Osborn "wikilink") - Whut down existing website
+    Osborn](User%3ARay_Osborn "wikilink") - Shut down existing website
     and mirror, leaving a redirection page to new site
 -   Darren Kelly and [Raymond Osborn](User%3ARay_Osborn "wikilink") -
     Existing definitions will be rendered in colored meta-DTD and table
