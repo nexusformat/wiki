@@ -14,9 +14,11 @@ Attendees of the
 || Hahn-Meitner-Institut Berlin, Germany
 |-
 | [[User:Peter_Peterson|Peter Peterson]]
-|| Spallation Neutron Source, Oak Ridge National Laboratory
+|| Spallation Neutron Source, Oak Ridge National Laboratory, USA
 |-
 | [[User:Thomas Proffen|Thomas Proffen]]
-|| Lujan Neutron Scattering Center, Los Alamos National Laboratory
+|| Lujan Neutron Scattering Center, Los Alamos National Laboratory, USA
 |-
+| [[User:Ray Osborn|Ray Osborn]]
+|| Argonne National Laboratory, USA
 |}
