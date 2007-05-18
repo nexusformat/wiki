@@ -56,8 +56,8 @@ From [2006 LBL Meeting](Media:NIAC2006LBL_minutes.pdf "wikilink")
     (Subversion); they should all be moved into Subversion. **STATUS:**
     all base classes moved, input from other NIAC members required on
     naming of instrument definitions before moving them.
--   ALL - check old www.nexus.anl.gov web site and report any content
-    that has not been moved to new WIKI server
+-   ALL - check old <http://www.nexus.anl.gov> web site and report any
+    content that has not been moved to new WIKI server
 -   [Peter Peterson](User%3APeter_Peterson "wikilink") - tag current
     version \[as of meeting\] of NeXus definitions as version 1.0
 
