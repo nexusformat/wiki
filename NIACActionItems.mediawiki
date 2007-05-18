@@ -19,7 +19,8 @@ From [[Media:NIAC2006LBL_minutes.pdf|2006 LBL Meeting]]
 * [[User:Paul Kienzle|Paul Kienzle]] -  to make a proposal for a measurement type scan
 * [[User:Peter Peterson|Peter Peterson]] and [[User:Paul Kienzle|Paul Kienzle]] - to make a proposal for NXcharacterisation
 * Unassigned - to provide an example file of using NXlog instead of NXtimer
-* Unassigned - some definitions exist only on the WIKI, some are in source control (Subversion); they should all be moved into Subversion
+* [[User:Freddie Akeroyd|Frederick Akeroyd]] - some definitions exist only on the WIKI, some are in source control (Subversion); they should all be moved into Subversion. '''STATUS:''' all base classes moved, input from other NIAC members required on naming of instrument definitions before moving them.
+* ALL - check old www.nexus.anl.gov web site and report any content that has not been moved to new WIKI server
 * [[User:Peter Peterson|Peter Peterson]] - tag current version [as of meeting] of NeXus definitions as version 1.0
 
 From [[Media:NIAC2006minutes.pdf|2006 ILL Meeting]]
