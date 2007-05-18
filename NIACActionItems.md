@@ -68,9 +68,6 @@ From [2006 ILL Meeting](Media:NIAC2006minutes.pdf "wikilink")
     committee for approval
 -   [Andrew Götz](User%3AAndy_Gotz "wikilink") - Write a report on NeXus
     and submit to both the Neutron News and Synchrotron News
--   [Mark Könnecke](User%3AMark_Koennecke "wikilink") and [Raymond
-    Osborn](User%3ARay_Osborn "wikilink") - Shut down existing website
-    and mirror, leaving a redirection page to new site
 -   Darren Kelly and [Raymond Osborn](User%3ARay_Osborn "wikilink") -
     Existing definitions will be rendered in colored meta-DTD and table
     formats. Results will be added to website
@@ -95,5 +92,11 @@ From [2006 LBL Meeting](Media:NIAC2006LBL_minutes.pdf "wikilink")
 -   [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink") - to provide
     a Mediawiki extension for rendering definitions held in Subversion
     onto a Wiki page in a tabular format on the fly
+-   [Mark Könnecke](User%3AMark_Koennecke "wikilink") and [Raymond
+    Osborn](User%3ARay_Osborn "wikilink") - Shut down existing website
+    and mirror, leaving a redirection page to new site. \[The original
+    website at <http://www.nexus.anl.gov/> contains a redirect message,
+    but is still online so that NIAC members can check for content
+    missing on the wiki.\]
 
 From [2006 ILL Meeting](Media:NIAC2006minutes.pdf "wikilink")
