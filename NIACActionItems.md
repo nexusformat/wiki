@@ -58,8 +58,9 @@ From [2006 LBL Meeting](Media:NIAC2006LBL_minutes.pdf "wikilink")
     naming of instrument definitions before moving them.
 -   ALL - check old <http://www.nexus.anl.gov> web site and report any
     content that has not been moved to new WIKI server
--   [Peter Peterson](User%3APeter_Peterson "wikilink") - tag current
-    version \[as of meeting\] of NeXus definitions as version 1.0
+-   [Peter Peterson](User%3APeter_Peterson "wikilink") - tag definitions
+    prior to NIAC meeting as version 1.0; those ratified/changed at the
+    meeting become version 2.0
 
 From [2006 ILL Meeting](Media:NIAC2006minutes.pdf "wikilink")
 
