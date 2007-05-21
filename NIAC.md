@@ -21,6 +21,8 @@ layout: wiki
     and Technology Organisation, Australia
 -   [Andrew Götz](User%3AAndy_Gotz "wikilink"), European Synchrotron
     Radiation Facility, France (Executive Secretary)
+-   [ Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann "wikilink"),
+    Hahn-Meitner-Institut Berlin, Germany
 -   [Pete Jemian](User%3APete_Jemian "wikilink"), Advanced Photon
     Source, USA
 -   [Paul Kienzle](User%3APaul_Kienzle "wikilink"), DANSE, USA
