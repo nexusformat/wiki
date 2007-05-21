@@ -13,10 +13,12 @@ Hahn-Meitner-Institut Berlin, Germany.
 |                                                           |                                                                        |
 |-----------------------------------------------------------|------------------------------------------------------------------------|
 | [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink")    | | Rutherford Appleton Laboratory, UK                                   |
+| [Stuart Campbell](User%3AStuart_Campbell "wikilink")      | | Diamond Light Source, UK                                             |
 | [Stephen Cottrell](User%3ASteve_Cottrell "wikilink")      | | Rutherford Appleton Laboratory, UK                                   |
 | [ Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann "wikilink") | | Hahn-Meitner-Institut Berlin, Germany                                |
+| [Ray Osborn](User%3ARay_Osborn "wikilink")                | | Argonne National Laboratory, USA                                     |
 | [Peter Peterson](User%3APeter_Peterson "wikilink")        | | Spallation Neutron Source, Oak Ridge National Laboratory, USA        |
 | [Thomas Proffen](User%3AThomas_Proffen "wikilink")        | | Lujan Neutron Scattering Center, Los Alamos National Laboratory, USA |
-| [Ray Osborn](User%3ARay_Osborn "wikilink")                | | Argonne National Laboratory, USA                                     |
+||
 
 

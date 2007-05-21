@@ -7,11 +7,17 @@ Attendees of the
 | [[User:Freddie Akeroyd|Frederick Akeroyd]] 
 || Rutherford Appleton Laboratory, UK
 |-
+| [[User:Stuart Campbell|Stuart Campbell]]
+|| Diamond Light Source, UK
+|-
 | [[User:Steve Cottrell|Stephen Cottrell]]
 || Rutherford Appleton Laboratory, UK
 |-
 | [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]]
 || Hahn-Meitner-Institut Berlin, Germany
+|-
+| [[User:Ray Osborn|Ray Osborn]]
+|| Argonne National Laboratory, USA
 |-
 | [[User:Peter_Peterson|Peter Peterson]]
 || Spallation Neutron Source, Oak Ridge National Laboratory, USA
@@ -19,6 +25,4 @@ Attendees of the
 | [[User:Thomas Proffen|Thomas Proffen]]
 || Lujan Neutron Scattering Center, Los Alamos National Laboratory, USA
 |-
-| [[User:Ray Osborn|Ray Osborn]]
-|| Argonne National Laboratory, USA
 |}
