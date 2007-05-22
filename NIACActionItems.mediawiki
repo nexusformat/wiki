@@ -18,9 +18,7 @@ From [[Media:NIAC2006minutes.pdf|2006 ILL Meeting]]
 * [[User:Andy Gotz|Andrew Götz]] - Write a report on NeXus and submit to both the Neutron News and Synchrotron News
 * Darren Kelly and [[User:Ray Osborn|Raymond Osborn]] - Existing definitions will be rendered in colored meta-DTD and table formats. Results will be added to website
 * Darren Kelly - Style sheets (XSLT) will be created to convert definitions into colorized meta-DTD and table formats
-* Unassigned - NXcharacterization needs to be formalized and ratified
 * Unassigned - Update website with constitution changes (some are even from the last meeting)
-* Unassigned - Synchronize the website definitions with those in cvs (the website are considered more correct)
 * Unassigned - Modify/add base class definitions in accordance with what was voted on in February.
 
 ===Completed===
@@ -32,3 +30,5 @@ From [[Media:NIAC2006LBL_minutes.pdf|2006 LBL Meeting]]
 * [[User:Peter Peterson|Peter Peterson]] - to write up the versioning mechanism
 
 From [[Media:NIAC2006minutes.pdf|2006 ILL Meeting]]
+* Unassigned - NXcharacterization needs to be formalized and ratified - this has been repeated in [http://trac.nexusformat.org/definitions/ticket/11 #11]
+* Unassigned - Synchronize the website definitions with those in cvs (the website are considered more correct) - this is formalized as an action item at the 2006 LBL meeting

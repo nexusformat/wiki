@@ -53,11 +53,8 @@ From [2006 ILL Meeting](Media:NIAC2006minutes.pdf "wikilink")
     formats. Results will be added to website
 -   Darren Kelly - Style sheets (XSLT) will be created to convert
     definitions into colorized meta-DTD and table formats
--   Unassigned - NXcharacterization needs to be formalized and ratified
 -   Unassigned - Update website with constitution changes (some are even
     from the last meeting)
--   Unassigned - Synchronize the website definitions with those in cvs
-    (the website are considered more correct)
 -   Unassigned - Modify/add base class definitions in accordance with
     what was voted on in February.
 
@@ -82,3 +79,11 @@ From [2006 LBL Meeting](Media:NIAC2006LBL_minutes.pdf "wikilink")
     versioning mechanism
 
 From [2006 ILL Meeting](Media:NIAC2006minutes.pdf "wikilink")
+
+-   Unassigned - NXcharacterization needs to be formalized and
+    ratified - this has been repeated in
+    [\#11](http://trac.nexusformat.org/definitions/ticket/11)
+-   Unassigned - Synchronize the website definitions with those in cvs
+    (the website are considered more correct) - this is formalized as an
+    action item at the 2006 LBL meeting
+
