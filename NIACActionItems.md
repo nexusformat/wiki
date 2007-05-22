@@ -36,8 +36,6 @@ From [2006 LBL Meeting](Media:NIAC2006LBL_minutes.pdf "wikilink")
     need the source and target names to be different
 -   [Peter Peterson](User%3APeter_Peterson "wikilink") - to explain how
     to change a definition
--   [Peter Peterson](User%3APeter_Peterson "wikilink") - to write up the
-    versioning mechanism
 -   [Paul Kienzle](User%3APaul_Kienzle "wikilink") - to provide an
     example of a Tscan
 -   [Paul Kienzle](User%3APaul_Kienzle "wikilink") - to make a proposal
@@ -99,5 +97,7 @@ From [2006 LBL Meeting](Media:NIAC2006LBL_minutes.pdf "wikilink")
     website at <http://www.nexus.anl.gov/> contains a redirect message,
     but is still online so that NIAC members can check for content
     missing on the wiki.\]
+-   [Peter Peterson](User%3APeter_Peterson "wikilink") - to write up the
+    versioning mechanism
 
 From [2006 ILL Meeting](Media:NIAC2006minutes.pdf "wikilink")

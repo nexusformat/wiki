@@ -12,7 +12,6 @@ From [[Media:NIAC2006LBL_minutes.pdf|2006 LBL Meeting]]
 * [[User:Andy Gotz|Andrew Götz]] - to add missing items for ccd detectors to NXdetector
 * Unassigned - to find a sollution to the linking problem for when you need the source and target names to be different
 * [[User:Peter Peterson|Peter Peterson]] - to explain how to change a definition
-* [[User:Peter Peterson|Peter Peterson]] - to write up the versioning mechanism
 * [[User:Paul Kienzle|Paul Kienzle]] - to provide an example of a Tscan
 * [[User:Paul Kienzle|Paul Kienzle]] - to make a proposal for NXScan
 * [[User:Paul Kienzle|Paul Kienzle]] - to make a list of all units used in NeXus
@@ -39,5 +38,6 @@ From [[Media:NIAC2006LBL_minutes.pdf|2006 LBL Meeting]]
 * [[User:Freddie Akeroyd|Frederick Akeroyd]] - to move NeXus mailing lists from anl.gov to lists.nexusformat.org
 * [[User:Freddie Akeroyd|Frederick Akeroyd]] - to provide a Mediawiki extension for rendering definitions held in Subversion onto a Wiki page in a tabular format on the fly
 * [[User:Mark Koennecke|Mark Könnecke]] and [[User:Ray Osborn|Raymond Osborn]] - Shut down existing website and mirror, leaving a redirection page to new site.  [The original website at http://www.nexus.anl.gov/ contains a redirect message, but is still online so that NIAC members can check for content missing on the wiki.]
+* [[User:Peter Peterson|Peter Peterson]] - to write up the versioning mechanism
 
 From [[Media:NIAC2006minutes.pdf|2006 ILL Meeting]]
