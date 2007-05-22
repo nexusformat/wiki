@@ -6,21 +6,12 @@
 ===In Progress===
 From [[Media:NIAC2006LBL_minutes.pdf|2006 LBL Meeting]]
 * [[User:Mark Koennecke|Mark Könnecke]] - to make a picture of his geometry
-* Unassigned - to change FLOAT32 to FLOAT
 * Unassigned - to put NXgenericScan text in manual
 * [[User:Paul Kienzle|Paul Kienzle]], [[User:nick|Nick Hauser]], and [[User:Peter Peterson|Peter Peterson]] - will look into making an NSF proposal to request for money
-* [[User:Andy Gotz|Andrew Götz]] - to add missing items for ccd detectors to NXdetector
-* Unassigned - to find a sollution to the linking problem for when you need the source and target names to be different
+* Unassigned - to find a solution to the linking problem for when you need the source and target names to be different
 * [[User:Peter Peterson|Peter Peterson]] - to explain how to change a definition
-* [[User:Paul Kienzle|Paul Kienzle]] - to provide an example of a Tscan
-* [[User:Paul Kienzle|Paul Kienzle]] - to make a proposal for NXScan
-* [[User:Paul Kienzle|Paul Kienzle]] - to make a list of all units used in NeXus
-* [[User:Paul Kienzle|Paul Kienzle]] -  to make a proposal for a measurement type scan
-* [[User:Peter Peterson|Peter Peterson]] and [[User:Paul Kienzle|Paul Kienzle]] - to make a proposal for NXcharacterisation
-* Unassigned - to provide an example file of using NXlog instead of NXtimer
 * [[User:Freddie Akeroyd|Frederick Akeroyd]] - some definitions exist only on the WIKI, some are in source control (Subversion); they should all be moved into Subversion. '''STATUS:''' all base classes moved, input from other NIAC members required on naming of instrument definitions before moving them.
 * ALL - check old http://www.nexus.anl.gov web site and report any content that has not been moved to new WIKI server
-* [[User:Peter Peterson|Peter Peterson]] - tag definitions prior to NIAC meeting as version 1.0; those ratified/changed at the meeting become version 2.0
 
 From [[Media:NIAC2006minutes.pdf|2006 ILL Meeting]]
 * [[User:Peter Peterson|Peter Peterson]] - Write down the current responsibilities for the officers and circulate to the committee for approval

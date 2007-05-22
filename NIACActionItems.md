@@ -24,31 +24,15 @@ From [2006 LBL Meeting](Media:NIAC2006LBL_minutes.pdf "wikilink")
 
 -   [Mark Könnecke](User%3AMark_Koennecke "wikilink") - to make a
     picture of his geometry
--   Unassigned - to change FLOAT32 to FLOAT
 -   Unassigned - to put NXgenericScan text in manual
 -   [Paul Kienzle](User%3APaul_Kienzle "wikilink"), [Nick
     Hauser](User%3Anick "wikilink"), and [Peter
     Peterson](User%3APeter_Peterson "wikilink") - will look into making
     an NSF proposal to request for money
--   [Andrew Götz](User%3AAndy_Gotz "wikilink") - to add missing items
-    for ccd detectors to NXdetector
--   Unassigned - to find a sollution to the linking problem for when you
+-   Unassigned - to find a solution to the linking problem for when you
     need the source and target names to be different
 -   [Peter Peterson](User%3APeter_Peterson "wikilink") - to explain how
     to change a definition
--   [Paul Kienzle](User%3APaul_Kienzle "wikilink") - to provide an
-    example of a Tscan
--   [Paul Kienzle](User%3APaul_Kienzle "wikilink") - to make a proposal
-    for NXScan
--   [Paul Kienzle](User%3APaul_Kienzle "wikilink") - to make a list of
-    all units used in NeXus
--   [Paul Kienzle](User%3APaul_Kienzle "wikilink") - to make a proposal
-    for a measurement type scan
--   [Peter Peterson](User%3APeter_Peterson "wikilink") and [Paul
-    Kienzle](User%3APaul_Kienzle "wikilink") - to make a proposal for
-    NXcharacterisation
--   Unassigned - to provide an example file of using NXlog instead of
-    NXtimer
 -   [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink") - some
     definitions exist only on the WIKI, some are in source control
     (Subversion); they should all be moved into Subversion. **STATUS:**
@@ -56,9 +40,6 @@ From [2006 LBL Meeting](Media:NIAC2006LBL_minutes.pdf "wikilink")
     naming of instrument definitions before moving them.
 -   ALL - check old <http://www.nexus.anl.gov> web site and report any
     content that has not been moved to new WIKI server
--   [Peter Peterson](User%3APeter_Peterson "wikilink") - tag definitions
-    prior to NIAC meeting as version 1.0; those ratified/changed at the
-    meeting become version 2.0
 
 From [2006 ILL Meeting](Media:NIAC2006minutes.pdf "wikilink")
 
