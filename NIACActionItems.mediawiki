@@ -1,7 +1,13 @@
 == Action Items for Definitions ==
-[http://trac.nexusformat.org/definitions/report/1|Definitions active tickets]
+===In Progress===
+* [http://trac.nexusformat.org/definitions/query?status=new&status=assigned&status=reopened&group=owner&keywords=%7ENIAC2006LBL&order=priority From NIAC 2006 LBL]
+===Completed===
+* [http://trac.nexusformat.org/definitions/query?status=closed&group=owner&keywords=%7ENIAC2006LBL&order=priority From NIAC 2006 LBL]
 == Action Items for Code ==
-[http://trac.nexusformat.org/code/report/1|Code active tickets]
+===In Progress===
+* [http://trac.nexusformat.org/code/query?status=new&status=assigned&status=reopened&group=owner&keywords=%7ENIAC2006LBL&order=priority From NIAC 2006 LBL]
+===Completed===
+* [http://trac.nexusformat.org/code/query?status=closed&group=owner&keywords=%7ENIAC2006LBL&order=priority From NIAC 2006 LBL]
 == Generic Action Items ==
 ===In Progress===
 From [[Media:NIAC2006LBL_minutes.pdf|2006 LBL Meeting]]

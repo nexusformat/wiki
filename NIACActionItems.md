@@ -7,13 +7,28 @@ layout: wiki
 Action Items for Definitions
 ----------------------------
 
-[active
-tickets](http://trac.nexusformat.org/definitions/report/1%7CDefinitions)
+### In Progress
+
+-   [From NIAC 2006
+    LBL](http://trac.nexusformat.org/definitions/query?status=new&status=assigned&status=reopened&group=owner&keywords=%7ENIAC2006LBL&order=priority)
+
+### Completed
+
+-   [From NIAC 2006
+    LBL](http://trac.nexusformat.org/definitions/query?status=closed&group=owner&keywords=%7ENIAC2006LBL&order=priority)
 
 Action Items for Code
 ---------------------
 
-[active tickets](http://trac.nexusformat.org/code/report/1%7CCode)
+### In Progress
+
+-   [From NIAC 2006
+    LBL](http://trac.nexusformat.org/code/query?status=new&status=assigned&status=reopened&group=owner&keywords=%7ENIAC2006LBL&order=priority)
+
+### Completed
+
+-   [From NIAC 2006
+    LBL](http://trac.nexusformat.org/code/query?status=closed&group=owner&keywords=%7ENIAC2006LBL&order=priority)
 
 Generic Action Items
 --------------------
