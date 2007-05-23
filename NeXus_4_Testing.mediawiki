@@ -226,7 +226,7 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits NeXus d
 | align="center" | PowerPC
 | align="center" | [[User:Freddie Akeroyd|Freddie Akeroyd]] 20:17, 23 May 2007 (BST)
 | align="center" | tar 
-| align="center" | 4.2.1 
+| align="center" | 4.2.0
 | align="center" | 1.6.4
 | align="center" | 2.2.2
 | align="center" | passed
