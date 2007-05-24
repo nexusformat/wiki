@@ -63,6 +63,13 @@ non-backward compatible way
 -   The JAVA API now uses org.nexusformat rather than
     gov.anl.neutron.nexus
 
+Known Issues
+------------
+
+-   Fortran 90 part of testsuite fails with the Absoft compiler (passes
+    with g95 and gfortran) [details
+    here](http://trac.nexusformat.org/code/ticket/68)
+
 Miscellaneous bug fixes
 -----------------------
 
