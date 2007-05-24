@@ -144,8 +144,8 @@ addition to the NeXus binary RPM:
 </tr>
 <tr class="even">
 <td><p>| NeXus</p></td>
-<td align="center"><p><a href="http://download.nexusformat.org/kits/rpm/nexus-3.0.0-1.i386.rpm">i386 Binary RPM</a></p></td>
-<td align="center"><p><a href="http://download.nexusformat.org/kits/rpm/nexus-3.0.0-1.src.rpm">Source RPM</a></p></td>
+<td align="center"><p><a href="http://download.nexusformat.org/kits/rpm/nexus-4.0.0-0.i386.rpm">i386 Binary RPM</a></p></td>
+<td align="center"><p><a href="http://download.nexusformat.org/kits/rpm/nexus-4.0.0-0.src.rpm">Source RPM</a></p></td>
 </tr>
 </tbody>
 </table>
