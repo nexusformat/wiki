@@ -66,8 +66,8 @@ non-backward compatible way
 Known Issues
 ------------
 
--   Fortran 90 part of testsuite fails with the Absoft compiler (passes
-    with g95 and gfortran) [details
+-   The Fortran 90 part of testsuite fails with the Absoft compiler on
+    MacOSX (it passes with g95 and gfortran (4.2)) [details
     here](http://trac.nexusformat.org/code/ticket/68)
 
 Miscellaneous bug fixes
