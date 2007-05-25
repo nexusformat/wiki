@@ -170,7 +170,7 @@ subroutines that make it easy to read and write NeXus files. These
 subroutines are available in C, Fortran 77, Fortran 90, Java, and IDL.
 Access from other languages, such as Python, is anticipated in the near
 future. It is also possible to read NeXus files in a number of data
-analysis tools, such as LAMP, ISAW, and open Genie.
+analysis tools, such as LAMP, ISAW, and Open GENIE.
 
 The API uses a very simple “state” model to navigate through a NeXus
 file. When you open a file, the API provides a file “handle”, which then
