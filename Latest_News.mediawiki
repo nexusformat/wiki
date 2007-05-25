@@ -1,24 +1,7 @@
 ==2007==
-;Friday, May 25, 2007:
-The NeXus technical committee is pleased to announce the official
-release of version 4.0 of the NeXus API. The NeXus API provides a
-unified interface for writing hierarchical data files in HDF4, HDF5,
-and XML formats. Version 4.0 resolves a number of bugs reported in the
-3.0 release by providing updated makefiles, support for the gfortran
-compiler, and an improved test suite.
-
-New functionality in the NeXus API includes support for two
-dimensional character arrays, linking to data items in other files
-(external linking) via the NXmakenamedlink() call, and print the
-target to a link reference with via the NXprintlink() call. File
-format- specific developments include extension of the XML API to
-handle "unlimited" dimensions, support for group attributes in HDF4,
-and support for reading generic (non-NeXus) HDF5 files. The new
-release also automagically generates documentation from the source
-code using the Doxygen documentation system.
-
-Source code, binary packages, and example code can be downloaded from [[Download|download page]].
-
+;Friday, May 25, 2007:The NeXus technical committee is pleased to announce the official release of version 4.0 of the NeXus API. The NeXus API provides a unified interface for writing hierarchical data files in HDF4, HDF5, and XML formats. Version 4.0 resolves a number of bugs reported in the 3.0 release by providing updated makefiles, support for the gfortran compiler, and an improved test suite.
+:New functionality in the NeXus API includes support for two dimensional character arrays, linking to data items in other files (external linking) via the NXmakenamedlink() call, and print the target to a link reference with via the NXprintlink() call. File format- specific  developments include extension of the XML API to handle "unlimited" dimensions, support for group attributes in HDF4, and support for reading generic (non-NeXus) HDF5 files. The new release also automagically generates documentation from the source code using the Doxygen documentation system.
+:Source code, binary packages, and example code can be downloaded from [[Download|download page]].
 ;Friday, March 16, 2007: The upcoming 4.0 release of the NeXus API is now undergoing testing. More details can be found on the [[NeXus 4 Testing|testing site]] as well as [[Nexus 4 Release Notes|provisional release notes]]
 
 ==2006==
