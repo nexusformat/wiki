@@ -20,7 +20,9 @@ developments include extension of the XML API to handle “unlimited”
 dimensions, support for group attributes in HDF4, and support for
 reading generic (non-NeXus) HDF5 files. The new release also
 automagically generates documentation from the source code using the
-Doxygen documentation system.
+Doxygen documentation system. Details of the new features contained in
+4.0.0 can be found in the [Release
+Notes](http://trac.nexusformat.org/code/browser/tags/4.0.0/NEWS)
 
 <!-- -->
 
