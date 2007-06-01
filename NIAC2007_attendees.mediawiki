@@ -4,25 +4,30 @@ Attendees of the
 [[NIAC2007|2007 NIAC Meeting]] at Hahn-Meitner-Institut Berlin, Germany.
 
 {| border="1"
+! Name || Company/Institute || Guesthouse || Passport number
+|-
 | [[User:Freddie Akeroyd|Frederick Akeroyd]] 
-|| Rutherford Appleton Laboratory, UK
+|| Rutherford Appleton Laboratory, UK || ||
 |-
 | [[User:Stuart Campbell|Stuart Campbell]]
-|| Diamond Light Source, UK
+|| Diamond Light Source, UK || ||
 |-
 | [[User:Steve Cottrell|Stephen Cottrell]]
-|| Rutherford Appleton Laboratory, UK
+|| Rutherford Appleton Laboratory, UK || ||
+|-
+| [[User:nick|Nick Hauser]]
+|| Australian Nuclear Science and Technology Organisation, Australia || ||
 |-
 | [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]]
-|| Hahn-Meitner-Institut Berlin, Germany
+|| Hahn-Meitner-Institut Berlin, Germany || -- || --
 |-
 | [[User:Ray Osborn|Ray Osborn]]
-|| Argonne National Laboratory, USA
+|| Argonne National Laboratory, USA || ||
 |-
 | [[User:Peter_Peterson|Peter Peterson]]
-|| Spallation Neutron Source, Oak Ridge National Laboratory, USA
+|| Spallation Neutron Source, Oak Ridge National Laboratory, USA || ||
 |-
 | [[User:Thomas Proffen|Thomas Proffen]]
-|| Lujan Neutron Scattering Center, Los Alamos National Laboratory, USA
+|| Lujan Neutron Scattering Center, Los Alamos National Laboratory, USA || OK ||
 |-
 |}
