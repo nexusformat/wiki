@@ -1,24 +1,84 @@
-==NIAC Meeting - September 2007==
+=NIAC Meeting - September 2007=
 The next meeting of the  [[NIAC | NeXus International Advisory Committee]] will be held at the [http://www.hmi.de Hahn-Meitner-Institut] in Berlin, Germany. The meeting is planned for September 24-26, 2007.
 
-Accommodation will be at the HMI guest-house on the [http://www.hmi.de/hmi/standorte_en.html#Wannsee HMI campus Wannsee]. The rate for a single room is for the first overnight stay 34€ and 24€ for every following one (double room 52€/34€).
+== Accommodation ==
+Accommodation will be at the HMI guest-house on the [http://www.hmi.de/hmi/standorte_en.html#Wannsee HMI campus Wannsee]. The rate for a single room is for the first overnight stay 34€ and 24€ for every following one (double room 52€/34€). [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]] [mailto:hoffmann-j@hmi.de] is you local contact for reservation and access authorization, please send your name, address and your '''passport number'''. 
+
 
 Arriving information [http://www.hmi.de/hmi/wegwannsee_en.html to Berlin Wannsee].
 
-Local contact is [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]] [mailto:hoffmann-j@hmi.de].
 
-===List of Attendees===
+== Conference Fee ==
+
+We plan a conference fee of about 100€ per person for coffee, lunch, etc.
+
+
+==List of Attendees==
 
 If you are interested in attending (and not already on the [[NIAC2007_attendees|list of attendees]]), contact [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]].
 
-===Suggested Discussion Topics===
-
-===Start of the Meeting===
-
-'''Add information about getting onsite to the guest house.'''
 
 ==Proposed Agenda==
-* Welcome and Introduction
+
+* Welcome and Introduction 
 * Review of NIAC'2006LBL minutes
 * [[Membership Dates|Renew members]]
 * Elect chair, executive secretary, and technical committee chair
+
+===Suggested Discussion Topics===
+
+
+=== Timetable ===
+
+{| border="1" cellspacing="0" cellpedding="10"
+! align="center" colspan="3" | Monday 24th September 2007 
+|-
+! Time || LS 206 || LR 204
+|-
+| 9:00 - 9:15 || Welcome and Introduction || 
+|-
+| 9:15 - 12:00 || 
+* Review of NIAC'2006LBL minutes
+* [[Membership Dates|Renew members]]
+* Elect chair, executive secretary, and technical committee chair
+||
+|-
+| 12:00 - 13:00 || align="center" colspan="2" | Lunch
+|-
+| 13:00 - 18:00 || ||
+|-
+| || align="center" colspan="2" | Dinner
+|-
+| colspan="3" |
+|-
+! align="center" colspan="3" | Tuesday 25th September 2007 
+|-
+! Time || LS 206 || LR 204
+|-
+| 9:00 - 10:00 || ||
+|-
+| 10:00 - 12:00 || align="center"  | ---- ||
+|-
+| 12:00 - 13:00 || align="center" colspan="2" | Lunch
+|-
+| 13:00 - 18:00 || ||
+|-
+| || align="center" colspan="2" | Dinner
+|-
+| colspan="3" |
+|-
+! align="center" colspan="3" | Wednesday 26th September 2007 
+|-
+! Time || LS 206 || LR 204
+|-
+| 9:00 - 10:30 || ||
+|-
+| 10:30 - 12:00 || align="center" | ---- ||
+|-
+| 12:00 - 13:00 || align="center" colspan="2" | Lunch
+|-
+| 13:00 - 15:00 || ||
+|-
+| 15:00 || Closing discussion ||
+|-
+|}
