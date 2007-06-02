@@ -12,9 +12,9 @@ Hahn-Meitner-Institut Berlin, Germany.
 
 | Name                                                      | Company/Institute                                                      | Guesthouse | Passport number |
 |-----------------------------------------------------------|------------------------------------------------------------------------|------------|-----------------|
-| [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink")    | | Rutherford Appleton Laboratory, UK                                   |            |                 |
+| [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink")    | | ISIS Facility, Rutherford Appleton Laboratory, UK                    |            |                 |
 | [Stuart Campbell](User%3AStuart_Campbell "wikilink")      | | Diamond Light Source, UK                                             |            |                 |
-| [Stephen Cottrell](User%3ASteve_Cottrell "wikilink")      | | Rutherford Appleton Laboratory, UK                                   |            |                 |
+| [Stephen Cottrell](User%3ASteve_Cottrell "wikilink")      | | ISIS Facility, Rutherford Appleton Laboratory, UK                    |            |                 |
 | [Nick Hauser](User%3Anick "wikilink")                     | | Australian Nuclear Science and Technology Organisation, Australia    |            |                 |
 | [ Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann "wikilink") | | Hahn-Meitner-Institut Berlin, Germany                                | --         | --              |
 | [Ray Osborn](User%3ARay_Osborn "wikilink")                | | Argonne National Laboratory, USA                                     |            |                 |
