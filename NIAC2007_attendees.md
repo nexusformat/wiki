@@ -7,6 +7,11 @@ layout: wiki
 NIAC 2007 at HMI List of Attendees
 ----------------------------------
 
+**Do not write someting in this table. The row “Guesthouse” and
+“Passport number” inform you, that I receive you e-mail with this
+information (sometimes problems with the spam-filter). I receipted this
+only with my OK in the table. Jens**
+
 Attendees of the [2007 NIAC Meeting](NIAC2007 "wikilink") at
 Hahn-Meitner-Institut Berlin, Germany.
 
