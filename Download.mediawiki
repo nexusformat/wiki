@@ -54,23 +54,23 @@ The nexus binary RPM requires hdf4, hdf5 and mxml to already be installed. Some 
 {| {{Tablestyle}}
 |-
 ! {{Headcellstyle}} width="20%" | SZIP
-| align="center" width="40%" | [http://download.nexusformat.org/kits/rpm/szip-2.0-1.i386.rpm i386 Binary RPM]| 
+| align="center" width="40%" | Binary RPM [http://download.nexusformat.org/kits/rpm/szip-2.0-1.i386.rpm i386] 
 | align="center" width="40%" | [http://download.nexusformat.org/kits/rpm/szip-2.0-1.src.rpm Source RPM]
 |-
 ! {{Headcellstyle}} | HDF4
-| align="center" | [http://download.nexusformat.org/kits/rpm/hdf-4.2.1-1.i386.rpm i386 Binary RPM]
+| align="center" | Binary RPM [http://download.nexusformat.org/kits/rpm/hdf-4.2.1-1.i386.rpm i386]
 | align="center" | [http://download.nexusformat.org/kits/rpm/hdf-4.2.1-1.src.rpm Source RPM]
 |-
 ! {{Headcellstyle}} | HDF5
-| align="center" | [http://download.nexusformat.org/kits/rpm/hdf5-1.6.4-1.i386.rpm i386 Binary RPM]
+| align="center" | Binary RPM [http://download.nexusformat.org/kits/rpm/hdf5-1.6.4-1.i386.rpm i386]
 | align="center" | [http://download.nexusformat.org/kits/rpm/hdf5-1.6.4-1.src.rpm Source RPM]
 |-
 ! {{Headcellstyle}} | MXML
-| align="center" | [http://download.nexusformat.org/kits/rpm/mxml-2.2.2-1.i386.rpm i386 Binary RPM]
+| align="center" | Binary RPM [http://download.nexusformat.org/kits/rpm/mxml-2.2.2-1.i386.rpm i386] [http://download.nexusformat.org/kits/rpm/mxml-2.2.2-1.x86_64.rpm x86_64]
 | align="center" | [http://download.nexusformat.org/kits/rpm/mxml-2.2.2-1.src.rpm Source RPM]
 |-
 ! {{Headcellstyle}} | NeXus
-| align="center" | [http://download.nexusformat.org/kits/rpm/nexus-4.0.0-0.i386.rpm i386 Binary RPM]
+| align="center" | Binary RPM [http://download.nexusformat.org/kits/rpm/nexus-4.0.0-0.i386.rpm i386]
 | align="center" | [http://download.nexusformat.org/kits/rpm/nexus-4.0.0-0.src.rpm Source RPM]
 |}
 

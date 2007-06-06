@@ -122,29 +122,29 @@ addition to the NeXus binary RPM:
 <thead>
 <tr class="header">
 <th><p>SZIP</p></th>
-<th align="center"><p><a href="http://download.nexusformat.org/kits/rpm/szip-2.0-1.i386.rpm">i386 Binary RPM</a>|</p></th>
+<th align="center"><p>Binary RPM <a href="http://download.nexusformat.org/kits/rpm/szip-2.0-1.i386.rpm">i386</a></p></th>
 <th align="center"><p><a href="http://download.nexusformat.org/kits/rpm/szip-2.0-1.src.rpm">Source RPM</a></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>| HDF4</p></td>
-<td align="center"><p><a href="http://download.nexusformat.org/kits/rpm/hdf-4.2.1-1.i386.rpm">i386 Binary RPM</a></p></td>
+<td align="center"><p>Binary RPM <a href="http://download.nexusformat.org/kits/rpm/hdf-4.2.1-1.i386.rpm">i386</a></p></td>
 <td align="center"><p><a href="http://download.nexusformat.org/kits/rpm/hdf-4.2.1-1.src.rpm">Source RPM</a></p></td>
 </tr>
 <tr class="even">
 <td><p>| HDF5</p></td>
-<td align="center"><p><a href="http://download.nexusformat.org/kits/rpm/hdf5-1.6.4-1.i386.rpm">i386 Binary RPM</a></p></td>
+<td align="center"><p>Binary RPM <a href="http://download.nexusformat.org/kits/rpm/hdf5-1.6.4-1.i386.rpm">i386</a></p></td>
 <td align="center"><p><a href="http://download.nexusformat.org/kits/rpm/hdf5-1.6.4-1.src.rpm">Source RPM</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>| MXML</p></td>
-<td align="center"><p><a href="http://download.nexusformat.org/kits/rpm/mxml-2.2.2-1.i386.rpm">i386 Binary RPM</a></p></td>
+<td align="center"><p>Binary RPM <a href="http://download.nexusformat.org/kits/rpm/mxml-2.2.2-1.i386.rpm">i386</a> <a href="http://download.nexusformat.org/kits/rpm/mxml-2.2.2-1.x86_64.rpm">x86_64</a></p></td>
 <td align="center"><p><a href="http://download.nexusformat.org/kits/rpm/mxml-2.2.2-1.src.rpm">Source RPM</a></p></td>
 </tr>
 <tr class="even">
 <td><p>| NeXus</p></td>
-<td align="center"><p><a href="http://download.nexusformat.org/kits/rpm/nexus-4.0.0-0.i386.rpm">i386 Binary RPM</a></p></td>
+<td align="center"><p>Binary RPM <a href="http://download.nexusformat.org/kits/rpm/nexus-4.0.0-0.i386.rpm">i386</a></p></td>
 <td align="center"><p><a href="http://download.nexusformat.org/kits/rpm/nexus-4.0.0-0.src.rpm">Source RPM</a></p></td>
 </tr>
 </tbody>
