@@ -61,7 +61,9 @@ If you are interested in attending (and not already on the [[NIAC2007_attendees|
 |-
 | 12:00 - 13:00 || align="center" colspan="2" | Lunch
 |-
-| 13:00 - 18:00 || ||
+| 13:00 - 17:00 || ||
+|-
+| 17:00 - 18:00 || align="center" colspan="2" | Public Talk
 |-
 | || align="center" colspan="2" | Dinner
 |-
