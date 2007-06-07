@@ -24,6 +24,9 @@ Attendees of the
 | [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]]
 || Hahn-Meitner-Institut Berlin, Germany || -- || --
 |-
+| [[User:L.lerusse|Laurent Lerusse]]
+|| Rutherford Appleton Laboratory , e-Science || ||
+|-
 | [[User:Ray Osborn|Ray Osborn]]
 || Argonne National Laboratory, USA || ||
 |-
