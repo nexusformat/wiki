@@ -66,6 +66,10 @@ non-backward compatible way
 Known Issues
 ------------
 
+The main problems are summarised here - for a complete list see [all
+reported 4.0.0
+issues](http://trac.nexusformat.org/code/query?status=new&status=assigned&status=reopened&status=closed&version=4.0.0&order=priority)
+
 -   The Fortran 90 part of testsuite fails with the Absoft compiler on
     MacOSX (it passes with g95 and gfortran (4.2)) [details
     here](http://trac.nexusformat.org/code/ticket/68)

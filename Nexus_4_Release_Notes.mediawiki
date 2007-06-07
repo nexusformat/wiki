@@ -31,6 +31,7 @@ The following aspects of the API have changed in a potentially non-backward comp
 *The JAVA API now uses org.nexusformat rather than gov.anl.neutron.nexus
 
 ==Known Issues==
+The main problems are summarised here - for a complete list see [http://trac.nexusformat.org/code/query?status=new&status=assigned&status=reopened&status=closed&version=4.0.0&order=priority all reported 4.0.0 issues]
 * The Fortran 90 part of testsuite fails with the Absoft compiler on MacOSX (it passes with g95 and gfortran (4.2)) [http://trac.nexusformat.org/code/ticket/68 details here]
 * NXputattr assumes NULL termination of NX_CHAR attributes, which is usually the case in C but not true for JAVA. A workaround is to add '\0' manually. This error has been fixed in the code and will be available in the next release. More information is available in the [http://trac.nexusformat.org/code/ticket/83 bug report]
 
