@@ -69,6 +69,11 @@ Known Issues
 -   The Fortran 90 part of testsuite fails with the Absoft compiler on
     MacOSX (it passes with g95 and gfortran (4.2)) [details
     here](http://trac.nexusformat.org/code/ticket/68)
+-   NXputattr assumes NULL termination of NX\_CHAR attributes, which is
+    usually the case in C but not true for JAVA. A workaround is to add
+    '\\0' manually. This error has been fixed in the code and will be
+    available in the next release. More information is available in the
+    [bug report](http://trac.nexusformat.org/code/ticket/83)
 
 Miscellaneous bug fixes
 -----------------------

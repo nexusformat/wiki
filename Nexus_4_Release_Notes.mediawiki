@@ -32,6 +32,7 @@ The following aspects of the API have changed in a potentially non-backward comp
 
 ==Known Issues==
 * The Fortran 90 part of testsuite fails with the Absoft compiler on MacOSX (it passes with g95 and gfortran (4.2)) [http://trac.nexusformat.org/code/ticket/68 details here]
+* NXputattr assumes NULL termination of NX_CHAR attributes, which is usually the case in C but not true for JAVA. A workaround is to add '\0' manually. This error has been fixed in the code and will be available in the next release. More information is available in the [http://trac.nexusformat.org/code/ticket/83 bug report]
 
 ==Miscellaneous bug fixes==
 The following items are bugs reported in the 3.x releases and resolved for
