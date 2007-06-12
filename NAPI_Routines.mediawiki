@@ -750,3 +750,14 @@ Frees memory allocated to the specified data pointer.
 | void **
 | Pointer to the allocated memory
 |}
+==External Linking==
+===Nxinquirefile===
+Queries which file is really active.
+;Usage:<pre>status = NXinquirefile(handle,filename, filenameLength);</pre>
+{{APItable|(NX_OK, NX_ERROR)}}
+|-
+! {{Headcellstyle}} | Input Arguments
+| handle
+| NXhandle
+| handle to a currently open NeXus file.
+|}

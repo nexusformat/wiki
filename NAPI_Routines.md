@@ -695,3 +695,17 @@ Frees memory allocated to the specified data pointer.
 
 |- ! | Input Arguments | data | void \*\* | Pointer to the allocated
 memory |}
+
+External Linking
+----------------
+
+### Nxinquirefile
+
+Queries which file is really active.
+
+;Usage:
+
+    status = NXinquirefile(handle,filename, filenameLength);
+
+|- ! | Input Arguments | handle | NXhandle | handle to a currently open
+NeXus file. |}
