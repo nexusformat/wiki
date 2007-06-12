@@ -756,12 +756,17 @@ Queries which file is really active.
 ;Usage:<pre>status = NXinquirefile(handle,filename, filenameLength);</pre>
 {{APItable|(NX_OK, NX_ERROR)}}
 |-
-! {{Headcellstyle}} | Input Arguments
+! {{Headcellstyle}} rowspan="2" | Input Arguments
 | handle
 | NXhandle
 | handle to a currently open NeXus file.
 |-
-| filenameLengt
+| filenameLenght
 | int 
 | length of filename buffer
+|-
+! {{Headcellstyle}} |Output Arguments
+| filename
+| char*
+| buffer to receive filename
 |}
