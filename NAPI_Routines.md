@@ -714,7 +714,9 @@ receive filename |}
 
 ### NXlinkexternal
 
-Queries which file is really active.
+Links an external file. This happens by creating a group which points to
+an external file. Navigating into such a group automatically opens the
+external file.
 
 ;Usage:
 
@@ -726,3 +728,19 @@ link the file to. |- | nxclass | NXname | The NeXus class of the group
 to which the external file is to be linked. |- | nxurl | NXURL | An URL
 of a format which the NeXus-API understands. Currently this plain files
 only. |}
+
+### NXisexternalgroup
+
+Tests in the group is an external group. If not, NX\_ERROR is returned.
+If yes, NX\_OK is returned and the URL of the external file is copied
+into nxurl.
+
+;Usage:
+
+    status = NXisexternalgroup(handle,name, nxclass, nxurl,nxurllen);
+
+|- ! rowspan=“4” | Input Arguments | handle | NXhandle | handle to a
+currently open NeXus file. |- | name | NXname | The name of the group to
+test. |- | nxclass | NXname | The NeXus class of the group to test. |- |
+nxurllen | int | length of the nxurl buffer |- ! rowspan=“4” | Output
+Arguments | nxurl | char \* | buffer to copy the URL, too. |}
