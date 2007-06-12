@@ -760,4 +760,8 @@ Queries which file is really active.
 | handle
 | NXhandle
 | handle to a currently open NeXus file.
+|-
+| filenameLengt
+| int 
+| length of filename buffer
 |}

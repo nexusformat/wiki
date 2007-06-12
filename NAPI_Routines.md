@@ -708,4 +708,4 @@ Queries which file is really active.
     status = NXinquirefile(handle,filename, filenameLength);
 
 |- ! | Input Arguments | handle | NXhandle | handle to a currently open
-NeXus file. |}
+NeXus file. |- | filenameLengt | int | length of filename buffer |}
