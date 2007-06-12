@@ -726,8 +726,10 @@ external file.
 currently open NeXus file. |- | name | NXname | The name of the group to
 link the file to. |- | nxclass | NXname | The NeXus class of the group
 to which the external file is to be linked. |- | nxurl | NXURL | An URL
-of a format which the NeXus-API understands. Currently this plain files
-only. |}
+of a format which the NeXus-API understands. The only URL format so far
+is: nxfile://path-to-file\#path-to-group-in-file. This consistes of two
+parts: The file path and a path to a group in the file which is to be
+mapped into the source file. |}
 
 ### NXisexternalgroup
 
