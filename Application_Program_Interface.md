@@ -104,6 +104,10 @@ The core API comprises the following functional groups:
 | Memory Allocation                                               |
 | [NXmalloc](NAPI_Routines#NXmalloc "wikilink")                   |
 | [NXfree](NAPI_Routines#NXfree "wikilink")                       |
+| External Linking                                                |
+| [NXinquirefile](NAPI_Routines#NXinquirefile "wikilink")         |
+| [NXlinkexternal](NAPI_Routines#NXlinkexternal "wikilink")       |
+| [NXisexteranlgroup](NAPI_Routines#NXisexternalgroup "wikilink") |
 
 ### NeXus Datatypes
 

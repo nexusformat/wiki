@@ -100,6 +100,14 @@ The core API comprises the following functional groups:
 |[[NAPI Routines#NXmalloc|NXmalloc]] || Allocates memory for NeXus data
 |-
 |[[NAPI Routines#NXfree|NXfree]] || Frees previously allocated memory
+|-
+! {{Template:Headcellstyle}} colspan="2" | External Linking
+|-
+|[[NAPI Routines#NXinquirefile|NXinquirefile]] || inquires which file actually is active.
+|-
+|[[NAPI Routines#NXlinkexternal|NXlinkexternal]] || links an external file.
+|-
+|[[NAPI Routines#NXisexternalgroup|NXisexteranlgroup]] || queries if a group points to an external file.
 |}
 
 ===NeXus Datatypes===
