@@ -711,3 +711,18 @@ Queries which file is really active.
 currently open NeXus file. |- | filenameLenght | int | length of
 filename buffer |- ! |Output Arguments | filename | char\* | buffer to
 receive filename |}
+
+### NXlinkexternal
+
+Queries which file is really active.
+
+;Usage:
+
+    status = NXlinkexternal(handle,name, nxclass, nxurl);
+
+|- ! rowspan=“4” | Input Arguments | handle | NXhandle | handle to a
+currently open NeXus file. |- | name | NXname | The name of the group to
+link the file to. |- | nxclass | NXname | The NeXus class of the group
+to which the external file is to be linked. |- | nxurl | NXURL | An URL
+of a format which the NeXus-API understands. Currently this plain files
+only. |}
