@@ -25,7 +25,7 @@ The core API comprises the following functional groups:
 ! {{Headcellstyle}} colspan="2" | General Initialization and Shutdown
 |-
 | width="30%" | [[NAPI Routines|NXopen]]
-| width="70%" | Opens NeXus file and returns file id
+| width="70%" | Opens NeXus file and returns file id. As of NeXus-4.0, NXopen searches a list of paths defined in the environment variable NX_LOAD_PATH.   NX_LOAD_PATH is a colon separated list of directories under unix and a semicolon separated lists in windows.
 |-
 |[[NAPI Routines#NXclose|NXclose]] || Closes NeXus file
 |-
