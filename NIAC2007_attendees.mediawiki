@@ -19,10 +19,13 @@ Attendees of the
 || ISIS Facility, Rutherford Appleton Laboratory, UK || ||
 |-
 | [[User:nick|Nick Hauser]]
-|| Australian Nuclear Science and Technology Organisation, Australia || ||
+|| Australian Nuclear Science and Technology Organisation, Australia || OK || OK
 |-
 | [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]]
 || Hahn-Meitner-Institut Berlin, Germany || -- || --
+|-
+| [[User:Pete Jemian|Pete Jemian]]
+|| Advanced Photon Source, USA || || OK
 |-
 | [[User:L.lerusse|Laurent Lerusse]]
 || Rutherford Appleton Laboratory , e-Science || ||
