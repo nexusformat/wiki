@@ -25,7 +25,7 @@ Attendees of the
 || Hahn-Meitner-Institut Berlin, Germany || -- || --
 |-
 | [[User:Pete Jemian|Pete Jemian]]
-|| Advanced Photon Source, USA || || OK
+|| Advanced Photon Source, USA || OK || OK
 |-
 | [[User:L.lerusse|Laurent Lerusse]]
 || Rutherford Appleton Laboratory , e-Science || ||
