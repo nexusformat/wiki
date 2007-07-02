@@ -25,7 +25,7 @@ Hahn-Meitner-Institut Berlin, Germany.
 | [Pete Jemian](User%3APete_Jemian "wikilink")              | | Advanced Photon Source, USA                                          | OK         | OK              |
 | [Laurent Lerusse](User%3AL.lerusse "wikilink")            | | Rutherford Appleton Laboratory , e-Science                           |            |                 |
 | [Ray Osborn](User%3ARay_Osborn "wikilink")                | | Argonne National Laboratory, USA                                     |            |                 |
-| [Peter Peterson](User%3APeter_Peterson "wikilink")        | | Spallation Neutron Source, Oak Ridge National Laboratory, USA        |            |                 |
+| [Peter Peterson](User%3APeter_Peterson "wikilink")        | | Spallation Neutron Source, Oak Ridge National Laboratory, USA        |            | OK              |
 | [Thomas Proffen](User%3AThomas_Proffen "wikilink")        | | Lujan Neutron Scattering Center, Los Alamos National Laboratory, USA | OK         |                 |
 ||
 

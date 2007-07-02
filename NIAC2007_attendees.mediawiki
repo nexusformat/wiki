@@ -34,7 +34,7 @@ Attendees of the
 || Argonne National Laboratory, USA || ||
 |-
 | [[User:Peter_Peterson|Peter Peterson]]
-|| Spallation Neutron Source, Oak Ridge National Laboratory, USA || ||
+|| Spallation Neutron Source, Oak Ridge National Laboratory, USA || || OK
 |-
 | [[User:Thomas Proffen|Thomas Proffen]]
 || Lujan Neutron Scattering Center, Los Alamos National Laboratory, USA || OK ||
