@@ -17,6 +17,7 @@ Hahn-Meitner-Institut Berlin, Germany.
 
 | Name                                                      | Company/Institute                                                      | Guesthouse | Passport number |
 |-----------------------------------------------------------|------------------------------------------------------------------------|------------|-----------------|
+| Gwenaelle Abeille                                         | | Synchrotron Soleil, France                                           |            |                 |
 | [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink")    | | ISIS Facility, Rutherford Appleton Laboratory, UK                    |            |                 |
 | [Stuart Campbell](User%3AStuart_Campbell "wikilink")      | | Diamond Light Source, UK                                             |            |                 |
 | [Stephen Cottrell](User%3ASteve_Cottrell "wikilink")      | | ISIS Facility, Rutherford Appleton Laboratory, UK                    |            |                 |
@@ -24,8 +25,10 @@ Hahn-Meitner-Institut Berlin, Germany.
 | [ Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann "wikilink") | | Hahn-Meitner-Institut Berlin, Germany                                | --         | --              |
 | [Pete Jemian](User%3APete_Jemian "wikilink")              | | Advanced Photon Source, USA                                          | OK         | OK              |
 | [Laurent Lerusse](User%3AL.lerusse "wikilink")            | | Rutherford Appleton Laboratory , e-Science                           |            |                 |
+| Celine Marechal                                           | | Synchrotron Soleil, France                                           |            |                 |
 | [Ray Osborn](User%3ARay_Osborn "wikilink")                | | Argonne National Laboratory, USA                                     |            |                 |
 | [Peter Peterson](User%3APeter_Peterson "wikilink")        | | Spallation Neutron Source, Oak Ridge National Laboratory, USA        |            | OK              |
+| [Stephane Poirier](User%3AStephane_Poirier "wikilink")    | | Synchrotron Soleil, France                                           |            |                 |
 | [Thomas Proffen](User%3AThomas_Proffen "wikilink")        | | Lujan Neutron Scattering Center, Los Alamos National Laboratory, USA | OK         |                 |
 ||
 

@@ -9,6 +9,9 @@ Attendees of the
 {| border="1"
 ! Name || Company/Institute || Guesthouse || Passport number
 |-
+| Gwenaelle Abeille
+|| Synchrotron Soleil, France || ||
+|-
 | [[User:Freddie Akeroyd|Frederick Akeroyd]] 
 || ISIS Facility, Rutherford Appleton Laboratory, UK || ||
 |-
@@ -30,11 +33,17 @@ Attendees of the
 | [[User:L.lerusse|Laurent Lerusse]]
 || Rutherford Appleton Laboratory , e-Science || ||
 |-
+| Celine Marechal
+|| Synchrotron Soleil, France || ||
+|-
 | [[User:Ray Osborn|Ray Osborn]]
 || Argonne National Laboratory, USA || ||
 |-
 | [[User:Peter_Peterson|Peter Peterson]]
 || Spallation Neutron Source, Oak Ridge National Laboratory, USA || || OK
+|-
+| [[User:Stephane Poirier|Stephane Poirier]]
+|| Synchrotron Soleil, France || ||
 |-
 | [[User:Thomas Proffen|Thomas Proffen]]
 || Lujan Neutron Scattering Center, Los Alamos National Laboratory, USA || OK ||
