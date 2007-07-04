@@ -21,6 +21,9 @@ Attendees of the
 | [[User:Steve Cottrell|Stephen Cottrell]]
 || ISIS Facility, Rutherford Appleton Laboratory, UK || ||
 |-
+| Stefan Flemming
+|| The Open University, UK || -- || --
+|-
 | [[User:nick|Nick Hauser]]
 || Australian Nuclear Science and Technology Organisation, Australia || OK || OK
 |-
@@ -47,5 +50,8 @@ Attendees of the
 |-
 | [[User:Thomas Proffen|Thomas Proffen]]
 || Lujan Neutron Scattering Center, Los Alamos National Laboratory, USA || OK ||
+|-
+| Rainer Schneider
+|| [http://www.strainet.org STRAINET] c/o HMI Berlin, Germany || -- || --
 |-
 |}
