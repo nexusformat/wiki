@@ -15,4 +15,6 @@ confusing. As NXgemoetry is anyway intended to be used by the simulation communi
 
 The NeXus coordinate system is based on the [http://mcstas.risoe.dk/ McStas coordinate system]. The instrument is given a global, absolute coordinate system where the z axis points in the direction of the incident beam, the x axis is perpendicular to the beam in the horizontal plane pointing left as seen from the source, and the y axis points upwards.
 
+[[Image:Coordinates.png]]
+
 NXdetector defines a polar_angle and an azimuthal_angle. These quantities correspond exactly to the usual [http://en.wikipedia.org/wiki/Polar_coordinates polar coordinate definitions] i.e. the polar angle is measured with respect to the z axis and the azimuthal angle to the x axis. The polar angle is often referred to as the ''Bragg angle'' or ''two theta''.

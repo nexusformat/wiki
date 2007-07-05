@@ -29,6 +29,8 @@ the incident beam, the x axis is perpendicular to the beam in the
 horizontal plane pointing left as seen from the source, and the y axis
 points upwards.
 
+![](Coordinates.png "Coordinates.png")
+
 NXdetector defines a polar\_angle and an azimuthal\_angle. These
 quantities correspond exactly to the usual [polar coordinate
 definitions](http://en.wikipedia.org/wiki/Polar_coordinates) i.e. the
