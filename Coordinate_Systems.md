@@ -22,13 +22,15 @@ intended to be used by the simulation community this should be OK.
 NeXus Coordinate System
 -----------------------
 
-Nexus provide two coordinate system: an NXgeometry based system for
-physical coordinates of beamline components and a polar coordinate based
-system for “neutronic” coordinates. The usage of these two system can be
-seen by considering a 3He gas tube detector:
+Nexus provide two coordinate system: an
+[NXgeometry](NXgeometry "wikilink") based system for physical
+coordinates of beamline components and a polar coordinate based system
+for “neutronic” coordinates. The usage of these two system can be seen
+by considering a 3He gas tube detector:
 
--   The NXgeometry system would describe a cylinder at a certain
-    distance from the sample that never changes from one run to another
+-   The [NXgeometry](NXgeometry "wikilink") system would describe a
+    cylinder at a certain distance from the sample that never changes
+    from one run to another
 -   The “distance” coordinate of the polar system could refer to the
     distance from the sample to the effective measurement point within
     the gas tube, which would depend on energy; lower energy neutrons
@@ -58,9 +60,11 @@ from the source, and the y axis points upwards (see diagram below). The
 *z* axis thus represents the direction of the beam if it was un-deviated
 by the previous component, and so the polar\_angle and azimuthal\_angle
 for a component indicate how much the beam was bent/scattered by the
-previous component. In the case of an NXdetector element placed directly
-after an NXsample, the polar\_angle would correspond to the *Bragg
-angle* or *two theta* and distance to the *secondary flight path*.
+previous component. In the case of an
+[NXdetector](NXdetector "wikilink") element placed directly after an
+[NXsample](NXsample "wikilink"), the polar\_angle would correspond to
+the *Bragg angle* or *two theta* and distance to the *secondary flight
+path*.
 
 ### NXgeometry based system
 
@@ -70,12 +74,12 @@ absolute coordinate system where the z axis points in the direction of
 the incident beam, the x axis is perpendicular to the beam in the
 horizontal plane pointing left as seen from the source, and the y axis
 points upwards. Each beamline component also has a local coordinate
-system, which is defined by the NXgeometry object. The local z direction
-for a component is taken as the incident beam direction, with x and y
-defined as before i.e. the x axis is perpendicular to the beam in the
-horizontal plane pointing left as seen from the source, and the y axis
-points upwards. Information about these coordinate systems and the
-placement of components is described by the
+system, which is defined by the [NXgeometry](NXgeometry "wikilink")
+object. The local z direction for a component is taken as the incident
+beam direction, with x and y defined as before i.e. the x axis is
+perpendicular to the beam in the horizontal plane pointing left as seen
+from the source, and the y axis points upwards. Information about these
+coordinate systems and the placement of components is described by the
 [NXgeometry](NXgeometry "wikilink") class via its
 [NXtranslation](NXtranslation "wikilink") and
 [NXorientation](NXorientation "wikilink") members.
@@ -91,45 +95,49 @@ are focussed. One advantage of the “scattering centre” is that the
 spherical polar coordinate specifications of the detector positions are
 then conveniently related to scattering angles and lengths for direct
 geometry instruments. To allow for generality, an origin member can be
-defined in NXentry; its use will be detailed shortly.
+defined in [NXentry](NXentry "wikilink"); its use will be detailed
+shortly.
 
 Individual components of the instrument (e.g. jaws) will have their own
 set of local axes (x,y,z) which will be fixed to their body in a way
 defined by their shape. These local axes will probably not coincide with
 the global instrument axes and so a set of rotation angles will also
-need to be stored. For this an NXgeometry class is defined, along with
-NXdistance and NXorientation; the hope is to provide a general enough
-method for relating the location of any object with respect to another
-object. The mechanism also allows for specifying one position relative
-to another component: a NeXus file link is made in one instance of an
-NXgeometry object to another NXgeometry object and a program can then
+need to be stored. For this an [NXgeometry](NXgeometry "wikilink") class
+is defined, along with [NXtranslation](NXtranslation "wikilink") and
+[NXorientation](NXorientation "wikilink"); the hope is to provide a
+general enough method for relating the location of any object with
+respect to another object. The mechanism also allows for specifying one
+position relative to another component: a NeXus file link is made in one
+instance of an [NXgeometry](NXgeometry "wikilink") object to another
+[NXgeometry](NXgeometry "wikilink") object and a program can then
 traverse the chain of links to calculate an absolute position.
 
 NeXus does not need to define absolutely where to place the “origin”.
 All components can instead be declared with a relative position that
 ultimately follows a chain back to one object; this will be named
-“origin1”, be of class NXgeometry and a member of NXentry. The real
-space location of this origin is chosen for convenience and should be
-mentioned in the description attached to “origin1”. If the origin is
-taken at the sample, then “sample.geometry.distance” will always be
-(0,0,0) relative to “origin1”; if the origin is taken elsewhere this
-will not be so, but everything will still work. It may be convenient to
-define extra origins (similar to “arms” in
-[McStas](http://mcstas.risoe.dk/)) at other parts of the instrument. For
-example, defining one at the centre of a circular array of detectors
-would allow their positions to be conveniently specified in spherical
-polar coordinates. Another possibility would be to define the sample
-relative to “origin1” and the detectors to “origin2”; the detectors
-could then be rotated by a rotation of “origin2” without modifying
-NXdetector.
+“origin1”, be of class [NXgeometry](NXgeometry "wikilink") and a member
+of [NXentry](NXentry "wikilink"). The real space location of this origin
+is chosen for convenience and should be mentioned in the description
+attached to “origin1”. If the origin is taken at the sample, then
+“sample.geometry.distance” will always be (0,0,0) relative to “origin1”;
+if the origin is taken elsewhere this will not be so, but everything
+will still work. It may be convenient to define extra origins (similar
+to “arms” in [McStas](http://mcstas.risoe.dk/)) at other parts of the
+instrument. For example, defining one at the centre of a circular array
+of detectors would allow their positions to be conveniently specified in
+spherical polar coordinates. Another possibility would be to define the
+sample relative to “origin1” and the detectors to “origin2”; the
+detectors could then be rotated by a rotation of “origin2” without
+modifying [NXdetector](NXdetector "wikilink").
 
 As well as specifying the component location, it is also necessary to
-specify the beam direction. Unless otherwise given in an NXbeam member
-of the component, the incident beam is assumed to be travelling along
-(0,0,+z) in the coordinate system of the object (or origin) our position
-was defined relative to. Thus, for a component with absolute positioning
-the beam will always be in the incident beam direction unless specified
-by an NXbeam member.
+specify the beam direction. Unless otherwise given in an
+[NXbeam](NXbeam "wikilink") member of the component, the incident beam
+is assumed to be travelling along (0,0,+z) in the coordinate system of
+the object (or origin) our position was defined relative to. Thus, for a
+component with absolute positioning the beam will always be in the
+incident beam direction unless specified by an
+[NXbeam](NXbeam "wikilink") member.
 
 **Size and Shape**
 
@@ -143,12 +151,13 @@ size\[3\] would give the dimensions of the object along its local
 (±x,±y,±z) axes; specifying size\[6\] would give the extent along
 (+x,+y,+z,-x,-y,-z) and allow for e.g. asymmetric jaws where the
 reference point may not be the centre of the rectangle. For example take
-shape=“cylinder”: the NXtranslation variable of position would define
-the location of the reference point for the origin of the local axes: z
-in the direction of the cylinder axis, x and y in plane. With no
-rotation the object would be oriented with its local axes pointing in
-the direction of axes of the object it was defined relative to, but this
-can be altered with the NXorientation variable within position. If a
+shape=“cylinder”: the [NXtranslation](NXtranslation "wikilink") variable
+of position would define the location of the reference point for the
+origin of the local axes: z in the direction of the cylinder axis, x and
+y in plane. With no rotation the object would be oriented with its local
+axes pointing in the direction of axes of the object it was defined
+relative to, but this can be altered with the
+[NXorientation](NXorientation "wikilink") variable within position. If a
 size\[3\] array variable was specified, the reference point must be the
 centre of the cylinder and the dimension are size\[0\]=size\[1\]=radius,
 size\[2\]=length/2). If size\[6\] was specified then the reference point
