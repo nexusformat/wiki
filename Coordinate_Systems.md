@@ -74,7 +74,11 @@ system, which is defined by the NXgeometry object. The local z direction
 for a component is taken as the incident beam direction, with x and y
 defined as before i.e. the x axis is perpendicular to the beam in the
 horizontal plane pointing left as seen from the source, and the y axis
-points upwards.
+points upwards. Information about these coordinate systems and the
+placement of components is described by the
+[NXgeometry](NXgeometry "wikilink") class via its
+[NXtranslation](NXtranslation "wikilink") and
+[NXorientation](NXorientation "wikilink") members.
 
 ![](Coordinates.png "Coordinates.png")
 
@@ -110,13 +114,13 @@ mentioned in the description attached to “origin1”. If the origin is
 taken at the sample, then “sample.geometry.distance” will always be
 (0,0,0) relative to “origin1”; if the origin is taken elsewhere this
 will not be so, but everything will still work. It may be convenient to
-define extra origins (similar to “arms” in MCSTAS) at other parts of the
-instrument. For example, defining one at the centre of a circular array
-of detectors would allow their positions to be conveniently specified in
-spherical polar coordinates. Another possibility would be to define the
-sample relative to “origin1” and the detectors to “origin2”; the
-detectors could then be rotated by a rotation of “origin2” without
-modifying NXdetector.
+define extra origins (similar to “arms” in \[<http://mcstas.risoe.dk/>
+McStas) at other parts of the instrument. For example, defining one at
+the centre of a circular array of detectors would allow their positions
+to be conveniently specified in spherical polar coordinates. Another
+possibility would be to define the sample relative to “origin1” and the
+detectors to “origin2”; the detectors could then be rotated by a
+rotation of “origin2” without modifying NXdetector.
 
 As well as specifying the component location, it is also necessary to
 specify the beam direction. Unless otherwise given in an NXbeam member
