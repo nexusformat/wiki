@@ -126,14 +126,16 @@ was defined relative to. Thus, for a component with absolute positioning
 the beam will always be in the incident beam direction unless specified
 by an NXbeam member.
 
-**Size and Shape** Many instrument components define “height” and
-“width” variables to specify their size when rectangular, a “radius”
-variable for when circular etc. Rather than all these different names,
-an alternative scheme is proposed based on the “shape” of the object and
-the local coordinate axes this shape defines. All object would just need
-to specify a shape (“cuboid”, “cylinder” etc.) and a size array.
-Specifying size\[3\] would give the dimensions of the object along its
-local (±x,±y,±z) axes; specifying size\[6\] would give the extent along
+**Size and Shape**
+
+Many instrument components define “height” and “width” variables to
+specify their size when rectangular, a “radius” variable for when
+circular etc. Rather than all these different names, an alternative
+scheme is proposed based on the “shape” of the object and the local
+coordinate axes this shape defines. All object would just need to
+specify a shape (“cuboid”, “cylinder” etc.) and a size array. Specifying
+size\[3\] would give the dimensions of the object along its local
+(±x,±y,±z) axes; specifying size\[6\] would give the extent along
 (+x,+y,+z,-x,-y,-z) and allow for e.g. asymmetric jaws where the
 reference point may not be the centre of the rectangle. For example take
 shape=“cylinder”: the NXtranslation variable of position would define
