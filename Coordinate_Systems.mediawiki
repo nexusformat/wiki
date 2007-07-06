@@ -62,7 +62,7 @@ travelling along (0,0,+z) in the coordinate system of the object (or origin) our
 relative to. Thus, for a component with absolute positioning the beam will always be in the incident
 beam direction unless specified by an [[NXbeam]] member.
 
-'''Size and Shape'''
+'''Size and Shape''' ([[NXshape]])
 
 Many instrument components define “height” and “width” variables to specify their size when
 rectangular, a “radius” variable for when circular etc. Rather than all these different names, an

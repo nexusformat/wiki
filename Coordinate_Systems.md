@@ -139,7 +139,7 @@ component with absolute positioning the beam will always be in the
 incident beam direction unless specified by an
 [NXbeam](NXbeam "wikilink") member.
 
-**Size and Shape**
+**Size and Shape** ([NXshape](NXshape "wikilink"))
 
 Many instrument components define “height” and “width” variables to
 specify their size when rectangular, a “radius” variable for when
