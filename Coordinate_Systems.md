@@ -22,6 +22,19 @@ intended to be used by the simulation community this should be OK.
 NeXus Coordinate System
 -----------------------
 
+Nexus provide two coordinate system: an NXgeometry based system for
+physical coordinates of beamline components and a polar coordinate based
+system for “neutronic” coordinates. The usage of these two system can be
+seen by considering a 3He gas tube detector:
+
+-   The NXgeometry system would describe a cylinder at a certain
+    distance from the sample that never changes from one run to another
+-   The “distance” coordinate of the polar system could refer to the
+    distance from the sample to the effective measurement point within
+    the gas tube, which would depend on energy; lower energy neutrons
+    would tend to penetrate a smaller distance within the tube, and so
+    have a shorter secondary flight path.
+
 ### Simple Coordinate System
 
 In this system the instrument is considered as a set of components
@@ -47,7 +60,7 @@ by the previous component, and so the polar\_angle and azimuthal\_angle
 for a component indicate how much the beam was bent/scattered by the
 previous component. In the case of an NXdetector element placed directly
 after an NXsample, the polar\_angle would correspond to the *Bragg
-angle* or *two theta*.
+angle* or *two theta* and distance to the *secondary flight path*.
 
 ### NXgeometry based system
 
