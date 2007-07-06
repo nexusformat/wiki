@@ -35,19 +35,19 @@ For angular information, the quantities *polar\_angle* and
 *azimuthal\_angle* are used and these quantities correspond exactly to
 the usual [polar
 coordinate](http://en.wikipedia.org/wiki/Polar_coordinates) definitions
-i.e. the polar\_angle is measured with respect to a z axis and the
+i.e. the polar\_angle is measured with respect to a *z* axis and the
 azimuthal\_angle to an x axis. The direction of these local axes may be
-different for each component - $z$ is the incident beam direction for
-the **previous** component and then we follow
-[McStas](http://mcstas.risoe.dk/) for $x$ and $y$ i.e. the x axis is
+different for each component: *z* is the incident beam direction for the
+**previous** component and we then follow
+[McStas](http://mcstas.risoe.dk/) for *x* and *y* i.e. the *x* axis is
 perpendicular to the beam in the horizontal plane pointing left as seen
-from the source, and the y axis points upwards (see diagram below). $z$
-thus represents the direction of the beam if it was un-deviated by the
-previous component, and so the polar\_angle and azimuthal angles for a
-component indicate how much the beam was bent/scattered by the previous
-component. In the case of an NXdetector element placed directly after an
-NXsample, the polar\_angle would correspond to the *Bragg angle* or *two
-theta*.
+from the source, and the y axis points upwards (see diagram below). The
+$z$ axis thus represents the direction of the beam if it was un-deviated
+by the previous component, and so the polar\_angle and azimuthal\_angle
+for a component indicate how much the beam was bent/scattered by the
+previous component. In the case of an NXdetector element placed directly
+after an NXsample, the polar\_angle would correspond to the *Bragg
+angle* or *two theta*.
 
 ### NXgeometry based system
 
