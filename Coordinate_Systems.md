@@ -42,7 +42,7 @@ different for each component: *z* is the incident beam direction for the
 [McStas](http://mcstas.risoe.dk/) for *x* and *y* i.e. the *x* axis is
 perpendicular to the beam in the horizontal plane pointing left as seen
 from the source, and the y axis points upwards (see diagram below). The
-$z$ axis thus represents the direction of the beam if it was un-deviated
+*z* axis thus represents the direction of the beam if it was un-deviated
 by the previous component, and so the polar\_angle and azimuthal\_angle
 for a component indicate how much the beam was bent/scattered by the
 previous component. In the case of an NXdetector element placed directly
