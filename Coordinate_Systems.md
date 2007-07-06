@@ -52,13 +52,15 @@ angle* or *two theta*.
 ### NXgeometry based system
 
 This coordinate system is based on more fully on the [McStas coordinate
-system](http://mcstas.risoe.dk/). The instrument is first given a
-global, absolute coordinate system where the z axis points in the
-direction of the incident beam, the x axis is perpendicular to the beam
-in the horizontal plane pointing left as seen from the source, and the y
-axis points upwards. Each component also has a local coordinate system,
-which is defined by the NXgeometry object. The local $z$ direction for a
-component is taken as the incident beam directoion, with $x$ and $y$
-defined as before
+system](http://mcstas.risoe.dk/). The instrument is given a global,
+absolute coordinate system where the z axis points in the direction of
+the incident beam, the x axis is perpendicular to the beam in the
+horizontal plane pointing left as seen from the source, and the y axis
+points upwards. Each beamline component also has a local coordinate
+system, which is defined by the NXgeometry object. The local z direction
+for a component is taken as the incident beam direction, with x and y
+defined as before i.e. the x axis is perpendicular to the beam in the
+horizontal plane pointing left as seen from the source, and the y axis
+points upwards.
 
 ![](Coordinates.png "Coordinates.png")
