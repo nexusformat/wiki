@@ -9,31 +9,56 @@ NeXus coordinate systems. I therefore suggest the following:
 
 -   Remove coordinates from all component DTD
 -   Make a documentation page describing our two coordinate systems:
-    -   The simple polare\_angle, distance etc system
+    -   The simple polar\_angle, distance etc system
     -   The NXgeometry system
 -   State that coordinate describing datasets can occur in any component
     group
 -   State that one system must be used throughout the whole definition
 
 The last point should prohibit to have both NXgeometry and simple
-coordinates in one DTD. This can be confusing. As NXgemoetry is anyway
+coordinates in one DTD. This can be confusing. As NXgeometry is anyway
 intended to be used by the simulation community this should be OK.
 
 NeXus Coordinate System
 -----------------------
 
-The NeXus coordinate system is based on the [McStas coordinate
-system](http://mcstas.risoe.dk/). The instrument is given a global,
-absolute coordinate system where the z axis points in the direction of
-the incident beam, the x axis is perpendicular to the beam in the
-horizontal plane pointing left as seen from the source, and the y axis
-points upwards.
+### Simple Coordinate System
+
+In this system the instrument is considered as a set of components
+through which the incident beam passes. The variable **distance** is
+assigned to each component and represents the beam flight path length
+between this component and the sample. A sign convention is used where
+-ve numbers represent components pre-sample and +ve numbers components
+post-sample.
+
+For angular information, the quantities *polar\_angle* and
+*azimuthal\_angle* are used and these quantities correspond exactly to
+the usual [polar
+coordinate](http://en.wikipedia.org/wiki/Polar_coordinates) definitions
+i.e. the polar\_angle is measured with respect to a z axis and the
+azimuthal\_angle to an x axis. The direction of these local axes may be
+different for each component - $z$ is the incident beam direction for
+the **previous** component and then we follow
+[McStas](http://mcstas.risoe.dk/) for $x$ and $y$ i.e. the x axis is
+perpendicular to the beam in the horizontal plane pointing left as seen
+from the source, and the y axis points upwards (see diagram below). $z$
+thus represents the direction of the beam if it was un-deviated by the
+previous component, and so the polar\_angle and azimuthal angles for a
+component indicate how much the beam was bent/scattered by the previous
+component. In the case of an NXdetector element placed directly after an
+NXsample, the polar\_angle would correspond to the *Bragg angle* or *two
+theta*.
+
+### NXgeometry based system
+
+This coordinate system is based on more fully on the [McStas coordinate
+system](http://mcstas.risoe.dk/). The instrument is first given a
+global, absolute coordinate system where the z axis points in the
+direction of the incident beam, the x axis is perpendicular to the beam
+in the horizontal plane pointing left as seen from the source, and the y
+axis points upwards. Each component also has a local coordinate system,
+which is defined by the NXgeometry object. The local $z$ direction for a
+component is taken as the incident beam directoion, with $x$ and $y$
+defined as before
 
 ![](Coordinates.png "Coordinates.png")
-
-NXdetector defines a polar\_angle and an azimuthal\_angle. These
-quantities correspond exactly to the usual [polar coordinate
-definitions](http://en.wikipedia.org/wiki/Polar_coordinates) i.e. the
-polar angle is measured with respect to the z axis and the azimuthal
-angle to the x axis. The polar angle is often referred to as the *Bragg
-angle* or *two theta*.
