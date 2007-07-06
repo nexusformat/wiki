@@ -114,13 +114,14 @@ mentioned in the description attached to “origin1”. If the origin is
 taken at the sample, then “sample.geometry.distance” will always be
 (0,0,0) relative to “origin1”; if the origin is taken elsewhere this
 will not be so, but everything will still work. It may be convenient to
-define extra origins (similar to “arms” in \[<http://mcstas.risoe.dk/>
-McStas) at other parts of the instrument. For example, defining one at
-the centre of a circular array of detectors would allow their positions
-to be conveniently specified in spherical polar coordinates. Another
-possibility would be to define the sample relative to “origin1” and the
-detectors to “origin2”; the detectors could then be rotated by a
-rotation of “origin2” without modifying NXdetector.
+define extra origins (similar to “arms” in
+[McStas](http://mcstas.risoe.dk/)) at other parts of the instrument. For
+example, defining one at the centre of a circular array of detectors
+would allow their positions to be conveniently specified in spherical
+polar coordinates. Another possibility would be to define the sample
+relative to “origin1” and the detectors to “origin2”; the detectors
+could then be rotated by a rotation of “origin2” without modifying
+NXdetector.
 
 As well as specifying the component location, it is also necessary to
 specify the beam direction. Unless otherwise given in an NXbeam member
