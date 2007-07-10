@@ -33,6 +33,9 @@ Attendees of the
 | [[User:Pete Jemian|Pete Jemian]]
 || Advanced Photon Source, USA || OK || OK
 |-
+| Darren Kelly
+|| ANSTO, Australia || ||
+|-
 | [[User:L.lerusse|Laurent Lerusse]]
 || Rutherford Appleton Laboratory , e-Science || ||
 |-

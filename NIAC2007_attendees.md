@@ -25,6 +25,7 @@ Hahn-Meitner-Institut Berlin, Germany.
 | [Nick Hauser](User%3Anick "wikilink")                     | | Australian Nuclear Science and Technology Organisation, Australia    | OK         | OK              |
 | [ Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann "wikilink") | | Hahn-Meitner-Institut Berlin, Germany                                | --         | --              |
 | [Pete Jemian](User%3APete_Jemian "wikilink")              | | Advanced Photon Source, USA                                          | OK         | OK              |
+| Darren Kelly                                              | | ANSTO, Australia                                                     |            |                 |
 | [Laurent Lerusse](User%3AL.lerusse "wikilink")            | | Rutherford Appleton Laboratory , e-Science                           |            |                 |
 | Celine Marechal                                           | | Synchrotron Soleil, France                                           |            |                 |
 | [Ray Osborn](User%3ARay_Osborn "wikilink")                | | Argonne National Laboratory, USA                                     |            |                 |
