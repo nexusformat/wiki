@@ -86,17 +86,31 @@ coordinate systems and the placement of components is described by the
 
 ![](Coordinates.png "Coordinates.png")
 
+When computing a transformation, NXtranslation is applied before
+NXorientation. All of our axes are right handed and orthogonal.
+Orientation information is stored as direction cosines. The direction
+cosines will be between the local coordinate directions and the
+reference directions (to origin or relative NXgeometry). Calling the
+local unit vectors (x',y',z') and the reference unit vectors (x,y,z) the
+six numbers will be \[x' dot x, x' dot y, x' dot z, y' dot x, y' dot y,
+y' dot z\] where “dot” is the scalar dot product (cosine of the angle
+between the unit vectors). The unit vectors in both the local and
+reference coordinates are right-handed and orthonormal: with this
+restriction we only ned to store 6 rather than 9 direction cosines as
+the z' axis can be obtained by the vector cross product of x' and y'.
+
 The origin of coordinates is arbitrary, but all components in the file
 must either agree on its absolute location or use relative positioning.
-One choice of origin is the sample position, but on instruments with
-very large moving samples this is not so useful. An alternative choice
-is the scattering centre, the point in space at which all the detectors
-are focussed. One advantage of the “scattering centre” is that the
-spherical polar coordinate specifications of the detector positions are
-then conveniently related to scattering angles and lengths for direct
-geometry instruments. To allow for generality, an origin member can be
-defined in [NXentry](NXentry "wikilink"); its use will be detailed
-shortly.
+To allow for this generality, an origin member can be defined in
+[NXentry](NXentry "wikilink"); its use will be detailed shortly.
+
+We choose as our absolute the origin the scattering center, which is
+where a perfectly aligned sample would be. Note that the centre of the
+sample itself may not always be at this point if the sample is being
+scanned across the beam. With an origin at the “scattering centre” the
+spherical polar coordinate specifications of the detector positions
+conveniently relates to scattering angles and lengths for direct
+geometry instruments.
 
 Individual components of the instrument (e.g. jaws) will have their own
 set of local axes (x,y,z) which will be fixed to their body in a way
