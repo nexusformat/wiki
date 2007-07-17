@@ -84,3 +84,12 @@ If you are interested in attending (and not already on the [[NIAC2007_attendees|
 | 15:00 || Closing discussion ||
 |-
 |}
+
+
+= Subsequent Talks =
+
+We plan some additional talks on Thursday:
+
+* L. Lerusse: "STFC e-Infrastructure: Data management for large facilities"
+* M. Könnecke: SICS
+* (S. Flemming: INSPIRE)
