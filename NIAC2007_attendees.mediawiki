@@ -52,9 +52,11 @@ Attendees of the
 || Synchrotron Soleil, France || ||
 |-
 | [[User:Thomas Proffen|Thomas Proffen]]
-|| Lujan Neutron Scattering Center, Los Alamos National Laboratory, USA || OK ||
+|| Lujan Neutron Scattering Center, Los Alamos National Laboratory, USA || OK || OK
 |-
 | Rainer Schneider
 || [http://www.strainet.org STRAINET] c/o HMI Berlin, Germany || -- || --
 |-
+| Jiro Suzuki
+|| KEK, Japan || OK || OK
 |}
