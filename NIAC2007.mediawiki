@@ -27,6 +27,15 @@ If you are interested in attending (and not already on the [[NIAC2007_attendees|
 
 ===Suggested Discussion Topics===
 
+==== [[User:Jens-Uwe Hoffmann | Jens]] ====
+* Flat-Cone Diffractometer Definition
+* Strainet Proposal
+* Software development
+** data collector and configuration tool
+** TVneXus, data analysis tool
+* Visits
+** Reactor BERR II
+** (BESSY - 1 h from HMI-Wannsee)
 
 === Timetable ===
 
