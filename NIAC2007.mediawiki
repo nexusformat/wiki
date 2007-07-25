@@ -88,7 +88,7 @@ If you are interested in attending (and not already on the [[NIAC2007_attendees|
 
 = Subsequent Talks =
 
-We plan some additional talks on Thursday:
+We plan some additional talks (especially for HMI colleagues, guest are welcome) on Thursday:
 
 * L. Lerusse: "STFC e-Infrastructure: Data management for large facilities"
 * M. Könnecke: SICS
