@@ -37,6 +37,11 @@ If you are interested in attending (and not already on the [[NIAC2007_attendees|
 ** Reactor BERR II
 ** (BESSY - 1 h from HMI-Wannsee)
 
+==== [[User:Steve Cottrell | Steve]] ====
+* Definitions for Muon Instruments
+* Software development
+** Extensions to NXtranslate
+
 === Timetable ===
 
 {| border="1" cellspacing="0" cellpedding="10"
