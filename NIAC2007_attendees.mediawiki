@@ -16,7 +16,7 @@ Attendees of the
 || ISIS Facility, Rutherford Appleton Laboratory, UK || ||
 |-
 | [[User:Stuart Campbell|Stuart Campbell]]
-|| Diamond Light Source, UK || ||
+|| Diamond Light Source, UK || OK ||
 |-
 | [[User:Steve Cottrell|Stephen Cottrell]]
 || ISIS Facility, Rutherford Appleton Laboratory, UK || OK || OK

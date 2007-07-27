@@ -19,7 +19,7 @@ Hahn-Meitner-Institut Berlin, Germany.
 |-----------------------------------------------------------|------------------------------------------------------------------------|------------|-----------------|
 | Gwenaelle Abeille                                         | | Synchrotron Soleil, France                                           |            |                 |
 | [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink")    | | ISIS Facility, Rutherford Appleton Laboratory, UK                    |            |                 |
-| [Stuart Campbell](User%3AStuart_Campbell "wikilink")      | | Diamond Light Source, UK                                             |            |                 |
+| [Stuart Campbell](User%3AStuart_Campbell "wikilink")      | | Diamond Light Source, UK                                             | OK         |                 |
 | [Stephen Cottrell](User%3ASteve_Cottrell "wikilink")      | | ISIS Facility, Rutherford Appleton Laboratory, UK                    | OK         | OK              |
 | Stefan Flemming                                           | | The Open University, UK                                              | --         | --              |
 | [Nick Hauser](User%3Anick "wikilink")                     | | Australian Nuclear Science and Technology Organisation, Australia    | OK         | OK              |
