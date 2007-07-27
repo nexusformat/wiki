@@ -18,7 +18,7 @@ Hahn-Meitner-Institut Berlin, Germany.
 | Name                                                      | Company/Institute                                                      | Guesthouse | Passport number |
 |-----------------------------------------------------------|------------------------------------------------------------------------|------------|-----------------|
 | Gwenaelle Abeille                                         | | Synchrotron Soleil, France                                           |            |                 |
-| [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink")    | | ISIS Facility, Rutherford Appleton Laboratory, UK                    |            |                 |
+| [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink")    | | ISIS Facility, Rutherford Appleton Laboratory, UK                    | OK         | OK              |
 | [Stuart Campbell](User%3AStuart_Campbell "wikilink")      | | Diamond Light Source, UK                                             | OK         |                 |
 | [Stephen Cottrell](User%3ASteve_Cottrell "wikilink")      | | ISIS Facility, Rutherford Appleton Laboratory, UK                    | OK         | OK              |
 | Stefan Flemming                                           | | The Open University, UK                                              | --         | --              |
