@@ -43,7 +43,7 @@ Attendees of the
 || Synchrotron Soleil, France || ||
 |-
 | [[User:Ray Osborn|Ray Osborn]]
-|| Argonne National Laboratory, USA || || OK
+|| Argonne National Laboratory, USA || OK || OK
 |-
 | [[User:Peter_Peterson|Peter Peterson]]
 || Spallation Neutron Source, Oak Ridge National Laboratory, USA || || OK
