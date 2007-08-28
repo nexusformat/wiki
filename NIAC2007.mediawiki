@@ -41,6 +41,14 @@ If you are interested in attending (and not already on the [[NIAC2007_attendees|
 * Software development
 ** Extensions to NXtranslate
 
+==== [[User:Nick Hauser | Nick]] ====
+* Ratify the Coordinate Systems definition from Freddie. http://www.nexusformat.org/Coordinate_Systems 
+* Explicit geometry definition in base class definition
+* Proposal: Cylindrical geometry detectors for powder diffraction
+* Proposal: Endorse netcdf as data model for Nexus
+* Proposal: imgCIF Nexus collaboration 
+Proposals to follow
+
 === Timetable ===
 
 {| border="1" cellspacing="0" cellpedding="10"
