@@ -40,8 +40,8 @@ page](http://download.nexusformat.org/kits). Issues reported with this
 release [can be found
 here](http://trac.nexusformat.org/code/query?status=new&status=assigned&status=reopened&status=closed&version=4.1rc1&order=priority).
 
-| | Operating System | | Tester                                                                        | | Kit Type | | File Formats | | “make check” | | Remarks |
-|--------------------|---------------------------------------------------------------------------------|------------|----------------|----------------|-----------|
-| | Linux (FC6)      | [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink") 15:04, 16 March 2007 (GMT) | tar        | HDF4/HDF5/XML  | passed         |           |
+| | Operating System | | Tester                                                                         | | Kit Type | | File Formats | | “make check” | | Remarks |
+|--------------------|----------------------------------------------------------------------------------|------------|----------------|----------------|-----------|
+| | Linux (FC6)      | [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink") 18:46, 29 August 2007 (BST) | tar        | HDF4/HDF5/XML  | passed         |           |
 
 
