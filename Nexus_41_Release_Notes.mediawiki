@@ -10,6 +10,8 @@ The NAG compiler needs the '''-mismatch''' flag to be specified or else it will 
 env FCFLAGS="-mismatch" ./configure --with-f90=f95
 </pre>  
 ==New Features==
+* New types NX_INT64 and NX_UINT64 to suppport 64 bit integers (only available in HDF5 and XML) [http://trac.nexusformat.org/code/ticket/87 details].
+* Python bindings are now included in the Windows install kit [http://trac.nexusformat.org/code/ticket/86 details]
 
 ==Changed Features==
 
@@ -20,5 +22,6 @@ The following items are bugs reported in previous releases and resolved in
 the 4.0 release.
 * The Fortran 90 part of testsuite failed with the Absoft compiler on MacOSX (it passed with g95 and gfortran (4.2)) [http://trac.nexusformat.org/code/ticket/68 details here]
 * NXputattr assumed NULL termination of NX_CHAR attributes, which is usually the case in C but not true for JAVA. A workaround is to add '\0' manually [http://trac.nexusformat.org/code/ticket/83 bug report]
+* pkgconfig issue [http://trac.nexusformat.org/code/ticket/84 bug report]
 
 ==Upcoming Features==

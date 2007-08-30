@@ -31,6 +31,12 @@ the **FCFLAGS** environment variable set to contain the flag e.g.
 New Features
 ------------
 
+-   New types NX\_INT64 and NX\_UINT64 to suppport 64 bit integers (only
+    available in HDF5 and XML)
+    [details](http://trac.nexusformat.org/code/ticket/87).
+-   Python bindings are now included in the Windows install kit
+    [details](http://trac.nexusformat.org/code/ticket/86)
+
 Changed Features
 ----------------
 
@@ -50,6 +56,8 @@ in the 4.0 release.
     usually the case in C but not true for JAVA. A workaround is to add
     '\\0' manually [bug
     report](http://trac.nexusformat.org/code/ticket/83)
+-   pkgconfig issue [bug
+    report](http://trac.nexusformat.org/code/ticket/84)
 
 Upcoming Features
 -----------------
