@@ -10,7 +10,7 @@ Attendees of the
 ! Name || Company/Institute || Guesthouse || Passport number ||paid
 |-
 | Gwenaelle Abeille
-|| Synchrotron Soleil, France || (OK) || OK ||
+|| Synchrotron Soleil, France || OK || OK ||
 |-
 | [[User:Freddie Akeroyd|Frederick Akeroyd]] 
 || ISIS Facility, Rutherford Appleton Laboratory, UK || OK || OK ||
@@ -43,7 +43,7 @@ Attendees of the
 || Rutherford Appleton Laboratory , e-Science || OK || ||
 |-
 | Celine Marechal
-|| Synchrotron Soleil, France || (OK) || OK ||
+|| Synchrotron Soleil, France || OK || OK ||
 |-
 | [[User:Ray Osborn|Ray Osborn]]
 || Argonne National Laboratory, USA || OK || OK ||
@@ -52,10 +52,10 @@ Attendees of the
 || Spallation Neutron Source, Oak Ridge National Laboratory, USA || OK || OK || OK
 |-
 | [[User:Stephane Poirier|Stephane Poirier]]
-|| Synchrotron Soleil, France || (OK) || OK ||
+|| Synchrotron Soleil, France || OK || OK ||
 |-
 | [[User:Thomas Proffen|Thomas Proffen]]
-|| Lujan Neutron Scattering Center, Los Alamos National Laboratory, USA || OK || OK ||
+|| Lujan Neutron Scattering Center, Los Alamos National Laboratory, USA || OK || OK || OK
 |-
 | Rainer Schneider
 || [http://www.strainet.org STRAINET] c/o HMI Berlin, Germany || -- || -- ||
