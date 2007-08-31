@@ -751,7 +751,7 @@ Frees memory allocated to the specified data pointer.
 | Pointer to the allocated memory
 |}
 ==External Linking==
-===Nxinquirefile===
+===NXinquirefile===
 Queries which file is really active.
 ;Usage:<pre>status = NXinquirefile(handle,filename, filenameLength);</pre>
 {{APItable|(NX_OK, NX_ERROR)}}

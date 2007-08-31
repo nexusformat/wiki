@@ -699,7 +699,7 @@ memory |}
 External Linking
 ----------------
 
-### Nxinquirefile
+### NXinquirefile
 
 Queries which file is really active.
 
