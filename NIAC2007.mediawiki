@@ -114,3 +114,8 @@ We plan some additional talks (especially for HMI colleagues, guest are welcome)
 * L. Lerusse: "STFC e-Infrastructure: Data management for large facilities"
 * M. Könnecke: SICS
 * (S. Flemming: INSPIRE)
+
+= Detail Information =
+== Public Talk ==
+
+== Conference Dinner ==
