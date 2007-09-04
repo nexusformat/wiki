@@ -78,15 +78,15 @@ Proposals to follow
 |-
 | 9:00 - 10:00 || ||
 |-
-| 10:00 - 12:00 || align="center"  | ---- ||
+| 10:00 - 12:00 || align="center"  |  ||
 |-
 | 12:00 - 13:00 || align="center" colspan="2" | Lunch
 |-
-| 13:00 - 17:00 || ||
+| 13:00 - 16:00 || ||
 |-
-| 17:00 - 18:00 || align="center" colspan="2" | [[NIAC2007#Public_Talk | Public Talk (auditorium)]]
+| 16:00 - 17:00 || align="center" colspan="2" | [[NIAC2007#Public_Talk | Public Talk (auditorium)]]
 |-
-| || align="center" colspan="2" | [[NIAC2007#Conference_Dinner | Dinner]]
+| 20:00 || align="center" colspan="2" | [[NIAC2007#Conference_Dinner | Dinner (Mitte)]]
 |-
 | colspan="3" |
 |-
@@ -96,7 +96,7 @@ Proposals to follow
 |-
 | 9:00 - 10:30 || ||
 |-
-| 10:30 - 12:00 || align="center" | ---- ||
+| 10:30 - 12:00 || align="center" |  ||
 |-
 | 12:00 - 13:00 || align="center" colspan="2" | Lunch
 |-
@@ -104,6 +104,7 @@ Proposals to follow
 |-
 | 15:00 || Closing discussion ||
 |-
+|       || [[NIAC2007#Visit_the_BER_II | Visit the BER II]]
 |}
 
 = Subsequent Talks =
@@ -113,6 +114,7 @@ We plan some additional talks (especially for HMI colleagues, guest are welcome)
 * L. Lerusse: "STFC e-Infrastructure: Data management for large facilities"
 * M. Könnecke: SICS
 * (S. Flemming: INSPIRE)
+* (O. Sauer: CARESS)
 
 = Detail Information =
 == Public Talk ==
@@ -134,3 +136,8 @@ If somebody don't like pork, '''please inform me 10 days before!''' So you can e
 There is time for a "small" sight seeing before or/and after the dinner.
 
 Jens
+
+
+== Visit the BER II ==
+
+We can visit the experimental hall with thermal instruments and the new and old neutron guide hall for cold neutrons. Please inform me if you are interested or if the date is untimely for you.
