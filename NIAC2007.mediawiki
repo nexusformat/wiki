@@ -49,6 +49,11 @@ If you are interested in attending (and not already on the [[NIAC2007_attendees|
 * Proposal: imgCIF Nexus collaboration 
 Proposals to follow
 
+==== [[User:Mark Koennecke | Mark]] ====
+* Future of IDL-NeXus API
+* Ratification of further instrument definitions
+* I remember that we agreed at the last NIAC-Meeting to have a kick off session towards NeXus Definitions 2.0. I wonder if this is still on. I think Darren prepared something  for this. And so did I. But if we have more pressing business to attent too, then this has lower priority.
+
 === Timetable ===
 
 {| border="1" cellspacing="0" cellpedding="10"
