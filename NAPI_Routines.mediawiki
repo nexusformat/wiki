@@ -549,7 +549,7 @@ Implements a directory search facility on the current group level. The first cal
 |-
 | class
 | char *
-| Class of NeXus group
+| Class of NeXus group ("SDS" for a data item)
 |-
 | data_type
 | int *

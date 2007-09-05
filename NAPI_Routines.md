@@ -502,8 +502,8 @@ If it is a data set, its name and type is returned with a class of
 
 |- ! | Input Arguments | file\_id | NXhandle | Identifier of NeXus file
 |- ! rowspan=“3” | Output Arguments | name | char \* | Name of NeXus
-data item (group or set) |- | class | char \* | Class of NeXus group |-
-| data\_type | int \* |
+data item (group or set) |- | class | char \* | Class of NeXus group
+(“SDS” for a data item) |- | data\_type | int \* |
 
 Data Type:NX\_CHAR - Character string  
 NX\_FLOAT32 - 4-byte real
