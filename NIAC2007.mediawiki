@@ -53,6 +53,9 @@ Proposals to follow
 * Ratification of further instrument definitions
 * I remember that we agreed at the last NIAC-Meeting to have a kick off session towards NeXus Definitions 2.0. I wonder if this is still on. I think Darren prepared something  for this. And so did I. But if we have more pressing business to attent too, then this has lower priority.
 
+==== [[User:Freddie Akeroyd | Freddie]] ====
+* New API routines for handling chunked datasets: NXchunkmakedata, NXgetchunk, NXputchunk
+
 === Timetable ===
 
 {| border="1" cellspacing="0" cellpedding="10"
