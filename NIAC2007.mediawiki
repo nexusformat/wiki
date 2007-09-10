@@ -27,10 +27,7 @@ If you are interested in attending (and not already on the [[NIAC2007_attendees|
 |-
 | 9:00 - 9:15 || Welcome and Introduction || 
 |-
-| 9:15 - 12:00 || 
-* Review of NIAC'2006LBL minutes
-* [[Membership Dates|Renew members]]
-* Elect chair, executive secretary, and technical committee chair
+| 9:15 - 12:00 || Sec01: General Business
 ||
 |-
 | 12:00 - 13:00 || align="center" colspan="2" | Lunch
@@ -73,13 +70,15 @@ If you are interested in attending (and not already on the [[NIAC2007_attendees|
 |-
 | 15:00 || Closing discussion ||
 |-
-|       || [[NIAC2007#Visit_the_BER_II | Visit the BER II]]
+|       || [[NIAC2007#Visit_the_BER_II | Visit the BER II]] ||
 |}
 
+==== Sec01: General Business ====
 * Welcome and Introduction 
 * Review of NIAC'2006LBL minutes
 * [[Membership Dates|Renew members]]
 * Elect chair, executive secretary, and technical committee chair
+* Path forward for NeXus
 
 ===Suggested Discussion Topics===
 
