@@ -93,10 +93,11 @@ All topics that are discussed within the whole group will meet in LS 206.
 ** [http://www.iucr.org/iucr-top/cif/imgcif/index.html imgCDF]
 ** [http://www.strainet.org strainet]
 * Definition policy questions
-** Schema
+** metaDTD vs Schema (XSD)
 ** Definition URL declaration
 ** Object oriented definitions
 ** NeXusBeans
+
 === Unscheduled ===
 ==== Geometry ====
 * Ratify [[Coordinate Systems]]
