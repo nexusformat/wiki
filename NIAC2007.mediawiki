@@ -99,11 +99,12 @@ All topics that are discussed within the whole group will meet in LS 206.
 ** NeXusBeans
 === Unscheduled ===
 ==== Geometry ====
-* Ratify [[Coordinate Systems|Coordinate Systems Definition]]
+* Ratify [[Coordinate Systems]]
 * Explicit geometry definition in base class definition
 * New shapes
 ** Cylinder
 ** Conic section
+
 ==== Tech Group Meeting ====
 * NAPI for object oriented languages
 * Utility API ported to C - who and when
