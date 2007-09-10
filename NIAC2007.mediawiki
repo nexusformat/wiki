@@ -77,21 +77,42 @@ All topics that are discussed within the whole group will meet in LS 206.
 ==== M1: General Business ====
 * Welcome and Introduction 
 * Review of NIAC'2006LBL minutes
+** [[NIACActionItems|NIAC Action Items]]
+** [http://trac.nexusformat.org/definitions/report/3 Open tickets]
 * [[Membership Dates|Renew members]]
 * Elect chair, executive secretary, and technical committee chair
 * Path forward for NeXus - overview
 ** Future of NAPI
 ** Future of definitions
+*** v2.1 - additions to current definitions
+*** v3.0 - what is this
 ==== M2: Policy discussion ====
 * Documenting policy
-* Tech policy questions
-** netCDF
-** imgCDF
-** strainet
+* General policy questions
+** [http://www.unidata.ucar.edu/software/netcdf/ netCDF]
+** [http://www.iucr.org/iucr-top/cif/imgcif/index.html imgCDF]
+** [http://www.strainet.org strainet]
 * Definition policy questions
 ** Schema
 ** Definition URL declaration
+** Object oriented definitions
 ** NeXusBeans
+=== Unscheduled ===
+==== Geometry ====
+* Ratify [[Coordinate Systems|Coordinate Systems Definition]]
+* Explicit geometry definition in base class definition
+* New shapes
+** Cylinder
+** Conic section
+==== Tech Group Meeting ====
+* NAPI for object oriented languages
+* Utility API ported to C - who and when
+* New API routines
+* IDL NeXus API
+* Review [http://trac.nexusformat.org/code/report/3 open tickets]
+==== NeXus Supervised Applications ====
+* NXtranslate
+* TVneXus
 
 ==Suggested Discussion Topics==
 
