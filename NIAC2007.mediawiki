@@ -72,7 +72,7 @@ If you are interested in attending (and not already on the [[NIAC2007_attendees|
 |       || [[NIAC2007#Visit_the_BER_II | Visit the BER II]] ||
 |}
 
-==== M01: General Business ====
+==== M1: General Business ====
 * Welcome and Introduction 
 * Review of NIAC'2006LBL minutes
 * [[Membership Dates|Renew members]]
@@ -80,7 +80,8 @@ If you are interested in attending (and not already on the [[NIAC2007_attendees|
 * Path forward for NeXus - overview
 ** Future of NAPI
 ** Future of definitions
-==== M02: ====
+==== M2: Policy discussion ====
+* Documenting policy
 * Tech policy questions
 ** netCDF
 ** imgCDF
