@@ -121,6 +121,8 @@ All topics that are discussed within the whole group will meet in LS 206.
 * ScanRaw
 * Muon instruments
 * Flat-cone diffractometer
+==== Break-out Groups ====
+* ScanRaw
 
 ==Suggested Discussion Topics==
 
