@@ -115,6 +115,11 @@ All topics that are discussed within the whole group will meet in LS 206.
 * NXtranslate
 * TVneXus
 * NeXus to anything converter
+==== Ratify Definitions ====
+* Archive
+* ScanRaw
+* Muon instruments
+* Flat-cone diffractometer
 
 ==Suggested Discussion Topics==
 
