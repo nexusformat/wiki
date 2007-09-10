@@ -20,6 +20,8 @@ If you are interested in attending (and not already on the [[NIAC2007_attendees|
 
 === Timetable ===
 
+All topics that are discussed within the whole group will meet in LS 206.
+
 {| border="1" cellspacing="0" cellpedding="10"
 ! align="center" colspan="3" | Monday 24th September 2007 
 |-
