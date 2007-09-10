@@ -18,44 +18,6 @@ If you are interested in attending (and not already on the [[NIAC2007_attendees|
 
 ==Proposed Agenda==
 
-* Welcome and Introduction 
-* Review of NIAC'2006LBL minutes
-* [[Membership Dates|Renew members]]
-* Elect chair, executive secretary, and technical committee chair
-
-===Suggested Discussion Topics===
-
-==== [[User:Jens-Uwe Hoffmann | Jens]] ====
-* Flat-Cone Diffractometer Definition
-* Strainet Proposal
-* Software development
-** data collector and configuration tool
-** TVneXus, data analysis tool
-* Visits
-** Reactor BER II
-** (BESSY - 1 h from HMI-Wannsee with train)
-
-==== [[User:Steve Cottrell | Steve]] ====
-* Definitions for Muon Instruments
-* Software development
-** Extensions to NXtranslate
-
-==== [[User:Nick Hauser | Nick]] ====
-* Ratify the Coordinate Systems definition from Freddie. http://www.nexusformat.org/Coordinate_Systems 
-* Explicit geometry definition in base class definition
-* Proposal: Cylindrical geometry detectors for powder diffraction
-* Proposal: Endorse netcdf as data model for Nexus
-* Proposal: imgCIF Nexus collaboration 
-Proposals to follow
-
-==== [[User:Mark Koennecke | Mark]] ====
-* Future of IDL-NeXus API
-* Ratification of further instrument definitions
-* I remember that we agreed at the last NIAC-Meeting to have a kick off session towards NeXus Definitions 2.0. I wonder if this is still on. I think Darren prepared something  for this. And so did I. But if we have more pressing business to attent too, then this has lower priority.
-
-==== [[User:Freddie Akeroyd | Freddie]] ====
-* New API routines for handling chunked datasets: NXchunkmakedata, NXgetchunk, NXputchunk
-
 === Timetable ===
 
 {| border="1" cellspacing="0" cellpedding="10"
@@ -113,6 +75,44 @@ Proposals to follow
 |-
 |       || [[NIAC2007#Visit_the_BER_II | Visit the BER II]]
 |}
+
+* Welcome and Introduction 
+* Review of NIAC'2006LBL minutes
+* [[Membership Dates|Renew members]]
+* Elect chair, executive secretary, and technical committee chair
+
+===Suggested Discussion Topics===
+
+==== [[User:Jens-Uwe Hoffmann | Jens]] ====
+* Flat-Cone Diffractometer Definition
+* Strainet Proposal
+* Software development
+** data collector and configuration tool
+** TVneXus, data analysis tool
+* Visits
+** Reactor BER II
+** (BESSY - 1 h from HMI-Wannsee with train)
+
+==== [[User:Steve Cottrell | Steve]] ====
+* Definitions for Muon Instruments
+* Software development
+** Extensions to NXtranslate
+
+==== [[User:Nick Hauser | Nick]] ====
+* Ratify the Coordinate Systems definition from Freddie. http://www.nexusformat.org/Coordinate_Systems 
+* Explicit geometry definition in base class definition
+* Proposal: Cylindrical geometry detectors for powder diffraction
+* Proposal: Endorse netcdf as data model for Nexus
+* Proposal: imgCIF Nexus collaboration 
+Proposals to follow
+
+==== [[User:Mark Koennecke | Mark]] ====
+* Future of IDL-NeXus API
+* Ratification of further instrument definitions
+* I remember that we agreed at the last NIAC-Meeting to have a kick off session towards NeXus Definitions 2.0. I wonder if this is still on. I think Darren prepared something  for this. And so did I. But if we have more pressing business to attent too, then this has lower priority.
+
+==== [[User:Freddie Akeroyd | Freddie]] ====
+* New API routines for handling chunked datasets: NXchunkmakedata, NXgetchunk, NXputchunk
 
 = Subsequent Talks =
 
