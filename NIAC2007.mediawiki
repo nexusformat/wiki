@@ -27,11 +27,11 @@ If you are interested in attending (and not already on the [[NIAC2007_attendees|
 |-
 | 9:00 - 9:15 || Welcome and Introduction || 
 |-
-| 9:15 - 12:00 || align="center" colspan="2" | M1: General Business
+| 9:15 - 12:00 || align="center" colspan="2" | [[NIAC2007#M1: General Business|M1: General Business]]
 |-
 | 12:00 - 13:00 || align="center" colspan="2" | Lunch
 |-
-| 13:00 - 18:00 || align="center" colspan="2" | M2: Policy Discussion
+| 13:00 - 18:00 || align="center" colspan="2" | [[NIAC2007#M2: Policy Discussion|M2: Policy Discussion]]
 |-
 | || align="center" colspan="2" | Dinner
 |-
