@@ -27,12 +27,11 @@ If you are interested in attending (and not already on the [[NIAC2007_attendees|
 |-
 | 9:00 - 9:15 || Welcome and Introduction || 
 |-
-| 9:15 - 12:00 || Sec01: General Business
-||
+| 9:15 - 12:00 || align="center" colspan="2" | M1: General Business
 |-
 | 12:00 - 13:00 || align="center" colspan="2" | Lunch
 |-
-| 13:00 - 18:00 || ||
+| 13:00 - 18:00 || align="center" colspan="2" | M2 
 |-
 | || align="center" colspan="2" | Dinner
 |-
@@ -42,13 +41,13 @@ If you are interested in attending (and not already on the [[NIAC2007_attendees|
 |-
 ! Time || LS 206 || LR 204
 |-
-| 9:00 - 10:00 || ||
+| 9:00 - 10:00 || align="center" | T1 || align="center" | T2
 |-
-| 10:00 - 12:00 || align="center"  |  ||
+| 10:00 - 12:00 || align="center" | T3 || align="center" | T4
 |-
 | 12:00 - 13:00 || align="center" colspan="2" | Lunch
 |-
-| 13:00 - 16:00 || ||
+| 13:00 - 16:00 || align="center" | T5 || align="center" | T6
 |-
 | 16:00 - 17:00 || align="center" colspan="2" | [[NIAC2007#Public_Talk | Public Talk (auditorium)]]
 |-
@@ -60,25 +59,36 @@ If you are interested in attending (and not already on the [[NIAC2007_attendees|
 |-
 ! Time || LS 206 || LR 204
 |-
-| 9:00 - 10:30 || ||
+| 9:00 - 10:30 || align="center" | W1 || align="center" | W2
 |-
-| 10:30 - 12:00 || align="center" |  ||
+| 10:30 - 12:00 || align="center" | W3 || align="center" | W4
 |-
 | 12:00 - 13:00 || align="center" colspan="2" | Lunch
 |-
-| 13:00 - 15:00 || ||
+| 13:00 - 15:00 || align="center" | W5 || align="center" | W6
 |-
 | 15:00 || Closing discussion ||
 |-
 |       || [[NIAC2007#Visit_the_BER_II | Visit the BER II]] ||
 |}
 
-==== Sec01: General Business ====
+==== M01: General Business ====
 * Welcome and Introduction 
 * Review of NIAC'2006LBL minutes
 * [[Membership Dates|Renew members]]
 * Elect chair, executive secretary, and technical committee chair
-* Path forward for NeXus
+* Path forward for NeXus - overview
+** Future of NAPI
+** Future of definitions
+==== M02: ====
+* Tech policy questions
+** netCDF
+** imgCDF
+** strainet
+* Definition policy questions
+** Schema
+** Definition URL declaration
+** NeXusBeans
 
 ==Suggested Discussion Topics==
 
