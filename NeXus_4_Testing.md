@@ -82,4 +82,20 @@ here](http://trac.nexusformat.org/code/query?status=new&status=assigned&status=r
 | | MS Windows (MinGW)    | 32bit Intel | [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink") 20:17, 23 May 2007 (BST) | tar        | 4.2.1  | 1.6.5  | 2.2.2  | passed            | gcc/java(gcj)                                       |
 | | MacOS-X               | PowerPC     | [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink") 20:17, 23 May 2007 (BST) | tar        | 4.2.0  | 1.6.4  | 2.2.2  | passed            | gcc, g77, g95, gcj, fink HDF                        |
 
+### 4.1rc1 (released 10th September 2007)
+
+The kit can be downloaded from the [NeXus download
+page](http://download.nexusformat.org/kits). Issues reported with this
+release [can be found
+here](http://trac.nexusformat.org/code/query?status=new&status=assigned&status=reopened&status=closed&version=4.0rc3&order=priority).
+
+| | Operating System      | | Processor | | Tester | | Kit Type | | HDF4 | | HDF5 | | MXML | | “make check” | | Remarks |
+|-------------------------|-------------|----------|------------|--------|--------|--------|----------------|-----------|
+| | Mac OS X (10.4.9)     | 32bit Intel |          |            |        |        |        |                |           |
+| | Linux (RHEL4)         | 32bit Intel |          |            |        |        |        |                |           |
+| | Linux (SL3)           | 32bit Intel |          |            |        |        |        |                |           |
+| | Linux (openSUSE 10.2) | 32bit Intel |          |            |        |        |        |                |           |
+| | MS Windows (MinGW)    | 32bit Intel |          |            |        |        |        |                |           |
+| | MacOS-X               | PowerPC     |          |            |        |        |        |                |           |
+
 
