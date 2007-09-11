@@ -7,7 +7,7 @@ layout: wiki
 2007
 ----
 
-Tuesday, September 11, 2007: The upcoming 4.1 release of the NeXus API is now undergoing testing. More details can be found on the [testing site](NeXus_4_Testing "wikilink") as well as [provisional release notes](Nexus_4_Release_Notes "wikilink")  
+Tuesday, September 11, 2007: The upcoming 4.1 release of the NeXus API is now undergoing testing. More details can be found on the [testing site](NeXus_41_Testing "wikilink") as well as [provisional release notes](Nexus_41_Release_Notes "wikilink")  
 
 <!-- -->
 
