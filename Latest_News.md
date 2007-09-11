@@ -7,6 +7,10 @@ layout: wiki
 2007
 ----
 
+Tuesday, September 11, 2007: The upcoming 4.1 release of the NeXus API is now undergoing testing. More details can be found on the [testing site](NeXus_4_Testing "wikilink") as well as [provisional release notes](Nexus_4_Release_Notes "wikilink")  
+
+<!-- -->
+
 Friday, May 25, 2007:The NeXus technical committee is pleased to announce the official release of version 4.0 of the NeXus API. The NeXus API provides a unified interface for writing hierarchical data files in HDF4, HDF5, and XML formats. Version 4.0 resolves a number of bugs reported in the 3.0 release by providing updated makefiles, support for the gfortran compiler, and an improved test suite.  
 
 <!-- -->
