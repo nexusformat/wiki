@@ -10,7 +10,7 @@ Attendees of the
 ! Name || Company/Institute || Guesthouse || Passport number ||paid || Menu
 |-
 | Gwenaelle Abeille
-|| Synchrotron Soleil, France || OK || OK || ||
+|| Synchrotron Soleil, France || OK || OK || OK ||
 |-
 | [[User:Freddie Akeroyd|Frederick Akeroyd]] 
 || ISIS Facility, Rutherford Appleton Laboratory, UK || OK || OK || || 1
@@ -25,7 +25,10 @@ Attendees of the
 || Forschungzentrum Jülich, Germany || || OK || ||
 |-
 | Stefan Flemming
-|| The Open University, UK || -- || -- ||  ||
+|| The Open University, UK || -- || -- || OK ||
+|-
+| [[User:Andy_Gotz|Andrew Gotz]]
+|| European Synchrotron Radiation Facility || OK || OK || || 
 |-
 | [[User:nick|Nick Hauser]]
 || Australian Nuclear Science and Technology Organisation, Australia || OK || OK ||  ||
@@ -39,11 +42,14 @@ Attendees of the
 | Darren Kelly
 || ANSTO, Australia || || || ||
 |-
+| [[User:Mark_Koennecke|Mark Koennecke]]
+|| Paul Scherrer Institut || OK || OK || ||
+|-
 | [[User:L.lerusse|Laurent Lerusse]]
-|| Rutherford Appleton Laboratory , e-Science || OK || || ||
+|| Rutherford Appleton Laboratory , e-Science || OK || OK || ||
 |-
 | Celine Marechal
-|| Synchrotron Soleil, France || OK || OK || ||
+|| Synchrotron Soleil, France || OK || OK || OK ||
 |-
 | [[User:Ray Osborn|Ray Osborn]]
 || Argonne National Laboratory, USA || OK || OK || ||
@@ -52,13 +58,13 @@ Attendees of the
 || Spallation Neutron Source, Oak Ridge National Laboratory, USA || OK || OK || OK ||
 |-
 | [[User:Stephane Poirier|Stephane Poirier]]
-|| Synchrotron Soleil, France || OK || OK || ||
+|| Synchrotron Soleil, France || OK || OK || OK ||
 |-
 | [[User:Thomas Proffen|Thomas Proffen]]
 || Lujan Neutron Scattering Center, Los Alamos National Laboratory, USA || OK || OK || OK ||
 |-
 | Rainer Schneider
-|| [http://www.strainet.org STRAINET] c/o HMI Berlin, Germany || -- || -- || ||
+|| [http://www.strainet.org STRAINET] c/o HMI Berlin, Germany || -- || -- || OK ||
 |-
 | Jiro Suzuki
 || KEK, Japan || OK || OK || OK ||
