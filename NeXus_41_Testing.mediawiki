@@ -39,6 +39,16 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits/nx41tes
 | align="center" | passed
 | align="center" | gcc, g77, g95, gcj, python
 |-
+! {{Headcellstyle}} | Linux (F7)
+| align="center" | 32bit Intel
+| align="center" | [[User:Stuart Campbell|Stuart Campbell]]
+| align="center" | tar
+| align="center" | 4.2.1
+| align="center" | 1.6.5
+| align="center" | 2.2.2
+| align="center" | 
+| align="center" | gcc, g77, gfortran, sun java-1.6.0_2, python
+|-
 ! {{Headcellstyle}} | Linux (RHEL4)
 | align="center" | 64bit Intel
 | align="center" | [[User:Peter Peterson|Peter Peterson]] 14:58, 30 August 2007 (BST)
