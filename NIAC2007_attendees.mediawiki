@@ -55,7 +55,7 @@ Attendees of the
 || Argonne National Laboratory, USA || OK || OK || ||
 |-
 | [[User:Peter_Peterson|Peter Peterson]]
-|| Spallation Neutron Source, Oak Ridge National Laboratory, USA || OK || OK || OK ||
+|| Spallation Neutron Source, Oak Ridge National Laboratory, USA || OK || OK || OK || 1
 |-
 | [[User:Stephane Poirier|Stephane Poirier]]
 || Synchrotron Soleil, France || OK || OK || OK ||

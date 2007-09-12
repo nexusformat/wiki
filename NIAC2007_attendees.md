@@ -32,7 +32,7 @@ Hahn-Meitner-Institut Berlin, Germany.
 | [Laurent Lerusse](User%3AL.lerusse "wikilink")            | | Rutherford Appleton Laboratory , e-Science                           | OK         | OK              |      |      |
 | Celine Marechal                                           | | Synchrotron Soleil, France                                           | OK         | OK              | OK   |      |
 | [Ray Osborn](User%3ARay_Osborn "wikilink")                | | Argonne National Laboratory, USA                                     | OK         | OK              |      |      |
-| [Peter Peterson](User%3APeter_Peterson "wikilink")        | | Spallation Neutron Source, Oak Ridge National Laboratory, USA        | OK         | OK              | OK   |      |
+| [Peter Peterson](User%3APeter_Peterson "wikilink")        | | Spallation Neutron Source, Oak Ridge National Laboratory, USA        | OK         | OK              | OK   | 1    |
 | [Stephane Poirier](User%3AStephane_Poirier "wikilink")    | | Synchrotron Soleil, France                                           | OK         | OK              | OK   |      |
 | [Thomas Proffen](User%3AThomas_Proffen "wikilink")        | | Lujan Neutron Scattering Center, Los Alamos National Laboratory, USA | OK         | OK              | OK   |      |
 | Rainer Schneider                                          | | [STRAINET](http://www.strainet.org) c/o HMI Berlin, Germany          | --         | --              | OK   |      |
