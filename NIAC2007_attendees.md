@@ -19,8 +19,8 @@ Hahn-Meitner-Institut Berlin, Germany.
 |-----------------------------------------------------------|------------------------------------------------------------------------|------------|-----------------|------|------|
 | Gwenaelle Abeille                                         | | Synchrotron Soleil, France                                           | OK         | OK              | OK   |      |
 | [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink")    | | ISIS Facility, Rutherford Appleton Laboratory, UK                    | OK         | OK              |      | 1    |
-| [Stuart Campbell](User%3AStuart_Campbell "wikilink")      | | Diamond Light Source, UK                                             | OK         | OK              |      | V    |
-| [Stephen Cottrell](User%3ASteve_Cottrell "wikilink")      | | ISIS Facility, Rutherford Appleton Laboratory, UK                    | OK         | OK              |      |      |
+| [Stuart Campbell](User%3AStuart_Campbell "wikilink")      | | Diamond Light Source, UK                                             | OK         | OK              |      | 1    |
+| [Stephen Cottrell](User%3ASteve_Cottrell "wikilink")      | | ISIS Facility, Rutherford Appleton Laboratory, UK                    | OK         | OK              |      | V    |
 | [Matthias Drochner](User%3AMatthias_Drochner "wikilink")  | | Forschungzentrum Jülich, Germany                                     |            | OK              |      |      |
 | Stefan Flemming                                           | | The Open University, UK                                              | --         | --              | OK   |      |
 | [Andrew Gotz](User%3AAndy_Gotz "wikilink")                | | European Synchrotron Radiation Facility                              | OK         | OK              |      |      |
