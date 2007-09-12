@@ -41,12 +41,12 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits/nx41tes
 |-
 ! {{Headcellstyle}} | Linux (F7)
 | align="center" | 32bit Intel
-| align="center" | [[User:Stuart Campbell|Stuart Campbell]]
+| align="center" | [[User:Stuart Campbell|Stuart Campbell]] 11:07, 12 September 2007 (BST)
 | align="center" | tar
 | align="center" | 4.2.1
 | align="center" | 1.6.5
 | align="center" | 2.2.2
-| align="center" | 
+| align="center" | passed
 | align="center" | gcc, g77, gfortran, sun java-1.6.0_2, python
 |-
 ! {{Headcellstyle}} | Linux (RHEL4)
