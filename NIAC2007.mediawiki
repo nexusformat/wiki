@@ -107,11 +107,13 @@ All topics that are discussed within the whole group will meet in LS 206.
 ** Conic section
 
 ==== Tech Group Meeting ====
+Led by [[User:Freddie Akeroyd|Akeroyd]]
 * NAPI for object oriented languages
 * Utility API ported to C - who and when
 * New API routines
 * IDL NeXus API
 * Review [http://trac.nexusformat.org/code/report/3 open tickets]
+
 ==== NeXus Supervised Applications ====
 * NXtranslate
 * TVneXus
