@@ -36,6 +36,6 @@ Hahn-Meitner-Institut Berlin, Germany.
 | [Stephane Poirier](User%3AStephane_Poirier "wikilink")    | | Synchrotron Soleil, France                                           | OK         | OK              | OK   |      |
 | [Thomas Proffen](User%3AThomas_Proffen "wikilink")        | | Lujan Neutron Scattering Center, Los Alamos National Laboratory, USA | OK         | OK              | OK   |      |
 | Rainer Schneider                                          | | [STRAINET](http://www.strainet.org) c/o HMI Berlin, Germany          | --         | --              | OK   |      |
-| Jiro Suzuki                                               | | KEK, Japan                                                           | OK         | OK              | OK   |      |
+| Jiro Suzuki                                               | | KEK, Japan                                                           | OK         | OK              | OK   | 1    |
 
 (OK) in progress

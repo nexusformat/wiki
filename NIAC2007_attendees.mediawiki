@@ -67,7 +67,7 @@ Attendees of the
 || [http://www.strainet.org STRAINET] c/o HMI Berlin, Germany || -- || -- || OK ||
 |-
 | Jiro Suzuki
-|| KEK, Japan || OK || OK || OK ||
+|| KEK, Japan || OK || OK || OK || 1
 |}
 
 
