@@ -7,67 +7,67 @@ Attendees of the
 [[NIAC2007|2007 NIAC Meeting]] at Hahn-Meitner-Institut Berlin, Germany.
 
 {| border="1"
-! Name || Company/Institute || Guesthouse || Passport number ||paid || Menu
+! Name || Company/Institute || Guesthouse ||paid
 |-
 | Gwenaelle Abeille
-|| Synchrotron Soleil, France || OK || OK || OK ||
+|| Synchrotron Soleil, France || OK || OK
 |-
 | [[User:Freddie Akeroyd|Frederick Akeroyd]] 
-|| ISIS Facility, Rutherford Appleton Laboratory, UK || OK || OK || || 1
+|| ISIS Facility, Rutherford Appleton Laboratory, UK || OK || 
 |-
 | [[User:Stuart Campbell|Stuart Campbell]]
-|| Diamond Light Source, UK || OK || OK || || 1
+|| Diamond Light Source, UK || OK || 
 |-
 | [[User:Steve Cottrell|Stephen Cottrell]]
-|| ISIS Facility, Rutherford Appleton Laboratory, UK || OK || OK || || V
+|| ISIS Facility, Rutherford Appleton Laboratory, UK || OK ||
 |-
 | [[User:Matthias Drochner|Matthias Drochner]]
-|| Forschungzentrum Jülich, Germany || || OK || ||
+|| Forschungzentrum Jülich, Germany || ||
 |-
 | Stefan Flemming
-|| The Open University, UK || -- || -- || OK ||
+|| The Open University, UK || -- ||  OK
 |-
 | [[User:Andy_Gotz|Andrew Gotz]]
-|| European Synchrotron Radiation Facility || OK || OK || || 
+|| European Synchrotron Radiation Facility || OK ||
 |-
 | [[User:nick|Nick Hauser]]
-|| Australian Nuclear Science and Technology Organisation, Australia || OK || OK ||  ||
+|| Australian Nuclear Science and Technology Organisation, Australia || OK ||
 |-
 | [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]]
-|| Hahn-Meitner-Institut Berlin, Germany || -- || -- || OK || 1
+|| Hahn-Meitner-Institut Berlin, Germany || -- || OK 
 |-
 | [[User:Pete Jemian|Pete Jemian]]
-|| Advanced Photon Source, USA || OK || OK || ||
-|-
-| Darren Kelly
-|| ANSTO, Australia || || || ||
+|| Advanced Photon Source, USA || OK ||
 |-
 | [[User:Mark_Koennecke|Mark Koennecke]]
-|| Paul Scherrer Institut || OK || OK || ||
+|| Paul Scherrer Institut || OK ||
 |-
 | [[User:L.lerusse|Laurent Lerusse]]
-|| Rutherford Appleton Laboratory , e-Science || OK || OK || ||
+|| Rutherford Appleton Laboratory , e-Science || OK ||
 |-
 | Celine Marechal
-|| Synchrotron Soleil, France || OK || OK || OK ||
+|| Synchrotron Soleil, France || OK || OK
 |-
 | [[User:Ray Osborn|Ray Osborn]]
-|| Argonne National Laboratory, USA || OK || OK || ||
+|| Argonne National Laboratory, USA || OK ||
 |-
 | [[User:Peter_Peterson|Peter Peterson]]
-|| Spallation Neutron Source, Oak Ridge National Laboratory, USA || OK || OK || OK || 1
+|| Spallation Neutron Source, Oak Ridge National Laboratory, USA || OK || OK
 |-
 | [[User:Stephane Poirier|Stephane Poirier]]
-|| Synchrotron Soleil, France || OK || OK || OK ||
+|| Synchrotron Soleil, France || OK || OK
 |-
 | [[User:Thomas Proffen|Thomas Proffen]]
-|| Lujan Neutron Scattering Center, Los Alamos National Laboratory, USA || OK || OK || OK ||
+|| Lujan Neutron Scattering Center, Los Alamos National Laboratory, USA || OK || OK
 |-
 | Rainer Schneider
-|| [http://www.strainet.org STRAINET] c/o HMI Berlin, Germany || -- || -- || OK ||
+|| [http://www.strainet.org STRAINET] c/o HMI Berlin, Germany || -- || OK
 |-
 | Jiro Suzuki
-|| KEK, Japan || OK || OK || OK || 1
+|| KEK, Japan || OK || OK
+|-
+| Peter Turner
+|| University of Sydney || OK ||
 |}
 
 
