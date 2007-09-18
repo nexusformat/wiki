@@ -22,7 +22,14 @@ The first NXentry will be named 'Header' or '{name}_0' where name c an be any st
   </NXentry>
 </pre>
 
+== Parameter Names ==
 
+When extracting the metadata, we will not be limited to the one in this list. Facility, Instrument, Sample specific information may be extracted. It would then be useful to chose names that are descriptive and have a constant meaning between experiments. 
+It is preferable to use temp_control and temp_sample than temp_1 and temp_2 with the sample temperature being sometimes temp_1, sometimes temp_2. 
+
+== Too much metadata is better than too little ==
+
+You can't extract information that are not there. 
 
 == DTD definition ==
 <pre>

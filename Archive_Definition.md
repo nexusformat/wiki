@@ -50,6 +50,21 @@ following tag with a value of 0.
         <entry_num type="NX_INT"> {entry number starting from 0}? </entry_num>
       </NXentry>
 
+Parameter Names
+---------------
+
+When extracting the metadata, we will not be limited to the one in this
+list. Facility, Instrument, Sample specific information may be
+extracted. It would then be useful to chose names that are descriptive
+and have a constant meaning between experiments. It is preferable to use
+temp\_control and temp\_sample than temp\_1 and temp\_2 with the sample
+temperature being sometimes temp\_1, sometimes temp\_2.
+
+Too much metadata is better than too little
+-------------------------------------------
+
+You can't extract information that are not there.
+
 DTD definition
 --------------
 
