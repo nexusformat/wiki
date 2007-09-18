@@ -35,62 +35,25 @@ For processed data, NIAC should define a way to link to external files.
 <!--
 URL     : http://www.nexusformat.org/
 Editor  : L. Lerusse, CCLRC e-Science
-Version : October 2006
+Version : September 2007
 
 Template of the Archive Definition.
-
-line starting with 
-     * are element not yet in the base classes. 
-     # are a addition or modification of the TOFraw definition.
 -->
 <NXroot>
- <NXentry name="entry 0"> <!-- See Multiple Entry comment above -->
-   <!-- Identification metadata
-		A unique identifier separate from the filename should be defined. 
-		These parameters seems the more promising for this. 
-		The control system should not allow creation of file with already 
-		existing parameters.
-    -->
-    <title>{Extended title for file}?</title> 
+  <NXentry name="">+
+    <title type="NX_CHAR">
+        {Extended title for file}
+    </title> 
     <experiment_identifier type="NX_CHAR">
-        {unique identifier for the experiment, defined by the facility, possibly
-        linked to the proposals (see : proposal_identifier below)}
+        {unique identifier for the experiment, defined by the facility, possibly 
+         linked to the proposals (see : proposal_identifier below)}
     </experiment_identifier>
+    <measurement_identifier type="NX_CHAR">
+        {unique identifier for the measurement, defined by the facility.}
+    </measurement_identifier>
     <run_number type="NX_INT">
-        {Data file sequence number}
+        {Number of run or scan stored in this entry}?
     </run_number>
-    <run_cycle type="NX_CHAR">
-        {}?
-    </run_cycle>   
-
-
-    <!-- Data management metadata -->
-    <release_date type="NX_CHAR"> 	   	 
-    	{ Date of the public release of the data. (file_time + X years)}?
-    </release_date>
-    <revision type="NX_CHAR">
-    	{ Revision id of the file due to re-calibration, reprocessing, 
-    	  new analysis, new instrument definition format, ... }
-    </revision>
-    <revision_comment type="NX_CHAR">
-   	{Reason for the new revision. {e.g.: first revision, re-calibration,}?
-    </revision_comment>
-
-    <!-- Nexus format information
-    	The definition tag is meant to contains the most precise instrument 
-    	definition that apply to the data set. 
-    	
-    	The instrument definition is there to tell what analysis package 
-    	should be able to analyze the data.
-    -->
-    <definition type="NX_CHAR" version="{DTD version number}" URL="{URL of DTD file}">
-        {Name of entry DTD}
-    </definition>
-    
-    <!-- Timing metadata : 
-    	start_time and end_time are mandatory
-    	duration and/or collection_time would be nice to have
-    -->	
     <start_time type="ISO8601">
         {Starting time of measurement}
     </start_time>
@@ -104,83 +67,29 @@ line starting with
     	{Time transpired actually collecting data i.e. taking out time when 
     	collection was suspended due to e.g. temperature out of range}
     </collection_time>
-        
-*#    <!-- Reliability metadata
-*#    	Having the wrong information may be worst than having no information. 
-*#    	The accuracy of the information provided by the experimenter may be  
-*#    	difficult to determine. The minimum we can do is determine in which
-*#    	condition the information was filled. 
-*#    -->
-*#    <info_reliability  type="NX_CHAR">
-*#    	{information on the reliability/source of the information provided by
-*#    	the experimenter.(e.g. : From proposal, updated at experiment time, ...}?
-*#    </info_reliability>
-
-    
-*    <!-- Experiment metadata
-*    	Description of the science related to the data.
-*    -->
-*#       <proposal_identifier>
-*#              {identification of the proposal}?
-*#       </proposal_identifier>
-*        <discipline type="NX_CHAR">
-*    	        {Keyword domain (e.g. chemistry, astronomy, ecology, … )}?
-*        </discipline>
-* 	<keyword type="NX_CHAR">
-*		{Keywords defined for this study.}?
-*	</keyword>
-* 	<keyword_source type="NX_CHAR">
-*		{A pointer to a reference work providing the definition of the 
-*		restricted vocabulary of which the keyword list is a subset.}?
-*	</keyword_source>
-* 	<subject type="NX_CHAR">  	
-*		{Subject categorizations for this study}?
-*	</subject>
-*# 	<description type="NX_CHAR">
-*#		{Brief summary of the experiment, including key objectives}
-*#	</description>
-*# 	<description_document type="NXNote">
-*#		{Description of the full experiment (document in pdf, latex, …)}?
-*#	</description_document>
-* 	<requirement type="NX_CHAR">
-*		{Special requirements of instrument}?
-*	</requirement>
-* 	<publications type="NX_CHAR">
-*		{List of publication related to the proposal}?
-*	</publications>
-* 	<publication_references type="NX_CHAR">
-*		{List of publication references related to the proposal.}?
-*	</publication_references>
-* 	<facility_access_type type="NX_CHAR">
-*		{Facility access type (normal, rapid access, program access …)}?
-*	</facility_access_type>
-* 	<grant_id  type="NX_CHAR" type="NX_CHAR"> 	  	
-*		{Identifier of the funding grant.}?
-*	</grant_id>
-			
-			
-    <!-- Software metadata
-    	May be useful to retrieve all data from a versioning case of problem 
-    	related to a specific version of the acquisition/analysis program. 
-    -->
-    <program_name type="NX_CHAR" version="{Program version number}">
-        {Name of program used to generate this file}?
+    <run_cycle type="NX_CHAR">
+        {}?
+    </run_cycle>   
+    <revision type="NX_CHAR" comment="">
+    	{ Revision id of the file due to re-calibration, reprocessing, 
+    	  new analysis, new instrument definition format, ... }
+    </revision>
+    <definition type="NX_CHAR" version="{DTD version number}" URL="{URL of DTD file}">
+        {Name of entry DTD}
+    </definition>
+    <definition_local type="NX_CHAR" version="{DTD version number}" URL="{URL of DTD file}">
+        {Name of entry DTD}
+    </definition_local>
+    <description type="NX_CHAR">
+	{Brief summary of the experiment, including key objectives.}
+    </description>
+    <description_document type="NXNote">
+	{Description of the full experiment (document in pdf, latex, …)}?
+    </description_document>
+    <program_name type="NX_CHAR" version="{Program version number}" configuration="{program configuration information}">
+        {Name of program used to generate this file}
     </program_name>
-
-    <!-- User metadata
-	At least one user with role 'principal_investigator' must be present to 
-	define the owner of the data. 
-	Other important roles are :
-	        'experimenter' to know who physically made the experiment,
-		'local_contact' for any instrument configuration questions,
-	Nice to have would be 'funding_agency', it may help to get money for 
-	the next experiments. 
-		
-        I think that the users with role 'principal_investigator', 'proposer'  
-	and 'experimenter' should be given access to the data. 
-	To be define in the data right policy of the facility.
-    -->		
-    <NXuser name="user XX">1+
+    <NXuser name="user XX">+
         <name type="NX_CHAR">
             {Name of user responsible for this entry}
         </name>
@@ -189,45 +98,19 @@ line starting with
             {Suggested roles are "local_contact", "principal_investigator", 
             "proposer", "experimenter", "funding_agency"}
         </role>
-        <affiliation type="NX_CHAR">
-            {Affiliation of user}?
-        </affiliation>
-        <address type="NX_CHAR">
-            {Address of user}?
-        </address>
-        <telephone_number type="NX_CHAR">
-            {Telephone number of user}?
-        </telephone_number>
-        <fax_number type="NX_CHAR">
-            {Fax number of user}?
-        </fax_number>
-        <email type="NX_CHAR">
-            {Email of user}?
-        </email>
         <facility_user_id type="NX_CHAR">
             {Facility based unique identifier for this person e.g. their 
             identification code on the facility address/contact database, 
             should allow owner identification by the archive system.}
         </facility_user_id>
-*        <affiliation_id type="NX_CHAR">
-*            {Affiliation unique identifier.}?
-*        </affiliation_id>'''
     </NXuser>
-
-    <!-- Instruments metadata
-	The instrument name should be descriptive as much as possible, 
-	telling in which mode the instrument was working.
-    -->
     <NXinstrument name="{Name of instrument}">
         <name type="NX_CHAR" short_name="{abbreviated name of instrument}">
             {Name of instrument}
         </name>
-*# 	<description type="NX_CHAR">
-*#		{Brief description of the instrument}?
-*#	</description_summary>
-*# 	<description_document type="NXNote">
-*#		{Description of the instrument (document in pdf, latex, …)}?
-*#	</description>
+ 	<description type="NX_CHAR">
+		{Brief description of the instrument}?
+	</description_summary>
         <NXsource name="{Name of facility}">
             <name type="NX_CHAR">
                 {Name of source}
@@ -242,38 +125,65 @@ line starting with
             </probe>
         </NXsource>
     </NXinstrument>
-
-    <!-- Sample metadata
-    -->
     <NXsample name="{name of sample}">
         <name type="NX_CHAR">
             {Descriptive name of sample}
         </name>
         <sample_id type="NX_CHAR">
-            {Sample identifier}
+            {Unique identifier for the sample in the experiment.}
         </sample_id>
+	<description type="NX_CHAR">
+            {Description of the sample}?
+        </description>
+        <type type="NX_CHAR">
+	    { sample | sample+can | can | calibration sample | 
+              normalisation sample | simulated data | none | sample environment }
+	</type>
         <chemical_formula type="NX_CHAR">
             {The chemical formula specified using CIF conventions.}?
         </chemical_formula>
-	<description type="NX_CHAR">
-            {Description of the sample}?
-        </description>       
-
-        
-*        <!-- Sample Environment metadata
-*        	These parameters are to give an idea of the sample environment. 
-*      	
-*        	The data are stored in an NXlog (e.g temperature, ..) 
-*               those could have been links from a sensor class located in the 
-*               NXinstrument class. But in that case, the name would all 
-*               be value and that would cause problems. 
-*        -->
-*        <NXlog name="temperature_log"> {Sample temperature. }? </NXlog>
-*        <NXlog name="electric_field_log"> {Applied electric field}? </NXlog>
-*        <NXlog name="magnetic_field_log"> {Applied magnetic field}? </NXlog>
-*        <NXlog name="stress_field_log"> {External stress}? </NXlog>
-*        <NXlog name="pressure_log"> {Applied pressure}?  </NXlog>   
+        <preparation_date type="ISO8601">
+	    {Date of preparation of the sample}?
+	</preparation_date>
+	<situation type="NX_CHAR">
+	    { air | vacuum | inert atmosphere | oxidising atmosphere | reducing atmosphere | sealed can | other }
+            {The atmosphere will be one of the components, which is where its details will be stored; 
+            the relevant components will be indicated by the entry in the sample_component member.}?
+	</situation>
+        <NXlog name="temperature_log"> 
+            {Sample temperature. }? 
+        </NXlog>
+        <NXlog name="electric_field_log"> 
+            {Applied electric field}? 
+        </NXlog>
+        <NXlog name="magnetic_field_log"> 
+            {Applied magnetic field}? 
+        </NXlog>
+        <NXlog name="stress_field_log"> 
+            {External stress}? 
+        </NXlog>
+        <NXlog name="pressure_log"> 
+            {Applied pressure}?  
+        </NXlog> 
+        <temperature type="NX_FLOAT" units="kelvin">
+            {Sample temperature. }? 
+        </temperature>
+        <magnetic_field type="NX_FLOAT" units="gauss">
+            {Sample magnetic_field. }? 
+        </magnetic_field>
+        <electric_field type="NX_FLOAT" units="">
+            {Sample electric_field. }? 
+        </electric_field>
+        <stress_field type="NX_FLOAT" units="">
+            {Sample stress_field. }? 
+        </stress_field>
+        <pressure type="NX_FLOAT" units="pascal">
+            {Sample pressure. }? 
+        </pressure>
     </NXsample>
+    <release_date type="NX_CHAR"> 	   	 
+    	{ Date of the public release of the data. (file_time + X years)}?
+    </release_date>		
  </NXentry>
 </NXroot>
 </pre>
