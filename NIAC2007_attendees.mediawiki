@@ -37,7 +37,7 @@ Attendees of the
 || Hahn-Meitner-Institut Berlin, Germany || -- || OK 
 |-
 | [[User:Pete Jemian|Pete Jemian]]
-|| Advanced Photon Source, USA || OK ||
+|| Advanced Photon Source, USA || OK || OK
 |-
 | [[User:Mark_Koennecke|Mark Koennecke]]
 || Paul Scherrer Institut || OK || OK

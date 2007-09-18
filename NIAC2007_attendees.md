@@ -26,7 +26,7 @@ Hahn-Meitner-Institut Berlin, Germany.
 | [Andrew Gotz](User%3AAndy_Gotz "wikilink")                | | European Synchrotron Radiation Facility                              | OK         |      |
 | [Nick Hauser](User%3Anick "wikilink")                     | | Australian Nuclear Science and Technology Organisation, Australia    | OK         |      |
 | [ Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann "wikilink") | | Hahn-Meitner-Institut Berlin, Germany                                | --         | OK   |
-| [Pete Jemian](User%3APete_Jemian "wikilink")              | | Advanced Photon Source, USA                                          | OK         |      |
+| [Pete Jemian](User%3APete_Jemian "wikilink")              | | Advanced Photon Source, USA                                          | OK         | OK   |
 | [Mark Koennecke](User%3AMark_Koennecke "wikilink")        | | Paul Scherrer Institut                                               | OK         | OK   |
 | [Laurent Lerusse](User%3AL.lerusse "wikilink")            | | Rutherford Appleton Laboratory , e-Science                           | OK         | OK   |
 | Celine Marechal                                           | | Synchrotron Soleil, France                                           | OK         | OK   |
