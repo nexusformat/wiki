@@ -50,22 +50,6 @@ following tag with a value of 0.
         <entry_num type="NX_INT"> {entry number starting from 0}? </entry_num>
       </NXentry>
 
-Open Issue
-----------
-
-### NXentry order
-
-The order of multiple NXentry is not recorded by the data format. Now,
-we only have a naming convention to record the creation/logical order.
-How well can we enforce such convention?
-
-It could be good to add a 'entry\_num' parameter in NXentry class to
-define the order.
-
-### External links
-
-For processed data, NIAC should define a way to link to external files.
-
 DTD definition
 --------------
 

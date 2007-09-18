@@ -22,17 +22,7 @@ The first NXentry will be named 'Header' or '{name}_0' where name c an be any st
   </NXentry>
 </pre>
 
-== Open Issue ==
 
-=== NXentry order ===
-
-The order of multiple NXentry is not recorded by the data format. Now, we only have a naming convention to record the creation/logical order. How well can we enforce such convention? 
-
-It could be good to add a 'entry_num' parameter in NXentry class to define the order.
-
-=== External  links ===
-
-For processed data, NIAC should define a way to link to external files. 
 
 == DTD definition ==
 <pre>
