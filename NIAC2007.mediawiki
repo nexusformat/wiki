@@ -179,6 +179,11 @@ Proposals to follow
 ==== [[User:Freddie Akeroyd | Freddie]] ====
 * New API routines for handling chunked datasets: NXchunkmakedata, NXgetchunk, NXputchunk
 
+==== [[User:L.lerusse | Laurent]] ====
+* [[Archive Definition]]
+* nxingest a tool to extract metadata from a NeXus files and store it into a reformated xml document. 
+* Status of NeXus/imgCif usage in the facilities (who is using it, who is planning to and when)
+
 = Subsequent Talks =
 
 We plan some additional talks (especially for HMI colleagues, guest are welcome) on Thursday:
