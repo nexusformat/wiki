@@ -13,16 +13,15 @@ that are meant to be centrally archived. It contains important
 information that will not be found in the instrument definition as they
 are not needed for data analysis.
 
-The Instrument Definitions should allow the creation of analysis
+The Instrument Definitions should allow the creation of archiving
 software that are common among several instruments and/or facilities.
 With the Archive Definition, the aim is to allow shared data management
-tools, see below for more details.
+tools. It also emphasize important information that will be useful for
+search and retrieve of the data once stored in the archive.
 
 The Instrument Definitions and the Archive definition should not
 interfere with each other. To analyze the data of an instrument, you
-don't need to know the owner of the data or the name of the sample. To
-manage the data, you don't need the counts that have been measured by a
-specific detector.
+don't need to know the owner of the data or the name of the sample.
 
 Before archiving and indexing the data, we need to define the
 granularity with which to do it. HDF 5 should allow a user to extract
@@ -30,9 +29,10 @@ only one group from a file stored in a SRB system. I doubt that it would
 be very practical to catalogue the data so finely, at least not at a
 facility level. This definition assumes an indexing at the file level.
 
-A large part of the definition are optional parameters for nice to have
-information. It is build with RAW file in mind. other parameters may be
-needed for processed / result or simulation files
+Part of the definition are optional parameters for information that are
+highly recommended but not required . It is build with RAW file in mind.
+other parameters may be needed for processed / result or simulation
+files
 
 Multiple NXentry issue
 ----------------------
