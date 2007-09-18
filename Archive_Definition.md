@@ -43,7 +43,12 @@ multiple samples in multiple NXentry?).
 
 Only the metadata from the first NXentry will be used in the indexing of
 the NeXus file. The first NXentry will be named 'Header' or '{name}\_0'
-where name c an be any string (e.g. 'scan\_0').
+where name c an be any string (e.g. 'scan\_0') or will contain the
+following tag with a value of 0.
+
+      <NXentry>
+        <entry_num type="NX_INT"> {entry number starting from 0}? </entry_num>
+      </NXentry>
 
 Open Issue
 ----------
