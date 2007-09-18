@@ -27,8 +27,8 @@ Hahn-Meitner-Institut Berlin, Germany.
 | [Nick Hauser](User%3Anick "wikilink")                     | | Australian Nuclear Science and Technology Organisation, Australia    | OK         |      |
 | [ Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann "wikilink") | | Hahn-Meitner-Institut Berlin, Germany                                | --         | OK   |
 | [Pete Jemian](User%3APete_Jemian "wikilink")              | | Advanced Photon Source, USA                                          | OK         |      |
-| [Mark Koennecke](User%3AMark_Koennecke "wikilink")        | | Paul Scherrer Institut                                               | OK         |      |
-| [Laurent Lerusse](User%3AL.lerusse "wikilink")            | | Rutherford Appleton Laboratory , e-Science                           | OK         |      |
+| [Mark Koennecke](User%3AMark_Koennecke "wikilink")        | | Paul Scherrer Institut                                               | OK         | OK   |
+| [Laurent Lerusse](User%3AL.lerusse "wikilink")            | | Rutherford Appleton Laboratory , e-Science                           | OK         | OK   |
 | Celine Marechal                                           | | Synchrotron Soleil, France                                           | OK         | OK   |
 | [Ray Osborn](User%3ARay_Osborn "wikilink")                | | Argonne National Laboratory, USA                                     | OK         |      |
 | [Peter Peterson](User%3APeter_Peterson "wikilink")        | | Spallation Neutron Source, Oak Ridge National Laboratory, USA        | OK         | OK   |

@@ -40,10 +40,10 @@ Attendees of the
 || Advanced Photon Source, USA || OK ||
 |-
 | [[User:Mark_Koennecke|Mark Koennecke]]
-|| Paul Scherrer Institut || OK ||
+|| Paul Scherrer Institut || OK || OK
 |-
 | [[User:L.lerusse|Laurent Lerusse]]
-|| Rutherford Appleton Laboratory , e-Science || OK ||
+|| Rutherford Appleton Laboratory , e-Science || OK || OK
 |-
 | Celine Marechal
 || Synchrotron Soleil, France || OK || OK
