@@ -22,7 +22,7 @@ Attendees of the
 || ISIS Facility, Rutherford Appleton Laboratory, UK || OK ||
 |-
 | [[User:Matthias Drochner|Matthias Drochner]]
-|| Forschungzentrum Jülich, Germany || ||
+|| Forschungzentrum Jülich, Germany || OK ||
 |-
 | Stefan Flemming
 || The Open University, UK || -- ||  OK
