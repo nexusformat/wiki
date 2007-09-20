@@ -155,14 +155,13 @@ Led by [[User:Freddie Akeroyd|Akeroyd]]
 ==Suggested Discussion Topics==
 
 ==== [[User:Jens-Uwe Hoffmann | Jens]] ====
-* Flat-Cone Diffractometer Definition
+* Flat-Cone Diffractometer Definition ([http://www.hmi.de/bensc/misc/flat-cone/rebuilding/nexus_en.html Details])
+* NXcrandle Proposal 
 * Strainet Proposal
 * Software development
 ** data collector and configuration tool
 ** TVneXus, data analysis tool
-* Visits
-** Reactor BER II
-** (BESSY - 1 h from HMI-Wannsee with train)
+* Visit Reactor BER II
 
 ==== [[User:Steve Cottrell | Steve]] ====
 * Definitions for Muon Instruments
