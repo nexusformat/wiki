@@ -191,12 +191,12 @@ Proposals to follow
 
 = Subsequent Talks =
 
-We plan some additional talks (especially for HMI colleagues, guest are welcome) on Thursday:
+We plan some additional talks (especially for HMI colleagues, guest are welcome) on Thursday 27th September LS 206:
 
-* L. Lerusse: "STFC e-Infrastructure: Data management for large facilities"
-* M. Könnecke: SICS
-* (S. Flemming: INSPIRE)
-* (O. Sauer: CARESS)
+* 10:00 L. Lerusse: "STFC e-Infrastructure: Data management for large facilities"
+* 11:30 S. Flemming: INSPIRE
+* 14:00 M. Könnecke: SICS
+* 16:00 O. Sauer: CARESS
 
 = Detail Information =
 == Public Talk ==
