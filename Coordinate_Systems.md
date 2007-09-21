@@ -28,43 +28,50 @@ coordinates of beamline components and a polar coordinate based system
 for “neutronic” coordinates. The usage of these two system can be seen
 by considering a 3He gas tube detector:
 
--   The [NXgeometry](NXgeometry "wikilink") system would describe a
-    cylinder at a certain distance from the sample that never changes
-    from one run to another
--   The “distance” coordinate of the polar system could refer to the
-    distance from the sample to the effective measurement point within
-    the gas tube, which would depend on energy; lower energy neutrons
-    would tend to penetrate a smaller distance within the tube, and so
-    have a shorter secondary flight path.
+-   The [NXgeometry](NXgeometry "wikilink") system represents true
+    spatial location and would describe a cylinder at a certain distance
+    from the sample that never changes from one run to another
+-   The polar system would describe the neutronic, rather than actual,
+    geometry. For example, the “distance” coordinate would refer to the
+    distance from the sample to an effective measurement point within
+    the gas tube, which would depend on neutron energy; lower energy
+    neutrons would tend to penetrate a smaller distance within the tube,
+    and so have a shorter secondary flight path.
 
-### Simple Coordinate System
+### Simple (Polar) Coordinate System
 
 In this system the instrument is considered as a set of components
 through which the incident beam passes. The variable **distance** is
-assigned to each component and represents the beam flight path length
-between this component and the sample. A sign convention is used where
--ve numbers represent components pre-sample and +ve numbers components
-post-sample.
+assigned to each component and represents the effective beam flight path
+length between this component and the sample. A sign convention is used
+where -ve numbers represent components pre-sample and +ve numbers
+components post-sample.
 
 For angular information, the quantities *polar\_angle* and
 *azimuthal\_angle* are used and these quantities correspond exactly to
 the usual [polar
 coordinate](http://en.wikipedia.org/wiki/Polar_coordinates) definitions
 i.e. the polar\_angle is measured with respect to a *z* axis and the
-azimuthal\_angle to an x axis. The direction of these local axes may be
-different for each component: *z* is the incident beam direction for the
-**previous** component and we then follow
+azimuthal\_angle to an *x* axis. The direction of these local axes may
+be different for each component: *z* is the incident beam direction for
+the **previous** component and we then follow
 [McStas](http://mcstas.risoe.dk/) for *x* and *y* i.e. the *x* axis is
 perpendicular to the beam in the horizontal plane pointing left as seen
 from the source, and the y axis points upwards (see diagram below). The
 *z* axis thus represents the direction of the beam if it was un-deviated
 by the previous component, and so the polar\_angle and azimuthal\_angle
 for a component indicate how much the beam was bent/scattered by the
-previous component. In the case of an
-[NXdetector](NXdetector "wikilink") element placed directly after an
-[NXsample](NXsample "wikilink"), the polar\_angle would correspond to
-the *Bragg angle* or *two theta* and distance to the *secondary flight
-path*.
+previous component.
+
+If we consider an [NXdetector](NXdetector "wikilink") element placed
+directly after an [NXsample](NXsample "wikilink"), the polar\_angle
+would be the angle between the scattering vector and the *z* axis and so
+correspond to the *Bragg angle* or *two theta*. The azimuthal\_angle
+would be the angle between the positive x-axis and the scattering vector
+projected onto the xy-plane - scattering to the left as seen from the
+source would have azimuthal\_angle=0 and scattering to the right
+azimuthal\_angle=pi. The distance would correspond to what is often
+called the *secondary flight path length* or *L2*.
 
 ### NXgeometry based system
 
