@@ -120,7 +120,7 @@ All topics that are discussed within the whole group will meet in LS 206.
 * Definition policy questions
 ** metaDTD vs Schema (XSD)
 ** Definition URL declaration
-** Object oriented definitions
+** Object oriented definitions, [[Media:NeXusOBJ.pdf| Marks suggestion]]
 ** NeXusBeans
 
 === Unscheduled ===
