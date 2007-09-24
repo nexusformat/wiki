@@ -92,10 +92,9 @@ is already being defined by an instrument editor. Check the list on the
 NeXus Instruments page. The [NeXus International Advisory
 Committee](NIAC "wikilink") is responsible for appointing editors of
 special interest groups that wish to become a part of the standard, so
-contact the Executive Secretary, [Peter
-Peterson](User%3APfpeterson "wikilink"), if a group does not yet exist.
-Of course, if you want to produce your own private definition for
-personal use, you are free to do so without our approval although we
+contact the [Executive Secretary](NIAC "wikilink"), if a group does not
+yet exist. Of course, if you want to produce your own private definition
+for personal use, you are free to do so without our approval although we
 encourage people to share what they are doing . If you are an editor,
 the process of defining an instrument should be quite simple:
 
