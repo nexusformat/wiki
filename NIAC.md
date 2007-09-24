@@ -99,10 +99,16 @@ The NeXus International Advisory Committee will have the following
 officers:
 
 -   Chair to oversee committee deliberations
--   Executive Secretary, who is not necessarily a member of the
-    committee, to coordinate meetings and online debates
--   Technical Committee Chair, who is not necessarily a member of the
-    committee, with the responsibility to oversee the NeXus API
+-   Executive Secretary to coordinate meetings and online debates. The
+    person that holds the position does not need to be an existing
+    member of the NIAC, and does not vote unless he/she is a regular
+    member.
+-   Technical Committee Chair with the responsibility to oversee the
+    NeXus API. The tasks of the chair are to coordinate tests, manage
+    and announce releases, and promote code from the contributed
+    directory to the regular release build. The person that holds the
+    position does not need to be an existing member of the NIAC, and
+    does not vote unless he/she is a regular member.
 
 All of these officers will be elected at the beginning of each annual
 meeting, effective at the end of that meeting. The position of chair and
@@ -129,7 +135,7 @@ The NeXus wiki will be used to conduct online votes of current members
 of the [NIAC](NIAC "wikilink"). The procedure and an example vote are
 described [here](Voting "wikilink").
 
-### Ratification of Base Classes
+### Ratification of Instrument Definitions and Base Classes
 
 The NeXus format is defined as a series of XML files describing both the
 base classes and generic instruments that contain a subset of those
@@ -137,11 +143,11 @@ classes. It is the role of the NeXus International Advisory Committee to
 ratify those base classes, and to approve modifications when they are
 proposed. This is the current procedure:
 
-1.  The current version of the base classes shall be kept on the [NeXus
-    wiki](Main_Page "wikilink") so that people can post suggested
-    modifications.
+1.  The current version of the instrument definitions and base classes
+    shall be kept on the [NeXus wiki](Main_Page "wikilink") so that
+    people can post suggested modifications.
 2.  The Executive Secretary of the NIAC will review those changes at
-    regular intervals, monthly or bimonthly. If in his or her judgement,
+    regular intervals, monthly or bimonthly. If in his or her judgment,
     a reasonable proposal has been made, the information will be
     forwarded to the NIAC mailing list for discussion. If the change is
     significant, or has implications for backward compatibility, the
@@ -153,7 +159,8 @@ proposed. This is the current procedure:
 4.  This will be voted online as described above. At least two-thirds of
     the committee must vote. Changes will be approved by a majority of
     the whole committee.
-5.  The revised classes will then be posted to the NeXus XML CVS server.
+5.  The revised instrument definitions and base classes will then be
+    posted to the NeXus SVN server.
 
 Meetings
 --------
