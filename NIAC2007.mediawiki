@@ -140,18 +140,25 @@ Led by [[User:Freddie Akeroyd|Akeroyd]]
 * Review [http://trac.nexusformat.org/code/report/3 open tickets]
 
 ==== NeXus Supervised Applications ====
-* NXtranslate
-* TVneXus
-* NeXus to anything converter
+* NXtranslate - anything to NeXus converter
+* TVneXus - viz package
+* NXextract - NeXus to anything converter
+* Metadata extract
+* HMI DataCollector
+
 ==== Ratify Definitions ====
 * Archive
 * ScanRaw ([[User:Andy Gotz|Götz]])
 * Muon instruments ([[User:Steve Cottrell|Cottrell]])
-* Flat-cone diffractometer
 * [[NXevent_data|Event Data]] - lessons learned ([[User:Peter Peterson|Peterson]])
 
 ==== Break-out Groups ====
 * ScanRaw
+* NXsas instrument definition
+* Documenting definitions
+* Flat-cone diffractometer
+* Synchrotron
+* CCD
 
 ==Suggested Discussion Topics==
 
