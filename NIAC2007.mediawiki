@@ -114,8 +114,9 @@ All topics that are discussed within the whole group will meet in LS 206.
 * Documenting policy
 * General policy questions
 ** [http://www.unidata.ucar.edu/software/netcdf/ netCDF]
-** [http://www.iucr.org/iucr-top/cif/imgcif/index.html imgCDF]
+** [http://www.iucr.org/iucr-top/cif/imgcif/index.html imgCIF]
 ** [http://www.strainet.org strainet]
+** ASI^2
 * Definition policy questions
 ** metaDTD vs Schema (XSD)
 ** Definition URL declaration
