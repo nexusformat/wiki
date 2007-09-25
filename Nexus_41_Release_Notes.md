@@ -28,6 +28,13 @@ the **FCFLAGS** environment variable set to contain the flag e.g.
 
     env FCFLAGS="-mismatch" ./configure --with-f90=f95
 
+### HDF4 on Intel Macs
+
+There is a problem with the include file, hdfi.h (normally in
+/usr/local/include). See
+<http://coastwatch.noaa.gov/helparc/software/msg00069.html> for details
+of the modifications necessary to fix it.
+
 New Features
 ------------
 

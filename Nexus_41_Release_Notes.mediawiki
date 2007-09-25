@@ -8,7 +8,10 @@ Version 2.2.2 of mxml is required. Earlier versions have a bug and the XML API w
 The NAG compiler needs the '''-mismatch''' flag to be specified or else it will not compile NXmodule.f90 This is achieve by running configure with the '''FCFLAGS''' environment variable set to contain the flag e.g.
 <pre>
 env FCFLAGS="-mismatch" ./configure --with-f90=f95
-</pre>  
+</pre>
+===HDF4 on Intel Macs===
+There is a problem with the include file, hdfi.h (normally in /usr/local/include).  See http://coastwatch.noaa.gov/helparc/software/msg00069.html for details of the modifications necessary to fix it.
+
 ==New Features==
 * New types NX_INT64 and NX_UINT64 to suppport 64 bit integers (only available in HDF5 and XML) [http://trac.nexusformat.org/code/ticket/87 details].
 * Python bindings are now included in the Windows install kit [http://trac.nexusformat.org/code/ticket/86 details]
