@@ -48,8 +48,8 @@ supported, one or several of the following libraries are required:
     **mxml** and **mxml-devel** on Fedora Core. Note that libmxml1 on
     Debian is curently version 2.0 and will not work; until this is
     updated you need to download version 2.2.2 from either
-    <http://www.easysw.com/~mike/mxml> or
-    <http://cilibrar.com/~cilibrar/projsup/nex4/>
+    <http://www.minixml.org/> (or
+    <http://cilibrar.com/~cilibrar/projsup/nex4>).
 
 The compilation uses the GNU Autotools. Download the appropriate gzipped
 tar file, unpack it, and run the standard configure procedure from the

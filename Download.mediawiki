@@ -13,7 +13,8 @@ The NeXus API may be built from source using one of the installation kits linked
 Depending on which low-level file formats shall be supported, one or several of the following libraries are required:
 * HDF4: packages '''hdf''' and '''hdf-devel''' on Fedora Core, '''libhdf4g''' on Debian
 * HDF5: packages '''hdf5''' and '''hdf5-devel''' on Fedora Core, '''libhdf5''' on Debian
-* MXML: packages '''libmxml1''' and '''libmxml-devel''' on Debian, '''mxml''' and '''mxml-devel''' on Fedora Core. Note that libmxml1 on Debian is curently version 2.0 and will not work; until this is updated you need to download version 2.2.2 from either http://www.easysw.com/~mike/mxml or http://cilibrar.com/~cilibrar/projsup/nex4/
+* MXML: packages '''libmxml1''' and '''libmxml-devel''' on Debian, '''mxml''' and '''mxml-devel''' on Fedora Core. Note that libmxml1 on Debian is curently version 2.0 and will not work; until this is updated you need to download version 2.2.2 from either http://www.minixml.org/ (or http://cilibrar.com/~cilibrar/projsup/nex4).
+
 The compilation uses the GNU Autotools. Download the appropriate gzipped tar file, unpack it, and run the standard configure procedure from the resulting nexus directory. For example, for version 3.0.0
 <pre>
 % tar -zxvf nexus-3.0.0.tar.gz
