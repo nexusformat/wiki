@@ -31,7 +31,7 @@ Sweet, which is also available as a precompiled binary library for
 several operating systems. Please ensure that you install version 2.2.2
 or later. Check the Mini-XML web pages for more information:
 
--   <http://www.easysw.com/~mike/mxml/>
+-   <http://www.minixml.org/>
 
 NeXus Source Code Distribution
 ------------------------------
