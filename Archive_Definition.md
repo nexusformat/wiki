@@ -40,9 +40,24 @@ Multiple NXentry issue
 A NeXus file may contain several NXentry that needs to be indexed
 separately. But it may also occur that not all NXentry has to be indexed
 (e.g. when one entry contains the events data and the other the
-histograms for the same measurement.
+histograms for the same measurement. )
 
-<NXentry index="yes" index_group="msr_01">
+The entry that has to be indexed will have the attribute 'index' with
+the value 'yes'. The one which doesn't have to be indexed, will have the
+value 'no'. If some of the NXentry doesn't have to be indexed, they will
+have the value 'no'. Those NXentry may be associated to one of the
+indexed NXentry with the attribute 'index\_group'.
+
+     <NXroot>
+       <NXentry index="yes" index_group="sample_01"/
+       <NXentry index="no" index_group="sample_01"/>
+       <NXentry index="yes" index_group="sample_02"/>
+       <NXentry index="yes" index_group="sample_03"/>
+     </NXroot>
+
+If there is only one entry or if it does not matter which entry will be
+indexed (all metadata are the same in all entries) then there is no need
+to put the attribute 'index' or 'index\_group'.
 
 Parameter Names
 ---------------
