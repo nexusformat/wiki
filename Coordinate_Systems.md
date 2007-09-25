@@ -49,7 +49,8 @@ components post-sample.
 
 For angular information, the quantities *polar\_angle* and
 *azimuthal\_angle* are used and these quantities correspond exactly to
-the usual [1](http://en.wikipedia.org/wiki/Spherical_coordinate_system)
+the usual [spherical polar
+coordinate](http://en.wikipedia.org/wiki/Spherical_coordinate_system)
 definitions i.e. the polar\_angle is measured with respect to a *z* axis
 and the azimuthal\_angle to an *x* axis. The direction of these local
 axes may be different for each component: *z* is the incident beam
