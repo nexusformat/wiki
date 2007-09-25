@@ -38,7 +38,7 @@ by considering a 3He gas tube detector:
     neutrons would tend to penetrate a smaller distance within the tube,
     and so have a shorter secondary flight path.
 
-### Simple (Polar) Coordinate System
+### Simple (Spherical Polar) Coordinate System
 
 In this system the instrument is considered as a set of components
 through which the incident beam passes. The variable **distance** is
