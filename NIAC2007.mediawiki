@@ -138,6 +138,11 @@ Led by [[User:Freddie Akeroyd|Akeroyd]]
 * New API routines
 * IDL NeXus API
 * Review [http://trac.nexusformat.org/code/report/3 open tickets]
+* Python binding
+* API for object oriented languages
+* Object oriented changes
+* NXtranslate
+* Definition URL discussion
 
 ==== NeXus Supervised Applications ====
 * NXtranslate - anything to NeXus converter
