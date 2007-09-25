@@ -159,6 +159,7 @@ Led by [[User:Freddie Akeroyd|Akeroyd]]
 * Flat-cone diffractometer
 * Synchrotron
 * CCD
+* Tech group
 
 ==Suggested Discussion Topics==
 
