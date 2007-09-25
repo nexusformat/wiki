@@ -68,13 +68,13 @@ directly after an [NXsample](NXsample "wikilink"), the *z* axis would be
 in the direction of the beam incident on
 [NXsample](NXsample "wikilink"). The polar\_angle for the
 [NXdetector](NXdetector "wikilink") would be the angle between the
-scattering vector and this *z* axis and so correspond to the *Bragg
-angle* or *two theta* even for out-of-plane scattering. The
-azimuthal\_angle would be the angle between the positive x-axis and the
-scattering vector projected onto the xy-plane - scattering to the left
-as seen from the source would have azimuthal\_angle=0 and scattering to
-the right azimuthal\_angle=pi. The distance would correspond to what is
-often called the *secondary flight path length* or *L2*.
+scattered beam and this *z* axis and so correspond to the *Bragg angle*
+or *two theta* even for out-of-plane scattering. The azimuthal\_angle
+would be the angle between the positive x-axis and the scattered beam
+projected onto the xy-plane - scattering to the left as seen from the
+source would have azimuthal\_angle=0 and scattering to the right
+azimuthal\_angle=pi. The distance would correspond to what is often
+called the *secondary flight path length* or *L2*.
 
 ### NXgeometry based system
 
