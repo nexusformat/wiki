@@ -14,7 +14,7 @@
 *Peter Link, Technische Universität München, Germany
 *[[User:Nick Maliszewskyj|Nick Maliszewskyj]] - NIST Center for Neutron Research, USA (Technical Committee Chair, non-voting)
 *[[User:Ray Osborn|Raymond Osborn]], Argonne National Laboratory, USA
-*Jiro Suzuki, KEK, Japan
+*[[User:Jiro Suzuki|Jiro Suzuki]], KEK, Japan
 *[[User:Peter Peterson|Peter Peterson]], Spallation Neutron Source, USA (Chair)
 *[[User:Thomas Proffen|Thomas Proffen]], Los Alamos National Laboratory, USA
 

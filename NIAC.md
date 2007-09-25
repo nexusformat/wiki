@@ -36,7 +36,7 @@ layout: wiki
     non-voting)
 -   [Raymond Osborn](User%3ARay_Osborn "wikilink"), Argonne National
     Laboratory, USA
--   Jiro Suzuki, KEK, Japan
+-   [Jiro Suzuki](User%3AJiro_Suzuki "wikilink"), KEK, Japan
 -   [Peter Peterson](User%3APeter_Peterson "wikilink"), Spallation
     Neutron Source, USA (Chair)
 -   [Thomas Proffen](User%3AThomas_Proffen "wikilink"), Los Alamos
