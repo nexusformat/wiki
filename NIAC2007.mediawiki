@@ -158,13 +158,13 @@ Led by [[User:Freddie Akeroyd|Akeroyd]]
 * [[NXevent_data|Event Data]] - lessons learned ([[User:Peter Peterson|Peterson]])
 
 ==== Break-out Groups ====
-* ScanRaw
-* NXsas instrument definition
-* Documenting definitions
-* Flat-cone diffractometer
-* Synchrotron
-* CCD
-* Tech group
+* ScanRaw Goetz
+* NXsas instrument definition Koennecke
+* Documenting definitions Peterson
+* Flat-cone diffractometer Hoffmann
+* Synchrotron Poirier
+* CCD Jemian
+* Tech group Akeroyd
 
 ==Suggested Discussion Topics==
 
