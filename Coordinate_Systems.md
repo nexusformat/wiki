@@ -52,16 +52,16 @@ For angular information, the quantities *polar\_angle* and
 the usual [spherical polar
 coordinate](http://en.wikipedia.org/wiki/Spherical_coordinate_system)
 definitions i.e. the polar\_angle is the *zenith angle* and measured
-with respect to a *z* axis and the azimuthal\_angle to an *x* axis. The
-direction of these local axes may be different for each component: *z*
-is the incident beam direction for the **previous** component and we
-then follow [McStas](http://mcstas.risoe.dk/) for *x* and *y* i.e. the
-*x* axis is perpendicular to the beam in the horizontal plane pointing
-left as seen from the source, and the y axis points upwards (see diagram
-below). The *z* axis thus represents the direction of the beam if it was
-un-deviated by the previous component, and so the polar\_angle and
-azimuthal\_angle for a component indicate how much the beam was
-bent/scattered by the previous component.
+with respect to a *z* axis and the azimuthal\_angle to the *x* axis in
+the xy plane. The direction of these local axes may be different for
+each component: *z* is the incident beam direction for the **previous**
+component and we then follow [McStas](http://mcstas.risoe.dk/) for *x*
+and *y* i.e. the *x* axis is perpendicular to the beam in the horizontal
+plane pointing left as seen from the source, and the y axis points
+upwards (see diagram below). The *z* axis thus represents the direction
+of the beam if it was un-deviated by the previous component, and so the
+polar\_angle and azimuthal\_angle for a component indicate how much the
+beam was bent/scattered by the previous component.
 
 If we consider an [NXdetector](NXdetector "wikilink") element placed
 directly after an [NXsample](NXsample "wikilink"), the *z* axis would be
