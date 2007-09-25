@@ -37,18 +37,12 @@ files
 Multiple NXentry issue
 ----------------------
 
-In the case of archiving and cataloguing, multiple NXentry make it
-difficult to extract metadata to characterize a file, (e.g. 1 file with
-multiple samples in multiple NXentry?).
+A NeXus file may contain several NXentry that needs to be indexed
+separately. But it may also occur that not all NXentry has to be indexed
+(e.g. when one entry contains the events data and the other the
+histograms for the same measurement.
 
-Only the metadata from the first NXentry will be used in the indexing of
-the NeXus file. The first NXentry will be named 'Header' or '{name}\_0'
-where name c an be any string (e.g. 'scan\_0') or will contain the
-following tag with a value of 0.
-
-      <NXentry>
-        <entry_num type="NX_INT"> {entry number starting from 0}? </entry_num>
-      </NXentry>
+<NXentry index="yes" index_group="msr_01">
 
 Parameter Names
 ---------------
