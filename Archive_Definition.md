@@ -104,7 +104,7 @@ DTD definition
              {User or Data Acquisition defined group of NeXus files or NXentry}?
         </collection_identifier>
         <collection_description type="NX_CHAR">
-        {Brief summary of the collection, including grouping criteria.}
+        {Brief summary of the collection, including grouping criteria.}?
         </description>
         <run_identifier type="NX_CHAR">
             {unique identifier for the measurement, defined by the facility.}
