@@ -46,7 +46,7 @@ Version : September 2007
 Template of the Archive Definition.
 -->
 <NXroot>
-  <NXentry name="">+
+  <NXentry name="" index="" index_group="">+
     <title type="NX_CHAR">
         {Extended title for file}
     </title> 
@@ -54,7 +54,19 @@ Template of the Archive Definition.
         {unique identifier for the experiment, defined by the facility, possibly 
          linked to the proposals (see : proposal_identifier below)}
     </experiment_identifier>
-    <measurement_identifier type="NX_CHAR">
+    <experiment_description type="NX_CHAR">
+	{Brief summary of the experiment, including key objectives.}
+    </description>
+    <experiment_documentation type="NXNote">
+	{Description of the full experiment (document in pdf, latex, …)}?
+    </description_document>
+    <collection_identifier type="NX_CHAR">
+         {User or Data Acquisition defined group of NeXus files or NXentry}?
+    </collection_identifier>
+    <collection_description type="NX_CHAR">
+	{Brief summary of the collection, including grouping criteria.}
+    </description>
+    <run_identifier type="NX_CHAR">
         {unique identifier for the measurement, defined by the facility.}
     </measurement_identifier>
     <run_number type="NX_INT">
@@ -86,12 +98,6 @@ Template of the Archive Definition.
     <definition_local type="NX_CHAR" version="{DTD version number}" URL="{URL of DTD file}">
         {Name of entry DTD}
     </definition_local>
-    <description type="NX_CHAR">
-	{Brief summary of the experiment, including key objectives.}
-    </description>
-    <description_document type="NXNote">
-	{Description of the full experiment (document in pdf, latex, …)}?
-    </description_document>
     <program_name type="NX_CHAR" version="{Program version number}" configuration="{program configuration information}">
         {Name of program used to generate this file}
     </program_name>
