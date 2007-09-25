@@ -133,16 +133,15 @@ All topics that are discussed within the whole group will meet in LS 206.
 
 ==== Tech Group Meeting ====
 Led by [[User:Freddie Akeroyd|Akeroyd]]
+* Definition URL discussion
+* NXtranslate
 * NAPI for object oriented languages
 * Utility API ported to C - who and when
 * New API routines
 * IDL NeXus API
 * Review [http://trac.nexusformat.org/code/report/3 open tickets]
 * Python binding
-* API for object oriented languages
 * Object oriented changes
-* NXtranslate
-* Definition URL discussion
 
 ==== NeXus Supervised Applications ====
 * NXtranslate - anything to NeXus converter
