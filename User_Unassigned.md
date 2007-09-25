@@ -4,4 +4,5 @@ permalink: User:Unassigned/
 layout: wiki
 ---
 
-Account who owns Unassigned Trac tickets
+This account has been created as a default owner for tickets submitted
+to the [IssueReporting](IssueReporting "wikilink") system.
