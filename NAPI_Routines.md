@@ -708,7 +708,7 @@ Queries which file is really active.
     status = NXinquirefile(handle,filename, filenameLength);
 
 |- ! rowspan=“2” | Input Arguments | handle | NXhandle | handle to a
-currently open NeXus file. |- | filenameLenght | int | length of
+currently open NeXus file. |- | filenameLength | int | length of
 filename buffer |- ! |Output Arguments | filename | char\* | buffer to
 receive filename |}
 
