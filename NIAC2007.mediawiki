@@ -244,3 +244,6 @@ Jens
 == Visit the BER II ==
 
 We can visit the experimental hall with thermal instruments and the new and old neutron guide hall for cold neutrons. Please inform me if you are interested or if the date is untimely for you.
+
+=NIAC2007 photos=
+Various people took photos at the meeting.  [[NIAC2007_photos | Take a look.]]
