@@ -107,12 +107,9 @@ DTD definition
         <collection_description type="NX_CHAR">
         {Brief summary of the collection, including grouping criteria.}?
         </description>
-        <run_identifier type="NX_CHAR">
+        <entry_identifier type="NX_CHAR">
             {unique identifier for the measurement, defined by the facility.}?
         </run_identifier>
-        <run_number type="NX_INT">
-            {Number of run or scan stored in this entry}?
-        </run_number>
         <start_time type="ISO8601">
             {Starting time of measurement}
         </start_time>
