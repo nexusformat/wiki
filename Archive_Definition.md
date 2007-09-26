@@ -109,7 +109,7 @@ DTD definition
         </description>
         <entry_identifier type="NX_CHAR">
             {unique identifier for the measurement, defined by the facility.}?
-        </run_identifier>
+        </entry_identifier>
         <start_time type="ISO8601">
             {Starting time of measurement}
         </start_time>
