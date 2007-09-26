@@ -39,14 +39,15 @@ You can't extract information that are not there.
 <pre>
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-URL     : http://www.nexusformat.org/
-Editor  : L. Lerusse, CCLRC e-Science
-Version : September 2007
+URL:     http://www.nexusformat.gov/classes/xml/NXarchive.xml
+Editor:  NIAC
+NIAC Version: 2.1
+Editor  : L. Lerusse, SciTech e-Science
 
-Template of the Archive Definition.
+Definition for RAW data the will be centrally archived by the facilities.
 -->
 <NXroot>
-  <NXentry name="" index="" index_group="">+
+  <NXentry name="{Entry Name}" index="{Should this entry be indexed?}" index_group="{Group of entry that are not indexed!">+
     <title type="NX_CHAR">
         {Extended title for file}
     </title> 
