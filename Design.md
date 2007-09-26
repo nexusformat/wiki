@@ -160,7 +160,7 @@ affiliation, email address, *etc*.
 ::;[NXprocess](NXprocess "wikilink"):Group used to store details of how
 the data have been processed.
 
-::;[NXcharacterizations](NXcharacterizations "wikilink"):Information
+::;[NXcharacterization](NXcharacterization "wikilink"):Information
 required for the analysis of this [NXentry](NXentry "wikilink"), *e.g.*
 identification of empty can runs, vanadium runs, *etc.* In addition to
 these classes, which appear in the locations shown above, the following
