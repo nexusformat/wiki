@@ -13,7 +13,8 @@ variables being scanned are inferred from the links for the 'axis data'
 within the NXdata class(es). For this example they have been shown to
 point to values within NXpositioner classes (which will probably be the
 case for most scan variables in a synchrotron experiment), but they
-counld as easily refer to an place within the NXinstrument hierarchy.
+counld as easily refer to another place within the NXinstrument
+hierarchy.
 
     <?xml version="1.0" encoding="UTF-8"?>
     <!--
