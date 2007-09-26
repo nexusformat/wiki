@@ -169,9 +169,9 @@ DTD definition
                     {Name of source}
                 </name>
                 <type type="NX_CHAR">
-                    "Spallation Neutron Source"|"Pulsed Reactor Neutron Source"| 
+                    {"Spallation Neutron Source"|"Pulsed Reactor Neutron Source"| 
                     "Reactor Neutron Source"|"Synchrotron X-ray Source"|
-                    "Pulsed Muon Source"|"Rotating Anode X-ray"|"Fixed Tube X-ray"
+                    "Pulsed Muon Source"|"Rotating Anode X-ray"|"Fixed Tube X-ray"}
                 </type>
                 <probe type="NX_CHAR">
                     neutron|x-ray|muon|electron
