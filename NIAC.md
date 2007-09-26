@@ -109,6 +109,10 @@ officers:
     directory to the regular release build. The person that holds the
     position does not need to be an existing member of the NIAC, and
     does not vote unless he/she is a regular member.
+-   Definition Release Manager with the responsibility to oversee the
+    release of NeXus definitions and documentation. The person that
+    holds the position does not need to be an existing member of the
+    NIAC, and does not vote unless he/she is a regular member.
 
 All of these officers will be elected at the beginning of each annual
 meeting, effective at the end of that meeting. The position of chair and
