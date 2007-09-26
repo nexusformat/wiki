@@ -108,8 +108,8 @@ DTD definition
         {Brief summary of the collection, including grouping criteria.}?
         </description>
         <run_identifier type="NX_CHAR">
-            {unique identifier for the measurement, defined by the facility.}
-        </measurement_identifier>
+            {unique identifier for the measurement, defined by the facility.}?
+        </run_identifier>
         <run_number type="NX_INT">
             {Number of run or scan stored in this entry}?
         </run_number>
@@ -124,7 +124,7 @@ DTD definition
         </duration>
         <collection_time type="NX_FLOAT" units="seconds">
             {Time transpired actually collecting data i.e. taking out time when 
-            collection was suspended due to e.g. temperature out of range}
+            collection was suspended due to e.g. temperature out of range}?
         </collection_time>
         <run_cycle type="NX_CHAR">
             {}?
@@ -137,7 +137,7 @@ DTD definition
             {Name of entry DTD}
         </definition>
         <definition_local type="NX_CHAR" version="{DTD version number}" URL="{URL of DTD file}">
-            {Name of entry DTD}
+            {Name of entry DTD}?
         </definition_local>
         <program_name type="NX_CHAR" version="{Program version number}" configuration="{program configuration information}">
             {Name of program used to generate this file}
