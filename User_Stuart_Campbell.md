@@ -7,7 +7,7 @@ layout: wiki
 Stuart Campbell
 ---------------
 
-### Member, NeXus International Advisory Committee
+### Executive Secretary, NeXus International Advisory Committee
 
 Address:Diamond Light Source  
 Chilton, Didcot, OX11 0DE, UK
