@@ -7,7 +7,7 @@ layout: wiki
 Emmanuel Farhi
 --------------
 
-### Executive Secretary, NeXus International Advisory Committee
+### Member, NeXus International Advisory Committee
 
 Address:Institut Laue Langevin  
 6 rue Jules Horowitz
