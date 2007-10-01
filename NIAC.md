@@ -8,19 +8,19 @@ layout: wiki
 ----------------------------------------------
 
 -   [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink"), Rutherford
-    Appleton Laboratory, UK (ISIS Representative)
+    Appleton Laboratory, UK (ISIS Representative) (Executive Secretary)
 -   [Stuart Campbell](User%3AStuart_Campbell "wikilink"), Diamond Light
-    Source, UK
+    Source, UK (Executive Secretary)
 -   [Stephen Cottrell](User%3ASteve_Cottrell "wikilink"), Rutherford
     Appleton Laboratory, UK (Muon Representative)
 -   [Matthias Drochner](User%3AMatthias_Drochner "wikilink"),
     Forschungzentrum Jülich, Germany
 -   [Emmanuel Farhi](User%3AEmmanuel_Farhi "wikilink"), Institut Laue
-    Langevin (Executive Secretary)
+    Langevin
 -   [Nick Hauser](User%3Anick "wikilink"), Australian Nuclear Science
     and Technology Organisation, Australia
 -   [Andrew Götz](User%3AAndy_Gotz "wikilink"), European Synchrotron
-    Radiation Facility, France (Executive Secretary)
+    Radiation Facility, France
 -   [ Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann "wikilink"),
     Hahn-Meitner-Institut Berlin, Germany
 -   [Pete Jemian](User%3APete_Jemian "wikilink"), Advanced Photon
