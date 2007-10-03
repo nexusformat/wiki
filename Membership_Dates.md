@@ -51,3 +51,4 @@ stated in the [constitution](NIAC "wikilink").
 -   Nick Hauser - Bragg Institute, Australia
 -   Jiro Suzuki - J-PARC, Japan
 
+### Expire October 24, 2010
