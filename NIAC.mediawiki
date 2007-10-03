@@ -1,22 +1,22 @@
 == [[Membership Dates|Current Members]] ==
-*[[User:Freddie Akeroyd|Frederick Akeroyd]], Rutherford Appleton Laboratory, UK (ISIS Representative) (Executive Secretary)
-*[[User:Stuart Campbell|Stuart Campbell]], Diamond Light Source, UK  (Executive Secretary)
+*[[User:Freddie Akeroyd|Frederick Akeroyd]], Rutherford Appleton Laboratory, UK (ISIS Representative) (Executive co-Secretary)
+*[[User:Stuart Campbell|Stuart Campbell]], Diamond Light Source, UK  (Executive co-Secretary, imgCIF contact)
 *[[User:Steve Cottrell|Stephen Cottrell]], Rutherford Appleton Laboratory, UK (Muon Representative)
 *[[User:Matthias Drochner|Matthias Drochner]], Forschungzentrum Jülich, Germany
 *[[User:Emmanuel Farhi|Emmanuel Farhi]], Institut Laue Langevin
-*[[User:nick|Nick Hauser]], Australian Nuclear Science and Technology Organisation, Australia
 *[[User:Andy Gotz|Andrew Götz]], European Synchrotron Radiation Facility, France
+*[[User:nick|Nick Hauser]], Australian Nuclear Science and Technology Organisation, Australia (Documentation Release Manager, netCDF contact)
 *[[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]], Hahn-Meitner-Institut Berlin, Germany
 *[[User:Pete Jemian|Pete Jemian]], Advanced Photon Source, USA
 *[[User:Paul Kienzle|Paul Kienzle]], DANSE, USA
 *[[User:Przemek Klosowski|Przemek Klosowski]], National Insitute of Standards and Technology, USA
-*[[User:Mark Koennecke|Mark Könnecke]], Paul Scherrer Institut, Switzerland
+*[[User:Mark Koennecke|Mark Könnecke]], Paul Scherrer Institut, Switzerland (Technical Committee Chair)
 *Peter Link, Technische Universität München, Germany
-*[[User:Nick Maliszewskyj|Nick Maliszewskyj]] - NIST Center for Neutron Research, USA (Technical Committee Chair, non-voting)
+*[[User:Nick Maliszewskyj|Nick Maliszewskyj]] - NIST Center for Neutron Research, USA
 *[[User:Ray Osborn|Raymond Osborn]], Argonne National Laboratory, USA
-*[[User:Jiro Suzuki|Jiro Suzuki]], KEK, Japan
 *[[User:Peter Peterson|Peter Peterson]], Spallation Neutron Source, USA (Chair)
 *[[User:Thomas Proffen|Thomas Proffen]], Los Alamos National Laboratory, USA
+*[[User:Jiro Suzuki|Jiro Suzuki]], KEK, Japan
 
 The [[Membership Dates|expiration dates]] for the various members.
 

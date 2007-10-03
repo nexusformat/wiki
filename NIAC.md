@@ -8,19 +8,21 @@ layout: wiki
 ----------------------------------------------
 
 -   [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink"), Rutherford
-    Appleton Laboratory, UK (ISIS Representative) (Executive Secretary)
+    Appleton Laboratory, UK (ISIS Representative) (Executive
+    co-Secretary)
 -   [Stuart Campbell](User%3AStuart_Campbell "wikilink"), Diamond Light
-    Source, UK (Executive Secretary)
+    Source, UK (Executive co-Secretary, imgCIF contact)
 -   [Stephen Cottrell](User%3ASteve_Cottrell "wikilink"), Rutherford
     Appleton Laboratory, UK (Muon Representative)
 -   [Matthias Drochner](User%3AMatthias_Drochner "wikilink"),
     Forschungzentrum Jülich, Germany
 -   [Emmanuel Farhi](User%3AEmmanuel_Farhi "wikilink"), Institut Laue
     Langevin
--   [Nick Hauser](User%3Anick "wikilink"), Australian Nuclear Science
-    and Technology Organisation, Australia
 -   [Andrew Götz](User%3AAndy_Gotz "wikilink"), European Synchrotron
     Radiation Facility, France
+-   [Nick Hauser](User%3Anick "wikilink"), Australian Nuclear Science
+    and Technology Organisation, Australia (Documentation Release
+    Manager, netCDF contact)
 -   [ Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann "wikilink"),
     Hahn-Meitner-Institut Berlin, Germany
 -   [Pete Jemian](User%3APete_Jemian "wikilink"), Advanced Photon
@@ -29,18 +31,17 @@ layout: wiki
 -   [Przemek Klosowski](User%3APrzemek_Klosowski "wikilink"), National
     Insitute of Standards and Technology, USA
 -   [Mark Könnecke](User%3AMark_Koennecke "wikilink"), Paul Scherrer
-    Institut, Switzerland
+    Institut, Switzerland (Technical Committee Chair)
 -   Peter Link, Technische Universität München, Germany
 -   [Nick Maliszewskyj](User%3ANick_Maliszewskyj "wikilink") - NIST
-    Center for Neutron Research, USA (Technical Committee Chair,
-    non-voting)
+    Center for Neutron Research, USA
 -   [Raymond Osborn](User%3ARay_Osborn "wikilink"), Argonne National
     Laboratory, USA
--   [Jiro Suzuki](User%3AJiro_Suzuki "wikilink"), KEK, Japan
 -   [Peter Peterson](User%3APeter_Peterson "wikilink"), Spallation
     Neutron Source, USA (Chair)
 -   [Thomas Proffen](User%3AThomas_Proffen "wikilink"), Los Alamos
     National Laboratory, USA
+-   [Jiro Suzuki](User%3AJiro_Suzuki "wikilink"), KEK, Japan
 
 The [expiration dates](Membership_Dates "wikilink") for the various
 members.
