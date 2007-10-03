@@ -29,7 +29,8 @@ stated in the [constitution](NIAC "wikilink").
 -   Jens-Uwe Hoffman - HMI, Germany
 -   Paul Kienzle - DANSE project, USA
 -   Ray Osborn - Intense Pulsed Neutron Source, USA
--   Nick Hauser - Bragg Institute, Australia
+-   Nick Hauser - Bragg Institute, Australia (Documentation Release
+    Manager)
 -   Jiro Suzuki - J-PARC, Japan
 
 ### Expire October 24, 2010
