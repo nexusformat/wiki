@@ -37,7 +37,7 @@ stated in the [constitution](NIAC "wikilink").
 
 -   Matthias Drochner - Forschungzentrum Juelich, Germany - *letter of
     support needed*
--   Andy Goetz European - Synchrotron Radiation Facility, France -
+-   Andy Goetz - European Synchrotron Radiation Facility, France -
     *letter of support needed*
 -   Peter Peterson - Spallation Neutron Source, USA (Chair - 2 year) -
     *letter of support needed*
