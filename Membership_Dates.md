@@ -21,7 +21,7 @@ stated in the [constitution](NIAC "wikilink").
 -   Stephen Cottrell - ISIS Pulsed Muon Facility, UK
 -   Emmanuel Farhi - Institut Laue Langevin, France
 -   Pete Jemian - APS, ANL, USA
--   Mark Koennecke - SINQ, Switzerland
+-   Mark Koennecke - SINQ, Switzerland (Tech Committee Chair)
 -   Thomas Proffen - Lujan Neutron Scattering Center, USA
 
 ### Expire October 5, 2009
