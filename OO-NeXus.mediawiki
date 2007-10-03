@@ -12,3 +12,14 @@ The current NeXus base classes used for instrument definitions are not really ba
 As things are we have two ways how to proceed with an object oriented NeXus-API and object oriented definitions:
 * Rework the NeXus base classes in a fully object oriented way using polymorphism and inheritance.
 * A direct mapping of current neXus base classes to objects.
+
+=== Path 1: OO Rework of the NeXus Classes ===
+This means to perform a full object oriented analysis of the NeXus base classes using polymorphism and inheritance. This was suggested by Darren Kelly at the NIAC meeting 2006 at ILL. An example of a [[media:NeXusOBJ.pdf|possible class hierarchy]] was given by Mark Koennecke at the NIAC meeting 2007 at HMI.   There are some advantages to this approach:
+* Different things, like different detectors, have different names and this makes the base classes easier to understand. It is easier to select NXtofareadetector rather then locate all the fields necessary for such a detector from a dictionary. 
+* The use of inheritance makes the definitions easier to maintain because duplications can be avoided through inheritance. 
+* Choices in the definitions, like the choice of coordinate system or shapes, can be made explicit by abstract classes and polymorphism. 
+* Fully OO definitions can be mapped to appropriate classes in  ''all'' object oriented programming languages. 
+
+But there are serious drawbacks to this approach as well:
+* We need a much extended set of classes.
+* Most importantly: we break backwards compatability: OO-NeXus files would have a deeper nesting structure and other classes.
