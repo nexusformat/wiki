@@ -9,26 +9,6 @@ listed below. If a member wishes to be renewed, they must provide a
 letter of support from the facility and be approved by the NIAC as
 stated in the [constitution](NIAC "wikilink").
 
-### Expire September 8, 2006
-
--   Przemek Klosowski - NIST Center for Neutron Research, USA
-
-### Expire March 18, 2007
-
--   Matthias Drochner - Forschungzentrum Juelich, Germany
--   Andy Goetz European - Synchrotron Radiation Facility, France
-    (Executive co-Secretary - 1 year)
-
-### Expire July 7, 2007
-
--   Peter Link - FRM2, Germany
-
-### Expire October 21, 2007
-
--   Peter Peterson - Spallation Neutron Source, USA (Chair - 1 year)
--   Nick Maliszewskyj - NIST Center for Neutron Research, USA (Technical
-    Committee Chair, non-voting)
-
 ### Expire March 10, 2008
 
 -   Stuart Campbell - Diamond Light Source, UK
@@ -52,3 +32,12 @@ stated in the [constitution](NIAC "wikilink").
 -   Jiro Suzuki - J-PARC, Japan
 
 ### Expire October 24, 2010
+
+-   Matthias Drochner - Forschungzentrum Juelich, Germany - *letter of
+    support needed*
+-   Andy Goetz European - Synchrotron Radiation Facility, France -
+    *letter of support needed*
+-   Peter Peterson - Spallation Neutron Source, USA (Chair - 2 year) -
+    *letter of support needed*
+-   Nick Maliszewskyj - NIST Center for Neutron Research, USA
+
