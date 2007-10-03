@@ -101,3 +101,8 @@ disadvantages to this approach, too:
         NXtofareadetector API class and fill its data fields from the
         content of the file.
 
+### Questions?
+
+-   Where do we go? Path 1? Path 2? Or a yet to be defined Path 3?
+-   Do we have more options?
+

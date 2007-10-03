@@ -30,3 +30,7 @@ This means that we directly map the current NeXus base classes hook, line and si
 * The resulting API classes become ambiguous: i.e. different API detector classes loaded from different files will have different contents. This is less of a problem for dynamic object systems like the ones in python, CLOS and smalltalk. Dynamic object system in this context means that fields can be added at runtime.  But there are many interesting OO programming languages which do not feature such an open type system: most notably C++ and Java. The problem with such languages can be solved in a number of ways:
 ** NeXus base classes become catchalls: i.e. they have fields for all data items which may possibly be there. And throw errors when an access for an field without data is attempted. This is ugly.
 ** Use some form of RunTime Type Information (RTTI). This can take the form of a group attribute with a possible name like subtype. Then the OO-API can read this attribute and create an appropriate class for this NeXus base class as on Path 1. Example: the subtype is NXtofareadetector. Then create a NXtofareadetector API class and fill its data fields from the content of the file.
+
+=== Questions? ===
+* Where do we go? Path 1? Path 2? Or a yet to be defined Path 3? 
+* Do we have more options?
