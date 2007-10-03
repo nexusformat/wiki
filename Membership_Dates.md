@@ -15,10 +15,10 @@ stated in the [constitution](NIAC "wikilink").
 
 ### Expire Feburary 3, 2009
 
--   Freddie Akeroyd - ISIS Pulsed Neutron Facility, UK
--   Stephen Cottrell - ISIS Pulsed Muon Facility, UK
--   Emmanuel Farhi - Institut Laue Langevin, France (Executive
+-   Freddie Akeroyd - ISIS Pulsed Neutron Facility, UK (Executive
     co-Secretary - 1 year)
+-   Stephen Cottrell - ISIS Pulsed Muon Facility, UK
+-   Emmanuel Farhi - Institut Laue Langevin, France
 -   Pete Jemian - APS, ANL, USA
 -   Mark Koennecke - SINQ, Switzerland
 -   Thomas Proffen - Lujan Neutron Scattering Center, USA
