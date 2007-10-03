@@ -8,3 +8,4 @@ If you have a specific subject concerning the NeXus format design, please add it
 *[[Units]]
 *[[Housekeeping pre-NeXus2.0]]
 *[[Containers and Inheritance]] - XLST and Reusable definitions
+*[[OO-NeXus|Object oriented NeXus]]

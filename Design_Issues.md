@@ -23,4 +23,5 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 -   [Containers and
     Inheritance](Containers_and_Inheritance "wikilink") - XLST and
     Reusable definitions
+-   [Object oriented NeXus](OO-NeXus "wikilink")
 
