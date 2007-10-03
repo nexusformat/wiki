@@ -28,11 +28,8 @@ layout: wiki
 -   [Pete Jemian](User%3APete_Jemian "wikilink"), Advanced Photon
     Source, USA
 -   [Paul Kienzle](User%3APaul_Kienzle "wikilink"), DANSE, USA
--   [Przemek Klosowski](User%3APrzemek_Klosowski "wikilink"), National
-    Insitute of Standards and Technology, USA
 -   [Mark Könnecke](User%3AMark_Koennecke "wikilink"), Paul Scherrer
     Institut, Switzerland (Technical Committee Chair)
--   Peter Link, Technische Universität München, Germany
 -   [Nick Maliszewskyj](User%3ANick_Maliszewskyj "wikilink") - NIST
     Center for Neutron Research, USA
 -   [Raymond Osborn](User%3ARay_Osborn "wikilink"), Argonne National
