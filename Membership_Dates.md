@@ -39,7 +39,7 @@ stated in the [constitution](NIAC "wikilink").
     support needed*
 -   Andy Goetz - European Synchrotron Radiation Facility, France -
     *letter of support needed*
+-   Nick Maliszewskyj - NIST Center for Neutron Research, USA
 -   Peter Peterson - Spallation Neutron Source, USA (Chair - 2 year) -
     *letter of support needed*
--   Nick Maliszewskyj - NIST Center for Neutron Research, USA
 
