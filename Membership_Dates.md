@@ -11,7 +11,8 @@ stated in the [constitution](NIAC "wikilink").
 
 ### Expire March 10, 2008
 
--   Stuart Campbell - Diamond Light Source, UK
+-   Stuart Campbell - Diamond Light Source, UK (Executive co-Secretary -
+    1 year)
 
 ### Expire Feburary 3, 2009
 
