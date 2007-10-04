@@ -68,12 +68,15 @@ From [2006 ILL Meeting](Media:NIAC2006minutes.pdf "wikilink")
     formats. Results will be added to website
 -   Darren Kelly - Style sheets (XSLT) will be created to convert
     definitions into colorized meta-DTD and table formats
--   Unassigned - Update website with constitution changes (some are even
-    from the last meeting)
 -   Unassigned - Modify/add base class definitions in accordance with
     what was voted on in February.
 
 ### Completed
+
+From [2007 HMI-Wannsee, Berlin Meeting](NIAC2007 "wikilink")
+
+-   Pete Jemian - Update website with constitution changes (some are
+    even from the last meeting)
 
 From [2006 LBL Meeting](Media:NIAC2006LBL_minutes.pdf "wikilink")
 
