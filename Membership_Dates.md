@@ -35,11 +35,9 @@ stated in the [constitution](NIAC "wikilink").
 
 ### Expire October 24, 2010
 
--   Matthias Drochner - Forschungzentrum Juelich, Germany - *letter of
-    support needed*
+-   Matthias Drochner - Forschungzentrum Juelich, Germany
 -   Andy Goetz - European Synchrotron Radiation Facility, France -
     *letter of support needed*
 -   Nick Maliszewskyj - NIST Center for Neutron Research, USA
--   Peter Peterson - Spallation Neutron Source, USA (Chair - 2 year) -
-    *letter of support needed*
+-   Peter Peterson - Spallation Neutron Source, USA (Chair - 2 year)
 
