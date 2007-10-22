@@ -68,4 +68,14 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits/nx41tes
 | align="center" | 2.2.2
 | align="center" | passed
 | alig="center" | gcc, g77, tcl, sun java 1.4.2
+|-
+! {{Headcellstyle}} | MacOS X
+| align="center" | 32 bit Intel
+| align="center" | [[User:Nick Maliszewskyj]] 17:00, 22 October 2007
+| align="center" | tar
+| align="center" | 4.2.0
+| align="center"  | 1.6.4
+| align="center" | 2.2.2
+| align="center" | passed
+| alig="center" | gcc, gfortran (4.2), gcj, fink HDF
 |}
