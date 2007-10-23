@@ -65,6 +65,10 @@ in the 4.0 release.
     report](http://trac.nexusformat.org/code/ticket/83)
 -   pkgconfig issue [bug
     report](http://trac.nexusformat.org/code/ticket/84)
+-   Build issue with MXML-2.3 [bug
+    report](http://trac.nexusformat.org/code/ticket/91)
+-   XML buffer resizing performance issue [bug
+    report](http://trac.nexusformat.org/code/ticket/92)
 
 Upcoming Features
 -----------------

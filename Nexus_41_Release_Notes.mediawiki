@@ -26,5 +26,7 @@ the 4.0 release.
 * The Fortran 90 part of testsuite failed with the Absoft compiler on MacOSX (it passed with g95 and gfortran (4.2)) [http://trac.nexusformat.org/code/ticket/68 details here]
 * NXputattr assumed NULL termination of NX_CHAR attributes, which is usually the case in C but not true for JAVA. A workaround is to add '\0' manually [http://trac.nexusformat.org/code/ticket/83 bug report]
 * pkgconfig issue [http://trac.nexusformat.org/code/ticket/84 bug report]
+* Build issue with MXML-2.3 [http://trac.nexusformat.org/code/ticket/91 bug report]
+* XML buffer resizing performance issue [http://trac.nexusformat.org/code/ticket/92 bug report]
 
 ==Upcoming Features==
