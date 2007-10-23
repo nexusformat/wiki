@@ -1,7 +1,7 @@
 ==System Requirements==
 '''MXML XML Parsing Library'''
 
-Version 2.2.2 of mxml is required. Earlier versions have a bug and the XML API will not work. This package can be downloded in [http://www.easysw.com/~mike/mxml/software.php both source and binary rpm form] and is also available as part of [http://fedoraproject.org/wiki/Extras/UsingExtras Fedora Extras]. IMPORTANT NOTE: Debian also provides the mxml package, but it based on 2.0 and will not work properly.
+Version 2.2.2 or higher of mxml is required. Earlier versions have a bug and the XML API will not work. This package can be downloded in [http://www.easysw.com/~mike/mxml/software.php both source and binary rpm form] and is also available as part of [http://fedoraproject.org/wiki/Extras/UsingExtras Fedora Extras]. IMPORTANT NOTE: Debian also provides the mxml package, but it based on 2.0 and will not work properly.
 
 ==Building Notes==
 ===NAG F90/F95 Compiler===
