@@ -54,7 +54,7 @@ Miscellaneous bug fixes
 -----------------------
 
 The following items are bugs reported in previous releases and resolved
-in the 4.0 release.
+in the 4.1 release.
 
 -   The Fortran 90 part of testsuite failed with the Absoft compiler on
     MacOSX (it passed with g95 and gfortran (4.2)) [details
@@ -69,6 +69,8 @@ in the 4.0 release.
     report](http://trac.nexusformat.org/code/ticket/91)
 -   XML buffer resizing performance issue [bug
     report](http://trac.nexusformat.org/code/ticket/92)
+-   Documentation is now installed to “datadir” (/usr/share) [bug
+    report](http://trac.nexusformat.org/code/ticket/93)
 
 Upcoming Features
 -----------------
