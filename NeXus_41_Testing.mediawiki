@@ -71,7 +71,7 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits/nx41tes
 |-
 ! {{Headcellstyle}} | MacOS X
 | align="center" | 32 bit Intel
-| align="center" | [[User:Nick Maliszewskyj]] 17:00, 22 October 2007
+| align="center" | [[User:Nick Maliszewskyj]] 18:23, 29 October 2007
 | align="center" | tar
 | align="center" | 4.2.0
 | align="center"  | 1.6.4
