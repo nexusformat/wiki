@@ -7,6 +7,16 @@ layout: wiki
 2007
 ----
 
+Wednesday, October 31, 2007:The NeXus technical committee is pleased to announce the official release of version 4.1 of the eXus API. The NeXus API provides a unified interface for writing hierarchical data files in HDF4, HDF5, and XML formats. Version 4.1 resolves a number of bugs reported in the 4.0 release including issues with python bindings, text strings in the XML library, and problems encountered with using the Absoft FORTRAN90 compiler. Details of the new features contained in 4.1 can be found in the [Release Notes](http://trac.nexusformat.org/code/browser/tags/4.1.0/NEWS)  
+
+<!-- -->
+
+  
+Source code, binary packages, and example code can be downloaded from
+[download page](Download "wikilink").
+
+<!-- -->
+
 Tuesday, September 11, 2007: The upcoming 4.1 release of the NeXus API is now undergoing testing. More details can be found on the [testing site](NeXus_41_Testing "wikilink") as well as [provisional release notes](Nexus_41_Release_Notes "wikilink")  
 
 <!-- -->
@@ -29,10 +39,6 @@ Doxygen documentation system. Details of the new features contained in
 Notes](http://trac.nexusformat.org/code/browser/tags/4.0.0/NEWS)
 
 <!-- -->
-
-  
-Source code, binary packages, and example code can be downloaded from
-[download page](Download "wikilink").
 
 Friday, March 16, 2007: The upcoming 4.0 release of the NeXus API is now undergoing testing. More details can be found on the [testing site](NeXus_4_Testing "wikilink") as well as [provisional release notes](Nexus_4_Release_Notes "wikilink")  
 
