@@ -46,7 +46,7 @@ here](http://trac.nexusformat.org/code/query?status=new&status=assigned&status=r
 | | Linux (F7)         | 32bit Intel  | [Stuart Campbell](User%3AStuart_Campbell "wikilink") 11:07, 12 September 2007 (BST)          | tar        | 4.2.1  | 1.6.5  | 2.2.2  | passed         | gcc, g77, gfortran, sun java-1.6.0\_2, python       |
 | | Linux (RHEL4)      | 64bit Intel  | [Peter Peterson](User%3APeter_Peterson "wikilink") 14:58, 30 August 2007 (BST)               | tar        | 4.2.1  | 1.6.5  | 2.2.2  | passed         | gcc, gfortran, gfortran, sun java 1.5.0\_11, python |
 | | Linux (SL3)        | 32 bit Intel | [User%3AMark Koennecke](User%3AMark_Koennecke "wikilink") 17:00, 08 October 2007             | tar        | 4.2.0  | 1.6.3  | 2.2.2  | passed         | gcc, g77, tcl, sun java 1.4.2                       |
-| | MS Windows (MinGW) | 32bit Intel  | [User%3ANick Maliszewskyj](User%3ANick_Maliszewskyj "wikilink") 19:30, 30 October 2007 (EST) | tar        | 4.2.1  | 1.6.6  | 2.2.2  | -   pending\*  | gcc/java(gcj)                                       |
+| | MS Windows (MinGW) | 32bit Intel  | [User%3ANick Maliszewskyj](User%3ANick_Maliszewskyj "wikilink") 10:50, 31 October 2007 (EST) | tar        | 4.2.1  | 1.6.6  | 2.2.2  | passed         | gcc/java(gcj)                                       |
 | | MacOS X            | 32 bit Intel | [User%3ANick Maliszewskyj](User%3ANick_Maliszewskyj "wikilink") 18:23, 29 October 2007 (EST) | tar        | 4.2.0  | 1.6.4  | 2.2.2  | passed         | gcc, gfortran (4.2), gcj, fink HDF                  |
 
 
