@@ -245,5 +245,9 @@ Jens
 
 We can visit the experimental hall with thermal instruments and the new and old neutron guide hall for cold neutrons. Please inform me if you are interested or if the date is untimely for you.
 
+= Minutes =
+
+Here are the minutes in [[Media:NIAC2007HMI_minutes.pdf|pdf format]] or [[Media:NIAC2007HMI_minutes.doc|MS-Word format]] or [[Media:NIAC2007HMI_minutes.odt|OpenOffice format]].
+
 =NIAC2007 photos=
 Various people took photos at the meeting.  [[NIAC2007_photos | Take a look.]]
