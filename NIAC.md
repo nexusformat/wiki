@@ -168,6 +168,7 @@ Meetings
 --------
 
 -   [September 24-26, 2007](NIAC2007 "wikilink") at HMI, Berlin, Germany
+    ([minutes](Media:NIAC2007HMI_minutes.pdf "wikilink"))
 -   [October 5-6, 2006](NIAC2006LBL "wikilink") at LBL, Berkeley, CA,
     USA ([minutes](Media:NIAC2006LBL_minutes.pdf "wikilink"))
 -   [February 1-3, 2006](NIAC2006ILL "wikilink") at ILL, Grenoble,
