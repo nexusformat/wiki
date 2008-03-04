@@ -17,6 +17,4 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
     count case)](TOFRaw "wikilink")
 -   [ NXTOFRWSC - NeXus Time-of-Flight Raw File Format (NXTOFRW with
     extensions for scans)](TOFRawScan "wikilink")
--   [ NeXus Reflectometry discussion ](ReflectDiscuss "wikilink")
--   [ NeXus Indirect geometry discussion ](IndirectDiscuss "wikilink")
 
