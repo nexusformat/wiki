@@ -36,6 +36,8 @@ layout: wiki
     Laboratory, USA
 -   [Peter Peterson](User%3APeter_Peterson "wikilink"), Spallation
     Neutron Source, USA (Chair)
+-   [Stephane Poirier](User%3AStephane_Poirier "wikilink"), Synchrotron
+    Soleil, France
 -   [Thomas Proffen](User%3AThomas_Proffen "wikilink"), Los Alamos
     National Laboratory, USA
 -   [Jiro Suzuki](User%3AJiro_Suzuki "wikilink"), KEK, Japan
