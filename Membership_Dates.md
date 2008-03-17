@@ -40,4 +40,5 @@ stated in the [constitution](NIAC "wikilink").
     *letter of support needed*
 -   Nick Maliszewskyj - NIST Center for Neutron Research, USA
 -   Peter Peterson - Spallation Neutron Source, USA (Chair - 2 year)
+-   Stephane Poirier - Synchrotron Soleil, France
 
