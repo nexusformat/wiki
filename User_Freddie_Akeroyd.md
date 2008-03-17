@@ -7,7 +7,7 @@ layout: wiki
 Freddie Akeroyd
 ---------------
 
-### ISIS Representative and Joint Executive Secretary, NeXus International Advisory Committee
+### ISIS Representative and Executive Co-secretary, NeXus International Advisory Committee
 
 Address:ISIS Facility  
 Rutherford Appleton Laboratory
