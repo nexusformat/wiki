@@ -104,9 +104,8 @@ Currently Unassigned. Some of the TOF base class has not made it to SVN.
 * Mark Könnecke and Raymond Osborn - Shut down existing website and mirror, leaving a redirection page to new site. (The original website at http://www.nexus.anl.gov/ contains a redirect message, but is still online so that NIAC members can check for content missing on the wiki.) 
 * Peter Peterson - to write up the versioning mechanism 
 ====From 2006 ILL Meeting====
-* Unassigned - NXcharacterization needs to be formalized and ratified - this has been repeated in #11 
-* Unassigned - Synchronize the website definitions with those in cvs (the website are considered more correct) - this is formalized as an action item at the 2006 LBL meeting 
-
+* Unassigned - [[NXcharacterization]] needs to be formalized and ratified - this has been repeated in #11 
+* Unassigned - Synchronize the website definitions with those in cvs (the website are considered more correct) - this is formalized as an action item at the 2006 LBL meeting
 
 ===Agreed Tags for NeXus definition versions===
 * Version 1.0 = prior to 2006-2

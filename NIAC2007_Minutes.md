@@ -156,8 +156,8 @@ ACTION : Freddie Akeroyd to add missing TOF base class to SVN
 
 #### From 2006 ILL Meeting
 
--   Unassigned - NXcharacterization needs to be formalized and
-    ratified - this has been repeated in \#11
+-   Unassigned - [NXcharacterization](NXcharacterization "wikilink")
+    needs to be formalized and ratified - this has been repeated in \#11
 -   Unassigned - Synchronize the website definitions with those in cvs
     (the website are considered more correct) - this is formalized as an
     action item at the 2006 LBL meeting
