@@ -214,7 +214,6 @@ group of specialists will do this. Use a graphical schema editor. Easy
 to generate meta-DTD from schema. Tools – emacs, Eclipse + WTP, Netbeans
 are all free. General interest in using Eclipse + WTP and providing it
 as a web start. Jens showed his C++ tool for defining instruments.
-Thomas was convinced.
 
 PROPOSAL : canonical Nexus definitions to be stored in schema. Meta-dtd can be generated from these  
 
