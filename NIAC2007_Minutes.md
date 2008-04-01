@@ -4,6 +4,8 @@ permalink: NIAC2007_Minutes/
 layout: wiki
 ---
 
+Version in [PDF](Media:NIAC2007HMI_minutes.pdf "wikilink") format
+
 NIAC meeting – HMI, Berlin (Germany) 24, 25, 26 September 2007
 --------------------------------------------------------------
 
