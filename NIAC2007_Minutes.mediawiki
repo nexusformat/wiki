@@ -220,7 +220,7 @@ Mark proposed an IDL binding
 ===TRAC items===
 Went through open items and closed those that could be.
 Discussion on memory allocation in the NXU utility library
-; ACTION : Freddie to add a somebody Unassigned user to TRAC backend
+; ACTION : Freddie to add an ''Unassigned'' user to TRAC backend
 Could we add an external link to a non-Nexus file
 * Pete – should we write native bindings for Matlab, IDL, etc
 * Mark – no, NAPI is 3 to 4000 lines
@@ -230,7 +230,8 @@ Pete P. gave a talk on Nxtranslate, a plugin based system. All plugins are stati
 HDF4 to be marked as deprecated. New users should use only HDF5.
 ; VOTE : all in favour of deprecating HDF4 i.e. do not add new features to NAPI for HDF4
 FOR = all-2 ; AGAINST = 2 (Freddie + Steve)
-; ACTION : Freddie to put a How To on the wiki for Nxtranslate and other programs with links to the pdf and doxygen ===Documentation===
+; ACTION : Freddie to put a How To on the wiki for Nxtranslate and other programs with links to the pdf and doxygen
+===Documentation===
 ; ACTION : Pete to propose an outline for a Nexus manual in docbook
 ; ACTION : Freddie to look how to integrate this into the wiki
 Long discussion about how to integrate the docbook into the wiki and include user comments. Frederic Picca suggested taking a look at asciidoc. Pete P comments should go on the wiki, changes on subversion.

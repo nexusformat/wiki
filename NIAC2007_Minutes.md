@@ -375,7 +375,7 @@ ACTION : Freddie to add Mark's IDL binding to Nexus repository
 Went through open items and closed those that could be. Discussion on
 memory allocation in the NXU utility library
 
-ACTION : Freddie to add a somebody Unassigned user to TRAC backend  
+ACTION : Freddie to add an *Unassigned* user to TRAC backend  
 
 Could we add an external link to a non-Nexus file
 
@@ -397,7 +397,10 @@ VOTE : all in favour of deprecating HDF4 i.e. do not add new features to NAPI fo
 
 FOR = all-2 ; AGAINST = 2 (Freddie + Steve)
 
-ACTION : Freddie to put a How To on the wiki for Nxtranslate and other programs with links to the pdf and doxygen ===Documentation===  
+ACTION : Freddie to put a How To on the wiki for Nxtranslate and other programs with links to the pdf and doxygen  
+
+### Documentation
+
 ACTION : Pete to propose an outline for a Nexus manual in docbook  
 ACTION : Freddie to look how to integrate this into the wiki  
 
