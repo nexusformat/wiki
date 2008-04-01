@@ -59,7 +59,7 @@ ACTION : Nick Hauser to take over the [NXgenericScan](GenericScan "wikilink") de
     **nexusformat.org** site
 -   To Jens for organising the meeting
 
-### Review of Oustanding Actions
+### Review of Outstanding Actions
 
 #### Request NSF money was discussed
 
@@ -78,7 +78,7 @@ This has been fixed by Mark. A new API call has been added:
 
         NXMakeNamedLink()
 
-#### There is no explaination on the wiki on how to change a Nexus class definition
+#### There is no explanation on the wiki on how to change a Nexus class definition
 
 ACTION : Pete Peterson to explain how to change a definition  
 
@@ -86,13 +86,13 @@ ACTION : Pete Peterson to explain how to change a definition
 
 They should all be moved into Subversion.
 
-Current status is that Feddie Akeroyd has moved all base classes, but
+Current status is that Freddie Akeroyd has moved all base classes, but
 input from other NIAC members is required on naming of instrument
 definitions before moving them too. This leads onto the open question of
 how to name definitions like [TOFRaw](TOFRaw "wikilink") – should all
 definitions have an NX prefix like base classes or not?
 
-Pete Jemian suggests differentating names between Instruments + Base
+Pete Jemian suggests differentiating names between Instruments + Base
 classes – maybe using an NXD prefix for definitions?
 
 #### Check old <http://www.nexus.anl.gov/> web site and report any content that has not been moved to new WIKI server
@@ -173,7 +173,7 @@ ACTION : Freddie Akeroyd to add missing TOF base class to SVN
 -   Matthias Drochner – to be renewed
 -   Andy Gotz – to be renewed
 -   Peter Link – expired (no news)
--   Nick Maliszewskyj – replaces Przemak for NIST
+-   Nick Maliszewskyj – replaces Przemek for NIST
 
 VOTE : to renew members FOR = all ; AGAINST = none  
 ACTION : have meetings in October in the future, not in September at the end of the fiscal year  
@@ -269,7 +269,7 @@ separate api based on netCDF. Nick noted if the NIAC adopts netCDF for
 internal data representation then this opens the way to sharing more
 code. Andy suggested to start sharing netCDF between a few institutes to
 gain more experience and then report back to the committee before making
-a general decision on wether to support netCDF or not.
+a general decision on whether to support netCDF or not.
 
 CONCLUSION : more people to try out netCDF and bring this up again at the meeting  
 
@@ -292,7 +292,7 @@ Ray gave a talk on the ASI^2 proposal. If it gets funding then would be
 largest investment by the DOE in software. Other communities are solving
 problems which are of interest to us, idea is to get these people on
 board. How should this group interact with the Nexus group ? ASI^2 could
-replace IPNS as insitute. Pete Jemian proposed next NIAC to be held at
+replace IPNS as institute. Pete Jemian proposed next NIAC to be held at
 Argonne
 
 ### Improving Scientific efficiency at APS
@@ -335,7 +335,7 @@ Mark gave a talk about the Nexus OO API. He made the following proposals
 -   Nxclose, Nxflush serialise all changes to disk
 -   how to link items together ?
 -   what shall the shape of the Iterator class be ?
--   how much leeway are implementors allowed ?
+-   how much leeway are implementers allowed ?
 
 There was a counter proposal by Pete Peterson. A python api which uses
 the Nxfile as an object. Ray said this is not object oriented. Ray wants

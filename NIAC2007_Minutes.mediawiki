@@ -35,7 +35,7 @@ List of attendees
 * To Freddie Akeroyd for setting up the new MediaWiki '''nexusformat.org''' site
 * To Jens for organising the meeting
 
-===Review of Oustanding Actions===
+===Review of Outstanding Actions===
 
 ====Request NSF money was discussed====
 
@@ -53,15 +53,15 @@ This has been fixed by Mark. A new API call has been added:
 	NXMakeNamedLink()
 </pre>
 
-====There is no explaination on the wiki on how to change a Nexus class definition====
+====There is no explanation on the wiki on how to change a Nexus class definition====
 ; ACTION : Pete Peterson to explain how to change a definition 
 
 ====Some definitions exist only on the WIKI, some are in source control (Subversion)====
 They should all be moved into Subversion. 
 
-Current status is that Feddie Akeroyd has moved all base classes, but input from other NIAC members is required on naming of instrument definitions before moving them too. This leads onto the open question of how to name definitions like [[TOFRaw]] – should all definitions have an NX prefix like base classes or not?
+Current status is that Freddie Akeroyd has moved all base classes, but input from other NIAC members is required on naming of instrument definitions before moving them too. This leads onto the open question of how to name definitions like [[TOFRaw]] – should all definitions have an NX prefix like base classes or not?
 
-Pete Jemian suggests differentating names between Instruments + Base classes – maybe using an NXD prefix for definitions?
+Pete Jemian suggests differentiating names between Instruments + Base classes – maybe using an NXD prefix for definitions?
 
 ====Check old http://www.nexus.anl.gov/ web site and report any content that has not been moved to new WIKI server==== 
 This has been done - Ray suggests leaving the site up but with a warning message that the content had been moved. 
@@ -116,7 +116,7 @@ Currently Unassigned. Some of the TOF base class has not made it to SVN.
 * Matthias Drochner – to be renewed
 * Andy Gotz – to be renewed
 * Peter Link – expired (no news)
-* Nick Maliszewskyj – replaces Przemak for NIST
+* Nick Maliszewskyj – replaces Przemek for NIST
 ; VOTE : to renew members FOR = all ; AGAINST = none
 ; ACTION : have meetings in October in the future, not in September at the end of the fiscal year
 
@@ -163,7 +163,7 @@ Laurent suggested do not include the version in the uri. Freddie wanted to have 
 A discussion ensued on imgCIF and what is happening in this field. Nick read an email from Herbert Bernstein. Freddie mentioned the imgCIF meeting in Manchester. There it was decided that the first step is to do an imgCIF to NX and back converter, Freddie and Herbert Bernstein will handle this. Stuart is our official contact with imgCIF.
 
 ===netCDF===
-Nick gave a talk about netCDF. netCDF has a number of advantages e.g. gives array manipulation in Java. Nick proposes to promote netCDF within the Nexus community as a tool for reading and writing HDF5 in Nexus. netCDF have added support for HDF5. Mark said there are a lot of issues to consider, array manipulation of netCDF is an advantage, we need to discuss with netCDF team to see how far they can go to support us. Pete P. said there is a discussion on an Nxutility api. Nick said netCDF provides a memory object. Pete P. discussion is about an in memory data format. Ray  needs a white paper with more information. Pete P. create a separate api based on netCDF. Nick noted if the NIAC adopts netCDF for internal data representation then this opens the way to sharing more code. Andy suggested to start sharing netCDF between a few institutes to gain more experience and then report back to the committee before making a general decision on wether to support netCDF or not. 
+Nick gave a talk about netCDF. netCDF has a number of advantages e.g. gives array manipulation in Java. Nick proposes to promote netCDF within the Nexus community as a tool for reading and writing HDF5 in Nexus. netCDF have added support for HDF5. Mark said there are a lot of issues to consider, array manipulation of netCDF is an advantage, we need to discuss with netCDF team to see how far they can go to support us. Pete P. said there is a discussion on an Nxutility api. Nick said netCDF provides a memory object. Pete P. discussion is about an in memory data format. Ray  needs a white paper with more information. Pete P. create a separate api based on netCDF. Nick noted if the NIAC adopts netCDF for internal data representation then this opens the way to sharing more code. Andy suggested to start sharing netCDF between a few institutes to gain more experience and then report back to the committee before making a general decision on whether to support netCDF or not. 
 
 ; CONCLUSION : more people to try out netCDF and bring this up again at the meeting
 
@@ -174,7 +174,7 @@ Ray relayed a request from microscopists to have a top level entry which identif
 Laurent mentioned the laser community would like to use Nexus. Laurent will the representative
 
 ===Argonne Scattering and Imaging Institute===
-Ray gave a talk on the ASI^2 proposal. If it gets funding then would be largest investment by the DOE in software. Other communities are solving problems which are of interest to us, idea is to get these people on board. How should this group interact with the Nexus group ? ASI^2 could replace IPNS as insitute. Pete Jemian proposed next NIAC to be held at Argonne
+Ray gave a talk on the ASI^2 proposal. If it gets funding then would be largest investment by the DOE in software. Other communities are solving problems which are of interest to us, idea is to get these people on board. How should this group interact with the Nexus group ? ASI^2 could replace IPNS as institute. Pete Jemian proposed next NIAC to be held at Argonne
 
 ===Improving Scientific efficiency at APS===
 Pete Jemian gave a talk on Improving Scientific Efficiency at APS. He showed the canonical Scientific Workflow Diagram – feedback is open loop at the moment. There is a working group headed by Ken Evans. APS has created a Scientific Software Section for solving local challenges as opposed to the ASI^2 which is for grand challenges. The group consists of one person at present, it will grow in time. There is a pilot visualisation application with 1-ID. There is resistance to Java + Eclipse - Python is the lingua franca of scientists. This group could look after a Nexus person. Nick said the NIAC should endorse this position. The group is interested in helping the community.
@@ -198,7 +198,7 @@ Mark gave a talk about the Nexus OO API. He made the following proposals :
 * Nxclose, Nxflush serialise all changes to disk
 * how to link items together ?
 * what shall the shape of the Iterator class be ?
-* how much leeway are implementors allowed ?
+* how much leeway are implementers allowed ?
 There was a counter proposal by Pete Peterson. A python api which uses the Nxfile as an object. Ray said this is not object oriented. Ray wants to add to NXData together. Pete is against building a Nexus scripting framework like Ray wants it. Pete P. said for python drop swig and write python binding by hand, return NumPy objects. Pete proposes to write zeroth level python binding – strings are python strings, scalars are python basic types (he has already done most of the work)
 
 ; ACTION : Pete to do Python binding to NumPy
