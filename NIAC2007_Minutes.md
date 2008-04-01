@@ -55,8 +55,8 @@ ACTION : Nick Hauser to take over the [NXgenericScan](GenericScan "wikilink") de
 
 ### Thanks
 
--   To Freddie Akeroyd for setting up the new MediaWiki nexusformat.org
-    site
+-   To Freddie Akeroyd for setting up the new MediaWiki
+    **nexusformat.org** site
 -   To Jens for organising the meeting
 
 ### Review of Oustanding Actions
@@ -143,7 +143,7 @@ ACTION : Freddie Akeroyd to add missing TOF base class to SVN
 -   Freddie Akeroyd - to move NeXus code and definitions from CVS to
     Subversion
 -   Freddie Akeroyd - to move NeXus mailing lists from anl.gov to
-    lists.nexusformat.org
+    <http://lists.nexusformat.org/>
 -   Freddie Akeroyd - to provide a Mediawiki extension for rendering
     definitions held in Subversion onto a Wiki page in a tabular format
     on the fly

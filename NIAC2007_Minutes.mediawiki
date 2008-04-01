@@ -32,7 +32,7 @@ List of attendees
 ; ACTION : Nick Hauser to take over the [[GenericScan|NXgenericScan]] definition
 
 ===Thanks===
-* To Freddie Akeroyd for setting up the new MediaWiki nexusformat.org site
+* To Freddie Akeroyd for setting up the new MediaWiki '''nexusformat.org''' site
 * To Jens for organising the meeting
 
 ===Review of Oustanding Actions===
@@ -99,7 +99,7 @@ Currently Unassigned. Some of the TOF base class has not made it to SVN.
 ===Completed Actions===
 ====From 2006 LBL Meeting==== 
 * Freddie Akeroyd - to move NeXus code and definitions from CVS to Subversion 
-* Freddie Akeroyd - to move NeXus mailing lists from anl.gov to lists.nexusformat.org 
+* Freddie Akeroyd - to move NeXus mailing lists from anl.gov to http://lists.nexusformat.org/ 
 * Freddie Akeroyd - to provide a Mediawiki extension for rendering definitions held in Subversion onto a Wiki page in a tabular format on the fly 
 * Mark Könnecke and Raymond Osborn - Shut down existing website and mirror, leaving a redirection page to new site. (The original website at http://www.nexus.anl.gov/ contains a redirect message, but is still online so that NIAC members can check for content missing on the wiki.) 
 * Peter Peterson - to write up the versioning mechanism 
