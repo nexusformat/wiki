@@ -8,6 +8,7 @@ The Technical Committee Chair is a member of the [[NIAC]], but is not allowed to
 *[[User:Mark Koennecke|Mark Könnecke]], Paul Scherrer Institut, Switzerland (Technical Committee Chair)
 *[[User:Freddie Akeroyd|Frederick Akeroyd]], Rutherford Appleton Laboratory, UK
 *[[User:Stuart Campbell|Stuart Campbell]], Diamond Light Source, UK
+*[[User:nick|Nick Hauser]], Australian Nuclear Science and Technology Organisation, Australia
 *[[User:Paul Kienzle|Paul Kienzle]], DANSE, USA
 *[[User:Nick Maliszewskyj|Nick Maliszewskyj]] - NIST Center for Neutron Research, USA
 *[[User:Peter Peterson|Peter Peterson]], Spallation Neutron Source, USA

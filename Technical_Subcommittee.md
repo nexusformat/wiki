@@ -24,6 +24,8 @@ are:
     Appleton Laboratory, UK
 -   [Stuart Campbell](User%3AStuart_Campbell "wikilink"), Diamond Light
     Source, UK
+-   [Nick Hauser](User%3Anick "wikilink"), Australian Nuclear Science
+    and Technology Organisation, Australia
 -   [Paul Kienzle](User%3APaul_Kienzle "wikilink"), DANSE, USA
 -   [Nick Maliszewskyj](User%3ANick_Maliszewskyj "wikilink") - NIST
     Center for Neutron Research, USA
