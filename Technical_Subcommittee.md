@@ -27,5 +27,7 @@ The current members are:
 -   [Peter Peterson](User%3APeter_Peterson "wikilink"), Spallation
     Neutron Source, USA
 
-You can contact the committe via
-[nexus-tech@nexusformat.org](nexus-tech@nexusformat.org "wikilink")
+You can contact the committe via <nexus-tech@nexusformat.org>
+
+General discussions about the NeXus API should be directed to
+<nexus-developers@nexusformat.org>
