@@ -188,3 +188,9 @@ Action Items
 
 [Action Items](NIACActionItems "wikilink") for members of the NIAC that
 are not associated to one of the repositories.
+
+Sub-Committees
+--------------
+
+-   [NeXus Technical sub-committee](NeXus_Tech "wikilink")
+

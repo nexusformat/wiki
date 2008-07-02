@@ -71,3 +71,6 @@ The NeXus format is defined as a series of XML files describing both the base cl
 
 == Action Items ==
 [[NIACActionItems|Action Items]] for members of the NIAC that are not associated to one of the repositories.
+
+== Sub-Committees ==
+* [[NeXus_Tech|NeXus Technical sub-committee]]
