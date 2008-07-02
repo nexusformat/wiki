@@ -3,7 +3,7 @@ The technical sub-committee is overseen by the Technical Committee Chair and is 
 * Coordinating and managing testing and releases as per the [[SQA_Process]] 
 * Promoting code from the contributed directory to the regular release build 
 
-The current members are:
+The Technical Committee Chair is a member of the [[NIAC]], but is not allowed to vote unless they also represent an institution. The current technical sub-committee members are:
 
 *[[User:Mark Koennecke|Mark Könnecke]], Paul Scherrer Institut, Switzerland (Technical Committee Chair)
 *[[User:Freddie Akeroyd|Frederick Akeroyd]], Rutherford Appleton Laboratory, UK
@@ -12,6 +12,6 @@ The current members are:
 *[[User:Nick Maliszewskyj|Nick Maliszewskyj]] - NIST Center for Neutron Research, USA
 *[[User:Peter Peterson|Peter Peterson]], Spallation Neutron Source, USA
 
-You can contact the committe via [mailto:nexus-tech@nexusformat.org nexus-tech@nexusformat.org]
+You can contact the sub-committe via [mailto:nexus-tech@nexusformat.org nexus-tech@nexusformat.org]
 
 General discussions about the NeXus API should be directed to [mailto:nexus-developers@nexusformat.org nexus-developers@nexusformat.org]

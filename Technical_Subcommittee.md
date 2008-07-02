@@ -13,7 +13,10 @@ and is responsible for:
 -   Promoting code from the contributed directory to the regular release
     build
 
-The current members are:
+The Technical Committee Chair is a member of the
+[NIAC](NIAC "wikilink"), but is not allowed to vote unless they also
+represent an institution. The current technical sub-committee members
+are:
 
 -   [Mark Könnecke](User%3AMark_Koennecke "wikilink"), Paul Scherrer
     Institut, Switzerland (Technical Committee Chair)
@@ -27,7 +30,7 @@ The current members are:
 -   [Peter Peterson](User%3APeter_Peterson "wikilink"), Spallation
     Neutron Source, USA
 
-You can contact the committe via <nexus-tech@nexusformat.org>
+You can contact the sub-committe via <nexus-tech@nexusformat.org>
 
 General discussions about the NeXus API should be directed to
 <nexus-developers@nexusformat.org>
