@@ -192,5 +192,5 @@ are not associated to one of the repositories.
 Sub-Committees
 --------------
 
--   [NeXus Technical sub-committee](NeXus_Tech "wikilink")
+-   [NeXus Technical sub-committee](Technical_Subcommittee "wikilink")
 
