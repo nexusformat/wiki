@@ -13,8 +13,6 @@ The Technical Committee Chair is a member of the [[NIAC]], but is not allowed to
 *[[User:Nick Maliszewskyj|Nick Maliszewskyj]] - NIST Center for Neutron Research, USA
 *[[User:Peter Peterson|Peter Peterson]], Spallation Neutron Source, USA
 
-You can contact the sub-committe via [mailto:nexus-tech@nexusformat.org nexus-tech@nexusformat.org]
-
-General discussions about the NeXus API should be directed to [mailto:nexus-developers@nexusformat.org nexus-developers@nexusformat.org]
+You can contact the sub-committe via [mailto:nexus-tech@nexusformat.org nexus-tech@nexusformat.org]; however general questions and discussions about the NeXus API should instead be directed to [mailto:nexus-developers@nexusformat.org nexus-developers@nexusformat.org]
 ==Meetings==
 * NeXus Officers Meeting 6th June 2008 ([[Media:VC_20080606.pdf|minutes]])
