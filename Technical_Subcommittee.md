@@ -40,6 +40,6 @@ General discussions about the NeXus API should be directed to
 Meetings
 --------
 
--   [NeXus Officers Meeting 6th June
-    2008](Media:VC_20080606.pdf "wikilink")
+-   NeXus Officers Meeting 6th June 2008
+    ([minutes](Media:VC_20080606.pdf "wikilink"))
 

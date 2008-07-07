@@ -17,4 +17,4 @@ You can contact the sub-committe via [mailto:nexus-tech@nexusformat.org nexus-te
 
 General discussions about the NeXus API should be directed to [mailto:nexus-developers@nexusformat.org nexus-developers@nexusformat.org]
 ==Meetings==
-* [[Media:VC_20080606.pdf|NeXus Officers Meeting 6th June 2008]]
+* NeXus Officers Meeting 6th June 2008 ([[Media:VC_20080606.pdf|minutes]])
