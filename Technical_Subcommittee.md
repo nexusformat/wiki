@@ -41,4 +41,6 @@ Meetings
 
 -   NeXus Officers Meeting 6th June 2008
     ([minutes](Media:VC_20080606.pdf "wikilink"))
+-   Tech committee Meeting 16th July 2008
+    ([minutes](Media:VC_20080716.pdf "wikilink"))
 
