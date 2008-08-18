@@ -169,6 +169,7 @@ proposed. This is the current procedure:
 Meetings
 --------
 
+-   [October 30-31, 2008](NIAC2008 "wikilink") at ANSTO, Australia
 -   [September 24-26, 2007](NIAC2007 "wikilink") at HMI, Berlin, Germany
     ([online](NIAC2007_Minutes "wikilink") and [pdf
     format](Media:NIAC2007HMI_minutes.pdf "wikilink") minutes)
