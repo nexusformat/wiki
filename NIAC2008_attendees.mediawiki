@@ -1,0 +1,8 @@
+==NIAC 2006 at LBL List of Attendees==
+
+Attendees of the 
+[[NIAC2008|2008 NIAC Meeting]] at Sydney, Australia.
+
+{| border="1"
+|-
+|}
