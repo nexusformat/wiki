@@ -4,5 +4,28 @@ Attendees of the
 [[NIAC2008|2008 NIAC Meeting]] at Rydges Cronulla Beach Hotel in Sydney, Australia.
 
 {| border="1"
+! Name || Company/Institute || paid
 |-
+| Sandor Brockhauser || ||
+|-
+| [[User:Nick Hauser|Nick Hauser]]
+|| Australian Nuclear Science and Technology Organisation, Australia || 
+|-
+| [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]]
+|| Hahn-Meitner-Institut Berlin, Germany || 
+|-
+| [[User:Mark_Koennecke|Mark Koennecke]]
+|| Paul Scherrer Institut ||
+|-
+| Marziyeh Nazari
+|| ||
+|-
+| [[User:Ray Osborn|Ray Osborn]]
+|| Argonne National Laboratory, USA || 
+|-
+| [[User:Jiro Suzuki|Jiro Suzuki]]
+|| KEK, Japan ||
+|-
+| Peter Turner
+|| ||
 |}
