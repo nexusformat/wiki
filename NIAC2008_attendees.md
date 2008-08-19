@@ -18,6 +18,7 @@ Cronulla Beach Hotel in Sydney, Australia.
 | [Mark Koennecke](User%3AMark_Koennecke "wikilink")        | | Paul Scherrer Institut                                            |      |
 | Marziyeh Nazari                                           | |                                                                   |      |
 | [Ray Osborn](User%3ARay_Osborn "wikilink")                | | Argonne National Laboratory, USA                                  |      |
+| [Peter Peterson](User%3APeter_Peterson "wikilink")        | |Oak Ridge National Laboratory, USA                                 |      |
 | [Jiro Suzuki](User%3AJiro_Suzuki "wikilink")              | | KEK, Japan                                                        |      |
 | Peter Turner                                              | |                                                                   |      |
 

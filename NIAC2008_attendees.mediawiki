@@ -23,6 +23,9 @@ Attendees of the
 | [[User:Ray Osborn|Ray Osborn]]
 || Argonne National Laboratory, USA || 
 |-
+| [[User:Peter Peterson|Peter Peterson]]
+||Oak Ridge National Laboratory, USA ||
+|-
 | [[User:Jiro Suzuki|Jiro Suzuki]]
 || KEK, Japan ||
 |-
