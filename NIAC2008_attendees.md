@@ -12,6 +12,7 @@ Cronulla Beach Hotel in Sydney, Australia.
 
 | Name                                                      | Company/Institute                                                   | paid |
 |-----------------------------------------------------------|---------------------------------------------------------------------|------|
+| [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink")      | | ISIS                                                              |      |
 | Sandor Brockhauser                                        |                                                                     |      |
 | [Nick Hauser](User%3ANick_Hauser "wikilink")              | | Australian Nuclear Science and Technology Organisation, Australia |      |
 | [ Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann "wikilink") | | Hahn-Meitner-Institut Berlin, Germany                             |      |

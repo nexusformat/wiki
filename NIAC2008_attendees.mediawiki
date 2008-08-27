@@ -6,6 +6,9 @@ Attendees of the
 {| border="1"
 ! Name || Company/Institute || paid
 |-
+| [[User:Freddie Akeroyd|Freddie Akeroyd]]
+|| ISIS ||
+|-
 | Sandor Brockhauser || ||
 |-
 | [[User:Nick Hauser|Nick Hauser]]
