@@ -4,6 +4,9 @@ permalink: Metaformat/
 layout: wiki
 ---
 
+(*work is currently in progress to replace Meta-DTDs with [XML
+schema](Schema "wikilink")*)
+
 The contents of NeXus files are defined using XML. The hierarchical
 structure of NeXus files maps very conveniently into XML files with
 NeXus groups and items as the XML entities, and data attributes as XML
