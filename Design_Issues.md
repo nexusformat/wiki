@@ -24,4 +24,6 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
     Inheritance](Containers_and_Inheritance "wikilink") - XLST and
     Reusable definitions
 -   [Object oriented NeXus](OO-NeXus "wikilink")
+-   [Schema](Schema "wikilink") - Using XML Schema instead of
+    [Meta-DTDs](Metaformat "wikilink") for definitions
 
