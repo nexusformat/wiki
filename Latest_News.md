@@ -4,6 +4,11 @@ permalink: Latest_News/
 layout: wiki
 ---
 
+2008
+----
+
+Wednesday, August 27, 2008:Work is currently in progress to convert NeXus definitions from [Meta-DTDs](Metaformat "wikilink") into [XML Schema](http://www.w3.org/XML/Schema) - for more details see the [NeXus schema](Schema "wikilink") page.  
+
 2007
 ----
 
