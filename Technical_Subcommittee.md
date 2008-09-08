@@ -39,8 +39,10 @@ instead be directed to <nexus-developers@nexusformat.org>
 Meetings
 --------
 
--   NeXus Officers Meeting 6th June 2008
+-   NeXus Officers video conference 6th June 2008
     ([minutes](Media:VC_20080606.pdf "wikilink"))
--   Tech committee Meeting 16th July 2008
+-   Tech committee video conference 16th July 2008
     ([minutes](Media:VC_20080716.pdf "wikilink"))
+-   Tech committee video conference 27th August 2008
+    ([minutes](Media:VC_20080827.pdf "wikilink"))
 
