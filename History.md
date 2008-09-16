@@ -374,4 +374,4 @@ European Synchrotron Radiation Facility:The ESRF has developed its own binary da
 
 <!-- -->
 
-Diamond:The new Diamond Synchrotron Source is planning to use the NeXus format when it starts operation.  
+Diamond Light Source:The new Diamond Synchrotron Source is committed to use the NeXus format.  
