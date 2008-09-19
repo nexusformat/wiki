@@ -366,7 +366,7 @@ Spallation Neutron Source:Although the SNS will not produce neutrons until 2006,
 
 ### X-ray Scattering Facility Support
 
-Advanced Photon Source:NeXus has been recommended as the APS standard by the APS Beamline Controls Subcommittee. The APS Experimental Facilities Division has done considerable performance testing of HDF as used in earlier incarnations of NeXus, and intends to support this format at least for data-transfer. APS/XFD hopes that broad-based support for NeXus will persuade HDF developers to improve the performance of HDF in ways that will permit the use of NeXus for run-time data storage as well.  
+Advanced Photon Source:NeXus-compliant files are one of the file format options in the [CCD Image Server software](http://www.aps.anl.gov/bcda/dataAcq/) developed and used at the APS. The [X-ray microtomography](http://www.aps.anl.gov/Xray_Science_Division/Xray_Microscopy_and_Imaging/Science_and_Research/Techniques/Tomography/index.html) instrument is a major user of this software and records some *O*(10<sup>5</sup>) images per month of operation. APS hopes that the NeXus committee will consider and provide for the storage of reduced data, analyzed data, simulated data, and the history of processing steps, in addition to the storage of raw data in NeXus files.  
 
 <!-- -->
 
