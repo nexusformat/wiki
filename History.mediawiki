@@ -123,7 +123,7 @@ We intend to monitor the support of NeXus in the neutron and X-ray communities. 
 
 ;Institut Laue-Langevin:The ILL has been active in the development of NeXus and intends to provide conversion utilities. Its data analysis software package, LAMP, can read and write NeXus files. 
 
-;Intense Pulsed Neutron Source:IPNS have been actively involved in the development of NeXus and will provide conversion utilities from their current binary format. The data acquisition system is currently being redesigned so NeXus is being evaluated for use in internal data archives. 
+;Intense Pulsed Neutron Source:IPNS was actively involved in the development of NeXus. The IPNS was shut down at the end of 2007.
 
 ;ISIS Pulsed Neutron Facility:Apart from being involved in the development of NeXus, ISIS has incorporated the NeXus API into the new openGENIE data analysis package. Chris Moreton-Smith and Freddie Akeroyd are helping to develop the API. 
 
@@ -139,7 +139,7 @@ We intend to monitor the support of NeXus in the neutron and X-ray communities. 
 
 ;Paul Scherrer Institut:PSI is using NeXus as their raw data format in the SINQ Instrument Control Software, developed by Mark Koennecke, who was also responsible for writing much of the NeXus API. 
 
-;Spallation Neutron Source:Although the SNS will not produce neutrons until 2006, preliminary discussions of possible data formats have already begun. NeXus is under serious consideration. I hope to be able to upgrade this status in the next few months. It is also being considered as an exchange format for the results of Monte Carlo instrument simulations during the design phase of the project. 
+;Spallation Neutron Source:Although the SNS will not produce neutrons until 2006, preliminary discussions of possible data formats have already begun. NeXus is under serious consideration. I hope to be able to upgrade this status in the next few months. It is also being considered as an exchange format for the results of Monte Carlo instrument simulations during the design phase of the project.
 
 ===X-ray Scattering Facility Support===
 

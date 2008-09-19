@@ -330,7 +330,7 @@ Institut Laue-Langevin:The ILL has been active in the development of NeXus and i
 
 <!-- -->
 
-Intense Pulsed Neutron Source:IPNS have been actively involved in the development of NeXus and will provide conversion utilities from their current binary format. The data acquisition system is currently being redesigned so NeXus is being evaluated for use in internal data archives.  
+Intense Pulsed Neutron Source:IPNS was actively involved in the development of NeXus. The IPNS was shut down at the end of 2007.  
 
 <!-- -->
 
