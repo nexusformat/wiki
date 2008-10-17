@@ -23,6 +23,7 @@ If you are interested in attending (and not already on the [[NIAC2008_attendees|
 ** [http://trac.nexusformat.org/definitions/report/3 Open tickets]
 * [[Membership Dates|Renew members]]
 * Elect chair, executive secretary, and technical committee chair
+* Roadmap for NeXus
 
 ==== XML schema definitions ====
 * Objective: why schema? - validation, tools e.g. IDE. Informative session. 
