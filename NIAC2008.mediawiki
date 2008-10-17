@@ -45,7 +45,7 @@ If you are interested in attending (and not already on the [[NIAC2008_attendees|
 * presentation by James Hester on lessons learned from CIF standardisation
 
 ==== Tech Group Breakout ====
-* review minutes/decision of last NIAC and teleconference
+* review minutes/decision of last NIAC and [[Technical_Subcommittee|tech teleconferences]]
 * Features for NeXus API 4.3
 * XML schema review and implementation
 * Review [http://trac.nexusformat.org/code/report/3 open tickets]
