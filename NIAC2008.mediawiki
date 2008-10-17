@@ -63,5 +63,5 @@ If you are interested in attending (and not already on the [[NIAC2008_attendees|
 * Is there documentation that is uniquely offline or online? This will become clearer with the mapping in the previous item
 * should the representation of the base classes in the appendices be UML and/or table version?
 * html to DocBook transform post processing - are these steps acceptable? 
-    * documentation transformed from mediawiki to DocBook, edited where necessary, chapters concatenated, and converted to pdf
-    * pdf bundled with napi release and versions available at [[Download]]
+** documentation transformed from mediawiki to DocBook, edited where necessary, chapters concatenated, and converted to pdf
+** pdf bundled with napi release and versions available at [[Download]]
