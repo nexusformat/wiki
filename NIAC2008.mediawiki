@@ -18,7 +18,7 @@ If you are interested in attending (and not already on the [[NIAC2008_attendees|
 === Discussion Items ===
 ==== General Business ====
 * Welcome and Introduction 
-* Review of NIAC'2007HMI minutes
+* Review of [[NIAC2007_Minutes|NIAC'2007HMI minutes]]
 ** [[NIACActionItems|NIAC Action Items]]
 ** [http://trac.nexusformat.org/definitions/report/3 Open tickets]
 * [[Membership Dates|Renew members]]
