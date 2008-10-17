@@ -27,9 +27,9 @@ If you are interested in attending (and not already on the [[NIAC2008_attendees|
 ==== XML schema definitions ====
 * Objective: why schema? - validation, tools e.g. IDE. Informative session. 
 * Pros and cons of xsd and rng
-* Review of current work. (Overview)
+* Review of [[Schema|current work]]. (Overview)
 * Vote on use of xsd.
-* schema as a path to O-O NeXus  
+* schema as a path to O-O NeXus
 
 ==== Reduced data storage ====
 * [http://www.smallangles.net/wgwiki/index.php/cansas1d_documentation review of canSAS 1-D v1.0 XML data format] for reduced Small-Angle Scattering data.
