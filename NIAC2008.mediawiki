@@ -14,7 +14,7 @@ If you are interested in attending (and not already on the [[NIAC2008_attendees|
 
 === Timetable ===
 
-
+=== Discussion Items ===
 ==== General Business ====
 * Welcome and Introduction 
 * Review of NIAC'2007HMI minutes
