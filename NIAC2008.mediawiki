@@ -30,7 +30,7 @@ If you are interested in attending (and not already on the [[NIAC2008_attendees|
 * Vote on use of xsd.
 * schema as a path to O-O NeXus  
 
-==== Reduced data storage ===
+==== Reduced data storage ====
 * [http://www.smallangles.net/wgwiki/index.php/cansas1d_documentation review of canSAS 1-D v1.0 XML data format] for reduced Small-Angle Scattering data.
 ** Objective
 ** Why not use NeXus?
