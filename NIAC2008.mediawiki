@@ -27,6 +27,7 @@ If you are interested in attending (and not already on the [[NIAC2008_attendees|
 
 ==== Instrument definitions ====
 * Should we store pixel corners rather than centres?
+* Extending NXshape to handle [http://en.wikipedia.org/wiki/Constructive_solid_geometry Constructive Solid Geometry (CSG)] descriptions of the instrument (see last part of  [[Media:MantidNexusWorkspaceFormat.pdf|MantidNeXusWorkspaceFormat]])
 
 ==== XML schema definitions ====
 * Objective: why schema? - validation, tools e.g. IDE. Informative session. 
