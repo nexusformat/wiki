@@ -55,7 +55,9 @@ If you are interested in attending (and not already on the [[NIAC2008_attendees|
 * Features for NeXus API 4.3
 * XML schema review and implementation
 * Review [http://trac.nexusformat.org/code/report/3 open tickets]
-* Python bindings: [http://lists.nexusformat.org/pipermail/nexus-developers/2008/000791.html Paul Kienzle's new high level interface]
+* Python bindings: 
+**[http://lists.nexusformat.org/pipermail/nexus-developers/2008/000791.html Paul Kienzle's new high level interface]
+** Developing a "Open GENIE like" NeXus python application
 * C++ bindings
 * "Object oriented" NeXus
 * Review Darren Kelly's latest work. Provide feedback to Darren.
