@@ -44,6 +44,7 @@ If you are interested in attending (and not already on the [[NIAC2008_attendees|
 *** 2-D and higher-dimensionality '''reduced''' data sets
 *** How to standardize storage of results from data analysis steps and provenance
 * Is the next big priority after schema to provide reduced data formats for all instrument classes?
+* Reduced data storage by the Mantid project (see [[Media:MantidNexusWorkspaceFormat.pdf|MantidNeXusWorkspaceFormat]])
 
 ==== CIF ====
 * presentation by James Hester on lessons learned from CIF standardisation
