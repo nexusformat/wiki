@@ -16,7 +16,6 @@ Cronulla Beach Hotel in Sydney, Australia.
 | [Mark Koennecke](User%3AMark_Koennecke "wikilink")         | | Paul Scherrer Institut                                            |
 | Peter Lewis                                                | | Australian Synchrotron                                            |
 | [Jiro Suzuki](User%3AJiro_Suzuki "wikilink")               | | KEK, Japan                                                        |
-| Peter Turner                                               | | University of Sydney                                              |
 | [Pete Jemian](User%3APete_Jemian "wikilink")               | | Argonne National Laboratory, USA                                  |
 | Paul Lewis                                                 | Los Alamos National Laboratory                                      |
 | [Matthias Drochner](User%3AMatthias_Drochner "wikilink")   | Juelich                                                             |

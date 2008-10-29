@@ -25,9 +25,6 @@ Attendees of the
 | [[User:Jiro Suzuki|Jiro Suzuki]]
 || KEK, Japan 
 |-
-| Peter Turner
-|| University of Sydney 
-|-
 | [[User:Pete Jemian|Pete Jemian]] 
 || Argonne National Laboratory, USA 
 |-
