@@ -34,6 +34,10 @@ Lunch
 ==== Discussion of technology for describing base classes and instrument definitions ====
 * Review Darren Kelly's latest work. Provide feedback to Darren. - limited to one hour total
 
+==== Other items ====
+
+18:00 Adjourn for dinner
+
 === Friday, October 31 ===
 
 === Discussion Items ===
