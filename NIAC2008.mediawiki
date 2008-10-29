@@ -40,6 +40,10 @@ Lunch
 
 === Friday, October 31 ===
 
+09:00 Meeting commences
+
+18:00 Meeting adjourns
+
 === Discussion Items ===
 
 * Roadmap for NeXus
