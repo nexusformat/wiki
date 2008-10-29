@@ -4,6 +4,9 @@ Attendees of the
 {| border="1"
 ! Name || Company/Institute 
 |-
+| [[User:Peter Peterson|Peter Peterson (Chair)]]
+||Oak Ridge National Laboratory, USA 
+|-
 | [[User:Freddie Akeroyd|Freddie Akeroyd]]
 || ISIS, UK 
 |-
@@ -18,9 +21,6 @@ Attendees of the
 |-
 | Peter Lewis
 || Australian Synchrotron  
-|-
-| [[User:Peter Peterson|Peter Peterson]]
-||Oak Ridge National Laboratory, USA 
 |-
 | [[User:Jiro Suzuki|Jiro Suzuki]]
 || KEK, Japan 
