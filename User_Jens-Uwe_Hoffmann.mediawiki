@@ -1,12 +1,14 @@
 ==Jens-Uwe Hoffmann==
-===HMI Representative, NeXus International Advisory Committee===
+===HZB Representative, NeXus International Advisory Committee===
 ;Address
-:[http://www.hmi.de Hahn-Meitner-Institut Berlin]
+:[http://www.helmholtz-berlin.de Helmholtz Zentrum Berlin]
 :Dept. SF2
 :Glienicker Str. 100
 :14109 Berlin
 : Germany
 
+before [http://www.hmi.de Hahn-Meitner-Institut Berlin]
+
 ;Phone: +49 30 8062 2185
 ;Fax: +49 30 8062 2999
-;Email: [mailto:hoffmann-j@hmi.de hoffmann-j@hmi.de]
+;Email: [mailto:hoffmann-j@helmholtz-berlin.de hoffmann-j@helmholtz-berlin.de]
