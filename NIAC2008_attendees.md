@@ -12,7 +12,7 @@ Cronulla Beach Hotel in Sydney, Australia.
 | [Peter Peterson (Chair)](User%3APeter_Peterson "wikilink") | |Oak Ridge National Laboratory, USA                                 |
 | [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink")       | | ISIS, UK                                                          |
 | [Nick Hauser](User%3ANick_Hauser "wikilink")               | | Australian Nuclear Science and Technology Organisation, Australia |
-| [ Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann "wikilink")  | | Hahn-Meitner-Institut Berlin, Germany                             |
+| [ Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann "wikilink")  | | Helmholtz Zentrum Berlin (HMI before), Germany                    |
 | [Mark Koennecke](User%3AMark_Koennecke "wikilink")         | | Paul Scherrer Institut                                            |
 | Peter Lewis                                                | | Australian Synchrotron                                            |
 | [Jiro Suzuki](User%3AJiro_Suzuki "wikilink")               | | KEK, Japan                                                        |
