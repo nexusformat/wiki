@@ -6,7 +6,7 @@
 *[[User:Emmanuel Farhi|Emmanuel Farhi]], Institut Laue Langevin
 *[[User:Andy Gotz|Andrew Götz]], European Synchrotron Radiation Facility, France
 *[[User:nick|Nick Hauser]], Australian Nuclear Science and Technology Organisation, Australia (Documentation Release Manager, netCDF contact)
-*[[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]], Hahn-Meitner-Institut Berlin, Germany
+*[[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]], Helmholtz Zentrum Berlin (renamed HMI), Germany
 *[[User:Pete Jemian|Pete Jemian]], Advanced Photon Source, USA
 *[[User:Paul Kienzle|Paul Kienzle]], DANSE, USA
 *[[User:Mark Koennecke|Mark Könnecke]], Paul Scherrer Institut, Switzerland (Technical Committee Chair)
