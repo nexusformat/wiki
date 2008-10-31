@@ -20,4 +20,6 @@ Cronulla Beach Hotel in Sydney, Australia.
 | Paul Lewis                                                 | Los Alamos National Laboratory                                      |
 | [Matthias Drochner](User%3AMatthias_Drochner "wikilink")   | Juelich                                                             |
 
-<img src="Niac2008-attendees.jpg" title="photo of NIAC 2008 attendees" alt="photo of NIAC 2008 attendees" width="400" />
+<img src="Niac2008-attendees.jpg" title="fig:photo of NIAC 2008 attendees" alt="photo of NIAC 2008 attendees" width="400" />
+<img src="Niac2008-hotel.jpg" title="fig:Rydges Cronulla Sydney hotel, site of NIAC2008 meeting" alt="Rydges Cronulla Sydney hotel, site of NIAC2008 meeting" width="200" />
+<img src="Niac2008-view.jpg" title="fig:Panorama view of North Cronulla Beach from Rydges Cronulla Sydney hotel, site of NIAC2008 meeting" alt="Panorama view of North Cronulla Beach from Rydges Cronulla Sydney hotel, site of NIAC2008 meeting" width="400" />
