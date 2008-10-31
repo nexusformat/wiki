@@ -41,7 +41,7 @@ The committee reserves the right to appoint additional members for a limited per
 
 === Organization ===
 ;Accountability:The NeXus International Advisory Committee will ensure that their decisions are reported both on the NeXus web site and on the NeXus mailing list. Committee business will be conducted either through a mailing list, to which non-committee members can subscribe and whose archive will be available on the web, or through meetings, which will be advertised on the NeXus mailing list and which non-committee members may attend.
-:The NeXus International Advisory Committee will have the following officers:
+:The NeXus International Advisory Committee will have the following executive officers:
 :* Chair to oversee committee deliberations
 :* Executive Secretary to coordinate meetings and online debates. The person that holds the position does not need to be an existing member of the NIAC, and does not vote unless he/she is a regular member.
 :* Technical Committee Chair with the responsibility to oversee the NeXus API. The tasks of the chair are to coordinate tests, manage and announce releases, and promote code from the contributed directory to the regular release build.  The person that holds the position does not need to be an existing member of the NIAC, and does not vote unless he/she is a regular member.

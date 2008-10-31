@@ -105,7 +105,7 @@ limited period to ensure balanced representation.
 
 Accountability:The NeXus International Advisory Committee will ensure that their decisions are reported both on the NeXus web site and on the NeXus mailing list. Committee business will be conducted either through a mailing list, to which non-committee members can subscribe and whose archive will be available on the web, or through meetings, which will be advertised on the NeXus mailing list and which non-committee members may attend.  
 The NeXus International Advisory Committee will have the following
-officers:
+executive officers:
 
 -   Chair to oversee committee deliberations
 -   Executive Secretary to coordinate meetings and online debates. The
