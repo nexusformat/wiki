@@ -29,7 +29,9 @@ The purpose of the NeXus International Advisory Committee is to supervise the de
 #To coordinate with the developers of the NeXus Application Programming Interface to ensure that it supports the use of the NeXus format in the neutron, x-ray, and muon communities, and to promote other software development that will benefit users of the NeXus format.
 #To coordinate with other organizations that maintain and develop related data formats to ensure maximum compatibility.
 
-The committee will meet at least once every calendar year.
+The committee will meet at least once every calendar year according to the following plan:
+* In years coinciding with the NOBUGS series of conferences (once every two years), members of the entire NIAC will meet as a satellite meeting to NOBUGS, along with interested members of the community.
+* In intervening years, the executive officers of the NIAC will attend, along with interested members of the NIAC.  This is intended to be a working meeting with a small group.
 
 === Membership ===
 The NeXus International Advisory Committee will seek balanced representation of the international community. It will consist of at most one voting representative from each major neutron, synchrotron x-ray, and muon facility.

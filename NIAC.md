@@ -77,7 +77,16 @@ is not limited to, the following activities.
 6.  To coordinate with other organizations that maintain and develop
     related data formats to ensure maximum compatibility.
 
-The committee will meet at least once every calendar year.
+The committee will meet at least once every calendar year according to
+the following plan:
+
+-   In years coinciding with the NOBUGS series of conferences (once
+    every two years), members of the entire NIAC will meet as a
+    satellite meeting to NOBUGS, along with interested members of the
+    community.
+-   In intervening years, the executive officers of the NIAC will
+    attend, along with interested members of the NIAC. This is intended
+    to be a working meeting with a small group.
 
 ### Membership
 
