@@ -9,15 +9,10 @@ listed below. If a member wishes to be renewed, they must provide a
 letter of support from the facility and be approved by the NIAC as
 stated in the [constitution](NIAC "wikilink").
 
-### Expire March 10, 2008
-
--   Stuart Campbell - Diamond Light Source, UK (Executive co-Secretary -
-    1 year)
-
 ### Expire Feburary 3, 2009
 
 -   Freddie Akeroyd - ISIS Pulsed Neutron Facility, UK (Executive
-    co-Secretary - 1 year)
+    co-Secretary - 2 year)
 -   Stephen Cottrell - ISIS Pulsed Muon Facility, UK
 -   Emmanuel Farhi - Institut Laue Langevin, France
 -   Pete Jemian - APS, ANL, USA
@@ -39,6 +34,10 @@ stated in the [constitution](NIAC "wikilink").
 -   Andy Goetz - European Synchrotron Radiation Facility, France -
     *letter of support needed*
 -   Nick Maliszewskyj - NIST Center for Neutron Research, USA
--   Peter Peterson - Spallation Neutron Source, USA (Chair - 2 year)
+-   Peter Peterson - Spallation Neutron Source, USA (Chair - 3 years)
 -   Stephane Poirier - Synchrotron Soleil, France
+
+### Expire October 30, 2011
+
+-   Wayne Lewis - Australian Synchrotron
 
