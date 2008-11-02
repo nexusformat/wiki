@@ -10,8 +10,6 @@ layout: wiki
 -   [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink"), Rutherford
     Appleton Laboratory, UK (ISIS Representative) (Executive
     co-Secretary)
--   [Stuart Campbell](User%3AStuart_Campbell "wikilink"), Diamond Light
-    Source, UK (Executive co-Secretary, imgCIF contact)
 -   [Stephen Cottrell](User%3ASteve_Cottrell "wikilink"), Rutherford
     Appleton Laboratory, UK (Muon Representative)
 -   [Matthias Drochner](User%3AMatthias_Drochner "wikilink"),
