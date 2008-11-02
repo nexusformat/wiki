@@ -37,7 +37,3 @@ stated in the [constitution](NIAC "wikilink").
 -   Peter Peterson - Spallation Neutron Source, USA (Chair - 3 years)
 -   Stephane Poirier - Synchrotron Soleil, France
 
-### Expire October 30, 2011
-
--   Wayne Lewis - Australian Synchrotron
-

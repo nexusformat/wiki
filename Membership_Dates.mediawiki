@@ -21,6 +21,3 @@ The members of the NIAC, with the experation of their membership is listed below
 *Nick Maliszewskyj - NIST Center for Neutron Research, USA
 *Peter Peterson - Spallation Neutron Source, USA (Chair - 3 years)
 *Stephane Poirier - Synchrotron Soleil, France
-
-===Expire October 30, 2011===
-*Wayne Lewis - Australian Synchrotron
