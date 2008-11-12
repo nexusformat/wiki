@@ -176,7 +176,7 @@ proposed. This is the current procedure:
 Meetings
 --------
 
--   [early October 2009](NIAC2009 "wikilink") at APS, Chicago
+-   [early October 2009](NIAC2009 "wikilink") hosted by APS in Chicago
 -   [October 30-31, 2008](NIAC2008 "wikilink") at ANSTO, Australia
 -   [September 24-26, 2007](NIAC2007 "wikilink") at HMI, Berlin, Germany
     ([online](NIAC2007_Minutes "wikilink") and [pdf
