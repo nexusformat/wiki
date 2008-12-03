@@ -68,7 +68,7 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits/nx42tes
 |-
 ! {{Headcellstyle}} | Linux (FC6)
 | align="center" | 32bit Intel
-| align="center" | [[User:Freddie Akeroyd|Freddie Akeroyd]] 18:46, 29 August 2007 (BST)
+| align="center" | [[User:Freddie Akeroyd|Freddie Akeroyd]] 18:46, 3 December 2008 (BST)
 | align="center" | tar
 | align="center" | 4.2.1
 | align="center" | 1.6.5
