@@ -7,6 +7,7 @@ layout: wiki
 2008
 ----
 
+Wednesday, December 3, 2008:NeXus API 4.2 Release Candidate 2 is now [available for testing](NeXus_42_Testing "wikilink")  
 Wednesday, August 27, 2008:Work is currently in progress to convert NeXus definitions from [Meta-DTDs](Metaformat "wikilink") into [XML Schema](http://www.w3.org/XML/Schema) - for more details see the [NeXus schema](Schema "wikilink") page.  
 
 2007
