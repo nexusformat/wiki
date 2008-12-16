@@ -39,6 +39,36 @@ of the modifications necessary to fix it.
 New Features
 ------------
 
+### C++ Interface
+
+See the [doxygen
+documentation](http://download.nexusformat.org/doxygen/html/classNeXus_1_1File.html)
+and [NeXus API test
+program](http://svn.nexusformat.org/code/branches/4.2/test/napi_test_cpp.cxx)
+
+### C++ Stream Like interface
+
+The idea is to provide an IOSteam like interface and allow you to type
+
+        // create an entry and a data item
+        File nf(fname, NXACC_CREATE);
+        nf << Group("entry1", "NXentry") << Data("dat1", w, "int_attr", 3);
+        nf.close();
+
+        File nf1(fname, NXACC_RDWR);
+        // add a double_attr to an existing setup
+        nf1 >> Group("entry1", "NXentry") >> Data("dat1") << Attr("double_attr", 6.0);
+        nf1.close();
+
+        // read back data items
+        File nf2(fname, NXACC_READ);
+        nf2 >> Group("entry1", "NXentry") >> Data("dat1", w1, "int_attr", i, "double_attr", d);
+        // alternative way to read d1
+        nf2 >> Data("dat1") >> Attr("double_attr", d1);
+
+See also the [NeXus API test
+program](http://svn.nexusformat.org/code/branches/4.2/test/napi_test_cpp.cxx)
+
 Changed Features
 ----------------
 
