@@ -44,7 +44,7 @@ here](http://trac.nexusformat.org/code/query?status=new&status=assigned&status=r
 |------------------------------|-------------|-----------------------------------------------------------------------------------|------------|--------|--------|--------|----------------|---------------------------------------|
 | | Linux (FC6)                | 32bit Intel | [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink") 18:46, 3 December 2008 (BST) | tar        | 4.2.1  | 1.6.5  | 2.2.2  | passed         | gcc, g77, g95, gcj, python            |
 | | Linux (SL5)                | 32bit Intel | [Mark Koennecke](User%3AMark_Koennecke "wikilink") 10:00, 17 December 2008        | tar        | 4.2.2  | 1.6.6  | 2.2.2  | passed         | gcc, g77, g95, java1.6.0, Tcl, python |
-| | Linux (Ubuntu Hardy heron) | 32bit Intel | [Mark Koennecke](User%3AMark_Koennecke "wikilink") 11:00, 17 December 2008        | tar        | 4.1.4  | 1.6.5  | 2.2.2  | passed         | gcc, g77, java1.6.0, python           |
+| | Linux (Ubuntu Hardy Heron) | 32bit Intel | [Mark Koennecke](User%3AMark_Koennecke "wikilink") 11:00, 17 December 2008        | tar        | 4.1.4  | 1.6.5  | 2.2.2  | passed         | gcc, g77, java1.6.0, python           |
 | | Mac OS X 10.5 Leopard      | Power-PC    | [Mark Koennecke](User%3AMark_Koennecke "wikilink") 12:00, 17 December 2008        | tar        | 4.2.2  | 1.6.6  | 2.2.2  | passed         | gcc, java1.6.0, python                |
 
 ### 4.2rc1 (released 24/10/2008)

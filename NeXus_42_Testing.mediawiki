@@ -49,7 +49,7 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits/nx42tes
 | align="center" | passed
 | align="center" | gcc, g77, g95, java1.6.0, Tcl, python
 |-
-! {{Headcellstyle}} | Linux (Ubuntu Hardy heron)
+! {{Headcellstyle}} | Linux (Ubuntu Hardy Heron)
 | align="center" | 32bit Intel
 | align="center" | [[User:Mark Koennecke|Mark Koennecke]] 11:00, 17 December 2008
 | align="center" | tar
