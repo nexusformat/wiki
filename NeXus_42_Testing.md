@@ -40,9 +40,10 @@ page](http://download.nexusformat.org/kits/nx42testing.shtml). Issues
 reported with this release [can be found
 here](http://trac.nexusformat.org/code/query?status=new&status=assigned&status=reopened&status=closed&version=4.2rc2&order=priority).
 
-| | Operating System | | Processor | | Tester                                                                          | | Kit Type | | HDF4 | | HDF5 | | MXML | | “make check” | | Remarks                  |
-|--------------------|-------------|-----------------------------------------------------------------------------------|------------|--------|--------|--------|----------------|----------------------------|
-| | Linux (FC6)      | 32bit Intel | [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink") 18:46, 3 December 2008 (BST) | tar        | 4.2.1  | 1.6.5  | 2.2.2  | passed         | gcc, g77, g95, gcj, python |
+| | Operating System | | Processor | | Tester                                                                          | | Kit Type | | HDF4 | | HDF5 | | MXML | | “make check” | | Remarks                             |
+|--------------------|-------------|-----------------------------------------------------------------------------------|------------|--------|--------|--------|----------------|---------------------------------------|
+| | Linux (FC6)      | 32bit Intel | [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink") 18:46, 3 December 2008 (BST) | tar        | 4.2.1  | 1.6.5  | 2.2.2  | passed         | gcc, g77, g95, gcj, python            |
+| | Linux (SL5)      | 32bit Intel | [Mark Koennecke](User%3AMark_Koennecke "wikilink") 10:00, 17 December 2008        | tar        | 4.2.2  | 1.6.6  | 2.2.2  | passed         | gcc, g77, g95, java1.6.0, Tcl, python |
 
 ### 4.2rc1 (released 24/10/2008)
 
