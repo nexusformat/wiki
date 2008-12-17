@@ -68,6 +68,16 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits/nx42tes
 | align="center" | 2.2.2
 | align="center" | passed
 | align="center" | gcc, java1.6.0, python
+|-
+! {{Headcellstyle}} | Win XP PRO (SP3)
+| align="center" | Intel 32 bit
+| align="center" | [[User:Freddie Akeroyd|Freddie Akeroyd]] 18:00, 17 December 2008
+| align="center" | tar
+| align="center" | 4.2.1
+| align="center" | 1.6.5
+| align="center" | 2.2.2
+| align="center" | passed
+| align="center" | gcc
 |}
 
 === 4.2rc1 (released 24/10/2008) ===
