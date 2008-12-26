@@ -78,6 +78,16 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits/nx42tes
 | align="center" | 2.2.2
 | align="center" | passed
 | align="center" | gcc
+|-
+! {{Headcellstyle}} | Linux (F10)
+| align="center" | Intel 32 bit
+| align="center" | [[User:Stuart Campbell|Stuart Campbell]] 16:46, 26 December 2008 (UTC)
+| align="center" | tar
+| align="center" | 4.2r3
+| align="center" | 1.8.1
+| align="center" | 2.5
+| align="center" | passed
+| align="center" | gcc, gfortran, openjdk, python
 |}
 
 === 4.2rc1 (released 24/10/2008) ===
