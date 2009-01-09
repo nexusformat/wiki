@@ -59,6 +59,16 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits/nx42tes
 | align="center" | passed
 | align="center" | gcc, g77, java1.6.0, python
 |-
+! {{Headcellstyle}} | Linux (Ubuntu Hardy Heron)
+| align="center" | 64bit Intel
+| align="center" | [[User:Cpascual|Cpascual]] 14:06, 9 January 2009 (UTC)
+| align="center" | tar
+| align="center" | 4.1.4
+| align="center" | 1.6.5
+| align="center" | 2.4.1
+| align="center" | 29 tests ok , 3 skipped (NXsummary)
+| align="center" | gcc, g++, g77, gfortran, python, doxygen
+|-
 ! {{Headcellstyle}} | Mac OS X 10.5 Leopard
 | align="center" | Power-PC
 | align="center" | [[User:Mark Koennecke|Mark Koennecke]] 12:00, 17 December 2008
