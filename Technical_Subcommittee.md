@@ -45,4 +45,8 @@ Meetings
     ([minutes](Media:VC_20080716.pdf "wikilink"))
 -   Tech committee video conference 27th August 2008
     ([minutes](Media:VC_20080827.pdf "wikilink"))
+-   Tech committee video conference 17th December 2008
+    ([minutes](Media:VC_20081217.pdf "wikilink"))
+-   Tech committee video conference 14th January 2009
+    ([minutes](Media:VC_20090114.pdf "wikilink"))
 
