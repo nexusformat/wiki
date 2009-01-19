@@ -50,3 +50,4 @@ Meetings
 -   Tech committee video conference 14th January 2009
     ([minutes](Media:VC_20090114.pdf "wikilink"))
 
+Next VC meeting 18th February 2009, 0800 EST / 1300 GMT / 1400 CET
