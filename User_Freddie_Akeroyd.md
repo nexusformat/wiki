@@ -18,4 +18,4 @@ Chilton, Didcot, OX11 0QX, GB
 
 Phone:+44 1235 445457  
 Fax: +44 1235 445720  
-Email: <F.A.Akeroyd@rl.ac.uk>  
+Email: <freddie.akeroyd@stfc.ac.uk>  

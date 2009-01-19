@@ -6,4 +6,4 @@
 
 ;Phone:+44 1235 445457
 ;Fax: +44 1235 445720
-;Email: [mailto:F.A.Akeroyd@rl.ac.uk F.A.Akeroyd@rl.ac.uk]
+;Email: [mailto:freddie.akeroyd@stfc.ac.uk freddie.akeroyd@stfc.ac.uk]
