@@ -22,8 +22,8 @@ are:
     Institut, Switzerland (Technical Committee Chair)
 -   [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink"), Rutherford
     Appleton Laboratory, UK
--   [Stuart Campbell](User%3AStuart_Campbell "wikilink"), Diamond Light
-    Source, UK
+-   [Stuart Campbell](User%3AStuart_Campbell "wikilink"), Oak Ridge
+    National Laboratory, USA
 -   [Nick Hauser](User%3Anick "wikilink"), Australian Nuclear Science
     and Technology Organisation, Australia
 -   [Paul Kienzle](User%3APaul_Kienzle "wikilink"), DANSE, USA
