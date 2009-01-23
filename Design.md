@@ -144,8 +144,8 @@ integrals, *etc*.
 ::;[NXdata](NXdata "wikilink"):The data to be plotted i.e. a single data
 set comprising the measurements along with the data errors, and the
 default axis scales and labels required to plot the data. There can be
-more than one [NXentry](NXentry "wikilink"), e.g., if there are several
-detector banks producing plottable data.
+more than one NXdata entry, e.g., if there are several detector banks
+producing plottable data.
 
 ::;[NXevent\_data](NXevent_data "wikilink"):Event-based data, i.e. a
 data set in which each count is recorded as a separate data event. This
