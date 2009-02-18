@@ -33,6 +33,16 @@ include/attach:
 -   Where these HDF4/HDF5/XML libraries were obtained e.g. built locally
     from source, installed by <whatever> package management tool.
 
+### 4.2rc3 (released 18/02/2009)
+
+The kit can be downloaded from the [NeXus download
+page](http://download.nexusformat.org/kits/nx42testing.shtml). Issues
+reported with this release [can be found
+here](http://trac.nexusformat.org/code/query?status=new&status=assigned&status=reopened&status=closed&version=4.2rc3&order=priority).
+
+| | Operating System | | Processor | | Tester | | Kit Type | | HDF4 | | HDF5 | | MXML | | “make check” | | Remarks |
+|--------------------|-------------|----------|------------|--------|--------|--------|----------------|-----------|
+
 ### 4.2rc2 (released 3/12/2008)
 
 The kit can be downloaded from the [NeXus download
