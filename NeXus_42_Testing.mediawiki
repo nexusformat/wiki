@@ -15,7 +15,7 @@ If the build or check fails, please file a bug report into the [[IssueReporting]
 
 === 4.2rc4 (released 23/02/2009) ===
 
-The kit can be downloaded from the [http://download.nexusformat.org/kits/nx42testing.shtml NeXus download page]. Issues reported with this release [http://trac.nexusformat.org/code/query?status=new&status=assigned&status=reopened&status=closed&version=4.2rc3&order=priority can be found here].
+The kit can be downloaded from the [http://download.nexusformat.org/kits/nx42testing.shtml NeXus download page]. Issues reported with this release [http://trac.nexusformat.org/code/query?status=new&status=assigned&status=reopened&status=closed&version=4.2rc4&order=priority can be found here].
 
 {| {{Tablestyle}}
 |-
@@ -39,7 +39,6 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits/nx42tes
 | align="center" | 31 tests successful.  7 skipped (3/IDL, 3/NXsummary, and Python+HDF4)
 | align="center" | gcc, g++, g77, f95, python
 |}
-
 
 === 4.2rc3 (released 18/02/2009) ===
 

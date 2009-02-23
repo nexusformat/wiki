@@ -38,7 +38,7 @@ include/attach:
 The kit can be downloaded from the [NeXus download
 page](http://download.nexusformat.org/kits/nx42testing.shtml). Issues
 reported with this release [can be found
-here](http://trac.nexusformat.org/code/query?status=new&status=assigned&status=reopened&status=closed&version=4.2rc3&order=priority).
+here](http://trac.nexusformat.org/code/query?status=new&status=assigned&status=reopened&status=closed&version=4.2rc4&order=priority).
 
 | | Operating System | | Processor | | Tester                                                            | | Kit Type | | HDF4 | | HDF5 | | MXML | | “make check”                                                       | | Remarks                  |
 |--------------------|-------------|---------------------------------------------------------------------|------------|--------|--------|--------|----------------------------------------------------------------------|----------------------------|
