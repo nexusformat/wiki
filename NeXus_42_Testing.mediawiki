@@ -58,6 +58,36 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits/nx42tes
 | align="center" | 2.2.2
 | align="center" | 29 tests successful.  9 skipped (3/IDL, 3/Python, 3/Fortran)
 | align="center" | gcc, g++
+|-
+! {{Headcellstyle}} | Linux (Ubuntu Hardy Heron)
+| align="center" | 64bit Intel
+| align="center" | [[User:Cpascual|Cpascual]] 13:34, 24 February 2009 (UTC)
+| align="center" | tar
+| align="center" | 4.1.4
+| align="center" | 1.6.5
+| align="center" | 2.4.1
+| align="center" | 28 tests ok , 6 failed (everything related to HDF4), 7 skipped (3 IDL, 3 NXsummary, 1 Python+HDF4)
+| align="center" | gcc, g++, g77, gfortran, python, doxygen
+|-
+! {{Headcellstyle}} | Linux (SuSe 10.2)
+| align="center" | 64bit Intel
+| align="center" | [[User:Cpascual|Cpascual]] 13:34, 24 February 2009 (UTC)
+| align="center" | tar
+| align="center" | -
+| align="center" | 1.8.2
+| align="center" | -
+| align="center" | 8 tests were successful. 30 tests were skipped (everything involving HDF4, XML or bindings other than g++ and python)
+| align="center" | gcc, g++, python
+|-
+! {{Headcellstyle}} | Linux (SuSe 10.2)
+| align="center" | 32bit Intel
+| align="center" | [[User:Cpascual|Cpascual]] 13:34, 24 February 2009 (UTC)
+| align="center" | tar
+| align="center" | 4.2.1
+| align="center" | 1.8.2
+| align="center" | 2.2.2
+| align="center" | 31 tests were successful. 7 tests were skipped (3 Fortran, 3 IDL, 1 Python+HDF4).
+| align="center" | gcc, g++, python 
 |}
 
 === 4.2rc2 (released 3/12/2008) ===
