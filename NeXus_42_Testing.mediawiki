@@ -38,23 +38,26 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits/nx42tes
 | align="center" | 2.5-2
 | align="center" | 31 tests successful.  7 skipped (3/IDL, 3/NXsummary, and Python+HDF4)
 | align="center" | gcc, g++, g77, f95, python
-|}
-
-=== 4.2rc3 (released 18/02/2009) ===
-
-The kit can be downloaded from the [http://download.nexusformat.org/kits/nx42testing.shtml NeXus download page]. Issues reported with this release [http://trac.nexusformat.org/code/query?status=new&status=assigned&status=reopened&status=closed&version=4.2rc3&order=priority can be found here].
-
-{| {{Tablestyle}}
 |-
-! {{Headcellstyle}} | Operating System
-! {{Headcellstyle}} | Processor
-! {{Headcellstyle}} | Tester
-! {{Headcellstyle}} | Kit Type
-! {{Headcellstyle}} | HDF4
-! {{Headcellstyle}} | HDF5
-! {{Headcellstyle}} | MXML
-! {{Headcellstyle}} | "make check"
-! {{Headcellstyle}} | Remarks
+! {{Headcellstyle}} | Linux (RHEL4)
+| align="center" | 64bit Intel
+| align="center" | [[User:Freddie Akeroyd|Freddie]] 10:05, 24 February 2009 (UTC)
+| align="center" | tar
+| align="center" | 4.2.1
+| align="center" | 1.6.5
+| align="center" | 2.2.2
+| align="center" | 29 tests successful.  9 skipped (3/IDL, 3/Python, 3/Fortran)
+| align="center" | gcc, g++
+|-
+! {{Headcellstyle}} | Windows XP (SP3)
+| align="center" | 32bit Intel
+| align="center" | [[User:Freddie Akeroyd|Freddie]] 10:05, 24 February 2009 (UTC)
+| align="center" | tar
+| align="center" | 4.2.1
+| align="center" | 1.6.5
+| align="center" | 2.2.2
+| align="center" | 29 tests successful.  9 skipped (3/IDL, 3/Python, 3/Fortran)
+| align="center" | gcc, g++, g77
 |}
 
 === 4.2rc2 (released 3/12/2008) ===
