@@ -51,6 +51,7 @@ here](http://trac.nexusformat.org/code/query?status=new&status=assigned&status=r
 | | Linux SL-5                   | 31bit Intel | [Mark Koennecke](User%3AMakr_Koennecke "wikilink") 13:34, 24 February 2009 (UTC)   | tar        | 4.2r2  | 1.6.6  | 2.3    | 25 tests ok , 1 failed (IDL-HDF-5 because of different HDF5 version)                                                  | gcc, g++, g77, gfortran, python, idl, java |
 | | Linux (Fedora 10)            | 64bit Intel | [Stuart Campbell](User%3AStuart_Campbell "wikilink") 22:01, 24 February 2009 (UTC) | tar        | 4.2r3  | 1.8.1  | 2.5    | 34 tests were successful , 4 tests were skipped (3 IDL, 1 Python-HDF4)                                                | gcc, g++, gfortran, python, openjdk        |
 | | Linux (ubuntu 8.10 intrepid) | 64bit Intel | [Stuart Campbell](User%3AStuart_Campbell "wikilink") 22:07, 24 February 2009 (UTC) | tar        | 4.1r4  | 1.6.6  | 2.5    | 29 tests were successful , 7 tests were skipped (3 IDL, 1 Python-HDF4, 3 NXsummary)                                   | gcc, g++, gfortran, python                 |
+| | Linux (openSUSE 11.1)        | 64bit Intel | [Stuart Campbell](User%3AStuart_Campbell "wikilink") 22:33, 24 February 2009 (UTC) | tar        |        | 1.8.1  | 2.5    | 19 tests were successful , 19 tests were skipped (3 IDL, 3 NXsummary, 13 HDF4 related)                                | gcc, g++, gfortran, python-2.6, openjdk    |
 
 ### 4.2rc2 (released 3/12/2008)
 
