@@ -18,6 +18,10 @@ Extras](http://fedoraproject.org/wiki/Extras/UsingExtras). IMPORTANT
 NOTE: Debian also provides the mxml package, but it based on 2.0 and
 will not work properly.
 
+**Python Interface** You will need both the numpy and ctypes modules to
+be available. These are provided in both the Fedora and EPEL
+repositories.
+
 Building Notes
 --------------
 
