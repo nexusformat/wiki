@@ -69,6 +69,10 @@ The idea is to provide an IOSteam like interface and allow you to type
 See also the [NeXus API test
 program](http://svn.nexusformat.org/code/branches/4.2/test/napi_test_cpp.cxx)
 
+### IDL Interface
+
+This should be considered as a 'technology preview' release.
+
 Changed Features
 ----------------
 

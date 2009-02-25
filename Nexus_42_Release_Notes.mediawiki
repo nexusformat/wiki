@@ -38,6 +38,9 @@ The idea is to provide an IOSteam like interface and allow you to type
 </pre>
 See also the [http://svn.nexusformat.org/code/branches/4.2/test/napi_test_cpp.cxx NeXus API test program]
 
+===IDL Interface===
+This should be considered as a 'technology preview' release.
+
 ==Changed Features==
 
 ==Known Issues==
