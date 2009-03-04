@@ -4,6 +4,12 @@ permalink: NAPI_Routines/
 layout: wiki
 ---
 
+OUT OF DATE
+-----------
+
+This page is now out of date and has been replaced by [Doxygen generated
+documentation](http://download.nexusformat.org/doxygen/html/)
+
 General Initialization and Shutdown
 -----------------------------------
 

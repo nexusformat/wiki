@@ -1,3 +1,6 @@
+==OUT OF DATE==
+This page is now out of date and has been replaced by [http://download.nexusformat.org/doxygen/html/ Doxygen generated documentation]
+
 ==General Initialization and Shutdown==
 ===NXopen===
 Opens the NeXus file, and creates and initializes the NeXus file structure. The returned handle is a pointer to this structure.
