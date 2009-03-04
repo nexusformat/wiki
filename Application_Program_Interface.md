@@ -62,7 +62,7 @@ The core API comprises the following functional groups:
 -   Handling of linking and group hierarchy.
 -   Routines to handle memory allocation.
 
-### C and C+++ Interface
+### C and C++ Interface
 
 [Documentation of
 routines](http://download.nexusformat.org/doxygen/html/)

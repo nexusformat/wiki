@@ -21,7 +21,7 @@ The core API comprises the following functional groups:
 *Routines to handle memory allocation.
 
 
-===C and C+++ Interface===
+===C and C++ Interface===
 [http://download.nexusformat.org/doxygen/html/ Documentation of routines]
 
 ===Fortran 77 Interface===
