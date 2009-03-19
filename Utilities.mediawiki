@@ -34,7 +34,7 @@ NXtree [-[no]attr] [-[no]data] [-html | -latex] <NeXus_file>
 ;HDFLook:Motif HDF viewer which has some impressive plotting capabilities. For example, it is possible to plot 2D data sets and then take arbitrary 1D cuts. However, it does not recognize Vgroups, so the NeXus file hierarchy is lost making it hard to identify the plottable data. However, the price is right (i.e. it's free).
 
 ==Data Analysis==
-;[http://www.isis.rl.ac.uk/openGENIE Open Genie]: I include Open Genie here as well since it is really more of a data analysis package than a plotting package per se.
+;[http://www.opengenie.org/ Open Genie]: I include Open Genie here as well since it is really more of a data analysis package than a plotting package per se.
 ;LAMP: LAMP is also designed for analyzing raw data in addition to visualizing the results.
 ;UDA and WIMDA:General purpose muon scattering analysis packages (ISIS)
 ;hdfb.sav and h5b.sav:browser for any 1D/2D/3D data saved in HDF (APS)
@@ -48,3 +48,4 @@ NXtree [-[no]attr] [-[no]data] [-html | -latex] <NeXus_file>
 ;Redas:data analysis for Reflectometer, based on Scilab (SINQ)
 ;Amortool:simple CLI tool for Reflectometer data analysis (SINQ)
 ;Scilab:general matlab like data analysis tool - with a NeXus interface for that (SINQ)
+;[http://www.mantidproject.org/ Mantid]: An instrument independant data analysis framework that supports NeXus as an output format.

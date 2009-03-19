@@ -66,7 +66,7 @@ HDFLook:Motif HDF viewer which has some impressive plotting capabilities. For ex
 Data Analysis
 -------------
 
-[Open Genie](http://www.isis.rl.ac.uk/openGENIE): I include Open Genie here as well since it is really more of a data analysis package than a plotting package per se.  
+[Open Genie](http://www.opengenie.org/): I include Open Genie here as well since it is really more of a data analysis package than a plotting package per se.  
 LAMP: LAMP is also designed for analyzing raw data in addition to visualizing the results.  
 UDA and WIMDA:General purpose muon scattering analysis packages (ISIS)  
 hdfb.sav and h5b.sav:browser for any 1D/2D/3D data saved in HDF (APS)  
@@ -81,3 +81,4 @@ addit, subi:programs to add or subtract powder data and write files suitable for
 Redas:data analysis for Reflectometer, based on Scilab (SINQ)  
 Amortool:simple CLI tool for Reflectometer data analysis (SINQ)  
 Scilab:general matlab like data analysis tool - with a NeXus interface for that (SINQ)  
+[Mantid](http://www.mantidproject.org/): An instrument independant data analysis framework that supports NeXus as an output format.  
