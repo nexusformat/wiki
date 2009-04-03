@@ -75,7 +75,17 @@ program](http://svn.nexusformat.org/code/branches/4.2/test/napi_test_cpp.cxx)
 
 ### IDL Interface
 
-This should be considered as a 'technology preview' release.
+There is a new interface to RSI's Interactive Data Language, IDL for
+NeXus. This interface has to be considered beta. Nevertheless it is
+working most of the time. Known issues include:
+
+-   Compressed reading and writing do not work for HDF-4 files, probably
+    because of
+
+`a library version conflict on libz. `
+
+-   There is an issue using NXgetslab on 64 bit operating systems;
+    expect a fix for this pretty soon.
 
 Changed Features
 ----------------
