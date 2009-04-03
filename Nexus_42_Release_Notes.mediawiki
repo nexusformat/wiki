@@ -56,7 +56,7 @@ There is now, thanks to David Kienzle, a supported interface for the python scri
 ==Changed Features==
 
 ==Known Issues==
-See the comments on the IDL inetrface.
+See the comments on the IDL interface.
 
 ==Miscellaneous bug fixes==
 The following items are bugs reported in previous releases and resolved in

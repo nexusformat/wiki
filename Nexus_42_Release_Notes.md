@@ -96,7 +96,7 @@ Changed Features
 Known Issues
 ------------
 
-See the comments on the IDL inetrface.
+See the comments on the IDL interface.
 
 Miscellaneous bug fixes
 -----------------------
