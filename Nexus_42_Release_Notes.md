@@ -80,10 +80,7 @@ NeXus. This interface has to be considered beta. Nevertheless it is
 working most of the time. Known issues include:
 
 -   Compressed reading and writing do not work for HDF-4 files, probably
-    because of
-
-`a library version conflict on libz. `
-
+    because of a library version conflict on libz.
 -   There is an issue using NXgetslab on 64 bit operating systems;
     expect a fix for this pretty soon.
 
