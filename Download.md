@@ -169,7 +169,7 @@ NeXus](http://download.nexusformat.org/kits/windows/)
 ### Apple Mac (OS-X) Install Kit
 
 [MAC OSX Installer kits for
-NeXus](http://download.nexusformat.org/kits/macoxs/)
+NeXus](http://download.nexusformat.org/kits/macosx/)
 
 ### CYGWIN Kits
 
