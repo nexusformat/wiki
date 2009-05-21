@@ -18,12 +18,9 @@ env FCFLAGS="-mismatch" ./configure --with-f90=f95
 There is a problem with the include file, hdfi.h (normally in /usr/local/include).  See http://coastwatch.noaa.gov/helparc/software/msg00069.html for details of the modifications necessary to fix it.
 
 ==New Features==
-===C++ Interface===
+===C++ Interface (provided by [[User:Freddie_Akeroyd|Freddie Akeroyd]] and [[User:Peter_Peterson|Peter Peterson]]) ===
 See the [http://download.nexusformat.org/doxygen/html/classNeXus_1_1File.html doxygen documentation] and
-[http://svn.nexusformat.org/code/branches/4.2/test/napi_test_cpp.cxx NeXus API test program]
-
-===C++ Stream Like interface===
-The idea is to provide an IOSteam like interface and allow you to type 
+[http://svn.nexusformat.org/code/branches/4.2/test/napi_test_cpp.cxx NeXus API test program]. A C++ Stream Like interface is also supported - the idea is to provide an IOSteam like interface and allow you to type 
 <pre>
     // create an entry and a data item
     File nf(fname, NXACC_CREATE);
@@ -43,14 +40,14 @@ The idea is to provide an IOSteam like interface and allow you to type
 </pre>
 See also the [http://svn.nexusformat.org/code/branches/4.2/test/napi_test_cpp.cxx NeXus API test program]
 
-===IDL Interface===
+===IDL Interface (provided by Jussi Kauppila and [[User:Mark_Koennecke|Mark Koennecke]]) ===
 There is a new interface to RSI's Interactive Data Language, IDL for NeXus. This 
 interface has to be considered beta. Nevertheless it is working most of the time. 
 Known issues include:
 * Compressed reading and writing do not work for HDF-4 files, probably because of a library version conflict on libz.
 
 ===Python Interface===
-There is now, thanks to David Kienzle, a supported interface for the python scripting language. Arrays are stored in numpy arrays and thus allow for efficient data manipulations.
+There is now, thanks to [[User:Paul_Kienzle|Paul Kienzle]], a supported interface for the python scripting language. Arrays are stored in numpy arrays and thus allow for efficient data manipulations.
 
 ==Changed Features==
 

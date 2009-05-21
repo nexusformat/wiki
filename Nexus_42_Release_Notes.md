@@ -43,16 +43,14 @@ of the modifications necessary to fix it.
 New Features
 ------------
 
-### C++ Interface
+### C++ Interface (provided by [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink") and [Peter Peterson](User%3APeter_Peterson "wikilink"))
 
 See the [doxygen
 documentation](http://download.nexusformat.org/doxygen/html/classNeXus_1_1File.html)
 and [NeXus API test
-program](http://svn.nexusformat.org/code/branches/4.2/test/napi_test_cpp.cxx)
-
-### C++ Stream Like interface
-
-The idea is to provide an IOSteam like interface and allow you to type
+program](http://svn.nexusformat.org/code/branches/4.2/test/napi_test_cpp.cxx).
+A C++ Stream Like interface is also supported - the idea is to provide
+an IOSteam like interface and allow you to type
 
         // create an entry and a data item
         File nf(fname, NXACC_CREATE);
@@ -73,7 +71,7 @@ The idea is to provide an IOSteam like interface and allow you to type
 See also the [NeXus API test
 program](http://svn.nexusformat.org/code/branches/4.2/test/napi_test_cpp.cxx)
 
-### IDL Interface
+### IDL Interface (provided by Jussi Kauppila and [Mark Koennecke](User%3AMark_Koennecke "wikilink"))
 
 There is a new interface to RSI's Interactive Data Language, IDL for
 NeXus. This interface has to be considered beta. Nevertheless it is
@@ -84,9 +82,9 @@ working most of the time. Known issues include:
 
 ### Python Interface
 
-There is now, thanks to David Kienzle, a supported interface for the
-python scripting language. Arrays are stored in numpy arrays and thus
-allow for efficient data manipulations.
+There is now, thanks to [Paul Kienzle](User%3APaul_Kienzle "wikilink"),
+a supported interface for the python scripting language. Arrays are
+stored in numpy arrays and thus allow for efficient data manipulations.
 
 Changed Features
 ----------------
