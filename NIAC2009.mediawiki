@@ -103,4 +103,12 @@ These items are sorted in order of priority that they be finished. Only items th
 
 == Participants ==
 
-* Pete Jemian
+{| border="1"
+|-
+! participant || affiliation || arriving || departing
+|-
+| Pete Jemian
+| align="center" | APS
+| align="center" | Thursday
+| align="center" | Monday
+|}
