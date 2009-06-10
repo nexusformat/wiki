@@ -35,11 +35,11 @@ These items are sorted in order of priority that they be finished. Only items th
 == Venue ==
 
 (proposed)
-* Best Western University Plaza, Evanston, IL
-* 1501 Sherman Avenue, Evanston, Illinois, 60201-4416
-* Toll Free Reservations: 800-381-2830 
-* Fax: 847-328-3090
-* http://www.bwuniversityplaza.com/
+<br> Best Western University Plaza, Evanston, IL
+<br> 1501 Sherman Avenue, Evanston, Illinois, 60201-4416
+<br> Toll Free Reservations: 800-381-2830 
+<br> Fax: 847-328-3090
+<br> http://www.bwuniversityplaza.com/
 
 == Directions ==
 
