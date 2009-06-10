@@ -1,0 +1,67 @@
+= NeXus Code Camp =
+
+== Purpose ==
+
+Develop NeXus software components through intense effort by small groups working on specific projects and tasks.  It is expected that those attending the NeXus Code Camp will already have strong foundation and understanding in aspects of the NeXus software and come ready with knowledge, tools, and ideas to make significant progress during the event.  The specific projects and tasks, as well as the list of participants, will be described on this wiki as the event draws near.
+
+(For more info on code camps, try searching Google for "code camp" or "codeathon".  Events such as the [http://www.aps.anl.gov/epics/meetings/codeathon.php EPICS Codeathon] would be reasonable templates for this first NeXus code camp.)
+
+== Dates ==
+
+(proposed)
+* October 9 - 11, 2009 (Friday - Sunday)
+
+== Agenda ==
+
+* check-in Thursday evening
+* meet all day Friday
+* meet all day Saturday
+* meet all day Sunday
+* checkout Monday morning
+
+Notes:
+# morning and afternoon breaks will be included in amenities charge
+# breakfast, lunch, dinner will be in a local restaurant at traveler's expense
+
+== Venue ==
+
+(proposed)
+* Best Western University Plaza, Evanston, IL
+* http://www.bwuniversityplaza.com/
+
+== Directions ==
+
+(proposed)
+* http://www.google.com/search?q=Best+Western+University+Plaza%2C+Evanston%2C+IL
+* taxi:
+* airport bus:
+* commuter train: 
+
+== Host ==
+
+* Pete Jemian, Advanced Photon Source, Argonne National Laboratory, jemian@anl.gov, 1-630-252-3189
+
+== Costs ==
+
+expect that US$100/person will pay for:
+* conference room
+* food at morning and afternoon breaks
+* perhaps a small meeting souvenir
+
+regular meals (breakfast, lunch, dinner) will be traveler's expense
+
+Expect hotel rate to be US$119/night (approximate, subject to change)
+
+== Equipment ==
+
+* projector & screen: Pete will provide 1 of each
+* USB keyboards & mice (how many? who will provide?)
+* LCD displays (such as 19" or so, how many? who will provide?)
+* 120 VAC, 60 Hz
+** US-style 3-prong extension cords: Pete will provide
+** attendees are expected to bring adapters as necessary
+* Wi-Fi: conference hotel will provide in conference room and guest rooms at no extra charge
+
+== Participants ==
+
+* Pete Jemian
