@@ -63,14 +63,12 @@ These items are sorted in order of priority that they be finished. Only items th
 
 == Costs ==
 
-expect that US$100/person will pay for:
-* conference room
-* food at morning and afternoon breaks
-* perhaps a small meeting souvenir
-
-regular meals (breakfast, lunch, dinner) will be traveler's expense
-
-Expect hotel rate to be US$119/night (approximate, subject to change)
+*Expect hotel rate to be US$119/night (approximate, subject to change)
+*Expect that US$100/person will pay for:
+** conference room
+** food at morning and afternoon breaks
+** perhaps a small meeting souvenir
+* regular meals (breakfast, lunch, dinner) will be traveler's expense
 
 == Equipment ==
 
