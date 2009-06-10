@@ -23,6 +23,14 @@ Notes:
 # morning and afternoon breaks will be included in amenities charge
 # breakfast, lunch, dinner will be in a local restaurant at traveler's expense
 
+=== Items to be worked on ===
+
+These items are sorted in order of priority that they be finished. Only items that currently exist in the project plan are being worked on.
+
+# NXplot - a generalized NeXus ﬁle plotting tool
+# NXvalidate - a NeXus ﬁle validator
+# NXfiletool - a anything to NeXus and neXus to anything converter
+
 == Venue ==
 
 (proposed)
