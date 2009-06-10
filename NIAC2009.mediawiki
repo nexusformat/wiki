@@ -1,8 +1,10 @@
-= NeXus Code Camp =
+= 2009 NeXus Code Camp =
 
 == Purpose ==
 
-Develop NeXus software components through intense effort by small groups working on specific projects and tasks.  It is expected that those attending the NeXus Code Camp will already have strong foundation and understanding in aspects of the NeXus software and come ready with knowledge, tools, and ideas to make significant progress during the event.  The specific projects and tasks, as well as the list of participants, will be described on this wiki as the event draws near.
+[[Image:NeXusCodeCamp2009-logo.png|200px|thumb|left|logo for the 2009 NeXus Code Camp]]
+
+Develop NeXus software components through intense effort by small groups working on specific projects and tasks.  It is expected that those attending the 2009 NeXus Code Camp will already have strong foundation and understanding in aspects of the NeXus software and come ready with knowledge, tools, and ideas to make significant progress during the event.  The specific projects and tasks, as well as the list of participants, will be described on this wiki as the event draws near.
 
 (For more info on code camps, try searching Google for "code camp" or "codeathon".  Events such as the [http://www.aps.anl.gov/epics/meetings/codeathon.php EPICS Codeathon] would be reasonable templates for this first NeXus code camp.)
 
