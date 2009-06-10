@@ -72,13 +72,34 @@ These items are sorted in order of priority that they be finished. Only items th
 
 == Equipment ==
 
-* projector & screen: Pete will provide 1 of each
-* USB keyboards & mice (how many? who will provide?)
-* LCD displays (such as 19" or so, how many? who will provide?)
-* 120 VAC, 60 Hz
-** US-style 3-prong extension cords: Pete will provide
-** attendees are expected to bring adapters as necessary
-* Wi-Fi: conference hotel will provide in conference room and guest rooms at no extra charge
+{| border="1"
+|-
+! item || quantity || who provides?
+|-
+| projector & screen
+| align="center" | 1 each
+| align="center" | host
+|-
+| USB keyboards & mice 
+| align="center" | ?
+| align="center" | ?
+|-
+| LCD displays (19" or so)
+| align="center" | ?
+| align="center" | ?
+|-
+| 120 VAC, 60 Hz, US-style 3-prong extension cords
+| align="center" | sufficient
+| align="center" | host
+|-
+| foreign electrical power adapter
+| align="center" | as needed
+| align="center" | traveler
+|-
+| Wi-Fi connections
+| align="center" | sufficient
+| align="center" | hotel
+|}
 
 == Participants ==
 
