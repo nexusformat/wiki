@@ -32,10 +32,18 @@ Notes:
 == Directions ==
 
 (proposed)
-* http://www.google.com/search?q=Best+Western+University+Plaza%2C+Evanston%2C+IL
-* taxi:
-* airport bus:
+* map to hotel: http://www.google.com/search?q=Best+Western+University+Plaza%2C+Evanston%2C+IL
+* airport:
+** Chicago O'Hare (ORD): international
+** Chicago Midway (MDW): domestic
+** Milwaukee, WI Mitchell Field (MKE): distant alternative
+* intercity train:
+** Chicago Union Station served by Amtrak
+* taxi: (details to be provided)
+* airport bus: (details to be provided)
 * commuter train: 
+** 2 Chicago Elevated "L" train stations within four blocks
+** Chicago Metra station within four blocks
 
 == Host ==
 
