@@ -13,6 +13,20 @@ Develop NeXus software components through intense effort by small groups working
 
 == Agenda ==
 
+=== Business Matters ===
+
+Since this is not to be a meeting of the full NIAC, no business matters can be resolved.
+
+=== Projects and Tasks ===
+
+These items are sorted in order of priority that they be finished. Only items that currently exist in the project plan are being worked on.
+
+# NXplot - a generalized NeXus ﬁle plotting tool
+# NXvalidate - a NeXus ﬁle validator
+# NXfiletool - a anything to NeXus and neXus to anything converter
+
+=== Schedule ===
+
 * check-in Thursday evening
 * meet all day Friday
 * meet all day Saturday
@@ -24,15 +38,8 @@ Notes:
 # morning and afternoon breaks will be included in amenities charge
 # breakfast, lunch, dinner will be in a local restaurant at traveler's expense
 
-=== Items to be worked on ===
-
-These items are sorted in order of priority that they be finished. Only items that currently exist in the project plan are being worked on.
-
-# NXplot - a generalized NeXus ﬁle plotting tool
-# NXvalidate - a NeXus ﬁle validator
-# NXfiletool - a anything to NeXus and neXus to anything converter
-
-== Venue ==
+== Practical Matters ==
+=== Venue ===
 
 (proposed)
 <br> Best Western University Plaza, Evanston, IL
@@ -41,7 +48,7 @@ These items are sorted in order of priority that they be finished. Only items th
 <br> Fax: 847-328-3090
 <br> http://www.bwuniversityplaza.com/
 
-== Directions ==
+=== Directions and Maps ===
 
 (proposed)
 * map to hotel: http://www.google.com/search?q=Best+Western+University+Plaza%2C+Evanston%2C+IL
@@ -57,11 +64,11 @@ These items are sorted in order of priority that they be finished. Only items th
 ** 2 Chicago Elevated "L" train stations within four blocks
 ** Chicago Metra station within four blocks
 
-== Host ==
+=== Host ===
 
 * Pete Jemian, Advanced Photon Source, Argonne National Laboratory, jemian@anl.gov, 1-630-252-3189
 
-== Costs ==
+=== Costs ===
 
 *Expect hotel rate to be US$119/night (approximate, subject to change)
 *Expect that US$100/person will pay for:
@@ -70,7 +77,7 @@ These items are sorted in order of priority that they be finished. Only items th
 ** perhaps a small meeting souvenir
 * regular meals (breakfast, lunch, dinner) will be traveler's expense
 
-== Equipment ==
+=== Equipment ===
 
 {| border="1"
 |-
@@ -101,7 +108,7 @@ These items are sorted in order of priority that they be finished. Only items th
 | align="center" | hotel
 |}
 
-== Participants ==
+=== Participants ===
 
 {| border="1"
 |-
