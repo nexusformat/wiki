@@ -13,7 +13,7 @@ ISIS Neutron Facility, STFC Rutherford Appleton Laboratory, UK: Instruments on t
 
 ### Pulsed Muon Facilities
 
-ISIS Muon Facility, STFC Rutherford Appleton Laboratory, UK: The [ISIS facility](http://www.isis.rl.ac.uk/) has been producing and using NeXus files on its [muon spectrometers](http://www.isis.rl.ac.uk/muons/) for many years now (see [Muon\_Time\_Differential](Muon_Time_Differential "wikilink") definition).  
+ISIS Muon Facility, STFC Rutherford Appleton Laboratory, UK: The [ISIS facility](http://www.isis.rl.ac.uk/) has been producing and using NeXus files on its [muon spectrometers](http://www.isis.rl.ac.uk/muons/) for many years now (see [Muon\_Time\_Differential](Muon_Time_Differential "wikilink") definition). The current definition is in the process of being updated to allow it to store more complex experiments and also to make it more similar to the [TOFRaw](TOFRaw "wikilink") definition used on the ISIS neutron instruments.  
 
 ### X-ray Facilities
 
