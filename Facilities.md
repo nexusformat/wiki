@@ -17,6 +17,8 @@ ISIS Muon Facility, STFC Rutherford Appleton Laboratory, UK: The [ISIS facility]
 
 ### X-ray Facilities
 
+Advanced Photon Source, Argonne National Laboratory, US: APS has been generating NeXus-compatible (HDF4) files for many years as an option from the `CCDImageServer` software used by the Tomography instrument at 2-BM and others. Each Tomo experiment generates on order of 1,000 files. During a three-month operations cycle, it is common to generate of order 1,000,000 files. Data reduction of the Tomo files proceeds from the HDF4 files. Use of the NeXus-compatible format is discretionary for other users of the `CCDImageServer` software (the alternative choice is TIFF with metadata stored external to the TIFF files). As APS replaces `CCDImageServer` with newer EPICS software (`areaDetector` and a GUI), it is expected to retain and improve the support for the NeXus format, as required by and best serves the APS user community. The microdiffraction instrument at 34ID-E is considering NeXus HDF5 files for the storage of their experimental results. This may prove a challenge as the instrument expects to stream 5 MB images at 20 frames/second on a continuous basis; it may not be practical to store and retain all the raw data.  
+
 Facilities planning to support the NeXus data format
 ----------------------------------------------------
 
