@@ -2,7 +2,10 @@
 
 ===Neutron Scattering Facilities===
 
-;ISIS Facility, STFC Rutherford Appleton Laboratory, UK: The [http://www.isis.rl.ac.uk/ ISIS facility] has been producing and using NeXus files on its Muon spectrometers for many years now (see [[Muon_Time_Differential]]). Instruments on the [http://ts-2.isis.rl.ac.uk/ ISIS second target station] are now generating NeXus files as per the [[TOFRaw]] definition in parallel with old ISIS RAW format files. Currently most data analysis is carried out using the ISIS RAW files, but the new [http://www.mantidproject.org/ Mantid data analysis framework] supports [[TOFRaw]] NeXus files and is being increasingly used. The long term goal is to entirely replace the old ISIS RAW file format with NeXus files; the rate determining step for this is the updating of data analysis code to read NeXus files.
+;ISIS Neutron Facility, STFC Rutherford Appleton Laboratory, UK: Instruments on the [http://ts-2.isis.rl.ac.uk/ ISIS second target station] are now generating NeXus files as per the [[TOFRaw]] definition in parallel with old ISIS RAW format files. Currently most data analysis is carried out using the ISIS RAW files, but the new [http://www.mantidproject.org/ Mantid data analysis framework] supports [[TOFRaw]] NeXus files and is being increasingly used. The long term goal is to entirely replace the old ISIS RAW file format on both the first and second target stations with NeXus files; the rate determining step for this is the updating of data analysis code to read NeXus files.
+
+===Pulsed Muon Facilities===
+;ISIS Muon Facility, STFC Rutherford Appleton Laboratory, UK: The [http://www.isis.rl.ac.uk/ ISIS facility] has been producing and using NeXus files on its [http://www.isis.rl.ac.uk/muons/ muon spectrometers] for many years now (see [[Muon_Time_Differential]] definition).
 
 ===X-ray Facilities===
 
