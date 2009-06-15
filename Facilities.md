@@ -15,6 +15,20 @@ ISIS Neutron Facility, STFC Rutherford Appleton Laboratory, UK: Instruments on t
 
 Lujan Neutron Scattering Center, [Los Alamos National Laboratory](http://lansce.lanl.gov/lujan), USA: The Lujan Center is generating NeXus files on all instruments. We are in the process of making the files consistent with the emerging standards, especially [TOFRaw](TOFRaw "wikilink"). The facility hosts about 65,000 NeXus files and the number is growing.  
 
+<!-- -->
+
+Materials and Life Science Facility [1](http://www.j-parc.jp/index-e.html), J-PARC, Japan:  
+
+In FY2008, we have successfully received first proton beam and produced
+pulsed neutron and muon beam at Materials and Life Science Facility
+(MLF) in J-PARC (http://www.j-parc.jp/index-e.html). Histogrammed data
+converted from event-format data and analyzed data are stored in NeXus
+data format with metadata, and NeXus is common and shared data format
+among neutron scattering instruments and scientists in MLF. NeXus C-API
+is utilized through Manyo-Library which is the data analysis framework
+for neutron scattering experiments. Data analysis softwares for each
+instrument have been developed with C++ and python on Manyo-Library.
+
 ### Pulsed Muon Facilities
 
 ISIS Muon Facility, STFC Rutherford Appleton Laboratory, UK: The [ISIS facility](http://www.isis.rl.ac.uk/) has been producing and using NeXus files on its [muon spectrometers](http://www.isis.rl.ac.uk/muons/) for many years now (see [Muon\_Time\_Differential](Muon_Time_Differential "wikilink") definition). The current definition is in the process of being updated to allow it to store more complex experiments and also to make it more similar to the [TOFRaw](TOFRaw "wikilink") definition used on the ISIS neutron instruments.  
