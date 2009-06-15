@@ -29,6 +29,8 @@ is utilized through Manyo-Library which is the data analysis framework
 for neutron scattering experiments. Data analysis softwares for each
 instrument have been developed with C++ and python on Manyo-Library.
 
+Bragg Institute, ANSTO [Australian Nuclear Science and Technology Organisation](http://www.ansto.gov.au/research/bragg_institute), Australia: We are currently writing NeXus files in HDF5 on 5 out of 7 instruments, including Small Angle, Reflectometer, Powder Diffaction and Residual Stress. NeXus is not being used on triple axis and single crystal diffraction. The next wave of instruments will be predominantly NeXus.  
+
 ### Pulsed Muon Facilities
 
 ISIS Muon Facility, STFC Rutherford Appleton Laboratory, UK: The [ISIS facility](http://www.isis.rl.ac.uk/) has been producing and using NeXus files on its [muon spectrometers](http://www.isis.rl.ac.uk/muons/) for many years now (see [Muon\_Time\_Differential](Muon_Time_Differential "wikilink") definition). The current definition is in the process of being updated to allow it to store more complex experiments and also to make it more similar to the [TOFRaw](TOFRaw "wikilink") definition used on the ISIS neutron instruments.  
