@@ -29,7 +29,7 @@ is utilized through Manyo-Library which is the data analysis framework
 for neutron scattering experiments. Data analysis softwares for each
 instrument have been developed with C++ and python on Manyo-Library.
 
-Bragg Institute, ANSTO [Australian Nuclear Science and Technology Organisation](http://www.ansto.gov.au/research/bragg_institute), Australia: We are currently writing NeXus files in HDF5 on 5 out of 7 instruments, including Small Angle, Reflectometer, Powder Diffaction and Residual Stress. NeXus is not being used on triple axis and single crystal diffraction. The next wave of instruments will be predominantly NeXus.  
+Bragg Institute, ANSTO [Australian Nuclear Science and Technology Organisation](http://www.ansto.gov.au/research/bragg_institute), Australia: We are currently writing NeXus files in HDF5 on 5 out of 7 instruments, including Small Angle, Reflectometer, Powder Diffaction and Residual Stress. NeXus is not being used on Triple Axis and Single Crystal Diffraction. The next wave of instruments will be predominantly NeXus.  
 
 ### Pulsed Muon Facilities
 
