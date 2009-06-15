@@ -17,17 +17,9 @@ Lujan Neutron Scattering Center, [Los Alamos National Laboratory](http://lansce.
 
 <!-- -->
 
-Materials and Life Science Facility [1](http://www.j-parc.jp/index-e.html), J-PARC, Japan:  
+Materials and Life Science Facility [1](http://www.j-parc.jp/index-e.html), J-PARC, Japan: In FY2008, we have successfully received first proton beam and produced pulsed neutron and muon beam at Materials and Life Science Facility (MLF) in J-PARC (http://www.j-parc.jp/index-e.html). Histogrammed data converted from event-format data and analyzed data are stored in NeXus data format with metadata, and NeXus is common and shared data format among neutron scattering instruments and scientists in MLF. NeXus C-API is utilized through Manyo-Library which is the data analysis framework for neutron scattering experiments. Data analysis softwares for each instrument have been developed with C++ and python on Manyo-Library.  
 
-In FY2008, we have successfully received first proton beam and produced
-pulsed neutron and muon beam at Materials and Life Science Facility
-(MLF) in J-PARC (http://www.j-parc.jp/index-e.html). Histogrammed data
-converted from event-format data and analyzed data are stored in NeXus
-data format with metadata, and NeXus is common and shared data format
-among neutron scattering instruments and scientists in MLF. NeXus C-API
-is utilized through Manyo-Library which is the data analysis framework
-for neutron scattering experiments. Data analysis softwares for each
-instrument have been developed with C++ and python on Manyo-Library.
+<!-- -->
 
 Bragg Institute, [Australian Nuclear Science and Technology Organisation](http://www.ansto.gov.au/research/bragg_institute), Australia: We are currently writing NeXus files in HDF5 on 5 out of 7 instruments, including Small Angle, Reflectometer, Powder Diffaction and Residual Stress. NeXus is not being used on Triple Axis and Single Crystal Diffraction. The next wave of instruments will be predominantly NeXus.  
 
