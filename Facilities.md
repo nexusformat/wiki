@@ -27,6 +27,10 @@ Bragg Institute, [Australian Nuclear Science and Technology Organisation](http:/
 
 Institut Laue Langevin [ILL](http://www.ill.eu), Grenoble France: As of 2008-2009, the ILL has 2 instruments that generate NeXus/HDF5 files as base format: the Disk chopper time-of-flight cold neutrons spectrometer IN5 [IN5](http://www.ill.fr/in5) and Time of Flight Neutron Spectrometer for Small Angle Inelastic themal neutron Scattering BRISP [BRISP](http://www.ill.fr/brisp). Volume of data (Gb's) is substantially higher than what we used to have at the ILL before - because of large PSD detectors - and NeXus was then the only sensible choice for storage. We then use [LAMP](http://www.ill.eu/instruments-support/computing-for-science/cs-software/all-software/lamp/), and Matlab tools (incl. Mslice from Oxford/ISIS) to read and convert data sets. [McStas](http://www.mcstas.org) is also used to model these instruments, and may also generate NeXus files.  
 
+<!-- -->
+
+Spallation Neutron Source [SNS](http://neutrons.ornl.gov/), Oak Ridge, TN, USA: SNS is using [TOFRaw](TOFRaw "wikilink") for storing histogram based data from all instruments. We are working towards storing the raw event data in NeXus instead as the data acquisition saves data in that form already.  
+
 ### Pulsed Muon Facilities
 
 ISIS Muon Facility, STFC Rutherford Appleton Laboratory, UK: The [ISIS facility](http://www.isis.rl.ac.uk/) has been producing and using NeXus files on its [muon spectrometers](http://www.isis.rl.ac.uk/muons/) for many years now (see [Muon\_Time\_Differential](Muon_Time_Differential "wikilink") definition). The current definition is in the process of being updated to allow it to store more complex experiments and also to make it more similar to the [TOFRaw](TOFRaw "wikilink") definition used on the ISIS neutron instruments.  
