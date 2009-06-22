@@ -117,6 +117,8 @@ NeXus is still in the early stages of its development. We consider that it is no
 
 We intend to monitor the support of NeXus in the neutron and X-ray communities. If your home institute intends to support the format in any way, or if any of the following information is inaccurate, please let me know so that this record is kept up-to-date.
 
+'''For an up-to-date list of Facilities using NeXus please check the [[Facilities|facilities page]]'''
+
 ===Neutron Scattering Facility Support===
 
 ;Chalk River Laboratories:Chalk River was involved in the development of NeXus with the participation of Ron Rogge in the SoftNeSS workshops. 

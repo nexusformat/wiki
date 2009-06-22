@@ -320,6 +320,9 @@ communities. If your home institute intends to support the format in any
 way, or if any of the following information is inaccurate, please let me
 know so that this record is kept up-to-date.
 
+**For an up-to-date list of Facilities using NeXus please check the
+[facilities page](Facilities "wikilink")**
+
 ### Neutron Scattering Facility Support
 
 Chalk River Laboratories:Chalk River was involved in the development of NeXus with the participation of Ron Rogge in the SoftNeSS workshops.  
