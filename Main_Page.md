@@ -29,7 +29,7 @@ in the analysis and visualization of neutron, x-ray, and muon data.
 
 :\* ILL on February 1-3, 2006 - [NIAC'2006](NIAC2006ILL "wikilink")
 
-[Facilities](Facilities "wikilink"):Facilities currently using NeXus and their future plans for adopting the format.  
+[Facilities](Facilities "wikilink"):Facilities currently using, or intending to use, NeXus and their future plans for the format.  
 [Latest News](Latest_News "wikilink"):Recent news and developments concerning the NeXus format.  
 [NeXus Downloads](Download "wikilink"):Download NeXus library and applications  
 [Bug/Issue Reporting](IssueReporting "wikilink"):View or report bugs/problems/enhancement requests for the NeXus library and definitions  
