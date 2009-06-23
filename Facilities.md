@@ -31,6 +31,10 @@ Institut Laue Langevin [ILL](http://www.ill.eu), Grenoble France: As of 2008-200
 
 Spallation Neutron Source [SNS](http://neutrons.ornl.gov/), Oak Ridge, TN, USA: SNS is using [TOFRaw](TOFRaw "wikilink") for storing histogram based data from all instruments. We are working towards storing the raw event data in NeXus instead as the data acquisition saves data in that form already.  
 
+<!-- -->
+
+SINQ, [Paul Scherrer Institute](http://www.psi.ch): At SINQ most data files are stored in NeXus format, as of January, 5, 2009 1104153 files were collected. As PSI pioneered NeXus file writing, most files do not adhere to the newest standards for NeXus files anymore. This will be rectified as soon as more progress on application definitions has been made.  
+
 ### Pulsed Muon Facilities
 
 ISIS Muon Facility, STFC Rutherford Appleton Laboratory, UK: The [ISIS facility](http://www.isis.rl.ac.uk/) has been producing and using NeXus files on its [muon spectrometers](http://www.isis.rl.ac.uk/muons/) for many years now (see [Muon\_Time\_Differential](Muon_Time_Differential "wikilink") definition). The current definition is in the process of being updated to allow it to store more complex experiments and also to make it more similar to the [TOFRaw](TOFRaw "wikilink") definition used on the ISIS neutron instruments.  
