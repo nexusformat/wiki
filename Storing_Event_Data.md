@@ -4,5 +4,58 @@ permalink: Storing_Event_Data/
 layout: wiki
 ---
 
-This discussion concers a proposal from NIAC 2008 to rename
-[NXevent\_data](NXevent_data "wikilink") as NXtofevent\_data.
+This discussion concerns a proposal from [NIAC2008](NIAC2008 "wikilink")
+to rename [NXevent\_data](NXevent_data "wikilink") as NXtofevent\_data.
+When this proposal was passed to the full committee, a number of issues
+were raised and it was decided that a further round of discussion was
+required.
+
+Listed below are some of the main reasons cited for and against:
+
+REASONS FOR
+
+-   NXtofevent\_data better describes the content of the object, given
+    that [NXevent\_data](NXevent_data "wikilink") has a
+    “time\_of\_flight” member
+
+REASONS AGAINST
+
+-   Event data is potentially of importance to the other communities and
+    therefore it would be good to ensure that the definition name for
+    event data is as general as possible. Event data is not always
+    measured against “time\_of\_flight” - it may be e.g. muon decay time
+    and so a more general “event\_time” axis may be applicable
+
+<!-- -->
+
+-   I'm not sure why the addition of “tof” is necessary. Pulsed source
+    and chopped continuous source event data can be represented in ways
+    that are substantially the same. By renaming the fields we can
+    handle different kinds of events in the same manner, so there is no
+    need to change the group name to be specific to time of flight
+
+<!-- -->
+
+-   NXtofevent\_data is an ugly name. NXtof\_event\_data is a better
+    name, or just NXevent\_data
+
+PROPOSAL from Paul Kienzle
+
+    First note that either pulse_height or pulse_time is the wrong name.
+
+       pulse_height[i,k?] refers to the voltage pulse measured by the detector
+       pulse_time[j] refers to the time that the neutron pulse reached the moderator
+
+    The description of the pulse_height field is confusing. It refer to events_per_pulse, which has length j but it's own index is of length i, so something is screwy.
+
+    I suggest renaming time_of_flight to event_time and pulse_time to frame_time and you have something that can be used either for continuous or pulsed sources.
+
+       event_time[i]: time relative to the start of the frame
+       pixel_number[i]: detector which registered the event
+       frame_time[j]: time relative to the start of the measurement
+       events_per_frame[j]: as before
+       pulse_height[i,k?]: detector voltages
+
+    The frame_time for continuous sources presumably refers to the time when the detector was turned on after moving the motors during a scan for multi-point scans.  When scanning continously (a potentially useful measurement during alignment operations), the frame time would more likely refer to the pulses from the motor position detectors.
+
+    - Paul
