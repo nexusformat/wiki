@@ -1,0 +1,1 @@
+This discussion concers a proposal from NIAC 2008 to rename [[NXevent_data]] as NXtofevent_data.
