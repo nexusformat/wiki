@@ -176,8 +176,8 @@ proposed. This is the current procedure:
 Meetings
 --------
 
--   [October 9-11 2009](NIAC2009 "wikilink") NeXus Code Camp hosted by
-    APS in Chicago (Evanston, Illinois)
+-   [October 9-11 2009](NIAC2009 "wikilink") (alternative: Oct. 16-18)
+    NeXus Code Camp hosted by APS in Chicago (Evanston, Illinois)
     ([minutes](NIAC2009_minutes "wikilink"))
 -   [October 30-31, 2008](NIAC2008 "wikilink") at ANSTO, Australia
     ([minutes ](Media:NIAC2008_minutes.pdf "wikilink"))
