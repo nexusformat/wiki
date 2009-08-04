@@ -11,6 +11,7 @@ Develop NeXus software components through intense effort by small groups working
 == Dates ==
 
 (proposed)
+* October 16-18, 2009 (Friday - Sunday): preferred
 * October 9 - 11, 2009 (Friday - Sunday)
 
 == Agenda ==
