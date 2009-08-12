@@ -63,7 +63,7 @@ The NeXus format is defined as a series of XML files describing both the base cl
 #The revised instrument definitions and base classes will then be posted to the NeXus SVN server.
 
 == Meetings ==
-* [[NIAC2009|October 9-11 2009]] (alternative: Oct. 16-18) NeXus Code Camp hosted by APS in Chicago (Evanston, Illinois) ([[NIAC2009_minutes|minutes]])
+* [[NIAC2009|October 16-18 2009]] NeXus Code Camp hosted by APS in Chicago (Evanston, Illinois) ([[NIAC2009_minutes|minutes]])
 * [[NIAC2008|October 30-31, 2008]] at ANSTO, Australia ([[Media:NIAC2008_minutes.pdf|minutes ]])
 * [[NIAC2007|September 24-26, 2007]] at HMI, Berlin, Germany ([[NIAC2007 Minutes|online]]  and [[Media:NIAC2007HMI_minutes.pdf|pdf format]] minutes)
 * [[NIAC2006LBL|October 5-6, 2006]] at LBL, Berkeley, CA, USA ([[Media:NIAC2006LBL_minutes.pdf|minutes]])
