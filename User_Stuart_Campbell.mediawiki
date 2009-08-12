@@ -1,7 +1,11 @@
 ==Stuart Campbell==
-===Executive Secretary, NeXus International Advisory Committee===
-;Address:Diamond Light Source
-:Chilton, Didcot, OX11 0DE, UK
+;Address:Neutron Sciences Directorate
+:Oak Ridge National Laboratory
+:Oak Ridge, TN 37831-6475, USA
 
-;Phone:+44 1235 778411
-;Email: [mailto:stuart.campbell@diamond.ac.uk stuart.campbell@diamond.ac.uk]
+;Phone:+1 865 241 3276
+;Email: [mailto:campbellsi@ornl.gov campbellsi@ornl.gov]
+
+;Past
+:Diamond Light Source NIAC Representative
+:Executive Secretary, NIAC
