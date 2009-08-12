@@ -118,43 +118,43 @@ Notes:
 |-
 ! participant || affiliation || arriving || departing || fees paid?
 |-
-| Pete Jemian
+| [[User:Pete Jemian|Pete Jemian]]
 | align="center" | APS
 | align="center" | Thursday
 | align="center" | Monday
 | align="center" | &nbsp;
 |- 
-| Frederick Akeroyd 
+| [[User:Freddie Akeroyd|Frederick Akeroyd]]
 | align="center" | RAL
 | align="center" | &nbsp;
 | align="center" | &nbsp;
 | align="center" | &nbsp;
 |- 
-| Stuart Campbell 
+| [[User:Stuart Campbell|Stuart Campbell]]
 | align="center" | SNS
 | align="center" | &nbsp;
 | align="center" | &nbsp;
 | align="center" | &nbsp;
 |- 
-| Nick Hauser 
+| [[User:nick|Nick Hauser]]
 | align="center" | ANSTO
 | align="center" | &nbsp;
 | align="center" | &nbsp;
 | align="center" | &nbsp;
 |- 
-| Paul Kienzle 
+| [[User:Paul Kienzle|Paul Kienzle]]
 | align="center" | NIST
 | align="center" | &nbsp;
 | align="center" | &nbsp;
 | align="center" | &nbsp;
 |- 
-| Mark Könnecke 
+| [[User:Mark Koennecke|Mark Könnecke]]
 | align="center" | PSI
 | align="center" | &nbsp;
 | align="center" | &nbsp;
 | align="center" | &nbsp;
 |- 
-| Peter Peterson 
+| [[User:Peter Peterson|Peter Peterson]]
 | align="center" | SNS
 | align="center" | &nbsp;
 | align="center" | &nbsp;
