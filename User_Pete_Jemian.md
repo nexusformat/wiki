@@ -9,8 +9,8 @@ Pete Jemian
 
 ### APS Representative, NeXus International Advisory Committee
 
-Address:Advanced Photon Source  
-Argonne National Laboratory
+Address:[Advanced Photon Source](http://www.aps.anl.gov)  
+[Argonne National Laboratory](http://www.anl.gov)
 
 Argonne, IL 60439-4845
 
