@@ -123,4 +123,40 @@ Notes:
 | align="center" | Thursday
 | align="center" | Monday
 | align="center" | &nbsp;
+|- 
+| Frederick Akeroyd 
+| align="center" | RAL
+| align="center" | &nbsp;
+| align="center" | &nbsp;
+| align="center" | &nbsp;
+|- 
+| Stuart Campbell 
+| align="center" | SNS
+| align="center" | &nbsp;
+| align="center" | &nbsp;
+| align="center" | &nbsp;
+|- 
+| Nick Hauser 
+| align="center" | ANSTO
+| align="center" | &nbsp;
+| align="center" | &nbsp;
+| align="center" | &nbsp;
+|- 
+| Paul Kienzle 
+| align="center" | NIST
+| align="center" | &nbsp;
+| align="center" | &nbsp;
+| align="center" | &nbsp;
+|- 
+| Mark Könnecke 
+| align="center" | PSI
+| align="center" | &nbsp;
+| align="center" | &nbsp;
+| align="center" | &nbsp;
+|- 
+| Peter Peterson 
+| align="center" | SNS
+| align="center" | &nbsp;
+| align="center" | &nbsp;
+| align="center" | &nbsp;
 |}
