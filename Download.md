@@ -142,11 +142,6 @@ addition to the NeXus binary RPM:
 <td align="center"><p>Binary RPM <a href="http://download.nexusformat.org/kits/rpm/mxml-2.2.2-1.i386.rpm">i386</a> <a href="http://download.nexusformat.org/kits/rpm/mxml-2.2.2-1.x86_64.rpm">x86_64</a></p></td>
 <td align="center"><p><a href="http://download.nexusformat.org/kits/rpm/mxml-2.2.2-1.src.rpm">Source RPM</a></p></td>
 </tr>
-<tr class="even">
-<td><p>| NeXus</p></td>
-<td align="center"><p>Binary RPM <a href="http://download.nexusformat.org/kits/rpm/nexus-4.1.0-0.i386.rpm">i386</a></p></td>
-<td align="center"><p><a href="http://download.nexusformat.org/kits/rpm/nexus-4.1.0-0.src.rpm">Source RPM</a></p></td>
-</tr>
 </tbody>
 </table>
 
