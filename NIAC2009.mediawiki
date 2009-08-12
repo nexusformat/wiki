@@ -27,7 +27,8 @@ These items are sorted in order of priority that they be finished. Only items th
 # NXDL - NeXus Definition Language
 # NXplot - a generalized NeXus ﬁle plotting tool
 # NXvalidate - a NeXus ﬁle validator
-# NXfiletool - a anything to NeXus and neXus to anything converter
+# NXfiletool - an anything to NeXus and neXus to anything converter
+# NXaperture - right design? too complicated? alternatives: NXsquareaperture, NXroundaperture, ...
 
 === Schedule ===
 
