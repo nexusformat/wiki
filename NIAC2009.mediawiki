@@ -120,43 +120,43 @@ Notes:
 ! participant || affiliation || arriving || departing || fees paid?
 |-
 | [[User:Pete Jemian|Pete Jemian]]
-| align="center" | APS
+| align="center" | [http://www.aps.anl.gov APS]
 | align="center" | Thursday
 | align="center" | Monday
 | align="center" | &nbsp;
 |- 
 | [[User:Freddie Akeroyd|Frederick Akeroyd]]
-| align="center" | RAL
+| align="center" | [http://www.isis.rl.ac.uk/ ISIS]
 | align="center" | &nbsp;
 | align="center" | &nbsp;
 | align="center" | &nbsp;
 |- 
 | [[User:Stuart Campbell|Stuart Campbell]]
-| align="center" | SNS
+| align="center" | [http://www.sns.gov SNS]
 | align="center" | &nbsp;
 | align="center" | &nbsp;
 | align="center" | &nbsp;
 |- 
 | [[User:nick|Nick Hauser]]
-| align="center" | ANSTO
+| align="center" | [http://www.ansto.gov.au/ ANSTO]
 | align="center" | &nbsp;
 | align="center" | &nbsp;
 | align="center" | &nbsp;
 |- 
 | [[User:Paul Kienzle|Paul Kienzle]]
-| align="center" | NIST
+| align="center" | [http://www.nist.gov NIST]
 | align="center" | &nbsp;
 | align="center" | &nbsp;
 | align="center" | &nbsp;
 |- 
 | [[User:Mark Koennecke|Mark Könnecke]]
-| align="center" | PSI
+| align="center" | [http://www.psi.ch PSI]
 | align="center" | &nbsp;
 | align="center" | &nbsp;
 | align="center" | &nbsp;
 |- 
 | [[User:Peter Peterson|Peter Peterson]]
-| align="center" | SNS
+| align="center" | [http://www.sns.gov SNS]
 | align="center" | &nbsp;
 | align="center" | &nbsp;
 | align="center" | &nbsp;
