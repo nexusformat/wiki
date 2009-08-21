@@ -21,8 +21,7 @@ in the analysis and visualization of neutron, x-ray, and muon data.
 [NeXus Mailing Lists](MailingLists "wikilink"):Mailing lists covering different aspects of the NeXus format.  
 [NeXus International Advisory Committee](NIAC "wikilink"):Charged with supervising the development and maintenance of the NeXus format.  
 
-:\* APS on October 16-18 (or 9-11) 2009 -
-[NIAC'2009](NIAC2009 "wikilink") (dates tentative)
+:\* APS on October 16-18, 2009 - [NIAC'2009](NIAC2009 "wikilink")
 
 :\* ANSTO on October 30-31, 2008 - [NIAC'2008](NIAC2008 "wikilink")
 
