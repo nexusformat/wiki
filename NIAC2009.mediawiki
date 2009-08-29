@@ -126,8 +126,8 @@ Notes:
 |- 
 | [[User:Freddie Akeroyd|Frederick Akeroyd]]
 | align="center" | [http://www.isis.rl.ac.uk/ ISIS]
-| align="center" | &nbsp;
-| align="center" | &nbsp;
+| align="center" | Thursday
+| align="center" | Monday
 | align="center" | &nbsp;
 |- 
 | [[User:Stuart Campbell|Stuart Campbell]]
