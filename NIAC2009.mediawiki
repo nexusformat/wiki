@@ -124,7 +124,7 @@ Notes:
 | align="center" | Monday
 | align="center" | &nbsp;
 |- 
-| [[User:Freddie Akeroyd|Frederick Akeroyd]]
+| [[User:Freddie Akeroyd|Freddie Akeroyd]]
 | align="center" | [http://www.isis.rl.ac.uk/ ISIS]
 | align="center" | Thursday
 | align="center" | Monday
