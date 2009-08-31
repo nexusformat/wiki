@@ -52,7 +52,6 @@ Best Western University Plaza, Evanston, IL
 
 === Directions and Maps ===
 
-(proposed)
 * map to hotel: http://www.google.com/search?q=Best+Western+University+Plaza%2C+Evanston%2C+IL
 * airport:
 ** Chicago O'Hare (ORD): international
