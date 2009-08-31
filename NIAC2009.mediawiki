@@ -10,7 +10,6 @@ Develop NeXus software components through intense effort by small groups working
 
 == Dates ==
 
-(proposed)
 * October 16-18, 2009 (Friday - Sunday)
 
 == Agenda ==
@@ -45,7 +44,6 @@ Notes:
 == Practical Matters ==
 === Venue ===
 
-(proposed)
 <br> Best Western University Plaza, Evanston, IL
 <br> 1501 Sherman Avenue, Evanston, Illinois, 60201-4416
 <br> Toll Free Reservations: 800-381-2830 
@@ -75,7 +73,8 @@ Notes:
 === Costs ===
 
 *Expect hotel rate to be US$119/night (approximate, subject to change)
-*Expect that US$100/person will pay for:
+** Please reserve your own rooms directly with the hotel (website, phone, ...)
+*Conference fee: US$150/person
 ** conference room
 ** food at morning and afternoon breaks
 ** perhaps a small meeting souvenir
@@ -156,6 +155,12 @@ Notes:
 |- 
 | [[User:Peter Peterson|Peter Peterson]]
 | align="center" | [http://www.sns.gov SNS]
+| align="center" | &nbsp;
+| align="center" | &nbsp;
+| align="center" | &nbsp;
+|- 
+| Tobias Stefan Richter
+| align="center" | [http://www.diamond.ac.uk DLS]
 | align="center" | &nbsp;
 | align="center" | &nbsp;
 | align="center" | &nbsp;
