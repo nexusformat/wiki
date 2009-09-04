@@ -36,6 +36,46 @@ These items are sorted in order of priority that they be finished. Only items th
 * meet all day Sunday
 * checkout Monday morning
 
+Here is the daily schedule:
+
+{| border="1"
+|-
+! time || description || comments
+|-
+| 9:00 - 10:15 AM
+| align="center" | meeting
+| align="center" | work on projects and tasks
+|-
+| 10:15 - 10:45 AM
+| align="center" | morning break
+| align="center" | (included)
+|-
+| 10:45 AM - 12:00 PM
+| align="center" | meeting
+| align="center" | work on projects and tasks
+|-
+| 12:00  - 1:15 PM
+| align="center" | lunch
+| align="center" | offsite, traveler's expense
+|-
+| 1:15 - 3:15 PM
+| align="center" | meeting
+| align="center" | work on projects and tasks
+|-
+| 3:15 - 3:30 PM
+| align="center" | afternoon break
+| align="center" | (included)
+|-
+| 3:30 - 5:00 PM
+| align="center" | meeting
+| align="center" | work on projects and tasks
+|-
+| 5:00 - 6:00 PM
+| align="center" | meeting
+| align="center" | daily summary (plenary)
+|}
+
+
 Notes:
 # late-afternoon wrap-up (plenary) each day
 # morning and afternoon breaks will be included in amenities charge
