@@ -206,7 +206,7 @@ Best Western University Plaza, Evanston, IL
 |- 
 | [[User:Tobias Richter|Tobias Richter]]
 | align="center" | [http://www.diamond.ac.uk DLS]
-| align="center" | &nbsp;
-| align="center" | &nbsp;
+| align="center" | Thursday
+| align="center" | Monday
 | align="center" | &nbsp;
 |}
