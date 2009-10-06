@@ -184,8 +184,8 @@ Please reserve your own rooms directly with the hotel (website, phone, ...)
 |- 
 | [[User:nick|Nick Hauser]]
 | align="center" | [http://www.ansto.gov.au/ ANSTO]
-| align="center" | &nbsp;
-| align="center" | &nbsp;
+| align="center" | Thursday
+| align="center" | Monday
 | align="center" | &nbsp;
 |- 
 | [[User:Paul Kienzle|Paul Kienzle]]
