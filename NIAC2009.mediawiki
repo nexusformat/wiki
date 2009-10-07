@@ -178,8 +178,8 @@ Please reserve your own rooms directly with the hotel (website, phone, ...)
 |- 
 | [[User:Stuart Campbell|Stuart Campbell]]
 | align="center" | [http://www.sns.gov SNS]
-| align="center" | &nbsp;
-| align="center" | &nbsp;
+| align="center" | Thursday
+| align="center" | Monday
 | align="center" | &nbsp;
 |- 
 | [[User:nick|Nick Hauser]]
@@ -202,8 +202,8 @@ Please reserve your own rooms directly with the hotel (website, phone, ...)
 |- 
 | [[User:Peter Peterson|Peter Peterson]]
 | align="center" | [http://www.sns.gov SNS]
-| align="center" | &nbsp;
-| align="center" | &nbsp;
+| align="center" | Thursday
+| align="center" | Monday
 | align="center" | &nbsp;
 |- 
 | [[User:Tobias Richter|Tobias Richter]]
