@@ -196,9 +196,8 @@ Please reserve your own rooms directly with the hotel (website, phone, ...)
 |- 
 | [[User:Nick_Maliszewskyj|Nick Maliszewskyj]]
 | align="center" | [http://www.nist.gov NIST]
-| align="center" | &nbsp;
-| align="center" | &nbsp;
-| align="center" | &nbsp;
+| align="center" colspan="2" | telepresence only
+| align="center" | n/a
 |- 
 | [[User:Mark Koennecke|Mark Könnecke]]
 | align="center" | [http://www.psi.ch PSI]
