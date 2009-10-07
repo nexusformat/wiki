@@ -30,7 +30,7 @@ These items are sorted in order of priority that they be finished. Only items th
 
 === Schedule ===
 
-* check-in Thursday evening
+* check-in Friday morning
 * meet all day Friday
 * meet all day Saturday
 * meet all day Sunday
