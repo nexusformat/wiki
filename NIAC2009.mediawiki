@@ -27,6 +27,7 @@ These items are sorted in order of priority that they be finished. Only items th
 # NXvalidate - a NeXus ﬁle validator
 # NXfiletool - an anything to NeXus and neXus to anything converter
 # NXaperture - right design? too complicated? alternatives: NXsquareaperture, NXroundaperture, ...
+# NeXus manual
 
 === Schedule ===
 
