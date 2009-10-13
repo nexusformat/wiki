@@ -190,9 +190,7 @@ Please reserve your own rooms directly with the hotel (website, phone, ...)
 |- 
 | [[User:nick|Nick Hauser]]
 | align="center" | [http://www.ansto.gov.au/ ANSTO]
-| align="center" | Thursday
-| align="center" | Monday
-| align="center" | &nbsp;
+| align="center" colspan="3" | canceled
 |- 
 | [[User:Nick_Maliszewskyj|Nick Maliszewskyj]]
 | align="center" | [http://www.nist.gov NIST]
