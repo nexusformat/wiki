@@ -28,6 +28,7 @@ These items are sorted in order of priority that they be finished. Only items th
 # NXfiletool - an anything to NeXus and NeXus to anything converter. Look at recently added NXextract tool and combining with NXtranslate
 # NXaperture - right design? too complicated? alternatives: NXsquareaperture, NXroundaperture, ...
 # NeXus manual
+# review NeXus "definitions" tickets in TRAC
 
 === Schedule ===
 
