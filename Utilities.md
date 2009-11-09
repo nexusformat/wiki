@@ -50,7 +50,7 @@ NXtranslate:Anything to NeXus converter
 NDS:NeXus data server, publish NeXus files on TCP/IP, read only (SINQ)  
 NNDB:Java program to browse NeXus files published through NDS (SINQ)  
 HDFView:Java-based tool for browsing and visualizing HDF4/5 files.  
-HDFExplorer:Windows 95/98/NT HDF viewer for HDF4 and HDF5 files from <http://www.space-research.org/explorer.htm> offers grid/scalar image/vector images and data export  
+HDFExplorer:Windows 95/98/NT HDF viewer for HDF4 and HDF5 files from <http://www.space-research.org> offers grid/scalar image/vector images and data export  
 
 Plotting Applications
 ---------------------
