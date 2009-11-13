@@ -7,6 +7,8 @@ layout: wiki
 Tobias Richter
 --------------
 
+#### Diamond Light Source Representative, NeXus International Advisory Committee
+
 Address:Diamond Light Source Ltd  
 Chilton, Didcot, OX11 0DE, United Kingdom
 
