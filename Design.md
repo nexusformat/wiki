@@ -186,7 +186,8 @@ by the sample, *e.g.*, energy transfer, polarizations.
 :;[NXgeometry](NXgeometry "wikilink"):This group contains the
 geometrical information required to define the position, shape, and
 orientation of a NeXus object. This is especially important if the NeXus
-file contains the results of a comprehensive instrument simulation.
+file contains the results of a comprehensive instrument simulation. For
+details see [Coordinate\_Systems](Coordinate_Systems "wikilink")
 
 ::;[NXtranslation](NXtranslation "wikilink"):This group defines the
 position of the object in either absolute coordinates or relative to
