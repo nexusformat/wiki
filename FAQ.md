@@ -19,7 +19,8 @@ used on all future instrumentation at ISIS (UK), NIST (USA), ANSTO
 (Australia) and instruments using the new data acquisition system at
 IPNS (USA). Finally, it has been formally adopted by major facilities
 under construction, the SNS (USA), JPARC (Japan) and Diamond Light
-Source (UK).
+Source (UK). For more information see the
+[Facilities](Facilities "wikilink") page.
 
 NeXus files are only useful for archiving instrumental data, aren't they?
 -------------------------------------------------------------------------
