@@ -32,3 +32,5 @@ If you are an editor, the process of defining an instrument should be quite simp
 #Select those data items and groups that you consider important in analyzing data from your instrument.
 Insert the relevant grep character, as defined in the [[Metaformat|NeXus Meta-DTD format]] to denote the number of occurrences. If the item is optional ("?" or "*"), then it does not need to be added to your definition.
 #If you encounter any problems because the classes are not sufficient to describe your configuration, please contact the NIAC Executive Secretary explaining the problem, and post a suggestion at the relevant class wiki page. The NIAC is always willing to consider proposals to amend the base classes. The procedures are defined in the NIAC constitution.
+==What coordinate system does NeXus use?==
+This is described on the [[Coordinate_Systems]] page

@@ -121,3 +121,8 @@ your definition.
     proposals to amend the base classes. The procedures are defined in
     the NIAC constitution.
 
+What coordinate system does NeXus use?
+--------------------------------------
+
+This is described on the
+[Coordinate\_Systems](Coordinate_Systems "wikilink") page
