@@ -1,1 +1,2 @@
+For information on using NXorientation see [[Coordinate_Systems]] 
 <nxformat file="NXorientation.xml"></nxformat>
