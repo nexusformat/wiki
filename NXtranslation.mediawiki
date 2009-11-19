@@ -1,1 +1,2 @@
+For information on using NXtranslation see [[Coordinate_Systems]] 
 <nxformat file="NXtranslation.xml"></nxformat>
