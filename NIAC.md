@@ -38,6 +38,8 @@ layout: wiki
     Soleil, France
 -   [Thomas Proffen](User%3AThomas_Proffen "wikilink"), Los Alamos
     National Laboratory, USA
+-   [Tobias Richter](User%3ATobias_Richter "wikilink"), Diamond Light
+    Source, UK
 -   [Jiro Suzuki](User%3AJiro_Suzuki "wikilink"), KEK, Japan
 
 The [expiration dates](Membership_Dates "wikilink") for the various
