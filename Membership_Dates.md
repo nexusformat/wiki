@@ -37,3 +37,7 @@ stated in the [constitution](NIAC "wikilink").
 -   Peter Peterson - Spallation Neutron Source, USA (Chair - 3 years)
 -   Stephane Poirier - Synchrotron Soleil, France
 
+### Expire October 24, 2011
+
+-   Tobias Richter, Diamond Light Source, UK
+
