@@ -21,8 +21,8 @@ around the world. Although not identical in every detail, they share
 enough common characteristics, and more importantly, they require
 sufficiently similar modes of data analysis, to make a standard
 description useful. They are in the process of being defined for the
-NeXus standard. The definitions will be in XML using the [NeXus Meta-DTD
-format](Metaformat "wikilink").
+NeXus standard. The definitions will be in XML using the NXDL (NeXus
+Definition Language) format.
 
 Instrument Definitions List
 ---------------------------
