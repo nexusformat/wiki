@@ -27,6 +27,17 @@ format](Metaformat "wikilink").
 Instrument Definitions List
 ---------------------------
 
+### TRAC
+
+[Pete](User%3APete_Jemian "wikilink") 15:49, 14 December 2009 (UTC):
+[NeXus definitions TRAC ticket
+\#3](http://trac.nexusformat.org/definitions/ticket/3) was created to
+describe the items on this page. Classes that were not already described
+in NXDL have TRAC tickets created. The status of each of these classes
+is described in the comments on that page. All new propositions for
+classes should be described with a [new TRAC
+ticket](http://trac.nexusformat.org/definitions/newticket).
+
 ### Ratified
 
 These have been voted on by the [NIAC](NIAC "wikilink") and so are

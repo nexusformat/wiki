@@ -4,6 +4,12 @@ As part of the NeXus standard, we have identified a number of generic instrument
 
 ==Instrument Definitions List==
 
+===TRAC===
+
+[[User:Pete Jemian|Pete]] 15:49, 14 December 2009 (UTC):
+[http://trac.nexusformat.org/definitions/ticket/3 NeXus definitions TRAC ticket #3]
+was created to describe the items on this page.  Classes that were not already described in NXDL have TRAC tickets created.  The status of each of these classes is described in the comments on that page.  All new propositions for classes should be described with a [http://trac.nexusformat.org/definitions/newticket  new TRAC ticket].
+
 ===Ratified===
 These have been voted on by the [[NIAC]] and so are official NeXus definitions
 *[[TOFRaw|NXTOFRaw: Time-of-Flight Raw Data]] Editors: [[User:Freddie_Akeroyd|Freddie Akeroyd]], [[User:Peter_Peterson|Peter Peterson]]
