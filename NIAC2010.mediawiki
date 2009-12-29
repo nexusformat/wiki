@@ -2,5 +2,5 @@ Planning is currently underway for the NIAC / Code Camp meeting in 2010.
 This will be organised to be adjacent to the NOBUGS meeting.
 
 Currently the tentative dates are:
-* NeXus code camp -> 2nd / 3rd November 2010
-* NIAC Meeting -> 4th / 5th November 2010
+* NeXus code camp -> 5th / 6th October 2010
+* NIAC Meeting -> 7th / 8th October 2010
