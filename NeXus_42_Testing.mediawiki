@@ -15,7 +15,7 @@ If the build or check fails, please file a bug report into the [[IssueReporting]
 
 == Release candidates for 4.2.1 ==
 
-Not currently released
+4.2.1 is currently in testing, 4.2rc5 being the first release candidate
  
 === 4.2rc5 (released 25/02/2010) ===
 
@@ -47,7 +47,7 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits/nx42tes
 
 == Release candidates for 4.2.0 == 
 
-[http://lists.nexusformat.org/pipermail/nexus/2009/000326.html officially released May 5, 2009]) ==
+4.2.0 was [http://lists.nexusformat.org/pipermail/nexus/2009/000326.html officially released May 5, 2009])
 
 === 4.2rc4 (released 23/02/2009) ===
 

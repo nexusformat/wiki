@@ -36,7 +36,7 @@ include/attach:
 Release candidates for 4.2.1
 ----------------------------
 
-Not currently released
+4.2.1 is currently in testing, 4.2rc5 being the first release candidate
 
 ### 4.2rc5 (released 25/02/2010)
 
@@ -52,8 +52,8 @@ here](http://trac.nexusformat.org/code/query?status=new&status=assigned&status=r
 Release candidates for 4.2.0
 ----------------------------
 
-[officially released May 5,
-2009](http://lists.nexusformat.org/pipermail/nexus/2009/000326.html)) ==
+4.2.0 was [officially released May 5,
+2009](http://lists.nexusformat.org/pipermail/nexus/2009/000326.html))
 
 ### 4.2rc4 (released 23/02/2009)
 
