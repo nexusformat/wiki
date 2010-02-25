@@ -45,9 +45,9 @@ page](http://download.nexusformat.org/kits/nx42testing.shtml). Issues
 reported with this release [can be found
 here](http://trac.nexusformat.org/code/query?status=new&status=assigned&status=reopened&status=closed&version=4.2rc4&order=priority).
 
-| | Operating System | | Processor | | Tester                                                                | | Kit Type | | HDF4 | | HDF5 | | MXML | | “make check”                                                       | | Remarks                  |
-|--------------------|-------------|-------------------------------------------------------------------------|------------|--------|--------|--------|----------------------------------------------------------------------|----------------------------|
-| | Linux (FC12)     | 64bit Intel | [Pete](User%3AFreddie_Akeroyd "wikilink") 10:31, 25 February 2010 (UTC) | tar        | 4.2.4  | 1.8.2  | 2.5-2  | 31 tests successful. 7 skipped (3/IDL, 3/NXsummary, and Python+HDF4) | gcc, g++, g77, f95, python |
+| | Operating System | | Processor | | Tester                                                                   | | Kit Type | | HDF4 | | HDF5 | | MXML | | “make check”                                                       | | Remarks                  |
+|--------------------|-------------|----------------------------------------------------------------------------|------------|--------|--------|--------|----------------------------------------------------------------------|----------------------------|
+| | Linux (FC12)     | 64bit Intel | [Freddie](User%3AFreddie_Akeroyd "wikilink") 10:31, 25 February 2010 (UTC) | tar        | 4.2.4  | 1.8.2  | 2.5-2  | 31 tests successful. 7 skipped (3/IDL, 3/NXsummary, and Python+HDF4) | gcc, g++, g77, f95, python |
 
 Release candidates for 4.2.0
 ----------------------------

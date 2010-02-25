@@ -35,7 +35,7 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits/nx42tes
 |-
 ! {{Headcellstyle}} | Linux (FC12)
 | align="center" | 64bit Intel
-| align="center" | [[User:Freddie Akeroyd|Pete]] 10:31, 25 February 2010 (UTC)
+| align="center" | [[User:Freddie Akeroyd|Freddie]] 10:31, 25 February 2010 (UTC)
 | align="center" | tar
 | align="center" | 4.2.4
 | align="center" | 1.8.2
@@ -43,7 +43,6 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits/nx42tes
 | align="center" | 31 tests successful.  7 skipped (3/IDL, 3/NXsummary, and Python+HDF4)
 | align="center" | gcc, g++, g77, f95, python
 |}
-
 
 == Release candidates for 4.2.0 == 
 
