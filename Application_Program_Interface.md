@@ -64,8 +64,9 @@ The core API comprises the following functional groups:
 
 ### C and C++ Interface
 
-[Documentation of
-routines](http://download.nexusformat.org/doxygen/html/)
+Doxygen documentation for
+[C](http://download.nexusformat.org/doxygen/html-c/) and
+[C++](http://download.nexusformat.org/doxygen/html-cxx/)routines
 
 ### Fortran 77 Interface
 
