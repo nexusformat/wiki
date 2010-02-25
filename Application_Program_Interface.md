@@ -133,6 +133,9 @@ each routine to the F77 data types.
 </tbody>
 </table>
 
+Also see [doxygen
+documentation](http://download.nexusformat.org/doxygen/html-f77/)
+
 ### Fortran 90 Interface
 
 The Fortran 90 interface is a wrapper to the C interface with nearly
@@ -249,6 +252,9 @@ defining variables.
 </tbody>
 </table>
 
+Also see [doxygen
+documentation](http://download.nexusformat.org/doxygen/html-f90/)
+
 ### Java Interface
 
 NeXus for Java provides access to NeXus data files for programs written
@@ -256,6 +262,11 @@ in Java. This API was implemented by Java code calling the original C
 language NeXus API through the Java Native Methods Interface.
 
 -   [Description of NeXus-Java interface](Java_API "wikilink")
+
+### Python Interface
+
+Documentation available in pydoc and
+[doxygen](http://download.nexusformat.org/doxygen/html-java/)
 
 ### IDL Interface
 

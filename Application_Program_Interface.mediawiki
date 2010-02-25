@@ -53,6 +53,8 @@ Use the following table to convert from the C data types listed with each routin
 |NXlink a, NXlink* a || INTEGER A(NXLINKSIZE)
 |}
 
+Also see [http://download.nexusformat.org/doxygen/html-f77/ doxygen documentation]
+
 ===Fortran 90 Interface===
 The Fortran 90 interface is a wrapper to the C interface with nearly identical routine definitions. As with the Fortran 77 interface, it is necessary to reverse the order of indices in multidimensional arrays, compared to an equivalent C program, so that data are stored in the same order in the NeXus file.
 
@@ -103,9 +105,14 @@ The following parameters, which are defined in NXmodule, may be used in defining
 |NXr8||Kind parameter for an 8-byte real||align="center"|kind(1.0D0)
 |}
 
+Also see [http://download.nexusformat.org/doxygen/html-f90/ doxygen documentation]
+
 ===Java Interface===
 NeXus for Java provides access to NeXus data files for programs written in Java. This API was implemented by Java code calling the original C language NeXus API through the Java Native Methods Interface.
 *[[Java API|Description of NeXus-Java interface]]
+
+===Python Interface===
+Documentation available in pydoc and [http://download.nexusformat.org/doxygen/html-java/ doxygen]
 
 ===IDL Interface===
 IDL is an interactive data evaluation environment developed by Research Systems. It is an interpreted language for data manipulation and visualization. Part of IDL is an HDF-interface. In order to facilitate the import of NeXus files into this popular data manipulation package, the NeXus-API was reimplemented in the IDL language by Mark Koennecke. The package may be downloaded as a tar file from <ftp://ftp.neutron.anl.gov/nexus/nidl.tar>.
