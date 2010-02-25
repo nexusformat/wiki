@@ -266,7 +266,7 @@ language NeXus API through the Java Native Methods Interface.
 ### Python Interface
 
 Documentation available in pydoc and
-[doxygen](http://download.nexusformat.org/doxygen/html-java/)
+[doxygen](http://download.nexusformat.org/doxygen/html-python/)
 
 ### IDL Interface
 
