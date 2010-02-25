@@ -47,7 +47,7 @@ here](http://trac.nexusformat.org/code/query?status=new&status=assigned&status=r
 
 | | Operating System | | Processor | | Tester                                                                | | Kit Type | | HDF4 | | HDF5 | | MXML | | “make check”                                                       | | Remarks                  |
 |--------------------|-------------|-------------------------------------------------------------------------|------------|--------|--------|--------|----------------------------------------------------------------------|----------------------------|
-| | Linux (FC12)     | 64bit Intel | [Pete](User%3AFreddie_Akeroyd "wikilink") 22:31, 23 February 2009 (UTC) | tar        | 4.2.4  | 1.8.2  | 2.5-2  | 31 tests successful. 7 skipped (3/IDL, 3/NXsummary, and Python+HDF4) | gcc, g++, g77, f95, python |
+| | Linux (FC12)     | 64bit Intel | [Pete](User%3AFreddie_Akeroyd "wikilink") 10:31, 25 February 2010 (UTC) | tar        | 4.2.4  | 1.8.2  | 2.5-2  | 31 tests successful. 7 skipped (3/IDL, 3/NXsummary, and Python+HDF4) | gcc, g++, g77, f95, python |
 
 Release candidates for 4.2.0
 ----------------------------

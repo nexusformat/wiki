@@ -35,7 +35,7 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits/nx42tes
 |-
 ! {{Headcellstyle}} | Linux (FC12)
 | align="center" | 64bit Intel
-| align="center" | [[User:Freddie Akeroyd|Pete]] 22:31, 23 February 2009 (UTC)
+| align="center" | [[User:Freddie Akeroyd|Pete]] 10:31, 25 February 2010 (UTC)
 | align="center" | tar
 | align="center" | 4.2.4
 | align="center" | 1.8.2
