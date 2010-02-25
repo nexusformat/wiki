@@ -4,10 +4,20 @@ permalink: Latest_News/
 layout: wiki
 ---
 
+2010
+----
+
+Thursday, February 25, 2010: NeXus API 4.2 Release Candidate 5 (candidate for 4.2.1) is now [available for testing](NeXus_42_Testing "wikilink")  
+
+2009
+----
+
+Tuesday, May 5, 2009: [NeXus API 4.2.0 released](http://lists.nexusformat.org/pipermail/nexus/2009/000326.html)  
+
 2008
 ----
 
-Wednesday, December 3, 2008:NeXus API 4.2 Release Candidate 2 is now [available for testing](NeXus_42_Testing "wikilink")  
+Wednesday, December 3, 2008:NeXus API 4.2 Release Candidate 2 (candidate for 4.2.0) is now [available for testing](NeXus_42_Testing "wikilink")  
 Wednesday, August 27, 2008:Work is currently in progress to convert NeXus definitions from [Meta-DTDs](Metaformat "wikilink") into [XML Schema](http://www.w3.org/XML/Schema) - for more details see the [NeXus schema](Schema "wikilink") page.  
 
 2007
