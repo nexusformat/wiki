@@ -19,9 +19,12 @@ The following documentation is browsable online:
 1.  The [NeXus for Java API](japinotes "wikilink") general instructions
     including installation notes, instructions for running NeXus for
     Java programs and a brief introduction to the API.
-2.  A verbose tutorial for the NeXus for Java API.
-3.  The API Reference.
-4.  Finally, the source code for the test driver for the API which also
+2.  The [Doxygen
+    API](http://download.nexusformat.org/doxygen/html-java/)
+    documentation
+3.  A verbose tutorial for the NeXus for Java API.
+4.  The API Reference.
+5.  Finally, the source code for the test driver for the API which also
     serves as a documented usage example.
 
 ### Acknowledgement
