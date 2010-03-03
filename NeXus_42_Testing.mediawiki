@@ -62,6 +62,16 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits/nx42tes
 | align="center" | 2.5-2
 | align="center" | 25 tests successful. 
 | align="center" | gcc, g++, python
+|-
+! {{Headcellstyle}} | Ubuntu Hardy heron
+| align="center" | 32bit Intel
+| align="center" | [[User:Mark Koennecke|Mark]] 10:00, 3.3 2010 (UTC)
+| align="center" | tar
+| align="center" | 4.1.4
+| align="center" | 1.6.5
+| align="center" | 2.5-2
+| align="center" | 25 tests successful. 
+| align="center" | gcc, g++, python
 
 |}
 
