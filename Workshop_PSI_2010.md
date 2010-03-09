@@ -4,8 +4,8 @@ permalink: Workshop_PSI_2010/
 layout: wiki
 ---
 
-NeXus Workshop at PSI (May 10 - 12 2010)
-----------------------------------------
+NeXus Workshop at PSI (May 10 - 12, 2010)
+-----------------------------------------
 
 A NeXus workshop will be held at PSI from Monday, May 10 till Wednesday,
 May 12 2010. The purpose of this workshop is twofold:
