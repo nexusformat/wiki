@@ -7,7 +7,7 @@ layout: wiki
 2010
 ----
 
-Tuesday, March 9, 2010: A [NeXus Workshop](Workshop_PSI_2010 "wikilink") will be held at [PSI](http://www.psi.ch/) on May 10th - 12th  
+Tuesday, March 9, 2010: A [NeXus Workshop](Workshop_PSI_2010 "wikilink") will be held at [PSI](http://www.psi.ch/) on May 10th - 12th. Its main purpose is to discuss the application of NeXus at synchrotron sources.  
 
 2010
 ----
