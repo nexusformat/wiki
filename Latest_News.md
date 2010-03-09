@@ -7,6 +7,11 @@ layout: wiki
 2010
 ----
 
+Tuesday, March 9, 2010: A [NeXus Workshop](Workshop_PSI_2010 "wikilink") will be held at [PSI](http://www.psi.ch/) on May 10th - 12th  
+
+2010
+----
+
 Thursday, February 25, 2010: NeXus API 4.2 Release Candidate 5 (candidate for 4.2.1) is now [available for testing](NeXus_42_Testing "wikilink")  
 
 2009
