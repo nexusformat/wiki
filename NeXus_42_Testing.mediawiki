@@ -77,11 +77,11 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits/nx42tes
 | align="center" | Intel
 | align="center" | [[User:Stuart Campbell|Stuart Campbell]] 16:09, 19 March 2010 (UTC)
 | align="center" | tar
-| align="center" | 4.2.r4
+| align="center" | 4.2.4
 | align="center" | 1.8.4
 | align="center" | 2.6
-| align="center" | 
-| align="center" | 
+| align="center" | 26 tests successful.  9 skipped (3/IDL, 3/FORTRAN, and 3/Python)
+| align="center" | gcc, g++, gfortran, java 
 |}
 
 == Release candidates for 4.2.0 == 
