@@ -72,7 +72,16 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits/nx42tes
 | align="center" | 2.5-2
 | align="center" | 25 tests successful. 
 | align="center" | gcc, g++, python
-
+|-
+! {{Headcellstyle}} | Mac OS X Snow Leopard
+| align="center" | Intel
+| align="center" | [[User:Stuart Campbell|Stuart Campbell]] 16:09, 19 March 2010 (UTC)
+| align="center" | tar
+| align="center" | 4.2.r4
+| align="center" | 1.8.4
+| align="center" | 2.6
+| align="center" | 
+| align="center" | 
 |}
 
 == Release candidates for 4.2.0 == 

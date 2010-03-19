@@ -45,12 +45,13 @@ page](http://download.nexusformat.org/kits/nx42testing.shtml). Issues
 reported with this release [can be found
 here](http://trac.nexusformat.org/code/query?status=new&status=assigned&status=reopened&status=closed&version=4.2rc4&order=priority).
 
-| | Operating System    | | Processor | | Tester                                                                   | | Kit Type | | HDF4 | | HDF5 | | MXML | | “make check”                                                       | | Remarks                  |
-|-----------------------|-------------|----------------------------------------------------------------------------|------------|--------|--------|--------|----------------------------------------------------------------------|----------------------------|
-| | Linux (FC12)        | 64bit Intel | [Freddie](User%3AFreddie_Akeroyd "wikilink") 10:31, 25 February 2010 (UTC) | tar        | 4.2.4  | 1.8.2  | 2.5-2  | 31 tests successful. 7 skipped (3/IDL, 3/NXsummary, and Python+HDF4) | gcc, g++, g77, f95, python |
-| | Linux SL5 == RHEL 5 | 32bit Intel | [Mark](User%3AMark_Koennecke "wikilink") 17:00, 25 February 2010 (UTC)     | tar        | 4.2.r2 | 1.6.6  | 2.5-2  | 32 tests successful.                                                 | gcc, g++, g77, python, IDL |
-| | Ubuntu Karmic Koala | 32bit Intel | [Mark](User%3AMark_Koennecke "wikilink") 10:00, 3.3 2010 (UTC)             | tar        | 4.1.4  | 1.6.6  | 2.5-2  | 25 tests successful.                                                 | gcc, g++, python           |
-| | Ubuntu Hardy heron  | 32bit Intel | [Mark](User%3AMark_Koennecke "wikilink") 10:00, 3.3 2010 (UTC)             | tar        | 4.1.4  | 1.6.5  | 2.5-2  | 25 tests successful.                                                 | gcc, g++, python           |
+| | Operating System      | | Processor | | Tester                                                                        | | Kit Type | | HDF4 | | HDF5 | | MXML | | “make check”                                                       | | Remarks                  |
+|-------------------------|-------------|---------------------------------------------------------------------------------|------------|--------|--------|--------|----------------------------------------------------------------------|----------------------------|
+| | Linux (FC12)          | 64bit Intel | [Freddie](User%3AFreddie_Akeroyd "wikilink") 10:31, 25 February 2010 (UTC)      | tar        | 4.2.4  | 1.8.2  | 2.5-2  | 31 tests successful. 7 skipped (3/IDL, 3/NXsummary, and Python+HDF4) | gcc, g++, g77, f95, python |
+| | Linux SL5 == RHEL 5   | 32bit Intel | [Mark](User%3AMark_Koennecke "wikilink") 17:00, 25 February 2010 (UTC)          | tar        | 4.2.r2 | 1.6.6  | 2.5-2  | 32 tests successful.                                                 | gcc, g++, g77, python, IDL |
+| | Ubuntu Karmic Koala   | 32bit Intel | [Mark](User%3AMark_Koennecke "wikilink") 10:00, 3.3 2010 (UTC)                  | tar        | 4.1.4  | 1.6.6  | 2.5-2  | 25 tests successful.                                                 | gcc, g++, python           |
+| | Ubuntu Hardy heron    | 32bit Intel | [Mark](User%3AMark_Koennecke "wikilink") 10:00, 3.3 2010 (UTC)                  | tar        | 4.1.4  | 1.6.5  | 2.5-2  | 25 tests successful.                                                 | gcc, g++, python           |
+| | Mac OS X Snow Leopard | Intel       | [Stuart Campbell](User%3AStuart_Campbell "wikilink") 16:09, 19 March 2010 (UTC) | tar        | 4.2.r4 | 1.8.4  | 2.6    |                                                                      |                            |
 
 Release candidates for 4.2.0
 ----------------------------
