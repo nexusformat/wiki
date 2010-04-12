@@ -1,8 +1,14 @@
+== 4.2.1 ==
+The following new featues have been added:
+* NXbrowse now has readline support (i.e. previous command line recall and TAB completion of entry names)
+* new API functions NXgetpath() and NXgetversion() added
+* NXgetnextentry() now uses less stack space 
+
+== 4.2.0 ==
 ==System Requirements==
 '''MXML XML Parsing Library'''
 
 Version 2.2.2 or higher of mxml is required. Earlier versions have a bug and the XML API will not work. This package can be downloded in [http://www.easysw.com/~mike/mxml/software.php both source and binary rpm form] and is also available as part of [http://fedoraproject.org/wiki/Extras/UsingExtras Fedora Extras]. IMPORTANT NOTE: Debian also provides the mxml package, but it based on 2.0 and will not work properly.
-
 
 
 '''Python Interface'''
@@ -18,6 +24,7 @@ env FCFLAGS="-mismatch" ./configure --with-f90=f95
 There is a problem with the include file, hdfi.h (normally in /usr/local/include).  See http://coastwatch.noaa.gov/helparc/software/msg00069.html for details of the modifications necessary to fix it.
 
 ==New Features==
+
 ===C++ Interface (provided by [[User:Freddie_Akeroyd|Freddie Akeroyd]] and [[User:Peter_Peterson|Peter Peterson]]) ===
 See the [http://download.nexusformat.org/doxygen/html/classNeXus_1_1File.html doxygen documentation] and
 [http://svn.nexusformat.org/code/branches/4.2/test/napi_test_cpp.cxx NeXus API test program]. A C++ Stream Like interface is also supported - the idea is to provide an IOSteam like interface and allow you to type 

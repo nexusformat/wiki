@@ -4,6 +4,19 @@ permalink: Nexus_42_Release_Notes/
 layout: wiki
 ---
 
+4.2.1
+-----
+
+The following new featues have been added:
+
+-   NXbrowse now has readline support (i.e. previous command line recall
+    and TAB completion of entry names)
+-   new API functions NXgetpath() and NXgetversion() added
+-   NXgetnextentry() now uses less stack space
+
+4.2.0
+-----
+
 System Requirements
 -------------------
 
