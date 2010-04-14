@@ -1,5 +1,5 @@
 ==2010==
-;Tuesday, April 13, 2010: NeXus API version 4.2.1 has now been released and is available from the [http://download.nexusformat.org/kits/ download area]
+;Tuesday, April 13, 2010: NeXus API version 4.2.1 has now been released and is available from the [http://download.nexusformat.org/kits/ download area] - see [[Nexus_42_Release_Notes]] for further information
 
 ;Tuesday, March 9, 2010: A [[Workshop_PSI_2010|NeXus Workshop]] will be held at [http://www.psi.ch/ PSI] on May 10th - 12th. Its main purpose is to discuss the application of NeXus at synchrotron sources.
 

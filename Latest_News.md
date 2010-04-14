@@ -7,7 +7,7 @@ layout: wiki
 2010
 ----
 
-Tuesday, April 13, 2010: NeXus API version 4.2.1 has now been released and is available from the [download area](http://download.nexusformat.org/kits/)  
+Tuesday, April 13, 2010: NeXus API version 4.2.1 has now been released and is available from the [download area](http://download.nexusformat.org/kits/) - see [Nexus\_42\_Release\_Notes](Nexus_42_Release_Notes "wikilink") for further information  
 
 <!-- -->
 
