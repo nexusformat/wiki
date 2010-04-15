@@ -115,8 +115,11 @@ NeXus for Java provides access to NeXus data files for programs written in Java.
 Documentation available in pydoc and [http://download.nexusformat.org/doxygen/html-python/ doxygen]
 
 ===IDL Interface===
-IDL is an interactive data evaluation environment developed by Research Systems. It is an interpreted language for data manipulation and visualization. Part of IDL is an HDF-interface. In order to facilitate the import of NeXus files into this popular data manipulation package, the NeXus-API was reimplemented in the IDL language by Mark Koennecke. The package may be downloaded as a tar file from <ftp://ftp.neutron.anl.gov/nexus/nidl.tar>.
-*[[IDL API|Description of NeXus-IDL interface]]
+IDL is an interactive data evaluation environment developed by Research Systems - it is an interpreted language for data manipulation and visualization. The NeXus IDL bindings allow access to the NeXus API from within IDL - they are installed when NeXus is compiled from source after being configured with the following options
+<pre>
+./configure  --with-idlroot=/path/to/idl/installation  --with-idldlm=/path/to/install/dlm/files/to
+</pre>
+For further details see the [http://svn.nexusformat.org/code/trunk/bindings/idl/README.html IDL binding README]
 
 ==Utility API==
 

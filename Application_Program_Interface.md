@@ -271,14 +271,15 @@ Documentation available in pydoc and
 ### IDL Interface
 
 IDL is an interactive data evaluation environment developed by Research
-Systems. It is an interpreted language for data manipulation and
-visualization. Part of IDL is an HDF-interface. In order to facilitate
-the import of NeXus files into this popular data manipulation package,
-the NeXus-API was reimplemented in the IDL language by Mark Koennecke.
-The package may be downloaded as a tar file from
-&lt;<ftp://ftp.neutron.anl.gov/nexus/nidl.tar>&gt;.
+Systems - it is an interpreted language for data manipulation and
+visualization. The NeXus IDL bindings allow access to the NeXus API from
+within IDL - they are installed when NeXus is compiled from source after
+being configured with the following options
 
--   [Description of NeXus-IDL interface](IDL_API "wikilink")
+    ./configure  --with-idlroot=/path/to/idl/installation  --with-idldlm=/path/to/install/dlm/files/to
+
+For further details see the [IDL binding
+README](http://svn.nexusformat.org/code/trunk/bindings/idl/README.html)
 
 Utility API
 -----------
