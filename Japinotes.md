@@ -5,20 +5,10 @@ layout: wiki
 ---
 
 The NeXus API for Java
-
-Contents
-
-`   * Introduction`  
-`   * Acknowledgement`  
-`   * Installation`  
-`   * Running Programs with the NeXus API for Java.`  
-`   * NeXus for Java Programming Tutorial`  
-`   * Programming with the NeXus API for Java (for experienced NeXus API Programmers).`  
-`   * Known Limitations.`  
-`   * Compiling the NeXus API for Java`  
-`   * Support `
+======================
 
 Introduction
+------------
 
 NeXus is a proposal for a common file format for neutron and X-ray
 scattering. NeXus uses HDF as its physical file format. At the last
@@ -30,13 +20,21 @@ Interface (JNI). This has the consequence that the Java API for NeXus
 cannot be used in applets as the security restrictions for applets
 prohibit downloading of shared libraries and local file access. Applets
 can use a NeXus Data Server in order to access NeXus files in readonly
-mode. Acknowledgement
+mode.
+
+Acknowledgement
+---------------
 
 This implementation uses classes and native methods from NCSA's Java HDF
 Interface project. Basically all conversions from native types to Java
 types is done through code from the NCSA HDF group. Without this code
 the implementation of this API would have taken much longer. See NCSA's
-copyright for more information. Installation Requirements
+copyright for more information.
+
+Installation
+------------
+
+### Requirements
 
 For the binary distribution only a JDK1.1 compatible Java runtime is
 required. Suitable runtime environments for Solaris, Linux and Windows32
@@ -47,30 +45,36 @@ been tested with Java 2 but should work with it.
 In order to compile the Java API for NeXus the following components are
 required:
 
-`   * A Java Development Kit 1.1 or better. For downloads see above.`  
-`   * A C compiler for your platform.`  
-`   * The HDF libraries version 4.1r3 or better. Can be downloaded from NCSA's HDF homepage.`  
-`   * A complete copy of the latest NAPI sources (including jnexus sources). `
+-   A Java Development Kit 1.1 or better. For downloads see above.
+-   A C compiler for your platform.
+-   The HDF libraries version 4.1r3 or better. Can be downloaded from
+    NCSA's HDF homepage.
+-   A complete copy of the latest NAPI sources (including jnexus
+    sources).
 
-Installation under Windows32 (Windows NT, Windows 95, 98, ME)
+### Installation under Windows32 (Windows NT, Windows 95, 98, ME)
 
-`  1. Copy the HDF DLL's (*413m.dll) and the file jnexus.dll to a directory in your path. For instance C:\Windows\system32.`  
-`  2. Copy the jnexus.jar to the place where you usually keep library jar files. `
+1.  Copy the HDF DLL's (\*413m.dll) and the file jnexus.dll to a
+    directory in your path. For instance C:\\Windows\\system32.
+2.  Copy the jnexus.jar to the place where you usually keep library jar
+    files.
 
-Installation under Unix
+### Installation under Unix
 
 Two files are needed: the jnexus.so shared library and the jnexus.jar
 file holding the required Java class. Copy them wherever you like and
-see below for instructions how to run programs using jnexus. Running
-Programs with the NeXus API for Java
+see below for instructions how to run programs using jnexus.
+
+Running Programs with the NeXus API for Java
+--------------------------------------------
 
 In order to successfully run a program with jnexus the Java runtime
 systems needs to locate two items:
 
-`   * The shared library implementing the native methods.`  
-`   * The nexus.jar file in order to find the Java classes. `
+-   The shared library implementing the native methods.
+-   The nexus.jar file in order to find the Java classes.
 
-Locating the shared library
+### Locating the shared library
 
 Of course the method for locating a shared library differ between
 systems. Under Windows32 systems the best method is to copy the
@@ -79,29 +83,35 @@ HDF DLL's have to go there anyway.
 
 On a unix system the problem can be solved in three different ways:
 
-`   * Make your system administrator copy the jnexus.so file into the systems default shared library directory (usually /usr/sbin).`  
-`   * Put the jnexus.so file wherever you see fit and set the LD_LIBRARY_PATH environment variable to point to the directory of your choice.`  
-`   * Specify the full pathname of the jnexus shared library on the java command line with the -Dneutron.nexus.JNEXUSLIB=full-path-2-shared-library option. `
+-   Make your system administrator copy the jnexus.so file into the
+    systems default shared library directory (usually /usr/sbin).
+-   Put the jnexus.so file wherever you see fit and set the
+    LD\_LIBRARY\_PATH environment variable to point to the directory of
+    your choice.
+-   Specify the full pathname of the jnexus shared library on the java
+    command line with the
+    -Dneutron.nexus.JNEXUSLIB=full-path-2-shared-library option.
 
-Locating jnexus.jar
+### Locating jnexus.jar
 
 This is easier: just add the the full pathname to jnexus.jar to the
 classpath when starting java. Examples
 
 A unix example shell script:
 
-1.  !/sbin/sh
-
-java -classpath /usr/lib/classes.zip:../jnexus.jar:. \\
-
-`-Dneutron.nexus.JNEXUSLIB=../bin/du40/libjnexus.so TestJapi`  
+`#!/sbin/sh`  
+`java -classpath /usr/lib/classes.zip:../jnexus.jar:. \`  
+`   -Dneutron.nexus.JNEXUSLIB=../bin/du40/libjnexus.so TestJapi`  
 
 A Windows 32 example batch file:
 
-set JL=-Dneutron.nexus.JNEXUSLIB=..\\jnexus\\bin\\win32\\jnexus.dll java
--classpath C:\\jdk1.1.5\\lib\\classes.zip;..\\jnexus.jar;. %JL% TestJapi
+`set JL=-Dneutron.nexus.JNEXUSLIB=..\jnexus\bin\win32\jnexus.dll`  
+`java -classpath C:\jdk1.1.5\lib\classes.zip;..\jnexus.jar;. %JL% TestJapi`
 
 Programming with the NeXus API for Java.
+----------------------------------------
+
+note: for experienced NeXus API Programmers!
 
 The NeXus C-API is good enough but for Java a few adaptions of the API
 have been made in order to match the API better to the idioms used by
@@ -110,12 +120,17 @@ study the NeXus C-API because many methods work in the same way as their
 C equivalents. A full API documentation is available in Java
 documentation format. For full reference look especially at:
 
-`   * The interface NeXusFileInterface first. It gives an uncluttered view of the API.`  
-`   * The implementation NexusFile which gives more details about constructors and constants. However this documentation is interspersed with information about native methods which should not be called by an application programmer as they are not part of the standard and might change in future. `
+-   The interface NeXusFileInterface first. It gives an uncluttered view
+    of the API.
+-   The implementation NexusFile which gives more details about
+    constructors and constants. However this documentation is
+    interspersed with information about native methods which should not
+    be called by an application programmer as they are not part of the
+    standard and might change in future.
 
 Some more general explanation will be given below.
 
-General Things
+### General Things
 
 See the following code example for opening a file, opening a vGroup and
 closing the file again in order to get a feeling for the API.
@@ -131,27 +146,39 @@ closing the file again in order to get a feeling for the API.
 
 Some notes on this little example:
 
-`   * Each NeXus file is represented by a NexusFile object which is created through the constructor.`  
-`   * The NexusFile object takes care of all file handles for you. So there is no need to pass in a handle anymore to each method as in the C language API.`  
-`   * All error handling is done through the Java exception handling mechanism. This saves all the code checking return values in the C language API. Most API functions return void.`  
-`   * Closing files is tricky. The Java garbage collector is supposed to call the finalize method for each object it decides to delete. In order to enable this mechanism, the NXclose function was replaced by the finalize method. In practice it seems not to be guranteed that the garbage collector calls the finalize method. It is safer to call finalize yourself in order to properly close a file. Multiple calls to the finalize method for the same object are safe and do no harm. `
+-   Each NeXus file is represented by a NexusFile object which is
+    created through the constructor.
+-   The NexusFile object takes care of all file handles for you. So
+    there is no need to pass in a handle anymore to each method as in
+    the C language API.
+-   All error handling is done through the Java exception handling
+    mechanism. This saves all the code checking return values in the C
+    language API. Most API functions return void.
+-   Closing files is tricky. The Java garbage collector is supposed to
+    call the finalize method for each object it decides to delete. In
+    order to enable this mechanism, the NXclose function was replaced by
+    the finalize method. In practice it seems not to be guranteed that
+    the garbage collector calls the finalize method. It is safer to call
+    finalize yourself in order to properly close a file. Multiple calls
+    to the finalize method for the same object are safe and do no harm.
 
 Data Writing and Reading
+------------------------
 
 Again a code sample which shows how this looks like:
 
-`      int idata[][] = new idata[10][20];`  
-`      int iDim[] = new int[2];`
-
-`       // put some data into iData.......`
-
+`       int idata[][] = new idata[10][20];`  
+`       int iDim[] = new int[2];`  
+`       `  
+`       // put some data into iData.......`  
+`       `  
 `       // write iData`  
 `       iDim[0] = 10;`  
 `       iDim[1] = 20;`  
 `       nf.makedata(`“`idata`”`,NexusFile.NX_INT32,2,iDim);`  
 `       nf.opendata(`“`idata`”`);`  
-`   nf.putdata(idata);`
-
+`       nf.putdata(idata);`  
+`       `  
 `       // read idata`  
 `       nf.getdata(idata);`
 
@@ -187,7 +214,7 @@ And reading:
 The aforementioned holds for all strings written as SDS content or as an
 attribute. SDS or vGroup names do not need this treatment.
 
-Inquiry Routines
+### Inquiry Routines
 
 Let us compare the C-API and Java-API signatures of the getinfo routine
 or method:
@@ -214,7 +241,7 @@ for the key. Thus the code for a vGroup search looks like this:
 `        e = h.keys();`  
 `        System.out.println(`“`Found`` ``in`` ``vGroup`` ``entry:`”`);`  
 `        while(e.hasMoreElements())`  
-`    {`  
+`        {`  
 `           vname = (String)e.nextElement();`  
 `           vclass = (String)h.get(vname);`  
 `           System.out.println("     Item: " + vname + " class: " + vclass);`  
@@ -228,7 +255,7 @@ this in the Java-API:
 `        Hashtable h = nf.attrdir();`  
 `        Enumeration e = h.keys();`  
 `        while(e.hasMoreElements())`  
-`    {`  
+`        {`  
 `          attname = (String)e.nextElement();`  
 `          atten = (AttributeEntry)h.get(attname);`  
 `          System.out.println("Found global attribute: " + attname +`  
@@ -240,30 +267,21 @@ reference or the NeXus C-API reference pages. Another good source of
 information is the source code of the test program which exercises each
 API routine. Limitations
 
+Known Problems
+--------------
+
 These are a couple of known problems which you might run into:
 
-Memory
-
-`   As the Java API for NeXus has to convert between native and Java number types a copy of the data must be made in the process. This means that if you want to read or write 20MB of data your memory requirement will be 40MB! This can be reduced by using getslab/putslab for data transfers. `
-
-Java.lang.OutOfMemoryException
-
-`   By default the Java runtime has a ceiling of 16MB of memory use. This ceiling can be increased through the -mxXXm option to the Java runtime. An example: java -mx32m ..... starts the Java runtime with a memory ceiling of 32MB. `
-
-DigitalUnix4.0D and LZW compression
-
-`   An error occurs in the HDF library when trying to compress a dataset with COMP_CODE_LZW. This works just fine on other platforms and also when using the NeXus C language API. The reason for this is still an area for research. `
-
-Maximum 8192 files open.
-
-`   The NeXus API for Java has a fixed buffer for file handles which allows only 8192 NeXus files to be open at the same time. If you ever hit this limit, increase the MAXHANDLE define in native/handle.h and recompile everything. `
+Memory: As the Java API for NeXus has to convert between native and Java number types a copy of the data must be made in the process. This means that if you want to read or write 20MB of data your memory requirement will be 40MB! This can be reduced by using getslab/putslab for data transfers.  
+Java.lang.OutOfMemoryException: By default the Java runtime has a ceiling of 16MB of memory use. This ceiling can be increased through the -mxXXm option to the Java runtime. An example: java -mx32m ..... starts the Java runtime with a memory ceiling of 32MB.  
+DigitalUnix4.0D and LZW compression: An error occurs in the HDF library when trying to compress a dataset with COMP\_CODE\_LZW. This works just fine on other platforms and also when using the NeXus C language API. The reason for this is still an area for research.  
+Maximum 8192 files open: The NeXus API for Java has a fixed buffer for file handles which allows only 8192 NeXus files to be open at the same time. If you ever hit this limit, increase the MAXHANDLE define in native/handle.h and recompile everything.  
 
 Compiling the Java API for NeXus
+--------------------------------
 
-You will need
-
-1.  a complete copy of the latest NAPI sources (including jnexus
-    sources). See other requirements under installation above.
+You will need a complete copy of the latest NAPI sources (including
+jnexus sources). See other requirements under installation above.
 
 For Windows32 a Microsoft Visual C++ 6.0 project file is supplied in the
 jnexus/jnexus directory. Use this project file. You will need to adapt
@@ -289,7 +307,10 @@ repository and make your Makefile and the compiled shared library
 available to the NAPI team in order to provide a new binary
 distribution. Support
 
-I'am sure this software contains swarms of bugs. If you manage to find
+Author
+------
+
+I'm sure this software contains swarms of bugs. If you manage to find
 one you may send requests either to the NAPI developer mailing list or
 to Mark Könnecke who wrote the Java API for NeXus.
 
