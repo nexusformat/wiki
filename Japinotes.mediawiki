@@ -125,8 +125,8 @@ The dataset is created as usual with makedata and opened with putdata. The trick
 Another issue are strings. Strings are first class objects in Java. HDF (and NeXus) sees them as dumb arrays of bytes. Thus strings have to be converted to and from bytes when reading string data. See a writing example:
 
         String ame = "Alle meine Entchen";
-	nf.makedata("string_data",NexusFile.NX_CHAR,1,
-                           ame.length()+2);
+        nf.makedata("string_data",NexusFile.NX_CHAR,
+                1,ame.length()+2);
         nf.opendata("string_data");
         nf.putdata(ame.getBytes());
 
