@@ -178,6 +178,8 @@ proposed. This is the current procedure:
 Meetings
 --------
 
+-   [NIAC'2010](NIAC2010 "wikilink") NeXus Code Camp and NIAC Meeting,
+    ORNL, October, 2010
 -   [October 16-18 2009](NIAC2009 "wikilink") NeXus Code Camp hosted by
     APS in Chicago (Evanston, Illinois)
     ([minutes](NIAC2009_minutes "wikilink"))
