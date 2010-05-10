@@ -10,3 +10,6 @@ NeXpy is in the early stages of development, and so there has been no stable rel
 This assumes that the standard Python script directory is in your default path. 
 
 The source code can also be viewed on the [http://trac.mcs.anl.gov/projects/nexpy/ NeXpy Trac Server].
+
+==GUI Shell==
+[[Image:Nexpy.png|NeXpy|center|width=200px]]

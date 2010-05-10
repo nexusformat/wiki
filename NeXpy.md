@@ -29,3 +29,8 @@ default path.
 
 The source code can also be viewed on the [NeXpy Trac
 Server](http://trac.mcs.anl.gov/projects/nexpy/).
+
+GUI Shell
+---------
+
+![NeXpy|center|width=200px](Nexpy.png "NeXpy|center|width=200px")
