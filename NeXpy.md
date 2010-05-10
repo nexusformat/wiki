@@ -41,12 +41,23 @@ shell.
     file browser window.
 2.  All current NeXus data trees are easy to inspect in the pane on the
     upper left side. Hovering over a data item produces a tooltip
-    containing a list of all the item's children. The root level of all
-    newly created groups are automatically displayed in the tree.
-3.  NXdata and NXmonitor plots can be displayed by right-clicking and
+    containing a list of all the item's children.
+3.  The root level of all newly created groups are automatically
+    displayed in the tree.
+4.  Any changes to data sets in the scripting window will be reflected
+    within the tree pane, including the creation of new NXroot, NXentry,
+    or NXdata groups.
+5.  NXdata and NXmonitor plots can be displayed by right-clicking and
     choosing 'Plot'.
-4.  Axis limits are set by a series of slider bars.
-5.  The scripting shell provides convenient autocompletion, and
+6.  Axis limits are set by a series of slider bars.
+7.  The scripting shell provides convenient autocompletion, and
     automatically displays function docstrings as a tooltip when you
     open the function parentheses.
+
+### Planned Enhancements
+
+-   Plotting projections along any axis by dragging and right-clicking
+    the plots.
+-   Editing data items in the tree within an editor pane.
+-   Fitting data with predefined and user-supplied functions.
 
