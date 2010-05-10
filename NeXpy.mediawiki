@@ -42,3 +42,56 @@ There are a number of useful features available when running NeXpy within the GU
 * Editing data items in the tree within an editor pane.
 * Fitting data with predefined and user-supplied functions.
 ==NeXus Interface==
+===Loading NeXus Data===
+The entire tree structure of a NeXus file can be loaded by a single command.
+ >>> import nexus
+ >>> a=nexus.load('sns/data/ARCS_7326_tof.nxs')
+ >>> a.nxtree()
+ root:NXroot
+  @HDF5_Version = 1.8.2
+  @NeXus_version = 4.2.1
+  @file_name = ARCS_7326_tof.nxs
+  @file_time = 2010-05-05T01:59:25-05:00
+  entry:NXentry
+    data:NXdata
+      data = float32(631x461x4x825)
+        @axes = rotation_angle:tilt_angle:sample_angle:time_of_flight
+        @signal = 1
+      rotation_angle = float32(632)
+        @units = degree
+      sample_angle = [ 210.  215.  220.  225.  230.]
+        @units = degree
+      tilt_angle = float32(462)
+        @units = degree
+      time_of_flight = float32(826)
+        @units = microsecond
+    run_number = 7326
+    sample:NXsample
+      pulse_time = 2854.94747365
+        @units = microsecond
+ >>> print a.entry.run_number
+ 7326
+Note that only the tree structure and smaller data sets are read into memory to avoid using up memory unnecessarily. In the above example, only the types and dimensions of the larger data sets are displayed in the tree. However, the filename is also stored, so the data can be loaded as soon as it is needed, either as a complete array or as a series of slabs.
+===Creating NeXus Data===
+It is just as easy to create new NeXus data sets from scratch using Numpy arrays. The following example shows the creation of a simple function, which is then saved to a file. 
+ >>> import numpy as np
+ >>> x=y=np.linspace(0,2*np.pi,101)
+ >>> X,Y=np.meshgrid(x,y)
+ >>> z=np.sin(X)*np.sin(Y)
+ >>> a=NXdata(z,[x,y])
+ >>> a.nxsave('function.nxs')
+This file can then loaded into a second python variable. 
+ >>> b=nexus.load('function.nxs')
+ >>> b.nxtree()
+ root:NXroot
+  @HDF5_Version = 1.8.2
+  @NeXus_version = 4.2.1
+  @file_name = function.nxs
+  @file_time = 2010-05-10T17:01:13+01:00
+  entry:NXentry
+    data:NXdata
+      axis1 = float64(101)
+      axis2 = float64(101)
+      signal = float64(101x101)
+        @axes = axis1:axis2
+        @signal = 1
