@@ -13,8 +13,9 @@ file format.
 Installation
 ------------
 
-NeXpy is in the early stages of development, and so there has been no
-stable release yet. However, it is available for testing purposes only.
+WARNING: NeXpy is in the early stages of development, and so there has
+been no stable release yet. It is available for testing purposes only.
+
 To check out the latest version from the
 [Mercurial](http://mercurial.selenic.com/) repository and install the
 NeXpy package to the standard python site-packages directory,:

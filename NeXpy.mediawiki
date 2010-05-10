@@ -1,7 +1,9 @@
 NeXpy provides a high-level python interface to NeXus data contained within a simple GUI. It is designed to provide an intuitive interactive toolbox allowing users both to access existing NeXus files and to create new NeXus-conforming data structures without expert knowledge of the file format.  
 
 ==Installation==
-NeXpy is in the early stages of development, and so there has been no stable release yet. However, it is available for testing purposes only. To check out the latest version from the [http://mercurial.selenic.com/ Mercurial] repository and install the NeXpy package to the standard python site-packages directory,:
+WARNING: NeXpy is in the early stages of development, and so there has been no stable release yet. It is available for testing purposes only. 
+
+To check out the latest version from the [http://mercurial.selenic.com/ Mercurial] repository and install the NeXpy package to the standard python site-packages directory,:
  > hg clone http://mercurial.mcs.anl.gov/repos/nexpy
  > cd nexpy
  > python setup.py install
