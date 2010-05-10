@@ -46,6 +46,7 @@ There are a number of useful features available when running NeXpy within the GU
 The entire tree structure of a NeXus file can be loaded by a single command.
  >>> import nexus
  >>> a=nexus.load('sns/data/ARCS_7326_tof.nxs')
+The assigned variable now contains the entire tree structure of the file, which can be displayed with the nxtree() method.
  >>> a.nxtree()
  root:NXroot
   @HDF5_Version = 1.8.2
@@ -69,9 +70,11 @@ The entire tree structure of a NeXus file can be loaded by a single command.
     sample:NXsample
       pulse_time = 2854.94747365
         @units = microsecond
+Individual data items are immediately available from the command-line.
  >>> print a.entry.run_number
  7326
 Note that only the tree structure and smaller data sets are read into memory to avoid using up memory unnecessarily. In the above example, only the types and dimensions of the larger data sets are displayed in the tree. However, the filename is also stored, so the data can be loaded as soon as it is needed, either as a complete array or as a series of slabs.
+
 ===Creating NeXus Data===
 It is just as easy to create new NeXus data sets from scratch using Numpy arrays. The following example shows the creation of a simple function, which is then saved to a file. 
  >>> import numpy as np

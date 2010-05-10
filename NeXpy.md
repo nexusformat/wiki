@@ -92,7 +92,11 @@ The entire tree structure of a NeXus file can be loaded by a single
 command.
 
 `>>> import nexus`  
-`>>> a=nexus.load('sns/data/ARCS_7326_tof.nxs')`  
+`>>> a=nexus.load('sns/data/ARCS_7326_tof.nxs')`
+
+The assigned variable now contains the entire tree structure of the
+file, which can be displayed with the nxtree() method.
+
 `>>> a.nxtree()`  
 `root:NXroot`  
 ` @HDF5_Version = 1.8.2`  
@@ -115,7 +119,10 @@ command.
 `   run_number = 7326`  
 `   sample:NXsample`  
 `     pulse_time = 2854.94747365`  
-`       @units = microsecond`  
+`       @units = microsecond`
+
+Individual data items are immediately available from the command-line.
+
 `>>> print a.entry.run_number`  
 `7326`
 
