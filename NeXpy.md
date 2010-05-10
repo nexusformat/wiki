@@ -33,4 +33,20 @@ Server](http://trac.mcs.anl.gov/projects/nexpy/).
 GUI Shell
 ---------
 
-![NeXpy|center|width=200px](Nexpy.png "NeXpy|center|width=200px")
+![NeXpy|center|800px](Nexpy.png "fig:NeXpy|center|800px") There are a
+number of useful features available when running NeXpy within the GUI
+shell.
+
+1.  Data can be loaded with the <File:Open> menu item using a standard
+    file browser window.
+2.  All current NeXus data trees are easy to inspect in the pane on the
+    upper left side. Hovering over a data item produces a tooltip
+    containing a list of all the item's children. The root level of all
+    newly created groups are automatically displayed in the tree.
+3.  NXdata and NXmonitor plots can be displayed by right-clicking and
+    choosing 'Plot'.
+4.  Axis limits are set by a series of slider bars.
+5.  The scripting shell provides convenient autocompletion, and
+    automatically displays function docstrings as a tooltip when you
+    open the function parentheses.
+
