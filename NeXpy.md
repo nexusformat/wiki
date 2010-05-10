@@ -37,8 +37,7 @@ Running NeXpy
 There are two ways of using the NeXpy interface to NeXus files.
 
 1.  Within a standard python or ipython shell.
-
-`# Using the GUI shell`
+2.  Using the GUI shell
 
 ### Python Shell
 
@@ -46,7 +45,7 @@ There are two ways of using the NeXpy interface to NeXus files.
 `Python 2.5.4`  
 `[GCC 4.0.1 (Apple Computer, Inc.)] on darwin`  
 `Type `“`help`”`, `“`copyright`”`, `“`credits`”` or `“`license`”` for more information.`  
-`>>> import nexus`  
+`>>> from nexpy.api import nexus`  
 `>>> a=nexus.load('data/chopper.nxs')`
 
 ### GUI Shell
@@ -91,7 +90,7 @@ NeXus Interface
 The entire tree structure of a NeXus file can be loaded by a single
 command.
 
-`>>> import nexus`  
+`>>> from nexpy.api import nexus`  
 `>>> a=nexus.load('sns/data/ARCS_7326_tof.nxs')`
 
 The assigned variable now contains the entire tree structure of the
