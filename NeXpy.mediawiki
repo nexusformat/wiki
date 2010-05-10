@@ -98,3 +98,4 @@ This file can then be loaded again.
       signal = float64(101x101)
         @axes = axis1:axis2
         @signal = 1
+Note that the nxsave() method automatically wraps any valid NeXus data in an NXentry group, in order to produce a standard-compliant file.
