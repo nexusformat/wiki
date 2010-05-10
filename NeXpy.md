@@ -164,3 +164,9 @@ This file can then be loaded again.
 
 Note that the nxsave() method automatically wraps any valid NeXus data
 in an NXentry group, in order to produce a standard-compliant file.
+
+#### Scientific Data Sets (SDS)
+
+NeXus data values are stored in NeXus objects of class 'SDS'. The SDS
+class wraps standard Numpy arrays, scalars, and python strings so that
+data attributes can be associated with them.
