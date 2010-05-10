@@ -244,4 +244,38 @@ containing the axes. NeXus defines a method of associating axes with the
 appropriate dimension, but NeXpy provides a simple constructor that
 implements this method explicitly.
 
-`>>> x =`
+This was already demonstrated in the example above, reproduced here:
+
+`>>> import numpy as np`  
+`>>> x=y=np.linspace(0,2*np.pi,101)`  
+`>>> X,Y=np.meshgrid(x,y)`  
+`>>> z=np.sin(X)*np.sin(Y)`  
+`>>> a=NXdata(z,[x,y])`
+
+  
+The first positional argument is an SDS or Numpy array containing the
+data, while the second is a list containing the axes, again as SDSs or
+Numpy arrays. In this example, the names of the arrays have not been
+defined within an SDS so default names were assigned.
+
+`>>> a.nxtree()`  
+`   `[`data:NXdata`](data:NXdata)  
+`     axis1 = float64(101)`  
+`     axis2 = float64(101)`  
+`     signal = float64(101x101)`  
+`       @axes = axis1:axis2`  
+`       @signal = 1`
+
+  
+However, names can be assigned explicitly when creating the SDS through
+the 'name' attribute.
+
+`>>> phi=np.linspace(0,2*np.pi,101)`  
+`>>> data=np.sin(phi)`  
+`>>> a=NXdata(SDS(data,name='intensity'),(SDS(phi,name='polar_angle')))`  
+`>>> a.nxtree()`  
+[`data:NXdata`](data:NXdata)  
+`  intensity = float64(101)`  
+`    @axes = polar_angle`  
+`    @signal = 1`  
+`  polar_angle = float64(101)`
