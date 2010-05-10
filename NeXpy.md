@@ -169,4 +169,70 @@ in an NXentry group, in order to produce a standard-compliant file.
 
 NeXus data values are stored in NeXus objects of class 'SDS'. The SDS
 class wraps standard Numpy arrays, scalars, and python strings so that
-data attributes can be associated with them.
+data attributes can be associated with them. There are two ways to
+create an SDS.
+
+-   Explicit initialization. The data value is given by the first
+    positional argument, and may be a python scalar or string, or a
+    Numpy array. In this method, keyword arguments can be used to define
+    SDS attributes.
+
+`>>> x = SDS(np.linspace(0,2*np.pi,101), units='degree')`
+
+-   Implicit initialization as the child of a NeXus group. The assigned
+    values are automatically converted to an SDS.
+
+`>>> a.entry.sample.temperature=40.0`  
+`>>> a.entry.sample.temperature`  
+`SDS(name=temperature,value=40.0)`
+
+SDS attributes can be assigned after creating the SDS. Note that
+attribute names must not start with 'nx' to avoid name clashes.
+
+`>>> a.entry.sample.temperature.units='K'`
+
+The actual values of an SDS are stored in the 'nxdata' attribute. If the
+SDS is read in from a data file, this attribute is not input if the
+array size is large to avoid using up memory unnecessarily. It will,
+however, be read in if the value is accessed for plotting or
+manipulating data. If this will cause a memory exception, the data
+should be read in as a series of slabs using the nxget method.
+
+`>>> with root.NXentry[0].data.data as slab:`  
+`              Ni,Nj,Nk = slab.nxdims`  
+`               size = [1,1,Nk]`  
+`               for i in range(Ni):`  
+`                   for j in range(Nj):`  
+`                       value = slab.nxget([i,j,0],size)`
+
+Data values can be returned converted to different units if the 'units'
+attribute has been set.
+
+`>>> phi = x.nxdata_as(units='radian')`  
+`>>> y = SDS(np.sin(phi))`
+
+#### NeXus Groups
+
+NeXus groups are defined as subclasses of the NXgroup class. Apart from
+the class name, they behave identically except for the NXdata,
+NXmonitor, and NXlog groups, which have extra methods defined. The
+initialization parameters can be used to populate the group with other
+predefined NeXus objects, either groups or SDSs.
+
+`>>> temperature = SDS(40.0, units='K')`  
+`>>> sample = NXsample(temperature=temperature)`  
+`>>> sample.nxtree()`  
+`sample:NXsample`  
+`  temperature = 40.0`  
+`  units = K`
+
+Note that, in this example, it was necessary to use the keyword form to
+add the SDS 'temperature' since its name is otherwise undefined within
+the NXsample group. This name is set automatically if the SDS is added
+as an attribute assignment.
+
+`>>> sample = NXsample()`  
+`>>> sample.temperature=SDS(40.0, units='K')`  
+`sample:NXsample`  
+`  temperature = 40.0`  
+`  units = K`
