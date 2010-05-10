@@ -56,6 +56,7 @@ IgorPro HDF5 Browser:Windows and MacOSX HDF viewer for HDF4 and HDF5 files from 
 Plotting Applications
 ---------------------
 
+[NeXpy](NeXpy "wikilink"): A Python-based approach to interactive data analysis that allows complete data structures to be read into a tree and new data structures to be created using an simple intuitive syntax. The data can be plotted, sliced, manipulated, and saved to a file.  
 [Open Genie](http://www.opengenie.org/):Open Genie is an object-oriented data analysis and visualization package developed at the ISIS pulsed neutron facility. The latest version has the ability to load an entire NeXus file into a workspace structure, as well as write NeXus files.  
 ISAW:ISAW is a java-based analysis package used to read, manipulate, view, and save neutron scattering data. ISAW can read data from NeXus files and can merge and sort data from separate measurements..  
 IDL:Mark Koennecke has written a set of IDL utilities for interfacing to NeXus files.  
@@ -68,7 +69,7 @@ MATLAB: [MATLAB](http://www.mathworks.com/products/matlab/) will read a general 
 Data Analysis
 -------------
 
-[NeXpy](NeXpy "wikilink"): A Python-based approach to interactive data analysis  
+[NeXpy](NeXpy "wikilink"): A Python-based approach to interactive data analysis that allows complete data structures to be read into a tree and new data structures to be created using an simple intuitive syntax. The data can be plotted, sliced, manipulated, and saved to a file.  
 [Open Genie](http://www.opengenie.org/): I include Open Genie here as well since it is really more of a data analysis package than a plotting package per se. Support for performing analysis on NeXus files is currently limited, but can be acomplished by mapping parts of the imported NeXus file into a new workspace that to make it resemble an ISIS RAW data file.  
 LAMP: LAMP is also designed for analyzing raw data in addition to visualizing the results.  
 UDA and WIMDA:General purpose muon scattering analysis packages (ISIS)  
