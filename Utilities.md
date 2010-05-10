@@ -68,7 +68,7 @@ MATLAB: [MATLAB](http://www.mathworks.com/products/matlab/) will read a general 
 Data Analysis
 -------------
 
-\[NeXpy\]: A Python-based approach to interactive data analysis  
+[NeXpy](NeXpy "wikilink"): A Python-based approach to interactive data analysis  
 [Open Genie](http://www.opengenie.org/): I include Open Genie here as well since it is really more of a data analysis package than a plotting package per se. Support for performing analysis on NeXus files is currently limited, but can be acomplished by mapping parts of the imported NeXus file into a new workspace that to make it resemble an ISIS RAW data file.  
 LAMP: LAMP is also designed for analyzing raw data in addition to visualizing the results.  
 UDA and WIMDA:General purpose muon scattering analysis packages (ISIS)  
