@@ -146,7 +146,7 @@ function, which is then saved to a file.
 `>>> a=NXdata(z,[x,y])`  
 `>>> a.nxsave('function.nxs')`
 
-This file can then loaded into a second python variable.
+This file can then be loaded again.
 
 `>>> b=nexus.load('function.nxs')`  
 `>>> b.nxtree()`  

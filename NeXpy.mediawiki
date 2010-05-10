@@ -83,7 +83,7 @@ It is just as easy to create new NeXus data sets from scratch using Numpy arrays
  >>> z=np.sin(X)*np.sin(Y)
  >>> a=NXdata(z,[x,y])
  >>> a.nxsave('function.nxs')
-This file can then loaded into a second python variable. 
+This file can then be loaded again. 
  >>> b=nexus.load('function.nxs')
  >>> b.nxtree()
  root:NXroot
