@@ -151,8 +151,8 @@ within the GUI shell.
 3.  The root level of all newly created groups are automatically
     displayed in the tree.
 4.  Any changes to data sets in the scripting window will be reflected
-    within the tree pane, including the creation of new NXroot, NXentry,
-    or NXdata groups.
+    within the tree pane, including the creation of new NXroot or
+    NXentry groups.
 5.  NXdata and NXmonitor plots can be displayed by right-clicking and
     choosing 'Plot'.
 6.  Axis limits are set by a series of slider bars.
