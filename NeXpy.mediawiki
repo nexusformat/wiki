@@ -76,6 +76,11 @@ There are two ways of using the NeXpy interface to NeXus files.
 To run the NeXpy GUI, type
  > nexpy
 [[Image:Nexpy.png|NeXpy|center|800px]]
+The GUI contains three main panes:
+;Tree Pane:This contains the tree structure of NeXus files opened in the File menu and/or any NXroot and NXentry groups created within the shell.
+;Plot Pane:Any NXdata or NXmonitor group can be plotted in this pane by right-clicking on the relevant node in the tree.
+;Shell Pane:This is a regular python shell, with both Numpy and NeXpy already imported (as * so no prefixes are necessary). Any assignments to items in the tree pane are automatically reflected in the tree pane, and new NXroot, NXentry, or NXdata objects are added to the tree. Currently, it is not possible to plot directly from the shell pane, but this will be added in the future.
+
 There are a number of useful features available when running NeXpy within the GUI shell. 
 # Data can be loaded with the File:Open menu item using a standard file browser window.
 # All current NeXus data trees are easy to inspect in the pane on the upper left side. Hovering over a data item produces a tooltip containing a list of all the item's children. 
@@ -88,6 +93,7 @@ There are a number of useful features available when running NeXpy within the GU
 * Plotting projections along any axis by dragging and right-clicking the plots.
 * Editing data items in the tree within an editor pane.
 * Fitting data with predefined and user-supplied functions.
+
 ==NeXus Interface==
 ===Loading NeXus Data===
 The entire tree structure of a NeXus file can be loaded by a single command.
