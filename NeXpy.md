@@ -390,7 +390,7 @@ the group within the tree. The plot pane contains a toolbar to change
 axis or signal intensity limits. The slider provides a graphical way of
 setting minimum and/or maximum values or they can be typed into the text
 boxes. ![Axis Limits
-Toolbar|center](Axis_Limits_Bar.png "fig:Axis Limits Toolbar|center")
+Toolbar|center|600px](Axis_Limits_Bar.png "fig:Axis Limits Toolbar|center|600px")
 There are two checkboxes:
 
 Lock:If the maximum and/or minimum values are not set to the limits, then this checkbox locks the difference between the two. The arrows can be used to step with this width through the entire range.  
