@@ -395,3 +395,20 @@ There are two checkboxes:
 
 Lock:If the maximum and/or minimum values are not set to the limits, then this checkbox locks the difference between the two. The arrows can be used to step with this width through the entire range.  
 Collapse:The two limits are collapsed onto a single value. This is particularly useful for stepping one slice at a time through the orthogonal direction for three- or higher-dimensional data.  
+
+### Manipulating NeXus Data
+
+#### Slicing
+
+A slice of an SDS can be obtained using the usual python indexing
+syntax.
+
+`>>> x=SDS(np.linspace(0,2*pi,101))`  
+`>>> print x[0:51]`  
+`[ 0.          0.06283185  0.12566371 ...,  3.01592895  3.0787608 3.14159265]`
+
+If either of the indices are floats, then the limits are set by the
+values themselves (assuming the array is monotonic).
+
+`>>> print x[0.5:1.5]`  
+`[ 0.50265482  0.56548668  0.62831853 ...,  1.38230077  1.44513262 1.50796447]`
