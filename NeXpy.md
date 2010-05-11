@@ -31,6 +31,85 @@ default path.
 The source code can also be viewed on the [NeXpy Trac
 Server](http://trac.mcs.anl.gov/projects/nexpy/).
 
+### Installation Issues
+
+#### Locating the NeXus library
+
+NeXpy utilizes the python wrapper to the NeXus C API distributed with
+the standard NeXus distribution. This wrapper needs the location of the
+libNeXus precompiled binary. It looks in the following places in order::
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Location</p></th>
+<th><p>Operating System</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>os.environ['NEXUSLIB']</p></td>
+<td><p>All</p></td>
+</tr>
+<tr class="even">
+<td><p>directory containing napi.py</p></td>
+<td><p>All</p></td>
+</tr>
+<tr class="odd">
+<td><p>os.environ['NEXUSDIR']\bin</p></td>
+<td><p>Windows</p></td>
+</tr>
+<tr class="even">
+<td><p>os.environ['LD_LIBRARY_PATH']</p></td>
+<td><p>Unix</p></td>
+</tr>
+<tr class="odd">
+<td><p>os.environ['DYLD_LIBRARY_PATH']</p></td>
+<td><p>Darwin</p></td>
+</tr>
+<tr class="even">
+<td><p>PREFIX/lib]</p></td>
+<td><p>Unix and Darwin</p></td>
+</tr>
+<tr class="odd">
+<td><p>/usr/local/lib</p></td>
+<td><p>Unix and Darwin</p></td>
+</tr>
+<tr class="even">
+<td><p>/usr/lib</p></td>
+<td><p>Unix and Darwin</p></td>
+</tr>
+<tr class="odd">
+</tr>
+</tbody>
+</table>
+
+-   On Windows it looks for one of libNeXus.dll or libNeXus-0.dll.
+-   On OS X it looks for libNeXus.dylib
+-   On Unix it looks for libNeXus.so
+
+NEXUSDIR defaults to r'C:\\Program Files\\NeXus Data Format'. PREFIX
+defaults to /usr/local, but is replaced by the value of --prefix during
+configure.
+
+The import will raise an OSError exception if the library wasn't found
+or couldn't be loaded. Note that on Windows in particular this may be
+because the supporting HDF5 dlls were not available in the usual places.
+
+If you are extracting the nexus library from a bundle at runtime, set
+os.environ\['NEXUSLIB'\] to the path where it is extracted before the
+first import of nexpy.
+
+#### wxPython Installation
+
+Some prepackaged rpms do not install wxgtk with all features enabled. In
+particular, the NeXpy GUI may require that wxgtk be built from source
+with the '--enable-graphics\_ctx' configure option
+
 Running NeXpy
 -------------
 
