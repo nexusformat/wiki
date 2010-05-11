@@ -72,7 +72,7 @@ libNeXus precompiled binary. It looks in the following places in order::
 <td><p>Darwin</p></td>
 </tr>
 <tr class="even">
-<td><p>PREFIX/lib]</p></td>
+<td><p>PREFIX/lib</p></td>
 <td><p>Unix and Darwin</p></td>
 </tr>
 <tr class="odd">

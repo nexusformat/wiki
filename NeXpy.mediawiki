@@ -34,7 +34,7 @@ NeXpy utilizes the python wrapper to the NeXus C API distributed with the standa
 | os.environ['DYLD_LIBRARY_PATH']
 | align="center" width="40%" | Darwin 
 |-
-| PREFIX/lib]
+| PREFIX/lib
 | align="center" width="40%" | Unix and Darwin 
 |-
 | /usr/local/lib
