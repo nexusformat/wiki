@@ -403,7 +403,7 @@ Collapse:The two limits are collapsed onto a single value. This is particularly 
 A slice of an SDS can be obtained using the usual python indexing
 syntax.
 
-`>>> x=SDS(np.linspace(0,2*pi,101))`  
+`>>> x=SDS(np.linspace(0,2*np.pi,101))`  
 `>>> print x[0:51]`  
 `[ 0.          0.06283185  0.12566371 ...,  3.01592895  3.0787608 3.14159265]`
 
@@ -412,3 +412,13 @@ values themselves (assuming the array is monotonic).
 
 `>>> print x[0.5:1.5]`  
 `[ 0.50265482  0.56548668  0.62831853 ...,  1.38230077  1.44513262 1.50796447]`
+
+It is also possible to slice whole NXdata groups. In this case, the
+slicing works on the multidimensional SDS, but the full NXdata group is
+returned with both the signal data and the associated axes limited by
+the slice parameters. If either of the limits along any one axis is a
+float, the limits are set by the values of the axis.
+
+`>>> a=NXdata(np.sin(x),x)`  
+`>>> a[1.5:2.5].x`  
+`SDS(name=x,value=[ 1.57079633  1.72787596  1.88495559 ...,  2.19911486  2.35619449])`
