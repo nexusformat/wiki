@@ -181,7 +181,7 @@ Note that, in this example, it was necessary to use the keyword form to add the 
    temperature = 40.0
    units = K
 ;NXdata Groups
-:NXdata groups contain data ready to be plotted. That means that the group should consist of an SDS containing the data and one or more SDSs containing the axes. NeXus defines a method of associating axes with the appropriate dimension, but NeXpy provides a simple constructor that implements this method explicitly.
+:NXdata groups contain data ready to be plotted. That means that the group should consist of an SDS containing the data and one or more SDSs containing the axes. NeXus defines a method of associating axes with the appropriate dimension, but NeXpy provides a simple constructor that implements this method automatically.
 :This was already demonstrated in the example above, reproduced here:
  >>> import numpy as np
  >>> x=y=np.linspace(0,2*np.pi,101)

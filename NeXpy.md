@@ -321,7 +321,7 @@ NXdata groups contain data ready to be plotted. That means that the
 group should consist of an SDS containing the data and one or more SDSs
 containing the axes. NeXus defines a method of associating axes with the
 appropriate dimension, but NeXpy provides a simple constructor that
-implements this method explicitly.
+implements this method automatically.
 
 This was already demonstrated in the example above, reproduced here:
 
