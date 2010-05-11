@@ -220,3 +220,4 @@ NXdata, NXmonitor, and NXlog groups all have a nxplot method, which automaticall
  >>> data.nxplot(over=True, log=True, color='r')
 ====GUI Shell====
 NXdata, NXmonitor, and NXlog data can be plotted by right-clicking on the group within the tree. The plot pane contains controls to change axis or signal intensity limits.
+[[Image:Axis_Limits_Bar.png|Axis Limits Toolbar|center|800px]]

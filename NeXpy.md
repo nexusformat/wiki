@@ -383,4 +383,5 @@ markers and colors.
 
 NXdata, NXmonitor, and NXlog data can be plotted by right-clicking on
 the group within the tree. The plot pane contains controls to change
-axis or signal intensity limits.
+axis or signal intensity limits. ![Axis Limits
+Toolbar|center|800px](Axis_Limits_Bar.png "fig:Axis Limits Toolbar|center|800px")
