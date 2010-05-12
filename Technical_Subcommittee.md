@@ -27,10 +27,12 @@ are:
 -   [Nick Hauser](User%3Anick "wikilink"), Australian Nuclear Science
     and Technology Organisation, Australia
 -   [Paul Kienzle](User%3APaul_Kienzle "wikilink"), DANSE, USA
--   [Nick Maliszewskyj](User%3ANick_Maliszewskyj "wikilink") - NIST
+-   [Nick Maliszewskyj](User%3ANick_Maliszewskyj "wikilink"), NIST
     Center for Neutron Research, USA
 -   [Peter Peterson](User%3APeter_Peterson "wikilink"), Spallation
     Neutron Source, USA
+-   [Tobias Richter](User%3ATobias_Richter "wikilink"), Diamond Light
+    Source, UK
 
 You can contact the sub-committe via <nexus-tech@nexusformat.org>;
 however general questions and discussions about the NeXus API should

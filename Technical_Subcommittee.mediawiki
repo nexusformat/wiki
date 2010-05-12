@@ -10,8 +10,9 @@ The Technical Committee Chair is a member of the [[NIAC]], but is not allowed to
 *[[User:Stuart Campbell|Stuart Campbell]], Oak Ridge National Laboratory, USA
 *[[User:nick|Nick Hauser]], Australian Nuclear Science and Technology Organisation, Australia
 *[[User:Paul Kienzle|Paul Kienzle]], DANSE, USA
-*[[User:Nick Maliszewskyj|Nick Maliszewskyj]] - NIST Center for Neutron Research, USA
+*[[User:Nick Maliszewskyj|Nick Maliszewskyj]], NIST Center for Neutron Research, USA
 *[[User:Peter Peterson|Peter Peterson]], Spallation Neutron Source, USA
+*[[User:Tobias Richter|Tobias Richter]], Diamond Light Source, UK
 
 You can contact the sub-committe via [mailto:nexus-tech@nexusformat.org nexus-tech@nexusformat.org]; however general questions and discussions about the NeXus API should instead be directed to [mailto:nexus-developers@nexusformat.org nexus-developers@nexusformat.org]
 ==Meetings==
