@@ -39,6 +39,9 @@ instead be directed to <nexus-developers@nexusformat.org>
 Meetings
 --------
 
+The Technical Committee holds bi-weekly teleconference meetings. For
+some time formal minutes were kept:
+
 -   NeXus Officers video conference 6th June 2008
     ([minutes](Media:VC_20080606.pdf "wikilink"))
 -   Tech committee video conference 16th July 2008
@@ -50,4 +53,3 @@ Meetings
 -   Tech committee video conference 14th January 2009
     ([minutes](Media:VC_20090114.pdf "wikilink"))
 
-Next VC meeting 18th February 2009, 0800 EST / 1300 GMT / 1400 CET
