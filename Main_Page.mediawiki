@@ -19,3 +19,5 @@ NeXus is a common data format for neutron, x-ray, and muon science.  It is being
 ;[[Latest News]]:Recent news and developments concerning the NeXus format.
 ;[[Download|NeXus Downloads]]:Download NeXus library and applications
 ;[[IssueReporting|Bug/Issue Reporting]]:View or report bugs/problems/enhancement requests for the NeXus library and definitions
+;[[Other]]:Other items related to the NeXus data format.
+:* NeXus Dataformat Workshop 2010 - [nexus2010 http://lns00.psi.ch/nexus2010/]

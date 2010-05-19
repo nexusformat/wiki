@@ -37,3 +37,7 @@ in the analysis and visualization of neutron, x-ray, and muon data.
 [Latest News](Latest_News "wikilink"):Recent news and developments concerning the NeXus format.  
 [NeXus Downloads](Download "wikilink"):Download NeXus library and applications  
 [Bug/Issue Reporting](IssueReporting "wikilink"):View or report bugs/problems/enhancement requests for the NeXus library and definitions  
+[Other](Other "wikilink"):Other items related to the NeXus data format.  
+
+:\* NeXus Dataformat Workshop 2010 - \[nexus2010
+<http://lns00.psi.ch/nexus2010/>\]
