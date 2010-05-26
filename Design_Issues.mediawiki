@@ -11,3 +11,6 @@ If you have a specific subject concerning the NeXus format design, please add it
 *[[OO-NeXus|Object oriented NeXus]]
 *[[Schema]] - Using XML Schema instead of [[Metaformat|Meta-DTDs]] for definitions
 *[[Storing Event Data]]
+*[[Multi Method Instruments]]
+*[[Scaled Data]]
+*[[Extension of NeXus Coordinate Systems]]

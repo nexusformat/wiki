@@ -27,4 +27,8 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 -   [Schema](Schema "wikilink") - Using XML Schema instead of
     [Meta-DTDs](Metaformat "wikilink") for definitions
 -   [Storing Event Data](Storing_Event_Data "wikilink")
+-   [Multi Method Instruments](Multi_Method_Instruments "wikilink")
+-   [Scaled Data](Scaled_Data "wikilink")
+-   [Extension of NeXus Coordinate
+    Systems](Extension_of_NeXus_Coordinate_Systems "wikilink")
 
