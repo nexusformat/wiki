@@ -7,8 +7,8 @@ layout: wiki
 Multi Method Instruments
 ------------------------
 
-This suggestion is one of the one of the outcomes of the NeXus for
-Synchrotrons Workshop at PSI: <http://lns00.psi.ch/nexus2010>
+This suggestion is one of the outcomes of the NeXus for Synchrotrons
+Workshop at PSI: <http://lns00.psi.ch/nexus2010>
 
 ### The Suggestion
 
