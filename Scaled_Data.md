@@ -1,0 +1,50 @@
+---
+title: Scaled Data
+permalink: Scaled_Data/
+layout: wiki
+---
+
+Scaled Data
+-----------
+
+This suggestion is one of the outcomes of the NeXus for Synchrotrons
+Workshop at PSI: <http://lns00.psi.ch/nexus2010>
+
+The Suggestion
+--------------
+
+NeXus STRONGLY suggests to store data as arrays of physical values in C
+storage order. However, for cases where this is not possible or would
+cause an efficiency concern when writing allow to store raw data. Such
+data must be annotated with additional attributes as described below in
+order to allow reading software to reconstruct the true physical value.
+
+The Reasoning
+-------------
+
+The data rates possible at synchrotron facilities and the new pixel
+detectors test current computing technology to their limits. There may
+not be enough time to scale or convert data on the fly.
+
+In the formulas below Vtrue denotes the true value of the data item,
+Vraw the one which is stored in the data element on file. The attributes
+are:
+
+-   transform: This is the indicator that a transformation of the Vraw
+    data is necessary. Transform can have one the following values:
+    -   offset: Vtrue = Vraw + offset
+    -   scaling: Vtrue = Vraw \* scaling
+    -   scaling\_offset: both an offset and scaling is applied. Vtrue =
+        Vraw\*scaling + offset
+    -   sqrt\_scaled: Vtrue = (Vraw/scaling)\*(Vraw/scaling)
+    -   logarithmic\_scaled: Vtrue = (Vraw/scaling)\*\*10
+-   offset: The offset to apply
+-   scaling: The scale factor to apply
+-   direction: a komma separated list of length ndim which specifies for
+    each dimension if it is increasing or decreasing. If this attribute
+    is missing, increasing is implied.
+-   precedence: a komma separated list of length ndim which gives the
+    rank order in which array indexes change with respect to other
+    indexes. A precedence of 1 denotes the fastest changing index. If
+    this attribute is missing, C storage order is implied.
+
