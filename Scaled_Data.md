@@ -38,6 +38,8 @@ are:
         Vraw\*scaling + offset
     -   sqrt\_scaled: Vtrue = (Vraw/scaling)\*(Vraw/scaling)
     -   logarithmic\_scaled: Vtrue = (Vraw/scaling)\*\*10
+    -   polynomial: Vtrue = p1 + p2\*Vraw + p3\*Vraw\*Vraw +
+        p4\*Vraw\*Vraw\*Vraw ....
 -   offset: The offset to apply
 -   scaling: The scale factor to apply
 -   direction: a komma separated list of length ndim which specifies for
@@ -47,4 +49,6 @@ are:
     rank order in which array indexes change with respect to other
     indexes. A precedence of 1 denotes the fastest changing index. If
     this attribute is missing, C storage order is implied.
+-   coefficients, a komma separated list of the polynomial coefficients
+    to use for a polynomial transform
 

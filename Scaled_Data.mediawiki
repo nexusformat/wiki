@@ -23,7 +23,9 @@ in the data element on file. The attributes are:
 ** scaling_offset: both an offset and scaling is applied. Vtrue = Vraw*scaling + offset
 ** sqrt_scaled: Vtrue = (Vraw/scaling)*(Vraw/scaling)
 ** logarithmic_scaled: Vtrue = (Vraw/scaling)**10   
+** polynomial: Vtrue = p1 + p2*Vraw + p3*Vraw*Vraw + p4*Vraw*Vraw*Vraw ....
 * offset:  The offset to apply
 * scaling: The scale factor to apply
 * direction: a komma separated list of length ndim which specifies for each dimension if it is increasing or decreasing. If this attribute is missing, increasing is implied. 
 * precedence: a komma separated list of length ndim which gives the rank order in which array indexes change with respect to other indexes. A precedence of 1 denotes the fastest changing index. If this attribute is missing, C storage order is implied.
+* coefficients, a komma separated list of the polynomial coefficients to use for a polynomial transform
