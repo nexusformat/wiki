@@ -24,7 +24,10 @@ The Reasoning
 
 The data rates possible at synchrotron facilities and the new pixel
 detectors test current computing technology to their limits. There may
-not be enough time to scale or convert data on the fly.
+not be enough time to scale or convert data on the fly before writing to
+disk. In some occasions significant space savings can be obtained by
+storing data as short integers and scaling them to the desired floating
+point values.
 
 In the formulas below Vtrue denotes the true value of the data item,
 Vraw the one which is stored in the data element on file. The attributes

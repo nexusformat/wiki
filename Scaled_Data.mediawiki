@@ -10,7 +10,9 @@ to reconstruct the true physical value.
 
 ==The Reasoning==
 The data rates possible at synchrotron facilities and the new pixel detectors test current computing 
-technology to their limits. There may not be enough time to scale or convert data on the fly.
+technology to their limits. There may not be enough time to scale or convert data on the fly before writing 
+to disk. In some occasions significant space savings can be obtained by storing data as short integers and 
+scaling them to the desired floating point values. 
   
 
 In the formulas below 
