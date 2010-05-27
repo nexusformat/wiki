@@ -31,4 +31,5 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 -   [Scaled Data](Scaled_Data "wikilink")
 -   [Extension of NeXus Coordinate
     Systems](Extension_of_NeXus_Coordinate_Systems "wikilink")
+-   [NXmeasurement](NXmeasurement "wikilink")
 
