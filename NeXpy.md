@@ -120,7 +120,7 @@ There are two ways of using the NeXpy interface to NeXus files.
 
 ### Python Shell
 
-`>nexpy rosborn$ python`  
+`$ python`  
 `Python 2.5.4`  
 `[GCC 4.0.1 (Apple Computer, Inc.)] on darwin`  
 `Type `“`help`”`, `“`copyright`”`, `“`credits`”` or `“`license`”` for more information.`  
