@@ -5,4 +5,4 @@ Currently the tentative dates are:
 * NeXus code camp -> 5th / 6th October 2010
 * NIAC Meeting -> 7th / 8th October 2010
 * NeXus workshop -> 10th October
-* NoBugs meeting - 11th- October
+* [http://www.nobugsconference.org/Conferences NoBugs meeting] -> 11th- October
