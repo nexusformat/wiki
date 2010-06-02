@@ -4,3 +4,5 @@ This is being organised to take place at the [http://neutrons.ornl.gov/ SNS, ORN
 Currently the tentative dates are:
 * NeXus code camp -> 5th / 6th October 2010
 * NIAC Meeting -> 7th / 8th October 2010
+* NeXus workshop -> 10th October
+* NoBugs meeting - 11th- October
