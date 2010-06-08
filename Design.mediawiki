@@ -164,7 +164,7 @@ To overcome this and allow us to link from NXdata to, say, NXsample and to know 
 |- 
 | units
 | align="center" | NX_CHAR
-| Units of data which must conform to the standard defined by the [http://my.unidata.ucar.edu/content/software/udunits/ Unidata UDunits utility] (in particular, see [http://www.unidata.ucar.edu/content/software/udunits/udunits.txt udunits.dat])
+| Units of data which must conform to the standard defined by the [http://www.unidata.ucar.edu/software/udunits/ Unidata UDunits utility] (in particular, see their[hhttp://www.unidata.ucar.edu/software/udunits/udunits-2-units.html XML databases])
 |- 
 | signal
 | align="center" | NX_INT32
