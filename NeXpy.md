@@ -400,6 +400,8 @@ Collapse:The two limits are collapsed onto a single value. This is particularly 
 
 ### Slicing
 
+#### SDS
+
 A slice of an SDS can be obtained using the usual python indexing
 syntax.
 
@@ -413,7 +415,7 @@ values themselves (assuming the array is monotonic).
 `>>> print x[0.5:1.5]`  
 `[ 0.50265482  0.56548668  0.62831853 ...,  1.38230077  1.44513262 1.50796447]`
 
-##### NXdata
+#### NXdata
 
 It is also possible to slice whole NXdata groups. In this case, the
 slicing works on the multidimensional SDS, but the full NXdata group is
