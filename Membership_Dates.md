@@ -11,9 +11,7 @@ stated in the [constitution](NIAC "wikilink").
 
 ### Expire Feburary 3, 2009
 
--   Stephen Cottrell - ISIS Pulsed Muon Facility, UK
 -   Emmanuel Farhi - Institut Laue Langevin, France
--   Thomas Proffen - Lujan Neutron Scattering Center, USA
 
 ### Expire October 5, 2009
 
@@ -21,13 +19,10 @@ stated in the [constitution](NIAC "wikilink").
     Manager)
 -   Paul Kienzle - DANSE project, USA
 -   Ray Osborn - Intense Pulsed Neutron Source, USA
--   Jiro Suzuki - J-PARC, Japan
 
 ### Expire October 24, 2010
 
 -   Matthias Drochner - Forschungzentrum Juelich, Germany
--   Andy Goetz - European Synchrotron Radiation Facility, France -
-    *letter of support needed*
 -   Nick Maliszewskyj - NIST Center for Neutron Research, USA
 -   Peter Peterson - Spallation Neutron Source, USA (Chair - 3 years)
 -   Stephane Poirier - Synchrotron Soleil, France
@@ -43,4 +38,11 @@ stated in the [constitution](NIAC "wikilink").
 -   Pete Jemian - APS, ANL, USA
 -   Mark Koennecke - SINQ, Switzerland (Tech Committee Chair)
 -   Jens-Uwe Hoffman - HMI, Germany
+
+### Expire June 1, 2013
+
+-   Jiro Suzuki - J-PARC, Japan
+-   Bjorn Clausen - Lujan Neutron Scattering Center, USA
+-   Stephen Cottrell - ISIS Pulsed Muon Facility, UK
+-   Armando Sole - European Synchrotron Radiation Facility, France
 
