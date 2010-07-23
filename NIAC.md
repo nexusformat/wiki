@@ -14,9 +14,7 @@ layout: wiki
     Appleton Laboratory, UK (Muon Representative)
 -   [Matthias Drochner](User%3AMatthias_Drochner "wikilink"),
     Forschungzentrum Jülich, Germany
--   [Emmanuel Farhi](User%3AEmmanuel_Farhi "wikilink"), Institut Laue
-    Langevin
--   [Andrew Götz](User%3AAndy_Gotz "wikilink"), European Synchrotron
+-   [Armando Sole](User%3AArmando_Sole "wikilink"), European Synchrotron
     Radiation Facility, France
 -   [Nick Hauser](User%3Anick "wikilink"), Australian Nuclear Science
     and Technology Organisation, Australia (Documentation Release
@@ -36,7 +34,7 @@ layout: wiki
     Neutron Source, USA (Chair)
 -   [Stephane Poirier](User%3AStephane_Poirier "wikilink"), Synchrotron
     Soleil, France
--   [Thomas Proffen](User%3AThomas_Proffen "wikilink"), Los Alamos
+-   [Bjorn Clausen](User%3ABjorn_Clausen "wikilink"), Los Alamos
     National Laboratory, USA
 -   [Tobias Richter](User%3ATobias_Richter "wikilink"), Diamond Light
     Source, UK

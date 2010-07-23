@@ -2,8 +2,7 @@
 *[[User:Freddie Akeroyd|Frederick Akeroyd]], Rutherford Appleton Laboratory, UK (ISIS Representative) (Executive co-Secretary)
 *[[User:Steve Cottrell|Stephen Cottrell]], Rutherford Appleton Laboratory, UK (Muon Representative)
 *[[User:Matthias Drochner|Matthias Drochner]], Forschungzentrum Jülich, Germany
-*[[User:Emmanuel Farhi|Emmanuel Farhi]], Institut Laue Langevin
-*[[User:Andy Gotz|Andrew Götz]], European Synchrotron Radiation Facility, France
+*[[User:Armando Sole|Armando Sole]], European Synchrotron Radiation Facility, France
 *[[User:nick|Nick Hauser]], Australian Nuclear Science and Technology Organisation, Australia (Documentation Release Manager, netCDF contact)
 *[[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]], Helmholtz Zentrum Berlin (renamed HMI), Germany
 *[[User:Pete Jemian|Pete Jemian]], Advanced Photon Source, USA
@@ -13,7 +12,7 @@
 *[[User:Ray Osborn|Raymond Osborn]], Argonne National Laboratory, USA
 *[[User:Peter Peterson|Peter Peterson]], Spallation Neutron Source, USA (Chair)
 *[[User:Stephane Poirier|Stephane Poirier]], Synchrotron Soleil, France
-*[[User:Thomas Proffen|Thomas Proffen]], Los Alamos National Laboratory, USA
+*[[User:Bjorn Clausen|Bjorn Clausen]], Los Alamos National Laboratory, USA
 *[[User:Tobias Richter|Tobias Richter]], Diamond Light Source, UK
 *[[User:Jiro Suzuki|Jiro Suzuki]], KEK, Japan
 
