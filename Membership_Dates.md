@@ -42,7 +42,7 @@ stated in the [constitution](NIAC "wikilink").
 ### Expire June 1, 2013
 
 -   Jiro Suzuki - J-PARC, Japan
--   Bjorn Clausen - Lujan Neutron Scattering Center, USA
+-   Bjørn Clausen - Lujan Neutron Scattering Center, USA
 -   Stephen Cottrell - ISIS Pulsed Muon Facility, UK
--   Armando Sole - European Synchrotron Radiation Facility, France
+-   Armando Solé - European Synchrotron Radiation Facility, France
 
