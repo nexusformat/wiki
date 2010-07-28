@@ -22,9 +22,8 @@ NeXus Objects
 -------------
 
 NeXus data files contain two types of elementary object: data items and
-data groups. In addition, metadata required to describe a data item
-[essays](http://www.superiorpapers.com/), e.g. its physical units, can
-be attached to the data as data attributes.
+data groups. In addition, metadata required to describe a data item,
+e.g. its physical units, can be attached to the data as data attributes.
 
 ### Data Items
 

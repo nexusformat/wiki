@@ -3,7 +3,7 @@ The structure of NeXus files is extremely flexible, allowing the storage both of
 The logical design is distinct from the underlying format used to store the NeXus file on disk, which are written using the NeXus Application Program Interface (API). Refer to the [[Application_Program_Interface | API section]] for more details.
 
 ==NeXus Objects==
-NeXus data files contain two types of elementary object: data items and data groups. In addition, metadata required to describe a data item [http://www.superiorpapers.com/ essays], e.g. its physical units, can be attached to the data as data attributes.
+NeXus data files contain two types of elementary object: data items and data groups. In addition, metadata required to describe a data item, e.g. its physical units, can be attached to the data as data attributes.
 ===Data Items===
 Data items contain the essential information stored in a NeXus file. They can be scalar values or multidimensional arrays of a variety of sizes (1-byte, 2-byte, 4-byte, 8-byte) and types (integers, floats, characters). The items may store both experimental results (counts, detector angles, etc), and other information associated with the experiment (start and end times, user names, etc). Data items are identified by their names, which must be unique within the group in which they are stored.
 ===Data Attributes===
