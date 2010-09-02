@@ -2,7 +2,38 @@ Planning is currently underway for the NIAC / Code Camp meeting in 2010.
 This is being organised to take place at the [http://neutrons.ornl.gov/ SNS, ORNL, USA] and occur prior to the [http://www.nobugsconference.org/ NOBUGS meeting].
 
 Currently the tentative dates are:
-* NeXus code camp -> 5th / 6th October 2010
+* [[NIAC2010_CodeCamp|NeXus code camp]] -> 5th / 6th October 2010
 * NIAC Meeting -> 7th / 8th October 2010
 * NeXus workshop -> 10th October
 * [http://www.nobugsconference.org/Conferences NoBugs meeting] -> 11th-13th October
+
+
+==NIAC List of Attendees==
+
+'''Do not write in this table. This is to indicate the list of people we know are attending'''
+
+If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell]] or [[User:Peter Peterson|Peter Peterson]].
+
+{| border="1"
+! Name || Company/Institute
+|-
+| [[User:Freddie Akeroyd|Frederick Akeroyd]] 
+|| ISIS Facility, Rutherford Appleton Laboratory, UK 
+|-
+| [[User:Stuart Campbell|Stuart Campbell]]
+|| ORNL, USA
+|-
+| [[User:Pete Jemian|Pete Jemian]]
+|| APS, ANL, USA
+|-
+| [[User:Mark Koennecke|Mark Koennecke]]
+|| PSI, Switzerland
+|-
+| [[User:Peter Peterson|Peter Peterson]]
+|| ORNL, USA
+|-
+| [[User:Tobias Richter|Tobias Richter]]
+|| Diamond Light Source, UK
+|}
+
+==Agenda==
