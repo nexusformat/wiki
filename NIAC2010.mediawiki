@@ -21,39 +21,39 @@ If you are attending the NOBUGS conference the following week the plan is for pe
 If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell]] or [[User:Peter Peterson|Peter Peterson]].
 
 {| border="1"
-! Name || Company/Institute || PAS status
+! Name || Company/Institute || PAS status || spaces in car
 |-
 | [[User:Freddie Akeroyd|Frederick Akeroyd]] 
 || ISIS Facility, Rutherford Appleton Laboratory, UK 
-|| requested
+|| requested || 
 |-
 | [[User:Stuart Campbell|Stuart Campbell]]
 || ORNL, USA
-|| done
+|| done || 2
 |-
 | [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]]
 || Helmholtz Zentrum Berlin (renamed HMI), Germany
-|| not started
+|| not started || 
 |-
 | [[User:Pete Jemian|Pete Jemian]]
 || APS, ANL, USA
-|| done
+|| done || 
 |-
 | [[User:Mark Koennecke|Mark Koennecke]]
 || PSI, Switzerland
-|| requested
+|| requested || 
 |-
 | [[User:Peter Peterson|Peter Peterson]]
 || ORNL, USA
-|| done
+|| done || 3
 |-
 | [[User:Tobias Richter|Tobias Richter]]
 || Diamond Light Source, UK
-|| requested
+|| requested ||
 |-
 | [[User:Armando Sole|Armando Sole]]
 || European Synchrotron Radiation Facility, France
-|| not started
+|| not started || 
 |}
 
 ==Agenda==
