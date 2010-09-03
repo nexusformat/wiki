@@ -43,6 +43,10 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 || PSI, Switzerland
 || requested || 
 |-
+| [[User:Ray Osborn|Ray Osborn]]
+|| ANL, USA
+|| not started || 
+|-
 | [[User:Peter Peterson|Peter Peterson]]
 || ORNL, USA
 || done || 3
