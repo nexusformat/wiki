@@ -31,6 +31,14 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 || ORNL, USA
 || done || 2
 |-
+| [[User:Steve Cottrell|Steve Cottrell]]
+|| Rutherford Appleton Laboratory, UK
+|| not started || 
+|-
+| [[User:Nick Hauser|Nick Hauser]]
+|| ANSTO, Australia
+|| not started || 
+|-
 | [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]]
 || Helmholtz Zentrum Berlin (renamed HMI), Germany
 || not started || 
@@ -57,14 +65,6 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | [[User:Armando Sole|Armando Sole]]
 || European Synchrotron Radiation Facility, France
-|| not started || 
-|-
-| [[User:Nick Hauser|Nick Hauser]]
-|| ANSTO, Australia
-|| not started || 
-|-
-| [[User:Steve Cottrell|Steve Cottrell]]
-|| Rutherford Appleton Laboratory, UK
 || not started || 
 |}
 
