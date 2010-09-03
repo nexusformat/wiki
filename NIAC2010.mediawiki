@@ -25,11 +25,11 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | [[User:Freddie Akeroyd|Frederick Akeroyd]] 
 || ISIS Facility, Rutherford Appleton Laboratory, UK 
-|| requested || 
+|| awaiting approval || 
 |-
 | [[User:Stuart Campbell|Stuart Campbell]]
 || ORNL, USA
-|| done || 2
+|| approved || 2
 |-
 | [[User:Steve Cottrell|Steve Cottrell]]
 || Rutherford Appleton Laboratory, UK
@@ -37,7 +37,7 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | [[User:Nick Hauser|Nick Hauser]]
 || ANSTO, Australia
-|| not started || 
+|| requested || 
 |-
 | [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]]
 || Helmholtz Zentrum Berlin (renamed HMI), Germany
@@ -45,27 +45,27 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | [[User:Pete Jemian|Pete Jemian]]
 || APS, ANL, USA
-|| done || 
+|| approved || 
 |-
 | [[User:Mark Koennecke|Mark Koennecke]]
 || PSI, Switzerland
-|| requested || 
+|| awaiting approval || 
 |-
 | [[User:Ray Osborn|Ray Osborn]]
 || ANL, USA
-|| not started || 
+|| requested || 
 |-
 | [[User:Peter Peterson|Peter Peterson]]
 || ORNL, USA
-|| done || 3
+|| approved || 3
 |-
 | [[User:Tobias Richter|Tobias Richter]]
 || Diamond Light Source, UK
-|| requested ||
+|| approved ||
 |-
 | [[User:Armando Sole|Armando Sole]]
 || European Synchrotron Radiation Facility, France
-|| not started || 
+|| requested || 
 |}
 
 ==Agenda==
