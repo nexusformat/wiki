@@ -33,7 +33,7 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | [[User:Steve Cottrell|Steve Cottrell]]
 || Rutherford Appleton Laboratory, UK
-|| requested || 
+|| awaiting approval (initial) || 
 |-
 | [[User:Nick Hauser|Nick Hauser]]
 || ANSTO, Australia
@@ -41,7 +41,7 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]]
 || Helmholtz Zentrum Berlin (renamed HMI), Germany
-|| requested || 
+||  || 
 |-
 | [[User:Pete Jemian|Pete Jemian]]
 || APS, ANL, USA
