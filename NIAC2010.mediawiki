@@ -7,6 +7,10 @@ Currently the tentative dates are:
 * NeXus workshop -> 10th October
 * [http://www.nobugsconference.org/Conferences NoBugs meeting] -> 11th-13th October
 
+==Location==
+Spallation Neutron Source,
+SNS C150/C152
+
 ==Accommodations and logistics==
 
 Recommended hotels:
