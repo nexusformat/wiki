@@ -35,6 +35,10 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 || ORNL, USA
 || approved || 2
 |-
+| Peter Chang
+|| Diamond Light Source, UK
+|| awaiting approval ||
+|-
 | [[User:Steve Cottrell|Steve Cottrell]]
 || Rutherford Appleton Laboratory, UK
 || awaiting approval (initial) || 
@@ -66,6 +70,10 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 | [[User:Tobias Richter|Tobias Richter]]
 || Diamond Light Source, UK
 || approved ||
+|-
+| Saunders Claude
+|| APS, ANL, USA
+|| awaiting approval || 
 |-
 | [[User:Armando Sole|Armando Sole]]
 || European Synchrotron Radiation Facility, France
