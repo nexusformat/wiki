@@ -39,17 +39,21 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 || Diamond Light Source, UK
 || awaiting approval ||
 |-
+| Saunders Claude
+|| APS, ANL, USA
+|| awaiting approval || 
+|-
 | [[User:Steve Cottrell|Steve Cottrell]]
 || Rutherford Appleton Laboratory, UK
 || awaiting approval (initial) || 
 |-
 | [[User:Nick Hauser|Nick Hauser]]
 || ANSTO, Australia
-|| requested || 
+|| awaiting approval || 
 |-
 | [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]]
 || Helmholtz Zentrum Berlin (renamed HMI), Germany
-||  || 
+|| requested || 
 |-
 | [[User:Pete Jemian|Pete Jemian]]
 || APS, ANL, USA
@@ -71,8 +75,8 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 || Diamond Light Source, UK
 || approved ||
 |-
-| Saunders Claude
-|| APS, ANL, USA
+| Suzuki Jiro
+|| J-PARC, Japan
 || awaiting approval || 
 |-
 | [[User:Armando Sole|Armando Sole]]
