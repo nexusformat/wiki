@@ -31,8 +31,8 @@ Peterson](User%3APeter_Peterson "wikilink").
 | [Tobias Richter](User%3ATobias_Richter "wikilink")     | | Diamond Light Source, UK                          | | approved          |               |
 ||
 
-Agenda
-------
+Planned Agenda
+--------------
 
 Tuesday 5th October 2010
 
