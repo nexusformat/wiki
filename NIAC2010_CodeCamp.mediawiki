@@ -75,10 +75,20 @@ Tuesday  5th October 2010
 
 Wednesday 6th October 2010	
 
-9:00-9:45	Discussion on progress so far
-9:45-10:00	Break
-10:00-12:00	Continued Development
-12:00-13:00	Lunch
-13:00-14:45	Final Development Session
-15:00-15:15	Break
-15:15-17:00	Wrap up and assign Actions
+{| border="1"
+|-
+|9:00||9:30 || Discussion on progress so far 
+|-
+|9:30||9:45 || Break
+|-
+|10:00||12:00 || 	Continued Development
+|-
+|12:00||13:00 || 	Lunch
+|-
+|13:00||15:00	 || Final Development Session
+|-
+|15:00||15:15 || 	Break
+|-
+|15:15||17:00 || 	Wrap up and assign Actions
+|-
+|}
