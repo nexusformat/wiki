@@ -19,16 +19,17 @@ If you want to attend please email either [Stuart
 Campbell](User%3AStuart_Campbell "wikilink") or [Peter
 Peterson](User%3APeter_Peterson "wikilink").
 
-| Name                                                   | Company/Institute                                   | PAS status          | spaces in car |
-|--------------------------------------------------------|-----------------------------------------------------|---------------------|---------------|
-| [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink") | | ISIS Facility, Rutherford Appleton Laboratory, UK | | awaiting approval |               |
-| [Stuart Campbell](User%3AStuart_Campbell "wikilink")   | | ORNL, USA                                         | | approved          | 2             |
-| Peter Chang                                            | | Diamond Light Source, UK                          | | awaiting approval |               |
-| [Pete Jemian](User%3APete_Jemian "wikilink")           | | APS, ANL, USA                                     | | approved          |               |
-| [Mark Koennecke](User%3AMark_Koennecke "wikilink")     | | PSI, Switzerland                                  | | awaiting approval |               |
-| [Peter Peterson](User%3APeter_Peterson "wikilink")     | | ORNL, USA                                         | | approved          | 3             |
-| Michael Reuter                                         | | ORNL, USA                                         | | approved          |               |
-| [Tobias Richter](User%3ATobias_Richter "wikilink")     | | Diamond Light Source, UK                          | | approved          |               |
+| Name                                                      | Company/Institute                                   | PAS status          | spaces in car |
+|-----------------------------------------------------------|-----------------------------------------------------|---------------------|---------------|
+| [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink")    | | ISIS Facility, Rutherford Appleton Laboratory, UK | | awaiting approval |               |
+| [Stuart Campbell](User%3AStuart_Campbell "wikilink")      | | ORNL, USA                                         | | approved          | 2             |
+| Peter Chang                                               | | Diamond Light Source, UK                          | | awaiting approval |               |
+| [Pete Jemian](User%3APete_Jemian "wikilink")              | | APS, ANL, USA                                     | | approved          |               |
+| [ Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann "wikilink") | | Helmholtz Zentrum Berlin (renamed HMI), Germany   | | awaiting approval |               |
+| [Mark Koennecke](User%3AMark_Koennecke "wikilink")        | | PSI, Switzerland                                  | | awaiting approval |               |
+| [Peter Peterson](User%3APeter_Peterson "wikilink")        | | ORNL, USA                                         | | approved          | 3             |
+| Michael Reuter                                            | | ORNL, USA                                         | | approved          |               |
+| [Tobias Richter](User%3ATobias_Richter "wikilink")        | | Diamond Light Source, UK                          | | approved          |               |
 ||
 
 Planned Agenda
