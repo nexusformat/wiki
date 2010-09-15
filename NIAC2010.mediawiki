@@ -53,7 +53,7 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]]
 || Helmholtz Zentrum Berlin (renamed HMI), Germany
-|| requested || YES ||
+|| awaiting approval || YES ||
 |-
 | [[User:Pete Jemian|Pete Jemian]]
 || APS, ANL, USA
