@@ -77,4 +77,5 @@ Topics
 -   implement scaled data
     -   pending discussion on *coordinates*
     -   pending discussion on **NXmeasurement**
+-   confirm validation process for NeXus data files
 
