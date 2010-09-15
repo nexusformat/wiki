@@ -81,7 +81,7 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | Claude Saunders 
 || APS, ANL, USA
-|| awaiting approval || || 
+|| approved || || 
 |-
 | [[User:Armando Sole|Armando Sole]]
 || European Synchrotron Radiation Facility, France
@@ -89,7 +89,7 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | Benjamin Watts
 || Swiss Light Source, Switzerland
-|| awaiting approval || '''NO'''  ||
+|| requested || '''NO'''  ||
 |}
 
 ==Planned Agenda==
