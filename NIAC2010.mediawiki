@@ -87,6 +87,7 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 ==Planned Agenda==
 Agenda for  NeXus International Advisory Committee Meeting
 
+'''Thursday 7th October 2010'''	
 9:00-9:15	Welcome<br>
 9:15-9:30	Review of minutes from last meeting<br>
 9:30- 9:45	Break<br>
@@ -98,8 +99,7 @@ Agenda for  NeXus International Advisory Committee Meeting
 15:00-15:15	Break<br>
 15:15-17:00	Doc Subgroup & Tech Committee Meetings<br>
 
-Friday 8th October 2010	
-
+'''Friday 8th October 2010'''
 9:00-9:30	Plan for Day<br>
 9:30-10:00	Break<br>
 10:00-12:00	Proposals for Definitions<br>
