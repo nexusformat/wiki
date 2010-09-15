@@ -68,4 +68,7 @@ Topics
 
 -   Documentation
 -   Coordinate Systems
+-   prepare Tech Committee report on progress to NIAC
+-   NAPI is not thread-safe
+    -   problem is deep inside C API
 

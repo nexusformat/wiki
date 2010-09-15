@@ -97,3 +97,6 @@ Wednesday 6th October 2010
 
 * Documentation
 * Coordinate Systems
+* prepare Tech Committee report on progress to NIAC
+* NAPI is not thread-safe
+** problem is deep inside C API
