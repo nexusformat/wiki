@@ -81,11 +81,11 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | Suzuki Jiro
 || J-PARC, Japan
-|| awaiting approval || X ||
+|| awaiting approval ||  ||
 |-
 | [[User:Armando Sole|Armando Sole]]
 || European Synchrotron Radiation Facility, France
-|| awaiting approval || X ||
+|| awaiting approval ||  ||
 |-
 | Benjamin Watts
 || Swiss Light Source, Switzerland
