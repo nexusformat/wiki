@@ -29,67 +29,55 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | [[User:Freddie Akeroyd|Frederick Akeroyd]] 
 || ISIS Facility, Rutherford Appleton Laboratory, UK 
-|| X ||
-|| awaiting approval || 
+|| awaiting approval || X ||
 |-
 | [[User:Stuart Campbell|Stuart Campbell]]
 || ORNL, USA
-|| X ||
-|| approved || 2
+|| approved || X || 2
 |-
 | Peter Chang
 || Diamond Light Source, UK
-|| X ||
-|| awaiting approval ||
+|| awaiting approval || X || 
 |-
 | Saunders Claude
 || APS, ANL, USA
-||   ||
-|| awaiting approval || 
+|| awaiting approval ||  X || 
 |-
 | [[User:Steve Cottrell|Steve Cottrell]]
 || Rutherford Appleton Laboratory, UK
-|| awaiting approval || 
-|| X ||
+|| awaiting approval ||  X || 
 |-
 | Matthias Drochner
 || Julich, Germany
-|| awaiting approval || 
-|| ? ||
+|| awaiting approval || ? ||
 |-
 | [[User:Nick Hauser|Nick Hauser]]
 || ANSTO, Australia
-|| awaiting approval || 
+|| awaiting approval || X ||
 |-
 | [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]]
 || Helmholtz Zentrum Berlin (renamed HMI), Germany
-|| requested || 
-|| X ||
+|| requested || X ||
 |-
 | [[User:Pete Jemian|Pete Jemian]]
 || APS, ANL, USA
-|| approved || 
-||  ||
+|| approved ||  ||
 |-
 | [[User:Mark Koennecke|Mark Koennecke]]
 || PSI, Switzerland
-|| awaiting approval || 
-|| X ||
+|| awaiting approval || X ||
 |-
 | [[User:Ray Osborn|Ray Osborn]]
 || ANL, USA
-|| requested || 
-|| ? ||
+|| requested || ? ||
 |-
 | [[User:Peter Peterson|Peter Peterson]]
 || ORNL, USA
-|| approved || 3
-|| X ||
+|| approved || X || 3
 |-
 | [[User:Tobias Richter|Tobias Richter]]
 || Diamond Light Source, UK
-|| approved ||
-|| X ||
+|| approved || X ||
 |-
 | Suzuki Jiro
 || J-PARC, Japan
