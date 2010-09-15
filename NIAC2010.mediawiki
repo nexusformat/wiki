@@ -25,31 +25,37 @@ If you are attending the NOBUGS conference the following week the plan is for pe
 If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell]] or [[User:Peter Peterson|Peter Peterson]].
 
 {| border="1"
-! Name || Company/Institute || PAS status || spaces in car
+! Name || Company/Institute || PAS status || attending NOBUGS || spaces in car
 |-
 | [[User:Freddie Akeroyd|Frederick Akeroyd]] 
 || ISIS Facility, Rutherford Appleton Laboratory, UK 
+|| X ||
 || awaiting approval || 
 |-
 | [[User:Stuart Campbell|Stuart Campbell]]
 || ORNL, USA
+|| X ||
 || approved || 2
 |-
 | Peter Chang
 || Diamond Light Source, UK
+|| X ||
 || awaiting approval ||
 |-
 | Saunders Claude
 || APS, ANL, USA
+||   ||
 || awaiting approval || 
 |-
 | [[User:Steve Cottrell|Steve Cottrell]]
 || Rutherford Appleton Laboratory, UK
 || awaiting approval || 
+|| X ||
 |-
 | Matthias Drochner
 || Julich, Germany
 || awaiting approval || 
+|| ? ||
 |-
 | [[User:Nick Hauser|Nick Hauser]]
 || ANSTO, Australia
@@ -58,38 +64,47 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 | [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]]
 || Helmholtz Zentrum Berlin (renamed HMI), Germany
 || requested || 
+|| X ||
 |-
 | [[User:Pete Jemian|Pete Jemian]]
 || APS, ANL, USA
 || approved || 
+||  ||
 |-
 | [[User:Mark Koennecke|Mark Koennecke]]
 || PSI, Switzerland
 || awaiting approval || 
+|| X ||
 |-
 | [[User:Ray Osborn|Ray Osborn]]
 || ANL, USA
 || requested || 
+|| ? ||
 |-
 | [[User:Peter Peterson|Peter Peterson]]
 || ORNL, USA
 || approved || 3
+|| X ||
 |-
 | [[User:Tobias Richter|Tobias Richter]]
 || Diamond Light Source, UK
 || approved ||
+|| X ||
 |-
 | Suzuki Jiro
 || J-PARC, Japan
 || awaiting approval || 
+|| X ||
 |-
 | [[User:Armando Sole|Armando Sole]]
 || European Synchrotron Radiation Facility, France
 || awaiting approval || 
+|| X ||
 |-
 | Benjamin Watts
 || Swiss Light Source, Switzerland
 || awaiting approval || 
+||  ||
 |}
 
 ==Planned Agenda==
