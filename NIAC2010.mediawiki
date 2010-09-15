@@ -29,15 +29,15 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | [[User:Freddie Akeroyd|Frederick Akeroyd]] 
 || ISIS Facility, Rutherford Appleton Laboratory, UK 
-|| awaiting approval || X ||
+|| awaiting approval || YES ||
 |-
 | [[User:Stuart Campbell|Stuart Campbell]]
 || ORNL, USA
-|| approved || X || 2
+|| approved || YES || 2
 |-
 | Peter Chang
 || Diamond Light Source, UK
-|| awaiting approval || X || 
+|| awaiting approval || YES || 
 |-
 | Saunders Claude
 || APS, ANL, USA
@@ -45,15 +45,15 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | [[User:Steve Cottrell|Steve Cottrell]]
 || Rutherford Appleton Laboratory, UK
-|| awaiting approval ||  X || 
+|| awaiting approval ||  YES || 
 |-
 | Matthias Drochner
 || Julich, Germany
-|| awaiting approval || ? ||
+|| awaiting approval ||  ||
 |-
 | [[User:Nick Hauser|Nick Hauser]]
 || ANSTO, Australia
-|| awaiting approval || X ||
+|| awaiting approval || YES ||
 |-
 | [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]]
 || Helmholtz Zentrum Berlin (renamed HMI), Germany
