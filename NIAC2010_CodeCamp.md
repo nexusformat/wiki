@@ -73,4 +73,8 @@ Topics
     -   problem is deep inside C API
 -   ideas for project plan
 -   consider object-oriented or higher-level API
+-   implement NXsubentry
+-   implement scaled data
+    -   pending discussion on *coordinates*
+    -   pending discussion on **NXmeasurement**
 
