@@ -25,7 +25,7 @@ If you are attending the NOBUGS conference the following week the plan is for pe
 If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell]] or [[User:Peter Peterson|Peter Peterson]].
 
 {| border="1"
-! Name || Company/Institute || PAS status || attending NOBUGS || spaces in car
+! Name || Company/Institute || ORNL Pass status || NOBUGS? || spaces in car
 |-
 | [[User:Freddie Akeroyd|Frederick Akeroyd]] 
 || ISIS Facility, Rutherford Appleton Laboratory, UK 
@@ -41,7 +41,7 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | Saunders Claude
 || APS, ANL, USA
-|| awaiting approval ||  X || 
+|| awaiting approval || '''NO''' || 
 |-
 | [[User:Steve Cottrell|Steve Cottrell]]
 || Rutherford Appleton Laboratory, UK
@@ -61,7 +61,7 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | [[User:Pete Jemian|Pete Jemian]]
 || APS, ANL, USA
-|| approved ||  ||
+|| approved || '''NO''' ||
 |-
 | [[User:Mark Koennecke|Mark Koennecke]]
 || PSI, Switzerland
