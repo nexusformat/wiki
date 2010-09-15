@@ -39,10 +39,6 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 || Diamond Light Source, UK
 || awaiting approval || YES || 
 |-
-| Claude Saunders 
-|| APS, ANL, USA
-|| awaiting approval || || 
-|-
 | [[User:Steve Cottrell|Steve Cottrell]]
 || Rutherford Appleton Laboratory, UK
 || awaiting approval ||  YES || 
@@ -63,6 +59,10 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 || APS, ANL, USA
 || approved || '''NO''' ||
 |-
+| Suzuki Jiro
+|| J-PARC, Japan
+|| awaiting approval ||  ||
+|-
 | [[User:Mark Koennecke|Mark Koennecke]]
 || PSI, Switzerland
 || awaiting approval || YES ||
@@ -79,9 +79,9 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 || Diamond Light Source, UK
 || approved || YES ||
 |-
-| Suzuki Jiro
-|| J-PARC, Japan
-|| awaiting approval ||  ||
+| Claude Saunders 
+|| APS, ANL, USA
+|| awaiting approval || || 
 |-
 | [[User:Armando Sole|Armando Sole]]
 || European Synchrotron Radiation Facility, France
