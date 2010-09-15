@@ -63,4 +63,9 @@ Wednesday 6th October 2010
 | 15:15 | 17:00 | Wrap up and assign Actions    |
 ||
 
+Topics
+------
+
+-   Documentation
+-   Coordinate Systems
 
