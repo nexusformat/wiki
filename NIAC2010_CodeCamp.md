@@ -71,4 +71,6 @@ Topics
 -   prepare Tech Committee report on progress to NIAC
 -   NAPI is not thread-safe
     -   problem is deep inside C API
+-   ideas for project plan
+-   consider object-oriented or higher-level API
 
