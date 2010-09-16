@@ -68,6 +68,8 @@ Topics
 ------
 
 -   Documentation
+    -   resolve incomplete sections
+    -   prepare report to present to NIAC
 -   Coordinate Systems
 -   prepare Tech Committee report on progress to NIAC
 -   NAPI is not thread-safe
