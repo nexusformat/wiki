@@ -29,7 +29,7 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | [[User:Freddie Akeroyd|Frederick Akeroyd]] 
 || ISIS Facility, Rutherford Appleton Laboratory, UK 
-|| awaiting approval || YES ||
+|| approved || YES ||
 |-
 | [[User:Stuart Campbell|Stuart Campbell]]
 || ORNL, USA
@@ -37,7 +37,7 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | Peter Chang
 || Diamond Light Source, UK
-|| awaiting approval || YES || 
+|| approved || YES || 
 |-
 | [[User:Steve Cottrell|Steve Cottrell]]
 || Rutherford Appleton Laboratory, UK
@@ -45,7 +45,7 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | Matthias Drochner
 || Julich, Germany
-|| awaiting approval ||  ||
+|| approved ||  '''NO''' ||
 |-
 | [[User:Nick Hauser|Nick Hauser]]
 || ANSTO, Australia
@@ -53,7 +53,7 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]]
 || Helmholtz Zentrum Berlin (renamed HMI), Germany
-|| awaiting approval || YES ||
+|| approved || YES ||
 |-
 | [[User:Pete Jemian|Pete Jemian]]
 || APS, ANL, USA
@@ -61,7 +61,7 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | Suzuki Jiro
 || J-PARC, Japan
-|| awaiting approval ||  ||
+|| awaiting approval ||  '''NO''' ||
 |-
 | [[User:Mark Koennecke|Mark Koennecke]]
 || PSI, Switzerland
@@ -81,11 +81,11 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | Claude Saunders 
 || APS, ANL, USA
-|| approved || || 
+|| approved || YES || 
 |-
 | [[User:Armando Sole|Armando Sole]]
 || European Synchrotron Radiation Facility, France
-|| awaiting approval ||  ||
+|| awaiting approval || '''NO'''  ||
 |-
 | Benjamin Watts
 || Swiss Light Source, Switzerland
