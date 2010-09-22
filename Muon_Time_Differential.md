@@ -14,5 +14,7 @@ are asked to vote on and ratify the 'Muon Instrument Definition: Version
 
 Aspects of the Muon Definition either introduce new NeXus Classes or
 extend existing definitions. These are discussed separately in the
-linked document (), and the NIAC are asked to separately consider and
-ratify these elements that are key to the Muon definition.
+linked document
+(![](Elements_for_Muons.pdf "fig:Elements_for_Muons.pdf")), and the NIAC
+are asked to separately consider and ratify these elements that are key
+to the Muon definition.
