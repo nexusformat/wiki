@@ -127,7 +127,4 @@ into the *Proposed* category above.
         Robert Georgii (FRM-II, Germany)
     -   [Time-of-Flight Neutron Spin
         Echo](Time-of-Flight_Neutron_Spin_Echo "wikilink"), Editor: TBA
--   Muon
-    -   [Muon Time Differential](Muon_Time_Differential "wikilink"),
-        Editor: Stephen Cottrell (ISIS, UK)
 
