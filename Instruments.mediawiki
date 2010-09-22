@@ -24,7 +24,7 @@ In this case the need for a particular definition has been identified, an editor
 *[[SAS|Monochromatic Neutron and X-ray Small Angle Scattering]] Editor: Ron Ghosh (Institut Laue Langevin, France).
 *[[Processed Data]] Editor: [[User:Ray Osborn|Ray Osborn]] (Argonne National Laboratory, USA)
 *[[XESraw|X-Ray Synchrotron Raw]] Editor: [[User:Stuart Campbell|Stuart Campbell]] (Diamond Light Source, UK)
-*[[Muon Time Differential]], Editor: Stephen Cottrell (ISIS, UK)
+*[[Muon Time Differential]] Editor: [[User:Steve Cottrell|Steve Cottrell]] (ISIS, UK)
 
 ===Planned===
 These definitions are currently being worked on and so could still undergo major revisions. When they near completion they will be moved into the ''Proposed'' category above.

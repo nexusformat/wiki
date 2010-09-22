@@ -78,8 +78,8 @@ place; however the definition has not yet been voted on by the
 -   [X-Ray Synchrotron Raw](XESraw "wikilink") Editor: [Stuart
     Campbell](User%3AStuart_Campbell "wikilink") (Diamond Light Source,
     UK)
--   [Muon Time Differential](Muon_Time_Differential "wikilink"), Editor:
-    Stephen Cottrell (ISIS, UK)
+-   [Muon Time Differential](Muon_Time_Differential "wikilink") Editor:
+    [Steve Cottrell](User%3ASteve_Cottrell "wikilink") (ISIS, UK)
 
 ### Planned
 
