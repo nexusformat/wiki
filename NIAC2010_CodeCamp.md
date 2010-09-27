@@ -31,6 +31,7 @@ Peterson](User%3APeter_Peterson "wikilink").
 | Michael Reuter                                            | | ORNL, USA                                         | | approved          |               |
 | [Tobias Richter](User%3ATobias_Richter "wikilink")        | | Diamond Light Source, UK                          | | approved          |               |
 | Benjamin Watts                                            | | Swiss Light Source, Switzerland                   | | awaiting approval |               |
+| Marie Yao                                                 | | ORNL, USA                                         | | approved          |               |
 ||
 
 Planned Agenda

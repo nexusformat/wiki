@@ -51,6 +51,10 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 || Swiss Light Source, Switzerland
 || awaiting approval ||
 |-
+| Marie Yao 
+|| ORNL, USA
+|| approved ||
+|-
 |}
 
 ==Planned Agenda==
