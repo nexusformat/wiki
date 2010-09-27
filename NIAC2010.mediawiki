@@ -41,7 +41,7 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | [[User:Steve Cottrell|Steve Cottrell]]
 || Rutherford Appleton Laboratory, UK
-|| awaiting approval ||  YES || 
+|| approved ||  YES || 
 |-
 | Matthias Drochner
 || Julich, Germany
