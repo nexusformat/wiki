@@ -49,7 +49,7 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | [[User:Nick Hauser|Nick Hauser]]
 || ANSTO, Australia
-|| awaiting approval || YES ||
+|| approved || YES ||
 |-
 | [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]]
 || Helmholtz Zentrum Berlin (renamed HMI), Germany
@@ -61,7 +61,7 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | Suzuki Jiro
 || J-PARC, Japan
-|| awaiting approval ||  '''NO''' ||
+|| approved ||  '''NO''' ||
 |-
 | [[User:Mark Koennecke|Mark Koennecke]]
 || PSI, Switzerland
@@ -85,11 +85,11 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | [[User:Armando Sole|Armando Sole]]
 || European Synchrotron Radiation Facility, France
-|| awaiting approval || '''NO'''  ||
+|| approved || '''NO'''  ||
 |-
 | Benjamin Watts
 || Swiss Light Source, Switzerland
-|| requested || '''NO'''  ||
+|| awaiting approval || '''NO'''  ||
 |}
 
 '''''It is important that if entering the US on a Visa Waiver to ensure that you get a VWB (Visa Waiver Business) and NOT a tourist one.'''''<br>
