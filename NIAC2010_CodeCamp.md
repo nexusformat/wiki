@@ -21,7 +21,7 @@ Peterson](User%3APeter_Peterson "wikilink").
 
 | Name                                                      | Company/Institute                                   | PAS status          | spaces in car |
 |-----------------------------------------------------------|-----------------------------------------------------|---------------------|---------------|
-| [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink")    | | ISIS Facility, Rutherford Appleton Laboratory, UK | | awaiting approval |               |
+| [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink")    | | ISIS Facility, Rutherford Appleton Laboratory, UK | | approved          |               |
 | [Stuart Campbell](User%3AStuart_Campbell "wikilink")      | | ORNL, USA                                         | | approved          | 2             |
 | Peter Chang                                               | | Diamond Light Source, UK                          | | approved          |               |
 | [Pete Jemian](User%3APete_Jemian "wikilink")              | | APS, ANL, USA                                     | | approved          |               |
