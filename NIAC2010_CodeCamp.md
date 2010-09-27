@@ -26,7 +26,7 @@ Peterson](User%3APeter_Peterson "wikilink").
 | Peter Chang                                               | | Diamond Light Source, UK                          | | approved          |               |
 | [Pete Jemian](User%3APete_Jemian "wikilink")              | | APS, ANL, USA                                     | | approved          |               |
 | [ Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann "wikilink") | | Helmholtz Zentrum Berlin (renamed HMI), Germany   | | approved          |               |
-| [Mark Koennecke](User%3AMark_Koennecke "wikilink")        | | PSI, Switzerland                                  | | awaiting approval |               |
+| [Mark Koennecke](User%3AMark_Koennecke "wikilink")        | | PSI, Switzerland                                  | | approved          |               |
 | [Peter Peterson](User%3APeter_Peterson "wikilink")        | | ORNL, USA                                         | | approved          | 3             |
 | Michael Reuter                                            | | ORNL, USA                                         | | approved          |               |
 | [Tobias Richter](User%3ATobias_Richter "wikilink")        | | Diamond Light Source, UK                          | | approved          |               |
