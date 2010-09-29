@@ -32,4 +32,5 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 -   [Extension of NeXus Coordinate
     Systems](Extension_of_NeXus_Coordinate_Systems "wikilink")
 -   [NXmeasurement](NXmeasurement "wikilink")
+-   [Proposal: NeXus Errors](Proposal:_NeXus_Errors "wikilink")
 
