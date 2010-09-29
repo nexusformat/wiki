@@ -16,3 +16,4 @@ If you have a specific subject concerning the NeXus format design, please add it
 *[[Extension of NeXus Coordinate Systems]]
 *[[NXmeasurement]]
 *[[Proposal: NeXus Errors]]
+*[[Proposal: NeXus Coordinates]]
