@@ -45,7 +45,7 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | Matthias Drochner
 || Julich, Germany
-|| approved ||  '''NO''' ||
+|| approved ||  YES ||
 |-
 | [[User:Nick Hauser|Nick Hauser]]
 || ANSTO, Australia
@@ -61,7 +61,7 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | Suzuki Jiro
 || J-PARC, Japan
-|| approved ||  '''NO''' ||
+|| approved ||  YES ||
 |-
 | [[User:Mark Koennecke|Mark Koennecke]]
 || PSI, Switzerland
@@ -69,7 +69,7 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | [[User:Ray Osborn|Ray Osborn]]
 || ANL, USA
-|| requested ||  ||
+|| requested || '''NO''' ||
 |-
 | [[User:Peter Peterson|Peter Peterson]]
 || ORNL, USA
@@ -85,7 +85,7 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 |-
 | [[User:Armando Sole|Armando Sole]]
 || European Synchrotron Radiation Facility, France
-|| approved || '''NO'''  ||
+|| approved || YES  ||
 |-
 | Benjamin Watts
 || Swiss Light Source, Switzerland
