@@ -19,6 +19,10 @@ If you want to attend please email either [Stuart
 Campbell](User%3AStuart_Campbell "wikilink") or [Peter
 Peterson](User%3APeter_Peterson "wikilink").
 
+***It is important that if entering the US on a Visa Waiver to ensure
+that you get a VWB (Visa Waiver Business) and NOT a tourist one.***  
+It is likely that you will not be allowed into ORNL with a Tourist Visa!
+
 | Name                                                      | Company/Institute                                   | PAS status          | spaces in car |
 |-----------------------------------------------------------|-----------------------------------------------------|---------------------|---------------|
 | [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink")    | | ISIS Facility, Rutherford Appleton Laboratory, UK | | approved          |               |
