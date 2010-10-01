@@ -25,71 +25,71 @@ If you are attending the NOBUGS conference the following week the plan is for pe
 If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell]] or [[User:Peter Peterson|Peter Peterson]].
 
 {| border="1"
-! Name || Company/Institute || ORNL Pass status || NOBUGS? || spaces in car
+! Name || Company/Institute || ORNL Pass status || NOBUGS? 
 |-
 | [[User:Freddie Akeroyd|Frederick Akeroyd]] 
 || ISIS Facility, Rutherford Appleton Laboratory, UK 
-|| approved || YES ||
+|| approved || YES 
 |-
 | [[User:Stuart Campbell|Stuart Campbell]]
 || ORNL, USA
-|| approved || YES || 2
+|| approved || YES
 |-
 | Peter Chang
 || Diamond Light Source, UK
-|| approved || YES || 
+|| approved || YES 
 |-
 | [[User:Steve Cottrell|Steve Cottrell]]
 || Rutherford Appleton Laboratory, UK
-|| approved ||  YES || 
+|| approved ||  YES 
 |-
 | Matthias Drochner
 || Julich, Germany
-|| approved ||  YES ||
+|| approved ||  YES
 |-
 | [[User:Nick Hauser|Nick Hauser]]
 || ANSTO, Australia
-|| approved || YES ||
+|| approved || YES
 |-
 | [[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]]
 || Helmholtz Zentrum Berlin (renamed HMI), Germany
-|| approved || YES ||
+|| approved || YES 
 |-
 | [[User:Pete Jemian|Pete Jemian]]
 || APS, ANL, USA
-|| approved || '''NO''' ||
+|| approved || '''NO''' 
 |-
 | Suzuki Jiro
 || J-PARC, Japan
-|| approved ||  YES ||
+|| approved ||  YES 
 |-
 | [[User:Mark Koennecke|Mark Koennecke]]
 || PSI, Switzerland
-||  approved || YES ||
+||  approved || YES 
 |-
 | [[User:Ray Osborn|Ray Osborn]]
 || ANL, USA
-|| requested || '''NO''' ||
+|| requested || '''NO''' 
 |-
 | [[User:Peter Peterson|Peter Peterson]]
 || ORNL, USA
-|| approved || YES || 3
+|| approved || YES 
 |-
 | [[User:Tobias Richter|Tobias Richter]]
 || Diamond Light Source, UK
-|| approved || YES ||
+|| approved || YES 
 |-
 | Claude Saunders 
 || APS, ANL, USA
-|| approved || YES || 
+|| approved || YES 
 |-
 | [[User:Armando Sole|Armando Sole]]
 || European Synchrotron Radiation Facility, France
-|| approved || YES  ||
+|| approved || YES  
 |-
 | Benjamin Watts
 || Swiss Light Source, Switzerland
-|| awaiting approval || '''NO'''  ||
+|| awaiting approval || '''NO'''  
 |}
 
 '''''It is important that if entering the US on a Visa Waiver to ensure that you get a VWB (Visa Waiver Business) and NOT a tourist one.'''''<br>
