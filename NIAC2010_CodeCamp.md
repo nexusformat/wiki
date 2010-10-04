@@ -35,7 +35,7 @@ It is likely that you will not be allowed into ORNL with a Tourist Visa!
 | Michael Reuter                                            | | ORNL, USA                                         | | approved          |               |
 | [Tobias Richter](User%3ATobias_Richter "wikilink")        | | Diamond Light Source, UK                          | | approved          |               |
 | Benjamin Watts                                            | | Swiss Light Source, Switzerland                   | | awaiting approval |               |
-| Marie Yao                                                 | | ORNL, USA                                         | | approved          |               |
+| [Marie Yao](User%3AMarie "wikilink")                      | | ORNL, USA                                         | | approved          |               |
 ||
 
 Planned Agenda
