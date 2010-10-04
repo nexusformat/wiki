@@ -93,7 +93,7 @@ It is likely that you will not be allowed into ORNL with a Tourist Visa!<br>
 |-
 | Benjamin Watts
 || Swiss Light Source, Switzerland
-|| awaiting approval || '''NO'''  
+|| approved || '''NO'''  
 |}
 
 ==Planned Agenda==
