@@ -24,6 +24,10 @@ If you are attending the NOBUGS conference the following week the plan is for pe
 
 If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell]] or [[User:Peter Peterson|Peter Peterson]].
 
+
+'''''It is important that if entering the US on a Visa Waiver to ensure that you get a VWB (Visa Waiver Business) and NOT a tourist one.'''''<br>
+It is likely that you will not be allowed into ORNL with a Tourist Visa!<br>
+
 {| border="1"
 ! Name || Company/Institute || ORNL Pass status || NOBUGS? 
 |-
@@ -91,9 +95,6 @@ If you want to attend please email either [[User:Stuart Campbell|Stuart Campbell
 || Swiss Light Source, Switzerland
 || awaiting approval || '''NO'''  
 |}
-
-'''''It is important that if entering the US on a Visa Waiver to ensure that you get a VWB (Visa Waiver Business) and NOT a tourist one.'''''<br>
-It is likely that you will not be allowed into ORNL with a Tourist Visa!
 
 ==Planned Agenda==
 Agenda for  NeXus International Advisory Committee Meeting
