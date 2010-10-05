@@ -124,3 +124,4 @@ Wednesday 6th October 2010
 * implement scaled data
 * '''NXmeasurement'''
 * confirm validation process for NeXus data files
+* build system to cmake/cpack

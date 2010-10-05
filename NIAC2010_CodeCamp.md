@@ -87,4 +87,5 @@ Topics
 -   implement scaled data
 -   **NXmeasurement**
 -   confirm validation process for NeXus data files
+-   build system to cmake/cpack
 
