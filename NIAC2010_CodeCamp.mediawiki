@@ -113,15 +113,18 @@ Wednesday 6th October 2010
 * Documentation
 ** resolve incomplete sections
 ** prepare report to present to NIAC
-* Coordinate Systems
+** SNS nxdl
 * prepare Tech Committee report on progress to NIAC
-* NAPI is not thread-safe
+* NAPI
+** NAPI is not thread-safe
 ** problem is deep inside C API
-* NAPI Java interface
+** NAPI Java interface
+** consider object-oriented or higher-level API
+** build system to cmake/cpack
+* Concepts 
+** Coordinate Systems
+** '''NXmeasurement'''
+** implement '''NXsubentry'''
+** implement scaled data
 * ideas for project plan
-* consider object-oriented or higher-level API
-* implement '''NXsubentry'''
-* implement scaled data
-* '''NXmeasurement'''
 * confirm validation process for NeXus data files
-* build system to cmake/cpack
