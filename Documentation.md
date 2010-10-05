@@ -4,10 +4,7 @@ permalink: Documentation/
 layout: wiki
 ---
 
-Documentation
-=============
-
-NeXus is documented in various forms:
+NeXus documentation is documented in various forms:
 
 -   [NeXus Wiki](Introduction "wikilink") (as of 2010-10-05, the wiki
     has fallen behind the other documentation)
