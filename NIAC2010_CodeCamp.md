@@ -74,10 +74,11 @@ Topics
 ------
 
 -   Documentation
-    -   resolve incomplete sections
+    -   resolve incomplete sections and reorder layout
     -   prepare report to present to NIAC
     -   SNS nxdl
 -   prepare Tech Committee report on progress to NIAC
+-   project plan
 -   NAPI
     -   NAPI is not thread-safe
     -   problem is deep inside C API
@@ -89,6 +90,5 @@ Topics
     -   **NXmeasurement**
     -   implement **NXsubentry**
     -   implement scaled data
--   ideas for project plan
--   confirm validation process for NeXus data files
+-   confirm validation process for NeXus data files **NXvalidate**
 
