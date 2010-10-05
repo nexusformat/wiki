@@ -85,7 +85,6 @@ Topics
 -   consider object-oriented or higher-level API
 -   implement **NXsubentry**
 -   implement scaled data
-    -   pending discussion on *coordinates*
-    -   pending discussion on **NXmeasurement**
+-   **NXmeasurement**
 -   confirm validation process for NeXus data files
 
