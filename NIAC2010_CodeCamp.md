@@ -79,6 +79,11 @@ Topics
     -   SNS nxdl
 -   Doxygen API documentation
 -   prepare Tech Committee report on progress to NIAC
+    -   Concepts
+        -   Coordinate Systems
+        -   **NXmeasurement**
+        -   implement **NXsubentry**
+        -   implement scaled data
 -   project plan
 -   NAPI
     -   NAPI is not thread-safe
@@ -86,10 +91,5 @@ Topics
     -   NAPI Java interface
     -   consider object-oriented or higher-level API
     -   build system to cmake/cpack
--   Concepts
-    -   Coordinate Systems
-    -   **NXmeasurement**
-    -   implement **NXsubentry**
-    -   implement scaled data
 -   confirm validation process for NeXus data files **NXvalidate**
 
