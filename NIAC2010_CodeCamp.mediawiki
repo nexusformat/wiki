@@ -114,6 +114,7 @@ Wednesday 6th October 2010
 ** resolve incomplete sections and reorder layout
 ** prepare report to present to NIAC
 ** SNS nxdl
+* Doxygen API documentation
 * prepare Tech Committee report on progress to NIAC
 * project plan
 * NAPI
