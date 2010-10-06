@@ -6,8 +6,6 @@ layout: wiki
 
 NeXus documentation is documented in various forms:
 
--   [NeXus Wiki](Introduction "wikilink") (as of 2010-10-05, the wiki
-    has fallen behind the other documentation)
 -   NeXus [User
     Manual](http://download.nexusformat.org/doc/NeXusManual.pdf) and
     [Reference
@@ -17,4 +15,6 @@ NeXus documentation is documented in various forms:
     [single HTML
     page](http://download.nexusformat.org/doc/NeXusManual.html))
 -   [API (and other) documentation](http://download.nexusformat.org/)
+-   [NeXus Wiki](Introduction "wikilink") (as of 2010-10-05, the wiki
+    has fallen behind the other documentation)
 

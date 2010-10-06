@@ -1,5 +1,5 @@
 NeXus documentation is documented in various forms:
 
-* [[Introduction|NeXus Wiki]] (as of 2010-10-05, the wiki has fallen behind the other documentation)
 * NeXus [http://download.nexusformat.org/doc/NeXusManual.pdf User Manual] and [http://download.nexusformat.org/doc/NeXusRefDoc.pdf Reference Documentation] (also combined in a [http://download.nexusformat.org/doc/html/index.html set of HTML pages] or a [http://download.nexusformat.org/doc/NeXusManual.html single HTML page])
 * [http://download.nexusformat.org/ API (and other) documentation]
+* [[Introduction|NeXus Wiki]] (as of 2010-10-05, the wiki has fallen behind the other documentation)
