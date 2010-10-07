@@ -2,7 +2,7 @@ NeXus is a common data format for neutron, x-ray, and muon science.  It is being
 ;[[Introduction|NeXus Introduction]]:Introduction to the concepts behind the NeXus data format.
 ;[[Documentation|NeXus Documentation]]:Links to the most current documentation of the classes and API.
 ;[[Design|NeXus Design]]:The hierarchical design of NeXus files.
-;[[Design#NeXus_Classes|NeXus Classes]]:Definitions of the base classes that make up NeXus data.
+;[http://download.nexusformat.org/doc/NeXusManual.html#ClassDefinitionsChapter NeXus Classes]:Definitions of the base classes that make up NeXus data.
 ;[[Instruments|NeXus Instrument Definitions]]:Generic instrument definitions or other specialized uses of NeXus.
 ;[[Application_Program_Interface|NeXus API]]:Application program interface for reading and writing NeXus files.
 ;[[Utilities|NeXus Utilities]]:Software applications that browse, plot, and analyze NeXus data.
