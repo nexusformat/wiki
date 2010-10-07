@@ -2,13 +2,13 @@
 ===HZB Representative, NeXus International Advisory Committee===
 ;Address
 :[http://www.helmholtz-berlin.de Helmholtz Zentrum Berlin]
-:Dept. SF2
-:Glienicker Str. 100
+:Institute of Comlex Magnetic Materials(M-I1)
+:Hahn-Meitner-Platz 1
 :14109 Berlin
 : Germany
 
 before [http://www.hmi.de Hahn-Meitner-Institut Berlin]
 
-;Phone: +49 30 8062 2185
-;Fax: +49 30 8062 2999
+;Phone: +49 30 8062 42185
+;Fax: +49 30 8062 42999
 ;Email: [mailto:hoffmann-j@helmholtz-berlin.de hoffmann-j@helmholtz-berlin.de]

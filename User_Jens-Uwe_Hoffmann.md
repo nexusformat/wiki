@@ -12,9 +12,9 @@ Jens-Uwe Hoffmann
 Address  
 [Helmholtz Zentrum Berlin](http://www.helmholtz-berlin.de)
 
-Dept. SF2
+Institute of Comlex Magnetic Materials(M-I1)
 
-Glienicker Str. 100
+Hahn-Meitner-Platz 1
 
 14109 Berlin
 
@@ -22,6 +22,6 @@ Germany
 
 before [Hahn-Meitner-Institut Berlin](http://www.hmi.de)
 
-Phone: +49 30 8062 2185  
-Fax: +49 30 8062 2999  
+Phone: +49 30 8062 42185  
+Fax: +49 30 8062 42999  
 Email: <hoffmann-j@helmholtz-berlin.de>  
