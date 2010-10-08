@@ -12,10 +12,7 @@ in the analysis and visualization of neutron, x-ray, and muon data.
 
 [NeXus Introduction](Introduction "wikilink"):Introduction to the concepts behind the NeXus data format.  
 [NeXus Documentation](Documentation "wikilink"):Links to the most current documentation of [NeXus](http://download.nexusformat.org/doc/html/bk01.html), the [classes](http://download.nexusformat.org/doc/html/bk02ch01.html), and [API](http://download.nexusformat.org/doc/html/bk02ch02.html).  
-[NeXus Design](Design "wikilink"):The hierarchical design of NeXus files.  
-[NeXus Classes](http://download.nexusformat.org/doc/NeXusManual.html#ClassDefinitionsChapter):Definitions of the base classes that make up NeXus data.  
-[NeXus Instrument Definitions](Instruments "wikilink"):Generic instrument definitions or other specialized uses of NeXus.  
-[NeXus API](Application_Program_Interface "wikilink"):Application program interface for reading and writing NeXus files.  
+[NeXus Design](http://download.nexusformat.org/doc/html/bk01ch02.html)\]:The hierarchical design of NeXus files.  
 [NeXus Utilities](Utilities "wikilink"):Software applications that browse, plot, and analyze NeXus data.  
 [NeXus FAQ](FAQ "wikilink"):A list of commonly asked questions about NeXus.  
 [NeXus Discussions](Discussions "wikilink"):A forum for discussing any aspects of the NeXus format.  
