@@ -34,8 +34,11 @@ There are two scenarios:
 2.  The coordinates represent the vertices of each pixel, so each
     coordinate SDS would be two-dimensional, with the slower changing
     dimension having the same length as the signal SDS and the faster
-    changing dimension having length 2<sup><em>n</em></sup>, where
-    <em>n</em> is the number of coordinate SDSs.
+    changing dimension having length of the number of vertices
+    (=2<sup><em>n</em></sup> for cartesian coordinates, where <em>n</em>
+    is the number of coordinate SDSs. In that case, an attribute
+    “number\_vertices” containing an integer specifying the number of
+    vertices will be added to the signal SDS.
 
 Discussion
 ----------
