@@ -12,7 +12,7 @@ There are two scenarios:
 Here is an example NXdata group:
 
  <NXdata name="data">
-    <data signal="1" coordinates="polar_angle:azimuthal_angle">...</data>
+    <data signal="1" coordinates="polar_angle:azimuthal_angle" number_vertices="8">...</data>
     <polar_angle>...</polar_angle>
     <azimuthal_angle>...</azimuthal_angle>
  </NXdata>
