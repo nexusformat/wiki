@@ -120,3 +120,6 @@ Agenda for  NeXus International Advisory Committee Meeting
 15:00-15:15	Break<br>
 15:15-16:00	Voting on proposed issues<br>
 16:00-17:00	Meeting Summary<br>
+
+== Talks ==
+* [[File:Mark_Nexus_NIAC_2010.pdf|Mark Koennecke]]
