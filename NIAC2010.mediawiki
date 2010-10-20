@@ -122,4 +122,5 @@ Agenda for  NeXus International Advisory Committee Meeting
 16:00-17:00	Meeting Summary<br>
 
 == Talks ==
-* [[File:Mark_Nexus_NIAC_2010.pdf|Mark Koennecke]]
+* [[Media:Mark_Nexus_NIAC_2010.pdf|Mark Koennecke]]
+* [[Media:NeXpy.pdf|Ray Osborn]]
