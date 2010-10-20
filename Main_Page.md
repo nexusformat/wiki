@@ -11,8 +11,8 @@ Australia, and North America in order to facilitate greater cooperation
 in the analysis and visualization of neutron, x-ray, and muon data.
 
 [NeXus Introduction](Introduction "wikilink"):Introduction to the concepts behind the NeXus data format.  
-[NeXus Documentation](Documentation "wikilink"):Links to the most current documentation of [NeXus](http://download.nexusformat.org/doc/html/bk01.html), the [classes](http://download.nexusformat.org/doc/html/bk02ch01.html), and [API](http://download.nexusformat.org/doc/html/bk02ch02.html).  
-[NeXus Design](http://download.nexusformat.org/doc/html/bk01ch02.html)\]:The hierarchical design of NeXus files.  
+[NeXus Documentation](Documentation "wikilink"):Links to the most current documentation of [NeXus](http://download.nexusformat.org/doc/html/UserManual.html), the [classes](http://download.nexusformat.org/doc/html/ClassDefinitions.html), [API](http://download.nexusformat.org/doc/html/NAPI.html), and [NXDL](http://download.nexusformat.org/doc/html/NXDL.html).  
+[NeXus Design](http://download.nexusformat.org/doc/html/chap.design.html): The hierarchical design of NeXus files.  
 [NeXus Utilities](Utilities "wikilink"):Software applications that browse, plot, and analyze NeXus data.  
 [NeXus FAQ](FAQ "wikilink"):A list of commonly asked questions about NeXus.  
 [NeXus Discussions](Discussions "wikilink"):A forum for discussing any aspects of the NeXus format.  
