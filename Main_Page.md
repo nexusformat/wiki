@@ -10,6 +10,10 @@ programmers representing major scientific facilities in Europe, Asia,
 Australia, and North America in order to facilitate greater cooperation
 in the analysis and visualization of neutron, x-ray, and muon data.
 
+Note: (2010-10-21) links revised to ***new documentation***  
+
+<!-- -->
+
 [NeXus Introduction](http://download.nexusformat.org/doc/html/Introduction.html):Introduction to the concepts behind the NeXus data format.  
 [NeXus Documentation](Documentation "wikilink"):Links to the most current documentation of [NeXus](http://download.nexusformat.org/doc/html/UserManual.html), the [classes](http://download.nexusformat.org/doc/html/ClassDefinitions.html), [API](http://download.nexusformat.org/doc/html/NAPI.html), and [NXDL](http://download.nexusformat.org/doc/html/NXDL.html).  
 [NeXus Design](http://download.nexusformat.org/doc/html/Design.html): The hierarchical design of NeXus files.  
