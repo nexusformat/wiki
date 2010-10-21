@@ -7,14 +7,32 @@ layout: wiki
 2010
 ----
 
+Thursday, October 21, 2010: NeXus Manual moved from the wiki to a [book format](http://www.nexusformat.org/Documentation) (PDF & HTML are available). The revised manual also documents the [class definitions](http://download.nexusformat.org/doc/html/ClassDefinitions.html) in [NXDL](http://download.nexusformat.org/doc/html/NXDL.html). Content has been reorganized and divided into a volume containing the [User Manual](http://download.nexusformat.org/doc/NeXusManual.pdf) and a volume containing the [Reference Documentation](http://download.nexusformat.org/doc/NeXusRefDoc.pdf).  
+
+<!-- -->
+
+  
+It is planned to release NXDL v1.0 next year.
+
+<!-- -->
+
+  
+The scientific community is encouraged to review existing [Application
+NXDL
+definitions](http://download.nexusformat.org/doc/html/ClassDefinitions-Application.html)
+or propose new ones to the NIAC. A [tutorial on constructing new NXDL
+definitions](http://download.nexusformat.org/doc/html/Tutorial.html) has
+been add to the manual.
+
+<!-- -->
+
 Tuesday, April 13, 2010: NeXus API version 4.2.1 has now been released and is available from the [download area](http://download.nexusformat.org/kits/) - see [Nexus\_42\_Release\_Notes](Nexus_42_Release_Notes "wikilink") for further information  
 
 <!-- -->
 
 Tuesday, March 9, 2010: A [NeXus Workshop](Workshop_PSI_2010 "wikilink") will be held at [PSI](http://www.psi.ch/) on May 10th - 12th. Its main purpose is to discuss the application of NeXus at synchrotron sources.  
 
-2010
-----
+<!-- -->
 
 Thursday, February 25, 2010: NeXus API 4.2 Release Candidate 5 (candidate for 4.2.1) is now [available for testing](NeXus_42_Testing "wikilink")  
 
