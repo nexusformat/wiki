@@ -15,8 +15,7 @@ stated in the [constitution](NIAC "wikilink").
 
 ### Expire October 5, 2009
 
--   Nick Hauser - Bragg Institute, Australia (Documentation Release
-    Manager)
+-   Nick Hauser - Bragg Institute, Australia
 -   Paul Kienzle - DANSE project, USA
 -   Ray Osborn - Intense Pulsed Neutron Source, USA
 
@@ -24,7 +23,7 @@ stated in the [constitution](NIAC "wikilink").
 
 -   Matthias Drochner - Forschungzentrum Juelich, Germany
 -   Nick Maliszewskyj - NIST Center for Neutron Research, USA
--   Peter Peterson - Spallation Neutron Source, USA (Chair - 3 years)
+-   Peter Peterson - Spallation Neutron Source, USA
 -   Stephane Poirier - Synchrotron Soleil, France
 
 ### Expire October 24, 2012
@@ -33,10 +32,9 @@ stated in the [constitution](NIAC "wikilink").
 
 ### Expire May 1, 2013
 
--   Freddie Akeroyd - ISIS Pulsed Neutron Facility, UK (Executive
-    co-Secretary - 2 year)
+-   Freddie Akeroyd - ISIS Pulsed Neutron Facility, UK
 -   Pete Jemian - APS, ANL, USA
--   Mark Koennecke - SINQ, Switzerland (Tech Committee Chair)
+-   Mark Koennecke - SINQ, Switzerland
 -   Jens-Uwe Hoffman - HMI, Germany
 
 ### Expire June 1, 2013
