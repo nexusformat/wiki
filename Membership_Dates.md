@@ -35,7 +35,7 @@ stated in the [constitution](NIAC "wikilink").
 -   Freddie Akeroyd - ISIS Pulsed Neutron Facility, UK
 -   Pete Jemian - APS, ANL, USA
 -   Mark Koennecke - SINQ, Switzerland
--   Jens-Uwe Hoffman - HMI, Germany
+-   Jens-Uwe Hoffman - Helmholtz-Zentrum, Germany
 
 ### Expire June 1, 2013
 
