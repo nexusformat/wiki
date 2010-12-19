@@ -1,4 +1,6 @@
 ==Stuart Campbell==
+:Executive Secretary, NIAC
+
 ;Address:Neutron Sciences Directorate
 :Oak Ridge National Laboratory
 :Oak Ridge, TN 37831-6475, USA
@@ -8,4 +10,3 @@
 
 ;Past
 :Diamond Light Source NIAC Representative
-:Executive Secretary, NIAC
