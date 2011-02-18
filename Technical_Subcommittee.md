@@ -18,8 +18,6 @@ The Technical Committee Chair is a member of the
 represent an institution. The current technical sub-committee members
 are:
 
--   [Mark Könnecke](User%3AMark_Koennecke "wikilink"), Paul Scherrer
-    Institut, Switzerland
 -   [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink"), Rutherford
     Appleton Laboratory, UK (Technical Committee Chair)
 -   [Stuart Campbell](User%3AStuart_Campbell "wikilink"), Oak Ridge
@@ -27,6 +25,8 @@ are:
 -   [Nick Hauser](User%3Anick "wikilink"), Australian Nuclear Science
     and Technology Organisation, Australia
 -   [Paul Kienzle](User%3APaul_Kienzle "wikilink"), DANSE, USA
+-   [Mark Könnecke](User%3AMark_Koennecke "wikilink"), Paul Scherrer
+    Institut, Switzerland
 -   [Nick Maliszewskyj](User%3ANick_Maliszewskyj "wikilink"), NIST
     Center for Neutron Research, USA
 -   [Peter Peterson](User%3APeter_Peterson "wikilink"), Spallation
