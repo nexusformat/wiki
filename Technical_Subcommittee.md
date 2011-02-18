@@ -19,9 +19,9 @@ represent an institution. The current technical sub-committee members
 are:
 
 -   [Mark Könnecke](User%3AMark_Koennecke "wikilink"), Paul Scherrer
-    Institut, Switzerland (Technical Committee Chair)
+    Institut, Switzerland
 -   [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink"), Rutherford
-    Appleton Laboratory, UK
+    Appleton Laboratory, UK (Technical Committee Chair)
 -   [Stuart Campbell](User%3AStuart_Campbell "wikilink"), Oak Ridge
     National Laboratory, USA
 -   [Nick Hauser](User%3Anick "wikilink"), Australian Nuclear Science

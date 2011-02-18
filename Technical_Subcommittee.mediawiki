@@ -5,8 +5,8 @@ The technical sub-committee is overseen by the Technical Committee Chair and is 
 
 The Technical Committee Chair is a member of the [[NIAC]], but is not allowed to vote unless they also represent an institution. The current technical sub-committee members are:
 
-*[[User:Mark Koennecke|Mark Könnecke]], Paul Scherrer Institut, Switzerland (Technical Committee Chair)
-*[[User:Freddie Akeroyd|Frederick Akeroyd]], Rutherford Appleton Laboratory, UK
+*[[User:Mark Koennecke|Mark Könnecke]], Paul Scherrer Institut, Switzerland 
+*[[User:Freddie Akeroyd|Frederick Akeroyd]], Rutherford Appleton Laboratory, UK (Technical Committee Chair)
 *[[User:Stuart Campbell|Stuart Campbell]], Oak Ridge National Laboratory, USA
 *[[User:nick|Nick Hauser]], Australian Nuclear Science and Technology Organisation, Australia
 *[[User:Paul Kienzle|Paul Kienzle]], DANSE, USA
