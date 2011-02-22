@@ -1,21 +1,19 @@
 == [[Membership Dates|Current Members]] ==
 *[[User:Freddie Akeroyd|Frederick Akeroyd]], Rutherford Appleton Laboratory, UK (ISIS Representative, Technical Committee Chair)
 *[[User:Stuart Campbell|Stuart Campbell]] Spallation Neutron Source, USA (Executive Secretary - non voting)
+*[[User:Bjorn Clausen|Bjorn Clausen]], Los Alamos National Laboratory, USA
 *[[User:Steve Cottrell|Stephen Cottrell]], Rutherford Appleton Laboratory, UK (Muon Representative)
 *[[User:Matthias Drochner|Matthias Drochner]], Forschungzentrum Jülich, Germany
-*[[User:Armando Sole|Armando Sole]], European Synchrotron Radiation Facility, France
 *[[User:nick|Nick Hauser]], Australian Nuclear Science and Technology Organisation, Australia (netCDF contact)
 *[[User:Jens-Uwe Hoffmann | Jens-Uwe Hoffmann]], Helmholtz Zentrum Berlin (renamed HMI), Germany
 *[[User:Pete Jemian|Pete Jemian]], Advanced Photon Source, USA (Documentation Release Manager)
-*[[User:Paul Kienzle|Paul Kienzle]], DANSE, USA
 *[[User:Mark Koennecke|Mark Könnecke]], Paul Scherrer Institut, Switzerland (Chair)
-*[[User:Nick Maliszewskyj|Nick Maliszewskyj]], NIST Center for Neutron Research, USA
 *[[User:Ray Osborn|Raymond Osborn]], Argonne National Laboratory, USA
 *[[User:Peter Peterson|Peter Peterson]], Spallation Neutron Source, USA 
-*[[User:Stephane Poirier|Stephane Poirier]], Synchrotron Soleil, France
-*[[User:Bjorn Clausen|Bjorn Clausen]], Los Alamos National Laboratory, USA
 *[[User:Tobias Richter|Tobias Richter]], Diamond Light Source, UK
+*[[User:Armando Sole|Armando Sole]], European Synchrotron Radiation Facility, France
 *[[User:Jiro Suzuki|Jiro Suzuki]], KEK, Japan
+*[[User:Ben Watts|Ben Watts]], Swiss Light Source, Switzerland
 
 The [[Membership Dates|expiration dates]] for the various members.
 
