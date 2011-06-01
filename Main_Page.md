@@ -23,6 +23,8 @@ Note: (2010-10-21) links revised to ***new documentation***
 [NeXus Mailing Lists](http://download.nexusformat.org/doc/html/MailingLists.html):Mailing lists covering different aspects of the NeXus format.  
 [NeXus International Advisory Committee](NIAC "wikilink"):Charged with supervising the development and maintenance of the NeXus format.  
 
+:\* APS on October, 2011 - [NIAC'2011](NIAC2011_CodeCamp "wikilink")
+
 :\* ORNL on October, 2010 - [NIAC'2010](NIAC2010 "wikilink")
 
 :\* APS on October 16-18, 2009 - [NIAC'2009](NIAC2009 "wikilink")

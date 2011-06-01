@@ -10,6 +10,7 @@ NeXus is a common data format for neutron, x-ray, and muon science.  It is being
 ;[[Discussions|NeXus Discussions]]:A forum for discussing any aspects of the NeXus format.
 ;[http://download.nexusformat.org/doc/html/MailingLists.html NeXus Mailing Lists]:Mailing lists covering different aspects of the NeXus format.
 ;[[NIAC|NeXus International Advisory Committee]]:Charged with supervising the development and maintenance of the NeXus format.
+:* APS on October, 2011 - [[NIAC2011_CodeCamp|NIAC'2011]]
 :* ORNL on October, 2010 - [[NIAC2010|NIAC'2010]]
 :* APS on October 16-18, 2009 - [[NIAC2009|NIAC'2009]]
 :* ANSTO on October 30-31, 2008 - [[NIAC2008|NIAC'2008]]
