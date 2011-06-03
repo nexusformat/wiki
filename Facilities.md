@@ -33,11 +33,11 @@ Spallation Neutron Source [SNS](http://neutrons.ornl.gov/), Oak Ridge, TN, USA: 
 
 <!-- -->
 
-SINQ, [Paul Scherrer Institute](http://www.psi.ch): At SINQ most data files are stored in NeXus format, as of January, 5, 2009 1104153 files were collected. As PSI pioneered NeXus file writing, most files do not adhere to the newest standards for NeXus files anymore. This will be rectified as soon as more progress on application definitions has been made.  
+SINQ, [Paul Scherrer Institute](http://www.psi.ch), Switzerland: At SINQ most data files are stored in NeXus format, as of January, 5, 2009 1104153 files were collected. As PSI pioneered NeXus file writing, most files do not adhere to the newest standards for NeXus files anymore. This will be rectified as soon as more progress on application definitions has been made.  
 
 <!-- -->
 
-Neutronenquelle Heinz Maier-Leibnitz [FRM II](http://www.frm2.tum.de): Introduction of NeXuS is under discussion since long; as of 2011, NeXuS is used by zero (0) instruments.  
+Neutronenquelle Heinz Maier-Leibnitz [FRM II](http://www.frm2.tum.de), Germany: Introduction of NeXuS is under discussion since long; as of 2011, NeXuS is used by zero (0) instruments.  
 
 ### Pulsed Muon Facilities
 
