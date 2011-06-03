@@ -7,10 +7,11 @@ layout: wiki
 2011 NeXus Code Camp
 ====================
 
+![ logo for the 2011 NeXus Code
+Camp](NeXusCodeCamp2011-logo.png " logo for the 2011 NeXus Code Camp")
+
 Purpose
 -------
-
-<img src="NeXusCodeCamp2009-logo.png" title=" (needs a) logo for the 2011 NeXus Code Camp" alt=" (needs a) logo for the 2011 NeXus Code Camp" width="200" />
 
 Develop NeXus software components through intense effort by small groups
 working on specific projects and tasks. It is expected that those

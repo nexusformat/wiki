@@ -1,11 +1,11 @@
 = 2011 NeXus Code Camp =
 
+[[Image:NeXusCodeCamp2011-logo.png| logo for the 2011 NeXus Code Camp]]
+
 __TOC__
 
 
 == Purpose ==
-
-[[Image:NeXusCodeCamp2009-logo.png|200px|thumb|left| (needs a) logo for the 2011 NeXus Code Camp]]
 
 Develop NeXus software components through intense effort by small groups working on specific projects and tasks.  It is expected that those attending the 2011 NeXus Code Camp will already have strong foundation and understanding in aspects of the NeXus software and come ready with knowledge, tools, and ideas to make significant progress during the event.  The specific projects and tasks, as well as the list of participants, are described on this wiki and will be revised as the event draws near.
 
