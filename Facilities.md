@@ -4,7 +4,7 @@ permalink: Facilities/
 layout: wiki
 ---
 
-NeXuS adoption status by facility
+NeXus adoption status by facility
 ---------------------------------
 
 ### Neutron Scattering Facilities
@@ -37,7 +37,7 @@ SINQ, [Paul Scherrer Institute](http://www.psi.ch), Switzerland: At SINQ most da
 
 <!-- -->
 
-Neutronenquelle Heinz Maier-Leibnitz [FRM II](http://www.frm2.tum.de), Germany: Introduction of NeXuS is under discussion since long; as of 2011, NeXuS is used by zero (0) instruments.  
+Neutronenquelle Heinz Maier-Leibnitz [FRM II](http://www.frm2.tum.de), Germany: Introduction of NeXus is under discussion since long; as of 2011, NeXus is used by zero (0) instruments.  
 
 ### Pulsed Muon Facilities
 

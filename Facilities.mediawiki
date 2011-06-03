@@ -1,4 +1,4 @@
-==NeXuS adoption status by facility==
+==NeXus adoption status by facility==
 
 ===Neutron Scattering Facilities===
 
@@ -16,7 +16,7 @@
 
 ;SINQ, [http://www.psi.ch Paul Scherrer Institute], Switzerland: At SINQ most data files are stored in NeXus format, as of January, 5, 2009 1104153 files were collected. As PSI pioneered NeXus file writing, most files do not adhere to the newest standards for NeXus files anymore. This will be rectified as soon as more progress on application definitions has been made.
 
-;Neutronenquelle Heinz Maier-Leibnitz [http://www.frm2.tum.de FRM II], Germany: Introduction of NeXuS is under discussion since long; as of 2011, NeXuS is used by zero (0) instruments.
+;Neutronenquelle Heinz Maier-Leibnitz [http://www.frm2.tum.de FRM II], Germany: Introduction of NeXus is under discussion since long; as of 2011, NeXus is used by zero (0) instruments.
 
 ===Pulsed Muon Facilities===
 
