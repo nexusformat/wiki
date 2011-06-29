@@ -46,6 +46,8 @@ These items are sorted in order of priority that they be finished. Only
 items that currently exist in the project plan are being worked on.
 
 1.  suggestions are welcome
+2.  move to using 1.8 version of HDF5 API (would allow HDF5 transparent
+    external linking)
 
 ### Schedule
 
