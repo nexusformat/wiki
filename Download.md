@@ -26,9 +26,11 @@ information:
 
 -   <http://www.hdfgroup.org/>
 
-The NeXus API also supports
-
-`       using XML as the underlying on-disk format. This uses the Mini-XML library, developed by Michael Sweet, which is also available as a precompiled binary library for several operating systems. Please ensure that you install version 2.2.2 or later. Check the Mini-XML web pages for more information:`
+The NeXus API also supports using XML as the underlying on-disk format.
+This uses the Mini-XML library, developed by Michael Sweet, which is
+also available as a precompiled binary library for several operating
+systems. Please ensure that you install version 2.2.2 or later. Check
+the Mini-XML web pages for more information:
 
 -   <http://www.minixml.org/>
 
