@@ -157,6 +157,20 @@ can be installed with
 -   Information on the NeXus Code
     [SubversionServer](SubversionServer "wikilink")
 
+### Linux DEB Distribution Kits
+
+A native Debian package is being prepared to provide out of the box
+support on Debian distributions. This process takes a bit of time, the
+acceptance requires manual inspection by a number of experts to ensure
+packaging, coding and licensing standards.
+
+In the mean time there is a [NeXus Personal Package Archive (PPA) for
+Ubuntu Natty Narwal](https://launchpad.net/~tsr-ubuntu/+archive/nexus)
+(11.04) available. If you need packages for a different version or DEB
+based distribution could compile that using the packaging source in the
+PPA. Or you can kindly ask on the [mailing
+list](http://download.nexusformat.org/doc/html/MailingLists.html).
+
 ### Microsoft Windows Install Kit
 
 [Windows Installer kits for
