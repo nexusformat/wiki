@@ -30,7 +30,7 @@ See previous NeXus Code Camps:
 Dates
 -----
 
--   October 2011 (specific dates TBA)
+-   2011 October 20-22 (Thursday - Saturday)
 
 Agenda
 ------
@@ -51,12 +51,12 @@ items that currently exist in the project plan are being worked on.
 
 ### Schedule
 
--   arrive the previous day (day0)
--   conference check-in first morning (day1)
--   meet all day (day1)
--   meet all day (day2)
--   meet all day (day3)
--   checkout next day (day4)
+-   arrive the previous day (Wednesday, 2011-10-19)
+-   conference check-in first morning (Thursday, 2011-10-20)
+-   meet all day (Thursday)
+-   meet all day (Friday)
+-   meet all day (Saturday)
+-   checkout next day (Sunday, 2011-10-22)
 
 Here is the daily schedule:
 
