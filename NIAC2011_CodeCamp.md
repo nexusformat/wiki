@@ -105,8 +105,10 @@ Argonne, IL 60439
 Phone: 800-632-8990 or 630-739-6000  
 Fax: 630-739-1000
 
-Please reserve your own rooms directly with the hotel (website, phone,
-...)
+Please reserve your own rooms directly with the hotel:
+
+Web site: <http://www.anlgh.org/>  
+telephone: +1-800-632-8990, +1-630-739-6000  
 
 ### Directions and Maps
 
