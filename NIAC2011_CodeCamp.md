@@ -52,11 +52,13 @@ items that currently exist in the project plan are being worked on.
 ### Schedule
 
 -   arrive the previous day (Wednesday, 2011-10-19)
--   conference check-in first morning (Thursday, 2011-10-20)
--   meet all day (Thursday)
--   meet all day (Friday)
--   meet all day (Saturday)
+-   conference check-in first morning (Thursday, 2011-10-20), 401-B4100
+-   meet all day (Thursday), 401-B4100
+-   meet all day (Friday), 401-B4100
+-   meet all day (Saturday), 401-B4100
 -   checkout next day (Sunday, 2011-10-22)
+
+Meeting room is Building 401, Room B4100
 
 Here is the daily schedule:
 
