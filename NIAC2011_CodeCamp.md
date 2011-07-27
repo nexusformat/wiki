@@ -151,9 +151,9 @@ map link: <http://maps.google.com/maps?q=Argonne+Guest+House&hl=en&ll=41.708228,
 -   Expect hotel rate to be US$\#\#\# (approximate, subject to change)
     -   Please reserve your own rooms directly with the hotel (website,
         phone, ...)
--   Conference fee:  
-    -   food at morning and afternoon breaks
-    -   perhaps a small meeting souvenir
+-   Conference fee: no fee
+    -   food at morning and afternoon breaks will be provided
+    -   perhaps (no guarantee) a small meeting souvenir
 -   regular meals (breakfast, lunch, dinner) will be traveler's expense
 
 ### Equipment
