@@ -86,11 +86,16 @@ Notes:
 
 == Practical Matters ==
 
-=== Passport, Visa, and ANL Site Access ===
+=== Registration ===
 
-You must settle this in advance or you should not expect access to the ANL site.  Register with the APS as a visitor to start the process.
+;Step 1: Register with the APS as a visitor to start the process. 
+;Step 2: Send an email to jemian@anl.gov announcing your plan to attend.
 
-;Visitor registration: https://www.aps.anl.gov/About/Visiting/visitor_registration.php
+==== APS Visitor registration ====
+
+;web site: https://www.aps.anl.gov/About/Visiting/visitor_registration.php
+
+You must register as an APS Visitor in advance (to identify matters related to Passport, Visa, and ANL Site Access) or you should not expect access to the ANL site. 
 
 For the paperwork of all international visitors, we need each degree, year earned, and institution name.  Additionally for certain visas, we need additional information:
 
