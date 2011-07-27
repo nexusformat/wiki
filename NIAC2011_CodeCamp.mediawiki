@@ -88,11 +88,11 @@ Notes:
 
 === Passport, Visa, and ANL Site Access ===
 
-You must settle this in advance or you should not expect access to the ANL site.
+You must settle this in advance or you should not expect access to the ANL site.  Register with the APS as a visitor to start the process.
 
-Visitor registration url: https://www.aps.anl.gov/About/Visiting/visitor_registration.php
+;Visitor registration: https://www.aps.anl.gov/About/Visiting/visitor_registration.php
 
-For the paperwork, we need each degree, year earned, and institution name.  Additionally for certain visas, we need additional information:
+For the paperwork of all international visitors, we need each degree, year earned, and institution name.  Additionally for certain visas, we need additional information:
 
 ;F1 visa: we need the I-20 number and expiration date.
 ;J1 visa: we need the DS-2019 number and expiry date.
