@@ -83,8 +83,18 @@ Practical Matters
 
 ### Passport, Visa, and ANL Site Access
 
-These matters will be described shortly. You must settle this in advance
-or you should not expect access to the ANL site.
+You must settle this in advance or you should not expect access to the
+ANL site.
+
+Visitor registration url:
+<https://www.aps.anl.gov/About/Visiting/visitor_registration.php>
+
+For the paperwork, we need each degree, year earned, and institution
+name. Additionally for certain visas, we need additional information:
+
+F1 visa: we need the I-20 number and expiration date.  
+J1 visa: we need the DS-2019 number and expiry date.  
+H1 visa: we need the I797 number and expiry date.  
 
 ### Venue
 
