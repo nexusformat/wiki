@@ -56,7 +56,7 @@ items that currently exist in the project plan are being worked on.
 -   meet all day (Thursday), 401-B4100
 -   meet all day (Friday), 401-B4100
 -   meet all day (Saturday), 401-B4100
--   checkout next day (Sunday, 2011-10-22)
+-   checkout next day (Sunday, 2011-10-23)
 
 Meeting room is Building 401, Room B4100
 
