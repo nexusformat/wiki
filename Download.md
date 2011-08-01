@@ -159,9 +159,10 @@ can be installed with
 
 ### Linux DEB Distribution Kits
 
-Nexus packages are available for Debian unstable (sid) out of the box.
-The package will migrate to testing soon. Therefore many dependent
-distributions will pick up that package in due course as well.
+Nexus packages are available for Debian unstable (sid) [out of the
+box](http://packages.debian.org/source/sid/nexus). The package will
+migrate to testing soon. Therefore many dependent distributions will
+pick up that package in due course as well.
 
 In the mean time there is a [NeXus Personal Package Archive (PPA) for
 recent Ubuntu
