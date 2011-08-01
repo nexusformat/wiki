@@ -159,17 +159,13 @@ can be installed with
 
 ### Linux DEB Distribution Kits
 
-A native Debian package is being prepared to provide out of the box
-support on Debian distributions. This process takes a bit of time, the
-acceptance requires manual inspection by a number of experts to ensure
-packaging, coding and licensing standards.
+Nexus packages are available for Debian unstable (sid) out of the box.
+The package will migrate to testing soon. Therefore many dependent
+distributions will pick up that package in due course as well.
 
 In the mean time there is a [NeXus Personal Package Archive (PPA) for
-Ubuntu](https://launchpad.net/~tsr-ubuntu/+archive/nexus) available. If
-you need packages for a different Debian based distribution (like Debian
-itself) you could compile that using the packaging source in the PPA. Or
-you can kindly ask on the [mailing
-list](http://download.nexusformat.org/doc/html/MailingLists.html).
+recent Ubuntu
+versions](https://launchpad.net/~tsr-ubuntu/+archive/nexus) available.
 
 ### Microsoft Windows Install Kit
 
