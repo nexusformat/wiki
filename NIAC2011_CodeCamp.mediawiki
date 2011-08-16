@@ -185,11 +185,19 @@ Please reserve your own rooms directly with the hotel:
 
 {| border="1"
 |-
-! participant || affiliation || arriving || departing || fees paid?
+! participant || affiliation || arriving || departing || registration? || ANL gate pass?
 |-
 | [[User:Pete Jemian|Pete Jemian]]
 | align="center" | [http://www.aps.anl.gov APS]
 | align="center" | &nbsp;
 | align="center" | &nbsp;
+| align="center" | n/a
+| align="center" | yes
+|-
+| [[User:Pete Jemian|Mark Koennecke]]
+| align="center" | PSI
 | align="center" | &nbsp;
+| align="center" | &nbsp;
+| align="center" | complete
+| align="center" | yes
 |}

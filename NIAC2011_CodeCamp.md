@@ -170,8 +170,9 @@ map link: <http://maps.google.com/maps?q=Argonne+Guest+House&hl=en&ll=41.708228,
 
 ### Participants
 
-| participant                                  | affiliation                   | arriving | departing | fees paid? |
-|----------------------------------------------|-------------------------------|----------|-----------|------------|
-| [Pete Jemian](User%3APete_Jemian "wikilink") | [APS](http://www.aps.anl.gov) |          |           |            |
+| participant                                     | affiliation                   | arriving | departing | registration? | ANL gate pass? |
+|-------------------------------------------------|-------------------------------|----------|-----------|---------------|----------------|
+| [Pete Jemian](User%3APete_Jemian "wikilink")    | [APS](http://www.aps.anl.gov) |          |           | n/a           | yes            |
+| [Mark Koennecke](User%3APete_Jemian "wikilink") | PSI                           |          |           | complete      | yes            |
 
 
