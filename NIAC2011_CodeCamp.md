@@ -44,10 +44,16 @@ items that currently exist in the project plan are being worked on.
 
 1.  move to using 1.8 version of **HDF5** API (would allow HDF5
     transparent external linking)
-2.  presentation about **cmake** (Freddie Akeroyd or Pete Peterson)
-3.  about **sphinx** for documentation (Pete Jemian)
-4.  about **parallel HDF** (Mark Koennecke, anyone else with more
+2.  
+
+### Presentations
+
+1.  presentation about **cmake** (Freddie Akeroyd or Pete Peterson)
+2.  about **sphinx** for documentation (Pete Jemian)
+3.  about **parallel HDF** (Mark Koennecke, anyone else with more
     experience?)
+4.  assessment of work to migrate from HDF 1.6 to HDF 1.8 (Freddie
+    Akeroyd)
 5.  ...
 
 ### Schedule
