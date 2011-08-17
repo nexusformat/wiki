@@ -4,9 +4,6 @@ permalink: NIAC2011_CodeCamp/
 layout: wiki
 ---
 
-NIAC2011 NeXus Code Camp
-========================
-
 ![ logo for the 2011 NeXus Code
 Camp](NeXusCodeCamp2011-logo.png " logo for the 2011 NeXus Code Camp")
 

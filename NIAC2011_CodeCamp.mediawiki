@@ -1,4 +1,3 @@
-= NIAC2011 NeXus Code Camp =
 
 [[Image:NeXusCodeCamp2011-logo.png| logo for the 2011 NeXus Code Camp]]
 
