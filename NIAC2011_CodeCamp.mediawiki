@@ -26,11 +26,11 @@ Since this is not to be a meeting of the full NIAC, no business matters can be r
 
 These items are sorted in order of priority that they be finished. Only items that currently exist in the project plan are being worked on.
 
-# suggestions are welcome
-# move to using 1.8 version of HDF5 API (would allow HDF5 transparent external linking)
-# about cmake
-# about sphinx
-# about parallel HDF
+# move to using 1.8 version of '''HDF5''' API (would allow HDF5 transparent external linking)
+# presentation about '''cmake''' (Freddie Akeroyd or Pete Peterson)
+# about '''sphinx''' for documentation (Pete Jemian)
+# about '''parallel HDF''' (Mark Koennecke, anyone else with more experience?)
+# ...
 
 === Schedule ===
 
