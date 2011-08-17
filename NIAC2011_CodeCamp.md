@@ -44,7 +44,7 @@ items that currently exist in the project plan are being worked on.
 
 1.  move to using 1.8 version of **HDF5** API (would allow HDF5
     transparent external linking)
-2.  
+2.  discuss axes for multi dimensional scans
 
 ### Presentations
 
