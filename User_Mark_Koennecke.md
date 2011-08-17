@@ -7,7 +7,7 @@ layout: wiki
 Mark Koennecke
 --------------
 
-### Representative of SINQ at the Paul Scherrer Institue at the NeXus International Advisory Committee
+### Representative of SINQ at the Paul Scherrer Institute at the NeXus International Advisory Committee
 
 Address:SINQ  
 Paul Scherrer Institut
