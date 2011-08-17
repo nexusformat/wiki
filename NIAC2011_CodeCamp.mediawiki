@@ -28,6 +28,9 @@ These items are sorted in order of priority that they be finished. Only items th
 
 # suggestions are welcome
 # move to using 1.8 version of HDF5 API (would allow HDF5 transparent external linking)
+# about cmake
+# about sphinx
+# about parallel HDF
 
 === Schedule ===
 

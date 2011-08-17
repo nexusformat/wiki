@@ -45,6 +45,9 @@ items that currently exist in the project plan are being worked on.
 1.  suggestions are welcome
 2.  move to using 1.8 version of HDF5 API (would allow HDF5 transparent
     external linking)
+3.  about cmake
+4.  about sphinx
+5.  about parallel HDF
 
 ### Schedule
 
