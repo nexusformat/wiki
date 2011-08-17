@@ -1,4 +1,4 @@
-= 2011 NeXus Code Camp =
+= NIAC2011 NeXus Code Camp =
 
 [[Image:NeXusCodeCamp2011-logo.png| logo for the 2011 NeXus Code Camp]]
 
@@ -189,15 +189,22 @@ Please reserve your own rooms directly with the hotel:
 |-
 | [[User:Pete Jemian|Pete Jemian]]
 | align="center" | [http://www.aps.anl.gov APS]
-| align="center" | &nbsp;
-| align="center" | &nbsp;
-| align="center" | n/a
+| align="center" | host
+| align="center" | host
+| align="center" | host
+| align="center" | host
+|-
+| [[User:Mark Koennecke|Mark Könnecke]]
+| align="center" | [http://sinq.web.psi.ch/ PSI]
+| align="center" | 2011-10-18
+| align="center" | 2011-10-24
+| align="center" | complete
 | align="center" | yes
 |-
-| [[User:Pete Jemian|Mark Koennecke]]
-| align="center" | PSI
-| align="center" | &nbsp;
-| align="center" | &nbsp;
+| [[User:Tobias Richter|Tobias Richter]]
+| align="center" | [http://www.diamond.ac.uk/ Diamond]
+| align="center" | 2011-10-19
+| align="center" | 2011-10-25
 | align="center" | complete
 | align="center" | yes
 |}

@@ -4,8 +4,8 @@ permalink: NIAC2011_CodeCamp/
 layout: wiki
 ---
 
-2011 NeXus Code Camp
-====================
+NIAC2011 NeXus Code Camp
+========================
 
 ![ logo for the 2011 NeXus Code
 Camp](NeXusCodeCamp2011-logo.png " logo for the 2011 NeXus Code Camp")
@@ -170,9 +170,10 @@ map link: <http://maps.google.com/maps?q=Argonne+Guest+House&hl=en&ll=41.708228,
 
 ### Participants
 
-| participant                                     | affiliation                   | arriving | departing | registration? | ANL gate pass? |
-|-------------------------------------------------|-------------------------------|----------|-----------|---------------|----------------|
-| [Pete Jemian](User%3APete_Jemian "wikilink")    | [APS](http://www.aps.anl.gov) |          |           | n/a           | yes            |
-| [Mark Koennecke](User%3APete_Jemian "wikilink") | PSI                           |          |           | complete      | yes            |
+| participant                                        | affiliation                          | arriving   | departing  | registration? | ANL gate pass? |
+|----------------------------------------------------|--------------------------------------|------------|------------|---------------|----------------|
+| [Pete Jemian](User%3APete_Jemian "wikilink")       | [APS](http://www.aps.anl.gov)        | host       | host       | host          | host           |
+| [Mark Könnecke](User%3AMark_Koennecke "wikilink")  | [PSI](http://sinq.web.psi.ch/)       | 2011-10-18 | 2011-10-24 | complete      | yes            |
+| [Tobias Richter](User%3ATobias_Richter "wikilink") | [Diamond](http://www.diamond.ac.uk/) | 2011-10-19 | 2011-10-25 | complete      | yes            |
 
 
