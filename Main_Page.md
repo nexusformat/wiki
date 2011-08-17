@@ -25,18 +25,6 @@ Note: (2010-10-21) links revised to ***new documentation***
 
 :\* APS on October, 2011 - [NIAC'2011](NIAC2011_CodeCamp "wikilink")
 
-:\* ORNL on October, 2010 - [NIAC'2010](NIAC2010 "wikilink")
-
-:\* APS on October 16-18, 2009 - [NIAC'2009](NIAC2009 "wikilink")
-
-:\* ANSTO on October 30-31, 2008 - [NIAC'2008](NIAC2008 "wikilink")
-
-:\* HMI on September 24-26, 2007 - [NIAC'2007](NIAC2007 "wikilink")
-
-:\* LBL on October 5-6, 2006. - [NIAC'2006-2](NIAC2006LBL "wikilink")
-
-:\* ILL on February 1-3, 2006 - [NIAC'2006](NIAC2006ILL "wikilink")
-
 [Facilities](Facilities "wikilink"):Facilities currently using, or intending to use, NeXus and their future plans for the format.  
 [Latest News](Latest_News "wikilink"):Recent news and developments concerning the NeXus format.  
 [NeXus Downloads](Download "wikilink"):Download NeXus library and applications  
