@@ -34,8 +34,8 @@ These items are sorted in order of priority that they be finished. Only items th
 # about '''sphinx''' for documentation (Pete Jemian)
 # about '''parallel HDF''' (Mark Koennecke, anyone else with more experience?)
 # assessment of work to migrate from HDF 1.6 to HDF 1.8 (Freddie Akeroyd)
+# public talk: The Current State of NeXus
 # ...
-
 
 === Schedule ===
 

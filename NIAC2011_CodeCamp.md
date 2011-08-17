@@ -54,7 +54,8 @@ items that currently exist in the project plan are being worked on.
     experience?)
 4.  assessment of work to migrate from HDF 1.6 to HDF 1.8 (Freddie
     Akeroyd)
-5.  ...
+5.  public talk: The Current State of NeXus
+6.  ...
 
 ### Schedule
 
