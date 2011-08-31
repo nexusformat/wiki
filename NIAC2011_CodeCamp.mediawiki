@@ -26,7 +26,18 @@ Since this is not to be a meeting of the full NIAC, no business matters can be r
 These items are sorted in order of priority that they be finished. Only items that currently exist in the project plan are being worked on.
 
 # move to using 1.8 version of '''HDF5''' API (would allow HDF5 transparent external linking)
+# NXclonehandle
+# PyTree API
 # discuss axes for multi dimensional scans
+# discuss axis dependency encoding
+# discuss and decide switch to CMake for building NeXus
+# discuss and decide on the use of sphinx for documentation
+# Design NXdict replacement based on NXDL
+# Improve nxvalidate
+# Link NeXus WWW-site with docbook manual
+# A Fedora installer
+# Discuss and write NeXus for the Impatient
+# Cleanup NeXus applications
 
 === Presentations ===
 

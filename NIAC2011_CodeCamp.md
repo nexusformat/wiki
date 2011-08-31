@@ -44,7 +44,18 @@ items that currently exist in the project plan are being worked on.
 
 1.  move to using 1.8 version of **HDF5** API (would allow HDF5
     transparent external linking)
-2.  discuss axes for multi dimensional scans
+2.  NXclonehandle
+3.  PyTree API
+4.  discuss axes for multi dimensional scans
+5.  discuss axis dependency encoding
+6.  discuss and decide switch to CMake for building NeXus
+7.  discuss and decide on the use of sphinx for documentation
+8.  Design NXdict replacement based on NXDL
+9.  Improve nxvalidate
+10. Link NeXus WWW-site with docbook manual
+11. A Fedora installer
+12. Discuss and write NeXus for the Impatient
+13. Cleanup NeXus applications
 
 ### Presentations
 
