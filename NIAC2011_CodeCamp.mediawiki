@@ -231,7 +231,7 @@ Please reserve your own rooms directly with the hotel:
 | align="center" | 2011-10-19
 | align="center" | 2011-10-23
 | align="center" | complete
-| align="center" | tba
+| align="center" | complete
 |-
 | [[User:Eugenwintersberger|Eugen Wintersberger]]
 | align="center" | [http://www.desy.de/ DESY]
