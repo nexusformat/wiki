@@ -197,5 +197,6 @@ map link: <http://maps.google.com/maps?q=Argonne+Guest+House&hl=en&ll=41.708228,
 | [Tobias Richter](User%3ATobias_Richter "wikilink")          | [Diamond](http://www.diamond.ac.uk/) | 2011-10-19 | 2011-10-25 | complete      | yes            |
 | [Stuart Campbell](User%3AStuart_Campbell "wikilink")        | [SNS](http://neutrons.ornl.gov/)     | 2011-10-19 | 2011-10-23 | complete      | complete       |
 | [Eugen Wintersberger](User%3AEugenwintersberger "wikilink") | [DESY](http://www.desy.de/)          | tba        | tba        | tba           | tba            |
+| [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink")        | [ISIS](http://www.isis.stfc.ac.uk/)  | tbc        | tbc        | tbc           | tbc            |
 
 

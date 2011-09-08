@@ -239,4 +239,11 @@ Please reserve your own rooms directly with the hotel:
 | align="center" | tba
 | align="center" | tba
 | align="center" | tba
+|-
+| [[User:Freddie Akeroyd|Freddie Akeroyd]]
+| align="center" | [http://www.isis.stfc.ac.uk/ ISIS]
+| align="center" | tbc
+| align="center" | tbc
+| align="center" | tbc
+| align="center" | tbc
 |}
