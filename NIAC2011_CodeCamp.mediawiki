@@ -251,6 +251,6 @@ Please reserve your own rooms directly with the hotel:
 | align="center" | [http://neutrons.ornl.gov/ SNS]
 | align="center" | 2011-10-19
 | align="center" | 2011-10-22
-| align="center" | n/a
+| align="center" | complete
 | align="center" | yes
 |}
