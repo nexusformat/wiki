@@ -198,5 +198,6 @@ map link: <http://maps.google.com/maps?q=Argonne+Guest+House&hl=en&ll=41.708228,
 | [Stuart Campbell](User%3AStuart_Campbell "wikilink")        | [SNS](http://neutrons.ornl.gov/)     | 2011-10-19 | 2011-10-23 | complete      | yes            |
 | [Eugen Wintersberger](User%3AEugenwintersberger "wikilink") | [DESY](http://www.desy.de/)          | 2011-10-19 | 2011-10-23 | complete      | tba            |
 | [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink")        | [ISIS](http://www.isis.stfc.ac.uk/)  | 2011-10-19 | 2011-10-23 | complete      | tbc            |
+| [Peter Peterson](User%3APeter_Peterson "wikilink")          | [SNS](http://neutrons.ornl.gov/)     | 2011-10-19 | 2011-10-22 | n/a           | yes            |
 
 

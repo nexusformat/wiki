@@ -246,4 +246,11 @@ Please reserve your own rooms directly with the hotel:
 | align="center" | 2011-10-23
 | align="center" | complete
 | align="center" | tbc
+|-
+| [[User:Peter Peterson|Peter Peterson]]
+| align="center" | [http://neutrons.ornl.gov/ SNS]
+| align="center" | 2011-10-19
+| align="center" | 2011-10-22
+| align="center" | n/a
+| align="center" | yes
 |}
