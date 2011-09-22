@@ -226,13 +226,6 @@ Please reserve your own rooms directly with the hotel:
 | align="center" | complete
 | align="center" | yes
 |-
-| [[User:Stuart Campbell|Stuart Campbell]]
-| align="center" | [http://neutrons.ornl.gov/ SNS]
-| align="center" | 2011-10-19
-| align="center" | 2011-10-23
-| align="center" | complete
-| align="center" | yes
-|-
 | [[User:Eugenwintersberger|Eugen Wintersberger]]
 | align="center" | [http://www.desy.de/ DESY]
 | align="center" | 2011-10-19
