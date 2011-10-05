@@ -195,8 +195,8 @@ map link: <http://maps.google.com/maps?q=Argonne+Guest+House&hl=en&ll=41.708228,
 | [Pete Jemian](User%3APete_Jemian "wikilink")                | [APS](http://www.aps.anl.gov)        | host       | host       | host          | host           |
 | [Mark Könnecke](User%3AMark_Koennecke "wikilink")           | [PSI](http://sinq.web.psi.ch/)       | 2011-10-18 | 2011-10-24 | complete      | yes            |
 | [Tobias Richter](User%3ATobias_Richter "wikilink")          | [Diamond](http://www.diamond.ac.uk/) | 2011-10-19 | 2011-10-25 | complete      | yes            |
-| [Eugen Wintersberger](User%3AEugenwintersberger "wikilink") | [DESY](http://www.desy.de/)          | 2011-10-19 | 2011-10-23 | complete      | complete       |
-| [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink")        | [ISIS](http://www.isis.stfc.ac.uk/)  | 2011-10-19 | 2011-10-23 | complete      | complete       |
+| [Eugen Wintersberger](User%3AEugenwintersberger "wikilink") | [DESY](http://www.desy.de/)          | 2011-10-19 | 2011-10-23 | complete      | yes            |
+| [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink")        | [ISIS](http://www.isis.stfc.ac.uk/)  | 2011-10-19 | 2011-10-23 | complete      | yes            |
 | [Peter Peterson](User%3APeter_Peterson "wikilink")          | [SNS](http://neutrons.ornl.gov/)     | 2011-10-19 | 2011-10-22 | complete      | yes            |
 
 
