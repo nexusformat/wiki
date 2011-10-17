@@ -39,6 +39,11 @@ These items are sorted in order of priority that they be finished. Only items th
 # Discuss and write NeXus for the Impatient
 # Cleanup NeXus applications
 
+=== Other Tasks ===
+Items not currently on the project plan, but have arisen recently:
+# support for more than one unlimited array dimension (http://trac.nexusformat.org/code/ticket/258)
+# support larger dataset dimensions (currently dimensions are "int" so overflow at > 2^31 elements)
+
 === Presentations ===
 
 # presentation about '''cmake''' (Freddie Akeroyd or Pete Peterson)
