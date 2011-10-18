@@ -247,7 +247,8 @@ map link: <http://maps.google.com/maps?q=Argonne+Guest+House&hl=en&ll=41.708228,
 | foreign electrical power adapter                 | as needed  | traveler      |
 | Wi-Fi connections                                | sufficient | hotel         |
 
-### Participants
+Participants
+------------
 
 | participant                                                 | affiliation                          | arriving   | departing  | registration? | ANL gate pass? |
 |-------------------------------------------------------------|--------------------------------------|------------|------------|---------------|----------------|

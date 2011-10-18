@@ -330,7 +330,7 @@ Please reserve your own rooms directly with the hotel:
 | align="center" | hotel
 |}
 
-=== Participants ===
+== Participants ==
 
 {| border="1"
 |-
