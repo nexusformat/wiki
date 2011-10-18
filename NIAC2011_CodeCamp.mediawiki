@@ -20,7 +20,7 @@ See previous NeXus Code Camps:
 
 Meeting room is Building 401, Room B2100
 
-Thursday, 2011 October 20
+=== Thursday, 2011 October 20 ===
 
 {| border="1"
 |-
@@ -39,8 +39,8 @@ Thursday, 2011 October 20
 | align="center" | work on projects and tasks
 |-
 | 12:00  - 1:15 PM
-| align="center" | (*) working lunch: '''Comparison of APS Data_Exchange+HDF5 for Tomography with NeXus+HDF5'''
-| align="center" | onsite, B2100, hosted by APS, 401/B2100
+| align="center" | '''Comparison of APS Data_Exchange+HDF5 for Tomography with NeXus+HDF5'''
+| align="center" | (*) working lunch onsite, hosted by APS, 401/B2100
 |-
 | 1:15 - 3:15 PM
 | align="center" | meeting
@@ -64,7 +64,7 @@ Thursday, 2011 October 20
 * Mark Koennecke, PSI (NeXus, chairman of NIAC)
 
 
-Friday, 2011 October 21
+=== Friday, 2011 October 21 ===
 
 {| border="1"
 |-
@@ -79,8 +79,8 @@ Friday, 2011 October 21
 | align="center" | (included)
 |-
 | 10:30 AM - 11:30 PM
-| align="center" | public talk: '''The Current State of NeXus'''
-| align="center" | work on projects and tasks, 401/A1100
+| align="center" | '''The Current State of NeXus'''
+| align="center" | public talk, 401/A1100
 |-
 | 12:00  - 1:15 PM
 | align="center" | lunch
@@ -103,7 +103,7 @@ Friday, 2011 October 21
 | align="center" | daily summary (plenary)
 |}
 
-Saturday, 2011 October 22
+=== Saturday, 2011 October 22 ===
 
 {| border="1"
 |-

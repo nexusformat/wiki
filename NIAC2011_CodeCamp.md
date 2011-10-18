@@ -34,38 +34,38 @@ Daily Agenda
 
 Meeting room is Building 401, Room B2100
 
-Thursday, 2011 October 20
+### Thursday, 2011 October 20
 
-| time                | description                                                                                  | comments                                |
-|---------------------|----------------------------------------------------------------------------------------------|-----------------------------------------|
-| 9:00 - 10:15 AM     | meeting                                                                                      | organize slate of projects and tasks    |
-| 10:15 - 10:45 AM    | morning break                                                                                | (included)                              |
-| 10:45 AM - 12:00 PM | meeting                                                                                      | work on projects and tasks              |
-| 12:00 - 1:15 PM     | (\*) working lunch: **Comparison of APS Data\_Exchange+HDF5 for Tomography with NeXus+HDF5** | onsite, B2100, hosted by APS, 401/B2100 |
-| 1:15 - 3:15 PM      | meeting                                                                                      | work on projects and tasks              |
-| 3:15 - 3:30 PM      | afternoon break                                                                              | (included)                              |
-| 3:30 - 5:00 PM      | meeting                                                                                      | work on projects and tasks              |
-| 5:00 - 6:00 PM      | meeting                                                                                      | daily summary (plenary)                 |
+| time                | description                                                              | comments                                            |
+|---------------------|--------------------------------------------------------------------------|-----------------------------------------------------|
+| 9:00 - 10:15 AM     | meeting                                                                  | organize slate of projects and tasks                |
+| 10:15 - 10:45 AM    | morning break                                                            | (included)                                          |
+| 10:45 AM - 12:00 PM | meeting                                                                  | work on projects and tasks                          |
+| 12:00 - 1:15 PM     | **Comparison of APS Data\_Exchange+HDF5 for Tomography with NeXus+HDF5** | (\*) working lunch onsite, hosted by APS, 401/B2100 |
+| 1:15 - 3:15 PM      | meeting                                                                  | work on projects and tasks                          |
+| 3:15 - 3:30 PM      | afternoon break                                                          | (included)                                          |
+| 3:30 - 5:00 PM      | meeting                                                                  | work on projects and tasks                          |
+| 5:00 - 6:00 PM      | meeting                                                                  | daily summary (plenary)                             |
 
 (\*) speakers include:
 
 -   Chris Jacobsen, APS (scientific lead, APS Data Exchange format)
 -   Mark Koennecke, PSI (NeXus, chairman of NIAC)
 
-Friday, 2011 October 21
+### Friday, 2011 October 21
 
-| time                | description                                 | comments                              |
-|---------------------|---------------------------------------------|---------------------------------------|
-| 9:00 - 10:15 AM     | meeting                                     | work on projects and tasks            |
-| 10:00 - 10:30 AM    | morning break                               | (included)                            |
-| 10:30 AM - 11:30 PM | public talk: **The Current State of NeXus** | work on projects and tasks, 401/A1100 |
-| 12:00 - 1:15 PM     | lunch                                       | offsite, traveler's expense           |
-| 1:15 - 3:15 PM      | meeting                                     | work on projects and tasks            |
-| 3:15 - 3:30 PM      | afternoon break                             | (included)                            |
-| 3:30 - 5:00 PM      | meeting                                     | work on projects and tasks            |
-| 5:00 - 6:00 PM      | meeting                                     | daily summary (plenary)               |
+| time                | description                    | comments                    |
+|---------------------|--------------------------------|-----------------------------|
+| 9:00 - 10:15 AM     | meeting                        | work on projects and tasks  |
+| 10:00 - 10:30 AM    | morning break                  | (included)                  |
+| 10:30 AM - 11:30 PM | **The Current State of NeXus** | public talk, 401/A1100      |
+| 12:00 - 1:15 PM     | lunch                          | offsite, traveler's expense |
+| 1:15 - 3:15 PM      | meeting                        | work on projects and tasks  |
+| 3:15 - 3:30 PM      | afternoon break                | (included)                  |
+| 3:30 - 5:00 PM      | meeting                        | work on projects and tasks  |
+| 5:00 - 6:00 PM      | meeting                        | daily summary (plenary)     |
 
-Saturday, 2011 October 22
+### Saturday, 2011 October 22
 
 | time                | description     | comments                    |
 |---------------------|-----------------|-----------------------------|
