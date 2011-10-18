@@ -258,7 +258,7 @@ Participants
 | [Eugen Wintersberger](User%3AEugenwintersberger "wikilink") | [DESY](http://www.desy.de/)          | 2011-10-19 | 2011-10-23 | complete      | yes            |
 | [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink")        | [ISIS](http://www.isis.stfc.ac.uk/)  | 2011-10-19 | 2011-10-23 | complete      | yes            |
 | [Peter Peterson](User%3APeter_Peterson "wikilink")          | [SNS](http://neutrons.ornl.gov/)     | 2011-10-19 | 2011-10-22 | complete      | yes            |
-| [Ray Osborn](User%3ARay_Osborn "wikilink")                  | [MSD/ANL](http://msd.anl.gov/)       | 2011-10-19 | 2011-10-22 | N/A           | yes            |
+| [Ray Osborn](User%3ARay_Osborn "wikilink")                  | [MSD/ANL](http://msd.anl.gov/)       | 2011-10-20 | 2011-10-22 | N/A           | yes            |
 ||
 
 
