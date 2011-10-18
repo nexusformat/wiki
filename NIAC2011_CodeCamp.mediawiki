@@ -15,7 +15,134 @@ See previous NeXus Code Camps:
 
 * 2011 October 20-22 (Thursday - Saturday)
 
-== Agenda ==
+== Daily Agenda ==
+
+
+Meeting room is Building 401, Room B2100
+
+Thursday, 2011 October 20
+
+{| border="1"
+|-
+! time || description || comments
+|-
+| 9:00 - 10:15 AM
+| align="center" | meeting
+| align="center" | organize slate of projects and tasks
+|-
+| 10:15 - 10:45 AM
+| align="center" | morning break
+| align="center" | (included)
+|-
+| 10:45 AM - 12:00 PM
+| align="center" | meeting
+| align="center" | work on projects and tasks
+|-
+| 12:00  - 1:15 PM
+| align="center" | (*) working lunch: '''Comparison of APS Data_Exchange+HDF5 for Tomography with NeXus+HDF5'''
+| align="center" | onsite, B2100, hosted by APS, 401/B2100
+|-
+| 1:15 - 3:15 PM
+| align="center" | meeting
+| align="center" | work on projects and tasks
+|-
+| 3:15 - 3:30 PM
+| align="center" | afternoon break
+| align="center" | (included)
+|-
+| 3:30 - 5:00 PM
+| align="center" | meeting
+| align="center" | work on projects and tasks
+|-
+| 5:00 - 6:00 PM
+| align="center" | meeting
+| align="center" | daily summary (plenary)
+|}
+
+(*) speakers include:
+* Chris Jacobsen, APS (scientific lead, APS Data Exchange format)
+* Mark Koennecke, PSI (NeXus, chairman of NIAC)
+
+
+Friday, 2011 October 21
+
+{| border="1"
+|-
+! time || description || comments
+|-
+| 9:00 - 10:15 AM
+| align="center" | meeting
+| align="center" | work on projects and tasks
+|-
+| 10:00 - 10:30 AM
+| align="center" | morning break
+| align="center" | (included)
+|-
+| 10:30 AM - 11:30 PM
+| align="center" | public talk: '''The Current State of NeXus'''
+| align="center" | work on projects and tasks, 401/A1100
+|-
+| 12:00  - 1:15 PM
+| align="center" | lunch
+| align="center" | offsite, traveler's expense
+|-
+| 1:15 - 3:15 PM
+| align="center" | meeting
+| align="center" | work on projects and tasks
+|-
+| 3:15 - 3:30 PM
+| align="center" | afternoon break
+| align="center" | (included)
+|-
+| 3:30 - 5:00 PM
+| align="center" | meeting
+| align="center" | work on projects and tasks
+|-
+| 5:00 - 6:00 PM
+| align="center" | meeting
+| align="center" | daily summary (plenary)
+|}
+
+Saturday, 2011 October 22
+
+{| border="1"
+|-
+! time || description || comments
+|-
+| 9:00 - 10:15 AM
+| align="center" | meeting
+| align="center" | work on projects and tasks
+|-
+| 10:15 - 10:45 AM
+| align="center" | morning break
+| align="center" | (included)
+|-
+| 10:45 AM - 12:00 PM
+| align="center" | meeting
+| align="center" | work on projects and tasks
+|-
+| 12:00  - 1:15 PM
+| align="center" | lunch
+| align="center" | offsite, traveler's expense
+|-
+| 1:15 - 3:15 PM
+| align="center" | meeting
+| align="center" | work on projects and tasks
+|-
+| 3:15 - 3:30 PM
+| align="center" | afternoon break
+| align="center" | (included)
+|-
+| 3:30 - 5:00 PM
+| align="center" | meeting
+| align="center" | work on projects and tasks
+|-
+| 5:00 - 6:00 PM
+| align="center" | meeting
+| align="center" | Code Camp wrap-up (plenary)
+|}
+
+== Planning ==
 
 === Business Matters ===
 
@@ -64,7 +191,7 @@ Items not currently on the project plan, but have arisen recently:
 
 Meeting room is Building 401, Room B2100
 
-Here is the daily schedule:
+Here is the daily schedule (tentative):
 
 {| border="1"
 |-
