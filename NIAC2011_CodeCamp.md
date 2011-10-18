@@ -47,7 +47,7 @@ Meeting room is Building 401, Room B2100
 | 3:30 - 5:00 PM      | meeting                                                                  | work on projects and tasks                          |
 | 5:00 - 6:00 PM      | meeting                                                                  | daily summary (plenary)                             |
 
-(\*) speakers include:
+(\*) speakers for the working lunch include:
 
 -   Chris Jacobsen, APS (scientific lead, APS Data Exchange format)
 -   Mark Koennecke, PSI (NeXus, chairman of NIAC)
