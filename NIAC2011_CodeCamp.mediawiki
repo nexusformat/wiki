@@ -380,7 +380,7 @@ Please reserve your own rooms directly with the hotel:
 |-
 | [[User:Ray Osborn|Ray Osborn]]
 | align="center" | [http://msd.anl.gov/ MSD/ANL]
-| align="center" | 2011-10-18
+| align="center" | 2011-10-19
 | align="center" | 2011-10-20
 | align="center" | N/A
 | align="center" | yes
