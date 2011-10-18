@@ -377,4 +377,12 @@ Please reserve your own rooms directly with the hotel:
 | align="center" | 2011-10-22
 | align="center" | complete
 | align="center" | yes
+|-
+| [[User:Ray Osborn|Ray Osborn]]
+| align="center" | [http://msd.anl.gov/ MSD/ANL]
+| align="center" | 2011-10-18
+| align="center" | 2011-10-20
+| align="center" | N/A
+| align="center" | yes
+|-
 |}
