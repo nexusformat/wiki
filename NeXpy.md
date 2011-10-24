@@ -302,22 +302,22 @@ NeXus groups are defined as subclasses of the NXgroup class. Apart from
 the class name, they behave identically except for the NXdata,
 NXmonitor, and NXlog groups, which have extra methods defined. The
 initialization parameters can be used to populate the group with other
-predefined NeXus objects, either groups or SDSs.
+predefined NeXus objects, either groups or fields.
 
-`>>> temperature = SDS(40.0, units='K')`  
+`>>> temperature = NXfield(40.0, units='K')`  
 `>>> sample = NXsample(temperature=temperature)`  
-`>>> sample.nxtree()`  
+`>>> sample.tree()`  
 `sample:NXsample`  
 `  temperature = 40.0`  
 `  units = K`
 
 Note that, in this example, it was necessary to use the keyword form to
-add the SDS 'temperature' since its name is otherwise undefined within
-the NXsample group. This name is set automatically if the SDS is added
-as an attribute assignment.
+add the NXfield 'temperature' since its name is otherwise undefined
+within the NXsample group. This name is set automatically if the NXfield
+is added as an attribute assignment.
 
 `>>> sample = NXsample()`  
-`>>> sample.temperature=SDS(40.0, units='K')`  
+`>>> sample.temperature=NXfield(40.0, units='K')`  
 `sample:NXsample`  
 `  temperature = 40.0`  
 `  units = K`
@@ -338,12 +338,12 @@ This was already demonstrated in the example above, reproduced here:
 `>>> a=NXdata(z,[x,y])`
 
   
-The first positional argument is an SDS or Numpy array containing the
-data, while the second is a list containing the axes, again as SDSs or
-Numpy arrays. In this example, the names of the arrays have not been
+The first positional argument is an NXfield or Numpy array containing
+the data, while the second is a list containing the axes, again as SDSs
+or Numpy arrays. In this example, the names of the arrays have not been
 defined within an SDS so default names were assigned.
 
-`>>> a.nxtree()`  
+`>>> a.tree()`  
 `   `[`data:NXdata`](data:NXdata)  
 `     axis1 = float64(101)`  
 `     axis2 = float64(101)`  
@@ -357,8 +357,8 @@ the 'name' attribute.
 
 `>>> phi=np.linspace(0,2*np.pi,101)`  
 `>>> data=np.sin(phi)`  
-`>>> a=NXdata(SDS(data,name='intensity'),(SDS(phi,name='polar_angle')))`  
-`>>> a.nxtree()`  
+`>>> a=NXdata(NXfield(data,name='intensity'),(NXfield(phi,name='polar_angle')))`  
+`>>> a.tree()`  
 [`data:NXdata`](data:NXdata)  
 `  intensity = float64(101)`  
 `    @axes = polar_angle`  
