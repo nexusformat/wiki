@@ -232,14 +232,15 @@ There are two checkboxes:
 
 ===Manipulating NeXus Data===
 ===Slicing===
-====SDS====
-A slice of an SDS can be obtained using the usual python indexing syntax.
- >>> x=SDS(np.linspace(0,2*np.pi,101))
+====NXfield====
+A slice of an NXfield can be obtained using the usual python indexing syntax.
+ >>> x=NXfield(np.linspace(0,2*np.pi,101))
  >>> print x[0:51]
  [ 0.          0.06283185  0.12566371 ...,  3.01592895  3.0787608 3.14159265]
 If either of the indices are floats, then the limits are set by the values themselves (assuming the array is monotonic).
  >>> print x[0.5:1.5]
  [ 0.50265482  0.56548668  0.62831853 ...,  1.38230077  1.44513262 1.50796447]
+
 ====NXdata====
 It is also possible to slice whole NXdata groups. In this case, the slicing works on the multidimensional SDS, but the full NXdata group is returned with both the signal data and the associated axes limited by the slice parameters. If either of the limits along any one axis is a float, the limits are set by the values of the axis.
  >>> a=NXdata(np.sin(x),x)

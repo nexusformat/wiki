@@ -400,12 +400,12 @@ Collapse:The two limits are collapsed onto a single value. This is particularly 
 
 ### Slicing
 
-#### SDS
+#### NXfield
 
-A slice of an SDS can be obtained using the usual python indexing
+A slice of an NXfield can be obtained using the usual python indexing
 syntax.
 
-`>>> x=SDS(np.linspace(0,2*np.pi,101))`  
+`>>> x=NXfield(np.linspace(0,2*np.pi,101))`  
 `>>> print x[0:51]`  
 `[ 0.          0.06283185  0.12566371 ...,  3.01592895  3.0787608 3.14159265]`
 
