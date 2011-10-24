@@ -233,7 +233,7 @@ function, which is then saved to a file.
 This file can then be loaded again.
 
 `>>> b=nexus.load('function.nxs')`  
-`>>> b.nxtree()`  
+`>>> b.tree()`  
 `root:NXroot`  
 ` @HDF5_Version = 1.8.2`  
 ` @NeXus_version = 4.2.1`  

@@ -138,7 +138,7 @@ It is just as easy to create new NeXus data sets from scratch using Numpy arrays
  >>> a.nxsave('function.nxs')
 This file can then be loaded again. 
  >>> b=nexus.load('function.nxs')
- >>> b.nxtree()
+ >>> b.tree()
  root:NXroot
   @HDF5_Version = 1.8.2
   @NeXus_version = 4.2.1
