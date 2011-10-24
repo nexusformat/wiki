@@ -250,51 +250,51 @@ This file can then be loaded again.
 Note that the nxsave() method automatically wraps any valid NeXus data
 in an NXentry group, in order to produce a standard-compliant file.
 
-#### Scientific Data Sets (SDS)
+#### NeXus Fields
 
-NeXus data values are stored in NeXus objects of class 'SDS'. The SDS
-class wraps standard Numpy arrays, scalars, and python strings so that
-data attributes can be associated with them. There are two ways to
-create an SDS.
+NeXus data values are stored in NeXus objects of class 'NXfield'. The
+NXfield class wraps standard Numpy arrays, scalars, and python strings
+so that data attributes can be associated with them. There are two ways
+to create an NXfield.
 
 -   Explicit initialization. The data value is given by the first
     positional argument, and may be a python scalar or string, or a
     Numpy array. In this method, keyword arguments can be used to define
-    SDS attributes.
+    NXfield attributes.
 
-`>>> x = SDS(np.linspace(0,2*np.pi,101), units='degree')`
+`>>> x = NXfield(np.linspace(0,2*np.pi,101), units='degree')`
 
 -   Implicit initialization as the child of a NeXus group. The assigned
-    values are automatically converted to an SDS.
+    values are automatically converted to an NXfield.
 
 `>>> a.entry.sample.temperature=40.0`  
 `>>> a.entry.sample.temperature`  
-`SDS(name=temperature,value=40.0)`
+`NXfield(name=temperature,value=40.0)`
 
-SDS attributes can be assigned after creating the SDS. Note that
+NXfield attributes can be assigned after creating the NXfield. Note that
 attribute names must not start with 'nx' to avoid name clashes.
 
 `>>> a.entry.sample.temperature.units='K'`
 
-The actual values of an SDS are stored in the 'nxdata' attribute. If the
-SDS is read in from a data file, this attribute is not input if the
-array size is large to avoid using up memory unnecessarily. It will,
+The actual values of an NXfield are stored in the 'nxdata' attribute. If
+the NXfield is read in from a data file, this attribute is not input if
+the array size is large to avoid using up memory unnecessarily. It will,
 however, be read in if the value is accessed for plotting or
 manipulating data. If this will cause a memory exception, the data
 should be read in as a series of slabs using the nxget method.
 
 `>>> with root.NXentry[0].data.data as slab:`  
-`              Ni,Nj,Nk = slab.nxdims`  
+`              Ni,Nj,Nk = slab.shape`  
 `               size = [1,1,Nk]`  
 `               for i in range(Ni):`  
 `                   for j in range(Nj):`  
-`                       value = slab.nxget([i,j,0],size)`
+`                       value = slab.get([i,j,0],size)`
 
 Data values can be returned converted to different units if the 'units'
 attribute has been set.
 
 `>>> phi = x.nxdata_as(units='radian')`  
-`>>> y = SDS(np.sin(phi))`
+`>>> y = NXfield(np.sin(phi))`
 
 #### NeXus Groups
 
