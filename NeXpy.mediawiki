@@ -100,7 +100,7 @@ The entire tree structure of a NeXus file can be loaded by a single command.
  >>> from nexpy.api import nexus
  >>> a=nexus.load('sns/data/ARCS_7326_tof.nxs')
 The assigned variable now contains the entire tree structure of the file, which can be displayed with the nxtree() method.
- >>> a.nxtree()
+ >>> a.tree()
  root:NXroot
   @HDF5_Version = 1.8.2
   @NeXus_version = 4.2.1

@@ -181,7 +181,7 @@ command.
 The assigned variable now contains the entire tree structure of the
 file, which can be displayed with the nxtree() method.
 
-`>>> a.nxtree()`  
+`>>> a.tree()`  
 `root:NXroot`  
 ` @HDF5_Version = 1.8.2`  
 ` @NeXus_version = 4.2.1`  
