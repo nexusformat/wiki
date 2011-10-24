@@ -288,21 +288,22 @@ Unless the slice reduces one of the axes to a single item, the rank of the data 
      @signal = 1
 
 ===Arithmetic Operations===
-====SDS====
-Arithmetic operations can be applied to SDS objects in much the same way as scalars or Numpy arrays that they contain. This includes addition, subtraction, multiplication and division, either with other SDS objects or to scalar numbers or Numpy arrays.
- >>> x=SDS(array((1.5,2.5,3.5),name='x')
+====NXfield====
+Arithmetic operations can be applied to NXfield objects in much the same way as scalars or Numpy arrays that they contain. This includes addition, subtraction, multiplication and division, either with other NXfield objects or to scalar numbers or Numpy arrays.
+ >>> x=NXfield(array((1.5,2.5,3.5),name='x')
  >>> x
- SDS(name=x,value=[ 1.5  2.5  3.5])
+ NXfield(name=x,value=[ 1.5  2.5  3.5])
  >>> x+1
- SDS(name=x,value=[ 2.5  3.5  4.5])
+NXfield(name=x,value=[ 2.5  3.5  4.5])
  >>> 2*x
- SDS(name=x,value=[ 3.  5.  7.])
+ NXfield(name=x,value=[ 3.  5.  7.])
  >>> x+x
- SDS(name=x,value=[ 3.  5.  7.])
+ NXfield(name=x,value=[ 3.  5.  7.])
  >>> x-x
- SDS(name=x,value=[ 0.  0.  0.])
+ NXfield(name=x,value=[ 0.  0.  0.])
  >>> x/x
- SDS(name=x,value=[ 1.  1.  1.])
+ NXfield(name=x,value=[ 1.  1.  1.])
+
 ====NXdata====
 Similar operations can also be performed on whole NXdata groups. If two NXdata groups are to be added, the rank and dimension sizes of the main signal array must match (although the names could be different). 
  >>> y=SDS(np.sin(x),name='y')
