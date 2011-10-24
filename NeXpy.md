@@ -369,10 +369,10 @@ through the 'name' attribute.
 
 #### Python Shell
 
-NXdata, NXmonitor, and NXlog groups all have a nxplot method, which
+NXdata, NXmonitor, and NXlog groups all have a plot method, which
 automatically determines what should be plotted.
 
-`>>> data.nxplot()`
+`>>> data.plot()`
 
 ![A simple NeXpy
 plot|center](NeXPy-Simple_plot.png "fig:A simple NeXpy plot|center") If
@@ -380,8 +380,8 @@ the data is one-dimensional, it is possible to overplot more than one
 data set using 'over=True'. Conventional Matplotlib keywords can be used
 to change markers and colors.
 
-`>>> data.nxplot(log=True)`  
-`>>> data.nxplot(over=True, log=True, color='r')`
+`>>> data.plot(log=True)`  
+`>>> data.plot(over=True, log=True, color='r')`
 
 #### GUI Shell
 
