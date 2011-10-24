@@ -418,31 +418,31 @@ values themselves (assuming the array is monotonic).
 #### NXdata
 
 It is also possible to slice whole NXdata groups. In this case, the
-slicing works on the multidimensional SDS, but the full NXdata group is
-returned with both the signal data and the associated axes limited by
+slicing works on the multidimensional NXfield, but the full NXdata group
+is returned with both the signal data and the associated axes limited by
 the slice parameters. If either of the limits along any one axis is a
 float, the limits are set by the values of the axis.
 
 `>>> a=NXdata(np.sin(x),x)`  
 `>>> a[1.5:2.5].x`  
-`SDS(name=x,value=[ 1.57079633  1.72787596  1.88495559 ...,  2.19911486  2.35619449])`
+`NXfield(name=x,value=[ 1.57079633  1.72787596  1.88495559 ...,  2.19911486  2.35619449])`
 
 Unless the slice reduces one of the axes to a single item, the rank of
 the data remains the same. To project data along one of the axes, and so
 reduce the rank by one, the data can be summed along that axis using the
 nxsum() method. This employs the Numpy array sum() method.
 
-`>>> x=y=SDS(np.linspace(0,2*np.pi,41))`  
+`>>> x=y=NXfield(np.linspace(0,2*np.pi,41))`  
 `>>> X,Y=np.meshgrid(x,y)`  
 `>>> a=NXdata(np.sin(X)*np.sin(Y), (x,y))`  
-`>>> a.nxtree()`  
+`>>> a.tree()`  
 [`data:NXdata`](data:NXdata)  
 `  axis1 = float64(41)`  
 `  axis2 = float64(41)`  
 `  signal = float64(41x41)`  
 `    @axes = axis1:axis2`  
 `    @signal = 1`  
-`>>> a.nxsum(0).nxtree()`  
+`>>> a.sum(0).tree()`  
 [`data:NXdata`](data:NXdata)  
 `  axis2 = float64(41)`  
 `  signal = float64(41)`  
@@ -451,31 +451,31 @@ nxsum() method. This employs the Numpy array sum() method.
 `    @signal = 1`
 
 It is also possible to slice whole NXdata groups. In this case, the
-slicing works on the multidimensional SDS, but the full NXdata group is
-returned with both the signal data and the associated axes limited by
+slicing works on the multidimensional NXfield, but the full NXdata group
+is returned with both the signal data and the associated axes limited by
 the slice parameters. If either of the limits along any one axis is a
 float, the limits are set by the values of the axis.
 
 `>>> a=NXdata(np.sin(x),x)`  
 `>>> a[1.5:2.5].x`  
-`SDS(name=x,value=[ 1.57079633  1.72787596  1.88495559 ...,  2.19911486  2.35619449])`
+`NXfield(name=x,value=[ 1.57079633  1.72787596  1.88495559 ...,  2.19911486  2.35619449])`
 
 Unless the slice reduces one of the axes to a single item, the rank of
 the data remains the same. To project data along one of the axes, and so
 reduce the rank by one, the data can be summed along that axis using the
 nxsum() method. This employs the Numpy array sum() method.
 
-`>>> x=y=SDS(np.linspace(0,2*np.pi,41))`  
+`>>> x=y=NXfield(np.linspace(0,2*np.pi,41))`  
 `>>> X,Y=np.meshgrid(x,y)`  
 `>>> a=NXdata(np.sin(X)*np.sin(Y), (x,y))`  
-`>>> a.nxtree()`  
+`>>> a.tree()`  
 [`data:NXdata`](data:NXdata)  
 `  axis1 = float64(41)`  
 `  axis2 = float64(41)`  
 `  signal = float64(41x41)`  
 `    @axes = axis1:axis2`  
 `    @signal = 1`  
-`>>> a.nxsum(0).nxtree()`  
+`>>> a.sum(0).tree()`  
 [`data:NXdata`](data:NXdata)  
 `  axis2 = float64(41)`  
 `  signal = float64(41)`  
