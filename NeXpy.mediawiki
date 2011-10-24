@@ -203,7 +203,7 @@ Note that, in this example, it was necessary to use the keyword form to add the 
       signal = float64(101x101)
         @axes = axis1:axis2
         @signal = 1
-:However, names can be assigned explicitly when creating the SDS through the 'name' attribute.
+:However, names can be assigned explicitly when creating the NXfield through the 'name' attribute.
  >>> phi=np.linspace(0,2*np.pi,101)
  >>> data=np.sin(phi)
  >>> a=NXdata(NXfield(data,name='intensity'),(NXfield(phi,name='polar_angle')))

@@ -352,8 +352,8 @@ defined within an SDS so default names were assigned.
 `       @signal = 1`
 
   
-However, names can be assigned explicitly when creating the SDS through
-the 'name' attribute.
+However, names can be assigned explicitly when creating the NXfield
+through the 'name' attribute.
 
 `>>> phi=np.linspace(0,2*np.pi,101)`  
 `>>> data=np.sin(phi)`  
