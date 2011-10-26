@@ -393,3 +393,37 @@ Please reserve your own rooms directly with the hotel:
 | align="center" | pending
 |-
 |}
+
+== Presentations ==
+
+... coming ...
+
+== Final Report ==
+
+
+As some of you might know, the NeXus technical subcommittee and especially Pete Jemian have invested a lot of work to update the NeXus manual in the last year.  It is now current and much better then it used to be. In this work we arrived at a major milestone on our last code camp in Chicago, October 20 - 22. Now, the NeXus WWW site has received a new front page and its content is created from the NeXus manual. Though not all of it looking as beautiful as it could be, at least the content is correct and up to data.
+
+Another good news is that we had some discussions with the detector manufacturer Dectris. They do the Mythen, Pilatus and Eiger detectors. With the Eiger detector they will start writing HDF-5 files with NeXus conventions. The programming model will be that Dectris writes the detector data and the local DAQ system adds further meta data to the HDF-5 NeXus file. In order to support this, some more fields have been added to NXdetector.
+
+Other things which we addressed during the code camp:
+* For HDF-5 all dimensions can now be unlimited
+* NAPI was moved from HDF-5 1.6 to HDF-5 1.8 which is now current.  Support for HDF-5 1.6 was stopped two years ago.
+* A set of additional API functions was defined which allow to use 64 bit integers for the  dimensions.
+* Some more manual work was done: there will be examples how to write NeXus files  with the HDF-5 API alone soon. A new manual, NeXus for the Impatient, is in  progress.   This is a short introduction to NeXus in about 10 pages.
+* Some more work was done to integrate Ray Osborn's tree python API and to write more tests for the python interface.
+* Some progress was made on axis dependency encoding
+* We will gradually move from autotools to cmake for the NeXus API.
+* We had some discussions on a new C++ tree API to be written by Eugen Wintersberger, on a parallel HDF driver for NeXus, and a possible move to sphinx for the NeXus manual.
+
+All in all, we managed to put a man-month of work into NeXus between the seven of
+us who attended the code camp. Many thanks to everyone who participated and to Pete
+Jemian who did a wonderful job as a local organiser.  [PRJ: I thank all of you.]
+
+We are in good hope that a new version of the NeXus-API will be released before the
+end of this year. We also strive to make a 1.0 release of the NeXus application
+definitions by then.
+
+Best Regards,  Mark Koennecke
+
+=== Added note ===
+We also has a good discussion with scientists and staff of the APS regarding the release of details of how NeXus is implemented in HDF5.  Also discussed were current APS plans to store data in HDF5 files but, for performance reasons as well as simplicity, not necessarily in compliance with NeXus.
