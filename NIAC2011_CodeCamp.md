@@ -118,7 +118,8 @@ Items not currently on the project plan, but have arisen recently:
 ### Presentations
 
 1.  presentation about **cmake** (Freddie Akeroyd or Pete Peterson)
-2.  about **sphinx** for documentation (Pete Jemian)
+2.  about **sphinx** for documentation (Pete Jemian) ![
+    PDF](2011-10-20_NeXus_manual_in_sphinx.pdf "fig: PDF")
 3.  about **parallel HDF** (Mark Koennecke, anyone else with more
     experience?)
 4.  assessment of work to migrate from HDF 1.6 to HDF 1.8 (Freddie

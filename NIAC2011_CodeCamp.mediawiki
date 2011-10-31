@@ -173,7 +173,7 @@ Items not currently on the project plan, but have arisen recently:
 === Presentations ===
 
 # presentation about '''cmake''' (Freddie Akeroyd or Pete Peterson)
-# about '''sphinx''' for documentation (Pete Jemian)
+# about '''sphinx''' for documentation (Pete Jemian) [[File:2011-10-20_NeXus_manual_in_sphinx.pdf | PDF]]
 # about '''parallel HDF''' (Mark Koennecke, anyone else with more experience?)
 # assessment of work to migrate from HDF 1.6 to HDF 1.8 (Freddie Akeroyd)
 # public talk: '''''The Current State of NeXus''''', Building 401, Room A1100, Friday, Oct. 21, 10:30 - 11:30 AM
