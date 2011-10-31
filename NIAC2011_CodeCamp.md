@@ -50,6 +50,7 @@ Meeting room is Building 401, Room B2100
 (\*) speakers for the working lunch include:
 
 -   Chris Jacobsen, APS (scientific lead, APS Data Exchange format)
+    ![](2011_10_20_nexus_heretics_v5.pdf "fig:2011_10_20_nexus_heretics_v5.pdf")
 -   Mark Koennecke, PSI (NeXus, chairman of NIAC)
 
 ### Friday, 2011 October 21
