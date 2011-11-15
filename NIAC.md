@@ -37,6 +37,8 @@ layout: wiki
 -   [Jiro Suzuki](User%3AJiro_Suzuki "wikilink"), KEK, Japan
 -   [Ben Watts](User%3ABen_Watts "wikilink"), Swiss Light Source,
     Switzerland
+-   [Joachim Wuttke](User%3AJoachim_Wuttke "wikilink") FRM II and JCNS,
+    Germany
 
 The [expiration dates](Membership_Dates "wikilink") for the various
 members.
