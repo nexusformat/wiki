@@ -4,6 +4,12 @@ permalink: NIAC/
 layout: wiki
 ---
 
+How to contact the NIAC
+-----------------------
+
+You may contact the NIAC by sending an email to
+[mailto://nexus-committee@nexusformat.org](mailto://nexus-committee@nexusformat.org)
+
 [Current Members](Membership_Dates "wikilink")
 ----------------------------------------------
 
