@@ -31,6 +31,9 @@ will not work properly.
 be available. These are provided in both the Fedora and EPEL
 repositories.
 
+**HDF5 Version** Only the HDF5-1.8.\* series (and above) is now
+supported.
+
 Building Notes
 --------------
 

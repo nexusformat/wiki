@@ -13,6 +13,9 @@ Version 2.2.2 or higher of mxml is required. Earlier versions have a bug and the
 '''Python Interface'''
 You will need both the numpy and ctypes modules to be available.  These are provided in both the Fedora and EPEL repositories.
 
+'''HDF5 Version'''
+Only the HDF5-1.8.* series (and above) is now supported.
+
 ==Building Notes==
 
 ==Known Issues==
