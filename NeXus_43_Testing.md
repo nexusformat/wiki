@@ -38,7 +38,7 @@ Release candidates for 4.3.0
 
 4.3.0 is currently in testing, 4.3rc1 being the first release candidate
 
-### 4.3rc1 (released 28/11/2011)
+### 4.3rc1 (released 30/11/2011)
 
 The kit can be downloaded from the [NeXus download
 page](http://download.nexusformat.org/kits/nx43testing.shtml). Issues
