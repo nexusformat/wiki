@@ -37,9 +37,9 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits/nx43tes
 | align="center" | 64bit Intel
 | align="center" | [[User:Freddie Akeroyd|Freddie]] 10:31, 30 November 2011 (UTC)
 | align="center" | tar
-| align="center" | 4.2.4
-| align="center" | 1.8.2
-| align="center" | 2.5-2
-| align="center" | 31 tests successful.  7 skipped (3/IDL, 3/NXsummary, and Python+HDF4)
+| align="center" | 4.2.5
+| align="center" | 1.8.5-patch1
+| align="center" | 2.5-6
+| align="center" | 28 tests successful.  7 skipped (3/IDL, 3/FORTRAN, and Python+HDF4)
 | align="center" | gcc, g++, python
 |}
