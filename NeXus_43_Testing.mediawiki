@@ -33,13 +33,13 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits/nx43tes
 ! {{Headcellstyle}} | "make check"
 ! {{Headcellstyle}} | Remarks
 |-
-! {{Headcellstyle}} | Linux (FC12)
+! {{Headcellstyle}} | Linux (FC15)
 | align="center" | 64bit Intel
-| align="center" | [[User:Freddie Akeroyd|Freddie]] 10:31, 25 February 2010 (UTC)
+| align="center" | [[User:Freddie Akeroyd|Freddie]] 10:31, 30 November 2011 (UTC)
 | align="center" | tar
 | align="center" | 4.2.4
 | align="center" | 1.8.2
 | align="center" | 2.5-2
 | align="center" | 31 tests successful.  7 skipped (3/IDL, 3/NXsummary, and Python+HDF4)
-| align="center" | gcc, g++, g77, f95, python
+| align="center" | gcc, g++, python
 |}
