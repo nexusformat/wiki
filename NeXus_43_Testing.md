@@ -43,7 +43,7 @@ Release candidates for 4.3.0
 The kit can be downloaded from the [NeXus download
 page](http://download.nexusformat.org/kits/nx43testing.shtml). Issues
 reported with this release [can be found
-here](http://trac.nexusformat.org/code/query?status=new&status=assigned&status=reopened&status=closed&version=4.3rc1&order=priority).
+here](http://trac.nexusformat.org/code/query?status=new&status=assigned&status=reopened&status=closed&version=4.3.0-rc1&order=priority).
 
 | | Operating System | | Processor | | Tester                                                                   | | Kit Type | | HDF4 | | HDF5 | | MXML | | “make check”                                                       | | Remarks        |
 |--------------------|-------------|----------------------------------------------------------------------------|------------|--------|--------|--------|----------------------------------------------------------------------|------------------|
