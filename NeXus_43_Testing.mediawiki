@@ -62,4 +62,14 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits/nx43tes
 | align="center" | 2.5-5
 | align="center" | 28 tests successful.  7 skipped (3/IDL, 3/FORTRAN, and Python+HDF4)
 | align="center" | gcc, g++, python
+|-
+! {{Headcellstyle}} | Linux (Ubuntu 10.04)
+| align="center" | 32bit Intel
+| align="center" | [[User:Mark Koennecke|Mark]] 22:02, 5 December 2011 (UTC)
+| align="center" | tar
+| align="center" | 4.2.4
+| align="center" | 1.8.4
+| align="center" | 2.5-5
+| align="center" | 28 tests successful. 3 failed  7 skipped (3/IDL, 3/FORTRAN, and Python+HDF4)
+| align="center" | gcc, g++, python
 |}
