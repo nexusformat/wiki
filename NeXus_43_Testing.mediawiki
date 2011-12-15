@@ -83,4 +83,15 @@ The kit can be downloaded from the [http://download.nexusformat.org/kits/nx43tes
 | align="center" | With optimisation enabled, 28 tests run.  7 skipped (3/IDL, 3/FORTRAN, and Python+HDF4)
 With optimisation disabled, 28 tests run. 3 failed (HDF5 C and C++). 7 skipped (3/IDL, 3/FORTRAN, and Python+HDF4)
 | align="center" | gcc, g++, python
+|-
+! {{Headcellstyle}} | Mac OSX 10.6.8
+| align="center" | 64bit Intel
+| align="center" | [[User:Mark Koennecke|Mark] 11:36, 15 December 2011 (UTC)
+| align="center" | tar
+| align="center" | 4.2.4
+| align="center" | 1.8.8
+| align="center" | 2.6
+| align="center" | With optimisation enabled, 28 tests run.  7 skipped (3/IDL, 3/FORTRAN, and Python+HDF4)
+With optimisation disabled, 28 tests run. 6 failed (HDF4 C and C++). 7 skipped (3/IDL, 3/FORTRAN, and Python+HDF4)
+| align="center" | gcc, g++, python
 |}
