@@ -182,13 +182,16 @@ proposed. This is the current procedure:
 Meetings
 --------
 
--   [NIAC'2011](NIAC2011_CodeCamp "wikilink") NeXus Code Camp and NIAC
-    Meeting, APS, October, 2011
--   [NIAC'2010](NIAC2010 "wikilink") NeXus Code Camp and NIAC Meeting,
-    ORNL, October, 2010
+-   [NIAC 2012](NIAC2012 "wikilink") NeXus Code Camp and NIAC Meeting,
+    hosted by ISIS and Diamond at RAL, Oxfordshire, UK, September 2012
+-   [NIAC 2011](NIAC2011_CodeCamp "wikilink") NeXus Code Camp and NIAC
+    Meeting, APS, October 2011
+    ([minutes](NIAC2011_CodeCamp#Final_Report "wikilink"))
+-   [NIAC 2010](NIAC2010 "wikilink") NeXus Code Camp and NIAC Meeting,
+    ORNL, October 2010
+    ([minutes](Media:Minutes_of_NeXus_Committee_2010.pdf "wikilink"))
 -   [October 16-18 2009](NIAC2009 "wikilink") NeXus Code Camp, hosted by
-    APS, Chicago (Evanston, Illinois)
-    ([minutes](NIAC2009_minutes "wikilink"))
+    APS, Chicago (Evanston, Illinois) (no minutes)
 -   [October 30-31, 2008](NIAC2008 "wikilink") at ANSTO, Australia
     ([minutes ](Media:NIAC2008_minutes.pdf "wikilink"))
 -   [September 24-26, 2007](NIAC2007 "wikilink") at HMI, Berlin, Germany
