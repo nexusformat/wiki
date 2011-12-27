@@ -322,6 +322,13 @@ is added as an attribute assignment.
 `  temperature = 40.0`  
 `  units = K`
 
+The objects in NeXus groups, which can be NXfields or other NXgroups,
+can also be assigned and referenced as dictionary items.
+
+`>>> sample[`“`temperature`”`] = 40.0`  
+`>>> sample.keys()`  
+`['temperature']`
+
 NXdata Groups  
 NXdata groups contain data ready to be plotted. That means that the
 group should consist of an NXfield containing the data and one or more
@@ -333,7 +340,7 @@ This was already demonstrated in the example above, reproduced here:
 
 `>>> import numpy as np`  
 `>>> x=y=np.linspace(0,2*np.pi,101)`  
-`>>> X,Y=np.meshgrid(x,y)`  
+`>>> X,Y=np.meshgrid(y,x)`  
 `>>> z=np.sin(X)*np.sin(Y)`  
 `>>> a=NXdata(z,[x,y])`
 
