@@ -2,7 +2,15 @@
 
 ==New Features==
 
+* Links to external files via the NeXus external linking mechanism have now been enhanced to take advantage of native HDF5 external linking. Previously a nexus external file link was only visible to NeXus aware programs, and this will continue to be the case for XML and HDF4 based files. In the case of files created with the HDF5 underlying format, external file links will now be visible to any HDF5 (1.8.*) aware program.
+* HDF5 based files can now have multiple "unlimited" dimensions (previously only one was allowed)
+* New API functions have been added to handle very large arrays. Most origial nexus functions had array dimensions of type "int" which restricted the maximum size of an array. New functions with a "64" suffix have been added which use int64_t rather than int.    
+* A new python tree API has been added
+* A GUI java based NXvalidate program has now been added 
+ 
 ==Changed Features==
+
+* The HDF5 1.6.* series libraries are no longer supported - NeXus now requires 1.8.* or higher. The 1.6.* series is now very old and moving to 1.8.* has allowed us to make use of new and improved features, such as native external file linking (see above)  
 
 ==System Requirements==
 '''MXML XML Parsing Library'''
