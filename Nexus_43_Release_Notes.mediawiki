@@ -6,8 +6,9 @@
 * HDF5 based files can now have multiple "unlimited" dimensions (previously only one was allowed)
 * New API functions have been added to handle very large arrays. Most origial nexus functions had array dimensions of type "int" which restricted the maximum size of an array. New functions with a "64" suffix have been added which use int64_t rather than int.    
 * A new python tree API has been added
-* A GUI java based NXvalidate program has now been added 
- 
+* A GUI java based NXvalidate program has now been added
+* The NeXus API is now always thread safe, even if the underlying HDF/XML library is not. New NXclone_handle function.
+
 ==Changed Features==
 
 * The HDF5 1.6.* series libraries are no longer supported - NeXus now requires 1.8.* or higher. The 1.6.* series is now very old and moving to 1.8.* has allowed us to make use of new and improved features, such as native external file linking (see above)  

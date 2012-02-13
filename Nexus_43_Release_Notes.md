@@ -25,6 +25,8 @@ New Features
     suffix have been added which use int64\_t rather than int.
 -   A new python tree API has been added
 -   A GUI java based NXvalidate program has now been added
+-   The NeXus API is now always thread safe, even if the underlying
+    HDF/XML library is not. New NXclone\_handle function.
 
 Changed Features
 ----------------
