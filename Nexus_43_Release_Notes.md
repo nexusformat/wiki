@@ -22,11 +22,23 @@ New Features
 -   New API functions have been added to handle very large arrays. Most
     origial nexus functions had array dimensions of type “int” which
     restricted the maximum size of an array. New functions with a “64”
-    suffix have been added which use int64\_t rather than int.
--   A new python tree API has been added
+    suffix have been added which use int64\_t rather than int - existing
+    functions continue to work as normal, so there is no need to update
+    code unless you
+-   A new python tree API has been added (note: need to add link for
+    more finformation)
 -   A GUI java based NXvalidate program has now been added
--   The NeXus API is now always thread safe, even if the underlying
-    HDF/XML library is not. New NXclone\_handle function.
+-   The NeXus API now ensures thread safety, even if the underlying
+    HDF/XML library is not built that way. The current approach would
+    not allow any concurrency in writing, but HDF5 does not support this
+    anyway at the moment.
+-   A new function NXreopen() has been added which will create
+    additional NXhandle objects from an existing NXhandle, allowing you
+    to have several NXhandle structures referring to the same file. This
+    can give a large performance gain if you need to write to different
+    parts of a file as separate threads can be created with their own
+    NXhandles, thus removing the need to open and close data groups that
+    can lead to unnecessary flushing to disk etc.
 
 Changed Features
 ----------------
