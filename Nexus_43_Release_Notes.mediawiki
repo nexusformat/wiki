@@ -9,6 +9,8 @@
 * A GUI java based NXvalidate program has now been added
 * The NeXus API now ensures thread safety, even if the underlying HDF/XML library is not built that way. The current approach would not allow any concurrency in writing, but HDF5 does not support this anyway at the moment. 
 * A new function NXreopen() has been added which will create additional NXhandle objects from an existing NXhandle, allowing you to have several NXhandle structures referring to the same file. This can give a large performance gain if you need to write to different parts of a file as separate threads can be created with their own NXhandles, thus removing the need to open and close data groups that can lead to unnecessary flushing to disk etc.
+* New application NXtraverse added
+* TODO: other applications - anything of note changed in NXtranslate, NXsummary etc?
 
 ==Changed Features==
 

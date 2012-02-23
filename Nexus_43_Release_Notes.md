@@ -39,6 +39,9 @@ New Features
     parts of a file as separate threads can be created with their own
     NXhandles, thus removing the need to open and close data groups that
     can lead to unnecessary flushing to disk etc.
+-   New application NXtraverse added
+-   TODO: other applications - anything of note changed in NXtranslate,
+    NXsummary etc?
 
 Changed Features
 ----------------
