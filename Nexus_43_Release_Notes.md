@@ -7,7 +7,11 @@ layout: wiki
 4.3.0rc1
 --------
 
-Dowload the release candidate from
+Dowload the release candidate from the [NeXus download
+page](http://download.nexusformat.org/kits/nx43testing.shtml). Issues
+reported with this release [can be found
+here](http://trac.nexusformat.org/code/query?status=new&status=assigned&status=reopened&status=closed&version=4.3.0-rc1&order=priority)
+and results to testing on
 [NeXus\_43\_Testing](NeXus_43_Testing "wikilink")
 
 New Features
