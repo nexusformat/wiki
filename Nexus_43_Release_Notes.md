@@ -8,7 +8,7 @@ layout: wiki
 --------
 
 Dowload the release candidate from
-<http://wiki.nexusformat.org/NeXus_43_Testing>
+[NeXus\_43\_Testing](NeXus_43_Testing "wikilink")
 
 New Features
 ------------

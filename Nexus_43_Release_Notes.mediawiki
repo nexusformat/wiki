@@ -1,6 +1,6 @@
 == 4.3.0rc1 ==
 
-Dowload the release candidate from [[http://wiki.nexusformat.org/NeXus_43_Testing]]
+Dowload the release candidate from [[NeXus_43_Testing]]
 
 ==New Features==
 
