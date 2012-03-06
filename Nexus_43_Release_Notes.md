@@ -4,8 +4,11 @@ permalink: Nexus_43_Release_Notes/
 layout: wiki
 ---
 
-4.3.0
------
+4.3.0rc1
+--------
+
+Dowload the release candidate from
+<http://wiki.nexusformat.org/NeXus_43_Testing>
 
 New Features
 ------------
