@@ -4,6 +4,11 @@ permalink: Latest_News/
 layout: wiki
 ---
 
+2012
+----
+
+Wednesday, March 6, 2012: Release candidates for NeXus 4.3 are now available from [NeXus\_43\_Testing](NeXus_43_Testing "wikilink")  
+
 2010
 ----
 

@@ -1,3 +1,6 @@
+==2012==
+;Wednesday, March 6, 2012: Release candidates for NeXus 4.3 are now available from [[NeXus_43_Testing]]
+
 ==2010==
 ;Thursday, October 21, 2010: NeXus Manual moved from the wiki to a [http://www.nexusformat.org/Documentation book format] (PDF & HTML are available).  The revised manual also documents the [http://download.nexusformat.org/doc/html/ClassDefinitions.html class definitions] in [http://download.nexusformat.org/doc/html/NXDL.html NXDL].  Content has been reorganized and divided into a volume containing the [http://download.nexusformat.org/doc/NeXusManual.pdf User Manual] and a volume containing the [http://download.nexusformat.org/doc/NeXusRefDoc.pdf Reference Documentation].  
 
