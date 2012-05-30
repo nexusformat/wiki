@@ -15,7 +15,7 @@ Note: (2010-10-21) links revised to ***new documentation***
 <!-- -->
 
 [NeXus Introduction](http://download.nexusformat.org/doc/html/Introduction.html):Introduction to the concepts behind the NeXus data format.  
-[NeXus Documentation](Documentation "wikilink"):Links to the most current documentation of [NeXus](http://download.nexusformat.org/doc/html/UserManual.html), the [classes](http://download.nexusformat.org/doc/html/ClassDefinitions.html), [API](http://download.nexusformat.org/doc/html/NAPI.html), and [NXDL](http://download.nexusformat.org/doc/html/NXDL.html).  
+[NeXus Documentation](Documentation "wikilink"):Links to the most current documentation of [NeXus](http://download.nexusformat.org/doc/html/UserManual.html), the [classes](http://download.nexusformat.org/doc/html/ClassDefinitions.html), [API](http://download.nexusformat.org/doc/html/NAPI.html), and [NXDL](http://download.nexusformat.org/doc/html/NXDL.html). Also [install kits for documentation and NXDL](http://download.nexusformat.org/kits/definitions/)  
 [NeXus Design](http://download.nexusformat.org/doc/html/Design.html): The hierarchical design of NeXus files.  
 [NeXus Utilities](http://download.nexusformat.org/doc/html/Utilities.html):Software applications that browse, plot, and analyze NeXus data.  
 [NeXus FAQ](http://download.nexusformat.org/doc/html/FAQ.html):A list of commonly asked questions about NeXus.  
