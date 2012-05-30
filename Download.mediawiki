@@ -1,5 +1,7 @@
 The NeXus API is distributed under the terms of the GNU Lesser General Public License. For information on using the NeXus API see the [[Application Program Interface]] page. To report or view problems/bugs/suggestions/enhancement requests goto our [[IssueReporting]] system.
 
+Downloads for [[Documentation]] are [[Documentation|available separately]]
+
 ==Requirements==
 ===External Libraries===
 Since NeXus uses HDF as the main underlying binary format, it is necessary first to install the HDF subroutine libraries and include files before installing the NeXus API. It is not usually necessary to download the HDF source code since precompiled object libraries exist for a variety of operating systems including Windows, Mac OS X, Linux, and various other flavors of Unix. Check the HDF web pages for more information:
