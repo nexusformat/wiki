@@ -56,7 +56,7 @@ can keep their rooms in Cosner's. Transport will be available.
 * Cleanup NeXus applications
 * NXdict replacement design
 * Automatisation and documentation of NeXus release process
-** Implement Continuous integration
+** Implement Continuous Integration
 ** Write more unit tests
 * Change documentation from DocBook to Restructured Text (Sphinx)
 * Cleanup trac-tickets
