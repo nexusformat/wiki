@@ -34,7 +34,7 @@ can keep their rooms in Cosner's. Transport will be available.
 {| border="1"
 ! Name || Company/Institute || Code Camp || NIAC || NOBUGS
 |-
-| [[User:Freddie Akeroyd|Frederick Akeroyd]] 
+| [[User:Freddie Akeroyd|Freddie Akeroyd]] 
 || ISIS Facility, Rutherford Appleton Laboratory, UK 
 || YES 
 || YES 
