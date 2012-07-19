@@ -28,18 +28,22 @@ People arriving for the NIAC and staying on for
 NOBUGS conference the following week at [http://www.stfc.ac.uk/About+STFC/51.aspx| RAL]
 can keep their rooms in Cosner's. Transport will be available. 
 
-==NIAC List of Attendees==
+==List of Attendees==
 
 
 {| border="1"
-! Name || Company/Institute || NOBUGS? 
+! Name || Company/Institute || Code Camp || NIAC || NOBUGS
 |-
 | [[User:Freddie Akeroyd|Frederick Akeroyd]] 
 || ISIS Facility, Rutherford Appleton Laboratory, UK 
 || YES 
+|| YES 
+|| YES 
 |-
 | [[User:Tobias Richter|Tobias Richter]]
 || Diamond Light Source, UK
+|| YES 
+|| YES 
 || YES 
 |-
 |}
