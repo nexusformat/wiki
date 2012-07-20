@@ -46,6 +46,12 @@ can keep their rooms in Cosner's. Transport will be available.
 || YES 
 || YES 
 |-
+| [[User:Steve Cottrell|Steve Cottrell]]
+|| ISIS Facility, Rutherford Appleton Laboratory, UK
+|| NO 
+|| YES 
+|| YES 
+|-
 |}
 
 ==Agenda==
