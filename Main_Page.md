@@ -23,8 +23,8 @@ Note: (2010-10-21) links revised to ***new documentation***
 [NeXus Mailing Lists](http://download.nexusformat.org/doc/html/MailingLists.html):Mailing lists covering different aspects of the NeXus format.  
 [NeXus International Advisory Committee](NIAC "wikilink"):Charged with supervising the development and maintenance of the NeXus format.  
 
-:\* ISIS and Diamond at RAL, Oxfordshire, UK, September 2012 -
-[NIAC'2012](NIAC2012 "wikilink")
+:\* Nexst meeting: ISIS and Diamond at RAL, Oxfordshire, UK, September
+2012 - [NIAC'2012](NIAC2012 "wikilink")
 
 [Facilities](Facilities "wikilink"):Facilities currently using, or intending to use, NeXus and their future plans for the format.  
 [Latest News](Latest_News "wikilink"):Recent news and developments concerning the NeXus format.  
