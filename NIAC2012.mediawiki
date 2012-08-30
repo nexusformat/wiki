@@ -118,6 +118,8 @@ Please add your name to this table after registering for the meetings via the [h
 * Cleanup trac-tickets
 * Discuss timed data
 * Develop a materials definition to present to NIAC
+* Do we switch to CMake for all builds?
+* How to integrate sphinx documentation building into Cmake
 
 ===NIAC Meeting===
 * Report on the status of NeXus and Overview
