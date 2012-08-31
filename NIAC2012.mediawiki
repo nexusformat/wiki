@@ -114,7 +114,7 @@ Please add your name to this table after registering for the meetings via the [h
 || NO 
 |-
 | [[User:David Mannicke|David Mannicke]]
-|| Diamond Light Source
+|| ANSTO
 || YES 
 || YES 
 || YES 
