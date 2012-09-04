@@ -30,10 +30,10 @@ People arriving for the NIAC and staying on for
 NOBUGS conference the following week at [http://www.stfc.ac.uk/About+STFC/51.aspx| RAL]
 can keep their rooms in Cosner's. Daily transport will be available to and from the NOBUGS venue at the RAL site.
 
-The meeting fee for NIAC/Nexus code camp is the Coseners house 24 hour rate, which covers Dinner, B+B, plus lunch. So: 
+The meeting fee for NIAC/Nexus code camp is the Coseners house 24 hour delegate rate, which covers Dinner, B+B, plus lunch. So: 
 * the code camp fee will cover dinner on Monday and Tuesday evenings, 2 nights accomodation, breakfast+lunch on Tuesday and Wednesday.   
 * the NIAC fee will cover dinner on Wednesday and Thursday evenings, 2 night accomodation, breakfast+lunch on Thursday and Friday.
-If you will be staying Friday evening (and onwards) you need to [http://www.nobugs2012.org/NOBUGS/accommodation.html book this separately yourself with Coseners house]
+If you will be staying Friday evening (and onwards) you need to [http://www.nobugs2012.org/NOBUGS/accommodation.html reserve and pay for this separately yourself with Coseners house]
 
 ==List of Attendees==
 Please add your name to this table after registering for the meetings via the [http://www.nobugs2012.org/NOBUGS/registration/NeXus.html NOBUGS site] 
@@ -46,24 +46,24 @@ Please add your name to this table after registering for the meetings via the [h
 || YES 
 || YES 
 || YES 
-||  
-||  
+|| Day attendee 
+|| Day attendee 
 |-
 | [[User:Tobias Richter|Tobias Richter]]
 || Diamond Light Source, UK
 || YES 
 || YES 
 || YES 
-||  
-||  
+|| Day attendee 
+|| Day attendee 
 |-
 | [[User:Steve Cottrell|Steve Cottrell]]
 || ISIS Facility, Rutherford Appleton Laboratory, UK
 || NO 
 || YES 
 || YES 
-||  
-||  
+|| Day attendee 
+|| Day attendee 
 |-
 | [[User:Ben Watts|Ben Watts]]
 || Swiss Light Source, Paul Scherrer Institut, Switzerland
@@ -78,7 +78,7 @@ Please add your name to this table after registering for the meetings via the [h
 || NO 
 || YES 
 || YES 
-||  
+|| 20/09/2012 
 ||  
 |-
 | [[User:Joachim Wuttke|Joachim Wuttke]]
@@ -86,7 +86,7 @@ Please add your name to this table after registering for the meetings via the [h
 || NO 
 || YES 
 || YES 
-||  
+|| 19/09/2012 
 ||  
 |-
 | [[User:Mark Koennecke|Mark Koennecke]]
@@ -94,7 +94,7 @@ Please add your name to this table after registering for the meetings via the [h
 || YES 
 || YES 
 || YES 
-||  
+|| 19/09/2012 
 ||  
 |-
 | [[User:Jens-Uwe Hoffmann|Jens-Uwe Hoffmann]]
@@ -102,7 +102,7 @@ Please add your name to this table after registering for the meetings via the [h
 || YES 
 || YES 
 || YES 
-||  
+|| 19/09/2012 
 ||  
 |-
 | [[User:Eugen Wintersberger|Eugen Wintersberger]]
@@ -110,7 +110,7 @@ Please add your name to this table after registering for the meetings via the [h
 || YES 
 || YES 
 || YES 
-||  
+|| 19/09/2012 
 ||  
 |-
 | [[User:Herbert J Bernstein|Herbert J Bernstein]]
@@ -126,16 +126,16 @@ Please add your name to this table after registering for the meetings via the [h
 || YES 
 || YES 
 || YES 
-||  
-||  
+|| Day attendee  
+|| Day attendee  
 |-
 | [[User:Graham Winter|Graham Winter]]
 || Diamond Light Source
 || NO 
 || YES 
 || NO 
-||  
-||  
+|| Day attendee  
+|| Day attendee  
 |-
 | [[User:David Mannicke|David Mannicke]]
 || ANSTO
