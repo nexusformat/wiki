@@ -39,7 +39,7 @@ If you will be staying Friday evening (and onwards) you need to [http://www.nobu
 Please add your name to this table after registering for the meetings via the [http://www.nobugs2012.org/NOBUGS/registration/NeXus.html NOBUGS site] 
 
 {| border="1"
-! Name || Company/Institute || Code Camp || NIAC || NOBUGS || Arrival Date || Departure date
+! Name || Company/Institute || Code Camp || NIAC || NOBUGS || Arrival date (accomodation needed from) || Departure date
 |-
 | [[User:Freddie Akeroyd|Freddie Akeroyd]] 
 || ISIS Facility, Rutherford Appleton Laboratory, UK 
@@ -78,7 +78,7 @@ Please add your name to this table after registering for the meetings via the [h
 || NO 
 || YES 
 || YES 
-|| 20/09/2012 
+|| 19/09/2012 
 ||  
 |-
 | [[User:Joachim Wuttke|Joachim Wuttke]]
@@ -94,7 +94,7 @@ Please add your name to this table after registering for the meetings via the [h
 || YES 
 || YES 
 || YES 
-|| 19/09/2012 
+|| 17/09/2012 
 ||  
 |-
 | [[User:Jens-Uwe Hoffmann|Jens-Uwe Hoffmann]]
@@ -102,7 +102,7 @@ Please add your name to this table after registering for the meetings via the [h
 || YES 
 || YES 
 || YES 
-|| 19/09/2012 
+|| 17/09/2012 
 ||  
 |-
 | [[User:Eugen Wintersberger|Eugen Wintersberger]]
@@ -110,7 +110,7 @@ Please add your name to this table after registering for the meetings via the [h
 || YES 
 || YES 
 || YES 
-|| 19/09/2012 
+|| 17/09/2012 
 ||  
 |-
 | [[User:Herbert J Bernstein|Herbert J Bernstein]]
@@ -118,8 +118,8 @@ Please add your name to this table after registering for the meetings via the [h
 || NO 
 || YES 
 || NO 
-||  
-||  
+|| 19/09/2012 
+|| 21/09/2012 
 |-
 | [[User:Fajin Yuan|Fajin Yuan]]
 || Diamond Light Source
@@ -142,8 +142,8 @@ Please add your name to this table after registering for the meetings via the [h
 || YES 
 || YES 
 || YES 
-||  
-||  
+|| 17/09/2012 
+|| 27/09/2012 
 |-
 |}
 
