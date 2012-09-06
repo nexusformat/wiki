@@ -145,6 +145,14 @@ Please add your name to this table after registering for the meetings via the [h
 || 17/09/2012 
 || 27/09/2012 
 |-
+| [[User:Juergen Starek|Juergen Starek]]
+|| DESY
+|| YES 
+|| NO
+|| NO
+|| 17/09/2012 
+|| 19/09/2012 
+|-
 |}
 
 ==Agenda==
