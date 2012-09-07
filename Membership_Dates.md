@@ -13,10 +13,6 @@ stated in the [constitution](NIAC "wikilink").
 
 -   Emmanuel Farhi - Institut Laue Langevin, France
 
-### Expired October 5, 2009
-
--   Paul Kienzle - DANSE project, USA
-
 ### Expired October 24, 2010
 
 -   Nick Maliszewskyj - NIST Center for Neutron Research, USA
@@ -46,5 +42,5 @@ stated in the [constitution](NIAC "wikilink").
 -   Nick Hauser - Bragg Institute, Australia
 -   Ray Osborn - Argonne National Lab - non-facility member, USA
 -   Peter Peterson - Spallation Neutron Source, USA
--   Matthias Drochner - Forschungzentrum Juelich, Germany
+-   Joachim Wuttke - Forschungzentrum Juelich, Germany
 

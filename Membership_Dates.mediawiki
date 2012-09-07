@@ -3,9 +3,6 @@ The members of the NIAC, with the expiration of their membership is listed below
 ===Expired Feburary 3, 2009===
 *Emmanuel Farhi - Institut Laue Langevin, France
 
-===Expired October 5, 2009===
-*Paul Kienzle - DANSE project, USA
-
 ===Expired October 24, 2010===
 *Nick Maliszewskyj - NIST Center for Neutron Research, USA
 *Stephane Poirier - Synchrotron Soleil, France
@@ -30,4 +27,4 @@ The members of the NIAC, with the expiration of their membership is listed below
 *Nick Hauser - Bragg Institute, Australia 
 *Ray Osborn - Argonne National Lab - non-facility member, USA
 *Peter Peterson - Spallation Neutron Source, USA 
-*Matthias Drochner - Forschungzentrum Juelich, Germany
+*Joachim Wuttke - Forschungzentrum Juelich, Germany
