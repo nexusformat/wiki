@@ -41,8 +41,8 @@ You may contact the NIAC by sending an email to
 -   [Armando Sole](User%3AArmando_Sole "wikilink"), European Synchrotron
     Radiation Facility, France
 -   [Jiro Suzuki](User%3AJiro_Suzuki "wikilink"), KEK, Japan
--   [Ben Watts](User%3ABen_Watts "wikilink"), Swiss Light Source,
-    Switzerland
+-   [Benjamin Watts](http://www.psi.ch/lsc/benjamin-watts/), Swiss Light
+    Source, Switzerland
 -   [Joachim Wuttke](User%3AJoachim_Wuttke "wikilink") FRM II and JCNS,
     Germany
 
