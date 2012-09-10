@@ -164,8 +164,9 @@ Please add your name to this table after registering for the meetings via the [h
 |}
 
 ==Agenda==
-
+   
 ===NeXus Code Camp ===
+The code camp allows existing NeXus developers to meet and work together on developing software or resolving particular NeXus design issues. A preliminary list of items is listed below, but the exact subset is decided on the first day of the meeting.
 * Finish CIF coordinate issue
 * PyTree API Tests
 * Cleanup NeXus applications
@@ -181,6 +182,7 @@ Please add your name to this table after registering for the meetings via the [h
 * How to integrate sphinx documentation building into Cmake
 
 ===NIAC Meeting===
+This is a meeting for members of the NeXus International Advisory committee and other interested persons. It generally discusses matters of policy and strategy, but can discuss specific NeXus instrument definitions if the relevant experts are in attendance.     
 * Report on the status of NeXus and Overview
 * Voting officers
 * Strategy discussion: Where do we go with NeXus?
