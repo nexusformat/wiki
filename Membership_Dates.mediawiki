@@ -15,6 +15,7 @@ The members of the NIAC, with the expiration of their membership is listed below
 *Pete Jemian - APS, ANL, USA
 *Mark Koennecke - SINQ, Switzerland 
 *Jens-Uwe Hoffman - Helmholtz-Zentrum, Germany
+*Eugen Wintersberger - DESY, Germany
 
 ===Expire June 1, 2013===
 *Jiro Suzuki - J-PARC, Japan

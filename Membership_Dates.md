@@ -28,6 +28,7 @@ stated in the [constitution](NIAC "wikilink").
 -   Pete Jemian - APS, ANL, USA
 -   Mark Koennecke - SINQ, Switzerland
 -   Jens-Uwe Hoffman - Helmholtz-Zentrum, Germany
+-   Eugen Wintersberger - DESY, Germany
 
 ### Expire June 1, 2013
 
