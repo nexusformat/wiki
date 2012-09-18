@@ -43,6 +43,8 @@ You may contact the NIAC by sending an email to
 -   [Jiro Suzuki](User%3AJiro_Suzuki "wikilink"), KEK, Japan
 -   [Benjamin Watts](http://www.psi.ch/lsc/benjamin-watts/), Swiss Light
     Source, Switzerland
+-   [Eugen Wintersberger](User%3AEugenwintersberger "wikilink") DESY,
+    Germany
 -   [Joachim Wuttke](User%3AJoachim_Wuttke "wikilink") FRM II and JCNS,
     Germany
 
