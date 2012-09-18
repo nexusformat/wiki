@@ -28,7 +28,6 @@ stated in the [constitution](NIAC "wikilink").
 -   Pete Jemian - APS, ANL, USA
 -   Mark Koennecke - SINQ, Switzerland
 -   Jens-Uwe Hoffman - Helmholtz-Zentrum, Germany
--   Eugen Wintersberger - DESY, Germany
 
 ### Expire June 1, 2013
 
@@ -44,4 +43,8 @@ stated in the [constitution](NIAC "wikilink").
 -   Ray Osborn - Argonne National Lab - non-facility member, USA
 -   Peter Peterson - Spallation Neutron Source, USA
 -   Joachim Wuttke - Forschungzentrum Juelich, Germany
+
+### Expire March 1, 2014
+
+-   Eugen Wintersberger - DESY, Germany
 
