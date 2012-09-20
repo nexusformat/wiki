@@ -179,7 +179,7 @@ The code camp allows existing NeXus developers to meet and work together on deve
 * Automatisation and documentation of NeXus release process
 ** Implement Continuous Integration
 ** Write more unit tests
-* [[http://download.nexusformat.org/sphinx/ Change documentation from DocBook to Restructured Text (Sphinx)]]
+* [http://download.nexusformat.org/sphinx/ Change documentation from DocBook to Restructured Text (Sphinx)]
 * Cleanup trac-tickets
 * Discuss timed data
 * Develop a materials definition to present to NIAC
