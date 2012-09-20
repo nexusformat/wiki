@@ -1,7 +1,6 @@
 == How to contact the NIAC ==
 
-You may contact the NIAC by sending an email to
-mailto://nexus-committee@nexusformat.org
+You may contact the NIAC by sending an email to nexus-committee@nexusformat.org
 
 == [[Membership Dates|Current Members]] ==
 *[[User:Freddie Akeroyd|Frederick Akeroyd]], Rutherford Appleton Laboratory, UK (ISIS Representative, Technical Committee Chair)
