@@ -47,6 +47,7 @@ You may contact the NIAC by sending an email to
     Germany
 -   [Joachim Wuttke](User%3AJoachim_Wuttke "wikilink") FRM II and JCNS,
     Germany
+-   [Herbert Bernstein](User%3AHerbert_Bernstein "wikilink") ImgCIF
 
 The [expiration dates](Membership_Dates "wikilink") for the various
 members.
