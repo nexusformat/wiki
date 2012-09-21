@@ -207,7 +207,7 @@ This is a meeting for members of the NeXus International Advisory committee and 
 * Review of added synchrotron beamline  base classes
 * Will the tech committee be allowed decide on fields and base classes?
 
-===Meeting Minutes===
+==Meeting Minutes==
 20 Sept 2012
 Mark Koennecke SINQ, Fred Akeroyd RAL, Tobias Richter Diamond, Peter Peterson SNS, David Mannicke ANSTO, Armando Sole ESRF, Herbert Bernstein imgCIF, Jiro Suzuki JPARC, Joachim Wuttke FRM and JCNS, Ben Watts SLS, Eugen Wintersberger DESY, Jen-Uwe Hoffmann HMI, Steve Cottrell Diamond, Graeme Winter Diamond, Pete Jemian APS (via Skype)
 
