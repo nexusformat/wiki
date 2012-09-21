@@ -17,7 +17,7 @@ You may contact the NIAC by sending an email to
     Appleton Laboratory, UK (ISIS Representative, Technical Committee
     Chair)
 -   [Stuart Campbell](User%3AStuart_Campbell "wikilink") Spallation
-    Neutron Source, USA (Executive Secretary - non voting)
+    Neutron Source, USA
 -   [Bjorn Clausen](User%3ABjorn_Clausen "wikilink"), Los Alamos
     National Laboratory, USA
 -   [Stephen Cottrell](User%3ASteve_Cottrell "wikilink"), Rutherford
@@ -37,7 +37,7 @@ You may contact the NIAC by sending an email to
 -   [Peter Peterson](User%3APeter_Peterson "wikilink"), Spallation
     Neutron Source, USA
 -   [Tobias Richter](User%3ATobias_Richter "wikilink"), Diamond Light
-    Source, UK
+    Source, UK (Executive Secretary)
 -   [Armando Sole](User%3AArmando_Sole "wikilink"), European Synchrotron
     Radiation Facility, France
 -   [Jiro Suzuki](User%3AJiro_Suzuki "wikilink"), KEK, Japan

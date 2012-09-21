@@ -4,7 +4,7 @@ You may contact the NIAC by sending an email to [mailto:nexus-committee@nexusfor
 
 == [[Membership Dates|Current Members]] ==
 *[[User:Freddie Akeroyd|Frederick Akeroyd]], Rutherford Appleton Laboratory, UK (ISIS Representative, Technical Committee Chair)
-*[[User:Stuart Campbell|Stuart Campbell]] Spallation Neutron Source, USA (Executive Secretary - non voting)
+*[[User:Stuart Campbell|Stuart Campbell]] Spallation Neutron Source, USA 
 *[[User:Bjorn Clausen|Bjorn Clausen]], Los Alamos National Laboratory, USA
 *[[User:Steve Cottrell|Stephen Cottrell]], Rutherford Appleton Laboratory, UK (Muon Representative)
 *[[User:Matthias Drochner|Matthias Drochner]], Forschungzentrum Jülich, Germany
@@ -14,7 +14,7 @@ You may contact the NIAC by sending an email to [mailto:nexus-committee@nexusfor
 *[[User:Mark Koennecke|Mark Könnecke]], Paul Scherrer Institut, Switzerland (Chair)
 *[[User:Ray Osborn|Raymond Osborn]], Argonne National Laboratory, USA
 *[[User:Peter Peterson|Peter Peterson]], Spallation Neutron Source, USA 
-*[[User:Tobias Richter|Tobias Richter]], Diamond Light Source, UK
+*[[User:Tobias Richter|Tobias Richter]], Diamond Light Source, UK (Executive Secretary)
 *[[User:Armando Sole|Armando Sole]], European Synchrotron Radiation Facility, France
 *[[User:Jiro Suzuki|Jiro Suzuki]], KEK, Japan
 *[http://www.psi.ch/lsc/benjamin-watts Benjamin Watts], Swiss Light Source, Switzerland
