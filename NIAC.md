@@ -130,9 +130,8 @@ executive officers:
     holds the position does not need to be an existing member of the
     NIAC, and does not vote unless he/she is a regular member.
 
-All of these officers will be elected each year, effective at the end of
-the voting period set forth by the executive officers. The position of
-chair and executive secretary carry a term limit of three years.
+All of these officers will be elected for a two year term. The incumbent
+chair and executive secretary are limited to two consecutive terms.
 
 Voting:Only members of the NeXus International Advisory Committee will be able to vote on specific proposals that come under the remit of the committee. However, all debates will be conducted publicly and non-committee members are both allowed and encouraged to participate.  
 Topics voted on will require a simple majority unless specifically
