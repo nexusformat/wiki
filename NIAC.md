@@ -186,6 +186,7 @@ Meetings
 
 -   [NIAC 2012](NIAC2012 "wikilink") NeXus Code Camp and NIAC Meeting,
     hosted by ISIS and Diamond at RAL, Oxfordshire, UK, September 2012
+    ([minutes](NIAC2012#Meeting_Minutes "wikilink"))
 -   [NIAC 2011](NIAC2011_CodeCamp "wikilink") NeXus Code Camp and NIAC
     Meeting, APS, October 2011
     ([minutes](NIAC2011_CodeCamp#Final_Report "wikilink"))
