@@ -330,99 +330,133 @@ Attendees:
  Motion to accept CIF-style angle descriptions with discussed additions.
  Vote: for 9 against 0, abstain 4
 
-'Coffee break'
+''Coffee break''
 
 * Quo Vadis
- - Intro by Mark
-   - existence since 1996 and uptake is slow
-   - Do we persist in the same manner or change our ways?
-   - Others often reinvent NeXus
-   - New instruments often implement NeXus
-   - results of survey are surprisingly positive with more NeXus implementations than expected
-   - New developments:
-     - Dictionary Based Programming Techniques - Common Data Model (CDM)
-     - Tree Based Programming
-     - Requirements for data formats changing
-       - disks are cheap
-       - full logging becomes possible
-       - data rates are very high in some cases
- - AS: ESRF advocate dictionary/HDF5 and just use the few parts of NeXus they want and ignore the rest (very pragmatic view).
- - TR: Need to take larger view and not get tied up in technical details. need to engage with facilities using NeXus (eg ALBA).
- - BW: Need to emphasise community involvement - dictating standards is historical problem of creating an example to start with.
- - JW: What is NeXus, is it something interchangeable? Have we been truthful about what it can achieve? I have no problem in maintaining tools to convert data to whatever format the users ask for.
- - JH: Users want physical meaning for the data recorded, not just numbers whose meaning is obscured by instrument details. But to understand the instrument, also need more raw values.
- - MK: Different use cases; 1. understanding instrument (raw values), 2. exchange/data analysis (physical)
- - GW: Standard has value if I can read and understand a file without any further information. As soon as you move away from that, it becomes a huge problem to support the variants.
- - HB: Seen 2 issues; dictionary of names and format. People can use any format and you have no control anyway. The only thing you need is that every uses a common vocabulary. vocabularies tend to merge. separate vocab and application definitions.
- - FA: if we concentrate app defs and vocab, then we are working towards standards, tools are not required (there are plenty available). People are choosing HDF5, help them come together and talk.
- - GW: data rates are a problem - HDF5 are needed. Don't want to have facility-specific dialects of NeXus. Need consistence and completeness (single file).
- - AS: performance issues get in the way of a single file, multiple files must be acceptable.
- - GW: don't water it down - all or nothing!
- - EW: I tried to invent better than NeXus but failed. Users just want basic data, but beamline scientist want to record everything in order to know what the instrument is actually doing. Sometimes will need to correct for strange instrument behavior that requires info not normally needed by users. Making this general enough to use at more than one beamline quickly leads to something NeXus-like.
- - HB: Offer - if you can agree on your vocab, I'll give you an IUCr working group for adopting/working on your dictionary. I.e. CIF and NeXus join forces! 
- - JW: I support this. Clarity would help me. vocab is valuable to me, but formats are minor technical details.
- - EW: Important thing is to make entry to Nexus easy. Some instruments are unique and we don't have to worry about them. OO can help us define terms. 
- - HB: we use "prefixes" for namespaces, but are considering using general XML. want to make sure terms don't conflict.
- - PJ: have image that NeXus legislates, but we should put out message that we want to collaborate to reduce conflicts.
- - MK: make an action that we concentrate on dictionaries and appl defs.
- - GW: ImageCIF has good library that does a lot of work for me. It would be easier to persuade people to use Nexus if we had the same kind of library - part of analysis work is done by the library.
- - HB: maintaining libraries will get done if there is adoption.
- - GW: If we can get Nexus routines included in CBFlib, then my work becomes much easier. analysis program writers will not resist.
- - Everyone agrees that moving CIF and NeXus closer would be great.
- - HB: CIF will make addition docs for IUCr people and will put a link to NeXus doc from the IUCr website.
- - MK and HB: lets arrange a meeting between NIAC and IUCr to discuss cooperation.
- - GW and SC: want to make sure that IUCr don't steamroll vocabularies of other communities
+** Intro by Mark
+*** existence since 1996 and uptake is slow
+*** Do we persist in the same manner or change our ways?
+*** Others often reinvent NeXus
+*** New instruments often implement NeXus
+*** results of survey are surprisingly positive with more NeXus implementations than expected
+*** New developments:
+**** Dictionary Based Programming Techniques - Common Data Model (CDM)
+**** Tree Based Programming
+**** Requirements for data formats changing
+***** disks are cheap
+***** full logging becomes possible
+***** data rates are very high in some cases
+**Discussion
+AS: ESRF advocate dictionary/HDF5 and just use the few parts of NeXus they want and ignore the rest (very pragmatic view).
 
- - MK: Can we put NAPI into maintenance mode?
- - PP: what is status of validation tool?
- - FA: GUI tool works and I have used it, waiting for colleague to finish CLI tool
- - FA + HB: cooperation on validation tools could be useful. NeXus backend for CBFlib validation tool is possible.
- - MK: break for lunch and after lunch we will try to bring the discussion to a close.
+TR: Need to take larger view and not get tied up in technical details. need to engage with facilities using NeXus (eg ALBA).
 
-**Lunch break
+BW: Need to emphasise community involvement - dictating standards is historical problem of creating an example to start with.
+
+JW: What is NeXus, is it something interchangeable? Have we been truthful about what it can achieve? I have no problem in maintaining tools to convert data to whatever format the users ask for.
+
+JH: Users want physical meaning for the data recorded, not just numbers whose meaning is obscured by instrument details. But to understand the instrument, also need more raw values.
+
+MK: Different use cases; 1. understanding instrument (raw values), 2. exchange/data analysis (physical)
+
+GW: Standard has value if I can read and understand a file without any further information. As soon as you move away from that, it becomes a huge problem to support the variants.
+
+HB: Seen 2 issues; dictionary of names and format. People can use any format and you have no control anyway. The only thing you need is that every uses a common vocabulary. vocabularies tend to merge. separate vocab and application definitions.
+
+FA: if we concentrate app defs and vocab, then we are working towards standards, tools are not required (there are plenty available). People are choosing HDF5, help them come together and talk.
+
+GW: data rates are a problem - HDF5 are needed. Don't want to have facility-specific dialects of NeXus. Need consistence and completeness (single file).
+
+AS: performance issues get in the way of a single file, multiple files must be acceptable.
+
+GW: don't water it down - all or nothing!
+
+EW: I tried to invent better than NeXus but failed. Users just want basic data, but beamline scientist want to record everything in order to know what the instrument is actually doing. Sometimes will need to correct for strange instrument behavior that requires info not normally needed by users. Making this general enough to use at more than one beamline quickly leads to something NeXus-like.
+
+HB: Offer - if you can agree on your vocab, I'll give you an IUCr working group for adopting/working on your dictionary. I.e. CIF and NeXus join forces! 
+
+JW: I support this. Clarity would help me. vocab is valuable to me, but formats are minor technical details.
+
+EW: Important thing is to make entry to Nexus easy. Some instruments are unique and we don't have to worry about them. OO can help us define terms. 
+
+HB: we use "prefixes" for namespaces, but are considering using general XML. want to make sure terms don't conflict.
+
+PJ: have image that NeXus legislates, but we should put out message that we want to collaborate to reduce conflicts.
+
+MK: make an action that we concentrate on dictionaries and appl defs.
+
+GW: ImageCIF has good library that does a lot of work for me. It would be easier to persuade people to use Nexus if we had the same kind of library - part of analysis work is done by the library.
+
+HB: maintaining libraries will get done if there is adoption.
+
+GW: If we can get Nexus routines included in CBFlib, then my work becomes much easier. analysis program writers will not resist.
+
+Everyone agrees that moving CIF and NeXus closer would be great.
+
+HB: CIF will make addition docs for IUCr people and will put a link to NeXus doc from the IUCr website.
+
+MK and HB: lets arrange a meeting between NIAC and IUCr to discuss cooperation.
+
+GW and SC: want to make sure that IUCr don't steamroll vocabularies of other communities
+
+MK: Can we put NAPI into maintenance mode?
+
+PP: what is status of validation tool?
+
+FA: GUI tool works and I have used it, waiting for colleague to finish CLI tool
+
+FA + HB: cooperation on validation tools could be useful. NeXus backend for CBFlib validation tool is possible.
+
+MK: break for lunch and after lunch we will try to bring the discussion to a close.
+
+''Lunch break''
 
 * NeXus guiding statements:
- * The main focus of the NeXus community is to further develop the dictionaries, base classes and application definitions.
- * The NIAC is a forum for resolving issues.
- * The NIAC acts as a custodian for NeXus: definitions, examples, documentation, reference implementations.
- * NeXus can be mapped to different physical file formats:
-   * HDF5 is the preferred physical file format.
-   * NeXus-XML is the currently supported ASCII file format.
-- vote: for 8, against 1, abstain 0
+** The main focus of the NeXus community is to further develop the dictionaries, base classes and application definitions.
+** The NIAC is a forum for resolving issues.
+** The NIAC acts as a custodian for NeXus: definitions, examples, documentation, reference implementations.
+** NeXus can be mapped to different physical file formats:
+*** HDF5 is the preferred physical file format.
+*** NeXus-XML is the currently supported ASCII file format.
+ Motion to accept above statements.
+ vote: for 8, against 1, abstain 0
 
 * We should put together a wish-list of features to forward to the HDF group
 
-*Statements/promises:
- * NAPI and applications are considered stable
- * The use of NAPI is not mandatory and examples using HDF5 APIs will be provided
- * The validation tool is actively developed
-- vote: for 12, against 0, abstain 1
+* Statements/promises:
+** NAPI and applications are considered stable
+** The use of NAPI is not mandatory and examples using HDF5 APIs will be provided
+** The validation tool is actively developed
+ Motion to accept above statements.
+ vote: for 12, against 0, abstain 1
 
 * We seek cooperation with IUCr and CIF
-  * Have a meeting with them to figure out what this means
-    * Maybe have another NIAC next year to agree on this (in conjunction with ECM)
-    * MK volunteers to take a lead
-  * We encourage the inclusion of NeXus into CBFlib
+** Have a meeting with them to figure out what this means
+*** Maybe have another NIAC next year to agree on this (in conjunction with ECM)
+*** MK volunteers to take a lead
+** We encourage the inclusion of NeXus into CBFlib
 
 * We invest into cleaning up NeXus, remove outdated, old or broken stuff
 * We invest into documenting NeXus better through bringing inheritance or composition to NeXus base classes
--vote for 14
+ Motion to support above commitments.
+ vote for 14
 
-** Coffee break
+''Coffee break''
 
 * What do we do in terms of advocating NeXus?
- - Persue new facilities? existing instruments? Analysis/reduction software?
- * Support users and program writers on the mailing lists
- * NeXus-developers merged into NeXus mailing list
- * Approach facilities using NeXus but not represented in the NIAC and encourage them to nominate new NIAC candidates.
+** Persue new facilities? existing instruments? Analysis/reduction software?
+** Support users and program writers on the mailing lists
+** NeXus-developers merged into NeXus mailing list
+** Approach facilities using NeXus but not represented in the NIAC and encourage them to nominate new NIAC candidates.
 
-* HB elected into NIAC as the CIF representative. for 14, against 0 
+ Motion to elect HB into NIAC as the CIF representative.
+ vote for 14, against 0 
 
 * AS: proposes flattening the heirarchy in NeXus files.
- - What he really means is that the NXxas application appears to require links to specific locations and he wants the application definition to be simpler.
- - Do we want to allow application definitions to be flat and simple (not implement the full instrument description)?
-    - vote: for 12, against 2, abstain 1.
- * We recommend to use the NeXus heirarchy in application definitions, but we do accept application definitions with a flattened heirarchy.
+** What he really means is that the NXxas application appears to require links to specific locations and he wants the application definition to be simpler.
+ Motion to allow application definitions to be flat and simple (not implement the full instrument description)
+ vote: for 12, against 2, abstain 1.
+** We recommend to use the NeXus heirarchy in application definitions, but we do accept application definitions with a flattened hierarchy.
 
 
 * heading on web page is wrong: "NeXus Application Classes" --> "NeXus Application Definitions" in http://download.nexusformat.org/doc/html/ClassDefinitions.html
