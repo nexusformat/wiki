@@ -580,69 +580,83 @@ MK: people will want to know which things need to be correlated.
 
 * Interaction with HDF group?
 ** we should try, but we don't know if we have leverage to motivate them to pay attention
+
 EW: spoke to Heiner Billich: facilities should get together to make requests and pool funding - but should NeXus be part of this effort?
+
 MK: NIAC might not be a good representative for that activity, this is beyond the scope of NIAC.
+
 HB: Should make polite contact and say that we want HDF5 to work well - what can we do to help? What does the HDF group want the interaction with NIAC to be? NeXus should encourage the discussion.
- * motion to support AS to open discussion with the HDF group on behalf of the NIAC. vote - for 12, against 0, abstain 1
+
+ Motion to support AS to open discussion with the HDF group on behalf of the NIAC.
+ vote - for 12, against 0, abstain 1
 
 * Examples of NeXus data files following application definitions.
- - PP: we wrote application definitions to match our files, so I have some.
+
+PP: we wrote application definitions to match our files, so I have some.
+
 JW: is it working? why are there so few compliant examples?
+
 MK: It has taken some time to solidify a base to begin testing compliance
+
 HB: we have driving force from facilities
+
 BW: A code camp activity could be to generate example files for a new instrument.
 
- * Promises to supply valid example files:
-   - MK: 6-10
-   - PP, FA: 3
-   - SC: 1
-   - TR: 2
+ Promises to supply valid example files:
+  - MK: 6-10
+  - PP, FA: 3
+  - SC: 1
+  - TR: 2
 
 * Advocacy?
- - Not yet ready - need to examine files currently being generated for consistency. Need to clarify what we recommend.
- - We invite the community to write application definitions as a way of planning towards a standard, even if they don't intend to switch yet.
+** Not yet ready - need to examine files currently being generated for consistency. Need to clarify what we recommend.
+** We invite the community to write application definitions as a way of planning towards a standard, even if they don't intend to switch yet.
 
-* Optional fields in application definitions? vote - for all
- - while it is already possible, we clarify that we want it.
- - FA: is there a way to have the presence of one tag be dependent on the presence of another? TR thinks so.
+* Optional fields in application definitions?
+** while it is already possible, we clarify that we want it.
+ Motion to confirm that the feature allowing optional fields in application definitions is endorsed by the NIAC.
+ vote - for all
+FA: is there a way to have the presence of one tag be dependent on the presence of another? TR thinks so.
 
-*** Coffee break ***
+''Coffee break''
 
 * NXdetector additions for DECTRIS
- - "exposure_time" seems unlikely to be correct. "acquisition_time" is probably better. NXdetector already has "count_time".
- - typos
- - BW volunteers to discuss the subtlties of the words they want to use for the attributes
- - threshold_energy should be type NX_ENERGY
- - _time attributes should be type NX_TIME
- * Motion to encourage use of these attributes, with the corrections discussed. vote - for 12, against 0, abstain 1
+** "exposure_time" seems unlikely to be correct. "acquisition_time" is probably better. NXdetector already has "count_time".
+** typos
+** BW volunteers to discuss the subtlties of the words they want to use for the attributes
+** threshold_energy should be type NX_ENERGY
+** _time attributes should be type NX_TIME
+ Motion to encourage use of these attributes, with the corrections discussed.
+ vote - for 12, against 0, abstain 1
 
 * NXbending_magnet
- - Gerd Wellenreuther proposed attribute names. BW should discuss with him and sort out issues (specifically source_distance_x and __y)
- - BW to better document accepted_photon_beam_divergence (does it overlap with the divergence_x_minus etc?)
- - divergence attributes overlap - slight preference for a single array.
+** Gerd Wellenreuther proposed attribute names. BW should discuss with him and sort out issues (specifically source_distance_x and __y)
+** BW to better document accepted_photon_beam_divergence (does it overlap with the divergence_x_minus etc?)
+** divergence attributes overlap - slight preference for a single array over multiple scalar attributes.
 
 * NXcapillary
- - needs "material" attribute
- - need better documentation of "gain" and "transmission"
- - model should be included in the "manufacturer" string - add doc to explain
+** needs "material" attribute
+** need better documentation of "gain" and "transmission"
+** model should be included in the "manufacturer" string - add doc to explain
 
 
 * NXinsertion_device
- - should "taper" be an NX_LENGTH or an NX_ANGLE
- - can we change "k" to "k_parameter" in order to avoid single-character names?
- - add "period" attribute, or rename "magnetic_wavelength"
- - verify with Gerd Wellenreuther
+** should "taper" be an NX_LENGTH or an NX_ANGLE
+** can we change "k" to "k_parameter" in order to avoid single-character names?
+** add "period" attribute, or rename "magnetic_wavelength"
+** verify with Gerd Wellenreuther
 
 * NXxraylens
- - rename as "NXxray_refractive_lens" for descriptiveness and consistency
- - "aperture" doc to specify diameter only
- - correct lens_geometry options
- - Put to an expert because we don't have time/expertise
+** rename as "NXxray_refractive_lens" for descriptiveness and consistency
+** "aperture" doc to specify diameter only
+** correct lens_geometry options
+** Put to an expert because we don't have time/expertise
 
 * Term limits of Chairman and Secretary
- - currently limited to 3 years
- - problem if terms end between major meetings
- - want to make it more likely that term limits occur at full NIAC meetings
- * Motion to set the term length to 2 years and the limit for executive officers as two terms. for 11, against 0, abstain 0
+** currently limited to 3 years
+** problem if terms end between major meetings
+** want to make it more likely that term limits occur at full NIAC meetings
+ Motion to set the term length to 2 years and the limit for executive officers as two terms.
+ vote for 11, against 0, abstain 0
 
-*** Meeting End ***
+''Meeting End''
