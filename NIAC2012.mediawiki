@@ -210,111 +210,127 @@ This is a meeting for members of the NeXus International Advisory committee and 
 ==Meeting Minutes==
 Date: 20 Sept 2012
 
-Attendees: Mark Koennecke SINQ, Fred Akeroyd RAL, Tobias Richter Diamond, Peter Peterson SNS, David Mannicke ANSTO, Armando Sole ESRF, Herbert Bernstein imgCIF, Jiro Suzuki JPARC, Joachim Wuttke FRM and JCNS, Ben Watts SLS, Eugen Wintersberger DESY, Jen-Uwe Hoffmann HMI, Steve Cottrell Diamond, Graeme Winter Diamond, Pete Jemian APS (via Skype)
+Attendees: 
+* Mark Koennecke, SINQ
+* Fred Akeroyd, RAL
+* Tobias Richter, Diamond
+* Peter Peterson, SNS
+* David Mannicke, ANSTO
+* Armando Sole, ESRF
+* Herbert Bernstein, imgCIF
+* Jiro Suzuki, JPARC
+* Joachim Wuttke, FRM and JCNS
+* Ben Watts, SLS
+* Eugen Wintersberger, DESY
+* Jen-Uwe Hoffmann, HMI
+* Steve Cottrell, Diamond
+* Graeme Winter, Diamond
+* Pete Jemian, APS (via Skype)
 
 * introductions
 * Recap NeXus and recent developments
- - last meeting
-   - NXsubentry and NXcollection classes
-   - Support for CIF style coordinates
-   - Non C-storage order arrays: offset, stride atributes
-   - Python Tree API part of API
-   - 
+** Previous meeting
+*** NXsubentry and NXcollection classes
+*** Support for CIF style coordinates
+*** Non C-storage order arrays: offset, stride atributes
+*** Python Tree API part of API
+ 
 * HDRI: High Data Rate Initiative making something NeXus-like
- - Asked to revise synchrotron base classes
- - Eugen: software to write files is nearly ready and implementation will be installed at as many beamlines as possible in the Dec shutdown
+** Asked to revise synchrotron base classes
+** Eugen: software to write files is nearly ready and implementation will be installed at as many beamlines as possible in the Dec shutdown
 * PANDATA
- - NeXus at first well received
- - made plans for method-specific formats
- - Dormant
+** NeXus at first well received
+** made plans for method-specific formats
+** Dormant
 * 2011 Code Camp in APS
- - NX_unlimited for all dimensions
- - 64 bit dimensions
- - update to HDF5-1.8
- - Doc updates. now reasonable up to date and understandable.
- - WWW-site from manual
- - tests for python API 30% complete
- - Python Tree API cleaned up
- - Parallel HDF deemed not useful for NeXus because performance limited systems don't want any extras
+** NX_unlimited for all dimensions
+** 64 bit dimensions
+** update to HDF5-1.8
+** Doc updates. now reasonable up to date and understandable.
+** WWW-site from manual
+** tests for python API 30% complete
+** Python Tree API cleaned up
+** Parallel HDF deemed not useful for NeXus because performance limited systems don't want any extras
 * DECTRIS collaboration (Pilatus and Eiger manufacturer)
- - NeXus/HDF5 for Eiger
- - Add extra fields for detector parameters
- - write sets of ~10,000 images into separate files (workaround for data rate issues and HDF5 doesn't allow sections of same data group in different files)
- - write with compression (5-10GB/s data rates!!!)
- - 
+** NeXus/HDF5 for Eiger
+** Add extra fields for detector parameters
+** write sets of ~10,000 images into separate files (workaround for data rate issues and HDF5 doesn't allow sections of same data group in different files)
+** write with compression (5-10GB/s data rates!!!)
+ 
 * How much can we compromise with DECTRIS
- - Tool to convert data to standard HDF5 (they are using non-standard compression)
+** Tool to convert data to standard HDF5 (they are using non-standard compression)
 *HDF5 workshop at PSI
- - DECTRIS (DESY) pays for writing pre-compressed chunks and compression plugins
+** DECTRIS (DESY) pays for writing pre-compressed chunks and compression plugins
 * HDF5 new features
- - Asynchronous IO
- - Journaling
- - Single writer, multiple reader semantics
- - better fault tolerance
- - in-memory HDF5 files (very fast writing)
- - shared object headers
+** Asynchronous IO
+** Journaling
+** Single writer, multiple reader semantics
+** better fault tolerance
+** in-memory HDF5 files (very fast writing)
+** shared object headers
 * HDF5 intended features
- - better multi-threading
- - virtual object layer, completely replaces storage layer
-   - can use HDF5 data model without the file formats
-   - allows more storage models
-   - metadata server for better parallel support
-   - mirroring, stacking
- - better parallel support
+** better multi-threading
+** virtual object layer, completely replaces storage layer
+*** can use HDF5 data model without the file formats
+*** allows more storage models
+*** metadata server for better parallel support
+*** mirroring, stacking
+** better parallel support
 * NAPI release 4.3, Application defs 3.1
- - features from 2011 code camp
- - preparing packages in linux repos
+** features from 2011 code camp
+** preparing packages in linux repos
 * code camp 2012
- - move docs to sphinx
-   - more wiki-like syntax - easier!
-   - URL: ?? (bug in build process, so not quite ready yet)
- - cleaned up trac tickets
- - drop autoconf for CMake
- - Resolved CIF coordinate issue
- - good suggestion for handling axes of multidimensional data sets
- - cleanup of applications: nx2dtd, NXdump, ... dropped
+** move docs to sphinx
+*** more wiki-like syntax - easier!
+*** URL: ?? (bug in build process, so not quite ready yet)
+** cleaned up trac tickets
+** drop autoconf for CMake
+** Resolved CIF coordinate issue
+** good suggestion for handling axes of multidimensional data sets
+** cleanup of applications: nx2dtd, NXdump, ... dropped
 * Topics for NIAC 2012
- - Quo vadis
- - roadmap OO
- - CIF coordinates
- - process for changing base classes
- - review synchrotron classes
- - review addition to NXdetector
- - Materials defs
- - Multi-D array axes encoding
- - what to do about expired NIAC members?
- - Elect new officers
+** Quo vadis
+** roadmap OO
+** CIF coordinates
+** process for changing base classes
+** review synchrotron classes
+** review addition to NXdetector
+** Materials defs
+** Multi-D array axes encoding
+** what to do about expired NIAC members?
+** Elect new officers
 *Questions from code camp
- - anyone using NXcharacterisation?
- - who is using F77 API?
- - do we get into timed data?
+** anyone using NXcharacterisation?
+** who is using F77 API?
+** do we get into timed data?
 
 *discuss priorities (reordered below in descending priority)
- - Elect new officers (defer by 1 day to allow newcomers to get to know others)
- - Quo vadis
- - CIF coordinates
- - roadmap OO
- - Multi-D array axes encoding
- - Materials defs
- - what to do about expired NIAC members?
- - questions from code camp
-   - anyone using NXcharacterisation?
-   - who is using F77 API?
-   - do we get into timed data?
- - DECTRIS meeting
- - process for changing base classes
- - review synchrotron classes
- - review addition to NXdetector
+** Elect new officers (defer by 1 day to allow newcomers to get to know others)
+** Quo vadis
+** CIF coordinates
+** roadmap OO
+** Multi-D array axes encoding
+** Materials defs
+** what to do about expired NIAC members?
+** questions from code camp
+*** anyone using NXcharacterisation?
+*** who is using F77 API?
+*** do we get into timed data?
+** DECTRIS meeting
+** process for changing base classes
+** review synchrotron classes
+** review addition to NXdetector
 
 * CIF revisit (MK presents CIF and options for adaptation to NeXus)
- - Options:
-   - NXdependency group
-   - depends_on attribute (tech committe prefered and recommended by HB)
-     - make vector mandatory and add offset_unit
-     - HB will push CIF to make gravity declaration mandatory to ensure mapping between CIF and NeXus coords is possible
- - Vote: for 9 against 0, abstain 4
+** Options:
+*** NXdependency group
+*** depends_on attribute (tech committe prefered and recommended by HB)
+**** make vector mandatory and add offset_unit
+**** HB will push CIF to make gravity declaration mandatory to ensure mapping between CIF and NeXus coords is possible
+ Motion to accept CIF-style angle descriptions with discussed additions.
+ Vote: for 9 against 0, abstain 4
 
-**Coffee break
+'Coffee break'
 
 * Quo Vadis
  - Intro by Mark
