@@ -462,97 +462,124 @@ MK: break for lunch and after lunch we will try to bring the discussion to a clo
 * heading on web page is wrong: "NeXus Application Classes" --> "NeXus Application Definitions" in http://download.nexusformat.org/doc/html/ClassDefinitions.html
 
 * Who is using NXcharacterisation?
- - PP added it but isn't using it because icat is better.
- * deprecate it
+** PP added it but isn't using it because icat is better.
+** We deprecate it
 
 * continue support for the F77 API?
- - don't expend effort on it, but don't throw it away either.
+** don't expend effort on it, but don't throw it away either.
 
 * Examined NXarpes application definition
- - suggest talking to someone using a toroidal analyser
- - minor corrections pointed out.
+** suggest talking to someone using a toroidal analyser
+** minor corrections pointed out.
 
 *** END DAY ***
 
 21 Sept 2012
 
 * Elect new officers
- * Candidates:
-   - Chairman: MK; vote - for for 13, against 0, abstain 1
-   - Executive secretary: TR; vote - for for 13, against 0, abstain 1
-   - Technical chair: FA; vote - for for 13, against 0, abstain 1
-   - Documentation chair: PJ; vote - for for 14, against 0, abstain 0
+ Motion to elect MK as Chairman
+ vote - for for 13, against 0, abstain 1
+
+ Motion to elect TR as Executive Secretary
+ vote - for for 13, against 0, abstain 1
+
+ Motion to elect FA as Technical Chair
+ vote - for 13, against 0, abstain 1
+
+ Motion to elect PJ as Documentation Chair (PJ notes that his travel will be very limited)
+ vote - for for 14, against 0, abstain 0
 
 * PJ presents the new sphinx-generated documentation, using the draft currently available at: http://download.nexusformat.org/sphinx/
- - Looks nicer
- - not everything works currently, but can be fixed - no apparent show-stoppers.
- - cannot easily have automatic numbering of figures is biggest disadvantage
-   - MK, FA: that's OK, we can drop it.
+** Looks nicer
+** not everything works currently, but can be fixed - no apparent show-stoppers.
+** cannot easily have automatic numbering of figures is biggest disadvantage
+*** MK, FA: that's OK, we can drop it.
 
 * Roadmap to object oriented (OO) NeXus
- - base classes would be OO with some kind of inheritance
- - this would make the base classes clearer to users
- * vote: for 12, against 1, abstain 0
+** base classes would be OO with some kind of inheritance
+** this would make the base classes clearer to users
+ Motion to investigate possible technical implementations of NeXus with object oriented base classes.
+ vote: for 12, against 1, abstain 0
 
 * Multidimensional axes proposal from TR
- - use of @signal=I is easily confused with signal=1 (position is different though).
-   - suggest changing name
- - How many multiple competing versions do we want to encourage/support/allow?
- - How many plots should be put into each NXdata?
- * Move signal and axes attributes into NXdata group attributes. vote - for 12, against 0, abstain 2
- * Accept as a possible solution and invite TR to present sample implementations. vote - for 12, against 1, abstain 1
+** use of @signal=I is easily confused with signal=1 (position is different though).
+*** suggest changing name
+** How many multiple competing versions do we want to encourage/support/allow?
+** How many plots should be put into each NXdata?
+ Motion to move signal and axes attributes into NXdata group attributes.
+ vote - for 12, against 0, abstain 2
 
-*** Coffee Break ***
+ Motion to accept as a possible solution and invite TR to present sample implementations.
+ vote - for 12, against 1, abstain 1
+
+''Coffee Break''
 
 * DECTRIS
- - HDF5 doesn't support parallel writing with compression - need a workaround!
-   - write a master file (with metadata) with links to separate files for data (with ~10,000 images in each).
-   - want to use non-standard compression (not distributed with mainline HDF5 libraries)
-   - comment from code camp: ask for tool to convert to HDF5 standard compression.
- - Meeting with DECTRI and customers in October - who wants to attend? MK
- - FA: maybe use detector bank approach?
- - EW: split file drive approach would work better.
- - HB & MK: this is a bug in HDF5, but DECTRIS can't wait for it to be fixed (years)
- - EW: are they using the most recent version; performance problems before 1.8.6
- - HB: they are and plan to ship with 1.8.10
- * Motion to work as closely as possible with this community to get this under NeXus. vote - for all.
+** HDF5 doesn't support parallel writing with compression - need a workaround!
+*** write a master file (with metadata) with links to separate files for data (with ~10,000 images in each).
+*** want to use non-standard compression (not distributed with mainline HDF5 libraries)
+*** comment from code camp: ask for tool to convert to HDF5 standard compression.
+** Meeting with DECTRIS and customers in October - who wants to attend? MK
+
+FA: maybe use detector bank approach?
+
+EW: split file drive approach would work better.
+
+HB & MK: this is a bug in HDF5, but DECTRIS can't wait for it to be fixed (years)
+
+EW: are they using the most recent version; performance problems before 1.8.6
+
+HB: they are and plan to ship with 1.8.10
+
+ Motion to work as closely as possible with this community to get this under NeXus.
+ vote - for all.
 
 * BW presents mechanism for verifying communities and resolving conflicts
- - good idea and will keep in mind but do not want to consider implementing until a real need arises.
+** good idea and will keep in mind but do not want to consider implementing until a real need arises.
 
 * Process for ratifying changes to NeXus classes.
- - waiting for the NIAC to meet makes changes slow.
- - minor changes can waste time at NIAC meetings.
- - allow non-breaking changes to base classes, etc to be ratified via mailing lists?
- * Changes to base classes must be ratified tech committe and put on the nexus mailing list to allow a 4 week period for objections. vote - for 12
+** waiting for the NIAC to meet makes changes slow.
+** minor changes can waste time at NIAC meetings.
+** allow non-breaking changes to base classes, etc to be ratified via mailing lists?
+
+ Motion: Changes to base classes must be ratified tech committe and put on the nexus mailing list to allow a 4 week period for objections.
+ vote - for 12
 
 * Do we investigate better ways to record "timed data"
- - NXlog mostly works, but probably not optimal
- - HB: Verner Banger is collaborating with the HDF group on this topic - should look at his work
+** NXlog mostly works, but probably not optimal
+** HB: Verner Banger is collaborating with the HDF group on this topic - should look at his work
 
 BW: It would be nice if we could have option items in application definitions
+
 PP: Already can! you just set the "minimum required" attribute to zero.
 
-*** Lunch Break ***
+''Lunch Break''
 
 * Materials definition (samples, filters, multilayers)
- - Tech committee suggest just using a descriptive string
- - HB: look at protein data base and see what they are doing. follow community standards where they exist
- - EW: infinite levels of detail makes it impossible to standardise. Maybe use application definitions for community specific materials descriptions.
- - NXsample already has "chemical formula" (using CIF conventions), "description"
- - we would be open to suggestions from the community
+** Tech committee suggest just using a descriptive string
+** HB: look at protein data base and see what they are doing. follow community standards where they exist
+** EW: infinite levels of detail makes it impossible to standardise. Maybe use application definitions for community specific materials descriptions.
+** NXsample already has "chemical formula" (using CIF conventions), "description"
+** we would be open to suggestions from the community
 
 * Time based data
- - event streams need to be time-stamped and correlated
+** event streams need to be time-stamped and correlated
+
 EW: NXlog is fine if you have single values with time stamps. how to handle detectors?
+
 MK: You need to have a sufficiently precise timing system that all the computers have access to.
+
 AS: Market is maturing, let's wait and see what works in the community
+
 PP: why not just let time be an independent variable?
+
 MK: people will want to know which things need to be correlated.
-* Motion to ask tech committee to investigate possible solutions to recommend to users. vote - for 12, against 0, abstain 1
+
+ Motion to ask tech committee to investigate possible solutions to recommend to users.
+ vote - for 12, against 0, abstain 1
 
 * Interaction with HDF group?
- - we should try, but we don't know if we have leverage to motivate them to pay attention
+** we should try, but we don't know if we have leverage to motivate them to pay attention
 EW: spoke to Heiner Billich: facilities should get together to make requests and pool funding - but should NeXus be part of this effort?
 MK: NIAC might not be a good representative for that activity, this is beyond the scope of NIAC.
 HB: Should make polite contact and say that we want HDF5 to work well - what can we do to help? What does the HDF group want the interaction with NIAC to be? NeXus should encourage the discussion.
