@@ -48,3 +48,7 @@ stated in the [constitution](NIAC "wikilink").
 
 -   Eugen Wintersberger - DESY, Germany
 
+### Expire September 20, 2015
+
+-   Herbert Bernstein, ImgCIF
+
