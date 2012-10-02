@@ -43,11 +43,11 @@ You may contact the NIAC by sending an email to
 -   [Jiro Suzuki](User%3AJiro_Suzuki "wikilink"), KEK, Japan
 -   [Benjamin Watts](http://www.psi.ch/lsc/benjamin-watts), Swiss Light
     Source, Switzerland
--   [Eugen Wintersberger](User%3AEugenwintersberger "wikilink") DESY,
+-   [Eugen Wintersberger](User%3AEugenwintersberger "wikilink"), DESY,
     Germany
--   [Joachim Wuttke](User%3AJoachim_Wuttke "wikilink") FRM II and JCNS,
+-   [Joachim Wuttke](User%3AJoachim_Wuttke "wikilink"), FRM II and JCNS,
     Germany
--   [Herbert Bernstein](User%3AHerbert_Bernstein "wikilink") ImgCIF
+-   [Herbert Bernstein](User%3AHerbert_Bernstein "wikilink"), ImgCIF
 
 The [expiration dates](Membership_Dates "wikilink") for the various
 members.
