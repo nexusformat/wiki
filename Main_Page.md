@@ -19,7 +19,7 @@ in the analysis and visualization of neutron, x-ray, and muon data.
 [NeXus Utilities](http://download.nexusformat.org/doc/html/utilities.html):Software applications that browse, plot, and analyze NeXus data.  
 [NeXus FAQ](http://download.nexusformat.org/doc/html/faq.html):A list of commonly asked questions about NeXus.  
 [NeXus Discussions](Discussions "wikilink"):A forum for discussing any aspects of the NeXus format.  
-[NeXus Mailing Lists](http://download.nexusformat.org/doc/html/mailing_lists.html):Mailing lists covering different aspects of the NeXus format.  
+[NeXus Mailing Lists](http://download.nexusformat.org/doc/html/mailinglist.html):Mailing lists covering different aspects of the NeXus format.  
 [NeXus International Advisory Committee](NIAC "wikilink"):Charged with supervising the development and maintenance of the NeXus format.  
 
 :\* Most recent meeting: ISIS and Diamond at RAL, Oxfordshire, UK,
