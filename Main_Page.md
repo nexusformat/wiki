@@ -14,7 +14,7 @@ in the analysis and visualization of neutron, x-ray, and muon data.
 [<http://www.nexusformat.org>](http://www.nexusformat.org)**
 
 [NeXus Introduction](http://download.nexusformat.org/doc/html/introduction.html):Introduction to the concepts behind the NeXus data format.  
-[NeXus Documentation](Documentation "wikilink"):Links to the most current documentation of [NeXus](http://download.nexusformat.org/doc/html/user_manual.html), the [classes](http://download.nexusformat.org/doc/html/class_definitions.html), [API](http://download.nexusformat.org/doc/html/napi.html), and [NXDL](http://download.nexusformat.org/doc/html/nxdl.html). Also [install kits for documentation and NXDL](http://download.nexusformat.org/kits/definitions/)  
+[NeXus Documentation](Documentation "wikilink"):Links to the most current documentation of [NeXus](http://download.nexusformat.org/doc/html/user_manual.html), the [classes](http://download.nexusformat.org/doc/html/classes/index.html), [API](http://download.nexusformat.org/doc/html/napi.html), and [NXDL](http://download.nexusformat.org/doc/html/nxdl.html). Also [install kits for documentation and NXDL](http://download.nexusformat.org/kits/definitions/)  
 [NeXus Design](http://download.nexusformat.org/doc/html/design.html): The hierarchical design of NeXus files.  
 [NeXus Utilities](http://download.nexusformat.org/doc/html/utilities.html):Software applications that browse, plot, and analyze NeXus data.  
 [NeXus FAQ](http://download.nexusformat.org/doc/html/faq.html):A list of commonly asked questions about NeXus.  
