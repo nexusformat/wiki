@@ -1,6 +1,8 @@
 This is from an discussion about additions/modifications to NXdetector 
 to help Dectris as it decides to write raw image data into HDF5/NeXus format.
 
+NOTE from Pete Jemian:  Once this discussion reaches a point of decision, the discussion described below should be moved to the Discussion page and the points decided go here.  And this note should then be removed.
+
 ==on 2012-10-04, Mark Koennecke wrote==
 
 <pre>
@@ -267,4 +269,219 @@ might affect "NXdetector_group".
 
 
 Pete
+</pre>
+
+
+==on 2012-10-19, Mark Koennecke wrote==
+
+<pre>
+> I'm with Ben on the critique of the "exposure_time".
+
+I was of the impression that we decided on the last Telco to make them use count_time.
+This is what I forwarded to them. 
+
+...
+> There are more complicated schemes for non-regular/rectangular, 
+> e.g. hexagonal pixels. I'd suggest we deal with those as and when required.
+
+Can you please give an example of a NXdetector_element group with this? 
+I agree that having those
+arrays is a tad  overkill.
+
+Concerning Pete's reply:
+
+yes, NXdetector is the class which would benefit the most if we take apart NeXus to become
+more OO-oriented. IMHO, in NXdetector there are two opposing forces:
+
+- We already have a  means to describe each detector pixel individually. This is the most general
+  case. But this is cumbersome.
+- We wish to maintain the spatiality of the detector in order to give the user what she expects: if she
+  has an area detector, she should see that on file. And not a description of each pixel.
+
+When entering the realm of OO-NeXus I am now starting to think more of interfaces. OO does not match so
+well anyway. And I have reservation against a more complicated hierarchy anyway.
+The interface approach would mean: You start with a plain NXdetector, if you a 2D you add these fields,
+if you have TOF do this, if you have 2D and TOF do this,  etc.
+
+So, I think we could go quick with a solution to the problem: if you have a patched together detector
+do this. I do wish to give DECTRIS a timely answer on this. May be modelled on CIFS approach.
+
+Have a nice weekend,
+
+                Mark
+</pre>
+
+
+==on 2012-10-23, Mark Koennecke wrote==
+
+<pre>
+> This is just a (hopefully) complete illustration to show what 
+> we need to specify. I am more than happy for suggestions to modify this.
+
+This is another version of what I have suggested, but has the advantage that we do not need
+x and y arrays. I can live with this, all necessary data is specified. 
+As was with my suggestions.  Just wasting some more space....
+
+> We would also need to make sure that interpreting the detector 
+> in the traditional way fails. Otherwise software will pick up 
+> the wrong geometry.
+
+Please elaborate. 
+
+> I am not sure why we are in such a rush, though...
+
+The thing is that DECTRIS wishes to call two meetings pretty soon and until then the thing
+should be ready. And early, such that they can prepare example files,  reading code etc...
+
+The first of this meeting, with DA analysis SW people will already by end of november. As
+DECTRIS pays for it, it is s a closed meeting.
+
+The second,  with a larger audience including those of you who want, will be in January.
+
+This is why I try to rush this.   Waiting for the next code camp or NIAC meeting will not do.
+
+> Bottom line is: It should not be too obvious that institutions actually 
+> devoting manpower towards NeXus do not receive the same fast-track 
+> service for their requirements.
+
+Well, I think this DECTRIS thing is important to get NeXus through the door of many facilities.
+IMHO  a little exertion on our side is justified.
+
+
+Regards,
+
+       Mark 
+</pre>
+
+
+==on 2012-10-23, Ben Watts wrote==
+
+<pre>
+This is exactly what the NeXus version numbers should be used for. We
+should try to make clear distinctions between new and old formats so
+that software reading the files doesn't have to guess.
+
+Ben
+</pre>
+
+
+==on 2012-10-23, Tobias Richter wrote==
+
+<pre>
+Hi Pete,
+
+My idea is that ideally algorithms based on the existing geometry 
+specifications should somehow fail when reading an NXdetector group 
+containing modules. Otherwise they silently base their reduction or 
+analysis on a wrong geometry and if only one or two of 8 modules 
+are displaced that might not have a directly noticeable effect in the data. 
+
+When automatically discovering the geometry fails, the user will 
+need to look at the file and find that some modules are not in 
+the expected place. That's fine and they can react to that 
+situation (by handing the problem to a programmer). 
+</pre>
+
+
+==on 2012-10-25, V. Armando Solé wrote==
+
+<pre>
+...
+
+I do not know if Mark suggested that "we can work on different 
+time scales for adding Dectris definitions and making sure files 
+can be reliably understood on the other hand" but it seems to me 
+that it is of your interest to get Dectris adopting something 
+that you can call "NeXus" and not something you can only call "HDF5".
+
+Just to illustrate my point of view: if needed, I would go as 
+far as accepting an NX_DECTRIS group giving them full freedom 
+(what in fact they have it)
+
+Best regards,
+
+Armando
+
+</pre>
+
+This was followed by '''''I agree''''' messages from Andy Gotz and Herbert Bernstein.
+
+==on 2012-10-25, Ray Osborn wrote==
+
+<pre>
+
+On Oct 25, 2012, at 1:22 AM, V. Armando Solé <sole@esrf.fr> wrote:
+
+> I do not know if Mark suggested that "we can work on different 
+> time scales for adding Dectris definitions and making sure 
+> files can be reliably understood on the other hand" but it 
+> seems to me that it is of your interest to get Dectris adopting 
+> something that you can call "NeXus" and not something you can 
+> only call "HDF5".
+
+Well, this is the NeXus mailing list, not the HDF5 mailing list? 
+
+> Just to illustrate my point of view: if needed, I would go as 
+> far as accepting an NX_DECTRIS group giving them full freedom 
+> (what in fact they have it)
+
+Because when we write software to access detectors, we will have 
+to write it as a bunch of switch statements for every proprietary 
+detector (and then read the manual for every one).
+
+I would like to contribute to this debate if I can, but it's now 
+become impossible to follow the thread. Can I suggest that this 
+kind of discussion is better handled on the wiki, with its attached 
+comment statement. Mark did a good job of stating the problem at 
+the beginning, although I am a bit behind the curve on the way 
+that CIF handles geometries. Can that be put on a wiki page and 
+modified by Mark whenever a consensus emerges, resulting in a 
+final vote by the NIAC? Mark probably needs to prompt the list 
+if the wiki becomes inactive, but at least the thread of comments 
+will be easier to follow.
+
+Also, what is the deadline? If DECTRIS need an answer by a certain 
+date, we had better honour it if possible.
+
+Just my thoughts,
+Ray
+</pre>
+
+==on 2012-10-25, V. Armando Solé wrote==
+
+<pre>
+Hi Ray,
+
+On 25/10/2012 15:20, Ray Osborn wrote:
+> On Oct 25, 2012, at 1:22 AM, V. Armando Solé <sole@esrf.fr> wrote:
+>
+>> Just to illustrate my point of view: if needed, I would 
+>> go as far as accepting an NX_DECTRIS group giving them 
+>> full freedom (what  in fact they have it)
+> Because when we write software to access detectors, we 
+> will have to write it as a bunch of switch statements for 
+> every proprietary detector (and then read the manual for 
+> every one).
+
+
+You seem to have missed the "if needed"
+
+I know that it would be a pain to have to follow all the switch 
+statements, but unfortunately I am afraid that is going to be 
+anyways the case because the NX_detector group on its own is 
+too broad because it covers 0D, 1D and 2D detectors. Of course 
+this is just my opinion and I exposed it on last NIAC where 
+I gave a testimonial vote in a discussion concerning the 
+NXdetector group.
+
+I put all my hope about getting something useful out of NeXus 
+on the application definitions. Therefore I do not provide 
+excessive relevance to *where* the data are. *What* the data 
+are is a completely different history and things like pixel 
+size and exposure time should mean the same for every 
+2D detector.
+
+Best regards,
+
+Armando 
 </pre>
