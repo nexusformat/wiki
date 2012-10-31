@@ -1,0 +1,270 @@
+This is from an discussion about additions/modifications to NXdetector 
+to help Dectris as it decides to write raw image data into HDF5/NeXus format.
+
+==on 2012-10-04, Mark Koennecke wrote==
+
+<pre>
+Hi,
+
+there are still some open points about the DECTRIS detector which have
+come up.
+
+First the time issue: I got better documentation what the times actually
+mean:
+
+frame_time = exposure_time + detector_readout_time
+frame_time:    time at which data is sent to readout-computer, i.e. 
+defines the speed of the data collection or the speed and can be put on the same level as
+exposure time for an integrating detector (like a CCD, Imaging Plate,...)
+exposure_time:    time during which detector counts X-rays
+detector_readout_time:  time the detector takes for a complete readout
+of all chips, i.e. defines the minimum time after
+which the detector can count again
+
+With this explanation, are we now happy with the names?
+
+And a new issue came up: detector modules. The EIGER detector consists
+of various modules which are arranged to build the full detector. There
+are gaps between the modules.  The EIGER SW calculates a combined image
+from the contributions of the modules. In the case of a flat detector
+the DA SW looks at the mask to find out about gaps. 
+Happiness all around.
+
+But the modules may be arranged along an arbitrary form, may be half
+sphere. The detector SW will still recombine the modules to an image,
+just for the user to look at it. But then the DA SW needs the position
+and orientation of the individual modules. And an indication at which
+indices the module starts in the combined image. The question is now how
+to describe those modules. As the DA may need it, this is no longer
+DECTRIS private but should be addressed by us.
+
+The first option would be to have NXgeometries in NXdetector:
+
+NXdetector
+	  module01,NXgeometry
+			   NXtranslation
+			   NXorientation
+
+	 module02,NXgeometry
+			  NXtranslation
+			  NXorientation
+
+	.....
+This option is missing the index information. I am not sure if we want
+to add that to NXgeometry. I am also not sure if we still wish to
+advocate the use of NXgeometry. IMHO, the CIF mapping is better and
+NXgeometry may be deprecated soon.. But is not yet....
+
+The second option would be a new group: NXdetector_module looking like
+this:
+
+NXdetector
+		  module01,NXdetector_module
+				  x[nx]
+					 @offset=...
+					 @vector= ...
+				  y[ny]
+					 @offset=...
+					 @vector=....
+				 x_data_offset
+				 y_data_offset
+The x any y arrays describe the pixels of the module, the offset and
+vector attributes the position and orientation in space. The indices go
+into the x,y_data_offset.
+
+Of course there are other options......
+
+What do you think? We should reach an agreement at the next telco
+latest.
+
+Best Regards,
+
+				 Mark Koennecke
+</pre>
+
+
+==on 2012-10-04, Herbert Bernstein wrote==
+
+<pre>
+Dear Colleagues,
+
+  This is a good idea.
+
+  What you are think of as a "module", imgCIF thinks of as an "element",
+and the default assumption is that all detectors consist of multiple elements,
+just that some detectors have only one element.  This allows for arbitrarily
+complex detector configurations.   I think you will find this approach
+useful in general, not just for the DECTRIS detectors.
+
+  Regards,
+    Herbert 
+</pre>
+
+
+==on 2012-10-04, Ben Watts wrote==
+
+<pre>
+Hi,
+   I'm happy with all the names except that "exposure_time", which is
+clearly used in contradiction to the meaning of the word "exposure" and
+the nature of the hardware. (Only a light source or shutter would
+control an actual exposure time.) If a new field is required, then I
+would prefer it be named "accumulation_time". However, the field
+"count_time" already exists in NXdetector and would suit the purposes of
+DECTRIS perfectly well. My reccommendation therefore is that DECTRIS use
+"count_time" instead of making a new "exposure_time" field. 
+
+For describing the positions of the detector modules, I vote for the
+CIF-like option since forward-compatibility is more of an issue than
+backwards-compatibility in this case.
+
+Cheers,
+Ben
+</pre>
+
+
+==on 2012-10-18, Tobias Richter wrote==
+
+<pre>
+Hi,
+
+I'm with Ben on the critique of the "exposure_time".
+
+For the modules one problem is that the "data" will be one big 
+image array. So we need to identify the module slice with 
+something [x,y,dx,dy]. This would apply to the last 
+slicerank/2 dimensions of the dataset (in case of scans).
+
+With that if you have one displaced module were this in the data:
+
++--------------+
+|              |
+|              |
+|              |
+|         +----+
+|         |    |
++---------+----+
+
+Is actually like this in real space:
+
++--------------+      +----+
+|              |      |    |
+|              |      +----+
+|              |
+|         +----+
+|         |
++---------+
+
+
+You would need to describe that as at least three modules 
+unless we make the scheme more complex.
+
+For the elements the (simplified) CIF standard uses
+* an origin relative to the nominal detector position
+* a fast vector with pixel displacement along it
+* a slow vector with pixel displacement along it
+The detector normal is in the direction of the cross 
+product of the two vectors.
+There are more complicated schemes for non-regular/rectangular, 
+e.g. hexagonal pixels. I'd suggest we deal with those as and 
+when required.
+
+I am not sure how this translates into your second option, Mark.
+If we assume the pixels are all evenly spaced, I think we do not 
+need the arrays for the positions, though.
+
+Comments?
+
+Tobias
+</pre>
+
+
+==on 2012-10-18, Pete Jemian wrote==
+
+<pre>
+
+exposure_time
+-------------
+
+same problems for me on exposure_time ...
+
+http://download.nexusformat.org/doc/html/classes/base_classes/NXdetector.html
+
+In the current NXdetector, we have no "exposure_time" field 
+(although the docstrings for "trigger_dead_time" and "frame_time" 
+use it to define these fields).
+
+What is the difference between the proposed "exposure_time" 
+and the already existing fields?  (I don't see the difference.)
+
+  count_time   Elapsed actual counting time
+
+  NXdata/real_time
+               real-time of the exposure
+               (use this if exposure time varies for
+               each array element, otherwise use
+               count_time field)
+
+
+frame_time
+----------
+
+Also, the definition provided for "frame_time" is not clear at all.  
+As it reads now:
+
+frame_time = exposure_time + detector_readout_time
+
+    time at which data is sent to readout-computer,
+    i.e. defines the speed of the data collection
+    or the speed and can be put on the same level
+    as exposure time for an integrating detector
+    (like a CCD, Imaging Plate,...)
+
+The math says it is an elapsed time (NX_NUMBER), such as "422.3 s".
+First line of comment suggests to me this is a time on the
+   clock (ISO-8601 time) such as "2012-10-18 11:02:05 CDT"
+Second line says it is a speed (mathematical inverse of a time).
+Third line makes no sense unless missing words are added.
+Fourth line says it is a time.
+
+
+detector_readout_time
+---------------------
+
+Regarding the comment for "detector_readout_time" (this field 
+already exists in NXdetector), should this comment be added to 
+the existing docstring for this field?  Better to "blend" it in, such as:
+
+detector_readout_time
+        Time it takes for a complete readout of detector chips
+        (typically milliseconds).  Defines the minimum time
+        after which the detector can count again.
+        This is important to know for time resolved experiments.
+
+
+
+all detectors consist of multiple elements
+------------------------------------------
+
+This should be at the heart of the NXdetector model, allowing for 
+N multi-dimensional elements.  Even allow for the pathological case 
+where one element might be 1-D while another might be 2-D.  
+(Who has such a beast?)  Each element has a geometry and offset 
+that can be different from any other.  The notion that any or all 
+elements can be resolved down to a 2-D image is not guaranteed 
+(such as for the pathological case noted above or the case described 
+by Tobias) but should be possible for design where an image is logical, 
+such as the Pilatus or Eiger detectors.  The job of NXdetector is to 
+store the data from a detector, including a description of the 
+arrangement of all the detector elements in their native dimensions: 
+spatial, spectral, chronological, etc.
+
+Maybe it is time for a complete review of NXdetector in its entirety?
+
+Do we have a good example use of "NXdetector_group"?
+The proposition of "NXdetector_module (or "NXdetector_element") 
+might affect "NXdetector_group".
+
+
+Pete
+</pre>
