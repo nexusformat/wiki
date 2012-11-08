@@ -8,468 +8,167 @@ This is from an discussion about additions/modifications to NXdetector
 to help Dectris as it decides to write raw image data into HDF5/NeXus
 format.
 
-NOTE from Pete Jemian: Once this discussion reaches a point of decision,
-the discussion described below should be moved to the Discussion page
-and the points decided go here. And this note should then be removed.
-
-on 2012-10-04, Mark Koennecke wrote
+on 2012-11-07, Mark Koennecke wrote
 -----------------------------------
 
     Hi,
 
-    there are still some open points about the DECTRIS detector which have
-    come up.
+    at the last teleconference we agreed that I do a summary of the state and 
+    options on the DECTRIS/detector_element issue. Well, this is it.
 
-    First the time issue: I got better documentation what the times actually
-    mean:
+    In the meantime the information came in that DECTRIS is joining the two 
+    planned workshops with a date in mid-january. Thus I assume we have a little 
+    more time to sort this out. 
 
-    frame_time = exposure_time + detector_readout_time
-    frame_time:    time at which data is sent to readout-computer, i.e. 
-    defines the speed of the data collection or the speed and can be put on the same level as
-    exposure time for an integrating detector (like a CCD, Imaging Plate,...)
-    exposure_time:    time during which detector counts X-rays
-    detector_readout_time:  time the detector takes for a complete readout
-    of all chips, i.e. defines the minimum time after
-    which the detector can count again
+    First the more political part: [...omitted...]
 
-    With this explanation, are we now happy with the names?
+    Now the more technical part: let us start with a description of the problem:
 
-    And a new issue came up: detector modules. The EIGER detector consists
-    of various modules which are arranged to build the full detector. There
-    are gaps between the modules.  The EIGER SW calculates a combined image
-    from the contributions of the modules. In the case of a flat detector
-    the DA SW looks at the mask to find out about gaps. 
-    Happiness all around.
+    The EIGER (and other) detector is composed of multiple modules. All is fine 
+    as long as these modules are arranged on a regular grid in order to form one 
+    joint image. This can be easily stored in one NXdetector group. A mask stored 
+    with the data gives information which pixels are valied and which are boundaries. 
 
-    But the modules may be arranged along an arbitrary form, may be half
-    sphere. The detector SW will still recombine the modules to an image,
-    just for the user to look at it. But then the DA SW needs the position
-    and orientation of the individual modules. And an indication at which
-    indices the module starts in the combined image. The question is now how
-    to describe those modules. As the DA may need it, this is no longer
-    DECTRIS private but should be addressed by us.
+    The problem starts when the individual modules are arranged in an irregular 
+    arrangement: for example on a half sphere. Then there are two requirements:
+    - The user still wants to see an image merged from the individual modules 
+      in order to quickly get an overview of the data. This requirement is best 
+      fulfilled by keeping the data in one fat array. 
+    - For proper data analysis, more information on each individual module is 
+      needed. This is:
+      
+      * The position of the module within the pixel array, offset and size
+      * The physical position and orientation of the module with respect to
+        the detector as a whole
+        
+    In order to handle this, there are several propositions.
 
-    The first option would be to have NXgeometries in NXdetector:
+
+    Use NXgeometry
+    ================
 
     NXdetector
-          module01,NXgeometry
-                   NXtranslation
-                   NXorientation
+      module01,NXgeometry
+           NXtranslation
+           NXorientation
 
-         module02,NXgeometry
-                  NXtranslation
-                  NXorientation
+       module02,NXgeometry
+           NXtranslation
+           NXorientation
 
-        .....
+    .....
     This option is missing the index information. I am not sure if we want
     to add that to NXgeometry. I am also not sure if we still wish to
     advocate the use of NXgeometry. IMHO, the CIF mapping is better and
     NXgeometry may be deprecated soon.. But is not yet....
 
-    The second option would be a new group: NXdetector_module looking like
+
+    NXdetector_element
+    ======================
+
+    The second option would be a new group: NXdetector_element looking like
     this:
 
     NXdetector
-              module01,NXdetector_module
-                      x[nx]
-                         @offset=...
-                         @vector= ...
-                      y[ny]
-                         @offset=...
-                         @vector=....
-                     x_data_offset
-                     y_data_offset
-    The x any y arrays describe the pixels of the module, the offset and
-    vector attributes the position and orientation in space. The indices go
-    into the x,y_data_offset.
+         distance
+         module01,NXdetector_element
+           x[nx]
+             @transformation_type=translation
+             @offset=x,y,z 
+             @vector= ...
+         depends_on=/entry/instrument/detector/distance 
+           y[ny]
+             @transformation_type=translation
+             @offset=0,0,0
+             @vector=....
+         depends_on=x
+           pixel_offset[2]=x,y
+           
+    The x any y arrays describe the pixels of the module. This is wasting 
+    space as it is for example for x: x[0]=0*pixelsize, x[1] = 1*pixelsize,... 
+    The offset and vector attributes the position and orientation in space. 
+    The start indices go into the pixel_offset
 
-    Of course there are other options......
+       
+    Tobias Suggestion
+    =====================
 
-    What do you think? We should reach an agreement at the next telco
-    latest.
+    A variant based on the way CIF handles the same problem
+
+    detector:NXdetector
+         data[j,k,l] = [....]
+         detector_arm[1] = [250]
+             @transformation=translation
+             @vector={1,0,0}
+             @units=cm
+             @depends_on=/entry/instrument/something/brick
+         depends_on=detector_arm
+         module:NXdetector_module
+             data_origin[2] = [l,m]
+             data_size[2] = [n,o]
+             module_offset[1] = [250]
+                 @transformation=translation
+                 @vector={0,1,1}
+                 @units=mm
+                 @depends_on="../detector_arm"
+             fast_pixel_direction[1] = [0.172]
+                 @transformation=translation
+                 @vector={1,0,0}
+                 @units=mm
+                 @depends_on="module_offset"
+             slow_pixel_direction[1] = [0.172]
+                 @transformation=translation
+                 @vector={0,1,0}
+                 @units=mm
+                 @depends_on="module_offset"
+         module:NXdetector_module
+             ....
+
+    This uses less space.
+
+
+    SNS Usage
+    ==============
+
+    SNS had a similar problem and has resolved the issue by storing each detector 
+    module in a separate NXdetector group. This works perfectly and would require 
+    no change on our side. However, this would mean that DECTRIS would need to 
+    change their data writing for this case. And vieweing the total image cannot be 
+    done easily anymore without a reconstruction in SW or a duplication of data.
+
+    This looks like:
+
+    module01,NXdetector
+          data[NP,i,j]
+          distance
+          ......
+    module02,NXdetector
+          data[NP,ij]
+          distance...
+    ....
+
+
+    The General Case
+    ====================
+
+    What also works is the existing facility in NeXus to describe each 
+    pixel individually. Any pixel gets an ID and there are arrays for 
+    distance, coordinates etc which are nPixel long. With nPixel being  
+    the total number of pixels. But this would again destroy the image.
+
+    This looks like:
+
+    detector,NXdetector
+         data[NP,nPixel]
+         distance[nPixel]
+         x_pixel_offset[nPixel]
+         y_pixel_offset[nPixel]
+         ....
+         
+    Of course they may be many more options. But I hope these are enough 
+    to find a solution
+
 
     Best Regards,
 
-                     Mark Koennecke
-
-on 2012-10-04, Herbert Bernstein wrote
---------------------------------------
-
-    Dear Colleagues,
-
-      This is a good idea.
-
-      What you are think of as a "module", imgCIF thinks of as an "element",
-    and the default assumption is that all detectors consist of multiple elements,
-    just that some detectors have only one element.  This allows for arbitrarily
-    complex detector configurations.   I think you will find this approach
-    useful in general, not just for the DECTRIS detectors.
-
-      Regards,
-        Herbert 
-
-on 2012-10-04, Ben Watts wrote
-------------------------------
-
-    Hi,
-       I'm happy with all the names except that "exposure_time", which is
-    clearly used in contradiction to the meaning of the word "exposure" and
-    the nature of the hardware. (Only a light source or shutter would
-    control an actual exposure time.) If a new field is required, then I
-    would prefer it be named "accumulation_time". However, the field
-    "count_time" already exists in NXdetector and would suit the purposes of
-    DECTRIS perfectly well. My reccommendation therefore is that DECTRIS use
-    "count_time" instead of making a new "exposure_time" field. 
-
-    For describing the positions of the detector modules, I vote for the
-    CIF-like option since forward-compatibility is more of an issue than
-    backwards-compatibility in this case.
-
-    Cheers,
-    Ben
-
-on 2012-10-18, Tobias Richter wrote
------------------------------------
-
-    Hi,
-
-    I'm with Ben on the critique of the "exposure_time".
-
-    For the modules one problem is that the "data" will be one big 
-    image array. So we need to identify the module slice with 
-    something [x,y,dx,dy]. This would apply to the last 
-    slicerank/2 dimensions of the dataset (in case of scans).
-
-    With that if you have one displaced module were this in the data:
-
-    +--------------+
-    |              |
-    |              |
-    |              |
-    |         +----+
-    |         |    |
-    +---------+----+
-
-    Is actually like this in real space:
-
-    +--------------+      +----+
-    |              |      |    |
-    |              |      +----+
-    |              |
-    |         +----+
-    |         |
-    +---------+
-
-
-    You would need to describe that as at least three modules 
-    unless we make the scheme more complex.
-
-    For the elements the (simplified) CIF standard uses
-    * an origin relative to the nominal detector position
-    * a fast vector with pixel displacement along it
-    * a slow vector with pixel displacement along it
-    The detector normal is in the direction of the cross 
-    product of the two vectors.
-    There are more complicated schemes for non-regular/rectangular, 
-    e.g. hexagonal pixels. I'd suggest we deal with those as and 
-    when required.
-
-    I am not sure how this translates into your second option, Mark.
-    If we assume the pixels are all evenly spaced, I think we do not 
-    need the arrays for the positions, though.
-
-    Comments?
-
-    Tobias
-
-on 2012-10-18, Pete Jemian wrote
---------------------------------
-
-
-    exposure_time
-    -------------
-
-    same problems for me on exposure_time ...
-
-    http://download.nexusformat.org/doc/html/classes/base_classes/NXdetector.html
-
-    In the current NXdetector, we have no "exposure_time" field 
-    (although the docstrings for "trigger_dead_time" and "frame_time" 
-    use it to define these fields).
-
-    What is the difference between the proposed "exposure_time" 
-    and the already existing fields?  (I don't see the difference.)
-
-      count_time   Elapsed actual counting time
-
-      NXdata/real_time
-                   real-time of the exposure
-                   (use this if exposure time varies for
-                   each array element, otherwise use
-                   count_time field)
-
-
-    frame_time
-    ----------
-
-    Also, the definition provided for "frame_time" is not clear at all.  
-    As it reads now:
-
-    frame_time = exposure_time + detector_readout_time
-
-        time at which data is sent to readout-computer,
-        i.e. defines the speed of the data collection
-        or the speed and can be put on the same level
-        as exposure time for an integrating detector
-        (like a CCD, Imaging Plate,...)
-
-    The math says it is an elapsed time (NX_NUMBER), such as "422.3 s".
-    First line of comment suggests to me this is a time on the
-       clock (ISO-8601 time) such as "2012-10-18 11:02:05 CDT"
-    Second line says it is a speed (mathematical inverse of a time).
-    Third line makes no sense unless missing words are added.
-    Fourth line says it is a time.
-
-
-    detector_readout_time
-    ---------------------
-
-    Regarding the comment for "detector_readout_time" (this field 
-    already exists in NXdetector), should this comment be added to 
-    the existing docstring for this field?  Better to "blend" it in, such as:
-
-    detector_readout_time
-            Time it takes for a complete readout of detector chips
-            (typically milliseconds).  Defines the minimum time
-            after which the detector can count again.
-            This is important to know for time resolved experiments.
-
-
-
-    all detectors consist of multiple elements
-    ------------------------------------------
-
-    This should be at the heart of the NXdetector model, allowing for 
-    N multi-dimensional elements.  Even allow for the pathological case 
-    where one element might be 1-D while another might be 2-D.  
-    (Who has such a beast?)  Each element has a geometry and offset 
-    that can be different from any other.  The notion that any or all 
-    elements can be resolved down to a 2-D image is not guaranteed 
-    (such as for the pathological case noted above or the case described 
-    by Tobias) but should be possible for design where an image is logical, 
-    such as the Pilatus or Eiger detectors.  The job of NXdetector is to 
-    store the data from a detector, including a description of the 
-    arrangement of all the detector elements in their native dimensions: 
-    spatial, spectral, chronological, etc.
-
-    Maybe it is time for a complete review of NXdetector in its entirety?
-
-    Do we have a good example use of "NXdetector_group"?
-    The proposition of "NXdetector_module (or "NXdetector_element") 
-    might affect "NXdetector_group".
-
-
-    Pete
-
-on 2012-10-19, Mark Koennecke wrote
------------------------------------
-
-    > I'm with Ben on the critique of the "exposure_time".
-
-    I was of the impression that we decided on the last Telco to make them use count_time.
-    This is what I forwarded to them. 
-
-    ...
-    > There are more complicated schemes for non-regular/rectangular, 
-    > e.g. hexagonal pixels. I'd suggest we deal with those as and when required.
-
-    Can you please give an example of a NXdetector_element group with this? 
-    I agree that having those
-    arrays is a tad  overkill.
-
-    Concerning Pete's reply:
-
-    yes, NXdetector is the class which would benefit the most if we take apart NeXus to become
-    more OO-oriented. IMHO, in NXdetector there are two opposing forces:
-
-    - We already have a  means to describe each detector pixel individually. This is the most general
-      case. But this is cumbersome.
-    - We wish to maintain the spatiality of the detector in order to give the user what she expects: if she
-      has an area detector, she should see that on file. And not a description of each pixel.
-
-    When entering the realm of OO-NeXus I am now starting to think more of interfaces. OO does not match so
-    well anyway. And I have reservation against a more complicated hierarchy anyway.
-    The interface approach would mean: You start with a plain NXdetector, if you a 2D you add these fields,
-    if you have TOF do this, if you have 2D and TOF do this,  etc.
-
-    So, I think we could go quick with a solution to the problem: if you have a patched together detector
-    do this. I do wish to give DECTRIS a timely answer on this. May be modelled on CIFS approach.
-
-    Have a nice weekend,
-
-                    Mark
-
-on 2012-10-23, Mark Koennecke wrote
------------------------------------
-
-    > This is just a (hopefully) complete illustration to show what 
-    > we need to specify. I am more than happy for suggestions to modify this.
-
-    This is another version of what I have suggested, but has the advantage that we do not need
-    x and y arrays. I can live with this, all necessary data is specified. 
-    As was with my suggestions.  Just wasting some more space....
-
-    > We would also need to make sure that interpreting the detector 
-    > in the traditional way fails. Otherwise software will pick up 
-    > the wrong geometry.
-
-    Please elaborate. 
-
-    > I am not sure why we are in such a rush, though...
-
-    The thing is that DECTRIS wishes to call two meetings pretty soon and until then the thing
-    should be ready. And early, such that they can prepare example files,  reading code etc...
-
-    The first of this meeting, with DA analysis SW people will already by end of november. As
-    DECTRIS pays for it, it is s a closed meeting.
-
-    The second,  with a larger audience including those of you who want, will be in January.
-
-    This is why I try to rush this.   Waiting for the next code camp or NIAC meeting will not do.
-
-    > Bottom line is: It should not be too obvious that institutions actually 
-    > devoting manpower towards NeXus do not receive the same fast-track 
-    > service for their requirements.
-
-    Well, I think this DECTRIS thing is important to get NeXus through the door of many facilities.
-    IMHO  a little exertion on our side is justified.
-
-
-    Regards,
-
-           Mark 
-
-on 2012-10-23, Ben Watts wrote
-------------------------------
-
-    This is exactly what the NeXus version numbers should be used for. We
-    should try to make clear distinctions between new and old formats so
-    that software reading the files doesn't have to guess.
-
-    Ben
-
-on 2012-10-23, Tobias Richter wrote
------------------------------------
-
-    Hi Pete,
-
-    My idea is that ideally algorithms based on the existing geometry 
-    specifications should somehow fail when reading an NXdetector group 
-    containing modules. Otherwise they silently base their reduction or 
-    analysis on a wrong geometry and if only one or two of 8 modules 
-    are displaced that might not have a directly noticeable effect in the data. 
-
-    When automatically discovering the geometry fails, the user will 
-    need to look at the file and find that some modules are not in 
-    the expected place. That's fine and they can react to that 
-    situation (by handing the problem to a programmer). 
-
-on 2012-10-25, V. Armando Solé wrote
-------------------------------------
-
-    ...
-
-    I do not know if Mark suggested that "we can work on different 
-    time scales for adding Dectris definitions and making sure files 
-    can be reliably understood on the other hand" but it seems to me 
-    that it is of your interest to get Dectris adopting something 
-    that you can call "NeXus" and not something you can only call "HDF5".
-
-    Just to illustrate my point of view: if needed, I would go as 
-    far as accepting an NX_DECTRIS group giving them full freedom 
-    (what in fact they have it)
-
-    Best regards,
-
-    Armando
-
-This was followed by ***I agree*** messages from Andy Gotz and Herbert
-Bernstein.
-
-on 2012-10-25, Ray Osborn wrote
--------------------------------
-
-
-    On Oct 25, 2012, at 1:22 AM, V. Armando Solé <sole@esrf.fr> wrote:
-
-    > I do not know if Mark suggested that "we can work on different 
-    > time scales for adding Dectris definitions and making sure 
-    > files can be reliably understood on the other hand" but it 
-    > seems to me that it is of your interest to get Dectris adopting 
-    > something that you can call "NeXus" and not something you can 
-    > only call "HDF5".
-
-    Well, this is the NeXus mailing list, not the HDF5 mailing list? 
-
-    > Just to illustrate my point of view: if needed, I would go as 
-    > far as accepting an NX_DECTRIS group giving them full freedom 
-    > (what in fact they have it)
-
-    Because when we write software to access detectors, we will have 
-    to write it as a bunch of switch statements for every proprietary 
-    detector (and then read the manual for every one).
-
-    I would like to contribute to this debate if I can, but it's now 
-    become impossible to follow the thread. Can I suggest that this 
-    kind of discussion is better handled on the wiki, with its attached 
-    comment statement. Mark did a good job of stating the problem at 
-    the beginning, although I am a bit behind the curve on the way 
-    that CIF handles geometries. Can that be put on a wiki page and 
-    modified by Mark whenever a consensus emerges, resulting in a 
-    final vote by the NIAC? Mark probably needs to prompt the list 
-    if the wiki becomes inactive, but at least the thread of comments 
-    will be easier to follow.
-
-    Also, what is the deadline? If DECTRIS need an answer by a certain 
-    date, we had better honour it if possible.
-
-    Just my thoughts,
-    Ray
-
-on 2012-10-25, V. Armando Solé wrote
-------------------------------------
-
-    Hi Ray,
-
-    On 25/10/2012 15:20, Ray Osborn wrote:
-    > On Oct 25, 2012, at 1:22 AM, V. Armando Solé <sole@esrf.fr> wrote:
-    >
-    >> Just to illustrate my point of view: if needed, I would 
-    >> go as far as accepting an NX_DECTRIS group giving them 
-    >> full freedom (what  in fact they have it)
-    > Because when we write software to access detectors, we 
-    > will have to write it as a bunch of switch statements for 
-    > every proprietary detector (and then read the manual for 
-    > every one).
-
-
-    You seem to have missed the "if needed"
-
-    I know that it would be a pain to have to follow all the switch 
-    statements, but unfortunately I am afraid that is going to be 
-    anyways the case because the NX_detector group on its own is 
-    too broad because it covers 0D, 1D and 2D detectors. Of course 
-    this is just my opinion and I exposed it on last NIAC where 
-    I gave a testimonial vote in a discussion concerning the 
-    NXdetector group.
-
-    I put all my hope about getting something useful out of NeXus 
-    on the application definitions. Therefore I do not provide 
-    excessive relevance to *where* the data are. *What* the data 
-    are is a completely different history and things like pixel 
-    size and exposure time should mean the same for every 
-    2D detector.
-
-    Best regards,
-
-    Armando 
+              Mark Koennecke
