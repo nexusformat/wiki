@@ -24,9 +24,9 @@ You may contact the NIAC by sending an email to
     Appleton Laboratory, UK (Muon Representative)
 -   [Matthias Drochner](User%3AMatthias_Drochner "wikilink"),
     Forschungzentrum Jülich, Germany
--   [Nick Hauser](User%3Anick "wikilink"), Australian Nuclear Science
-    and Technology Organisation, Australia (netCDF contact)
--   [ Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann "wikilink"), Helmholtz
+-   [David Männicke](User%3ADavid_Männicke "wikilink"), Australian
+    Nuclear Science and Technology Organisation, Australia
+-   [Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann "wikilink"), Helmholtz
     Zentrum Berlin (renamed HMI), Germany
 -   [Pete Jemian](User%3APete_Jemian "wikilink"), Advanced Photon
     Source, USA (Documentation Release Manager)
