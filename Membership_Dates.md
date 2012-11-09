@@ -9,19 +9,6 @@ listed below. If a member wishes to be renewed, they must provide a
 letter of support from the facility and be approved by the NIAC as
 stated in the [constitution](NIAC "wikilink").
 
-### Expired Feburary 3, 2009
-
--   Emmanuel Farhi - Institut Laue Langevin, France
-
-### Expired October 24, 2010
-
--   Nick Maliszewskyj - NIST Center for Neutron Research, USA
--   Stephane Poirier - Synchrotron Soleil, France
-
-### Expire October 24, 2012
-
--   Tobias Richter, Diamond Light Source, UK
-
 ### Expire May 1, 2013
 
 -   Freddie Akeroyd - ISIS Pulsed Neutron Facility, UK
@@ -39,7 +26,6 @@ stated in the [constitution](NIAC "wikilink").
 ### Expire October 8, 2013
 
 -   Ben Watts - Swiss Light Source, Switzerland
--   Nick Hauser - Bragg Institute, Australia
 -   Ray Osborn - Argonne National Lab - non-facility member, USA
 -   Peter Peterson - Spallation Neutron Source, USA
 -   Joachim Wuttke - Forschungzentrum Juelich, Germany
@@ -51,4 +37,13 @@ stated in the [constitution](NIAC "wikilink").
 ### Expire September 20, 2015
 
 -   Herbert Bernstein, ImgCIF
+
+### Expire October 2, 2015
+
+-   Tobias Richter, Diamond Light Source, UK
+
+### Expire October 12, 2015
+
+-   David Männicke, Australian Nuclear Science and Technology
+    Organisation, Australia
 
