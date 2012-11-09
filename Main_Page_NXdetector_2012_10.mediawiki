@@ -1,6 +1,8 @@
 This is from an discussion about additions/modifications to NXdetector 
 to help Dectris as it decides to write raw image data into HDF5/NeXus format.
 
+Please refer to this page's discussion ([[Talk:Main_Page/NXdetector_2012_10]]) for background conversation leading to this summary.
+
 
 
 ==on 2012-11-07, Mark Koennecke wrote==
