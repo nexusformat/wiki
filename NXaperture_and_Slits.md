@@ -21,3 +21,14 @@ problem
 
 Which of them is appropriate for us should be the topic of this
 discussion.
+
+Introducing new classes
+-----------------------
+
+#### Pinholes - *NXpinhole*
+
+Pinholds are most probably the simplest apertures available. The only
+parameter of importance is the diameter of the pinhole and its position
+with respect to the beam.
+
+#### Slits - *NXslit*
