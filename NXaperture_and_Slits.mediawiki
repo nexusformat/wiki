@@ -1,1 +1,8 @@
-Blablabla
+The actual ''NXaperture'' base class is far to complex for most of the apertures used at synchrotron facilities. Currently the most commonly used apperture types are 
+* pinholes
+* 2 or 4 blade slits.
+From the current implementation of NXaperture it would be rather difficult to obtain relevant quantities like the size of the slit gap or the offsets of the gap. 
+There are basically two ways how to face this problem
+* redesign ''NXaperture''
+* or introduce new classes for more specific aperture types.
+Which of them is appropriate for us should be the topic of this discussion.
