@@ -11,6 +11,7 @@ If you want others to participate, you should announce the new
 discussion on the [NeXus Mailing
 List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 
+-   [NXaperture and Slits](NXaperture_and_Slits "wikilink")
 -   [Detector Geometry](Detector_Geometry "wikilink")
 -   [Connecting NXdata to
     NXdetector](Connecting_NXdata_to_NXdetector "wikilink")
