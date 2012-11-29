@@ -12,6 +12,7 @@ discussion on the [NeXus Mailing
 List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 
 -   [NXaperture and Slits](NXaperture_and_Slits "wikilink")
+-   [NXdetector\_2012\_10](NXdetector_2012_10 "wikilink")
 -   [Detector Geometry](Detector_Geometry "wikilink")
 -   [Connecting NXdata to
     NXdetector](Connecting_NXdata_to_NXdetector "wikilink")
