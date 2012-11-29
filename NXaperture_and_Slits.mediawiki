@@ -10,6 +10,15 @@ Which of them is appropriate for us should be the topic of this discussion.
 == Introducing new classes ==
 
 ==== Pinholes - ''NXpinhole'' ====
-Pinholds are most probably the simplest apertures available. The only parameter of importance is the diameter of the pinhole and its position with respect to the beam. 
+[[Image:Pinhole_2D.png|frame|right|A pinhold in the beam.]]
+Pinholds are most probably the simplest apertures available. The only parameter of importance is the diameter of the pinhole and its position with respect to the beam (as shown in the image). 
+From this sketch one could easily deduce a new class ''NXpinhole'' with the following parameters
+<pre>
+NXpinhole
+  diameter:NX_FLOAT
+  x_offset:NX_FLOAT
+  y_offset:NX_FLOAT
+</pre>
+
 
 ==== Slits - ''NXslit'' ====
