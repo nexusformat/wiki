@@ -67,4 +67,4 @@ The last four parameters determine the positions of the slit blades.
 
 The original *NXaperture* remains unchanged (for the sake of
 compatability) and can still be used for all kind of more complex
-apertures which cannot be represented by the tow new classes.
+apertures which cannot be represented by the the new classes.
