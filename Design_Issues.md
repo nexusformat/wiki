@@ -11,6 +11,7 @@ If you want others to participate, you should announce the new
 discussion on the [NeXus Mailing
 List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 
+-   [DECTRIS Example](DECTRIS_Example "wikilink")
 -   [NXaperture and Slits](NXaperture_and_Slits "wikilink")
 -   [NXdetector\_2012\_10](NXdetector_2012_10 "wikilink")
 -   [Detector Geometry](Detector_Geometry "wikilink")
