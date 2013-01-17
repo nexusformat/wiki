@@ -50,7 +50,7 @@ by the interfaces it can implement, plus mandatory data fields.
 Such an approach has the following consequences:
 
 -   Backwards compatability is maintained. We add a new feature to
-    NeXus. No need to generate n new base classes.
+    NeXus. No need to generate no new base classes.
 -   No issues with multiple inheritance
 -   An application can inspect the implements field and from this can
     decide what type of detector/ component it is dealing with.
