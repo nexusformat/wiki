@@ -11,6 +11,8 @@ If you want others to participate, you should announce the new
 discussion on the [NeXus Mailing
 List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 
+-   [NXgeometry and NXshape - documentation and
+    review](NXgeometry_and_NXshape_-_documentation_and_review "wikilink")
 -   [Objects or Interfaces](Objects_or_Interfaces "wikilink")
 -   [DECTRIS Example](DECTRIS_Example "wikilink")
 -   [NXaperture and Slits](NXaperture_and_Slits "wikilink")
