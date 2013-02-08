@@ -91,6 +91,9 @@ as follows
 `NXshape::size[3] = {length,width,height}`
 
 <File:nxsphere_image.png> | Shape and coordinate frame for an *nxsphere*
+<File:nxcone.png> | Shape and coordinate frame for an *nxsphere*
+<File:nxeliptical_image.png> | Shape and coordinate frame for an
+*nxelliptical*
 
 #### nxsphere
 
@@ -98,7 +101,14 @@ as follows
 
 #### nxcone
 
+`NXshape::size[4] = {radius,vx,vy,vz}`
+
 #### nxelliptical
+
+`NXshape::size[2] = {semi-major axis,semi-minor axis}`
+
+I have no idea what the other two parameters *pole* and *angle of major
+axis* are good for. Maybe we can drop them.
 
 #### nxtoroidal
 
