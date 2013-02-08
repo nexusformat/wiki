@@ -46,24 +46,20 @@ with respect to the origin of this system.
 
 #### Slits - *NXslit*
 
-![A four-blade slit in the
-beam.](Slit_2d.png "fig:A four-blade slit in the beam.") Two or four
-blade slits are the most common apertures used at synchrotrons. In this
-example a 4-blade slit is shown. 2-blade slits could be realized easily
-by simply omitting slits blades, offset-, and gap-parameters. A base
-class *NXslit* could look like this
+![A four-blade slit system.](slit.png "fig:A four-blade slit system.")
+Two or four blade slits are the most common apertures used at
+synchrotrons. In this example a 4-blade slit is shown. The most
+important parameter for such a system is the size of the aperture
+determined by the positions of the blades. A base class *NXslit* could
+look like this
 
     NXslit
      x_gap:NX_FLOAT
      y_gap:NX_FLOAT
-     x_offset:NX_FLOAT
-     y_offset:NX_FLOAT
-     top_blade:NX_FLOAT
-     bottom_blade:NX_FLOAT
-     right_blade:NX_FLOAT
-     left_blade:NX_FLOAT
+     blades: NXgeometry
 
-The last four parameters determine the positions of the slit blades.
+The size of the gap is given in the local reference frame of the slit
+system.
 
 #### What happens to *NXaperture*
 
