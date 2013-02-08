@@ -28,8 +28,12 @@ Unfortunately, the 9 geometric primitives currently availbable in Nexus are not 
 ''nxflag'' can be considered as a flat plane. The plane defines the x-y-plane of its local coordinate frame. The z-axis of this system is oriented so that the resulting reference frame is a right-handed one. The shape has two parameters: its ''height'' and ''width'' which will be stored in the ''size'' attribute of ''NXshape'' as follows
  NXshape::size[2]={width,height}
 
-==== nxcylinder ====  
-  
+==== nxcylinder ====
+[[Image:Nxcylinder.png | right | c | frame | An ''nxcylinder'' in its local frame]]
+The origin of the local coordinate frame for ''nxcylinder'' is in the center of its bottom. An ''nxcylinder'' has 5 parameters:
+radius, height, and the three components of the direction vector v (see the figure on the right side). These parameters are stored in the ''size''attribute of ''NXshape'' as follows
+ NXshape::size[5] = {radius,height,vx,vy,vz}
+
 ==== nxbox ====
 
 ==== nxsphere ====

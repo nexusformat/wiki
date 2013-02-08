@@ -76,6 +76,16 @@ stored in the *size* attribute of *NXshape* as follows
 
 #### nxcylinder
 
+![ right | c | frame | An *nxcylinder* in its local
+frame](Nxcylinder.png "fig: right | c | frame | An nxcylinder in its local frame")
+The origin of the local coordinate frame for *nxcylinder* is in the
+center of its bottom. An *nxcylinder* has 5 parameters: radius, height,
+and the three components of the direction vector v (see the figure on
+the right side). These parameters are stored in the *size*attribute of
+*NXshape* as follows
+
+`NXshape::size[5] = {radius,height,vx,vy,vz}`
+
 #### nxbox
 
 #### nxsphere
