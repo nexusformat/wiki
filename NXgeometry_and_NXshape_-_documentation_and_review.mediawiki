@@ -2,7 +2,10 @@
 [[Image:Nxgeometry_uml.png | upright | frame | right | c | UML diagramm of the relations between the different geometry related base classes. ]]
 Geometries in Nexus are described using the ''NXgeometry'' base class. As shown in the UML diagramm on the right side this class consists basically of three other base classes (composition): ''NXshape'', ''NXtranslation'', and ''NXorientation''.
 As far as I understand the ''NXgeometry'' class it describes a single shape (geometric object). This fact makes the dimensionality of several attributes of the the other classes a bit odd (see below).
-However, aside from this ''NXgeometry'' is quite ok. 
+However, aside from this ''NXgeometry'' is quite ok.
+
+Note: the NeXus User Guide describes the coordinate system here: 
+*http://download.nexusformat.org/doc/html/design.html#nexus-coordinate-systems
 
 == NXtranslation == 
 Has an attribute ''distances'' of shape <tt>[numobj,3]</tt>. If, as stated above, ''NXgeometry'' seems to describe only a single shape the first dimension has no meaning. A dimensionality of <tt>[3]</tt> would be enough for this field.

@@ -19,6 +19,10 @@ fact makes the dimensionality of several attributes of the the other
 classes a bit odd (see below). However, aside from this *NXgeometry* is
 quite ok.
 
+Note: the NeXus User Guide describes the coordinate system here:
+
+-   <http://download.nexusformat.org/doc/html/design.html#nexus-coordinate-systems>
+
 NXtranslation
 -------------
 
