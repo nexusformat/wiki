@@ -42,7 +42,12 @@ radius, height, and the three components of the direction vector v (see the figu
  NXshape::size[3] = {length,width,height}
 
 
+<gallery widths=250 heights=250>
+File:nxsphere_image.png | Shape and coordinate frame for an ''nxsphere''
+</gallery>
 ==== nxsphere ====
+
+ NXshape::size[1] = {radius}
 
 ==== nxcone ====
 

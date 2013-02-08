@@ -90,7 +90,11 @@ as follows
 
 `NXshape::size[3] = {length,width,height}`
 
+<File:nxsphere_image.png> | Shape and coordinate frame for an *nxsphere*
+
 #### nxsphere
+
+`NXshape::size[1] = {radius}`
 
 #### nxcone
 
