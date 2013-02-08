@@ -1,5 +1,3 @@
-= Review and documentation of NXgeometry and NXshape =
-
 [[[File:Nxgeometry_uml.png]]
 
 == NXgeometry == 
