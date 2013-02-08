@@ -62,10 +62,12 @@ such a sens. The following sections provide some possible definitions of
 these primitives along with the layout of their parameters stored in the
 *size* attribute of *NXshape*.
 
+<File:nxflat_image.png> | Shape and coordinate frame for an *nxflat*
+<File:Nxcylinder.png> | An *nxcylinder* in its local frame
+<File:Nxbox_image.png> | An *nxbox* in its local frame
+
 #### nxflat
 
-![ right | c | frame | Shape and coordinate frame for an *nxflat*.
-](nxflat_image.png "fig: right | c | frame | Shape and coordinate frame for an nxflat. ")
 *nxflag* can be considered as a flat plane. The plane defines the
 x-y-plane of its local coordinate frame. The z-axis of this system is
 oriented so that the resulting reference frame is a right-handed one.
@@ -76,17 +78,17 @@ stored in the *size* attribute of *NXshape* as follows
 
 #### nxcylinder
 
-![ right | c | frame | An *nxcylinder* in its local
-frame](Nxcylinder.png "fig: right | c | frame | An nxcylinder in its local frame")
 The origin of the local coordinate frame for *nxcylinder* is in the
 center of its bottom. An *nxcylinder* has 5 parameters: radius, height,
-and the three components of the direction vector v (see the figure on
-the right side). These parameters are stored in the *size*attribute of
-*NXshape* as follows
+and the three components of the direction vector v (see the figure
+above). These parameters are stored in the *size*attribute of *NXshape*
+as follows
 
 `NXshape::size[5] = {radius,height,vx,vy,vz}`
 
 #### nxbox
+
+`NXshape::size[3] = {length,width,height}`
 
 #### nxsphere
 

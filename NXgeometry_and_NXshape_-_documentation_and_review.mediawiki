@@ -23,18 +23,24 @@ Every geometric primitive requires a local coordinate frame. All translations ap
 Additionally, the origin of this frame of reference will act as a center for all rotations applied on the primitive. 
 Unfortunately, the 9 geometric primitives currently availbable in Nexus are not defined in such a sens. The following sections provide some possible definitions of these primitives along with the layout of their parameters stored in the ''size'' attribute of ''NXshape''.
 
+<gallery widths=250 heights=250>
+File:nxflat_image.png | Shape and coordinate frame for an ''nxflat''
+File:Nxcylinder.png | An ''nxcylinder'' in its local frame
+File:Nxbox_image.png | An ''nxbox'' in its local frame
+</gallery>
 ==== nxflat ====
-[[Image:nxflat_image.png | right | c | frame | Shape and coordinate frame for an ''nxflat''. ]]
 ''nxflag'' can be considered as a flat plane. The plane defines the x-y-plane of its local coordinate frame. The z-axis of this system is oriented so that the resulting reference frame is a right-handed one. The shape has two parameters: its ''height'' and ''width'' which will be stored in the ''size'' attribute of ''NXshape'' as follows
  NXshape::size[2]={width,height}
 
 ==== nxcylinder ====
-[[Image:Nxcylinder.png | right | c | frame | An ''nxcylinder'' in its local frame]]
 The origin of the local coordinate frame for ''nxcylinder'' is in the center of its bottom. An ''nxcylinder'' has 5 parameters:
-radius, height, and the three components of the direction vector v (see the figure on the right side). These parameters are stored in the ''size''attribute of ''NXshape'' as follows
+radius, height, and the three components of the direction vector v (see the figure above). These parameters are stored in the ''size''attribute of ''NXshape'' as follows
  NXshape::size[5] = {radius,height,vx,vy,vz}
 
 ==== nxbox ====
+
+ NXshape::size[3] = {length,width,height}
+
 
 ==== nxsphere ====
 
