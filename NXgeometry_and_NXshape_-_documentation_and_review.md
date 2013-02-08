@@ -64,6 +64,16 @@ these primitives along with the layout of their parameters stored in the
 
 #### nxflat
 
+![ right | c | frame | Shape and coordinate frame for an *nxflat*.
+](nxflat_image.png "fig: right | c | frame | Shape and coordinate frame for an nxflat. ")
+*nxflag* can be considered as a flat plane. The plane defines the
+x-y-plane of its local coordinate frame. The z-axis of this system is
+oriented so that the resulting reference frame is a right-handed one.
+The shape has two parameters: its *height* and *width* which will be
+stored in the *size* attribute of *NXshape* as follows
+
+`NXshape::size[2]={width,height}`
+
 #### nxcylinder
 
 #### nxbox

@@ -24,6 +24,9 @@ Additionally, the origin of this frame of reference will act as a center for all
 Unfortunately, the 9 geometric primitives currently availbable in Nexus are not defined in such a sens. The following sections provide some possible definitions of these primitives along with the layout of their parameters stored in the ''size'' attribute of ''NXshape''.
 
 ==== nxflat ====
+[[Image:nxflat_image.png | right | c | frame | Shape and coordinate frame for an ''nxflat''. ]]
+''nxflag'' can be considered as a flat plane. The plane defines the x-y-plane of its local coordinate frame. The z-axis of this system is oriented so that the resulting reference frame is a right-handed one. The shape has two parameters: its ''height'' and ''width'' which will be stored in the ''size'' attribute of ''NXshape'' as follows
+ NXshape::size[2]={width,height}
 
 ==== nxcylinder ====  
   
