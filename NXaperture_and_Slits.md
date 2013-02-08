@@ -28,7 +28,7 @@ Introducing new classes
 #### Pinholes - *NXpinhole*
 
 ![c|A pinhold in the
-beam.](Pinhole_2D.png "fig:c|A pinhold in the beam.") Pinholds are most
+beam.](pinhole_2.png "fig:c|A pinhold in the beam.") Pinholds are most
 probably the simplest apertures available. The only parameter of
 importance is the diameter of the pinhole and its position with respect
 to the beam (as shown in the image). From this sketch one could easily
@@ -36,11 +36,13 @@ deduce a new class *NXpinhole* with the following parameters
 
     NXpinhole
       diameter:NX_FLOAT
-      x_offset:NX_FLOAT
-      y_offset:NX_FLOAT
+      orientation:NXorientation
+      translation:NXtranslation
 
 The last two paramters determine the offset of the pinhole center to the
-incident beam.
+incident beam. The local coordinate system of the pinhole is defined as
+shown in the figure on the right. All translations and rotations are
+with respect to the origin of this system.
 
 #### Slits - *NXslit*
 
