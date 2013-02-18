@@ -70,11 +70,15 @@ Like for NXcylinder the vector v is simply a unit vector pointing to the tip of 
 
 I have no idea what the other two parameters ''pole'' and ''angle of major axis'' are good for. Maybe we can drop them.
 
-==== nxtoroidal ====
+
 
 <gallery widths=250 heights=250>
 File:nxtoroidal.png | Shape and coordinate frame for an ''nxtoroidal''
 </gallery>
+
+==== nxtoroidal ====
+
+ NXshape::size[2] = {minor radius,major radius}
 
 ==== nxparabolic ====
 

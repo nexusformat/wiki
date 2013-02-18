@@ -125,9 +125,11 @@ tip of the cylinder (no direction cosines or something else fancy).
 I have no idea what the other two parameters *pole* and *angle of major
 axis* are good for. Maybe we can drop them.
 
+<File:nxtoroidal.png> | Shape and coordinate frame for an *nxtoroidal*
+
 #### nxtoroidal
 
-<File:nxtoroidal.png> | Shape and coordinate frame for an *nxtoroidal*
+`NXshape::size[2] = {minor radius,major radius}`
 
 #### nxparabolic
 
