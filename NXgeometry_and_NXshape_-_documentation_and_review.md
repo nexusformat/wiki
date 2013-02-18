@@ -143,3 +143,10 @@ this should be a 2D object or a 3D object. We definitely have to discuss
 this.
 
 #### nxpolynomial
+
+Like *nxparabolic* this shape is rather poorly designed. Besides the
+coefficients of the polynomial at least the bounds of the interval on
+which the polynomial should be evaluated are required to define the
+geometry. Also, like with *nxparabolic*, it is not clear if this is a 2D
+or 3D object - both would be possible. We need to define this more
+thoroughly.
