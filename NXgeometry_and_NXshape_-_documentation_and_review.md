@@ -134,4 +134,10 @@ axis* are good for. Maybe we can drop them.
 
 #### nxparabolic
 
+This is a poorly designed shape. Only the parapolic parameter *a* is
+defined in the current documentation. I included here at least the
+height of the parabola. However it is indeed not clear whether or not
+this should be a 2D object or a 3D object. We definitely have to discuss
+this.
+
 #### nxpolynomial
