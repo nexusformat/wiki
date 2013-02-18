@@ -126,6 +126,7 @@ I have no idea what the other two parameters *pole* and *angle of major
 axis* are good for. Maybe we can drop them.
 
 <File:nxtoroidal.png> | Shape and coordinate frame for an *nxtoroidal*
+<File:nxparabolic.png> | Shape and coordinate frame for an *nxparabolic*
 
 #### nxtoroidal
 
