@@ -75,6 +75,7 @@ I have no idea what the other two parameters ''pole'' and ''angle of major axis'
 <gallery widths=250 heights=250>
 File:nxtoroidal.png | Shape and coordinate frame for an ''nxtoroidal''
 File:nxparabolic.png | Shape and coordinate frame for an ''nxparabolic''
+File:nxpolynomial.png | Shape and coordinate frame for an ''nxpolynomial''
 </gallery>
 
 ==== nxtoroidal ====
