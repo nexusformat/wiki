@@ -95,6 +95,9 @@ as follows
 
 `NXshape::size[5] = {radius,height,vx,vy,vz}`
 
+v is here simply a unit vector pointing in the direction of the main
+axis of the cylinder.
+
 #### nxbox
 
 `NXshape::size[3] = {length,width,height}`
