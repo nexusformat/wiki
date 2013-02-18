@@ -113,6 +113,9 @@ axis of the cylinder.
 
 #### nxcone
 
+Like for NXcylinder the vector v is simply a unit vector pointing to the
+tip of the cylinder (no direction cosines or something else fancy).
+
 `NXshape::size[4] = {radius,vx,vy,vz}`
 
 #### nxelliptical
