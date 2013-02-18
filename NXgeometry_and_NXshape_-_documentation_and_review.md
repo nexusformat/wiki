@@ -127,6 +127,8 @@ axis* are good for. Maybe we can drop them.
 
 #### nxtoroidal
 
+<File:nxtoroidal.png> | Shape and coordinate frame for an *nxtoroidal*
+
 #### nxparabolic
 
 #### nxpolynomial
