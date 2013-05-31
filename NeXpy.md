@@ -103,12 +103,6 @@ If you are extracting the nexus library from a bundle at runtime, set
 os.environ\['NEXUSLIB'\] to the path where it is extracted before the
 first import of nexpy.
 
-#### wxPython Installation
-
-Some prepackaged rpms do not install wxgtk with all features enabled. In
-particular, the NeXpy GUI may require that wxgtk be built from source
-with the '--enable-graphics\_ctx' configure option
-
 Running NeXpy
 -------------
 
@@ -120,9 +114,12 @@ There are two ways of using the NeXpy interface to NeXus files.
 ### Python Shell
 
 `$ python`  
-`Python 2.5.4`  
-`[GCC 4.0.1 (Apple Computer, Inc.)] on darwin`  
-`Type `“`help`”`, `“`copyright`”`, `“`credits`”` or `“`license`”` for more information.`  
+`Python 2.7.2 (default, Oct 11 2012, 20:14:37) `
+
+\[GCC 4.2.1 Compatible Apple Clang 4.0 (tags/Apple/clang-418.0.60)\] on
+darwin Type “help”, “copyright”, “credits” or “license” for more
+information.
+
 `>>> from nexpy.api import nexus`  
 `>>> a=nexus.load('data/chopper.nxs')`
 
