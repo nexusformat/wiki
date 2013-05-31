@@ -16,11 +16,11 @@ Installation
 WARNING: NeXpy is in the early stages of development, and so there has
 been no stable release yet. It is available for testing purposes only.
 
-To check out the latest version from the
-[Mercurial](http://mercurial.selenic.com/) repository and install the
-NeXpy package to the standard python site-packages directory,:
+To check out the latest version from the [GitHub
+repository](https://github.com/nexpy/nexpy) and install the NeXpy
+package to the standard python site-packages directory,:
 
-`> hg clone `[`http://mercurial.mcs.anl.gov/repos/nexpy`](http://mercurial.mcs.anl.gov/repos/nexpy)  
+`> git clone `[`https://github.com/nexpy/nexpy.git`](https://github.com/nexpy/nexpy.git)  
 `> cd nexpy`  
 `> python setup.py install`  
 ` `
@@ -28,8 +28,8 @@ NeXpy package to the standard python site-packages directory,:
 This assumes that the standard Python script directory is in your
 default path.
 
-The source code can also be viewed on the [NeXpy Trac
-Server](http://trac.mcs.anl.gov/projects/nexpy/).
+The source code can also be viewed on the [NeXpy
+GitHub](https://github.com/nexpy/nexpy).
 
 ### Installation Issues
 

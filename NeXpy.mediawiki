@@ -3,14 +3,14 @@ NeXpy provides a high-level python interface to NeXus data contained within a si
 ==Installation==
 WARNING: NeXpy is in the early stages of development, and so there has been no stable release yet. It is available for testing purposes only. 
 
-To check out the latest version from the [http://mercurial.selenic.com/ Mercurial] repository and install the NeXpy package to the standard python site-packages directory,:
- > hg clone http://mercurial.mcs.anl.gov/repos/nexpy
+To check out the latest version from the [https://github.com/nexpy/nexpy GitHub repository] and install the NeXpy package to the standard python site-packages directory,:
+ > git clone https://github.com/nexpy/nexpy.git
  > cd nexpy
  > python setup.py install
   
 This assumes that the standard Python script directory is in your default path. 
 
-The source code can also be viewed on the [http://trac.mcs.anl.gov/projects/nexpy/ NeXpy Trac Server].
+The source code can also be viewed on the [https://github.com/nexpy/nexpy NeXpy GitHub].
 
 ===Installation Issues===
 ====Locating the NeXus library====
