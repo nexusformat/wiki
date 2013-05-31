@@ -22,8 +22,7 @@ package to the standard python site-packages directory,:
 
 `> git clone `[`https://github.com/nexpy/nexpy.git`](https://github.com/nexpy/nexpy.git)  
 `> cd nexpy`  
-`> python setup.py install`  
-` `
+`> python setup.py install`
 
 This assumes that the standard Python script directory is in your
 default path.
