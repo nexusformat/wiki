@@ -87,7 +87,6 @@ There are a number of useful features available when running NeXpy within the GU
 # Axis limits are set by a series of slider bars.
 # The scripting shell provides convenient autocompletion, and automatically displays function docstrings as a tooltip when you open the function parentheses.
 ====Planned Enhancements====
-* Plotting projections along any axis by dragging and right-clicking the plots.
 * Editing data items in the tree within an editor pane.
 * Fitting data with predefined and user-supplied functions.
 

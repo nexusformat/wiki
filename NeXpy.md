@@ -155,8 +155,6 @@ within the GUI shell.
 
 #### Planned Enhancements
 
--   Plotting projections along any axis by dragging and right-clicking
-    the plots.
 -   Editing data items in the tree within an editor pane.
 -   Fitting data with predefined and user-supplied functions.
 
