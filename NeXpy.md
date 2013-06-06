@@ -435,14 +435,14 @@ nxsum() method. This employs the Numpy array sum() method.
 `>>> x=y=NXfield(np.linspace(0,2*np.pi,41))`  
 `>>> X,Y=np.meshgrid(x,y)`  
 `>>> a=NXdata(np.sin(X)*np.sin(Y), (x,y))`  
-`>>> a.tree()`  
+`>>> print a.tree`  
 [`data:NXdata`](data:NXdata)  
 `  axis1 = float64(41)`  
 `  axis2 = float64(41)`  
 `  signal = float64(41x41)`  
 `    @axes = axis1:axis2`  
 `    @signal = 1`  
-`>>> a.sum(0).tree()`  
+`>>> print a.sum(0).tree`  
 [`data:NXdata`](data:NXdata)  
 `  axis2 = float64(41)`  
 `  signal = float64(41)`  
@@ -468,14 +468,14 @@ nxsum() method. This employs the Numpy array sum() method.
 `>>> x=y=NXfield(np.linspace(0,2*np.pi,41))`  
 `>>> X,Y=np.meshgrid(x,y)`  
 `>>> a=NXdata(np.sin(X)*np.sin(Y), (x,y))`  
-`>>> a.tree()`  
+`>>> print a.tree`  
 [`data:NXdata`](data:NXdata)  
 `  axis1 = float64(41)`  
 `  axis2 = float64(41)`  
 `  signal = float64(41x41)`  
 `    @axes = axis1:axis2`  
 `    @signal = 1`  
-`>>> a.sum(0).tree()`  
+`>>> print a.sum(0).tree`  
 [`data:NXdata`](data:NXdata)  
 `  axis2 = float64(41)`  
 `  signal = float64(41)`  
