@@ -135,7 +135,7 @@ It is just as easy to create new NeXus data sets from scratch using Numpy arrays
  >>> a.nxsave('function.nxs')
 This file can then be loaded again. 
  >>> b=nexus.load('function.nxs')
- >>> b.tree()
+ >>> print b.tree
  root:NXroot
   @HDF5_Version = 1.8.2
   @NeXus_version = 4.2.1
@@ -174,7 +174,7 @@ Data values can be returned converted to different units if the 'units' attribut
 NeXus groups are defined as subclasses of the NXgroup class. Apart from the class name, they behave identically except for the NXdata, NXmonitor, and NXlog groups, which have extra methods defined. The initialization parameters can be used to populate the group with other predefined NeXus objects, either groups or fields.
  >>> temperature = NXfield(40.0, units='K')
  >>> sample = NXsample(temperature=temperature)
- >>> sample.tree()
+ >>> print sample.tree
  sample:NXsample
    temperature = 40.0
    units = K
@@ -197,7 +197,7 @@ The objects in NeXus groups, which can be NXfields or other NXgroups, can also b
  >>> z=np.sin(X)*np.sin(Y)
  >>> a=NXdata(z,[x,y])
 :The first positional argument is an NXfield or Numpy array containing the data, while the second is a list containing the axes, again as SDSs or Numpy arrays. In this example, the names of the arrays have not been defined within an SDS so default names were assigned.
- >>> a.tree()
+ >>> print a.tree
     data:NXdata
       axis1 = float64(101)
       axis2 = float64(101)
@@ -208,7 +208,7 @@ The objects in NeXus groups, which can be NXfields or other NXgroups, can also b
  >>> phi=np.linspace(0,2*np.pi,101)
  >>> data=np.sin(phi)
  >>> a=NXdata(NXfield(data,name='intensity'),(NXfield(phi,name='polar_angle')))
- >>> a.tree()
+ >>> print a.tree
  data:NXdata
    intensity = float64(101)
      @axes = polar_angle

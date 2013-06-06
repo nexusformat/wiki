@@ -226,7 +226,7 @@ function, which is then saved to a file.
 This file can then be loaded again.
 
 `>>> b=nexus.load('function.nxs')`  
-`>>> b.tree()`  
+`>>> print b.tree`  
 `root:NXroot`  
 ` @HDF5_Version = 1.8.2`  
 ` @NeXus_version = 4.2.1`  
@@ -299,7 +299,7 @@ predefined NeXus objects, either groups or fields.
 
 `>>> temperature = NXfield(40.0, units='K')`  
 `>>> sample = NXsample(temperature=temperature)`  
-`>>> sample.tree()`  
+`>>> print sample.tree`  
 `sample:NXsample`  
 `  temperature = 40.0`  
 `  units = K`
@@ -343,7 +343,7 @@ the data, while the second is a list containing the axes, again as SDSs
 or Numpy arrays. In this example, the names of the arrays have not been
 defined within an SDS so default names were assigned.
 
-`>>> a.tree()`  
+`>>> print a.tree`  
 `   `[`data:NXdata`](data:NXdata)  
 `     axis1 = float64(101)`  
 `     axis2 = float64(101)`  
@@ -358,7 +358,7 @@ through the 'name' attribute.
 `>>> phi=np.linspace(0,2*np.pi,101)`  
 `>>> data=np.sin(phi)`  
 `>>> a=NXdata(NXfield(data,name='intensity'),(NXfield(phi,name='polar_angle')))`  
-`>>> a.tree()`  
+`>>> print a.tree`  
 [`data:NXdata`](data:NXdata)  
 `  intensity = float64(101)`  
 `    @axes = polar_angle`  
