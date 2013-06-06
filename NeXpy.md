@@ -518,37 +518,37 @@ signal array must match (although the names could be different).
 `>>> y`  
 `NXfield(name=y,value=[ 0.99749499  0.59847214 -0.35078323])`  
 `>>> a=NXdata(y,x)`  
-`>>> a.tree()`  
+`>>> print a.tree`  
 [`data:NXdata`](data:NXdata)  
 `  x = [ 1.5  2.5  3.5]`  
 `  y = [ 0.99749499  0.59847214 -0.35078323]`  
 `    @axes = x`  
 `    @signal = 1`  
-`>>> (a+1).tree()`  
+`>>> print (a+1).tree`  
 [`data:NXdata`](data:NXdata)  
 ` x = [ 1.5  2.5  3.5]`  
 ` y = [ 1.99749499  1.59847214  0.64921677]`  
 `   @axes = x`  
 `   @signal = 1`  
-`>>> (2*a).tree()`  
+`>>> print (2*a).tree`  
 [`data:NXdata`](data:NXdata)  
 `  x = [ 1.5  2.5  3.5]`  
 `  y = [ 1.99498997  1.19694429 -0.70156646]`  
 `    @axes = x`  
 `    @signal = 1`  
-`>>> (a+a).tree()`  
+`>>> print (a+a).tree`  
 [`data:NXdata`](data:NXdata)  
 `  x = [ 1.5  2.5  3.5]`  
 `  y = [ 1.99498997  1.19694429 -0.70156646]`  
 `    @axes = x`  
 `    @signal = 1`  
-`>>> (a-a).tree()`  
+`>>> print (a-a).tree`  
 [`data:NXdata`](data:NXdata)  
 `  x = [ 1.5  2.5  3.5]`  
 `  y = [ 0.  0.  0.]`  
 `    @axes = x`  
 `    @signal = 1`  
-`>>> (a/2).tree()`  
+`>>> print (a/2).tree`  
 [`data:NXdata`](data:NXdata)  
 `  x = [ 1.5  2.5  3.5]`  
 `  y = [ 0.49874749  0.29923607 -0.17539161]`  
@@ -559,14 +559,14 @@ If data errors are included in the NXdata group (with an additional
 array named 'errors'), then the errors are propagated according to the
 operand.
 
-`>>> a.tree()`  
+`>>> print a.tree`  
 [`data:NXdata`](data:NXdata)  
 `  errors = [ 0.99874671  0.77360981  0.59226956]`  
 `  x = [ 1.5  2.5  3.5]`  
 `  y = [ 0.99749499  0.59847214  0.35078323]`  
 `    @axes = x`  
 `    @signal = 1`  
-`>>> (a+a).tree()`  
+`>>> print (a+a).tree`  
 [`data:NXdata`](data:NXdata)  
 `  errors = [ 1.41244114  1.09404949  0.83759564]`  
 `  x = [ 1.5  2.5  3.5]`  
