@@ -172,9 +172,9 @@ command.
 `>>> a=nexus.load('sns/data/ARCS_7326_tof.nxs')`
 
 The assigned variable now contains the entire tree structure of the
-file, which can be displayed with the nxtree() method.
+file, which can be displayed by printing the 'tree' property.
 
-`>>> a.tree()`  
+`>>> print a.tree`  
 `root:NXroot`  
 ` @HDF5_Version = 1.8.2`  
 ` @NeXus_version = 4.2.1`  
