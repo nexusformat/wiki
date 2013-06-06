@@ -131,7 +131,7 @@ It is just as easy to create new NeXus data sets from scratch using Numpy arrays
  >>> X,Y=np.meshgrid(x,y)
  >>> z=np.sin(X)*np.sin(Y)
  >>> a=NXdata(z,[x,y])
- >>> a.nxsave('function.nxs')
+ >>> a.save('function.nxs')
 This file can then be loaded again. 
  >>> b=nexus.load('function.nxs')
  >>> print b.tree
@@ -147,7 +147,7 @@ This file can then be loaded again.
       signal = float64(101x101)
         @axes = axis1:axis2
         @signal = 1
-Note that the nxsave() method automatically wraps any valid NeXus data in an NXentry group, in order to produce a standard-compliant file.
+Note that the save() method automatically wraps any valid NeXus data in an NXentry group, in order to produce a standard-compliant file.
 ====NeXus Fields====
 NeXus data values are stored in NeXus objects of class 'NXfield'. The NXfield class wraps standard Numpy arrays, scalars, and python strings so that data attributes can be associated with them. There are two ways to create an NXfield.
 * Explicit initialization. The data value is given by the first positional argument, and may be a python scalar or string, or a Numpy array.  In this method, keyword arguments can be used to define NXfield attributes.

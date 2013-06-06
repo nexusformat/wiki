@@ -219,7 +219,7 @@ function, which is then saved to a file.
 `>>> X,Y=np.meshgrid(x,y)`  
 `>>> z=np.sin(X)*np.sin(Y)`  
 `>>> a=NXdata(z,[x,y])`  
-`>>> a.nxsave('function.nxs')`
+`>>> a.save('function.nxs')`
 
 This file can then be loaded again.
 
@@ -238,8 +238,8 @@ This file can then be loaded again.
 `       @axes = axis1:axis2`  
 `       @signal = 1`
 
-Note that the nxsave() method automatically wraps any valid NeXus data
-in an NXentry group, in order to produce a standard-compliant file.
+Note that the save() method automatically wraps any valid NeXus data in
+an NXentry group, in order to produce a standard-compliant file.
 
 #### NeXus Fields
 
