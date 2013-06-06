@@ -105,13 +105,13 @@ first import of nexpy.
 
 #### Required Libraries
 
--   [PySide v1.1.0](http://www.pyside.org/) (GUI only)
--   [iPython v0.13](http://ipython.org/) (GUI only)
+-   [nexus](http://www.nexusformat.org)
 -   [numpy,scipy](http://numpy.scipy.org)
 -   [matplotlib v1.1.0](http://matplotlib.sourceforge.net)
 -   [hdf5](http://www.hdfgroup.org)
 -   [mxml](http://www.minixml.org) (XML NeXus files only)
--   [nexus](http://www.nexusformat.org)
+-   [PySide v1.1.0](http://www.pyside.org/) (GUI only)
+-   [iPython v0.13](http://ipython.org/) (GUI only)
 
 Running NeXpy
 -------------
