@@ -103,6 +103,16 @@ If you are extracting the nexus library from a bundle at runtime, set
 os.environ\['NEXUSLIB'\] to the path where it is extracted before the
 first import of nexpy.
 
+#### Required Libraries
+
+-   [PySide v1.1.0](http://www.pyside.org/) (GUI only)
+-   [iPython v0.13](http://ipython.org/) (GUI only)
+-   [numpy,scipy](http://numpy.scipy.org)
+-   [matplotlib v1.1.0](http://matplotlib.sourceforge.net)
+-   [hdf5](http://www.hdfgroup.org)
+-   [mxml](http://www.minixml.org) (XML NeXus files only)
+-   [nexus](http://www.nexusformat.org)
+
 Running NeXpy
 -------------
 
