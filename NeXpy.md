@@ -112,6 +112,7 @@ first import of nexpy.
 -   [mxml](http://www.minixml.org) (XML NeXus files only)
 -   [PySide v1.1.0](http://www.pyside.org/) (GUI only)
 -   [iPython v0.13](http://ipython.org/) (GUI only)
+-   [pyspec](http://pyspec.sourceforge.net) (SPEC reader only)
 
 Running NeXpy
 -------------

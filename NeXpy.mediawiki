@@ -64,6 +64,7 @@ If you are extracting the nexus library from a bundle at runtime, set os.environ
 * [http://www.minixml.org mxml] (XML NeXus files only)                
 * [http://www.pyside.org/ PySide v1.1.0] (GUI only)
 * [http://ipython.org/ iPython v0.13] (GUI only)
+* [http://pyspec.sourceforge.net pyspec] (SPEC reader only)
 
 ==Running NeXpy==
 There are two ways of using the NeXpy interface to NeXus files.
