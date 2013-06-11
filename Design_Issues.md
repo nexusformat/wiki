@@ -11,6 +11,8 @@ If you want others to participate, you should announce the new
 discussion on the [NeXus Mailing
 List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 
+-   [file\_id attribute for Nexus
+    files](file_id_attribute_for_Nexus_files "wikilink")
 -   [NXgeometry and NXshape - documentation and
     review](NXgeometry_and_NXshape_-_documentation_and_review "wikilink")
 -   [Objects or Interfaces](Objects_or_Interfaces "wikilink")
