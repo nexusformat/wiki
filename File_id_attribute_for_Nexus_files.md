@@ -4,9 +4,6 @@ permalink: File_id_attribute_for_Nexus_files/
 layout: wiki
 ---
 
-file\_id attribute for NXroot
-=============================
-
 In its current definition of `NXroot` no attribute is provided to hold a
 unique ID for a file. Though there is one for the filename, this might
 not be unique and can change over time. Several facilities are planning
