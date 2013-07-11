@@ -166,8 +166,6 @@ we may directly copy from the CBF documents.
 NXgoniometer
 ============
 
-=
-
 Consider the situaton when a sample is mounted on some sort of
 positioning device: x-y tables, eulerian cradle goniometer or such. The
 current NeXus convention is to store the values coming from such
