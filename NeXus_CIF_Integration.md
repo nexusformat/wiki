@@ -5,7 +5,7 @@ layout: wiki
 ---
 
 NeXus CIF Merger
-----------------
+================
 
 At august, 22, 2013 some members of the NIAC meet with representatives
 of the CIF community and the IUCR to discuss a possible merger or
@@ -13,7 +13,8 @@ collaboration between NeXus and CIF. This wiki page is meant as a forum
 to discuss the NIACS position towards this merger. The initial reaction
 was quite positive.
 
-### Some Issues and Differences
+Some Issues and Differences
+===========================
 
 -   NeXus addresses a far greater range of techniques and
     instrumentation then CIF does.
@@ -35,7 +36,8 @@ was quite positive.
 -   Herbert has demonstrated that it is possible to map CIF into NeXus.
     There are issues but no real show stoppers.
 
-### Questions
+Questions
+=========
 
 -   Is CIF ready to expand towards a more general data format?
 -   How are the NeXus and CIF dictionaries to be merged? Or are they to
@@ -48,14 +50,16 @@ was quite positive.
 -   Which CIF concepts would need to be included into NeXus to make it
     work?
 
-### The NIACS Interest
+The NIACS Interest
+==================
 
 -   NeXus has always tried to be inclusive: it is no use having a
     standard if everyone has an own one!
 -   Recognition by the IUCR would be a selling point for NeXus and
     helpful.
 
-### To Discuss
+To Discuss
+==========
 
 -   Anything to add to the statements above?
 -   NeXus tries to be inclusive: how far are we prepared to change?
