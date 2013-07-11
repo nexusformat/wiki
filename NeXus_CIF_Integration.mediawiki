@@ -21,7 +21,8 @@ At august, 22, 2013 some members of the NIAC will meet with representatives of t
 * Is the merged product still CIF or NeXus or do we need a new name? 
 * How will the new joint file format be used? I assume for deposition of data with IUCR journals.
 * What exactly is the interest of the CIF community to collaborate with NeXus? 
-* Which CIF concepts would need to be included into NeXus to make it work? 
+* Which CIF concepts would need to be included into NeXus to make it work?
+* How does CIF solve the issue: we provide for everything; but in most cases really need only 20-30 data items,. This is the problem NeXus solves with application definitions.
 
 = The NIACS Interest =
 
