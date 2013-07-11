@@ -164,7 +164,9 @@ The good news is that the proposed fields come with documentation which
 we may directly copy from the CBF documents.
 
 NXgoniometer
-------------
+============
+
+=
 
 Consider the situaton when a sample is mounted on some sort of
 positioning device: x-y tables, eulerian cradle goniometer or such. The
