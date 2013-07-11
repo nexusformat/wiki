@@ -12,6 +12,7 @@ discussion on the [NeXus Mailing
 List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 
 -   [NeXus CIF Merger](NeXus_CIF_Merger "wikilink")
+-   [ConcordanceDiscussion](ConcordanceDiscussion "wikilink")
 -   [file\_id attribute for Nexus
     files](file_id_attribute_for_Nexus_files "wikilink")
 -   [NXgeometry and NXshape - documentation and
