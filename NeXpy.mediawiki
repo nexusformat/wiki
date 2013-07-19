@@ -205,7 +205,7 @@ The objects in NeXus groups, which can be NXfields or other NXgroups, can also b
  >>> X,Y=np.meshgrid(y,x)
  >>> z=np.sin(X)*np.sin(Y)
  >>> a=NXdata(z,[x,y])
-:The first positional argument is an NXfield or Numpy array containing the data, while the second is a list containing the axes, again as SDSs or Numpy arrays. In this example, the names of the arrays have not been defined within an SDS so default names were assigned.
+:The first positional argument is an NXfield or Numpy array containing the data, while the second is a list containing the axes, again as NXfields or Numpy arrays. In this example, the names of the arrays have not been defined within an NXfield so default names were assigned.
  >>> print a.tree
     data:NXdata
       axis1 = float64(101)

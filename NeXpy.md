@@ -348,9 +348,9 @@ This was already demonstrated in the example above, reproduced here:
 
   
 The first positional argument is an NXfield or Numpy array containing
-the data, while the second is a list containing the axes, again as SDSs
-or Numpy arrays. In this example, the names of the arrays have not been
-defined within an SDS so default names were assigned.
+the data, while the second is a list containing the axes, again as
+NXfields or Numpy arrays. In this example, the names of the arrays have
+not been defined within an NXfield so default names were assigned.
 
 `>>> print a.tree`  
 `   `[`data:NXdata`](data:NXdata)  
