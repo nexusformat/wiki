@@ -63,6 +63,9 @@ The NIACS Interest
     standard if everyone has an own one!
 -   Recognition by the IUCR would be a selling point for NeXus and
     helpful.
+-   Increased interoperability: Interoperability is the raison d'etre of
+    NeXus
+-   Ideal world: use CIF, HDF5 and NeXus tools on all files.
 
 To Discuss
 ==========
