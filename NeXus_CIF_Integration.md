@@ -35,6 +35,9 @@ Some Issues and Differences
     atom positions for huge protein structures.
 -   Herbert has demonstrated that it is possible to map CIF into NeXus.
     There are issues but no real show stoppers.
+-   DECTRIS is pushing the PX community towards HDF/NeXus through the
+    use of NeXus as the format for the upcoming EIGER series of
+    detectors
 
 Questions
 =========
