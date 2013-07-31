@@ -42,12 +42,12 @@ Some Issues and Differences
 Questions
 =========
 
+-   How can CIF and NeXus interoperate and integrate?
 -   Is CIF ready to expand towards a more general data format?
--   How are the NeXus and CIF dictionaries to be merged? Or are they to
-    be merged?
--   Is the merged product still CIF or NeXus or do we need a new name?
--   How will the new joint file format be used? I assume for deposition
-    of data with IUCR journals.
+-   How are the NeXus and CIF dictionaries to be integrated? Or are they
+    to be integrated?
+-   How will the new integrated file format be used? I assume for
+    deposition of data with IUCR journals.
 -   What exactly is the interest of the CIF community to collaborate
     with NeXus?
 -   Which CIF concepts would need to be included into NeXus to make it
