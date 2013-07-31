@@ -52,9 +52,9 @@ Questions
     with NeXus?
 -   Which CIF concepts would need to be included into NeXus to make it
     work?
--   How does CIF solve the issue: we provide for everything; but in most
-    cases really need only 20-30 data items,. This is the problem NeXus
-    solves with application definitions.
+-   How does CIF solve the issue: we provide for everything
+    -   but in most cases really need only 20-30 data items
+    -   This is the problem NeXus solves with application definitions.
 
 The NIACS Interest
 ==================
