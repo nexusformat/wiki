@@ -70,4 +70,5 @@ To Discuss
     see more clearly what the merger means. It is also crystal clear
     that any changes to NeXus for a CIF merger need proper process:
     discussion and voting.
+-   Interoperability is a raison d'etre of NeXus
 

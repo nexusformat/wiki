@@ -33,3 +33,4 @@ At august, 22, 2013 some members of the NIAC will meet with representatives of t
 
 * Anything to add to the statements above?
 * NeXus tries to be inclusive: how far are we prepared to change? Presumably this can only be answered after the meeting when we can see more clearly what the merger means. It is also crystal clear that any changes to NeXus for a CIF merger  need proper process: discussion and voting.
+* Interoperability is a raison d'etre of NeXus
