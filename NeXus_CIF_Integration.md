@@ -4,8 +4,8 @@ permalink: NeXus_CIF_Integration/
 layout: wiki
 ---
 
-NeXus CIF Merger
-================
+NeXus CIF Integration
+=====================
 
 At august, 22, 2013 some members of the NIAC will meet with
 representatives of the CIF community and the IUCR in order to discuss a
