@@ -11,7 +11,7 @@ If you want others to participate, you should announce the new
 discussion on the [NeXus Mailing
 List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 
--   [NeXus CIF Merger](NeXus_CIF_Merger "wikilink")
+-   [NeXus CIF Integration](NeXus_CIF_Integration "wikilink")
 -   [ConcordanceDiscussion](ConcordanceDiscussion "wikilink")
 -   [file\_id attribute for Nexus
     files](file_id_attribute_for_Nexus_files "wikilink")
