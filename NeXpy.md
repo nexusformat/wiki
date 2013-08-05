@@ -152,8 +152,7 @@ within the GUI shell.
 2.  All current NeXus data trees are easy to inspect in the pane on the
     upper left side. Hovering over a data item produces a tooltip
     containing a list of all the item's children.
-3.  The root level of all newly created groups are automatically
-    displayed in the tree.
+3.  Newly created group can be added to the tree at any time.
 4.  Any changes to data sets in the scripting window will be reflected
     within the tree pane, including the creation of new NXroot or
     NXentry groups.
