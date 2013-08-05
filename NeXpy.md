@@ -373,6 +373,19 @@ through the 'name' attribute.
 `    @signal = 1`  
 `  polar_angle = float64(101)`
 
+### Adding NeXus Data to the Tree View
+
+If you create a NeXus group dynamically in the iPython shell, it can be
+added to the tree view using the tree's add method.
+
+`>>> a=NXroot()`  
+`>>> a.entry = NXentry()`  
+`>>> tree.add(a)`
+
+If the group is not an NXroot group, the data will be wrapped
+automatically in an NXroot group and given a default name that doesn't
+conflict with existing tree nodes, e.g., w4.
+
 ### Plotting NeXus Data
 
 #### Python Shell
