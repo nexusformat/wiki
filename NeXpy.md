@@ -401,7 +401,7 @@ boxes. ![Axis Limits
 Toolbar|center|600px](Axis_Limits_Bar.png "fig:Axis Limits Toolbar|center|600px")
 There are two checkboxes:
 
-Lock:If the maximum and/or minimum values are not set to the limits, then this checkbox locks the difference between the two. The arrows can be used to step with this width through the entire range.  
+Lock:If the maximum and/or minimum values are not set to the limits, then this checkbox locks the difference between the two. This checkbox disables setting of the minimum value. You can step through the z-values with automatic replots by selecting the maximum box and using the keyboard up and down arrows or by clicking the box arrows.  
 Autoscale: When stepping through the z-values, this checkbox determines whether the plot should change the color scale.  
 
 ### Manipulating NeXus Data
