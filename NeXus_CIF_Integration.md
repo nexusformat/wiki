@@ -56,8 +56,8 @@ Questions
     -   but in most cases really need only 20-30 data items
     -   This is the problem NeXus solves with application definitions.
 
-The NIACS Interest
-==================
+The NIAC's Interest
+===================
 
 -   NeXus has always tried to be inclusive: it is no use having a
     standard if everyone has an own one!
