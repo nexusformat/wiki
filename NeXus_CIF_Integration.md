@@ -77,3 +77,8 @@ To Discuss
     that any changes to NeXus for a CIF merger need proper process:
     discussion and voting.
 
+### CIF-NeXus Presentation
+
+The draft for the NeXus CIF presentation can be downloaded here:
+![](CIFNexus.pdf "fig:CIFNexus.pdf"). May be we get a chance to discuss
+this on the next Telco.
