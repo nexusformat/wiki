@@ -166,7 +166,6 @@ within the GUI shell.
 #### Planned Enhancements
 
 -   Editing data items in the tree within an editor pane.
--   Fitting data with predefined and user-supplied functions.
 
 NeXus Interface
 ---------------
