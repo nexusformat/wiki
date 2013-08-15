@@ -7,8 +7,9 @@ This document summarizes the problems occurring when mapping CBF to
 NeXus how I see them from the discussion with Herbert. In the following 
 discussion all groups which are not NeXus yet will be prefixed with 
 TBD for To Be Discussed. This is the version updated after the July, 10 
-teleconference. 
+teleconference.
 
+Further details on [https://sites.google.com/site/nexuscbf/ NeXus/HDF5/CBF Integration]
 
 = The Variant Issue =
 

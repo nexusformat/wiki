@@ -15,6 +15,9 @@ discussion all groups which are not NeXus yet will be prefixed with TBD
 for To Be Discussed. This is the version updated after the July, 10
 teleconference.
 
+Further details on [NeXus/HDF5/CBF
+Integration](https://sites.google.com/site/nexuscbf/)
+
 The Variant Issue
 =================
 
