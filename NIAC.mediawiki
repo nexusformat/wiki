@@ -4,14 +4,14 @@ You may contact the NIAC by sending an email to [mailto:nexus-committee@nexusfor
 
 == [[Membership Dates|Current Members]] ==
 *[[User:Freddie Akeroyd|Frederick Akeroyd]], Rutherford Appleton Laboratory, UK (ISIS Representative, Technical Committee Chair)
-*[[User:Stuart Campbell|Stuart Campbell]] Spallation Neutron Source, USA 
+*[[User:Herbert Bernstein|Herbert Bernstein]], ImgCIF
 *[[User:Bjorn Clausen|Bjorn Clausen]], Los Alamos National Laboratory, USA
 *[[User:Steve Cottrell|Stephen Cottrell]], Rutherford Appleton Laboratory, UK (Muon Representative)
 *[[User:Matthias Drochner|Matthias Drochner]], Forschungzentrum Jülich, Germany
-*[[User:David Männicke|David Männicke]], Australian Nuclear Science and Technology Organisation, Australia
-*[[User:Jens-Uwe Hoffmann|Jens-Uwe Hoffmann]], Helmholtz Zentrum Berlin (renamed HMI), Germany
+*[[User:Jens-Uwe Hoffmann|Jens-Uwe Hoffmann]], Helmholtz Zentrum Berlin, Germany
 *[[User:Pete Jemian|Pete Jemian]], Advanced Photon Source, USA (Documentation Release Manager)
 *[[User:Mark Koennecke|Mark Könnecke]], Paul Scherrer Institut, Switzerland (Chair)
+*[[User:David Männicke|David Männicke]], Australian Nuclear Science and Technology Organisation, Australia
 *[[User:Ray Osborn|Raymond Osborn]], Argonne National Laboratory, USA
 *[[User:Peter Peterson|Peter Peterson]], Spallation Neutron Source, USA 
 *[[User:Tobias Richter|Tobias Richter]], Diamond Light Source, UK (Executive Secretary)
@@ -20,7 +20,6 @@ You may contact the NIAC by sending an email to [mailto:nexus-committee@nexusfor
 *[http://www.psi.ch/lsc/benjamin-watts Benjamin Watts], Swiss Light Source, Switzerland
 *[[User:Eugenwintersberger|Eugen Wintersberger]], DESY, Germany
 *[[User:Joachim Wuttke|Joachim Wuttke]], FRM II and JCNS, Germany
-*[[User:Herbert Bernstein|Herbert Bernstein]], ImgCIF
 
 The [[Membership Dates|expiration dates]] for the various members.
 

@@ -16,22 +16,21 @@ You may contact the NIAC by sending an email to
 -   [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink"), Rutherford
     Appleton Laboratory, UK (ISIS Representative, Technical Committee
     Chair)
--   [Stuart Campbell](User%3AStuart_Campbell "wikilink") Spallation
-    Neutron Source, USA
+-   [Herbert Bernstein](User%3AHerbert_Bernstein "wikilink"), ImgCIF
 -   [Bjorn Clausen](User%3ABjorn_Clausen "wikilink"), Los Alamos
     National Laboratory, USA
 -   [Stephen Cottrell](User%3ASteve_Cottrell "wikilink"), Rutherford
     Appleton Laboratory, UK (Muon Representative)
 -   [Matthias Drochner](User%3AMatthias_Drochner "wikilink"),
     Forschungzentrum Jülich, Germany
--   [David Männicke](User%3ADavid_Männicke "wikilink"), Australian
-    Nuclear Science and Technology Organisation, Australia
 -   [Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann "wikilink"), Helmholtz
-    Zentrum Berlin (renamed HMI), Germany
+    Zentrum Berlin, Germany
 -   [Pete Jemian](User%3APete_Jemian "wikilink"), Advanced Photon
     Source, USA (Documentation Release Manager)
 -   [Mark Könnecke](User%3AMark_Koennecke "wikilink"), Paul Scherrer
     Institut, Switzerland (Chair)
+-   [David Männicke](User%3ADavid_Männicke "wikilink"), Australian
+    Nuclear Science and Technology Organisation, Australia
 -   [Raymond Osborn](User%3ARay_Osborn "wikilink"), Argonne National
     Laboratory, USA
 -   [Peter Peterson](User%3APeter_Peterson "wikilink"), Spallation
@@ -47,7 +46,6 @@ You may contact the NIAC by sending an email to
     Germany
 -   [Joachim Wuttke](User%3AJoachim_Wuttke "wikilink"), FRM II and JCNS,
     Germany
--   [Herbert Bernstein](User%3AHerbert_Bernstein "wikilink"), ImgCIF
 
 The [expiration dates](Membership_Dates "wikilink") for the various
 members.
