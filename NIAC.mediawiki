@@ -7,7 +7,6 @@ You may contact the NIAC by sending an email to [mailto:nexus-committee@nexusfor
 *[[User:Herbert Bernstein|Herbert Bernstein]], ImgCIF
 *[[User:Bjorn Clausen|Bjorn Clausen]], Los Alamos National Laboratory, USA
 *[[User:Steve Cottrell|Stephen Cottrell]], Rutherford Appleton Laboratory, UK (Muon Representative)
-*[[User:Matthias Drochner|Matthias Drochner]], Forschungzentrum Jülich, Germany
 *[[User:Jens-Uwe Hoffmann|Jens-Uwe Hoffmann]], Helmholtz Zentrum Berlin, Germany
 *[[User:Pete Jemian|Pete Jemian]], Advanced Photon Source, USA (Documentation Release Manager)
 *[[User:Mark Koennecke|Mark Könnecke]], Paul Scherrer Institut, Switzerland (Chair)

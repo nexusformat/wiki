@@ -21,8 +21,6 @@ You may contact the NIAC by sending an email to
     National Laboratory, USA
 -   [Stephen Cottrell](User%3ASteve_Cottrell "wikilink"), Rutherford
     Appleton Laboratory, UK (Muon Representative)
--   [Matthias Drochner](User%3AMatthias_Drochner "wikilink"),
-    Forschungzentrum Jülich, Germany
 -   [Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann "wikilink"), Helmholtz
     Zentrum Berlin, Germany
 -   [Pete Jemian](User%3APete_Jemian "wikilink"), Advanced Photon
