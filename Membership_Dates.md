@@ -12,9 +12,7 @@ stated in the [constitution](NIAC "wikilink").
 ### Expire May 1, 2013
 
 -   Freddie Akeroyd - ISIS Pulsed Neutron Facility, UK
--   Pete Jemian - APS, ANL, USA
 -   Mark Koennecke - SINQ, Switzerland
--   Jens-Uwe Hoffman - Helmholtz-Zentrum, Germany
 
 ### Expire June 1, 2013
 
@@ -46,4 +44,9 @@ stated in the [constitution](NIAC "wikilink").
 
 -   David Männicke, Australian Nuclear Science and Technology
     Organisation, Australia
+
+### Expire September 12, 2016
+
+-   Jens-Uwe Hoffman - Helmholtz-Zentrum, Germany
+-   Pete Jemian - APS, ANL, USA
 
