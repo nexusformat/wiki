@@ -19,7 +19,6 @@ stated in the [constitution](NIAC "wikilink").
 -   Jiro Suzuki - J-PARC, Japan
 -   Bjørn Clausen - Lujan Neutron Scattering Center, USA
 -   Stephen Cottrell - ISIS Pulsed Muon Facility, UK
--   Armando Solé - European Synchrotron Radiation Facility, France
 
 ### Expire October 8, 2013
 
