@@ -12,17 +12,13 @@ stated in the [constitution](NIAC "wikilink").
 ### Expire May 1, 2013
 
 -   Freddie Akeroyd - ISIS Pulsed Neutron Facility, UK
--   Mark Koennecke - SINQ, Switzerland
 
 ### Expire June 1, 2013
 
--   Jiro Suzuki - J-PARC, Japan
 -   Bjørn Clausen - Lujan Neutron Scattering Center, USA
--   Stephen Cottrell - ISIS Pulsed Muon Facility, UK
 
 ### Expire October 8, 2013
 
--   Ben Watts - Swiss Light Source, Switzerland
 -   Ray Osborn - Argonne National Lab - non-facility member, USA
 -   Peter Peterson - Spallation Neutron Source, USA
 -   Joachim Wuttke - Forschungzentrum Juelich, Germany
@@ -48,4 +44,11 @@ stated in the [constitution](NIAC "wikilink").
 
 -   Jens-Uwe Hoffman - Helmholtz-Zentrum, Germany
 -   Pete Jemian - APS, ANL, USA
+
+### Expire September 27, 2016
+
+-   Mark Koennecke - SINQ, Switzerland
+-   Jiro Suzuki - J-PARC, Japan
+-   Stephen Cottrell - ISIS Pulsed Muon Facility, UK
+-   Ben Watts - Swiss Light Source, Switzerland
 
