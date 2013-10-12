@@ -36,13 +36,20 @@ deduce a new class *NXpinhole* with the following parameters
 
     NXpinhole
       diameter:NX_FLOAT
-      orientation:NXorientation
-      translation:NXtranslation
+      x_translation:NX_FLOAT
+      height:NX_FLOAT
+      distance:NX_FLOAT
+      depends_on:NX_CHAR
 
-The last two paramters determine the offset of the pinhole center to the
-incident beam. The local coordinate system of the pinhole is defined as
-shown in the figure on the right. All translations and rotations are
-with respect to the origin of this system.
+The first parameter *diameter* describes the diameter of the pnihole
+while the remaining four ones describe its position at the experiment.
+The local coordinate system of the pinhole is defined as shown in the
+figure on the right. All translations are with respect to the origin of
+this system. The *depends\_on* field points to a reference object for
+all geometric transformations. This allows to describe the position of
+the pinhole either with respect to the beam (by referencing an NXbeam
+instance) or with respect to some fixed point at the experiment (for
+instance the center of rotation of the sample).
 
 #### Slits - *NXslit*
 
