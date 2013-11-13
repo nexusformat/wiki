@@ -7,9 +7,7 @@ The members of the NIAC, with the expiration of their membership is listed below
 *Bjørn Clausen - Lujan Neutron Scattering Center, USA
 
 ===Expire October 8, 2013===
-*Ray Osborn - Argonne National Lab - non-facility member, USA
 *Peter Peterson - Spallation Neutron Source, USA 
-*Joachim Wuttke - Forschungzentrum Juelich, Germany
 
 ===Expire March 1, 2014===
 *Eugen Wintersberger - DESY, Germany
@@ -32,3 +30,7 @@ The members of the NIAC, with the expiration of their membership is listed below
 *Jiro Suzuki - J-PARC, Japan
 *Stephen Cottrell - ISIS Pulsed Muon Facility, UK
 *Ben Watts - Swiss Light Source, Switzerland
+
+===Expire October 24, 2016===
+*Ray Osborn - Argonne National Lab - non-facility member, USA
+*Joachim Wuttke - Forschungzentrum Juelich, Germany

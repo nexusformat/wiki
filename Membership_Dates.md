@@ -19,9 +19,7 @@ stated in the [constitution](NIAC "wikilink").
 
 ### Expire October 8, 2013
 
--   Ray Osborn - Argonne National Lab - non-facility member, USA
 -   Peter Peterson - Spallation Neutron Source, USA
--   Joachim Wuttke - Forschungzentrum Juelich, Germany
 
 ### Expire March 1, 2014
 
@@ -51,4 +49,9 @@ stated in the [constitution](NIAC "wikilink").
 -   Jiro Suzuki - J-PARC, Japan
 -   Stephen Cottrell - ISIS Pulsed Muon Facility, UK
 -   Ben Watts - Swiss Light Source, Switzerland
+
+### Expire October 24, 2016
+
+-   Ray Osborn - Argonne National Lab - non-facility member, USA
+-   Joachim Wuttke - Forschungzentrum Juelich, Germany
 
