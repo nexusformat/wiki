@@ -4,7 +4,7 @@ permalink: Membership_Dates/
 layout: wiki
 ---
 
-The members of the NIAC, with the expiration of their membership is
+The members of the NIAC, with the expiration of their membership are
 listed below. If a member wishes to be renewed, they must provide a
 letter of support from the facility and be approved by the NIAC as
 stated in the [constitution](NIAC "wikilink").
