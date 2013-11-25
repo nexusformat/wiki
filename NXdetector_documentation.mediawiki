@@ -1,0 +1,39 @@
+There are some flaws in the documentation of NXdetector which we need fix 
+
+{| {{Tablestyle}}
+|-
+! {{Headcellstyle}} | NXdetector field
+! {{Headcellstyle}} | comment
+|-
+| align="center" | distance
+| The distance field still requires documentation
+|-
+| align="center" | polar_angle
+| I guess here we have a collision with the definition for the canonical 'polar_angle' in the user manual. Despite this, the reference manual still mentions that this field requires documentation. 
+|-
+| align="center" | azimuthal_angle
+| Same as for polar_angle (collision with definition of canonical rotations as well as missing documentation)
+|- 
+| align="center" | dead_time
+| which dead time. What does term refer to?
+|- 
+| align="center" | count_time 
+| what do we mean with count time. Is this the time the each pixel was exposed to radiation (or particles)?
+|- 
+| align="center" | acquisition_mode 
+| this is somehow confusing: what is the difference between 'gated' and 'triggered'? Is 'event' not simply gated/triggered by an event? Why does this have its own mode?
+|- 
+| align="center" | angular_calibration
+| we should definitely provide a formula here which explains how to use this numbers? Is a single number per pixel really enough?
+|-
+| aling="center" | countrate_correction__applied
+| are the two underscores a typo or have they been used intentionally? What exactly does this mean? Is this something we have introduced for DECTRIS?
+|- 
+| align="center" | frame_time
+| here we should replace the term 'exposure_time' with 'count_time' to avoid confusion
+|-
+| align="center" | gain_setting
+| I guess this is something we made for DECTRIS
+|}
+
+In order to make things easier we should somehow agree on a coherent naming scheme for time values (maybe provide some timing diagram).
