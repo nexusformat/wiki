@@ -13,10 +13,6 @@ stated in the [constitution](NIAC "wikilink").
 
 -   Freddie Akeroyd - ISIS Pulsed Neutron Facility, UK
 
-### Expire June 1, 2013
-
--   Bjørn Clausen - Lujan Neutron Scattering Center, USA
-
 ### Expire October 8, 2013
 
 -   Peter Peterson - Spallation Neutron Source, USA
@@ -54,4 +50,8 @@ stated in the [constitution](NIAC "wikilink").
 
 -   Ray Osborn - Argonne National Lab - non-facility member, USA
 -   Joachim Wuttke - Forschungzentrum Juelich, Germany
+
+### Expire Novemeber 28, 2016
+
+-   Bjørn Clausen - Lujan Neutron Scattering Center, USA
 
