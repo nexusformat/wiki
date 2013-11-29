@@ -51,7 +51,7 @@ stated in the [constitution](NIAC "wikilink").
 -   Ray Osborn - Argonne National Lab - non-facility member, USA
 -   Joachim Wuttke - Forschungzentrum Juelich, Germany
 
-### Expire Novemeber 28, 2016
+### Expire November 28, 2016
 
 -   Bjørn Clausen - Lujan Neutron Scattering Center, USA
 
