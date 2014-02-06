@@ -17,6 +17,8 @@ You may contact the NIAC by sending an email to
     Appleton Laboratory, UK (ISIS Representative, Technical Committee
     Chair)
 -   [Herbert Bernstein](User%3AHerbert_Bernstein "wikilink"), ImgCIF
+-   [Aaron Brewster](User%3AAaron_Brewster "wikilink"), Lawrence
+    Berkeley Laboratory, USA
 -   [Bjorn Clausen](User%3ABjorn_Clausen "wikilink"), Los Alamos
     National Laboratory, USA
 -   [Stephen Cottrell](User%3ASteve_Cottrell "wikilink"), Rutherford

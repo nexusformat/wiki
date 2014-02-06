@@ -5,6 +5,7 @@ You may contact the NIAC by sending an email to [mailto:nexus-committee@nexusfor
 == [[Membership Dates|Current Members]] ==
 *[[User:Freddie Akeroyd|Frederick Akeroyd]], Rutherford Appleton Laboratory, UK (ISIS Representative, Technical Committee Chair)
 *[[User:Herbert Bernstein|Herbert Bernstein]], ImgCIF
+*[[User:Aaron Brewster|Aaron Brewster]], Lawrence Berkeley Laboratory, USA
 *[[User:Bjorn Clausen|Bjorn Clausen]], Los Alamos National Laboratory, USA
 *[[User:Steve Cottrell|Stephen Cottrell]], Rutherford Appleton Laboratory, UK (Muon Representative)
 *[[User:Jens-Uwe Hoffmann|Jens-Uwe Hoffmann]], Helmholtz Zentrum Berlin, Germany
