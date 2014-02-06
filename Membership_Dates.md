@@ -55,3 +55,7 @@ stated in the [constitution](NIAC "wikilink").
 
 -   Bjørn Clausen - Lujan Neutron Scattering Center, USA
 
+### Expire January 24, 2017
+
+-   Aaron Brewster, Lawrence Berkeley Laboratory, USA
+
