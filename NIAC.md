@@ -37,8 +37,6 @@ You may contact the NIAC by sending an email to
     Neutron Source, USA
 -   [Tobias Richter](User%3ATobias_Richter "wikilink"), Diamond Light
     Source, UK (Executive Secretary)
--   [Armando Sole](User%3AArmando_Sole "wikilink"), European Synchrotron
-    Radiation Facility, France
 -   [Jiro Suzuki](User%3AJiro_Suzuki "wikilink"), KEK, Japan
 -   [Benjamin Watts](http://www.psi.ch/lsc/benjamin-watts), Swiss Light
     Source, Switzerland
