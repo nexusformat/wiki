@@ -4,14 +4,14 @@ permalink: NXaperture_and_Slits/
 layout: wiki
 ---
 
-The actual *NXaperture* base class is far to complex for most of the
+The actual *NXaperture* base class is far t0o complex for most of the
 apertures used at synchrotron facilities. Currently the most commonly
-used apperture types are
+used aperture types are
 
 -   pinholes
 -   2 or 4 blade slits.
 
-From the current implementation of NXaperture it would be rather
+From the current implementation of *NXaperture* it would be rather
 difficult to obtain relevant quantities like the size of the slit gap or
 the offsets of the gap. There are basically two ways how to face this
 problem
@@ -28,11 +28,11 @@ Introducing new classes
 #### Pinholes - *NXpinhole*
 
 ![c|A pinhold in the
-beam.](pinhole_2.png "fig:c|A pinhold in the beam.") Pinholds are most
+beam.](pinhole_2.png "fig:c|A pinhold in the beam.") Pinholes are most
 probably the simplest apertures available. The only parameter of
 importance is the diameter of the pinhole and its position with respect
 to the beam (as shown in the image). From this sketch one could easily
-deduce a new class *NXpinhole* with the following parameters
+deduce a new class *NXpinhole* with the following parameters:
 
     NXpinhole
       diameter:NX_FLOAT
@@ -41,13 +41,13 @@ deduce a new class *NXpinhole* with the following parameters
       distance:NX_FLOAT
       depends_on:NX_CHAR
 
-The first parameter *diameter* describes the diameter of the pnihole
-while the remaining four ones describe its position at the experiment.
-The local coordinate system of the pinhole is defined as shown in the
-figure on the right. All translations are with respect to the origin of
-this system. The *depends\_on* field points to a reference object for
-all geometric transformations. This allows to describe the position of
-the pinhole either with respect to the beam (by referencing an NXbeam
+The first parameter *diameter* describes the diameter of the pinhole
+while the remaining ones describe its position at the experiment. The
+local coordinate system of the pinhole is defined as shown in the figure
+on the right. All translations are with respect to the origin of this
+system. The *depends\_on* field points to a reference object for all
+geometric transformations. This allows to describe the position of the
+pinhole either with respect to the beam (by referencing an *NXbeam*
 instance) or with respect to some fixed point at the experiment (for
 instance the center of rotation of the sample).
 
@@ -61,17 +61,17 @@ determined by the positions of the blades. A base class *NXslit* could
 look like this
 
     NXslit
-     x_gap:NX_FLOAT
-     y_gap:NX_FLOAT
-     x_translation:NX_FLOAT
-     height:NX_FLOAT
-     distance:NX_FLOAT
-     depends_on:NX_CHAR
+      x_gap:NX_FLOAT
+      y_gap:NX_FLOAT
+      x_translation:NX_FLOAT
+      height:NX_FLOAT
+      distance:NX_FLOAT
+      depends_on:NX_CHAR
 
 The size of the gap is given in the local reference frame of the slit
-system. The fields *x\_translation*, *distance*, and *distance* describe
-the translations of the slits with respect to the object referenced by
-*depends\_on*. A *NXslit* basically describes a rectangular aperture. As
+system. The fields *x\_translation* and *distance* describe the
+translations of the slits with respect to the object referenced by
+*depends\_on*. *NXslit* basically describes a rectangular aperture. As
 the size of the aperture and its position with respect to the beam are
 the important parameters the positions of the slit blades are not
 included in the definition of the base class. However, if required they
@@ -80,5 +80,5 @@ can be stored in an instance of *NXcollection*.
 #### What happens to *NXaperture*
 
 The original *NXaperture* remains unchanged (for the sake of
-compatability) and can still be used for all kind of more complex
+compatibility) and can still be used for all kind of more complex
 apertures which cannot be represented by the the new classes.
