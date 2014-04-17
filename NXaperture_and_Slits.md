@@ -52,21 +52,16 @@ determined by the positions of the blades. A base class *NXslit* could
 look like this
 
     NXslit
-      x_gap:NX_FLOAT
-      y_gap:NX_FLOAT
-      x_translation:NX_FLOAT
-      height:NX_FLOAT
-      distance:NX_FLOAT
+      x_gap:NX_LENGTH
+      y_gap:NX_LENGTH
       depends_on:NX_CHAR
 
-The size of the gap is given in the local reference frame of the slit
-system. The fields *x\_translation* and *distance* describe the
-translations of the slits with respect to the object referenced by
-*depends\_on*. *NXslit* basically describes a rectangular aperture. As
-the size of the aperture and its position with respect to the beam are
-the important parameters the positions of the slit blades are not
-included in the definition of the base class. However, if required they
-can be stored in an instance of *NXcollection*.
+The gaps are given in the local reference frame of the slit system,
+which is defined by the transformation chain referenced by the
+*depends\_on* field. The *depends\_on* places the center of the slit
+assembly into the coordinate system. *NXslit* basically describes a
+rectangular aperture. The positions of the individual slit blades are
+not included in the definition of the base class.
 
 #### What happens to *NXaperture*
 
