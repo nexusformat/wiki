@@ -4,38 +4,31 @@ permalink: IssueReporting/
 layout: wiki
 ---
 
-NeXus is using [TRAC](http://trac.edgewall.org) for problem/issue
-reporting. You can browse issues without logging on, but to report
-issues you will need to login using your WIKI username and password (the
-[ login notes](SubversionServer#Login "wikilink") mentioned for write
-access to the [SubversionServer](SubversionServer "wikilink") apply to
-TRAC login too).
+We are in the process of moving source code and issue tracking to GitHub!
+=========================================================================
 
-Whenever an update is made to a ticket, a message is also posted to the
-appropriate [ ticket mailing
-list](Mailing_Lists#NeXus_Code_Tickets_Mailing_List "wikilink")
+Have a look at <https://github.com/nexusformat>
+
+**Creating and modifying tickets in trac should be disabled by now.
+Issues will be enabled on GitHub when all existing content has been
+migrated.**
 
 NeXus Library and Applications
 ------------------------------
 
--   [Report a new issue](http://trac.nexusformat.org/code)
 -   [View current issues](http://trac.nexusformat.org/code/report/1)
 -   [Archive of ticket update
     emails](http://lists.nexusformat.org/pipermail/nexus-code-tickets/)
 -   [Library timeline (recent ticket and code
     changes)](http://trac.nexusformat.org/code/timeline)
--   [Library roadmap](http://trac.nexusformat.org/code/roadmap)
 
 NeXus Instrument/Base Class Definitions
 ---------------------------------------
 
--   [Report a new issue](http://trac.nexusformat.org/definitions)
 -   [View current
     issues](http://trac.nexusformat.org/definitions/report/1)
 -   [Archive of ticket update
     emails](http://lists.nexusformat.org/pipermail/nexus-definitions-tickets/)
 -   [Definitions timeline (recent ticket and definition
     changes)](http://trac.nexusformat.org/definitions/timeline)
--   [Definitions
-    roadmap](http://trac.nexusformat.org/definitions/roadmap)
 
