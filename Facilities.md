@@ -61,8 +61,4 @@ ALBA/CELLS Synchrotron Light Facility, Spain: [ALBA](http://www.cells.es) is cur
 
 <!-- -->
 
-SOLEIL, France: ?  
-
-<!-- -->
-
 SLS, [Paul Scherrer Institut](http://www.psi.ch/), Switzerland: The [Swiss Light Source](http://www.psi.ch/sls/) is considering NeXus at some beamlines. The PolLux STXM beamline will start using new control software in late 2012 which will record all data in the NeXus format. This software is expected to propagate to a number of other STXM beamlines around the world (and the NeXus format with it). The SLS is encouraging Dectris to have their new detectors (e.g. Eiger) record data in an HDF5 format in order to ease adoption of NeXus.  
