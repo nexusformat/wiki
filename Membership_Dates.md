@@ -17,10 +17,6 @@ stated in the [constitution](NIAC "wikilink").
 
 -   Peter Peterson - Spallation Neutron Source, USA
 
-### Expire March 1, 2014
-
--   Eugen Wintersberger - DESY, Germany
-
 ### Expire September 20, 2015
 
 -   Herbert Bernstein, ImgCIF
@@ -58,4 +54,8 @@ stated in the [constitution](NIAC "wikilink").
 ### Expire January 24, 2017
 
 -   Aaron Brewster, Lawrence Berkeley Laboratory, USA
+
+### Expire July 16, 2017
+
+-   Eugen Wintersberger - DESY, Germany
 

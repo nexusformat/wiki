@@ -6,9 +6,6 @@ The members of the NIAC, with the expiration of their membership are listed belo
 ===Expire October 8, 2013===
 *Peter Peterson - Spallation Neutron Source, USA 
 
-===Expire March 1, 2014===
-*Eugen Wintersberger - DESY, Germany
-
 ===Expire September 20, 2015===
 *Herbert Bernstein, ImgCIF
 
@@ -37,3 +34,6 @@ The members of the NIAC, with the expiration of their membership are listed belo
 
 ===Expire January 24, 2017===
 *Aaron Brewster, Lawrence Berkeley Laboratory, USA
+
+===Expire July 16, 2017===
+*Eugen Wintersberger - DESY, Germany
