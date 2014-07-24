@@ -11,6 +11,8 @@ If you want others to participate, you should announce the new
 discussion on the [NeXus Mailing
 List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 
+-   [How to avoid name clashes during future extensions of the Nexus
+    standard](How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard "wikilink")
 -   [NXdetector documentation](NXdetector_documentation "wikilink")
 -   [NeXus CIF Integration](NeXus_CIF_Integration "wikilink")
 -   [ConcordanceDiscussion](ConcordanceDiscussion "wikilink")
