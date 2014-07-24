@@ -18,7 +18,18 @@ Each of these approaches has its pros and cons which should be discussed in this
 
 The most obvious way would be to add a prefix to a field in order to distinguish 
 standard- from user-defined fields. 
-For instance we could require users to prefix their own fields with '''user__'''
+For instance we could require users to prefix their own fields with 
+ user__
+so a user defined angle would have a name like 
+ user__tth
+
+=== Pros ===
+:* easy to implement -- a paragraph in the documentation would suffice
+
+=== Cons ===
+:* it is virtually impossible to force users to stick to this convention
+:* every field name must be parsed before we can tell whether it is a standard or a user defined field
+:* users hardly ever read a manual that careful to recognize such a convention
 
 == Strong typing for fields ==
 
