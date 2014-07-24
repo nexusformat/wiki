@@ -87,5 +87,5 @@ extensions
 
 :\* add an additional hierarchy to the Nexus tree
 
-:\* need to define standard name for instances of *NXcollection* in
-order to avoid future name clashes with the collection itself
+:\* need to define standard name for instances of *NXcollection* to
+avoid future name clashes with the collection instance itself
