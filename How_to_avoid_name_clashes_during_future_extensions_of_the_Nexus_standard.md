@@ -25,3 +25,12 @@ There are three possible approaches to avoid this problem
 
 Each of these approaches has its pros and cons which should be discussed
 in this article.
+
+Prefixes for user defined names
+-------------------------------
+
+Strong typing for fields
+------------------------
+
+Using of NXcollection
+---------------------

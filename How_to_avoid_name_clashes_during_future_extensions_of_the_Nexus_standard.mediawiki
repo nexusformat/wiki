@@ -13,3 +13,9 @@ There are three possible approaches to avoid this problem
 * store all non-standard fields in an instance of NXcollection
 
 Each of these approaches has its pros and cons which should be discussed in this article.
+
+== Prefixes for user defined names ==
+
+== Strong typing for fields ==
+
+== Using of NXcollection ==
