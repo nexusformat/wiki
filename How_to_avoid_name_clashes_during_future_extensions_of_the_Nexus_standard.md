@@ -5,7 +5,7 @@ layout: wiki
 ---
 
 The Problem
-===========
+-----------
 
 The current standard allows users to use any name they want for fields
 and groups within base classes. This can cause troubles for future
