@@ -43,3 +43,15 @@ it for groups).
 === Cons ===
 
 == Using of NXcollection ==
+
+The third approach is to make more extensive use of ''NXcollection''. Every field or group which is not defined by the
+standard will be stored in an instance of ''NXcollection''. 
+
+=== Pros ===
+:* like the prefix approach this is easy to do - just add a section in the documentation
+:* no need to invent new concepts as ''NXcollection'' already exists
+:* could use ''NXcollection'' as a kind of staging area for future class extensions
+
+=== Cons === 
+:* add an additional hierarchy to the Nexus tree
+:* need to define standard name for instances of ''NXcollection'' in order to avoid future name clashes with the collection itself
