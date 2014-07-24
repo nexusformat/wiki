@@ -57,5 +57,14 @@ convention
 Strong typing for fields
 ------------------------
 
+A type could be added to each field by adding an attribute like
+*NX\_class* for groups. Indeed we could reuse *NX\_class* for fields.
+Such an approach might makes names entirely arbitrary as we search for
+fields by type rather than by name (as we are doing it for groups).
+
+### Pros
+
+### Cons
+
 Using of NXcollection
 ---------------------
