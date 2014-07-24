@@ -29,6 +29,10 @@ in this article.
 Prefixes for user defined names
 -------------------------------
 
+The most obvious way would be to add a prefix to a field in order to
+distinguish standard- from user-defined fields. For instance we could
+require users to prefix their own fields with **user\_\_**
+
 Strong typing for fields
 ------------------------
 
