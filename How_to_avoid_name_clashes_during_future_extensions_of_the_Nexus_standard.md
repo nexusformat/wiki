@@ -26,6 +26,9 @@ There are three possible approaches to avoid this problem
 Each of these approaches has its pros and cons which should be discussed
 in this article.
 
+Question: I readily agree that there is a potential problem. But what
+does it tell us that we needed 20 years to discover it? MK
+
 Prefixes for user defined names
 -------------------------------
 
