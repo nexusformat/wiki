@@ -66,6 +66,11 @@ fields by type rather than by name (as we are doing it for groups).
 
 ### Cons
 
+-   We break heavily with NeXus: the dictionary is part of NeXus
+-   All searches would need to be for type. Types which are encoded in
+    attributes. This becomes only practical with a special tool. Do we
+    like special tools? Given our limited resources to maintain them?
+
 Using of NXcollection
 ---------------------
 

@@ -42,6 +42,9 @@ it for groups).
 
 === Cons ===
 
+* We break heavily with NeXus: the dictionary is part of NeXus
+* All searches would need to be for type. Types which are encoded in attributes. This becomes only practical with a special tool. Do we like special tools? Given our limited resources to maintain them?
+
 == Using of NXcollection ==
 
 The third approach is to make more extensive use of ''NXcollection''. Every field or group which is not defined by the
