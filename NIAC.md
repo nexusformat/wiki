@@ -181,8 +181,7 @@ Meetings
 --------
 
 -   [NIAC 2014](NIAC2014 "wikilink") NeXus Code Camp and NIAC Meeting,
-    hosted by APS, Chicago, USA, Fall 2014 ([Poll to set
-    dates](http://doodle.com/b3us7ccwt897qfpw))
+    hosted by APS, Chicago, USA, December 2014
 -   [NIAC 2012](NIAC2012 "wikilink") NeXus Code Camp and NIAC Meeting,
     hosted by ISIS and Diamond at RAL, Oxfordshire, UK, September 2012
     ([minutes](NIAC2012#Meeting_Minutes "wikilink"))
