@@ -1,0 +1,81 @@
+Planning is currently underway for the NIAC / Code Camp meeting in 2014.  
+This is being organized to take place at [http://www.aps.anl.gov The Advanced Photon Source].  
+This time, the meeting is not being held in conjunction and proximity with [http://www.nobugsconference.org/Main_Page NoBugs].
+
+Dates are:
+* NeXus code camp -> Monday, 2014-12-15 - Wednesday, 2014-12-17
+* NIAC Meeting -> Thursday, 2014-12-18 - Friday, 2014-12-19
+
+* [http://j-parc.jp/researcher/MatLife/en/meetings/nobugs2014/index.html 2014 NoBugs meeting] -> 24th - 26th September 2014
+
+==Location and Accomodation==
+[https://www.anlgh.org/ Argonne Guest House, Argonne, Illinois, USA] 
+
+<pre>
+Argonne Guest House
+Argonne National Laboratory
+9700 S. Cass Avenue - Building 460
+Argonne, IL 60439
+Phone: 800-632-8990 or 630-739-6000
+Fax: 630-739-1000
+</pre>
+
+
+Registration is <not setup yet>.
+
+==Travel==
+
+If arriving at Chicago O'Hare International Airport (ORD), ...
+
+
+
+==Logistics==
+
+-tba-
+
+==List of Attendees==
+
+Please add your name to this table after registering for the meetings via the 
+[http://www.nobugs2012.org/NOBUGS/registration/NeXus.html NOBUGS site] 
+
+{| border="1"
+! Name || Company/Institute || Code Camp (15/17) || NIAC (18/19) || Arrival date (accommodation needed from) || Departure date
+|-
+| [[User:Pete Jemian|Pete Jemian]] 
+|| Advanced Photon Source, Argonne National Laboratory, Argonne, Illinois, USA
+|| YES 
+|| YES 
+|| Day attendee 
+|| Day attendee 
+|-
+|}
+
+==Agenda==
+
+Both meetings are taking place in building 437, conference room C010, starting at 9am. 
+Evening meal is scheduled for 7pm each day   
+ 
+===NeXus Code Camp ===
+
+The code camp allows existing NeXus developers to meet and work together on developing software or resolving particular NeXus design issues. A preliminary list of items is listed below, but the exact subset is decided on the first day of the meeting.
+
+* 
+
+===NIAC Meeting===
+
+This is a meeting for members of the NeXus International Advisory committee and other interested persons. It generally discusses matters of policy and strategy, but can discuss specific NeXus instrument definitions if the relevant experts are in attendance.     
+
+* 
+
+==Meeting Minutes==
+
+Date: 2014-12-15
+
+Attendees: 
+
+* 
+
+=== Agenda ===
+
+
+''Meeting End''
