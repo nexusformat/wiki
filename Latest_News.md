@@ -7,9 +7,10 @@ layout: wiki
 2012
 ----
 
-Monday, July 23, 2012: The next [NeXus code camp](NIAC2012 "wikilink") will be held on 18th / 19th September 2012 and the next [NIAC](NIAC2012 "wikilink") meeting on 20th / 21th September 2012. These meeting are the week before the [NoBugs conference](http://www.nobugsconference.org/Conferences) on 24th-26th September 2012  
+Monday, July 23, 2012: A [NeXus code camp](NIAC2012 "wikilink") has been planned for 18th / 19th September 2012 with a [NIAC](NIAC2012 "wikilink") meeting to follow on 20th / 21th September 2012. These meetings are the week before the [NoBugs conference](http://www.nobugsconference.org/Conferences) on 24th-26th September 2012  
 
-<!-- -->
+See [ NIAC: meetings](NIAC#Meetings "wikilink") for historical
+information about the NIAC meetings and Code Camps.
 
 Wednesday, March 6, 2012: Release candidates for NeXus 4.3 are now available from [NeXus\_43\_Testing](NeXus_43_Testing "wikilink")  
 
