@@ -1,3 +1,6 @@
+==2014==
+;Wednesday, 2014-08-07: A [[NIAC2014|NeXus code camp]] has been planned for 15th / 17th December 2014 with a [[NIAC2014|NIAC]] meeting to follow on 18th / 19th December 2014.  This meeting has been scheduled apart from the [http://j-parc.jp/researcher/MatLife/en/meetings/nobugs2014 2014 NoBugs conference] to accommodate travel permissions of a majority on the technical subcommittee.
+
 ==2012==
 ;Monday, July 23, 2012: A [[NIAC2012|NeXus code camp]] has been planned for 18th / 19th September 2012 with a [[NIAC2012|NIAC]] meeting to follow on 20th / 21th September 2012. These meetings are the week before the [http://www.nobugsconference.org/Conferences NoBugs conference] on 24th-26th September 2012
 
