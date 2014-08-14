@@ -35,8 +35,8 @@ are:
     Source, UK
 
 You can contact the sub-committe via <nexus-tech@nexusformat.org>;
-however general questions and discussions about the NeXus API should
-instead be directed to <nexus-developers@nexusformat.org>
+however general questions and discussions about the NeXus and the API
+should be directed to <nexus@nexusformat.org>
 
 Meetings
 --------
