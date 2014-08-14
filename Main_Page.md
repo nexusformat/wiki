@@ -22,7 +22,10 @@ in the analysis and visualization of neutron, x-ray, and muon data.
 [NeXus Mailing Lists](http://download.nexusformat.org/doc/html/mailinglist.html):Mailing lists covering different aspects of the NeXus format.  
 [NeXus International Advisory Committee](NIAC "wikilink"):Charged with supervising the development and maintenance of the NeXus format.  
 
-:\* Most recent meeting: ISIS and Diamond at RAL, Oxfordshire, UK,
+:\* Upcoming meeting: Advanced Photon Source (APS), Argonne, IL, USA,
+December 2014 - [NIAC'2014](NIAC2014 "wikilink")
+
+:\* Previous meeting: ISIS and Diamond at RAL, Oxfordshire, UK,
 September 2012 - [NIAC'2012](NIAC2012 "wikilink")
 
 [Facilities](Facilities "wikilink"):Facilities currently using, or intending to use, NeXus and their future plans for the format.  
