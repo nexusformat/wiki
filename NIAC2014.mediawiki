@@ -1,12 +1,11 @@
 Planning is currently underway for the NIAC / Code Camp meeting in 2014.  
 This is being organized to take place at [http://www.aps.anl.gov The Advanced Photon Source].  
-This time, the meeting is not being held in conjunction and proximity with [http://www.nobugsconference.org/Main_Page NoBugs].
+This time, the meeting is not being held in conjunction and proximity with [http://www.nobugsconference.org/Main_Page NOBUGS] whcih is held in Japan in September.
 
 Dates are:
 * NeXus code camp -> Monday, 2014-12-15 - Wednesday, 2014-12-17
 * NIAC Meeting -> Thursday, 2014-12-18 - Friday, 2014-12-19
 
-* [http://j-parc.jp/researcher/MatLife/en/meetings/nobugs2014/index.html 2014 NoBugs meeting] -> 24th - 26th September 2014
 
 ==Location and Accomodation==
 [https://www.anlgh.org/ Argonne Guest House, Argonne, Illinois, USA] 
@@ -21,12 +20,11 @@ Fax: 630-739-1000
 </pre>
 
 
-Registration is <not setup yet>.
+Registration is ''not setup yet''.
 
 ==Travel==
 
 If arriving at Chicago O'Hare International Airport (ORD), ...
-
 
 
 ==Logistics==
@@ -66,23 +64,24 @@ The code camp allows existing NeXus developers to meet and work together on deve
 * Discuss lightweight tags versus application definitions
 * The namespace pollution problem
 * Discuss NeXus processes
+* highlight optional contents in application definitons in manual
+* new NAPI release?
+* finish support for attribute arrays
 
 ===NIAC Meeting===
 
 This is a meeting for members of the NeXus International Advisory committee and other interested persons. It generally discusses matters of policy and strategy, but can discuss specific NeXus instrument definitions if the relevant experts are in attendance.     
 
 * Electing new officers, candidates get ready!
-* Ratification of joint CIF/NeXus application definition
+* Ratification of application definitions and base classes from contrib: joint CIF/NeXus NXmx, NXarpes, NXcite, NXtransformations, etc
 * Deprecation of NeXus polar coordinate system, NXgeometry?
 * Do we want better standardization and documentation of NeXus processes?
 * Discussion about how we assign priorities and respond to the community
 * Do we want NeXus Interfaces for improving base class documentation?
 * Lightweight tags versus application definitions?
 * Rules for multi file NeXus files
-* Once again: discuss  assigning axes to data
-* Decide on NXpoise
+* Once again: discuss assigning axes to data
 * NXformula
-* Are some contributions from the contributions directory ratifiable?
 
 ==Meeting Minutes==
 
