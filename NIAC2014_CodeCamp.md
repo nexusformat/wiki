@@ -4,9 +4,6 @@ permalink: NIAC2014_CodeCamp/
 layout: wiki
 ---
 
-NeXus Code Camp
-===============
-
 The code camp allows existing NeXus developers to meet and work together
 on developing software or resolving particular NeXus design issues.
 
