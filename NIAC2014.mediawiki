@@ -226,8 +226,8 @@ Notes:
 
 === NeXus Code Camp ===
 
-See [[NIAC2014_CodeCamp]]
+See [[NIAC2014_CodeCamp]] for specific Agenda and notes
 
 === NIAC Meeting ===
 
-See [[NIAC2014_Meeting]]
+See [[NIAC2014_Meeting]] for specific Agenda, notes, and Minutes
