@@ -54,14 +54,70 @@ Please reserve your own rooms directly with the hotel:
 * commuter train: 
 ** inconvenient
 
-==Travel==
 
-If arriving at Chicago O'Hare International Airport (ORD), ...
+== Practical Matters ==
 
+=== Registration ===
 
-==Logistics==
+;Step 1: Register with the APS as a visitor to start the process. 
+;Step 2: Send an email to jemian@anl.gov announcing your plan to attend.
 
--tba-
+==== APS Visitor registration ====
+
+;web site: https://www.aps.anl.gov/About/Visiting/visitor_registration.php
+
+You must register as an APS Visitor in advance (to identify matters related to Passport, Visa, and ANL Site Access) or you should not expect access to the ANL site. If asked, indicate that you are visiting ''Pete Jemian''.
+
+For the paperwork of all international visitors, we need each degree, year earned, and institution name.  Additionally for certain visas, we need additional information:
+
+;F1 visa: we need the I-20 number and expiration date.
+;J1 visa: we need the DS-2019 number and expiry date.
+;H1 visa: we need the I797 number and expiry date.
+
+=== Host ===
+
+* Pete Jemian
+** Advanced Photon Source, Argonne National Laboratory
+** email: jemian _at* anl.gov
+** office phone: 1-630-252-3189 (forwards to mobile)
+** Google voice: +1-847-859-9775 (forwards to mobile)
+
+=== Costs ===
+
+*Expect hotel rate to be US$### (approximate, subject to change)
+** Please reserve your own rooms directly with the hotel (website, phone, ...)
+*Conference fee: no fee
+** food at morning and afternoon breaks will be provided
+** perhaps (no guarantee) a small meeting souvenir
+* regular meals (breakfast, lunch, dinner) will be traveler's expense
+
+=== Equipment ===
+
+{| border="1"
+|-
+! item || quantity || who provides?
+|-
+| projector & screen
+| align="center" | &nbsp;
+| align="center" | host
+|-
+| LCD displays, keyboards, & mice 
+| align="center" | &nbsp;
+| align="center" | host
+|-
+| 120 VAC, 60 Hz, US-style 3-prong extension cords
+| align="center" | sufficient
+| align="center" | host
+|-
+| foreign electrical power adapter
+| align="center" | as needed
+| align="center" | traveler
+|-
+| Wi-Fi connections
+| align="center" | sufficient
+| align="center" | hotel
+|}
+
 
 ==List of Attendees==
 
