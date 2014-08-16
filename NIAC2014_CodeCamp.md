@@ -8,8 +8,12 @@ NeXus Code Camp
 ===============
 
 The code camp allows existing NeXus developers to meet and work together
-on developing software or resolving particular NeXus design issues. A
-preliminary list of items is listed below, but the exact subset is
+on developing software or resolving particular NeXus design issues.
+
+Topics to be Considered
+-----------------------
+
+A preliminary list of items is listed below, but the exact subset is
 decided on the first day of the meeting.
 
 -   Discuss NeXus interfaces
@@ -25,3 +29,7 @@ decided on the first day of the meeting.
 -   new NAPI release?
 -   finish support for attribute arrays
 
+Agenda
+------
+
+To be decided on the first day of the 2014 Code Camp.
