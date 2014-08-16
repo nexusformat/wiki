@@ -8,6 +8,12 @@ Dates are:
 
 
 ==Location and Accomodation==
+
+=== location of Meetings ===
+The Code Camp and the NIAC meeting will take place at the Advanced Photon Source, building 437, conference room C010
+
+
+=== Recommended Lodging ===
 [https://www.anlgh.org/ Argonne Guest House, Argonne, Illinois, USA] 
 
 <pre>
