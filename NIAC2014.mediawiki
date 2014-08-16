@@ -38,8 +38,7 @@ Please reserve your own rooms directly with the hotel:
 ;telephone: +1 - 800-632-8990, +1 - 630-739-6000
 ;fax: +1 - 630-739-1000
 ;map: https://goo.gl/maps/SCwja
-
-General information about [http://www.aps.anl.gov/About/Visiting/ Visiting the APS] is available.
+;General information: [http://www.aps.anl.gov/About/Visiting/ Visiting the APS], http://www.aps.anl.gov/About/Visiting
 
 === Directions ===
 
