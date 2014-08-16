@@ -63,6 +63,7 @@ Please reserve your own rooms directly with the hotel:
 
 ;Step 1: Register with the APS as a visitor to start the process. 
 ;Step 2: Send an email to jemian@anl.gov announcing your plan to attend.
+;Step 3: Confirm your name appears on the official [[NIAC2014#List_of_Attendees | list of attendees]] below.
 
 ==== APS Visitor registration ====
 
