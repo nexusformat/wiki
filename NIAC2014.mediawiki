@@ -124,7 +124,7 @@ For the paperwork of all international visitors, we need each degree, year earne
 
 
 {| border="1"
-! Name || Company/Institute || Code Camp (15-17) || NIAC (18-19) || Arrival date (accommodation needed from) || Departure date
+! Name || Company/Institute || Code Camp (15-17) || NIAC (18-19) || Arrival date || Departure date
 |-
 | [[User:Pete Jemian|Pete Jemian]] 
 || Advanced Photon Source, Argonne National Laboratory, Argonne, Illinois, USA
