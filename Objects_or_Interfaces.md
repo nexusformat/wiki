@@ -336,8 +336,8 @@ Another example: a scanned single detector
 `   data[NP]`  
 `     @signal=1`
 
-Advantages and Disadvantages of NeXus Interfaces
-------------------------------------------------
+Advantages and Disadvantages
+----------------------------
 
 ### Advantages
 

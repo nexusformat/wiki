@@ -264,7 +264,7 @@ Another example: a scanned single detector
     data[NP]
       @signal=1
 
-== Advantages and Disadvantages of NeXus Interfaces ==
+== Advantages and Disadvantages ==
 
 === Advantages ===
 What would be the advantages of the NeXus interface approach:
@@ -276,7 +276,7 @@ What would be the advantages of the NeXus interface approach:
 * The interface approach is backwards compatible. We add to NeXus rather then defining something entirely new. Old files can be updated to the way of the interface by adding required fields and the interface group attribute.  
 
 === Disadvantages ===
-* It is yet another concept and set of rules to teach and learn. 
+* It is yet another concept and set of rules to teach and learn.
 
 == NeXus Interfaces and Mapping to CIF ==
 
