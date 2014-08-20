@@ -133,6 +133,13 @@ For the paperwork of all international visitors, we need each degree, year earne
 || Day attendee 
 || Day attendee 
 |-
+| [[User:Herbert Bernstein|Herbert Bernstein]]
+|| Dowling College, NY, USA
+|| YES 
+|| YES 
+|| 2014-12-14
+|| 2014-12-19
+|-
 |}
 
 ==Agenda==
