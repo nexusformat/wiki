@@ -394,3 +394,11 @@ Where To Go From Here?
     but.....
 5.  Polishing up NeXus interfaces most likely requires a code camp.
 
+------------------------------------------------------------------------
+
+More on Interfaces
+------------------
+
+There is a branch, interfaces, on the nexus definitions github area
+which generates a version of the NeXus manual with Interfaces fully
+worked out. Well, how it should look like in my humble opinion.

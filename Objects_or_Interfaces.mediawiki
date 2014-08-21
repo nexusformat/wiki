@@ -295,3 +295,11 @@ Herbert solved the problem in his concordance document  by appending the NeXus b
 #Which rules do we use to write NeXus Interfaces. I made something up for the this example. But, of course, this could be different. 
 # How do we document NeXus interfaces? NXDL would be the first call, but.....
 # Polishing up NeXus interfaces most likely requires a code camp.
+
+----
+
+== More on Interfaces ==
+
+There is a branch, interfaces, on the nexus definitions github area which generates a version 
+of the NeXus manual with Interfaces fully worked out. Well, how it should look like in my 
+humble opinion.
