@@ -1,5 +1,6 @@
-
 The code camp allows existing NeXus developers to meet and work together on developing software or resolving particular NeXus design issues. 
+
+See [[NIAC2014]] for administrative details about this meeting.
 
 == Topics to be Considered ==
 
