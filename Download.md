@@ -11,8 +11,8 @@ Interface](Application_Program_Interface "wikilink") page. To report or
 view problems/bugs/suggestions/enhancement requests goto our
 [IssueReporting](IssueReporting "wikilink") system.
 
-Downloads for [Documentation](Documentation "wikilink") are [available
-separately](Documentation "wikilink")
+Downloads for documentation are available separately at
+<http://download.nexusformat.org/kits/definitions/>.
 
 Requirements
 ------------
