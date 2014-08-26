@@ -12,7 +12,7 @@ discussion on the [NeXus Mailing
 List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 
 -   [NXnet Proposal](NXnet_Proposal "wikilink")
--   [Voting](Voting "wikilink")
+-   [Voting Template](Voting_Template "wikilink")
 -   [ NXTOFRW - NeXus Time-of-Flight Raw File Format (simple sit and
     count case)](TOFRaw "wikilink")
 -   [ NXTOFRWSC - NeXus Time-of-Flight Raw File Format (NXTOFRW with
