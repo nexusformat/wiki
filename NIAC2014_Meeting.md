@@ -18,18 +18,26 @@ this meeting.
 ### Agenda
 
 -   Electing new officers, candidates get ready!
--   Ratification of application definitions and base classes from
-    contrib: joint CIF/NeXus NXmx, NXarpes, NXcite, NXtransformations,
-    etc
+-   Examination of contributed definitions and consideration for
+    ratification:
+    -   joint CIF/NeXus NXmx
+    -   NXarpes
+    -   NXcite
+    -   NXtransformations
+    -   others
 -   Deprecation of NeXus polar coordinate system, NXgeometry?
 -   Do we want better standardization and documentation of NeXus
     processes?
 -   Discussion about how we assign priorities and respond to the
     community
 -   Do we want NeXus Interfaces for improving base class documentation?
+-   application definitions: can some items be optional?
 -   Lightweight tags versus application definitions?
 -   Rules for multi file NeXus files
--   Once again: discuss assigning axes to data
+-   NXdata:
+    -   proposal: describe how to find the default data
+    -   proposal: describe how data are related (particularly: axes and
+        uncertainties)
 -   NXformula
 
 ### Notes
