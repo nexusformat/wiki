@@ -17,7 +17,7 @@ A preliminary list of items is listed below, but the exact subset is decided on 
 * highlight optional contents in application definitions in manual
 * new NAPI release?
 * finish support for attribute arrays
-* Issues posted on the GitHub repository
+* [https://github.com/nexusformat/definitions/issues Issues] posted on the [https://github.com/nexusformat NeXus GitHub] repository
 
 == Agenda ==
 
