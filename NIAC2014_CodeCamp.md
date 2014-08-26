@@ -13,6 +13,8 @@ this meeting.
 Topics to be Considered
 -----------------------
 
+A subset will be chosen on the first day of the meeting.
+
 Walk through
 
 -   [Issues](https://github.com/nexusformat/definitions/issues) posted
@@ -22,8 +24,7 @@ Walk through
 -   Close issues that are of minor importance and not of particular
     concern to anybody and not likely to be resolved any soon.
 
-A preliminary list of items is listed below, but the exact subset is
-decided on the first day of the meeting.
+Choose topics from the preliminary list below:
 
 -   Procedural questions:
     -   How to organize proposals and discussions

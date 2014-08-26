@@ -4,12 +4,14 @@ See [[NIAC2014]] for administrative details about this meeting.
 
 == Topics to be Considered ==
 
+A subset will be chosen on the first day of the meeting.
+
 Walk through
 * [https://github.com/nexusformat/definitions/issues Issues] posted on the [https://github.com/nexusformat NeXus GitHub] repository
 * Proposals and other topics listed on the [[Discussions]] page
 * Close issues that are of minor importance and not of particular concern to anybody and not likely to be resolved any soon.
 
-A preliminary list of items is listed below, but the exact subset is decided on the first day of the meeting.
+Choose topics from the preliminary list below:
 * Procedural questions:
 ** How to organize proposals and discussions
 ** How to remove ballast, when to break compatibility, versioning and validation
