@@ -10,7 +10,7 @@ programmers representing major scientific facilities in order to
 facilitate greater cooperation in the analysis and visualization of
 neutron, x-ray, and muon data.
 
-The following links are also listed on the **NeXus home page**:  
+Home page:  
 
 :\***[<http://www.nexusformat.org>](http://www.nexusformat.org)**.
 
