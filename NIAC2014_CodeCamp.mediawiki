@@ -7,6 +7,7 @@ See [[NIAC2014]] for administrative details about this meeting.
 Walk through
 * [https://github.com/nexusformat/definitions/issues Issues] posted on the [https://github.com/nexusformat NeXus GitHub] repository
 * Proposals and other topics listed on the [[Discussions]] page
+* Close issues that are of minor importance and not of particular concern to anybody and not likely to be resolved any soon.
 
 A preliminary list of items is listed below, but the exact subset is decided on the first day of the meeting.
 * Procedural questions:

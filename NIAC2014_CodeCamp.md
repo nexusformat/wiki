@@ -19,6 +19,8 @@ Walk through
     on the [NeXus GitHub](https://github.com/nexusformat) repository
 -   Proposals and other topics listed on the
     [Discussions](Discussions "wikilink") page
+-   Close issues that are of minor importance and not of particular
+    concern to anybody and not likely to be resolved any soon.
 
 A preliminary list of items is listed below, but the exact subset is
 decided on the first day of the meeting.
