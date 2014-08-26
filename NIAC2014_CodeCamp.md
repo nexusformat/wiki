@@ -27,9 +27,11 @@ decided on the first day of the meeting.
     standard](How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard "wikilink")
 -   highlight optional contents in application definitions in manual
 -   new NAPI release?
--   finish support for attribute arrays
 -   [Issues](https://github.com/nexusformat/definitions/issues) posted
     on the [NeXus GitHub](https://github.com/nexusformat) repository
+    -   1.  230: use cmake to build Sphinx documentation
+
+-   finish support for attribute arrays
 
 Agenda
 ------

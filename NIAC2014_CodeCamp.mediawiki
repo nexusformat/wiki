@@ -16,8 +16,9 @@ A preliminary list of items is listed below, but the exact subset is decided on 
 * [[How to avoid name clashes during future extensions of the Nexus standard]]
 * highlight optional contents in application definitions in manual
 * new NAPI release?
-* finish support for attribute arrays
 * [https://github.com/nexusformat/definitions/issues Issues] posted on the [https://github.com/nexusformat NeXus GitHub] repository
+** #230: use cmake to build Sphinx documentation
+* finish support for attribute arrays
 
 == Agenda ==
 
