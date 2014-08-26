@@ -37,7 +37,6 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 -   [file\_id attribute for Nexus
     files](file_id_attribute_for_Nexus_files "wikilink")
 -   [DECTRIS Example](DECTRIS_Example "wikilink")
--   [NXaperture and Slits](NXaperture_and_Slits "wikilink")
 -   [Connecting NXdata to
     NXdetector](Connecting_NXdata_to_NXdetector "wikilink")
 -   [Indirect Time-of-Flight and
@@ -49,4 +48,8 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 -   [Scaled Data](Scaled_Data "wikilink")
 -   [NXmeasurement](NXmeasurement "wikilink")
 -   [Proposal: NeXus Errors](Proposal:_NeXus_Errors "wikilink")
+
+Resolved issues:
+
+-   [NXaperture and Slits](NXaperture_and_Slits "wikilink")
 

@@ -18,7 +18,6 @@ If you have a specific subject concerning the NeXus format design, please add it
 **[[ConcordanceDiscussion]]
 *[[file_id attribute for Nexus files]]
 *[[DECTRIS Example]]
-*[[NXaperture and Slits]]
 *[[Connecting NXdata to NXdetector]]
 *[[Indirect Time-of-Flight and Coordinates]]
 *[[Double Linking]]
@@ -28,3 +27,6 @@ If you have a specific subject concerning the NeXus format design, please add it
 *[[Scaled Data]]
 *[[NXmeasurement]]
 *[[Proposal: NeXus Errors]]
+
+Resolved issues:
+*[[NXaperture and Slits]]
