@@ -19,13 +19,11 @@ If you have a specific subject concerning the NeXus format design, please add it
 *[[file_id attribute for Nexus files]]
 *[[DECTRIS Example]]
 *[[NXaperture and Slits]]
-*[[NXdetector_2012_10]]
 *[[Connecting NXdata to NXdetector]]
 *[[Indirect Time-of-Flight and Coordinates]]
 *[[Double Linking]]
 *[[Units]]
 *[[Housekeeping pre-NeXus2.0]]
-*[[Schema]] - Using XML Schema instead of [[Metaformat|Meta-DTDs]] for definitions
 *[[Storing Event Data]]
 *[[Scaled Data]]
 *[[NXmeasurement]]

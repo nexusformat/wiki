@@ -38,7 +38,6 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
     files](file_id_attribute_for_Nexus_files "wikilink")
 -   [DECTRIS Example](DECTRIS_Example "wikilink")
 -   [NXaperture and Slits](NXaperture_and_Slits "wikilink")
--   [NXdetector\_2012\_10](NXdetector_2012_10 "wikilink")
 -   [Connecting NXdata to
     NXdetector](Connecting_NXdata_to_NXdetector "wikilink")
 -   [Indirect Time-of-Flight and
@@ -46,8 +45,6 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 -   [Double Linking](Double_Linking "wikilink")
 -   [Units](Units "wikilink")
 -   [Housekeeping pre-NeXus2.0](Housekeeping_pre-NeXus2.0 "wikilink")
--   [Schema](Schema "wikilink") - Using XML Schema instead of
-    [Meta-DTDs](Metaformat "wikilink") for definitions
 -   [Storing Event Data](Storing_Event_Data "wikilink")
 -   [Scaled Data](Scaled_Data "wikilink")
 -   [NXmeasurement](NXmeasurement "wikilink")
