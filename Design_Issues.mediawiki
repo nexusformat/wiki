@@ -15,7 +15,7 @@ If you have a specific subject concerning the NeXus format design, please add it
 **[[Associating Axes with Data]]
 *[[NXdetector documentation]]
 *[[NeXus CIF Integration]]
-*[[ConcordanceDiscussion]]
+**[[ConcordanceDiscussion]]
 *[[file_id attribute for Nexus files]]
 *[[DECTRIS Example]]
 *[[NXaperture and Slits]]

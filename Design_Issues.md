@@ -33,7 +33,7 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
         Data](Associating_Axes_with_Data "wikilink")
 -   [NXdetector documentation](NXdetector_documentation "wikilink")
 -   [NeXus CIF Integration](NeXus_CIF_Integration "wikilink")
--   [ConcordanceDiscussion](ConcordanceDiscussion "wikilink")
+    -   [ConcordanceDiscussion](ConcordanceDiscussion "wikilink")
 -   [file\_id attribute for Nexus
     files](file_id_attribute_for_Nexus_files "wikilink")
 -   [DECTRIS Example](DECTRIS_Example "wikilink")
