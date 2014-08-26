@@ -19,7 +19,6 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
     -   [Containers and
         Inheritance](Containers_and_Inheritance "wikilink") - XLST and
         Reusable definitions
-    -   [Multi Method Instruments](Multi_Method_Instruments "wikilink")
 -   Geometry questions:
     -   [Proposal: NeXus
         Coordinates](Proposal:_NeXus_Coordinates "wikilink")
@@ -49,7 +48,10 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 -   [NXmeasurement](NXmeasurement "wikilink")
 -   [Proposal: NeXus Errors](Proposal:_NeXus_Errors "wikilink")
 
-Resolved issues:
+Resolved issues (any need to keep these pages?):
 
--   [NXaperture and Slits](NXaperture_and_Slits "wikilink")
+-   [NXaperture and Slits](NXaperture_and_Slits "wikilink") -
+    implemented in form of NXslit and NXpinhole
+-   [Multi Method Instruments](Multi_Method_Instruments "wikilink") -
+    implemented in form of NXsubentry
 
