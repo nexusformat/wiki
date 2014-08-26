@@ -21,6 +21,8 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
         Reusable definitions
     -   [Multi Method Instruments](Multi_Method_Instruments "wikilink")
 -   Geometry questions:
+    -   [Proposal: NeXus
+        Coordinates](Proposal:_NeXus_Coordinates "wikilink")
     -   [Coordinate Systems](Coordinate_Systems "wikilink")
     -   [Extension of NeXus Coordinate
         Systems](Extension_of_NeXus_Coordinate_Systems "wikilink")
@@ -50,6 +52,4 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 -   [Scaled Data](Scaled_Data "wikilink")
 -   [NXmeasurement](NXmeasurement "wikilink")
 -   [Proposal: NeXus Errors](Proposal:_NeXus_Errors "wikilink")
--   [Proposal: NeXus
-    Coordinates](Proposal:_NeXus_Coordinates "wikilink")
 

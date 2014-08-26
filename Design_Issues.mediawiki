@@ -7,6 +7,7 @@ If you have a specific subject concerning the NeXus format design, please add it
 **[[Containers and Inheritance]] - XLST and Reusable definitions
 **[[Multi Method Instruments]]
 *Geometry questions:
+**[[Proposal: NeXus Coordinates]]
 **[[Coordinate Systems]]
 **[[Extension of NeXus Coordinate Systems]]
 **[[NXgeometry and NXshape - documentation and review]]
@@ -29,4 +30,3 @@ If you have a specific subject concerning the NeXus format design, please add it
 *[[Scaled Data]]
 *[[NXmeasurement]]
 *[[Proposal: NeXus Errors]]
-*[[Proposal: NeXus Coordinates]]
