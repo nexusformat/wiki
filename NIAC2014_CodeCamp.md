@@ -23,6 +23,10 @@ Walk through
 A preliminary list of items is listed below, but the exact subset is
 decided on the first day of the meeting.
 
+-   Procedural questions:
+    -   How to organize proposals and discussions
+    -   How to remove ballast, when to break compatibility, versioning
+        and validation
 -   Fundamental design issues:
     -   Clarify rank specification
     -   Discuss [NeXus interfaces](Objects_or_Interfaces "wikilink")
