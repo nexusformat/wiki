@@ -23,8 +23,8 @@ decided on the first day of the meeting.
 -   Assigning axes to data once more again
 -   Prepare things from the contributions directory for ratification
 -   Discuss lightweight tags versus application definitions
--   The namespace pollution problem
--   Discuss NeXus processes
+-   [How to avoid name clashes during future extensions of the Nexus
+    standard](How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard "wikilink")
 -   highlight optional contents in application definitions in manual
 -   new NAPI release?
 -   finish support for attribute arrays
