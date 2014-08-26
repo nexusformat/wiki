@@ -25,6 +25,8 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
     -   [Coordinate Systems](Coordinate_Systems "wikilink")
     -   [Extension of NeXus Coordinate
         Systems](Extension_of_NeXus_Coordinate_Systems "wikilink")
+    -   [Indirect Time-of-Flight and
+        Coordinates](Indirect_Time-of-Flight_and_Coordinates "wikilink")
     -   [NXgeometry and NXshape - documentation and
         review](NXgeometry_and_NXshape_-_documentation_and_review "wikilink")
     -   [Detector Geometry](Detector_Geometry "wikilink")
@@ -38,8 +40,6 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 -   [DECTRIS Example](DECTRIS_Example "wikilink")
 -   [Connecting NXdata to
     NXdetector](Connecting_NXdata_to_NXdetector "wikilink")
--   [Indirect Time-of-Flight and
-    Coordinates](Indirect_Time-of-Flight_and_Coordinates "wikilink")
 -   [Double Linking](Double_Linking "wikilink")
 -   [Units](Units "wikilink")
 -   [Housekeeping pre-NeXus2.0](Housekeeping_pre-NeXus2.0 "wikilink")
