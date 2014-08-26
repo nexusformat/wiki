@@ -24,6 +24,7 @@ A preliminary list of items is listed below, but the exact subset is
 decided on the first day of the meeting.
 
 -   Fundamental design issues:
+    -   Clarify rank specification
     -   Discuss [NeXus interfaces](Objects_or_Interfaces "wikilink")
     -   [How to avoid name clashes during future extensions of the Nexus
         standard](How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard "wikilink")
