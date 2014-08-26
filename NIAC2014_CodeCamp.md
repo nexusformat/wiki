@@ -23,21 +23,23 @@ Walk through
 A preliminary list of items is listed below, but the exact subset is
 decided on the first day of the meeting.
 
--   Discuss NeXus interfaces
--   NXformula
--   Rules for multi file NeXus files
--   NXvalidate: state, further development, WWW service
--   Assigning axes to data once more again
--   Prepare *contributed* base class and application definitions for
-    ratification
--   Discuss lightweight tags versus application definitions
--   [How to avoid name clashes during future extensions of the Nexus
-    standard](How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard "wikilink")
--   highlight optional contents in application definitions in manual
--   new NAPI release?
+-   Fundamental design issues:
+    -   Discuss [NeXus interfaces](Objects_or_Interfaces "wikilink")
+    -   [How to avoid name clashes during future extensions of the Nexus
+        standard](How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard "wikilink")
+    -   Optional contents in application definitions?
+    -   Discuss lightweight tags versus application definitions
+    -   Rules for multi file NeXus files
+-   Work on certain classes:
+    -   NXformula?
+    -   NXvalidate: state, further development, WWW service
+    -   NXdata: Assigning axes to data once more again
+    -   Prepare *contributed* base class and application definitions for
+        ratification
+-   New NAPI release?
 -   [\#230](https://github.com/nexusformat/definitions/issues/230): use
     cmake to build Sphinx documentation
--   finish support for attribute arrays
+-   Finish support for attribute arrays
 
 Agenda
 ------
