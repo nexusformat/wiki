@@ -2,6 +2,8 @@
 
 This is a meeting for members of the NeXus International Advisory committee and other interested persons. It generally discusses matters of policy and strategy, but can discuss specific NeXus instrument definitions if the relevant experts are in attendance.
 
+See [[NIAC2014]] for administrative details about this meeting.
+
 === Agenda ===
 
 * Electing new officers, candidates get ready!

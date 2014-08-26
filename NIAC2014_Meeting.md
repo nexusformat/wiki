@@ -12,6 +12,9 @@ committee and other interested persons. It generally discusses matters
 of policy and strategy, but can discuss specific NeXus instrument
 definitions if the relevant experts are in attendance.
 
+See [NIAC2014](NIAC2014 "wikilink") for administrative details about
+this meeting.
+
 ### Agenda
 
 -   Electing new officers, candidates get ready!
