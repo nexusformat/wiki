@@ -4,8 +4,11 @@ See [[NIAC2014]] for administrative details about this meeting.
 
 == Topics to be Considered ==
 
-A preliminary list of items is listed below, but the exact subset is decided on the first day of the meeting.
+Walk through
+* [https://github.com/nexusformat/definitions/issues Issues] posted on the [https://github.com/nexusformat NeXus GitHub] repository
+* Proposals and other topics listed on the [[Discussions]] page
 
+A preliminary list of items is listed below, but the exact subset is decided on the first day of the meeting.
 * Discuss NeXus interfaces
 * NXformula
 * Rules for multi file NeXus files
@@ -16,8 +19,7 @@ A preliminary list of items is listed below, but the exact subset is decided on 
 * [[How to avoid name clashes during future extensions of the Nexus standard]]
 * highlight optional contents in application definitions in manual
 * new NAPI release?
-* [https://github.com/nexusformat/definitions/issues Issues] posted on the [https://github.com/nexusformat NeXus GitHub] repository
-** #230: use cmake to build Sphinx documentation
+* [https://github.com/nexusformat/definitions/issues/230 #230]: use cmake to build Sphinx documentation
 * finish support for attribute arrays
 
 == Agenda ==
