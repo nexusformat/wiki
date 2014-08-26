@@ -12,5 +12,4 @@ guidelines](Help:Contents "wikilink") before making any changes.
 
 [Design Issues](Design_Issues "wikilink"): A forum for discussing any aspect of the NeXus design - the class hierarchy, structure, object linking, *etc*.  
 [Software issues](Software_issues "wikilink"):A forum for discussing the NeXus API and other software issues.  
-[Documentation issues](Documentation_issues "wikilink"):A forum for discussing how the NeXus format should be documented.  
 [Miscellaneous topics](Miscellaneous_topics "wikilink"):A forum for discussing anything else.  
