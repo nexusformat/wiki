@@ -10,32 +10,56 @@ programmers representing major scientific facilities in Europe, Asia,
 Australia, and North America in order to facilitate greater cooperation
 in the analysis and visualization of neutron, x-ray, and muon data.
 
-**NOTE: Visit the NeXus home page:
-[<http://www.nexusformat.org>](http://www.nexusformat.org)**
+The following links are also listed on the **NeXus home page**:  
 
-[NeXus Introduction](http://download.nexusformat.org/doc/html/introduction.html):Introduction to the concepts behind the NeXus data format.  
-[NeXus Documentation](Documentation "wikilink"):Links to the most current documentation of [NeXus](http://download.nexusformat.org/doc/html/user_manual.html), the [classes](http://download.nexusformat.org/doc/html/classes/index.html), [API](http://download.nexusformat.org/doc/html/napi.html), and [NXDL](http://download.nexusformat.org/doc/html/nxdl.html). Also [install kits for documentation and NXDL](http://download.nexusformat.org/kits/definitions/)  
-[NeXus Design](http://download.nexusformat.org/doc/html/design.html): The hierarchical design of NeXus files.  
-[NeXus Utilities](http://download.nexusformat.org/doc/html/utilities.html):Software applications that browse, plot, and analyze NeXus data.  
-[NeXus FAQ](http://download.nexusformat.org/doc/html/faq.html):A list of commonly asked questions about NeXus.  
-[NeXus Discussions](Discussions "wikilink"):A forum for discussing any aspects of the NeXus format.  
-[NeXus Mailing Lists](http://download.nexusformat.org/doc/html/mailinglist.html):Mailing lists covering different aspects of the NeXus format.  
-[NeXus International Advisory Committee](NIAC "wikilink"):Charged with supervising the development and maintenance of the NeXus format.  
+:\***[<http://www.nexusformat.org>](http://www.nexusformat.org)**.
 
-:\* Upcoming meeting: Advanced Photon Source (APS), Argonne, IL, USA,
+Documentation:  
+
+:\*[User
+Manual](http://download.nexusformat.org/doc/html/user_manual.html):
+
+:\*\*[Introduction](http://download.nexusformat.org/doc/html/introduction.html)
+to the concepts behind the NeXus data format
+
+\*\*[Design](http://download.nexusformat.org/doc/html/design.html): The hierarchical design of NeXus files.  
+
+:\*\*[FAQ](http://download.nexusformat.org/doc/html/faq.html): Commonly
+asked questions about NeXus.
+
+:\*[Reference](http://download.nexusformat.org/doc/html/classes/index.html):
+Base classes and application definitions
+
+:\*\*[NXDL](http://download.nexusformat.org/doc/html/nxdl.html) NeXus
+Definition Language
+
+:\*[API](http://download.nexusformat.org/doc/html/napi.html)
+
+:\*\*[Utilities](http://download.nexusformat.org/doc/html/utilities.html):
+Software applications that browse, plot, and analyze NeXus data
+
+:\*[Facilities](Facilities "wikilink") using NeXus
+
+Downloads:  
+
+:\*[Downloads](Download "wikilink") NeXus API library (NAPI) and
+applications
+
+:\*[Install kits](http://download.nexusformat.org/kits/definitions/) for
+documentation and NXDL
+
+Discussion and Development:  
+
+:\*[Bug / issue reporting](IssueReporting "wikilink")
+
+:\*[Mailing
+lists](http://download.nexusformat.org/doc/html/mailinglist.html)
+
+:\*[Discussion forum](Discussions "wikilink") in this wiki
+
+:\*[NeXus International Advisory Committee](NIAC "wikilink")
+
+[Latest News](Latest_News "wikilink"):  
+
+:\*Upcoming meeting: Advanced Photon Source (APS), Argonne, IL, USA,
 December 2014 - [NIAC'2014](NIAC2014 "wikilink")
-
-:\* Previous meeting: ISIS and Diamond at RAL, Oxfordshire, UK,
-September 2012 - [NIAC'2012](NIAC2012 "wikilink")
-
-[Facilities](Facilities "wikilink"):Facilities currently using, or intending to use, NeXus and their future plans for the format.  
-[Latest News](Latest_News "wikilink"):Recent news and developments concerning the NeXus format.  
-[NeXus Downloads](Download "wikilink"):Download NeXus library and applications  
-[Bug/Issue Reporting](IssueReporting "wikilink"):View or report bugs/problems/enhancement requests for the NeXus library and definitions  
-Other :Other items related to the NeXus data format.  
-
-:\* Wikipedia entry - \[Wikipedia
-<http://en.wikipedia.org/wiki/Nexus_%28data_format%29>\]
-
-:\* NeXus Dataformat Workshop 2010 - \[nexus2010
-<http://lns00.psi.ch/nexus2010/>\]
