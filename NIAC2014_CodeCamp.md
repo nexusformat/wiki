@@ -28,7 +28,8 @@ decided on the first day of the meeting.
 -   Rules for multi file NeXus files
 -   NXvalidate: state, further development, WWW service
 -   Assigning axes to data once more again
--   Prepare things from the contributions directory for ratification
+-   Prepare *contributed* base class and application definitions for
+    ratification
 -   Discuss lightweight tags versus application definitions
 -   [How to avoid name clashes during future extensions of the Nexus
     standard](How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard "wikilink")

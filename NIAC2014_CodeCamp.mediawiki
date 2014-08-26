@@ -14,7 +14,7 @@ A preliminary list of items is listed below, but the exact subset is decided on 
 * Rules for multi file NeXus files
 * NXvalidate: state, further development, WWW service
 * Assigning axes to data once more again
-* Prepare things from the contributions directory for ratification
+* Prepare ''contributed'' base class and application definitions for ratification
 * Discuss lightweight tags versus application definitions
 * [[How to avoid name clashes during future extensions of the Nexus standard]]
 * highlight optional contents in application definitions in manual
