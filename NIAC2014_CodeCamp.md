@@ -25,6 +25,7 @@ decided on the first day of the meeting.
 -   highlight optional contents in application definitions in manual
 -   new NAPI release?
 -   finish support for attribute arrays
+-   Issues posted on the GitHub repository
 
 Agenda
 ------
