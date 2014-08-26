@@ -29,6 +29,10 @@ decided on the first day of the meeting.
         and validation
 -   Fundamental design issues:
     -   Clarify rank specification
+        -   related to
+            [\#266](https://github.com/nexusformat/definitions/issues/266):
+            implement difference in rules between base classes and
+            application definitions
     -   Discuss [NeXus interfaces](Objects_or_Interfaces "wikilink")
     -   [How to avoid name clashes during future extensions of the Nexus
         standard](How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard "wikilink")

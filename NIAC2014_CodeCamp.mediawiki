@@ -14,6 +14,7 @@ A preliminary list of items is listed below, but the exact subset is decided on 
 ** How to remove ballast, when to break compatibility, versioning and validation
 * Fundamental design issues:
 ** Clarify rank specification
+*** related to [https://github.com/nexusformat/definitions/issues/266 #266]: implement difference in rules between base classes and application definitions
 ** Discuss [[Objects or Interfaces|NeXus interfaces]]
 ** [[How to avoid name clashes during future extensions of the Nexus standard]]
 ** Optional contents in application definitions?
