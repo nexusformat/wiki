@@ -1,30 +1,32 @@
 If you have a specific subject concerning the NeXus format design, please add it to the following list and start a new page (see the [[Help:Contents|help pages]] for instructions on adding new pages).  If you want others to participate, you should announce the new discussion on the [http://lists.nexusformat.org/mailman/listinfo/nexus NeXus Mailing List].
 
-*[[How to avoid name clashes during future extensions of the Nexus standard]]
-*[[Associating Axes with Data]]
+*Structure of NeXus files - basic questions:
+**[[OO-NeXus|Object oriented NeXus]]
+**[[Objects or Interfaces]]
+**[[How to avoid name clashes during future extensions of the Nexus standard]]
+**[[Containers and Inheritance]] - XLST and Reusable definitions
+**[[Multi Method Instruments]]
+*Geometry questions:
+**[[Coordinate Systems]]
+**[[Extension of NeXus Coordinate Systems]]
+**[[NXgeometry and NXshape - documentation and review]]
+**[[Detector Geometry]]
+**[[Associating Axes with Data]]
 *[[NXdetector documentation]]
 *[[NeXus CIF Integration]]
 *[[ConcordanceDiscussion]]
 *[[file_id attribute for Nexus files]]
-*[[NXgeometry and NXshape - documentation and review]]
-*[[Objects or Interfaces]]
 *[[DECTRIS Example]]
 *[[NXaperture and Slits]]
 *[[NXdetector_2012_10]]
-*[[Detector Geometry]]
 *[[Connecting NXdata to NXdetector]]
 *[[Indirect Time-of-Flight and Coordinates]]
-*[[Coordinate Systems]]
 *[[Double Linking]]
 *[[Units]]
 *[[Housekeeping pre-NeXus2.0]]
-*[[Containers and Inheritance]] - XLST and Reusable definitions
-*[[OO-NeXus|Object oriented NeXus]]
 *[[Schema]] - Using XML Schema instead of [[Metaformat|Meta-DTDs]] for definitions
 *[[Storing Event Data]]
-*[[Multi Method Instruments]]
 *[[Scaled Data]]
-*[[Extension of NeXus Coordinate Systems]]
 *[[NXmeasurement]]
 *[[Proposal: NeXus Errors]]
 *[[Proposal: NeXus Coordinates]]
