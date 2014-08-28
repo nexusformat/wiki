@@ -52,6 +52,7 @@ Choose topics from the preliminary list below:
 -   [\#230](https://github.com/nexusformat/definitions/issues/230): use
     cmake to build Sphinx documentation
 -   Finish support for attribute arrays
+-   Off-site excursion to -tba-
 
 Agenda
 ------
