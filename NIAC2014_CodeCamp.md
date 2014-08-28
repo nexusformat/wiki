@@ -42,15 +42,20 @@ Choose topics from the preliminary list below:
     -   Optional contents in application definitions?
     -   Discuss lightweight tags versus application definitions
     -   Rules for multi file NeXus files
--   Work on certain classes:
+-   Class specifications:
     -   NXformula?
-    -   NXvalidate: state, further development, WWW service
     -   NXdata: Assigning axes to data once more again
     -   Prepare contributed definitions for ratification
--   New NAPI release?
--   [\#230](https://github.com/nexusformat/definitions/issues/230): use
-    cmake to build Sphinx documentation
--   Finish support for attribute arrays
+-   Work on software:
+    -   validation tools (nxvalidate or NXvalidate): state (cf
+        [\#169](https://github.com/nexusformat/definitions/issues/169),
+        [\#251](https://github.com/nexusformat/definitions/issues/251)),
+        further development, WWW service
+    -   New NAPI release?
+    -   [\#230](https://github.com/nexusformat/definitions/issues/230):
+        use cmake to build Sphinx documentation
+-   Finish support for attribute arrays (who proposed this? please
+    provide details!)
 -   Off-site excursion to -tba-
 
 Agenda
