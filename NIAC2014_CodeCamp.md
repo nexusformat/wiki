@@ -46,8 +46,7 @@ Choose topics from the preliminary list below:
     -   NXformula?
     -   NXvalidate: state, further development, WWW service
     -   NXdata: Assigning axes to data once more again
-    -   Prepare *contributed* base class and application definitions for
-        ratification
+    -   Prepare contributed definitions for ratification
 -   New NAPI release?
 -   [\#230](https://github.com/nexusformat/definitions/issues/230): use
     cmake to build Sphinx documentation

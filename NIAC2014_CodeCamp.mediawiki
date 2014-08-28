@@ -27,7 +27,7 @@ Choose topics from the preliminary list below:
 ** NXformula?
 ** NXvalidate: state, further development, WWW service
 ** NXdata: Assigning axes to data once more again
-** Prepare ''contributed'' base class and application definitions for ratification
+** Prepare contributed definitions for ratification
 * New NAPI release?
 * [https://github.com/nexusformat/definitions/issues/230 #230]: use cmake to build Sphinx documentation
 * Finish support for attribute arrays
