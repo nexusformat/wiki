@@ -49,7 +49,8 @@ Choose topics from the preliminary list below:
 -   Work on software:
     -   validation tools (nxvalidate or NXvalidate): state (cf
         [\#169](https://github.com/nexusformat/definitions/issues/169),
-        [\#251](https://github.com/nexusformat/definitions/issues/251)),
+        [\#251](https://github.com/nexusformat/definitions/issues/251),
+        [\#300](https://github.com/nexusformat/definitions/issues/300)),
         further development, WWW service
     -   New NAPI release?
     -   [\#230](https://github.com/nexusformat/definitions/issues/230):
