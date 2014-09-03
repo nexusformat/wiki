@@ -140,6 +140,13 @@ For the paperwork of all international visitors, we need each degree, year earne
 || 2014-12-14
 || 2014-12-19
 |-
+|-
+||[[User:Mark Koennecke|Mark Koennecke]]
+|| Paul Scherrer Institute
+|| YES
+|| YES
+|| 2014-12-14
+|| 2014-12-20
 |}
 
 ==Agenda==
