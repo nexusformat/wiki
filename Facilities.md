@@ -57,7 +57,7 @@ European Synchrotron Radiation Facility, ESRF, FRANCE: The [ESRF](http://www.esr
 
 <!-- -->
 
-ALBA/CELLS Synchrotron Light Facility, Spain: [ALBA](http://www.cells.es) is currently (2009) in commissioning stage and therefore not yet producing significant amounts of data. During this stage a variety of data formats are in use, but the adoption of NeXus as the main data format for the data acquisition in beam lines and machine is being planned. The first steps are being taken in using NeXus for all the scans in the beam lines (following the GenericScan definition). Whether pure nexus is sufficient or a HDF5 extension like the one in ESRF needs to be adopted is not yet decided. Given that most of the data analysis programs do not support NeXus yet, we foresee that the use of NeXus will be mostly limited to data acquisition and pre-processing and that translators/extractors will be needed for further data analysis for the short-medium term.  
+Alba Synchrotron Light Facility, Spain: [Alba](http://www.cells.es) uses NeXus with HDF5 backend as its main format for storing data on all its beamlines (although scan data may also be duplicated in other formats such as [SPEC](http://www.certif.com/spec_manual/user_1_4_1.html) for convenience). NeXus files are normally created by the [Sardana](http://sardana-controls.org) control system. Currently (2014) only NXscan (and recently NXtomo) compliant files are created in production, although introduction of other Application Definitions is being tested.  
 
 <!-- -->
 
