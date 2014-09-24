@@ -45,16 +45,9 @@ ISIS Muon Facility, STFC Rutherford Appleton Laboratory, UK: The [ISIS facility]
 
 ### X-ray Facilities
 
-Advanced Photon Source, Argonne National Laboratory, US: (2014)  
+Advanced Photon Source, Argonne National Laboratory, US: (2014) APS stores some of its data collection in HDF5 files according to different formats, including NeXus. These files are written using either C++ code with HDF5 libraries or python code using the h5py package. No beam lines are using the NAPI. The [EPICS](http://www.aps.anl.gov/epics) area detector software has a plug-in to write acquired images (and metadata) into NeXus data files. Also, some commercial manufacturers of area detectors in use at the APS now write acquired images into NeXus data files.  
 
-APS stores some of its data collection in HDF5 files according to
-different formats, including NeXus. These files are written using either
-C++ code with HDF5 libraries or python code using the h5py package. No
-beam lines are using the NAPI. The [EPICS](http://www.aps.anl.gov/epics)
-area detector software has a plug-in to write acquired images (and
-metadata) into NeXus data files. Also, some commercial manufacturers of
-area detectors in use at the APS now write acquired images into NeXus
-data files.
+<!-- -->
 
 Diamond Light Source, Oxfordshire, UK: The data acquisition system [GDA](http://www.opengda.org/) deployed at most [Diamond](http://www.diamond.ac.uk) beamlines is capable of writing and reading NeXus. Beamlines coming online now collect data in NeXus/HDF5 as the primary format from day one were possible. Some existing beamline are already migrated, more are to follow on a case by case basis. It is aimed that all data will be contained in NeXus for long term archiving.  
 
