@@ -45,9 +45,16 @@ ISIS Muon Facility, STFC Rutherford Appleton Laboratory, UK: The [ISIS facility]
 
 ### X-ray Facilities
 
-Advanced Photon Source, Argonne National Laboratory, US: (2009) For many years now, NeXus-compliant (HDF4) are one of the file format options in the [CCD Image Server software](http://www.aps.anl.gov/bcda/dataAcq/) developed and used at the APS. The [X-ray microtomography](http://www.aps.anl.gov/Xray_Science_Division/Xray_Microscopy_and_Imaging/Science_and_Research/Techniques/Tomography) instrument is a major user of this software and records some *O*(10<sup>5</sup>) images per month of operation. Data reduction of the Tomo files proceeds from the HDF4 files. Use of the NeXus-compatible format is discretionary for other users of the `CCDImageServer` software (the alternative choice is TIFF with metadata stored external to the TIFF files). As APS replaces `CCDImageServer` with newer EPICS software (`areaDetector` and a GUI), it is expected to retain and improve the support for the NeXus format, as required by and best serves the APS user community. The microdiffraction instrument at [34ID-E](http://www.aps.anl.gov/Sectors/33_34/microdiff/) is considering HDF5 files written through the NeXus API for the storage of their experimental results including metadata. This may prove a challenge as the instrument expects to stream 5 MB images at 20 frames/second on a continuous basis; it may not be practical to store and retain all the raw data.  
+Advanced Photon Source, Argonne National Laboratory, US: (2014)  
 
-<!-- -->
+APS stores some of its data collection in HDF5 files according to
+different formats, including NeXus. These files are written using either
+C++ code with HDF5 libraries or python code using the h5py package. No
+beam lines are using the NAPI. The [EPICS](http://www.aps.anl.gov/epics)
+area detector software has a plug-in to write acquired images (and
+metadata) into NeXus data files. Also, some commercial manufacturers of
+area detectors in use at the APS now write acquired images into NeXus
+data files.
 
 Diamond Light Source, Oxfordshire, UK: The data acquisition system [GDA](http://www.opengda.org/) deployed at most [Diamond](http://www.diamond.ac.uk) beamlines is capable of writing and reading NeXus. Beamlines coming online now collect data in NeXus/HDF5 as the primary format from day one were possible. Some existing beamline are already migrated, more are to follow on a case by case basis. It is aimed that all data will be contained in NeXus for long term archiving.  
 
