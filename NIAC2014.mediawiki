@@ -130,8 +130,8 @@ For the paperwork of all international visitors, we need each degree, year earne
 || Advanced Photon Source, Argonne National Laboratory, Argonne, Illinois, USA
 || YES 
 || YES 
-|| Day attendee 
-|| Day attendee 
+|| host
+|| host
 |-
 | [[User:Herbert Bernstein|Herbert Bernstein]]
 || Dowling College, NY, USA
