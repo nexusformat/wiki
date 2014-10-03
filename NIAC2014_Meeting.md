@@ -17,6 +17,7 @@ this meeting.
 
 ### Agenda
 
+-   Votes on new members
 -   Electing new officers, candidates get ready!
 -   Examination of contributed definitions and consideration for
     ratification:
