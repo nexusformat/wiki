@@ -161,6 +161,13 @@ For the paperwork of all international visitors, we need each degree, year earne
 || 2014-12-18
 || 2014-12-19
 |-
+||[[User:Eugenwintersberger|Eugen Wintersberger]]
+|| DESY, Germany 
+|| YES
+|| YES
+|| 2014-12-14
+|| 2014-12-19
+|-
 |}
 
 ==Agenda==
