@@ -19,6 +19,11 @@ this meeting.
 
 -   Votes on new members
 -   Electing new officers, candidates get ready!
+-   Revise Constitution [ Terms of Reference
+    ](NIAC#Terms_of_Reference "wikilink"):
+    -   item 3: change wording of “instrument and group class
+        definitions” to contemporary terms (base classes and instrument
+        definitions)
 -   Examination of contributed definitions and consideration for
     ratification:
     -   joint CIF/NeXus NXmx

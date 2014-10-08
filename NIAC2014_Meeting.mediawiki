@@ -8,6 +8,8 @@ See [[NIAC2014]] for administrative details about this meeting.
 
 * Votes on new members 
 * Electing new officers, candidates get ready!
+* Revise Constitution [[NIAC#Terms_of_Reference | Terms of Reference ]]:
+** item 3: change wording of "instrument and group class definitions" to contemporary terms (base classes and instrument definitions)
 * Examination of contributed definitions and consideration for ratification:
 ** joint CIF/NeXus NXmx
 ** NXarpes
