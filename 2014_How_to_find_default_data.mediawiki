@@ -1,3 +1,5 @@
+written for [[NIAC2014_Meeting]]
+
 One of the [http://download.nexusformat.org/doc/html/motivations.html  motivations] for NeXus is [http://download.nexusformat.org/doc/html/motivations.html#simpleplotting  simple plotting].
 
 The [http://download.nexusformat.org/doc/html/datarules.html#find-plottable-data procedure to find the default to be plotted] is convoluted.  In some cases (files with multiple NXentry and/or NXdata groups), it is not certain which data will be found.

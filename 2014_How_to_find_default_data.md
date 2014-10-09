@@ -4,6 +4,8 @@ permalink: 2014_How_to_find_default_data/
 layout: wiki
 ---
 
+written for [NIAC2014\_Meeting](NIAC2014_Meeting "wikilink")
+
 One of the
 [motivations](http://download.nexusformat.org/doc/html/motivations.html)
 for NeXus is [simple
