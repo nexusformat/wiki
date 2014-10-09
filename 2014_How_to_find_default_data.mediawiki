@@ -1,4 +1,4 @@
-written for [[NIAC2014_Meeting]]
+(written for [[NIAC2014_Meeting]])
 
 One of the [http://download.nexusformat.org/doc/html/motivations.html  motivations] for NeXus is [http://download.nexusformat.org/doc/html/motivations.html#simpleplotting  simple plotting].
 
