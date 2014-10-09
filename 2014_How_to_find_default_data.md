@@ -35,4 +35,5 @@ These default attributes only describe child elements, not child/object
 or ../object or other hierarchy.
 
 The procedure to identify the default data to be plotted is quite
-simple, given any NeXus file, any NXentry, or any NXdata.
+simple, given any NeXus file, any NXentry, or any NXdata. Follow the
+chain as it is described from that point.
