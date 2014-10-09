@@ -4,7 +4,7 @@ In developing the [http://www.cansas.org/formats/canSAS2012/1.0/doc/ canSAS stan
 
 == Axes ==
 
--tba-
+TODO: write this section
 
 == Uncertainties ==
 

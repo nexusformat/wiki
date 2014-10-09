@@ -20,7 +20,7 @@ from data to axes and uncertainties.
 Axes
 ----
 
--tba-
+TODO: write this section
 
 Uncertainties
 -------------
