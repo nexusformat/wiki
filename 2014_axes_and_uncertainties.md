@@ -4,6 +4,8 @@ permalink: 2014_axes_and_uncertainties/
 layout: wiki
 ---
 
+(written for [NIAC2014\_Meeting](NIAC2014_Meeting "wikilink"))
+
 In developing the [canSAS standard for storing multidimensional reduced
 small-angle scattering
 data](http://www.cansas.org/formats/canSAS2012/1.0/doc/), a new method
