@@ -24,8 +24,8 @@ See [[NIAC2014]] for administrative details about this meeting.
 * Lightweight tags versus application definitions?
 * Rules for multi file NeXus files
 * NXdata: 
-** proposal: describe how to find the default data
-** proposal: describe how data are related (particularly: axes and uncertainties)
+** proposal: describe [[2014_How_to_find_default_data | how to find the default data]]
+** proposal: describe how data are related (particularly: [[2014_axes_and_uncertainties | axes and uncertainties]])
 * NXformula
 
 === Notes ===

@@ -41,9 +41,10 @@ this meeting.
 -   Lightweight tags versus application definitions?
 -   Rules for multi file NeXus files
 -   NXdata:
-    -   proposal: describe how to find the default data
-    -   proposal: describe how data are related (particularly: axes and
-        uncertainties)
+    -   proposal: describe [ how to find the default
+        data](2014_How_to_find_default_data "wikilink")
+    -   proposal: describe how data are related (particularly: [ axes
+        and uncertainties](2014_axes_and_uncertainties "wikilink"))
 -   NXformula
 
 ### Notes
