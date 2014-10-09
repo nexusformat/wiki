@@ -18,3 +18,21 @@ This proposal is to add a new and simpler mechanism to determine the
 path to the default data. The intent is that this addition to NeXus
 preserves backwards compatibility and becomes the standard way for new
 data files to identify the default data to be plotted.
+
+Proposal
+--------
+
+-   add *default\_NXentry* attribute to the root of the file that states
+    which NXentry is the default. The value is the name of the NXentry
+    group.
+-   add *default\_NXdata* attribute to each NXentry that states which
+    NXdata is the default. The value is the name of the NXdata group.
+-   add *default\_data* attribute to each NXdata that states which
+    dataset is the default. The value is the name of the dataset to be
+    plotted.
+
+These default attributes only describe child elements, not child/object
+or ../object or other hierarchy.
+
+The procedure to identify the default data to be plotted is quite
+simple, given any NeXus file, any NXentry, or any NXdata.
