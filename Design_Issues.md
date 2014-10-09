@@ -19,6 +19,8 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
     -   [Containers and
         Inheritance](Containers_and_Inheritance "wikilink") - XLST and
         Reusable definitions
+    -   [2014\_How\_to\_find\_default\_data](2014_How_to_find_default_data "wikilink") -
+        a proposal for the 2014 NIAC meeting
 -   Geometry questions:
     -   [Proposal: NeXus
         Coordinates](Proposal:_NeXus_Coordinates "wikilink")
@@ -30,8 +32,11 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
     -   [NXgeometry and NXshape - documentation and
         review](NXgeometry_and_NXshape_-_documentation_and_review "wikilink")
     -   [Detector Geometry](Detector_Geometry "wikilink")
+-   Data
     -   [Associating Axes with
         Data](Associating_Axes_with_Data "wikilink")
+    -   [2014\_axes\_and\_uncertainties](2014_axes_and_uncertainties "wikilink") -
+        a proposal for the 2014 NIAC meeting
 -   [NXdetector documentation](NXdetector_documentation "wikilink")
 -   [NeXus CIF Integration](NeXus_CIF_Integration "wikilink")
     -   [ConcordanceDiscussion](ConcordanceDiscussion "wikilink")
