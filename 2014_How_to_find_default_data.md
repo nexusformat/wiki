@@ -5,15 +5,16 @@ layout: wiki
 ---
 
 One of the
-\[[motivations](http://download.nexusformat.org/doc/html/motivations.html)
-for NeXus is
-[http://download.nexusformat.org/doc/html/motivations.html\#simpleplotting
-simple
-plotting](http://download.nexusformat.org/doc/html/motivations.html#simpleplotting_simple_plotting "wikilink").
+[motivations](http://download.nexusformat.org/doc/html/motivations.html)
+for NeXus is [simple
+plotting](http://download.nexusformat.org/doc/html/motivations.html#simpleplotting).
 
-The method to find the default to be plotted is convoluted. In some
-cases (files with multiple NXentry and/or NXdata groups), it is not
-certain which data will be found.
+The [procedure to find the default to be
+plotted](http://download.nexusformat.org/doc/html/datarules.html#find-plottable-data)
+is convoluted. In some cases (files with multiple NXentry and/or NXdata
+groups), it is not certain which data will be found.
 
-This proposal is to add a new and simpler method to determine the path
-to the default data.
+This proposal is to add a new and simpler mechanism to determine the
+path to the default data. The intent is that this addition to NeXus
+preserves backwards compatibility and becomes the standard way for new
+data files to identify the default data to be plotted.
