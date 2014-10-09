@@ -25,6 +25,8 @@ Axes
 Uncertainties
 -------------
 
+TODO: finish writing this section
+
 In a scientific data file, it is assumed that uncertainty about the
 value of the data is expressed in an array of the same shape as the
 data. The uncertainty of a datum may be expressed in a single value or
