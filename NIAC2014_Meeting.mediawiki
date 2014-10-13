@@ -21,7 +21,7 @@ See [[NIAC2014]] for administrative details about this meeting.
 * Discussion about how we assign priorities and respond to the community
 * Do we want NeXus Interfaces for improving base class documentation?
 * application definitions: can some items be optional?
-* Lightweight tags versus application definitions?
+* Data Features (lightweight tags with recipes) versus application definitions?
 * Rules for multi file NeXus files
 * NXdata: 
 ** proposal: describe [[2014_How_to_find_default_data | how to find the default data]]

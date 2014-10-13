@@ -38,7 +38,8 @@ this meeting.
     community
 -   Do we want NeXus Interfaces for improving base class documentation?
 -   application definitions: can some items be optional?
--   Lightweight tags versus application definitions?
+-   Data Features (lightweight tags with recipes) versus application
+    definitions?
 -   Rules for multi file NeXus files
 -   NXdata:
     -   proposal: describe [ how to find the default
