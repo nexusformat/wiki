@@ -141,21 +141,21 @@ For the paperwork of all international visitors, we need each degree, year earne
 || 2014-12-19
 |-
 ||[[User:Mark Koennecke|Mark Koennecke]]
-|| Paul Scherrer Institute
+|| Paul Scherrer Institute, Switzerland
 || YES
 || YES
 || 2014-12-14
 || 2014-12-20
 |-
 ||[[User:Mark Basham|Mark Basham]]
-|| Diamond Light Source
+|| Diamond Light Source, UK
 || YES
 || YES
 || 2014-12-14
 || 2014-12-19
 |-
 ||[[User:Steve Cottrell|Steve Cottrell]]
-|| ISIS Facility, Rutherford Appleton Laboratory
+|| ISIS Facility, Rutherford Appleton Laboratory, UK
 || NO
 || YES
 || 2014-12-18
@@ -169,7 +169,7 @@ For the paperwork of all international visitors, we need each degree, year earne
 || 2014-12-19
 |-
 ||[[User:Aaron Brewster|Aaron Brewster]]
-|| Lawrence Berkeley Laboratory
+|| Lawrence Berkeley Laboratory, USA
 || NO
 || YES
 || 2014-12-18
