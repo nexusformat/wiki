@@ -22,6 +22,9 @@ Axes
 
 TODO: write this section
 
+starting with this from canSAS:
+<http://www.cansas.org/formats/canSAS2012/1.0/doc/framework.html>
+
 Uncertainties
 -------------
 
