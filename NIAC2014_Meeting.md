@@ -15,6 +15,31 @@ definitions if the relevant experts are in attendance.
 See [NIAC2014](NIAC2014 "wikilink") for administrative details about
 this meeting.
 
+### Schedule
+
+The NIAC2014 Meeting takes place in building 437, conference room C010,
+starting at 9am. Evening meal is scheduled for 7pm each day
+
+Here is the daily schedule (tentative):
+
+| time                | description     | comments                    |
+|---------------------|-----------------|-----------------------------|
+| 9:00 - 10:15 AM     | meeting         | work on projects and tasks  |
+| 10:15 - 10:45 AM    | morning break   | (included)                  |
+| 10:45 AM - 12:00 PM | meeting         | work on projects and tasks  |
+| 12:00 - 1:15 PM     | lunch           | offsite, traveler's expense |
+| 1:15 - 3:15 PM      | meeting         | work on projects and tasks  |
+| 3:15 - 3:30 PM      | afternoon break | (included)                  |
+| 3:30 - 5:00 PM      | meeting         | work on projects and tasks  |
+| 5:00 - 6:00 PM      | meeting         | daily summary (plenary)     |
+
+Notes:
+
+1.  late-afternoon wrap-up (plenary) each day
+2.  morning and afternoon breaks will be included in amenities charge
+3.  breakfast, lunch, dinner will be in a local restaurant at traveler's
+    expense
+
 ### Agenda
 
 -   Votes on new members
