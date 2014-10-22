@@ -33,12 +33,12 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
         review](NXgeometry_and_NXshape_-_documentation_and_review "wikilink")
     -   [Detector Geometry](Detector_Geometry "wikilink")
 -   Data
--   [Update for NXflou application
-    definition](Update_for_NXflou_application_definition "wikilink")
     -   [Associating Axes with
         Data](Associating_Axes_with_Data "wikilink")
     -   [2014\_axes\_and\_uncertainties](2014_axes_and_uncertainties "wikilink") -
         a proposal for the 2014 NIAC meeting
+-   [Update for NXflou application
+    definition](Update_for_NXflou_application_definition "wikilink")
 -   [NXdetector documentation](NXdetector_documentation "wikilink")
 -   [NeXus CIF Integration](NeXus_CIF_Integration "wikilink")
     -   [ConcordanceDiscussion](ConcordanceDiscussion "wikilink")
