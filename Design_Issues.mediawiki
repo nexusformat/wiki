@@ -14,6 +14,7 @@ If you have a specific subject concerning the NeXus format design, please add it
 **[[NXgeometry and NXshape - documentation and review]]
 **[[Detector Geometry]]
 * Data
+*[[Update for NXflou application definition]]
 **[[Associating Axes with Data]]
 **[[2014_axes_and_uncertainties]] - a proposal for the 2014 NIAC meeting
 *[[NXdetector documentation]]
