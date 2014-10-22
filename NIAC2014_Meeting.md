@@ -72,6 +72,8 @@ Notes:
     -   proposal: describe how data are related (particularly: [ axes
         and uncertainties](2014_axes_and_uncertainties "wikilink"))
 -   NXformula
+-   [Update for NXflou application
+    definition](Update_for_NXflou_application_definition "wikilink")
 
 ### Notes
 

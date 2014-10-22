@@ -76,6 +76,7 @@ Notes:
 ** proposal: describe [[2014_How_to_find_default_data | how to find the default data]]
 ** proposal: describe how data are related (particularly: [[2014_axes_and_uncertainties | axes and uncertainties]])
 * NXformula
+*[[Update for NXflou application definition]]
 
 === Notes ===
 ==== Thursday ====
