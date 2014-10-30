@@ -127,7 +127,7 @@ For the paperwork of all international visitors, we need each degree, year earne
 ! Name || Company/Institute || Code Camp (15-17) || NIAC (18-19) || Arrival date || Departure date
 |-
 | [[User:Pete Jemian|Pete Jemian]] 
-|| Advanced Photon Source, Argonne National Laboratory, Argonne, Illinois, USA
+|| Advanced Photon Source, Argonne National Laboratory, Argonne, IL, USA
 || YES 
 || YES 
 || host
@@ -175,6 +175,14 @@ For the paperwork of all international visitors, we need each degree, year earne
 || 2014-12-17
 || 2014-12-19
 |-
+| [[User:Ray Osborn|Ray Osborn]] 
+|| Argonne National Laboratory, USA
+|| YES 
+|| YES 
+|| ANL staff
+|| ANL staff
+|-
+
 |}
 
 ==Agenda==
