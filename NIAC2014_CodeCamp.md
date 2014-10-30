@@ -51,7 +51,8 @@ Choose topics from the preliminary list below:
         [\#169](https://github.com/nexusformat/definitions/issues/169),
         [\#251](https://github.com/nexusformat/definitions/issues/251),
         [\#300](https://github.com/nexusformat/definitions/issues/300)),
-        further development, WWW service
+        further development, WWW service, use of NeXpy/Python-API for
+        validation
     -   New NAPI release?
     -   [\#230](https://github.com/nexusformat/definitions/issues/230):
         use cmake to build Sphinx documentation
