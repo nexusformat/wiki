@@ -172,6 +172,9 @@ For the paperwork of all international visitors, we need each degree, year earne
 || YES
 || 2014-12-17
 || 2014-12-19
+|| checking
+|| checking
+|| checking
 |-
 ||[[User:Eugenwintersberger|Eugen Wintersberger]]
 || DESY, Germany 
