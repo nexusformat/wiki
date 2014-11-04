@@ -124,7 +124,7 @@ For the paperwork of all international visitors, we need each degree, year earne
 
 
 {| border="1"
-! Name || Company/Institute || Code Camp (15-17) || NIAC (18-19) || Arrival date || Departure date
+! Name || Company/Institute || Code Camp (15-17) || NIAC (18-19) || Arrival date || Departure date || ANL visitor || intl. paperwork || ANL gate pass
 |-
 | [[User:Pete Jemian|Pete Jemian]] 
 || Advanced Photon Source, Argonne National Laboratory, Argonne, IL, USA
@@ -132,6 +132,9 @@ For the paperwork of all international visitors, we need each degree, year earne
 || YES 
 || host
 || host
+|| local
+|| n/a
+|| local
 |-
 | [[User:Herbert Bernstein|Herbert Bernstein]]
 || Dowling College, NY, USA
@@ -139,6 +142,9 @@ For the paperwork of all international visitors, we need each degree, year earne
 || YES 
 || 2014-12-14
 || 2014-12-19
+|| complete
+|| n/a
+|| complete
 |-
 ||[[User:Mark Koennecke|Mark Koennecke]]
 || Paul Scherrer Institute, Switzerland
@@ -146,6 +152,9 @@ For the paperwork of all international visitors, we need each degree, year earne
 || YES
 || 2014-12-14
 || 2014-12-20
+|| checking
+|| checking
+|| checking
 |-
 ||[[User:Mark Basham|Mark Basham]]
 || Diamond Light Source, UK
@@ -153,6 +162,9 @@ For the paperwork of all international visitors, we need each degree, year earne
 || YES
 || 2014-12-14
 || 2014-12-19
+|| checking
+|| checking
+|| checking
 |-
 ||[[User:Steve Cottrell|Steve Cottrell]]
 || ISIS Facility, Rutherford Appleton Laboratory, UK
@@ -167,6 +179,9 @@ For the paperwork of all international visitors, we need each degree, year earne
 || YES
 || 2014-12-14
 || 2014-12-19
+|| checking
+|| checking
+|| checking
 |-
 ||[[User:Aaron Brewster|Aaron Brewster]]
 || Lawrence Berkeley Laboratory, USA
@@ -174,6 +189,9 @@ For the paperwork of all international visitors, we need each degree, year earne
 || YES
 || 2014-12-17
 || 2014-12-19
+|| complete
+|| n/a
+|| complete
 |-
 | [[User:Ray Osborn|Ray Osborn]] 
 || Argonne National Laboratory, USA
@@ -181,8 +199,10 @@ For the paperwork of all international visitors, we need each degree, year earne
 || YES 
 || ANL staff
 || ANL staff
+|| local
+|| n/a
+|| local
 |-
-
 |}
 
 ==Agenda==
