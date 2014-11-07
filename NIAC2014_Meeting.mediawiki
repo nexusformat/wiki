@@ -6,9 +6,9 @@ See [[NIAC2014]] for administrative details about this meeting.
 
 === Schedule ===
 
-The NIAC2014 Meeting takes place in building 437, conference room C010, starting at 9am. Evening meal is scheduled for 7pm each day
+The NIAC2014 Meeting takes place in building 437, conference room C010, starting at 9am. Evening meal is scheduled for 7 pm each day.
 
-Here is the daily schedule (tentative):
+Here is the schedule for Thursday, 2014-12-18 (tentative):
 
 {| border="1"
 |-
@@ -45,6 +45,33 @@ Here is the daily schedule (tentative):
 | 5:00 - 6:00 PM
 | align="center" | meeting
 | align="center" | daily summary (plenary)
+|}
+
+Here is the schedule for Friday, 2014-12-19 (tentative):
+
+{| border="1"
+|-
+! time || description || comments
+|-
+| 9:00 - 10:15 AM
+| align="center" | meeting
+| align="center" | work on projects and tasks
+|-
+| 10:15 - 10:45 AM
+| align="center" | morning break
+| align="center" | (included)
+|-
+| 10:45 AM - 12:15 PM
+| align="center" | meeting
+| align="center" | work on projects and tasks
+|-
+| 12:15  - 1:00 PM
+| align="center" | meeting
+| align="center" | daily summary (plenary)
+|-
+| 1:00 PM
+| align="center" | 
+| align="center" | meeting adjourns
 |}
 
 
