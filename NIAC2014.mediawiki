@@ -277,7 +277,7 @@ The schedule overview:
 | NIAC Meeting, 437-C010
 |-
 | Friday
-| 2014-12-19
+| 2014-12-19, ends at 1:00 PM
 | NIAC Meeting, 437-C010
 |-
 | Saturday
