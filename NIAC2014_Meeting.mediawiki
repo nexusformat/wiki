@@ -44,7 +44,7 @@ Here is the schedule for Thursday, 2014-12-18 (tentative):
 |-
 | 5:00 - 6:00 PM
 | align="center" | meeting
-| align="center" | daily summary (plenary)
+| align="center" | Thursday summary (plenary)
 |}
 
 Here is the schedule for Friday, 2014-12-19 (tentative):
@@ -67,7 +67,7 @@ Here is the schedule for Friday, 2014-12-19 (tentative):
 |-
 | 12:15  - 1:00 PM
 | align="center" | meeting
-| align="center" | daily summary (plenary)
+| align="center" | Friday summary (plenary)
 |-
 | 1:00 PM
 | align="center" | 
@@ -76,8 +76,7 @@ Here is the schedule for Friday, 2014-12-19 (tentative):
 
 
 Notes:
-# late-afternoon wrap-up (plenary) each day
-# morning and afternoon breaks will be included in amenities charge
+# morning and afternoon breaks will be provided
 # breakfast, lunch, dinner will be in a local restaurant at traveler's expense
 
 === Agenda ===
