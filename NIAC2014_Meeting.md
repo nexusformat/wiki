@@ -45,7 +45,7 @@ Here is the schedule for Friday, 2014-12-19 (tentative):
 
 Notes:
 
-1.  morning and afternoon breaks will be provided
+1.  amenities at morning and afternoon breaks will be provided
 2.  breakfast, lunch, dinner will be in a local restaurant at traveler's
     expense
 
