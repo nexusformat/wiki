@@ -152,8 +152,8 @@ For the paperwork of all international visitors, we need each degree, year earne
 || YES
 || 2014-12-14
 || 2014-12-20
-|| submitted
-|| ...
+|| received
+|| approved
 || ...
 |-
 ||[[User:Mark Basham|Mark Basham]]
@@ -162,8 +162,8 @@ For the paperwork of all international visitors, we need each degree, year earne
 || YES
 || 2014-12-14
 || 2014-12-19
-|| submitted
-|| ...
+|| received
+|| approved
 || ...
 |-
 ||[[User:Steve Cottrell|Steve Cottrell]]
@@ -172,8 +172,8 @@ For the paperwork of all international visitors, we need each degree, year earne
 || YES
 || 2014-12-17
 || 2014-12-19
-|| submitted
-|| ...
+|| received
+|| approved
 || ...
 |-
 ||[[User:Eugenwintersberger|Eugen Wintersberger]]
@@ -182,8 +182,8 @@ For the paperwork of all international visitors, we need each degree, year earne
 || YES
 || 2014-12-14
 || 2014-12-19
-|| submitted
-|| ...
+|| received
+|| approved
 || ...
 |-
 ||[[User:Aaron Brewster|Aaron Brewster]]
@@ -212,8 +212,8 @@ For the paperwork of all international visitors, we need each degree, year earne
 || YES
 || 2014-12-17
 || 2014-12-20
-|| submitted
-|| ...
+|| received
+|| approved
 || ...
 |-
 ||[[User:Tobias Richter|Tobias Richter]]
@@ -222,8 +222,8 @@ For the paperwork of all international visitors, we need each degree, year earne
 || YES
 || 2014-12-14
 || 2014-12-19
-|| submitted
-|| ...
+|| received
+|| approved
 || ...
 |-
 ||[http://www.psi.ch/lsc/benjamin-watts Ben Watts]
@@ -232,8 +232,8 @@ For the paperwork of all international visitors, we need each degree, year earne
 || YES
 || 2014-12-14
 || 2014-12-19
-|| submitted
-|| ...
+|| received
+|| approved
 || ...
 |-
 |}
