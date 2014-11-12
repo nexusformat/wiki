@@ -152,9 +152,9 @@ For the paperwork of all international visitors, we need each degree, year earne
 || YES
 || 2014-12-14
 || 2014-12-20
-|| received
+|| complete
 || approved
-|| requested
+|| complete
 |-
 ||[[User:Mark Basham|Mark Basham]]
 || Diamond Light Source, UK
@@ -162,9 +162,9 @@ For the paperwork of all international visitors, we need each degree, year earne
 || YES
 || 2014-12-14
 || 2014-12-19
-|| received
+|| complete
 || approved
-|| requested
+|| complete
 |-
 ||[[User:Steve Cottrell|Steve Cottrell]]
 || ISIS Facility, Rutherford Appleton Laboratory, UK
@@ -172,9 +172,9 @@ For the paperwork of all international visitors, we need each degree, year earne
 || YES
 || 2014-12-17
 || 2014-12-19
-|| received
+|| complete
 || approved
-|| requested
+|| complete
 |-
 ||[[User:Eugenwintersberger|Eugen Wintersberger]]
 || DESY, Germany 
@@ -182,9 +182,9 @@ For the paperwork of all international visitors, we need each degree, year earne
 || YES
 || 2014-12-14
 || 2014-12-19
-|| received
+|| complete
 || approved
-|| requested
+|| complete
 |-
 ||[[User:Aaron Brewster|Aaron Brewster]]
 || Lawrence Berkeley Laboratory, USA
@@ -212,9 +212,9 @@ For the paperwork of all international visitors, we need each degree, year earne
 || YES
 || 2014-12-17
 || 2014-12-20
-|| received
+|| complete
 || approved
-|| requested
+|| complete
 |-
 ||[[User:Tobias Richter|Tobias Richter]]
 || European Spallation Neutron Source, Sweden
@@ -222,9 +222,9 @@ For the paperwork of all international visitors, we need each degree, year earne
 || YES
 || 2014-12-14
 || 2014-12-19
-|| received
+|| complete
 || approved
-|| requested
+|| complete
 |-
 ||[http://www.psi.ch/lsc/benjamin-watts Ben Watts]
 || Swiss Light Source, Switzerland
@@ -232,9 +232,9 @@ For the paperwork of all international visitors, we need each degree, year earne
 || YES
 || 2014-12-14
 || 2014-12-19
-|| received
+|| complete
 || approved
-|| requested
+|| complete
 |-
 |}
 
