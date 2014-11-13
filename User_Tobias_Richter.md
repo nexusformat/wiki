@@ -11,10 +11,10 @@ Tobias Richter
 
 *NIAC Executive Secretary*
 
-Address:Diamond Light Source Ltd  
-Chilton, Didcot, OX11 0DE, United Kingdom
+Present Address: DMSC filial of European Spallation Source ESS AB  
+Universitetsparken 5, 2100 Copenhagen, Denmark
 
 <!-- -->
 
-Phone:+44 1235 77 8920  
 Email: <Tobias.Richter@diamond.ac.uk>  
+<Tobias.Richter@esss.se>
