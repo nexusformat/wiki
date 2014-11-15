@@ -123,7 +123,7 @@ For the paperwork of all international visitors, we need each degree, year earne
 ==List of Attendees==
 
 
-{| border="1"
+{| border="1"  class="wikitable sortable"
 ! Name || Company/Institute || Code Camp (15-17) || NIAC (18-19) || Arrival date || Departure date || ANL visitor || intl. paperwork || ANL gate pass
 |-
 | [[User:Pete Jemian|Pete Jemian]] 
