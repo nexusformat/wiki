@@ -236,6 +236,16 @@ For the paperwork of all international visitors, we need each degree, year earne
 || approved
 || complete
 |-
+||Ricardo M. Ferraz Leal
+|| Spallation Neutron Source, Oak Ridge National Laboratory, USA
+|| NO
+|| YES
+|| 2014-12-17
+|| 2014-12-19
+|| registered
+|| ...
+|| ...
+|-
 |}
 
 ==Agenda==
