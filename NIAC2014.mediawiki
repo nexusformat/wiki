@@ -124,9 +124,10 @@ For the paperwork of all international visitors, we need each degree, year earne
 
 
 {| border="1"  class="wikitable sortable"
-! Name || Company/Institute || Code Camp (15-17) || NIAC (18-19) || Arrival date || Departure date || ANL visitor || intl. paperwork || ANL gate pass
+! # || Name || Company/Institute || Code Camp (15-17) || NIAC (18-19) || Arrival date || Departure date || ANL visitor || intl. paperwork || ANL gate pass
 |-
-| [[User:Pete Jemian|Pete Jemian]] 
+|1
+|| [[User:Pete Jemian|Pete Jemian]] 
 || Advanced Photon Source, Argonne National Laboratory, Argonne, IL, USA
 || YES 
 || YES 
@@ -136,7 +137,8 @@ For the paperwork of all international visitors, we need each degree, year earne
 || n/a
 || local
 |-
-| [[User:Herbert Bernstein|Herbert Bernstein]]
+|2
+|| [[User:Herbert Bernstein|Herbert Bernstein]]
 || Dowling College, NY, USA
 || YES 
 || YES 
@@ -146,6 +148,7 @@ For the paperwork of all international visitors, we need each degree, year earne
 || n/a
 || complete
 |-
+|3
 ||[[User:Mark Koennecke|Mark Koennecke]]
 || Paul Scherrer Institute, Switzerland
 || YES
@@ -156,6 +159,7 @@ For the paperwork of all international visitors, we need each degree, year earne
 || approved
 || complete
 |-
+|4
 ||[[User:Mark Basham|Mark Basham]]
 || Diamond Light Source, UK
 || YES
@@ -166,6 +170,7 @@ For the paperwork of all international visitors, we need each degree, year earne
 || approved
 || complete
 |-
+|5
 ||[[User:Steve Cottrell|Steve Cottrell]]
 || ISIS Facility, Rutherford Appleton Laboratory, UK
 || NO
@@ -176,6 +181,7 @@ For the paperwork of all international visitors, we need each degree, year earne
 || approved
 || complete
 |-
+|6
 ||[[User:Eugenwintersberger|Eugen Wintersberger]]
 || DESY, Germany 
 || YES
@@ -186,6 +192,7 @@ For the paperwork of all international visitors, we need each degree, year earne
 || approved
 || complete
 |-
+|7
 ||[[User:Aaron Brewster|Aaron Brewster]]
 || Lawrence Berkeley Laboratory, USA
 || NO
@@ -196,6 +203,7 @@ For the paperwork of all international visitors, we need each degree, year earne
 || n/a
 || complete
 |-
+|8
 | [[User:Ray Osborn|Ray Osborn]] 
 || Argonne National Laboratory, USA
 || YES 
@@ -206,6 +214,7 @@ For the paperwork of all international visitors, we need each degree, year earne
 || n/a
 || local
 |-
+|9
 ||[[User:Jiro Suzuki|Jiro Suzuki]]
 || J-PARC, Japan
 || NO
@@ -216,6 +225,7 @@ For the paperwork of all international visitors, we need each degree, year earne
 || approved
 || complete
 |-
+|10
 ||[[User:Tobias Richter|Tobias Richter]]
 || European Spallation Neutron Source, Sweden
 || YES
@@ -226,6 +236,7 @@ For the paperwork of all international visitors, we need each degree, year earne
 || approved
 || complete
 |-
+|11
 ||[http://www.psi.ch/lsc/benjamin-watts Ben Watts]
 || Swiss Light Source, Switzerland
 || YES
@@ -236,6 +247,7 @@ For the paperwork of all international visitors, we need each degree, year earne
 || approved
 || complete
 |-
+|12
 ||Ricardo M. Ferraz Leal
 || Spallation Neutron Source, Oak Ridge National Laboratory, USA
 || NO
