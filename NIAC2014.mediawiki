@@ -256,7 +256,7 @@ For the paperwork of all international visitors, we need each degree, year earne
 || 2014-12-19
 || registered
 || approved
-|| ...
+|| requested
 |-
 |}
 
