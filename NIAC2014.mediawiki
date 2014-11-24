@@ -1,6 +1,6 @@
 The 2014 plenary NIAC meeting and NeXus Code Camp is scheduled for December 2014.
 Both meetings will take place at [http://www.aps.anl.gov The Advanced Photon Source], Argonne National Laboratory, IL, USA (near Chicago).  
-This time, the NIAC meeting is not being held in conjunction and proximity with [http://www.nobugsconference.org/Main_Page NOBUGS] which is held in Japan in September.
+This time, the NIAC meeting is not being held in conjunction and proximity with [http://www.nobugsconference.org/Main_Page NOBUGS] which was held in Japan in September.
 
 Dates are:
 * NeXus code camp -> Monday, 2014-12-15 - Wednesday, 2014-12-17
