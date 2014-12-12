@@ -18,31 +18,9 @@ this meeting.
 ### Schedule
 
 The NIAC2014 Meeting takes place in building 437, conference room C010,
-starting at 9am. Evening meal is scheduled for 7 pm each day.
+starting at 9am. Evening meal is planned for 7 pm each day.
 
-Here is the schedule for Thursday, 2014-12-18 (tentative):
-
-| time                | description     | comments                    |
-|---------------------|-----------------|-----------------------------|
-| 9:00 - 9:15 AM      | Welcome address | APS Senior Management       |
-| 9:15 - 10:15 AM     | meeting         | work on projects and tasks  |
-| 10:15 - 10:45 AM    | morning break   | (included)                  |
-| 10:45 AM - 12:00 PM | meeting         | work on projects and tasks  |
-| 12:00 - 1:15 PM     | lunch           | offsite, traveler's expense |
-| 1:15 - 3:15 PM      | meeting         | work on projects and tasks  |
-| 3:15 - 3:30 PM      | afternoon break | (included)                  |
-| 3:30 - 5:00 PM      | meeting         | work on projects and tasks  |
-| 5:00 - 6:00 PM      | meeting         | Thursday summary (plenary)  |
-
-Here is the schedule for Friday, 2014-12-19 (tentative):
-
-| time                | description   | comments                   |
-|---------------------|---------------|----------------------------|
-| 9:00 - 10:15 AM     | meeting       | work on projects and tasks |
-| 10:15 - 10:45 AM    | morning break | (included)                 |
-| 10:45 AM - 12:15 PM | meeting       | work on projects and tasks |
-| 12:15 - 1:00 PM     | meeting       | Friday summary (plenary)   |
-| 1:00 PM             |               | meeting adjourns           |
+![](2014-NIAC-Schedule-HF.png "2014-NIAC-Schedule-HF.png")
 
 Notes:
 
