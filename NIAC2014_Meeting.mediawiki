@@ -90,6 +90,9 @@ Notes:
 ** NXarpes
 ** NXcite
 ** NXtransformations
+** NXstxm
+** NXzone_plate
+** NXgrating
 ** others
 * Deprecation of NeXus polar coordinate system, NXgeometry?
 * Do we want better standardization and documentation of NeXus processes?

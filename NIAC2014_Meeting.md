@@ -64,6 +64,9 @@ Notes:
     -   NXarpes
     -   NXcite
     -   NXtransformations
+    -   NXstxm
+    -   NXzone\_plate
+    -   NXgrating
     -   others
 -   Deprecation of NeXus polar coordinate system, NXgeometry?
 -   Do we want better standardization and documentation of NeXus
