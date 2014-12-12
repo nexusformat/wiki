@@ -64,3 +64,9 @@ Agenda
 ------
 
 To be decided on the first day of the 2014 Code Camp.
+
+### Wednesday
+
+-   public talk: *Current State of HDF5*, Elena Pourmal, The HDF Group,
+    location: 401/A1100
+
