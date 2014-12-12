@@ -24,7 +24,8 @@ Here is the schedule for Thursday, 2014-12-18 (tentative):
 
 | time                | description     | comments                    |
 |---------------------|-----------------|-----------------------------|
-| 9:00 - 10:15 AM     | meeting         | work on projects and tasks  |
+| 9:00 - 9:15 AM      | Welcome address | APS Senior Management       |
+| 9:15 - 10:15 AM     | meeting         | work on projects and tasks  |
 | 10:15 - 10:45 AM    | morning break   | (included)                  |
 | 10:45 AM - 12:00 PM | meeting         | work on projects and tasks  |
 | 12:00 - 1:15 PM     | lunch           | offsite, traveler's expense |

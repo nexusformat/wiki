@@ -14,7 +14,11 @@ Here is the schedule for Thursday, 2014-12-18 (tentative):
 |-
 ! time || description || comments
 |-
-| 9:00 - 10:15 AM
+| 9:00 - 9:15 AM
+| align="center" | Welcome address
+| align="center" | APS Senior Management
+|-
+| 9:15 - 10:15 AM
 | align="center" | meeting
 | align="center" | work on projects and tasks
 |-
