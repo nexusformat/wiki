@@ -62,12 +62,13 @@ Notes:
     ratification:
     -   joint CIF/NeXus NXmx
     -   NXarpes
+    -   NXcanSAS
     -   NXcite
-    -   NXtransformations
-    -   NXstxm
-    -   NXzone\_plate
     -   NXgrating
-    -   others
+    -   NXstxm
+    -   NXtransformations
+    -   NXzone\_plate
+    -   others ...
 -   Deprecation of NeXus polar coordinate system, NXgeometry?
 -   Do we want better standardization and documentation of NeXus
     processes?
