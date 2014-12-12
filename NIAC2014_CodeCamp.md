@@ -10,6 +10,11 @@ on developing software or resolving particular NeXus design issues.
 See [NIAC2014](NIAC2014 "wikilink") for administrative details about
 this meeting.
 
+Planned Schedule (subject to change)
+------------------------------------
+
+<img src="2014-CodeCamp-Schedule-MTW.png" title="2014-CodeCamp-Schedule-MTW.png" alt="2014-CodeCamp-Schedule-MTW.png" width="600" />
+
 Topics to be Considered
 -----------------------
 
