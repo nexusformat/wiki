@@ -20,8 +20,6 @@ from data to axes and uncertainties.
 Proposal to describe multi-dimensional data (Axes)
 --------------------------------------------------
 
-TODO: write this section
-
 (see this from canSAS:
 <http://www.cansas.org/formats/canSAS2012/1.0/doc/framework.html>)
 
