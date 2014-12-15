@@ -44,7 +44,9 @@ Choose topics from the preliminary list below:
 ! &nbsp;   || *Monday* || *Tuesday* || *Wednesday*
 |-
 ! 9:00-10:00
-| Review   ||    ||    
+| Review   
+| Short procedural    
+| NAPI issues    
 |-
 ! 10:00-10:30 
 | Coffee   
@@ -52,7 +54,9 @@ Choose topics from the preliminary list below:
 | Coffee   
 |-
 ! 10:30-12:00   
-| Cansas<br>Axes<BR>Error ||    ||    
+| Cansas<br>Axes<BR>Error 
+| Telco with DECTRIS    
+|    
 |-
 ! 12:00-13:00    
 |  Lunch   
@@ -61,8 +65,8 @@ Choose topics from the preliminary list below:
 |-
 ! 13:00-15:00    
 | DECTRIS,<BR> NXmx etc 
-|    
-|    
+| nexpy
+| HDF-5 talk
 |-
 ! 15-15:30    
 |  Coffee  
@@ -71,7 +75,7 @@ Choose topics from the preliminary list below:
 |-
 !  15:30-18:00  
 | MXmx,<BR> when time smaller issues 
-|    
+| Reprioritise for last day <BR> Lightweight tags and interfaces   
 |    
 |}        
 

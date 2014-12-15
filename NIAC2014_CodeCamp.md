@@ -84,8 +84,8 @@ Agenda
 <tr class="odd">
 <td><p>9:00-10:00</p></td>
 <td><p>Review</p></td>
-<td></td>
-<td></td>
+<td><p>Short procedural</p></td>
+<td><p>NAPI issues</p></td>
 </tr>
 <tr class="even">
 <td><p>10:00-10:30</p></td>
@@ -98,7 +98,7 @@ Agenda
 <td><p>Cansas<br />
 Axes<br />
 Error</p></td>
-<td></td>
+<td><p>Telco with DECTRIS</p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -111,8 +111,8 @@ Error</p></td>
 <td><p>13:00-15:00</p></td>
 <td><p>DECTRIS,<br />
 NXmx etc</p></td>
-<td></td>
-<td></td>
+<td><p>nexpy</p></td>
+<td><p>HDF-5 talk</p></td>
 </tr>
 <tr class="even">
 <td><p>15-15:30</p></td>
@@ -124,7 +124,8 @@ NXmx etc</p></td>
 <td><p>15:30-18:00</p></td>
 <td><p>MXmx,<br />
 when time smaller issues</p></td>
-<td></td>
+<td><p>Reprioritise for last day<br />
+Lightweight tags and interfaces</p></td>
 <td></td>
 </tr>
 </tbody>
