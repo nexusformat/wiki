@@ -17,8 +17,8 @@ was devised. It is proposed that this will be a good addition to NeXus,
 adding flexibility to data file writers while preserving an obvious path
 from data to axes and uncertainties.
 
-Axes
-----
+Proposal to describe multi-dimensional data (Axes)
+--------------------------------------------------
 
 TODO: write this section
 

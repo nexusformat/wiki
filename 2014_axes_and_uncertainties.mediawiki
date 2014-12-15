@@ -2,7 +2,7 @@
 
 In developing the [http://www.cansas.org/formats/canSAS2012/1.0/doc/ canSAS standard for storing multidimensional reduced small-angle scattering data], a new method for identifying the [http://www.cansas.org/formats/canSAS2012/1.0/doc/implementation.html#algorithm-to-identify-values-given-a-set-of-indices-on-the-i-data related axes] and [http://www.cansas.org/formats/canSAS2012/1.0/doc/framework.html#index-5 uncertainties] was devised.  It is proposed that this will be a good addition to NeXus, adding flexibility to data file writers while preserving an obvious path from data to axes and uncertainties.
 
-== Axes ==
+== Proposal to describe multi-dimensional data (Axes) ==
 
 TODO: write this section
 
