@@ -32,7 +32,8 @@ Proposal
     NXdata is the default. The value is the name of the NXdata group.
 -   add *default\_data* attribute to each NXdata that states which
     dataset is the default. The value is the name of the dataset to be
-    plotted.
+    plotted. (This might actually be the *signal* attribute on the
+    NXdata group.)
 
 These default attributes only describe child elements, not child/object
 or ../object or other hierarchy.
