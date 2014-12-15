@@ -9,14 +9,6 @@ listed below. If a member wishes to be renewed, they must provide a
 letter of support from the facility and be approved by the NIAC as
 stated in the [constitution](NIAC "wikilink").
 
-### Expire May 1, 2013
-
--   Freddie Akeroyd - ISIS Pulsed Neutron Facility, UK
-
-### Expire October 8, 2013
-
--   Peter Peterson - Spallation Neutron Source, USA
-
 ### Expire September 20, 2015
 
 -   Herbert Bernstein, ImgCIF
