@@ -131,6 +131,10 @@ Lightweight tags and interfaces</p></td>
 </tbody>
 </table>
 
+### Tuesday
+
+-   teleconference with Dectris: 10:30 AM
+
 ### Wednesday
 
 -   public talk: *Current State of HDF5*, Elena Pourmal, The HDF Group,

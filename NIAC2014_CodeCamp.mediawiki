@@ -81,6 +81,12 @@ Choose topics from the preliminary list below:
 
 
 
+=== Tuesday ===
+
+* teleconference with Dectris: 10:30 AM
+
+
+
 === Wednesday ===
 
 * public talk: ''Current State of HDF5'', Elena Pourmal, The HDF Group, location: 401/A1100
