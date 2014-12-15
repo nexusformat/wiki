@@ -32,7 +32,7 @@ Choose topics from the preliminary list below:
 ** NXdata: Assigning axes to data once more again
 ** Prepare contributed definitions for ratification
 * Work on software:
-** validation tools (nxvalidate or NXvalidate): state (cf [https://github.com/nexusformat/definitions/issues/169 #169], [https://github.com/nexusformat/definitions/issues/251 #251], [https://github.com/nexusformat/definitions/issues/300 #300]), further development, WWW service, use of NeXpy/Python-API for validation
+** validation tools (nxvalidate or NXvalidate): state (cf [https://github.com/nexusformat/definitions/issues/169 #169/defs], [https://github.com/nexusformat/definitions/issues/251 #251/defs], [https://github.com/nexusformat/definitions/issues/300 #300/defs], [https://github.com/nexusformat/code/issues/363 #363/code]), further development, WWW service, use of NeXpy/Python-API for validation
 ** New NAPI release?
 ** [https://github.com/nexusformat/definitions/issues/230 #230]: use cmake to build Sphinx documentation
 * Finish support for attribute arrays (who proposed this? please provide details!)

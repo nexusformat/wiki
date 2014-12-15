@@ -53,9 +53,10 @@ Choose topics from the preliminary list below:
     -   Prepare contributed definitions for ratification
 -   Work on software:
     -   validation tools (nxvalidate or NXvalidate): state (cf
-        [\#169](https://github.com/nexusformat/definitions/issues/169),
-        [\#251](https://github.com/nexusformat/definitions/issues/251),
-        [\#300](https://github.com/nexusformat/definitions/issues/300)),
+        [\#169/defs](https://github.com/nexusformat/definitions/issues/169),
+        [\#251/defs](https://github.com/nexusformat/definitions/issues/251),
+        [\#300/defs](https://github.com/nexusformat/definitions/issues/300),
+        [\#363/code](https://github.com/nexusformat/code/issues/363)),
         further development, WWW service, use of NeXpy/Python-API for
         validation
     -   New NAPI release?
