@@ -120,7 +120,9 @@ signal:
 `     NXdata`  
 `       @signal=`“`det`”  
 `       @det_axes=`“`tof,xy`”  
-`       det: float[100000,100,512]`
+`       det: float[100000,100,512]`  
+`       tof: float[100000]`  
+`       xy: float[100,512]`
 
 ` NXroot`  
 `   NXentry`  
