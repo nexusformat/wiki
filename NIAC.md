@@ -14,8 +14,7 @@ You may contact the NIAC by sending an email to
 ----------------------------------------------
 
 -   [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink"), Rutherford
-    Appleton Laboratory, UK (ISIS Representative, Technical Committee
-    Chair)
+    Appleton Laboratory, UK (Technical Committee Chair)
 -   [Herbert Bernstein](User%3AHerbert_Bernstein "wikilink"), ImgCIF
 -   [Aaron Brewster](User%3AAaron_Brewster "wikilink"), Lawrence
     Berkeley Laboratory, USA
@@ -33,8 +32,6 @@ You may contact the NIAC by sending an email to
     Nuclear Science and Technology Organisation, Australia
 -   [Raymond Osborn](User%3ARay_Osborn "wikilink"), Argonne National
     Laboratory, USA
--   [Peter Peterson](User%3APeter_Peterson "wikilink"), Spallation
-    Neutron Source, USA
 -   [Tobias Richter](User%3ATobias_Richter "wikilink"), Diamond Light
     Source, UK (Executive Secretary)
 -   [Jiro Suzuki](User%3AJiro_Suzuki "wikilink"), KEK, Japan
