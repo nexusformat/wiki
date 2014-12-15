@@ -39,8 +39,43 @@ Choose topics from the preliminary list below:
 * Off-site excursion to -tba-
 
 == Agenda ==
+{|  align="center" border="1"
+|-
+! &nbsp;   || *Monday* || *Tuesday* || *Wednesday*
+|-
+! 9:00-10:00
+| Review   ||    ||    
+|-
+! 10:00-10:30 
+| Coffee   
+| Coffee   
+| Coffee   
+|-
+! 10:30-12:00   
+| Cansas<br>Axes<BR>Error ||    ||    
+|-
+! 12:00-13:00    
+|  Lunch   
+|  Lunch   
+|  Lunch   
+|-
+! 13:00-15:00    
+| DECTRIS,<BR> NXmx etc 
+|    
+|    
+|-
+! 15-15:30    
+|  Coffee  
+|  Coffee  
+|  Coffee  
+|-
+!  15:30-18:00  
+| MXmx,<BR> when time smaller issues 
+|    
+|    
+|}        
 
-To be decided on the first day of the 2014 Code Camp.
+
 
 === Wednesday ===
 

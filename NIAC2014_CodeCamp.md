@@ -69,7 +69,66 @@ Choose topics from the preliminary list below:
 Agenda
 ------
 
-To be decided on the first day of the 2014 Code Camp.
+<table>
+<thead>
+<tr class="header">
+<th><p> </p></th>
+<th><p>*Monday*</p></th>
+<th><p>*Tuesday*</p></th>
+<th><ul>
+<li>Wednesday*</li>
+</ul></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>9:00-10:00</p></td>
+<td><p>Review</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p>10:00-10:30</p></td>
+<td><p>Coffee</p></td>
+<td><p>Coffee</p></td>
+<td><p>Coffee</p></td>
+</tr>
+<tr class="odd">
+<td><p>10:30-12:00</p></td>
+<td><p>Cansas<br />
+Axes<br />
+Error</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p>12:00-13:00</p></td>
+<td><p>Lunch</p></td>
+<td><p>Lunch</p></td>
+<td><p>Lunch</p></td>
+</tr>
+<tr class="odd">
+<td><p>13:00-15:00</p></td>
+<td><p>DECTRIS,<br />
+NXmx etc</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p>15-15:30</p></td>
+<td><p>Coffee</p></td>
+<td><p>Coffee</p></td>
+<td><p>Coffee</p></td>
+</tr>
+<tr class="odd">
+<td><p>15:30-18:00</p></td>
+<td><p>MXmx,<br />
+when time smaller issues</p></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 ### Wednesday
 
