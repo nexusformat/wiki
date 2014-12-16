@@ -47,6 +47,9 @@ One additional interest is that the new method be capable of describing
 alternative views of data in the NXdata group, not just the default
 data.
 
+We must also consider and allow for the common situation when **no
+axes** are specified.
+
 ### Proposition
 
 Define the specifications of the default data and any associated axes
