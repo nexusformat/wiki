@@ -85,7 +85,10 @@ Choose topics from the preliminary list below:
 
 * teleconference with Dectris: 10:30 AM
 
+==== for end of day review ====
 
+* [http://wiki.nexusformat.org/2014_axes_and_uncertainties#Proposal_to_describe_multi-dimensional_data_.28Axes.29 axes]
+* [http://wiki.nexusformat.org/2014_axes_and_uncertainties#Uncertainties uncertainties]
 
 === Wednesday ===
 

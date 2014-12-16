@@ -135,6 +135,11 @@ Lightweight tags and interfaces</p></td>
 
 -   teleconference with Dectris: 10:30 AM
 
+#### for end of day review
+
+-   [axes](http://wiki.nexusformat.org/2014_axes_and_uncertainties#Proposal_to_describe_multi-dimensional_data_.28Axes.29)
+-   [uncertainties](http://wiki.nexusformat.org/2014_axes_and_uncertainties#Uncertainties)
+
 ### Wednesday
 
 -   public talk: *Current State of HDF5*, Elena Pourmal, The HDF Group,
