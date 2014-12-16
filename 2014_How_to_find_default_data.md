@@ -25,15 +25,17 @@ plotted.
 Proposal
 --------
 
--   add *default\_NXentry* attribute to the root of the file that states
-    which NXentry is the default. The value is the name of the NXentry
-    group.
--   add *default\_NXdata* attribute to each NXentry that states which
+It is proposed to add a deterministic method to identify the default
+data for visualization in a data file. It is expected that this will
+become the preferred method from now on.
+
+-   add **default\_NXentry** attribute to the root of the file that
+    states which NXentry is the default. The value is the name of the
+    NXentry group.
+-   add **default\_NXdata** attribute to each NXentry that states which
     NXdata is the default. The value is the name of the NXdata group.
--   add *default\_data* attribute to each NXdata that states which
-    dataset is the default. The value is the name of the dataset to be
-    plotted. (This might actually be the *signal* attribute on the
-    NXdata group.)
+-   add **signal** attribute to each NXdata that states which dataset is
+    the default. The value is the name of the dataset to be plotted.
 
 These default attributes only describe child elements, not child/object
 or ../object or other hierarchy.
