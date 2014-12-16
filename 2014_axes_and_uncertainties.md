@@ -214,9 +214,7 @@ context:
 
 -   parent NXdata group: “{name}\_uncertainty\_components” where {name}
     is the uncertainty dataset
-
-` * {name} must exist as a dataset`
-
+    -   {name} must exist as a dataset
 -   dataset: “uncertainty\_components” attached to uncertainty dataset
 
 Value:
