@@ -141,6 +141,9 @@ signal:
 Uncertainties
 -------------
 
+(see this from canSAS: \*
+<http://www.cansas.org/formats/canSAS2012/1.0/doc/examples.html#representing-uncertainty-components>)
+
 TODO: finish writing this section
 
 In a scientific data file, it is assumed that uncertainty about the
