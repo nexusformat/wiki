@@ -7,18 +7,18 @@ layout: wiki
 Problem
 -------
 
-In todays flourescence experiments users often raster the sample with
+In todays fluorescence experiments users often raster the sample with
 the beam and record a single spectrum at each sample location. For
 beamline P06 at DESY this procedure became virtually the default mode of
-operation. The current NXflou application definition does not include
+operation. The current NXfluo application definition does not include
 this kind of experiments as it only allows to store a single spectrum
-below /:NXentry/:NXinstrument/:NXdetector. However NXflou could be
+below /:NXentry/:NXinstrument/:NXdetector. However NXfluo could be
 easily modified to accommodate raster scans.
 
 Proposed modification
 ---------------------
 
-The changes concern only the NXdetector instance of NXflou. The layout
+The changes concern only the NXdetector instance of NXfluo. The layout
 should be changed as follows
 
     entry:NXentry
