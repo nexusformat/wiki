@@ -202,7 +202,7 @@ Value:
         data: float[300, 300]
         xy: float[300, 300]
         esd: float[300, 300]
-        esd_uncertainties:
+        esd_uncertainties:NXuncertainty
            electronic : float[300, 300]
               @basis="Johnson noise"
            counting_statistics: float[300, 300]
