@@ -116,13 +116,118 @@ signal:
 
 == Uncertainties ==
 
-(see this from canSAS: * http://www.cansas.org/formats/canSAS2012/1.0/doc/examples.html#representing-uncertainty-components)
+(see this from canSAS: 
+http://www.cansas.org/formats/canSAS2012/1.0/doc/examples.html#representing-uncertainty-components)
 
-TODO: finish writing this section
+In a scientific data file, it is assumed that uncertainty 
+about the value of the data is expressed in an array of the 
+same shape as the data.  The uncertainty of a datum may be 
+expressed in a single value or as derived from several components.
 
-In a scientific data file, it is assumed that uncertainty about the value of the data is expressed in an array of the same shape as the data.  The uncertainty of a datum may be expressed in a single value or as derived from several components.
+The way that data uncertainties are described in NeXus data files
+is inconsistent across the base classes and can be improved
+while also being generalized.  Currently, the name of these uncertainties
+is most often called "errors" which is incorrect.  At best, these are error 
+estimates but actually describe an estimate of one's uncertainty in the data.
 
-Examples
-* http://www.cansas.org/formats/canSAS2012/1.0/doc/examples.html#d-image-i-q-with-uncertainty
-* http://www.cansas.org/formats/canSAS2012/1.0/doc/examples.html#d-sas-data-in-a-time-series-i-t-q-t-idev-t-q-t
-* http://www.cansas.org/formats/canSAS2012/1.0/doc/examples.html#representing-uncertainty-components
+While uncertainties are properties of the dataset rather than the containing
+group, it is difficult in some cases such as externally-linked datasets, to
+attach the attributes directly to the dataset.
+
+=== Proposition ===
+
+The attribute-based scheme used to describe the axes (see above) can be extended
+to describe the uncertainties.  A subgroup can be created to deposit these
+constituents.  It seems that a new base class would be needed for this subgroup.
+
+It is a question for debate whether to attach the attribute to the dataset
+or the NXdata group.  We leave that open for now.
+
+=== NXdata Attributes ===
+
+We must consider the description of uncertainty as an attribute of either
+a dataset or the containing NXdata group.  The value of the attribute should be
+the same in either case.
+
+Name of the uncertainty attribute depends on the context:
+
+* dataset:  uncertainty
+* parent NXdata group:  {name}_uncertainty
+
+Value:
+	Defines the name of the dataset with the uncertainty to be used.
+	This dataset must exist and have the same shape as the signal dataset.
+
+''Examples''
+
+  NXroot
+    NXentry
+      NXdata
+        @signal="data"
+        @data_axes="xy"
+        @data_uncertainty="esd"
+        data: float[300, 300]
+        xy: float[300, 300]
+        esd: float[300, 300]
+
+  NXroot
+    NXentry
+      NXdata
+        @signal="data"
+        @data_axes="xy"
+        data: float[300, 300]
+          @uncertainty="esd"
+        xy: float[300, 300]
+        esd: float[300, 300]
+
+Name of the uncertainty components subgroup attribute depends on the context:
+
+* dataset:  "uncertainty_components" attached to uncertainty dataset
+* parent NXdata group:  "{name}_uncertainty_components" where {name} is the uncertainty dataset
+  * {name} must exist as a dataset
+
+Value:
+	Defines the name of the NXuncertainty subgroup with the uncertainty components.
+	This subgroup must exist.
+
+''Examples''
+
+  NXroot
+    NXentry
+      NXdata
+        @signal="data"
+        @data_axes="xy"
+        @data_uncertainty="esd"
+		@esd_uncertainty_components="esd_uncertainties"
+        data: float[300, 300]
+        xy: float[300, 300]
+        esd: float[300, 300]
+        esd_uncertainties:
+           electronic : float[300, 300]
+              @basis="Johnson noise"
+           counting_statistics: float[300, 300]
+              @basis="shot noise"
+           secondary_standard: float[300, 300]
+              @basis="esd"
+
+  NXroot
+    NXentry
+      NXdata
+        @signal="data"
+        @data_axes="xy"
+        data: float[300, 300]
+          @uncertainty="esd"
+        xy: float[300, 300]
+        esd: float[300, 300]
+          @uncertainty_components="esd_uncertainties"
+        esd_uncertainties:NXuncertainty
+           electronic : float[300, 300]
+              @basis="Johnson noise"
+           counting_statistics: float[300, 300]
+              @basis="shot noise"
+           secondary_standard: float[300, 300]
+              @basis="esd"
+
+=== ''NXuncertainty'' Base Class ===
+
+TODO: need to write this section
