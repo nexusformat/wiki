@@ -282,7 +282,7 @@ Value:
 These are some of the topics to be considered when evaluating this proposal.
 
 #. There are known advantages and disadvantages to the decision to store attributes on the parent group or on the field itself.
-##. attributes stored on the field will transfer when the field is copied or linked
+##. Attributes stored on the field will transfer when the field is copied or linked
 ##. It may not be possible to add or modify a field attribute which is linked due to conflicts or write permissions
 #. The uncertainty field (and possible complex uncertainties) need to be considered when copying or linking
 #. "Uncertainty" is not a popular word to spell.  Yet "errors" is not correct in this context.

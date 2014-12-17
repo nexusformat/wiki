@@ -316,7 +316,7 @@ proposal.
 
 1.  . There are known advantages and disadvantages to the decision to
     store attributes on the parent group or on the field itself.
-    1.  . attributes stored on the field will transfer when the field is
+    1.  . Attributes stored on the field will transfer when the field is
         copied or linked
     2.  . It may not be possible to add or modify a field attribute
         which is linked due to conflicts or write permissions
