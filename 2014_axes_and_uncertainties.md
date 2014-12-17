@@ -102,7 +102,7 @@ axes: {name}\_axes:
 `   However, if the indices attributes are missing, file readers are encouraged`  
 `   to make their best efforts to plot the data.  Thus the implementation`  
 `   of the indices attribute is based on the model of`  
-`   `“`strict`` ``writer,`` ``tolerant`` ``reader`”`.`  
+`   `“`strict`` ``writer,`` ``liberal`` ``reader`”`.`  
 `   `  
 `   If the complexity of representing alternative axes creates conflicts,`  
 `   then define the alternatives in additional NXdata groups and use links`  
