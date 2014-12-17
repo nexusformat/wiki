@@ -46,18 +46,46 @@ signal:
 	A field of this name *must* exist.
 	(either dataset or link to dataset)
 
+axes:
 {name}_axes: 
 	Defines the independent data fields supporting the {name} field.
+	If there is only one data field to be plotted (the other data field(s)
+	are axes), then it is acceptable to use the shorter ''axes'' attribute.
+
 	The {name} field *must* exist.
 	The field(s) named as values (known as "axes") of this attribute must exist.
 	The axes shapes must be compatible with {name}.
 	A axis slice may be specified through the use of subscripts to indicate
 	which indices should be used.
 	
+	When no axis is to be used for a particular index of the plottable data,
+	use a "." in that position.  An example below demonstrates this.
+	If there are no axes at all (such as with a stack of images), the
+	''axes'' attribute can be omitted.
+	
 	For example, if {name} has shape [10,100,512,3],
 	and {name}_axes is "thing1, thing2, thing3",
 	with shapes [10], [100,512], [3],
 	then these criteria are satisfied.
+
+{axisname}_indices:
+	Defines the list of integer values which are indices of the signal field array
+	(the field named as the value of the signal attribute)
+	to which this axis applies.  This attribute is necessary to resolve
+	ambiguity and to declare possible alternative axes for the signal field array.
+	
+	This attribute is to be used in all but the most trivial situations.
+	However, if the indices attributes are missing, file readers are encouraged
+	to make their best efforts to plot the data.  Thus the implementation
+	of the indices attribute is based on the model of
+	"strict writer, tolerant reader".
+	
+	If the complexity of representing alternative axes creates conflicts,
+	then define the alternatives in additional NXdata groups and use links
+	to avoid replicating the data.
+
+	This is a replacement for the "axis=" attribute method of identifying
+	the dimension scales for plotting.
 
 === Example data structures ===
   
@@ -65,7 +93,7 @@ signal:
     NXentry
       NXdata
         @signal="data"  --> *names* the default data to be visualized
-        @data_axes="x"  --> *names* the default independent data
+        @axes="x"  --> *names* the default independent data
         data: float[100]  --> the default dependent data
         x: float[100]  --> the default independent data
 
@@ -73,24 +101,39 @@ signal:
     NXentry
       NXdata
         @signal="I"
-        @I_axes="Q[1,2]"
+        @I_axes="Q"
+        @Q_indices="1,2"  --> use the last two indices of the "Q" field to plot the "I" field
         I: float[100, 512]
         Q: float[3, 100, 512]
 
   NXroot
     NXentry
       NXdata
-        @signal="counts"
-        @counts_axes="polar_angle[1]"
-        counts: float[100*512]
-        polar_angle: float[3,100*512]
+        @signal="detector1"
+        @axes="Q"
+        @Q_indices="1"
+        detector1: float[100*512]
+        Q: float[3,100*512]
+
+  NXroot
+    NXentry
+      NXdata
+        @signal="data"
+        @axes="time,pressure"
+        @pressure_indices="1"
+        @time_indices="0"
+        @temperature_indices="1"
+        data: float[1000,20]
+        pressure: float[20]
+        temperature: float[20]
+        time: float[1000]
 
   NXroot
     NXentry
       NXdata
         @signal="det"
-        @det_axes="tof,pressure"
-        det: float[100000,100]
+        @axes="pressure,tof"
+        det: float[100,100000]
         pressure: float[100]
         tof: float[100000]
 
@@ -98,18 +141,24 @@ signal:
     NXentry
       NXdata
         @signal="det"
-        @det_axes="tof,xy"
-        det: float[100000,100,512]
+        @axes="xy,tof"
+        @tof_indices="2"
+        @xy_indices="0,1"
+        det: float[100,512,100000]
         tof: float[100000]
         xy: float[100,512]
 
   NXroot
     NXentry
       NXdata
-        @signal="counts"
-        @counts_axes="polar_angle_demand,frame_number,?"
+        @signal="det1"
+        @det1_axes="polar_angle_demand,frame_number,."
+        @polar_angle_rbv_axes="polar_angle_demand,."
+        @frame_number_indices="1"
+        @polar_angle_demand_indices="0,."
         polar_angle_rbv: [50,5]
-        counts[50,5,1024]
+        det1: [50,5,1024]
+        det2: [50,5,1024]
         polar_angle_demand: [50]
         frame_number: [5]
         time: [50,5]
@@ -227,6 +276,16 @@ Value:
               @basis="shot noise"
            secondary_standard: float[300, 300]
               @basis="esd"
+
+=== Topics for Discussion on this Proposal ===
+
+These are some of the topics to be considered when evaluating this proposal.
+
+#. There are known advantages and disadvantages to the decision to store attributes on the parent group or on the field itself.
+##. attributes stored on the field will transfer when the field is copied or linked
+##. It may not be possible to add or modify a field attribute which is linked due to conflicts or write permissions
+#. The uncertainty field (and possible complex uncertainties) need to be considered when copying or linking
+#. "Uncertainty" is not a popular word to spell.  Yet "errors" is not correct in this context.
 
 === ''NXuncertainty'' Base Class ===
 
