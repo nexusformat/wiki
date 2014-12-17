@@ -144,9 +144,6 @@ axes: {name}\_axes:
 `     NXdata`  
 `       @signal=`“`data`”  
 `       @axes=`“`time,pressure`”  
-`       @pressure_indices=`“`1`”  
-`       @time_indices=`“`0`”  
-`       @temperature_indices=`“`1`”  
 `       data: float[1000,20]`  
 `       pressure: float[20]`  
 `       temperature: float[20]`  
@@ -176,13 +173,9 @@ axes: {name}\_axes:
 `   NXentry`  
 `     NXdata`  
 `       @signal=`“`det1`”  
-`       @det1_axes=`“`polar_angle_demand,frame_number,.`”  
-`       @polar_angle_rbv_axes=`“`polar_angle_demand,.`”  
-`       @frame_number_indices=`“`1`”  
-`       @polar_angle_demand_indices=`“`0,.`”  
+`       @axes=`“`polar_angle_demand,frame_number,.`”  
 `       polar_angle_rbv: [50,5]`  
 `       det1: [50,5,1024]`  
-`       det2: [50,5,1024]`  
 `       polar_angle_demand: [50]`  
 `       frame_number: [5]`  
 `       time: [50,5]`
