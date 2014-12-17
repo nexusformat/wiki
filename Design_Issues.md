@@ -39,6 +39,7 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
         a proposal for the 2014 NIAC meeting
 -   [Update for NXflou application
     definition](Update_for_NXflou_application_definition "wikilink")
+-   [Thumbnails for Nexus files](Thumbnails_for_Nexus_files "wikilink")
 -   [NXdetector documentation](NXdetector_documentation "wikilink")
 -   [NeXus CIF Integration](NeXus_CIF_Integration "wikilink")
     -   [ConcordanceDiscussion](ConcordanceDiscussion "wikilink")
