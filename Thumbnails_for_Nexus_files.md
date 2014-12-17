@@ -5,7 +5,7 @@ layout: wiki
 ---
 
 Thumbnails that a file browser (or even a web browser) can use to render
-a Nexus file shall be stored in an instance of NXlog directly below
+a Nexus file shall be stored in an instance of NXnote directly below
 NXentry
 
     entry:NXentry
@@ -19,3 +19,12 @@ type is determined by the type field. We currently recommend the image
 to be stored as PNG. The description field can be used to store
 provenance data which may show up as a tool-tip when the mouse pointer
 hovers over the files icon.
+
+Topics for discussion
+---------------------
+
+-   should it go to NXroot or NXentry?
+-   restrict the image type to PNG or leave this open?
+-   shall we restrict the size of the thumbnail image?
+
+Windows for instance uses 96x96 jpeg images.
