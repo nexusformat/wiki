@@ -192,8 +192,8 @@ attribute should be the same in either case.
 
 Name of the uncertainty attribute depends on the context:
 
--   parent NXdata group: {name}\_uncertainty
--   dataset: uncertainty
+-   parent NXdata group: **{name}\_uncertainty**
+-   dataset: **uncertainty**
 
 Value:
 
@@ -225,10 +225,10 @@ Value:
 Name of the uncertainty components subgroup attribute depends on the
 context:
 
--   parent NXdata group: “{name}\_uncertainty\_components” where {name}
-    is the uncertainty dataset
-    -   {name} must exist as a dataset
--   dataset: “uncertainty\_components” attached to uncertainty dataset
+-   parent NXdata group: **{name}\_uncertainty\_components** where
+    *{name}* is the uncertainty dataset
+    -   **{name}** must exist as a dataset
+-   dataset: *uncertainty\_components* attached to uncertainty dataset
 
 Value:
 

@@ -163,8 +163,8 @@ the same in either case.
 
 Name of the uncertainty attribute depends on the context:
 
-* parent NXdata group:  {name}_uncertainty
-* dataset:  uncertainty
+* parent NXdata group:  '''{name}_uncertainty'''
+* dataset:  '''uncertainty'''
 
 Value:
 	Defines the name of the dataset with the uncertainty to be used.
@@ -194,9 +194,9 @@ Value:
 
 Name of the uncertainty components subgroup attribute depends on the context:
 
-* parent NXdata group:  "{name}_uncertainty_components" where {name} is the uncertainty dataset
-** {name} must exist as a dataset
-* dataset:  "uncertainty_components" attached to uncertainty dataset
+* parent NXdata group:  '''{name}_uncertainty_components''' where ''{name}'' is the uncertainty dataset
+** '''{name}''' must exist as a dataset
+* dataset:  ''uncertainty_components'' attached to uncertainty dataset
 
 Value:
 	Defines the name of the NXuncertainty subgroup with the uncertainty components.
