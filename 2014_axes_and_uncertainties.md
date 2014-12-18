@@ -69,47 +69,27 @@ signal:
 `   A field of this name *must* exist.`  
 `   (either dataset or link to dataset)`
 
-axes: {name}\_axes:
+axes or {name}\_axes:
 
-`   Defines the independent data fields supporting the {name} field.`  
-`   If there is only one data field to be plotted (the other data field(s)`  
-`   are axes), then it is acceptable to use the shorter `*`axes`*` attribute.`
+`   Defines the independent data fields used in default plot for the all of dimensions of  the {name} field. One entry is provides for every dimension in {name}.`
 
-`   The {name} field *must* exist.`  
 `   The field(s) named as values (known as `“`axes`”`) of this attribute must exist.`  
-`   The axes shapes must be compatible with {name}.`  
-`   A axis slice may be specified through the use of subscripts to indicate`  
-`   which indices should be used.`  
+`   A axis slice to is specified using the {axis name}_indices below.`  
 `   `  
-`   When no axis is to be used for a particular index of the plottable data,`  
+`   When no default axis is available for a particular dimension of the plottable data,`  
 `   use a `“`.`”` in that position.  An example below demonstrates this.`  
 `   If there are no axes at all (such as with a stack of images), the`  
-`   `*`axes`*` attribute can be omitted.`  
-`   `  
-`   For example, if {name} has shape [10,100,512,3],`  
-`   and {name}_axes is `“`thing1,`` ``thing2,`` ``thing3`”`,`  
-`   with shapes [10], [100,512], [3],`  
-`   then these criteria are satisfied.`
+`   `*`axes`*` attribute can be omitted.`
 
 {axisname}\_indices:
 
-`   Defines the list of integer values which are indices of the signal field array`  
-`   (the field named as the value of the signal attribute)`  
-`   to which this axis applies.  This attribute is necessary to resolve`  
-`   ambiguity and to declare possible alternative axes for the signal field array.`  
-`   `  
-`   This attribute is to be used in all but the most trivial situations.`  
+`   Defines the indices of the signal field array which need to be used in the {axisname} dataset in order to reference the corresponding axis value.`
+
+`   This attribute is to be provided in all situations.`  
 `   However, if the indices attributes are missing, file readers are encouraged`  
 `   to make their best efforts to plot the data.  Thus the implementation`  
 `   of the indices attribute is based on the model of`  
-`   `“`strict`` ``writer,`` ``liberal`` ``reader`”`.`  
-`   `  
-`   If the complexity of representing alternative axes creates conflicts,`  
-`   then define the alternatives in additional NXdata groups and use links`  
-`   to avoid replicating the data.`
-
-`   This is a replacement for the `“`axis=`”` attribute method of identifying`  
-`   the dimension scales for plotting.`
+`   `“`strict`` ``writer,`` ``liberal`` ``reader`”`.`
 
 ### Example data structures
 
@@ -120,24 +100,6 @@ axes: {name}\_axes:
 `       @axes=`“`x`”`  --> *names* the default independent data`  
 `       data: float[100]  --> the default dependent data`  
 `       x: float[100]  --> the default independent data`
-
-` NXroot`  
-`   NXentry`  
-`     NXdata`  
-`       @signal=`“`I`”  
-`       @I_axes=`“`Q`”  
-`       @Q_indices=`“`1,2`”`  --> use the last two indices of the `“`Q`”` field to plot the `“`I`”` field`  
-`       I: float[100, 512]`  
-`       Q: float[3, 100, 512]`
-
-` NXroot`  
-`   NXentry`  
-`     NXdata`  
-`       @signal=`“`detector1`”  
-`       @axes=`“`Q`”  
-`       @Q_indices=`“`1`”  
-`       detector1: float[100*512]`  
-`       Q: float[3,100*512]`
 
 ` NXroot`  
 `   NXentry`  
