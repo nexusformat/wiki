@@ -71,6 +71,8 @@ Notes:
 
 #### Thursday Morning
 
+Present members: as above.
+
 Welcome address by John Maclean (Acting Division Director for
 Engineering Support).
 
@@ -85,3 +87,5 @@ New Members approved (all in favour):
 -   Tobias Richter for ESS
 -   Claudio Ferrero for ESRF
 
+NXmx, NXtransformations and variants accepted as proposed (all in
+favour).

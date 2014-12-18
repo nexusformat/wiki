@@ -50,6 +50,8 @@ Notes:
 
 ==== Thursday Morning ====
 
+Present members: as above.
+
 Welcome address by John Maclean (Acting Division Director for Engineering Support).
 
 Mark K introduction on activities since last meeting, including code cam. As well as proposed list of topics and agenda. (SLIDES?)
@@ -60,3 +62,5 @@ New Members approved (all in favour):
 * Mark Basham for Diamond
 * Tobias Richter for ESS
 * Claudio Ferrero for ESRF
+
+NXmx, NXtransformations and variants accepted as proposed (all in favour).
