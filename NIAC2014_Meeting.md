@@ -28,7 +28,7 @@ Notes:
 2.  breakfast, lunch, dinner will be in a local restaurant at traveler's
     expense
 
-### Agenda
+### Items for Agenda
 
 -   Votes on new members
 -   Electing new officers, candidates get ready!
