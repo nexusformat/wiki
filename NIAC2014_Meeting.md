@@ -73,3 +73,6 @@ Notes:
 
 Welcome address by John Maclean (Acting Division Director for
 Engineering Support).
+
+Mark K introduction on activities since last meeting, including code
+camp (SLIDES?)
