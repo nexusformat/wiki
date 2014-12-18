@@ -143,6 +143,8 @@ the default data.
 `       @signal=`“`det1`”  
 `       @axes=`“`polar_angle_demand,frame_number,.`”  
 `       @frame_number_indices=`“`1`”  
+`       @polar_angle_rbv_indices=`“`0,1`”  
+`       @time_indices=`“`0,1`”  
 `       @polar_angle_demand_indices=`“`0`”  
 `       polar_angle_rbv: [50,5]`  
 `       det1: [50,5,1024]`  
