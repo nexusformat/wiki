@@ -67,14 +67,9 @@ Notes:
 -   [Update for NXflou application
     definition](Update_for_NXflou_application_definition "wikilink")
 
-### Notes
-
-#### Thursday
-
-#### Friday
-
 ### Minutes
 
-Thursday Morning
+#### Thursday Morning
 
-Welcome address by John Maclean (Acting Division Director).
+Welcome address by John Maclean (Acting Division Director for
+Engineering Support).
