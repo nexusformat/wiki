@@ -213,3 +213,6 @@ experience.
 
 Adding “default” attribute at root and entry level in order to find
 default NXentry and NXdata for plotting. All in favour.
+
+Providing thumbnails for OS support. Accepted for exploration at NXroot
+level.

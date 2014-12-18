@@ -151,3 +151,5 @@ sequence_index to be added to NXprocess and NXnote to allow for encoding a seque
 Discussion of preference on multiple NXprocess or few NXprocess with NXnotes inside. No consensus. Will allow the community to gain more experience.
 
 Adding "default" attribute at root and entry level in order to find default NXentry and NXdata for plotting. All in favour.
+
+Providing thumbnails for OS support. Accepted for exploration at NXroot level.
