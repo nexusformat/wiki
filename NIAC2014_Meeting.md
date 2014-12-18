@@ -240,3 +240,12 @@ acquisition\_mode in NXdetector would help. All in favour.
 
 Adding “nominal” to NXmonitor would help normalising data to a nominal
 flux for example. Proposed and accepted (2 abstain).
+
+“rgbimage”, “rgbaimage”, “hslimage”, “hslaimage”, “cmykimage” to be
+added to the interpretation attribute of datasets to encode 3d datasets
+with colour as added dimension to the 2d image. Improve documentation as
+well. All in favour.
+
+Introduction to tomorrow's topics.
+
+Dinner proposed and accepted.
