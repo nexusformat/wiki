@@ -99,18 +99,13 @@ abstain, 1 against).
 CIF style marked as preferred method for expressing geometry in the
 manual (1 abstain).
 
-Presentation on multidimensional axes by Pete Jemian. No agreement
-reached. Group level attributes, data level attributes and
-\_unctertainies naming convention scheme all three reserved for
-explorative use. Proposal to be fed into next NIAC meeting.
-
-Lunch at Cafeteria.
+Presentation on multidimensional axes by Pete Jemian.
 
 Coffee break.
 
-Vote on proposal with indices attribute only required when required to
-resolve ambiguity. All in favour. Vote on proposal with indices required
-as in
+Vote on proposal for NXdata axes with indices attribute only required
+when required to resolve ambiguity. All in favour. Vote on proposal with
+indices required as in
 [2014\_axes\_and\_uncertainties](2014_axes_and_uncertainties "wikilink").
 Accepted: 9 in favour. Strong disagreement by Ray Osborn as adoption is
 noted: “Adoption of NeXus will be hampered by additional complexity
