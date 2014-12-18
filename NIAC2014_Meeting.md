@@ -79,5 +79,9 @@ cam. As well as proposed list of topics and agenda. (SLIDES?)
 
 Agenda approved.
 
-New Members approved (all in favour): Mark Basham for Diamond Tobias
-Richter for ESS Claudio Ferrero for ESRF
+New Members approved (all in favour):
+
+-   Mark Basham for Diamond
+-   Tobias Richter for ESS
+-   Claudio Ferrero for ESRF
+

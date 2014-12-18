@@ -57,6 +57,6 @@ Mark K introduction on activities since last meeting, including code cam. As wel
 Agenda approved.
 
 New Members approved (all in favour):
-Mark Basham for Diamond
-Tobias Richter for ESS
-Claudio Ferrero for ESRF
+* Mark Basham for Diamond
+* Tobias Richter for ESS
+* Claudio Ferrero for ESRF
