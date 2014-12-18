@@ -82,4 +82,12 @@ Vote on proposal with indices required as in [[2014_axes_and_uncertainties]]. Ac
 
 Eugen clarified the preference to use arrays where possible to avoid string parsing. No objections. Proposal amended.
 
-Pete Jemian presenting proposal for uncertainties.
+Pete Jemian presenting proposal for uncertainties. No agreement on best way forward. All three possibilities (''field''_uncertainties, attribute to field, and attribute to parent group) all have pros and cons. We reserve all schemes and explore further. NIAC will see a proposal when experience has been gained with all variations.
+
+Lunch 
+
+==== Thursday afternoon ====
+
+Ratification of new and amended base classes and definitions.
+
+NXfluo [[Update_for_NXflou_application_definition]]
