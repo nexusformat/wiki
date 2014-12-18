@@ -181,3 +181,11 @@ NXcite: Accepted with the addition of URL field. (unanimous)
 
 NXfresnel\_zone\_plate: Accepted under proviso that the NXgeometry is
 removed. (unanimous)
+
+Discussion of proposed muon classes in contributed. They need revision.
+(no vote)
+
+Clarification decision: By default values are readback values. If demand
+values are to be recorded for consistency the recommended way of naming
+the data field is to append \_set to the dataset name, as in energy\_set
+for example. (6 in favour, 6 abstain)
