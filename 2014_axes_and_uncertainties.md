@@ -100,6 +100,7 @@ the default data.
 `     NXdata`  
 `       @signal=`“`data`”`  --> *names* the default data to be visualized`  
 `       @axes=`“`x`”`  --> *names* the default independent data`  
+`       @x_indices=`“`0`”  
 `       data: float[100]  --> the default dependent data`  
 `       x: float[100]  --> the default independent data`
 
@@ -108,6 +109,8 @@ the default data.
 `     NXdata`  
 `       @signal=`“`data`”  
 `       @axes=`“`time,pressure`”  
+`       @pressure_indices=`“`1`”  
+`       @time_indices=`“`0`”  
 `       data: float[1000,20]`  
 `       pressure: float[20]`  
 `       temperature: float[20]`  
@@ -118,6 +121,8 @@ the default data.
 `     NXdata`  
 `       @signal=`“`det`”  
 `       @axes=`“`pressure,tof`”  
+`       @pressure_indices=`“`0`”  
+`       @tof_indices=`“`1`”  
 `       det: float[100,100000]`  
 `       pressure: float[100]`  
 `       tof: float[100000]`
@@ -138,6 +143,8 @@ the default data.
 `     NXdata`  
 `       @signal=`“`det1`”  
 `       @axes=`“`polar_angle_demand,frame_number,.`”  
+`       @frame_number_indices=`“`1`”  
+`       @polar_angle_demand_indices=`“`0`”  
 `       polar_angle_rbv: [50,5]`  
 `       det1: [50,5,1024]`  
 `       polar_angle_demand: [50]`  
