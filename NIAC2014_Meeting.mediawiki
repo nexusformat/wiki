@@ -91,3 +91,9 @@ Ratification of new and amended base classes and definitions.
 NXfluo [[Update_for_NXflou_application_definition]] Resolution: Proposal is in agreement with existing scan rules. No vote required. Further amendments to the application definition may be required, but that needs to be refined. Mark B and Eugen W will work on that.
 
 NXapres: Unanimously accepted in the current form in contributed_definitions.
+
+NXstxm: Accepted as proposed (lives in development branch on definitions repo on github). (all in favour)
+
+NXcite: Accepted with the addition of URL field. (unanimous)
+
+NXfresnel_zone_plate: Accepted under proviso that the NXgeometry is removed. (unanimous)

@@ -137,3 +137,11 @@ that.
 
 NXapres: Unanimously accepted in the current form in
 contributed\_definitions.
+
+NXstxm: Accepted as proposed (lives in development branch on definitions
+repo on github). (all in favour)
+
+NXcite: Accepted with the addition of URL field. (unanimous)
+
+NXfresnel\_zone\_plate: Accepted under proviso that the NXgeometry is
+removed. (unanimous)
