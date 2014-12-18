@@ -145,3 +145,7 @@ NXformula: Agreed as research project (no vote). No evaluation of formula intend
 NXgrating: Accepted as in development branch. Required revision of NXmonochromator to go with that agreed (pending).
 
 Optional fields in application definitions (minOccurs=0): All in favour of allowing that.
+
+sequence_index to be added to NXprocess and NXnote to allow for encoding a sequence of operations or notes. All in favour.
+
+Discussion of preference on multiple NXprocess or few NXprocess with NXnotes inside. No consensus. Will allow the community to gain more experience.

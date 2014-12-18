@@ -203,3 +203,10 @@ NXmonochromator to go with that agreed (pending).
 
 Optional fields in application definitions (minOccurs=0): All in favour
 of allowing that.
+
+sequence\_index to be added to NXprocess and NXnote to allow for
+encoding a sequence of operations or notes. All in favour.
+
+Discussion of preference on multiple NXprocess or few NXprocess with
+NXnotes inside. No consensus. Will allow the community to gain more
+experience.
