@@ -248,4 +248,11 @@ well. All in favour.
 
 Introduction to tomorrow's topics.
 
+Vote on changing the constitution to agree with current terms
+(application definition and base class). All in favour.
+
+Vote on removing the Procedures section of the Constitution since it was
+never actually in use. All in favour. Wiki changed in line with both
+proposals.
+
 Dinner proposed and accepted.
