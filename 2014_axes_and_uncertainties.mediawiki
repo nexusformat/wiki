@@ -24,9 +24,6 @@ naming of fields.
 The new method should be backwards compatible with and not spoil existing
 methods in NeXus.
 
-One additional interest is that the new method be capable of describing
-alternative views of data in the NXdata group, not just the default data.
-
 We must also consider and allow for the common situation when '''no axes''' are specified.
 
 === Proposition ===
