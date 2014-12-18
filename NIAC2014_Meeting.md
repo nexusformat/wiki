@@ -216,3 +216,15 @@ default NXentry and NXdata for plotting. All in favour.
 
 Providing thumbnails for OS support. Accepted for exploration at NXroot
 level.
+
+Research Projects
+
+NeXus features (presented by Tobias and Mark B): All in favour of that
+effort. Validation in python seen as good approach. NXmx good first
+target, because existing validation fails. Muons will be interested.
+Needs some more ground work and documentation before giving the word
+out. Integration with NeXpy promising. “features” reserved in NXentry.
+All in favour.
+
+Interfaces (presented by Mark K): Works in a similar way for base
+classes what features do at a higher level (NXentry).
