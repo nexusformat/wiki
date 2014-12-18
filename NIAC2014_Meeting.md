@@ -135,3 +135,9 @@ Ratification of new and amended base classes and definitions.
 
 NXfluo
 [Update\_for\_NXflou\_application\_definition](Update_for_NXflou_application_definition "wikilink")
+Resolution: Proposal is in agreement with existing scan rules. No vote
+required. Further amendment may be required, but that needs to be
+refined.
+
+NXapres: Unanimously accepted in the current form in
+contributed\_definitions.
