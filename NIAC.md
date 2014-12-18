@@ -15,6 +15,8 @@ You may contact the NIAC by sending an email to
 
 -   [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink"), Rutherford
     Appleton Laboratory, UK (Technical Committee Chair)
+-   [Mark Basham](User%3AMark_Basham "wikilink"), Diamond Light Source,
+    UK
 -   [Herbert Bernstein](User%3AHerbert_Bernstein "wikilink"), ImgCIF
 -   [Aaron Brewster](User%3AAaron_Brewster "wikilink"), Lawrence
     Berkeley Laboratory, USA
@@ -22,6 +24,8 @@ You may contact the NIAC by sending an email to
     National Laboratory, USA
 -   [Stephen Cottrell](User%3ASteve_Cottrell "wikilink"), Rutherford
     Appleton Laboratory, UK (Muon Representative)
+-   [Claudio Ferrero](User%3AClaudio_Ferrero "wikilink"), European
+    Synchrotron Radiation Facility, France
 -   [Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann "wikilink"), Helmholtz
     Zentrum Berlin, Germany
 -   [Pete Jemian](User%3APete_Jemian "wikilink"), Advanced Photon
@@ -34,9 +38,6 @@ You may contact the NIAC by sending an email to
     Laboratory, USA
 -   [Tobias Richter](User%3ATobias_Richter "wikilink"), European
     Spallation Source, Scandinavia (Executive Secretary)
--   [Mark Basham](User%3AMark_Basham "wikilink"), Diamond Light Source,
-    UK
--   [Claudio Ferrero](User%3AClaudio_Ferrero "wikilink"), ESRF, France
 -   [Jiro Suzuki](User%3AJiro_Suzuki "wikilink"), KEK, Japan
 -   [Benjamin Watts](http://www.psi.ch/lsc/benjamin-watts), Swiss Light
     Source, Switzerland
