@@ -56,17 +56,6 @@ The committee reserves the right to appoint additional members for a limited per
 :The constitution can only be changed by a two thirds majority of the NIAC.
 ;Special Interest Groups:The NeXus International Advisory Committee will appoint editors to be in charge of particular groups that wish to specify instrument definitions or develop specialized uses of the NeXus format. The groups will establish their own mode of operation, but will be expected to consult widely with the community relevant to their work, and to refer back to the NeXus International Advisory Committee any matters that involve a change in the current NeXus specification. Specific proposals produced by these groups will be presented to the NeXus International Advisory Committee for comment and formal ratification.
 
-== Procedures ==
-===Online Votes===
-The NeXus wiki will be used to conduct online votes of current members of the [[NIAC]].  The procedure and an example vote are described [[Voting|here]].
-=== Ratification of Instrument Definitions and Base Classes ===
-The NeXus format is defined as a series of XML files describing both the base classes and generic instruments that contain a subset of those classes. It is the role of the NeXus International Advisory Committee to ratify those base classes, and to approve modifications when they are proposed. This is the current procedure:
-#The current version of the instrument definitions and base classes shall be kept on the [[Main_Page|NeXus wiki]] so that people can post suggested modifications.
-#The Executive Secretary of the NIAC will review those changes at regular intervals, monthly or bimonthly. If in his or her judgment, a reasonable proposal has been made, the information will be forwarded to the NIAC mailing list for discussion. If the change is significant, or has implications for backward compatibility, the proposal will also be sent to the NeXus mailing list.
-#The members of NIAC have one month to make comments concerning the proposed changes, after which the Executive Secretary will formulate a proposal based both on the original suggestion and the subsequent debate, and send it to the mailing list.
-#This will be voted online as described above. At least two-thirds of the committee must vote. Changes will be approved by a majority of the whole committee.
-#The revised instrument definitions and base classes will then be posted to the NeXus SVN server.
-
 == Meetings ==
 * [[NIAC2014|NIAC 2014]] NeXus Code Camp and NIAC Meeting, hosted by APS, Chicago, USA, December 2014 ([[NIAC2014_Meeting#Minutes|minutes]])
 * [[NIAC2012|NIAC 2012]] NeXus Code Camp and NIAC Meeting, hosted by ISIS and Diamond at RAL, Oxfordshire, UK, September 2012 ([[NIAC2012#Meeting Minutes|minutes]])
