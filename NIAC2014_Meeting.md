@@ -77,7 +77,7 @@ Welcome address by John Maclean (Acting Division Director for
 Engineering Support).
 
 Mark K introduction on activities since last meeting, including code
-cam. As well as proposed list of topics and agenda. (SLIDES?)
+camp. As well as proposed list of topics and agenda. (SLIDES?)
 
 Agenda approved. MARK K to provide here.
 
