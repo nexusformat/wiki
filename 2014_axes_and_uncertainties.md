@@ -106,6 +106,7 @@ the default data.
 `       @signal=`“`data`”  
 `       @axes=`“`time,pressure`”  
 `       @pressure_indices=`“`1`”  
+`       @temperature_indices=`“`1`”  
 `       @time_indices=`“`0`”  
 `       data: float[1000,20]`  
 `       pressure: float[20]`  
