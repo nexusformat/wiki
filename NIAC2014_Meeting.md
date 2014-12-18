@@ -74,3 +74,7 @@ Notes:
 #### Friday
 
 ### Minutes
+
+Thursday Morning
+
+Welcome address by John Maclean (Acting Division Director).
