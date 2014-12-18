@@ -227,4 +227,16 @@ out. Integration with NeXpy promising. “features” reserved in NXentry.
 All in favour.
 
 Interfaces (presented by Mark K): Works in a similar way for base
-classes what features do at a higher level (NXentry).
+classes what features do at a higher level (NXentry). Presentation well
+received. No motion, no vote.
+
+Ray reports on effort for pyro for remote access of NeXus files in
+NeXpy.
+
+No backlog from this day.
+
+Ben reports on acquisition with decimated counts. Adding “decimated” to
+acquisition\_mode in NXdetector would help. All in favour.
+
+Adding “nominal” to NXmonitor would help normalising data to a nominal
+flux for example. Proposed and accepted (2 abstain).
