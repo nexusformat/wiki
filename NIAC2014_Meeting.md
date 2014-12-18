@@ -99,7 +99,12 @@ abstain, 1 against).
 CIF style marked as preferred method for expressing geometry in the
 manual (1 abstain).
 
-Presentation on multidimensional axes by Pete Jemian.
+Presentation on multidimensional axes by Pete Jemian. No agreement
+reached. Group level attributes, data level attributes and
+\_unctertainies naming convention scheme all three reserved for
+explorative use. Proposal to be fed into next NIAC meeting.
+
+Lunch at Cafeteria.
 
 Coffee break.
 
