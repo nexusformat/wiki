@@ -189,3 +189,17 @@ Clarification decision: By default values are readback values. If demand
 values are to be recorded for consistency the recommended way of naming
 the data field is to append \_set to the dataset name, as in energy\_set
 for example. (6 in favour, 6 abstain)
+
+Coffee break with generous supply of nibbles by our host. (Many thanks,
+Pete!)
+
+NXformula: Agreed as research project (no vote). No evaluation of
+formula intended by consumer, use in documentation only. Will be
+developed by Eugen. Use of attributes may be required to find formula
+for data. muparser may or may not be sufficient.
+
+NXgrating: Accepted as in development branch. Required revision of
+NXmonochromator to go with that agreed (pending).
+
+Optional fields in application definitions (minOccurs=0): All in favour
+of allowing that.
