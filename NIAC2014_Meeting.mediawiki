@@ -52,4 +52,11 @@ Notes:
 
 Welcome address by John Maclean (Acting Division Director for Engineering Support).
 
-Mark K introduction on activities since last meeting, including code camp (SLIDES?)
+Mark K introduction on activities since last meeting, including code cam. As well as proposed list of topics and agenda. (SLIDES?)
+
+Agenda approved.
+
+New Members approved (all in favour):
+Mark Basham for Diamond
+Tobias Richter for ESS
+Claudio Ferrero for ESRF
