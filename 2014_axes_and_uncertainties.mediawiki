@@ -104,12 +104,15 @@ default data.
     NXentry
       NXdata
         @signal="det"
-        @axes="xy,tof"
+        @axes="x,y,tof"
         @tof_indices="2"
-        @xy_indices="0,1"
+        @x_indices="0,1"
+        @y_indices="0,1"
         det: float[100,512,100000]
         tof: float[100000]
-        xy: float[100,512]
+        x: float[100,512]
+        y: float[100,512]
+
 
   NXroot
     NXentry
