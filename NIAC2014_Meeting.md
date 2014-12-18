@@ -77,27 +77,25 @@ Notes:
 
 - Ratifications
 
-` * NXmx`  
-` * Deprecate old positioning schemes`  
-` * Axes & Errors`
+-   NXmx
+-   Deprecate old positioning schemes
+-   Axes & Errors
 
--   Lunch
+- Lunch
 
 - Ratifications
 
-` * NXstxm`  
-` * NXfluo`  
-` * Contributed definitions`  
-` * NXformula`  
-` * optional fields in application definitions`  
-` * sequence_index`  
-` * Thumbnail storage`  
-` * Finding default data`  
-` * Features`
+-   NXstxm
+-   NXfluo
+-   Contributed definitions
+-   NXformula
+-   optional fields in application definitions
+-   sequence\_index
+-   Thumbnail storage
+-   Finding default data
+-   Features
 
 #### Friday
-
-=
 
 -   NeXus Procedures including Funding, certification etc.
 -   Election of officers

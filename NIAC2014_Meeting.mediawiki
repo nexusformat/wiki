@@ -56,33 +56,31 @@ Notes:
 * Coffee
 
 - Ratifications
-  * NXmx
-  * Deprecate old positioning schemes
-  * Axes & Errors
+* NXmx
+* Deprecate old positioning schemes
+* Axes & Errors
 
-* Lunch
+- Lunch
 
 - Ratifications
 
-  * NXstxm
-  * NXfluo
-  * Contributed definitions
-  * NXformula
-  * optional fields in application definitions
-  * sequence_index
-  * Thumbnail storage
-  * Finding default data
-  * Features
+* NXstxm
+* NXfluo
+* Contributed definitions
+* NXformula
+* optional fields in application definitions
+* sequence_index
+* Thumbnail storage
+* Finding default data
+* Features
 
-
-==== Friday =====
+==== Friday ====
 
 * NeXus Procedures including Funding, certification etc. 
 * Election of officers
 * Backlog from Thursday
 
 1PM: NIAC terminates
-
 
 === Minutes ===
 
