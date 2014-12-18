@@ -17,14 +17,14 @@ was devised. It is proposed that this will be a good addition to NeXus,
 adding flexibility to data file writers while preserving an obvious path
 from data to axes and uncertainties.
 
-Proposal to describe multi-dimensional data (Axes)
---------------------------------------------------
+Proposal to describe N-dimensional data (Axes)
+----------------------------------------------
 
 (see this from canSAS:
 <http://www.cansas.org/formats/canSAS2012/1.0/doc/framework.html>)
 
-NeXus needs a robust method to describe and associate the axes of
-multi-dimensional data in data files. Particularly, the existing methods
+NeXus needs a robust method to describe and associate the axes of data
+with arbitrary dimensions in files. Particularly, the existing methods
 rely on the concept of HDF dimension scales to describe each of the
 axes. There is no capability in NeXus to describe multi-dimensional axes
 associated with plottable data.
