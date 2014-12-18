@@ -14,7 +14,7 @@ You may contact the NIAC by sending an email to
 ----------------------------------------------
 
 -   [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink"), Rutherford
-    Appleton Laboratory, UK (Technical Committee Chair)
+    Appleton Laboratory, UK (non-voting, Technical Committee Chair)
 -   [Mark Basham](User%3AMark_Basham "wikilink"), Diamond Light Source,
     UK
 -   [Herbert Bernstein](User%3AHerbert_Bernstein "wikilink"), ImgCIF

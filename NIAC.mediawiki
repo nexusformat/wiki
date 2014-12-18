@@ -3,7 +3,7 @@
 You may contact the NIAC by sending an email to [mailto:nexus-committee@nexusformat.org nexus-committee@nexusformat.org]
 
 == [[Membership Dates|Current Members]] ==
-*[[User:Freddie Akeroyd|Frederick Akeroyd]], Rutherford Appleton Laboratory, UK (Technical Committee Chair)
+*[[User:Freddie Akeroyd|Frederick Akeroyd]], Rutherford Appleton Laboratory, UK (non-voting, Technical Committee Chair)
 *[[User:Mark Basham|Mark Basham]], Diamond Light Source, UK
 *[[User:Herbert Bernstein|Herbert Bernstein]], ImgCIF
 *[[User:Aaron Brewster|Aaron Brewster]], Lawrence Berkeley Laboratory, USA
