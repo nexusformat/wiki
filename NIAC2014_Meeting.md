@@ -77,7 +77,7 @@ Engineering Support).
 Mark K introduction on activities since last meeting, including code
 cam. As well as proposed list of topics and agenda. (SLIDES?)
 
-Agenda approved.
+Agenda approved. MARK K to provide here.
 
 New Members approved (all in favour):
 
