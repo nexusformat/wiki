@@ -63,32 +63,32 @@ the default data.
 
 ### NXdata Attributes
 
-signal:
+**signal**:
 
 `   Defines the name of the default dataset.`  
 `   A field of this name *must* exist.`  
 `   (either dataset or link to dataset)`
 
-axes or {name}\_axes:
+**axes** (or **{name}\_axes**):
 
-`   Defines the independent data fields used in default plot for the all of dimensions of  the {name} field. One entry is provides for every dimension in {name}.`
+`   Defines the independent data fields used in default plot for all of the dimensions of the `*`{name}`*` field. One entry is provided for every dimension in `*`{name}`*`.`
 
 `   The field(s) named as values (known as `“`axes`”`) of this attribute must exist.`  
-`   A axis slice to is specified using the {axis name}_indices below.`  
+`   An axis slice is specified using the `*`{axis`` ``name}_indices`*` below.`  
 `   `  
 `   When no default axis is available for a particular dimension of the plottable data,`  
 `   use a `“`.`”` in that position.  An example below demonstrates this.`  
 `   If there are no axes at all (such as with a stack of images), the`  
 `   `*`axes`*` attribute can be omitted.`
 
-{axisname}\_indices:
+**{axisname}\_indices**:
 
-`   Defines the indices of the signal field array which need to be used in the {axisname} dataset in order to reference the corresponding axis value.`
+`   Defines the indices of the signal field array which need to be used in the `*`{axisname}`*` dataset in order to reference the corresponding axis value.`
 
 `   This attribute is to be provided in all situations.`  
 `   However, if the indices attributes are missing, file readers are encouraged`  
 `   to make their best efforts to plot the data.  Thus the implementation`  
-`   of the indices attribute is based on the model of`  
+`   of the `*`{axis`` ``name}_indices`*` attribute is based on the model of`  
 `   `“`strict`` ``writer,`` ``liberal`` ``reader`”`.`
 
 ### Example data structures
