@@ -13,10 +13,6 @@ stated in the [constitution](NIAC "wikilink").
 
 -   Herbert Bernstein, ImgCIF
 
-### Expire October 2, 2015
-
--   Tobias Richter, Diamond Light Source, UK
-
 ### Expire October 12, 2015
 
 -   David Männicke, Australian Nuclear Science and Technology
@@ -50,4 +46,10 @@ stated in the [constitution](NIAC "wikilink").
 ### Expire July 16, 2017
 
 -   Eugen Wintersberger - DESY, Germany
+
+### Expire December 19, 2017
+
+-   Claudio Ferrero, European Synchrotron Radiation Facility, France
+-   Mark Basham, Diamond Light Source, UK
+-   Tobias Richter, European Spallation Source, Scandinavia
 
