@@ -90,8 +90,11 @@ New Members approved (all in favour):
 NXmx, NXtransformations and variants accepted as proposed (all in
 favour).
 
-NXgeometry deprecated (all in favour).
+NXgeometry deprecated - manual expresses warning not to use in the
+future (all in favour).
 
 polar\_angle and azimuthal\_angle stay unannotated in the manual (1
-abstain, 1 against). CIF style marked as preferred method for expressing
-geometry in the manual (1 abstain).
+abstain, 1 against).
+
+CIF style marked as preferred method for expressing geometry in the
+manual (1 abstain).
