@@ -98,3 +98,16 @@ abstain, 1 against).
 
 CIF style marked as preferred method for expressing geometry in the
 manual (1 abstain).
+
+Presentation on multidimensional axes.
+
+Coffee break.
+
+Vote on proposal with indices attribute only required when required to
+resolve ambiguity. All in favour. Vote on proposal with indices required
+as in \[2014\_axes\_and\_uncertainties\]. Accepted: 9 in favour. Strong
+disagreement by Ray Osborn as adoption is noted: “Adoption of NeXus will
+be hampered by additional complexity being required unnecessarily”. Ben
+Watts would like to add that the default plot in NXdata should be simple
+and not contain more data than required. He may make a proposal at that
+end in future.

@@ -70,3 +70,10 @@ NXgeometry deprecated - manual expresses warning not to use in the future (all i
 polar_angle and azimuthal_angle stay unannotated in the manual (1 abstain, 1 against).
 
 CIF style marked as preferred method for expressing geometry in the manual (1 abstain).
+
+Presentation on multidimensional axes. 
+
+Coffee break.
+
+Vote on proposal with indices attribute only required when required to resolve ambiguity. All in favour.
+Vote on proposal with indices required as in [2014_axes_and_uncertainties]. Accepted: 9 in favour. Strong disagreement by Ray Osborn as adoption is noted: "Adoption of NeXus will be hampered by additional complexity being required unnecessarily". Ben Watts would like to add that the default plot in NXdata should be simple and not contain more data than required. He may make a proposal at that end in future.
