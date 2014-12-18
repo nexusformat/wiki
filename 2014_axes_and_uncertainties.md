@@ -71,7 +71,8 @@ the default data.
 
 **axes** (or **{name}\_axes**):
 
-`   Defines the independent data fields used in default plot for all of the dimensions of the `*`{name}`*` field. One entry is provided for every dimension in `*`{name}`*`.`
+`   Defines the independent data fields used in default plot for all of the `  
+`   dimensions of the `*`{name}`*` field. One entry is provided for every dimension in `*`{name}`*`.`
 
 `   The field(s) named as values (known as `“`axes`”`) of this attribute must exist.`  
 `   An axis slice is specified using the `*`{axis`` ``name}_indices`*` below.`  
@@ -83,7 +84,8 @@ the default data.
 
 **{axisname}\_indices**:
 
-`   Defines the indices of the signal field array which need to be used in the `*`{axisname}`*` dataset in order to reference the corresponding axis value.`
+`   Defines the indices of the signal field array which need to be used in the `  
+`   `*`{axisname}`*` dataset in order to reference the corresponding axis value.`
 
 `   This attribute is to be provided in all situations.`  
 `   However, if the indices attributes are missing, file readers are encouraged`  
