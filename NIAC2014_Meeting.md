@@ -67,6 +67,44 @@ Notes:
 -   [Update for NXflou application
     definition](Update_for_NXflou_application_definition "wikilink")
 
+### NIAC Agenda
+
+#### Thursday
+
+- Introduction - Confirmation of new members
+
+-   Coffee
+
+- Ratifications
+
+` * NXmx`  
+` * Deprecate old positioning schemes`  
+` * Axes & Errors`
+
+-   Lunch
+
+- Ratifications
+
+` * NXstxm`  
+` * NXfluo`  
+` * Contributed definitions`  
+` * NXformula`  
+` * optional fields in application definitions`  
+` * sequence_index`  
+` * Thumbnail storage`  
+` * Finding default data`  
+` * Features`
+
+#### Friday
+
+=
+
+-   NeXus Procedures including Funding, certification etc.
+-   Election of officers
+-   Backlog from Thursday
+
+1PM: NIAC terminates
+
 ### Minutes
 
 #### Thursday Morning
@@ -79,7 +117,7 @@ Engineering Support).
 Mark K introduction on activities since last meeting, including code
 camp. As well as proposed list of topics and agenda. (SLIDES?)
 
-Agenda approved. MARK K to provide here.
+Agenda approved as above.
 
 New Members approved (all in favour):
 
