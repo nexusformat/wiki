@@ -13,7 +13,9 @@ You may contact the NIAC by sending an email to [mailto:nexus-committee@nexusfor
 *[[User:Mark Koennecke|Mark Könnecke]], Paul Scherrer Institut, Switzerland (Chair)
 *[[User:David Männicke|David Männicke]], Australian Nuclear Science and Technology Organisation, Australia
 *[[User:Ray Osborn|Raymond Osborn]], Argonne National Laboratory, USA
-*[[User:Tobias Richter|Tobias Richter]], Diamond Light Source, UK (Executive Secretary)
+*[[User:Tobias Richter|Tobias Richter]], European Spallation Source, Scandinavia (Executive Secretary)
+*[[User:Mark Basham|Mark Basham]], Diamond Light Source, UK
+*[[User:Claudio Ferrero|Claudio Ferrero]], ESRF, France
 *[[User:Jiro Suzuki|Jiro Suzuki]], KEK, Japan
 *[http://www.psi.ch/lsc/benjamin-watts Benjamin Watts], Swiss Light Source, Switzerland
 *[[User:Eugenwintersberger|Eugen Wintersberger]], DESY, Germany

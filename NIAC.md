@@ -32,8 +32,11 @@ You may contact the NIAC by sending an email to
     Nuclear Science and Technology Organisation, Australia
 -   [Raymond Osborn](User%3ARay_Osborn "wikilink"), Argonne National
     Laboratory, USA
--   [Tobias Richter](User%3ATobias_Richter "wikilink"), Diamond Light
-    Source, UK (Executive Secretary)
+-   [Tobias Richter](User%3ATobias_Richter "wikilink"), European
+    Spallation Source, Scandinavia (Executive Secretary)
+-   [Mark Basham](User%3AMark_Basham "wikilink"), Diamond Light Source,
+    UK
+-   [Claudio Ferrero](User%3AClaudio_Ferrero "wikilink"), ESRF, France
 -   [Jiro Suzuki](User%3AJiro_Suzuki "wikilink"), KEK, Japan
 -   [Benjamin Watts](http://www.psi.ch/lsc/benjamin-watts), Swiss Light
     Source, Switzerland
