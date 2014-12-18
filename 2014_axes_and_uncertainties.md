@@ -68,7 +68,7 @@ the default data.
 **axes**:
 
 `   Defines the independent data fields used in default plot for all of the `  
-`   dimensions of the `*`{name}`*` field. One entry is provided for every dimension in `*`{name}`*`.`
+`   dimensions of the signal field. One entry is provided for every dimension in the signal field.`
 
 `   The field(s) named as values (known as `“`axes`”`) of this attribute must exist.`  
 `   An axis slice is specified using the `*`{axisname}_indices`*` below.`  
