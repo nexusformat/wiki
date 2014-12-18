@@ -65,11 +65,11 @@ is not limited to, the following activities.
     complete and clear for its use in the exchange and archival of
     neutron, x-ray, and muon data.
 3.  To receive and examine all proposed amendments and extensions to the
-    NeXus format. In particular, to ratify proposed instrument and group
-    class definitions, to ensure that the data structures conform to the
-    basic NeXus specification, and to ensure that the definitions of
-    data items are clear and unambiguous and conform to accepted
-    scientific usage.
+    NeXus format. In particular, to ratify proposed application
+    definitions and base classes, to ensure that the data structures
+    conform to the basic NeXus specification, and to ensure that the
+    definitions of data items are clear and unambiguous and conform to
+    accepted scientific usage.
 4.  To ensure that documentation of the NeXus format is sufficient,
     current, and available to potential users both on the internet and
     in other forms.
