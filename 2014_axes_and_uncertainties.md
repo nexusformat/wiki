@@ -59,6 +59,10 @@ the default data.
 
 ### NXdata Attributes
 
+**All attributes potentially containing multiple values (axes and
+\_indices) are to be written as integer or string arrays, to avoid
+string parsing in reading applications.**
+
 **signal**:
 
 `   Defines the name of the default dataset.`  
@@ -67,7 +71,7 @@ the default data.
 
 **axes**:
 
-`   Defines the independent data fields used in default plot for all of the `  
+`   String array that defines the independent data fields used in default plot for all of the `  
 `   dimensions of the signal field. One entry is provided for every dimension in the signal field.`
 
 `   The field(s) named as values (known as `“`axes`”`) of this attribute must exist.`  
@@ -80,7 +84,7 @@ the default data.
 
 **{axisname}\_indices**:
 
-`   Defines the indices of the signal field array which need to be used in the `  
+`   Integer array that defines the indices of the signal field array which need to be used in the `  
 `   `*`{axisname}`*` dataset in order to reference the corresponding axis value.`
 
 `   This attribute is to be provided in all situations.`  
@@ -96,7 +100,7 @@ the default data.
 `     NXdata`  
 `       @signal=`“`data`”`  --> *names* the default data to be visualized`  
 `       @axes=`“`x`”`  --> *names* the default independent data`  
-`       @x_indices=`“`0`”  
+`       @x_indices=0`  
 `       data: float[100]  --> the default dependent data`  
 `       x: float[100]  --> the default independent data`
 
@@ -104,10 +108,10 @@ the default data.
 `   NXentry`  
 `     NXdata`  
 `       @signal=`“`data`”  
-`       @axes=`“`time,pressure`”  
-`       @pressure_indices=`“`1`”  
-`       @temperature_indices=`“`1`”  
-`       @time_indices=`“`0`”  
+`       @axes=`“`time`”`,`“`pressure`”  
+`       @pressure_indices=1`  
+`       @temperature_indices=1`  
+`       @time_indices=0`  
 `       data: float[1000,20]`  
 `       pressure: float[20]`  
 `       temperature: float[20]`  
@@ -117,9 +121,9 @@ the default data.
 `   NXentry`  
 `     NXdata`  
 `       @signal=`“`det`”  
-`       @axes=`“`pressure,tof`”  
-`       @pressure_indices=`“`0`”  
-`       @tof_indices=`“`1`”  
+`       @axes=`“`pressure`”`,`“`tof`”  
+`       @pressure_indices=0`  
+`       @tof_indices=1`  
 `       det: float[100,100000]`  
 `       pressure: float[100]`  
 `       tof: float[100000]`
@@ -128,10 +132,10 @@ the default data.
 `   NXentry`  
 `     NXdata`  
 `       @signal=`“`det`”  
-`       @axes=`“`x,y,tof`”  
-`       @tof_indices=`“`2`”  
-`       @x_indices=`“`0,1`”  
-`       @y_indices=`“`0,1`”  
+`       @axes=`“`x`”`,`“`y`”`,`“`tof`”  
+`       @tof_indices=2`  
+`       @x_indices=0,1`  
+`       @y_indices=0,1`  
 `       det: float[100,512,100000]`  
 `       tof: float[100000]`  
 `       x: float[100,512]`  
@@ -141,11 +145,11 @@ the default data.
 `   NXentry`  
 `     NXdata`  
 `       @signal=`“`det1`”  
-`       @axes=`“`polar_angle_demand,frame_number,.`”  
-`       @frame_number_indices=`“`1`”  
-`       @polar_angle_rbv_indices=`“`0,1`”  
-`       @time_indices=`“`0,1`”  
-`       @polar_angle_demand_indices=`“`0`”  
+`       @axes=`“`polar_angle_demand`”`,`“`frame_number`”`,`“`.`”  
+`       @frame_number_indices=1`  
+`       @polar_angle_rbv_indices=0,1`  
+`       @time_indices=0,1`  
+`       @polar_angle_demand_indices=0`  
 `       polar_angle_rbv: [50,5]`  
 `       det1: [50,5,1024]`  
 `       polar_angle_demand: [50]`  
