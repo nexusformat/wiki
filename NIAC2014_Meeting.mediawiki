@@ -64,3 +64,5 @@ New Members approved (all in favour):
 * Claudio Ferrero for ESRF
 
 NXmx, NXtransformations and variants accepted as proposed (all in favour).
+
+NXgeometry deprecated (all in favour).

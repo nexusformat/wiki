@@ -89,3 +89,5 @@ New Members approved (all in favour):
 
 NXmx, NXtransformations and variants accepted as proposed (all in
 favour).
+
+NXgeometry deprecated (all in favour).
