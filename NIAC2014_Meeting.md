@@ -198,8 +198,10 @@ formula intended by consumer, use in documentation only. Will be
 developed by Eugen. Use of attributes may be required to find formula
 for data. muparser may or may not be sufficient.
 
-NXgrating: Accepted as in development branch. Required revision of
-NXmonochromator to go with that agreed (pending).
+Adding “default” attribute at root and entry level in order to find
+default NXentry and NXdata for plotting. All in favour. NXgrating:
+Accepted as in development branch. Required revision of NXmonochromator
+to go with that agreed (pending).
 
 Optional fields in application definitions (minOccurs=0): All in favour
 of allowing that.
