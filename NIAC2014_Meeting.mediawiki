@@ -195,12 +195,20 @@ Mark B to investigate a review of NeXus by the [http://www.software.ac.uk Softwa
 Coffee
 
 Election of Officers
+
 Mark K comes to the end of his second term as chair and cannot stand again.
-Chair: Tobias elected (1 abstain)
-Executive Secretary: Mark K elected (1 abstain)
-Documentation Release Manager: Pete Jemian reelected (1 abstain)
-Technical Manager: Eugen Wintersberger (2 abstain)
+* Chair: Tobias elected (1 abstain)
+* Executive Secretary: Mark K elected (1 abstain)
+* Documentation Release Manager: Pete Jemian reelected (1 abstain)
+* Technical Manager: Eugen Wintersberger (2 abstain)
 
 All in favour of renaming the Technical Subcommittee Chair role to Technical Manager.
 
 Group photo
+
+Ray suggests using the wiki for voting. No general agreement. Record keeping of email and presence votes is not ideal currently. Committing data to a repo might be an idea. Other suggestions were use of forum software.
+
+The secretary is tasked with exploring options to improve voting processes and recording. (1 abstain)
+
+Many thanks to the kind host. The committee thanks the outgoing officers.
+Meeting concluded.
