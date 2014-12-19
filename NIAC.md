@@ -13,8 +13,6 @@ You may contact the NIAC by sending an email to
 [Current Members](Membership_Dates "wikilink")
 ----------------------------------------------
 
--   [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink"), Rutherford
-    Appleton Laboratory, UK (non-voting, Technical Committee Chair)
 -   [Mark Basham](User%3AMark_Basham "wikilink"), Diamond Light Source,
     UK
 -   [Herbert Bernstein](User%3AHerbert_Bernstein "wikilink"), ImgCIF
@@ -31,18 +29,18 @@ You may contact the NIAC by sending an email to
 -   [Pete Jemian](User%3APete_Jemian "wikilink"), Advanced Photon
     Source, USA (Documentation Release Manager)
 -   [Mark Könnecke](User%3AMark_Koennecke "wikilink"), Paul Scherrer
-    Institut, Switzerland (Chair)
+    Institut, Switzerland (Executive Secretary)
 -   [David Männicke](User%3ADavid_Männicke "wikilink"), Australian
     Nuclear Science and Technology Organisation, Australia
 -   [Raymond Osborn](User%3ARay_Osborn "wikilink"), Argonne National
     Laboratory, USA
 -   [Tobias Richter](User%3ATobias_Richter "wikilink"), European
-    Spallation Source, Scandinavia (Executive Secretary)
+    Spallation Source, Scandinavia (Chair)
 -   [Jiro Suzuki](User%3AJiro_Suzuki "wikilink"), KEK, Japan
 -   [Benjamin Watts](http://www.psi.ch/lsc/benjamin-watts), Swiss Light
     Source, Switzerland
 -   [Eugen Wintersberger](User%3AEugenwintersberger "wikilink"), DESY,
-    Germany
+    Germany (Technical Manager)
 -   [Joachim Wuttke](User%3AJoachim_Wuttke "wikilink"), FRM II and JCNS,
     Germany
 
@@ -116,12 +114,12 @@ executive officers:
     person that holds the position does not need to be an existing
     member of the NIAC, and does not vote unless he/she is a regular
     member.
--   Technical Committee Chair with the responsibility to oversee the
-    NeXus API. The tasks of the chair are to coordinate tests, manage
-    and announce releases, and promote code from the contributed
-    directory to the regular release build. The person that holds the
-    position does not need to be an existing member of the NIAC, and
-    does not vote unless he/she is a regular member.
+-   Technical Manager with the responsibility to oversee the NeXus API.
+    The tasks of the manager are to coordinate tests, manage and
+    announce releases, and promote code from the contributed directory
+    to the regular release build. The person that holds the position
+    does not need to be an existing member of the NIAC, and does not
+    vote unless he/she is a regular member.
 -   Definition Release Manager with the responsibility to oversee the
     release of NeXus definitions and documentation. The person that
     holds the position does not need to be an existing member of the
@@ -185,4 +183,8 @@ Sub-Committees
 --------------
 
 -   [NeXus Technical sub-committee](Technical_Subcommittee "wikilink")
+    semi-retired. In the interest of being more open and approachable
+    future tech committee meeting will be open to all interested
+    parties. Use of mailing lists should move to either the general one
+    or the in rare cases the one of committee.
 

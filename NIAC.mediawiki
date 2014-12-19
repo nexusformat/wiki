@@ -3,7 +3,6 @@
 You may contact the NIAC by sending an email to [mailto:nexus-committee@nexusformat.org nexus-committee@nexusformat.org]
 
 == [[Membership Dates|Current Members]] ==
-*[[User:Freddie Akeroyd|Frederick Akeroyd]], Rutherford Appleton Laboratory, UK (non-voting, Technical Committee Chair)
 *[[User:Mark Basham|Mark Basham]], Diamond Light Source, UK
 *[[User:Herbert Bernstein|Herbert Bernstein]], ImgCIF
 *[[User:Aaron Brewster|Aaron Brewster]], Lawrence Berkeley Laboratory, USA
@@ -12,13 +11,13 @@ You may contact the NIAC by sending an email to [mailto:nexus-committee@nexusfor
 *[[User:Claudio Ferrero|Claudio Ferrero]], European Synchrotron Radiation Facility, France
 *[[User:Jens-Uwe Hoffmann|Jens-Uwe Hoffmann]], Helmholtz Zentrum Berlin, Germany
 *[[User:Pete Jemian|Pete Jemian]], Advanced Photon Source, USA (Documentation Release Manager)
-*[[User:Mark Koennecke|Mark Könnecke]], Paul Scherrer Institut, Switzerland (Chair)
+*[[User:Mark Koennecke|Mark Könnecke]], Paul Scherrer Institut, Switzerland (Executive Secretary)
 *[[User:David Männicke|David Männicke]], Australian Nuclear Science and Technology Organisation, Australia
 *[[User:Ray Osborn|Raymond Osborn]], Argonne National Laboratory, USA
-*[[User:Tobias Richter|Tobias Richter]], European Spallation Source, Scandinavia (Executive Secretary)
+*[[User:Tobias Richter|Tobias Richter]], European Spallation Source, Scandinavia (Chair)
 *[[User:Jiro Suzuki|Jiro Suzuki]], KEK, Japan
 *[http://www.psi.ch/lsc/benjamin-watts Benjamin Watts], Swiss Light Source, Switzerland
-*[[User:Eugenwintersberger|Eugen Wintersberger]], DESY, Germany
+*[[User:Eugenwintersberger|Eugen Wintersberger]], DESY, Germany  (Technical Manager)
 *[[User:Joachim Wuttke|Joachim Wuttke]], FRM II and JCNS, Germany
 
 The [[Membership Dates|expiration dates]] for the various members.
@@ -48,7 +47,7 @@ The committee reserves the right to appoint additional members for a limited per
 :The NeXus International Advisory Committee will have the following executive officers:
 :* Chair to oversee committee deliberations
 :* Executive Secretary to coordinate meetings and online debates. The person that holds the position does not need to be an existing member of the NIAC, and does not vote unless he/she is a regular member.
-:* Technical Committee Chair with the responsibility to oversee the NeXus API. The tasks of the chair are to coordinate tests, manage and announce releases, and promote code from the contributed directory to the regular release build.  The person that holds the position does not need to be an existing member of the NIAC, and does not vote unless he/she is a regular member.
+:* Technical Manager with the responsibility to oversee the NeXus API. The tasks of the manager are to coordinate tests, manage and announce releases, and promote code from the contributed directory to the regular release build.  The person that holds the position does not need to be an existing member of the NIAC, and does not vote unless he/she is a regular member.
 :* Definition Release Manager with the responsibility to oversee the release of NeXus definitions and documentation.  The person that holds the position does not need to be an existing member of the NIAC, and does not vote unless he/she is a regular member.
 :All of these officers will be elected for a two year term. The incumbent chair and executive secretary are limited to two consecutive terms.
 ;Voting:Only members of the NeXus International Advisory Committee will be able to vote on specific proposals that come under the remit of the committee. However, all debates will be conducted publicly and non-committee members are both allowed and encouraged to participate.
@@ -74,4 +73,4 @@ The committee reserves the right to appoint additional members for a limited per
 [[NIACActionItems|Action Items]] for members of the NIAC that are not associated to one of the repositories.
 
 == Sub-Committees ==
-* [[Technical_Subcommittee|NeXus Technical sub-committee]]
+* [[Technical_Subcommittee|NeXus Technical sub-committee]] semi-retired. In the interest of being more open and approachable future tech committee meeting will be open to all interested parties. Use of mailing lists should move to either the general one or the in rare cases the one of committee.
