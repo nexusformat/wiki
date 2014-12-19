@@ -274,3 +274,10 @@ Hangout open all interested parties (vendors, non-members). All in
 favour.
 
 Funding. Discussion on how money could help to improve NeXus adoption.
+No strong case made for continuous funding for tutorials, developers or
+meetings. Topical funding for tutorials at specific meetings is seen as
+a good idea. Herbert will look into that.
+
+Mark B to investigate a review of NeXus by the
+[<http://www.software.ac.uk>](Software_Sustainability_Institute "wikilink")
+in their next proposal cycle.

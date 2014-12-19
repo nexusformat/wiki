@@ -188,4 +188,6 @@ Action for next chairmen to contact detector vendors and invite them to discussi
 
 Proposal to open nexus-tech discussions to everyone. Mailing list traffic to be channeled to the general mailing list (or the committee). Hangout open all interested parties (vendors, non-members). All in favour.
 
-Funding. Discussion on how money could help to improve NeXus adoption.
+Funding. Discussion on how money could help to improve NeXus adoption. No strong case made for continuous funding for tutorials, developers or meetings. Topical funding for tutorials at specific meetings is seen as a good idea. Herbert will look into that.
+
+Mark B to investigate a review of NeXus by the [[Software Sustainability Institute|http://www.software.ac.uk]] in their next proposal cycle.
