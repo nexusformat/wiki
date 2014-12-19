@@ -256,3 +256,19 @@ never actually in use. All in favour. Wiki changed in line with both
 proposals.
 
 Dinner proposed and accepted.
+
+#### Friday Morning
+
+Procedural questions.
+
+Robert's rule to be followed for setting agenda. All in favour (1
+abstain).
+
+Action for next chairmen to contact detector vendors and invite them to
+discussions in order not to give the perception that the NIAC
+relationship to Dectris is in any way special. All in favour.
+
+Proposal to open nexus-tech discussions to everyone. Mailing list
+traffic to be channeled to the general mailing list (or the committee).
+Hangout open all interested parties (vendors, non-members). All in
+favour.
