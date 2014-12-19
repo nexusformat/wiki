@@ -280,3 +280,16 @@ a good idea. Herbert will look into that.
 
 Mark B to investigate a review of NeXus by the [Software Sustainability
 Institute](http://www.software.ac.uk) in their next proposal cycle.
+
+Coffee
+
+Election of Officers Mark K comes to the end of his second term as chair
+and cannot stand again. Chair: Tobias elected (1 abstain) Executive
+Secretary: Mark K elected (1 abstain) Documentation Release Manager:
+Pete Jemian reelected (1 abstain) Technical Manager: Eugen Wintersberger
+(2 abstain)
+
+All in favour of renaming the Technical Subcommittee Chair role to
+Technical Manager.
+
+Group photo
