@@ -272,3 +272,5 @@ Proposal to open nexus-tech discussions to everyone. Mailing list
 traffic to be channeled to the general mailing list (or the committee).
 Hangout open all interested parties (vendors, non-members). All in
 favour.
+
+Funding. Discussion on how money could help to improve NeXus adoption.
