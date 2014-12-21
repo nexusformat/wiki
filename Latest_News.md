@@ -7,7 +7,8 @@ layout: wiki
 2014
 ----
 
-Wednesday, 2014-08-07: A [NeXus code camp](NIAC2014 "wikilink") has been planned for 15th / 17th December 2014 with a [NIAC](NIAC2014 "wikilink") meeting to follow on 18th / 19th December 2014. This meeting has been scheduled apart from the [2014 NoBugs conference](http://j-parc.jp/researcher/MatLife/en/meetings/nobugs2014) to accommodate travel permissions of a majority on the technical subcommittee.  
+December: [NIAC2014](NIAC2014 "wikilink") has happened. The [Code Camp](NIAC2014_CodeCamp "wikilink") had a meeting with the HDF Group, butwas largely a preparation for the [NIAC meeting](NIAC2014_Meeting "wikilink"). The NIAC elected new members and officers and there were many fruitful discussions. Important items and decisions are recorded in the [minutes](NIAC2014_Meeting#Minutes "wikilink").  
+Wednesday, 2014-08-07: A [NeXus code camp](NIAC2014 "wikilink") has been planned for 15th / 17th December 2014 with a [NIAC](NIAC2014 "wikilink") meeting to follow on 18th / 19th December 2014. This meeting has been scheduled apart from the [2014 NOBUGS conference](http://j-parc.jp/researcher/MatLife/en/meetings/nobugs2014) to accommodate travel permissions of a majority on the technical subcommittee.  
 
 2012
 ----
