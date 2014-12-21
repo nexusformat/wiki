@@ -4,9 +4,6 @@ permalink: IssueReporting/
 layout: wiki
 ---
 
-Source code and issue tracking have been moved to GitHub!
-=========================================================
-
 NeXus Instrument/Base Class Definitions
 ---------------------------------------
 

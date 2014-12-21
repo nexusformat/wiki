@@ -1,5 +1,3 @@
-= Source code and issue tracking have been moved to GitHub! =
-
 ==NeXus Instrument/Base Class Definitions==
 * [https://github.com/nexusformat/definitions/issues View current issues]
 * [https://github.com/nexusformat/definitions/pulse Timeline (recent changes and ticket activitiy)]
