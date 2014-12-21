@@ -107,7 +107,7 @@ Notes:
 
 #### Thursday Morning
 
-Present members: as above.
+Present members: as listed on [NIAC2014](NIAC2014 "wikilink").
 
 Welcome address by John Maclean (Acting Division Director for
 Engineering Support).
