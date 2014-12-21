@@ -7,14 +7,12 @@ layout: wiki
 Tobias Richter
 --------------
 
-**Diamond Light Source Representative**
+NIAC Chair & Representative for the European Spallation Source
 
-*NIAC Executive Secretary*
-
-Present Address: DMSC filial of European Spallation Source ESS AB  
+Address: DMSC filial of European Spallation Source ESS AB  
 Universitetsparken 5, 2100 Copenhagen, Denmark
 
 <!-- -->
 
-Email: <Tobias.Richter@diamond.ac.uk>  
+Email:  
 <Tobias.Richter@esss.se>
