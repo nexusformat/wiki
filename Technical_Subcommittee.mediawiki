@@ -1,20 +1,7 @@
-The technical sub-committee is overseen by the Technical Committee Chair and is responsible for: 
-* Overseeing development of the NeXus API
-* Coordinating and managing testing and releases as per the [[SQA_Process]] 
-* Promoting code from the contributed directory to the regular release build 
-
-The Technical Committee Chair is a member of the [[NIAC]], but is not allowed to vote unless they also represent an institution. The current technical sub-committee members are:
-
-*[[User:Freddie Akeroyd|Frederick Akeroyd]], Rutherford Appleton Laboratory, UK (Technical Committee Chair)
-*[[User:Stuart Campbell|Stuart Campbell]], Oak Ridge National Laboratory, USA
-*[[User:nick|Nick Hauser]], Australian Nuclear Science and Technology Organisation, Australia
-*[[User:Paul Kienzle|Paul Kienzle]], DANSE, USA
-*[[User:Mark Koennecke|Mark Könnecke]], Paul Scherrer Institut, Switzerland 
-*[[User:Nick Maliszewskyj|Nick Maliszewskyj]], NIST Center for Neutron Research, USA
-*[[User:Peter Peterson|Peter Peterson]], Spallation Neutron Source, USA
-*[[User:Tobias Richter|Tobias Richter]], Diamond Light Source, UK
+The technical sub-committee is semi-retired. Future NeXus coordination meetings are open to the public, see [[NeXus Teleconferences]].
 
 You can contact the sub-committe via [mailto:nexus-tech@nexusformat.org nexus-tech@nexusformat.org]; however general questions and discussions about the NeXus and the API should be directed to [mailto:nexus@nexusformat.org nexus@nexusformat.org]
+
 ==Meetings==
 
 The Technical Committee holds bi-weekly teleconference meetings. For some time formal minutes were kept: 
