@@ -8,8 +8,8 @@ Teleconferences
 ---------------
 
 These were born out of the idea of opening the meetings of the
-[Technical\_Subcommittee](Technical_Subcommittee "wikilink") to the
-wider community. All interested parties are welcome.
+[Technical Subcommittee](Technical_Subcommittee "wikilink") to the wider
+community. All interested parties are welcome.
 
 Currently we use Google Hangout as the technology, which works
 reasonably well for everyone. (Google account required obviously.)
