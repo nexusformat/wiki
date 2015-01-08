@@ -8,6 +8,8 @@ Hangout Link: TBA
 
 * Welcome
 * Invites to this, future of the nexus-tech mailing list
+* Jenkins builds of everything
+* Wiki access + signup
 * Progress on features, NXmx validation
 * AOB
 
