@@ -8,9 +8,14 @@ Hangout Link: TBA
 
 * Welcome
 * Invites to this, future of the nexus-tech mailing list
-* Jenkins builds of everything
 * Wiki access + signup
-* Progress on features, NXmx validation
+* Jenkins builds of everything
+* Next NAPI release
+* Logo
+* Progress on features, NXmx validation 
+::  Something is evolving here: http://idregistry-nexusformat.rhcloud.com/ 
+* Letter to detector vendors
+* Next meeting
 * AOB
 
 ==Minutes==
