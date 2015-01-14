@@ -12,6 +12,7 @@ Hangout Link: TBA
 * Jenkins builds of everything
 * Next NAPI release
 * Logo
+:: For discussion: https://www.dropbox.com/sh/n9sd8foejy43hzq/AABhDHPkmS9kpqIRJnFoJTcoa?dl=0
 * Progress on features, NXmx validation 
 ::  Something is evolving here: http://idregistry-nexusformat.rhcloud.com/ 
 * Letter to detector vendors
