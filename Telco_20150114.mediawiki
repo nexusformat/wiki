@@ -18,6 +18,7 @@ Hangout Link: https://plus.google.com/hangouts/_/g5yh5mixmcvnwuek4rpuuihglqa?hl=
 * Progress on features, NXmx validation 
 ::  Something is evolving here: http://idregistry-nexusformat.rhcloud.com/ 
 * Letter to detector vendors
+* post issues for items from recent Code Camp and NIAC meeting
 * Next meeting
 * AOB
 
