@@ -19,4 +19,5 @@ link to the meeting should be put on the meeting page as well.
 
 ### 2015
 
-January: [Telco 20150114](Telco_20150114 "wikilink") Wed, 14th Jan, 13:00 GMT  
+January: [Telco 20150114](Telco_20150114 "wikilink") Wed, 14th Jan, 12:00 GMT  
+February: [Telco 20150203](Telco_20150203 "wikilink") Tue, 3rd Feb, 12:00 GMT  
