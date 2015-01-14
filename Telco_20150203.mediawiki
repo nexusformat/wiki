@@ -10,6 +10,7 @@ Hangout Link: https://plus.google.com/hangouts/_/g5yh5mixmcvnwuek4rpuuihglqa?hl=
 * Next NAPI release
 * Logo
 :: For discussion: https://www.dropbox.com/sh/n9sd8foejy43hzq/AABhDHPkmS9kpqIRJnFoJTcoa?dl=0
+:: Avoid looking like any of these: https://www.google.dk/search?q=nexus+logo&espv=2&biw=1280&bih=1021&tbm=isch&tbo=u&source=univ&sa=X&ei=1WS2VOnkCOr4ywODwoLoCA&ved=0CDQQ7Ak
 * Progress on features, NXmx validation 
 ::  Something is evolving here: http://idregistry-nexusformat.rhcloud.com/ 
 * Letter to detector vendors
