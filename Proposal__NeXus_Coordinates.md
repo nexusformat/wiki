@@ -69,3 +69,9 @@ upcoming NIAC meeting at the SNS on October 7-8.
 
   
 [Ray](User%3ARay_Osborn "wikilink") 19:08, 29 September 2010 (UTC)
+
+Conclusion
+----------
+
+01/2015: This has been superseded by the new axes annotation scheme
+decided at NIAC 2014

@@ -23,3 +23,7 @@ In cases where the plotting program is only able to handle pixel centres, but ve
 
 I propose to present this for discussion and a possible vote at the upcoming NIAC meeting at the SNS on October 7-8.
 :[[User:Ray Osborn|Ray]] 19:08, 29 September 2010 (UTC)
+
+== Conclusion ==
+
+01/2015: This has been superseded by the new axes annotation scheme decided at NIAC 2014
