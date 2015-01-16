@@ -26,9 +26,6 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 -   [NXdetector documentation](NXdetector_documentation "wikilink")
 -   [file\_id attribute for Nexus
     files](file_id_attribute_for_Nexus_files "wikilink")
--   [Connecting NXdata to
-    NXdetector](Connecting_NXdata_to_NXdetector "wikilink")
--   [Double Linking](Double_Linking "wikilink")
 -   [Units](Units "wikilink")
 -   [Housekeeping pre-NeXus2.0](Housekeeping_pre-NeXus2.0 "wikilink")
 -   [Storing Event Data](Storing_Event_Data "wikilink")
@@ -59,4 +56,7 @@ Resolved issues (any need to keep these pages?):
     definition](Update_for_NXflou_application_definition "wikilink")
 -   [NeXus CIF Integration](NeXus_CIF_Integration "wikilink")
     -   [ConcordanceDiscussion](ConcordanceDiscussion "wikilink")
+-   [Connecting NXdata to
+    NXdetector](Connecting_NXdata_to_NXdetector "wikilink")
+-   [Double Linking](Double_Linking "wikilink")
 
