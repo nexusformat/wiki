@@ -7,8 +7,6 @@ If you have a specific subject concerning the NeXus format design, please add it
 *Geometry questions:
 * Data
 **[[Associating Axes with Data]]
-**[[2014_axes_and_uncertainties]] - a proposal for the 2014 NIAC meeting
-*[[Update for NXflou application definition]]
 *[[Thumbnails for Nexus files]]
 *[[NXdetector documentation]]
 *[[NeXus CIF Integration]]
@@ -35,3 +33,4 @@ Resolved issues (any need to keep these pages?):
 *[[Indirect Time-of-Flight and Coordinates]]
 *[[NXgeometry and NXshape - documentation and review]]
 *[[Detector Geometry]]
+*[[Update for NXflou application definition]]
