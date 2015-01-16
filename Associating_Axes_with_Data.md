@@ -39,8 +39,10 @@ multidimensional dataset:
 Solution
 --------
 
-See \[2014\_axes\_and\_uncertainties\] This proposal has been accepted
-by NIAC at NIAC 2014 with a few modification. There is still some
-resistance to the new scheme, thus this page stays in place.
+See
+[2014\_axes\_and\_uncertainties](2014_axes_and_uncertainties "wikilink")
+This proposal has been accepted by NIAC at NIAC 2014 with a few
+modification. There is still some resistance to the new scheme, thus
+this page stays in place.
 
-`This update: 01/2015`
+This update: 01/2015
