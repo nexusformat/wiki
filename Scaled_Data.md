@@ -55,3 +55,13 @@ are:
 -   coefficients, a komma separated list of the polynomial coefficients
     to use for a polynomial transform
 
+Update 01/2015
+--------------
+
+There was some discussion on this at NIAC 2010 and 2012. IMHO, the
+result was that all fixed schemes fall over in some point when people
+come up with new scaling schemes. It was decided to devise a NXformula
+base class to solve this problem. There was some further discussion on
+scaling in 2014 in the mailing list and on the teleconferences. At NIAC
+2014 it was decided to accept a NXformula base class as suggested by Ben
+Watts as an experimental feature.
