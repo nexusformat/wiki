@@ -51,3 +51,10 @@ Systems](Coordinate_Systems "wikilink") here. ----
 ------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
+
+Conclusion
+----------
+
+01/2015 This page is totally obsolete. I think the problem was resolved
+by changing the scattering plane. Now, the adequate solution is the
+CIF-style description of the axes used.
