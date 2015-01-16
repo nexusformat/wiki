@@ -43,3 +43,8 @@ or ../object or other hierarchy.
 The procedure to identify the default data to be plotted is quite
 simple, given any NeXus file, any NXentry, or any NXdata. Follow the
 chain as it is described from that point.
+
+Conclusion
+----------
+
+Ratified in a slightly modified form at NIAC 2014. See Niac 2014 minutes
