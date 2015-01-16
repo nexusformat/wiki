@@ -85,3 +85,11 @@ this on the next Telco.
 
 Details of how NeXus and CDF might be mapped are contained on the
 [ConcordanceDiscussion](ConcordanceDiscussion "wikilink") page
+
+Conclusion
+----------
+
+01/2015: A NXmx application definition has been designed together with
+COMCIFS. The application definition was tested at diamond and it works.
+This NXmx application definition together with a few changes to NeXus to
+make it work were ratified at NIAC 2014.
