@@ -26,3 +26,8 @@ should be adopted:
 -   Prefixes are allowed, but will be separated from the unit using the
     appropriate mathematical operator (e.g., centi\*metre).
 
+Update 1/2015
+-------------
+
+This went nowhere. Units in NeXus still follow the scheme as described
+in the manual.
