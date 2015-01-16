@@ -1,11 +1,9 @@
 If you have a specific subject concerning the NeXus format design, please add it to the following list and start a new page (see the [[Help:Contents|help pages]] for instructions on adding new pages).  If you want others to participate, you should announce the new discussion on the [http://lists.nexusformat.org/mailman/listinfo/nexus NeXus Mailing List].
 
 *Structure of NeXus files - basic questions:
-**[[OO-NeXus|Object oriented NeXus]]
 **[[Objects or Interfaces]]
 **[[How to avoid name clashes during future extensions of the Nexus standard]]
 **[[Containers and Inheritance]] - XLST and Reusable definitions
-**[[2014_How_to_find_default_data]] - a proposal for the 2014 NIAC meeting
 *Geometry questions:
 **[[Proposal: NeXus Coordinates]]
 **[[Coordinate Systems]]
@@ -35,3 +33,5 @@ If you have a specific subject concerning the NeXus format design, please add it
 Resolved issues (any need to keep these pages?):
 *[[NXaperture and Slits]] - implemented in form of NXslit and NXpinhole
 *[[Multi Method Instruments]] - implemented in form of NXsubentry
+*[[OO-NeXus|Object oriented NeXus]]
+*[[2014_How_to_find_default_data]] - a proposal for the 2014 NIAC meeting

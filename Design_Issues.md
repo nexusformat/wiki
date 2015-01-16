@@ -12,15 +12,12 @@ discussion on the [NeXus Mailing
 List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 
 -   Structure of NeXus files - basic questions:
-    -   [Object oriented NeXus](OO-NeXus "wikilink")
     -   [Objects or Interfaces](Objects_or_Interfaces "wikilink")
     -   [How to avoid name clashes during future extensions of the Nexus
         standard](How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard "wikilink")
     -   [Containers and
         Inheritance](Containers_and_Inheritance "wikilink") - XLST and
         Reusable definitions
-    -   [2014\_How\_to\_find\_default\_data](2014_How_to_find_default_data "wikilink") -
-        a proposal for the 2014 NIAC meeting
 -   Geometry questions:
     -   [Proposal: NeXus
         Coordinates](Proposal:_NeXus_Coordinates "wikilink")
@@ -62,4 +59,7 @@ Resolved issues (any need to keep these pages?):
     implemented in form of NXslit and NXpinhole
 -   [Multi Method Instruments](Multi_Method_Instruments "wikilink") -
     implemented in form of NXsubentry
+-   [Object oriented NeXus](OO-NeXus "wikilink")
+-   [2014\_How\_to\_find\_default\_data](2014_How_to_find_default_data "wikilink") -
+    a proposal for the 2014 NIAC meeting
 
