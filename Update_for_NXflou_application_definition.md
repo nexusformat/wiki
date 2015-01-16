@@ -49,3 +49,9 @@ sense to store the position of the beam on the sample like this
       sample:NXsample
         x[npts]:NX_FLOAT
         y[npts]:NX_FLOAT  
+
+Status 01/2015
+--------------
+
+The suggested change is in line with NeXus scan rules. Thus the change
+was accepted at NIAC 2014. No vote was necessary.
