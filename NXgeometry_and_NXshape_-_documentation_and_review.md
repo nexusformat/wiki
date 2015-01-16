@@ -150,3 +150,9 @@ which the polynomial should be evaluated are required to define the
 geometry. Also, like with *nxparabolic*, it is not clear if this is a 2D
 or 3D object - both would be possible. We need to define this more
 thoroughly.
+
+Update 01/2015
+--------------
+
+At NIAC 2014 it was decided to deprecate NXgeometry. But this can still
+serve to document NXgeometry better.
