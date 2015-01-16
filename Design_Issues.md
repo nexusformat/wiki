@@ -19,8 +19,6 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
         Inheritance](Containers_and_Inheritance "wikilink") - XLST and
         Reusable definitions
 -   Geometry questions:
-    -   [Extension of NeXus Coordinate
-        Systems](Extension_of_NeXus_Coordinate_Systems "wikilink")
     -   [Indirect Time-of-Flight and
         Coordinates](Indirect_Time-of-Flight_and_Coordinates "wikilink")
     -   [NXgeometry and NXshape - documentation and
@@ -62,4 +60,6 @@ Resolved issues (any need to keep these pages?):
 -   [Proposal: NeXus
     Coordinates](Proposal:_NeXus_Coordinates "wikilink")
 -   [Coordinate Systems](Coordinate_Systems "wikilink")
+-   [Extension of NeXus Coordinate
+    Systems](Extension_of_NeXus_Coordinate_Systems "wikilink")
 
