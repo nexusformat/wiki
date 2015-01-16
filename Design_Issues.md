@@ -23,7 +23,6 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 -   [NXdetector documentation](NXdetector_documentation "wikilink")
 -   [file\_id attribute for Nexus
     files](file_id_attribute_for_Nexus_files "wikilink")
--   [Housekeeping pre-NeXus2.0](Housekeeping_pre-NeXus2.0 "wikilink")
 -   [Storing Event Data](Storing_Event_Data "wikilink")
 -   [Scaled Data](Scaled_Data "wikilink")
 -   [NXmeasurement](NXmeasurement "wikilink")
