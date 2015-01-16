@@ -5,8 +5,6 @@ If you have a specific subject concerning the NeXus format design, please add it
 **[[How to avoid name clashes during future extensions of the Nexus standard]]
 **[[Containers and Inheritance]] - XLST and Reusable definitions
 *Geometry questions:
-**[[Proposal: NeXus Coordinates]]
-**[[Coordinate Systems]]
 **[[Extension of NeXus Coordinate Systems]]
 **[[Indirect Time-of-Flight and Coordinates]]
 **[[NXgeometry and NXshape - documentation and review]]
@@ -35,3 +33,5 @@ Resolved issues (any need to keep these pages?):
 *[[Multi Method Instruments]] - implemented in form of NXsubentry
 *[[OO-NeXus|Object oriented NeXus]]
 *[[2014_How_to_find_default_data]] - a proposal for the 2014 NIAC meeting
+*[[Proposal: NeXus Coordinates]]
+*[[Coordinate Systems]]
