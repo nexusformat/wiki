@@ -402,3 +402,11 @@ More on Interfaces
 There is a branch, interfaces, on the nexus definitions github area
 which generates a version of the NeXus manual with Interfaces fully
 worked out. Well, how it should look like in my humble opinion.
+
+Update: 01/2015
+---------------
+
+At NIAC 2014 it was decided to accept NeXus Interfaces as an
+experimental feature. This means that a special section of the manual
+will be written which uses interfaces. This section will be clearly
+labelled as experimental.
