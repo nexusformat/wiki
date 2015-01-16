@@ -110,3 +110,12 @@ axis of the component.
 
 9) NXgeometry stays as is as a means to describe shapes, engineering
 coordinates of orientations of components.
+
+Conclusion
+----------
+
+01/2015: CIF style coordinate system descriptions have been ratified by
+NIAC in 2012. The ratified version differs in many details, but not in
+the approach, from the material on this page. Please consult a recent
+copy of the NeXus manual for an update to date description of NeXus
+coordinate descriptions.
