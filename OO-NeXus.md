@@ -106,3 +106,9 @@ disadvantages to this approach, too:
 -   Where do we go? Path 1? Path 2? Or a yet to be defined Path 3?
 -   Do we have more options?
 
+### Conclusion
+
+01/2015: This discussion is obsolete. At NIAC 2014 it was decided to
+accept interfaces as an experimental feature instead. But this text
+still serves as valid statements about the difficulties which the NIAC
+encountered when considering to implement OO in NeXus
