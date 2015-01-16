@@ -157,3 +157,17 @@ A proper solution should address the following:
     single ended tubes AND linear position sensitive detectors AND area
     detectors all used in the same measurement.
 
+Update 01/2015
+--------------
+
+This page is very old. I cannot remember that this has been decided
+upon. The current usage though is along the lines of proposal 2:
+Multiple detectors give rise to multiple NXdetector and NXdata groups
+with preferably the same name. NXdata is supposed to contain links to
+the relevant data items required for a default plot. There can be
+additional NXdata groups for special purposes. See also the description
+of NXsubentry in the NeXus manual.
+
+The above is valid for raw data NeXus files. In processed data NeXus
+files NXdata has a different meaning and contains the actual resulting
+processed data.

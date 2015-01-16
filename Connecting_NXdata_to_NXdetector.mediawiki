@@ -122,3 +122,14 @@ A proper solution should address the following:
 *Grouping information into NXdetectors in a logical manner. For example, an instrument may want to have a NXdetector for each bank, or one for each panel, irrespective of how the NXdata is grouped.
 *NXdata must be rectangular ( lxm or lxmxn so data that would be grouped together in the analysis needs to be split up to conform to the standard. How should the data be associated with each other.
 *How do you properly deal with multi-dimensional detectors, i.e. single ended tubes AND linear position sensitive detectors AND area detectors all used in the same measurement.
+
+
+== Update 01/2015 ==
+
+This page is very old. I cannot remember that this has been decided upon. The current usage though is along the lines of 
+proposal 2: Multiple detectors give rise to multiple NXdetector and NXdata groups with preferably the same name. NXdata is 
+supposed to contain links to the relevant data items required for  a default plot. There can be additional NXdata groups for 
+special purposes. See also the description of NXsubentry in the NeXus manual. 
+
+The above is valid for raw data NeXus files. In processed data NeXus files NXdata has a different meaning and contains the actual 
+resulting processed data.
