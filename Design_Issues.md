@@ -24,8 +24,6 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
         Data](Associating_Axes_with_Data "wikilink")
 -   [Thumbnails for Nexus files](Thumbnails_for_Nexus_files "wikilink")
 -   [NXdetector documentation](NXdetector_documentation "wikilink")
--   [NeXus CIF Integration](NeXus_CIF_Integration "wikilink")
-    -   [ConcordanceDiscussion](ConcordanceDiscussion "wikilink")
 -   [file\_id attribute for Nexus
     files](file_id_attribute_for_Nexus_files "wikilink")
 -   [DECTRIS Example](DECTRIS_Example "wikilink")
@@ -60,4 +58,6 @@ Resolved issues (any need to keep these pages?):
 -   [Detector Geometry](Detector_Geometry "wikilink")
 -   [Update for NXflou application
     definition](Update_for_NXflou_application_definition "wikilink")
+-   [NeXus CIF Integration](NeXus_CIF_Integration "wikilink")
+    -   [ConcordanceDiscussion](ConcordanceDiscussion "wikilink")
 
