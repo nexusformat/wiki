@@ -36,3 +36,11 @@ multidimensional dataset:
     the multi dimensional scan.
 -   Axes may or may not be regular.
 
+Solution
+--------
+
+See \[2014\_axes\_and\_uncertainties\] This proposal has been accepted
+by NIAC at NIAC 2014 with a few modification. There is still some
+resistance to the new scheme, thus this page stays in place.
+
+`This update: 01/2015`

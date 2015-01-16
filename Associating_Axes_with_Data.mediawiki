@@ -17,3 +17,8 @@ This is a recapitulation of what we have to achieve for a multidimensional datas
 * There may be different sets of axes for the same data in different coordinate schemes. An example: raw time of flight  binning versus the same axis converted to energy transfer or d-spacing. 
 * With multidimensional scans, we may have scan intent axes (describing how the scan was planned) and axes describing what really happened. Giving motor read backs for each motor for each point in the multi dimensional dataset. This situation can cause multiple axis fields for the data, one for each variable varied in the multi dimensional scan. 
 * Axes may or may not be regular.
+
+== Solution ==
+See [2014_axes_and_uncertainties] This proposal has been accepted by NIAC at NIAC 2014 with a few 
+modification. There is still some resistance to the new scheme, thus this page stays in place. 
+ This update: 01/2015
