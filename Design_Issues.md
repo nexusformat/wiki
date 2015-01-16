@@ -15,9 +15,6 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
     -   [Objects or Interfaces](Objects_or_Interfaces "wikilink")
     -   [How to avoid name clashes during future extensions of the Nexus
         standard](How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard "wikilink")
-    -   [Containers and
-        Inheritance](Containers_and_Inheritance "wikilink") - XLST and
-        Reusable definitions
 -   Geometry questions:
 -   Data
     -   [Associating Axes with
@@ -26,12 +23,18 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 -   [NXdetector documentation](NXdetector_documentation "wikilink")
 -   [file\_id attribute for Nexus
     files](file_id_attribute_for_Nexus_files "wikilink")
--   [Units](Units "wikilink")
 -   [Housekeeping pre-NeXus2.0](Housekeeping_pre-NeXus2.0 "wikilink")
 -   [Storing Event Data](Storing_Event_Data "wikilink")
 -   [Scaled Data](Scaled_Data "wikilink")
 -   [NXmeasurement](NXmeasurement "wikilink")
 -   [Proposal: NeXus Errors](Proposal:_NeXus_Errors "wikilink")
+
+Issues in coma, i.e. with no activity for a long period of time
+
+-   [Containers and
+    Inheritance](Containers_and_Inheritance "wikilink") - XLST and
+    Reusable definitions
+-   [Units](Units "wikilink")
 
 Resolved issues (any need to keep these pages?):
 

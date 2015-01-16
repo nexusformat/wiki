@@ -3,19 +3,22 @@ If you have a specific subject concerning the NeXus format design, please add it
 *Structure of NeXus files - basic questions:
 **[[Objects or Interfaces]]
 **[[How to avoid name clashes during future extensions of the Nexus standard]]
-**[[Containers and Inheritance]] - XLST and Reusable definitions
 *Geometry questions:
 * Data
 **[[Associating Axes with Data]]
 *[[Thumbnails for Nexus files]]
 *[[NXdetector documentation]]
 *[[file_id attribute for Nexus files]]
-*[[Units]]
 *[[Housekeeping pre-NeXus2.0]]
 *[[Storing Event Data]]
 *[[Scaled Data]]
 *[[NXmeasurement]]
 *[[Proposal: NeXus Errors]]
+
+Issues in coma, i.e. with no activity for a long period of time
+*[[Containers and Inheritance]] - XLST and Reusable definitions
+*[[Units]]
+
 
 Resolved issues (any need to keep these pages?):
 *[[NXaperture and Slits]] - implemented in form of NXslit and NXpinhole
