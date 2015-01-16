@@ -18,3 +18,8 @@ files icon.
 * shall we restrict the size of the thumbnail image?
 
 Windows for instance uses 96x96 jpeg images.
+
+== Update 01/2015 ==
+
+This topic was discussed at NIAC 2014. As a directory may contain thousands of files, there are performance issues to be solved here. It was deemed to slow to open each file and extract the thumbnail from a NXnote. There are ideas to embed the thumbnail in the HDF5 file at  a low level. 
+Some experimentation is needed before this can be resolved.
