@@ -54,3 +54,11 @@ upcoming NIAC meeting at the SNS on October 7-8.
 
   
 [Ray](User%3ARay_Osborn "wikilink") 16:29, 29 September 2010 (UTC)
+
+Conclusion: 01/2015
+-------------------
+
+At NIAC 2014, the NIAC ratified a scheme for describing uncertainties.
+See
+[2014\_axes\_and\_uncertainties](2014_axes_and_uncertainties "wikilink")
+and, in a short while, the NeXus manual.

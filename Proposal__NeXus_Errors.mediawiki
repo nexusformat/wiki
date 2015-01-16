@@ -19,3 +19,8 @@ Here is an example NXdata group using the proposed new attribute:
 
 I propose to present this for discussion and a possible vote at the upcoming NIAC meeting at the SNS on October 7-8.
 :[[User:Ray Osborn|Ray]] 16:29, 29 September 2010 (UTC)
+
+
+== Conclusion: 01/2015 ==
+
+At NIAC 2014, the NIAC ratified a scheme for describing uncertainties. See [[2014_axes_and_uncertainties]] and, in a short while, the NeXus manual.
