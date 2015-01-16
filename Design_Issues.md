@@ -26,7 +26,6 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 -   [NXdetector documentation](NXdetector_documentation "wikilink")
 -   [file\_id attribute for Nexus
     files](file_id_attribute_for_Nexus_files "wikilink")
--   [DECTRIS Example](DECTRIS_Example "wikilink")
 -   [Connecting NXdata to
     NXdetector](Connecting_NXdata_to_NXdetector "wikilink")
 -   [Double Linking](Double_Linking "wikilink")

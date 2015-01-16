@@ -10,7 +10,6 @@ If you have a specific subject concerning the NeXus format design, please add it
 *[[Thumbnails for Nexus files]]
 *[[NXdetector documentation]]
 *[[file_id attribute for Nexus files]]
-*[[DECTRIS Example]]
 *[[Connecting NXdata to NXdetector]]
 *[[Double Linking]]
 *[[Units]]
