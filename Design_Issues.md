@@ -19,11 +19,6 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
         Inheritance](Containers_and_Inheritance "wikilink") - XLST and
         Reusable definitions
 -   Geometry questions:
-    -   [Indirect Time-of-Flight and
-        Coordinates](Indirect_Time-of-Flight_and_Coordinates "wikilink")
-    -   [NXgeometry and NXshape - documentation and
-        review](NXgeometry_and_NXshape_-_documentation_and_review "wikilink")
-    -   [Detector Geometry](Detector_Geometry "wikilink")
 -   Data
     -   [Associating Axes with
         Data](Associating_Axes_with_Data "wikilink")
@@ -62,4 +57,9 @@ Resolved issues (any need to keep these pages?):
 -   [Coordinate Systems](Coordinate_Systems "wikilink")
 -   [Extension of NeXus Coordinate
     Systems](Extension_of_NeXus_Coordinate_Systems "wikilink")
+-   [Indirect Time-of-Flight and
+    Coordinates](Indirect_Time-of-Flight_and_Coordinates "wikilink")
+-   [NXgeometry and NXshape - documentation and
+    review](NXgeometry_and_NXshape_-_documentation_and_review "wikilink")
+-   [Detector Geometry](Detector_Geometry "wikilink")
 
