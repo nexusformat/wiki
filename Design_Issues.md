@@ -23,7 +23,6 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 -   [NXdetector documentation](NXdetector_documentation "wikilink")
 -   [file\_id attribute for Nexus
     files](file_id_attribute_for_Nexus_files "wikilink")
--   [Storing Event Data](Storing_Event_Data "wikilink")
 -   [Scaled Data](Scaled_Data "wikilink")
 
 Issues in coma, i.e. with no activity for a long period of time
@@ -61,4 +60,5 @@ Resolved issues (any need to keep these pages?):
 -   [Double Linking](Double_Linking "wikilink")
 -   [NXmeasurement](NXmeasurement "wikilink")
 -   [Proposal: NeXus Errors](Proposal:_NeXus_Errors "wikilink")
+-   [Storing Event Data](Storing_Event_Data "wikilink")
 

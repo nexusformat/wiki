@@ -9,7 +9,6 @@ If you have a specific subject concerning the NeXus format design, please add it
 *[[Thumbnails for Nexus files]]
 *[[NXdetector documentation]]
 *[[file_id attribute for Nexus files]]
-*[[Storing Event Data]]
 *[[Scaled Data]]
 
 Issues in coma, i.e. with no activity for a long period of time
@@ -35,3 +34,4 @@ Resolved issues (any need to keep these pages?):
 *[[Double Linking]]
 *[[NXmeasurement]]
 *[[Proposal: NeXus Errors]]
+*[[Storing Event Data]]
