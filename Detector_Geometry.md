@@ -48,3 +48,11 @@ normal. This does assume that a normal direction is well defined.
 
 [Peter Peterson](User%3APfpeterson "wikilink") Thursday, 28 August 2003,
 12:04:51 pm
+
+Conclusion
+----------
+
+01/2015 This got nowhere. It is also now obolete as NIAC is under the
+impression that the CIF-style coordinate description allows us to define
+the position and orientation of detector elements in space in an
+adequate and exact way.

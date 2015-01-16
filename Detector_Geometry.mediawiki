@@ -15,3 +15,7 @@ The x axis points in the direction of the beam, the z axis up, and the y axis to
 Orientation is given by two angles which define a component's normal direction. phi is the angle between the x axis and the normal, projected onto the xy plane. theta is the angle between the xy plane and the normal. This does assume that a normal direction is well defined.
 
 [[User:Pfpeterson|Peter Peterson]] Thursday, 28 August 2003, 12:04:51 pm
+
+== Conclusion ==
+01/2015 This got nowhere. It is also now obolete as NIAC is under the impression that the CIF-style 
+coordinate description allows us to define the position and orientation of detector elements in space in an adequate and exact way.
