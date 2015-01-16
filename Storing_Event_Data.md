@@ -73,3 +73,11 @@ when the detector was turned on after moving the motors during a scan
 for multi-point scans. When scanning continously (a potentially useful
 measurement during alignment operations), the frame time would more
 likely refer to the pulses from the motor position detectors.
+
+Conclusion
+----------
+
+01/2015: There was no activity on this for a long time. There is a
+NXevent\_data base class and both SNS and ISIS are writing data files
+using that base class. Please consult the documentation of the base
+class for the current state.
