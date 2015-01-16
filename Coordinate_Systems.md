@@ -38,6 +38,13 @@ by considering a 3He gas tube detector:
     neutrons would tend to penetrate a smaller distance within the tube,
     and so have a shorter secondary flight path.
 
+Conclusion
+----------
+
+01/2015: This contribution replicates material which is now part of the
+NeXus manual. It is also outdated as NeXus now has CIF style coordinates
+and NXgeometry is marked deprecated.
+
 ### Simple (Spherical Polar) Coordinate System
 
 In this system the instrument is considered as a set of components

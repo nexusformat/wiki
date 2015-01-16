@@ -16,6 +16,9 @@ Nexus provide two coordinate system: an [[NXgeometry]] based system for physical
 * The [[NXgeometry]] system represents true spatial location and would describe a cylinder at a certain distance from the sample that never changes from one run to another
 * The polar system would describe the neutronic, rather than actual, geometry. For example, the "distance" coordinate would refer to the distance from the sample to an effective measurement point within the gas tube, which would depend on neutron energy; lower energy neutrons would tend to penetrate a smaller distance within the tube, and so have a shorter secondary flight path.
 
+== Conclusion ==
+01/2015: This contribution replicates material which is now part of the NeXus manual. It is also 
+outdated as NeXus now has CIF style coordinates and NXgeometry is marked deprecated. 
 ===Simple (Spherical Polar) Coordinate System===
 In this system the instrument is considered as a set of components through which the incident beam passes. The variable '''distance''' is assigned to each component and represents the effective beam flight path length between this component and the sample. A sign convention is used where -ve numbers represent components pre-sample and +ve numbers components post-sample.
 
