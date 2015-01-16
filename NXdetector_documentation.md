@@ -22,3 +22,9 @@ fix
 
 In order to make things easier we should somehow agree on a coherent
 naming scheme for time values (maybe provide some timing diagram).
+
+Update 01/2015
+--------------
+
+IMHO, this should become issues on github. Possibly this already has
+been resolved. To be checked.
