@@ -11,6 +11,9 @@ If you want others to participate, you should announce the new
 discussion on the [NeXus Mailing
 List](http://lists.nexusformat.org/mailman/listinfo/nexus).
 
+Current Discussions
+-------------------
+
 -   Structure of NeXus files - basic questions:
     -   [Objects or Interfaces](Objects_or_Interfaces "wikilink")
     -   [How to avoid name clashes during future extensions of the Nexus
@@ -24,14 +27,18 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
     files](file_id_attribute_for_Nexus_files "wikilink")
 -   [Scaled Data](Scaled_Data "wikilink")
 
-Issues in coma, i.e. with no activity for a long period of time
+Coma Discussions
+----------------
+
+These are issues which have not been attended too for a long time.
 
 -   [Containers and
     Inheritance](Containers_and_Inheritance "wikilink") - XLST and
     Reusable definitions
 -   [Units](Units "wikilink")
 
-Resolved issues (any need to keep these pages?):
+Closed Discussions
+------------------
 
 -   [NXaperture and Slits](NXaperture_and_Slits "wikilink") -
     implemented in form of NXslit and NXpinhole

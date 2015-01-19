@@ -1,5 +1,6 @@
 If you have a specific subject concerning the NeXus format design, please add it to the following list and start a new page (see the [[Help:Contents|help pages]] for instructions on adding new pages).  If you want others to participate, you should announce the new discussion on the [http://lists.nexusformat.org/mailman/listinfo/nexus NeXus Mailing List].
 
+== Current Discussions ==
 *Structure of NeXus files - basic questions:
 **[[Objects or Interfaces]]
 **[[How to avoid name clashes during future extensions of the Nexus standard]]
@@ -10,12 +11,13 @@ If you have a specific subject concerning the NeXus format design, please add it
 *[[file_id attribute for Nexus files]]
 *[[Scaled Data]]
 
-Issues in coma, i.e. with no activity for a long period of time
+== Coma Discussions ==
+These are issues which have not been attended too for a long time.
 *[[Containers and Inheritance]] - XLST and Reusable definitions
 *[[Units]]
 
 
-Resolved issues (any need to keep these pages?):
+== Closed Discussions ==
 *[[NXaperture and Slits]] - implemented in form of NXslit and NXpinhole
 *[[Multi Method Instruments]] - implemented in form of NXsubentry
 *[[OO-NeXus|Object oriented NeXus]]
