@@ -32,3 +32,9 @@ object.
     };
 
 [Peter Peterson](User%3APfpeterson "wikilink"), SNS
+
+Conclusion
+----------
+
+01/2015 This is now obsolete. Implementations in C++ and python are
+available.

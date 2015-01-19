@@ -24,3 +24,7 @@ public:
 </pre>
 
 [[User:Pfpeterson|Peter Peterson]], SNS
+
+== Conclusion ==
+
+01/2015 This is now obsolete. Implementations in C++ and python are available.
