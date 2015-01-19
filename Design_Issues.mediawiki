@@ -7,7 +7,6 @@ If you have a specific subject concerning the NeXus format design, please add it
 * Data
 **[[Associating Axes with Data]]
 *[[Thumbnails for Nexus files]]
-*[[NXdetector documentation]]
 *[[file_id attribute for Nexus files]]
 *[[Scaled Data]]
 
@@ -35,3 +34,4 @@ Resolved issues (any need to keep these pages?):
 *[[NXmeasurement]]
 *[[Proposal: NeXus Errors]]
 *[[Storing Event Data]]
+*[[NXdetector documentation]]

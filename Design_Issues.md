@@ -20,7 +20,6 @@ List](http://lists.nexusformat.org/mailman/listinfo/nexus).
     -   [Associating Axes with
         Data](Associating_Axes_with_Data "wikilink")
 -   [Thumbnails for Nexus files](Thumbnails_for_Nexus_files "wikilink")
--   [NXdetector documentation](NXdetector_documentation "wikilink")
 -   [file\_id attribute for Nexus
     files](file_id_attribute_for_Nexus_files "wikilink")
 -   [Scaled Data](Scaled_Data "wikilink")
@@ -61,4 +60,5 @@ Resolved issues (any need to keep these pages?):
 -   [NXmeasurement](NXmeasurement "wikilink")
 -   [Proposal: NeXus Errors](Proposal:_NeXus_Errors "wikilink")
 -   [Storing Event Data](Storing_Event_Data "wikilink")
+-   [NXdetector documentation](NXdetector_documentation "wikilink")
 
