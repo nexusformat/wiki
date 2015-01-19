@@ -2,6 +2,10 @@ If you have a specific subject concerning the NeXus API or related software, ple
 
 Please submit any bugs in the NeXus API via our [[IssueReporting]] system.
 
+== Current Issues ==
+
+
+== Closed Discussions ==
 *[[Object Oriented Interface]]
 *[[Group Attributes]]
 *[[Linking External Files]]
