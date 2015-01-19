@@ -41,4 +41,4 @@ In order to make things easier we should somehow agree on a coherent naming sche
 
 == Update 01/2015 ==
 
-IMHO, this should become issues on github. Possibly this already has been resolved. To be checked.
+The fields listed here have proper documentation now. INHO, this really did not belong here but should rather have been an issue on github. But may be it did not get enough love there.....

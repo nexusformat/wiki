@@ -26,5 +26,6 @@ naming scheme for time values (maybe provide some timing diagram).
 Update 01/2015
 --------------
 
-IMHO, this should become issues on github. Possibly this already has
-been resolved. To be checked.
+The fields listed here have proper documentation now. INHO, this really
+did not belong here but should rather have been an issue on github. But
+may be it did not get enough love there.....
