@@ -30,11 +30,6 @@ asked questions about NeXus.
 :\*[Reference](http://download.nexusformat.org/doc/html/classes/index.html):
 Base classes and application definitions
 
-:\*\*[NXDL](http://download.nexusformat.org/doc/html/nxdl.html) NeXus
-Definition Language
-
-:\*[API](http://download.nexusformat.org/doc/html/napi.html)
-
 :\*\*[Utilities](http://download.nexusformat.org/doc/html/utilities.html):
 Software applications that browse, plot, and analyze NeXus data
 
@@ -50,6 +45,9 @@ documentation and NXDL
 
 Discussion and Development:  
 
+:\*[Tele Conferences](NeXus_Teleconferences "wikilink") regular update
+meetings
+
 :\*[Bug / issue reporting](IssueReporting "wikilink")
 
 :\*[Mailing
@@ -61,5 +59,5 @@ lists](http://download.nexusformat.org/doc/html/mailinglist.html)
 
 [Latest News](Latest_News "wikilink"):  
 
-:\*Upcoming meeting: Advanced Photon Source (APS), Argonne, IL, USA,
+:\*Most recent meeting: Advanced Photon Source (APS), Argonne, IL, USA,
 December 2014 - [NIAC'2014](NIAC2014 "wikilink")

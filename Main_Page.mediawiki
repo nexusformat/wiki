@@ -9,8 +9,6 @@ NeXus is a common data format for neutron, x-ray, and muon science.  It is being
 ;**[http://download.nexusformat.org/doc/html/design.html Design]: The hierarchical design of NeXus files.
 :**[http://download.nexusformat.org/doc/html/faq.html FAQ]: Commonly asked questions about NeXus.
 :*[http://download.nexusformat.org/doc/html/classes/index.html Reference]: Base classes and application definitions
-:**[http://download.nexusformat.org/doc/html/nxdl.html NXDL] NeXus Definition Language
-:*[http://download.nexusformat.org/doc/html/napi.html API]
 :**[http://download.nexusformat.org/doc/html/utilities.html Utilities]: Software applications that browse, plot, and analyze NeXus data
 :*[[Facilities]] using NeXus
 
@@ -19,10 +17,11 @@ NeXus is a common data format for neutron, x-ray, and muon science.  It is being
 :*[http://download.nexusformat.org/kits/definitions/ Install kits] for documentation and NXDL
 
 ;Discussion and Development:
+:*[[NeXus Teleconferences|Tele Conferences]] regular update meetings
 :*[[IssueReporting|Bug / issue reporting]]
 :*[http://download.nexusformat.org/doc/html/mailinglist.html Mailing lists]
 :*[[Discussions|Discussion forum]] in this wiki
 :*[[NIAC|NeXus International Advisory Committee]]
 
 ;[[Latest News]]:
-:*Upcoming meeting: Advanced Photon Source (APS), Argonne, IL, USA, December 2014 - [[NIAC2014|NIAC'2014]]
+:*Most recent meeting: Advanced Photon Source (APS), Argonne, IL, USA, December 2014 - [[NIAC2014|NIAC'2014]]
