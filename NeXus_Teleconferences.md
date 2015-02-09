@@ -4,9 +4,6 @@ permalink: NeXus_Teleconferences/
 layout: wiki
 ---
 
-Teleconferences
----------------
-
 These were born out of the idea of opening the meetings of the
 [Technical Subcommittee](Technical_Subcommittee "wikilink") to the wider
 community. All interested parties are welcome.
@@ -19,7 +16,10 @@ link to the meeting should be put on the meeting page as well.
 
 ### 2015
 
-January: [Telco 20150114](Telco_20150114 "wikilink") Wed, 14th Jan, 12:00 GMT  
-February: [Telco 20150203](Telco_20150203 "wikilink") Tue, 3rd Feb, 12:00 GMT  
+January  
+[Telco 20150114](Telco_20150114 "wikilink") Wed, 14th Jan, 12:00 GMT
+
+February  
+[Telco 20150203](Telco_20150203 "wikilink") Tue, 3rd Feb, 12:00 GMT
 
 [Telco 20150218](Telco_20150218 "wikilink") Wed, 18th Feb, 12:00 GMT
