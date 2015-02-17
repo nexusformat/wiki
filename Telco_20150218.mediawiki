@@ -7,6 +7,7 @@ Hangout Link: https://plus.google.com/hangouts/_/g5yh5mixmcvnwuek4rpuuihglqa (th
 ==Agenda==
 
 * Welcome
+* NXdetector origin
 * depends_on offset (renaming existing offset), Minuting of Telcos
 * Next NAPI release
 * Dates for Code Camp
