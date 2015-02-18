@@ -35,4 +35,4 @@ The members of the NIAC, with the expiration of their membership are listed belo
 *Tobias Richter, European Spallation Source, Scandinavia
 
 === Expire February 2018 ===
-* Mathieu Doucet, SNS and HIFAR
+* Mathieu Doucet, SNS and HFIR

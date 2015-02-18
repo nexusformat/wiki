@@ -55,5 +55,5 @@ stated in the [constitution](NIAC "wikilink").
 
 ### Expire February 2018
 
--   Mathieu Doucet, SNS and HIFAR
+-   Mathieu Doucet, SNS and HFIR
 
