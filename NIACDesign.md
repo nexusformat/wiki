@@ -93,10 +93,12 @@ NIAC 2007: axes follow McStas conventions.
 NIAC 2010: Added meridional\_angle axis
 
 NIAC 2012: accepted CIF style coordinate descriptions with depends\_on
-fields and depends\_on, vectro, transformation\_type etc attributes
+fields and depends\_on, vector, transformation\_type etc attributes
 
 NIAC 2014: NXgeometry marked as deprecated. CIF style coordinate
 descriptions are the preferred method.
+
+------------------------------------------------------------------------
 
 ### Errors
 
