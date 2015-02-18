@@ -43,6 +43,8 @@ You may contact the NIAC by sending an email to
     Germany (Technical Manager)
 -   [Joachim Wuttke](User%3AJoachim_Wuttke "wikilink"), FRM II and JCNS,
     Germany
+-   [Mathieu Doucet](User%3AMathieu_Doucet "wikilink"), SNS and HIFAR at
+    ORNL, USA
 
 The [expiration dates](Membership_Dates "wikilink") for the various
 members.
