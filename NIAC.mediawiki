@@ -72,14 +72,13 @@ The committee reserves the right to appoint additional members for a limited per
 
 == NIAC Decisions sorted by Topic ==
 
-This is a collection of all NIAC decisions sorted by topic. The documentation for each description may be rather cryptic. Thus this document is for the eyes of NIAC members. It requires a strong unerstanding of NeXus and a completed read of the NeXus reference manual.
+This is a collection of past NIAC decisions sorted by topic. This serves mainly as a reference for NIAC members, hence the recording is rather terse and not meant for consumption on it's own.
 
 * [[NIACDesign|NeXus Design]]
 * [[NIACClasses|NeXus Classes]]
 * [[NIACAPI|NeXus API]]
 * [[NIACdoc|NeXus Documentation]]
 * [[NIACOrg|NIAC Organisation]]
-
 
 == Action Items ==
 [[NIACActionItems|Action Items]] for members of the NIAC that are not associated to one of the repositories.
