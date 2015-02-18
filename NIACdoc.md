@@ -47,5 +47,9 @@ NIAC 2008: wiki to be kept as discussion forum
 NIAC 2008??: somewhere after NIAC 2008 the decision was taken to move to
 NXDL and nxvalidate.
 
-NIAC 2010: Documentation to under the GNU FDL, example code under the
+NIAC 2010: Documentation to go under the GNU FDL, example code under the
 LGPL licence
+
+NIAC 2012??: obviously we decided in some stage to provide the
+documentation in Restructured Text and use sphinx for generating
+documents. This, however, I either missed or was not properly recorded.
