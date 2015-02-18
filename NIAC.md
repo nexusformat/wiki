@@ -22,7 +22,7 @@ You may contact the NIAC by sending an email to
     National Laboratory, USA
 -   [Stephen Cottrell](User%3ASteve_Cottrell "wikilink"), Rutherford
     Appleton Laboratory, UK (Muon Representative)
--   [Mathieu Doucet](User%3AMathieu_Doucet "wikilink"), SNS and HIFR at
+-   [Mathieu Doucet](User%3AMathieu_Doucet "wikilink"), SNS and HFIR at
     ORNL, USA
 -   [Claudio Ferrero](User%3AClaudio_Ferrero "wikilink"), European
     Synchrotron Radiation Facility, France

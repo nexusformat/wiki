@@ -8,7 +8,7 @@ You may contact the NIAC by sending an email to [mailto:nexus-committee@nexusfor
 *[[User:Aaron Brewster|Aaron Brewster]], Lawrence Berkeley Laboratory, USA
 *[[User:Bjorn Clausen|Bjorn Clausen]], Los Alamos National Laboratory, USA
 *[[User:Steve Cottrell|Stephen Cottrell]], Rutherford Appleton Laboratory, UK (Muon Representative)
-*[[User:Mathieu Doucet|Mathieu Doucet]], SNS and HIFR at ORNL, USA
+*[[User:Mathieu Doucet|Mathieu Doucet]], SNS and HFIR at ORNL, USA
 *[[User:Claudio Ferrero|Claudio Ferrero]], European Synchrotron Radiation Facility, France
 *[[User:Jens-Uwe Hoffmann|Jens-Uwe Hoffmann]], Helmholtz Zentrum Berlin, Germany
 *[[User:Pete Jemian|Pete Jemian]], Advanced Photon Source, USA (Documentation Release Manager)
