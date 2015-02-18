@@ -175,6 +175,21 @@ Meetings
 -   September 8-10, 2003 at Pasadena, CA, USA
     ([minutes](Media:NIAC_minute.pdf "wikilink"))
 
+NIAC Decisions sorted by Topic
+------------------------------
+
+This is a collection of all NIAC decisions sorted by topic. The
+documentation for each description may be rather cryptic. Thus this
+document is for the eyes of NIAC members. It requires a strong
+unerstanding of NeXus and a completed read of the NeXus reference
+manual.
+
+-   [NeXus Design](NIACDesign "wikilink")
+-   [NeXus Classes](NIACClasses "wikilink")
+-   [NeXus API](NIACAPI "wikilink")
+-   [NeXus Documentation](NIACdoc "wikilink")
+-   [NIAC Organisation](NIACOrg "wikilink")
+
 Action Items
 ------------
 
