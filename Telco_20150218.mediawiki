@@ -21,3 +21,16 @@ Hangout Link: https://plus.google.com/hangouts/_/g5yh5mixmcvnwuek4rpuuihglqa (th
 * AOB
 
 ==Minutes==
+
+Present: MB, MK, PJ, HJB, TSR
+
+NXdetector origin and depends_on clarified. Herbert sent out an email to the discussion list: Depends_on point to the centre of any object unless otherwise specified. The most important (and only for the moment) "otherwise specified" case being NXdetector, where the depends_on locates the first pixel. The first one being the first one in the data.
+Otherwise there is some documentation missing or not sufficiently referenced in the manual describing the CIF geometry. To that end Ticket 273 is assigned to Tobias for now.
+
+NAPI release, Code Camp & Logo: Not discussed due to lack of relevant people.
+
+AOB: 
+SNS representative elected, email will go out shortly.
+Use of application definitions should be surveyed more frequently, could come out of feature development.
+
+Next meeting will be [[Telco 20150302]]
