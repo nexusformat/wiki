@@ -1,11 +1,5 @@
 The members of the NIAC, with the expiration of their membership are listed below. If a member wishes to be renewed, they must provide a letter of support from the facility and be approved by the NIAC as stated in the [[NIAC|constitution]].
 
-=== Expire February 2018 ===
-* Mathieu Doucet, SNS and HIFAR
-* Mark Basham, Diamond
-* Tobias Richter, ESS
-* Claudio Ferrero, ESRF
-
 ===Expire September 20, 2015===
 *Herbert Bernstein, ImgCIF
 
@@ -39,3 +33,6 @@ The members of the NIAC, with the expiration of their membership are listed belo
 *Claudio Ferrero, European Synchrotron Radiation Facility, France
 *Mark Basham, Diamond Light Source, UK
 *Tobias Richter, European Spallation Source, Scandinavia
+
+=== Expire February 2018 ===
+* Mathieu Doucet, SNS and HIFAR
