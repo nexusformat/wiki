@@ -59,5 +59,9 @@ lists](http://download.nexusformat.org/doc/html/mailinglist.html)
 
 [Latest News](Latest_News "wikilink"):  
 
+:\*Upcoming meeting: Kind folks at DESY, Hamburg, Germany are planning
+to host a Code Camp from 16th-18th November 2015
+[CodeCamp2015](CodeCamp2015 "wikilink")
+
 :\*Most recent meeting: Advanced Photon Source (APS), Argonne, IL, USA,
 December 2014 - [NIAC'2014](NIAC2014 "wikilink")
