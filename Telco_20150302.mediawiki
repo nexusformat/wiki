@@ -7,14 +7,15 @@ Hangout Link: https://plus.google.com/hangouts/_/g5yh5mixmcvnwuek4rpuuihglqa (th
 ==Agenda==
 
 * Welcome
-* Next NAPI release
-* Dates for Code Camp
-* flexible NXtomo (KIT)
-* Progress on features
+* CMake vs. autotools & Next NAPI release
+* Dates for Code Camp - announcement on wiki?
 * Letter to detector vendors
 * Logo
+:: Logo has disappeared from WIKI?
 :: For discussion: https://www.dropbox.com/sh/n9sd8foejy43hzq/AABhDHPkmS9kpqIRJnFoJTcoa?dl=0
 :: Avoid looking like any of these: https://www.google.dk/search?q=nexus+logo&espv=2&biw=1280&bih=1021&tbm=isch&tbo=u&source=univ&sa=X&ei=1WS2VOnkCOr4ywODwoLoCA&ved=0CDQQ7Ak
+* flexible NXtomo (KIT)
+* Progress on features
 * Next meeting
 * AOB
 
