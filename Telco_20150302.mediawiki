@@ -22,3 +22,19 @@ Hangout Link: https://plus.google.com/hangouts/_/g5yh5mixmcvnwuek4rpuuihglqa (th
 * AOB
 
 ==Minutes==
+
+CMake
+:: Eugen will look into CMake for everything. NAPI may be release as Linux only using old build system, if required. We still need input from Freddie. Mark B to help with that.
+Code Camp
+:: Dates 16-18 Nov appear to agree with all. Thanks Eugen!
+Letter to Detector Vendors
+:: Draft is in repository, comments weclome
+:: Herbert suggests meeting detector vendors at ACA meeting in Philadelphia in July. No one besides Herbert keen to go. Will check again next time.
+Logo
+:: Doodle poll or similar brought up as idea.
+Flexible Tomo
+:: Reply sent to KIT, pending response from there
+Features
+:: Mark B showed a nice Jenkins test of beamline NeXus status at DLS using features. Code will be made available for others.
+Next meeting
+:: [[Telco 20150318]]
