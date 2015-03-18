@@ -10,6 +10,7 @@ If you have a specific subject concerning the NeXus format design, please add it
 *[[Thumbnails for Nexus files]]
 *[[file_id attribute for Nexus files]]
 *[[Scaled Data]]
+*[[NXmonochromator and inheritance]]
 
 == Coma Discussions ==
 These are issues which have not been attended too for a long time.
