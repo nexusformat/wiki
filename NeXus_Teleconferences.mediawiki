@@ -5,8 +5,10 @@ Currently we use Google Hangout as the technology, which works reasonably well f
 We aim to publish and agenda a few days in advance of the meetings. The link to the meeting should be put on the meeting page as well.
 
 === 2015 ===
-;March
-: [[Telco 20150318]] Mon, 18th Mar, 12:00 GMT
+;April
+: [[Telco 20150408]] Wed, 8th Apr, 12:00 GMT;
+March
+: [[Telco 20150318]] Wed, 18th Mar, 12:00 GMT
 : [[Telco 20150302]] Mon, 2nd Mar, 12:00 GMT
 ;February
 : [[Telco 20150218]] Wed, 18th Feb, 12:00 GMT
