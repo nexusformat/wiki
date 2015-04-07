@@ -7,6 +7,7 @@ Hangout Link: https://plus.google.com/hangouts/_/g2pa6t2hnwkox4jgjl2p72nqkea (li
 ==Agenda==
 
 * Welcome
+* Check minutes of last meeting
 * NXmx update
 * CMake update
 * Next meeting
