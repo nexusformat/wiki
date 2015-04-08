@@ -6,7 +6,7 @@ We aim to publish and agenda a few days in advance of the meetings. The link to 
 
 === 2015 ===
 ;April
-: [[Telco 20150408]] Wed, 8th Apr, 12:00 GMT
+: [[Telco 20150408]] Wed, 8th Apr, 12:00 BST
 ;March
 : [[Telco 20150318]] Wed, 18th Mar, 12:00 GMT
 : [[Telco 20150302]] Mon, 2nd Mar, 12:00 GMT
