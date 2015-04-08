@@ -11,7 +11,7 @@ community. All interested parties are welcome.
 Currently we use Google Hangout as the technology, which works
 reasonably well for everyone. (Google account required obviously.) The
 link for that will be
-<https://plus.google.com/hangouts/_/g5yh5mixmcvnwuek4rpuuihglqa>
+<https://plus.google.com/hangouts/_/g2pa6t2hnwkox4jgjl2p72nqkea>
 
 We aim to publish and agenda a few days in advance of the meetings. The
 link to the meeting should be put on the meeting page as well.
