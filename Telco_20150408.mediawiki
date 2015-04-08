@@ -14,3 +14,12 @@ Hangout Link: https://plus.google.com/hangouts/_/g2pa6t2hnwkox4jgjl2p72nqkea (li
 * AOB
 
 ==Minutes==
+
+Small meeting. Just EW, HJB and TR.
+
+Discussions on the future of MX detectors.
+
+Some progress made on cmake build for the definitions and documentation.
+
+Need to get NAPI release out. The current one is outdated (more than two years old) and master has new features.
+During that we found some ancient download content on the WIKI and non-editable on download.nexformat.org. Need to update or remove. Eugen to look into.
