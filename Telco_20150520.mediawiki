@@ -8,8 +8,8 @@ Hangout Link: https://plus.google.com/hangouts/_/g2pa6t2hnwkox4jgjl2p72nqkea
 
 * Welcome
 * Detector developer contacts
-* CMake and release update <br/> install targets for the definitions
-** what should be installed
+* CMake and release update <br/> For the definitions distribution 
+** which targets should be installed
 ** removal of xsltproc from the source tree (there is a binary available on the web)
 ** removal of the validation tool
 * NXmx update
