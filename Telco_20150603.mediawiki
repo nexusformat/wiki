@@ -11,6 +11,7 @@ Hangout Link: https://plus.google.com/hangouts/_/g2pa6t2hnwkox4jgjl2p72nqkea
 * CMake and release update 
 * NXmx update
 ** Fill values (NaN)
+** start and end angles for shutterless scans
 ** depends_on with relative path
 * Documentation update
 ** detector origin (1st pixel in stream)
