@@ -25,6 +25,6 @@ Ratified in a slightly modified form at NIAC 2014. See Niac 2014 minutes
 
 Summary of that modification:
 
-* add '''signal''' attribute to the root of the file that states which NXentry is the default and only to resolve ambiguity when more than one NXentry exists.  The value is the name of the NXentry group.
-* add '''signal''' attribute to each NXentry that states which NXdata is the default and only to resolve ambiguity when more than one NXdata exists.  The value is the name of the NXdata group.
+* add '''default''' attribute to the root of the file that states which NXentry is the default and only to resolve ambiguity when more than one NXentry exists.  The value is the name of the NXentry group.
+* add '''default''' attribute to each NXentry that states which NXdata is the default and only to resolve ambiguity when more than one NXdata exists.  The value is the name of the NXdata group.
 * add '''signal''' attribute to each NXdata that states which dataset is the default.  The value is the name of the dataset to be plotted.
