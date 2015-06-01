@@ -20,7 +20,7 @@ Hangout Link: https://plus.google.com/hangouts/_/g2pa6t2hnwkox4jgjl2p72nqkea
 ** depends_on with relative path
 * Documentation update
 ** detector origin (1st pixel in stream)
-** anything else in need of work?
+** anything else in need of work? -- look at issues
 * Plan of future activities (code camp and strategic)
 ** Validation
 * Community engagement
