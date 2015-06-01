@@ -9,6 +9,10 @@ Hangout Link: https://plus.google.com/hangouts/_/g2pa6t2hnwkox4jgjl2p72nqkea
 * Welcome
 
 * CMake and release update 
+** Remaining problems
+** expected state of master
+** merge and pull request strategy
+* example files status and plea for added or updated files
 * NXmx update
 ** Fill values (NaN)
 ** start and end angles for shutterless scans
