@@ -159,6 +159,10 @@ string parsing in reading applications.**
 Uncertainties
 -------------
 
+**NOTE: At NIAC2014, this proposal on uncertainties was not accepted.**
+*NIAC will see a proposal when experience has been gained with all
+variations.*
+
 (see this from canSAS:
 <http://www.cansas.org/formats/canSAS2012/1.0/doc/examples.html#representing-uncertainty-components>)
 
