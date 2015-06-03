@@ -29,3 +29,5 @@ This should be documented somewhere.
 
 NXmx: Discussion on allowing beam_center in units of pixels, instead of official units of length. No real agreement why that would be necessary, but also not a strong opposition. 
 shutterless scans: One start and either end or interval value would be required. Not more. Encoding could be done via naming, or attributes. No consensus for now. A proposal will be developed.
+
+Moved remaining other items to next meeting.
