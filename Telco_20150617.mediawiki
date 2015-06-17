@@ -25,5 +25,14 @@ Hangout Link: https://plus.google.com/hangouts/_/g2e2ayoq57srpi2g4zv2c2ewbua
 ** ECM
 * Next meeting
 * AOB
+** Axis attributes in NXdetector e.g
+    Fluo : NXdetector
+        @signal = data
+        @axes = (,,,energy)
+        @energy_indices = (3)
+        data[10,20,180,1024]
+            @interpretation = spectrum
+        energy[1024]
+            @units = keV
 
 ==Minutes==
