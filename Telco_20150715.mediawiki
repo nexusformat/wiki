@@ -1,0 +1,17 @@
+==Date==
+
+Wednesday, 15th July, 12:00 BST
+
+Hangout Link: https://plus.google.com/hangouts/_/g2e2ayoq57srpi2g4zv2c2ewbua
+
+==Agenda==
+
+* Welcome
+* code (napi) cmake update and release timelime
+* definitions: name-tag-attribute: https://github.com/nexusformat/definitions/pull/411
+* Documentation update, summary of ticket review
+* setup meeting with west coast people (Aaron)
+* Next meeting
+* AOB
+
+==Minutes==
