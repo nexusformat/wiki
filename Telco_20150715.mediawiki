@@ -11,6 +11,9 @@ Hangout Link: https://plus.google.com/hangouts/_/g2e2ayoq57srpi2g4zv2c2ewbua
 * definitions: name-tag-attribute: https://github.com/nexusformat/definitions/pull/411
 * Documentation update, summary of ticket review
 * setup meeting with west coast people (Aaron)
+* Auto generation questions:
+** Identification of non scannable fields i.e. the scan rules say that everything can be scanned and hence have additional dimensions, but this does not make sense for some things, which should only be reported once.
+* CXI file format http://cxidb.org/cxi.html
 * Next meeting
 * AOB
 
