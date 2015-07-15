@@ -6,7 +6,7 @@ We aim to publish and agenda a few days in advance of the meetings. The link to 
 
 === 2015 ===
 ;July
-: [[Telco 20150728]] Tue, 28th June, 16:00 BST
+: [[Telco 20150728]] Tue, 28th June, '''16:00 BST'''
 : [[Telco 20150715]] Wed, 15th June, 12:00 BST
 ;June
 : [[Telco 20150630]] Tue, 30th June, 12:00 BST
