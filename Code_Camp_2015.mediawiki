@@ -6,6 +6,25 @@ This years NeXus Code Camp takes place from 16.11.-18.11.2015 at the DESY campus
 
 The event will take place at the [https://www.openstreetmap.org/#map=17/53.57749/9.87851 DESY Campus] in Hamburg.
 
+=== Traveling === 
+
+Getting to Hamburg
+
+by plane
+* [https://www.hamburg-airport.de/en/ Airport Hamburg] 
+
+by train 
+* station Hamburg-Hauptbahnhof
+* station Hamburg-Altona
+
+Independent of whether you come by train or plane, once you are in Hamburg, getting to DESY is 
+easy. 
+
+* take the S-Bahn (S1) in the direction of ''Wedel/Blankenese'' until station ''Othmarschen''
+* take the Bus (M1) from ''Othmarschen'' in direction ''Wedel/Blankenese/Risse''n until 
+** station ''Trabrennbahn Bahrenfeld'' (if you stay in the Mercure Hotel) 
+** or until ''DESY/Huennengrab'' (if you stay at the DESY guest house).
+
 === Lodging ===
 
 I recommend that you book a room either at

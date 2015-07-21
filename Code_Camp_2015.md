@@ -16,6 +16,31 @@ The event will take place at the [DESY
 Campus](https://www.openstreetmap.org/#map=17/53.57749/9.87851) in
 Hamburg.
 
+### Traveling
+
+Getting to Hamburg
+
+by plane
+
+-   [Airport Hamburg](https://www.hamburg-airport.de/en/)
+
+by train
+
+-   station Hamburg-Hauptbahnhof
+-   station Hamburg-Altona
+
+Independent of whether you come by train or plane, once you are in
+Hamburg, getting to DESY is easy.
+
+-   take the S-Bahn (S1) in the direction of *Wedel/Blankenese* until
+    station *Othmarschen*
+-   take the Bus (M1) from *Othmarschen* in direction
+    *Wedel/Blankenese/Risse*n until
+    -   station *Trabrennbahn Bahrenfeld* (if you stay in the Mercure
+        Hotel)
+    -   or until *DESY/Huennengrab* (if you stay at the DESY guest
+        house).
+
 ### Lodging
 
 I recommend that you book a room either at
