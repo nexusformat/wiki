@@ -36,9 +36,10 @@ Tel: +49 40 8998 1917
 Registration
 ------------
 
-As DESY has a fairly relaxed security policy registration is rather
-simple: just write an email to <eugen.wintersberger@desy.de> announcing
-your attendance. The mail should include the following information
+As DESY has a fairly relaxed security policy, the registration procedure
+is rather simple: just write an email to <eugen.wintersberger@desy.de>
+announcing your attendance. The mail should include the following
+information
 
 -   your name
 -   your institute
