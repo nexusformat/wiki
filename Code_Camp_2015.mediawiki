@@ -56,7 +56,7 @@ No gate passes are required to enter the site. However, I will prepare some badg
 
 == Agenda ==
 {| style="text-align:center;"
-|+ NeXus Code Camp - Overview 
+|+ NeXus Code Camp 2015 - Overview 
 ! style="width:100px" | Day 
 ! style="width:100px" | Date 
 ! style="width:100px" | Time
