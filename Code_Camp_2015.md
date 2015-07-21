@@ -25,10 +25,13 @@ I recommend that you book a room either at
 -   or at the [Mercure Hotel Hamburg am
     Volkspark](http://www.accorhotels.com/gb/hotel-1659-mercure-hotel-hamburg-am-volkspark-ex-novotel-hamburg-arena/index.shtml)
 
-### Contact
+### Local contact
 
-Eugen Wintersberger Mail: eugen.wintersberger@desy.de Tel: +49 40 8998
-1917
+Eugen Wintersberger
+
+Mail: <eugen.wintersberger@desy.de>
+
+Tel: +49 40 8998 1917
 
 Registration
 ------------

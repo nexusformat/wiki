@@ -14,10 +14,12 @@ I recommend that you book a room either at
 * the [http://guest-services.desy.de/hostel_in_hamburg/index_eng.html DESY guest house]
 * or at the [http://www.accorhotels.com/gb/hotel-1659-mercure-hotel-hamburg-am-volkspark-ex-novotel-hamburg-arena/index.shtml Mercure Hotel Hamburg am Volkspark]
 
-=== Contact ===
+=== Local contact ===
 
 Eugen Wintersberger
-Mail: eugen.wintersberger@desy.de
+
+Mail: [mailto:eugen.wintersberger@desy.de eugen.wintersberger@desy.de]
+
 Tel: +49 40 8998 1917
 
 == Registration ==
