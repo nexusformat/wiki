@@ -36,5 +36,7 @@ Tel: +49 40 8998 1917
 Registration
 ------------
 
+### Registered attendees
+
 Agenda
 ------
