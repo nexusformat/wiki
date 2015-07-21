@@ -27,3 +27,38 @@ Tel: +49 40 8998 1917
 === Registered attendees ===
 
 == Agenda ==
+{| style="text-align:center;"
+|+ NeXus Code Camp - Overview 
+! style="width:100px" | Day 
+! style="width:100px" | Date 
+! style="width:100px" | Time
+! style="width:100px" | Activity 
+! style="width:100px" | Room
+|- 
+| style="text-align:left;" | Sunday
+| 15.11.2015
+| all day
+| arrival
+| -- 
+
+|- 
+| style="text-align:left;" | Monday 
+| 16.11.2015 
+| 9:00 - 18:00 
+| Code Camp 
+| ???
+
+|- 
+| style="text-align:left;" | Tuesday
+| 17.11.2015 
+| 9:00 - 18:00 
+| Code Camp
+| ???
+
+|- 
+| style="text-align:left;" | Wednesday 
+| 18.11.2015
+| 9:00 - 13:00 
+| Code Camp
+| ???
+|}

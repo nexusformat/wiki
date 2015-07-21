@@ -40,3 +40,12 @@ Registration
 
 Agenda
 ------
+
+| Day       | Date       | Time         | Activity  | Room |
+|-----------|------------|--------------|-----------|------|
+| Sunday    | 15.11.2015 | all day      | arrival   | --   |
+| Monday    | 16.11.2015 | 9:00 - 18:00 | Code Camp | ???  |
+| Tuesday   | 17.11.2015 | 9:00 - 18:00 | Code Camp | ???  |
+| Wednesday | 18.11.2015 | 9:00 - 13:00 | Code Camp | ???  |
+
+
