@@ -100,8 +100,8 @@ Agenda
 | morning   | quick report, project work    | ???  |
 | afternoon | Summary, plan ahead,close out | ???  |
 
-Topics for the agenda
----------------------
+More topics for the agenda
+--------------------------
 
 -   Release and related procedures
 -   Consolidate websites, Wiki and other documentation

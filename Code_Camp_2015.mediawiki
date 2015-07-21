@@ -140,7 +140,7 @@ No gate passes are required to enter the site. However, I will prepare some badg
 |style="text-align:center;" | ???
 |}
 
-== Topics for the agenda == 
+== More topics for the agenda == 
 
 * Release and related procedures
 * Consolidate websites, Wiki and other documentation
