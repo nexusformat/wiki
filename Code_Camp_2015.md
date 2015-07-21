@@ -83,7 +83,22 @@ Agenda
 | Sunday    | 15.11.2015 | all day      | arrival   | --   |
 | Monday    | 16.11.2015 | 9:00 - 18:00 | Code Camp | ???  |
 | Tuesday   | 17.11.2015 | 9:00 - 18:00 | Code Camp | ???  |
-| Wednesday | 18.11.2015 | 9:00 - 13:00 | Code Camp | ???  |
+| Wednesday | 18.11.2015 | 9:00 - 18:00 | Code Camp | ???  |
+
+| Time      | Activity                                     | Room |
+|-----------|----------------------------------------------|------|
+| morning   | Welcome, Discussions and setting up projects | ???  |
+| afternoon | project work                                 | ???  |
+
+| Time      | Activity                                      | Room |
+|-----------|-----------------------------------------------|------|
+| morning   | quick report, project work                    | ???  |
+| afternoon | reshuffle projects if required, work on tasks | ???  |
+
+| Time      | Activity                      | Room |
+|-----------|-------------------------------|------|
+| morning   | quick report, project work    | ???  |
+| afternoon | Summary, plan ahead,close out | ???  |
 
 Topics for the agenda
 ---------------------

@@ -86,9 +86,58 @@ No gate passes are required to enter the site. However, I will prepare some badg
 |- 
 | style="text-align:left;" | Wednesday 
 | 18.11.2015
-| 9:00 - 13:00 
+| 9:00 - 18:00 
 | Code Camp
 | ???
+|}
+
+
+
+{|
+|+ Monday, 16.11.2015
+! style="width:100px" | Time
+! style="width:200px" | Activity 
+! style="width:100px" | Room
+|-
+|morning 
+|Welcome, Discussions and setting up projects
+|style="text-align:center;" | ???
+|-
+|afternoon 
+|project work
+|style="text-align:center;" | ???
+|}
+
+
+{|
+|+ Tuesday, 17.11.2015
+! style="width:100px" | Time
+! style="width:200px" | Activity 
+! style="width:100px" | Room
+|-
+|morning
+|quick report, project work
+|style="text-align:center;" | ???
+|-
+|afternoon 
+|reshuffle projects if required, work on tasks
+|style="text-align:center;" | ???
+|}
+
+
+{|
+|+ Wednesday, 18.11.2015
+! style="width:100px" | Time
+! style="width:200px" | Activity 
+! style="width:100px" | Room
+|-
+|morning
+|quick report, project work
+|style="text-align:center;" | ???
+|-
+|afternoon
+|Summary, plan ahead,close out
+|style="text-align:center;" | ???
 |}
 
 == Topics for the agenda == 
