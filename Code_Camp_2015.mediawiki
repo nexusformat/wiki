@@ -90,3 +90,14 @@ No gate passes are required to enter the site. However, I will prepare some badg
 | Code Camp
 | ???
 |}
+
+== Topics for the agenda == 
+
+* Release and related procedures
+* Consolidate websites, Wiki and other documentation
+* NIAC Research Projects
+** Features
+** Formula
+** Interfaces
+* Validation
+* Standardisation across facilities

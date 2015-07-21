@@ -85,4 +85,15 @@ Agenda
 | Tuesday   | 17.11.2015 | 9:00 - 18:00 | Code Camp | ???  |
 | Wednesday | 18.11.2015 | 9:00 - 13:00 | Code Camp | ???  |
 
+Topics for the agenda
+---------------------
+
+-   Release and related procedures
+-   Consolidate websites, Wiki and other documentation
+-   NIAC Research Projects
+    -   Features
+    -   Formula
+    -   Interfaces
+-   Validation
+-   Standardisation across facilities
 
