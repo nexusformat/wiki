@@ -57,6 +57,7 @@ The committee reserves the right to appoint additional members for a limited per
 ;Special Interest Groups:The NeXus International Advisory Committee will appoint editors to be in charge of particular groups that wish to specify instrument definitions or develop specialized uses of the NeXus format. The groups will establish their own mode of operation, but will be expected to consult widely with the community relevant to their work, and to refer back to the NeXus International Advisory Committee any matters that involve a change in the current NeXus specification. Specific proposals produced by these groups will be presented to the NeXus International Advisory Committee for comment and formal ratification.
 
 == Meetings ==
+* [[NIAC2015|NIAC 2015]] NeXus Code Camp, hosted by DESY, Hamburg, Germany, November 2015
 * [[NIAC2014|NIAC 2014]] NeXus Code Camp and NIAC Meeting, hosted by APS, Chicago, USA, December 2014 ([[NIAC2014_Meeting#Minutes|minutes]])
 * [[NIAC2012|NIAC 2012]] NeXus Code Camp and NIAC Meeting, hosted by ISIS and Diamond at RAL, Oxfordshire, UK, September 2012 ([[NIAC2012#Meeting Minutes|minutes]])
 * [[NIAC2011_CodeCamp|NIAC 2011]] NeXus Code Camp and NIAC Meeting, APS, October 2011 ([[NIAC2011_CodeCamp#Final Report|minutes]])
