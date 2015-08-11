@@ -6,6 +6,7 @@ We aim to publish and agenda a few days in advance of the meetings. The link to 
 
 === 2015 ===
 ;August
+: [[Telco 20150827]] Thu, 27th June, 16:00 BST -- the new default time.
 : [[Telco 20150811]] Tue, 11th June, '''16:00 BST'''
 ;July
 : [[Telco 20150728]] Tue, 28th June, '''16:00 BST'''
