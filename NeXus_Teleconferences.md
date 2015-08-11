@@ -18,6 +18,10 @@ link to the meeting should be put on the meeting page as well.
 
 ### 2015
 
+August  
+[Telco 20150811](Telco_20150811 "wikilink") Tue, 11th June, **16:00
+BST**
+
 July  
 [Telco 20150728](Telco_20150728 "wikilink") Tue, 28th June, **16:00
 BST**
