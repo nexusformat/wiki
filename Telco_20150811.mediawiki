@@ -16,3 +16,17 @@ Hangout Link: https://plus.google.com/hangouts/_/g2e2ayoq57srpi2g4zv2c2ewbua
 * AOB
 
 ==Minutes==
+
+Present: EW, HJB, MK, PJ, TSR, AB
+
+Virtual Dataset: EW will contact Felipe to extract more specific requirements for an HDF5 API and feed that into THG.
+
+napi and tools release: slow progress. No testers have reported any success or failure with the current state. This may improve when tools are build as well as people has no ready way to test the build otherwise.
+
+3D detectors: While the route to just define pixel_size_z looks easy, this is not very general. Z may not coincide with the global z-axis and it may correspond to any dimension in the data array (volume). So TSR will prepare a generic proposal for n-dimensional detector data, with m<=n spatial dimensions. EW is keen to test this on his next beamtime in September.
+
+Ticket 411: Merged during the meeting.
+
+Windows build: Problems arise due to lack of development environment, which should not be a hard requirement to have installed in order to work on documentation. We will revert to old-style make files. More background in github tickets.
+
+Next meeting: [[Telco 20150827]]
