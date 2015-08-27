@@ -19,17 +19,17 @@ link to the meeting should be put on the meeting page as well.
 ### 2015
 
 August  
-[Telco 20150827](Telco_20150827 "wikilink") Thu, 27th June, 16:00 BST --
-the new default time.
+[Telco 20150827](Telco_20150827 "wikilink") Thu, 27th August, 16:00 BST
+-- the new default time.
 
-[Telco 20150811](Telco_20150811 "wikilink") Tue, 11th June, **16:00
+[Telco 20150811](Telco_20150811 "wikilink") Tue, 11th August, **16:00
 BST**
 
 July  
-[Telco 20150728](Telco_20150728 "wikilink") Tue, 28th June, **16:00
+[Telco 20150728](Telco_20150728 "wikilink") Tue, 28th July, **16:00
 BST**
 
-[Telco 20150715](Telco_20150715 "wikilink") Wed, 15th June, 12:00 BST
+[Telco 20150715](Telco_20150715 "wikilink") Wed, 15th July, 12:00 BST
 
 June  
 [Telco 20150630](Telco_20150630 "wikilink") Tue, 30th June, 12:00 BST
