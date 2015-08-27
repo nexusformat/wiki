@@ -18,6 +18,10 @@ link to the meeting should be put on the meeting page as well.
 
 ### 2015
 
+September  
+[Telco 20150909](Telco_20150909 "wikilink") Wed, 9th September, 16:00
+BST
+
 August  
 [Telco 20150827](Telco_20150827 "wikilink") Thu, 27th August, 16:00 BST
 -- the new default time.

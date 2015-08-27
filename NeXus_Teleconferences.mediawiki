@@ -5,6 +5,8 @@ Currently we use Google Hangout as the technology, which works reasonably well f
 We aim to publish and agenda a few days in advance of the meetings. The link to the meeting should be put on the meeting page as well.
 
 === 2015 ===
+;September
+: [[Telco 20150909]] Wed, 9th September, 16:00 BST
 ;August
 : [[Telco 20150827]] Thu, 27th August, 16:00 BST -- the new default time.
 : [[Telco 20150811]] Tue, 11th August, '''16:00 BST'''
