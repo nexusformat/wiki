@@ -10,7 +10,6 @@ Hangout Link: https://plus.google.com/hangouts/_/g2e2ayoq57srpi2g4zv2c2ewbua
 * Documentation build server status
 * Generic proposal for spatial and other axes on nD Detectors: (slowest, slow, fast)
 * Documentation update, summary of ticket review
-** who will write the tests?
 * code (napi) cmake update and release timelime
 * CXI format, status report.
 * Next meeting
@@ -99,5 +98,31 @@ unsolved problem: pixel size
 
 relatively straight forward for event mode using pixels_ids instead of data
 
-
 ==Minutes==
+
+Present: HJB, EW, MK, MB, TSR, FA
+
+* Generic proposal for spatial and other axes on nD Detectors: (slowest, slow, fast) -- new use cases
+
+See above. All reviewed this and found no obvious problems. For the next meeting people should gather use cases that might or might not work and report back.
+
+* Buildserver hickup
+
+Freddie fixed the configuration and the build now completes successfully.
+
+* Documentation update, summary of ticket review 
+
+Number of tickets has been close as they had been completed a while back.
+https://github.com/nexusformat/definitions/issues/266 appears to be in an unclear state and would benefit from investigation. Freddie volunteered.
+
+* code (napi) cmake update and release timelime
+
+During the call Eugen made some progress on the test build.
+
+* CXI format, status report.
+
+Mark B interested. Will contact people in Berkeley.
+
+* Next meeting
+
+[[Telco 20151001]]
