@@ -1,0 +1,17 @@
+==Date==
+
+Thursday, 1st October, 8am PST, (5pm CEST, 4pm BST, 11am NY, 10am IL+TN)
+
+Hangout Link: https://plus.google.com/hangouts/_/g2e2ayoq57srpi2g4zv2c2ewbua
+
+==Agenda==
+
+* Welcome
+* Generic proposal for spatial and other axes on nD Detectors: (slowest, slow, fast) -- new use cases
+* Documentation update, summary of ticket review https://github.com/nexusformat/definitions/issues/266
+* code (napi) cmake update and release timelime
+* CXI format, status report.
+* Next meeting
+* AOB
+
+==Minutes==
