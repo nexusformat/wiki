@@ -10,7 +10,7 @@ Hangout Link: https://plus.google.com/hangouts/_/g2e2ayoq57srpi2g4zv2c2ewbua
 * Generic proposal for spatial and other axes on nD Detectors: (slowest, slow, fast) -- new use cases
 * Documentation update, summary of ticket review https://github.com/nexusformat/definitions/issues/266
 * code (napi) cmake update and release timelime
-* CXI format, status report.
+* Look at new proposed container class
 * Next meeting
 * AOB
 
