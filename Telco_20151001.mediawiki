@@ -15,7 +15,7 @@ Hangout Link: https://plus.google.com/hangouts/_/g2e2ayoq57srpi2g4zv2c2ewbua
 * code (napi) cmake update and release timelime
 * CXI update (Mark B)
 * Look at a new container class (what is that?)
-* How do we define the X and Y drive directions of a scan?
+* How do we define the X and Y drive directions of a scan (clarification, we know them, but how do we get back to the NXPositioner class which specifies all the information)?
 * AOB
 
 ==Minutes==
