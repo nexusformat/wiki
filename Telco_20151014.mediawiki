@@ -1,0 +1,22 @@
+==Date==
+
+Thursday, 1st October, 8am PST, (5pm CEST, 4pm BST, 11am NY, 10am IL+TN)
+
+Hangout Link: https://plus.google.com/hangouts/_/g2e2ayoq57srpi2g4zv2c2ewbua
+
+==Agenda==
+
+* Welcome and agree Agenda
+* code camp update and plans
+* sample container proposal
+* recording scan intend proposal
+* Generic proposal for spatial and other axes on nD Detectors: (slowest, slow, fast) -- new use cases or ready?
+* geometric shapes and operations (mantid/mcstas geometry conversion) update
+* code (napi) cmake update and release timelime
+* CXI update (Mark B) this time with better microphone
+* Next meeting
+* AOB
+
+==Minutes==
+
+Present:
