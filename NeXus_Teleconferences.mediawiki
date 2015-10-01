@@ -6,6 +6,7 @@ We aim to publish and agenda a few days in advance of the meetings. The link to 
 
 === 2015 ===
 ;October
+: [[Telco 20151014]] Wed, 14th October, 17:00 Copenhagen Time
 : [[Telco 20151001]] Thu, 1st October, 16:00 BST
 ;September
 : [[Telco 20150909]] Wed, 9th September, 16:00 BST

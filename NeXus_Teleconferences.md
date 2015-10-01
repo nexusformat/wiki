@@ -19,6 +19,9 @@ link to the meeting should be put on the meeting page as well.
 ### 2015
 
 October  
+[Telco 20151014](Telco_20151014 "wikilink") Wed, 14th October, 17:00
+Copenhagen Time
+
 [Telco 20151001](Telco_20151001 "wikilink") Thu, 1st October, 16:00 BST
 
 September  
