@@ -54,6 +54,21 @@ No gate passes are required to enter the site. However, I will prepare some badg
 
 === Registered attendees ===
 
+{| class="wikitable"
+|-
+! Name
+! Institution
+! Special Requirements
+|-
+| Daniel Fulla Marsa
+| European Spallation Source
+| ''none''
+|-
+| Tobias Richter
+| European Spallation Source
+| ''none''
+|}
+
 == Agenda ==
 {| style="text-align:center;"
 |+ NeXus Code Camp 2015 - Overview 

@@ -75,6 +75,11 @@ some badges for you in case you're getting lost ;).
 
 ### Registered attendees
 
+| Name               | Institution                | Special Requirements |
+|--------------------|----------------------------|----------------------|
+| Daniel Fulla Marsa | European Spallation Source | *none*               |
+| Tobias Richter     | European Spallation Source | *none*               |
+
 Agenda
 ------
 
