@@ -71,6 +71,18 @@ No gate passes are required to enter the site. However, I will prepare some badg
 | Mark Könnecke
 | Paul Scherrer Institut - SINQ
 | ''none''
+|-
+| Herbert J. Bernstein
+| Rochester Institute of Technology
+| ''none''
+|-
+| Mark Basham
+| Diamond Light Source
+| ''none''
+|-
+| Peter Chang
+| Diamond Light Source
+| ''none''
 |}
 
 == Agenda ==
