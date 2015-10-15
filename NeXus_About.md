@@ -4,8 +4,7 @@ permalink: NeXus:About/
 layout: wiki
 ---
 
-In recent years, a number of scientists and computer programmers working
-in neutron and synchrotron facilities around the world came to the
+Neutron and synchrotron facilities around the world came to the
 conclusion that a common data format would fulfil a valuable function in
 the scattering community. As instrumentation becomes more complex and
 data visualization become more challenging, individual scientists, or
