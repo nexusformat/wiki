@@ -5,6 +5,8 @@ Currently we use Google Hangout as the technology, which works reasonably well f
 We aim to publish and agenda a few days in advance of the meetings. The link to the meeting should be put on the meeting page as well.
 
 === 2015 ===
+;November
+: [[Telco 20151104]] Wed, 4th November, 17:00 Copenhagen/Zurich/Berlin Time
 ;October
 : [[Telco 20151014]] Wed, 14th October, 17:00 Copenhagen Time
 : [[Telco 20151001]] Thu, 1st October, 16:00 BST
