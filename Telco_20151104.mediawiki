@@ -14,6 +14,7 @@ Hangout Link: https://plus.google.com/hangouts/_/g2e2ayoq57srpi2g4zv2c2ewbua
 * Generic proposal for spatial and other axes on nD Detectors: (slowest, slow, fast) -- new use cases or ready?
 * geometric shapes and operations (mantid/mcstas geometry conversion) update
 * CXI update (Mark B) this time with better microphone
+* Short update on the NAPI CMake build and nxvalidate (the latter one is important)
 * Next meeting
 * AOB
 
