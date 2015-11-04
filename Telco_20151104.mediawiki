@@ -9,6 +9,7 @@ Hangout Link: https://plus.google.com/hangouts/_/g2e2ayoq57srpi2g4zv2c2ewbua
 * Welcome and agree Agenda
 * code camp update and plans
 * sample container proposal - DLS
+** see http://wiki.nexusformat.org/File:IMAG1085_1.jpg
 * recording scan intend proposal - DLS
 * trigger delay time discussion - Dectris
 * Generic proposal for spatial and other axes on nD Detectors: (slowest, slow, fast) -- new use cases or ready?
