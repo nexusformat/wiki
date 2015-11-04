@@ -8,8 +8,8 @@ We aim to publish and agenda a few days in advance of the meetings. The link to 
 ;December
 : [[Telco 20151202]] Wed, 2nd December, 17:00 Copenhagen/Zurich/Berlin Time
 ;November
-: [[Telco 20151104]] Wed, 4th November, 17:00 Copenhagen/Zurich/Berlin Time
 : [[Telco 20151116]] Mon, 16th November, 17:00 Copenhagen/Zurich/Berlin Time
+: [[Telco 20151104]] Wed, 4th November, 17:00 Copenhagen/Zurich/Berlin Time
 ;October
 : [[Telco 20151014]] Wed, 14th October, 17:00 Copenhagen Time
 : [[Telco 20151001]] Thu, 1st October, 16:00 BST
