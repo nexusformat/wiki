@@ -18,8 +18,15 @@ link to the meeting should be put on the meeting page as well.
 
 ### 2015
 
+December  
+[Telco 20151202](Telco_20151202 "wikilink") Wed, 2nd December, 17:00
+Copenhagen/Zurich/Berlin Time
+
 November  
 [Telco 20151104](Telco_20151104 "wikilink") Wed, 4th November, 17:00
+Copenhagen/Zurich/Berlin Time
+
+[Telco 20151116](Telco_20151116 "wikilink") Mon, 16th November, 17:00
 Copenhagen/Zurich/Berlin Time
 
 October  
