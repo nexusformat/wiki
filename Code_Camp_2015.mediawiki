@@ -105,21 +105,21 @@ No gate passes are required to enter the site. However, I will prepare some badg
 | 16.11.2015 
 | 9:00 - 18:00 
 | Code Camp 
-| ???
+| 109 Bldg. 25b
 
 |- 
 | style="text-align:left;" | Tuesday
 | 17.11.2015 
 | 9:00 - 18:00 
 | Code Camp
-| ???
+| 109 Bldg. 25b
 
 |- 
 | style="text-align:left;" | Wednesday 
 | 18.11.2015
 | 9:00 - 18:00 
 | Code Camp
-| ???
+| 109 Bldg. 25b
 |}
 
 
@@ -132,7 +132,7 @@ No gate passes are required to enter the site. However, I will prepare some badg
 |-
 |morning 
 |Welcome, Discussions and setting up projects
-|style="text-align:center;" | ???
+|style="text-align:center;" | 109 Bldg. 25b
 |-
 |afternoon 
 |project work
@@ -148,11 +148,11 @@ No gate passes are required to enter the site. However, I will prepare some badg
 |-
 |morning
 |quick report, project work
-|style="text-align:center;" | ???
+|style="text-align:center;" | 109 Bldg. 25b
 |-
 |afternoon 
 |reshuffle projects if required, work on tasks
-|style="text-align:center;" | ???
+|style="text-align:center;" | 109 Bldg. 25b
 |}
 
 
@@ -164,11 +164,11 @@ No gate passes are required to enter the site. However, I will prepare some badg
 |-
 |morning
 |quick report, project work
-|style="text-align:center;" | ???
+|style="text-align:center;" | 109 Bldg. 25b
 |-
 |afternoon
 |Summary, plan ahead,close out
-|style="text-align:center;" | ???
+|style="text-align:center;" | 109 Bldg. 25b
 |}
 
 == More topics for the agenda == 
