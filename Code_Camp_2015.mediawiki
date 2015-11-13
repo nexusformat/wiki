@@ -5,7 +5,7 @@ This years NeXus Code Camp takes place from 16.11.-18.11.2015 at the DESY campus
 === The DESY campus ===
 
 The event will take place at the [https://www.openstreetmap.org/#map=17/53.57749/9.87851 DESY Campus] in Hamburg. A PDF version  
-of our site map can be found [File:NexusCodeCamp2015_map.pdf here].
+of our site map can be found [[:File:NexusCodeCamp2015_map.pdf|here]].
 
 === Traveling === 
 
