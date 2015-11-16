@@ -84,6 +84,7 @@ some badges for you in case you're getting lost ;).
 | Herbert J. Bernstein | Rochester Institute of Technology | *none*               |
 | Mark Basham          | Diamond Light Source              | *none*               |
 | Peter Chang          | Diamond Light Source              | *none*               |
+| Chris Kerr           | EMBL                              | *none*               |
 
 Agenda
 ------
@@ -115,12 +116,19 @@ Agenda
 More topics for the agenda
 --------------------------
 
--   Release and related procedures
--   Consolidate websites, Wiki and other documentation
--   NIAC Research Projects
-    -   Features
-    -   Formula
-    -   Interfaces
+-   NAPI Release
+    -   RC2
+    -   TravisCI?
+    -   download pages (consolidate websites, Wiki and other
+        documentation)
+-   Features Research Project
+    -   More Feature Examples
+    -   Web service
 -   Validation
--   Standardisation across facilities
+    -   Testing
+    -   Location of Source (code, definitions, own repo)
+    -   dealing with different versions of NXDL files (discussion topic)
+-   NXmx
+-   Detector Geometry
+-   NXcanSAS
 

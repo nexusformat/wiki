@@ -84,6 +84,10 @@ No gate passes are required to enter the site. However, I will prepare some badg
 | Peter Chang
 | Diamond Light Source
 | ''none''
+|-
+| Chris Kerr
+| EMBL
+| ''none''
 |}
 
 == Agenda ==
@@ -182,11 +186,17 @@ No gate passes are required to enter the site. However, I will prepare some badg
 
 == More topics for the agenda == 
 
-* Release and related procedures
-* Consolidate websites, Wiki and other documentation
-* NIAC Research Projects
-** Features
-** Formula
-** Interfaces
+* NAPI Release
+** RC2 
+** TravisCI?
+** download pages (consolidate websites, Wiki and other documentation)
+* Features Research Project
+** More Feature Examples
+** Web service
 * Validation
-* Standardisation across facilities
+** Testing
+** Location of Source (code, definitions, own repo)
+** dealing with different versions of NXDL files (discussion topic)
+* NXmx
+* Detector Geometry
+* NXcanSAS
