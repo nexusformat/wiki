@@ -96,12 +96,13 @@ Agenda
 | Tuesday   | 17.11.2015 | 9:00 - 18:00 | Code Camp | 109 Bldg. 25b |
 | Wednesday | 18.11.2015 | 9:00 - 18:00 | Code Camp | 109 Bldg. 25b |
 
-| Time          | Activity                                     | Room          |
-|---------------|----------------------------------------------|---------------|
-| 9:00 - 10:00  | Welcome, Discussions and setting up projects | 109 Bldg. 25b |
-| afternoon     | project work                                 | 109 Bldg. 25b |
-| 12:00 - 13:00 | lunch                                        |               |
-| 17:00 - 18:00 | Tech Telecon                                 | 109 Bldg. 25  |
+| Time          | Activity                                                               | Room          |
+|---------------|------------------------------------------------------------------------|---------------|
+| 9:00 - 10:00  | Welcome, Discussions and setting up projects                           | 109 Bldg. 25b |
+| afternoon     | project work                                                           | 109 Bldg. 25b |
+| 12:00 - 13:00 | lunch                                                                  |               |
+| 13:00 - 14:00 | after lunch discussions (report on progress), Eiger compression, NXmx? |               |
+| 17:00 - 18:00 | Teleconference [Telco 20151116](Telco_20151116 "wikilink")             | 109 Bldg. 25  |
 
 | Time      | Activity                                      | Room          |
 |-----------|-----------------------------------------------|---------------|
