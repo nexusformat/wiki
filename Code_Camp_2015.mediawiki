@@ -137,7 +137,11 @@ No gate passes are required to enter the site. However, I will prepare some badg
 |-
 |afternoon 
 |project work
-|style="text-align:center;" | ???
+|style="text-align:center;" | 109 Bldg. 25b
+|-
+|17:00
+|Tech Telecon
+| 109 Bldg. 25
 |}
 
 
