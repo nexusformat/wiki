@@ -95,11 +95,12 @@ Agenda
 | Tuesday   | 17.11.2015 | 9:00 - 18:00 | Code Camp | 109 Bldg. 25b |
 | Wednesday | 18.11.2015 | 9:00 - 18:00 | Code Camp | 109 Bldg. 25b |
 
-| Time      | Activity                                     | Room          |
-|-----------|----------------------------------------------|---------------|
-| morning   | Welcome, Discussions and setting up projects | 109 Bldg. 25b |
-| afternoon | project work                                 | 109 Bldg. 25b |
-| 17:00     | Tech Telecon                                 | 109 Bldg. 25  |
+| Time          | Activity                                     | Room          |
+|---------------|----------------------------------------------|---------------|
+| morning       | Welcome, Discussions and setting up projects | 109 Bldg. 25b |
+| afternoon     | project work                                 | 109 Bldg. 25b |
+| 12:00-13:00   | lunch                                        |               |
+| 17:00 - 18:00 | Tech Telecon                                 | 109 Bldg. 25  |
 
 | Time      | Activity                                      | Room          |
 |-----------|-----------------------------------------------|---------------|
