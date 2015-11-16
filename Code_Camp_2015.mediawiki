@@ -131,7 +131,7 @@ No gate passes are required to enter the site. However, I will prepare some badg
 ! style="width:200px" | Activity 
 ! style="width:100px" | Room
 |-
-|morning 
+|9:00 - 10:00
 |Welcome, Discussions and setting up projects
 |style="text-align:center;" | 109 Bldg. 25b
 |-
@@ -139,7 +139,7 @@ No gate passes are required to enter the site. However, I will prepare some badg
 |project work
 |style="text-align:center;" | 109 Bldg. 25b
 |-
-|12:00-13:00
+|12:00 - 13:00
 |lunch
 |
 |-

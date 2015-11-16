@@ -97,9 +97,9 @@ Agenda
 
 | Time          | Activity                                     | Room          |
 |---------------|----------------------------------------------|---------------|
-| morning       | Welcome, Discussions and setting up projects | 109 Bldg. 25b |
+| 9:00 - 10:00  | Welcome, Discussions and setting up projects | 109 Bldg. 25b |
 | afternoon     | project work                                 | 109 Bldg. 25b |
-| 12:00-13:00   | lunch                                        |               |
+| 12:00 - 13:00 | lunch                                        |               |
 | 17:00 - 18:00 | Tech Telecon                                 | 109 Bldg. 25  |
 
 | Time      | Activity                                      | Room          |
