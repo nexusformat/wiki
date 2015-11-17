@@ -61,10 +61,6 @@ No gate passes are required to enter the site. However, I will prepare some badg
 ! Institution
 ! Special Requirements
 |-
-| Daniel Fulla Marsa
-| European Spallation Source
-| ''none''
-|-
 | Tobias Richter
 | European Spallation Source
 | ''none''

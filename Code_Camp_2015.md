@@ -78,7 +78,6 @@ some badges for you in case you're getting lost ;).
 
 | Name                 | Institution                       | Special Requirements |
 |----------------------|-----------------------------------|----------------------|
-| Daniel Fulla Marsa   | European Spallation Source        | *none*               |
 | Tobias Richter       | European Spallation Source        | *none*               |
 | Mark Könnecke        | Paul Scherrer Institut - SINQ     | *none*               |
 | Herbert J. Bernstein | Rochester Institute of Technology | *none*               |
