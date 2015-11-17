@@ -204,3 +204,4 @@ No gate passes are required to enter the site. However, I will prepare some badg
 * NXmx
 * Detector Geometry
 * NXcanSAS
+* NXsample alignment with CIF

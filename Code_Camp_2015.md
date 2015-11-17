@@ -132,4 +132,5 @@ More topics for the agenda
 -   NXmx
 -   Detector Geometry
 -   NXcanSAS
+-   NXsample alignment with CIF
 
