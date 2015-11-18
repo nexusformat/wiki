@@ -198,7 +198,7 @@ No gate passes are required to enter the site. However, I will prepare some badg
 ** Testing
 ** Location of Source (code, definitions, own repo)
 ** dealing with different versions of NXDL files (discussion topic)
-* NXmx
+* NXmx implementation
 * Detector Geometry
 * NXcanSAS - discussed, documentation needs to be updated
 * NXsample alignment with CIF - agreed in principle proposal will follow
