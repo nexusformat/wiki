@@ -117,10 +117,11 @@ More topics for the agenda
 --------------------------
 
 -   NAPI Release
-    -   RC2
+    -   RC3 - done-ish
     -   TravisCI?
     -   download pages (consolidate websites, Wiki and other
         documentation)
+    -   python will follow within two weeks as a separate build
 -   Features Research Project
     -   More Feature Examples
     -   Web service
@@ -130,6 +131,7 @@ More topics for the agenda
     -   dealing with different versions of NXDL files (discussion topic)
 -   NXmx
 -   Detector Geometry
--   NXcanSAS
--   NXsample alignment with CIF
+-   NXcanSAS - discussed, documentation needs to be updated
+-   NXsample alignment with CIF - agreed in principle proposal will
+    follow
 
