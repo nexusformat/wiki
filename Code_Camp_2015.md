@@ -129,9 +129,17 @@ More topics for the agenda
     -   Testing
     -   Location of Source (code, definitions, own repo)
     -   dealing with different versions of NXDL files (discussion topic)
--   NXmx implementation
--   Detector Geometry
+-   NXmx implementation -discussed with Dectris
+-   Detector Geometry - will look at recent DLS i16 example file in
+    examples repository
 -   NXcanSAS - discussed, documentation needs to be updated
 -   NXsample alignment with CIF - agreed in principle proposal will
     follow
+
+<!-- -->
+
+-   new repositories (to be created):
+    -   hdffilters
+    -   nxvalidate
+    -   python package
 
