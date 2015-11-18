@@ -118,7 +118,7 @@ More topics for the agenda
 
 -   NAPI Release
     -   RC3 - done-ish
-    -   TravisCI?
+    -   TravisCI - jenkins access restrored, might be sufficient
     -   download pages (consolidate websites, Wiki and other
         documentation)
     -   python will follow within two weeks as a separate build

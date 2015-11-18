@@ -188,7 +188,7 @@ No gate passes are required to enter the site. However, I will prepare some badg
 
 * NAPI Release
 ** RC3 - done-ish
-** TravisCI?
+** TravisCI - jenkins access restrored, might be sufficient
 ** download pages (consolidate websites, Wiki and other documentation)
 ** python will follow within two weeks as a separate build
 * Features Research Project
