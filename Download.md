@@ -44,11 +44,11 @@ The source code distribution can be obtained from GitHub. One can either
 checkout the git repositories to get access to the most recent
 development code. To clone the definitions repository use
 
-`$git clone `[`https://github.com/nexusformat/definitions.git`](https://github.com/nexusformat/definitions.git)` definitions`
+` git clone `[`https://github.com/nexusformat/definitions.git`](https://github.com/nexusformat/definitions.git)` definitions`
 
 or for the NAPI
 
-`$git clone `[`https://github.com/nexusformat/code.git`](https://github.com/nexusformat/code.git)` code`
+` git clone `[`https://github.com/nexusformat/code.git`](https://github.com/nexusformat/code.git)` code`
 
 For release tarballs go to the release page for the
 [NAPI](https://github.com/nexusformat/code/releases) or the
