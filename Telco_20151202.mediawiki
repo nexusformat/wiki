@@ -11,6 +11,9 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 * sample container proposal - DLS
 * recording scan intend proposal - DLS
 * CXI update (Mark B) this time with better microphone and legal advise
+* Update from NAPI code and GitHub:
+** Next NAPI release 4.4.1 scheduled for Friday 11, 2015
+** HDF5 external filter plugin repository is online on nexusformat
 * Next meeting
 * AOB
 
