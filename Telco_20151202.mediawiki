@@ -9,7 +9,7 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 * Welcome and agree Agenda
 * canSAS axes arrays vs. string parsing
 * sample container proposal - DLS
-* recording scan intend proposal - DLS
+* recording scan intent proposal - DLS
 * CXI update (Mark B) this time with better microphone and legal advise
 * Update from NAPI code and GitHub:
 ** Python code has been moved to its own repository
