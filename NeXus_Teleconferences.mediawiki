@@ -6,6 +6,7 @@ We aim to publish and agenda a few days in advance of the meetings. The link to 
 
 === 2015 ===
 ;December
+: [[Telco 20151215]] Tue, 15th December, 16:30 Copenhagen/Zurich/Berlin Time
 : [[Telco 20151202]] Wed, 2nd December, 17:00 Copenhagen/Zurich/Berlin Time
 ;November
 : [[Telco 20151116]] Mon, 16th November, 17:00 Copenhagen/Zurich/Berlin Time
