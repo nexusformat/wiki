@@ -16,6 +16,12 @@ link for that will be
 We aim to publish and agenda a few days in advance of the meetings. The
 link to the meeting should be put on the meeting page as well.
 
+### 2016
+
+January  
+[Telco 20160106](Telco_20160106 "wikilink") Wed, 6th January, 16:30
+Copenhagen/Zurich/Berlin Time
+
 ### 2015
 
 December  
