@@ -21,3 +21,9 @@ Present: HJB, AB, FAA, EW, MK, TSR
 First three agenda items require MB, skipping.
 
 Other business: Lz4 bit shuffle oddities reported by HJB.
+
+HJB will push to filter github repo when done testing.
+
+The HDF Group is already advertising our filters repo on their mailing list.
+
+NAPI release and downloads: Github download next to working.
