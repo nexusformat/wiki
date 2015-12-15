@@ -34,3 +34,5 @@ EW will upload legacy NAPI binaries to github tomorrow, so we can remove downloa
 Only useful stuff remaining there would be the definitions installers. TSR will contact PJ to migrate those to github or volunteer himself.
 
 HJB: BNL will host MX workshop in May in collaboration with Dectris. EW is going. Other presence will be at ACA and ECM 2016.
+
+Next meeting is: [[Telco 20160106]]
