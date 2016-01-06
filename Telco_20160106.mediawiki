@@ -7,10 +7,13 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 ==Agenda==
 
 * Welcome and agree Agenda
+* teleconference reminders - fate of nexus-tech 
 * sample container proposal - DLS
 * recording scan intent proposal - DLS
 * CXI update (Mark B) this time with better microphone and legal advise
 * NAPI release and download webpages (including definitions kits)
+* cnxvalidate update
+* features update
 * Next meeting
 * AOB
 
