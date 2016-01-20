@@ -7,7 +7,8 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 ==Agenda==
 
 * Welcome and agree Agenda
-* cnxvalidate tesing
+* versioning classes and application definitions (per request from Andreas)
+* cnxvalidate testing
 * github issue of the day - suggestions welcome (there is a github label now), otherwise we pick a random one
 * sample components + CIF atom site
 * sample container proposal - DLS
