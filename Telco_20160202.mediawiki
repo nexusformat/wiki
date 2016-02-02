@@ -8,7 +8,7 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 
 * Welcome and agree Agenda
 * versioning classes and application definitions (per request from Andreas)
-* nexusformat.org main landing page
+* http://nexusformat.org main landing page
 * github issue of the day - suggestions welcome (there is a github label now), otherwise we pick a random one
 * cnxvalidate testing
 * sample container proposal - DLS
