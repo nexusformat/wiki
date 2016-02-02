@@ -23,6 +23,9 @@ February
 [Telco 20160202](Telco_20160202 "wikilink") Tue, 2nd February, 16:30
 Copenhagen/Zurich/Berlin Time
 
+[Telco 20160224](Telco_20160224 "wikilink") Wed, 24th February, 16:30
+Copenhagen/Zurich/Berlin Time
+
 January  
 [Telco 20160120](Telco_20160120 "wikilink") Wed, 20th January, 16:30
 Copenhagen/Zurich/Berlin Time

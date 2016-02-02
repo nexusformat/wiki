@@ -8,6 +8,7 @@ We aim to publish and agenda a few days in advance of the meetings. The link to 
 === 2016 ===
 ;February
 : [[Telco 20160202]] Tue, 2nd February, 16:30 Copenhagen/Zurich/Berlin Time
+: [[Telco 20160224]] Wed, 24th February, 16:30 Copenhagen/Zurich/Berlin Time
 ;January
 : [[Telco 20160120]] Wed, 20th January, 16:30 Copenhagen/Zurich/Berlin Time
 : [[Telco 20160106]] Wed, 6th January, 16:30 Copenhagen/Zurich/Berlin Time
