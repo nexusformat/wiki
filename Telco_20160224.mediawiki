@@ -14,6 +14,7 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 * cnxvalidate testing
 * NXsample updates
 * NAPI release and download webpages (including definitions kits), Debian packages
+* definitions PR: https://github.com/nexusformat/definitions/pull/448 (update app-defs and con-defs for new default/default/signal/axes/AXISNAME_indices)
 * Next meeting
 * AOB
 
