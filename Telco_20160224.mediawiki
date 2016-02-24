@@ -27,7 +27,7 @@ Discussions took place, more progress expected next time
 
 ===Github issues===
 ====448 (PR)====
-Changes to application definitions require individual approval. This will not be merged as a whole, but is a useful reference for future updates to these definitions.
+[https://github.com/nexusformat/definitions/issues/447 Changes] to application definitions require individual approval. This will not be merged as a whole, but is a useful reference for future updates to these definitions.
 
 ====443====
 Is a dramatic improvement to the manual and should be merged to master as is so more eyes can provide feedback.
