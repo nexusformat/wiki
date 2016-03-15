@@ -9,10 +9,6 @@ listed below. If a member wishes to be renewed, they must provide a
 letter of support from the facility and be approved by the NIAC as
 stated in the [constitution](NIAC "wikilink").
 
-### Expire September 20, 2015
-
--   Herbert Bernstein, ImgCIF
-
 ### Expire October 12, 2015
 
 -   David Männicke, Australian Nuclear Science and Technology
