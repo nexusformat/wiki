@@ -48,3 +48,8 @@ stated in the [constitution](NIAC "wikilink").
 
 -   Mathieu Doucet, SNS and HFIR
 
+### Expire March 2019
+
+-   Herbert Bernstein
+-   David Maennicke
+

@@ -30,3 +30,8 @@ The members of the NIAC, with the expiration of their membership are listed belo
 
 === Expire February 2018 ===
 * Mathieu Doucet, SNS and HFIR
+
+=== Expire March 2019 ===
+
+* Herbert Bernstein
+* David Maennicke
