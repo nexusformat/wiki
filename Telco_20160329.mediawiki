@@ -16,3 +16,31 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 * AOB
 
 ==Minutes==
+
+Present: HJB, MK, TSR, EW, PJ, AF, AB
+
+====GIOTD (Github Issue of the Day)====
+
+Triggered progress on https://github.com/nexusformat/code/issues/414 which had been dropped.
+
+====Dectris JSON====
+Thankfully Andreas joined can could be convinced to present the system next time.
+
+====Metadata====
+Listing there seen as a good idea. Issue now created: https://github.com/nexusformat/definitions/issues/461
+
+====Landing Page====
+Waiting for Ray who is currently busy travelling.
+
+====cnxvalidate=====
+No further test reports so far. 
+
+====Next meeting====
+[[Telco 20160412]]
+
+====AOB=====
+NIAC and Code Camp to be announced for October in Copenhagen.
+
+HJB still working on MX/NeXus publication.
+
+Recent addition of flow charts for data rules in the manual are very well received.
