@@ -6,6 +6,8 @@ Currently we use Google Hangout as the technology, which works reasonably well f
 We aim to publish and agenda a few days in advance of the meetings. The link to the meeting should be put on the meeting page as well.
 
 === 2016 ===
+;April
+: [[Telco 20160412]] Tue, 12th April, 16:30 Copenhagen/Zurich/Berlin Time
 ;March
 : [[Telco 20160329]] Tue, 29th March, 16:30 Copenhagen/Zurich/Berlin Time
 : [[Telco 20160315]] Tue, 15th March, 16:30 Copenhagen/Zurich/Berlin Time
