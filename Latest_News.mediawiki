@@ -1,9 +1,12 @@
 ==2015==
-;November: [[Code Camp 2015]] 16th - 18th at DESY in Hamburg
+;October: [[NIAC2016]] will take place in Copenhagen 13th & 14th hosted by ESS, the three days before will be a Code Camp
+
+==2015==
+;November: [[Code Camp 2015]] happened 16th - 18th at DESY in Hamburg
 ;January: As a result of [[NIAC2014]] the [[NeXus Teleconferences]] are now open to the whole community. Dates and joining instructions are to be published on the wiki page.
 
 ==2014==
-;December: [[NIAC2014]] has happened. The [[NIAC2014_CodeCamp|Code Camp]] had a meeting with the HDF Group, butwas largely a preparation for the [[NIAC2014_Meeting|NIAC meeting]]. The NIAC elected new members and officers and there were many fruitful discussions. Important items and decisions are recorded in the [[NIAC2014_Meeting#Minutes|minutes]].
+;December: [[NIAC2014]] has happened. The [[NIAC2014_CodeCamp|Code Camp]] had a meeting with the HDF Group, but was largely a preparation for the [[NIAC2014_Meeting|NIAC meeting]]. The NIAC elected new members and officers and there were many fruitful discussions. Important items and decisions are recorded in the [[NIAC2014_Meeting#Minutes|minutes]].
 ;Wednesday, 2014-08-07: A [[NIAC2014|NeXus code camp]] has been planned for 15th / 17th December 2014 with a [[NIAC2014|NIAC]] meeting to follow on 18th / 19th December 2014.  This meeting has been scheduled apart from the [http://j-parc.jp/researcher/MatLife/en/meetings/nobugs2014 2014 NOBUGS conference] to accommodate travel permissions of a majority on the technical subcommittee.
 
 ==2012==
@@ -14,7 +17,7 @@ See [[NIAC#Meetings | NIAC: meetings]] for historical information about the NIAC
 ;Wednesday, March 6, 2012: Release candidates for NeXus 4.3 are now available from [[NeXus_43_Testing]]
 
 ==2010==
-;Thursday, October 21, 2010: NeXus Manual moved from the wiki to a [http://www.nexusformat.org/Documentation book format] (PDF & HTML are available).  The revised manual also documents the [http://download.nexusformat.org/doc/html/ClassDefinitions.html class definitions] in [http://download.nexusformat.org/doc/html/NXDL.html NXDL].  Content has been reorganized and divided into a volume containing the [http://download.nexusformat.org/doc/NeXusManual.pdf User Manual] and a volume containing the [http://download.nexusformat.org/doc/NeXusRefDoc.pdf Reference Documentation].  
+;Thursday, October 21, 2010: NeXus Manual moved from the wiki to a [http://www.nexusformat.org/Documentation book format] (PDF & HTML are available).  The revised manual also documents the [http://download.nexusformat.org/doc/html/ClassDefinitions.html class definitions] in [http://download.nexusformat.org/doc/html/NXDL.html NXDL].  Content has been reorganised and divided into a volume containing the [http://download.nexusformat.org/doc/NeXusManual.pdf User Manual] and a volume containing the [http://download.nexusformat.org/doc/NeXusRefDoc.pdf Reference Documentation].  
 
 :It is planned to release NXDL v1.0 next year.
 
