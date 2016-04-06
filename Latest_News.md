@@ -7,7 +7,7 @@ layout: wiki
 2015
 ----
 
-November: Code Camp planned for 16th - 18th at DESY in Hamburg. Watch this space for more information.  
+November: [Code Camp 2015](Code_Camp_2015 "wikilink") 16th - 18th at DESY in Hamburg  
 January: As a result of [NIAC2014](NIAC2014 "wikilink") the [NeXus Teleconferences](NeXus_Teleconferences "wikilink") are now open to the whole community. Dates and joining instructions are to be published on the wiki page.  
 
 2014
