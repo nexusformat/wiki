@@ -32,13 +32,13 @@ Listing there seen as a good idea. Issue now created: https://github.com/nexusfo
 ====Landing Page====
 Waiting for Ray who is currently busy travelling.
 
-====cnxvalidate=====
+====cnxvalidate====
 No further test reports so far. 
 
 ====Next meeting====
 [[Telco 20160412]]
 
-====AOB=====
+====AOB====
 NIAC and Code Camp to be announced for October in Copenhagen.
 
 HJB still working on MX/NeXus publication.
