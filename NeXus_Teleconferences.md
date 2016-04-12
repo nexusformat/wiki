@@ -20,10 +20,10 @@ link to the meeting should be put on the meeting page as well.
 ### 2016
 
 April  
-[Telco 20160412](Telco_20160412 "wikilink") Tue, 12th April, 16:30
+[Telco 20160426](Telco_20160426 "wikilink") Tue, 26th April, 16:30
 Copenhagen/Zurich/Berlin Time
 
-[Telco 20160426](Telco_20160426 "wikilink") Tue, 26th April, 16:30
+[Telco 20160412](Telco_20160412 "wikilink") Tue, 12th April, 16:30
 Copenhagen/Zurich/Berlin Time
 
 March  
