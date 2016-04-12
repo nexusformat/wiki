@@ -23,6 +23,9 @@ April
 [Telco 20160412](Telco_20160412 "wikilink") Tue, 12th April, 16:30
 Copenhagen/Zurich/Berlin Time
 
+[Telco 20160426](Telco_20160426 "wikilink") Tue, 26th April, 16:30
+Copenhagen/Zurich/Berlin Time
+
 March  
 [Telco 20160329](Telco_20160329 "wikilink") Tue, 29th March, 16:30
 Copenhagen/Zurich/Berlin Time
