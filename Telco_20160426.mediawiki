@@ -37,6 +37,8 @@ Some progress, but no demoable prototype. Ray will update at the Telco after the
 
 Compiled a rough list of imgCIF, CXI, Data Exchange, TIFF, EDF, plus things that are worse and more loosely defined.
 
+This was to list them in a overview slide in a presentation on NeXus.
+
 ===Research Projects===
 Dropped due to lack of time. Will attempt next time.
 
