@@ -10,6 +10,7 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 * github issue of the day - suggestions welcome (there is a github label now), otherwise we pick a random one
 * Dectris Eiger JSON format - Andreas to present
 * http://nexusformat.org main landing page update
+* list of competing standards
 * update on research projects
 * Next meeting
 * AOB
