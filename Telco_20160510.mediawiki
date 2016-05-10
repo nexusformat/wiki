@@ -14,5 +14,6 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 * items for NIAC
 * Next meeting
 * AOB
+** Minor NXData Change proposal. (Mark B) http://download.nexusformat.org/doc/html/classes/base_classes/NXdata.html
 
 ==Minutes==
