@@ -59,9 +59,9 @@ lists](http://download.nexusformat.org/doc/html/mailinglist.html)
 
 [Latest News](Latest_News "wikilink"):  
 
-:\*Upcoming meeting: Kind folks at DESY, Hamburg, Germany are planning
-to host a Code Camp from 16th-18th November 2015 [Code Camp
-2015](Code_Camp_2015 "wikilink")
+:\*Upcoming meeting: The 2016 plenary NIAC meeting and NeXus Code Camp
+is scheduled for October 2016 hosted by ESS:
+[NIAC2016](NIAC2016 "wikilink")
 
-:\*Most recent meeting: Advanced Photon Source (APS), Argonne, IL, USA,
-December 2014 - [NIAC'2014](NIAC2014 "wikilink")
+:\*Most recent meeting: Kind folks at DESY, Hamburg, Germany hosted a
+Code Camp November 2015: [Code Camp 2015](Code_Camp_2015 "wikilink")
