@@ -24,6 +24,7 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 * items for NIAC
 * Is a new graph of the base class hierarchy useful?  Used to be in the manual.
 ** see:  http://punx.readthedocs.io/en/latest/analyze.html
+** [https://github.com/prjemian/punx/issues/1 result of discussion]
 * Next meeting
 * AOB
 
