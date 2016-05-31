@@ -1,0 +1,18 @@
+==Date==
+
+Tuesday, 31st May, 16:30 Central European Summer Time (Copenhagen)
+
+Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+==Agenda==
+
+* Welcome and agree Agenda
+* github issue of the day - suggestions welcome (there is a github label now)
+* report from high data rate MX meeting at BNL
+* registering for NIAC and potential hotel shortage
+* items for NIAC
+* Look at graph of the base class hierarchy - http://punx.readthedocs.io/en/latest/analyze.html
+* Next meeting
+* AOB
+
+==Minutes==
