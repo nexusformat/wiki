@@ -14,7 +14,7 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 ** --code--
 ** #329 - can we remove the issue branch from the repository?
 ** #419 - still waiting on a response from Stuart where to install the header files
-** #420/421 - currently working on it
+** #420/421 - currently working on it (this work should be continued by the original author - the code is a total mess)
 ** #425 - done
 ** #426 - Maybe Tobias can have a look at it
 * release NAPI/tools with a fix for https://github.com/nexusformat/code/issues/414 - what else needs to go in?
