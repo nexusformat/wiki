@@ -12,7 +12,7 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 * report from high data rate MX meeting at BNL
 * registering for NIAC and potential hotel shortage
 * items for NIAC
-* Look at graph of the base class hierarchy - http://punx.readthedocs.io/en/latest/analyze.html
+* Look at graph of the base class hierarchy - http://punx.readthedocs.io/en/latest/source_code/analyze.html
 * Next meeting
 * AOB
 
