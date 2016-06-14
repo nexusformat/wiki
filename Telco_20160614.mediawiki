@@ -8,6 +8,7 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 
 * Welcome and agree Agenda
 * github issue of the day - suggestions welcome (there is a github label now)
+** [https://github.com/nexusformat/definitions/pull/475 PR #475]: add NXlog as child group of NXentry
 * report from high data rate MX meeting at BNL
 * registering for NIAC and potential hotel shortage
 * items for NIAC
