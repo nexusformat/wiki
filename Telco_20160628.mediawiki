@@ -8,6 +8,7 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 
 * Welcome and agree Agenda
 * github issue of the day - suggestions welcome (there is a github label now)
+** [https://github.com/nexusformat/definitions/pull/478 PR #478 (NXspec as contributed definition)]
 * items for NIAC (or code camp) to prepare
 * Next meeting
 * AOB
