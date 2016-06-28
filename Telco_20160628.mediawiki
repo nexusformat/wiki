@@ -13,5 +13,6 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 * Next meeting
 * AOB
 ** look at [http://download.nexusformat.org/doc/html/classes/index.html new text] in the manual
+88 phrase search the manual: [https://duckduckgo.com/?q=%22signal+data%22+site%3Ahttp%3A%2F%2Fdownload.nexusformat.org%2Fdoc%2Fhtml&t=ffsb&ia=web signal data]
 
 ==Minutes==
