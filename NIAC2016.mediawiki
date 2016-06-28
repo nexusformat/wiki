@@ -2,4 +2,6 @@ The 2016 plenary NIAC meeting and NeXus Code Camp is scheduled for October.
 Both meetings will take place in Copenhagen hosted by [https://europeanspallationsource.se/data-management-and-software-centre ESS]. 
 As usual the NIAC meeting is being held in conjunction and proximity with the [https://nobugs.esss.se/ NOBUGS] conference.
 
+Some planning for the upcoming NIAC meeting are registered as [https://github.com/nexusformat/NIAC/issues issues] in the [https://github.com/nexusformat/NIAC NIAC] repository on GitHub.
+
 Registration and Practical Information will be available  on the '''[https://indico.esss.lu.se/event/554/ external ESS indico event page]'''.
