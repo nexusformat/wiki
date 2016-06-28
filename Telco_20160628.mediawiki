@@ -12,6 +12,6 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 * items for NIAC (or code camp) to prepare
 * Next meeting
 * AOB
-** look at [http://download.nexusformat.org/doc/html/classes/index.html new text]
+** look at [http://download.nexusformat.org/doc/html/classes/index.html new text] in the manual
 
 ==Minutes==
