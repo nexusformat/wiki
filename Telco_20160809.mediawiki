@@ -28,7 +28,7 @@ Changes made to the tickets:
 https://github.com/nexusformat/NIAC/issues
 
 ===Next Meeting===
-[Telco 20160824]]
+[[Telco 20160824]]
 
 ===AOB===
 None
