@@ -14,3 +14,21 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 * AOB
 
 ==Minutes==
+
+Present: EW, MK, AB, TSR, HJB (last half)
+
+===Github===
+C++ API broken for non-HDF5 - TSR hopefully has time to address that soon
+
+===dimensions data type===
+All API calls consuming data dimensions have a 64 bit version already (ex: nxputslab64). Except possibly the ones dealing with attribute arrays. No action required.
+
+===NIAC===
+Changes made to the tickets:
+https://github.com/nexusformat/NIAC/issues
+
+===Next Meeting===
+[Telco 20160824]]
+
+===AOB===
+None
