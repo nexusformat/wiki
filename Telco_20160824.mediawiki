@@ -16,7 +16,8 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 * AOB
 
 ==Minutes==
- Present: EW, HJB, TSR, MK, FAA, AB
+ 
+Present: EW, HJB, TSR, MK, FAA, AB
 
 ===Github and NAPI update===
 Nothing flagged. The longer running problem with the C++ API for the legacy backends is (mostly) resolved and Mantid would like an update release. Eugen will attempt to schedule that for next week,
