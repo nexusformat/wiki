@@ -37,4 +37,4 @@ Meeting in Basel is on the 2nd at 9:00 in room 102. HJB is in charge of the sand
 RDA: There was a sort of survey by THG send round to RDA people on the use of "hdf5 in the wild". Forwarded to the committee mailing list.
 
 ===Next Meeting===
-[[Telco 2016907]]
+[[Telco 20160907]]
