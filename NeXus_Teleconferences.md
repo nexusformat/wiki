@@ -20,6 +20,9 @@ link to the meeting should be put on the meeting page as well.
 ### 2016
 
 September  
+[Telco 20160928](Telco_20160928 "wikilink") Wed, 28th September, 16:30
+Copenhagen/Zurich/Berlin Time
+
 [Telco 20160907](Telco_20160907 "wikilink") Wed, 7th September, 16:30
 Copenhagen/Zurich/Berlin Time
 
