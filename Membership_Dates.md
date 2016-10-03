@@ -12,14 +12,10 @@ stated in the [constitution](NIAC "wikilink").
 ### Expire September 12, 2016
 
 -   Jens-Uwe Hoffman - Helmholtz-Zentrum, Germany
--   Pete Jemian - APS, ANL, USA
 
 ### Expire September 27, 2016
 
--   Mark Koennecke - SINQ, Switzerland
--   Jiro Suzuki - J-PARC, Japan
 -   Stephen Cottrell - ISIS Pulsed Muon Facility, UK
--   Ben Watts - Swiss Light Source, Switzerland
 
 ### Expire October 24, 2016
 
@@ -52,4 +48,11 @@ stated in the [constitution](NIAC "wikilink").
 
 -   Herbert Bernstein
 -   David Maennicke
+
+### Expire October 2019
+
+-   Pete Jemian - APS, USA
+-   Jiro Suzuki - J-Parc, Japan
+-   Benjamin Watts - Swiss Light Source-PSI, Switzerland
+-   Mark Könnecke - SINQ, Switzerland
 
