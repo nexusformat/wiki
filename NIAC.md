@@ -24,8 +24,8 @@ You may contact the NIAC by sending an email to
     Appleton Laboratory, UK (Muon Representative)
 -   [Mathieu Doucet](User%3AMathieu_Doucet "wikilink"), SNS and HFIR at
     ORNL, USA
--   [Claudio Ferrero](User%3AClaudio_Ferrero "wikilink"), European
-    Synchrotron Radiation Facility, France
+-   [Armando Sole](User%3AArmando_Sole "wikilink"), European Synchrotron
+    Radiation Facility, France
 -   [Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann "wikilink"), Helmholtz
     Zentrum Berlin, Germany
 -   [Pete Jemian](User%3APete_Jemian "wikilink"), Advanced Photon
@@ -43,8 +43,6 @@ You may contact the NIAC by sending an email to
     Source, Switzerland
 -   [Eugen Wintersberger](User%3AEugenwintersberger "wikilink"), DESY,
     Germany (Technical Manager)
--   [Joachim Wuttke](User%3AJoachim_Wuttke "wikilink"), FRM II and JCNS,
-    Germany
 
 The [expiration dates](Membership_Dates "wikilink") for the various
 members.
