@@ -13,10 +13,6 @@ stated in the [constitution](NIAC "wikilink").
 
 -   Jens-Uwe Hoffman - Helmholtz-Zentrum, Germany
 
-### Expire September 27, 2016
-
--   Stephen Cottrell - ISIS Pulsed Muon Facility, UK
-
 ### Expire October 24, 2016
 
 -   Ray Osborn - Argonne National Lab - non-facility member, USA
