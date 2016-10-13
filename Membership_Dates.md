@@ -52,3 +52,9 @@ stated in the [constitution](NIAC "wikilink").
 -   Benjamin Watts - Swiss Light Source-PSI, Switzerland
 -   Mark Könnecke - SINQ, Switzerland
 
+### Expire November 2019
+
+-   Stephen Cottrell - ISIS Pulsed Muon Facility, UK
+-   Armando Sole - European Synchrotron Radiation Facility
+-   Ray Osborn - Argonne National Laboratory
+
