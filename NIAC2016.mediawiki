@@ -9,4 +9,4 @@ Topics for the upcoming NIAC meeting are registered as [https://github.com/nexus
 
 Registration and Practical Information will be available  on the '''[https://indico.esss.lu.se/event/554/ external ESS indico event page]'''.
 
-Here are the [[File:NIACminutes.pdf|minutes]] of NIAC 2016
+Here are the [[File:NIACMinutes.pdf|minutes]] of NIAC 2016
