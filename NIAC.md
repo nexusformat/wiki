@@ -144,7 +144,7 @@ Meetings
 --------
 
 -   [NIAC 2016](NIAC2016 "wikilink") NeXus Code Camp and NIAC Meeting,
-    hosted by ESS, Copenhagen, Denmark, October 2016 -- **upcoming**
+    hosted by ESS, Copenhagen, Denmark, October 2016
 -   [Code Camp 2015](Code_Camp_2015 "wikilink") NeXus Code Camp, hosted
     by DESY, Hamburg, Germany, November 2015
 -   [NIAC 2014](NIAC2014 "wikilink") NeXus Code Camp and NIAC Meeting,
