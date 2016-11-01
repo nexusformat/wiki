@@ -1,0 +1,15 @@
+==Date==
+
+Wednesday, 16th November, 16:30 Central European Summer Time (Copenhagen)
+
+Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+==Agenda==
+
+* Welcome and agree Agenda
+* github issue of the day
+* Discuss topics from code camp and NIAC meeting, check minutes
+* web site redesign - future of wiki
+* AOB
+
+==Minutes==
