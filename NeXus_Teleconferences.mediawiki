@@ -9,7 +9,7 @@ We aim to publish and agenda a few days in advance of the meetings. The link to 
 ;November
 : [[Telco 20161116]] Wed, 16th November, 16:30 Copenhagen/Zurich/Berlin Time
 ;October
-[[NIAC2016]]
+:[[NIAC2016]]
 ;September
 : [[Telco 20160928]] Wed, 28th September, 16:30 Copenhagen/Zurich/Berlin Time
 : [[Telco 20160907]] Wed, 7th September, 16:30 Copenhagen/Zurich/Berlin Time

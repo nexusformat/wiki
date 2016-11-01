@@ -24,7 +24,6 @@ November
 Copenhagen/Zurich/Berlin Time
 
 October  
-
 [NIAC2016](NIAC2016 "wikilink")
 
 September  
