@@ -8,6 +8,7 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 * Welcome and agree Agenda
 * github issue of the day
 * Discuss topics from code camp and NIAC meeting, check minutes
+* pixel as NX_length
 * web site redesign - future of wiki
 * AOB
 
