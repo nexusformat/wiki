@@ -8,6 +8,9 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 
 * Welcome and agree Agenda
 * github issue of the day
+** [https://github.com/nexusformat/definitions/issues/451 add NXDL_contact attribute]
+** [https://github.com/nexusformat/definitions/issues/330 remove unused attributes]
+** [https://github.com/nexusformat/definitions/issues/277 make distinction between required and optional content in manual]
 * Discuss topics from code camp and NIAC meeting, check minutes
 * pixel as NX_length
 * web site redesign - future of wiki
