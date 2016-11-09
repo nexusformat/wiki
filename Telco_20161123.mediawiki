@@ -1,4 +1,4 @@
-==Date==
+<==Date==
 
 Wednesday, 16th November, 16:30 Brussels Time
 
@@ -14,6 +14,7 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 * Discuss topics from code camp and NIAC meeting, check minutes
 * pixel as NX_length
 * web site redesign - future of wiki
+* Can we rename the <tt>uncertainties</tt> attribute (such as in NXdata) to be the singular <tt>uncertainty</tt>?
 * AOB
 
 ==Minutes==
