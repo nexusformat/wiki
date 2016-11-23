@@ -1,0 +1,17 @@
+==Date==
+
+Wednesday, 23rd November, 16:30 Brussels Time
+
+Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+==Agenda==
+
+* Welcome and agree Agenda
+* github issue of the day
+* pixel as NX_length update
+* web site redesign - future of wiki
+* Can we rename the <tt>uncertainties</tt> attribute (such as in NXdata) to be the singular <tt>uncertainty</tt>?
+* update on features or interfaces
+* AOB
+
+==Minutes==
