@@ -7,12 +7,13 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 ==Agenda==
 
 * Welcome and agree Agenda
+* Discuss topics from code camp and NIAC meeting, check minutes
+** Here are the [[File:NIACMinutes.pdf|minutes]] of NIAC 2016
 * github issue of the day
 ** [https://github.com/nexusformat/definitions/pull/496 Pull Request: NXdata is now optional, as of NIAC2016]
 ** [https://github.com/nexusformat/definitions/issues/451 add NXDL_contact attribute]
 ** [https://github.com/nexusformat/definitions/issues/330 remove unused attributes]
 ** [https://github.com/nexusformat/definitions/issues/277 make distinction between required and optional content in manual]
-* Discuss topics from code camp and NIAC meeting, check minutes
 * pixel as NX_length
 * web site redesign - future of wiki
 * Can we rename the <tt>uncertainties</tt> attribute (such as in NXdata) to be the singular <tt>uncertainty</tt>?
