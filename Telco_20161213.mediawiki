@@ -10,7 +10,9 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 * github issue of the day
 * pixel as NX_length update
 * web site redesign - future of wiki
-* Can we rename the <tt>uncertainties</tt> attribute (such as in NXdata) to be the singular <tt>uncertainty</tt>?
+* The <tt>uncertainties</tt> attribute (such as in NXdata and NXcanSAS):
+** Can we rename to be the singular <tt>uncertainty</tt>?
+** Can we add this to <tt>nxdl.xsd</tt> as a common attribute of any dataset (such as <tt>units</tt>)?
 * update on features or interfaces
 * AOB
 
