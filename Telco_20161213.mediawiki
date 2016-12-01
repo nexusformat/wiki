@@ -17,6 +17,7 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 ** Can we add this to <tt>fieldType</tt> in <tt>nxdl.xsd</tt> as a [https://github.com/nexusformat/definitions/blob/master/nxdl.xsd#L578 common attribute of any field] (such as [https://github.com/nexusformat/definitions/blob/master/nxdl.xsd#L599 <tt>units</tt>])?
 ** What to do about [https://github.com/nexusformat/definitions/issues/370 this issue (#370)?]
 * update on features or interfaces
+* note we now have [https://github.com/nexusformat/definitions/issues/512 unit testing of NXDL files] and [https://github.com/nexusformat/definitions/issues/513 travis-ci] on all pushes
 * AOB
 
 ==Minutes==
