@@ -10,8 +10,9 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 * github issue of the day
 ** [https://github.com/nexusformat/definitions/issues/433 #433: can this be closed?]
 ** [https://github.com/nexusformat/definitions/issues/425 #425: can close when 433 closes]
-* [https://github.com/nexusformat/definitions/issues/511 #511: pixel as NX_length update]
-* [https://github.com/nexusformat/definitions/issues/486 #486: web site redesign] - future of wiki
+** [https://github.com/nexusformat/definitions/issues/511 #511: pixel as NX_length update]
+** [https://github.com/nexusformat/definitions/issues/486 #486: web site redesign] 
+* Future of wiki
 * The [http://wiki.nexusformat.org/2014_axes_and_uncertainties <tt>uncertainties</tt> attribute] (such as in [https://github.com/nexusformat/definitions/blob/master/base_classes/NXdata.nxdl.xml#L325 NXdata] and [https://github.com/nexusformat/definitions/blob/NXcansas-492/applications/NXcanSAS.nxdl.xml#L424 NXcanSAS]):
 ** Can we rename to be the singular <tt>uncertainty</tt>?
 ** Can we add this to <tt>fieldType</tt> in <tt>nxdl.xsd</tt> as a [https://github.com/nexusformat/definitions/blob/master/nxdl.xsd#L578 common attribute of any field] (such as [https://github.com/nexusformat/definitions/blob/master/nxdl.xsd#L599 <tt>units</tt>])?
@@ -21,3 +22,26 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 * AOB
 
 ==Minutes==
+
+Present: AB (first half), HJB, MK, PJ, RO, EW, TSR
+
+===Github===
+====433====
+New Ticket for the remaining work on NXatom_site opened, this one closed.
+====425====
+Done, closed.
+====511====
+Decided for "px" as "unit". Should be allowed for detectors only. Herbert makes a branch to test this out.
+====486====
+There were some problems getting the test site to compile. Those are resolved. By the next meeting Pete and Ray think they can have a test site up to demonstrate the plans for the new home page.
+===Wiki===
+If we move having the main website on new foundations, dropping the wiki has consensus. The main content this is kept up to date there is the NIAC related information and these minutes. No collaborative editing by community members is happening. Even for that the workflow would be sensible through github pull requests. Maintaining pages on a low traffic wiki is more difficult than working with a repo.
+===uncertainties===
+According to the decision by the NIAC this is allowed everywhere. A plural vs singular change was no longer requested. 
+canSAS works on a "resolution" field and will come up with a full example that would inform the documentation of this feature.
+===interfaces vs features===
+Progress is made, nothing to show at the moment.
+===Next meeting===
+[[Telco 20170117]]
+===AOB===
+Travis now texts the nxdl commits to the definitions repo (broken shortly after the meeting, by work on ticket 511, expect operations to resume shortly).
