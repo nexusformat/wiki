@@ -1,0 +1,17 @@
+==Date==
+
+Tuesday, 17th January, 16:30 Brussels Time
+
+Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+==Agenda==
+
+* Welcome and agree Agenda
+* github issue of the day
+* [https://github.com/nexusformat/definitions/issues/511 #511: pixel as NX_length update] look at work in branch
+* [https://github.com/nexusformat/definitions/issues/486 #486: web site redesign] demo planned
+* <tt>uncertainties</tt> example ready?
+* update on features or interfaces
+* AOB
+
+==Minutes==
