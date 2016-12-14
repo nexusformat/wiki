@@ -9,8 +9,16 @@ Tobias Richter
 
 NIAC Chair & Representative for the European Spallation Source
 
-Address: DMSC filial of European Spallation Source ESS AB  
-Universitetsparken 5, 2100 Copenhagen, Denmark
+Address:  
+Data Management and Software Centre
+
+European Spallation Source ERIC
+
+Ole Maaløes Vej 3
+
+2200 Copenhagen
+
+Denmark
 
 <!-- -->
 
