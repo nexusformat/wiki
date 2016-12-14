@@ -17,6 +17,12 @@ page below.
 We aim to publish and agenda a few days in advance of the meetings. The
 link to the meeting should be put on the meeting page as well.
 
+### 2017
+
+January  
+\[\[Telco 20170117\] Tue, 17th January, 16:30 Copenhagen/Zurich/Berlin
+Time
+
 ### 2016
 
 December  
