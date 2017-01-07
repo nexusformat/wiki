@@ -10,6 +10,7 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 * github issue of the day
 * [https://github.com/nexusformat/definitions/issues/511 #511: pixel as NX_length update] look at work in branch
 * [https://github.com/nexusformat/definitions/issues/486 #486: web site redesign] demo planned
+* [https://github.com/nexusformat/definitions/pull/527 PR #527] clarify if item (group, field, or attribute) is required or optional
 * <tt>uncertainties</tt> example ready?
 * update on features or interfaces
 * AOB
