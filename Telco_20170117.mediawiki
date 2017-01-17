@@ -7,14 +7,20 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 ==Agenda==
 
 * Welcome and agree Agenda
-* github issue of the day
-* [https://github.com/nexusformat/definitions/issues/511 #511: pixel as NX_length update] look at work in branch
-* [https://github.com/nexusformat/definitions/issues/486 #486: web site redesign] demo planned
 * [https://github.com/nexusformat/definitions/pull/527 PR #527] clarify if item (group, field, or attribute) is required or optional ([https://github.com/nexusformat/NIAC/issues/21#issuecomment-271126282 examples])
 * [https://github.com/nexusformat/definitions/pull/529/commits PR #529] update copyright dates to 2017
 * <tt>uncertainties</tt> example ready?
 ** [https://github.com/nexusformat/NIAC/issues/21#issuecomment-271126894 two examples]: Diamond and APS both have NXcanSAS files using <tt>@uncertainties</tt>
-* update on features or interfaces
 * AOB
 
 ==Minutes==
+
+Present: TSR, RO, MK, PJ
+
+Pull requests accepted and closed.
+
+Ticket opened for clarifying status of "anonymous" groups (without a specific required name) in the documentation. That is currently rendered as "(name)" without the qoutes, which is not obvious.
+
+Examples for uncertainties: Well received, except for the units 1/A for 1/Angstroms, which will require further discussions. We will need to update the documentation and NXDL to formally allow uncertainties.
+
+AOB: Ray suggests we are present at the RDA meeting and remote-data-pre-meeting in Barcelona in April. He will provide links via mail. "LInks to RDA" set on the agenda for next time.
