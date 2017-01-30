@@ -25,7 +25,27 @@ Present: EW, AB, HJB, MB, MK, TSR
 Aaron will have a closer look to make sure this is sane.
 
 ===486===
-No show by Ray. But we agreed moving the wiki out of mediawiki into jekylls hands. Tobias will work with Freddie.
+No show by Ray. But we agreed moving the wiki out of mediawiki into jekylls hands. Tobias will work with Freddie to extract the content.
+
+===177===
+Tobias accidentally deleted NXcharacterization in a failed attempt to generate a pull request. No objections.
+
+===features and interfaces===
+Deferred
+
+===HDRMX Lund meeting===
+Herbert invited all interested parties to attend. Mark K suggested it is a fun meeting from the Basel experience. Tobias will attend.
+
+===RDA===
+Someone from Diamond will attend the Alba satellite meeting. Mark K supports the idea a few people from the NeXus community should go. He'll look into that, as will Tobias.
+
+===Voting===
+Some of the recent online votes carried a clear majority of the votes cast, but have failed to reach a quorum of votes from the eligible members. The constitution does not see that as a problem explicitly, but it would be nice if that was formally permitted. We'll bring that up at the next NIAC.
+
+==Next meeting===
+[[Telco 20170220]]
+
+===AOB===
 
 Mark B has an example file for the NXevent_data for interested people to look at:
 https://hangouts.google.com/hangouts/redirect?dest=https%3A%2F%2Fdrive.google.com%2Fopen%3Fid%3D0B8BtsLXcNIF3clBPbFlZNVpKTjg
