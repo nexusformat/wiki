@@ -12,6 +12,7 @@ Hangout Link: https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
 * [https://github.com/nexusformat/definitions/issues/486 #486: web site redesign] demo planned - wiki replacement?
 * [https://github.com/nexusformat/definitions/issues/177 #177: delete NXcharacterization base class] as suggested on Jul 28, 2015
 * update on features or interfaces
+* HDRMX Lund meeting
 * links to RDA
 * Membership vote
 * AOB
