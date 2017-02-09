@@ -22,8 +22,8 @@ You may contact the NIAC by sending an email to
     National Laboratory, USA
 -   [Stephen Cottrell](User%3ASteve_Cottrell "wikilink"), Rutherford
     Appleton Laboratory, UK (Muon Representative)
--   [Mathieu Doucet](User%3AMathieu_Doucet "wikilink"), SNS and HFIR at
-    ORNL, USA
+-   [ Ricardo Ferraz-Laval](User%3A_Ricardo_Ferraz-Laval "wikilink"),
+    SNS and HFIR at ORNL, USA
 -   [Armando Sole](User%3AArmando_Sole "wikilink"), European Synchrotron
     Radiation Facility, France
 -   [Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann "wikilink"), Helmholtz
@@ -43,6 +43,8 @@ You may contact the NIAC by sending an email to
     Source, Switzerland
 -   [Eugen Wintersberger](User%3AEugenwintersberger "wikilink"), DESY,
     Germany (Technical Manager)
+-   [Stuart Campbell](User%3AStuart_Campbell "wikilink"), Brookhaven
+    National Laboratory/NSLS-2, USA
 
 The [expiration dates](Membership_Dates "wikilink") for the various
 members.
