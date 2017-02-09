@@ -49,3 +49,9 @@ stated in the [constitution](NIAC "wikilink").
 -   Armando Sole - European Synchrotron Radiation Facility
 -   Ray Osborn - Argonne National Laboratory
 
+### Expire January 2020
+
+-   Ricardo Ferraz-Laval, ORNL, USA
+-   Jens Uwe Hoffmann, HZB, Germany
+-   Stuart Campbell, BNL/NSLS-2, USA
+
