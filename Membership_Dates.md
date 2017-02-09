@@ -9,10 +9,6 @@ listed below. If a member wishes to be renewed, they must provide a
 letter of support from the facility and be approved by the NIAC as
 stated in the [constitution](NIAC "wikilink").
 
-### Expire September 12, 2016
-
--   Jens-Uwe Hoffman - Helmholtz-Zentrum, Germany
-
 ### Expire October 24, 2016
 
 -   Ray Osborn - Argonne National Lab - non-facility member, USA
