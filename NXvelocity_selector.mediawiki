@@ -1,1 +1,0 @@
-<nxformat file="NXvelocity_selector.xml"></nxformat>

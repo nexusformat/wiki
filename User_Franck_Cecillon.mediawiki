@@ -1,8 +1,0 @@
-==Franck Cecillon==
-===Software Engineer, Instrument Control Service===
-;Address:Institut Laue Langevin
-:Grenoble Cedex, France
-
-;Phone:+33
-;Fax: +33
-;Email: [mailto:cecillon@ill.fr cecillon@ill.fr]

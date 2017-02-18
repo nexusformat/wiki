@@ -1,7 +1,0 @@
-==NeXus Instrument/Base Class Definitions==
-* [https://github.com/nexusformat/definitions/issues View current issues]
-* [https://github.com/nexusformat/definitions/pulse Timeline (recent changes and ticket activitiy)]
-
-==NeXus Library and Applications==
-* [https://github.com/nexusformat/code/issues View current issues]
-* [https://github.com/nexusformat/code/pulse Timeline (recent changes and ticket activitiy)]

@@ -1,9 +1,0 @@
-==Matthias Drochner==
-===Member, NeXus International Advisory Committee===
-;Address:FZ Juelich / ZEL
-:D-52425 Juelich
-:Germany
-
-;Phone:+49 (2461) 61-6276
-;Fax: +49 (2461) 61-3573
-;Email: [mailto:M.Drochner@fz-juelich.de M.Drochner@fz-juelich.de]

@@ -1,9 +1,0 @@
-===Member, NeXus International Advisory Committee===
-;Address:Bragg Institute
-:B82
-:PMB 1, Menai
-:NSW, 2234. Australia
-
-;Phone:+61 2-9717-9474
-;Fax: +61 2-97173606
-;Email: [mailto:Nick.Hauser@ansto.gov.au Nick.Hauser@ansto.gov.au]

@@ -1,1 +1,0 @@
-<nxformat file="NXroot.xml"></nxformat>

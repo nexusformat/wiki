@@ -1,2 +1,0 @@
-For information on using NXgeometry see [[Coordinate_Systems]] 
-<nxformat file="NXgeometry.xml"></nxformat>

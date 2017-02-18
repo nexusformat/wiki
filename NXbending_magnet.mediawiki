@@ -1,1 +1,0 @@
-<nxformat file="NXbending_magnet.xml"></nxformat>

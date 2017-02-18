@@ -1,1 +1,0 @@
-<nxformat file="NXbeam_stop.xml"></nxformat>
