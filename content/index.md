@@ -1,7 +1,7 @@
 ---
 title: Main Page
 permalink: index.html
-layout: wiki
+layout: page
 ---
 
 NeXus is a common data format for neutron, x-ray, and muon science. It
