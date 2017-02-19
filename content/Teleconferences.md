@@ -131,14 +131,13 @@ BST
 
 August  
 [Telco 20150827](Telco_20150827.html "wikilink") Thu, 27th August, 16:00 BST
--- the new default time.
 
-[Telco 20150811](Telco_20150811.html "wikilink") Tue, 11th August, **16:00
-BST**
+[Telco 20150811](Telco_20150811.html "wikilink") Tue, 11th August, 16:00
+BST
 
 July  
-[Telco 20150728](Telco_20150728.html "wikilink") Tue, 28th July, **16:00
-BST**
+[Telco 20150728](Telco_20150728.html "wikilink") Tue, 28th July, 16:00
+BST
 
 [Telco 20150715](Telco_20150715.html "wikilink") Wed, 15th July, 12:00 BST
 
