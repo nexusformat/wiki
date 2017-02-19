@@ -19,14 +19,14 @@ You may contact the NIAC by sending an email to
 -   [Stuart Campbell](User%3AStuart_Campbell.html "wikilink"), Brookhaven National Laboratory/NSLS-2, USA
 -   [Bjorn Clausen](User%3ABjorn_Clausen.html "wikilink"), Los Alamos National Laboratory, USA
 -   [Stephen Cottrell](User%3ASteve_Cottrell.html "wikilink"), Rutherford Appleton Laboratory, UK (Muon Representative)
--   [ Ricardo Ferraz-Laval](User%3A_Ricardo_Ferraz-Laval.html "wikilink"), SNS and HFIR at ORNL, USA
--   [Armando Sole](User%3AArmando_Sole.html "wikilink"), European Synchrotron Radiation Facility, France
+-   [Ricardo Ferraz-Laval](User%3A_Ricardo_Ferraz-Laval.html "wikilink"), SNS and HFIR at ORNL, USA
 -   [Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann.html "wikilink"), Helmholtz Zentrum Berlin, Germany
 -   [Pete Jemian](User%3APete_Jemian.html "wikilink"), Advanced Photon Source, USA (Documentation Release Manager)
 -   [Mark Könnecke](User%3AMark_Koennecke.html "wikilink"), Paul Scherrer Institut, Switzerland (Executive Secretary)
 -   [David Männicke](User%3ADavid_Männicke.html "wikilink"), Australian Nuclear Science and Technology Organisation, Australia
 -   [Raymond Osborn](User%3ARay_Osborn.html "wikilink"), Argonne National Laboratory, USA
 -   [Tobias Richter](User%3ATobias_Richter.html "wikilink"), European Spallation Source, Scandinavia (Chair)
+-   [Armando Sole](User%3AArmando_Sole.html "wikilink"), European Synchrotron Radiation Facility, France
 -   [Jiro Suzuki](User%3AJiro_Suzuki.html "wikilink"), KEK, Japan
 -   [Benjamin Watts](http://www.psi.ch/lsc/benjamin-watts), Swiss Light Source, Switzerland
 -   [Eugen Wintersberger](User%3AEugenwintersberger.html "wikilink"), DESY, Germany (Technical Manager)
