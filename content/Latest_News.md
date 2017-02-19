@@ -7,7 +7,7 @@ layout: wiki
 2016
 ----
 
-October: [NIAC2016](NIAC2016.html "wikilink") will take place in Copenhagen 13th & 14th hosted by ESS, the three days before will be a Code Camp  
+October: [NIAC2016](NIAC2016.html "wikilink") took place in Copenhagen 13th & 14th hosted by ESS, on the three days before we had be a Code Camp.
 
 2015
 ----
@@ -24,7 +24,7 @@ Wednesday, 2014-08-07: A [NeXus code camp](NIAC2014.html "wikilink") has been pl
 2012
 ----
 
-Monday, July 23, 2012: A [NeXus code camp](NIAC2012.html "wikilink") has been planned for 18th / 19th September 2012 with a [NIAC](NIAC2012.html "wikilink") meeting to follow on 20th / 21th September 2012. These meetings are the week before the [NoBugs conference](http://www.nobugsconference.org/Conferences) on 24th-26th September 2012  
+A [NeXus code camp](NIAC2012.html "wikilink") happened 18th / 19th September 2012 with a [NIAC](NIAC2012.html "wikilink") meeting to follow on 20th / 21th September 2012. These meetings are the week before the [NOBUGS conference](http://www.nobugsconference.org/Conferences) on 24th-26th September 2012  
 
 See [ NIAC: meetings](NIAC#Meetings.html "wikilink") for historical
 information about the NIAC meetings and Code Camps.
