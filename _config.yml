@@ -1,0 +1,20 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            NeXus
+tagline:          'A common data format for neutron, x-ray and muon science'
+description:      'NeXus is developed as an international standard by scientists and programmers representing major scientific facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the analysis and visualization of neutron, x-ray, and muon data.'
+url:              http://wiki.nexusformat.org
+baseurl:          /wiki/
+
+author:
+  name:           'NIAC'
+  url:            https://github.com/nexusformat
+
+github:
+  repo:           https://github.com/nexusformat
