@@ -12,56 +12,48 @@ neutron, x-ray, and muon data.
 
 Home page:  
 
-:\***[<http://www.nexusformat.org>](http://www.nexusformat.org)**.
+* [<http://www.nexusformat.org>](http://www.nexusformat.org)
 
 Documentation:  
 
-:\*[User
-Manual](http://download.nexusformat.org/doc/html/user_manual.html):
+* [User Manual](http://download.nexusformat.org/doc/html/user_manual.html):
 
-:\*\*[Introduction](http://download.nexusformat.org/doc/html/introduction.html)
+  * [Introduction](http://download.nexusformat.org/doc/html/introduction.html)
 to the concepts behind the NeXus data format
 
-\*\*[Design](http://download.nexusformat.org/doc/html/design.html): The hierarchical design of NeXus files.  
+  * [Design](http://download.nexusformat.org/doc/html/design.html): The hierarchical design of NeXus files.  
 
-:\*\*[FAQ](http://download.nexusformat.org/doc/html/faq.html): Commonly
+  * [FAQ](http://download.nexusformat.org/doc/html/faq.html): Commonly
 asked questions about NeXus.
 
-:\*[Reference](http://download.nexusformat.org/doc/html/classes/index.html):
+* [Reference](http://download.nexusformat.org/doc/html/classes/index.html):
 Base classes and application definitions
 
-:\*\*[Utilities](http://download.nexusformat.org/doc/html/utilities.html):
+* [Utilities](http://download.nexusformat.org/doc/html/utilities.html):
 Software applications that browse, plot, and analyze NeXus data
 
-:\*[Facilities](Facilities.html "wikilink") using NeXus
+* [Facilities](Facilities.html "wikilink") using NeXus
 
 Downloads:  
 
-:\*[Downloads](Download.html "wikilink") NeXus API library (NAPI) and
+* [Downloads](Download.html "wikilink") NeXus API library (NAPI) and
 applications
 
-:\*[Install kits](http://download.nexusformat.org/kits/definitions/) for
+* [Install kits](http://download.nexusformat.org/kits/definitions/) for
 documentation and NXDL
 
 Discussion and Development:  
 
-:\*[Tele Conferences](NeXus_Teleconferences.html "wikilink") regular update
+* [Tele Conferences](NeXus_Teleconferences.html "wikilink") regular update
 meetings
 
-:\*[Bug / issue reporting](IssueReporting.html "wikilink")
+* [Bug / issue reporting](IssueReporting.html "wikilink")
 
-:\*[Mailing
-lists](http://download.nexusformat.org/doc/html/mailinglist.html)
+* [Mailing lists](http://download.nexusformat.org/doc/html/mailinglist.html)
 
-:\*[Discussion forum](Discussions.html "wikilink") in this wiki
+* [Discussion forum](Discussions.html "wikilink") in this wiki
 
-:\*[NeXus International Advisory Committee](NIAC.html "wikilink")
+* [NeXus International Advisory Committee](NIAC.html "wikilink")
 
-[Latest News](Latest_News.html "wikilink"):  
+* [Latest News](Latest_News.html "wikilink")
 
-:\*Upcoming meeting: The 2016 plenary NIAC meeting and NeXus Code Camp
-is scheduled for October 2016 hosted by ESS:
-[NIAC2016](NIAC2016.html "wikilink")
-
-:\*Most recent meeting: Kind folks at DESY, Hamburg, Germany hosted a
-Code Camp November 2015: [Code Camp 2015](Code_Camp_2015.html "wikilink")
