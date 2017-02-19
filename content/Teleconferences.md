@@ -1,5 +1,6 @@
 ---
-title: NeXus Teleconferences
+title: Teleconferences
+permalink: Teleconferences.html
 layout: wiki
 ---
 

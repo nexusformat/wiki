@@ -13,7 +13,7 @@ October: [NIAC2016](NIAC2016.html "wikilink") will take place in Copenhagen 13th
 ----
 
 November: [Code Camp 2015](Code_Camp_2015.html "wikilink") happened 16th - 18th at DESY in Hamburg  
-January: As a result of [NIAC2014](NIAC2014.html "wikilink") the [NeXus Teleconferences](NeXus_Teleconferences.html "wikilink") are now open to the whole community. Dates and joining instructions are to be published on the wiki page.  
+January: As a result of [NIAC2014](NIAC2014.html "wikilink") the [Teleconferences](Teleconferences.html "wikilink") are now open to the whole community. Dates and joining instructions are to be published on the wiki page.  
 
 2014
 ----

@@ -44,10 +44,10 @@ documentation and NXDL
 
 Discussion and Development:  
 
-* [Tele Conferences](NeXus_Teleconferences.html "wikilink") regular update
+* [Tele Conferences](Teleconferences.html "wikilink") regular update
 meetings
 
-* [Bug / issue reporting](IssueReporting.html "wikilink")
+* [Bug / Issue Reporting](IssueReporting.html "wikilink")
 
 * [Mailing lists](http://download.nexusformat.org/doc/html/mailinglist.html)
 
