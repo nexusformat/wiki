@@ -1,13 +1,13 @@
 ---
 title: NIAC2014 CodeCamp
-permalink: NIAC2014_CodeCamp/
+permalink: NIAC2014_CodeCamp.html
 layout: wiki
 ---
 
 The code camp allows existing NeXus developers to meet and work together
 on developing software or resolving particular NeXus design issues.
 
-See [NIAC2014](NIAC2014 "wikilink") for administrative details about
+See [NIAC2014](NIAC2014.html "wikilink") for administrative details about
 this meeting.
 
 Planned Schedule (subject to change)
@@ -25,7 +25,7 @@ Walk through
 -   [Issues](https://github.com/nexusformat/definitions/issues) posted
     on the [NeXus GitHub](https://github.com/nexusformat) repository
 -   Proposals and other topics listed on the
-    [Discussions](Discussions "wikilink") page
+    [Discussions](Discussions.html "wikilink") page
 -   Close issues that are of minor importance and not of particular
     concern to anybody and not likely to be resolved any soon.
 
@@ -41,9 +41,9 @@ Choose topics from the preliminary list below:
             [\#266](https://github.com/nexusformat/definitions/issues/266):
             implement difference in rules between base classes and
             application definitions
-    -   Discuss [NeXus interfaces](Objects_or_Interfaces "wikilink")
+    -   Discuss [NeXus interfaces](Objects_or_Interfaces.html "wikilink")
     -   [How to avoid name clashes during future extensions of the Nexus
-        standard](How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard "wikilink")
+        standard](How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard.html "wikilink")
     -   Optional contents in application definitions?
     -   Discuss lightweight tags versus application definitions
     -   Rules for multi file NeXus files

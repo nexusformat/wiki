@@ -1,11 +1,11 @@
 ---
 title: Monochromatic Neutron and X-ray Reflectometry
-permalink: Monochromatic_Neutron_and_X-ray_Reflectometry/
+permalink: Monochromatic_Neutron_and_X-ray_Reflectometry.html
 layout: wiki
 ---
 
 **Please add comments to the discussion tab of this page and [sign
-them](Help:Contents#Signatures "wikilink")**
+them](Help:Contents#Signatures.html "wikilink")**
 
 This proposed instrument definition adds a new class (NXspin) and also
 incorporates a few additions to existing base classes.
@@ -13,7 +13,7 @@ incorporates a few additions to existing base classes.
 Additions
 ---------
 
-### New background [NXcharacterization](NXcharacterization "wikilink") type:
+### New background [NXcharacterization](NXcharacterization.html "wikilink") type:
 
 `     specular_offset_background`
 
@@ -28,7 +28,7 @@ does not specify how the background was measured.
 
 ### Need to know the sample angle.
 
-Propose adding the following to [NXsample](NXsample "wikilink"):
+Propose adding the following to [NXsample](NXsample.html "wikilink"):
 
        <polar_angle units="degrees" type="NX_FLOAT[np]">
        {Polar angle of the sample with respect to the beam incident on
@@ -43,7 +43,7 @@ Propose adding the following to [NXsample](NXsample "wikilink"):
        </rotation_angle>
 
 These fields are already used in the ratified
-[NXmonotas](Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer "wikilink"),
+[NXmonotas](Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html "wikilink"),
 so there should be no problem ratifying them in the base class.
 
 ### Record Spin State
@@ -82,16 +82,16 @@ We need an accurate record of the start and stop of every measurement in
 a scan (e.g., to normalize by measurement time, and to correct for He3
 polarizer efficiency decay).
 
-[NXmonitor](NXmonitor "wikilink") already stores count duration. Propose
+[NXmonitor](NXmonitor.html "wikilink") already stores count duration. Propose
 adding count start\_time as well:
 
          <start_time type="NX_FLOAT[n]" units="seconds">
             {Start time for each scan point}
          </start_time>
 
-The alternative is to use [NXlog](NXlog "wikilink") and assume a
+The alternative is to use [NXlog](NXlog.html "wikilink") and assume a
 particularly named log corresponds to the
-[NXmonitor](NXmonitor "wikilink"), with the same length as the measured
+[NXmonitor](NXmonitor.html "wikilink"), with the same length as the measured
 points:
 
             

@@ -1,6 +1,6 @@
 ---
 title: File id attribute for Nexus files
-permalink: File_id_attribute_for_Nexus_files/
+permalink: File_id_attribute_for_Nexus_files.html
 layout: wiki
 ---
 

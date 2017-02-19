@@ -1,6 +1,6 @@
 ---
 title: Main Page
-permalink: Main_Page/
+permalink: Main_Page.html
 layout: wiki
 ---
 
@@ -33,11 +33,11 @@ Base classes and application definitions
 :\*\*[Utilities](http://download.nexusformat.org/doc/html/utilities.html):
 Software applications that browse, plot, and analyze NeXus data
 
-:\*[Facilities](Facilities "wikilink") using NeXus
+:\*[Facilities](Facilities.html "wikilink") using NeXus
 
 Downloads:  
 
-:\*[Downloads](Download "wikilink") NeXus API library (NAPI) and
+:\*[Downloads](Download.html "wikilink") NeXus API library (NAPI) and
 applications
 
 :\*[Install kits](http://download.nexusformat.org/kits/definitions/) for
@@ -45,23 +45,23 @@ documentation and NXDL
 
 Discussion and Development:  
 
-:\*[Tele Conferences](NeXus_Teleconferences "wikilink") regular update
+:\*[Tele Conferences](NeXus_Teleconferences.html "wikilink") regular update
 meetings
 
-:\*[Bug / issue reporting](IssueReporting "wikilink")
+:\*[Bug / issue reporting](IssueReporting.html "wikilink")
 
 :\*[Mailing
 lists](http://download.nexusformat.org/doc/html/mailinglist.html)
 
-:\*[Discussion forum](Discussions "wikilink") in this wiki
+:\*[Discussion forum](Discussions.html "wikilink") in this wiki
 
-:\*[NeXus International Advisory Committee](NIAC "wikilink")
+:\*[NeXus International Advisory Committee](NIAC.html "wikilink")
 
-[Latest News](Latest_News "wikilink"):  
+[Latest News](Latest_News.html "wikilink"):  
 
 :\*Upcoming meeting: The 2016 plenary NIAC meeting and NeXus Code Camp
 is scheduled for October 2016 hosted by ESS:
-[NIAC2016](NIAC2016 "wikilink")
+[NIAC2016](NIAC2016.html "wikilink")
 
 :\*Most recent meeting: Kind folks at DESY, Hamburg, Germany hosted a
-Code Camp November 2015: [Code Camp 2015](Code_Camp_2015 "wikilink")
+Code Camp November 2015: [Code Camp 2015](Code_Camp_2015.html "wikilink")

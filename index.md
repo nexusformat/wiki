@@ -1,6 +1,6 @@
 ---
 title: Index
-permalink: /
+permalink: .html
 redirect_to: Main_Page/
 ---
 

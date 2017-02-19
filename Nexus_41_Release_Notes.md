@@ -1,6 +1,6 @@
 ---
 title: Nexus 41 Release Notes
-permalink: Nexus_41_Release_Notes/
+permalink: Nexus_41_Release_Notes.html
 layout: wiki
 ---
 

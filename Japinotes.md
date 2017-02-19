@@ -1,6 +1,6 @@
 ---
 title: Japinotes
-permalink: Japinotes/
+permalink: Japinotes.html
 layout: wiki
 ---
 

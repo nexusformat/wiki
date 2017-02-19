@@ -1,6 +1,6 @@
 ---
 title: NXmonoref-NIAC2006
-permalink: NXmonoref-NIAC2006/
+permalink: NXmonoref-NIAC2006.html
 layout: wiki
 ---
 
@@ -24,7 +24,7 @@ Concerns:
     source of background.
 
 Example:
-[NXmonoref\_example-NIAC2006](NXmonoref_example-NIAC2006 "wikilink")
+[NXmonoref\_example-NIAC2006](NXmonoref_example-NIAC2006.html "wikilink")
 
     <?xml version="1.0" ?>
     <!--

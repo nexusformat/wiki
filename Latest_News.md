@@ -1,35 +1,35 @@
 ---
 title: Latest News
-permalink: Latest_News/
+permalink: Latest_News.html
 layout: wiki
 ---
 
 2016
 ----
 
-October: [NIAC2016](NIAC2016 "wikilink") will take place in Copenhagen 13th & 14th hosted by ESS, the three days before will be a Code Camp  
+October: [NIAC2016](NIAC2016.html "wikilink") will take place in Copenhagen 13th & 14th hosted by ESS, the three days before will be a Code Camp  
 
 2015
 ----
 
-November: [Code Camp 2015](Code_Camp_2015 "wikilink") happened 16th - 18th at DESY in Hamburg  
-January: As a result of [NIAC2014](NIAC2014 "wikilink") the [NeXus Teleconferences](NeXus_Teleconferences "wikilink") are now open to the whole community. Dates and joining instructions are to be published on the wiki page.  
+November: [Code Camp 2015](Code_Camp_2015.html "wikilink") happened 16th - 18th at DESY in Hamburg  
+January: As a result of [NIAC2014](NIAC2014.html "wikilink") the [NeXus Teleconferences](NeXus_Teleconferences.html "wikilink") are now open to the whole community. Dates and joining instructions are to be published on the wiki page.  
 
 2014
 ----
 
-December: [NIAC2014](NIAC2014 "wikilink") has happened. The [Code Camp](NIAC2014_CodeCamp "wikilink") had a meeting with the HDF Group, but was largely a preparation for the [NIAC meeting](NIAC2014_Meeting "wikilink"). The NIAC elected new members and officers and there were many fruitful discussions. Important items and decisions are recorded in the [minutes](NIAC2014_Meeting#Minutes "wikilink").  
-Wednesday, 2014-08-07: A [NeXus code camp](NIAC2014 "wikilink") has been planned for 15th / 17th December 2014 with a [NIAC](NIAC2014 "wikilink") meeting to follow on 18th / 19th December 2014. This meeting has been scheduled apart from the [2014 NOBUGS conference](http://j-parc.jp/researcher/MatLife/en/meetings/nobugs2014) to accommodate travel permissions of a majority on the technical subcommittee.  
+December: [NIAC2014](NIAC2014.html "wikilink") has happened. The [Code Camp](NIAC2014_CodeCamp.html "wikilink") had a meeting with the HDF Group, but was largely a preparation for the [NIAC meeting](NIAC2014_Meeting.html "wikilink"). The NIAC elected new members and officers and there were many fruitful discussions. Important items and decisions are recorded in the [minutes](NIAC2014_Meeting#Minutes.html "wikilink").  
+Wednesday, 2014-08-07: A [NeXus code camp](NIAC2014.html "wikilink") has been planned for 15th / 17th December 2014 with a [NIAC](NIAC2014.html "wikilink") meeting to follow on 18th / 19th December 2014. This meeting has been scheduled apart from the [2014 NOBUGS conference](http://j-parc.jp/researcher/MatLife/en/meetings/nobugs2014) to accommodate travel permissions of a majority on the technical subcommittee.  
 
 2012
 ----
 
-Monday, July 23, 2012: A [NeXus code camp](NIAC2012 "wikilink") has been planned for 18th / 19th September 2012 with a [NIAC](NIAC2012 "wikilink") meeting to follow on 20th / 21th September 2012. These meetings are the week before the [NoBugs conference](http://www.nobugsconference.org/Conferences) on 24th-26th September 2012  
+Monday, July 23, 2012: A [NeXus code camp](NIAC2012.html "wikilink") has been planned for 18th / 19th September 2012 with a [NIAC](NIAC2012.html "wikilink") meeting to follow on 20th / 21th September 2012. These meetings are the week before the [NoBugs conference](http://www.nobugsconference.org/Conferences) on 24th-26th September 2012  
 
-See [ NIAC: meetings](NIAC#Meetings "wikilink") for historical
+See [ NIAC: meetings](NIAC#Meetings.html "wikilink") for historical
 information about the NIAC meetings and Code Camps.
 
-Wednesday, March 6, 2012: Release candidates for NeXus 4.3 are now available from [NeXus\_43\_Testing](NeXus_43_Testing "wikilink")  
+Wednesday, March 6, 2012: Release candidates for NeXus 4.3 are now available from [NeXus\_43\_Testing](NeXus_43_Testing.html "wikilink")  
 
 2010
 ----
@@ -53,15 +53,15 @@ been add to the manual.
 
 <!-- -->
 
-Tuesday, April 13, 2010: NeXus API version 4.2.1 has now been released and is available from the [download area](http://download.nexusformat.org/kits/) - see [Nexus\_42\_Release\_Notes](Nexus_42_Release_Notes "wikilink") for further information  
+Tuesday, April 13, 2010: NeXus API version 4.2.1 has now been released and is available from the [download area](http://download.nexusformat.org/kits/) - see [Nexus\_42\_Release\_Notes](Nexus_42_Release_Notes.html "wikilink") for further information  
 
 <!-- -->
 
-Tuesday, March 9, 2010: A [NeXus Workshop](Workshop_PSI_2010 "wikilink") will be held at [PSI](http://www.psi.ch/) on May 10th - 12th. Its main purpose is to discuss the application of NeXus at synchrotron sources.  
+Tuesday, March 9, 2010: A [NeXus Workshop](Workshop_PSI_2010.html "wikilink") will be held at [PSI](http://www.psi.ch/) on May 10th - 12th. Its main purpose is to discuss the application of NeXus at synchrotron sources.  
 
 <!-- -->
 
-Thursday, February 25, 2010: NeXus API 4.2 Release Candidate 5 (candidate for 4.2.1) is now [available for testing](NeXus_42_Testing "wikilink")  
+Thursday, February 25, 2010: NeXus API 4.2 Release Candidate 5 (candidate for 4.2.1) is now [available for testing](NeXus_42_Testing.html "wikilink")  
 
 2009
 ----
@@ -71,8 +71,8 @@ Tuesday, May 5, 2009: [NeXus API 4.2.0 released](http://lists.nexusformat.org/pi
 2008
 ----
 
-Wednesday, December 3, 2008:NeXus API 4.2 Release Candidate 2 (candidate for 4.2.0) is now [available for testing](NeXus_42_Testing "wikilink")  
-Wednesday, August 27, 2008:Work is currently in progress to convert NeXus definitions from [Meta-DTDs](Metaformat "wikilink") into [XML Schema](http://www.w3.org/XML/Schema) - for more details see the [NeXus schema](Schema "wikilink") page.  
+Wednesday, December 3, 2008:NeXus API 4.2 Release Candidate 2 (candidate for 4.2.0) is now [available for testing](NeXus_42_Testing.html "wikilink")  
+Wednesday, August 27, 2008:Work is currently in progress to convert NeXus definitions from [Meta-DTDs](Metaformat.html "wikilink") into [XML Schema](http://www.w3.org/XML/Schema) - for more details see the [NeXus schema](Schema.html "wikilink") page.  
 
 2007
 ----
@@ -83,11 +83,11 @@ Wednesday, October 31, 2007:The NeXus technical committee is pleased to announce
 
   
 Source code, binary packages, and example code can be downloaded from
-[download page](Download "wikilink").
+[download page](Download.html "wikilink").
 
 <!-- -->
 
-Tuesday, September 11, 2007: The upcoming 4.1 release of the NeXus API is now undergoing testing. More details can be found on the [testing site](NeXus_41_Testing "wikilink") as well as [provisional release notes](Nexus_41_Release_Notes "wikilink")  
+Tuesday, September 11, 2007: The upcoming 4.1 release of the NeXus API is now undergoing testing. More details can be found on the [testing site](NeXus_41_Testing.html "wikilink") as well as [provisional release notes](Nexus_41_Release_Notes.html "wikilink")  
 
 <!-- -->
 
@@ -110,28 +110,28 @@ Notes](http://trac.nexusformat.org/code/browser/tags/4.0.0/NEWS)
 
 <!-- -->
 
-Friday, March 16, 2007: The upcoming 4.0 release of the NeXus API is now undergoing testing. More details can be found on the [testing site](NeXus_4_Testing "wikilink") as well as [provisional release notes](Nexus_4_Release_Notes "wikilink")  
+Friday, March 16, 2007: The upcoming 4.0 release of the NeXus API is now undergoing testing. More details can be found on the [testing site](NeXus_4_Testing.html "wikilink") as well as [provisional release notes](Nexus_4_Release_Notes.html "wikilink")  
 
 2006
 ----
 
 Thursday, December 7, 2006: Site updated to MediaWiki 1.8.2  
 Tuesday, November 28, 2006: A NeXus install kit for Microsoft Windows is [now available](http://download.nexusformat.org/kits/windows) The kit includes the standard NeXus applications as well as libraries for building applications with both [MinGW](http://www.mingw.org/) and Microsoft Visual Studio.  
-Tuesday, November 21, 2006: The NeXus [MailingLists](MailingLists "wikilink") have been moved to a [new server](http://lists.nexusformat.org). Future postings should be made to *listname*@nexusformat.org rather than to *listname*@anl.gov  
+Tuesday, November 21, 2006: The NeXus [MailingLists](MailingLists.html "wikilink") have been moved to a [new server](http://lists.nexusformat.org). Future postings should be made to *listname*@nexusformat.org rather than to *listname*@anl.gov  
 Tuesday, September 26, 2006: The NeXus WIKI has been moved to new site at [<http://www.nexusformat.org/>](http://www.nexusformat.org/) and updated to MediaWiki 1.7.1  
 
 2005
 ----
 
-Monday, November 7, 2005:We are planning the next meeting of the [NeXus International Advisory Committee](NIAC "wikilink"). The current proposal is to hold it in Grenoble in the first week of February, but details will be announced as they are finalized. In the meantime, check the [NeXus Wiki pages](NIAC2006ILL "wikilink") for discussions of the agenda.  
+Monday, November 7, 2005:We are planning the next meeting of the [NeXus International Advisory Committee](NIAC.html "wikilink"). The current proposal is to hold it in Grenoble in the first week of February, but details will be announced as they are finalized. In the meantime, check the [NeXus Wiki pages](NIAC2006ILL.html "wikilink") for discussions of the agenda.  
 Friday, July 15, 2005:The technical committee is pleased to announce the official release of [version 3.0.0 of the NeXus API](http://www.nexus.anl.gov/nexus_api.html#download). Mark Koennecke has incorporated infrastructure permitting the use of XML as an additional data format in the same way that it is already possible to switch between HDF4 and HDF5. The same API calls will be used for all underlying formats so that their use will be transparent to the calling program.  
 
 <!-- -->
 
   
 The distribution now includes [Peter
-Peterson's](User%3APfpeterson "wikilink")
-[NXtranslate](NXtranslate "wikilink") utility to map data in existing
+Peterson's](User%3APfpeterson.html "wikilink")
+[NXtranslate](NXtranslate.html "wikilink") utility to map data in existing
 files to NeXus format via XML “translation files”. This application will
 aid developers to write NeXus reading applications by converting real
 data in a facility-native format to the NeXus standard.
@@ -150,7 +150,7 @@ Thursday, March 17, 2005:The next meeting of the NeXus International Advisory Co
 
 Monday, November 1, 2004:The minutes of the second meeting of the NeXus International Advisory Committee (October 21-22, 2004) are now available.  
 Wednesday, October 13, 2004:The draft agenda of the upcoming NIAC meeting is now on the NeXus Swiki - we invite comments up to the day of the meeting.  
-Saturday, October 9, 2004:The new version of the web site has just been installed. The most significant new feature, apart from the change in design is that the recently voted NeXus classes are now displayed in a simplified table format, that we hope is easier to read. This is generated automatically from the XML file so will reflect the latest version at all times. There is still a little cleaning up of the documentation of these classes, with the final CVS uploads occurring at the upcoming meeting of the [NeXus International Advisory Committee](NIAC "wikilink"). If you find any errors, please contact the chair (Ray Osborn) or executive secretary (Peter Peterson) of NIAC.  
+Saturday, October 9, 2004:The new version of the web site has just been installed. The most significant new feature, apart from the change in design is that the recently voted NeXus classes are now displayed in a simplified table format, that we hope is easier to read. This is generated automatically from the XML file so will reflect the latest version at all times. There is still a little cleaning up of the documentation of these classes, with the final CVS uploads occurring at the upcoming meeting of the [NeXus International Advisory Committee](NIAC.html "wikilink"). If you find any errors, please contact the chair (Ray Osborn) or executive secretary (Peter Peterson) of NIAC.  
 Thursday, August 31, 2004:NXvalid allows a user to look at the contents of a NeXus file, like a graphical version of NXbrowse. The latest version is the first to incorporate the ISAW viewers for plotting 1D and 2D NXdata and NXmonitor. ISAW is a separate application developed at IPNS and needs to be separately installed. If ISAW is not installed, NXvalid will still work, but the viewers will not be available.  
 Friday, June 4, 2004:The second meeting of the NeXus International Advisory Committee will be held at the Paul Scherrer Institut, near Villigen, Switzerland, on October 21-22, 2004, immediately following NOBUGS 2004. See the NeXus Swiki page for more details.  
 Thursday, April 15, 2004:NXdir is a console based tool that allows inspecting the contents of a NeXus file. It allows for directory like listing of contents as well as printing out data. Version 0.2.4, which allows the user to select a 1D or 2D NXdata to write out to a file, has just been released.  

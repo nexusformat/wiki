@@ -1,6 +1,6 @@
 ---
 title: Instruments
-permalink: Instruments/
+permalink: Instruments.html
 layout: wiki
 ---
 
@@ -9,7 +9,7 @@ constructed. They provide the glossary of items that could, in
 principle, be stored in a standard-conforming NeXus file (other items
 may be inserted into the file if the author wishes, but they won't be
 part of the standard). If you are going to include a particular piece of
-metadata, consult the [class definitions](Design "wikilink") to find out
+metadata, consult the [class definitions](Design.html "wikilink") to find out
 what to call it. However, to assist those writing data analysis
 software, it is useful to provide more than a glossary; it is important
 to define the required contents of NeXus files that contain data from
@@ -29,7 +29,7 @@ Instrument Definitions List
 
 ### TRAC
 
-[Pete](User%3APete_Jemian "wikilink") 15:49, 14 December 2009 (UTC):
+[Pete](User%3APete_Jemian.html "wikilink") 15:49, 14 December 2009 (UTC):
 [NeXus definitions TRAC ticket
 \#3](http://trac.nexusformat.org/definitions/ticket/3) was created to
 describe the items on this page. Classes that were not already described
@@ -40,20 +40,20 @@ ticket](http://trac.nexusformat.org/definitions/newticket).
 
 ### Ratified
 
-These have been voted on by the [NIAC](NIAC "wikilink") and so are
+These have been voted on by the [NIAC](NIAC.html "wikilink") and so are
 official NeXus definitions
 
--   [NXTOFRaw: Time-of-Flight Raw Data](TOFRaw "wikilink") Editors:
-    [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink"), [Peter
-    Peterson](User%3APeter_Peterson "wikilink")
+-   [NXTOFRaw: Time-of-Flight Raw Data](TOFRaw.html "wikilink") Editors:
+    [Freddie Akeroyd](User%3AFreddie_Akeroyd.html "wikilink"), [Peter
+    Peterson](User%3APeter_Peterson.html "wikilink")
 -   [Monochromatic Neutron and X-ray Powder
-    Diffraction](Monochromatic_Neutron_and_X-ray_Powder_Diffraction "wikilink")
-    Editor: [Mark Könnecke](User%3AMark_Koennecke "wikilink"), PSI
--   [Generic Scanning Instrument](GenericScan "wikilink") Editor: [Mark
-    Könnecke](User%3AMark_Koennecke "wikilink"), PSI
+    Diffraction](Monochromatic_Neutron_and_X-ray_Powder_Diffraction.html "wikilink")
+    Editor: [Mark Könnecke](User%3AMark_Koennecke.html "wikilink"), PSI
+-   [Generic Scanning Instrument](GenericScan.html "wikilink") Editor: [Mark
+    Könnecke](User%3AMark_Koennecke.html "wikilink"), PSI
 -   [Monochromatic Neutron and X-ray Triple-Axis
-    Spectrometer](Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer "wikilink")
-    Editor: [Nicholas Maliszewskyj](User%3ANickm "wikilink") (NIST
+    Spectrometer](Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html "wikilink")
+    Editor: [Nicholas Maliszewskyj](User%3ANickm.html "wikilink") (NIST
     Center for Neutron Research, USA).
 
 ### Proposed
@@ -61,25 +61,25 @@ official NeXus definitions
 In this case the need for a particular definition has been identified,
 an editor has been assigned and some detailed discussions have taken
 place; however the definition has not yet been voted on by the
-[NIAC](NIAC "wikilink") and so could still undergo modification.
+[NIAC](NIAC.html "wikilink") and so could still undergo modification.
 
 -   [Monochromatic Neutron and X-ray Single Crystal
-    Diffractometer](Monochromatic_Neutron_and_X-ray_Single_Crystal_Diffractometer "wikilink")
-    Editor: [Mark Könnecke](User%3AMark_Koennecke "wikilink"), PSI
--   [Archive Definition](Archive_Definition "wikilink") Editor: [Laurent
-    Lerusse](User%3AL.lerusse "wikilink") (CCLRC - Rutherford Appleton
+    Diffractometer](Monochromatic_Neutron_and_X-ray_Single_Crystal_Diffractometer.html "wikilink")
+    Editor: [Mark Könnecke](User%3AMark_Koennecke.html "wikilink"), PSI
+-   [Archive Definition](Archive_Definition.html "wikilink") Editor: [Laurent
+    Lerusse](User%3AL.lerusse.html "wikilink") (CCLRC - Rutherford Appleton
     Laboratory, e-Science, UK)
 -   [Monochromatic Neutron and X-ray Small Angle
-    Scattering](SAS "wikilink") Editor: Ron Ghosh (Institut Laue
+    Scattering](SAS.html "wikilink") Editor: Ron Ghosh (Institut Laue
     Langevin, France).
--   [Processed Data](Processed_Data "wikilink") Editor: [Ray
-    Osborn](User%3ARay_Osborn "wikilink") (Argonne National Laboratory,
+-   [Processed Data](Processed_Data.html "wikilink") Editor: [Ray
+    Osborn](User%3ARay_Osborn.html "wikilink") (Argonne National Laboratory,
     USA)
--   [X-Ray Synchrotron Raw](XESraw "wikilink") Editor: [Stuart
-    Campbell](User%3AStuart_Campbell "wikilink") (Diamond Light Source,
+-   [X-Ray Synchrotron Raw](XESraw.html "wikilink") Editor: [Stuart
+    Campbell](User%3AStuart_Campbell.html "wikilink") (Diamond Light Source,
     UK)
--   [Muon Time Differential](Muon_Time_Differential "wikilink") Editor:
-    [Steve Cottrell](User%3ASteve_Cottrell "wikilink") (ISIS, UK)
+-   [Muon Time Differential](Muon_Time_Differential.html "wikilink") Editor:
+    [Steve Cottrell](User%3ASteve_Cottrell.html "wikilink") (ISIS, UK)
 
 ### Planned
 
@@ -90,43 +90,43 @@ into the *Proposed* category above.
 -   Diffraction
     -   Protein Crystallography
     -   [Time-of-Flight Neutron Powder
-        Diffraction](Time-of-Flight_Neutron_Powder_Diffraction "wikilink"),
-        Editor: [Peter Peterson](User%3APfpeterson "wikilink")
+        Diffraction](Time-of-Flight_Neutron_Powder_Diffraction.html "wikilink"),
+        Editor: [Peter Peterson](User%3APfpeterson.html "wikilink")
         (Spallation Neutron Source, USA).
     -   [Time-of-Flight Neutron Single Crystal
-        Diffractometer](Time-of-Flight_Neutron_Single_Crystal_Diffractometer "wikilink"),
+        Diffractometer](Time-of-Flight_Neutron_Single_Crystal_Diffractometer.html "wikilink"),
         Editor: TBA
 -   Reflectometry
     -   [Time-of-Flight Neutron
-        Reflectometry](Time-of-Flight_Neutron_Reflectometry "wikilink"),
+        Reflectometry](Time-of-Flight_Neutron_Reflectometry.html "wikilink"),
         Editor: Robert Dalgliesh (ISIS Pulsed Neutron and Muon Source,
         UK)
     -   [Monochromatic Neutron and X-ray
-        Reflectometry](Monochromatic_Neutron_and_X-ray_Reflectometry "wikilink"),
+        Reflectometry](Monochromatic_Neutron_and_X-ray_Reflectometry.html "wikilink"),
         Editor: Paul Kienzle (NIST Center for Neutron Research, USA)
 -   Imaging
     -   X-ray Tomography
 -   Small-Angle Scattering
     -   Grazing Incidence Small-Angle X-ray Scattering, Editor: TBA
     -   [Time-of-Flight Small Angle
-        Scattering](Time-of-Flight_Small_Angle_Scattering "wikilink"),
+        Scattering](Time-of-Flight_Small_Angle_Scattering.html "wikilink"),
         Editor: Stephen King (ISIS Pulsed Neutron and Muon Source, UK)
     -   Ultra-Small-Angle Neutron Scattering, Editor: TBA
     -   Ultra-Small-Angle X-ray Scattering, Editor: [User%3APete
-        Jemian](User%3APete_Jemian "wikilink") (Advanced Photon Source,
+        Jemian](User%3APete_Jemian.html "wikilink") (Advanced Photon Source,
         USA)
 -   Spectrometers
     -   [Time-of-Flight Neutron Direct Geometry
-        Spectrometer](Time-of-Flight_Neutron_Direct_Geometry_Spectrometer "wikilink"),
+        Spectrometer](Time-of-Flight_Neutron_Direct_Geometry_Spectrometer.html "wikilink"),
         Editor: Toby Perring (ISIS Pulsed Neutron and Muon Source, UK)
     -   [Time-of-Flight Neutron Indirect Geometry
-        Spectrometer](Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer "wikilink"),
+        Spectrometer](Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer.html "wikilink"),
         Editor: Martyn Bull (ISIS Pulsed Neutron and Muon Source, UK)
     -   XAS: X-ray Absorption Spectroscopy
     -   XPCS: X-ray Photon Correlation Spectroscopy
 -   Spin-Echo
-    -   [Neutron Spin Echo](Neutron_Spin_Echo "wikilink"), Editor:
+    -   [Neutron Spin Echo](Neutron_Spin_Echo.html "wikilink"), Editor:
         Robert Georgii (FRM-II, Germany)
     -   [Time-of-Flight Neutron Spin
-        Echo](Time-of-Flight_Neutron_Spin_Echo "wikilink"), Editor: TBA
+        Echo](Time-of-Flight_Neutron_Spin_Echo.html "wikilink"), Editor: TBA
 

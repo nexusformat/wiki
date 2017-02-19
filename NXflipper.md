@@ -1,6 +1,6 @@
 ---
 title: NXflipper
-permalink: NXflipper/
+permalink: NXflipper.html
 layout: wiki
 ---
 

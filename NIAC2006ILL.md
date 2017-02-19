@@ -1,6 +1,6 @@
 ---
 title: NIAC2006ILL
-permalink: NIAC2006ILL/
+permalink: NIAC2006ILL.html
 layout: wiki
 ---
 
@@ -8,7 +8,7 @@ NIAC Meeting - February 2006
 ----------------------------
 
 The next meeting of the [ NeXus International Advisory
-Committee](NIAC "wikilink") will be held at the [Institut Laue
+Committee](NIAC.html "wikilink") will be held at the [Institut Laue
 Langevin](http://www.ill.fr) in Grenoble, France. The meeting will be
 held from February 1 to 3, 2006, preceded by an informal workshop to
 prepare agenda items on January 30-31, 2006.
@@ -24,21 +24,21 @@ as soon as possible.
 ### Proposed Agenda
 
 Please add suggestions for agenda items here in [ bullet
-form](Help:Editing#Lists "wikilink"). If you want to add extended
+form](Help:Editing#Lists.html "wikilink"). If you want to add extended
 comments concerning any agenda item, please use this Wiki page's [ Talk
-Page](Talk:NIAC_Meetings "wikilink").
+Page](Talk:NIAC_Meetings.html "wikilink").
 
 -   Welcome and Introduction
 -   Review of NIAC'2005 minutes
--   [Renew members](Membership_Dates "wikilink")
+-   [Renew members](Membership_Dates.html "wikilink")
 -   Add additional member - Pete Jemian Advanced Photon Source, USA
 -   Elect [chair and executive
-    secretary](Nominees_for_officers "wikilink") - effective at the end
+    secretary](Nominees_for_officers.html "wikilink") - effective at the end
     of the meeting
 -   Amend constitution to state that all officers, including technical
     chair, are elected at each meeting, effective at the end of the
     meeting
--   Discuss and vote on [TOF raw file definition](TOFRaw "wikilink")
+-   Discuss and vote on [TOF raw file definition](TOFRaw.html "wikilink")
 
 ### General Information
 
@@ -78,7 +78,7 @@ Such groups might be
 
 **technical programming the api**
 
-'''instruments-1 3-axis/reflection/[SAS](SAS "wikilink")/polarised/muons
+'''instruments-1 3-axis/reflection/[SAS](SAS.html "wikilink")/polarised/muons
 '''
 
 -   (step-scanning/multi-detector/X-ray/neutron)
@@ -95,7 +95,7 @@ Such groups might be
 -   prototype treated data 1D,2D data
 -   rebinning, constant (Q,w)
 
-**[Synchrotron\_Group](Synchrotron_Group "wikilink") (Andy Götz)**
+**[Synchrotron\_Group](Synchrotron_Group.html "wikilink") (Andy Götz)**
 
 -   this group will meet separately on the second and third days, and
     may be expected to offer objective feedback and criticism on the
@@ -211,10 +211,10 @@ ILL directors, and one is invited to the opening of the meeting.
 
 ### Working Groups
 
--   [Synchrotron\_Group](Synchrotron_Group "wikilink") (Andy Götz)
--   [TOF Group](TOF_Group "wikilink") (Freddie Akeroyd)
--   [Scanning Group](Scanning_Group "wikilink") (Paul Kienzle)
+-   [Synchrotron\_Group](Synchrotron_Group.html "wikilink") (Andy Götz)
+-   [TOF Group](TOF_Group.html "wikilink") (Freddie Akeroyd)
+-   [Scanning Group](Scanning_Group.html "wikilink") (Paul Kienzle)
 -   [Technical Computing/API
-    Group](Technical_Computing/API_Group "wikilink") (Nick Maliszewskyj)
--   [Small-Angle Scattering Group](SAS "wikilink") (Ron Ghosh)
+    Group](Technical_Computing/API_Group.html "wikilink") (Nick Maliszewskyj)
+-   [Small-Angle Scattering Group](SAS.html "wikilink") (Ron Ghosh)
 

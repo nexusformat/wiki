@@ -1,6 +1,6 @@
 ---
 title: NXdir
-permalink: NXdir/
+permalink: NXdir.html
 layout: wiki
 ---
 

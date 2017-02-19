@@ -1,6 +1,6 @@
 ---
 title: NXmonitor
-permalink: NXmonitor/
+permalink: NXmonitor.html
 layout: wiki
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: IssueReporting
-permalink: IssueReporting/
+permalink: IssueReporting.html
 layout: wiki
 ---
 

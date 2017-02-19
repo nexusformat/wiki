@@ -1,6 +1,6 @@
 ---
 title: NXsensor
-permalink: NXsensor/
+permalink: NXsensor.html
 layout: wiki
 ---
 

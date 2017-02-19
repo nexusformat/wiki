@@ -1,6 +1,6 @@
 ---
 title: NXcollimator
-permalink: NXcollimator/
+permalink: NXcollimator.html
 layout: wiki
 ---
 

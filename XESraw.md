@@ -1,6 +1,6 @@
 ---
 title: XESraw
-permalink: XESraw/
+permalink: XESraw.html
 layout: wiki
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: NXdetector
-permalink: NXdetector/
+permalink: NXdetector.html
 layout: wiki
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Introduction
-permalink: Introduction/
+permalink: Introduction.html
 layout: wiki
 ---
 
@@ -15,7 +15,7 @@ experimental results and to exchange ideas about how to analyze them. It
 promotes greater cooperation in software development and stimulate the
 design of more sophisticated visualization tools. For additional
 background information see the [history of the NeXus
-format](History "wikilink").
+format](History.html "wikilink").
 
 This section is designed to give a brief introduction to NeXus, the data
 format that has been developed in response to these needs. It explains
@@ -87,7 +87,7 @@ you are browsing through a file.
 
 Here are some of the important classes found in nearly all NeXus files.
 A complete list can be found in the [NeXus Design
-page](Design "wikilink").
+page](Design.html "wikilink").
 
 NXentry:The top level of any NeXus file contains one or more groups with the class NXentry. These contain all the data that is required to describe an experimental run or scan. Each NXentry typically contains a number of groups describing sample information (class NXsample), instrument details (class NXinstrument), and monitor counts (class NXmonitor).  
 NXdata:Each NXentry group contains one or more groups with class NXdata. These groups contain the experimental results in a self-contained way, i.e., it should be possible to generate a sensible plot of the data from the information contained in each NXdata group. That means it should contain the axis labels and titles as well as the data.  
@@ -276,11 +276,11 @@ created by the example above.
      NXclose (fileID);
 
 NeXus files can also be viewed by a command-line browser,
-[NXbrowse](NXbrowse "wikilink"), which is included with the [NeXus
-API](Application_Program_Interface "wikilink"). The following is an
+[NXbrowse](NXbrowse.html "wikilink"), which is included with the [NeXus
+API](Application_Program_Interface.html "wikilink"). The following is an
 example session of using NXbrowse to view a data file from the LRMECS
 spectrometer at IPNS. The following commands are used (see the [NXbrowse
-web page](NXbrowse "wikilink") ):
+web page](NXbrowse.html "wikilink") ):
 
 | NXBrowse Command Description |
 |------------------------------|
@@ -343,6 +343,6 @@ Where to go from here?
 The other sections of this web site give much more detailed descriptions
 of the NeXus data format.
 
-[NeXus Design](Design "wikilink"):This describes NeXus' hierarchical design, and gives more information on how to construct valid groups.  
-[NeXus API](Application_Program_Interface "wikilink"):This describes the NeXus programming interface, with lists of all the subroutines and supported languages.  
-[NeXus Mailing Lists](MailingLists "wikilink"):NeXus mailing lists  
+[NeXus Design](Design.html "wikilink"):This describes NeXus' hierarchical design, and gives more information on how to construct valid groups.  
+[NeXus API](Application_Program_Interface.html "wikilink"):This describes the NeXus programming interface, with lists of all the subroutines and supported languages.  
+[NeXus Mailing Lists](MailingLists.html "wikilink"):NeXus mailing lists  

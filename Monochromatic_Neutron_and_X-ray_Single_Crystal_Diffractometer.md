@@ -1,6 +1,6 @@
 ---
 title: Monochromatic Neutron and X-ray Single Crystal Diffractometer
-permalink: Monochromatic_Neutron_and_X-ray_Single_Crystal_Diffractometer/
+permalink: Monochromatic_Neutron_and_X-ray_Single_Crystal_Diffractometer.html
 layout: wiki
 ---
 
@@ -22,6 +22,6 @@ should have its own entry in the file.
 
 There are actually two DTD's which differ only in the NXdetector group:
 
--   [Four Circle with Single Detector](MonoXSingle "wikilink")
--   [Four Circle with Position Sensitive Detector](MonoXPSD "wikilink")
+-   [Four Circle with Single Detector](MonoXSingle.html "wikilink")
+-   [Four Circle with Position Sensitive Detector](MonoXPSD.html "wikilink")
 

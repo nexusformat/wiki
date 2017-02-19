@@ -1,6 +1,6 @@
 ---
 title: Versioning
-permalink: Versioning/
+permalink: Versioning.html
 layout: wiki
 ---
 

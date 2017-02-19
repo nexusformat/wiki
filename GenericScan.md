@@ -1,6 +1,6 @@
 ---
 title: GenericScan
-permalink: GenericScan/
+permalink: GenericScan.html
 layout: wiki
 ---
 

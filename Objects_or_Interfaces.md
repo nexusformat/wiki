@@ -1,6 +1,6 @@
 ---
 title: Objects or Interfaces
-permalink: Objects_or_Interfaces/
+permalink: Objects_or_Interfaces.html
 layout: wiki
 ---
 

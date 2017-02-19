@@ -1,6 +1,6 @@
 ---
 title: Design
-permalink: Design/
+permalink: Design.html
 layout: wiki
 ---
 
@@ -16,7 +16,7 @@ understand, at least by those familiar with the experimental technique.
 The logical design is distinct from the underlying format used to store
 the NeXus file on disk, which are written using the NeXus Application
 Program Interface (API). Refer to the [ API
-section](Application_Program_Interface "wikilink") for more details.
+section](Application_Program_Interface.html "wikilink") for more details.
 
 NeXus Objects
 -------------
@@ -68,7 +68,7 @@ name and a class. The group class, which always has “NX” as a prefix,
 defines the type of object and the properties that it can contain,
 whereas the group name defines a unique instance of that class. These
 classes are defined in XML using the [NeXus MetaDTD
-format](Metaformat "wikilink").
+format](Metaformat.html "wikilink").
 
 Not all classes define physical objects. Some refer to logical groupings
 of experimental information, such as plottable data, sample environment
@@ -82,99 +82,99 @@ only contain a small subset of the possible classes.
 Click on any of the class names below for a more detailed description
 compiled from the latest XML files.
 
-[NXroot](NXroot "wikilink"):The root level of a NeXus file.  
+[NXroot](NXroot.html "wikilink"):The root level of a NeXus file.  
 
-:;[NXentry](NXentry "wikilink"):All the data, including instrument and
+:;[NXentry](NXentry.html "wikilink"):All the data, including instrument and
 sample descriptions, which logically make up a single scan or
 measurement. At many facilities, this corresponds to the entity that is
 defined by a single run number, which could be used to name the NXentry
 group. There can be many NXentry groups in each NeXus file.
 
-::;[NXinstrument](NXinstrument "wikilink"):The information needed to
+::;[NXinstrument](NXinstrument.html "wikilink"):The information needed to
 describe the instrument. This group contains other groups that describe
 instrument components e.g. choppers, collimators, detectors.
 
-:::[NXaperture](NXaperture "wikilink")
+:::[NXaperture](NXaperture.html "wikilink")
 
-:::[NXattenuator](NXattenuator "wikilink")
+:::[NXattenuator](NXattenuator.html "wikilink")
 
-:::[NXbeam\_stop](NXbeam_stop "wikilink")
+:::[NXbeam\_stop](NXbeam_stop.html "wikilink")
 
-:::[NXbending\_magnet](NXbending_magnet "wikilink")
+:::[NXbending\_magnet](NXbending_magnet.html "wikilink")
 
-:::[NXcollimator](NXcollimator "wikilink")
+:::[NXcollimator](NXcollimator.html "wikilink")
 
-:::[NXcrystal](NXcrystal "wikilink")
+:::[NXcrystal](NXcrystal.html "wikilink")
 
-:::[NXdetector](NXdetector "wikilink")
+:::[NXdetector](NXdetector.html "wikilink")
 
-:::[NXdisk\_chopper](NXdisk_chopper "wikilink")
+:::[NXdisk\_chopper](NXdisk_chopper.html "wikilink")
 
-:::[NXfermi\_chopper](NXfermi_chopper "wikilink")
+:::[NXfermi\_chopper](NXfermi_chopper.html "wikilink")
 
-:::[NXfilter](NXfilter "wikilink")
+:::[NXfilter](NXfilter.html "wikilink")
 
-:::[NXflipper](NXflipper "wikilink")
+:::[NXflipper](NXflipper.html "wikilink")
 
-:::[NXguide](NXguide "wikilink")
+:::[NXguide](NXguide.html "wikilink")
 
-:::[NXinsertion\_device](NXinsertion_device "wikilink")
+:::[NXinsertion\_device](NXinsertion_device.html "wikilink")
 
-:::[NXmirror](NXmirror "wikilink")
+:::[NXmirror](NXmirror.html "wikilink")
 
-:::[NXmoderator](NXmoderator "wikilink")
+:::[NXmoderator](NXmoderator.html "wikilink")
 
-:::[NXmonochromator](NXmonochromator "wikilink")
+:::[NXmonochromator](NXmonochromator.html "wikilink")
 
-:::[NXpolarizer](NXpolarizer "wikilink")
+:::[NXpolarizer](NXpolarizer.html "wikilink")
 
-:::[NXpositioner](NXpositioner "wikilink")
+:::[NXpositioner](NXpositioner.html "wikilink")
 
-:::[NXsource](NXsource "wikilink")
+:::[NXsource](NXsource.html "wikilink")
 
-:::[NXvelocity\_selector](NXvelocity_selector "wikilink")
+:::[NXvelocity\_selector](NXvelocity_selector.html "wikilink")
 
-::;[NXsample](NXsample "wikilink"):The information needed to define the
+::;[NXsample](NXsample.html "wikilink"):The information needed to define the
 physical state of the sample during the scan <i>e.g.</i> temperature,
 magnetic field, crystal mosaic.
 
-::;[NXmonitor](NXmonitor "wikilink"):Monitor data, i.e., counts,
+::;[NXmonitor](NXmonitor.html "wikilink"):Monitor data, i.e., counts,
 integrals, *etc*.
 
-::;[NXdata](NXdata "wikilink"):The data to be plotted i.e. a single data
+::;[NXdata](NXdata.html "wikilink"):The data to be plotted i.e. a single data
 set comprising the measurements along with the data errors, and the
 default axis scales and labels required to plot the data. There can be
 more than one NXdata entry, e.g., if there are several detector banks
 producing plottable data.
 
-::;[NXevent\_data](NXevent_data "wikilink"):Event-based data, i.e. a
+::;[NXevent\_data](NXevent_data.html "wikilink"):Event-based data, i.e. a
 data set in which each count is recorded as a separate data event. This
 form might be chosen when the data are too sparse to be stored
 efficiently in histograms. Normally, such data will have to be converted
-to a regular [NXdata](NXdata "wikilink") group before it can be
+to a regular [NXdata](NXdata.html "wikilink") group before it can be
 analyzed.
 
-::;[NXuser](NXuser "wikilink"):Details of a user, i.e., name,
+::;[NXuser](NXuser.html "wikilink"):Details of a user, i.e., name,
 affiliation, email address, *etc*.
 
-::;[NXprocess](NXprocess "wikilink"):Group used to store details of how
+::;[NXprocess](NXprocess.html "wikilink"):Group used to store details of how
 the data have been processed.
 
-::;[NXcharacterization](NXcharacterization "wikilink"):Information
-required for the analysis of this [NXentry](NXentry "wikilink"), *e.g.*
+::;[NXcharacterization](NXcharacterization.html "wikilink"):Information
+required for the analysis of this [NXentry](NXentry.html "wikilink"), *e.g.*
 identification of empty can runs, vanadium runs, *etc.* In addition to
 these classes, which appear in the locations shown above, the following
 groups can be added to any group in a NeXus file.
 
-:;[NXlog](NXlog "wikilink"):This group contains any logged information,
+:;[NXlog](NXlog.html "wikilink"):This group contains any logged information,
 *i.e.*, information monitored during the run. It comprises the logged
 values and the times at which they were measured as elapsed time since a
 specified starting time.
 
-:;[NXnote](NXnote "wikilink"):This is a generic group designed to hold
+:;[NXnote](NXnote.html "wikilink"):This is a generic group designed to hold
 annotations or images stored in order to describe the experiment.
 
-:;[NXbeam](NXbeam "wikilink"):This group records the state of the
+:;[NXbeam](NXbeam.html "wikilink"):This group records the state of the
 neutron or X-ray beam at any location. It could be referenced by
 instrument components within the NXinstrument group or by the NXsample
 group. In storing the results of instrument simulations in which it is
@@ -183,28 +183,28 @@ stages down the beamline. Otherwise, its most likely use is in the
 NXsample group in which it defines the results of the neutron scattering
 by the sample, *e.g.*, energy transfer, polarizations.
 
-:;[NXgeometry](NXgeometry "wikilink"):This group contains the
+:;[NXgeometry](NXgeometry.html "wikilink"):This group contains the
 geometrical information required to define the position, shape, and
 orientation of a NeXus object. This is especially important if the NeXus
 file contains the results of a comprehensive instrument simulation. For
-details see [Coordinate\_Systems](Coordinate_Systems "wikilink")
+details see [Coordinate\_Systems](Coordinate_Systems.html "wikilink")
 
-::;[NXtranslation](NXtranslation "wikilink"):This group defines the
+::;[NXtranslation](NXtranslation.html "wikilink"):This group defines the
 position of the object in either absolute coordinates or relative to
 another object.
 
-::;[NXshape](NXshape "wikilink"):This group defines the shape of an
+::;[NXshape](NXshape.html "wikilink"):This group defines the shape of an
 object.
 
-::;[NXorientation](NXorientation "wikilink"):This group defines the
+::;[NXorientation](NXorientation.html "wikilink"):This group defines the
 orientation of the object. The NXgeometry group defines the shape of an
 object in terms of a conventional set of coordinate axes, but this group
 allows it to be rotated into an arbitrary orientation.
 
-:;[NXenvironment](NXenvironment "wikilink"):This group contains details
+:;[NXenvironment](NXenvironment.html "wikilink"):This group contains details
 of the environment of a beamline component.
 
-::;[NXsensor](NXsensor "wikilink"):This group defines an environment
+::;[NXsensor](NXsensor.html "wikilink"):This group defines an environment
 sensor.
 
 ### NeXus Data
@@ -386,7 +386,7 @@ NeXus Attributes
 |---------------------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | units               | NX\_CHAR    | Units of data which must conform to the standard defined by the [Unidata UDunits utility](http://www.unidata.ucar.edu/software/udunits/) (in particular, see their [XML databases](http://www.unidata.ucar.edu/software/udunits/udunits-2-units.html))                                                                                                                                                                                                                |
 | signal              | NX\_INT32   | Defines which data set contains the signal to be plotted - set to 1 for main signal                                                                                                                                                                                                                                                                                                                                                                                   |
-| axes                | NX\_CHAR    | Defines the names of the dimension scales for this data set as a comma-delimited array, optionally surrounded by brackets (see a longer discussion in the section on [NXdata structure](NXdata_structure "wikilink")) *i.e.* if the array being stored is `data`, with elements `data[j][i]` in C and `data(i,j)` in Fortran, with dimension scales `time_of_flight[i]` and `polar_angle[j]`, `data` would have an attribute called “axes” with the following value : 
+| axes                | NX\_CHAR    | Defines the names of the dimension scales for this data set as a comma-delimited array, optionally surrounded by brackets (see a longer discussion in the section on [NXdata structure](NXdata_structure.html "wikilink")) *i.e.* if the array being stored is `data`, with elements `data[j][i]` in C and `data(i,j)` in Fortran, with dimension scales `time_of_flight[i]` and `polar_angle[j]`, `data` would have an attribute called “axes” with the following value : 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
    > `[polar_angle,time_of_flight]`                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | axis                | NX\_INT32   | As an alternative to using the “axes” attribute, this defines the rank of the signal data for which this data set is a dimension scale in order of the fastest varying index (see a longer discussion in the section on <a href="NeXus_structure.html#Data">NXdata structure</a>) <i>i.e.</i> if the array being stored is `data`, with elements `data[j][i]` in C and `data(i,j)` in Fortran, “axis” would have the following values :                               
@@ -403,9 +403,9 @@ NeXus Attributes
    <i>i.e.</i> left\_bin = data\[1\] - histogram\_offset                                                                                                                                                                                                                                                                                                                                                                                                                  
                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
    </center>                                                                                                                                                                                                                                                                                                                                                                                                                                                              
-   - set to 0 if the data are not histograms. The points themselves should be set to the bin centers. For reasoning behind this design, see note on [histograms](Histograms "wikilink").                                                                                                                                                                                                                                                                                  |
+   - set to 0 if the data are not histograms. The points themselves should be set to the bin centers. For reasoning behind this design, see note on [histograms](Histograms.html "wikilink").                                                                                                                                                                                                                                                                                  |
 | checksum            | NX\_INT32   | Sum of data array acting as a check on data integrity                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| version             | NX\_CHAR    | Version of XML DTD file or schema on which the NeXus file is based. Should only be used with the “analysis” data item in an [NXentry](NXentry "wikilink") group.                                                                                                                                                                                                                                                                                                      |
-| URL                 | NX\_CHAR    | The URL of the XML DTD file or schema on which the NeXus file is based. Should only be used with the “analysis” data item in an [NXentry](NXentry "wikilink") group.                                                                                                                                                                                                                                                                                                  |
+| version             | NX\_CHAR    | Version of XML DTD file or schema on which the NeXus file is based. Should only be used with the “analysis” data item in an [NXentry](NXentry.html "wikilink") group.                                                                                                                                                                                                                                                                                                      |
+| URL                 | NX\_CHAR    | The URL of the XML DTD file or schema on which the NeXus file is based. Should only be used with the “analysis” data item in an [NXentry](NXentry.html "wikilink") group.                                                                                                                                                                                                                                                                                                  |
 
 

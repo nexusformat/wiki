@@ -1,6 +1,6 @@
 ---
 title: Scaled Data
-permalink: Scaled_Data/
+permalink: Scaled_Data.html
 layout: wiki
 ---
 

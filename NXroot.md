@@ -1,6 +1,6 @@
 ---
 title: NXroot
-permalink: NXroot/
+permalink: NXroot.html
 layout: wiki
 ---
 

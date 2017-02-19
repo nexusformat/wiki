@@ -1,6 +1,6 @@
 ---
 title: NeXus CIF Merger
-permalink: NeXus_CIF_Merger/
+permalink: NeXus_CIF_Merger.html
 redirect_to: /NeXus_CIF_Integration/
 ---
 

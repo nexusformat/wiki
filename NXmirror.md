@@ -1,6 +1,6 @@
 ---
 title: NXmirror
-permalink: NXmirror/
+permalink: NXmirror.html
 layout: wiki
 ---
 

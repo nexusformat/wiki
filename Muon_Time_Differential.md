@@ -1,6 +1,6 @@
 ---
 title: Muon Time Differential
-permalink: Muon_Time_Differential/
+permalink: Muon_Time_Differential.html
 layout: wiki
 ---
 

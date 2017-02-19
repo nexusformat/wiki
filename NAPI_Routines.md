@@ -1,6 +1,6 @@
 ---
 title: NAPI Routines
-permalink: NAPI_Routines/
+permalink: NAPI_Routines.html
 layout: wiki
 ---
 

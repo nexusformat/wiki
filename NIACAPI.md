@@ -1,6 +1,6 @@
 ---
 title: NIACAPI
-permalink: NIACAPI/
+permalink: NIACAPI.html
 layout: wiki
 ---
 

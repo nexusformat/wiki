@@ -1,12 +1,12 @@
 ---
 title: FAQ
-permalink: FAQ/
+permalink: FAQ.html
 layout: wiki
 ---
 
 This is a list of commonly asked questions concerning the NeXus data
 format. If you wish to suggest any more questions to include on this
-page, please visit the [discussion page](Talk:FAQ "wikilink") and add an
+page, please visit the [discussion page](Talk:FAQ.html "wikilink") and add an
 entry.
 
 How many facilities use NeXus
@@ -20,7 +20,7 @@ ANSTO (Australia) and was used by instruments using the new data
 acquisition system at IPNS (USA). Finally, it has been formally adopted
 by major facilities under construction, the SNS (USA), JPARC (Japan) and
 Diamond Light Source (UK). For more information see the
-[Facilities](Facilities "wikilink") page.
+[Facilities](Facilities.html "wikilink") page.
 
 NeXus files are only useful for archiving instrumental data, aren't they?
 -------------------------------------------------------------------------
@@ -91,9 +91,9 @@ I want to produce an instrument definition. How do I go about it?
 The first thing is to check whether the instrument you are interested in
 is already being defined by an instrument editor. Check the list on the
 NeXus Instruments page. The [NeXus International Advisory
-Committee](NIAC "wikilink") is responsible for appointing editors of
+Committee](NIAC.html "wikilink") is responsible for appointing editors of
 special interest groups that wish to become a part of the standard, so
-contact the [Executive Secretary](NIAC "wikilink"), if a group does not
+contact the [Executive Secretary](NIAC.html "wikilink"), if a group does not
 yet exist. Of course, if you want to produce your own private definition
 for personal use, you are free to do so without our approval although we
 encourage people to share what they are doing . If you are an editor,
@@ -110,7 +110,7 @@ the process of defining an instrument should be quite simple:
     analyzing data from your instrument.
 
 Insert the relevant grep character, as defined in the [NeXus Meta-DTD
-format](Metaformat "wikilink") to denote the number of occurrences. If
+format](Metaformat.html "wikilink") to denote the number of occurrences. If
 the item is optional (“?” or “\*”), then it does not need to be added to
 your definition.
 
@@ -125,4 +125,4 @@ What coordinate system does NeXus use?
 --------------------------------------
 
 This is described on the
-[Coordinate\_Systems](Coordinate_Systems "wikilink") page
+[Coordinate\_Systems](Coordinate_Systems.html "wikilink") page

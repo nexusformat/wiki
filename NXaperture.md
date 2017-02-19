@@ -1,6 +1,6 @@
 ---
 title: NXaperture
-permalink: NXaperture/
+permalink: NXaperture.html
 layout: wiki
 ---
 

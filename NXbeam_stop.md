@@ -1,6 +1,6 @@
 ---
 title: NXbeam stop
-permalink: NXbeam_stop/
+permalink: NXbeam_stop.html
 layout: wiki
 ---
 

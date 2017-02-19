@@ -1,13 +1,13 @@
 ---
 title: Units
-permalink: Units/
+permalink: Units.html
 layout: wiki
 ---
 
 Some miscellaneous Units proposals
 ----------------------------------
 
-[Paul Kienzle](Paul_Kienzle "wikilink") will propose a more coherent
+[Paul Kienzle](Paul_Kienzle.html "wikilink") will propose a more coherent
 specification of data units. It will be a response to the following set
 of proposals.
 

@@ -1,11 +1,11 @@
 ---
 title: Voting Template
-permalink: Voting_Template/
+permalink: Voting_Template.html
 layout: wiki
 ---
 
 This is the mechanism for conducting online votes of the
-[NIAC](NIAC "wikilink"):
+[NIAC](NIAC.html "wikilink"):
 
 1.  The **Article** page is used to make a proposal, record an XML
     definition, provide documentation, *etc*.
@@ -17,7 +17,7 @@ This is the mechanism for conducting online votes of the
 4.  After the motion, there are separate sub-headings marked **Yes**,
     **No**, and **Abstain**.
 5.  Each NIAC member adds their
-    [signature](Help:Contents#Signatures "wikilink") below the
+    [signature](Help:Contents#Signatures.html "wikilink") below the
     sub-heading representing their vote. They should vote by typing on a
     new line :~~~~. The colon ensures that the vote is formatted on a
     new line, while the ~~~~ records the committee members username and
@@ -34,25 +34,25 @@ as a standard data format.
 ### Yes
 
   
-[Ray Osborn](User%3ARay_Osborn "wikilink") 15:30, 22 Jul 2005 (CDT)
+[Ray Osborn](User%3ARay_Osborn.html "wikilink") 15:30, 22 Jul 2005 (CDT)
 
-[Peter Peterson](User%3APeter_Peterson "wikilink") 15:30, 22 Jul 2005
+[Peter Peterson](User%3APeter_Peterson.html "wikilink") 15:30, 22 Jul 2005
 (CDT)
 
-[Mark Koennecke](User%3AMark_Koennecke "wikilink") 08:00, 4 Aug 2005
+[Mark Koennecke](User%3AMark_Koennecke.html "wikilink") 08:00, 4 Aug 2005
 (CDT)
 
 ### No
 
   
-[Jane Doe](User%3AJane_Doe "wikilink") 15:30, 22 Jul 2005 (CDT)
+[Jane Doe](User%3AJane_Doe.html "wikilink") 15:30, 22 Jul 2005 (CDT)
 
-[Jean Dupont](User%3AJean_Dupont "wikilink") 15:30, 22 Jul 2005 (CDT)
+[Jean Dupont](User%3AJean_Dupont.html "wikilink") 15:30, 22 Jul 2005 (CDT)
 
-[Peter Peterson](User%3APeter_Peterson "wikilink") 00:06, 7 October 2006
+[Peter Peterson](User%3APeter_Peterson.html "wikilink") 00:06, 7 October 2006
 (BST)
 
 ### Abstain
 
   
-[JoeBloggs](User%3AJoeBloggs "wikilink") 15:30, 22 Jul 2005 (CDT)
+[JoeBloggs](User%3AJoeBloggs.html "wikilink") 15:30, 22 Jul 2005 (CDT)

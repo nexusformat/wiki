@@ -1,6 +1,6 @@
 ---
 title: Linking External Files
-permalink: Linking_External_Files/
+permalink: Linking_External_Files.html
 layout: wiki
 ---
 

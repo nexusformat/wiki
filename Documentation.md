@@ -1,6 +1,6 @@
 ---
 title: Documentation
-permalink: Documentation/
+permalink: Documentation.html
 layout: wiki
 ---
 
@@ -17,6 +17,6 @@ NeXus documentation is documented in various forms:
 -   [install kits for documentation and NXDL
     definitions](http://download.nexusformat.org/kits/definitions/)
 -   [API (and other) documentation](http://download.nexusformat.org/)
--   [NeXus Wiki](Introduction "wikilink") (as of 2010-10-05, the wiki
+-   [NeXus Wiki](Introduction.html "wikilink") (as of 2010-10-05, the wiki
     has fallen behind the other documentation)
 

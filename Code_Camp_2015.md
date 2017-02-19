@@ -1,6 +1,6 @@
 ---
 title: Code Camp 2015
-permalink: Code_Camp_2015/
+permalink: Code_Camp_2015.html
 layout: wiki
 ---
 
@@ -15,7 +15,7 @@ Location and Accommodation
 The event will take place at the [DESY
 Campus](https://www.openstreetmap.org/#map=17/53.57749/9.87851) in
 Hamburg. A PDF version of our site map can be found
-[here](:File:NexusCodeCamp2015_map.pdf "wikilink").
+[here](:File:NexusCodeCamp2015_map.pdf.html "wikilink").
 
 ### Traveling
 
@@ -101,7 +101,7 @@ Agenda
 | afternoon     | project work                                                           | 109 Bldg. 25b |
 | 12:00 - 13:00 | lunch                                                                  |               |
 | 13:00 - 14:00 | after lunch discussions (report on progress), Eiger compression, NXmx? |               |
-| 17:00 - 18:00 | Teleconference [Telco 20151116](Telco_20151116 "wikilink")             | 109 Bldg. 25  |
+| 17:00 - 18:00 | Teleconference [Telco 20151116](Telco_20151116.html "wikilink")             | 109 Bldg. 25  |
 
 | Time      | Activity                                      | Room          |
 |-----------|-----------------------------------------------|---------------|

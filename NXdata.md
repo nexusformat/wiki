@@ -1,6 +1,6 @@
 ---
 title: NXdata
-permalink: NXdata/
+permalink: NXdata.html
 layout: wiki
 ---
 

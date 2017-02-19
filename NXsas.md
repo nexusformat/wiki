@@ -1,6 +1,6 @@
 ---
 title: NXsas
-permalink: NXsas/
+permalink: NXsas.html
 layout: wiki
 ---
 

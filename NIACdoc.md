@@ -1,6 +1,6 @@
 ---
 title: NIACdoc
-permalink: NIACdoc/
+permalink: NIACdoc.html
 layout: wiki
 ---
 

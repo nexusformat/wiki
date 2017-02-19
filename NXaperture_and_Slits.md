@@ -1,6 +1,6 @@
 ---
 title: NXaperture and Slits
-permalink: NXaperture_and_Slits/
+permalink: NXaperture_and_Slits.html
 layout: wiki
 ---
 

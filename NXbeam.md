@@ -1,6 +1,6 @@
 ---
 title: NXbeam
-permalink: NXbeam/
+permalink: NXbeam.html
 layout: wiki
 ---
 

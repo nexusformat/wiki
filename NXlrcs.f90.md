@@ -1,6 +1,6 @@
 ---
 title: NXlrcs.f90
-permalink: NXlrcs.f90/
+permalink: NXlrcs.f90.html
 layout: wiki
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: TOFRaw
-permalink: TOFRaw/
+permalink: TOFRaw.html
 layout: wiki
 ---
 
@@ -11,7 +11,7 @@ Introduction
 
 [NeXus](http://www.nexusformat.org/) is moving onto the idea of
 inherited incremental definitions as discussed at the last meeting of
-the [NeXus International Advisory Committee (NIAC)](NIAC "wikilink") –
+the [NeXus International Advisory Committee (NIAC)](NIAC.html "wikilink") –
 for example with powder diffractometers there is a definition for both
 time focussing and total scattering with one being a subset of the
 other; a file can conform to one or both. The initial work on this
@@ -21,7 +21,7 @@ definition comes from discussions between [SNS](http://www.sns.gov/),
 in having a unified base for all instruments to allow for low level
 instrument debugging tools to be used, without change, in a given
 facility. Further discussions occured in the [TOF Breakout Group at NIAC
-2006](TOF_Group "wikilink")
+2006](TOF_Group.html "wikilink")
 
 An example file is available in [HDF4
 (2MB)](http://download.nexusformat.org/TOFRAW/examples/hrp08639.nx4),
@@ -32,7 +32,7 @@ format as well as a [basic
 DTD](http://download.nexusformat.org/TOFRAW/examples/TOFRAW.xml).
 
 For historical information see the [draft proposal for an ISIS NeXus
-based RAW data file format](Media:Isis_nexus_016.pdf "wikilink").
+based RAW data file format](Media:Isis_nexus_016.pdf.html "wikilink").
 
 Goal of the Definition
 ----------------------
@@ -69,13 +69,13 @@ The NeXus classes we will ultimately consider are then:
     NXdetector_group (proposed)
 
 Some of these classes, such as NXgeometry, are taken directly from what
-was ratified by the [NIAC](NIAC "wikilink").
+was ratified by the [NIAC](NIAC.html "wikilink").
 
 Conventions Used in this Document
 ---------------------------------
 
 A tabular format is used for ease of viewing and printing rather than
-the [NeXus XML meta-DTD format](Metaformat "wikilink"). The Name column
+the [NeXus XML meta-DTD format](Metaformat.html "wikilink"). The Name column
 in a table identifies an item in an instance of a NeXus class. Items can
 have extra “meta data” associated with them, which are called attributes
 – these, if any, are listed in the next few lines in the attributes
@@ -102,7 +102,7 @@ The following convention will be used:
 
 This information is also included in a RE column (the name derives from
 the fact that a “Regular Expression” is used here in the [XML DTD
-format](Metaformat "wikilink")). Thus:
+format](Metaformat.html "wikilink")). Thus:
 
 | Font/style in Name Column | RE Column | Meaning                                                                                                | XML DTD symbol |
 |---------------------------|-----------|--------------------------------------------------------------------------------------------------------|----------------|
@@ -153,7 +153,7 @@ required rather an optional. Additional items are highlighted in
 <font color=red>red</font>.
 
 This definition covers a single run experiment - extensions are proposed
-for [scan type experiments](TOFRawScan "wikilink")
+for [scan type experiments](TOFRawScan.html "wikilink")
 
 #### NXentry
 
@@ -475,7 +475,7 @@ of the individual detectors that have been ganged together. An initial
 proposal was that these additional arrays would be stored with the
 “\_unganged” suffix e.g. “Polar\_angle\_unganged”, “distance\_unganged”,
 “detector\_number\_unganged”. However after discussions of [TOF
-Group](TOF_Group "wikilink") if was decided to move these arrays into a
+Group](TOF_Group.html "wikilink") if was decided to move these arrays into a
 substructure of NXdetector so we would have NXdetector.polar\_angle and
 NXdetector.distance for the ganed values;
 NXdetector.unganged.polar\_angle and NXdetector.unganged.distance for

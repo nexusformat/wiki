@@ -1,10 +1,10 @@
 ---
 title: 2014 How to find default data
-permalink: 2014_How_to_find_default_data/
+permalink: 2014_How_to_find_default_data.html
 layout: wiki
 ---
 
-(written for [NIAC2014\_Meeting](NIAC2014_Meeting "wikilink"))
+(written for [NIAC2014\_Meeting](NIAC2014_Meeting.html "wikilink"))
 
 One of the
 [motivations](http://download.nexusformat.org/doc/html/motivations.html)

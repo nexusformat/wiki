@@ -1,6 +1,6 @@
 ---
 title: Archive Definition
-permalink: Archive_Definition/
+permalink: Archive_Definition.html
 layout: wiki
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Images
-permalink: Images/
+permalink: Images.html
 layout: wiki
 ---
 

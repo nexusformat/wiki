@@ -1,6 +1,6 @@
 ---
 title: NXDL 3.1 kit testing
-permalink: NXDL_3.1_kit_testing/
+permalink: NXDL_3.1_kit_testing.html
 layout: wiki
 ---
 

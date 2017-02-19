@@ -1,6 +1,6 @@
 ---
 title: NXlog
-permalink: NXlog/
+permalink: NXlog.html
 layout: wiki
 ---
 

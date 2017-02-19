@@ -1,6 +1,6 @@
 ---
 title: TOFRawScan
-permalink: TOFRawScan/
+permalink: TOFRawScan.html
 layout: wiki
 ---
 
@@ -11,7 +11,7 @@ Introduction
 ------------
 
 This document defines extensions to the [single run
-format](TOFRaw "wikilink") to deal with scans and ISIS period type
+format](TOFRaw.html "wikilink") to deal with scans and ISIS period type
 experiments; the same conventions used there apply here.
 
 ### NXentry
@@ -19,7 +19,7 @@ experiments; the same conventions used there apply here.
 One question that is the subject of much debate is whether a single
 NXentry should only describe a single measurement or whether it could
 contain several measurements. The single measurement case is outlined in
-[TOFRaw](TOFRaw "wikilink") and we outline here two possible methods of
+[TOFRaw](TOFRaw.html "wikilink") and we outline here two possible methods of
 storing multiple measurements.
 
 #### Type 1: linking entries to describe scans

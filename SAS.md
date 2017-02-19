@@ -1,6 +1,6 @@
 ---
 title: SAS
-permalink: SAS/
+permalink: SAS.html
 layout: wiki
 ---
 

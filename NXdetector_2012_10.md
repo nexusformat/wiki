@@ -1,6 +1,6 @@
 ---
-title: Main Page/NXdetector 2012 10
-permalink: Main_Page/NXdetector_2012_10/
+title: NXdetector 2012 10
+permalink: NXdetector_2012_10.html
 layout: wiki
 ---
 

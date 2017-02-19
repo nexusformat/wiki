@@ -1,6 +1,6 @@
 ---
 title: NXevent data
-permalink: NXevent_data/
+permalink: NXevent_data.html
 layout: wiki
 ---
 

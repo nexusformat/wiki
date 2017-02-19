@@ -1,32 +1,32 @@
 ---
 title: NIAC2006 TOF Group
-permalink: NIAC2006_TOF_Group/
+permalink: NIAC2006_TOF_Group.html
 layout: wiki
 ---
 
 Time-of-Flight Working Group
 ----------------------------
 
--   [Freddie Akeroyd](User%3AFreddie_Akeroyd "wikilink")
--   [Franck Cecillon](User%3AFranck_Cecillon "wikilink")
--   [Ray Osborn](User%3ARay_Osborn "wikilink")
--   [Peter Peterson](User%3APeter_Peterson "wikilink")
--   [Thomas Proffen](User%3AThomas_Proffen "wikilink")
--   [Jiro Suzuki](User%3AJiro_Suzuki "wikilink")
+-   [Freddie Akeroyd](User%3AFreddie_Akeroyd.html "wikilink")
+-   [Franck Cecillon](User%3AFranck_Cecillon.html "wikilink")
+-   [Ray Osborn](User%3ARay_Osborn.html "wikilink")
+-   [Peter Peterson](User%3APeter_Peterson.html "wikilink")
+-   [Thomas Proffen](User%3AThomas_Proffen.html "wikilink")
+-   [Jiro Suzuki](User%3AJiro_Suzuki.html "wikilink")
 
 This group was charged with discussing matters arising from the [NXTOFRW
 - NeXus Time-of-Flight Raw File Format (simple sit and count
-case)](TOFRaw "wikilink") proposal in preparation for a full group
+case)](TOFRaw.html "wikilink") proposal in preparation for a full group
 discussion.
 
-Summary of main proposals in [TOFRaw](TOFRaw "wikilink")
+Summary of main proposals in [TOFRaw](TOFRaw.html "wikilink")
 --------------------------------------------------------
 
 1.  Some new meta-data names in NXentry for archiving and cataloguing of
     data
 2.  Some thoughts about scans (now moved to
-    [NXTOFRWSC](TOFRawScan "wikilink") and being considered by the
-    [Scanning Group](Scanning_Group "wikilink"))
+    [NXTOFRWSC](TOFRawScan.html "wikilink") and being considered by the
+    [Scanning Group](Scanning_Group.html "wikilink"))
 3.  General and Area detector specific NXdetector
 4.  Additional options for specifying pixel geometry with area detectors
     (edges, corners, etc.)
@@ -41,9 +41,9 @@ In all the definitions below we will leave out the Time-of-flight array
 index as what we are discussing is equally valid for non time-of-flight
 instruments. One new member of type NXgeometry called **origin** is
 introduced into all NXdetectors - this member is used to define a
-logical centre of the detector and its [NXshape](NXshape "wikilink")
+logical centre of the detector and its [NXshape](NXshape.html "wikilink")
 member defines a bounding box for the whole detector bank/array. If the
-[NXgeometry](NXgeometry "wikilink") instance **geometry** within
+[NXgeometry](NXgeometry.html "wikilink") instance **geometry** within
 NXdetector is used to specify pixel locations, it should be define
 positions relative to this detector origin.
 
@@ -69,22 +69,22 @@ have an NXdetector with the **layout** variable indicating the type
 ### NXgeometry revisited
 
 Before giving the definitions a quick recap of
-[NXgeometry](NXgeometry "wikilink") is in order. This class, through its
-members [NXtranslation](NXtranslation "wikilink"),
-[NXorientation](NXorientation "wikilink") and
-[NXshape](NXshape "wikilink"), allows the position, orientation and
+[NXgeometry](NXgeometry.html "wikilink") is in order. This class, through its
+members [NXtranslation](NXtranslation.html "wikilink"),
+[NXorientation](NXorientation.html "wikilink") and
+[NXshape](NXshape.html "wikilink"), allows the position, orientation and
 physical extent (size) of an object, or set of objects, to be specified.
 Translation and orientation can be relative i.e. with respect to an
 arbitrary origin whihc is just another
-[NXgeometry](NXgeometry "wikilink") object which defines a point in
+[NXgeometry](NXgeometry.html "wikilink") object which defines a point in
 space and a set of default axes directions. When we write
 **NXgeometry\[i\]** in the definitions below we do not mean an array of
 NXgeometry object (which is not allowed by NeXus) - instead we are using
 this as shorthand for indexing the **numobj** array dimension the
-[NXtranslation](NXtranslation "wikilink"),
-[NXorientation](NXorientation "wikilink") and
-[NXshape](NXshape "wikilink") objects within the
-[NXgeometry](NXgeometry "wikilink")
+[NXtranslation](NXtranslation.html "wikilink"),
+[NXorientation](NXorientation.html "wikilink") and
+[NXshape](NXshape.html "wikilink") objects within the
+[NXgeometry](NXgeometry.html "wikilink")
 
 ### Type 1: Point Detector
 
@@ -161,7 +161,7 @@ from the centre to indicate each pixel. Thus:
 Hardware detector ganging
 -------------------------
 
-[TOFRaw](TOFRaw "wikilink") originally suggested using an **\_unganged**
+[TOFRaw](TOFRaw.html "wikilink") originally suggested using an **\_unganged**
 suffix on the ungrouped elements e.g. polar\_angle\_unganged. It was
 decided that creating a substructure within the NXdetector and putting
 the information there was better so we will now have e.g.
@@ -183,7 +183,7 @@ As for showing the mapping scheme, a simple scheme would be
 <!-- -->
 
 -   An alternative is the gang\_count and gang\_index method in
-    [TOFRaw](TOFRaw "wikilink"), but this does require sorting of the
+    [TOFRaw](TOFRaw.html "wikilink"), but this does require sorting of the
     polar\_angle etc. arrays prior to writing to the file
 
 Proposals
@@ -191,7 +191,7 @@ Proposals
 
 1.  That the new data items in required in NXentry and NXuser for
     archiving be ratified. [Laurent
-    Lerusse](User%3AL.lerusse "wikilink") has volunteered to produce a
+    Lerusse](User%3AL.lerusse.html "wikilink") has volunteered to produce a
     description such that any instruement definition that wishes can
     “conform to” this.
 2.  That NeXus implement inheritance in definitions and classes by a

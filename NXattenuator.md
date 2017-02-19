@@ -1,6 +1,6 @@
 ---
 title: NXattenuator
-permalink: NXattenuator/
+permalink: NXattenuator.html
 layout: wiki
 ---
 

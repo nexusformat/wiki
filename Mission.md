@@ -1,6 +1,6 @@
 ---
 title: Mission
-permalink: Mission/
+permalink: Mission.html
 layout: wiki
 ---
 

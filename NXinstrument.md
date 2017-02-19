@@ -1,6 +1,6 @@
 ---
 title: NXinstrument
-permalink: NXinstrument/
+permalink: NXinstrument.html
 layout: wiki
 ---
 

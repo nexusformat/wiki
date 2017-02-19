@@ -1,10 +1,10 @@
 ---
 title: NIAC2007 Minutes
-permalink: NIAC2007_Minutes/
+permalink: NIAC2007_Minutes.html
 layout: wiki
 ---
 
-Version in [PDF](Media:NIAC2007HMI_minutes.pdf "wikilink") format
+Version in [PDF](Media:NIAC2007HMI_minutes.pdf.html "wikilink") format
 
 NIAC meeting – HMI, Berlin (Germany) 24, 25, 26 September 2007
 --------------------------------------------------------------
@@ -44,16 +44,16 @@ List of attendees
     orientation.
 -   Mark Koennecke mentioned that he had also prepared a talk on object
     orientation.
--   It was also noted that the [NXgeometry](NXgeometry "wikilink") class
+-   It was also noted that the [NXgeometry](NXgeometry.html "wikilink") class
     supported boxes and cylinders.
 -   Nexus paper: Mark Koennecke noted that there is a publication on
     Nexus which appeared as part of the ICNS proceedings *Physica B
     385-386 (2006) 1343-1345*
 -   There was a short discussion on scans and the role of
-    [TOFRawScan](TOFRawScan "wikilink"). Nick Hauser wanted to know if
+    [TOFRawScan](TOFRawScan.html "wikilink"). Nick Hauser wanted to know if
     there was a Nexus scan object
 
-ACTION : Nick Hauser to take over the [NXgenericScan](GenericScan "wikilink") definition  
+ACTION : Nick Hauser to take over the [NXgenericScan](GenericScan.html "wikilink") definition  
 
 ### Thanks
 
@@ -91,7 +91,7 @@ They should all be moved into Subversion.
 Current status is that Freddie Akeroyd has moved all base classes, but
 input from other NIAC members is required on naming of instrument
 definitions before moving them too. This leads onto the open question of
-how to name definitions like [TOFRaw](TOFRaw "wikilink") – should all
+how to name definitions like [TOFRaw](TOFRaw.html "wikilink") – should all
 definitions have an NX prefix like base classes or not?
 
 Pete Jemian suggests differentiating names between Instruments + Base
@@ -158,7 +158,7 @@ ACTION : Freddie Akeroyd to add missing TOF base class to SVN
 
 #### From 2006 ILL Meeting
 
--   Unassigned - [NXcharacterization](NXcharacterization "wikilink")
+-   Unassigned - [NXcharacterization](NXcharacterization.html "wikilink")
     needs to be formalized and ratified - this has been repeated in \#11
 -   Unassigned - Synchronize the website definitions with those in cvs
     (the website are considered more correct) - this is formalized as an

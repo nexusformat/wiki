@@ -1,6 +1,6 @@
 ---
 title: Proposal to Simplify Nexus
-permalink: Proposal_to_Simplify_Nexus/
+permalink: Proposal_to_Simplify_Nexus.html
 layout: wiki
 ---
 

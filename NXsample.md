@@ -1,6 +1,6 @@
 ---
 title: NXsample
-permalink: NXsample/
+permalink: NXsample.html
 layout: wiki
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: ConcordanceDiscussion
-permalink: ConcordanceDiscussion/
+permalink: ConcordanceDiscussion.html
 layout: wiki
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: NXentry
-permalink: NXentry/
+permalink: NXentry.html
 layout: wiki
 ---
 

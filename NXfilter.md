@@ -1,6 +1,6 @@
 ---
 title: NXfilter
-permalink: NXfilter/
+permalink: NXfilter.html
 layout: wiki
 ---
 

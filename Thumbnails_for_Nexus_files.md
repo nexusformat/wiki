@@ -1,6 +1,6 @@
 ---
 title: Thumbnails for Nexus files
-permalink: Thumbnails_for_Nexus_files/
+permalink: Thumbnails_for_Nexus_files.html
 layout: wiki
 ---
 

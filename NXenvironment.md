@@ -1,6 +1,6 @@
 ---
 title: NXenvironment
-permalink: NXenvironment/
+permalink: NXenvironment.html
 layout: wiki
 ---
 

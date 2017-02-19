@@ -1,6 +1,6 @@
 ---
 title: NXsource
-permalink: NXsource/
+permalink: NXsource.html
 layout: wiki
 ---
 

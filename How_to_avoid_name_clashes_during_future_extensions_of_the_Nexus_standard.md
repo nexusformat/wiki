@@ -1,6 +1,6 @@
 ---
 title: How to avoid name clashes during future extensions of the Nexus standard
-permalink: How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard/
+permalink: How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard.html
 layout: wiki
 ---
 

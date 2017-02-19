@@ -1,6 +1,6 @@
 ---
 title: NIACOrg
-permalink: NIACOrg/
+permalink: NIACOrg.html
 layout: wiki
 ---
 

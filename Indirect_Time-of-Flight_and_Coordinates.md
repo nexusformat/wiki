@@ -1,6 +1,6 @@
 ---
 title: Indirect Time-of-Flight and Coordinates
-permalink: Indirect_Time-of-Flight_and_Coordinates/
+permalink: Indirect_Time-of-Flight_and_Coordinates.html
 layout: wiki
 ---
 
@@ -46,7 +46,7 @@ two theta between analyzer and detector into the tilt angle.
 ------------------------------------------------------------------------
 
 May be I am just confused about [Coordinate
-Systems](Coordinate_Systems "wikilink") here. ----
+Systems](Coordinate_Systems.html "wikilink") here. ----
 
 ------------------------------------------------------------------------
 

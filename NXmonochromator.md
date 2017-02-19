@@ -1,6 +1,6 @@
 ---
 title: NXmonochromator
-permalink: NXmonochromator/
+permalink: NXmonochromator.html
 layout: wiki
 ---
 

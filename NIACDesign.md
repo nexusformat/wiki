@@ -1,6 +1,6 @@
 ---
 title: NIACDesign
-permalink: NIACDesign/
+permalink: NIACDesign.html
 layout: wiki
 ---
 

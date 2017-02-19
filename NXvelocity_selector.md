@@ -1,6 +1,6 @@
 ---
 title: NXvelocity selector
-permalink: NXvelocity_selector/
+permalink: NXvelocity_selector.html
 layout: wiki
 ---
 

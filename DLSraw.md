@@ -1,6 +1,6 @@
 ---
 title: DLSraw
-permalink: DLSraw/
+permalink: DLSraw.html
 layout: wiki
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: NXcrystal
-permalink: NXcrystal/
+permalink: NXcrystal.html
 layout: wiki
 ---
 

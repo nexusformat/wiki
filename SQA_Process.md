@@ -1,6 +1,6 @@
 ---
 title: SQA Process
-permalink: SQA_Process/
+permalink: SQA_Process.html
 layout: wiki
 ---
 
@@ -67,7 +67,7 @@ This discussion assumes that the version in progress is '4.0'.
 
 -   A distribution kit is then created from this tag and placed on the
     [NeXus download site](http://download.nexusformat.org/kits/) for
-    testing. An [IssueReporting](IssueReporting "wikilink") version tag
+    testing. An [IssueReporting](IssueReporting.html "wikilink") version tag
     “4.0rc1” is also created for filing bug reports against. If you wish
     to check out this version from subversion the command is
 
@@ -128,7 +128,7 @@ The second command will only be run on appropriate systems.
 
 As new tests are needed they will be added to the code in python, unless
 another language is more appropriate. Results of tests will be recorded
-on [NeXus 4 Testing](NeXus_4_Testing "wikilink")
+on [NeXus 4 Testing](NeXus_4_Testing.html "wikilink")
 
 ### Supported Systems
 

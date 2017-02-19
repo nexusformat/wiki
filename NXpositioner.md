@@ -1,6 +1,6 @@
 ---
 title: NXpositioner
-permalink: NXpositioner/
+permalink: NXpositioner.html
 layout: wiki
 ---
 

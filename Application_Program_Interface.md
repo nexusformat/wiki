@@ -1,6 +1,6 @@
 ---
 title: Application Program Interface
-permalink: Application_Program_Interface/
+permalink: Application_Program_Interface.html
 layout: wiki
 ---
 

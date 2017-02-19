@@ -1,6 +1,6 @@
 ---
 title: NXmeasurement
-permalink: NXmeasurement/
+permalink: NXmeasurement.html
 layout: wiki
 ---
 

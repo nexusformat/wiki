@@ -1,6 +1,6 @@
 ---
 title: NXuser
-permalink: NXuser/
+permalink: NXuser.html
 layout: wiki
 ---
 

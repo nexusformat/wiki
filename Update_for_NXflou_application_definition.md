@@ -1,6 +1,6 @@
 ---
 title: Update for NXflou application definition
-permalink: Update_for_NXflou_application_definition/
+permalink: Update_for_NXflou_application_definition.html
 layout: wiki
 ---
 

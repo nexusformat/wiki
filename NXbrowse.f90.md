@@ -1,6 +1,6 @@
 ---
 title: NXbrowse.f90
-permalink: NXbrowse.f90/
+permalink: NXbrowse.f90.html
 layout: wiki
 ---
 

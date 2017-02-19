@@ -1,17 +1,17 @@
 ---
 title: NIAC2006 Scanning Group
-permalink: NIAC2006_Scanning_Group/
+permalink: NIAC2006_Scanning_Group.html
 layout: wiki
 ---
 
 Definitions for some measurement classes:
 
 -   Triple axis definition:
-    [NXmonotas-NIAC2006](NXmonotas-NIAC2006 "wikilink")
+    [NXmonotas-NIAC2006](NXmonotas-NIAC2006.html "wikilink")
 -   Reflectometry definition:
-    [NXmonoref-NIAC2006](NXmonoref-NIAC2006 "wikilink")
+    [NXmonoref-NIAC2006](NXmonoref-NIAC2006.html "wikilink")
 -   TOF Reflectometry definition:
-    [NXtofnref-NIAC2006](NXtofnref-NIAC2006 "wikilink")
+    [NXtofnref-NIAC2006](NXtofnref-NIAC2006.html "wikilink")
 
 Session 1
 ---------

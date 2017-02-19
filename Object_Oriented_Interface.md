@@ -1,6 +1,6 @@
 ---
 title: Object Oriented Interface
-permalink: Object_Oriented_Interface/
+permalink: Object_Oriented_Interface.html
 layout: wiki
 ---
 
@@ -31,7 +31,7 @@ object.
                                &dimensions, const compress comp_type=COMP_NONE);
     };
 
-[Peter Peterson](User%3APfpeterson "wikilink"), SNS
+[Peter Peterson](User%3APfpeterson.html "wikilink"), SNS
 
 Conclusion
 ----------

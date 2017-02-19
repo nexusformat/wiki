@@ -1,6 +1,6 @@
 ---
 title: Scans
-permalink: Scans/
+permalink: Scans.html
 layout: wiki
 ---
 
@@ -9,15 +9,15 @@ This page is currently under construction
 
 When completed, this page will be used as the basis of a discussion on
 how to represent scans within a NeXus file. It will bring together ideas
-and discussions from [TOFRawScan](TOFRawScan "wikilink"),
-<NIAC2006:_Scanning_Group> and [GenericScan](GenericScan "wikilink")
+and discussions from [TOFRawScan](TOFRawScan.html "wikilink"),
+<NIAC2006:_Scanning_Group> and [GenericScan](GenericScan.html "wikilink")
 
 ### What is a Scan
 
 In its broadest sense, a scan is a set of measurements where parameters
 have been varied in a systematic way. These separate measurements may
 all be stored in the same file (via an additional array dimension or
-additional separate [NXentry](NXentry "wikilink")), several files or a
+additional separate [NXentry](NXentry.html "wikilink")), several files or a
 mixture of the two schemes.
 
 Issues

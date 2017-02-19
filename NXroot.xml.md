@@ -1,6 +1,6 @@
 ---
 title: NXroot.xml
-permalink: NXroot.xml/
+permalink: NXroot.xml.html
 layout: wiki
 ---
 

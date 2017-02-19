@@ -1,6 +1,6 @@
 ---
 title: NIAC
-permalink: NIAC/
+permalink: NIAC.html
 layout: wiki
 ---
 
@@ -10,43 +10,43 @@ How to contact the NIAC
 You may contact the NIAC by sending an email to
 <nexus-committee@nexusformat.org>
 
-[Current Members](Membership_Dates "wikilink")
+[Current Members](Membership_Dates.html "wikilink")
 ----------------------------------------------
 
--   [Mark Basham](User%3AMark_Basham "wikilink"), Diamond Light Source,
+-   [Mark Basham](User%3AMark_Basham.html "wikilink"), Diamond Light Source,
     UK
--   [Herbert Bernstein](User%3AHerbert_Bernstein "wikilink"), ImgCIF
--   [Aaron Brewster](User%3AAaron_Brewster "wikilink"), Lawrence
+-   [Herbert Bernstein](User%3AHerbert_Bernstein.html "wikilink"), ImgCIF
+-   [Aaron Brewster](User%3AAaron_Brewster.html "wikilink"), Lawrence
     Berkeley Laboratory, USA
--   [Bjorn Clausen](User%3ABjorn_Clausen "wikilink"), Los Alamos
+-   [Bjorn Clausen](User%3ABjorn_Clausen.html "wikilink"), Los Alamos
     National Laboratory, USA
--   [Stephen Cottrell](User%3ASteve_Cottrell "wikilink"), Rutherford
+-   [Stephen Cottrell](User%3ASteve_Cottrell.html "wikilink"), Rutherford
     Appleton Laboratory, UK (Muon Representative)
--   [ Ricardo Ferraz-Laval](User%3A_Ricardo_Ferraz-Laval "wikilink"),
+-   [ Ricardo Ferraz-Laval](User%3A_Ricardo_Ferraz-Laval.html "wikilink"),
     SNS and HFIR at ORNL, USA
--   [Armando Sole](User%3AArmando_Sole "wikilink"), European Synchrotron
+-   [Armando Sole](User%3AArmando_Sole.html "wikilink"), European Synchrotron
     Radiation Facility, France
--   [Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann "wikilink"), Helmholtz
+-   [Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann.html "wikilink"), Helmholtz
     Zentrum Berlin, Germany
--   [Pete Jemian](User%3APete_Jemian "wikilink"), Advanced Photon
+-   [Pete Jemian](User%3APete_Jemian.html "wikilink"), Advanced Photon
     Source, USA (Documentation Release Manager)
--   [Mark Könnecke](User%3AMark_Koennecke "wikilink"), Paul Scherrer
+-   [Mark Könnecke](User%3AMark_Koennecke.html "wikilink"), Paul Scherrer
     Institut, Switzerland (Executive Secretary)
--   [David Männicke](User%3ADavid_Männicke "wikilink"), Australian
+-   [David Männicke](User%3ADavid_Männicke.html "wikilink"), Australian
     Nuclear Science and Technology Organisation, Australia
--   [Raymond Osborn](User%3ARay_Osborn "wikilink"), Argonne National
+-   [Raymond Osborn](User%3ARay_Osborn.html "wikilink"), Argonne National
     Laboratory, USA
--   [Tobias Richter](User%3ATobias_Richter "wikilink"), European
+-   [Tobias Richter](User%3ATobias_Richter.html "wikilink"), European
     Spallation Source, Scandinavia (Chair)
--   [Jiro Suzuki](User%3AJiro_Suzuki "wikilink"), KEK, Japan
+-   [Jiro Suzuki](User%3AJiro_Suzuki.html "wikilink"), KEK, Japan
 -   [Benjamin Watts](http://www.psi.ch/lsc/benjamin-watts), Swiss Light
     Source, Switzerland
--   [Eugen Wintersberger](User%3AEugenwintersberger "wikilink"), DESY,
+-   [Eugen Wintersberger](User%3AEugenwintersberger.html "wikilink"), DESY,
     Germany (Technical Manager)
--   [Stuart Campbell](User%3AStuart_Campbell "wikilink"), Brookhaven
+-   [Stuart Campbell](User%3AStuart_Campbell.html "wikilink"), Brookhaven
     National Laboratory/NSLS-2, USA
 
-The [expiration dates](Membership_Dates "wikilink") for the various
+The [expiration dates](Membership_Dates.html "wikilink") for the various
 members.
 
 Constitution
@@ -145,39 +145,39 @@ Special Interest Groups:The NeXus International Advisory Committee will appoint 
 Meetings
 --------
 
--   [NIAC 2016](NIAC2016 "wikilink") NeXus Code Camp and NIAC Meeting,
+-   [NIAC 2016](NIAC2016.html "wikilink") NeXus Code Camp and NIAC Meeting,
     hosted by ESS, Copenhagen, Denmark, October 2016
--   [Code Camp 2015](Code_Camp_2015 "wikilink") NeXus Code Camp, hosted
+-   [Code Camp 2015](Code_Camp_2015.html "wikilink") NeXus Code Camp, hosted
     by DESY, Hamburg, Germany, November 2015
--   [NIAC 2014](NIAC2014 "wikilink") NeXus Code Camp and NIAC Meeting,
+-   [NIAC 2014](NIAC2014.html "wikilink") NeXus Code Camp and NIAC Meeting,
     hosted by APS, Chicago, USA, December 2014
-    ([minutes](NIAC2014_Meeting#Minutes "wikilink"))
--   [NIAC 2012](NIAC2012 "wikilink") NeXus Code Camp and NIAC Meeting,
+    ([minutes](NIAC2014_Meeting#Minutes.html "wikilink"))
+-   [NIAC 2012](NIAC2012.html "wikilink") NeXus Code Camp and NIAC Meeting,
     hosted by ISIS and Diamond at RAL, Oxfordshire, UK, September 2012
-    ([minutes](NIAC2012#Meeting_Minutes "wikilink"))
--   [NIAC 2011](NIAC2011_CodeCamp "wikilink") NeXus Code Camp and NIAC
+    ([minutes](NIAC2012#Meeting_Minutes.html "wikilink"))
+-   [NIAC 2011](NIAC2011_CodeCamp.html "wikilink") NeXus Code Camp and NIAC
     Meeting, APS, October 2011
-    ([minutes](NIAC2011_CodeCamp#Final_Report "wikilink"))
--   [NIAC 2010](NIAC2010 "wikilink") NeXus Code Camp and NIAC Meeting,
+    ([minutes](NIAC2011_CodeCamp#Final_Report.html "wikilink"))
+-   [NIAC 2010](NIAC2010.html "wikilink") NeXus Code Camp and NIAC Meeting,
     ORNL, October 2010
-    ([minutes](Media:Minutes_of_NeXus_Committee_2010.pdf "wikilink"))
--   [October 16-18 2009](NIAC2009 "wikilink") NeXus Code Camp, hosted by
+    ([minutes](Media:Minutes_of_NeXus_Committee_2010.pdf.html "wikilink"))
+-   [October 16-18 2009](NIAC2009.html "wikilink") NeXus Code Camp, hosted by
     APS, Chicago (Evanston, Illinois) (no minutes)
--   [October 30-31, 2008](NIAC2008 "wikilink") at ANSTO, Australia
-    ([minutes ](Media:NIAC2008_minutes.pdf "wikilink"))
--   [September 24-26, 2007](NIAC2007 "wikilink") at HMI, Berlin, Germany
-    ([online](NIAC2007_Minutes "wikilink") and [pdf
-    format](Media:NIAC2007HMI_minutes.pdf "wikilink") minutes)
--   [October 5-6, 2006](NIAC2006LBL "wikilink") at LBL, Berkeley, CA,
-    USA ([minutes](Media:NIAC2006LBL_minutes.pdf "wikilink"))
--   [February 1-3, 2006](NIAC2006ILL "wikilink") at ILL, Grenoble,
-    France ([minutes](Media:NIAC2006minutes.pdf "wikilink"))
+-   [October 30-31, 2008](NIAC2008.html "wikilink") at ANSTO, Australia
+    ([minutes ](Media:NIAC2008_minutes.pdf.html "wikilink"))
+-   [September 24-26, 2007](NIAC2007.html "wikilink") at HMI, Berlin, Germany
+    ([online](NIAC2007_Minutes.html "wikilink") and [pdf
+    format](Media:NIAC2007HMI_minutes.pdf.html "wikilink") minutes)
+-   [October 5-6, 2006](NIAC2006LBL.html "wikilink") at LBL, Berkeley, CA,
+    USA ([minutes](Media:NIAC2006LBL_minutes.pdf.html "wikilink"))
+-   [February 1-3, 2006](NIAC2006ILL.html "wikilink") at ILL, Grenoble,
+    France ([minutes](Media:NIAC2006minutes.pdf.html "wikilink"))
 -   April 26-28, 2005 at Bishops Lodge in Sante Fe, NM, USA
-    ([minutes](Media:NIAC2005minutes.pdf "wikilink"))
+    ([minutes](Media:NIAC2005minutes.pdf.html "wikilink"))
 -   October 21-22, 2004 at PSI, Villigen, Switzerland
-    ([minutes](Media:NeXusMinutes-Oct2004.pdf "wikilink"))
+    ([minutes](Media:NeXusMinutes-Oct2004.pdf.html "wikilink"))
 -   September 8-10, 2003 at Pasadena, CA, USA
-    ([minutes](Media:NIAC_minute.pdf "wikilink"))
+    ([minutes](Media:NIAC_minute.pdf.html "wikilink"))
 
 NIAC Decisions sorted by Topic
 ------------------------------
@@ -186,22 +186,22 @@ This is a collection of past NIAC decisions sorted by topic. This serves
 mainly as a reference for NIAC members, hence the recording is rather
 terse and not meant for consumption on it's own.
 
--   [NeXus Design](NIACDesign "wikilink")
--   [NeXus Classes](NIACClasses "wikilink")
--   [NeXus API](NIACAPI "wikilink")
--   [NeXus Documentation](NIACdoc "wikilink")
--   [NIAC Organisation](NIACOrg "wikilink")
+-   [NeXus Design](NIACDesign.html "wikilink")
+-   [NeXus Classes](NIACClasses.html "wikilink")
+-   [NeXus API](NIACAPI.html "wikilink")
+-   [NeXus Documentation](NIACdoc.html "wikilink")
+-   [NIAC Organisation](NIACOrg.html "wikilink")
 
 Action Items
 ------------
 
-[Action Items](NIACActionItems "wikilink") for members of the NIAC that
+[Action Items](NIACActionItems.html "wikilink") for members of the NIAC that
 are not associated to one of the repositories.
 
 Sub-Committees
 --------------
 
--   [NeXus Technical sub-committee](Technical_Subcommittee "wikilink")
+-   [NeXus Technical sub-committee](Technical_Subcommittee.html "wikilink")
     semi-retired. In the interest of being more open and approachable
     future tech committee meeting will be open to all interested
     parties. Use of mailing lists should move to either the general one

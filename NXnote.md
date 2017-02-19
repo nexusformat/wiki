@@ -1,6 +1,6 @@
 ---
 title: NXnote
-permalink: NXnote/
+permalink: NXnote.html
 layout: wiki
 ---
 

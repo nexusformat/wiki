@@ -1,6 +1,6 @@
 ---
 title: DECTRIS Example
-permalink: DECTRIS_Example/
+permalink: DECTRIS_Example.html
 layout: wiki
 ---
 

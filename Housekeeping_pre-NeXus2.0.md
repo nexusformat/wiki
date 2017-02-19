@@ -1,6 +1,6 @@
 ---
 title: Housekeeping pre-NeXus2.0
-permalink: Housekeeping_pre-NeXus2.0/
+permalink: Housekeeping_pre-NeXus2.0.html
 layout: wiki
 ---
 
@@ -18,12 +18,12 @@ Proposal: Definition of housekeeping tasks
 2.  define the task that can be achieved before the release date
     -   data entities include either a desciption or a (list of)
         value(s) but not both e.g.
-        [NXdisk\_chopper](NXdisk_chopper "wikilink") type has both
+        [NXdisk\_chopper](NXdisk_chopper.html "wikilink") type has both
         description and a list of values
     -   remove all “?” and “\*” (i.e. all elements are optional)
     -   leave all “+”
     -   fix typos and inconsistencies using a dictionary
-    -   check all units against the standard [Units](Units "wikilink")
+    -   check all units against the standard [Units](Units.html "wikilink")
 
 Some of these task may not be possible in the timeframe
 
@@ -43,5 +43,5 @@ The tasks include:
 4.  Editor commits to nexusformat subversion repository
 
   
-[Nick Hauser](User%3ANick_Hauser "wikilink") 05:03, 13 February 2007
+[Nick Hauser](User%3ANick_Hauser.html "wikilink") 05:03, 13 February 2007
 (UTC)

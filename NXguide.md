@@ -1,6 +1,6 @@
 ---
 title: NXguide
-permalink: NXguide/
+permalink: NXguide.html
 layout: wiki
 ---
 

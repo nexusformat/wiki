@@ -1,6 +1,6 @@
 ---
 title: NXcharacterizations
-permalink: NXcharacterizations/
+permalink: NXcharacterizations.html
 redirect_to: /NXcharacterization/
 ---
 

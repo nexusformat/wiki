@@ -1,6 +1,6 @@
 ---
 title: NXbrowse
-permalink: NXbrowse/
+permalink: NXbrowse.html
 layout: wiki
 ---
 
@@ -79,8 +79,8 @@ Installation
 
 NXbrowse is now installed as part of the standard NeXus installation.
 See the [NeXus Downloads
-section](Application_Program_Interface#Downloads "wikilink") for more
+section](Application_Program_Interface#Downloads.html "wikilink") for more
 details.
 
 If you encounter any bugs, please report them using the [NeXus
-bugzilla](Application_Program_Interface#Reporting_Bugs_in_the_NeXus_API "wikilink").
+bugzilla](Application_Program_Interface#Reporting_Bugs_in_the_NeXus_API.html "wikilink").

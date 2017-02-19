@@ -1,13 +1,13 @@
 ---
 title: Utilities
-permalink: Utilities/
+permalink: Utilities.html
 layout: wiki
 ---
 
 NeXus Browsers and Other Utilities
 ----------------------------------
 
-[NXbrowse](NXbrowse "wikilink"):A command-line utility for browsing NeXus files.  
+[NXbrowse](NXbrowse.html "wikilink"):A command-line utility for browsing NeXus files.  
 NXtoXML:A utility to translate NeXus files to XML, written in ISO C. If used from a terminal (and installed in the default PATH \[u\*\*x\] or defined as a symbol \[VMS\]), type  
 
 <!-- -->
@@ -32,7 +32,7 @@ NeXus installation (v2.0 and later). Precompiled binary versions are
 available for a limited number of operating systems (Linux, VMS,
 Macintosh). Please contact Ray Osborn for more information.
 
-[NXdir](NXdir "wikilink"):CLI tool that lists contents of NeXus file and convert selected portions to ASCII.  
+[NXdir](NXdir.html "wikilink"):CLI tool that lists contents of NeXus file and convert selected portions to ASCII.  
 NXtree:A utility to output the structure of a NeXus file in a tree structure. It has options to produce either HTML or LaTeX output, with or without data values and attributes.  
 
 <!-- -->
@@ -56,7 +56,7 @@ IgorPro HDF5 Browser:Windows and MacOSX HDF viewer for HDF4 and HDF5 files from 
 Plotting Applications
 ---------------------
 
-[NeXpy](NeXpy "wikilink"): A Python-based approach to interactive data analysis that allows complete data structures to be read into a tree and new data structures to be created using an simple intuitive syntax. The data can be plotted, sliced, manipulated, and saved to a file.  
+[NeXpy](NeXpy.html "wikilink"): A Python-based approach to interactive data analysis that allows complete data structures to be read into a tree and new data structures to be created using an simple intuitive syntax. The data can be plotted, sliced, manipulated, and saved to a file.  
 [Open Genie](http://www.opengenie.org/):Open Genie is an object-oriented data analysis and visualization package developed at the ISIS pulsed neutron facility. The latest version has the ability to load an entire NeXus file into a workspace structure, as well as write NeXus files.  
 ISAW:ISAW is a java-based analysis package used to read, manipulate, view, and save neutron scattering data. ISAW can read data from NeXus files and can merge and sort data from separate measurements..  
 IDL:Mark Koennecke has written a set of IDL utilities for interfacing to NeXus files.  
@@ -69,7 +69,7 @@ MATLAB: [MATLAB](http://www.mathworks.com/products/matlab/) will read a general 
 Data Analysis
 -------------
 
-[NeXpy](NeXpy "wikilink"): A Python-based approach to interactive data analysis that allows complete data structures to be read into a tree and new data structures to be created using an simple intuitive syntax. The data can be plotted, sliced, manipulated, and saved to a file.  
+[NeXpy](NeXpy.html "wikilink"): A Python-based approach to interactive data analysis that allows complete data structures to be read into a tree and new data structures to be created using an simple intuitive syntax. The data can be plotted, sliced, manipulated, and saved to a file.  
 [Open Genie](http://www.opengenie.org/): I include Open Genie here as well since it is really more of a data analysis package than a plotting package per se. Support for performing analysis on NeXus files is currently limited, but can be acomplished by mapping parts of the imported NeXus file into a new workspace that to make it resemble an ISIS RAW data file.  
 LAMP: LAMP is also designed for analyzing raw data in addition to visualizing the results.  
 UDA and WIMDA:General purpose muon scattering analysis packages (ISIS)  
@@ -85,4 +85,4 @@ addit, subi:programs to add or subtract powder data and write files suitable for
 Redas:data analysis for Reflectometer, based on Scilab (SINQ)  
 Amortool:simple CLI tool for Reflectometer data analysis (SINQ)  
 Scilab:general matlab like data analysis tool - with a NeXus interface for that (SINQ)  
-[Mantid](http://www.mantidproject.org/): An instrument independant data analysis framework that supports NeXus as an output format and both [TOFRaw](TOFRaw "wikilink") and [Muon\_Time\_Differential](Muon_Time_Differential "wikilink") as input formats.  
+[Mantid](http://www.mantidproject.org/): An instrument independant data analysis framework that supports NeXus as an output format and both [TOFRaw](TOFRaw.html "wikilink") and [Muon\_Time\_Differential](Muon_Time_Differential.html "wikilink") as input formats.  

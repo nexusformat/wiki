@@ -1,6 +1,6 @@
 ---
 title: NXmoderator
-permalink: NXmoderator/
+permalink: NXmoderator.html
 layout: wiki
 ---
 

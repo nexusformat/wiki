@@ -1,6 +1,6 @@
 ---
 title: NIAC2006LBL photos
-permalink: NIAC2006LBL_photos/
+permalink: NIAC2006LBL_photos.html
 layout: wiki
 ---
 

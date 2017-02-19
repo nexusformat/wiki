@@ -1,6 +1,6 @@
 ---
 title: NIAC2006LBL RoadMap
-permalink: NIAC2006LBL_RoadMap/
+permalink: NIAC2006LBL_RoadMap.html
 layout: wiki
 ---
 
@@ -11,25 +11,25 @@ layout: wiki
     -   Monochromatic Neutron and X-ray Reflectometry
     -   Time-of-Flight Neutron Reflectometery
     -   Monochromatic Neutron and X-ray Single Crystal Diffractometers
-        -   [MonoXPSD](MonoXPSD "wikilink") Monochromatic Single Crystal
+        -   [MonoXPSD](MonoXPSD.html "wikilink") Monochromatic Single Crystal
             Diffractometer with Position Sensitive Detector
-        -   [MonoXSingle](MonoXSingle "wikilink") Monochromatic Single
+        -   [MonoXSingle](MonoXSingle.html "wikilink") Monochromatic Single
             Crystal Diffractometer with Single Detector
-    -   [Monochromatic\_Neutron\_and\_X-ray\_Triple-Axis\_Spectrometer](Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer "wikilink")
-    -   [Archive\_Definition](Archive_Definition "wikilink")
+    -   [Monochromatic\_Neutron\_and\_X-ray\_Triple-Axis\_Spectrometer](Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html "wikilink")
+    -   [Archive\_Definition](Archive_Definition.html "wikilink")
 
 <!-- -->
 
 -   priority 2
-    -   [Time-of-Flight\_Neutron\_Powder\_Diffraction](Time-of-Flight_Neutron_Powder_Diffraction "wikilink")
+    -   [Time-of-Flight\_Neutron\_Powder\_Diffraction](Time-of-Flight_Neutron_Powder_Diffraction.html "wikilink")
     -   [ Monochromatic Neutron and X-ray Small Angle
-        Scattering](SAS "wikilink")
+        Scattering](SAS.html "wikilink")
     -   Time-of-Flight Small Angle Scattering
 
 <!-- -->
 
 -   priority 3
-    -   [Time-of-Flight\_Neutron\_Indirect\_Geometry\_Spectrometer](Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer "wikilink")
+    -   [Time-of-Flight\_Neutron\_Indirect\_Geometry\_Spectrometer](Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer.html "wikilink")
     -   Time-of-Flight Neutron Direct Geometry Spectrometer
 
 <!-- -->
@@ -54,7 +54,7 @@ Geometry order of operations
 When looking at a geometry is the orientation applied before the
 translation or the other way around.
 
-[XESraw](XESraw "wikilink")
+[XESraw](XESraw.html "wikilink")
 ---------------------------
 
 scanning environment variables
@@ -91,5 +91,5 @@ Proposed Agenda Items
 -   (*working*) SCAN definition similar to TOFRAW definition
 -   (*working*) NXcharacterization needs to be formalized
 -   (*working*) Finalize [archive
-    definition](Archive_Definition "wikilink")
+    definition](Archive_Definition.html "wikilink")
 

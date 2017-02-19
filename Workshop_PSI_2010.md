@@ -1,6 +1,6 @@
 ---
 title: Workshop PSI 2010
-permalink: Workshop_PSI_2010/
+permalink: Workshop_PSI_2010.html
 layout: wiki
 ---
 
@@ -22,7 +22,7 @@ held at ESRF.
 This workshop is to go into more detail and come up with:
 
 -   A wishlist of things to consider for the [NeXus International
-    Advisory Committee](NIAC "wikilink")
+    Advisory Committee](NIAC.html "wikilink")
 -   A set of synchrotron specific application definitions.
 
 The intended audience for this workshop are facility scientists and

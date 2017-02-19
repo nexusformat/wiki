@@ -1,6 +1,6 @@
 ---
 title: Monochromatic Neutron and X-ray Powder Diffraction
-permalink: Monochromatic_Neutron_and_X-ray_Powder_Diffraction/
+permalink: Monochromatic_Neutron_and_X-ray_Powder_Diffraction.html
 layout: wiki
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Voting
-permalink: Voting/
+permalink: Voting.html
 redirect_to: /Voting_Template/
 ---
 

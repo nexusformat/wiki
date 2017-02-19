@@ -1,6 +1,6 @@
 ---
 title: NXinsertion device
-permalink: NXinsertion_device/
+permalink: NXinsertion_device.html
 layout: wiki
 ---
 

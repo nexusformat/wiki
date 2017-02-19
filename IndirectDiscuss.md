@@ -1,12 +1,12 @@
 ---
 title: IndirectDiscuss
-permalink: IndirectDiscuss/
+permalink: IndirectDiscuss.html
 layout: wiki
 ---
 
 This file is from the old SWIKI and a starting point for discussion ...
 the idea is to come up with a definition based on inheritance from other
-definitions such as [TOFRaw](TOFRaw "wikilink")
+definitions such as [TOFRaw](TOFRaw.html "wikilink")
 
      
     NXtofnigs.xml

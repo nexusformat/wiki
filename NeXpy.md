@@ -1,6 +1,6 @@
 ---
 title: NeXpy
-permalink: NeXpy/
+permalink: NeXpy.html
 layout: wiki
 ---
 

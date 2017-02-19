@@ -1,6 +1,6 @@
 ---
 title: NXbending magnet
-permalink: NXbending_magnet/
+permalink: NXbending_magnet.html
 layout: wiki
 ---
 

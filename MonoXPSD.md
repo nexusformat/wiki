@@ -1,6 +1,6 @@
 ---
 title: MonoXPSD
-permalink: MonoXPSD/
+permalink: MonoXPSD.html
 layout: wiki
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: NXfermi chopper
-permalink: NXfermi_chopper/
+permalink: NXfermi_chopper.html
 layout: wiki
 ---
 

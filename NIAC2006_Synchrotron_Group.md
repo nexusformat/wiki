@@ -1,6 +1,6 @@
 ---
 title: NIAC2006 Synchrotron Group
-permalink: NIAC2006_Synchrotron_Group/
+permalink: NIAC2006_Synchrotron_Group.html
 layout: wiki
 ---
 

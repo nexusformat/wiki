@@ -1,6 +1,6 @@
 ---
 title: Proposal NeXus Coordinates
-permalink: Proposal_NeXus_Coordinates/
+permalink: Proposal_NeXus_Coordinates.html
 layout: wiki
 ---
 
@@ -68,7 +68,7 @@ I propose to present this for discussion and a possible vote at the
 upcoming NIAC meeting at the SNS on October 7-8.
 
   
-[Ray](User%3ARay_Osborn "wikilink") 19:08, 29 September 2010 (UTC)
+[Ray](User%3ARay_Osborn.html "wikilink") 19:08, 29 September 2010 (UTC)
 
 Conclusion
 ----------

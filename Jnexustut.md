@@ -1,6 +1,6 @@
 ---
 title: Jnexustut
-permalink: Jnexustut/
+permalink: Jnexustut.html
 layout: wiki
 ---
 

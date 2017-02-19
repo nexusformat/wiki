@@ -1,15 +1,15 @@
 ---
 title: Download
-permalink: Download/
+permalink: Download.html
 layout: wiki
 ---
 
 The NeXus API is distributed under the terms of the GNU Lesser General
 Public License. For information on using the NeXus API see the
 [Application Program
-Interface](Application_Program_Interface "wikilink") page. To report or
+Interface](Application_Program_Interface.html "wikilink") page. To report or
 view problems/bugs/suggestions/enhancement requests goto our
-[IssueReporting](IssueReporting "wikilink") system.
+[IssueReporting](IssueReporting.html "wikilink") system.
 
 Downloads for documentation are available separately at
 <http://download.nexusformat.org/kits/definitions/>.

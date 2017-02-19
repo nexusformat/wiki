@@ -1,6 +1,6 @@
 ---
 title: NXshape
-permalink: NXshape/
+permalink: NXshape.html
 layout: wiki
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Containers and Inheritance
-permalink: Containers_and_Inheritance/
+permalink: Containers_and_Inheritance.html
 layout: wiki
 ---
 
@@ -70,5 +70,5 @@ additional information. This allows experiments that only require a
 basic component definition to also use datasets that have additional
 data appended.
 
---[Greg Sonnenfeld](User%3AGreg_Sonnenfeld "wikilink") 15:22, 27 January
+--[Greg Sonnenfeld](User%3AGreg_Sonnenfeld.html "wikilink") 15:22, 27 January
 2007 (UTC)

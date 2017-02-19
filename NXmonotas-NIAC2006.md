@@ -1,11 +1,11 @@
 ---
 title: NXmonotas-NIAC2006
-permalink: NXmonotas-NIAC2006/
+permalink: NXmonotas-NIAC2006.html
 layout: wiki
 ---
 
 Example:
-[NXmonotas\_example-NIAC2006](NXmonotas_example-NIAC2006 "wikilink")
+[NXmonotas\_example-NIAC2006](NXmonotas_example-NIAC2006.html "wikilink")
 
     <!--
     URL:     http://www.nexus.anl.gov/classes/xml/NXmonotas.xml

@@ -1,6 +1,6 @@
 ---
 title: Nexus 4 Release Notes
-permalink: Nexus_4_Release_Notes/
+permalink: Nexus_4_Release_Notes.html
 layout: wiki
 ---
 

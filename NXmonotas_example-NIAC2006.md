@@ -1,6 +1,6 @@
 ---
 title: NXmonotas example-NIAC2006
-permalink: NXmonotas_example-NIAC2006/
+permalink: NXmonotas_example-NIAC2006.html
 layout: wiki
 ---
 

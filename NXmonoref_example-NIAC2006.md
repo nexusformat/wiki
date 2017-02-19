@@ -1,6 +1,6 @@
 ---
 title: NXmonoref example-NIAC2006
-permalink: NXmonoref_example-NIAC2006/
+permalink: NXmonoref_example-NIAC2006.html
 layout: wiki
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Associating Axes with Data
-permalink: Associating_Axes_with_Data/
+permalink: Associating_Axes_with_Data.html
 layout: wiki
 ---
 
@@ -15,7 +15,7 @@ them as properties of the data. Now, this limitation of HDF has since
 long fallen. Moreover there are a number of use cases which are not well
 covered by what we do today. Thus this page describes how to improve.
 Discussion comments should be placed on the [
-discussion](Talk:Associating_Axes_with_Data "wikilink") page.
+discussion](Talk:Associating_Axes_with_Data.html "wikilink") page.
 
 ### Requirements
 
@@ -40,7 +40,7 @@ Solution
 --------
 
 See
-[2014\_axes\_and\_uncertainties](2014_axes_and_uncertainties "wikilink")
+[2014\_axes\_and\_uncertainties](2014_axes_and_uncertainties.html "wikilink")
 This proposal has been accepted by NIAC at NIAC 2014 with a few
 modification. There is still some resistance to the new scheme, thus
 this page stays in place.

@@ -1,6 +1,6 @@
 ---
 title: NIAC2010 CodeCamp
-permalink: NIAC2010_CodeCamp/
+permalink: NIAC2010_CodeCamp.html
 layout: wiki
 ---
 
@@ -16,8 +16,8 @@ Code Camp Attendees
 know are attending**
 
 If you want to attend please email either [Stuart
-Campbell](User%3AStuart_Campbell "wikilink") or [Peter
-Peterson](User%3APeter_Peterson "wikilink").
+Campbell](User%3AStuart_Campbell.html "wikilink") or [Peter
+Peterson](User%3APeter_Peterson.html "wikilink").
 
 ***It is important that if entering the US on a Visa Waiver to ensure
 that you get a VWB (Visa Waiver Business) and NOT a tourist one.***  
@@ -25,17 +25,17 @@ It is likely that you will not be allowed into ORNL with a Tourist Visa!
 
 | Name                                                      | Company/Institute                                   | PAS status          | spaces in car |
 |-----------------------------------------------------------|-----------------------------------------------------|---------------------|---------------|
-| [Frederick Akeroyd](User%3AFreddie_Akeroyd "wikilink")    | | ISIS Facility, Rutherford Appleton Laboratory, UK | | approved          |               |
-| [Stuart Campbell](User%3AStuart_Campbell "wikilink")      | | ORNL, USA                                         | | approved          | 2             |
+| [Frederick Akeroyd](User%3AFreddie_Akeroyd.html "wikilink")    | | ISIS Facility, Rutherford Appleton Laboratory, UK | | approved          |               |
+| [Stuart Campbell](User%3AStuart_Campbell.html "wikilink")      | | ORNL, USA                                         | | approved          | 2             |
 | Peter Chang                                               | | Diamond Light Source, UK                          | | approved          |               |
-| [Pete Jemian](User%3APete_Jemian "wikilink")              | | APS, ANL, USA                                     | | approved          |               |
-| [ Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann "wikilink") | | Helmholtz Zentrum Berlin (renamed HMI), Germany   | | approved          |               |
-| [Mark Koennecke](User%3AMark_Koennecke "wikilink")        | | PSI, Switzerland                                  | | approved          |               |
-| [Peter Peterson](User%3APeter_Peterson "wikilink")        | | ORNL, USA                                         | | approved          | 3             |
+| [Pete Jemian](User%3APete_Jemian.html "wikilink")              | | APS, ANL, USA                                     | | approved          |               |
+| [ Jens-Uwe Hoffmann](User%3AJens-Uwe_Hoffmann.html "wikilink") | | Helmholtz Zentrum Berlin (renamed HMI), Germany   | | approved          |               |
+| [Mark Koennecke](User%3AMark_Koennecke.html "wikilink")        | | PSI, Switzerland                                  | | approved          |               |
+| [Peter Peterson](User%3APeter_Peterson.html "wikilink")        | | ORNL, USA                                         | | approved          | 3             |
 | Michael Reuter                                            | | ORNL, USA                                         | | approved          |               |
-| [Tobias Richter](User%3ATobias_Richter "wikilink")        | | Diamond Light Source, UK                          | | approved          |               |
+| [Tobias Richter](User%3ATobias_Richter.html "wikilink")        | | Diamond Light Source, UK                          | | approved          |               |
 | Benjamin Watts                                            | | Swiss Light Source, Switzerland                   | | awaiting approval |               |
-| [Marie Yao](User%3AMarie "wikilink")                      | | ORNL, USA                                         | | approved          |               |
+| [Marie Yao](User%3AMarie.html "wikilink")                      | | ORNL, USA                                         | | approved          |               |
 ||
 
 Planned Agenda

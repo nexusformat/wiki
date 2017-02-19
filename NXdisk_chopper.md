@@ -1,6 +1,6 @@
 ---
 title: NXdisk chopper
-permalink: NXdisk_chopper/
+permalink: NXdisk_chopper.html
 layout: wiki
 ---
 

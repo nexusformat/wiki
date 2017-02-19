@@ -1,12 +1,12 @@
 ---
 title: ReflectDiscuss
-permalink: ReflectDiscuss/
+permalink: ReflectDiscuss.html
 layout: wiki
 ---
 
 Three files as a starting point for discussion ... the idea is to come
 up with reflectometer definitions based on inheritance from other
-definitions such as [TOFRaw](TOFRaw "wikilink")
+definitions such as [TOFRaw](TOFRaw.html "wikilink")
 
 -   outline the parts of tofraw needed for reflectometry.
 -   create a reflectometry base

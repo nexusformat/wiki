@@ -1,6 +1,6 @@
 ---
 title: Simplifying Nexus Proposal
-permalink: Simplifying_Nexus_Proposal/
+permalink: Simplifying_Nexus_Proposal.html
 redirect_to: /Proposal_to_Simplify_Nexus/
 ---
 

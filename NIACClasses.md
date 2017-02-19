@@ -1,6 +1,6 @@
 ---
 title: NIACClasses
-permalink: NIACClasses/
+permalink: NIACClasses.html
 layout: wiki
 ---
 

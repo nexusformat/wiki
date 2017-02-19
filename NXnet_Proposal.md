@@ -1,6 +1,6 @@
 ---
 title: NXnet Proposal
-permalink: NXnet_Proposal/
+permalink: NXnet_Proposal.html
 layout: wiki
 ---
 

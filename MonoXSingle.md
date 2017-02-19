@@ -1,6 +1,6 @@
 ---
 title: MonoXSingle
-permalink: MonoXSingle/
+permalink: MonoXSingle.html
 layout: wiki
 ---
 

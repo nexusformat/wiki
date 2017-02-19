@@ -1,6 +1,6 @@
 ---
 title: NIAC2014 Meeting
-permalink: NIAC2014_Meeting/
+permalink: NIAC2014_Meeting.html
 layout: wiki
 ---
 
@@ -12,7 +12,7 @@ committee and other interested persons. It generally discusses matters
 of policy and strategy, but can discuss specific NeXus instrument
 definitions if the relevant experts are in attendance.
 
-See [NIAC2014](NIAC2014 "wikilink") for administrative details about
+See [NIAC2014](NIAC2014.html "wikilink") for administrative details about
 this meeting.
 
 ### Schedule
@@ -33,7 +33,7 @@ Notes:
 -   Votes on new members
 -   Electing new officers, candidates get ready!
 -   Revise Constitution [ Terms of Reference
-    ](NIAC#Terms_of_Reference "wikilink"):
+    ](NIAC#Terms_of_Reference.html "wikilink"):
     -   item 3: change wording of “instrument and group class
         definitions” to contemporary terms (base classes and instrument
         definitions)
@@ -60,12 +60,12 @@ Notes:
 -   Rules for multi file NeXus files
 -   NXdata:
     -   proposal: describe [ how to find the default
-        data](2014_How_to_find_default_data "wikilink")
+        data](2014_How_to_find_default_data.html "wikilink")
     -   proposal: describe how data are related (particularly: [ axes
-        and uncertainties](2014_axes_and_uncertainties "wikilink"))
+        and uncertainties](2014_axes_and_uncertainties.html "wikilink"))
 -   NXformula
 -   [Update for NXflou application
-    definition](Update_for_NXflou_application_definition "wikilink")
+    definition](Update_for_NXflou_application_definition.html "wikilink")
 
 ### NIAC Agenda
 
@@ -107,7 +107,7 @@ Notes:
 
 #### Thursday Morning
 
-Present members: as listed on [NIAC2014](NIAC2014 "wikilink").
+Present members: as listed on [NIAC2014](NIAC2014.html "wikilink").
 
 Welcome address by John Maclean (Acting Division Director for
 Engineering Support).
@@ -142,7 +142,7 @@ Coffee break.
 Vote on proposal for NXdata axes with indices attribute only required
 when required to resolve ambiguity. All in favour. Vote on proposal with
 indices required as in
-[2014\_axes\_and\_uncertainties](2014_axes_and_uncertainties "wikilink").
+[2014\_axes\_and\_uncertainties](2014_axes_and_uncertainties.html "wikilink").
 Accepted: 9 in favour. Strong disagreement by Ray Osborn as adoption is
 noted: “Adoption of NeXus will be hampered by additional complexity
 being required unnecessarily”. Ben Watts would like to add that the
@@ -165,7 +165,7 @@ Lunch
 Ratification of new and amended base classes and definitions.
 
 NXfluo
-[Update\_for\_NXflou\_application\_definition](Update_for_NXflou_application_definition "wikilink")
+[Update\_for\_NXflou\_application\_definition](Update_for_NXflou_application_definition.html "wikilink")
 Resolution: Proposal is in agreement with existing scan rules. No vote
 required. Further amendments to the application definition may be
 required, but that needs to be refined. Mark B and Eugen W will work on

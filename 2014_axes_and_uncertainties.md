@@ -1,10 +1,10 @@
 ---
 title: 2014 axes and uncertainties
-permalink: 2014_axes_and_uncertainties/
+permalink: 2014_axes_and_uncertainties.html
 layout: wiki
 ---
 
-(written for [NIAC2014\_Meeting](NIAC2014_Meeting "wikilink"))
+(written for [NIAC2014\_Meeting](NIAC2014_Meeting.html "wikilink"))
 
 In developing the [canSAS standard for storing multidimensional reduced
 small-angle scattering

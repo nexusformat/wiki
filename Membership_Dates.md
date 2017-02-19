@@ -1,13 +1,13 @@
 ---
 title: Membership Dates
-permalink: Membership_Dates/
+permalink: Membership_Dates.html
 layout: wiki
 ---
 
 The members of the NIAC, with the expiration of their membership are
 listed below. If a member wishes to be renewed, they must provide a
 letter of support from the facility and be approved by the NIAC as
-stated in the [constitution](NIAC "wikilink").
+stated in the [constitution](NIAC.html "wikilink").
 
 ### Expire November 28, 2016
 

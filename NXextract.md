@@ -1,6 +1,6 @@
 ---
 title: NXextract
-permalink: NXextract/
+permalink: NXextract.html
 layout: wiki
 ---
 

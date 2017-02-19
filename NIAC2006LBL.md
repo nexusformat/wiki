@@ -1,6 +1,6 @@
 ---
 title: NIAC2006LBL
-permalink: NIAC2006LBL/
+permalink: NIAC2006LBL.html
 layout: wiki
 ---
 
@@ -8,7 +8,7 @@ NIAC Meeting - October 2006
 ---------------------------
 
 The next meeting of the [ NeXus International Advisory
-Committee](NIAC "wikilink") will be held at the [Lawrence Berkeley
+Committee](NIAC.html "wikilink") will be held at the [Lawrence Berkeley
 National Laboratory](http://www.lbl.gov) near San Francisco, California,
 USA. The meeting will be held from October 5 to 6, 2006, immediately
 following [NOBUGS 2006](http://nobugs2006.lbl.gov/).
@@ -16,8 +16,8 @@ following [NOBUGS 2006](http://nobugs2006.lbl.gov/).
 ### List of Attendees
 
 If you are interested in attending (and are not already on the [list of
-attendees](NIAC2006LBL_attendees "wikilink")), contact [Andrew
-Götz](User%3AAndy_Gotz "wikilink").
+attendees](NIAC2006LBL_attendees.html "wikilink")), contact [Andrew
+Götz](User%3AAndy_Gotz.html "wikilink").
 
 ### Start of the Meeting
 
@@ -47,11 +47,11 @@ Götz](User%3AAndy_Gotz "wikilink").
     as a stakeholder that requires NeXus.
 -   SCAN definition similar to TOFRAW definition
 -   NXcharacterization needs to be formalized
--   Finalize [archive definition](Archive_Definition "wikilink")
+-   Finalize [archive definition](Archive_Definition.html "wikilink")
 
 #### Tabled Until Next Time
 
--   Moving from [Meta-DTDs](Metaformat "wikilink") to XML Schema. see
+-   Moving from [Meta-DTDs](Metaformat.html "wikilink") to XML Schema. see
     [NeXML proposal](http://www.webel.com.au/nexml)
 
 #### October 5
@@ -59,7 +59,7 @@ Götz](User%3AAndy_Gotz "wikilink").
 -   08:30 Welcome and Introduction
 -   First buisiness
     -   Review of NIAC'2006ILL minutes
-    -   [Renew members](Membership_Dates "wikilink")
+    -   [Renew members](Membership_Dates.html "wikilink")
     -   Add new members
         -   Jens-Uwe Hoffmann - Hahn-Meitner-Institut Berlin
         -   Paul Kienzle - DANSE
@@ -76,25 +76,25 @@ Götz](User%3AAndy_Gotz "wikilink").
 
 #### October 6
 
--   08:30 Small items (see [Roadmap](NIAC2006LBL_RoadMap "wikilink"))
+-   08:30 Small items (see [Roadmap](NIAC2006LBL_RoadMap.html "wikilink"))
     -   Examine classes for ratification
         -   [ X-ray Experimental (Synchrotron) raw NeXus
-            data](XESraw "wikilink")
-        -   [Archive\_Definition](Archive_Definition "wikilink")
+            data](XESraw.html "wikilink")
+        -   [Archive\_Definition](Archive_Definition.html "wikilink")
 
 <!-- -->
 
 -   -   Examine instruments for ratification
         -   [ Monochromatic Neutron and X-ray Small-Angle
-            Scattering](SAS "wikilink")
+            Scattering](SAS.html "wikilink")
         -   Reflectometry
-        -   [Time-of-Flight\_Neutron\_Indirect\_Geometry\_Spectrometer](Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer "wikilink")
-        -   [Monochromatic\_Neutron\_and\_X-ray\_Triple-Axis\_Spectrometer](Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer "wikilink")
-        -   [Time-of-Flight\_Neutron\_Powder\_Diffraction](Time-of-Flight_Neutron_Powder_Diffraction "wikilink")
-        -   [Muon\_Time\_Differential](Muon_Time_Differential "wikilink")
-        -   [MonoXPSD](MonoXPSD "wikilink") Monochromatic Single Crystal
+        -   [Time-of-Flight\_Neutron\_Indirect\_Geometry\_Spectrometer](Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer.html "wikilink")
+        -   [Monochromatic\_Neutron\_and\_X-ray\_Triple-Axis\_Spectrometer](Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html "wikilink")
+        -   [Time-of-Flight\_Neutron\_Powder\_Diffraction](Time-of-Flight_Neutron_Powder_Diffraction.html "wikilink")
+        -   [Muon\_Time\_Differential](Muon_Time_Differential.html "wikilink")
+        -   [MonoXPSD](MonoXPSD.html "wikilink") Monochromatic Single Crystal
             Diffractometer with Position Sensitive Detector
-        -   [MonoXSingle](MonoXSingle "wikilink") Monochromatic Single
+        -   [MonoXSingle](MonoXSingle.html "wikilink") Monochromatic Single
             Crystal Diffractometer with Single Detector
 
 <!-- -->
@@ -115,7 +115,7 @@ The NOBUGS 2006 conference suggests two hotels:
 
 For help in locating the buildings with the meeting rooms, please refer
 to the [http://www.lbl.gov/Workplace/lab-site-map.html LBL campus
-map](http://www.lbl.gov/Workplace/lab-site-map.html_LBL_campus_map "wikilink").
+map](http://www.lbl.gov/Workplace/lab-site-map.html_LBL_campus_map.html "wikilink").
 
 | | room       | | session | | network | | projector? | | 10/5             | | 10/6             |
 |--------------|-----------|-----------|--------------|--------------------|--------------------|
@@ -153,12 +153,12 @@ Minutes
 -------
 
 Here are the minutes in [pdf
-format](Media:NIAC2006LBL_minutes.pdf "wikilink") or [MS-Word
-format](Media:NIAC2006LBL_minutes.doc "wikilink").
+format](Media:NIAC2006LBL_minutes.pdf.html "wikilink") or [MS-Word
+format](Media:NIAC2006LBL_minutes.doc.html "wikilink").
 
 Photos
 ------
 
--   [ Group photos](NIAC2006LBL_photos "wikilink")
--   [ other photos](NIAC2006LBL_photos_other "wikilink")
+-   [ Group photos](NIAC2006LBL_photos.html "wikilink")
+-   [ other photos](NIAC2006LBL_photos_other.html "wikilink")
 

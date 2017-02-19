@@ -1,6 +1,6 @@
 ---
 title: NXdetector documentation
-permalink: NXdetector_documentation/
+permalink: NXdetector_documentation.html
 layout: wiki
 ---
 

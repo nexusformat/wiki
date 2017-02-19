@@ -1,6 +1,6 @@
 ---
 title: NXtranslate
-permalink: NXtranslate/
+permalink: NXtranslate.html
 layout: wiki
 ---
 

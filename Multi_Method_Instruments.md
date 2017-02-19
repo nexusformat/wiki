@@ -1,6 +1,6 @@
 ---
 title: Multi Method Instruments
-permalink: Multi_Method_Instruments/
+permalink: Multi_Method_Instruments.html
 layout: wiki
 ---
 

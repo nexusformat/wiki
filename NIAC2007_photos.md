@@ -1,6 +1,6 @@
 ---
 title: NIAC2007 photos
-permalink: NIAC2007_photos/
+permalink: NIAC2007_photos.html
 layout: wiki
 ---
 

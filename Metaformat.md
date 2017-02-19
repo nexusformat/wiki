@@ -1,11 +1,11 @@
 ---
 title: Metaformat
-permalink: Metaformat/
+permalink: Metaformat.html
 layout: wiki
 ---
 
 (*work is currently in progress to replace Meta-DTDs with [XML
-schema](Schema "wikilink")*)
+schema](Schema.html "wikilink")*)
 
 The contents of NeXus files are defined using XML. The hierarchical
 structure of NeXus files maps very conveniently into XML files with
@@ -34,7 +34,7 @@ Meta-DTD Definition
 This should be followed by a comment block giving the URL of the XML
 file, the name of the editor, the keyword $Id$, which will generate a
 revision number when the file is committed to the
-[SubversionServer](SubversionServer "wikilink"), and a brief description
+[SubversionServer](SubversionServer.html "wikilink"), and a brief description
 of the file, e.g.
 
 <!-- -->

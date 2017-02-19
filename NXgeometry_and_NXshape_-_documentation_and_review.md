@@ -1,6 +1,6 @@
 ---
 title: NXgeometry and NXshape - documentation and review
-permalink: NXgeometry_and_NXshape_-_documentation_and_review/
+permalink: NXgeometry_and_NXshape_-_documentation_and_review.html
 layout: wiki
 ---
 

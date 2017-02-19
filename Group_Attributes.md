@@ -1,6 +1,6 @@
 ---
 title: Group Attributes
-permalink: Group_Attributes/
+permalink: Group_Attributes.html
 layout: wiki
 ---
 

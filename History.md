@@ -1,6 +1,6 @@
 ---
 title: History
-permalink: History/
+permalink: History.html
 layout: wiki
 ---
 
@@ -321,7 +321,7 @@ way, or if any of the following information is inaccurate, please let me
 know so that this record is kept up-to-date.
 
 **For an up-to-date list of Facilities using NeXus please check the
-[facilities page](Facilities "wikilink")**
+[facilities page](Facilities.html "wikilink")**
 
 ### Neutron Scattering Facility Support
 

@@ -1,6 +1,6 @@
 ---
 title: NXpolarizer
-permalink: NXpolarizer/
+permalink: NXpolarizer.html
 layout: wiki
 ---
 

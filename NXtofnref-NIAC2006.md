@@ -1,6 +1,6 @@
 ---
 title: NXtofnref-NIAC2006
-permalink: NXtofnref-NIAC2006/
+permalink: NXtofnref-NIAC2006.html
 layout: wiki
 ---
 

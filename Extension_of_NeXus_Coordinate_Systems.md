@@ -1,6 +1,6 @@
 ---
 title: Extension of NeXus Coordinate Systems
-permalink: Extension_of_NeXus_Coordinate_Systems/
+permalink: Extension_of_NeXus_Coordinate_Systems.html
 layout: wiki
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Processed Data
-permalink: Processed_Data/
+permalink: Processed_Data.html
 layout: wiki
 ---
 

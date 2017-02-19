@@ -1,6 +1,6 @@
 ---
 title: NXDL
-permalink: NXDL/
+permalink: NXDL.html
 layout: wiki
 ---
 
@@ -8,12 +8,12 @@ NXDL: NeXus Definition Language
 ===============================
 
 NXDL is the new NeXus definition language - it will replace the
-[Meta-DTD format](Metaformat "wikilink") as the way for specifying the
+[Meta-DTD format](Metaformat.html "wikilink") as the way for specifying the
 content of NeXus data files. NXDL is based on XML schema technology and
-follows on from provisional work on [NeXus schema](Schema "wikilink") in
+follows on from provisional work on [NeXus schema](Schema.html "wikilink") in
 Summer 2008.
 
-At [NIAC 2008](Media:NIAC2008_minutes.pdf "wikilink") it was agreed that
+At [NIAC 2008](Media:NIAC2008_minutes.pdf.html "wikilink") it was agreed that
 writing definitions directly as schema would probably be too verbose and
 instead a new language (NXDL) was devised that would then be translated
 into XML schema for eventual validation. The files written in the NXDL

@@ -1,6 +1,6 @@
 ---
 title: Time-of-Flight Neutron Powder Diffraction
-permalink: Time-of-Flight_Neutron_Powder_Diffraction/
+permalink: Time-of-Flight_Neutron_Powder_Diffraction.html
 layout: wiki
 ---
 
