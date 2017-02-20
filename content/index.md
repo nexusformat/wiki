@@ -30,7 +30,7 @@ Discussion and Development:
 * [Tele Conferences](Teleconferences.html "wikilink") regular update meetings
 * [Bug / Issue Reporting](IssueReporting.html "wikilink")
 * [Mailing lists](http://download.nexusformat.org/doc/html/mailinglist.html)
-* [Discussion forum](Discussions.html "wikilink") in this wiki
+* [Design Issues](Design_ Issues.html "wikilink") (documents in this wiki)
 * [NeXus International Advisory Committee](NIAC.html "wikilink")
 * [Latest News](Latest_News.html "wikilink")
 
