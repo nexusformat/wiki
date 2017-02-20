@@ -1,3 +1,1 @@
-Replacement for http://wiki.nexusformat.org maybe even http://www.nexusformat.org
-
-Currently viewable at https://nexusformat.github.io/wiki/
+This is the source for http://www.nexusformat.org (when hosted as Github Pages).
