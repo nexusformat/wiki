@@ -91,7 +91,7 @@ limited period to ensure balanced representation.
 
 ### Organization
 
-Accountability:The NeXus International Advisory Committee will ensure that their decisions are reported both on the NeXus web site and on the NeXus mailing list. Committee business will be conducted either through a mailing list, to which non-committee members can subscribe and whose archive will be available on the web, or through meetings, which will be advertised on the NeXus mailing list and which non-committee members may attend.  
+Accountability: The NeXus International Advisory Committee will ensure that their decisions are reported both on the NeXus web site and on the NeXus mailing list. Committee business will be conducted either through a mailing list, to which non-committee members can subscribe and whose archive will be available on the web, or through meetings, which will be advertised on the NeXus mailing list and which non-committee members may attend.  
 The NeXus International Advisory Committee will have the following
 executive officers:
 
@@ -114,7 +114,7 @@ executive officers:
 All of these officers will be elected for a two year term. The incumbent
 chair and executive secretary are limited to two consecutive terms.
 
-Voting:Only members of the NeXus International Advisory Committee will be able to vote on specific proposals that come under the remit of the committee. However, all debates will be conducted publicly and non-committee members are both allowed and encouraged to participate.  
+Voting: Only members of the NeXus International Advisory Committee will be able to vote on specific proposals that come under the remit of the committee. However, all debates will be conducted publicly and non-committee members are both allowed and encouraged to participate.  
 Topics voted on will require a simple majority unless specifically
 challenged by a committee member. In the event of a challenge, the issue
 will be presented to the NeXus mailing list inviting comments for a
@@ -124,7 +124,7 @@ overruled by a two thirds majority.
 The constitution can only be changed by a two thirds majority of the
 NIAC.
 
-Special Interest Groups:The NeXus International Advisory Committee will appoint editors to be in charge of particular groups that wish to specify instrument definitions or develop specialized uses of the NeXus format. The groups will establish their own mode of operation, but will be expected to consult widely with the community relevant to their work, and to refer back to the NeXus International Advisory Committee any matters that involve a change in the current NeXus specification. Specific proposals produced by these groups will be presented to the NeXus International Advisory Committee for comment and formal ratification.  
+Special Interest Groups: The NeXus International Advisory Committee will appoint editors to be in charge of particular groups that wish to specify instrument definitions or develop specialized uses of the NeXus format. The groups will establish their own mode of operation, but will be expected to consult widely with the community relevant to their work, and to refer back to the NeXus International Advisory Committee any matters that involve a change in the current NeXus specification. Specific proposals produced by these groups will be presented to the NeXus International Advisory Committee for comment and formal ratification.  
 
 Meetings
 --------
