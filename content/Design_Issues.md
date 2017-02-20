@@ -50,7 +50,7 @@ Closed Discussions
 -   [2014\_How\_to\_find\_default\_data](2014_How_to_find_default_data.html "wikilink") -
     a proposal for the 2014 NIAC meeting
 -   [Proposal: NeXus
-    Coordinates](Proposal:_NeXus_Coordinates.html "wikilink")
+    Coordinates](Proposal_NeXus_Coordinates.html "wikilink")
 -   [Coordinate Systems](Coordinate_Systems.html "wikilink")
 -   [Extension of NeXus Coordinate
     Systems](Extension_of_NeXus_Coordinate_Systems.html "wikilink")
@@ -70,4 +70,3 @@ Closed Discussions
 -   [Proposal: NeXus Errors](Proposal:_NeXus_Errors.html "wikilink")
 -   [Storing Event Data](Storing_Event_Data.html "wikilink")
 -   [NXdetector documentation](NXdetector_documentation.html "wikilink")
-
