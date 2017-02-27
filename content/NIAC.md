@@ -185,9 +185,10 @@ are not associated to one of the repositories.
 Sub-Committees
 --------------
 
--   [NeXus Technical sub-committee](Technical_Subcommittee.html "wikilink")
-    semi-retired. In the interest of being more open and approachable
-    future tech committee meeting will be open to all interested
-    parties. Use of mailing lists should move to either the general one
-    or the in rare cases the one of committee.
+The former NeXus Technical sub-committee
+that used to host regular teleconference meetings
+has been retired. 
+In the interest of being inclusive and approachable
+the sessions are now open to all interested parties. 
+See the [Teleconferences](Teleconferences.html "wikilink") page for agendas, minutes, and how to join.
 
