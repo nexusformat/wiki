@@ -23,18 +23,13 @@ stated in the [constitution](NIAC.html "wikilink").
 
 ### Expire December 19, 2017
 
--   Claudio Ferrero, European Synchrotron Radiation Facility, France
 -   Mark Basham, Diamond Light Source, UK
 -   Tobias Richter, European Spallation Source, Scandinavia
 
-### Expire February 2018
-
--   Mathieu Doucet, SNS and HFIR
-
 ### Expire March 2019
 
--   Herbert Bernstein
--   David Maennicke
+-   Herbert Bernstein, CIF community (non-facility representative)
+-   David Maennicke, ANSTO, Australia
 
 ### Expire October 2019
 
@@ -46,12 +41,12 @@ stated in the [constitution](NIAC.html "wikilink").
 ### Expire November 2019
 
 -   Stephen Cottrell - ISIS Pulsed Muon Facility, UK
--   Armando Sole - European Synchrotron Radiation Facility
--   Ray Osborn - Argonne National Laboratory
+-   Armando Sole - European Synchrotron Radiation Facility, France
+-   Ray Osborn - Argonne National Laboratory (non-facility representative)
 
 ### Expire January 2020
 
--   Ricardo Ferraz-Laval, ORNL, USA
+-   Ricardo Ferraz-Leal, ORNL, USA
 -   Jens Uwe Hoffmann, HZB, Germany
 -   Stuart Campbell, BNL/NSLS-2, USA
 
