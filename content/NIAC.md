@@ -30,7 +30,7 @@ Current Members
 -   [Benjamin Watts](http://www.psi.ch/lsc/benjamin-watts), Swiss Light Source, Switzerland
 -   [Eugen Wintersberger](User%3AEugenwintersberger.html "wikilink"), DESY, Germany (*Technical Manager*)
 
-The [expiration dates](Membership_Dates.html "wikilink") for the various members.
+See the page with the [expiration dates](Membership_Dates.html "wikilink") for when the current terms of the various members end and we require a new facility endorsement and vote (see below).
 
 Constitution
 ------------
