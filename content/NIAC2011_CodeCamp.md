@@ -50,7 +50,7 @@ Meeting room is Building 401, Room B2100
 (\*) speakers for the working lunch include:
 
 -   Chris Jacobsen, APS (scientific lead, APS Data Exchange format)
-    ![](2011_10_20_nexus_heretics_v5.pdf "fig:2011_10_20_nexus_heretics_v5.pdf")
+    ![](pdfs/2011_10_20_nexus_heretics_v5.pdf "wikilink")
 -   Mark Koennecke, PSI (NeXus, chairman of NIAC)
 
 ### Friday, 2011 October 21
@@ -120,7 +120,7 @@ Items not currently on the project plan, but have arisen recently:
 
 1.  presentation about **cmake** (Freddie Akeroyd or Pete Peterson)
 2.  about **sphinx** for documentation (Pete Jemian) ![
-    PDF](2011-10-20_NeXus_manual_in_sphinx.pdf "fig: PDF")
+    PDF](pdfs/2011-10-20_NeXus_manual_in_sphinx.pdf "wikilink")
 3.  about **parallel HDF** (Mark Koennecke, anyone else with more
     experience?)
 4.  assessment of work to migrate from HDF 1.6 to HDF 1.8 (Freddie

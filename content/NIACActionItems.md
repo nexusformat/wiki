@@ -35,7 +35,7 @@ Generic Action Items
 
 ### In Progress
 
-From [2006 LBL Meeting](Media:NIAC2006LBL_minutes.pdf.html "wikilink")
+From [2006 LBL Meeting](pdfs/NIAC2006LBL_minutes.pdf "wikilink")
 
 -   [Mark Könnecke](User%3AMark_Koennecke.html "wikilink") - to make a
     picture of his geometry
@@ -56,7 +56,7 @@ From [2006 LBL Meeting](Media:NIAC2006LBL_minutes.pdf.html "wikilink")
 -   ALL - check old <http://www.nexus.anl.gov> web site and report any
     content that has not been moved to new WIKI server
 
-From [2006 ILL Meeting](Media:NIAC2006minutes.pdf.html "wikilink")
+From [2006 ILL Meeting](pdfs/NIAC2006minutes.pdf "wikilink")
 
 -   [Peter Peterson](User%3APeter_Peterson.html "wikilink") - Write down the
     current responsibilities for the officers and circulate to the
@@ -78,7 +78,7 @@ From [2007 HMI-Wannsee, Berlin Meeting](NIAC2007.html "wikilink")
 -   Pete Jemian - Update website with constitution changes (some are
     even from the last meeting)
 
-From [2006 LBL Meeting](Media:NIAC2006LBL_minutes.pdf.html "wikilink")
+From [2006 LBL Meeting](pdfs/NIAC2006LBL_minutes.pdf "wikilink")
 
 -   [Frederick Akeroyd](User%3AFreddie_Akeroyd.html "wikilink") - to move
     NeXus code and definitions from CVS to Subversion
@@ -96,7 +96,7 @@ From [2006 LBL Meeting](Media:NIAC2006LBL_minutes.pdf.html "wikilink")
 -   [Peter Peterson](User%3APeter_Peterson.html "wikilink") - to write up the
     versioning mechanism
 
-From [2006 ILL Meeting](Media:NIAC2006minutes.pdf.html "wikilink")
+From [2006 ILL Meeting](pdfs/NIAC2006minutes.pdf "wikilink")
 
 -   Unassigned - NXcharacterization needs to be formalized and
     ratified - this has been repeated in
