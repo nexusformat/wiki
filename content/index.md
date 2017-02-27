@@ -28,7 +28,3 @@ neutron, x-ray, and muon data.
 * [Bug / Issue Reporting](IssueReporting.html "wikilink")
 * [Mailing Lists](http://download.nexusformat.org/doc/html/mailinglist.html)
 * [Design Issues](Design_ Issues.html "wikilink") (documents in this wiki)
-
-## Downloads:  
-* [Downloads](Download.html "wikilink") NeXus API library (NAPI) and applications
-* [Install kits](http://download.nexusformat.org/kits/definitions/) for documentation and NXDL

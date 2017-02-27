@@ -4,15 +4,13 @@ permalink: Download.html
 layout: wiki
 ---
 
-The NeXus API is distributed under the terms of the GNU Lesser General
-Public License. For information on using the NeXus API see the
-[Application Program
-Interface](Application_Program_Interface.html "wikilink") page. To report or
-view problems/bugs/suggestions/enhancement requests goto our
-[IssueReporting](IssueReporting.html "wikilink") system.
+> Note:
+> The use of the NeXus-API (NAPI) is **not** mandatory in order to write perfectly valid NeXus files.
+> Using a direct binding to HDF5 (like h5py) or [NeXpy](NeXpy.html) should be a better choice for new projects.
 
-Downloads for documentation are available separately at
-<http://download.nexusformat.org/kits/definitions/>.
+
+The NeXus API is distributed under the terms of the GNU Lesser General
+Public License. 
 
 Requirements
 ------------
@@ -56,22 +54,3 @@ For release tarballs go to the release page for the
 the definitions it is recommended to work on the current git repository
 as the available release is outdated.
 
-NeXus Binary Distributions
---------------------------
-
-### Linux RPM Distribution Kits
-
-<http://download.nexusformat.org/kits/rpm/>
-
-### Linux DEB Distribution Kits
-
-Nexus packages are available for Debian as a standard package. Many
-dependent distributions will have them included as well.
-
-### Microsoft Windows Install Kit
-
-currently not up to date
-
-### Apple Mac (OS-X) Install Kit
-
-currently not up to date
