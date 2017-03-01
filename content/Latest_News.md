@@ -12,7 +12,7 @@ February: The main NeXus webpage migrated away from being a single static page a
 2016
 ----
 
-October: [NIAC2016](NIAC2016.html "wikilink") took place in Copenhagen 13th & 14th hosted by ESS, on the three days before we had be a Code Camp. Version (3.2 of the NeXus Defintions)[https://github.com/nexusformat/definitions/releases/tag/v3.2] was released.
+October: [NIAC2016](NIAC2016.html "wikilink") took place in Copenhagen 13th & 14th hosted by ESS, on the three days before we had be a Code Camp. Version [3.2 of the NeXus Defintions](https://github.com/nexusformat/definitions/releases/tag/v3.2) was released.
 
 2015
 ----
