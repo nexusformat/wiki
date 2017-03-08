@@ -31,7 +31,7 @@ list](http://download.nexusformat.org/doc/html/mailinglist.html).
 
 <!-- -->
 
-**SLS, [Paul Scherrer Institut](http**://www.psi.ch/), Switzerland: The [Swiss Light Source](http://www.psi.ch/sls/) is considering NeXus at some beamlines. The PolLux STXM beamline has been developing and using new control software since late 2012 which records all data in NeXus/HDF5 format. This STXM control software (and the NeXus format with it) is propagating to a number of other STXM beamlines around the world. The SLS is encouraging Dectris to have their new detectors (e.g. Eiger) record data in an HDF5 format in order to ease further adoption of NeXus.  
+**SLS, [Paul Scherrer Institut](http://www.psi.ch/), Switzerland**: The [Swiss Light Source](http://www.psi.ch/sls/) is considering NeXus at some beamlines. The PolLux STXM beamline has been developing and using new control software since late 2012 which records all data in NeXus/HDF5 format. This STXM control software (and the NeXus format with it) is propagating to a number of other STXM beamlines around the world. The SLS is encouraging Dectris to have their new detectors (e.g. Eiger) record data in an HDF5 format in order to ease further adoption of NeXus.  
 
 ### Neutron Scattering Facilities
 
