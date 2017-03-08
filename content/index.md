@@ -1,5 +1,5 @@
 ---
-title: Main Page
+title: About the NeXus Data Format
 permalink: index.html
 layout: page
 ---
