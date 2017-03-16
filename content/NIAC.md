@@ -24,7 +24,7 @@ Current Members
 -   Mark Könnecke, Paul Scherrer Institut, Switzerland (*Executive Secretary*)
 -   David Männicke, Australian Nuclear Science and Technology Organisation, Australia
 -   Raymond Osborn, Argonne National Laboratory, USA (*non-facility member*)
--   Tobias Richter, European Spallation Source, Scandinavia (*Chair*)
+-   Tobias Richter, European Spallation Source, Sweden (*Chair*)
 -   Armando Sole, European Synchrotron Radiation Facility, France
 -   Jiro Suzuki, KEK, Japan
 -   [Benjamin Watts](http://www.psi.ch/lsc/benjamin-watts), Swiss Light Source, Switzerland
