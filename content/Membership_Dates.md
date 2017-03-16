@@ -24,7 +24,7 @@ stated in the [constitution](NIAC.html "wikilink").
 ### Expire December 19, 2017
 
 -   Mark Basham, Diamond Light Source, UK
--   Tobias Richter, European Spallation Source, Scandinavia
+-   Tobias Richter, European Spallation Source, Sweden
 
 ### Expire March 2019
 

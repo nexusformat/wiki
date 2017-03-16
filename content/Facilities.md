@@ -67,4 +67,4 @@ list](http://download.nexusformat.org/doc/html/mailinglist.html).
 
 <!-- -->
 
-**European Spallation Source [ESS](http://www.europeanspallationsource.se), Scandinavia**: Current plans foresee all raw data to be stored in NeXus. Processed data is set to follow that model.  
+**European Spallation Source [ESS](http://www.europeanspallationsource.se), Sweden**: Current plans foresee all raw data to be stored in NeXus. Processed data is set to follow that model.  
