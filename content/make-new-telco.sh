@@ -71,7 +71,7 @@ EOF
 cat >> Telco_$oldone.md <<EOF
 
 ### Next Meeting
-(Telco $newdate)[Telco_$newdate.html)
+[Telco $newdate](Telco_$newdate.html)
 
 EOF
 
