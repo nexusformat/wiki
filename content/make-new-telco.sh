@@ -79,3 +79,13 @@ vi Telco_$newdate.md
 
 # add to git index
 git add Telco_$newdate.md Teleconferences.md Telco_$oldone.md
+
+cat <<EOF
+
+################################################
+################################################
+ Don't forget to send out the calendar invite!
+################################################
+################################################
+
+EOF
