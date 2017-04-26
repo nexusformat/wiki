@@ -18,6 +18,11 @@ link to the meeting should be put on the meeting page as well.
 
 ### 2017
 
+#### July
+
+[Telco 20170717](Telco_20170717.html "wikilink") Monday, 17 July, 16:30 CEST (+0200)
+
+
 #### April
 
 [Telco 20170426](Telco_20170426.html "wikilink") Wednesday, 26 April, 16:30 CEST (+0200)
