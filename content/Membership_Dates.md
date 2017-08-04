@@ -13,9 +13,6 @@ stated in the [constitution](NIAC.html "wikilink").
 
 -   Bjørn Clausen - Lujan Neutron Scattering Center, USA
 
-### Expire January 24, 2017
-
--   Aaron Brewster, Lawrence Berkeley Laboratory, USA
 
 ### Expire July 16, 2017
 
@@ -50,3 +47,6 @@ stated in the [constitution](NIAC.html "wikilink").
 -   Jens Uwe Hoffmann, HZB, Germany
 -   Stuart Campbell, BNL/NSLS-2, USA
 
+### Expire July, 2020
+
+-   Aaron Brewster, Lawrence Berkeley Laboratory, USA
