@@ -4,12 +4,6 @@ permalink: NIAC.html
 layout: wiki
 ---
 
-How to contact the NIAC
------------------------
-
-You may contact the NIAC by sending an email to
-<nexus-committee@nexusformat.org>
-
 Current Members
 ---------------
 -   Mark Basham, Diamond Light Source, UK
@@ -31,6 +25,12 @@ Current Members
 -   Eugen Wintersberger, DESY, Germany (*Technical Manager*)
 
 See the page with the [expiration dates](Membership_Dates.html "wikilink") for when the current terms of the various members end and we require a new facility endorsement and vote (see below).
+
+How to contact the NIAC
+-----------------------
+
+You may contact the NIAC by sending an email to
+<nexus-committee@nexusformat.org>
 
 Constitution
 ------------
