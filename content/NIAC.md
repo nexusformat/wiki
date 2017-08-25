@@ -128,7 +128,7 @@ Special Interest Groups: The NeXus International Advisory Committee will appoint
 Meetings
 --------
 
--   Code Camp 2018 : NeXus Code Camp,
+-   Code Camp 2017 : NeXus Code Camp,
     hosted by Diamond Light Source, UK, October 2018
 -   [NIAC 2016](NIAC2016.html "wikilink") NeXus Code Camp and NIAC Meeting,
     hosted by ESS, Copenhagen, Denmark, October 2016
