@@ -129,7 +129,7 @@ Meetings
 --------
 
 -   Code Camp 2017 : NeXus Code Camp,
-    hosted by Diamond Light Source, UK, October 2018
+    hosted by Diamond Light Source, UK, October 2017
 -   [NIAC 2016](NIAC2016.html "wikilink") NeXus Code Camp and NIAC Meeting,
     hosted by ESS, Copenhagen, Denmark, October 2016
     ([minutes](NIAC2016Minutes.html "wikilink"))
