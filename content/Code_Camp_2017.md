@@ -7,18 +7,19 @@ layout: wiki
 NeXus Code Camp - 24th to the 26th of October, 2017
 ===================================================
 
+Registration
+------------
+
+Please register for the event using the [linked form](https://fs3.formsite.com/DiamondLightSource/form136/index.html), for numbers and requirements.
+
+You also need to book a room!
+
 Location: The Cosner's house, Abingdon UK
 -----------------------------------------
 
 Please book using the group reference code **63197**
 
-http://www.stfc.ac.uk/about-us/where-we-work/rutherford-appleton-laboratory/the-cosener-s-house/
-
-Registration
-------------
-
-Please register on the following form, this is just for numbers and requirements
-https://fs3.formsite.com/DiamondLightSource/form136/index.html
+[Venue Website with contact details](http://www.stfc.ac.uk/about-us/where-we-work/rutherford-appleton-laboratory/the-cosener-s-house/)
 
 Agenda
 ------
