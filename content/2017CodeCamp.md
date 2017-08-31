@@ -1,7 +1,5 @@
-NeXus Code Camp 24th to the 26th of October, 2017
+NeXus Code Camp - 24th to the 26th of October, 2017
 ====================
-
-Date
 
 Loation :  Cosners house, Abingdon UK
 -------------------------------------
