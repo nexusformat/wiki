@@ -7,7 +7,7 @@ layout: wiki
 2017
 ----
 
-October: There will be a Code Camp hosted by Diamond Light Source 24th to 26th October. Watch this space for information how to sign up.
+October: The upcoming Code Camp will be hosted by Diamond Light Source 24th to 26th October. Visit [Code Camp 2017](Code_Camp_2017.html) for more information and registration.
 
 February: The main NeXus webpage migrated away from being a single static page and the wiki stopped being driven by mediawiki. Both are now (again) hosted together as Github Pages with pages being build out of markup files. In the (still ongoing) process we aim to reduce the amount of outdated information offered.
 

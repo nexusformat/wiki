@@ -1,8 +1,14 @@
-NeXus Code Camp - 24th to the 26th of October, 2017
-====================
+---
+title: Code Camp 2017
+permalink: Code_Camp_2017.html
+layout: wiki
+---
 
-Loation :  Cosners house, Abingdon UK
--------------------------------------
+NeXus Code Camp - 24th to the 26th of October, 2017
+===================================================
+
+Location: The Cosner's house, Abingdon UK
+-----------------------------------------
 
 Please book using the group reference code **63197**
 
@@ -17,10 +23,10 @@ https://fs3.formsite.com/DiamondLightSource/form136/index.html
 Agenda
 ------
 
-To be confirmed, current topics for discussion are
-
+To be confirmed. Current topics for discussion are:
  * C++ wrappers for HDF5
  * Shape descriptions
  * Event data
  * Features
  * Versions
+ * PDB integration
