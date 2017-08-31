@@ -31,3 +31,5 @@ To be confirmed. Current topics for discussion are:
  * Features
  * Versions
  * PDB integration
+
+The aim is to start at 10:00 on the 24th and finish early afternoon on the 26th.
