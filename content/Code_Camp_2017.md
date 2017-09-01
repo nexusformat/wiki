@@ -14,7 +14,7 @@ Please register for the event using the [linked form](https://fs3.formsite.com/D
 
 You also need to book a room!
 
-Location: The Cosner's house, Abingdon UK
+Location: The Cosener's house, Abingdon UK
 -----------------------------------------
 
 Please book using the group reference code **63197**
