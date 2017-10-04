@@ -20,6 +20,8 @@ link to the meeting should be put on the meeting page as well.
 
 #### October
 
+[Telco 20171026](Telco_20171026.html "wikilink") Thursday, 26 October, 16:30 CEST (+0200)
+
 [Telco 20171004](Telco_20171004.html "wikilink") Wednesday,  4 October, 16:30 CEST (+0200)
 
 
