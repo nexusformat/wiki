@@ -14,9 +14,6 @@ stated in the [constitution](NIAC.html "wikilink").
 -   Bjørn Clausen - Lujan Neutron Scattering Center, USA
 
 
-### Expire July 16, 2017
-
--   Eugen Wintersberger - DESY, Germany
 
 ### Expire December 19, 2017
 
@@ -50,3 +47,7 @@ stated in the [constitution](NIAC.html "wikilink").
 ### Expire July, 2020
 
 -   Aaron Brewster, Lawrence Berkeley Laboratory, USA
+
+### Expire September, 2020
+
+-   Eugen Wintersberger - DESY, Germany
