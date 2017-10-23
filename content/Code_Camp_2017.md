@@ -25,15 +25,16 @@ Agenda
 ------
 
 **Tuesday**
-Tuesday Morning
+
+Morning
   * Shape descriptions (Dean Keeble and Tim Spain will be visiting)
 
-Tuesday Afternoon
+Afternoon
   * C++ wrappers for HDF5 
   * Features
   * Example files for Ray.
   
-Tuesday Evening
+Evening
   * 6:00 - 6:30 pre dinner drink
   * 7:00 - Dinner at cosners house
     * Main-Course: Rack of lamb with rosemary crumb, dauphinoise potato, chargrilled courgette, vine roasted cherry tomato, fine bean parcel and rosemary jus
@@ -42,22 +43,24 @@ Tuesday Evening
     *	5 x bottles of wine (2 x red, 3 x white)
 
 **Wednesday**
-Wednesday Morning 
+
+Morning 
   * PDB integration (Greame Winter and Charles Mita will be visiting)
   * Dealing with dropped frames
 
-Wednesday Afternoon
+Afternoon
   * Detectors with modules in modules. (Aaron Brewster may be VCing in)
 
-Wednesday Evening
+Evening
   * Reservartion for 7:00 at [wildwood](https://wildwoodrestaurants.co.uk/restaurant/abingdon/)
 
 **Thursday**
-Thursday Morning
+
+Morning
   * Event data (Alan Greer also attending)
   * Event log disscussion and focus on example files.
 
-Thursday Afternoon
+Afternoon
   * Versions
 
 The aim is to start at 10:00 on the 24th and finish early afternoon on the 26th.
