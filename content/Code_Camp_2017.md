@@ -26,10 +26,12 @@ Agenda
 
 Tuesday Morning
   * Shape descriptions (Dean Keeble and Tim Spain will be visiting)
+
 Tuesday Afternoon
   * C++ wrappers for HDF5 
   * Features
   * Example files for Ray.
+  
 Tuesday Evening
   * 6:00 - 6:30 pre dinner drink
   * 7:00 - Dinner at cosners house
@@ -41,14 +43,17 @@ Tuesday Evening
 Wednesday Morning 
   * PDB integration (Greame Winter and Charles Mita will be visiting)
   * Dealing with dropped frames
+
 Wednesday Afternoon
   * Detectors with modules in modules. (Aaron Brewster may be VCing in)
+
 Wednesday Evening
   * Reservartion for 7:00 at [wildwood](https://wildwoodrestaurants.co.uk/restaurant/abingdon/)
 
 Thursday Morning
   * Event data (Alan Greer also attending)
   * Event log disscussion and focus on example files.
+
 Thursday Afternoon
   * Versions
 
