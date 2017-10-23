@@ -40,6 +40,7 @@ Tuesday Evening
 
 Wednesday Morning 
   * PDB integration (Greame Winter and Charles Mita will be visiting)
+  * Dealing with dropped frames
 Wednesday Afternoon
   * Detectors with modules in modules. (Aaron Brewster may be VCing in)
 Wednesday Evening
