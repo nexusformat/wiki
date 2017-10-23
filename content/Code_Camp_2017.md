@@ -24,7 +24,7 @@ Please book using the group reference code **63197**
 Agenda
 ------
 
-Tuesday Monrning
+Tuesday Morning
   * Shape descriptions (Dean Keeble and Tim Spain will be visiting)
 Tuesday Afternoon
   * C++ wrappers for HDF5 
@@ -38,7 +38,7 @@ Tuesday Evening
     * Pudding: Classic glazed lemon tart, crème fraiche and berries
     *	5 x bottles of wine (2 x red, 3 x white)
 
-Wednesday Monring 
+Wednesday Morning 
   * PDB integration (Greame Winter and Charles Mita will be visiting)
 Wednesday Afternoon
   * Detectors with modules in modules. (Aaron Brewster may be VCing in)
