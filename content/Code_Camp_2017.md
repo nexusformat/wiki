@@ -24,6 +24,7 @@ Please book using the group reference code **63197**
 Agenda
 ------
 
+**Tuesday**
 Tuesday Morning
   * Shape descriptions (Dean Keeble and Tim Spain will be visiting)
 
@@ -40,6 +41,7 @@ Tuesday Evening
     * Pudding: Classic glazed lemon tart, crème fraiche and berries
     *	5 x bottles of wine (2 x red, 3 x white)
 
+**Wednesday**
 Wednesday Morning 
   * PDB integration (Greame Winter and Charles Mita will be visiting)
   * Dealing with dropped frames
@@ -50,6 +52,7 @@ Wednesday Afternoon
 Wednesday Evening
   * Reservartion for 7:00 at [wildwood](https://wildwoodrestaurants.co.uk/restaurant/abingdon/)
 
+**Thursday**
 Thursday Morning
   * Event data (Alan Greer also attending)
   * Event log disscussion and focus on example files.
