@@ -67,7 +67,7 @@ Minutes for the meeting
 ## Tuesday Morning
 
 Introductions
-  * Move the PDB and versions to the afternoons so that Pete Jamian can VC in
+  * Move the PDB and versions to the afternoons so that Pete Jemian can VC in
   
 First item is to investigate the shape methodoloy as investigated by the ESS team
   * There is concern over how the shape can accurately describe detectors, and how the data is mapped to the shape.
