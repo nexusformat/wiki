@@ -72,6 +72,7 @@ Minutes for the meeting
 Introductions
   * Move the PDB and versions to the afternoons so that Pete Jamian can VC in
   
+**Tuesday Morning**
 
 First item is to investigate the shape methodoloy as investigated by the ESS team
   * There is concern over how the shape can accurately describe detectors, and how the data is mapped to the shape.
@@ -79,3 +80,18 @@ First item is to investigate the shape methodoloy as investigated by the ESS tea
   * The [OFF format](https://en.wikipedia.org/wiki/OFF_(file_format)) will be used for MANTIS and MCStas
   * A new description for [Quadrics](https://github.com/golosio/xrmc/wiki/User-guide#the-quadric-array-file) will be developed by DLS to deal with more complex descriptions for use with xrmc.  There should be a converter for this to the OFF NeXus description. 
   
+**Tuesday Afternoon**
+
+2 Seperate threads
+
+Versioning
+  * Looking at the versioning concept as in the [document](http://www.nexusformat.org/NIAC2016Minutes.html)
+  * Big discussion about the complexity of local vrs. global versioning, i.e version on baseclasses vrs. versioning on the file.
+  * Came to the conclusion of a single version number which increments gradually and incrementally to deal with new versions.
+  * Things to do
+    * UPDATE WORKFLOW - Questions here, but we will try to address at the code camp.
+    * VERSIONING SEMANTIC - Big changes bump version by 1
+    * VALIDATION - is easier now as there is only one global version to validate against
+    * LEGASY DOC - Still in the repository.
+
+C++ wrappers for HDF5
