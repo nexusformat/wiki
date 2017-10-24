@@ -64,7 +64,7 @@ Minutes for the meeting
 =======================
 
 Introductions
-  * Move the PDB and versions to the afternoons so that Pete Jamian can VC in
+  * Move the PDB and versions to the afternoons so that Pete Jemian can VC in
   
 **Tuesday Morning**
 
