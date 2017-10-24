@@ -95,3 +95,27 @@ Versioning
     * LEGASY DOC - Still in the repository.
 
 C++ wrappers for HDF5
+  * Came out of some HDF work, didn't like the C++ API.
+  * Various parties were doing their own - Tobias asked them to work together.
+  * Eugen and Martin, ocassionally Jonas Nilison
+  * On ess-dmsc github [h5cpp](https://github.com/ess-dmsc/h5cpp)
+  * Auto builds docs, doxygen
+  * Migration of Eugen PNI code at the beginning. Lack of tests, now adding more tests.
+  * Aim to cover all of HDF5 features, e.g. SWMR, compound data types etc.
+  * Examples of implementation: write_simple_vector
+  * Suggest to use clang format.
+  * Using google's style guide - need consistency
+  * Fortnightly meetings
+  * Implemented types: basic types int, float etc.
+  * Going to be used in the file writer
+  * Trying to make it as easy to use as h5py
+  * Looked at internal Paths
+  * Plan to create performance tests
+  * Will put on to conan
+  * Martin will replace the naïve version he is currently using.
+  * Detector people are interested in using it to store diagnostic data.
+  * Happy to take suggestions for things to be implement from other parties.
+  * Discussed using in-memory files for performance tests
+  * Setting up Windows automated build and hoping to OSX
+  * MPI support in the future?
+  * Using runtime exceptions - should it use something more tailored? Do something with the hdf error stack
