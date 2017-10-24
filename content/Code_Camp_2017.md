@@ -7,17 +7,8 @@ layout: wiki
 NeXus Code Camp - 24th to the 26th of October, 2017
 ===================================================
 
-Registration
-------------
-
-Please register for the event using the [linked form](https://fs3.formsite.com/DiamondLightSource/form136/index.html), for numbers and requirements.
-
-You also need to book a room!
-
 Location: The Cosener's house, Abingdon UK
 -----------------------------------------
-
-Please book using the group reference code **63197**
 
 [Venue Website with contact details](http://www.stfc.ac.uk/about-us/where-we-work/rutherford-appleton-laboratory/the-cosener-s-house/)
 
@@ -31,6 +22,8 @@ Morning
 
 Afternoon
   * C++ wrappers for HDF5 
+  * Versioning
+After Coffee
   * Features
   * Example files for Ray.
   
@@ -49,6 +42,7 @@ Morning
   * Dealing with dropped frames
 
 Afternoon
+  * 3pm VC with Pete on Versioning
   * Detectors with modules in modules. (Aaron Brewster may be VCing in)
 
 Evening
@@ -61,9 +55,9 @@ Morning
   * Event log disscussion and focus on example files.
 
 Afternoon
-  * Versions
+  * Wrap up and Telco
 
-The aim is to start at 10:00 on the 24th and finish early afternoon on the 26th.
+The aim is to start at 10:00 on the 24th, 9:00 the other days and finish early afternoon on the 26th.
 
 
 Minutes for the meeting
