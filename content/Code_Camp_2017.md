@@ -117,13 +117,27 @@ First item is to investigate the shape methodoloy as investigated by the ESS tea
 
 ## Wednesday Morning
 
-nxMX PDB discussion
+### nxMX PDB discussion
   * It was decided that nxMX could easily contain an nxPDB which contains the basic information required for PDB ingest
   * Charles Mita from DLS will make a first pass at this for VMXi data
   
-Dropped frames
+### Dropped frames
   * could the value be set to nxDetector.undefined, or nxDetector.saturationValue
   * Could the counttime value be set to zero (or annother value) for the frame which is not there. 
     * a valid count time is anything zero or above, anything other than this is an invalid frame.
-  
-## Tuesday Afternoon
+  * The solution was to create a new dataset called frameAcquired
+    * a boolaen dataset
+    * True if the frame is correcly collected, if the frame has been dropped by the datawriter and padded with fill value, then this shoud be set to False
+    * The fill value should be set to a value larger than the nxDetector.saturationValue
+
+## Wednesday Afternoon
+
+### Features
+  We all continued to work on features.
+ 
+### Versions revisitited with Pete
+ * It was agreed that Base class versions were not that useful, and so these can be made optional to inherit from the main version
+ * Agreed with the concept of global versioning
+ * in the January relase the version numbers will move to Year.Month instead of 3.4
+ 
+ 
