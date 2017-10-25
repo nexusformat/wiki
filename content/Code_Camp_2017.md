@@ -114,3 +114,16 @@ First item is to investigate the shape methodoloy as investigated by the ESS tea
   * Setting up Windows automated build and hoping to OSX
   * MPI support in the future?
   * Using runtime exceptions - should it use something more tailored? Do something with the hdf error stack
+
+## Wednesday Morning
+
+nxMX PDB discussion
+  * It was decided that nxMX could easily contain an nxPDB which contains the basic information required for PDB ingest
+  * Charles Mita from DLS will make a first pass at this for VMXi data
+  
+Dropped frames
+  * could the value be set to nxDetector.undefined, or nxDetector.saturationValue
+  * Could the counttime value be set to zero (or annother value) for the frame which is not there. 
+    * a valid count time is anything zero or above, anything other than this is an invalid frame.
+  
+## Tuesday Afternoon
