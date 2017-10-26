@@ -34,7 +34,6 @@ Agenda
     * Main-Course: Rack of lamb with rosemary crumb, dauphinoise potato, chargrilled courgette, vine roasted cherry tomato, fine bean parcel and rosemary jus
     * Vegetarian Option: Asparagus and broad bean risotto, parmesan tuile and lemon balm
     * Pudding: Classic glazed lemon tart, crème fraiche and berries
-    *	5 x bottles of wine (2 x red, 3 x white)
 
 ## Wednesday
 
@@ -90,10 +89,10 @@ First item is to investigate the shape methodoloy as investigated by the ESS tea
     * LEGACY DOC - Still in the repository.
 
 ### C++ wrappers for HDF5
+  * On ess-dmsc github [h5cpp](https://github.com/ess-dmsc/h5cpp)
   * Came out of some HDF work, didn't like the C++ API.
   * Various parties were doing their own - Tobias asked them to work together.
   * Eugen and Martin, ocassionally Jonas Nilison
-  * On ess-dmsc github [h5cpp](https://github.com/ess-dmsc/h5cpp)
   * Auto builds docs, doxygen
   * Migration of Eugen PNI code at the beginning. Lack of tests, now adding more tests.
   * Aim to cover all of HDF5 features, e.g. SWMR, compound data types etc.
@@ -117,18 +116,18 @@ First item is to investigate the shape methodoloy as investigated by the ESS tea
 
 ## Wednesday Morning
 
-### nxMX PDB discussion
-  * It was decided that nxMX could easily contain an nxPDB which contains the basic information required for PDB ingest
+### NXmx PDB discussion
+  * It was decided that NXmx could easily contain an NXpdb which contains the basic information required for PDB ingest
   * Charles Mita from DLS will make a first pass at this for VMXi data
   
 ### Dropped frames
-  * could the value be set to nxDetector.undefined, or nxDetector.saturationValue
-  * Could the counttime value be set to zero (or annother value) for the frame which is not there. 
+  * could the value be set to NXdetector.undefined, or NXdetector.saturation_value
+  * Could the count_time value be set to zero (or annother value) for the frame which is not there. 
     * a valid count time is anything zero or above, anything other than this is an invalid frame.
-  * The solution was to create a new dataset called frameAcquired
-    * a boolaen dataset
+  * The solution was to create a new dataset called frame_acquired
+    * a boolean dataset
     * True if the frame is correcly collected, if the frame has been dropped by the datawriter and padded with fill value, then this shoud be set to False
-    * The fill value should be set to a value larger than the nxDetector.saturationValue
+    * The fill value should be set to a value larger than the NXdetector.saturation_value
 
 ## Wednesday Afternoon
 
@@ -138,15 +137,15 @@ First item is to investigate the shape methodoloy as investigated by the ESS tea
 ### Versions revisitited with Pete
  * It was agreed that Base class versions were not that useful, and so these can be made optional to inherit from the main version
  * Agreed with the concept of global versioning
- * in the January relase the version numbers will move to Year.Month instead of 3.4
+ * in the January release the version numbers will move to Year.Month instead of 3.4
  
 ### Modules in Modules, with Aaron Brewster.
  * Seems like a sencible option
  * TASK on AB to update the documentaion on modules to clarify the usage of the depends-on and pixel size   
- * TASK on AB to make an nxLog INdex class for multiple event streams.
+ * TASK on AB to make an NXlog index class for multiple event streams.
  
 ## Thursday Morning
- * Discussion on nxEventData 
+ * Discussion on NXevent_data 
  * Continue on features
  
 ## Thursday Afternoon

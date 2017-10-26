@@ -10,7 +10,7 @@ programmers representing major scientific facilities in order to
 facilitate greater cooperation in the analysis and visualization of
 neutron, x-ray, and muon data.
 
-## Upcoming:  
+## Most recent event:
 * [Code Camp 2017](Code_Camp_2017.html) in October 2017 in Abingdon, UK
 
 ## Documentation:  
