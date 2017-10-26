@@ -140,4 +140,13 @@ First item is to investigate the shape methodoloy as investigated by the ESS tea
  * Agreed with the concept of global versioning
  * in the January relase the version numbers will move to Year.Month instead of 3.4
  
+### Modules in Modules, with Aaron Brewster.
+ * Seems like a sencible option
+ * TASK on AB to update the documentaion on modules to clarify the usage of the depends-on and pixel size   
+ * TASK on AB to make an nxLog INdex class for multiple event streams.
  
+## Thursday Morning
+ * Discussion on nxEventData 
+ * Continue on features
+ 
+## Thursday Afternoon
