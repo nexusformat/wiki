@@ -16,6 +16,13 @@ page below.
 We aim to publish and agenda a few days in advance of the meetings. The
 link to the meeting should be put on the meeting page as well.
 
+### 2018
+
+#### January
+
+[Telco 20180116](Telco_20180116.html "wikilink") Tuesday, 16 January, 16:30 CET (+0100)
+
+
 ### 2017
 
 #### November
