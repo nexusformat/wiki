@@ -18,6 +18,11 @@ link to the meeting should be put on the meeting page as well.
 
 ### 2018
 
+#### February
+
+[Telco 20180220](Telco_20180220.html "wikilink") Tuesday, 20 February, 16:30 CET (+0100)
+
+
 #### January
 
 [Telco 20180130](Telco_20180130.html "wikilink") Tuesday, 30 January, 16:30 CET (+0100)
