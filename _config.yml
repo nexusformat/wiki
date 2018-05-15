@@ -9,7 +9,7 @@ permalink:        pretty
 title:            NeXus
 tagline:          'A common data format for neutron, x-ray and muon science'
 description:      'NeXus is developed as an international standard by scientists and programmers representing major scientific facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the analysis and visualization of neutron, x-ray, and muon data.'
-url:              http://www.nexusformat.org
+url:              https://www.nexusformat.org
 baseurl:          
 
 author:
