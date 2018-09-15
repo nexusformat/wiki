@@ -16,13 +16,11 @@ Current Members
 -   Jens-Uwe Hoffmann, Helmholtz Zentrum Berlin, Germany
 -   Pete Jemian, Advanced Photon Source, USA (*Documentation Release Manager*)
 -   Mark Könnecke, Paul Scherrer Institut, Switzerland (*Executive Secretary*)
--   David Männicke, Australian Nuclear Science and Technology Organisation, Australia
 -   Raymond Osborn, Argonne National Laboratory, USA (*non-facility member*)
 -   Tobias Richter, European Spallation Source, Sweden (*Chair*)
 -   Armando Sole, European Synchrotron Radiation Facility, France
 -   Jiro Suzuki, KEK, Japan
 -   [Benjamin Watts](http://www.psi.ch/lsc/benjamin-watts), Swiss Light Source, Switzerland
--   Eugen Wintersberger, DESY, Germany (*Technical Manager*)
 
 See the page with the [expiration dates](Membership_Dates.html "wikilink") for when the current terms of the various members end and we require a new facility endorsement and vote (see below).
 
@@ -128,6 +126,8 @@ Special Interest Groups: The NeXus International Advisory Committee will appoint
 Meetings
 --------
 
+-   [NIAC 2018](NIAC2018.html): NIAC Meeting,
+    hosted by NSLS-2, Brookhaven, USA, October 2018
 -   [Code Camp 2017](Code_Camp_2017.html): NeXus Code Camp,
     hosted by Diamond Light Source, UK, October 2017
 -   [NIAC 2016](NIAC2016.html "wikilink") NeXus Code Camp and NIAC Meeting,
@@ -136,7 +136,7 @@ Meetings
 -   [Code Camp 2015](Code_Camp_2015.html "wikilink") NeXus Code Camp, hosted
     by DESY, Hamburg, Germany, November 2015 (no minutes)
 -   [NIAC 2014](NIAC2014.html "wikilink") NeXus Code Camp and NIAC Meeting,
-    hosted by APS, Chicago, USA, December 2014 
+    hosted by APS, Chicago, USA, December 2014
     ([minutes](NIAC2014_Meeting#Minutes.html "wikilink"))
 -   [NIAC 2012](NIAC2012.html "wikilink") NeXus Code Camp and NIAC Meeting,
     hosted by ISIS and Diamond at RAL, Oxfordshire, UK, September 2012
@@ -189,8 +189,7 @@ Sub-Committees
 
 The former NeXus Technical sub-committee
 that used to host regular teleconference meetings
-has been retired. 
+has been retired.
 In the interest of being inclusive and approachable
-the sessions are now open to all interested parties. 
+the sessions are now open to all interested parties.
 See the [Teleconferences](Teleconferences.html "wikilink") page for agendas, minutes, and how to join.
-
