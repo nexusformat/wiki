@@ -9,7 +9,7 @@ Current Members
 -   Mark Basham, Diamond Light Source, UK
 -   Herbert Bernstein, CIF (*non-facility member*)
 -   Aaron Brewster, Lawrence Berkeley Laboratory, USA
--   Stuart Campbell, Brookhaven National Laboratory/NSLS-2, USA
+-   Stuart Campbell, Brookhaven National Laboratory/NSLS-II, USA
 -   Bjorn Clausen, Los Alamos National Laboratory, USA
 -   Stephen Cottrell, Rutherford Appleton Laboratory, UK (*Muon Representative*)
 -   Ricardo Ferraz-Leal, SNS and HFIR at ORNL, USA
@@ -127,7 +127,7 @@ Meetings
 --------
 
 -   [NIAC 2018](NIAC2018.html): NIAC Meeting,
-    hosted by NSLS-2, Brookhaven, USA, October 2018
+    hosted by NSLS-II, Brookhaven, USA, October 2018
 -   [Code Camp 2017](Code_Camp_2017.html): NeXus Code Camp,
     hosted by Diamond Light Source, UK, October 2017
 -   [NIAC 2016](NIAC2016.html "wikilink") NeXus Code Camp and NIAC Meeting,
