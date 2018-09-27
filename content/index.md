@@ -25,7 +25,7 @@ neutron, x-ray, and muon data.
 * [Facilities](Facilities.html "wikilink") using NeXus
 
 ## Discussion and Development:  
-* Upcoming meeting: [NIAC 2018](NIAC2018.html) October 25th & 26th @ NSLS-2
+* Upcoming meeting: [NIAC 2018](NIAC2018.html) October 25th & 26th @ NSLS-II
 * [Tele Conferences](Teleconferences.html "wikilink")
 * [NeXus International Advisory Committee](NIAC.html "wikilink")
 * [Latest News](Latest_News.html "wikilink")
