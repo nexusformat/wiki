@@ -18,7 +18,6 @@ stated in the [constitution](NIAC.html "wikilink").
 ### Expire December 19, 2017
 
 -   Mark Basham, Diamond Light Source, UK
--   Tobias Richter, European Spallation Source, Sweden
 
 ### Expire March 2019
 
@@ -43,6 +42,10 @@ stated in the [constitution](NIAC.html "wikilink").
 -   Ricardo Ferraz-Leal, ORNL, USA
 -   Jens Uwe Hoffmann, HZB, Germany
 -   Stuart Campbell, BNL/NSLS-2, USA
+
+### Expire May 2020
+
+- Tobias Richter
 
 ### Expire July, 2020
 
