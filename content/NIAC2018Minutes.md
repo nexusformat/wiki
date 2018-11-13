@@ -1,3 +1,9 @@
+---
+title: NIAC 2018 Minutes
+permalink: NIAC2018Minutes.html
+layout: wiki
+---
+
 # NIAC Meeting 2018
 
 Brookhaven National Laboratory, October 25-26, 2018
