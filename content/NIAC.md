@@ -6,21 +6,21 @@ layout: wiki
 
 Current Members
 ---------------
--   Mark Basham, Diamond Light Source, UK
+-   Mark Basham, Diamond Light Source, UK (*Executive Secretary*)
 -   Herbert Bernstein, CIF (*non-facility member*)
 -   Aaron Brewster, Lawrence Berkeley Laboratory, USA
--   Stuart Campbell, Brookhaven National Laboratory/NSLS-II, USA
+-   Stuart Campbell, Brookhaven National Laboratory/NSLS-II, USA (*Technical Manager*)
 -   Bjorn Clausen, Los Alamos National Laboratory, USA
 -   Stephen Cottrell, Rutherford Appleton Laboratory, UK (*Muon Representative*)
 -   Ricardo Ferraz-Leal, SNS and HFIR at ORNL, USA
 -   Jens-Uwe Hoffmann, Helmholtz Zentrum Berlin, Germany
 -   Pete Jemian, Advanced Photon Source, USA (*Documentation Release Manager*)
--   Mark Könnecke, Paul Scherrer Institut, Switzerland (*Executive Secretary*)
+-   Mark Könnecke, Paul Scherrer Institut, Switzerland 
 -   Raymond Osborn, Argonne National Laboratory, USA (*non-facility member*)
--   Tobias Richter, European Spallation Source, Sweden (*Chair*)
+-   Tobias Richter, European Spallation Source, Sweden
 -   Armando Sole, European Synchrotron Radiation Facility, France
 -   Jiro Suzuki, KEK, Japan
--   [Benjamin Watts](http://www.psi.ch/lsc/benjamin-watts), Swiss Light Source, Switzerland
+-   [Benjamin Watts](http://www.psi.ch/lsc/benjamin-watts), Swiss Light Source, Switzerland (*Chair*)
 
 See the page with the [expiration dates](Membership_Dates.html "wikilink") for when the current terms of the various members end and we require a new facility endorsement and vote (see below).
 
