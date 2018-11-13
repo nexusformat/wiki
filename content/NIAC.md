@@ -15,7 +15,7 @@ Current Members
 -   Ricardo Ferraz-Leal, SNS and HFIR at ORNL, USA
 -   Jens-Uwe Hoffmann, Helmholtz Zentrum Berlin, Germany
 -   Pete Jemian, Advanced Photon Source, USA (*Documentation Release Manager*)
--   Mark Könnecke, Paul Scherrer Institut, Switzerland 
+-   Mark Könnecke, Paul Scherrer Institut, Switzerland
 -   Raymond Osborn, Argonne National Laboratory, USA (*non-facility member*)
 -   Tobias Richter, European Spallation Source, Sweden
 -   Armando Sole, European Synchrotron Radiation Facility, France
@@ -127,7 +127,8 @@ Meetings
 --------
 
 -   [NIAC 2018](NIAC2018.html): NIAC Meeting,
-    hosted by NSLS-II, Brookhaven, USA, October 2018, ([minutes](NIAC2018Minutes.html "wikilink"))
+    hosted by NSLS-II, Brookhaven, USA, October 2018
+    ([minutes](NIAC2018Minutes.html "wikilink"))
 -   [Code Camp 2017](Code_Camp_2017.html): NeXus Code Camp,
     hosted by Diamond Light Source, UK, October 2017
 -   [NIAC 2016](NIAC2016.html "wikilink") NeXus Code Camp and NIAC Meeting,
