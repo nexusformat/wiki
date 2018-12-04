@@ -128,7 +128,7 @@ Meetings
 
 -   [NIAC 2018](NIAC2018.html): NIAC Meeting,
     hosted by NSLS-II, Brookhaven, USA, October 2018
-    ([minutes](NIAC2018Minutes.html "wikilink"))
+    ([minutes](NIAC2018Minutes.md))
 -   [Code Camp 2017](Code_Camp_2017.html): NeXus Code Camp,
     hosted by Diamond Light Source, UK, October 2017
 -   [NIAC 2016](NIAC2016.html "wikilink") NeXus Code Camp and NIAC Meeting,
