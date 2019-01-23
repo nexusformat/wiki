@@ -13,7 +13,7 @@ link for that needs to change every few months when the old one stops
 working. The latest one should be linked from the most recent agenda
 page below.
 
-We aim to publish and agenda a few days in advance of the meetings. The
+We aim to publish an agenda a few days in advance of the meetings. The
 link to the meeting should be put on the meeting page as well.
 
 ### 2018
