@@ -16,6 +16,12 @@ page below.
 We aim to publish an agenda a few days in advance of the meetings. The
 link to the meeting should be put on the meeting page as well.
 
+### 2019
+
+#### February
+
+[Telco 20190207](Telco_20190207.html "wikilink") Thursday, 7 February, 16:30 CET (+0100)
+
 ### 2018
 
 #### October
