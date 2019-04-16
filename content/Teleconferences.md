@@ -18,6 +18,10 @@ link to the meeting should be put on the meeting page as well.
 
 ### 2019
 
+#### April
+
+[Telco 20190424](Telco_20190424.html "wikilink") Wednesday, 24 April, 15:00 CEsT (+0200)
+
 #### March
 
 [Telco 20190312](Telco_20190312.html "wikilink") Tuesday, 12 March, 15:00 CET (+0100)
