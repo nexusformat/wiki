@@ -13,12 +13,6 @@ stated in the [constitution](NIAC.html "wikilink").
 
 -   Bjørn Clausen - Lujan Neutron Scattering Center, USA
 
-
-
-### Expire December 19, 2017
-
--   Mark Basham, Diamond Light Source, UK
-
 ### Expire March 2019
 
 -   Herbert Bernstein, CIF community (non-facility representative)
@@ -54,3 +48,12 @@ stated in the [constitution](NIAC.html "wikilink").
 ### Expire September, 2020
 
 -   Eugen Wintersberger - DESY, Germany
+
+### Expire October, 2021
+
+-   Mark Basham, Diamond Light Source, UK
+
+### Expire November, 2021
+
+-   Takahiro Matsumoto, Spring8, Japan
+
