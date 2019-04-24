@@ -20,7 +20,8 @@ Current Members
 -   Tobias Richter, European Spallation Source, Sweden
 -   Armando Sole, European Synchrotron Radiation Facility, France
 -   Jiro Suzuki, KEK, Japan
--   [Benjamin Watts](http://www.psi.ch/lsc/benjamin-watts), Swiss Light Source, Switzerland (*Chair*)
+-   Benjamin Watts, Swiss Light Source, Switzerland (*Chair*)
+-   Takahiro Matsumoto, Spring8, Japan
 
 See the page with the [expiration dates](Membership_Dates.html "wikilink") for when the current terms of the various members end and we require a new facility endorsement and vote (see below).
 
