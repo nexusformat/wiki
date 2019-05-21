@@ -1,5 +1,5 @@
 ---
-title: ActiveProjects
+title: Active Projects
 permalink: ActiveProjects.html
 layout: wiki
 ---
