@@ -20,7 +20,7 @@ link to the meeting should be put on the meeting page as well.
 
 #### June
 
-[Telco 20190621](Telco_20190424.html "wikilink") Friday, 21 June, 15:00 CEsT (+0200)
+[Telco 20190621](Telco_20190621.html "wikilink") Friday, 21 June, 15:00 CEsT (+0200)
 
 #### April
 
