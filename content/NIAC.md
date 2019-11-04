@@ -22,6 +22,7 @@ Current Members
 -   Jiro Suzuki, KEK, Japan
 -   Benjamin Watts, Swiss Light Source, Switzerland (*Chair*)
 -   Takahiro Matsumoto, Spring8, Japan
+-   Lajos Schrettner, the Extreme Light Infrastructure, Czech Republic, Hungary and Romania
 
 See the page with the [expiration dates](Membership_Dates.html "wikilink") for when the current terms of the various members end and we require a new facility endorsement and vote (see below).
 
