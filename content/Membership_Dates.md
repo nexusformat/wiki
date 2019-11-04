@@ -53,3 +53,8 @@ stated in the [constitution](NIAC.html "wikilink").
 
 -   Takahiro Matsumoto, Spring8, Japan
 
+### Expire July, 2022
+
+-   Lajos Schrettner, the Extreme Light Infrastructure, Czech Republic, Hungary and Romania
+
+
