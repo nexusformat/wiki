@@ -9,11 +9,6 @@ listed below. If a member wishes to be renewed, they must provide a
 letter of support from the facility and be approved by the NIAC as
 stated in the [constitution](NIAC.html "wikilink").
 
-### Expire March 2019
-
--   Herbert Bernstein, CIF community (non-facility representative)
--   David Maennicke, ANSTO, Australia
-
 ### Expire October 2019
 
 -   Pete Jemian - APS, USA
@@ -53,8 +48,13 @@ stated in the [constitution](NIAC.html "wikilink").
 
 -   Takahiro Matsumoto, Spring8, Japan
 
+### Expire June 2022
+
+-   Herbert Bernstein, CIF community (non-facility representative)
+
 ### Expire July, 2022
 
 -   Lajos Schrettner, the Extreme Light Infrastructure, Czech Republic, Hungary and Romania
+
 
 
