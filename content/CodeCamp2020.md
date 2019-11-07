@@ -1,11 +1,8 @@
 ---
-title: NeXus Code Camp January 2020
+title: NeXus Code Camp - January 2020
 permalink: CodeCamp2020.html
 layout: wiki
 ---
-
-NeXus Code Camp - January 2020
-==============================
 
 The 2020 NeXus Code Camp is scheduled for 3 days (to be decided) in January 2020. 
 The code camp will take place at the [Advanced Photon Source](https://www.aps.anl.gov), 
