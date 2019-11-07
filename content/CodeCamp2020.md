@@ -78,6 +78,8 @@ map: [https://goo.gl/maps/OizgQ](https://goo.gl/maps/OizgQ)
 
 ### Recommended Lodging
 
+Please reserve your own rooms directly with the hotel:
+
 [Argonne Guest House, Argonne, Illinois, USA](https://www.anlgh.org/)
 
     Argonne Guest House
@@ -86,14 +88,6 @@ map: [https://goo.gl/maps/OizgQ](https://goo.gl/maps/OizgQ)
     Argonne, IL 60439
     Phone: 800-632-8990 or 630-739-6000
     Fax: 630-739-1000
-
-Argonne Guest House  
-Argonne National Laboratory  
-9700 S. Cass Avenue - Building 460  
-Argonne, IL 60439  
-USA
-
-Please reserve your own rooms directly with the hotel:
 
 Web site: <http://www.anlgh.org/>  
 telephone: +1 - 800-632-8990, +1 - 630-739-6000  
