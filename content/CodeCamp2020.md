@@ -73,7 +73,7 @@ Meeting Place
 
 Building 437 (LOM 437 on the sign), Conference Room C010 (Advanced Photon Source)
 
-map: https://goo.gl/maps/OizgQ
+map: [https://goo.gl/maps/OizgQ](https://goo.gl/maps/OizgQ)
 
 
 ### Recommended Lodging
