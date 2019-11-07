@@ -26,11 +26,50 @@ A doodle poll will be used to help decide the exact dates.
 Registration
 ------------
 
-**Registration Fee**:  No registration fee.
-
 You **must** notify the host of your visit in advance to arrange site access. 
+If you have not [visited](http://www.aps.anl.gov/About/Visiting) 
+the APS before or your registration has lapsed,
+see the section below titled **APS Visitor Registration**.
 
-**Host**: Pete Jemian <jemian@anl.gov>, X-ray Science Division, Advanced Photon Source, Argonne, IL 60439 USA
+### Costs
+
+-   Conference fee: no fee
+    -   food at morning and afternoon breaks will be provided
+    -   perhaps (no guarantee) a small meeting souvenir
+-   regular meals (breakfast, lunch, dinner) will be traveler's expense
+
+### APS Visitor Registration
+
+#1: Register with the [APS as a visitor](<http://www.aps.anl.gov/Users/Site_Access/>) to start the process.  
+#2: Send an email to jemian@anl.gov announcing your plan to attend.  
+
+Follow the <b>STEPS FOR VISITORS</b> provided:
+<http://www.aps.anl.gov/Users/Site_Access/>
+
+You must register <b>as an APS Visitor</b> in advance (to identify
+matters related to Passport, Visa, and ANL Site Access) or you should
+not expect access to the ANL site. If asked, indicate that you are
+visiting *Pete Jemian*.
+
+For the paperwork of all international visitors, we need each degree,
+year earned, and institution name. Additionally for certain visas, we
+need additional information:
+
+F1 visa: we need the I-20 number and expiration date.  
+J1 visa: we need the DS-2019 number and expiry date.  
+H1 visa: we need the I797 number and expiry date.  
+
+### Host
+
+-   Pete Jemian
+    -   X-ray Science Division
+    -   Advanced Photon Source, Argonne National Laboratory
+    -   9700 South Cass Avenue
+    -   Argonne, IL 60439  USA
+    -   email: jemian@anl.gov
+    -   office phone: +1-630-252-3189 (forwards to mobile)
+    -   Google voice: +1-847-859-9775 (forwards to mobile)
+
 
 Meeting Place
 -------------
@@ -40,23 +79,61 @@ Building 437 (LOM 437 on the sign), Conference Room C010 (Advanced Photon Source
 map: https://goo.gl/maps/OizgQ
 
 
-Lodging: Argonne Guest House, Argonne, IL
------------------------------------------
+### Recommended Lodging
 
-[Venue Website with contact details](https://www.anlgh.org/)
+[Argonne Guest House, Argonne, Illinois, USA](https://www.anlgh.org/)
 
-note:  APS is in shutdown at the time of the code camp so I expect rooms to be available.
+    Argonne Guest House
+    Argonne National Laboratory
+    9700 S. Cass Avenue - Building 460
+    Argonne, IL 60439
+    Phone: 800-632-8990 or 630-739-6000
+    Fax: 630-739-1000
 
-map: [Argonne Guest House](https://www.google.com/maps/place/Argonne+Guest+House/@41.7082341,-87.9877998,1400m/data=!3m1!1e3!4m15!1m6!3m5!1s0x880e45b051c2244d:0xe11fbec7b74c81b8!2sArgonne+National+Laboratory!8m2!3d41.718281!4d-87.9788682!3m7!1s0x0:0x1e291853646501c6!5m2!4m1!1i2!8m2!3d41.7091246!4d-87.9853392?hl=en)
+Argonne Guest House  
+Argonne National Laboratory  
+9700 S. Cass Avenue - Building 460  
+Argonne, IL 60439  
+USA
 
-```
-Argonne Guest House
-Argonne National Laboratory
-9700 S. Cass Avenue - Building 460
-Argonne, IL 60439
-Phone: +1-800-632-8990 or +1-630-739-6000
-Fax: +1-630-739-1000
-```
+Please reserve your own rooms directly with the hotel:
+
+Web site: <http://www.anlgh.org/>  
+telephone: +1 - 800-632-8990, +1 - 630-739-6000  
+fax: +1 - 630-739-1000  
+map: <https://goo.gl/maps/SCwja>  
+General information: [Visiting the APS](http://www.aps.anl.gov/About/Visiting/), <http://www.aps.anl.gov/About/Visiting>  
+
+### Directions
+
+-   airport:
+    -   Chicago O'Hare (ORD): international
+    -   Chicago Midway (MDW): domestic
+    -   Milwaukee, WI Mitchell Field (MKE): distant alternative
+
+-   taxi:
+    -   Call for a taxi pickup only after you have all your bags
+    -   Must be a taxi that goes to Chicago suburbs
+    -   suburban taxi will pickup in second lane of arrivals at Chicago
+        O'Hare airport
+    -   <http://www.americantaxi.com>, 1-800-244-1177 (automated system)
+    -   ... others ...
+-   airport bus: <http://www.airportexpress.com/shuttles/ohare.html>
+-   commuter train:
+    -   inconvenient
+
+Practical Matters
+-----------------
+
+### Equipment
+
+| item                                             | quantity   | who provides? |
+|--------------------------------------------------|------------|---------------|
+| projector & screen                               |            | host          |
+| LCD displays, keyboards, & mice                  |            | host          |
+| 120 VAC, 60 Hz, US-style 3-prong extension cords | sufficient | host          |
+| foreign electrical power adapter                 | as needed  | traveler      |
+| Wi-Fi connections                                | sufficient | hotel         |
 
 Meals
 ------
