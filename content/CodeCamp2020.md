@@ -23,6 +23,11 @@ A doodle poll will be used to help decide the exact dates.
 | #5 | 21 - 23 | | | x | x | x | | |
 | #6 | 22 - 24 | | | | x | x | x | |
 
+Registration
+------------
+
+**Registration Fee**:  No registration fee.
+
 You **must** notify the host of your visit in advance to arrange site access. 
 
 Host: Pete Jemian <jemian@anl.gov>, X-ray Science Division, Advanced Photon Source, Argonne, IL 60439 USA
