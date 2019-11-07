@@ -37,6 +37,8 @@ Meeting Place
 
 Building 437 (LOM 437 on the sign), Conference Room C010 (Advanced Photon Source)
 
+map: map: https://goo.gl/maps/OizgQ
+
 
 Lodging: Argonne Guest House, Argonne, IL
 -----------------------------------------
