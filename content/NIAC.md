@@ -128,8 +128,8 @@ Special Interest Groups: The NeXus International Advisory Committee will appoint
 Meetings
 --------
 
--   [Code Camp 2020](CodeCamp2020.md): NIAC Meeting,
-    hosted by NSLS-II, Brookhaven, USA, October 2018
+-   [Code Camp 2020](CodeCamp2020.md): Code camp,
+    hosted by APS, Chicago, USA, January 2020
 -   [NIAC 2018](NIAC2018.html): NIAC Meeting,
     hosted by NSLS-II, Brookhaven, USA, October 2018
     ([minutes](NIAC2018Minutes.md))
