@@ -9,7 +9,8 @@ The code camp will take place at the [Advanced Photon Source](https://www.aps.an
 [Argonne National Laboratory](https://www.anl.gov), IL, USA (near Chicago).  
 
 Proposed dates for the code camp are shown below.
-A doodle poll will be used to help decide the exact dates.
+An [online poll](https://doodle.com/poll/kf5xvbudzf2ccg6s) will be used to help decide the exact dates.
+We expect to have a decision by 2019-11-14.
 
 | option | 2020-01 | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -183,4 +184,4 @@ Minutes for the meeting
 
 -----------------------
 
-(page source: https://github.com/nexusformat/wiki/edit/master/content/CodeCamp2020.md)
+(page source: https://github.com/nexusformat/wiki/blob/master/content/CodeCamp2020.md)
