@@ -30,7 +30,7 @@ Registration
 
 You **must** notify the host of your visit in advance to arrange site access. 
 
-Host: Pete Jemian <jemian@anl.gov>, X-ray Science Division, Advanced Photon Source, Argonne, IL 60439 USA
+**Host**: Pete Jemian <jemian@anl.gov>, X-ray Science Division, Advanced Photon Source, Argonne, IL 60439 USA
 
 Meeting Place
 -------------
@@ -56,6 +56,12 @@ Agenda
 ------
 
 Goal:  Resolve issues to prepare next [release of NXDL](https://github.com/nexusformat/definitions/milestone/8).
+
+Considerations:
+
+* We should take this opportunity to provide the standard *Introduction to NeXus* as a public presentation.
+* We should allow time for an open, working lunch on one of the days to interact with the community able to attend.
+* If someone wishes to make any other public presentation, either during, before, or after the Code Camp, please contact the host.
 
 ## Day 1
 
