@@ -153,7 +153,7 @@ can be resolved.
 
 Resolve issues to prepare next [release of NXDL](https://github.com/nexusformat/definitions/milestone/8).
 
-Considerations:
+Suggestions:
 
 * We should take this opportunity to provide the standard *Introduction to NeXus* as a public presentation.
 * We should allow time for an open, working lunch on one of the days to interact with the community able to attend.
