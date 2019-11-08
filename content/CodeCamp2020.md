@@ -56,11 +56,8 @@ see the section below titled **APS Visitor Registration**.
 
 ### APS Visitor Registration
 
-#1: Register with the [APS as a visitor](<http://www.aps.anl.gov/Users/Site_Access/>) to start the process.  
+#1: Register with the [APS as a visitor](<http://www.aps.anl.gov/Users/Site_Access/>) to start the process.  Follow the *Steps for Visitors*.
 #2: Send an email to jemian@anl.gov announcing your plan to attend.  
-
-Follow the <b>STEPS FOR VISITORS</b> provided:
-<http://www.aps.anl.gov/Users/Site_Access/>
 
 You must register <b>as an APS Visitor</b> in advance (to identify
 matters related to Passport, Visa, and ANL Site Access) or you should
@@ -71,9 +68,9 @@ For the paperwork of all international visitors, we need each degree,
 year earned, and institution name. Additionally for certain visas, we
 need additional information:
 
-F1 visa: we need the I-20 number and expiration date.  
-J1 visa: we need the DS-2019 number and expiry date.  
-H1 visa: we need the I797 number and expiry date.  
+* F1 visa: we need the I-20 number and expiration date.  
+* J1 visa: we need the DS-2019 number and expiry date.  
+* H1 visa: we need the I797 number and expiry date.  
 
 ### Host
 
@@ -92,7 +89,7 @@ Meeting Place
 
 Building 437 (LOM 437 on the sign), Conference Room C010 (Advanced Photon Source)
 
-map: [https://goo.gl/maps/OizgQ](https://goo.gl/maps/OizgQ)
+map: [google](https://goo.gl/maps/OizgQ)
 
 
 ### Recommended Lodging
@@ -106,7 +103,7 @@ Argonne, IL 60439 <br />
 Web site: http://www.anlgh.org/   <br />
 telephone: +1-800-632-8990, +1-630-739-6000   <br />
 fax: +1-630-739-1000   <br />
-map: https://goo.gl/maps/SCwja   <br />
+map: [google](https://goo.gl/maps/SCwja)   <br />
 General information: [Visiting the APS](http://www.aps.anl.gov/About/Visiting/) 
 
 ### Directions
@@ -229,4 +226,4 @@ Notes:
 
 -----------------------
 
-<small>page source: https://github.com/nexusformat/wiki/blob/master/content/CodeCamp2020.md</small>
+<center><small>page source: [GitHub link](https://github.com/nexusformat/wiki/blob/master/content/CodeCamp2020.md)</small></center>
