@@ -167,9 +167,38 @@ Considerations:
 * We should allow time for an open, working lunch on one of the days to interact with the community able to attend.
 * If someone wishes to make any other public presentation, either during, before, or after the Code Camp, please contact the host.
 
+### Schedule
+
+-   arrive evening before the Code Camp
+-   conference check-in Day 1 morning
+-   meet Day 1
+-   meet Day 2
+-   meet Day 3
+-   checkout next day morning
+
+Here is the daily schedule:
+
+| time                | description     | comments                    |
+|---------------------|-----------------|-----------------------------|
+| 9:00 - 10:15 AM     | meeting         | work on projects and tasks  |
+| 10:15 - 10:45 AM    | morning break   | (included)                  |
+| 10:45 AM - 12:00 PM | meeting         | work on projects and tasks  |
+| 12:00 - 1:15 PM     | lunch           | offsite, traveler's expense |
+| 1:15 - 3:15 PM      | meeting         | work on projects and tasks  |
+| 3:15 - 3:30 PM      | afternoon break | (included)                  |
+| 3:30 - 5:00 PM      | meeting         | work on projects and tasks  |
+| 5:00 - 6:00 PM      | meeting         | daily summary (plenary)     |
+
+Notes:
+
+1.  late-afternoon wrap-up (plenary) each day
+2.  morning and afternoon breaks will be included in amenities charge
+3.  breakfast, lunch, dinner will be in a local restaurant at traveler's
+    expense
+
 ### Day 1
 
-- Welcome and introductions
+- Check-in, Welcome, and introductions
 - Decide which GitHub [issues](https://github.com/nexusformat/definitions/issues)
   to work on and resolve during this code camp.
 - AOB?
