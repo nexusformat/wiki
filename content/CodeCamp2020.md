@@ -40,6 +40,10 @@ may be (re)assigned to this milestone.
 Codeathon](https://www.aps.anl.gov/epics/meetings/codeathon.php) would be
 reasonable templates for this NeXus code camp.)
 
+## Attendees
+
+The list of Attendees is [here](https://www.nexusformat.org/CodeCamp2020-attendees.html).
+
 ## Registration
 
 You **must** notify the host of your visit in advance to arrange site access. 
