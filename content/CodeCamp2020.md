@@ -226,4 +226,4 @@ Notes:
 
 -----------------------
 
-<center><small>page source: [GitHub link](https://github.com/nexusformat/wiki/blob/master/content/CodeCamp2020.md)</small></center>
+page source: [GitHub link](https://github.com/nexusformat/wiki/blob/master/content/CodeCamp2020.md)
