@@ -21,8 +21,26 @@ We expect to have a decision by 2019-11-14.
 | #5 | 21 - 23 | | | x | x | x | | |
 | #6 | 22 - 24 | | | | x | x | x | |
 
-Registration
-------------
+## Purpose
+
+NeXus periodically convenes a Code Camp to
+develop NeXus software components through intense effort by small groups
+working on specific projects and tasks. It is expected that those
+attending the 2020 NeXus Code Camp will already have a strong foundation
+and understanding in aspects of the NeXus software and come ready with
+knowledge, tools, and ideas to make significant progress during the
+event. The specific projects and tasks are described on the 
+[GitHub issue tracker](https://github.com/nexusformat/definitions/milestone/10) 
+and will be revised as the event draws near.
+Issues from the [full list](https://github.com/nexusformat/definitions/issues) 
+may be (re)assigned to this milestone.
+
+(For more info on code camps, try searching Google for “code camp” or
+“codeathon”. Events such as the [EPICS
+Codeathon](https://www.aps.anl.gov/epics/meetings/codeathon.php) would be
+reasonable templates for this first NeXus code camp.)
+
+## Registration
 
 You **must** notify the host of your visit in advance to arrange site access. 
 If you have not [visited](http://www.aps.anl.gov/About/Visiting) 
