@@ -38,7 +38,7 @@ may be (re)assigned to this milestone.
 (For more info on code camps, try searching Google for “code camp” or
 “codeathon”. Events such as the [EPICS
 Codeathon](https://www.aps.anl.gov/epics/meetings/codeathon.php) would be
-reasonable templates for this first NeXus code camp.)
+reasonable templates for this NeXus code camp.)
 
 ## Registration
 
