@@ -4,22 +4,12 @@ permalink: CodeCamp2020.html
 layout: wiki
 ---
 
-The 2020 NeXus Code Camp is scheduled for 3 days (to be decided) in January 2020. 
+The 2020 NeXus Code Camp is scheduled for 3 days in January 2020:
+Jan 21 (Tuesday) - 23 (Thursday).
 The code camp will take place at the [Advanced Photon Source](https://www.aps.anl.gov), 
 [Argonne National Laboratory](https://www.anl.gov), IL, USA (near Chicago).  
 
-Proposed dates for the code camp are shown below.
-An [online poll](https://doodle.com/poll/kf5xvbudzf2ccg6s) will be used to help decide the exact dates.
-We expect to have a decision by 2019-11-14.
-
-| option | 2020-01 | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| #1 | 13 - 15 | | x | x | x | | | |
-| #2 | 14 - 16 | | | x | x | x | | |
-| #3 | 15 - 17 | | | | x | x | x | |
-| #4 | 20 - 22 | | x | x | x | | | |
-| #5 | 21 - 23 | | | x | x | x | | |
-| #6 | 22 - 24 | | | | x | x | x | |
+(We used an [online poll](https://doodle.com/poll/kf5xvbudzf2ccg6s) to help decide the exact dates.)
 
 ## Purpose
 
