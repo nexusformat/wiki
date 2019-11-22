@@ -50,7 +50,7 @@ Also, see the section below titled **ANL Visitor Registration**.
 
 The Argonne visitor registration form is for individuals who are visiting employees.
 
-Argonne visitor registration form: https://apps.anl.gov/registration/visitors/
+Argonne visitor registration form: [https://apps.anl.gov/registration/visitors/](https://apps.anl.gov/registration/visitors/)
 
 Indicate that you are visiting *Pete Jemian*. 
 
