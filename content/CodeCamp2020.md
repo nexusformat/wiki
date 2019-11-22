@@ -37,9 +37,7 @@ The list of Attendees is [here](https://www.nexusformat.org/CodeCamp2020-attende
 ## Registration
 
 You **must** notify the host of your visit in advance to arrange site access. 
-If you have not [visited](http://www.aps.anl.gov/About/Visiting) 
-the APS before or your registration has lapsed,
-see the section below titled **APS Visitor Registration**.
+Also, see the section below titled **ANL Visitor Registration**.
 
 ### Costs
 
@@ -48,23 +46,13 @@ see the section below titled **APS Visitor Registration**.
     -   perhaps (no guarantee) a small meeting souvenir
 -   regular meals (breakfast, lunch, dinner) will be traveler's expense
 
-### APS Visitor Registration
+### ANL Visitor Registration
 
-#1: Register with the [APS as a visitor](<http://www.aps.anl.gov/Users/Site_Access/>) to start the process.  Follow the *Steps for Visitors*.
-#2: Send an email to jemian@anl.gov announcing your plan to attend.  
+The Argonne visitor registration form is for individuals who are visiting employees.
 
-You must register <b>as an APS Visitor</b> in advance (to identify
-matters related to Passport, Visa, and ANL Site Access) or you should
-not expect access to the ANL site. If asked, indicate that you are
-visiting *Pete Jemian*.
+Argonne visitor registration form: https://apps.anl.gov/registration/visitors/
 
-For the paperwork of all international visitors, we need each degree,
-year earned, and institution name. Additionally for certain visas, we
-need additional information:
-
-* F1 visa: we need the I-20 number and expiration date.  
-* J1 visa: we need the DS-2019 number and expiry date.  
-* H1 visa: we need the I797 number and expiry date.  
+Indicate that you are visiting *Pete Jemian*. 
 
 ### Host
 
