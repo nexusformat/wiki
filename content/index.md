@@ -24,7 +24,8 @@ neutron, x-ray, and muon data.
   * [FAQ](http://download.nexusformat.org/doc/html/faq.html): Commonly asked questions about NeXus
 * [Facilities](Facilities.html "wikilink") using NeXus
 
-## Discussion and Development:  
+## Discussion and Development:
+* Next Code Camp: [Code Camp 2020](https://www.nexusformat.org/CodeCamp2020.html) 21-23 January 2020 @ APS, Chicago, USA
 * Most recent meeting: [NIAC 2018](NIAC2018.html) October 25th & 26th 2018 @ NSLS-II
 * [Tele Conferences](Teleconferences.html "wikilink")
 * [Current Active Projects](ActiveProjects.html "wikilink")
