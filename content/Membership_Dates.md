@@ -40,10 +40,6 @@ stated in the [constitution](NIAC.html "wikilink").
 
 -   Eugen Wintersberger - DESY, Germany
 
-### Expire October, 2021
-
--   Mark Basham, Diamond Light Source, UK
-
 ### Expire November, 2021
 
 -   Takahiro Matsumoto, Spring8, Japan
@@ -55,6 +51,17 @@ stated in the [constitution](NIAC.html "wikilink").
 ### Expire July, 2022
 
 -   Lajos Schrettner, the Extreme Light Infrastructure, Czech Republic, Hungary and Romania
+
+### Expire December, 2022
+
+-   Pete Jemian - APS, USA
+-   Mark Könnecke - SINQ, Switzerland
+-   Freddie Akeroyd - ISIS Pulsed Muon Facility, UK
+-   Armando Sole - European Synchrotron Radiation Facility, France
+-   Russ Berg - Canadian Light Source, Canada
+-   Peter Chang, Diamond Light Source, UK
+
+
 
 
 
