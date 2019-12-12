@@ -11,15 +11,12 @@ stated in the [constitution](NIAC.html "wikilink").
 
 ### Expire October 2019
 
--   Pete Jemian - APS, USA
 -   Jiro Suzuki - J-Parc, Japan
 -   Benjamin Watts - Swiss Light Source-PSI, Switzerland
--   Mark Könnecke - SINQ, Switzerland
 
 ### Expire November 2019
 
 -   Stephen Cottrell - ISIS Pulsed Muon Facility, UK
--   Armando Sole - European Synchrotron Radiation Facility, France
 -   Ray Osborn - Argonne National Laboratory (non-facility representative)
 
 ### Expire January 2020
@@ -56,7 +53,7 @@ stated in the [constitution](NIAC.html "wikilink").
 
 -   Pete Jemian - APS, USA
 -   Mark Könnecke - SINQ, Switzerland
--   Freddie Akeroyd - ISIS Pulsed Muon Facility, UK
+-   Freddie Akeroyd - ISIS Neutron Facility, UK
 -   Armando Sole - European Synchrotron Radiation Facility, France
 -   Russ Berg - Canadian Light Source, Canada
 -   Peter Chang, Diamond Light Source, UK
