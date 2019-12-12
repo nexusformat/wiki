@@ -4,8 +4,9 @@ permalink: CodeCamp2020-attendees.html
 layout: wiki
 ---
 
-| name | affiliation |
-| --- | --- |
-| Pete Jemian (host) | Argonne National Laboratory |
-| Russ Berg | Canadian Light Source |
-| Ben Watts | Paul Scherrer Institute |
+| name | affiliation | country |
+| --- | --- | --- |
+| Pete Jemian (host) | Argonne National Laboratory | USA |
+| Russ Berg | Canadian Light Source | Canada |
+| Aaron Brewster | Lawrence Berkeley Laboratory | USA |
+| Ben Watts | Paul Scherrer Institute | Switzerland |
