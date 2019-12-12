@@ -6,12 +6,13 @@ layout: wiki
 
 Current Members
 ---------------
--   Mark Basham, Diamond Light Source, UK (*Executive Secretary*)
+-   Benjamin Watts, Swiss Light Source, Switzerland (*Chair*)
 -   Herbert Bernstein, CIF (*non-facility member*)
 -   Aaron Brewster, Lawrence Berkeley Laboratory, USA
 -   Stuart Campbell, Brookhaven National Laboratory/NSLS-II, USA (*Technical Manager*)
 -   Bjorn Clausen, Los Alamos National Laboratory, USA
 -   Stephen Cottrell, Rutherford Appleton Laboratory, UK (*Muon Representative*)
+-   Freddie Akeroyd, Rutherford Appleton Laboratory, UK (*Neutron Representative*)
 -   Ricardo Ferraz-Leal, SNS and HFIR at ORNL, USA
 -   Jens-Uwe Hoffmann, Helmholtz Zentrum Berlin, Germany
 -   Pete Jemian, Advanced Photon Source, USA (*Documentation Release Manager*)
@@ -20,9 +21,10 @@ Current Members
 -   Tobias Richter, European Spallation Source, Sweden
 -   Armando Sole, European Synchrotron Radiation Facility, France
 -   Jiro Suzuki, KEK, Japan
--   Benjamin Watts, Swiss Light Source, Switzerland (*Chair*)
 -   Takahiro Matsumoto, Spring8, Japan
 -   Lajos Schrettner, the Extreme Light Infrastructure, Czech Republic, Hungary and Romania
+-   Peter Chang, Diamond Light Source, UK
+-   Russ Berg, Canadian Light Source, Canada
 
 See the page with the [expiration dates](Membership_Dates.html "wikilink") for when the current terms of the various members end and we require a new facility endorsement and vote (see below).
 
