@@ -10,3 +10,4 @@ layout: wiki
 | Russ Berg | Canadian Light Source | Canada |
 | Aaron Brewster | Lawrence Berkeley Laboratory | USA |
 | Ben Watts | Paul Scherrer Institute | Switzerland |
+| Freddie Akeroyd (probably) | ISIS Neutron and Muon Surce | United Kingdom |
