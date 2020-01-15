@@ -4,6 +4,8 @@ permalink: CodeCamp2020-attendees.html
 layout: wiki
 ---
 
+[//]: # https://github.com/nexusformat/wiki/blob/master/content/CodeCamp2020.md
+
 | name | affiliation | country |
 | --- | --- | --- |
 | Pete Jemian (host) | Advanced Photon Source | USA |
