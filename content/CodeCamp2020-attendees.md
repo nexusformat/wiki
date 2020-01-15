@@ -6,8 +6,11 @@ layout: wiki
 
 | name | affiliation | country |
 | --- | --- | --- |
-| Pete Jemian (host) | Argonne National Laboratory | USA |
+| Pete Jemian (host) | Advanced Photon Source | USA |
 | Russ Berg | Canadian Light Source | Canada |
 | Aaron Brewster | Lawrence Berkeley Laboratory | USA |
 | Ben Watts | Paul Scherrer Institute | Switzerland |
-| Freddie Akeroyd | ISIS Neutron and Muon Source | United Kingdom |
+| Peter Chang | Diamond Light Source | United Kingdom |
+| Freddie Akeroyd | UKRI STFC | United Kingdom |
+
+[//] # UKRI STFC -was- ISIS Neutron and Muon Source
