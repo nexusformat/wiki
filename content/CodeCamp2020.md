@@ -168,7 +168,7 @@ Suggestions:
 
 Here is the daily schedule (teleconference for [remote attendees](#remote-attendees)
 will be available during the *organizational* periods, see [above](#remote-attendees) 
-for connection details):
+for connection details).  All times listed are Central Standard Time (CST):
 
 | time                | description     | comments                    |
 |---------------------|-----------------|-----------------------------|
