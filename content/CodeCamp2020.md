@@ -34,6 +34,18 @@ reasonable templates for this NeXus code camp.)
 
 The list of Attendees is [here](https://www.nexusformat.org/CodeCamp2020-attendees.html).
 
+[//]: #  https://github.com/nexusformat/wiki/blob/master/content/CodeCamp2020-attendees.md
+[//]: # BTW: this is a comment line (https://stackoverflow.com/a/20885980/1046449)
+
+### Remote Attendees
+
+We will open certain time slots for remote attendees to participate using 
+[Bluejeans](https://www.bluejeans.com) video conference software.
+Times (generally: *the essential minimum would be the 5pm - 6 pm 
+plenary session each day, plus the first day checkin session*) and 
+connection details will be provided here.  Please make sure your
+computer is configured to run Bluejeans before the session.
+
 ## Registration
 
 You **must** notify the host of your visit in advance to arrange site access. 
@@ -122,7 +134,7 @@ General information: [Visiting the APS](http://www.aps.anl.gov/About/Visiting/)
 
 - No meals are provided by the code camp.
 - Light refreshments will be available for the breaks.
-- Attendees of the will decide *ad hoc* on where to have their meals.
+- Attendees of the Code Camp will decide *ad hoc* on where to have their meals.
 
 ## Agenda
 
