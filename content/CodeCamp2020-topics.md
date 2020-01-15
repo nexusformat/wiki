@@ -17,7 +17,7 @@ layout: wiki
 ## Topics and Prioritizations
 
 All topics should be proposed as issues.  Assign issues to relevant 
-GitHub [milestone](https://github.com/nexusformat/definitions/milestone/10)
+GitHub [milestone](https://github.com/nexusformat/definitions/milestones)
 for release process.  Post link to each issue here, as shown below.
 
 priority | topic | link
