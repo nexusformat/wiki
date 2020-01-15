@@ -25,11 +25,14 @@ working on specific projects and tasks. It is expected that those
 attending the 2020 NeXus Code Camp will already have a strong foundation
 and understanding in aspects of the NeXus software and come ready with
 knowledge, tools, and ideas to make significant progress during the
-event. The specific projects and tasks are described on the 
-[GitHub issue tracker](https://github.com/nexusformat/definitions/milestone/10) 
-and will be revised as the event draws near.
-Issues from the [full list](https://github.com/nexusformat/definitions/issues) 
-may be (re)assigned to this milestone.
+event. 
+
+Specific projects and tasks are described on the 
+[GitHub issue tracker](https://github.com/nexusformat/definitions/milestones).
+Issues for consideration at 2020 NeXus Code Camp will be added to the Code Camp's
+[Topics page](https://www.nexusformat.org/CodeCamp2020-topics.html)
+([edit here](https://github.com/nexusformat/wiki/edit/master/content/CodeCamp2020-topics.md)).
+These issues will be prioritized on the first day for handling at the Code Camp.
 
 (For more info on code camps, try searching Google for “code camp” or
 “codeathon”. Events such as the [EPICS
@@ -152,7 +155,9 @@ can be resolved.
 
 ### Goal
 
-Resolve issues to prepare next [release of NXDL](https://github.com/nexusformat/definitions/milestone/8).
+Resolve [issues](https://github.com/nexusformat/definitions/milestone/8) and
+[milestone](https://github.com/nexusformat/definitions/milestone/8)
+to prepare next [release of NXDL](https://github.com/nexusformat/definitions/issues/693).
 
 Suggestions:
 
