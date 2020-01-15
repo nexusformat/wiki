@@ -16,9 +16,10 @@ layout: wiki
 
 ## Topics and Prioritizations
 
-All topics should be proposed as issues.  Post links here.
-See GitHub [issues](https://github.com/nexusformat/definitions/issues).
+All topics should be proposed as issues and assigned to this 
+GitHub [milestone](https://github.com/nexusformat/definitions/milestone/10).  
+Post links here (useful if some code camp topics are not in the definitions repository).
 
-priority | link | topic
+priority | topic | link
 --- | --- | ---
-tba | tba | tba
+tba | NXDL release 2020.1 | https://github.com/nexusformat/definitions/issues/693
