@@ -17,6 +17,7 @@ layout: wiki
 ## Topics and Prioritizations
 
 All topics should be proposed as issues.  Post links here.
+See GitHub [issues](https://github.com/nexusformat/definitions/issues).
 
 priority | link | topic
 --- | --- | ---
