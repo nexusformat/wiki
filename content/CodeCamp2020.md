@@ -41,10 +41,14 @@ The list of Attendees is [here](https://www.nexusformat.org/CodeCamp2020-attende
 
 We will open certain time slots for remote attendees to participate using 
 [Bluejeans](https://www.bluejeans.com) video conference software.
-Times (generally: *the essential minimum would be the 5pm - 6 pm 
-plenary session each day, plus the first day checkin session*) and 
-connection details will be provided here.  Please make sure your
+Connection details will be provided here.  Please make sure your
 computer is configured to run Bluejeans before the session.
+
+Teleconference will be available during the *organizational* periods in 
+the [schedule](#schedule) listed below:
+
+* 9 - 9:30 AM CST, daily planning
+* 5 - 6 PM CST, daily summary
 
 ## Registration
 
@@ -162,18 +166,21 @@ Suggestions:
 -   meet Day 3
 -   checkout next day morning
 
-Here is the daily schedule:
+Here is the daily schedule (teleconference for [remote attendees](#remote-attendees)
+will be available during the *organizational* periods, see [above](#remote-attendees) 
+for connection details):
 
 | time                | description     | comments                    |
 |---------------------|-----------------|-----------------------------|
-| 9:00 - 10:15 AM     | meeting         | work on projects and tasks  |
+| 9:00 -  9:30 AM     | organizational  | daily planning (plenary)    |
+| 9:30 - 10:15 AM     | meeting         | work on projects and tasks  |
 | 10:15 - 10:45 AM    | morning break   | (included)                  |
 | 10:45 AM - 12:00 PM | meeting         | work on projects and tasks  |
 | 12:00 - 1:15 PM     | lunch           | offsite, traveler's expense |
 | 1:15 - 3:15 PM      | meeting         | work on projects and tasks  |
 | 3:15 - 3:30 PM      | afternoon break | (included)                  |
 | 3:30 - 5:00 PM      | meeting         | work on projects and tasks  |
-| 5:00 - 6:00 PM      | meeting         | daily summary (plenary)     |
+| 5:00 - 6:00 PM      | organizational  | daily summary (plenary)     |
 
 Notes:
 
