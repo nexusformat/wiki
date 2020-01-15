@@ -8,11 +8,8 @@ layout: wiki
 
 ## purpose
 
-```
-2. create some github page to propose topics for Code Camp
-   - topics proposed as issues
-   - high-level page to prioritize
-```
+Gather and prioritize issues to be resolved at the
+[2020 NeXus Code Camp](https://www.nexusformat.org/CodeCamp2020.html).
 
 ## Topics and Prioritizations
 
