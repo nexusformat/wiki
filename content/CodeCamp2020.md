@@ -195,7 +195,7 @@ Notes:
 ### Day 1
 
 - Check-in, Welcome, and introductions
-- Decide which GitHub [issues](https://github.com/nexusformat/definitions/issues)
+- Decide which [topics](https://www.nexusformat.org/CodeCamp2020-topics.html)
   to work on and resolve during this code camp.
 - AOB?
 
