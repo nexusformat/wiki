@@ -56,6 +56,13 @@ the [schedule](#schedule) listed below:
 * 9 - 9:30 AM CST, daily planning
 * 5 - 6 PM CST, daily summary
 
+* Meeting ID: **150 847 021**
+* URL: https://bluejeans.com/150847021
+* Phone Dial-in: +1.408.317.9254 (US (San Jose)) -or- +1.866.226.4650 (US Toll Free) 
+* Global Numbers: https://www.bluejeans.com/premium-numbers 
+* Room System 199.48.152.152 or bjn.vc 
+* Want to test your video connection? https://bluejeans.com/111 
+
 ## Registration
 
 You **must** notify the host of your visit in advance to arrange site access. 
