@@ -209,6 +209,8 @@ Notes:
 - Check-in, Welcome, and introductions
 - Decide which [topics](https://www.nexusformat.org/CodeCamp2020-topics.html)
   to work on and resolve during this code camp.
+  - this took longer than expected (about 90 minutes)
+  - we used a [shared Google Docs spreadsheet](https://docs.google.com/spreadsheets/d/1fFmKNXikbNSG9uAbkhS2UmtvJpQRxQmWyDlSRthE9cA/edit?usp=sharing) to list GitHub issues, assign priorities, note workers, and report status
 - AOB?
 - work on issues
 
