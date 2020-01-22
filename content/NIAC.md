@@ -14,13 +14,13 @@ Current Members
 -   Stephen Cottrell, Rutherford Appleton Laboratory, UK (*Muon Representative*)
 -   Freddie Akeroyd, Rutherford Appleton Laboratory, UK (*Neutron Representative*)
 -   Ricardo Ferraz-Leal, SNS and HFIR at ORNL, USA
--   Jens-Uwe Hoffmann, Helmholtz Zentrum Berlin, Germany
+-   Heike Görzig, Helmholtz Zentrum Berlin, Germany
 -   Pete Jemian, Advanced Photon Source, USA (*Documentation Release Manager*)
 -   Mark Könnecke, Paul Scherrer Institut, Switzerland
 -   Raymond Osborn, Argonne National Laboratory, USA (*non-facility member*)
 -   Tobias Richter, European Spallation Source, Sweden
 -   Armando Sole, European Synchrotron Radiation Facility, France
--   Jiro Suzuki, KEK, Japan
+-   Jiro Suzuki, J-PARC, Japan
 -   Takahiro Matsumoto, Spring8, Japan
 -   Lajos Schrettner, the Extreme Light Infrastructure, Czech Republic, Hungary and Romania
 -   Peter Chang, Diamond Light Source, UK
