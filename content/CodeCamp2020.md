@@ -216,11 +216,9 @@ Notes:
 
 - work on issues
 
-
 ### Day 3
 
--tba-
-
+- work on issues
 - make release (or release candidate) of NXDL per [release procedure](https://github.com/nexusformat/definitions/wiki/Release-Procedure)
 - AOB?
 
@@ -231,7 +229,7 @@ We don't typically record minutes for the Code Camps.
 Rather, the work progress is recorded in the GitHub 
 issue trackers for the various repositories involved.
 
-We'll note here any questions or recommendations for the NIAC.
+We'll note here certain progress items or any questions or recommendations for the NIAC.
 
 * We are looking to [publish the manual through GitHub Pages](https://github.com/nexusformat/definitions/issues/663): [https://manual.nexusformat.org](https://manual.nexusformat.org) (and [http://manual.nexusformat.org](http://manual.nexusformat.org))
 
