@@ -9,20 +9,13 @@ listed below. If a member wishes to be renewed, they must provide a
 letter of support from the facility and be approved by the NIAC as
 stated in the [constitution](NIAC.html "wikilink").
 
-### Expire October 2019
-
--   Jiro Suzuki - J-Parc, Japan
--   Benjamin Watts - Swiss Light Source-PSI, Switzerland
 
 ### Expire November 2019
-
--   Stephen Cottrell - ISIS Pulsed Muon Facility, UK
 -   Ray Osborn - Argonne National Laboratory (non-facility representative)
 
 ### Expire January 2020
 
 -   Ricardo Ferraz-Leal, ORNL, USA
--   Jens Uwe Hoffmann, HZB, Germany
 -   Stuart Campbell, BNL/NSLS-2, USA
 
 ### Expire May 2020
@@ -57,7 +50,12 @@ stated in the [constitution](NIAC.html "wikilink").
 -   Armando Sole - European Synchrotron Radiation Facility, France
 -   Russ Berg - Canadian Light Source, Canada
 -   Peter Chang, Diamond Light Source, UK
+-   Benjamin Watts - Swiss Light Source-PSI, Switzerland
 
+### Expire January, 2023
+-   Jiro Suzuki - J-Parc, Japan
+-   Jens Uwe Hoffmann, HZB, Germany
+-   Stephen Cottrell - ISIS Pulsed Muon Facility, UK
 
 
 
