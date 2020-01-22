@@ -12,7 +12,7 @@ Current Members
 -   Stuart Campbell, Brookhaven National Laboratory/NSLS-II, USA (*Technical Manager*)
 -   Bjorn Clausen, Los Alamos National Laboratory, USA
 -   Stephen Cottrell, Rutherford Appleton Laboratory, UK (*Muon Representative*)
--   Freddie Akeroyd, Rutherford Appleton Laboratory, UK (*Neutron Representative*)
+-   Freddie Akeroyd, Rutherford Appleton Laboratory, UK (*Neutron Representative*; *Executive Secretary*)
 -   Ricardo Ferraz-Leal, SNS and HFIR at ORNL, USA
 -   Heike Görzig, Helmholtz Zentrum Berlin, Germany
 -   Pete Jemian, Advanced Photon Source, USA (*Documentation Release Manager*)
