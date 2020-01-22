@@ -210,12 +210,11 @@ Notes:
 - Decide which [topics](https://www.nexusformat.org/CodeCamp2020-topics.html)
   to work on and resolve during this code camp.
 - AOB?
-
--tba-
+- work on issues
 
 ### Day 2
 
--tba-
+- work on issues
 
 
 ### Day 3
@@ -228,17 +227,13 @@ Notes:
 
 ## Minutes for the meeting
 
-### Day 1 morning
+We don't typically record minutes for the Code Camps.  
+Rather, the work progress is recorded in the GitHub 
+issue trackers for the various repositories involved.
 
-### Day 1 afternoon
+We'll note here any questions or recommendations for the NIAC.
 
-### Day 2 morning
-
-### Day 2 afternoon
-
-### Day 3 morning
-
-### Day 3 afternoon
+* We are looking to [publish the manual through GitHub Pages](https://github.com/nexusformat/definitions/issues/663): [https://manual.nexusformat.org](https://manual.nexusformat.org) (and [http://manual.nexusformat.org](http://manual.nexusformat.org))
 
 -----------------------
 
