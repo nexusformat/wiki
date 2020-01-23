@@ -258,7 +258,7 @@ Participants
 | [Mark Könnecke](User%3AMark_Koennecke.html "wikilink")           | [PSI](http://sinq.web.psi.ch/)         | 2011-10-18 | 2011-10-24 | complete      | yes            |
 | [Tobias Richter](User%3ATobias_Richter.html "wikilink")          | [Diamond](http://www.diamond.ac.uk/)   | 2011-10-19 | 2011-10-25 | complete      | yes            |
 | [Eugen Wintersberger](User%3AEugenwintersberger.html "wikilink") | [DESY](http://www.desy.de/)            | 2011-10-19 | 2011-10-23 | complete      | yes            |
-| [Freddie Akeroyd](User%3AFreddie_Akeroyd.html "wikilink")        | [ISIS](http://www.isis.stfc.ac.uk/)    | 2011-10-19 | 2011-10-23 | complete      | yes            |
+| [Freddie Akeroyd](User%3AFreddie_Akeroyd.html "wikilink")        | [ISIS](https://www.isis.stfc.ac.uk/)    | 2011-10-19 | 2011-10-23 | complete      | yes            |
 | [Peter Peterson](User%3APeter_Peterson.html "wikilink")          | [SNS](http://neutrons.ornl.gov/)       | 2011-10-19 | 2011-10-22 | complete      | yes            |
 | [Ray Osborn](User%3ARay_Osborn.html "wikilink")                  | [MSD/ANL](http://msd.anl.gov/)         | 2011-10-20 | 2011-10-22 | N/A           | yes            |
 | [Paul Kienzle](User%3APaul_Kienzle.html "wikilink")              | [NCNR/NIST](http://www.ncnr.nist.gov/) | 2011-10-19 | 2011-10-23 | ?             | pending        |

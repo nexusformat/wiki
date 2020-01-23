@@ -31,7 +31,7 @@ Wednesday, 2014-08-07: A [NeXus code camp](NIAC2014.html "wikilink") has been pl
 2012
 ----
 
-A [NeXus code camp](NIAC2012.html "wikilink") happened 18th / 19th September 2012 with a [NIAC](NIAC2012.html "wikilink") meeting to follow on 20th / 21th September 2012. These meetings are the week before the [NOBUGS conference](http://www.nobugsconference.org/Conferences) on 24th-26th September 2012  
+A [NeXus code camp](NIAC2012.html "wikilink") happened 18th / 19th September 2012 with a [NIAC](NIAC2012.html "wikilink") meeting to follow on 20th / 21th September 2012. These meetings are the week before the [NOBUGS conference](https://www.nobugsconference.org/) on 24th-26th September 2012  
 
 See [ NIAC: meetings](NIAC#Meetings.html "wikilink") for historical
 information about the NIAC meetings and Code Camps.
@@ -41,7 +41,7 @@ Wednesday, March 6, 2012: Release candidates for NeXus 4.3 are now available fro
 2010
 ----
 
-Thursday, October 21, 2010: NeXus Manual moved from the wiki to a [book format](http://www.nexusformat.org/Documentation) (PDF & HTML are available). The revised manual also documents the [class definitions](http://download.nexusformat.org/doc/html/ClassDefinitions.html) in [NXDL](http://download.nexusformat.org/doc/html/NXDL.html). Content has been reorganised and divided into a volume containing the [User Manual](http://download.nexusformat.org/doc/NeXusManual.pdf) and a volume containing the [Reference Documentation](http://download.nexusformat.org/doc/NeXusRefDoc.pdf).  
+Thursday, October 21, 2010: NeXus Manual moved from the wiki to a *book format*(``http://www.nexusformat.org/Documentation``) (PDF & HTML are available). The revised manual also documents the *class definitions*(``http://download.nexusformat.org/doc/html/ClassDefinitions.html``) in [NXDL](https://manual.nexusformat.org/nxdl.html). Content has been reorganised and divided into a volume containing the [User Manual](https://manual.nexusformat.org/pdf/NeXusManual.pdf) and a volume containing the *Reference Documentation*(``http://download.nexusformat.org/doc/NeXusRefDoc.pdf``).  
 
 <!-- -->
 
@@ -53,7 +53,7 @@ It is planned to release NXDL v1.0 next year.
   
 The scientific community is encouraged to review existing [Application
 NXDL
-definitions](http://download.nexusformat.org/doc/html/ClassDefinitions-Application.html)
+definitions](https://manual.nexusformat.org/classes/applications/)
 or propose new ones to the NIAC. A [tutorial on constructing new NXDL
 definitions](http://download.nexusformat.org/doc/html/Tutorial.html) has
 been add to the manual.
@@ -125,7 +125,7 @@ Friday, March 16, 2007: The upcoming 4.0 release of the NeXus API is now undergo
 Thursday, December 7, 2006: Site updated to MediaWiki 1.8.2  
 Tuesday, November 28, 2006: A NeXus install kit for Microsoft Windows is [now available](http://download.nexusformat.org/kits/windows) The kit includes the standard NeXus applications as well as libraries for building applications with both [MinGW](http://www.mingw.org/) and Microsoft Visual Studio.  
 Tuesday, November 21, 2006: The NeXus [MailingLists](MailingLists.html "wikilink") have been moved to a [new server](http://lists.nexusformat.org). Future postings should be made to *listname*@nexusformat.org rather than to *listname*@anl.gov  
-Tuesday, September 26, 2006: The NeXus WIKI has been moved to new site at [<http://www.nexusformat.org/>](http://www.nexusformat.org/) and updated to MediaWiki 1.7.1  
+Tuesday, September 26, 2006: The NeXus WIKI has been moved to new site at [<https://www.nexusformat.org/>](https://www.nexusformat.org/) and updated to MediaWiki 1.7.1  
 
 2005
 ----

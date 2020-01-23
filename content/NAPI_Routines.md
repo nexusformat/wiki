@@ -8,7 +8,7 @@ OUT OF DATE
 -----------
 
 This page is now out of date and has been replaced by [Doxygen generated
-documentation](http://download.nexusformat.org/doxygen/html/)
+documentation](https://manual.nexusformat.org/doxygen/html-c/)
 
 General Initialization and Shutdown
 -----------------------------------

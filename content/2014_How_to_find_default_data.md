@@ -7,12 +7,12 @@ layout: wiki
 (written for [NIAC2014\_Meeting](NIAC2014_Meeting.html "wikilink"))
 
 One of the
-[motivations](http://download.nexusformat.org/doc/html/motivations.html)
+[motivations](https://manual.nexusformat.org/motivations.html)
 for NeXus is [simple
-plotting](http://download.nexusformat.org/doc/html/motivations.html#simpleplotting).
+plotting](https://manual.nexusformat.org/motivations.html#simpleplotting).
 
 The [procedure to find the default data to be
-plotted](http://download.nexusformat.org/doc/html/datarules.html#find-plottable-data)
+plotted](https://manual.nexusformat.org/datarules.html#find-plottable-data)
 is convoluted. In some cases (files with multiple NXentry and/or NXdata
 groups), it is not certain which data will be found.
 

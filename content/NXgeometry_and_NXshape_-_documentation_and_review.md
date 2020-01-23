@@ -11,7 +11,7 @@ NXgeometry
 the different geometry related base classes.
 ](Nxgeometry_uml.png "fig: upright | frame | right | c | UML diagramm of the relations between the different geometry related base classes. ")
 Geometries in Nexus are described using the
-*[NXgeometry](http://download.nexusformat.org/doc/html/classes/base_classes/NXgeometry.html)*
+*[NXgeometry](https://manual.nexusformat.org/classes/base_classes/NXgeometry.html)*
 base class. As shown in the UML diagramm on the right side this class
 consists basically of three other base classes (composition): *NXshape*,
 *NXtranslation*, and *NXorientation*. As far as I understand the
@@ -22,12 +22,12 @@ quite ok.
 
 Note: the NeXus User Guide describes the coordinate system here:
 
--   <http://download.nexusformat.org/doc/html/design.html#nexus-coordinate-systems>
+-   <https://manual.nexusformat.org/design.html#nexus-coordinate-systems>
 
 NXtranslation
 -------------
 
-*[NXtranslation](http://download.nexusformat.org/doc/html/classes/base_classes/NXtranslation.html)*
+*[NXtranslation](https://manual.nexusformat.org/classes/base_classes/NXtranslation.html)*
 has an attribute *distances* of shape `[numobj,3]`. If, as stated above,
 *NXgeometry* seems to describe only a single shape the first dimension
 has no meaning. A dimensionality of `[3]` would be enough for this
@@ -36,7 +36,7 @@ field.
 NXorientation
 -------------
 
-*[NXorientation](http://download.nexusformat.org/doc/html/classes/base_classes/NXorientation.html)*
+*[NXorientation](https://manual.nexusformat.org/classes/base_classes/NXorientation.html)*
 has an attribute *value* of shape `[numobj,6]`. If, as stated above,
 *NXgeometry* seems to describe only a single shape the first dimension
 has no meaning. A dimensionality of `[6]` would be enough for this
@@ -45,7 +45,7 @@ field.
 NXshape
 -------
 
-*[NXshape](http://download.nexusformat.org/doc/html/classes/base_classes/NXshape.html)*
+*[NXshape](https://manual.nexusformat.org/classes/base_classes/NXshape.html)*
 
 This is where all the problems start. In fact there are three issues
 with this class:
