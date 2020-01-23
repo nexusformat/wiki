@@ -235,6 +235,8 @@ We'll note here certain progress items or any questions or recommendations for t
 
 * We are looking to [publish the manual through GitHub Pages](https://github.com/nexusformat/definitions/issues/663): [https://manual.nexusformat.org](https://manual.nexusformat.org) (and [http://manual.nexusformat.org](http://manual.nexusformat.org))
 
+* We made excellent progress on the *Gold Standard for NXmx*, helping both the MX, FEL, and synchrotron communities and the vendor support.
+
 -----------------------
 
 page source: [GitHub link](https://github.com/nexusformat/wiki/blob/master/content/CodeCamp2020.md)
