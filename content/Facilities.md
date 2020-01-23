@@ -7,7 +7,7 @@ layout: wiki
 Status of NeXus adoption by facility type. As it is very difficult to
 keep the information here current, this page will always at least
 partially be out of date. Please send any updates to the [mailing
-list](http://download.nexusformat.org/doc/html/mailinglist.html).
+list](https://manual.nexusformat.org/mailinglist.html).
 
 ### Pulsed Muon Facilities
 
