@@ -4,11 +4,6 @@ permalink: Latest_News.html
 layout: wiki
 ---
 
-2020
-----
-
-During [Code Camp 2020](https://www.nexusformat.org/CodeCamp2020.html) the NeXus manual has been moved to GitHub pages and is now hosted at a new URL https://manual.nexusformat.org/
-
 2017
 ----
 
