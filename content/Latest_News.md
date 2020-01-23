@@ -36,7 +36,7 @@ Wednesday, 2014-08-07: A [NeXus code camp](NIAC2014.html "wikilink") has been pl
 2012
 ----
 
-A [NeXus code camp](NIAC2012.html "wikilink") happened 18th / 19th September 2012 with a [NIAC](NIAC2012.html "wikilink") meeting to follow on 20th / 21th September 2012. These meetings are the week before the [NOBUGS conference](http://www.nobugsconference.org/Conferences) on 24th-26th September 2012  
+A [NeXus code camp](NIAC2012.html "wikilink") happened 18th / 19th September 2012 with a [NIAC](NIAC2012.html "wikilink") meeting to follow on 20th / 21th September 2012. These meetings are the week before the [NOBUGS conference](https://www.nobugsconference.org/) on 24th-26th September 2012  
 
 See [ NIAC: meetings](NIAC#Meetings.html "wikilink") for historical
 information about the NIAC meetings and Code Camps.
