@@ -4,7 +4,7 @@ permalink: NeXpy.html
 layout: wiki
 ---
 
-NeXpy provides a high-level python interface to NeXus data contained
+[NeXpy](https://nexpy.github.io/nexpy/) provides a high-level python interface to NeXus data contained
 within a simple GUI. It is designed to provide an intuitive interactive
 toolbox allowing users both to access existing NeXus files and to create
 new NeXus-conforming data structures without expert knowledge of the
@@ -106,7 +106,9 @@ first import of nexpy.
 #### Required Libraries
 
 -   [nexus](http://www.nexusformat.org)
--   [numpy,scipy](http://numpy.scipy.org)
+-   [numpy](https://numpy.org)
+-   [scipy](https://scipy.org)
+-   [h5py](https://www.h5py.org)
 -   [matplotlib v1.1.0](http://matplotlib.sourceforge.net)
 -   [hdf5](http://www.hdfgroup.org)
 -   [mxml](http://www.minixml.org) (XML NeXus files only)

@@ -15,7 +15,7 @@ the [NeXus International Advisory Committee (NIAC)](NIAC.html "wikilink") –
 for example with powder diffractometers there is a definition for both
 time focussing and total scattering with one being a subset of the
 other; a file can conform to one or both. The initial work on this
-definition comes from discussions between [SNS](http://www.sns.gov/),
+definition comes from discussions between [SNS](https://neutrons.ornl.gov/sns/),
 [J-PARC](http://j-parc.jp/index-e.html) and
 [ISIS](https://www.isis.stfc.ac.uk/) - the three facilities are interested
 in having a unified base for all instruments to allow for low level
