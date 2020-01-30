@@ -235,6 +235,83 @@ We'll note here certain progress items or any questions or recommendations for t
 
 * We are looking to [publish the manual through GitHub Pages](https://github.com/nexusformat/definitions/issues/663): [https://manual.nexusformat.org](https://manual.nexusformat.org)
 * We made excellent progress on the *Gold Standard for NXmx*, helping both the MX, FEL, and synchrotron communities and the vendor support.
+* We have registered a [DOI with zenodo](https://zenodo.org/record/3629571) that updates with each release of the definitions repository.  The DOI link is noted on our [GitHub home page](https://github.com/nexusformat/definitions).
+* We expect to make a release of NXDL 2020.1 on 2020-01-31.
+
+### Code Camp Tasks
+
+We list here the various tasks we handled during the code camp, with a disposition for each, as copied from the Google Sheet we shared.
+
+repository | task | disposition
+---- | ---- | ----
+definitions | [NXDL data type vs NAPI type vs NeXus data type: clarify and simplify!](https://github.com/nexusformat/definitions/issues/307) | Done
+definitions | [more prominently document existing scheme for uncertainties](https://github.com/nexusformat/definitions/issues/370) | Done
+definitions | [Recording time-stamped data](https://github.com/nexusformat/definitions/issues/503) | Done
+definitions | [Create structure to incorporate PDB definitions into NeXus](https://github.com/nexusformat/definitions/issues/553) | Done
+definitions | [use consistent terms when names are flexible](https://github.com/nexusformat/definitions/issues/562) | Done
+definitions | [NIAC has decided about how to report errors/uncertainties](https://github.com/nexusformat/definitions/issues/634) | Done
+definitions | [[DOC] C example uses old style NXdata](https://github.com/nexusformat/definitions/issues/665) | Done
+definitions | [Added documentation for variants to datarules.rst](https://github.com/nexusformat/definitions/pull/666) | Done
+definitions | [How to specify per-shot wavelength](https://github.com/nexusformat/definitions/issues/667) | Done
+definitions | [close branch pixel_as_length_issue_511](https://github.com/nexusformat/definitions/issues/680) | Done
+definitions | [integrate NIAC decision on errors & uncertainties](https://github.com/nexusformat/definitions/pull/685) | Done
+definitions | [NXDL release 2020.1](https://github.com/nexusformat/definitions/issues/693) | 43861
+exampledata | [Can we remove the file trees from the readme files as they are out of date and need to be manually updated](https://github.com/nexusformat/exampledata/issues/10) | Done
+exampledata | [separate out non-compliant data files](https://github.com/nexusformat/exampledata/issues/3) | Done
+exampledata | [Example thaumatin multisample NXmx/NXreflections file.](https://github.com/nexusformat/exampledata/pull/7) | Done
+definitions | [Clarify note on IUCr coordinate system.](https://github.com/nexusformat/definitions/pull/704) | Done
+definitions | [add "uncertainties" attribute to fieldType in nxdl.xsd](https://github.com/nexusformat/definitions/issues/532) | closed as wontfix
+definitions | ["Are there examples of NeXus data?" - asked at Nobugs 2018](https://github.com/nexusformat/definitions/issues/629) | Done
+definitions | ["Are there examples of code that reads NeXus data?" - asked at Nobugs 2018](https://github.com/nexusformat/definitions/issues/630) | Done
+definitions | [docs: add text when a group name is suggested](https://github.com/nexusformat/definitions/issues/531) | Done
+definitions | [can NXscan be extended to include 1-D data?](https://github.com/nexusformat/definitions/issues/563) | moved to next milestone
+definitions | [update Sphinx config](https://github.com/nexusformat/definitions/issues/659) | Done
+definitions | [consider publishing docs in GitHub pages](https://github.com/nexusformat/definitions/issues/663) | Done
+definitions | [examples of axes/AXISNAME_indices attributes](https://github.com/nexusformat/definitions/issues/450) | moved to next milestone
+definitions | [datarules.rst contains information on 2014 discussions](https://github.com/nexusformat/definitions/issues/541) | moved to next milestone
+definitions | [clarify how to name fields and groups](https://github.com/nexusformat/definitions/issues/544) | NIAC to review
+definitions | [clarify naming convention](https://github.com/nexusformat/definitions/pull/671) | NIAC to review
+exampledata | [some example files for NXptycho](https://github.com/nexusformat/exampledata/pull/9) | after code camp
+definitions | [Is use of UPPER case names described in the manual?](https://github.com/nexusformat/definitions/issues/700) | Done
+definitions | [Need new links to h5toText program](https://github.com/nexusformat/definitions/issues/705) | Done
+exampledata | [critique.py was not working](https://github.com/nexusformat/exampledata/pull/14) | Done
+definitions | [Slow/fast axis inconsistent in NXdetector_module](https://github.com/nexusformat/definitions/issues/695) | Done
+definitions | [adjust links for h5toText, now punx tree](https://github.com/nexusformat/definitions/pull/707) | Done
+definitions | [update copyright date to 2020](https://github.com/nexusformat/definitions/issues/712) | Done
+definitions | [2020 copyright](https://github.com/nexusformat/definitions/pull/713) | Done
+definitions | [some unit tests fail since flexible names are UPPER case](https://github.com/nexusformat/definitions/issues/714) | Done
+definitions | [certain unit tests had failed](https://github.com/nexusformat/definitions/pull/715) | Done
+definitions | [NXmx has fields that may not have to be required](https://github.com/nexusformat/definitions/issues/696) | Done
+definitions | [update Sphinx config to 2.3.1](https://github.com/nexusformat/definitions/pull/718) | Done
+definitions | [DATASET_errors naming convention should appear in manual](https://github.com/nexusformat/definitions/issues/721) | Done
+definitions | [PDF manual does not build](https://github.com/nexusformat/definitions/issues/720) | Done
+definitions | [Remove references to NAPI from schema and documentation](https://github.com/nexusformat/definitions/issues/699) | Done
+definitions | [describe field suffixes reserved by NeXus](https://github.com/nexusformat/definitions/pull/723) | Done
+definitions | [Improved documentation about time stamped data](https://github.com/nexusformat/definitions/pull/719) | Done
+definitions | [cleanup in nxdl.xsd](https://github.com/nexusformat/definitions/issues/725) | Done
+definitions | [cleanup in nxdl.xsd (PR to #725)](https://github.com/nexusformat/definitions/pull/726) | Done
+definitions | [Remove some references to NAPI for #699](https://github.com/nexusformat/definitions/pull/722) | Done
+definitions | [Makefile can't build the PDF manual](https://github.com/nexusformat/definitions/issues/732) | Done
+definitions | [editing needed in datarules.rst new content](https://github.com/nexusformat/definitions/issues/733) | Done
+definitions | [Clarify the nature of NeXus application definitions](https://github.com/nexusformat/definitions/issues/697) | Done
+definitions | [Clarify the nature of NeXus application definitions](https://github.com/nexusformat/definitions/pull/734) | Done
+definitions | [GitHub API authentication has changed : affects the release process](https://github.com/nexusformat/definitions/issues/728) | Done
+definitions | [Revise release note scripting](https://github.com/nexusformat/definitions/pull/735) | Done
+definitions | [create_release_notes.py should use SHA credentials](https://github.com/nexusformat/definitions/issues/729) | Done
+definitions | [added type="NX_FLOAT"](https://github.com/nexusformat/definitions/pull/731) | Done
+definitions | [NXstxm nxdl does not specify a type for the energy field for [/NXentry/NXinstrument/NXmonochromator/energy]](https://github.com/nexusformat/definitions/issues/730) | Done
+definitions | [cite API contributions](https://github.com/nexusformat/definitions/pull/736) | Done
+definitions | [Update example for new axes syntax and for HDF 1.8.0 and above](https://github.com/nexusformat/definitions/pull/737) | Done
+definitions | [Reduce number of mandatory fields in NXcxi_ptycho](https://github.com/nexusformat/definitions/pull/668) | Done
+definitions | [adjust doc string in NXcxi_ptycho](https://github.com/nexusformat/definitions/issues/738) | Done
+definitions | [writer_2_1 example broken](https://github.com/nexusformat/definitions/issues/739) | Done
+definitions | [Bad indentation in NXcxi_ptycho](https://github.com/nexusformat/definitions/issues/740) | Done
+definitions | [add h5py example reader using attributes to find default plottable data](https://github.com/nexusformat/definitions/issues/741) | Done
+definitions | [From code camp, clarify NXmx/NXdetector depends_on field.](https://github.com/nexusformat/definitions/pull/743) | Done
+definitions | [From code camp, Make NXmx/NXdata optional.](https://github.com/nexusformat/definitions/pull/744) | Done
+definitions | [From code camp, add note to NXmx that file_name and file_time are recommended](https://github.com/nexusformat/definitions/pull/745) | Done
+definitions | [in release notes, TOC link to each subsection](https://github.com/nexusformat/definitions/issues/749) | Done
+definitions | [in release notes TOC, add link to each subsection](https://github.com/nexusformat/definitions/pull/751) | Done
 
 -----------------------
 
