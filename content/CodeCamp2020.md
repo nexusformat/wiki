@@ -255,7 +255,7 @@ definitions | [Added documentation for variants to datarules.rst](https://github
 definitions | [How to specify per-shot wavelength](https://github.com/nexusformat/definitions/issues/667) | Done
 definitions | [close branch pixel_as_length_issue_511](https://github.com/nexusformat/definitions/issues/680) | Done
 definitions | [integrate NIAC decision on errors & uncertainties](https://github.com/nexusformat/definitions/pull/685) | Done
-definitions | [NXDL release 2020.1](https://github.com/nexusformat/definitions/issues/693) | 43861
+definitions | [NXDL release 2020.1](https://github.com/nexusformat/definitions/issues/693) | *expected 2020-01-31*
 exampledata | [Can we remove the file trees from the readme files as they are out of date and need to be manually updated](https://github.com/nexusformat/exampledata/issues/10) | Done
 exampledata | [separate out non-compliant data files](https://github.com/nexusformat/exampledata/issues/3) | Done
 exampledata | [Example thaumatin multisample NXmx/NXreflections file.](https://github.com/nexusformat/exampledata/pull/7) | Done
