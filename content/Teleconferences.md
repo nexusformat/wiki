@@ -20,7 +20,7 @@ link to the meeting should be put on the meeting page as well.
 
 #### February
 
-[Telco 20200224](Telco_20200224.html "wikilink") Monday, 24 January, 15:00 CET (+0100)
+[Telco 20200224](Telco_20200224.html "wikilink") Monday, 24 February, 15:00 CET (+0100)
 
 ### 2019
 
