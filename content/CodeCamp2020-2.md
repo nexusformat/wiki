@@ -7,7 +7,7 @@ layout: wiki
 The 2020 NeXus Code Camp is scheduled for 2 days in October 2020:
 October 17 (Saturday) - 18 (Sunday).
 
-The code camp is taking place immediately after the [NOBUGS 2020 conference](http://tiny.cc/nobugs2020) and
+The code camp is taking place immediately after the [NOBUGS 2020 conference](https://tiny.cc/nobugs2020) and
 will be able to implement decisions taken at the [NIAC 2020](https://www.nexusformat.org/NIAC2020.html) meeting
 
 ## Purpose
@@ -36,7 +36,7 @@ TDB
 
 ## Registration
 
-Registration for the NIAC and code camp is done as part of the [NOBUGS 2020 conference](http://tiny.cc/nobugs2020) registration.
+Registration for the NIAC and code camp is done as part of the [NOBUGS 2020 conference](https://tiny.cc/nobugs2020) registration.
 
 ### Costs
 
