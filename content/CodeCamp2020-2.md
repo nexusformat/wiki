@@ -12,7 +12,7 @@ will be able to implement decisions taken at the [NIAC 2020](https://www.nexusfo
 
 ## Purpose
 
-The Saturday of the Code Camp will be primarily for people to ask detailed questions and request specific help from core NeXus developers. The Sunday will be more for 
+The Saturday of the Code Camp will be primarily for people to ask detailed questions and request specific help from core NeXus developers, e.g. writing an application definition or writing a NeXus file correctly. The Sunday will be more for the core NeXus developers to work on implementing NIAC decisions.
 
 NeXus periodically convenes a Code Camp to
 develop NeXus software components through intense effort by small groups
