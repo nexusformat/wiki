@@ -17,7 +17,7 @@ The Saturday of the Code Camp will be primarily for people to ask detailed quest
 NeXus periodically convenes a Code Camp to
 develop NeXus software components through intense effort by small groups
 working on specific projects and tasks. It is expected that those
-attending the 2020 NeXus Code Camp will already have a strong foundation
+attending the Sunday Code Camp session will already have a strong foundation
 and understanding in aspects of the NeXus software and come ready with
 knowledge, tools, and ideas to make significant progress during the
 event. 
