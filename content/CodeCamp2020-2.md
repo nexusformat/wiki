@@ -38,7 +38,7 @@ TDB
 
 ## Registration
 
-Registration for the NIAC and code camp is done as part of the [NOBUGS 2020 conference](https://tiny.cc/nobugs2020) registration.
+Registration for the NIAC and code camp is only necessary if you are attending in person and is done as part of the [NOBUGS 2020 conference](https://tiny.cc/nobugs2020) registration.
 
 ### Costs
 
