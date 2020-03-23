@@ -27,15 +27,6 @@ event.
 Codeathon](https://www.aps.anl.gov/epics/meetings/codeathon.php) would be
 reasonable templates for this NeXus code camp.)
 
-## Attendees
-
-Name|Affiliation
-----|----
-
-### Remote Attendees
-
-TDB
-
 ## Registration
 
 Registration for the NIAC and code camp is only necessary if you are attending in person and is done as part of the [NOBUGS 2020 conference](https://tiny.cc/nobugs2020) registration.
