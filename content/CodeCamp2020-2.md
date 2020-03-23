@@ -16,7 +16,7 @@ If you have a topic you wish to discuss/cover in the Saturday code camp, please 
 
 NeXus periodically convenes a Code Camp to
 develop NeXus software components through intense effort by small groups
-working on specific projects and tasks. It is expected that those
+working on specific projects and tasks, such as implementing decisions from the NIAC meeting. It is expected that those
 attending the Sunday Code Camp session will already have a strong foundation
 and understanding in aspects of the NeXus software and come ready with
 knowledge, tools, and ideas to make significant progress during the
