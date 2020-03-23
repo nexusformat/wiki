@@ -14,6 +14,8 @@ will be able to implement decisions taken at the [NIAC 2020](https://www.nexusfo
 
 The Saturday of the Code Camp will be primarily for people to ask detailed questions and request specific help from core NeXus developers, e.g. writing an application definition or writing a NeXus file correctly. The Sunday will be more for the core NeXus developers to work on implementing NIAC decisions.
 
+If you have a topic you wish to discuss/cover in the Saturday code camp, please add it as a comment to this [GitHub issue]( https://github.com/nexusformat/NIAC/issues/38)
+
 NeXus periodically convenes a Code Camp to
 develop NeXus software components through intense effort by small groups
 working on specific projects and tasks. It is expected that those
