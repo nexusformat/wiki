@@ -33,7 +33,7 @@ Registration for the NIAC and code camp is only necessary if you are attending i
 
 ### Costs
 
-The code camp will cost 40 EUR/person, which covers coffee breaks and lunch costs.
+The code camp will cost 20 EUR/person/day, which covers coffee breaks and lunch costs.
 
 Meeting Place
 -------------
