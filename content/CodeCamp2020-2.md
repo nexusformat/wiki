@@ -5,8 +5,7 @@ layout: wiki
 ---
 
 The 2020 NeXus Code Camp is scheduled for 2 days in October 2020:
-October 17 (Saturday) - 18 (Sunday).
-
+October 17 (Saturday) - 18 (Sunday). It is taking place immediately after the [NOBUGS 2020 conference](https://tiny.cc/nobugs2020) which is hosted by the [European XFEL](https://www.xfel.eu/)
 
 ## Purpose
 
