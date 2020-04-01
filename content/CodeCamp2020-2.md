@@ -9,7 +9,7 @@ October 17 (Saturday) - 18 (Sunday). It is taking place immediately after the [N
 
 ## Purpose
 
-The Saturday of the Code Camp will be primarily an open help session for people to ask detailed questions and request specific help from core NeXus developers, e.g. writing an application definition or writing a NeXus file correctly. The Sunday will be more for the core NeXus developers to work on implementing NIAC decisions.
+The Saturday of the Code Camp will be primarily an open help session for people to ask detailed questions and request specific help from core NeXus developers, e.g. writing an application definition or writing a NeXus file correctly. The Sunday will be more for the core NeXus developers to work on implementing [NIAC decisions](https://www.nexusformat.org/NIAC2020.html)
 
 If you have a topic you wish to discuss/cover in the Saturday code camp, please add it as a comment to this [GitHub issue]( https://github.com/nexusformat/NIAC/issues/38)
 
