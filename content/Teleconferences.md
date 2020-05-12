@@ -6,6 +6,8 @@ layout: wiki
 
 These were originally born out of the idea of opening the meetings of the former
 Technical Subcommittee to the wider community. All interested parties are welcome.
+If you wish to know the date and time in advance, join the
+[nexus-tech](https://lists.nexusformat.org/mailman/listinfo/nexus-tech) mailing list.
 
 Currently we use Google Hangout as the technology, which works
 reasonably well for everyone. (Google account required obviously.) The
