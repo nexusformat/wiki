@@ -20,6 +20,10 @@ link to the meeting should be put on the meeting page as well.
 
 ### 2020
 
+#### July
+
+[Telco 20200701](Telco_20200701.html "wikilink") Wednesday, 1 July, 15:00 CEST (+0200)
+
 #### May
 
 [Telco 20200527](Telco_20200527.html "wikilink") Wednesday, 27 March, 15:00 CEST (+0200)
