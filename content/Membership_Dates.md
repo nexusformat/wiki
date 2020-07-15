@@ -10,17 +10,6 @@ letter of support from the facility and be approved by the NIAC as
 stated in the [constitution](NIAC.html "wikilink").
 
 
-### Expire November 2019
--   Ray Osborn - Argonne National Laboratory (non-facility representative)
-
-### Expire January 2020
-
--   Ricardo Ferraz-Leal, ORNL, USA
--   Stuart Campbell, BNL/NSLS-2, USA
-
-### Expire May 2020
-
-- Tobias Richter
 
 ### Expire July, 2020
 
@@ -56,6 +45,12 @@ stated in the [constitution](NIAC.html "wikilink").
 -   Jiro Suzuki - J-Parc, Japan
 -   Jens Uwe Hoffmann, HZB, Germany
 -   Stephen Cottrell - ISIS Pulsed Muon Facility, UK
+
+### Expire July, 2023
+-   Ray Osborn - Argonne National Laboratory (non-facility representative)
+-   Stuart Campbell, BNL/NSLS-2, USA
+-   Tobias Richter
+
 
 
 
