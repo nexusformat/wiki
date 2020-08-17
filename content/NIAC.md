@@ -25,6 +25,9 @@ Current Members
 -   Lajos Schrettner, the Extreme Light Infrastructure, Czech Republic, Hungary and Romania
 -   Peter Chang, Diamond Light Source, UK
 -   Russ Berg, Canadian Light Source, Canada
+-   Sandor Brockhauser, European XFEL, Germany
+-   Majid Ounsy, Synchrotron Soleil, France
+-   William Godoy, Oak Ridge National Laboratory (SNS/HFIR), USA
 
 See the page with the [expiration dates](Membership_Dates.html "wikilink") for when the current terms of the various members end and we require a new facility endorsement and vote (see below).
 
