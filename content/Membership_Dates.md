@@ -11,10 +11,6 @@ stated in the [constitution](NIAC.html "wikilink").
 
 
 
-### Expire July, 2020
-
--   Aaron Brewster, Lawrence Berkeley Laboratory, USA
-
 ### Expire September, 2020
 
 -   Eugen Wintersberger - DESY, Germany
@@ -49,7 +45,14 @@ stated in the [constitution](NIAC.html "wikilink").
 ### Expire July, 2023
 -   Ray Osborn - Argonne National Laboratory (non-facility representative)
 -   Stuart Campbell, BNL/NSLS-2, USA
--   Tobias Richter
+-   Tobias Richter, European Spallation Source, Sweden
+
+
+### Expire August, 2023
+-   Aaron Brewster, Lawrence Berkeley Laboratory, USA
+-   Sandor Brockhauser, European XFEL, Germany
+-   Majid Ounsy, Synchrotron Soleil, France
+-   William Godoy, Oak Ridge National Laboratory (SNS/HFIR), USA
 
 
 
