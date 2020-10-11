@@ -4,7 +4,7 @@ permalink: CodeCamp2020-2.html
 layout: wiki
 ---
 
-The 2020 NeXus Code Camp is scheduled for 2 days in October 2020:
+The 2020-2 NeXus Code Camp is scheduled for 2 days in October 2020:
 October 19 (Monday) - 20 (Tuesday). It is taking place one week after the [2020 NIAC meeting](https://www.nexusformat.org/NIAC2020.html). It was originally planned to be immediately after the [NOBUGS 2020 conference](https://tiny.cc/nobugs2020), hosted by the [European XFEL](https://www.xfel.eu/), but NOBUGS has been postponed and the 2020 NIAC become an online meeting.
 
 ## Purpose
