@@ -133,6 +133,12 @@ Special Interest Groups: The NeXus International Advisory Committee will appoint
 Meetings
 --------
 
+-   [Code Camp 2020-2](CodeCamp2020-2.html) NeXus Code Camp 2020-2, (virtual)
+    hosted by the [European XFEL](https://www.xfel.eu/), Hamburg, 
+    Germany, October 2020.
+-   [NIAC 2020](NIAC2020.html) NIAC Meeting, (virtual)
+    hosted by the [European XFEL](https://www.xfel.eu/), Hamburg, 
+    Germany, October 2020.
 -   [Code Camp 2020](CodeCamp2020.html): Code camp,
     hosted by APS, Chicago, USA, January 2020
 -   [NIAC 2018](NIAC2018.html): NIAC Meeting,
