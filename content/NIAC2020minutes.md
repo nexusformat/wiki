@@ -1,3 +1,9 @@
+---
+title: NIAC 2020 Minutes
+permalink: NIAC2020minutes.html
+layout: wiki
+---
+
 ## Session B
 
 Present: HB, FA, PC, HG, PJ, MK, AB, BW, TM, SB, RO, AF
