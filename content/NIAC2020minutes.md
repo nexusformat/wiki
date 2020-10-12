@@ -20,7 +20,7 @@ The review of NXmx was completed. After checking the constitution, there were in
 
 There was a discussion arpound NXptychography, this mainly related to how th ebeam centre should be stored - in NXdetector or using NXtransformations. RO asked if there were any examples of NXtransformations, there are some details on the wiki https://manual.nexusformat.org/design.html#coordinate-transformations but MK will locate a previous presentation he did on the subject. PJ will take back a recommendation to the group for https://github.com/nexusformat/NIAC/issues/53 but further work may be done in the Code CAmp on clarifying the documentation. There is code available in the CBF library to do the necessary maths for transformations.    
 
-Representating mathematical formulas in data files https://github.com/nexusformat/definitions/issues/711 was discussed, PC added an interesting new HDF5 approach https://github.com/lucasvr/hdf5-udf but HB raised concerns over its security model. AB will do further investigation of approaches.
+Representing mathematical formulas in data files https://github.com/nexusformat/definitions/issues/711 was discussed, PC added an interesting new HDF5 approach https://github.com/lucasvr/hdf5-udf but HB raised concerns over its security model. AB will do further investigation of approaches.
 
 There was some discussion about character encoding of strings, NeXus recommends UTF-8 (whihc is what h5py will use) but this is not enforced. The NAPI certainly doesn't enforce it. It was suggested cnxvalidate could raise a warnng if non-utf8 strings were detected, there is suport in HDF5 for specifying and checking a character encoding https://support.hdfgroup.org/HDF5/doc/Advanced/UsingUnicode/index.html 
 
