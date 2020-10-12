@@ -2,7 +2,7 @@
 
 Present: HB, FA, PC, HG, PJ, MK, AB, BW, TM, SB, RO, AF
 
-Upcoming issue assignment was reviewed, it was decided that the NXmx assignment should be moved to a major session but as there was time in this session it was started early.
+Upcoming issue assignment was reviewed, it was decided that the `NXmx` discussion should be moved to a major session, but as there was time in this session it was started early.
 
 MK queried the use of `NXdetector_group` and whether it should have a `depends_on` and ususal NeXus geometry based members. 
 The use of `NXdetector_group`, `NXdetector_module` and `NXdetector` was discussed. The `NXdetector_group` class pre-dates `NXdetector_module`
