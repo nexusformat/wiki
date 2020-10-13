@@ -73,4 +73,19 @@ Specifying precision in nexus files https://github.com/nexusformat/NIAC/issues/6
 The future on the NeXus C API (NAPI) was discussed https://github.com/nexusformat/NIAC/issues/64 MK gave a brief overview of the hisotory oin the interface and how it simplified the generation of files when HDF4 was the main format. This library has been marked as bugfix only in the documentation, and there are some outstanding issues and pull requests to fix. Some of the issues related to incompatibilitties with newer version of packages such as MXML, and potentially HDF5 1.12  It was agreed that MK and FA would consult the nexus mailing list as to their usage and of NAPI, it may be possible to drop support for e.g. HDF4 or XML from NAPI that would aid future maintenance. RO mentioned that the examples in the user manual use the NAPI a lot. It was agreed the code camp should also revisit the examples in the user manual and makle sure it is clear NAPI is receiving minimal support and provide equivalent HDF5 native API c/c++ examples. We should also update examples generating or referring to HDF4 in the manual, it should only be referenced in the history section. HB pointed out that HDF4 is only minimally supported by the HDF group.  
 
 
+## Session H
+
+RO gave an introduction to the nexusformat python package as part of https://github.com/nexusformat/NIAC/issues/43 it is a wrapper around h5py that provides a simpler interface  making generation of NeXus files easier and less error prone for a new user. Being NeXus aware it can handle axis attributes and conventions for you, add correct class attributes, string encoding. There is also a fully featured GUI nexpy (which is NXDL aware) built on top of nexusformat, but the discussion here was concerning just the nexusformat package. 
+
+Several members present, in particular AB and RB, were interested in investigaing its usage on future upcoming projects, but many people present had already invested heavily in h5py based approaches. It was agreed that the NeXus manual examples should be updated to show how to read/write files using both nexusfromat and h5py, the simpler interface of nexusformat could be useful to many users. The example updating will be done at the upcoming code camp. BW also noted that the package is not mentioned on the nexus utilities page and will be added there too.   
+
+An application definition that shows mixed use of NXreflections and NXmx https://github.com/nexusformat/NIAC/issues/54 was discussed next. Some issues arise that are realted to NXmx being an application definition and NXreflections being a base class. There was discussion as to whether an NXprocess in a separate NXentry or new application definition was appropriate. In effect NXmx is thge raw data, there can be man NXreflection showing variations of processed data. This will be discussed more at code camp.
+
+The changes to NXdata https://github.com/nexusformat/NIAC/issues/48 were briefly reviewed, the changes were mostly to wording and looked fair, but it was difficult to be sure as there were merge conflicts due to the age of the branch. It was agreed that the branch would be rebased back onto master and the changes reviews at code camp. 
+
+BW will create a poll for a final NIAC session date and send to the mailing list, all voting will be left open until that session, which will be towards the end of October.  
+
+
+
+
 
