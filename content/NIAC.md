@@ -117,12 +117,26 @@ executive officers:
 All of these officers will be elected for a two year term. The incumbent
 chair and executive secretary are limited to two consecutive terms.
 
-Voting: Only members of the NeXus International Advisory Committee will be able to vote on specific proposals that come under the remit of the committee. However, all debates will be conducted publicly and non-committee members are both allowed and encouraged to participate.  
+Voting: Only members of the NeXus International Advisory Committee will 
+be able to vote on specific proposals that come under the remit of the 
+committee. However, all debates will be conducted publicly and 
+non-committee members are both allowed and encouraged to participate.  
+
 Topics voted on will require a simple majority unless specifically
 challenged by a committee member. In the event of a challenge, the issue
 will be presented to the NeXus mailing list inviting comments for a
 period of one month. At the end of this period, the challenge can be
 overruled by a two thirds majority.
+
+Email voting as used up to 2018 only for membership renewals.
+
+For issues other than membership renewals, the following rule applies: 
+we vote by teleconference where the proposal can be discussed. At least 
+2/3 of the NIAC have to be present at the teleconference. Then normal 
+majority vote of the attendees applies. Teleconference decisions need to 
+be published on the NIAC mailing list. NIAC Members not attending the 
+teleconference have a one week period in which they can add their vote 
+to the tally. Those not responding in that week are counted as abstained.
 
 The constitution can only be changed by a two thirds majority of the
 NIAC.
