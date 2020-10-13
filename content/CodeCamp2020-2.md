@@ -34,7 +34,7 @@ Registration for the NIAC and code camp is not required.
 
 We will be using Zoom (Please mute microphone when not speaking), you can [test your connection prior to a meeting](https://ukri.zoom.us/test)
 
-Zoom links for each sessions will be posted on the sessions spreadsheet below.
+Zoom links for each sessions will be posted soon on the sessions spreadsheet below.
 
 ## Agenda
 
