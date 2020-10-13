@@ -40,7 +40,9 @@ Next clarifying of naming conventions https://github.com/nexusformat/NIAC/issues
 
 The next discussion was a recommendation for where suffixes such as "x" should go in field names. NeXus is no consistemt here e.g. "beam_centre_x" and "x_pixel_size". It was decided that "x" as a suffix was preferred, and will be receommended for new definitions (no changes to exiting definitions). The al;ernative is using and array/list was also mentioned e.g. using somethign like beam_centre[0] and beam_centre[1] instead of x and y. This arose from commanes in the NXdetector where the documentation in the NXDL header states that the i index is the x axis and the slowest varying. Given detectors can be in different orientations, it was decoided to remove the references to x and y in this header https://github.com/nexusformat/definitions/pull/804
 
+The next discussion involved inconsistent symbol naming, as noted by RB https://github.com/nexusformat/definitions/issues/800 - these are names used in a definition to tie togther items with e.g. the same array length, they never appear in a data file. Across definitions there are mixtures of CamelCase v under_score and different names for "number of pixels". etc. It was agreed that standardising these would be good, and the change does not break any exisiting data files - it is purely an in definition tool.    
 
+Reserved prefixes and suffixes were discussed next https://github.com/nexusformat/definitions/issues/769 - reserving "nx" for use by the NIAC is one long standing example, but other communities may wish to reserve a prefix/suffix too. A table will kept in the user manual detailing these and their owners, there will be a NIAC vote to approve the current list. It was also suggested that NIAC be asked to delegate additions (but not removals) to the table to Teleconference meetings. 
 
 
 
