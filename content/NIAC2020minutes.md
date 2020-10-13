@@ -48,8 +48,29 @@ The next discussion involved inconsistent symbol naming, as noted by RB https://
 
 Reserved prefixes and suffixes were discussed next https://github.com/nexusformat/definitions/issues/769 - reserving "nx" for use by the NIAC is one long standing example, but other communities may wish to reserve a prefix/suffix too. A table will kept in the user manual detailing these and their owners, there will be a NIAC vote to approve the current list. It was also suggested that NIAC be asked to delegate additions (but not removals) to the table to Teleconference meetings. 
 
+## Sessions E
 
+did not take place
 
+## Session F
+
+did not take place
+
+## Session G
+
+Present: BW FA MK HG HN PJ PC RO SB AB TM RB
+
+Discussed https://github.com/nexusformat/NIAC/issues/68 (use NX_DATE_TIME rather than NX_CHAR for file_time and file_update_time in NXroot). NeXus has always said to use ISO8601 for datetime, so this is just bringing the definition in line with the manual. Changed was merged as effectively updating documentation. There was a discussion about timezones, which are not mandatory in ISO8601 - if none are specified local time is assumed. It was agreed to update the manual to say that supplying a timezone was recommended, this avoids issues if e.g. daylight saving time changes during an experiment. 
+
+For the election of officers names will be added to a wiki page https://github.com/nexusformat/NIAC/issues/70 for emoji based voting. A note would be sent to the NIAC, and additional names can be added during the time window.  A doodle poll will be created by BW and circulated to NIAC members for the date of a NIAC summary meeting, this will repalce the final summary session I of the current NIAC. The election of officers will be completed at this additional NIAC meeting, whihc will also summarise the NIAC and CodeCamp. There was a brief discussion about whether to merge the documentation release and technical release manager roles, we are not making many releasees of the NAPI these days. It was decided to defer this to the next NIAC.  
+
+In https://github.com/nexusformat/NIAC/issues/71 MK pointed put that guidelines agreed at NIAC 2018 concerning online voting and teleconference voting had not yet been added ti the NIAC constitution. Action to add these. We have been considering the NIAC as a "teleconference" with regard to these guidelines. 
+
+It was agreed to move https://github.com/nexusformat/NIAC/issues/48 (improvemnts to NXdata) to a later session
+
+Specifying precision in nexus files https://github.com/nexusformat/NIAC/issues/69 has already been actioned and the underlying ticket closed, so no firtehr NIAC discussion is required.
+
+There 
 
 
 
