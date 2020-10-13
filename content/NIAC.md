@@ -18,7 +18,6 @@ Current Members
 -   Pete Jemian, Advanced Photon Source, USA (*Documentation Release Manager*)
 -   Mark Könnecke, Paul Scherrer Institut, Switzerland
 -   Raymond Osborn, Argonne National Laboratory, USA (*non-facility member*)
--   Tobias Richter, European Spallation Source, Sweden
 -   Armando Sole, European Synchrotron Radiation Facility, France
 -   Jiro Suzuki, J-PARC, Japan
 -   Takahiro Matsumoto, Spring8, Japan
