@@ -30,6 +30,6 @@ reasonable templates for this NeXus code camp.)
 
 Registration for the NIAC and code camp is not required.
 
-Meetings will take place via Zoom - please post a message to the [NeXus codecamp list](mailto:codecamp@nexusformat.org) to receive an invitation to join. 
+Meetings will take place via Zoom - please post a message to the [codecamp@nexusformat.org](mailto:codecamp@nexusformat.org) to receive an invitation to join. 
 
 
