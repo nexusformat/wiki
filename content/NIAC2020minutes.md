@@ -4,6 +4,10 @@ permalink: NIAC2020minutes.html
 layout: wiki
 ---
 
+## Session A
+
+This was a pre-meeting to do initial setup for subsequence sessions, a brief review of whether items had been assigned to the correct sessions was carried out   
+
 ## Session B
 
 Present: HB, FA, PC, HG, PJ, MK, AB, BW, TM, SB, RO, AF
