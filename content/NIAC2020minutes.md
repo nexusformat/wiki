@@ -30,3 +30,20 @@ Representing mathematical formulas in data files https://github.com/nexusformat/
 
 There was some discussion about character encoding of strings, NeXus recommends UTF-8 (whihc is what h5py will use) but this is not enforced. The NAPI certainly doesn't enforce it. It was suggested cnxvalidate could raise a warnng if non-utf8 strings were detected, there is suport in HDF5 for specifying and checking a character encoding https://support.hdfgroup.org/HDF5/doc/Advanced/UsingUnicode/index.html 
 
+## Session D
+
+Present: HB FA RB PC PJ AB RO SB MK TM AS BW
+
+The addition of a `creator_version` top klevel attribute was discussed and submitted for email voting https://github.com/nexusformat/NIAC/issues/51
+
+Next clarifying of naming conventions https://github.com/nexusformat/NIAC/issues/47 was discussed. PJ summarised main items in https://github.com/nexusformat/definitions/issues/544 Part of the history of this is that keeping field/group names to valid variable name characters allowed easy "a.b.c.d" syntac in some scripting languages and RO mentioned attribute references and command line completion in Python. However dictionary based completion is now possible and HDF5 allows a wider range of charaters. It was decided that official names for groups and fields should reamin as ASCII with the original restrictions, but the regular expression used for user specified fields would be extended to allow decimal point and items starting with a number e.g. an NXentry called "1.1". The wider regular expression just covers when warnings are printed, NIAC is not restricting your naming of fields and groups for special facility and program usage. The regular expression code check will be updated in the upcoming code camp.
+
+The next discussion was a recommendation for where suffixes such as "x" should go in field names. NeXus is no consistemt here e.g. "beam_centre_x" and "x_pixel_size". It was decided that "x" as a suffix was preferred, and will be receommended for new definitions (no changes to exiting definitions). The al;ernative is using and array/list was also mentioned e.g. using somethign like beam_centre[0] and beam_centre[1] instead of x and y. This arose from commanes in the NXdetector where the documentation in the NXDL header states that the i index is the x axis and the slowest varying. Given detectors can be in different orientations, it was decoided to remove the references to x and y in this header https://github.com/nexusformat/definitions/pull/804
+
+
+
+
+
+
+
+
