@@ -85,7 +85,6 @@ The changes to NXdata https://github.com/nexusformat/NIAC/issues/48 were briefly
 
 BW will create a poll for a final NIAC session date and send to the mailing list, all voting will be left open until that session, which will be towards the end of October.  
 
+## Session I
 
-
-
-
+This was the final scheduled session, but was purely for summing up. It has been posponed to a later date in October, with date determined by poll to the nexus committee list. 
