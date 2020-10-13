@@ -70,7 +70,7 @@ It was agreed to move https://github.com/nexusformat/NIAC/issues/48 (improvemnts
 
 Specifying precision in nexus files https://github.com/nexusformat/NIAC/issues/69 has already been actioned and the underlying ticket closed, so no firtehr NIAC discussion is required.
 
-There 
+The future on the NeXus C API (NAPI) was discussed https://github.com/nexusformat/NIAC/issues/64 MK gave a brief overview of the hisotory oin the interface and how it simplified the generation of files when HDF4 was the main format. This library has been marked as bugfix only in the documentation, and there are some outstanding issues and pull requests to fix. Some of the issues related to incompatibilitties with newer version of packages such as MXML, and potentially HDF5 1.12  It was agreed that MK and FA would consult the nexus mailing list as to their usage and of NAPI, it may be possible to drop support for e.g. HDF4 or XML from NAPI that would aid future maintenance. RO mentioned that the examples in the user manual use the NAPI a lot. It was agreed the code camp should also revisit the examples in the user manual and makle sure it is clear NAPI is receiving minimal support and provide equivalent HDF5 native API c/c++ examples. We should also update examples generating or referring to HDF4 in the manual, it should only be referenced in the history section. HB pointed out that HDF4 is only minimally supported by the HDF group.  
 
 
 
