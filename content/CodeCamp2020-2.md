@@ -38,7 +38,7 @@ Zoom links for each sessions will be posted on the sessions spreadsheet below.
 
 ## Agenda
 
-[Sessions Spreadsheet](https://docs.google.com/spreadsheets/d/1rl5tAywWW4l7wvMy-rCAg_DdwPuNCZYbYLodAQAlwO4/edit?usp=sharing)
+[Sessions Spreadsheet](https://docs.google.com/spreadsheets/d/1rl5tAywWW4l7wvMy-rCAg_DdwPuNCZYbYLodAQAlwO4/edit#gid=934732431)
 
 [Agenda on Github](https://github.com/nexusformat/NIAC/projects/2)
 
