@@ -34,7 +34,9 @@ Registration for the NIAC and code camp is not required.
 
 We will be using Zoom (Please mute microphone when not speaking), you can [test your connection prior to a meeting](https://ukri.zoom.us/test)
 
-Zoom links for each sessions will be posted soon on the sessions spreadsheet below.
+Zoom links for each sessions are posted on the sessions spreadsheet below.
+
+It is possible to join sessions by telephone - please email [codecamp@nexusformat.org](mailto:codecamp@nexusformat.org) if you wish to do this and we will send you a link to the phone numbers.
 
 ## Agenda
 
