@@ -61,7 +61,7 @@ We voted on: we add a group to NXinstrument named diffractometer which is of typ
 
 ### Break
 
-### NXdiffractometer, continuation
+### <A name="decision_diffractometer"></A>NXdiffractometer, continuation
 
 We reopened NXdiffractometer because some attendees did not understand what they voted for. 
 
@@ -93,7 +93,7 @@ Armando suggests to have a DATASETNAME_target field which is a soft link to the 
 No conclusion was reached. We closed by defining an
 action item as follows: Armando and Mark Basham work out together how to do this in a proper way. Both taking into account NeXus ways of doing things and the technical possibilities of HDF5. They come back at a later stage with a documented proposal with examples. 
 
-### NXptycho
+### <A name="decision_NXcxi_ptycho"></A>NXptycho
 
 This is coming from the CXI community who actual took NeXus, liked it but decided that reading and writing attributes is impossible. Mark Basham put the attributes back again. The resulting files are compatible with both CXI and NeXus. 
 
@@ -124,7 +124,7 @@ Ben Watts informed the NISC about what has been done. It is possible to have a u
 
 The NIAC thanks Ben Watts and PSI for implementing this. 
 
-### Uncertainties, continuation
+### <A name="decision__errors"></A>Uncertainties, continuation
 
 Pete Jemian demonstrates his proposal. He proposes an uncertainties attribute to a dataset which as a value holds the name of another dataset containing the uncertainties. With the same shape as the original dataset. 
 
@@ -144,14 +144,14 @@ The `errors` field and `uncertainties` attribute in NXdata to be marked deprecat
 
 We started the discussion by clarifying that NXdata is not only for plotting. It is used as a container for a data object. Especially in processed data.  It was noted that NXprocess is intended for processed data.
 
-At times, there are invalid pixels in an array holding data from a detector. A means is needed to identify such pixels. This is commonly done with a mask field. 
+<A name="decision__mask"></A>At times, there are invalid pixels in an array holding data from a detector. A means is needed to identify such pixels. This is commonly done with a mask field. 
 
 Proposal: DATASETNAME_mask as a general way to specify a mask. We use the conventions as described for NXdetector/pixel_mask with the option to use less that 32 bit. 
 
 1 against, all others(10) YES
 
 
-It occurs that there is a need to divide a dataset with another one to normalize it. 
+<A name="decision__weights"></A>It occurs that there is a need to divide a dataset with another one to normalize it. 
 
 Ray's proposal: DATASETNAME_weights anywhere in a NeXus file. If it exists and has the same shape as the dataset, you are supposed to divide the data by the weights. 
 
@@ -188,7 +188,7 @@ The numbers after the comma are the votes of importance.
 Some NIAC members felt that the NeXus logo looks outdated. 
 Stuart Cambell suggested to drop the NeXus graphics to the BNL design team for reevaluation.  They will create a set of suggestions which the NIAC  will discuss at a later stage. 
 
-### Messy Specifications
+### <A name="decision_string"></A>Messy Specifications
 
 Over time, strings have become  a messy affair in NeXus:
 
@@ -201,7 +201,7 @@ After some discussion we arrived at the following proposal:
 Array of strings are not allowed in situations where a single string is expected. Cnxvalidate should flag that. Result of the vote: All YES
 
 
-### NXdata auxiliary signals
+### <A name="decision_auxiliary_signals"></A>NXdata auxiliary signals
 
 This is a recovery of the signal=1, signal=2, signal=n feature which we used to have in the old way of handling axes. 
 
@@ -209,7 +209,7 @@ Proposal: additional group level attribute auxiliary_signals which is an array o
 
 All in favor. 
 
-### Extended Use of the Defaults Attribute
+### <A name="decision_default"></A>Extended Use of the Defaults Attribute
 
 Currently we have a `default` attribute at root level which points to the default data. Currently this is restricted to NXroot, NXentry, NXsubentry.
 
@@ -235,7 +235,7 @@ Mark Basham as executive NIAC secretary: All in favour
 
 Ben Watts as NIAC Chairman, All in favour 
 
-### Voting
+### <A name="decision_voting"></A>Voting
 
 The NIAC constitution forces NIAC votes to be done by email. It is unclear however what the acceptance criteria for such email voting is. It happened often that not enough NIAC members actually voted. Moreover, there is a danger that the email vote is badly understood and the NIAC ends up with bad decisions. On the other hand, the NIAC meets only every two years. A means to vote on issues when there is a dire need is good to have. For the discussion resulted the following proposal:
 
@@ -276,7 +276,7 @@ Result: We bury the idea. It adds more complexity to NeXus then it is worth.  We
 
 Voting results: 1 against, 2 abstain, rest in favor
 
-### Application Definitions vs. Features
+### <A name="decision_features"></A>Application Definitions vs. Features
 
 Mark Basham presents on features. Features can also test logic. Features can also be used to select software to process a file. 
 
@@ -290,7 +290,7 @@ We will make features available through the NeXus-WWW site as technical preview 
 
 9 in favor, 2 abstain, rest against
 
-### OFF geometry
+### <A name="decision_NXoff"></A>OFF geometry
 
 This is about the mesh geometry as described in NXoff and discussed multiple times in the NIAC. 
 
@@ -306,7 +306,7 @@ Result of the discussion: This stays in the contributed definitions for the time
 
 ## Friday afternoon
 
-### NXpdb
+### <A name="decision_NXpdb"></A>NXpdb
 
 Herbert Bernstein presents the proposal. There are tools to convert pdb data to NeXus and back again. This code is in CBFlib. 
 
@@ -324,7 +324,7 @@ Closed with: reorganize this into reference and nexus-in-the-wild examples. We e
 
 No vote required
 
-### NXdata Plottype  Attribute
+### <A name="decision_plotting"></A>NXdata Plottype  Attribute
 
 This is about describing in more detail how the data is to be plotted. Color maps, linear or logarithmic axis etc. This could be achieved by having a plottype attribute at group level which contains keywords hinting at the intended presentation style.  
 
@@ -335,7 +335,7 @@ Voting results: All in favor
 
 This is to be placed into the documentation.
 
-### NeXus Target Attribute
+### <A name="decision_target"></A>NeXus Target Attribute
 
 The `target` attribute denoting the origin of a linked data item is broken as it only works for internal links.
 
@@ -355,7 +355,7 @@ Feedback from the controls groups at PSI about storing data from accelerators in
 The situation is that they are using NeXus look alike things to describe an accelerator. They share some with other facilities. 
 NeXus is not built for accelerators, thus there is a case for a new tree of groups including one which describes the origin. The suggestion is to continue working on this and when they are ready to standardize, to come back to the NIAC.
 
-### NXenvironment
+### <A name="decision__log"></A>NXenvironment
 
 Proposal: In NXsample, mark `magnetic_field_log` and `temperature_log` as deprecated. To be replaced with NXlog classes with `_log` dropped from the name. 
 
