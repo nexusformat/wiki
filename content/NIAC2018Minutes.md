@@ -53,7 +53,7 @@ Clarification of what Interfaces and Features are. The Interfaces are a better w
 
 In this first round we did not come to a conclusion. The issues at stake where unclear to most attendees. We decided to defer  this discussions to after lunch. By then presentations on both topics will be presented by Mark Koennecke and Mark Basham. 
 
-### NXdiffractometer, NXgoniometer
+### <A name="decision_diffractometer"></A>NXdiffractometer, NXgoniometer
 
 This is about having a special group in NXinstrument which describes a diffractometer. There is a lot of overlap with the content of NXtransformation. 
 
@@ -61,7 +61,7 @@ We voted on: we add a group to NXinstrument named diffractometer which is of typ
 
 ### Break
 
-### <A name="decision_diffractometer"></A>NXdiffractometer, continuation
+### NXdiffractometer, continuation
 
 We reopened NXdiffractometer because some attendees did not understand what they voted for. 
 
