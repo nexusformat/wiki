@@ -122,7 +122,7 @@ be able to vote on specific proposals that come under the remit of the
 committee. However, all debates will be conducted publicly and 
 non-committee members are both allowed and encouraged to participate.  
 
-Topics voted on will require a simple majority unless specifically
+Topics voted on at the biennial NIAC meetings will require a simple majority unless specifically
 challenged by a committee member. In the event of a challenge, the issue
 will be presented to the NeXus mailing list inviting comments for a
 period of one month. At the end of this period, the challenge can be
