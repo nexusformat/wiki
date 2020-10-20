@@ -268,7 +268,7 @@ Presentation by Mark Koennecke about how to store logbook information in a NeXus
  
 Results of some discussion: Nice idea, but not in the NeXus  scope.  Nothing is stopping us to use NeXus in this way, however. No new features in NeXus are required.  
 
-### Interfaces
+### <A name="decision_interfaces"></A>Interfaces
 
 Presentation about using interfaces for structuring the base classes better by Mark Koennecke. 
 
@@ -314,7 +314,7 @@ Proposal: we merge this when the tool is available as a standalone program. We a
 
 All in favor
 
-### Example data
+### <A name="decision_examples"></A>Example data
 
 There are two types of files in the NeXus example data repository: files suitable as a reference and NeXus files as seen in the wild. 
 
