@@ -28,11 +28,11 @@ NIAC 2007HMI: Mark the use of HDF-4 as deprecated, no new features for
 HDF-4
 
 NIAC 2012: Statements
-
 -   NAPI and applications are considered stable
 -   The use of NAPI is not mandatory and examples using HDF5 APIs will
     be provided
 -   The validation tool is actively developed
+
 
 2014 (not a NIAC decision): The NeXus-API is frozen. Maintenance is reduced to bug fixes.
 
