@@ -128,15 +128,15 @@ Feel free to continue discussion on the ticket and/or NeXus mailing list.
 
 Decisions are listed at  https://www.nexusformat.org/NIAC2020.html#decisions and vote links are:
 
-[NXmx](https://github.com/nexusformat/NIAC/issues/45#issuecomment-707254127)
-[@creator_version](https://github.com/nexusformat/NIAC/issues/51#issuecomment-707349309)
-[inconsistent field naming](https://github.com/nexusformat/definitions/issues/791#issuecomment-707365329)
-[reserve prefixes](https://github.com/nexusformat/NIAC/issues/49#issuecomment-707383140)
-[reserve some prefixes](https://github.com/nexusformat/NIAC/issues/49#issuecomment-707383223)
-[allow new prefixes be added in telcos](https://github.com/nexusformat/NIAC/issues/49#issuecomment-707384329)
-[Elect new officers](https://github.com/nexusformat/NIAC/issues/70)
-[clarify naming conventions](https://github.com/nexusformat/definitions/pull/671#issuecomment-715476138)
-[constitution changes](https://github.com/nexusformat/NIAC/issues/71#issuecomment-716617317)
-[use of soft links](https://github.com/nexusformat/NIAC/issues/77#issuecomment-716643766)
-[adding globally unique identifiers](https://github.com/nexusformat/NIAC/issues/80#issuecomment-716662624)
+* [NXmx](https://github.com/nexusformat/NIAC/issues/45#issuecomment-707254127)
+* [@creator_version](https://github.com/nexusformat/NIAC/issues/51#issuecomment-707349309)
+* [inconsistent field naming](https://github.com/nexusformat/definitions/issues/791#issuecomment-707365329)
+* [reserve prefixes](https://github.com/nexusformat/NIAC/issues/49#issuecomment-707383140)
+* [reserve some prefixes](https://github.com/nexusformat/NIAC/issues/49#issuecomment-707383223)
+* [allow new prefixes be added in telcos](https://github.com/nexusformat/NIAC/issues/49#issuecomment-707384329)
+* [Elect new officers](https://github.com/nexusformat/NIAC/issues/70)
+* [clarify naming conventions](https://github.com/nexusformat/definitions/pull/671#issuecomment-715476138)
+* [constitution changes](https://github.com/nexusformat/NIAC/issues/71#issuecomment-716617317)
+* [use of soft links](https://github.com/nexusformat/NIAC/issues/77#issuecomment-716643766)
+* [adding globally unique identifiers](https://github.com/nexusformat/NIAC/issues/80#issuecomment-716662624)
 
