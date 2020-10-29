@@ -131,7 +131,7 @@ The issue was introduced by SC. There is currently an "entry_identifier" field f
 
 All NIAC members are requested to please vote on [each proposal](https://www.nexusformat.org/NIAC2020.html#decisions) by 3rd November 2020. You can either:
 * use thumbs up/down emoji to indicate yes/no, any other emoji to indicate abstention, on the tickets; or  
-* reply to the email circulated to [nexus-commitee](https://lists.nexusformat.org/pipermail/nexus-committee/2020/001026.html)
+* reply to the email circulated to [nexus-committee](https://lists.nexusformat.org/pipermail/nexus-committee/2020/001026.html)
 
 Feel free to continue discussion on the ticket and/or NeXus mailing list. 
 
