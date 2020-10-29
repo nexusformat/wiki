@@ -61,32 +61,34 @@ This is described at  https://github.com/nexusformat/NIAC/issues/51#issuecomment
 
 ## Inconsistent field naming conventions
 
-This discussion covered the use of either a prefix or a suffix to indicate a more specific part of an item, such as where to place "x": "pixel_x" or "x_pixel" ? NeXus has been inconsistent in the past, it was agreed amongst those present to recommend a suffix (i.e. "_x") to indicate a more specific part in future definitions, using a suffix makes items group more nicely in user interfaces. Voting and details at    
-https://github.com/nexusformat/definitions/issues/791#issuecomment-707365329
+This discussion covered the use of either a prefix or a suffix to indicate a more specific part of an item, such as where to place "x": "pixel_x" or "x_pixel" ? NeXus has been inconsistent in the past, it was agreed amongst those present to recommend a suffix (i.e. "\_x") to indicate a more specific part in future definitions, using a suffix makes items group more nicely in user interfaces. Voting and details are [here](https://github.com/nexusformat/definitions/issues/791#issuecomment-707365329)
 
 Note: we are not planning to change any existing definitions, this is just a recommendation for future definitions
 
 ## Reserving prefixes
 
-NeXus currently reserves the NX prefix for official use, this avoids potential clashes with other names that may be used. It was discussed that certain other groups may also wish to reserve a specific prefix for use within their domain to help with management of their namespace. While the general idea and use case was supported, it should not lead to an effective separate definition space and groups should still put forward definitions to be included officially. The proposal vote is at https://github.com/nexusformat/NIAC/issues/49#issuecomment-707383140 and the initial list of prefixes to reserve for vote is at  https://github.com/nexusformat/NIAC/issues/49#issuecomment-707383223
+NeXus currently reserves the NX prefix for official use, this avoids potential clashes with other names that may be used. It was discussed that certain other groups may also wish to reserve a specific prefix for use within their domain to help with management of their namespace. While the general idea and use case was supported, it should not lead to an effective separate definition space and groups should still put forward definitions to be included officially. See the [proposal vote](https://github.com/nexusformat/NIAC/issues/49#issuecomment-707383140) and the [initial list of prefixes to reserve](https://github.com/nexusformat/NIAC/issues/49#issuecomment-707383223)
 
-There was discussion of the mechanism for how new prefixes should be added, and it was proposed that such additions could be done via a simple email vote without needing a 2/3 NIAC discussion first  https://github.com/nexusformat/NIAC/issues/49#issuecomment-707384329
+There was discussion of the mechanism for how new prefixes should be added, and it was proposed that such additions could be done via a simple email vote without needing a 2/3 NIAC discussion first  
+
+[issue link](https://github.com/nexusformat/NIAC/issues/49#issuecomment-707384329)
 
 
 ## Elect officers
 
-Nominations are listed at https://github.com/nexusformat/NIAC/issues/70 for votes to be added
+Nominations are [listed here](https://github.com/nexusformat/NIAC/issues/70) for votes to be added
   
 ## PIDs for NeXus terminology
 
 Heike Görzig gave a presentation of persistent identifiers (PIDs) and their relation to Findable, Accessible, Interoperable and Reusable (FAIR) data. 
-There are more details listed at https://github.com/nexusformat/NIAC/issues/73 but the general idea was to use PIDs to attach meaning to specific terms
+There are more details [contained here](https://github.com/nexusformat/NIAC/issues/73) but the general idea was to use PIDs to attach meaning to specific terms
 that may have a different names in different domains, reducing issues caused by different use or changes of vocabulary, and making the item
 very easily machine locatable. So for example a 
 PID could be assigned (via the NXDL) to an item in the nexus file, this allows that particular item to be identified however 
 it may be named (or changed) in different definitions. There was general support for the idea and it was proposed to explore 
 a prototype via a branch of the nexus definitions repository and then return to the NIAC later with a demonstration and proposal. 
-https://github.com/nexusformat/NIAC/issues/73#issuecomment-716609739
+
+[issue link](https://github.com/nexusformat/NIAC/issues/73#issuecomment-716609739)
   
   
 ## Constitution changes
@@ -94,7 +96,7 @@ https://github.com/nexusformat/NIAC/issues/73#issuecomment-716609739
 The only matter discussed was the rules for making offical decisions at teleconference meetings, these had originally come from [discussions at NIAC 2018](https://www.nexusformat.org/NIAC2018Minutes.html#decision_voting). 
 The 2018 proposal had been incorporated verbatim into the constitution pages on the web and it was agreed that some context and clarification 
 should be added to the original wording, but the meaning should reflect intent of the 2018 decision. Both sets of wording for comparison are
-described at https://github.com/nexusformat/NIAC/issues/71 and voting at https://github.com/nexusformat/NIAC/issues/71#issuecomment-716617317 
+described [on the ticket](https://github.com/nexusformat/NIAC/issues/71) along with the [voting link](https://github.com/nexusformat/NIAC/issues/71#issuecomment-716617317) 
 The 2/3 quorum requirement was again discussed as a possible difficulty for further decisions before the next full NIAC meeting. BW suggested that it simply requires adequate advertisement and organisation for properly engaging the NIAC members. It was further raised that substantial changes to the voting rules should be carefully considered in order to not repeat the mistakes made in 2018.
    
 ## Using soft links rather than target attribute  
@@ -106,17 +108,17 @@ It was agreed to propose:
 * Any type of link (Soft, Hard and External) is allowed.
 * The use of the target attribute is optional when using soft links.
 
-https://github.com/nexusformat/NIAC/issues/77#issuecomment-716643766
+[issue link](https://github.com/nexusformat/NIAC/issues/77#issuecomment-716643766)
 
 ## nexusformat python package
 
-RO gave a presentation on the nexusformat python package https://github.com/nexusformat/NIAC/issues/78 which provides a simpler interface to create nexus files. It was agreed that the NeXus manual should be updated to include examples using both h5py and nexusformat as solutions. It was noted that there is an old python binding included as part of the NAPI, any use of this should be removed from examples, and the future of the NAPI itself is the subject of a user consultation as described above. We thank RO for his work on NeXus over the years. 
+RO gave a presentation on the [nexusformat python package](https://github.com/nexusformat/NIAC/issues/78) which provides a simpler interface to create nexus files. It was agreed that the NeXus manual should be updated to include examples using both h5py and nexusformat as solutions. It was noted that there is an old python binding included as part of the NAPI, any use of this should be removed from examples, and the future of the NAPI itself is the subject of a user consultation as described above. We thank RO for his work on NeXus over the years. 
 
 ## Adding globally unique identifier to NXentry
 
 The issue was introduced by SC. There is currently an "entry_identifier" field for storing a unique identifier, but at BNL they would like to store two identifiers: a "scan id" for the entry and also an "entry uuid". There was discussion as to whether the scheme for uuid should be made available to all objects e.g. a "uuid" attribute, and also if "entry_identifier_uuid" could be a group attribute of NXentry rather than a field. There are potential complications that may arise due to linking, so the proposal is to add entry_identifier_uuid as an optional NXentry field and the uuid attribute to other fields/groups. The reserving of a BS_ or BLUESKY_ prefix was also discussed and added to the ticket.
       
-https://github.com/nexusformat/NIAC/issues/80#issuecomment-716662624 
+[issue link](https://github.com/nexusformat/NIAC/issues/80#issuecomment-716662624)
 
 ## other items mentioned
 
