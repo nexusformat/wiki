@@ -21,15 +21,15 @@ There was a discussion over what rules were governing the current NIAC meeting. 
 NIAC meetings and teleconferences, it did not mention a virtual NIAC as such. The teleconference (TC) rules say that 2/3 of a NIAC 
 need to be present for adequate discussion to take place before decisions are voted on, but any decision is passed to the email list 
 for final votes of non present members to be added. There were 15 / 22 members present at this meeting, which did constitute 2/3 of the 
-NIAC. It was decided to follow teleconference rules for this NIAC and leave a final week of online voting.
+NIAC. It was agreed to follow teleconference rules for this NIAC and leave a final week of online voting and follow up discussion.
 
-There was some further discussion of 2/3 quorum rule for teleconferences and whether this might prove to be restrictive in future 
+There was some discussion of 2/3 quorum rule for teleconferences and whether this might prove to be restrictive in future 
 for progressing decisions. Final decisions are not made at a teleconference even with more than 2/3 of the NIAC present, but 
-unless 2/3 of the NIAC are present then the motion is not considered to have been adequately discussed and so does not get 
-passed onto further consideration and voting. It was generally agreed that larger voting participation was desirable, but 
-the mechanism may need to be enhanced. Different timezones can make finding an optimal meeting time difficult. Maybe 2/3 of NIAC member 
+unless 2/3 of the NIAC are present then the motion is not passed on for further consideration and voting. It was generally 
+agreed that larger voting participation was desirable, but 
+the virtual mechanism may need to be enhanced. Different timezones can make finding an optimal meeting time difficult. Maybe if 2/3 of NIAC member 
 had been involved in the discussion over several (TC) meetings 
-then it could move forward to wider email/list vote, but at the moment there is no indication that any changes are needed. 
+then items could move forward to wider email/list vote, but at the moment there is no indication that any changes are needed. 
 
 The number of votes cast by the emoji based voting so far was not large, it was wondered if some abstentions had not been recorded and 
 maybe instructions to indicate an abstention (by any not already mentioned emoji) were not originally clear enough. There will be a 
