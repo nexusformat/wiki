@@ -1,3 +1,9 @@
+---
+title: NIAC 2020 Concluding Session Minutes
+permalink: NIAC2020minutes_concluding.html
+layout: wiki
+---
+
 # NIAC 2020 Concluding Session
 
 The following [NIAC](https://www.nexusformat.org/NIAC.html) members were present: SC, FA, HB, RB, PJ, AB, PC, BW, WG, AS, TM, MJ, RO, MK, HG
