@@ -76,7 +76,7 @@ Nominations are listed at https://github.com/nexusformat/NIAC/issues/70 for vote
 Heike Görzig gave a presentation of persistent identifiers (PIDs) and their relation to Findable, Accessible, Interoperable and Reusable (FAIR) data. 
 There are more details listed at https://github.com/nexusformat/NIAC/issues/73 but the general idea was to use PIDs to attach meaning to specific terms
 that may have a different names in different domains, reducing issues caused by different use or changes of vocabulary, and making the item
-very easily machine readable. So for example a 
+very easily machine locatable. So for example a 
 PID could be assigned (via the NXDL) to an item in the nexus file, this allows that particular item to be identified however 
 it may be named (or changed) in different definitions. There was general support for the idea and it was proposed to explore 
 a prototype via a branch of the nexus definitions repository and then return to the NIAC later with a demonstration and proposal. 
