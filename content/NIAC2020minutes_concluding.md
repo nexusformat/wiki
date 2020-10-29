@@ -21,15 +21,15 @@ There was a discussion over what rules were governing the current NIAC meeting. 
 NIAC meetings and teleconferences, it did not mention a virtual NIAC as such. The teleconference (TC) rules say that 2/3 of a NIAC 
 need to be present for adequate discussion to take place before decisions are voted on, but any decision is passed to the email list 
 for final votes of non present members to be added. There were 15 / 22 members present at this meeting, which did constitute 2/3 of the 
-NIAC. It was agreed to follow teleconference rules for this NIAC and leave a final week of online voting and follow up discussion.
+NIAC. It was decided to follow teleconference rules for this NIAC and leave a final week of online voting in order to ensure legality.
 
-There was some discussion of 2/3 quorum rule for teleconferences and whether this might prove to be restrictive in future 
+There was some further discussion of 2/3 quorum rule for teleconferences and whether this might prove to be restrictive in future 
 for progressing decisions. Final decisions are not made at a teleconference even with more than 2/3 of the NIAC present, but 
-unless 2/3 of the NIAC are present then the motion is not passed on for further consideration and voting. It was generally 
-agreed that larger voting participation was desirable, but 
-the virtual mechanism may need to be enhanced. Different timezones can make finding an optimal meeting time difficult. Maybe if 2/3 of NIAC member 
+unless 2/3 of the NIAC are present then the motion is not considered to have been adequately discussed and so does not get 
+passed onto further consideration and voting. It was generally agreed that larger voting participation was desirable, but 
+the mechanism may need to be enhanced. Different timezones can make finding an optimal meeting time difficult. Maybe 2/3 of NIAC member 
 had been involved in the discussion over several (TC) meetings 
-then items could move forward to wider email/list vote, but at the moment there is no indication that any changes are needed. 
+then it could move forward to wider email/list vote, but at the moment there is no indication that any changes are needed. 
 
 The number of votes cast by the emoji based voting so far was not large, it was wondered if some abstentions had not been recorded and 
 maybe instructions to indicate an abstention (by any not already mentioned emoji) were not originally clear enough. There will be a 
@@ -43,7 +43,7 @@ current outstanding pull requests.
 
 ## Clarify naming conventions for groups and field
 
-This was to clarify recommended NeXus names (lowercase with underscore plus training number, basically a valid variable name in most programming languages) verses generally allowed names in common usage (mixed case plus .) A regular expression was proposed for these combinations and is shown on the link and these expressions could be used by validation tools. HDF5 allows a wider range of characters in names than we currently use. AB asked about the current position on support and use of Unicode in NeXus. MK indicated the position was that unicode (via UTF8) was allowed for content by NeXus (HDF5 has a mechanism to indicate encoding), but not for field/dataset names which should be in standard/non-extended ASCII. This does mean that though NeXus does not specify a name for an NXentry for example, it is saying that a restricted character set should be used for it. After some discussion it was decided that though there are some technical issues in widening support the matter should be revisited at a later stage with input from members who may be interested in using a wider range of characters in field/dataset names. For info, HDF5 support is described at https://support.hdfgroup.org/HDF5/doc/Advanced/UsingUnicode/index.html The NIAC proposed the statement "The NIAC recognises that the majority of the world uses characters outside of the basic latin (7-bit ASCII) set currently included in the allowed names. The restriction given here reflects current technical issues and we expect to revisit the issue and relax such restrictions in future."  https://github.com/nexusformat/definitions/pull/671#issuecomment-715476138 
+This was to clarify recommended NeXus names (lowercase letters with underscore plus trailing number, basically a valid variable name in most programming languages) verses generally allowed names in common usage (mixed case alphanumeric plus _ and . , except disallowing starting or ending with .) A regular expression was proposed for these combinations and is shown on the link and these expressions could be used by validation tools. HDF5 allows a wider range of characters in names than we currently use. AB asked about the current position on support and use of Unicode in NeXus. MK indicated the position was that unicode (via UTF8) was allowed for content by NeXus (HDF5 has a mechanism to indicate encoding), but not for field/dataset names which should be in standard/non-extended ASCII. This does mean that though NeXus does not specify a name for an NXentry for example, it is saying that a restricted character set should be used for it. After some discussion it was decided that though there are some technical issues in widening support the matter should be revisited at a later stage with input from members who may be interested in using a wider range of characters in field/dataset names. For info, HDF5 support is described at https://support.hdfgroup.org/HDF5/doc/Advanced/UsingUnicode/index.html The NIAC proposed the statement "The NIAC recognises that the majority of the world uses characters outside of the basic latin (7-bit ASCII) set currently included in the allowed names. The restriction given here reflects current technical issues and we expect to revisit the issue and relax such restrictions in future."  https://github.com/nexusformat/definitions/pull/671#issuecomment-715476138 
 
 ## NXmx application definition
 
@@ -85,9 +85,9 @@ https://github.com/nexusformat/NIAC/issues/73#issuecomment-716609739
   
 ## Constitution changes
 
-The only matter discussed was the rules for teleconference meetings, these had originally come from discussions at NIAC 2018. 
-These had not been incorporated into the constitution pages on the web and it was agreed that some context and clarification 
-should be added to the original wording, but the meaning should not change. Both sets of wording for comparison are
+The only matter discussed was the rules for making offical decisions at teleconference meetings, these had originally come from [discussions at NIAC 2018](https://www.nexusformat.org/NIAC2018Minutes.html#decision_voting). 
+The 2018 proposal had been incorporated verbatim into the constitution pages on the web and it was agreed that some context and clarification 
+should be added to the original wording, but the meaning should reflect intent of the 2018 decision. Both sets of wording for comparison are
 described at https://github.com/nexusformat/NIAC/issues/71 and voting at https://github.com/nexusformat/NIAC/issues/71#issuecomment-716617317 
    
 ## Using soft links rather than target attribute  
@@ -107,7 +107,7 @@ RO gave a presentation on the nexusformat python package https://github.com/nexu
 
 ## Adding globally unique identifier to NXentry
 
-The issue was introduced by SC. There is currently an "entry_identifier" field for storing a unique identifier, but at BNL they would like to store two idenftifiers: a "scan id" for the entry and also an "entry uuid". There was discussion as to whether the scheme for uuid should be made available to all objects e.g. a "uuid" attribute, and also if "entry_identifier_uuid" could be a group attribute of NXentry rather than a field. There are potential complications that may arise due to linking, so the proposal is to add entry_identifier_uuid as an optional NXentry field and the uuid attribute to other fields/groups. The reserving of a BS_ or BLUESKY_ prefix was also discussed and added to the ticket.
+The issue was introduced by SC. There is currently an "entry_identifier" field for storing a unique identifier, but at BNL they would like to store two identifiers: a "scan id" for the entry and also an "entry uuid". There was discussion as to whether the scheme for uuid should be made available to all objects e.g. a "uuid" attribute, and also if "entry_identifier_uuid" could be a group attribute of NXentry rather than a field. There are potential complications that may arise due to linking, so the proposal is to add entry_identifier_uuid as an optional NXentry field and the uuid attribute to other fields/groups. The reserving of a BS_ or BLUESKY_ prefix was also discussed and added to the ticket.
       
 https://github.com/nexusformat/NIAC/issues/80#issuecomment-716662624 
 
@@ -126,17 +126,4 @@ Please vote on the following by 3rd November 2020. You can either:
 
 Feel free to continue discussion on the ticket and/or NeXus mailing list. 
 
-Decisions are listed at  https://www.nexusformat.org/NIAC2020.html#decisions and vote links are:
-
-* [NXmx](https://github.com/nexusformat/NIAC/issues/45#issuecomment-707254127)
-* [@creator_version](https://github.com/nexusformat/NIAC/issues/51#issuecomment-707349309)
-* [inconsistent field naming](https://github.com/nexusformat/definitions/issues/791#issuecomment-707365329)
-* [reserve prefixes](https://github.com/nexusformat/NIAC/issues/49#issuecomment-707383140)
-* [reserve some prefixes](https://github.com/nexusformat/NIAC/issues/49#issuecomment-707383223)
-* [allow new prefixes be added in telcos](https://github.com/nexusformat/NIAC/issues/49#issuecomment-707384329)
-* [Elect new officers](https://github.com/nexusformat/NIAC/issues/70)
-* [clarify naming conventions](https://github.com/nexusformat/definitions/pull/671#issuecomment-715476138)
-* [constitution changes](https://github.com/nexusformat/NIAC/issues/71#issuecomment-716617317)
-* [use of soft links](https://github.com/nexusformat/NIAC/issues/77#issuecomment-716643766)
-* [adding globally unique identifiers](https://github.com/nexusformat/NIAC/issues/80#issuecomment-716662624)
-
+Decisions are listed at  https://www.nexusformat.org/NIAC2020.html#decisions , including links to the votes.
