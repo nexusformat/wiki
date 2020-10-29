@@ -89,6 +89,7 @@ The only matter discussed was the rules for making offical decisions at teleconf
 The 2018 proposal had been incorporated verbatim into the constitution pages on the web and it was agreed that some context and clarification 
 should be added to the original wording, but the meaning should reflect intent of the 2018 decision. Both sets of wording for comparison are
 described at https://github.com/nexusformat/NIAC/issues/71 and voting at https://github.com/nexusformat/NIAC/issues/71#issuecomment-716617317 
+The 2/3 quorum requirement was again discussed as a possible difficulty for further decisions before the next full NIAC meeting. BW suggested that it simply requires adequate advertisement and organisation for properly engaging the NIAC members. It was further raised that substantial changes to the voting rules should be carefully considered in order to not repeat the mistakes made in 2018.
    
 ## Using soft links rather than target attribute  
 
@@ -120,7 +121,7 @@ https://github.com/nexusformat/NIAC/issues/80#issuecomment-716662624
  
 ## Summary
 
-Please vote on the following by 3rd November 2020. You can either:
+All NIAC members are requested to please vote on [each proposal](https://www.nexusformat.org/NIAC2020.html#decisions) by 3rd November 2020. You can either:
 * use thumbs up/down emoji to indicate yes/no, any other emoji to indicate abstention, on the tickets; or  
 * reply to the email circulated to nexus-commitee (https://lists.nexusformat.org/pipermail/nexus-committee/2020/001026.html)
 
