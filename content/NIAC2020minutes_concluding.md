@@ -10,9 +10,9 @@ The following [NIAC](https://www.nexusformat.org/NIAC.html) members were present
 
 Matthew Jones (MJ) was standing in for Tobias Richter.
 
-This was the concluding session of [NIAC2020](https://www.nexusformat.org/NIAC2020.html) and was planned to summarise the NIAC and code camp results and move onto discussions and start voting on the matters arising. Items discussed and voted on at this meeting will be left open for a final week for NIAC members who were not able to be present to add their votes or raise further questions. Minutes of the previous sessions are available at https://www.nexusformat.org/NIAC2020minutes.html
+This was the concluding session of [NIAC2020](https://www.nexusformat.org/NIAC2020.html) and was planned to summarise the NIAC and code camp results and move onto discussions and start voting on the matters arising. Items discussed and voted on at this meeting will be left open for a final week for NIAC members who were not able to be present to add their votes or raise further questions. Minutes of the previous sessions [are available](https://www.nexusformat.org/NIAC2020minutes.html)
 
-The items to be discussed at this meeting were listed at https://github.com/nexusformat/NIAC/projects/1#column-11377920
+The items to be discussed at this meeting were [listed at github](https://github.com/nexusformat/NIAC/projects/1#column-11377920)
 
 BW summarised the recent [CodeCamp 2020-2](https://www.nexusformat.org/CodeCamp2020-2.html) Achievements
 
@@ -42,8 +42,8 @@ maybe instructions to indicate an abstention (by any not already mentioned emoji
 final email conclusion to voting, so people will be asked to register a choice. We should also draw people's attention to the process 
 in the constitution for a NIAC member raising concern on a matter.
 
-As discussed at the earlier sessions, a survey has been sent out to the NeXus community
-https://lists.nexusformat.org/pipermail/nexus/2020/001140.html by MK & FA as to their current use of ther old NeXus API (NAPI), 
+As discussed at the earlier sessions, a [survey has been sent out to the NeXus community](
+https://lists.nexusformat.org/pipermail/nexus/2020/001140.html) by MK & FA as to their current use of ther old NeXus API (NAPI), 
 with a view to determining future support options. It had been agreed that a bugfix release of NAPI would be done after merging 
 current outstanding pull requests.
 
@@ -133,4 +133,4 @@ All NIAC members are requested to please vote on [each proposal](https://www.nex
 
 Feel free to continue discussion on the ticket and/or NeXus mailing list. 
 
-Decisions are listed at  https://www.nexusformat.org/NIAC2020.html#decisions , including links to the votes.
+Decisions are [listed here](https://www.nexusformat.org/NIAC2020.html#decisions), including links to the votes.
