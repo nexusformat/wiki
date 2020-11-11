@@ -20,7 +20,7 @@ link to the meeting should be put on the meeting page as well.
 
 ### 2020
 
-### December
+#### December
 
 [Telco 20201208](Telco_20201208.html "wikilink") Tuesday, 8th December, 14:00 UTC
 
