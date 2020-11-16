@@ -25,9 +25,7 @@ neutron, x-ray, and muon data.
 * [Facilities](Facilities.html "wikilink") using NeXus
 
 ## Discussion and Development:
-* upcoming: [NIAC2020](NIAC2020.html) and [Code Camp 2020-2](CodeCamp2020-2.html)
-* recent: [Code Camp 2020](https://www.nexusformat.org/CodeCamp2020.html) 21-23 January 2020 @ APS, Chicago, USA
-* Most recent meeting: [NIAC 2018](NIAC2018.html) October 25th & 26th 2018 @ NSLS-II
+* Most recent meeting: [NIAC2020](NIAC2020.html) and [Code Camp 2020-2](CodeCamp2020-2.html)
 * [Tele Conferences](Teleconferences.html "wikilink")
 * [Current Active Projects](ActiveProjects.html "wikilink")
 * [NeXus International Advisory Committee](NIAC.html "wikilink")
