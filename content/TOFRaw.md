@@ -32,7 +32,7 @@ format as well as a [basic
 DTD](http://download.nexusformat.org/TOFRAW/examples/TOFRAW.xml).
 
 For historical information see the [draft proposal for an ISIS NeXus
-based RAW data file format](Media:Isis_nexus_016.pdf.html "wikilink").
+based RAW data file format](pdfs/Isis_nexus_016.pdf "wikilink").
 
 Goal of the Definition
 ----------------------
