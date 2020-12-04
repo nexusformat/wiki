@@ -10,11 +10,6 @@ letter of support from the facility and be approved by the NIAC as
 stated in the [constitution](NIAC.html "wikilink").
 
 
-
-### Expire September, 2020
-
--   Eugen Wintersberger - DESY, Germany
-
 ### Expire November, 2021
 
 -   Takahiro Matsumoto, Spring8, Japan
@@ -47,12 +42,14 @@ stated in the [constitution](NIAC.html "wikilink").
 -   Stuart Campbell, BNL/NSLS-2, USA
 -   Tobias Richter, European Spallation Source, Sweden
 
-
 ### Expire August, 2023
 -   Aaron Brewster, Lawrence Berkeley Laboratory, USA
 -   Sandor Brockhauser, European XFEL, Germany
 -   Majid Ounsy, Synchrotron Soleil, France
 -   William Godoy, Oak Ridge National Laboratory (SNS/HFIR), USA
+
+### Expire December, 2023
+-   Michael Moko, Los Alamos Neutron Science Center (LANSCE), USA
 
 
 
