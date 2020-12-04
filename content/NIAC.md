@@ -27,7 +27,7 @@ Current Members
 -   Sandor Brockhauser, European XFEL, Germany
 -   Majid Ounsy, Synchrotron Soleil, France
 -   William Godoy, Oak Ridge National Laboratory (SNS/HFIR), USA
--   Michael Moko,  Los Alamos Neutron Science Center (LANSCE), USA
+-   Michael Mocko,  Los Alamos Neutron Science Center (LANSCE), USA
 
 See the page with the [expiration dates](Membership_Dates.html "wikilink") for when the current terms of the various members end and we require a new facility endorsement and vote (see below).
 
