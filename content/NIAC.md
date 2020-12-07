@@ -123,21 +123,22 @@ be able to vote on specific proposals that come under the remit of the
 committee. However, all debates will be conducted publicly and 
 non-committee members are both allowed and encouraged to participate.  
 
-Topics voted on will require a simple majority unless specifically
+Topics voted on at the biennial NIAC meetings will require a simple majority unless specifically
 challenged by a committee member. In the event of a challenge, the issue
 will be presented to the NeXus mailing list inviting comments for a
 period of one month. At the end of this period, the challenge can be
 overruled by a two thirds majority.
 
-Email voting as used up to 2018 only for membership renewals.
-
-For issues other than membership renewals, the following rule applies: 
-we vote by teleconference where the proposal can be discussed. At least 
-2/3 of the NIAC have to be present at the teleconference. Then normal 
-majority vote of the attendees applies. Teleconference decisions need to 
-be published on the NIAC mailing list. NIAC Members not attending the 
-teleconference have a one week period in which they can add their vote 
-to the tally. Those not responding in that week are counted as abstained.
+Voting outside of the biennial NIAC meetings can take two forms. 
+Firstly, memberships can be approved by email ballot. All other issues
+require a teleconference for interactive discussion that is attended by 
+at least 2/3 of the NIAC. Votes may be cast at the teleconference, as well
+as during the following week in order to allow NIAC members not attending
+the teleconference to add their vote to the tally. The opening of the 
+voting period must be advertised through the NIAC mailing list. At the 
+close of the 1-week voting period, NIAC members not responding are counted
+as abstained and the NIAC decision follows the voting category (usually
+"for" and "against") with the highest number of valid votes.
 
 The constitution can only be changed by a two thirds majority of the
 NIAC.
