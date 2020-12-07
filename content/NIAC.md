@@ -9,20 +9,20 @@ Current Members
 -   Benjamin Watts, Swiss Light Source, Switzerland (*Chair*)
 -   Herbert Bernstein, CIF (*non-facility member*)
 -   Aaron Brewster, Lawrence Berkeley Laboratory, USA
--   Stuart Campbell, Brookhaven National Laboratory/NSLS-II, USA (*Technical Manager*)
+-   Stuart Campbell, Brookhaven National Laboratory/NSLS-II, USA (*Technical Release Manager*)
 -   Bjorn Clausen, Los Alamos National Laboratory, USA
 -   Stephen Cottrell, Rutherford Appleton Laboratory, UK (*Muon Representative*)
 -   Freddie Akeroyd, Rutherford Appleton Laboratory, UK (*Neutron Representative*; *Executive Secretary*)
 -   Ricardo Ferraz-Leal, SNS and HFIR at ORNL, USA
 -   Heike Görzig, Helmholtz Zentrum Berlin, Germany
--   Pete Jemian, Advanced Photon Source, USA (*Documentation Release Manager*)
+-   Pete Jemian, Advanced Photon Source, USA
 -   Mark Könnecke, Paul Scherrer Institut, Switzerland
 -   Raymond Osborn, Argonne National Laboratory, USA (*non-facility member*)
 -   Armando Sole, European Synchrotron Radiation Facility, France
 -   Jiro Suzuki, J-PARC, Japan
 -   Takahiro Matsumoto, Spring8, Japan
 -   Lajos Schrettner, the Extreme Light Infrastructure, Czech Republic, Hungary and Romania
--   Peter Chang, Diamond Light Source, UK
+-   Peter Chang, Diamond Light Source, UK (*Documentation Release Manager*)
 -   Russ Berg, Canadian Light Source, Canada
 -   Sandor Brockhauser, European XFEL, Germany
 -   Majid Ounsy, Synchrotron Soleil, France
