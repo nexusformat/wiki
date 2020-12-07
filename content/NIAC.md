@@ -13,7 +13,6 @@ Current Members
 -   Bjorn Clausen, Los Alamos National Laboratory, USA
 -   Stephen Cottrell, Rutherford Appleton Laboratory, UK (*Muon Representative*)
 -   Freddie Akeroyd, Rutherford Appleton Laboratory, UK (*Neutron Representative*; *Executive Secretary*)
--   Ricardo Ferraz-Leal, SNS and HFIR at ORNL, USA
 -   Heike Görzig, Helmholtz Zentrum Berlin, Germany
 -   Pete Jemian, Advanced Photon Source, USA
 -   Mark Könnecke, Paul Scherrer Institut, Switzerland
@@ -27,7 +26,6 @@ Current Members
 -   Sandor Brockhauser, European XFEL, Germany
 -   Majid Ounsy, Synchrotron Soleil, France
 -   William Godoy, Oak Ridge National Laboratory (SNS/HFIR), USA
--   Michael Mocko,  Los Alamos Neutron Science Center (LANSCE), USA
 
 See the page with the [expiration dates](Membership_Dates.html "wikilink") for when the current terms of the various members end and we require a new facility endorsement and vote (see below).
 
