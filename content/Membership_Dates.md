@@ -49,7 +49,7 @@ stated in the [constitution](NIAC.html "wikilink").
 -   William Godoy, Oak Ridge National Laboratory (SNS/HFIR), USA
 
 ### Expire December, 2023
--   Michael Mocko, Los Alamos Neutron Science Center (LANSCE), USA
+-   Bjørn Clausen , Los Alamos Neutron Science Center (LANSCE), USA
 
 
 
