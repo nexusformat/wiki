@@ -18,6 +18,12 @@ page below.
 We aim to publish an agenda a few days in advance of the meetings. The
 link to the meeting should be put on the meeting page as well.
 
+### 2021
+
+#### January
+
+[Telco 20210120](Telco_20210120.html "wikilink") Wednesday, 20th January, 14:00 UTC
+
 ### 2020
 
 #### December
