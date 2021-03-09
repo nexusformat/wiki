@@ -17,11 +17,14 @@ If you have a topic you wish to discuss in the code camp, please mention it in a
 
 NeXus periodically convenes a Code Camp to
 develop NeXus software components through intense effort by small groups
-working on specific projects and tasks. It is expected that those
+working on specific projects and tasks. Most of those
 attending the Code Camp session will already have a strong foundation
 and understanding in aspects of the NeXus software and come ready with
 knowledge, tools, and ideas to make significant progress during the
-event. 
+event. If you don't feel confident in your current level of knowledge about
+NeXus, you can contribute by reading the documentation and pointing out errors
+and inconsistencies while you are learning. Contributing new or improved images 
+for the documentation is also helpful.
 
 (For more info on code camps, try searching Google for “code camp” or
 “codeathon”. Events such as the [EPICS
