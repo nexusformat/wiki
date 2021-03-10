@@ -6,7 +6,7 @@ layout: wiki
 
 The 2021-1 NeXus Code Camp is scheduled for 2 days in March 2021:
 March 22 (Monday) - 23 (Tuesday). It will be an online meeting, copying the format of the [2020 Code Camp 2](https://www.nexusformat.org/CodeCamp2020-2.html).
-A follow-up session will be scheduled for March 29 (Monday) in order to finish discussions (please indicate your [preferred dates in the poll](https://doodle.com/poll/945brunsgxbmb2h9)).
+A follow-up session will be held at 14:00 UTC on March 29 (Monday) in order to finish discussions.
 
 
 ## Purpose
