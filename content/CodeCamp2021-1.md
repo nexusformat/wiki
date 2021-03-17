@@ -45,6 +45,6 @@ It is possible to join sessions by telephone - please email [codecamp@nexusforma
 
 ## Agenda
 
-A table of session times will be added soon.
+[Session times](https://docs.google.com/spreadsheets/d/11WXNBxEaCdM9BsyDylEhFB5v5yd4F_bNMDejWB1FM6I/edit?usp=sharing)
 
 [Project on Github](https://github.com/nexusformat/NIAC/projects/3)
