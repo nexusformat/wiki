@@ -25,9 +25,8 @@ neutron, x-ray, and muon data.
 * [Facilities](Facilities.html "wikilink") using NeXus
 
 ## Discussion and Development:
-* Upcoming meeting: [Code Camp 2021-1](CodeCamp2021-1.html)
-* Most recent meeting: [NIAC2020](NIAC2020.html) and [Code Camp 2020-2](CodeCamp2020-2.html)
-* [Tele Conferences](Teleconferences.html "wikilink")
+* Most recent meetings: [NIAC2020](NIAC2020.html) and [Code Camp 2021-1](CodeCamp2021-1.html)
+* [Teleconferences](Teleconferences.html "wikilink")
 * [Current Active Projects](ActiveProjects.html "wikilink")
 * [NeXus International Advisory Committee](NIAC.html "wikilink")
 * [Bug / Issue Reporting](IssueReporting.html "wikilink")
