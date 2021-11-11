@@ -20,6 +20,8 @@ link to the meeting should be put on the meeting page as well.
 
 ### 2021
 
+[Telco 20211115](Telco_20211115.html "wikilink") Monday, 15th November, 14:00 UTC
+
 [Telco 20210915](Telco_20210915.html "wikilink") Wednesday, 15th September, 13:00 UTC
 
 [Telco 20210728](Telco_20210728.html "wikilink") Wednesday, 28th July, 13:00 UTC
