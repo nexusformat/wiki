@@ -31,7 +31,7 @@ stated in the [constitution](NIAC.html "wikilink").
 
 ### Expire January, 2023
 -   Jiro Suzuki - J-Parc, Japan
--   Jens Uwe Hoffmann, HZB, Germany
+-   Heike Görzig, HZB, Germany
 -   Stephen Cottrell - ISIS Pulsed Muon Facility, UK
 
 ### Expire July, 2023
@@ -41,7 +41,6 @@ stated in the [constitution](NIAC.html "wikilink").
 
 ### Expire August, 2023
 -   Aaron Brewster, Lawrence Berkeley Laboratory, USA
--   Sandor Brockhauser, European XFEL, Germany
 -   Majid Ounsy, Synchrotron Soleil, France
 -   William Godoy, Oak Ridge National Laboratory (SNS/HFIR), USA
 
