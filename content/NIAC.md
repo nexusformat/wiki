@@ -10,22 +10,23 @@ Current Members
 -   Herbert Bernstein, CIF (*non-facility member*)
 -   Aaron Brewster, Lawrence Berkeley Laboratory, USA
 -   Stuart Campbell, Brookhaven National Laboratory/NSLS-II, USA (*Technical Release Manager*)
--   Bjorn Clausen, Los Alamos National Laboratory, USA
+-   Bjørn Clausen, Los Alamos National Laboratory, USA
 -   Stephen Cottrell, Rutherford Appleton Laboratory, UK (*Muon Representative*)
 -   Freddie Akeroyd, Rutherford Appleton Laboratory, UK (*Neutron Representative*; *Executive Secretary*)
 -   Heike Görzig, Helmholtz Zentrum Berlin, Germany
 -   Pete Jemian, Advanced Photon Source, USA
 -   Mark Könnecke, Paul Scherrer Institut, Switzerland
 -   Raymond Osborn, Argonne National Laboratory, USA (*non-facility member*)
--   Armando Sole, European Synchrotron Radiation Facility, France
+<!--   Wout de Nolf, European Synchrotron Radiation Facility, France -->
 -   Jiro Suzuki, J-PARC, Japan
 -   Takahiro Matsumoto, Spring8, Japan
 -   Lajos Schrettner, the Extreme Light Infrastructure, Czech Republic, Hungary and Romania
 -   Peter Chang, Diamond Light Source, UK (*Documentation Release Manager*)
 -   Russ Berg, Canadian Light Source, Canada
--   Sandor Brockhauser, European XFEL, Germany
+-   Sandor Brockhauser, NOMAD Data Center (HU Berlin), Germany
 -   Majid Ounsy, Synchrotron Soleil, France
 -   William Godoy, Oak Ridge National Laboratory (SNS/HFIR), USA
+-   Luca Geliso, European XFEL, Germany
 
 See the page with the [expiration dates](Membership_Dates.html "wikilink") for when the current terms of the various members end and we require a new facility endorsement and vote (see below).
 
