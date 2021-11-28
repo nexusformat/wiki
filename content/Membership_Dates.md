@@ -10,9 +10,6 @@ letter of support from the facility and be approved by the NIAC as
 stated in the [constitution](NIAC.html "wikilink").
 
 
-### Expire November, 2021
-
--   Takahiro Matsumoto, Spring8, Japan
 
 ### Expire June 2022
 
@@ -50,6 +47,11 @@ stated in the [constitution](NIAC.html "wikilink").
 
 ### Expire December, 2023
 -   Bjørn Clausen , Los Alamos Neutron Science Center (LANSCE), USA
+
+### Expire November, 2024
+-   Takahiro Matsumoto, Spring8, Japan
+-   Luca Geliso, EuXFEL, Germany
+-   Sandor Brockhauser, NOMAD Data Center (HU Berlin), Germany
 
 
 
