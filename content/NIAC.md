@@ -17,7 +17,7 @@ Current Members
 -   Pete Jemian, Advanced Photon Source, USA
 -   Mark Könnecke, Paul Scherrer Institut, Switzerland
 -   Raymond Osborn, Argonne National Laboratory, USA (*non-facility member*)
-<!--   Wout de Nolf, European Synchrotron Radiation Facility, France -->
+-   Wout de Nolf, European Synchrotron Radiation Facility, France
 -   Jiro Suzuki, J-PARC, Japan
 -   Takahiro Matsumoto, Spring8, Japan
 -   Lajos Schrettner, the Extreme Light Infrastructure, Czech Republic, Hungary and Romania
