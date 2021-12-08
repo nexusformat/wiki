@@ -24,7 +24,6 @@ stated in the [constitution](NIAC.html "wikilink").
 -   Pete Jemian - APS, USA
 -   Mark Könnecke - SINQ, Switzerland
 -   Freddie Akeroyd - ISIS Neutron Facility, UK
--   Armando Sole - European Synchrotron Radiation Facility, France
 -   Russ Berg - Canadian Light Source, Canada
 -   Peter Chang, Diamond Light Source, UK
 -   Benjamin Watts - Swiss Light Source-PSI, Switzerland
@@ -52,6 +51,8 @@ stated in the [constitution](NIAC.html "wikilink").
 -   Luca Geliso, EuXFEL, Germany
 -   Sandor Brockhauser, NOMAD Data Center (HU Berlin), Germany
 
+### Expire December, 2024
+-   Wout de Nolf, ESRF, France
 
 
 
