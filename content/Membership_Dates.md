@@ -41,7 +41,6 @@ stated in the [constitution](NIAC.html "wikilink").
 ### Expire August, 2023
 -   Aaron Brewster, Lawrence Berkeley Laboratory, USA
 -   Majid Ounsy, Synchrotron Soleil, France
--   William Godoy, Oak Ridge National Laboratory (SNS/HFIR), USA
 
 ### Expire December, 2023
 -   Bjørn Clausen , Los Alamos Neutron Science Center (LANSCE), USA
@@ -53,6 +52,7 @@ stated in the [constitution](NIAC.html "wikilink").
 
 ### Expire December, 2024
 -   Wout de Nolf, ESRF, France
+-   Chen Zhang, Oak Ridge National Laboratory (SNS/HFIR), USA
 
 
 
