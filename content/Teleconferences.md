@@ -9,18 +9,17 @@ Technical Subcommittee to the wider community. All interested parties are welcom
 If you wish to know the date and time in advance, join the
 [nexus-tech](https://lists.nexusformat.org/mailman/listinfo/nexus-tech) mailing list.
 
-Currently we use Google Hangout as the technology, which works
-reasonably well for everyone. (Google account required obviously.) The
-link for that needs to change every few months when the old one stops
-working. The latest one should be linked from the most recent agenda
-page below.
+Currently we use Zoom as the video conferencing technology, which works reasonably well for everyone. 
+A new link is generated for each meeting and is published
+in the corresponding agenda page below.
 
-We aim to publish an agenda a few days in advance of the meetings. The
-link to the meeting should be put on the meeting page as well.
+We aim to publish an agenda a few days in advance of the meetings. 
 
 ### 2022
 
-[Telco 20220131](Telco_20220131.html "wikilink") Mondayday, 31st January, 14:00 UTC
+[Telco 20220131](Telco_20220225.html "wikilink") Friday, 25th February, 14:00 UTC
+
+[Telco 20220131](Telco_20220131.html "wikilink") Monday, 31st January, 14:00 UTC
 
 ### 2021
 
