@@ -1,3 +1,9 @@
+---
+title: Spring Virtual NIAC 2022
+permalink: NIAC2022_spring.html
+layout: wiki
+---
+
 The 2022 Spring virtual NIAC will be held on March 3rd and 4th, 2022. It aims to provide some decisions and feedback requested by the community.
 Since it is not the "ordinary" biennial NIAC meeting, the [constitution](https://www.nexusformat.org/NIAC.html) lays out stricter rules for making decisions: 
 
