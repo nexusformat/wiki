@@ -16,7 +16,8 @@ The agenda items should bey issues in the [NIAC repository](https://github.com/n
 The meeting will consist of 4 sessions over the 3rd and 4th of March, plus a 5th session at least a week later:
 <table>
 <TR><TD> Session </TD><TD> Date and Time </TD><TD> Comment </TD></TR>
-<TR><TD> A </TD><TD> March 3rd<BR>14:00 UTC </TD><TD> Comment </TD></TR>
+<TR><TD> A </TD><TD> March 3rd<BR>14:00 UTC </TD><TD> [Zoom link](https://psich.zoom.us/j/62170188565?pwd=VUNUMDR5V3NNRDFHd3pzM2liQnplZz09)<BR>
+  ID: 621 7018 8565 <BR>passcode: /nexus/</TD></TR>
 <TR><TD> B </TD><TD> March 3rd<BR>22:00 UTC </TD><TD> Comment </TD></TR>
 <TR><TD> C </TD><TD> March 4th<BR>14:00 UTC </TD><TD> Comment </TD></TR>
 <TR><TD> D </TD><TD> March 4th<BR>22:00 UTC </TD><TD> Comment </TD></TR>
