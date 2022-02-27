@@ -16,7 +16,7 @@ The agenda items should bey issues in the [NIAC repository](https://github.com/n
 The meeting will consist of 4 sessions over the 3rd and 4th of March, plus a 5th session at least a week later:
 <table>
 <TR><TD> Session </TD><TD> Date and Time </TD><TD> Comment </TD></TR>
-<TR><TD><font size="+10">A</font><BR>March 3rd<BR>14:00 UTC</TD><TD>
+<TR><TD> <font size="+10">A</font> <BR>March 3rd<BR>14:00 UTC</TD><TD>
 <table>
 <TR><TD>Tokyo</TD><TD>Thu 23:00</TD></TR>
 <TR><TD>San Fran</TD><TD>Thu 06:00</TD></TR>
@@ -26,7 +26,7 @@ The meeting will consist of 4 sessions over the 3rd and 4th of March, plus a 5th
 </table>
 </TD><TD> <A href="https://psich.zoom.us/j/62170188565?pwd=VUNUMDR5V3NNRDFHd3pzM2liQnplZz09">Zoom link</A><BR>
   ID: 621 7018 8565 <BR>passcode: nexus</TD></TR>
-<TR><TD><font size="+10">B</font><BR>March 3rd<BR>22:00 UTC </TD><TD>
+<TR><TD> <font size="+10">B</font> <BR>March 3rd<BR>22:00 UTC </TD><TD>
 <table>
 <TR><TD>Tokyo</TD><TD>Fri 07:00</TD></TR>
 <TR><TD>San Fran</TD><TD>Thu 14:00</TD></TR>
@@ -36,7 +36,7 @@ The meeting will consist of 4 sessions over the 3rd and 4th of March, plus a 5th
 </table>
   </TD><TD> <A href="https://psich.zoom.us/j/62170188565?pwd=VUNUMDR5V3NNRDFHd3pzM2liQnplZz09">Zoom link</A><BR>
   ID: 621 7018 8565 <BR>passcode: nexus </TD></TR>
-<TR><TD><font size="+10">C</font><BR>March 4th<BR>14:00 UTC</TD><TD>
+<TR><TD> <font size="+10">C</font> <BR>March 4th<BR>14:00 UTC</TD><TD>
 <table>
 <TR><TD>Tokyo</TD><TD>Fri 23:00</TD></TR>
 <TR><TD>San Fran</TD><TD>Fri 06:00</TD></TR>
@@ -46,7 +46,7 @@ The meeting will consist of 4 sessions over the 3rd and 4th of March, plus a 5th
 </table>
   </TD><TD> <A href="https://psich.zoom.us/j/64650182627?pwd=c08xY0NxRGt1Z0FaQkxZRlRBZEVTUT09">Zoom link</A><BR>
   ID: 646 5018 2627 <BR>passcode: nexus  </TD></TR>
-<TR><TD><font size="+10">D</font><BR>March 4th<BR>22:00 UTC</TD><TD> 
+<TR><TD> <font size="+10">D</font> <BR>March 4th<BR>22:00 UTC</TD><TD> 
 <table>
 <TR><TD>Tokyo</TD><TD>Sat 07:00</TD></TR>
 <TR><TD>San Fran</TD><TD>Fri 14:00</TD></TR>
