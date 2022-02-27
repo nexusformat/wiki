@@ -16,11 +16,26 @@ The agenda items should bey issues in the [NIAC repository](https://github.com/n
 The meeting will consist of 4 sessions over the 3rd and 4th of March, plus a 5th session at least a week later:
 <table>
 <TR><TD> Session </TD><TD> Date and Time </TD><TD> Comment </TD></TR>
-<TR><TD> A </TD><TD> March 3rd<BR>14:00 UTC </TD><TD> [Zoom link](https://psich.zoom.us/j/62170188565?pwd=VUNUMDR5V3NNRDFHd3pzM2liQnplZz09)<BR>
-  ID: 621 7018 8565 <BR>passcode: /nexus/</TD></TR>
-<TR><TD> B </TD><TD> March 3rd<BR>22:00 UTC </TD><TD> Comment </TD></TR>
-<TR><TD> C </TD><TD> March 4th<BR>14:00 UTC </TD><TD> Comment </TD></TR>
-<TR><TD> D </TD><TD> March 4th<BR>22:00 UTC </TD><TD> Comment </TD></TR>
-<TR><TD> Final </TD><TD> TBD </TD><TD> Comment </TD></TR>
+<TR><TD> <font size="+2">A</font> <BR>March 3rd<BR>14:00 UTC</TD><TD>
+  <table>
+<TR><TD>Tokyo</TD><TD>Thu 23:00</TD></TR>
+<TR><TD>San Francisco</TD><TD>Thu 06:00</TD></TR>
+<TR><TD>New York</TD><TD>Thu 09:00</TD></TR>
+<TR><TD>London</TD><TD>Thu 14:00</TD></TR>
+<TR><TD>Zürich</TD><TD>Thu 15:00</TD></TR>
+</table>
+  </TD><TD> <A href="https://psich.zoom.us/j/62170188565?pwd=VUNUMDR5V3NNRDFHd3pzM2liQnplZz09">Zoom link</A><BR>
+  ID: 621 7018 8565 <BR>passcode: nexus</TD></TR>
+<TR><TD>  B </TD><TD> March 3rd<BR>22:00 UTC </TD><TD> <A href="https://psich.zoom.us/j/62170188565?pwd=VUNUMDR5V3NNRDFHd3pzM2liQnplZz09">Zoom link</A><BR>
+  ID: 621 7018 8565 <BR>passcode: nexus </TD></TR>
+<TR><TD>  C </TD><TD> March 4th<BR>14:00 UTC </TD><TD> <A href="https://psich.zoom.us/j/64650182627?pwd=c08xY0NxRGt1Z0FaQkxZRlRBZEVTUT09">Zoom link</A><BR>
+  ID: 646 5018 2627 <BR>passcode: nexus  </TD></TR>
+<TR><TD>  D </TD><TD> March 4th<BR>22:00 UTC </TD><TD> <A href="https://psich.zoom.us/j/64650182627?pwd=c08xY0NxRGt1Z0FaQkxZRlRBZEVTUT09">Zoom link</A><BR>
+  ID: 646 5018 2627 <BR>passcode: nexus  </TD></TR>
+<TR><TD> Final </TD><TD> TBD </TD><TD>   </TD></TR>
+</table>
 
+<table>
+<TR><TD> UTC </TD><TD> Tokyo </TD><TD> San Francisco </TD><TD> New York </TD><TD> London </TD><TD> Zürich </TD></TR>
+<TR><TD> Thursday, 3 March 2022, 14:00 </TD><TD> Thu 23:00 </TD><TD> Thu 06:00 </TD><TD> Thu 09:00 </TD><TD> Thu 14:00 </TD><TD> Thu 15:00 </TD></TR>
 </table>
