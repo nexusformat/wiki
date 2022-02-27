@@ -11,7 +11,7 @@ Since it is not the "ordinary" biennial NIAC meeting, the [constitution](https:/
 
 Agenda and Sessions
 ----------------
-The agenda items should bey issues in the [NIAC repository](https://github.com/nexusformat/NIAC/issues) (which should refer/link to issues in other repositories where appropriate) and organised via the [project](https://github.com/nexusformat/NIAC/projects/4).
+The agenda items should bey issues in the [NIAC repository](https://github.com/nexusformat/NIAC/issues) (which should refer/link to issues in other repositories where appropriate) and organised via a [github project](https://github.com/nexusformat/NIAC/projects/4).
 
 The meeting will consist of 4 sessions over the 3rd and 4th of March, plus a 5th session at least a week later:
 <table>
