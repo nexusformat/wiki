@@ -147,6 +147,8 @@ Special Interest Groups: The NeXus International Advisory Committee will appoint
 Meetings
 --------
 
+-   [NIAC 2022](NIAC2020.html) NIAC Meeting, (hybrid)
+-   [Spring 2022 Virtaul NIAC](NIAC2022_spring.html) special NIAC Meeting, (virtual)
 -   [Code Camp 2020-2](CodeCamp2020-2.html) NeXus Code Camp 2020-2, (virtual)
     ~~hosted by the [European XFEL](https://www.xfel.eu/), Hamburg, Germany, October 2020.~~
 -   [NIAC 2020](NIAC2020.html) NIAC Meeting, (virtual)
