@@ -56,8 +56,21 @@ RO always has multiple entries (for different rotations) in a file and then comb
 
 Session B: March 3rd 22:00 UTC
 ------------------------------
+NIAC members Present: Ben Watts, Freddie Akeroyd, Sandor Brockhauser
+Pete Jemian
+Mark Koennecke
+Aaron Brewster
+Herbert Bernstein
+Russ Berg
 
-NIAC members Present: 
+non-NIAC Present: Carola, Tommaso, Markus Kunbach
 
-non-NIAC Present: 
+Not enough NIAC members present for official votes
 
+PJ introduced NXxpcs draft https://www.jemian.org/BES-XPCS-pilot/NeXus/classes/contributed_definitions/NXxpcs.html#nxxpcs
+for results of xpcs experiments. BW noticed scan_number in the definition, queried if it was a general feature? Also are both entry_identifier and scan_number needed?
+PJ asked for confirmation of teh process for new definitions, do we need a NIAC vote to add a contributed definition? Answer was no, only a NIAC vote to move to full definition.
+AB mentioned there are 4 new definitions, so not able to go line by line. Suggested sub committees in breakouts maybe? BW suggested telcos might also be able to do this. 
+PJ was asked to summarise any discussion points. He drew attention to     `g2` which is proposing a new unit type of `NX_ARBITRARY_UNITS`
+
+BW introdiuced #98 NXdetector_channel requested by Dectris for storing different per channel valuies e.g. gain settings
