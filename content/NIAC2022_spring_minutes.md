@@ -8,13 +8,13 @@ layout: wiki
 Session A: March 3rd 14:00 UTC
 ------------------------------
 
-NIAC members Present: Sandor Brockhaus (SB), Mark Koennecke (MK), Russ Berg (RB), Ben Watts (BW), Chen Zhang (CZ), Herbert Bernstein (HB), Pete Jemian (PJ), Freddie Akeroyd (FA), Peter Chang (PC), Aaron Brewster (AB), Stephen Cottrell (SC), Heike Gorzig (HG)
+NIAC members Present: Sandor Brockhaus (SB), Mark Koennecke (MK), Russ Berg (RB), Ben Watts (BW), Chen Zhang (CZ), Herbert Bernstein (HB), Pete Jemian (PJ), Freddie Akeroyd (FA), Peter Chang (PC), Aaron Brewster (AB), Stephen Cottrell (SC), Heike Gorzig (HG), Ray Osborn (RO)
 
 non-NIAC Present: Carola Emminger (CE), Markus Kunbach (Markus), Tamas Haraszti (TH), Tommaso Pincelli (TP)
 
-There were several new people present, including people from the FAIRmat, so a round of introductions was done. BW mentioend that his term as chair was endiong at teh september meeting, and also FA was standing down as secretary, no ominations would be sourght. Contact BW if interested.
+There were several new people present, including people from the FAIRmat, so a round of introductions was done. BW mentioend that his term as chair was ending at the september meeting, and also FA was standing down as secretary, so nominations would be sought. Contact BW if interested.
 
-BW introduced the meeting format and that they should be placed on https://github.com/nexusformat/NIAC/projects/4
+BW introduced the meeting format and that issues to be discussed should be placed into the corresponding column on https://github.com/nexusformat/NIAC/projects/4
 
 
 SB open discussion on https://github.com/nexusformat/NIAC/issues/107:
@@ -46,3 +46,18 @@ SB asks about how to link things together. PJ points out the target attribute ca
 The manual states that links are given with absolute paths. The manual also uses the convention that unspecified names are written in all caps.
 
 SB asks about @default. PJ explains that there must be a chain of @default attributes where the value of one must point to the group that has the next @default attribute in the chain. SB found a file that has absolute paths in the @default attribute, but there is consensus that the file is violating the standard. attributes generally only refer to the memebrs of the local group (the @target attribute being an exception).
+
+SB asks if we want to always base the base classes on NXobject? Do we want to have more inheritance? NXdetector is an example where having a few specialised types of NXdetector that inherit from a basic version could make it easier to work with. PJ says that this would involve a large refactoring of NeXus rules that would affect lots of things. [NXxkappa](https://manual.nexusformat.org/classes/applications/NXxkappa.html) is already extending [NXxbase](https://manual.nexusformat.org/classes/applications/NXxbase.html), inheritance of application definitions is already demonstrated.
+
+SB asks if an application definition can define multiple entries. BW says that this is done in NXstxm, but it can't be done formally in NXDL. The manual describes some reasonable approaches, but doesn't say anything specific. Markus says that it is influenced by how much metadata you want to be repeating. We don't want to advocate putting "too many" measurements into a single file.
+RO always has multiple entries (for different rotations) in a file and then combines the data together afterwards. He always uses external links to files containing calibrations. It is a question of bookkeeping to store the data and their relationships to each other.
+
+
+
+Session B: March 3rd 22:00 UTC
+------------------------------
+
+NIAC members Present: 
+
+non-NIAC Present: 
+
