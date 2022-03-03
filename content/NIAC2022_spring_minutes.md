@@ -28,3 +28,12 @@ linking - can we refer to a link using a PID (Persistent identifier)? BW: how do
 
 html documenmtation: SB showed slides
 inheritance and documentatiion strings, required and not required attribute. also enum. MK: base class is all optional, dictionary of terms. application definition says what is required.  PJ posted link refereing to documentation https://github.com/nexusformat/NIAC/issues/119#issuecomment-1058138059 inheritance 
+SB volunteers to write a proposal that the NIAC can vote on to cement single inheritance for NeXus
+MK makes the point that our "base classes" are not really classes and they are not supposed to inherit from each other. We only have (single) inheritance in the application definitions.
+Markus asks if he needs to state everything in the application definition because he can't rely on things being inherited from the base classes.
+MK says that an object in an application definition does inherit everything in the base class.
+
+SB proposes NX_COMPOSITE to allow composite units (e.g. meters per second) by utilising unidata.
+BW wants a more detailed proposal because the minimal text presented here is not expressing the same as what you are saying.
+
+
