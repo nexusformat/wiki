@@ -26,4 +26,5 @@ Markus: what is best practice, can you have multiple symbol tables e.g. makes it
 
 linking - can we refer to a link using a PID (Persistent identifier)? BW: how does this differ from a path in file? PID can connect to items outside of file - an external reference. BW - can already have links to external files, is this to give a url/doi to refer to things instead? MK - original nexus to have all items for data reduction in one file, links were for performance reasons with large datasets. How would PID be resolved to real items? BW: DOI and PURL so some of thsi management, but maybe not at the scale needed?  SB how do we do an external reference to e.g. an item in a database item rather than have to convert it to hdf5 and have a path? FA - you could store metadata about teh link in an NXnote, but e.g. an NXexternal_reference could store domain/facility specific items for linking? Agreed to discuss further and SB will create an issue
 
-
+html documenmtation: SB showed slides
+inheritance and documentatiion strings, required and not required attribute. also enum. MK: base class is all optional, dictionary of terms. application definition says what is required.  PJ posted link refereing to documentation https://github.com/nexusformat/NIAC/issues/119#issuecomment-1058138059 inheritance 
