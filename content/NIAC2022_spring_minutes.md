@@ -9,6 +9,7 @@ Session A: March 3rd 14:00 UTC
 ------------------------------
 
 NIAC members Present: 
+
 non-NIAC Present: 
 
 
