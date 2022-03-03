@@ -36,4 +36,10 @@ MK says that an object in an application definition does inherit everything in t
 SB proposes NX_COMPOSITE to allow composite units (e.g. meters per second) by utilising unidata.
 BW wants a more detailed proposal because the minimal text presented here is not expressing the same as what you are saying.
 
+SB wants a way to require one of a set of fields.
+PJ says that NXcansas has something similar with @resolutions. This is handled by a person following the rules stated in the docstring, but a validator cannot understand this. What we need is a way to express this properly in NXDL.
+BW points out that @axes in NXdata is another example of the same mechanism that isn't formally expressed in NXDL.
+Discussion of [cnxvalidate](https://github.com/nexusformat/cnxvalidate) and how it could be extended.
+MK mentions [features](https://github.com/nexusformat/features) that could provide a lot more freedom if we put in the work to implement it on a wider scale.
+
 
