@@ -42,4 +42,7 @@ BW points out that @axes in NXdata is another example of the same mechanism that
 Discussion of [cnxvalidate](https://github.com/nexusformat/cnxvalidate) and how it could be extended.
 MK mentions [features](https://github.com/nexusformat/features) that could provide a lot more freedom if we put in the work to implement it on a wider scale.
 
+SB asks about how to link things together. PJ points out the target attribute can a class path, rather than a name path, since the application definitions tend to leave the group names unspecified. The NXDL is guidance for writing the file.
+The manual states that links are given with absolute paths. The manual also uses the convention that unspecified names are written in all caps.
 
+SB asks about @default. PJ explains that there must be a chain of @default attributes where the value of one must point to the group that has the next @default attribute in the chain. SB found a file that has absolute paths in the @default attribute, but there is consensus that the file is violating the standard. attributes generally only refer to the memebrs of the local group (the @target attribute being an exception).
