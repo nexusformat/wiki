@@ -71,3 +71,17 @@ SB: how is the raw data stored? PJ: this is very detector dependent, collected b
 
 BW introduced #98 NXdetector_channel requested by Dectris for storing different per channel valuies e.g. gain settings See https://github.com/nexusformat/definitions/issues/940#issuecomment-972672865 The detector channels are different versions of the data. Could this be doen as separate NXdetector_groups ? Decris though a single NXdetector was better as there is only one physical detector.  Tomaso: could you have nxprocess inside nxdetector to describe some of this processing? BW described this is done by chip in detector, so processing is "black box". MK: though you could use an extra array dimension to store this data, using proposed NXdetector_channel does look clearer. AB described https://github.com/nexusformat/definitions/issues/711 and that detector channel woiuld be helpful here.      
 
+AB presents discussion of [fixing symbols of NXbeam](https://github.com/nexusformat/definitions/pull/858) (this is the version of NXbeam in NXmx). Here it is using the symbol nP for the number of scan points, while the base class doesn't use any symbols and doesn't really consider multiple scan points.
+Divergence has 3 components, X, Y, and XY. This is documented in CIFS and is also called "crossfire" and we should copy from their definitions.
+AB will change the size of the array corresponding to the divergence components to "c" and explain the concept of "crossfire" where there can be many moments of divergence. 
+Questions of whether nP symbols is normally used in the first dimension? MK says nP would be the "scan dimension" that is usually first. This is not what NXbeam currently states (we messed up) and we should change it to match the standard order of nP first. BW suggests that we shouldn't specify the size of the second dimension (components of the divergence) since we don't want to enforce it. 
+
+Tommaso says we should state that the "extent" is measured according to the FWHM. There should be a shape description (string). SB says that at ESRF they gave the choice of a few basic shapes, together with the option of a profile. HB suggests a working group.
+
+The meaning of some symbols (in the old version) is not clear. We can port most of the NXmx version of NXbeam back to the base class.
+"fixing" the spelling of "polarization" should involve deprecating "polarisation".
+
+Tobias has gone through the base classes and deprecated NXgeometry and added in NXtransformations and depends_on. It looks fairly safe and repetitive with the exception of the images that have been added. We can mark it as ready to vote on with a note to discuss the images.
+
+SB has [written down some details regarding inheritance](https://github.com/nexusformat/NIAC/issues/119#issuecomment-1058508119) in order to explain the way NeXus currently operates with formal language.
+
