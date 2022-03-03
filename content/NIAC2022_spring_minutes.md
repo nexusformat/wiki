@@ -20,3 +20,6 @@ BW introduced the meeting format and that they should be placed on https://githu
 SB open discussion on https://github.com/nexusformat/NIAC/issues/107:
 NX_COMPLEX PC mentioned be used two items with "re" and "im" prefix to store bits. HDF5 can handle a compound type, also h5py has some documention on this. Action to look at how h5py handles this.
 BW: At a previous telco Quaternions were mentioend, can they be stored in a similar scheme? HB said he can help with this
+
+How to use Symbols, defined at multiple levels. PJ explained how they coordinate array dimensions across items. Symbols should be listed in NXDL schema, near the top.
+Markus: what is best practice, can you have multiple symbol tables e.g. makes it clearer when things are nested? PJ posted link to https://github.com/nexusformat/definitions/blob/61c2b2a6e9666a48c0ea3afc391b0d01d6bbd404/nxdl.xsd#L201-L209 as an example, symbol table needs to be early on and positioning enforced by schema. 
