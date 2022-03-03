@@ -23,3 +23,5 @@ BW: At a previous telco Quaternions were mentioend, can they be stored in a simi
 
 How to use Symbols, defined at multiple levels. PJ explained how they coordinate array dimensions across items. Symbols should be listed in NXDL schema, near the top.
 Markus: what is best practice, can you have multiple symbol tables e.g. makes it clearer when things are nested? PJ posted link to https://github.com/nexusformat/definitions/blob/61c2b2a6e9666a48c0ea3afc391b0d01d6bbd404/nxdl.xsd#L201-L209 as an example, symbol table needs to be early on and positioning enforced by schema. There is also one table at top to try and avoid name collisions. RB mentioned that his converter of definition to HDF file will also check the symbol table.
+
+linking - can we refer to a link using a PID (Persistent identifier)? BW: how does this differ from a path in file? PID can connect to items outside of file - an external reference. BW - can already have links to external files, is this to give a url/doi to refer to things instead? 
