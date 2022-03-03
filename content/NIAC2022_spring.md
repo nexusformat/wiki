@@ -58,3 +58,5 @@ The meeting will consist of 4 sessions over the 3rd and 4th of March, plus a 5th
   ID: 646 5018 2627 <BR>passcode: nexus  </TD></TR>
 <TR><TD> Final </TD><TD> TBD </TD><TD>   </TD></TR>
 </table>
+
+Minutes will be taken [here](https://github.com/nexusformat/wiki/blob/master/content/NIAC2022_spring_minutes.md).
