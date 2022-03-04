@@ -149,4 +149,5 @@ AB presented updates to https://github.com/nexusformat/definitions/pull/858 Ther
 
 Add geometry information to NXbeam https://github.com/nexusformat/NIAC/issues/115 and https://github.com/nexusformat/definitions/compare/925-nxbeam-geometry After discussion, looks good and would like to see PR from PC
 
+https://github.com/nexusformat/NIAC/issues/99 , https://github.com/nexusformat/definitions/pull/913 - this looks like a bugfix so OK to merge.
 
