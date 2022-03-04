@@ -102,6 +102,9 @@ Votes are on github. Links are provided. The voting period is one week.
 Publishing the NeXus ontology on PURL. Automatically generated from NXDL. PURL provides persistent identifiers for NeXus and persists it. Quality checking the NeXus ontology is on us.  Motion to publish the NeXus ontology on PURL: Voting at https://github.com/nexusformat/NIAC/issues/95#issuecomment-1059210877. 12 agreed 
 Thus the motion is approved.
 
-Changing gain_setting in NXdetector to be free form and not an enum. Votes at https://github.com/nexusformat/NIAC/issues/100, 9 agreed so far
+Changing gain_setting in NXdetector to be free form and not an enum. Votes at https://github.com/nexusformat/NIAC/issues/100, 9 agreed so far. Consensus was this should be revised with a suggestion for a controlled vocabulary for the gain settings. And the addition of numeric gain setting and offset fields. 
+
+Reserve the private prefix DECTRIS for the company DECTRIS. Issue: https://github.com/nexusformat/NIAC/issues/110. This raised the suggestion that prefix owners store the documentation for their private fields with NeXus in NXDL. This will be a new issue. 
+
 
 
