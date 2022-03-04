@@ -104,7 +104,11 @@ Thus the motion is approved.
 
 Changing gain_setting in NXdetector to be free form and not an enum. Votes at https://github.com/nexusformat/NIAC/issues/100, 9 agreed so far. Consensus was this should be revised with a suggestion for a controlled vocabulary for the gain settings. And the addition of numeric gain setting and offset fields. 
 
-Reserve the private prefix DECTRIS for the company DECTRIS. Issue: https://github.com/nexusformat/NIAC/issues/110. This raised the suggestion that prefix owners store the documentation for their private fields with NeXus in NXDL. This will be a new issue. 
+Reserve the private prefix DECTRIS for the company DECTRIS. Issue: https://github.com/nexusformat/NIAC/issues/110. This raised the suggestion that prefix owners store the documentation for their private fields with NeXus in NXDL. This will be a new issue. Voted for the DECTRIS prefix: 11 during the session. This is approved. 
+
+Next issue: allowing arrays of strings as axis dimensions, https://github.com/nexusformat/NIAC/issues/97, This drifted off into a discussion if we allow date time strings here. This was deferred to another proposal. We vote on allowing NX_CHAR or NX_NUMBER arrays as axis in NXdata. 11 votes in agreement so far.
+
+
 
 
 
