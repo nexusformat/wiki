@@ -114,3 +114,7 @@ This also raised questions about how to link data together in NXdata.
 Next topic is the virtual_pixel_correction_applied field, https://github.com/nexusformat/NIAC/issues/94, The vote is for accepting it. 12 votes in favour, accepted. 
 
 The NIAC decided in 2012 to deprecate NXgeometry and introduce NXtransformations and depends_on fields in any positionable NeXus base classes. The issues is https://github.com/nexusformat/NIAC/issues/109, This vote is to confirm that the changes sugegsted reflect the NIAC vote of 2012. Approved with 12 votes. 
+
+The next issue is to protect the main branch of the github repository in order to prevent abuse. The github link is: https://github.com/nexusformat/NIAC/issues/113#issuecomment-1059291945 Accepted with 12 votes.
+
+Next issue is to add image_key to NXdetector. It is already used in NXtomo. The issue is https://github.com/nexusformat/NIAC/issues/111. Approved with 11 votes. 
