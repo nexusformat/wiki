@@ -118,3 +118,5 @@ The NIAC decided in 2012 to deprecate NXgeometry and introduce NXtransformations
 The next issue is to protect the main branch of the github repository in order to prevent abuse. The github link is: https://github.com/nexusformat/NIAC/issues/113#issuecomment-1059291945 Accepted with 12 votes.
 
 Next issue is to add image_key to NXdetector. It is already used in NXtomo. The issue is https://github.com/nexusformat/NIAC/issues/111. Approved with 11 votes. 
+
+With the votes out of the way we started discussing NXmpes. Which improves NXmpes.  This is a processed data application definition. The approach is to agree on  a processed data standard and when people got used to the standard push for a raw data format. The field is dominated by vendors. 
