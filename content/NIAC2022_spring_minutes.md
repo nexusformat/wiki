@@ -134,11 +134,13 @@ Close session.
 
 Session D: March 4th 22:00 UTC
 ------------------------------
-NIAC members Present: Russ Berg, Peter Jemian, Freddie Akeroyd, Mark Koennecke, Sandor Brockhauser, Ben Watts, Wout de Nolf, Aaron Brewster (AB), Takahiro Matsumoto 
+NIAC members Present: Russ Berg, Peter Jemian, Freddie Akeroyd, Mark Koennecke, Sandor Brockhauser, Ben Watts, Wout de Nolf, Aaron Brewster (AB), Takahiro Matsumoto, Ray Osborn 
 
 non-NIAC Present: 
 
 * Leave "Fix up NXBeam symbols and polarization" https://github.com/nexusformat/NIAC/issues/101 as need Aaron
 * NXmx total_flux https://github.com/nexusformat/NIAC/issues/96 need way to specify one of a set of fields is present in NXDL. There is "flux" and "total_flux" currently, discussion was around whether NXmonitor could be used for this and also whether flux and total_flux could be merged into a single flux field. NXstxm has a NXmonitor called control. AB will consult MX community and discuss if NXmonitor would work here. There was a discussion about units for NX_FLUX and whether it was possible to have unit options that were dimensionly different e.g. per area or not per area. No other NX units currently do this. There is also an integral log in NXmonitor that may be useful for total flux.
 
-Deprecate incr attribute in dimensionsType https://github.com/nexusformat/NIAC/issues/112 a field was accidentally left in. ref and refindex were deprecated but https://manual.nexusformat.org/nxdl_desc.html#incr depends on them. These were deprecated in a telco, they have not been removed that needs a niac, so it was agreed they can be deprecated here.   
+Deprecate incr attribute in dimensionsType https://github.com/nexusformat/NIAC/issues/112 a field was accidentally left in. ref and refindex were deprecated but https://manual.nexusformat.org/nxdl_desc.html#incr depends on them. These were deprecated in a telco, they have not been removed that needs a niac, so it was agreed they can be deprecated here. VOTE: unanimous
+
+NXregion https://github.com/nexusformat/NIAC/issues/118.   MK: what does imgCIF do for region of interest?   AB: it doesn't seem to describe it exactly, but could create a detector object that describes it. Whhat does EPICS Area Detector do? https://areadetector.github.io/master/ADCore/NDPluginROI.html There seems to be a branch https://github.com/nexusformat/definitions/compare/944-add-NXregion but not a PR at the moment. 
