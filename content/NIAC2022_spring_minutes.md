@@ -111,4 +111,5 @@ Next issue: allowing arrays of strings as axis dimensions, https://github.com/ne
 Allow NXdetector_channel for storing detector channel specific parameters. https://github.com/nexusformat/definitions/issues/940#issuecomment-972672865. The consensus is that we encourage further development of this until we have a pull request for a NXdetector_channel base class. This is not ready for a NIAC vote yet. 
 This also raised questions about how to link data together in NXdata. 
 
+Next topic is the virtual_pixel_correction_applied field, https://github.com/nexusformat/NIAC/issues/94, The vote is for accepting it. 12 votes in favour, accepted. 
 
