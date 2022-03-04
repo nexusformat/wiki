@@ -95,7 +95,13 @@ NIAC members Present: Ben Watts, Sandor Brockhauser, Pete Jemian, Aaron Brewster
 
 non-NIAC Present: Markus Kuehbach, Tommaso Pincelli
 
+With 14 NIAC members attending we have a quorum to make decisions by a small margin.
 
+Votes are on github. Links are provided. The voting period is one week. 
 
+Publishing the NeXus ontology on PURL. Automatically generated from NXDL. PURL provides persistent identifiers for NeXus and persists it. Quality checking the NeXus ontology is on us.  Motion to publish the NeXus ontology on PURL: Voting at https://github.com/nexusformat/NIAC/issues/95#issuecomment-1059210877. 12 agreed 
+Thus the motion is approved.
+
+Changing gain_setting in NXdetector to be free form and not an enum. Votes at https://github.com/nexusformat/NIAC/issues/100, 9 agreed so far
 
 
