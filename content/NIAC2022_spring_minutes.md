@@ -108,7 +108,7 @@ Reserve the private prefix DECTRIS for the company DECTRIS. Issue: https://githu
 
 Next issue: allowing arrays of strings as axis dimensions, https://github.com/nexusformat/NIAC/issues/97, This drifted off into a discussion if we allow date time strings here. This was deferred to another proposal. We vote on allowing NX_CHAR or NX_NUMBER arrays as axis in NXdata. 11 votes in agreement so far.
 
-
-
+Allow NXdetector_channel for storing detector channel specific parameters. https://github.com/nexusformat/definitions/issues/940#issuecomment-972672865. The consensus is that we encourage further development of this until we have a pull request for a NXdetector_channel base class. This is not ready for a NIAC vote yet. 
+This also raised questions about how to link data together in NXdata. 
 
 
