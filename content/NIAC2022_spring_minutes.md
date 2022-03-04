@@ -119,4 +119,22 @@ The next issue is to protect the main branch of the github repository in order t
 
 Next issue is to add image_key to NXdetector. It is already used in NXtomo. The issue is https://github.com/nexusformat/NIAC/issues/111. Approved with 11 votes. 
 
-With the votes out of the way we started discussing NXmpes. Which improves NXmpes.  This is a processed data application definition. The approach is to agree on  a processed data standard and when people got used to the standard push for a raw data format. The field is dominated by vendors. 
+With the votes out of the way we started discussing NXmpes. Which improves NXmpes.  This is a processed data application definition. The approach is to agree on  a processed data standard and when people got used to the standard push for a raw data format. The field is dominated by vendors. In some cases, data files provided by commercial instruments can be encrypted. In many other cases, the data is obfuscated with undocumented calibrations and processing. FAIRMAT aims to provide the community with exchange formats (processed data) with the hope of increasing demand for more open formats for raw data files.
+
+Discuss application definitions for electron microscopy. Lenses are an integral part of microscopes and we can build a detailed model of the instrument via description of a set of lenses. Can see value in having base classes for all types of lenses - still want to find good names for the classes. BW encourages FAIRMAT to develop a very general lens base class that covers all cases - NXxraylens could be deprecated if a suitable replacement is available.
+Current situation for atom probe microscopy of scraping data out of commercial file formats with limited knowledge. Atom probe data needs high precision that is difficult to get from commercial data files. Published methods tend to be incomplete and the community is wanting to not accept this in future. They are trying to include as many details as possible.
+Current situation in electron microscopy is also heavily reliant on commercial suppliers, so incentive for open protocols is very low. Vendors provide all-in-one gui-based software to make customers happy, but results in lack of openness in the data and lots of undefined processing. The sample stage can be very complex with lots of versatile capabilities. This lead to NXstage_lab therefore contains some fields, but more importantly can act as a container for including lots of further base classes describing further capabilities.
+
+Discussion of tracking the history of a sample or session. lab books versus large files or a master-file or a database. Sample synthesis is an example where collecting an entire history together is valuable. Connecting the data and actions together with ontologies is something that FAIRMAT would like to ework towards.
+
+BW suggests bringing up these application definitions in future telcos. Announcing the intention beforehand can give people time to do some homework reading and we can focus on each part in detail over many meetings.
+
+
+Close session.
+
+Session D: March 4th 22:00 UTC
+------------------------------
+NIAC members Present: 
+
+non-NIAC Present: 
+
