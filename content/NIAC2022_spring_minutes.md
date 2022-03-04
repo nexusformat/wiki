@@ -83,5 +83,17 @@ The meaning of some symbols (in the old version) is not clear. We can port most 
 
 Tobias has gone through the base classes and deprecated NXgeometry and added in NXtransformations and depends_on. It looks fairly safe and repetitive with the exception of the images that have been added. We can mark it as ready to vote on with a note to discuss the images.
 
-SB has [written down some details regarding inheritance](https://github.com/nexusformat/NIAC/issues/119#issuecomment-1058508119) in order to explain the way NeXus currently operates with formal language.
+SB has [written down some details regarding inheritance](https://github.com/nexusformat/NIAC/issues/119#issuecomment-1058508119) in order to explain the way NeXus currently operates with formal language. Feedback and comments are welcome (please post to the issue).
+
+SB presents the [documentation for the FAIRMAT proposed application definitions](https://fairmat-experimental.github.io/nexus-fairmat-proposal/d122a69ce0c953805e60a662e9580ee2c4a6fae7/index.html) that includes the feature allowing the community to annotate the docs to make comments and suggest improvements. Carola walks us through the proposed ellipsometry application definition. PJ points out that the new files should go to the `contributed_definitions` folder, which SB has already implemented in the pull request.
+
+Close session.
+
+Session C: March 4th 14:00 UTC
+------------------------------
+NIAC members Present: 
+
+non-NIAC Present: 
+
+
 
