@@ -134,9 +134,9 @@ Close session.
 
 Session D: March 4th 22:00 UTC
 ------------------------------
-NIAC members Present: Russ Berg, Peter Jemian, Freddie Akeroyd, Mark Koennecke, SAndor Brockhauser, Ben Watts, Wout, Aaron Brewster, Takahiro Matsumoto 
+NIAC members Present: Russ Berg, Peter Jemian, Freddie Akeroyd, Mark Koennecke, Sandor Brockhauser, Ben Watts, Wout de Nolf, Aaron Brewster (AB), Takahiro Matsumoto 
 
 non-NIAC Present: 
 
 * Leave "Fix up NXBeam symbols and polarization" https://github.com/nexusformat/NIAC/issues/101 as need Aaron
-* NXmx total_flux https://github.com/nexusformat/NIAC/issues/96 need way to specify one of a set of fields is present in NXDL. There is "flux" and "total_flux" currently, discussion was around whether NXmonitor could be used for this and also whether flux and total_flux could be merged into a single flux field. NXstxm has a NXmonitor called control 
+* NXmx total_flux https://github.com/nexusformat/NIAC/issues/96 need way to specify one of a set of fields is present in NXDL. There is "flux" and "total_flux" currently, discussion was around whether NXmonitor could be used for this and also whether flux and total_flux could be merged into a single flux field. NXstxm has a NXmonitor called control. AB will consult MX community and discuss if NXmonitor would work here.
