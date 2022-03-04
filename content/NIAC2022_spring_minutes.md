@@ -91,7 +91,7 @@ Close session.
 
 Session C: March 4th 14:00 UTC
 ------------------------------
-NIAC members Present: Ben Watts, Sandor Brockhauser, Pete Jemian, Aaron Brewster, Chen Zhang, Heike Goerzig, Herbert Bernstein, Ray Osborn, Stephen Cottrell, Wout de Nolf, Peter Chang, Mark Koennecke, Russ Berg, 
+NIAC members Present: Ben Watts, Sandor Brockhauser, Pete Jemian, Aaron Brewster, Chen Zhang, Heike Goerzig, Herbert Bernstein, Ray Osborn, Stephen Cottrell, Wout de Nolf, Peter Chang, Mark Koennecke, Russ Berg, Takahiro Matsumoto
 
 non-NIAC Present: Markus Kuehbach, Tommaso Pincelli
 
