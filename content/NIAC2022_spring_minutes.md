@@ -113,3 +113,4 @@ This also raised questions about how to link data together in NXdata.
 
 Next topic is the virtual_pixel_correction_applied field, https://github.com/nexusformat/NIAC/issues/94, The vote is for accepting it. 12 votes in favour, accepted. 
 
+The NIAC decided in 2012 to deprecate NXgeometry and introduce NXtransformations and depends_on fields in any positionable NeXus base classes. The issues is https://github.com/nexusformat/NIAC/issues/109, This vote is to confirm that the changes sugegsted reflect the NIAC vote of 2012. Approved with 12 votes. 
