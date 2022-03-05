@@ -151,3 +151,6 @@ Add geometry information to NXbeam https://github.com/nexusformat/NIAC/issues/11
 
 https://github.com/nexusformat/NIAC/issues/99 , https://github.com/nexusformat/definitions/pull/913 - this looks like a bugfix so OK to merge.
 
+Question about choice of fields - seems there is a choice of groups in https://github.com/nexusformat/definitions/blob/1af5f99cbfe0741c50cba3936bc793127390c410/base_classes/NXdetector.nxdl.xml#L779-L792 and this could potentially be extended to fields?
+
+BW will create page of votes and send out doodle for choice of final meeting date
