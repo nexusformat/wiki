@@ -66,8 +66,8 @@ Minutes
 Minutes have been taken [here](https://www.nexusformat.org/NIAC2022_spring_minutes.html). A chorum was achieved in session *C* and below is a summary of proposals that were voted on.
 
 
-|    Proposal     |  Implemntation  |   Vote Count    |
-| --- | --- | --- |
-| [PURL for NeXus Ontology](https://github.com/nexusformat/NIAC/issues/95#issuecomment-1059210877) | [http://purl.org/nexusformat/definitions/](http://purl.org/nexusformat/definitions/) | Ongoing |
-|  |  |  |
+|    Proposal     |  Discussion  |  Implemntation  |   Vote Count    |
+| --- | --- | --- | --- |
+| [PURL for NeXus Ontology](https://github.com/nexusformat/NIAC/issues/95#issuecomment-1059210877) | [PURL for NeXus Ontology](https://github.com/nexusformat/NIAC/issues/95) | `http://purl.org/nexusformat/definitions/` | Ongoing |
+| [Approve clarification of gain_setting in NXdetector](https://github.com/nexusformat/NIAC/issues/100#issue-1154265378) | [Clarify gain_setting in NXdetector](https://github.com/nexusformat/definitions/issues/894) | [Pull#896](https://github.com/nexusformat/definitions/pull/896) | Ongoing |
 |  |  |  |
