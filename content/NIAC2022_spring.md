@@ -59,4 +59,15 @@ The meeting will consist of 4 sessions over the 3rd and 4th of March, plus a 5th
 <TR><TD> Final </TD><TD> TBD </TD><TD>   </TD></TR>
 </table>
 
-Minutes will be taken [here](https://github.com/nexusformat/wiki/blob/master/content/NIAC2022_spring_minutes.md).
+  
+Minutes
+-------
+
+Minutes have been taken [here](https://www.nexusformat.org/NIAC2022_spring_minutes.html). A chorum was achieved in session *C* and below is a summary of proposals that were voted on.
+
+
+|    Proposal     |  Implemntation  |   Vote Count    |
+| --- | --- | --- |
+| [PURL for NeXus Ontology](https://github.com/nexusformat/NIAC/issues/95#issuecomment-1059210877) | [http://purl.org/nexusformat/definitions/](http://purl.org/nexusformat/definitions/) | Ongoing |
+|  |  |  |
+|  |  |  |
