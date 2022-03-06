@@ -56,14 +56,14 @@ The meeting will consist of 4 sessions over the 3rd and 4th of March, plus a 5th
 </table>
   </TD><TD> <A href="https://psich.zoom.us/j/64650182627?pwd=c08xY0NxRGt1Z0FaQkxZRlRBZEVTUT09">Zoom link</A><BR>
   ID: 646 5018 2627 <BR>passcode: nexus  </TD></TR>
-<TR><TD> Final </TD><TD> TBD </TD><TD>   </TD></TR>
+<TR><TD> <font size="+5">Final</font><BR>14:00-16:00 UTC </TD><TD> <A href="https://strawpoll.com/polls/3RnYpRlXJye">Poll</A> </TD><TD>   </TD></TR>
 </table>
 
   
 Minutes
 -------
 
-Minutes have been taken [here](https://www.nexusformat.org/NIAC2022_spring_minutes.html). A chorum was achieved in session *C* and below is a summary of proposals that were voted on.
+Minutes have been taken [here](https://www.nexusformat.org/NIAC2022_spring_minutes.html). A chorum was achieved in session **C** and below is a summary of proposals that were voted on. As per the [constitution](https://www.nexusformat.org/NIAC.html#constitution), voting shall remain open for a week (in practice, until the final session). 
 
 
 |    Proposal (link to voting)     |  Discussion  |  Implementation  |   Vote Count    |
