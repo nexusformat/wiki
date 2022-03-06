@@ -63,7 +63,7 @@ The meeting will consist of 4 sessions over the 3rd and 4th of March, plus a 5th
 Minutes
 -------
 
-Minutes have been taken [here](https://www.nexusformat.org/NIAC2022_spring_minutes.html). A chorum was achieved in session **C** and below is a summary of proposals that were voted on. As per the [constitution](https://www.nexusformat.org/NIAC.html#constitution), voting shall remain open for a week (in practice, until the final session). 
+Minutes have been taken [here](https://www.nexusformat.org/NIAC2022_spring_minutes.html). A chorum was achieved in session **C** and below is a summary of proposals that were voted on. As per the [constitution](https://www.nexusformat.org/NIAC.html#constitution), voting shall remain open for a week (in practice, until the final session). NIAC members can cast their vote by following the link in the "proposal" column and then adding an emoji reaction (thumbs-up to approve, thumbs-down to reject, or any other amoji to abstain).
 
 
 |    Proposal (link to voting)     |  Discussion  |  Implementation  |   Vote Count    |
