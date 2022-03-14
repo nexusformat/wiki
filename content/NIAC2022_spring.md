@@ -56,7 +56,16 @@ The meeting will consist of 4 sessions over the 3rd and 4th of March, plus a 5th
 </table>
   </TD><TD> <A href="https://psich.zoom.us/j/64650182627?pwd=c08xY0NxRGt1Z0FaQkxZRlRBZEVTUT09">Zoom link</A><BR>
   ID: 646 5018 2627 <BR>passcode: nexus  </TD></TR>
-<TR><TD> <font size="+5">Final</font><BR>14:00-16:00 UTC </TD><TD> <A href="https://strawpoll.com/polls/3RnYpRlXJye">Poll</A> </TD><TD>   </TD></TR>
+<TR><TD> <font size="+5">Final</font><BR>March 15th<BR>14:00-16:00 UTC </TD><TD>
+  <table>
+<TR><TD>Tokyo</TD><TD>Fri 23:00</TD></TR>
+<TR><TD>San Fran</TD><TD>Fri 06:00</TD></TR>
+<TR><TD>New York</TD><TD>Fri 09:00</TD></TR>
+<TR><TD>London</TD><TD>Fri 14:00</TD></TR>
+<TR><TD>Zürich</TD><TD>Fri 15:00</TD></TR>
+</table>
+  </TD><TD> <A href="https://psich.zoom.us/j/61232666591?pwd=cE1xVXBLUi9XR0dkbzdFdnQ4NnNuUT09">Zoom link</A><BR>
+  ID: 612 3266 6591 <BR>passcode: nexus  </TD></TR>
 </table>
 
   
