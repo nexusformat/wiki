@@ -154,3 +154,36 @@ https://github.com/nexusformat/NIAC/issues/99 , https://github.com/nexusformat/d
 Question about choice of fields - seems there is a choice of groups in https://github.com/nexusformat/definitions/blob/1af5f99cbfe0741c50cba3936bc793127390c410/base_classes/NXdetector.nxdl.xml#L779-L792 and this could potentially be extended to fields?
 
 BW will create page of votes and send out doodle for choice of final meeting date
+
+
+Session E: March, 15, 14:00 UTC
+-------------------------------
+
+Pete Jemian brought up the topic of holding a code camp for implementing the decisions from NIAC. After some discussions we 
+agreed to hold this in may. A doodle poll will be held in order to find a suitable date. BW clarified that we do not vote on code camps.
+
+A discussion about the default attribute. There is some confusuion about if the default attribute is a path to the default plot item or 
+a chain. The consensus was that it is a chain and the documentation ought to be clarified. 
+
+Then there is the problem that now many base classes like NXcapillary have the default group attribute without there being a NXdata 
+group foreseen in the group. BW linked this issue to the problem about the inheritance model of NeXus. This is to be discussed at 
+the next code camp. MK reminded the group that the Interfaces proposal which suggested some inheritance in base classes was shot
+down at NIAC 2018.
+
+We agreed that there are no further discussions required on the voting items from session C. 
+
+AB brought up #896, clarifying the NXdetector gain_setting for discussion. The list of known gain settings was amended. The group made 
+suggestions how to improve the text even more. AB suggested to vote on the proposed and amended changes in #896. The vote is at https://github.com/nexusformat/NIAC/issues/100#issuecomment-1068071881
+
+AB brought up NXmx_total_flux, #986. There is some discussion about using NXmonitor instead of the flux fields. The MX community uses flux for 
+a use case for which NeXus has invented NXmonitor. There is also discussion about the dimensionality of flux. Apparently, some beam lines 
+give a single number here as the beam line is very stable or the normalisation is done before writing the file. Others store a value per image in 
+order to allow for later normalisation. HB points out that for crystallography you have to be descriptive. If you are prescriptive as NeXus tries 
+to be, wou will be ignored. Various suggestions to improve the wording of AB's proposal were made and applied.  It was felt that this needs further 
+discussion and the discussion was adjourned. 
+
+The next issue is the clarification of NXbeam espcially the polarisation parameters. THis is issue #858. The proposal was reviewed. There is some discussion 
+about the meaning of the stokes parameters. Peter Chang agreed to clarify this. RO brought up that this has to be discussed with neutron and light scattering people. A solution is not to deprecate the old fields but rather add the new proposed new fields. With neutrons many bespoke devices are used for polarisation analysis. Thus no standard can be proposed.
+
+Meeting closed with one open vote. Next steps will be Doodles for the code camp and a NeXus telco.
+
