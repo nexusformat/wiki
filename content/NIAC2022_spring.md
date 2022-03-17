@@ -85,5 +85,6 @@ Minutes have been taken [here](https://www.nexusformat.org/NIAC2022_spring_minut
 | [adding `depends_on` to various base classes](https://github.com/nexusformat/NIAC/issues/109#issuecomment-1059283549) | [Pull#999](https://github.com/nexusformat/definitions/pull/999) | [Pull#999](https://github.com/nexusformat/definitions/pull/999) | Ongoing |
 | [Protect main branch of repositories](https://github.com/nexusformat/NIAC/issues/113#issuecomment-1059291945) | [protected branches docs](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches) |   | Ongoing |
 | [Add `image_key` to `NXdetector`](https://github.com/nexusformat/NIAC/issues/111#issuecomment-1059295950) | [Pull#994](https://github.com/nexusformat/definitions/pull/994)  | [Pull#994](https://github.com/nexusformat/definitions/pull/994) | Ongoing |
+| [Add recommended strings for `gain_setting`](https://github.com/nexusformat/NIAC/issues/100#issuecomment-1068071881) | [Pull#896](https://github.com/nexusformat/definitions/pull/896)  | [Pull#896](https://github.com/nexusformat/definitions/pull/896) | Ongoing |
 
 
