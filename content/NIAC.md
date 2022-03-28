@@ -148,6 +148,8 @@ Meetings
 --------
 
 -   [NIAC 2022](NIAC2022.html) NIAC Meeting, (hybrid)
+    hosted by the Paul Scherrer Institute, Switzerland, September 2022
+-   [Code Camp 2022](https://www.nexusformat.org/CodeCamp2022.html): Code Camp, (virtual)
 -   [Spring 2022 Virtaul NIAC](NIAC2022_spring.html) special NIAC Meeting, (virtual)
 -   [Code Camp 2020-2](CodeCamp2020-2.html) NeXus Code Camp 2020-2, (virtual)
     ~~hosted by the [European XFEL](https://www.xfel.eu/), Hamburg, Germany, October 2020.~~
