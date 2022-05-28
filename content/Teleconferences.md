@@ -17,7 +17,9 @@ We aim to publish an agenda a few days in advance of the meetings.
 
 ### 2022
 
-[Telco 20220527](Telco_20220527.html "wikilink") Friday, 27th May, 14:00 UTC
+[Telco 20220602](Telco_20220602.html "wikilink") Friday, 27th May, 14:00 UTC
+
+~~[Telco 20220527](Telco_20220527.html "wikilink") Friday, 27th May, 14:00 UTC~~
 
 [Telco 20220426](Telco_20220426.html "wikilink") Tuesday, 26th April, 14:00 UTC
 
