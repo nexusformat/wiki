@@ -30,7 +30,7 @@ All sessions will use the same Zoom meeting:
 * password: nexus
 
 <table>
-<TR><TH rowspan="2"> Session </TH><TH colspan="5"> Location </TH>
+<TR><TH rowspan="2"> Session </TH><TH colspan="5"> Location </TH></TR>
 <TR><TH>Tokyo</TH><TH>San Fran</TH><TH>New York</TH><TH>London</TH><TH>Zürich</TH></TR>
 <TR><TD> <font size="+10">A</font> <BR>09:00-11:00 UTC</TD><TD>18:00</TD><TD>02:00</TD><TD>05:00</TD><TD>10:00</TD><TD>11:00</TD></TR>
 <TR bgcolor="yellow"><TD> <font size="+10">B</font> <BR>13:00-15:00 UTC</TD><TD>22:00</TD><TD>06:00</TD><TD>09:00</TD><TD>14:00</TD><TD>15:00</TD></TR>
