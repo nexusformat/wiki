@@ -6,7 +6,7 @@ layout: wiki
 
 The 2022 NeXus Code Camp is scheduled for the week of June 13-17th and will focus on fixing issues to meet the next release milestone.
 
-At some point we must decide what issues and pull requests in the definitions repository will be finished
+At some point during the week, we must decide what issues and pull requests in the definitions repository will be finished
 by the end of this Code Camp for inclusion in the next release **this month**.  All unfinished issues
 and PRs for this milestone of the definitions repository will be moved to the next milestone.
 
