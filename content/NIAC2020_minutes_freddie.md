@@ -38,4 +38,21 @@ SB introduced [Group referencing an Application Definition](https://github.com/n
 
 SB introduced [base classes always extend NXobject. Can a base class extend another base class?](https://github.com/nexusformat/NIAC/issues/135) The NIAC has traditionally avoided too much interitance in base classes to limit complexity, base classes are generally dictionaries.Such a change would also require a validator to follow the relationships.  
 
+## Session C
+
+Present: AB, FA, SB, RO, PJ, LG, BW, RB, PC, MK, PC, HB, HG, WDN, ZC
+
+As this was a larger group with some new people, BW summariesed use fo the [project board](https://github.com/orgs/nexusformat/projects/2/views/1) and people taking ownership of issues to champion. 
+
+RO mentioned he had a PR about changes to documentation and asked if it needed a vote? BW confirmed that if it did not change how files were written (i.e. was e.g. clarification) then it did not need NIAC and could just go via normal PR approval. 
+
+It was discussed when to have a session to elect officers, later in the day looked better for best attendance due to time zones. The third session on Thursday was proposed.
+
+SB introduced [symbols to be connected to Field values](https://github.com/nexusformat/NIAC/issues/141) Symbols are used in definitions as placeholders for values and allow you to indicate that two arrays must have the same (or a related) size. Symbols themselves are, however, not explicitly documented and a new symbol cannot be defined in terms of existing symbols. The proposal was for a symbols table that would allow both. The NIAC likes the ideas put forward here and encourages preparatation of a more complete proposal.
+
+As an offshoot of this, use of math within a nexus definition of file was discussed. For the general case, a machine parsable syntax would need to be chosen - HB suggested Javascript might be a good one. As this point math was only being considered for dimension attributes, and the math is contained in the NXDL. AB mentioned [math support in nexus](https://github.com/nexusformat/definitions/issues/711)    which is having math applied in the NeXus file during reading, which has potential security issues if an arbitrary equation is allowed leading to a denial of service attack. However it was pointed out that reading an extremely large dataset in an incorrect way can lead to such a thing anyway! It was discussed if a simpler set of operations rayther than full equations could be used, but in this case the equation is quite complex. An interesting option is [HDF5 UDF](https://hdf5-udf.readthedocs.io/en/latest/) but this would tie nexus to HDF5.
+
+
+
+
 
