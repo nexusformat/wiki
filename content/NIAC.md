@@ -9,7 +9,7 @@ Current Members
 -   Benjamin Watts, Swiss Light Source, Switzerland (*Chair*)
 -   Herbert Bernstein, CIF (*non-facility member*)
 -   Aaron Brewster, Lawrence Berkeley Laboratory, USA
--   Stuart Campbell, Brookhaven National Laboratory/NSLS-II, USA (*Technical Release Manager*)
+-   Thomas Caswell, Brookhaven National Laboratory/NSLS-II, USA
 -   Bjørn Clausen, Los Alamos National Laboratory, USA
 -   Stephen Cottrell, Rutherford Appleton Laboratory, UK (*Muon Representative*)
 -   Freddie Akeroyd, Rutherford Appleton Laboratory, UK (*Neutron Representative*; *Executive Secretary*)
