@@ -11,9 +11,6 @@ stated in the [constitution](NIAC.html "wikilink").
 
 
 
-### Expire June 2022
-
--   Herbert Bernstein, CIF community (non-facility representative)
 
 ### Expire July, 2022
 
@@ -35,7 +32,6 @@ stated in the [constitution](NIAC.html "wikilink").
 
 ### Expire July, 2023
 -   Ray Osborn - Argonne National Laboratory (non-facility representative)
--   Stuart Campbell, BNL/NSLS-2, USA
 -   Tobias Richter, European Spallation Source, Sweden
 
 ### Expire August, 2023
@@ -53,6 +49,11 @@ stated in the [constitution](NIAC.html "wikilink").
 ### Expire December, 2024
 -   Wout de Nolf, ESRF, France
 -   Chen Zhang, Oak Ridge National Laboratory (SNS/HFIR), USA
+
+### Expire September 2025
+
+-   Herbert Bernstein, CIF community (non-facility representative)
+-   Thomas Caswell, BNL/NSLS-2, USA
 
 
 
