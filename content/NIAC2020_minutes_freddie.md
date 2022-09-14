@@ -15,3 +15,20 @@ BW began by summarising the meeting, and then there was a round of introductions
 The list of items to discuss is kept as a [github project](https://github.com/orgs/nexusformat/projects/2) and the committee then took some time to look through the list and decide on who should represent a given issue at this or a future session.  
 
 As there were not many members present it was decided to adjourn early and return in thew afternoon to discuss matters
+
+### Session B
+
+Present: HG, FA, WDN, SB, PJ, MarkuK, BW, PC, LG, TM, HB, CZ, MarkK
+
+As many people were remote, voting on issues would be via thumbs up or down attached to a voting comment on a ticket
+
+SB introduced [supporting the recommended property for Attributes](https://github.com/nexusformat/NIAC/issues/140) 
+PJ asked if there was any python code to render this this change yet, SB said that was in progress but the change did not break any existing documentation generation.
+It was proposed to  allow the "recommended" property (to complement "optional" which can be true or false) to be applied to attributes. This "recommended" property has already been approved for fields and groups, so this will just make attributes more consistent. VOTE: approved
+ 
+PJ commented that in general it was good if people selected nexusformat/developers in teh reviewer of tickets/PRs as we require one review.
+
+SB then introduced [Allow NXdata dimension variables to contain a list of strings](https://github.com/nexusformat/NIAC/issues/97) currently only NX_NUMBER data is allowed in axes, the change was to allow NX_CHAR too so e.g. channel names could be used as an axis for data. VOTE: approved 
+
+SB then introduced [Support for non-dimensional coordinates in NXdata](https://github.com/nexusformat/NIAC/issues/139) which intends to introduce virtual axes, which are like the [non-dimensional coordinates of the python xarrays package](https://docs.xarray.dev/en/stable/user-guide/terminology.html?highlight=non%20dimensional#term-Non-dimension-coordinate). BW wondered if this was adding too specialist and adding too much complexity? SB mentioned that a separate NXdata of rearranged data could be created to acheieve the same result, but that would be duplicating data. WDN suggested that this could aslo be achieved by flattening the axis data and linking via a virtual dataset, he posted an example on the ticket.     VOTE: it was decided not to propose this feature for NeXus at this time
+
