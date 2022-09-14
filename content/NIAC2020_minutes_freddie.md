@@ -36,6 +36,6 @@ SB introduced [NeXus Ontology v2](https://github.com/nexusformat/NIAC/issues/136
 
 SB introduced [Group referencing an Application Definition](https://github.com/nexusformat/NIAC/issues/138) this listed three approaches to ther problem of a complex meaurement where you would like to apply validation to a set of entries. There was discussion about this, `NXsubentry` was mentioend but this normally applies to multiple simultaneous techniques (multi modal) as opposed to a sequence of techniques. NeXus currently treates each NXentry as validated separately, so a prescribed sequence of NXentry is not validated. WDN proposed a subentry stucture that may be appriopriate on the ticket, SB will consider this and bring back and examplefor further discussion as appropriate. HG mentioned the use of sequence_index in NXprocess that might provide some mechanism. VOTE: deferred
 
-
+SB introduced [base classes always extend NXobject. Can a base class extend another base class?](https://github.com/nexusformat/NIAC/issues/135) The NIAC has traditionally avoided too much interitance in base classes to limit complexity, base classes are generally dictionaries.Such a change would also require a validator to follow the relationships.  
 
 
