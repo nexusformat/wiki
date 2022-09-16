@@ -14,7 +14,7 @@ BW began by summarising the meeting, and then there was a round of introductions
 
 The list of items to discuss is kept as a [github project](https://github.com/orgs/nexusformat/projects/2) and the committee then took some time to look through the list and decide on who should represent a given issue at this or a future session.  
 
-As there were not many members present it was decided to adjourn early and return in thew afternoon to discuss matters
+As there were not many members present it was decided to adjourn early and return in the afternoon to discuss matters
 
 ### Session B
 
