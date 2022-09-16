@@ -360,7 +360,7 @@ Changes can be merged
 
 BW because of low turnout for first session of the day it was proposed to use the first session for homework and instead meet for the second session, it was agreed
 
-Session G: Sept 16th 12:30-14:30 UTC 
+Session G: Sept 16th 10:00-12:00 UTC 
 ------------------------------------
 
 not used as aggreed upon in session F
