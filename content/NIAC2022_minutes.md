@@ -346,7 +346,7 @@ BW added comment "Replacing "VARIABLE" with "FIELDNAME" would be more general an
 WD made changes, BW made changes to NXdata.nxdl.xml
 Changes can be merged
 
-BW because of low turnout for first session of the day it was proposed to use the first session for homework and instead meet for teh second session, it was agreed
+BW because of low turnout for first session of the day it was proposed to use the first session for homework and instead meet for the second session, it was agreed
 
 End of session
 
