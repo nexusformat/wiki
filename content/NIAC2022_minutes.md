@@ -219,11 +219,12 @@ PJ the entire point of NXdata is to be able to plot the data
 MK suggests NX_ALPHANUM, consensus was in favor 
 BW proposaol to create NX_ALPHANUM to include NX_CHAR and NX_NUMBER
 
-
+-----------------------------------
 
 MK should NX_POSINT be renamed NX_UINT
 PC NX_UINT already exists
 
+-----------------------------------
 
 MK/SB/Markus discussion about inheritance of base class defs, application defs and cnxvalidate, many idea's and opinions expressed faster than could be recorded accurately
 there is not a consensus as to what is meant be "inheritance", 
@@ -251,8 +252,7 @@ BW presented his proposed changes in item 30 , PR https://github.com/nexusformat
 PC the documentation suggests that the links that are all in lower case imply that thay should be the actual names of the fields where the documentation should use upper case to indicate they would only be NX classes not actual names
 BW will make the changes and look at it again later
 
-
-
+-----------------------------------
 
 MK after the break and some further contemplation MK continued inheritance discussion from previous session
 MK because SB is trying to do something new with NEXUS, it needs a proposal and a discussion
@@ -262,15 +262,19 @@ Seems to be consensus that the future should include a "programmers" understandi
 duplication of definition code, but the problem is how to document this class relationship a)to non programmers and b) in a way that explains why we have inheritance in one place but not in another (NXdetector copies base class propoerties)
 BW suggests that maybe we should over haul it all
 
+-----------------------------------
+
 There was discussion about issue 1038 https://github.com/nexusformat/definitions/issues/1038
 It will require more discussion and was best kept for teh next codecamp
 Label changed to code camp
 
+-----------------------------------
 
 BW presented his changes to file(s) for item 30 https://github.com/nexusformat/definitions/pull/1190/files/758973719c5cab6843e7bc2a00a5bcd405339386..5716b3511a73ac76eb86e6e5b67d2346654e2090
 MK do these changes serve the significant part of the community? BW yes, to handle non single mode folks wouls really require a new NXxas definition as this one is really inadequate.
 After review the changes were voted on and accepted, code merged
 
+-----------------------------------
 
 AB raised Fix up NXBeam symbols and polarization https://github.com/nexusformat/NIAC/issues/101
 AB this is likely closed and can be removed
@@ -278,18 +282,14 @@ BW changes were already merged and were included into last release
 PJ there is nothing to do here, it has all been done
 AB concurred
 
+-----------------------------------
 
 AB said this issue was discussed yesterday and can be reviewed now,  Flux changes for NXmx https://github.com/nexusformat/definitions/pull/1035 is done
 PJ requested some changes relating to the documentation reference link
 BW added a comment that in order for the optional NXmonitor that is specified to be validated it must have a name https://github.com/nexusformat/definitions/pull/1035/files/a40bdc6beabeeb3c794c1083399f38bbb46300e4
 clarification was made to the docstring for the attribute flux must point to a field or link to a field with one of the 4 names listed
 
-
-
-
-
-	 
-			 
+ 
 			 
 
 Session F: Sept 15th 15:00-17:00 UTC
@@ -298,9 +298,11 @@ Session F: Sept 15th 15:00-17:00 UTC
 NIAC members Present: Russ Berg (RB), Ben Watts (BW), Peter Chang (PC), Pete Jemian (PJ), Wout de Nolf (WD), Freddie Akeroyd (FA), Sandor Brockhaus (SB), 
 Mark Koennecke (MK), Herbert Bernstein (HB), Aaron Brewster (AB), Luca Geliso (LG),  Raymond Osborn (RO), Heike Gorzig (HG)
 
+-----------------------------------
 
 BW The proposal is to accept the changes to NXmx (previous session) represented by pull request #1035, vote was unanimous to accept changes, marked approve
 
+-----------------------------------
 
 SB requests to vote on item 31, Clarify Data Types https://github.com/nexusformat/NIAC/issues/142
 BW presents summary of changes to clarify data types in issue 142
@@ -312,6 +314,7 @@ PC does not think there is a use case for this
 PJ says we have talkde about this
 BW proposes to vote to reject this with PC to add a comment explaining as to why there is no use case
 
+-----------------------------------
 
 BW presents issue 20 Elect Executive Officers issue https://github.com/nexusformat/NIAC/issues/137
 BW Position of Executine Chair request for volunteers, AB responded affirmitively, RB seconded, voting was unanimously accepted
@@ -319,23 +322,30 @@ BW Position of executive secretary, request for volunteers, SB responded affirmi
 BW Position of technical manager, BW request for volunteers, MK asked to accept the role and he did, PJ seconded, voting was unanimously accepted
 BW Position of defintions release manager, PC asked to continue on in the position, PJ seconded, voting was unanimously accepted 
 
+-----------------------------------
 
 SB items 15 -> 18 can be left until tomorrows session
+
+-----------------------------------
 
 AB presentented item 21 NXmx: Change entry/end_time_estimated from "required" to "recommended" issue https://github.com/nexusformat/definitions/issues/966
 HB proposes to leave the rules documented as they are and let Dectris deal with not being compliant
 AB making comment to respond to Dectris
 BW we will mark this item as done
 
+-----------------------------------
 
 BW raises item 10 NXsqom: filenames -> file_name https://github.com/nexusformat/NIAC/issues/63
 RB has not provided comment requested by BW back in feb 2022
 BW proposes to move it to next NIAC meeting
 
+-----------------------------------
+
 BW raises issue 9 NXsas: review use of minOccurs on various components https://github.com/nexusformat/NIAC/issues/58
 BW we need community involment in reccomendations PJ said he could
 There was discussion about "fair" by MK, SB, PJ, HG
 
+-----------------------------------
 
 BW raises issue 1  NXdata errors on an axis, signal or auxiliary signal PR https://github.com/nexusformat/definitions/pull/1047
 WD presents the changes he made to resolve the issue as was talked about yesterday
@@ -346,10 +356,127 @@ BW added comment "Replacing "VARIABLE" with "FIELDNAME" would be more general an
 WD made changes, BW made changes to NXdata.nxdl.xml
 Changes can be merged
 
+-----------------------------------
+
 BW because of low turnout for first session of the day it was proposed to use the first session for homework and instead meet for the second session, it was agreed
 
-End of session
+Session G: Sept 16th 12:30-14:30 UTC 
+------------------------------------
 
- 
+not used as aggreed upon in session F
+
+
+Session H: Sept 16th 12:30-14:30 UTC 
+------------------------------------
+
+NIAC members Present: Russ Berg (RB), Ben Watts (BW), Peter Chang (PC), Pete Jemian (PJ), Mark Koennecke (MK), Herbert Bernstein (HB), Aaron Brewster (AB), Sandor Brockhaus (SB), CHen Zhang (CZ)
+
+-----------------------------------
+
+PJ presented issue  NXsas: review minOccurs and group names https://github.com/nexusformat/definitions/pull/1194
+PJ went through file changes he made https://github.com/nexusformat/definitions/pull/1194/files
+PJ received comments from BW, MK, PC, PJ will make changes and bring this up again when they are done
+
+-----------------------------------
+
+SB question about project item 25 supporting the recommended property for Attributes https://github.com/nexusformat/NIAC/issues/140
+BW this is finished and can be marked done
+
+-----------------------------------
+
+BW asked if this was done: NXmx: Definitions for multi-channel (thresholds) data https://github.com/nexusformat/definitions/issues/940
+PJ, AB we need information from Dectris, so from perspective of NAIC 2022 this is done
+
+-----------------------------------
+
+BW raised project item 7 math in the <dim> element https://github.com/nexusformat/definitions/issues/1084
+AB we need a pull request for this
+group discussion about math element added to the symbols table to define new symbols that are used in the definition to specify dimensions etc. 
+MK raised a practical concern that because cnxvalidate is written in C that there be a library used to convert javascript to C if javascript will be
+used as the  essential supported math grammer that will be allowed/supported
+group discussion on possible use of javascript to exavulate math expressions in symbol definitions
+BW Proposal is to explore the use of javascript syntax for mathematical expressions in NXDL symbol tables (and elsewhere in NeXus) and encourage the production of a technical demonstration.
+BW proposed a vote to accept, PJ seconded,proposal was unanimously accepted
+
+-----------------------------------
+
+SB raised a discussion with BW about item 27 symbols to be connected to Field values https://github.com/nexusformat/NIAC/issues/141
+PC about having symbols definied not only in the sybmbols table but also in a new attribute to a group as an expression
+The outcome was that the need for such a thing is not clear
+BW asked if the topic required more discussion next session SB indicated no
+
+
+  
+
+Session I: Sept 16th 15:00-17:00 UTC 
+------------------------------------
+
+NIAC members Present: Russ Berg (RB), Ben Watts (BW), Peter Chang (PC), Pete Jemian (PJ), Mark Koennecke (MK), Herbert Bernstein (HB),  Sandor Brockhaus (SB), Freddie Akeroyd (FA), Aaron Brewster (AB), Raymond Osborn (RO),
+
+
+PJ mentioned PR NXsas: review minOccurs and group names https://github.com/nexusformat/definitions/pull/1194
+PJ raised a question regarding signal indices
+Group discussion about assumptions about indices that are not specified, assumption is the first in the list is the horizontal axis but we dont believe it is stated anywhere, it is just assumed
+PJ documentation states "C storage order" which isn't really helpful, should maybe be replaced by something more immediately understandable for everyone.
+MK propose change to the words "Row Major Order" instead
+PJ CHanges finalized https://github.com/nexusformat/definitions/pull/1194/files/aaed8881ea25d49d7920fee2f557e6ecbfa40492
+BW proposes motion to vote to accept, RB seconded https://github.com/nexusformat/NIAC/issues/58
+after Voting motion was unanimously approved
+PJ changes merged
+
+-----------------------------------
+
+BW raises [NIAC2020] Suggested improvements to the NXdata base class definition https://github.com/nexusformat/NIAC/issues/48
+PC there is a change requested before a PR can be executed
+BW suggests we put this issue aside, PJ seconded, it will get a telco label to make sure it gets examined on next telco/code camp
+
+-----------------------------------
+
+RB issue 322
+how to specify list of file paths
+PC shoudl be 1D array because we allow variable length strings
+BW suggests changing filenames to file_list, PJ says this already exists in NXxpcs and that there would be no collision and that the meaning is the same
+Group discussion on the question is there a statement in NEXUS to avoid plural in favor of singular field names, could really find anything that states that
+PC proposes to reject this issue as it doesn't appear to be a problem and not worth taking the chance on disrupting things for no apparent reason
+BW commented on this issue in GH that due to our conversation and the amount of time lapsed we wont change anything unless he comes back to make the case for this change
+BW asked if there were any objections to closing this issue, there were none,
+BW closed issue
+
+-----------------------------------
+
+SB raises that PR https://github.com/nexusformat/definitions/pull/1183 is ready for merging
+PJ merged in GH
+
+-----------------------------------
+
+BW raised project item 8 because RO was attending and we had time [NIAC2020] Suggested improvements to the NXdata base class definition https://github.com/nexusformat/NIAC/issues/48
+PC, RO, BW discuss Tobias comments
+BW putting this aside for today and look at in future telco, someone needs to look at teh proposed changes to NXdata to handle this
+
+-----------------------------------
+
+BW reviewing item 14 again, Proposal to add 'angles' attribute to NXdata groups https://github.com/nexusformat/NIAC/issues/102
+BW not going to reconsider this items concerns today
+RO asked will this extra array in NXdata to handle transformations require a NIAC vote
+BW only if itis a change to the NXdata base class and not the application definition
+
+-----------------------------------
+
+BW item 15 AppDef for Electron Microscopy https://github.com/nexusformat/NIAC/issues/103
+SB we can mark this as done for this meeting as they are still being worked on
+
+-----------------------------------
+
+same for project items:
+22 NeXus Ontology v2 https://github.com/nexusformat/NIAC/issues/136
+23 Group referencing an Application Definition https://github.com/nexusformat/NIAC/issues/138
+24 Support for non-dimensional coordinates in NXdata https://github.com/nexusformat/NIAC/issues/139
+
+-----------------------------------
+
+BW there are no more NIAC items in project board left, asked if there is anything else anyone wanted to raise for the NIAC
+RO asked PJ about PR https://github.com/nexusformat/definitions/pull/1145 Add nexusformat examples 
+
+
 
 ## NIAC2022 Minutes
