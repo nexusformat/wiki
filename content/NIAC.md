@@ -6,22 +6,24 @@ layout: wiki
 
 Current Members
 ---------------
--   Benjamin Watts, Swiss Light Source, Switzerland (*Chair*)
+-   Aaron Brewster, Lawrence Berkeley Laboratory, USA (*Chair*)
+-   Sandor Brockhauser, NOMAD Data Center (HU Berlin), Germany (*Executive Secretary*)
+-   Peter Chang, Diamond Light Source, UK (*Documentation Release Manager*)
+-   Mark Könnecke, Paul Scherrer Institut, Switzerland (*Technical Manager*)
+-   Benjamin Watts, Swiss Light Source, Switzerland
 -   Herbert Bernstein, CIF (*non-facility member*)
 -   Aaron Brewster, Lawrence Berkeley Laboratory, USA
 -   Thomas Caswell, Brookhaven National Laboratory/NSLS-II, USA
 -   Bjørn Clausen, Los Alamos National Laboratory, USA
 -   Stephen Cottrell, Rutherford Appleton Laboratory, UK (*Muon Representative*)
--   Freddie Akeroyd, Rutherford Appleton Laboratory, UK (*Neutron Representative*; *Executive Secretary*)
+-   Freddie Akeroyd, Rutherford Appleton Laboratory, UK (*Neutron Representative*)
 -   Heike Görzig, Helmholtz Zentrum Berlin, Germany
 -   Pete Jemian, Advanced Photon Source, USA
--   Mark Könnecke, Paul Scherrer Institut, Switzerland
 -   Raymond Osborn, Argonne National Laboratory, USA (*non-facility member*)
 -   Wout de Nolf, European Synchrotron Radiation Facility, France
 -   Jiro Suzuki, J-PARC, Japan
 -   Takahiro Matsumoto, Spring8, Japan
 -   Lajos Schrettner, the Extreme Light Infrastructure, Czech Republic, Hungary and Romania
--   Peter Chang, Diamond Light Source, UK (*Documentation Release Manager*)
 -   Russ Berg, Canadian Light Source, Canada
 -   Sandor Brockhauser, NOMAD Data Center (HU Berlin), Germany
 -   Majid Ounsy, Synchrotron Soleil, France
