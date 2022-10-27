@@ -303,7 +303,7 @@ BW suggests we put this issue aside, PJ seconded, it will get a telco label to m
 
 RB raises again [issue 322](https://github.com/nexusformat/definitions/issues/322) and how to specify list of file paths
 PC should be 1D array because we allow variable length strings
-BW suggests changing filenames to file_list, PJ says this already exists in NXxpcs and that there would be no collision since the meaning is the same
+BW suggests changing "filenames" to "file_list", PJ says this already exists in NXxpcs and that there would be no collision since the meaning is the same
 Group discussion on the question is there a statement in NEXUS to avoid plural in favor of singular field names, couldn't really find anything that states that directly
 PC proposes to reject this issue as it doesn't appear to be a problem and not worth taking the chance on disrupting things for no apparent reason
 BW commented on this issue in github that due to our conversation and the amount of time lapsed we won't change anything unless the original reporter of the issue replies to make the case for this change
@@ -312,39 +312,42 @@ BW closed issue
 
 -----------------------------------
 
-SB raises that PR https://github.com/nexusformat/definitions/pull/1183 is ready for merging
+SB raises that [PR 1183](https://github.com/nexusformat/definitions/pull/1183) is ready for merging
 PJ merged in GH
 
 -----------------------------------
 
-BW raised project item 8 because RO was attending and we had time [NIAC2020] Suggested improvements to the NXdata base class definition https://github.com/nexusformat/NIAC/issues/48
-PC, RO, BW discuss Tobias comments
-BW putting this aside for today and look at in future telco, someone needs to look at teh proposed changes to NXdata to handle this
+BW raised item [Suggested improvements to the NXdata base class definition](https://github.com/nexusformat/NIAC/issues/48) because RO was attending and we had time
+PC, RO, BW discuss Tobias' comments
+BW putting this aside for today and look at in future telco, someone needs to look at the proposed changes to NXdata to handle this
 
 -----------------------------------
 
-BW reviewing item 14 again, Proposal to add 'angles' attribute to NXdata groups https://github.com/nexusformat/NIAC/issues/102
+BW again reviewing item [Proposal to add 'angles' attribute to NXdata groups](https://github.com/nexusformat/NIAC/issues/102)
 BW not going to reconsider this items concerns today
 RO asked will this extra array in NXdata to handle transformations require a NIAC vote
-BW only if itis a change to the NXdata base class and not the application definition
+BW only if it is a change to the NXdata base class or the application definition
 
 -----------------------------------
 
-BW item 15 AppDef for Electron Microscopy https://github.com/nexusformat/NIAC/issues/103
+BW raises item [AppDef for Electron Microscopy](https://github.com/nexusformat/NIAC/issues/103)
 SB we can mark this as done for this meeting as they are still being worked on
 
 -----------------------------------
 
 same for project items:
-22 NeXus Ontology v2 https://github.com/nexusformat/NIAC/issues/136
-23 Group referencing an Application Definition https://github.com/nexusformat/NIAC/issues/138
-24 Support for non-dimensional coordinates in NXdata https://github.com/nexusformat/NIAC/issues/139
+[NeXus Ontology v2](https://github.com/nexusformat/NIAC/issues/136)
+[Group referencing an Application Definition](https://github.com/nexusformat/NIAC/issues/138)
+[Support for non-dimensional coordinates in NXdata](https://github.com/nexusformat/NIAC/issues/139)
 
 -----------------------------------
 
-BW there are no more NIAC items in project board left, asked if there is anything else anyone wanted to raise for the NIAC
+BW there are no more NIAC items remaining in the project board, asked if there is anything else anyone wanted to raise for the NIAC
 
-RO asked PJ about PR https://github.com/nexusformat/definitions/pull/1145 Add nexusformat examples 
+RO asked PJ about PR [Add nexusformat examples](https://github.com/nexusformat/definitions/pull/1145)
+PJ gave positive reply
+
+BW calls the meeting to a close
 
 
 
