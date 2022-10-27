@@ -65,10 +65,8 @@ non-NIAC Present: Markus Kunbach (Markus),
 
 -----------------------------------
 
-PJ raised XPCS discussion
-PJ XPCS issue (1007 https://github.com/nexusformat/definitions/issues/1007) still need discussions in the technical committee and would like to invite those people to next telco to raise related issues.
-BW issues 1004/5 and 6 also have been raised for discussion
-PJ XPCS community write processed data data (which is what the NXxpcs definition covers) in 2 different ways so consensus needs to be discussed with a focus on standardizing on NEXUS
+PJ raised [XPCS issue 1007 ](https://github.com/nexusformat/definitions/issues/1007) but it still needs discussions in the technical committee and would like to invite those people to next telco to discuss related issues, such as issues [1004](https://github.com/nexusformat/definitions/issues/1004), [1005](https://github.com/nexusformat/definitions/issues/1005) and [1006](https://github.com/nexusformat/definitions/issues/1006).
+PJ XPCS community write processed data data (which is what the NXxpcs definition covers) in 2 different ways so consensus needs to be discussed with a focus on standardizing on NeXus
 PJ,LG discussion about g2 function
 PJ 2 ways the data (output of the g2 functions) are linked list of keys to g2 functions and the other is a 2D array
 BW this is a feature of HDF5 and there is some resistance to becoming dependant on hdf5
@@ -80,25 +78,25 @@ PJ the typical data size of XPCS is on the order of Gigabytes
 
 -----------------------------------
 
-BW looking at items in project there are 2 that likely do not need to be here, #13 (ISSUE 101 https://github.com/nexusformat/NIAC/issues/101) it has already been discussed in spring and merged already,
+BW looking at items in project there are 2 that likely do not need to be here, [ISSUE 101](https://github.com/nexusformat/NIAC/issues/101) has already been discussed in spring and merged already,
 PC suggested that we wait to see if AB connects to meeting to see if he agrees that this can be closed, 
-BW #11 (ISSUE 88), doesn't think it needs a NIAC decision and can be left for next code camp
-BW the issue author was pointing out that documentation was a bit messy so BW suggesting this be moved from NIAC repo to the DEFINITIONS repo and consensus achieved for this
+BW think [ISSUE 88](https://github.com/nexusformat/NIAC/issues/88) doesn't needs a NIAC decision and can be left for next code camp
+BW the issue author was pointing out that documentation was a bit messy so BW suggesting this be moved from NIAC repo to the DEFINITIONS repo and consensus was achieved for this
 BW moved issue to definitions repo and added CODECAMP label
 
 -----------------------------------
 
-SB inquired about item 3 issue https://github.com/nexusformat/definitions/issues/945, idendify labels for axis, of type NX_NUMBER or NX_CHAR, 
+SB inquired about [issue 945](https://github.com/nexusformat/definitions/issues/945), identify labels for axis, of type NX_NUMBER or NX_CHAR, 
 SB inquireds about crteate something like NX_ANY that could handle either NX_NUMBER or NX_CHAR
 PJ has partially proposed using the type attribute using logical operators to include "or" in the type specification
 PJ forsees difficulty in XML specofication unless a new type that includes both NX_CHAR and NX_NUMBER is used
 SB suggests something like NX_SIMPLE which would represnt a string or a single part number, not complex or quarternian numbers
 PJ/SB maybe NX_LABEL? 
-BW is writing item 31 this up as an issue 142 https://github.com/nexusformat/NIAC/issues/142 that references 945
+BW is writing this up as [issue 142](https://github.com/nexusformat/NIAC/issues/142) that references [issue 945](https://github.com/nexusformat/definitions/issues/945)
 BW and PJ had intense discussion about cats
 PJ the entire point of NXdata is to be able to plot the data
 MK suggests NX_ALPHANUM, consensus was in favor 
-BW proposaol to create NX_ALPHANUM to include NX_CHAR and NX_NUMBER
+BW prepared proposal to create NX_ALPHANUM to include NX_CHAR and NX_NUMBER, but voting is delayed until more members are present.
 
 -----------------------------------
 
@@ -107,20 +105,17 @@ PC NX_UINT already exists
 
 -----------------------------------
 
-MK/SB/Markus discussion about inheritance of base class defs, application defs and cnxvalidate, many idea's and opinions expressed faster than could be recorded accurately
-there is not a consensus as to what is meant be "inheritance", 
+MK/SB/Markus discussion about inheritance of base class defs, application defs and cnxvalidate, many ideas and opinions expressed faster than could be recorded accurately
+there is not a consensus as to what is meant by "inheritance", 
 MK there is only proper inheritcance in application definitions, when it comes to base class "inheritance" it is really a reference only
-MK type= will only name a base class not an application definition, extends is used for extending an application definition
+MK `type` will only name a base class not an application definition, `extends` is used for extending an application definition
 SB what is the actual restriction for not allowing "inheritance"?, there should be a way to include an application def in another without having to copy everything
 SB we already (using the example of NXsubentry) have an inhreitance and the questions is why is this limited to NXsubentry inheriting NXentry only
 Markus we (electro microscopy) would like some guidance on how to do this then to just create 50 sub definitions and suggesting this for in an application definition
 SB the main issue is to use what he is seeing is already there (NXsubentry inherits NXentry) and use that for appl defs so that there isnt all this copied definition 
-BW there is good arguments for inheritance, NXdetectoir is abn example as to why inheritance has been avoided for a long time, perhaps SB/Markus will be the motivators for getting this implimented
+BW there are good arguments for inheritance, NXdetector is an example where inheritance could be useful, but it has been avoided for a long time. Perhaps SB/Markus will be the motivators for getting this implimented
 
  
------------------------------------
-
-
 
 ## Session E: Sept 15th 12:30-14:30 UTC
 
