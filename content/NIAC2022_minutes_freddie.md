@@ -234,7 +234,7 @@ BW because of low turnout for first session of the day it was proposed to use th
 Session G: Sept 16th 10:00-12:00 UTC 
 ------------------------------------
 
-not used as aggreed upon in session F
+not used as agreed upon in session F
 
 
 ## Session H: Sept 16th 12:30-14:30 UTC 
@@ -243,35 +243,35 @@ NIAC members Present: Russ Berg (RB), Ben Watts (BW), Peter Chang (PC), Pete Jem
 
 -----------------------------------
 
-PJ presented issue  NXsas: review minOccurs and group names https://github.com/nexusformat/definitions/pull/1194
-PJ went through file changes he made https://github.com/nexusformat/definitions/pull/1194/files
+PJ presented issue  [NXsas: review minOccurs and group names](https://github.com/nexusformat/definitions/pull/1194)
+PJ went through file [changes he made](https://github.com/nexusformat/definitions/pull/1194/files)
 PJ received comments from BW, MK, PC, PJ will make changes and bring this up again when they are done
 
 -----------------------------------
 
-SB question about project item 25 supporting the recommended property for Attributes https://github.com/nexusformat/NIAC/issues/140
-BW this is finished and can be marked done
+SB question about item [supporting the recommended property for Attributes](https://github.com/nexusformat/NIAC/issues/140)
+BW this is already finished and can be marked done
 
 -----------------------------------
 
-BW asked if this was done: NXmx: Definitions for multi-channel (thresholds) data https://github.com/nexusformat/definitions/issues/940
-PJ, AB we need information from Dectris, so from perspective of NAIC 2022 this is done
+BW asked if this was done: [NXmx: Definitions for multi-channel (thresholds) data](https://github.com/nexusformat/definitions/issues/940)
+PJ, AB we need information from Dectris, so this is done from the perspective of NIAC 2022
 
 -----------------------------------
 
-BW raised project item 7 math in the <dim> element https://github.com/nexusformat/definitions/issues/1084
+BW raised item [math in the \<dim\> element](https://github.com/nexusformat/definitions/issues/1084)
 AB we need a pull request for this
 group discussion about math element added to the symbols table to define new symbols that are used in the definition to specify dimensions etc. 
 MK raised a practical concern that because cnxvalidate is written in C that there be a library used to convert javascript to C if javascript will be
-used as the  essential supported math grammer that will be allowed/supported
-group discussion on possible use of javascript to exavulate math expressions in symbol definitions
-BW Proposal is to explore the use of javascript syntax for mathematical expressions in NXDL symbol tables (and elsewhere in NeXus) and encourage the production of a technical demonstration.
+used as the essential supported math grammer that will be allowed/supported
+group discussion on possible use of javascript to evaluate math expressions in symbol definitions
+BW [Proposal is to explore the use of javascript syntax for mathematical expressions in NXDL symbol tables (and elsewhere in NeXus) and encourage the production of a technical demonstration](https://github.com/nexusformat/definitions/issues/1084#issuecomment-1249411564).
 BW proposed a vote to accept, PJ seconded,proposal was unanimously accepted
 
 -----------------------------------
 
-SB raised a discussion with BW about item 27 symbols to be connected to Field values https://github.com/nexusformat/NIAC/issues/141
-PC about having symbols definied not only in the sybmbols table but also in a new attribute to a group as an expression
+SB raised a discussion with BW about item [symbols to be connected to Field values](https://github.com/nexusformat/NIAC/issues/141)
+PC about having symbols defined not only in the sybmbols table but also in a new attribute to a group as an expression
 The outcome was that the need for such a thing is not clear
 BW asked if the topic required more discussion next session SB indicated no
 
