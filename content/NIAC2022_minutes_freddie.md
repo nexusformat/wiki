@@ -123,35 +123,34 @@ NIAC members Present: Russ Berg (RB), Ben Watts (BW), Peter Chang (PC), Pete Jem
 			 Herbert Bernstein (HB), Aaron Brewster (AB), Heike Gorzig (HG),  Raymond Osborn (RO),
 			 
 			 
-BW presented his proposed changes in item 30 , PR https://github.com/nexusformat/definitions/tree/1170-nxxas-documentation-improvement nxxas documentation improvement issue https://github.com/nexusformat/definitions/pull/1190
+BW presented his proposed changes to the [NXxas documentation](https://github.com/nexusformat/definitions/issues/1170) in a [pull request](https://github.com/nexusformat/definitions/pull/1190)
 PC the documentation suggests that the links that are all in lower case imply that thay should be the actual names of the fields where the documentation should use upper case to indicate they would only be NX classes not actual names
-BW will make the changes and look at it again later
+BW will make the changes and we can look at it again later
 
 -----------------------------------
 
 MK after the break and some further contemplation MK continued inheritance discussion from previous session
-MK because SB is trying to do something new with NEXUS, it needs a proposal and a discussion
+MK because SB is trying to do something new with NeXus, it needs a proposal and a discussion
 SB the data he deals with doesn't really support the idea of a "single file" data is always spread across multiple files and produced by multiple vendors, so they are trying to harmonize all the sources
-SB clarified the inheritance currently exists in NEXUS and what he is looking for
-Seems to be consensus that the future should include a "programmers" understanding of inheritiancr to create new base classes so that base classes can be exteneded via inheritance to avoid
-duplication of definition code, but the problem is how to document this class relationship a)to non programmers and b) in a way that explains why we have inheritance in one place but not in another (NXdetector copies base class propoerties)
-BW suggests that maybe we should over haul it all
+SB clarified the inheritance currently exists in NeXus and what he is looking for
+Seems to be consensus that the future should include a "programmers" understanding of inheritance to create new base classes so that base classes can be exteneded via inheritance to avoid duplication of definition code, but the problem is how to document this class relationship a)to non programmers and b) in a way that explains why we have inheritance in one place but not in another (NXdetector copies base class propoerties)
+BW suggests that maybe we should consider to overhaul the entire system at a code camp
 
 -----------------------------------
 
-There was discussion about issue 1038 https://github.com/nexusformat/definitions/issues/1038
-It will require more discussion and was best kept for teh next codecamp
+There was discussion about NXDL versions in [issue 1038](https://github.com/nexusformat/definitions/issues/1038)
+It will require more discussion and was best kept for the next code camp
 Label changed to code camp
 
 -----------------------------------
 
-BW presented his changes to file(s) for item 30 https://github.com/nexusformat/definitions/pull/1190/files/758973719c5cab6843e7bc2a00a5bcd405339386..5716b3511a73ac76eb86e6e5b67d2346654e2090
-MK do these changes serve the significant part of the community? BW yes, to handle non single mode folks wouls really require a new NXxas definition as this one is really inadequate.
+BW again presented his [changes to NXxas](https://github.com/nexusformat/definitions/pull/1190/files)
+MK asks if these changes serve the significant part of the community? BW answers yes, these changes are a significant improvement, but it is far from perfect still. To handle experiments doing multiple modes of measurement, it would really require a new NXxas definition as this one is really restricted to a single mode.
 After review the changes were voted on and accepted, code merged
 
 -----------------------------------
 
-AB raised Fix up NXBeam symbols and polarization https://github.com/nexusformat/NIAC/issues/101
+AB raised the [Fix up NXBeam symbols and polarization](https://github.com/nexusformat/NIAC/issues/101) issue
 AB this is likely closed and can be removed
 BW changes were already merged and were included into last release
 PJ there is nothing to do here, it has all been done
@@ -159,13 +158,11 @@ AB concurred
 
 -----------------------------------
 
-AB said this issue was discussed yesterday and can be reviewed now,  Flux changes for NXmx https://github.com/nexusformat/definitions/pull/1035 is done
+AB said this issue was discussed yesterday and can be reviewed now,  [Flux changes for NXmx](https://github.com/nexusformat/definitions/pull/1035) is done
 PJ requested some changes relating to the documentation reference link
-BW added a comment that in order for the optional NXmonitor that is specified to be validated it must have a name https://github.com/nexusformat/definitions/pull/1035/files/a40bdc6beabeeb3c794c1083399f38bbb46300e4
+BW added a comment that in order for the optional NXmonitor that is specified to be validated it [must have a name](https://github.com/nexusformat/definitions/pull/1035/files/a40bdc6beabeeb3c794c1083399f38bbb46300e4)
 clarification was made to the docstring for the attribute flux must point to a field or link to a field with one of the 4 names listed
 
- 
-			 
 
 ## Session F: Sept 15th 15:00-17:00 UTC
 
