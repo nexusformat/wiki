@@ -283,31 +283,30 @@ BW asked if the topic required more discussion next session SB indicated no
 NIAC members Present: Russ Berg (RB), Ben Watts (BW), Peter Chang (PC), Pete Jemian (PJ), Mark Koennecke (MK), Herbert Bernstein (HB),  Sandor Brockhaus (SB), Freddie Akeroyd (FA), Aaron Brewster (AB), Raymond Osborn (RO),
 
 
-PJ mentioned PR NXsas: review minOccurs and group names https://github.com/nexusformat/definitions/pull/1194
+PJ mentioned PR [NXsas: review minOccurs and group names](https://github.com/nexusformat/definitions/pull/1194)
 PJ raised a question regarding signal indices
 Group discussion about assumptions about indices that are not specified, assumption is the first in the list is the horizontal axis but we dont believe it is stated anywhere, it is just assumed
 PJ documentation states "C storage order" which isn't really helpful, should maybe be replaced by something more immediately understandable for everyone.
 MK propose change to the words "Row Major Order" instead
-PJ CHanges finalized https://github.com/nexusformat/definitions/pull/1194/files/aaed8881ea25d49d7920fee2f557e6ecbfa40492
-BW proposes motion to vote to accept, RB seconded https://github.com/nexusformat/NIAC/issues/58
+PJ [Changes finalized](https://github.com/nexusformat/definitions/pull/1194/files/aaed8881ea25d49d7920fee2f557e6ecbfa40492)
+BW proposes motion to [vote to accept](https://github.com/nexusformat/NIAC/issues/58#issuecomment-1249513045), RB seconded
 after Voting motion was unanimously approved
 PJ changes merged
 
 -----------------------------------
 
-BW raises [NIAC2020] Suggested improvements to the NXdata base class definition https://github.com/nexusformat/NIAC/issues/48
+BW raises an old item from [NIAC2020](https://www.nexusformat.org/NIAC2020.html) with [Suggested improvements to the NXdata base class definition](https://github.com/nexusformat/NIAC/issues/48)
 PC there is a change requested before a PR can be executed
 BW suggests we put this issue aside, PJ seconded, it will get a telco label to make sure it gets examined on next telco/code camp
 
 -----------------------------------
 
-RB issue 322
-how to specify list of file paths
-PC shoudl be 1D array because we allow variable length strings
-BW suggests changing filenames to file_list, PJ says this already exists in NXxpcs and that there would be no collision and that the meaning is the same
-Group discussion on the question is there a statement in NEXUS to avoid plural in favor of singular field names, could really find anything that states that
+RB raises again [issue 322](https://github.com/nexusformat/definitions/issues/322) and how to specify list of file paths
+PC should be 1D array because we allow variable length strings
+BW suggests changing filenames to file_list, PJ says this already exists in NXxpcs and that there would be no collision since the meaning is the same
+Group discussion on the question is there a statement in NEXUS to avoid plural in favor of singular field names, couldn't really find anything that states that directly
 PC proposes to reject this issue as it doesn't appear to be a problem and not worth taking the chance on disrupting things for no apparent reason
-BW commented on this issue in GH that due to our conversation and the amount of time lapsed we wont change anything unless he comes back to make the case for this change
+BW commented on this issue in github that due to our conversation and the amount of time lapsed we won't change anything unless the original reporter of the issue replies to make the case for this change
 BW asked if there were any objections to closing this issue, there were none,
 BW closed issue
 
