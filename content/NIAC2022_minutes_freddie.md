@@ -171,23 +171,23 @@ Mark Koennecke (MK), Herbert Bernstein (HB), Aaron Brewster (AB), Luca Geliso (L
 
 -----------------------------------
 
-BW The proposal is to accept the changes to NXmx (previous session) represented by pull request #1035, vote was unanimous to accept changes, marked approve
+BW The proposal is to accept the changes to NXmx (previous session) represented by [pull request #1035](https://github.com/nexusformat/definitions/pull/1035), vote was unanimous to accept changes, marked approve
 
 -----------------------------------
 
-SB requests to vote on item 31, Clarify Data Types https://github.com/nexusformat/NIAC/issues/142
+SB requests to vote on [Clarify Data Types](https://github.com/nexusformat/NIAC/issues/142)
 BW presents summary of changes to clarify data types in issue 142
 PJ that would still open up an issue of there still being text finding its way into NX_NUMBER, so PJ is not recomending including NX_BOOL in NX_NUMBER
-BW Proposal is to replace the description of NX_NUMBER in the NeXus manual with: "any of the set of non-compound number representations NX_INT, NX_UINT, NX_POSINT and NX_FLOAT." Voting was unanimous to accept proposal
-BW Proposal is to define NX_CHAR_XOR_NUM which encompasses NX_NUMBER and NX_CHAR such that either type can be used exclusively for all elements of the entire dataset. Voting was unanimous to accept proposal
-BW Proposal is to define NX_COMPOUND as encompassing the set of compound number types such as NX_COMPLEX, NX_CCOMPLEX, NX_PCOMPLEX and NX_QUATERNION. 
+BW [Proposal is to replace the description of NX_NUMBER in the NeXus manual with: "any of the set of non-compound number representations NX_INT, NX_UINT, NX_POSINT and NX_FLOAT."](https://github.com/nexusformat/NIAC/issues/142#issuecomment-1247957679) Voting was unanimous to accept proposal
+BW [Proposal is to define NX_CHAR_XOR_NUM which encompasses NX_NUMBER and NX_CHAR such that either type can be used exclusively for all elements of the entire dataset](https://github.com/nexusformat/NIAC/issues/142#issuecomment-1247951551). Voting was unanimous to accept proposal
+BW [Proposal is to define NX_COMPOUND as encompassing the set of compound number types such as NX_COMPLEX, NX_CCOMPLEX, NX_PCOMPLEX and NX_QUATERNION](https://github.com/nexusformat/NIAC/issues/142#issuecomment-1247961708). 
 PC does not think there is a use case for this
-PJ says we have talkde about this
-BW proposes to vote to reject this with PC to add a comment explaining as to why there is no use case
+PJ says we have talked about this
+BW proposes to vote to reject this with PC to add a comment explaining as to why there is no valid use case
 
 -----------------------------------
 
-BW presents issue 20 Elect Executive Officers issue https://github.com/nexusformat/NIAC/issues/137
+BW presents issue to [Elect Executive Officers](https://github.com/nexusformat/NIAC/issues/137)
 BW Position of Executine Chair request for volunteers, AB responded affirmitively, RB seconded, voting was unanimously accepted
 BW Position of executive secretary, request for volunteers, SB responded affirmitively, PJ seconded, vote was accepted
 BW Position of technical manager, BW request for volunteers, MK asked to accept the role and he did, PJ seconded, voting was unanimously accepted
@@ -199,26 +199,26 @@ SB items 15 -> 18 can be left until tomorrows session
 
 -----------------------------------
 
-AB presentented item 21 NXmx: Change entry/end_time_estimated from "required" to "recommended" issue https://github.com/nexusformat/definitions/issues/966
+AB presentented item [NXmx: Change entry/end_time_estimated from "required" to "recommended"](https://github.com/nexusformat/definitions/issues/966). Dectris want it to be "recommended" since they find it difficult to guarantee compliance, but the MX community want it to be "required" in order to make sure it is included.
 HB proposes to leave the rules documented as they are and let Dectris deal with not being compliant
-AB making comment to respond to Dectris
+AB making [comment to respond](https://github.com/nexusformat/definitions/issues/966#issuecomment-1248323401) to Dectris agreeing that the detector manufacturer only has to provide an API to allow the metadata to be included in the file and that it is the responsibility of those operating the detector to provide the actual metadata.
 BW we will mark this item as done
 
 -----------------------------------
 
-BW raises item 10 NXsqom: filenames -> file_name https://github.com/nexusformat/NIAC/issues/63
+BW raises item [NXsqom: filenames -> file_name](https://github.com/nexusformat/NIAC/issues/63)
 RB has not provided comment requested by BW back in feb 2022
 BW proposes to move it to next NIAC meeting
 
 -----------------------------------
 
-BW raises issue 9 NXsas: review use of minOccurs on various components https://github.com/nexusformat/NIAC/issues/58
-BW we need community involment in reccomendations PJ said he could
-There was discussion about "fair" by MK, SB, PJ, HG
+BW raises issue [NXsas: review use of minOccurs on various components](https://github.com/nexusformat/NIAC/issues/58)
+BW we need community involment in reccomendations - PJ said he could
+There was discussion about "fair" data by MK, SB, PJ, HG
 
 -----------------------------------
 
-BW raises issue 1  NXdata errors on an axis, signal or auxiliary signal PR https://github.com/nexusformat/definitions/pull/1047
+BW raises issue [NXdata errors on an axis, signal or auxiliary signal](https://github.com/nexusformat/definitions/pull/1047)
 WD presents the changes he made to resolve the issue as was talked about yesterday
 PC wanted some discussion to clarify what is meant by the word VARIABLE, 
 BW suggests changing VARIABLE to FIELDNAME in the docstring, 
@@ -229,7 +229,7 @@ Changes can be merged
 
 -----------------------------------
 
-BW because of low turnout for first session of the day it was proposed to use the first session for homework and instead meet for the second session, it was agreed
+BW because of low turnout for first session of the day it was proposed to use the first session tomorrow for homework and instead meet for the second session, it was agreed
 
 Session G: Sept 16th 10:00-12:00 UTC 
 ------------------------------------
