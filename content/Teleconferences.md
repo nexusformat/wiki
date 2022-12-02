@@ -15,7 +15,12 @@ in the corresponding agenda page below.
 
 We aim to publish an agenda a few days in advance of the meetings. 
 
+### 2023
+
+
 ### 2022
+
+[Telco 20221202](Telco_20221202.html "wikilink") Friday, 2nd December, 15:00 UTC
 
 [Telco 20221026](Telco_20221026.html "wikilink") Wednesday, 26th October, 15:00 UTC
 
