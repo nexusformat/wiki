@@ -12,10 +12,6 @@ stated in the [constitution](NIAC.html "wikilink").
 
 
 
-### Expire July, 2022
-
--   Lajos Schrettner, the Extreme Light Infrastructure, Czech Republic, Hungary and Romania
-
 ### Expire December, 2022
 
 -   Pete Jemian - APS, USA
@@ -54,6 +50,10 @@ stated in the [constitution](NIAC.html "wikilink").
 
 -   Herbert Bernstein, CIF community (non-facility representative)
 -   Thomas Caswell, BNL/NSLS-2, USA
+
+### Expire October, 2025
+
+-   Balázs Bagó, the Extreme Light Infrastructure, Czech Republic, Hungary and Romania
 
 
 
