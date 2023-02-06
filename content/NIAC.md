@@ -9,24 +9,21 @@ Current Members
 -   Aaron Brewster, Lawrence Berkeley Laboratory, USA (*Chair*)
 -   Sandor Brockhauser, Center for Materials Science Data (HU Berlin), Germany (*Executive Secretary*)
 -   Peter Chang, Diamond Light Source, UK (*Documentation Release Manager*)
--   Mark Könnecke, Paul Scherrer Institut, Switzerland (*Technical Manager*)
 -   Benjamin Watts, Swiss Light Source, Switzerland
 -   Herbert Bernstein, CIF (*non-facility member*)
 -   Thomas Caswell, Brookhaven National Laboratory/NSLS-II, USA
 -   Bjørn Clausen, Los Alamos National Laboratory, USA
--   Stephen Cottrell, Rutherford Appleton Laboratory, UK (*Muon Representative*)
--   Freddie Akeroyd, Rutherford Appleton Laboratory, UK (*Neutron Representative*)
 -   Heike Görzig, Helmholtz Zentrum Berlin, Germany
 -   Pete Jemian, Advanced Photon Source, USA
 -   Raymond Osborn, Argonne National Laboratory, USA (*non-facility member*)
 -   Wout de Nolf, European Synchrotron Radiation Facility, France
--   Jiro Suzuki, J-PARC, Japan
 -   Takahiro Matsumoto, Spring8, Japan
 -   Balázs Bagó, the Extreme Light Infrastructure, Czech Republic, Hungary and Romania
 -   Russ Berg, Canadian Light Source, Canada
 -   Majid Ounsy, Synchrotron Soleil, France
 -   Chen Zhang, Oak Ridge National Laboratory (SNS/HFIR), USA
 -   Luca Geliso, European XFEL, Germany
+-   Paul Millar, DESY, Germany
 
 See the page with the [expiration dates](Membership_Dates.html "wikilink") for when the current terms of the various members end and we require a new facility endorsement and vote (see below).
 
