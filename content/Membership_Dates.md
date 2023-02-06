@@ -12,22 +12,8 @@ stated in the [constitution](NIAC.html "wikilink").
 
 
 
-### Expire December, 2022
-
--   Pete Jemian - APS, USA
--   Mark Könnecke - SINQ, Switzerland
--   Freddie Akeroyd - ISIS Neutron Facility, UK
--   Russ Berg - Canadian Light Source, Canada
--   Peter Chang, Diamond Light Source, UK
--   Benjamin Watts - Swiss Light Source-PSI, Switzerland
-
-### Expire January, 2023
--   Jiro Suzuki - J-Parc, Japan
--   Heike Görzig, HZB, Germany
--   Stephen Cottrell - ISIS Pulsed Muon Facility, UK
-
 ### Expire July, 2023
--   Ray Osborn - Argonne National Laboratory (non-facility representative)
+-   Ray Osborn,  Argonne National Laboratory (non-facility representative)
 -   Tobias Richter, European Spallation Source, Sweden
 
 ### Expire August, 2023
@@ -55,6 +41,13 @@ stated in the [constitution](NIAC.html "wikilink").
 
 -   Balázs Bagó, the Extreme Light Infrastructure, Czech Republic, Hungary and Romania
 
+### Expire February 2026
+
+-   Pete Jemian, APS, USA
+-   Russ Berg, Canadian Light Source, Canada
+-   Peter Chang, Diamond Light Source, UK
+-   Heike Görzig, HZB, Germany
+-   Paul Millar, DESY, Germany
 
 
 
