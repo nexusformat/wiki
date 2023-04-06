@@ -10,6 +10,7 @@ Current Members
 -   Sandor Brockhauser, Center for Materials Science Data (HU Berlin), Germany (*Executive Secretary*)
 -   Peter Chang, Diamond Light Source, UK (*Documentation Release Manager*)
 -   Benjamin Watts, Swiss Light Source, Switzerland
+-   Mark Könnecke, PSI, Switzerland
 -   Herbert Bernstein, CIF (*non-facility member*)
 -   Thomas Caswell, Brookhaven National Laboratory/NSLS-II, USA
 -   Bjørn Clausen, Los Alamos National Laboratory, USA
