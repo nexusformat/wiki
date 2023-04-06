@@ -49,5 +49,8 @@ stated in the [constitution](NIAC.html "wikilink").
 -   Heike Görzig, HZB, Germany
 -   Paul Millar, DESY, Germany
 
+### Expire April 2026
 
+-   Benjamin Watts, SLS, Switzerland
+-   Mark Könnecke, PSI, Switzerland
 
