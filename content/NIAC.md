@@ -145,6 +145,7 @@ Special Interest Groups: The NeXus International Advisory Committee will appoint
 Meetings
 --------
 
+-   [Code Camp June 2023](https://www.nexusformat.org/CodeCampJune2023.html): Code Camp, (virtual)
 -   [NIAC 2022](NIAC2022.html) NIAC Meeting, (hybrid)
     hosted by the Paul Scherrer Institute, Switzerland, September 2022
 -   [Code Camp 2022](https://www.nexusformat.org/CodeCamp2022.html): Code Camp, (virtual)
