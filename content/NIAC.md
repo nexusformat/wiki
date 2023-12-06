@@ -126,16 +126,19 @@ will be presented to the NeXus mailing list inviting comments for a
 period of one month. At the end of this period, the challenge can be
 overruled by a two thirds majority.
 
-Voting outside of the biennial NIAC meetings can take two forms. 
+Voting outside of the biennial NIAC meetings can take two forms.
 Firstly, memberships can be approved by email ballot. All other issues
-require a teleconference for interactive discussion that is attended by 
-at least 2/3 of the NIAC. Votes may be cast at the teleconference, as well
-as during the following week in order to allow NIAC members not attending
-the teleconference to add their vote to the tally. The opening of the 
-voting period must be advertised through the NIAC mailing list. At the 
-close of the 1-week voting period, NIAC members not responding are counted
-as abstained and the NIAC decision follows the voting category (usually
-"for" and "against") with the highest number of valid votes.
+require a vote that receives responses from at least 2/3 of the NIAC
+during the following two week voting period. The opening of the
+voting period must be advertised through the NIAC mailing list. At the
+close of the voting period, NIAC members who have not responded have
+abstained (and are not counted towards the 2/3 requirement). Whether the
+issue involved is membership or any other issue, the NIAC decision shall
+be determined by whatever outcome receives the most votes that are not
+abstentions, i.e. the outcome which receives more votes than any other
+outcome other than abstention, even if the chosen outcome does not
+receive an absolute majority of the votes.
+
 
 The constitution can only be changed by a two thirds majority of the
 NIAC.
