@@ -17,7 +17,6 @@ stated in the [constitution](NIAC.html "wikilink").
 -   Tobias Richter, European Spallation Source, Sweden
 
 ### Expire August, 2023
--   Aaron Brewster, Lawrence Berkeley Laboratory, USA
 -   Majid Ounsy, Synchrotron Soleil, France
 
 ### Expire December, 2023
@@ -53,4 +52,13 @@ stated in the [constitution](NIAC.html "wikilink").
 
 -   Benjamin Watts, SLS, Switzerland
 -   Mark Könnecke, PSI, Switzerland
+
+### Expire August 2026
+
+-   Zdenek Matej - MAX IV, Sweden
+
+### Expire February 2027
+
+-   Fernan Saiz, ALBA, Spain
+-   Aaron Brewster, Lawrence Berkeley Laboratory, USA
 
