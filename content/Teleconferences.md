@@ -15,6 +15,10 @@ in the corresponding agenda page below.
 
 We aim to publish an agenda a few days in advance of the meetings. 
 
+### 2024
+
+[Telco 20240117](Telco_20240117.html "wikilink") Wednesday, 17th January, 15:00 UTC
+
 ### 2023
 
 [Telco 20231220](Telco_20231220.html "wikilink") Wednesday, 20th December, 15:00 UTC
