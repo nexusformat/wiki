@@ -32,3 +32,4 @@ neutron, x-ray, and muon data.
 * [NeXus International Advisory Committee](NIAC.html "wikilink")
 * [Bug / Issue Reporting](IssueReporting.html "wikilink")
 * [Mailing Lists](https://manual.nexusformat.org/mailinglist.html)
+* [Show and Tell](https://indico.desy.de/category/1080/) - Series of meetings, each dedicated to a specific NeXus adoption topic
