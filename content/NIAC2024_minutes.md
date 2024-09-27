@@ -9,7 +9,7 @@ layout: wiki
 Session A: Sept 27th 10:00 UTC
 ------------------------------
 
-- Accepted (9+2/0/0): Accepting AppDefs can only work if corresponding base classes are also checked and accepted even if they have not yet been registered as contributed definitions before.
+- Accepted (9+3/0/0): Regarding the FAIRmat contributions when we accepting AppDefs, the corresponding base classes are also checked and can be accepted even if they have not yet been registered as contributed definitions before.
 
 
 
