@@ -51,5 +51,9 @@ Session E: Sept 28th 13:30 UTC
 
 list of main topics from the issues addressed:
 - NIAC Accepted (without vote): meaning of @axes is clearified as default axes for every dimension. See PR #1396
-
-
+- NIAC page to be harmonised with manual. See issue #1472
+- Accepted for review: Official full Logo for both dark and light themes and squared versions with offset.
+- Accepted for review: Documentation for AppDefs and Base Classes shall contain groups for common explanation while keeping the full list of definitions, too.
+- Accepted for review: versioned, published, html docs including latest unreleased docs. See issue #1434
+- Accepted (10+2/0/0): group definition type="NXentry" name="entry" is too restrictive. ENTRY/@entry shall not be declared it should be deprecated and later removed.
+- 
