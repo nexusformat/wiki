@@ -62,5 +62,5 @@ Session F: Sept 28th 16:00 UTC
 ------------------------------
 
 list of main topics from the issues addressed:
--
+- support for complex units, like eV/mm
 
