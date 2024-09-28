@@ -55,5 +55,12 @@ list of main topics from the issues addressed:
 - Accepted for review: Official full Logo for both dark and light themes and squared versions with offset.
 - Accepted for review: Documentation for AppDefs and Base Classes shall contain groups for common explanation while keeping the full list of definitions, too.
 - Accepted for review: versioned, published, html docs including latest unreleased docs. See issue #1434
-- Accepted (10+2/0/0): group definition type="NXentry" name="entry" is too restrictive. ENTRY/@entry shall not be declared it should be deprecated and later removed.
-- 
+- Accepted (10+2/0/0): group definition type="NXentry" name="entry" is too restrictive. ENTRY/@entry shall not be declared, but rather be deprecated and later removed.
+- NIAC accepted: Licenses may need to be harmonised, so let us check with leagal advisors.
+
+Session F: Sept 28th 16:00 UTC
+------------------------------
+
+list of main topics from the issues addressed:
+-
+
