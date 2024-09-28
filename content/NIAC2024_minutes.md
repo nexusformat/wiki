@@ -44,3 +44,5 @@ Session D: Sept 28th 10:00 UTC
 
 list of main topics from the issues addressed:
 - Accepted (10+2/0/0): clarification and unification of the rules for using substitutable UPPERCASE names or name parts which shall be indicated in documentation as italic following a clean use of nameType [specified, any, partial] in nxdl. See issue #1436
+- NIAC Accepted (without vote): NXdata documentation shall be improved. Gallery to show capabailities and separate pages for details. See PR #1396
+- NIAC Accepted (without vote): meaning of @axes is clearified as default axes for every dimension. See PR #1396
