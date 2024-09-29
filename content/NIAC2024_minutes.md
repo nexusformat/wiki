@@ -73,4 +73,12 @@ list of main topics from the issues addressed:
 - choiceTypee shall render alson on HTML documentation 
 - clean definition for NX_CHAR to avoid confusions
 - Accepted (9+2/0/0): Base classes support inheritance. PR shall come which implements it.  See issue #1442.
+- NIAC cincluded on the use of multiple AppDefs. Entry shall host them in separated subentries
 
+Session H: Sept 29th 13:30 UTC
+------------------------------
+
+list of main topics from the issues addressed:
+- NIAC agreed on the vesrion of the new logo to be proposing a new logo
+- NIAC Accepted (9+3/0/0): cAdditionally to traditional unit categories NX_xxx, omplex units are now also supported by NeXus by providing an example following Unidata description.
+- 
