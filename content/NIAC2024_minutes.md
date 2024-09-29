@@ -80,5 +80,6 @@ Session H: Sept 29th 13:30 UTC
 
 list of main topics from the issues addressed:
 - NIAC agreed on the vesrion of the new logo to be proposing a new logo
-- NIAC Accepted (9+3/0/0): cAdditionally to traditional unit categories NX_xxx, omplex units are now also supported by NeXus by providing an example following Unidata description.
-- 
+- NIAC Accepted (9+3/0/0): cAdditionally to traditional unit categories NX_xxx, arbitrary complex units (eV/mm) are now also supported by NeXus by providing an example following Unidata description.
+- FAIRmat proposed modifications on base classes are reviewed
+- NIAC Accepted (9+2/0/0): NXaperture
