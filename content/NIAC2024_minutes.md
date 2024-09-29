@@ -62,6 +62,15 @@ Session F: Sept 28th 16:00 UTC
 ------------------------------
 
 list of main topics from the issues addressed:
+- github repo 'definitions' could be lighten and cleaned
 - NeXus Fields: can they be represented by either dataset or NXlog group?
 - support for complex units, like eV/mm
+
+Session G: Sept 29th 10:00 UTC
+------------------------------
+
+list of main topics from the issues addressed:
+- choiceTypee shall render alson on HTML documentation 
+- clean definition for NX_CHAR to avoid confusions
+- Accepted (9+2/0/0): Base classes support inheritance. PR shall come which implements it.  See issue #1442.
 
