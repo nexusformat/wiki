@@ -62,5 +62,6 @@ Session F: Sept 28th 16:00 UTC
 ------------------------------
 
 list of main topics from the issues addressed:
+- NeXus Fields: can they be represented by either dataset or NXlog group?
 - support for complex units, like eV/mm
 
