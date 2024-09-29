@@ -83,3 +83,9 @@ list of main topics from the issues addressed:
 - NIAC Accepted (9+3/0/0): cAdditionally to traditional unit categories NX_xxx, arbitrary complex units (eV/mm) are now also supported by NeXus by providing an example following Unidata description.
 - FAIRmat proposed modifications on base classes are reviewed
 - NIAC Accepted (9+3/0/0): NXaperture
+
+Session I: Sept 29th 16:00 UTC
+------------------------------
+
+list of main topics from the issues addressed:
+- FAIRmat proposed modifications on base classes are reviewed
