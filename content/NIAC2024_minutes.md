@@ -89,3 +89,21 @@ Session I: Sept 29th 16:00 UTC
 
 list of main topics from the issues addressed:
 - FAIRmat proposed modifications on base classes are reviewed
+
+Session J: Sept 30th 10:00 UTC
+------------------------------
+
+list of main topics from the issues addressed:
+- FAIRmat proposed modifications on base classes are reviewed
+- NIAC Accepted (8+3/0/0): the suggestions in NXenvironment, and provided guidelines for final implementation
+
+Session K: Sept 30th 13:30 UTC
+------------------------------
+
+list of main topics from the issues addressed:
+- FAIRmat proposed modifications on base classes are reviewed
+- NX_MATH
+- NIAC Accepted (7+4/0/0): Instead of mathematical formula, one shall use forumla descriptions in NeXus.
+- NIAC Accepted (7+3/0/abstain:1): the suggestions in NXinstrument, and provided guidelines for final implementation
+- 
+
