@@ -107,3 +107,10 @@ list of main topics from the issues addressed:
 - NIAC Accepted (7+3/0/abstain:1): the suggestions in NXinstrument, and provided guidelines for final implementation
 - 
 
+Session L: Sept 30th 16:00 UTC
+------------------------------
+
+list of main topics from the issues addressed:
+- FAIRmat proposed modifications on base classes are reviewed
+- NIAC Accepted (7+5/0/0): NXstress can be merged after fixes.
+
