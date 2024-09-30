@@ -105,7 +105,6 @@ list of main topics from the issues addressed:
 - NX_MATH
 - NIAC Accepted (7+4/0/0): Instead of mathematical formula, one shall use forumla descriptions in NeXus.
 - NIAC Accepted (7+3/0/abstain:1): the suggestions in NXinstrument, and provided guidelines for final implementation
-- 
 
 Session L: Sept 30th 16:00 UTC
 ------------------------------
@@ -113,4 +112,10 @@ Session L: Sept 30th 16:00 UTC
 list of main topics from the issues addressed:
 - FAIRmat proposed modifications on base classes are reviewed
 - NIAC Accepted (7+5/0/0): NXstress can be merged after fixes.
+- Checked the constitution and how the lifecycle of definitions (Contributed, AppDef, BaseClasses) are regulated. Although the Constitution does not details, a section in the Manual describes that defnitions must go through a phase when the community has tested it and shall become part of the standard only afterwards. Both FAIRmat and NXstrass proposals are according to this rule.
+- NIAC Accepted (7+4/0/abstain:1): NXmonochromator after fixing the units according to the new standard.
+- NIAC Accepted (7+5/0/0) NXdistortion, NXregistration to become subclasses of NXprocess
+- NIAC Accepted (7+4/0/0) NXroot with suggested modifications 
+- NIAC Accepted (7+4/0/0) NXsource with suggested modifications
+- NIAC suggested not to change NXuser otherthan having identifier adde via subclassing.
 
