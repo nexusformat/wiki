@@ -19,17 +19,15 @@ NIAC 2003: analysis item in NXentry to be replaced with definition
 
 NIAC 2003: NXroot will be defined as
 
-    &lt;NXroot file_name=&quot;{File name of original NeXus file}&quot;
-         file_time=&quot;{Date and time of file creation}&quot;
-         file_update_time=&quot;{Date and time of last file change at
-         close}&quot;
-         NeXus_version=&quot;{Version of NeXus API used in writing the
-         file}&quot;
-         HDF_version=&quot;?&quot;
-         HDF5_version=&quot;?&quot;
-         creator=&quot;{facility or program where file originated}?&quot;&gt;
-         &lt;NXentry name=&quot;{entry name}&quot;&gt;+&lt;/NXentry&gt;
-    &lt;/NXroot&gt;
+    <NXroot file_name="{File name of original NeXus file}"
+         file_time="{Date and time of file creation}"
+         file_update_time="{Date and time of last file change at close}"
+         NeXus_version="{Version of NeXus API used in writing the file}"
+         HDF_version="?"
+         HDF5_version="?"
+         creator="{facility or program where file originated}?">
+         <NXentry name="{entry name}">+</NXentry>
+    </NXroot>
 
 NIAC 2003: base classes and instrument definitions will not define bit
 length for primitives. This means that NX\_UINT, NX\_INT or NX\_FLOAT
@@ -37,32 +35,25 @@ are all that are allowed for numerical items.
 
 NIAC 2003: The template for NXentry is
 
-    &lt;NXentry name=&quot;{Entry Name}&quot;&gt;
-         &lt;title&gt;{Extended title for entry}&lt;/title&gt;
-         &lt;definition version=&quot;{DTD version number}&quot; URL=&quot;{URL of DTD
-            file}&quot;&gt;{Name of entry DTD}&lt;/definition&gt;
-          &lt;start_time type=&quot;ISO8601&quot;&gt;{Starting time of
-            measurement}&lt;/start_time&gt;
-         &lt;end_time type=&quot;ISO8601&quot;&gt;{Ending time of
-            measurement}&lt;/end_time&gt;
-         &lt;duration type=&quot;NX_INT&quot; units=&quot;seconds&quot;&gt;{Duration of
-            measurement}&lt;/duration&gt;
-         &lt;experiment_identifier
-            type=&quot;NX_CHAR[]&quot;&gt;{}&lt;/experiment_identifier&gt;
-         &lt;run_number type=&quot;NX_INT&quot;&gt;{Number of run or scan stored in
-            this entry}&lt;/run_number&gt;
-         &lt;run_cycle type=&quot;NX_CHAR[]&quot;&gt;{}&lt;/run_cycle&gt;
-         &lt;program_name version=&quot;{Program version number}&quot;&gt;{Name of
-            program used to generate this file}&lt;/program_name&gt;
-         &lt;command_line&gt;{Name of command line used to generate this
-            file}&lt;/command_line&gt;
-         &lt;notes&gt;{Notes describing entry}&lt;/notes&gt;
-         &lt;NXuser name=&quot;{user}&quot;&gt;&lt;/NXuser&gt;
-         &lt;NXsample name=&quot;{sample}&quot;&gt;&lt;/NXsample&gt;
-         &lt;NXinstrument name=&quot;{Name of instrument}&quot;&gt;&lt;/NXinstrument&gt;
-         &lt;NXmonitor name=&quot;{Name of monitor}&quot;&gt;&lt;/NXmonitor&gt;
-         &lt;NXdata name=&quot;{Name of data block}&quot;&gt;&lt;/NXdata&gt;
-    &lt;/NXentry&gt;
+    <NXentry name="{Entry Name}">
+         <title>{Extended title for entry}</title>
+         <definition version="{DTD version number}" URL="{URL of DTD file}">{Name of entry DTD}</definition>
+          <start_time type="ISO8601">{Starting time of measurement}</start_time>
+         <end_time type="ISO8601">{Ending time of measurement}</end_time>
+         <duration type="NX_INT" units="seconds">{Duration of measurement}</duration>
+         <experiment_identifier
+            type="NX_CHAR[]">{}</experiment_identifier>
+         <run_number type="NX_INT">{Number of run or scan stored in this entry}</run_number>
+         <run_cycle type="NX_CHAR[]">{}</run_cycle>
+         <program_name version="{Program version number}">{Name of program used to generate this file}</program_name>
+         <command_line>{Name of command line used to generate this file}</command_line>
+         <notes>{Notes describing entry}</notes>
+         <NXuser name="{user}"></NXuser>
+         <NXsample name="{sample}"></NXsample>
+         <NXinstrument name="{Name of instrument}"></NXinstrument>
+         <NXmonitor name="{Name of monitor}"></NXmonitor>
+         <NXdata name="{Name of data block}"></NXdata>
+    </NXentry>
 
 NIAC 2003: NXinstrument template consists of at least the following
 groups
