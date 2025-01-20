@@ -1,0 +1,83 @@
+=================
+Telco 20190207
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20190207
+         :name: telco-20190207
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20190207_date
+
+      Thursday, 7 February, 16:30 CET (+0100)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20190207_agenda
+
+      -  Updates for NXmx and base classes for Eiger2.
+      -  Variant scheme.
+      -  Meeting times to allow participation in East Asia.
+
+      .. rubric:: Minutes
+         :name: Telco_20190207_minutes
+
+      Present: BW, MK, HJB, TM, SC, AM
+
+      .. rubric:: Updates for NXmx and base classes
+         :name: updates-for-nxmx-and-base-classes
+
+      HJB and AM want the files written by the Eiger2 to include extra
+      information that clashes with what is currently described by NXDL.
+      Specifically, the 'mask' field in NXdetector and NXmx is declared
+      as type 'boolean   , but a more complex bit mask is required.
+      Further, what is preferred and what is deprecated needs to be
+      clearly communicated. NXDL currently allows an application
+      definition to list an item twice, but with    minoccur=1    attribute
+      in each to indicate that only one of the options should be
+      present. BW proposes that an extra attribute in the NXDL tag, e.g.
+      priority, could take an integer value to indicate which version
+      is preferred and perhaps a negative integer could indicate
+      deprecation.
+
+      HJB and AM would like to promote discussion of possible solutions
+      for now, but strongly desire the issue be settled before the
+      summer conference season so that the decision can be clearly
+      communicated.
+
+      P.S. The currentl published versions of
+      `NXmx <https://manual.nexusformat.org/classes/applications/NXmx.html#nxmx>`__
+      and
+      `NXdetector <https://manual.nexusformat.org/classes/base_classes/NXdetector.html#nxdetector>`__
+      both provide a    pixel_mask    field that takes a 32-bit pixel mask
+      (and have for over 5 years), so this issue seems to be just about
+      clearly communicating the    old way    vs    new way   .
+
+      .. rubric:: Variant scheme
+         :name: variant-scheme
+
+      HJB wants an agreed way to update the value of a field (keeping
+      track of previous values). MK pointed out the `variant
+      attribute <https://github.com/nexusformat/definitions/issues/645>`__
+      that was decided in the 2014 NIAC, but not yet properly
+      documented.
+
+      .. rubric:: Telco meeting times
+         :name: telco-meeting-times
+
+      BW proposes that further meetings be held 1.5 hours earlier than
+      the current meeting (3pm CET, instead of 4:30pm CET) so that TM
+      and others in Japan can attend the meeting at 11pm local time.
+      Those who are adversely affected (such as Californians who will
+      have to observe the telco at 6am) are encouraged to provide
+      comments.
+
+      BW agreed to organise the next telco using another poll, aiming
+      for the beginning of March. `Poll for March
+      Telco <https://doodle.com/poll/8tgh2kzcfitnku32>`__

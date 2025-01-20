@@ -1,0 +1,119 @@
+=================
+Telco 20240717
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20240717
+         :name: telco-20240717
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20240717_date
+
+      Wednesday, 17th Jul, 15:00 UTC
+
+      .. rubric:: Connect
+         :name: Telco_20240717_connect
+
+      -  ZOOM VC link:
+         https://hu-berlin.zoom.us/j/65272091306pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09
+      -  Meeting ID: 652 7209 1306
+      -  Passcode: nexus
+
+      .. rubric:: Agenda
+         :name: Telco_20240717_agenda
+
+      -  issues
+      -  contributed defintions
+
+      .. rubric:: Present
+         :name: Telco_20240717_present
+
+      AB, SB, BW, FS, HB, RO, CZ, BB, PM, WdN + Hector Perez (HZB)
+
+      .. rubric:: Minutes
+         :name: Telco_20240717_minutes
+
+      -  | NIAC meeting
+         | Registration deadline for In person participation: Aug 5
+
+      -  non-FAIRmat contributions
+
+         -  AB: spin-rotator comes as a package with lots of base
+            classes
+            no ISIS representations
+
+      -  PR #1343 - NXdata scaling_factor and offset
+
+         -  AB: used at SACLA where float data is represented with a
+            factor 10
+         -  RO: what is not it an attribute
+         -  BW: there is a problem with handling attributes when using
+            external links to a dataset
+         -  AB: let us be able to define separate scaling factors for
+            different fields, so instead of scaling_factor let us use
+            FIELDNAME_scaling_factor
+         -  RO: scaling_factor was originally used in NXlog
+         -  BW: if we rename something, let us first DEPRECATE the old
+            standard (scaling_factor in this case) and introduce the new
+            solution
+         -  RO: is deprecation retrieveable from the xml
+         -  AB: yes there is an xml tag 'deprecated='
+
+      -  NeXus logo https://github.com/nexusformat/NIAC/issues/145
+
+         -  PM: is there a logo with vector graphics and transparency
+         -  AB: we would need a high-resolution, svg, transparency
+            supported logo, but no new logo shall be created
+         -  RO: old logo was done in bitmap mode
+         -  PM: shall be able to be converted to svg
+         -  BW: there is an svg version already
+            (communications/NeXus_logo.svg)
+            https://github.com/nexusformat/communications/blob/9c6def935cb083fa0a0a7077fb40a06c5e6ac8f9/NeXusLogo.svg
+         -  RO: yes, but it comes with an unwanted border effect around
+            the characters
+         -  BW: we shall also use consistently the official logo in
+            different web pages. volunteered to prepare the material for
+            a vote on how to clean the situation
+
+      -  NXdata/@axes PR#1396
+
+         -  WdN: misinterpretation is now corrected in the PR. Note that
+            documentation is also estructured for more clarity.
+         -  RO: note that length of AXISNAME field can be longer than
+            the respective signal dimension by 1 because of using ToF
+            detectors at neutron sources
+         -  RO: also note that AXISNAME_indices if given for axes listed
+            in @axes, they shall match the order in @axes
+         -  BW: in case of contradiction, an error shall be risen
+         -  RO: consistent use of terms axis, coordinate, and dimension
+            is needed
+         -  AB: documentation needs to be easy to read
+         -  WdN: let me prepare a new proposal for the next meeting
+            https://www.nexusformat.org/2014_axes_and_uncertainties.html
+
+      -  FAIRmat proposals
+
+         -  AB: lets prepare PRs for:
+
+            -  common base classes
+            -  packages for separate appdefs and corresponding base
+               classes
+
+         -  SB: exactly, topics are already organised on the Project
+            page https://github.com/orgs/nexusformat/projects/5/views/1
+         -  AB: on the Aug meeting, let us allocate
+
+            -  20 mins for NXdata
+            -  70 mins for FAIRmat proposals
+
+      .. rubric:: Aug Telco
+         :name: Telco_20240717_aug-telco
+
+      Please help to `choose the date by responding to the
+      poll <https://doodle.com/meeting/participate/id/aOqlABYd>`__ by
+      Aug 15th. We are planning to hold the telco in the regular slot of
+      UTC 15:00. Check your local time to avoid scheduling surprises!

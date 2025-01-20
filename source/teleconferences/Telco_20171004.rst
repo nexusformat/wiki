@@ -1,0 +1,75 @@
+=================
+Telco 20171004
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20171004
+         :name: telco-20171004
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20171004_date
+
+      Wednesday, 4 October, 16:30 CEST (+0200)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20171004_agenda
+
+      -  Welcome and agree Agenda
+      -  Nested Detector Modules
+      -  Timestamped Events
+      -  `ICALEPCS HDF5
+         Workshop <https://indico.esrf.fr/indico/event/12/>`__
+      -  Code Camp 2017
+      -  Next meeting
+      -  AOB
+
+      .. rubric:: Minutes
+         :name: Telco_20171004_minutes
+
+      Present: AB, HJB, MB, EW, TSR
+
+      .. rubric:: Nested Detector Modules
+         :name: nested-detector-modules
+
+      AB asked about correct and best practise for having a hierarchy of
+      NXdetector_modules. The current definition would expect them to be
+      flat in the NXdetector and have the hierarchy represented in the
+      geometry chain. While his current example file can be processed by
+      DIALS, Aaron was happy to explore following the convention more.
+      At the code camp we would aim to come to a conclusion whether we
+      need to improve the base classes to make encoding the
+      relationships tidier.
+
+      .. rubric:: Timestamped Events
+         :name: timestamped-events
+
+      There have been some exchanges of example files recently, but we
+      still don't have clear documentation on how to align events in
+      time. Again, we will have time and expertise at the code camp for
+      this.
+
+      .. rubric:: ICALEPCS HDF5 Workshop
+         :name: icalepcs-hdf5-workshop
+
+      No issues were put forward to be raised there by the people
+      attending that (EW & TSR).
+
+      .. rubric:: Code Camp
+         :name: Telco_20171004_code-camp
+
+      Items for the agenda are collected on the wiki pages. MB has
+      already update the list with the items above. EW cannot attend,
+      but will have at least 10 people attending as of today.
+
+      .. rubric:: Next Meeting
+         :name: Telco_20171004_next-meeting
+
+      Will be from the Code Camp, summarising the output of that (if
+      any): `Telco 20171026 <Telco_20171026.html>`__

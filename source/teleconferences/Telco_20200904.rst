@@ -1,0 +1,134 @@
+=================
+Telco 20200904
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20200904
+         :name: telco-20200904
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20200904_date
+
+      Friday, 4 September, 15:00 CEST (+0200)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20200904_agenda
+
+      -  NIAC2020
+      -  `Github
+         questions <https://github.com/nexusformat/definitions/issuesq=is%3Aissue+is%3Aopen+label%3Aquestion>`__
+      -  NXmx "Gold Standard" changes:
+
+         -  `definition
+            changes <https://github.com/nexusformat/definitions/pull/793>`__
+         -  `cnxvalidate pull
+            request <https://github.com/nexusformat/cnxvalidate/pull/28>`__
+
+      -  Mailing lists:
+
+         -  note that signing up for the NIAC list, doesn"t
+            automatically add you to the Nexus discussion list.
+         -  Should we remove people from the NIAC list if their
+            membership of the NIAC ends
+
+      .. rubric:: Minutes
+         :name: Telco_20200904_minutes
+
+      Present: BW, HB, PJ, RB, HG, VAS, PC, WF, AP, MK
+
+      .. rubric:: NXmx
+         :name: Telco_20200904_nxmx
+
+      -  Pull request is making sure the tags that the community needs
+         are included.
+      -  HB asks that people take a look and he hopes that the PR can be
+         accepted by September 9th.
+      -  HB says that Dectris would appreciate this being sorted out
+         very soon so that they can finalise their software.
+      -  BW promises to look over it during the weekend.
+      -  Replacing \_error with \_errors generally needs its own github
+         issue to make sure the community can see why the change
+         happened (to fit previous NIAC decision).
+      -  We should break them up into separate PR to tackle it piece by
+         piece.
+      -  Dectris is specifically asking for a NeXus release to quickly
+         follow the NXmx pull request.
+
+         -  We have a milestone for this aiming for the NIAC in October.
+
+      -  VAS offered to give a pull request to have CMake find the HDF5
+         library from an environment variable.
+
+      .. rubric:: Github Questions
+         :name: Telco_20200904_github-questions
+
+      -  VAS says NXcxi_ptycho is restricted to to raster scanning.
+      -  BW recommends NXstxm as it is quite flexible.
+      -  The inconsistent naming issue should be brought to the NIAC.
+
+         -  we should avoid ambiguity!
+
+      -  PC to look into who at Diamond might be using NXarpes.
+      -  Russ to make a PR to suggest appropriate changes.
+      -  Should make sure that the NXmx PR #793 contains a fix for issue
+         #782
+
+      .. rubric:: Mailing List
+         :name: mailing-list
+
+      -  BW points out some confusion about the mailing lists and
+         suggest that we add a note that subscribing to one list doesn"t
+         automatically subscribe you to the other.
+      -  VAS suggests a purge is required to stop it from becoming a
+         public list
+      -  HB and WF suggest not pushing people away - perhaps just ask if
+         they want to be removed
+
+      .. rubric:: NIAC
+         :name: Telco_20200904_niac
+
+      -  PJ says polling on github might not work.
+      -  VAS suggests doing a simple thumbs up/down on the github issue
+         to indicate their vote.
+      -  BW suggests that emojis might not be best because it is easy to
+         mess up - but VAS corrects that a second click erases the
+         mistake
+      -  BW and VAS propose emoji voting:
+
+         -  Thumbs Up for Yes,
+         -  Thumbs Down for No,
+         -  any other emoji for Abstain.
+
+      .. rubric:: AOB
+         :name: Telco_20200904_aob
+
+      -  RB asks about the code camp - BW points to the page
+      -  RB brings up syntax issues - BW suggests making single PR to
+         address each type of issue for all appl defs at once.
+      -  RB says links are tricky to name automatically and there are
+         lots of inconsistencies
+
+         -  PJ says part of the problem is that some names need to be
+            flexible and we decided to try and indicate flexible names
+            as upper case, while required names are lower case.
+         -  VAS suggests that cnxvalidate doesn"t check what kind of
+            object a "link" is, just that the object is present.
+         -  HB says the problem is going to need to be figured out for
+            when virtual datasets become common.
+         -  MK says the target_path of a link is somewhat historical and
+            maybe we should review that usage.
+         -  VAS says ESRF is using these links
+         -  BW suggests we make this an issue to discuss in the code
+            camp.
+         -  HB points out that HDF5 has changed a lot in the past few
+            years.
+
+      -  Next telco will aim for the last week of Sept or first week of
+         October. `Poll <https://doodle.com/poll/5bkzixctreag97er>`__

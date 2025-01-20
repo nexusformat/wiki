@@ -1,0 +1,79 @@
+=================
+Telco 20160824
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20160824
+         :name: telco-20160824
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20160824_date
+
+      Wednesday, 24th August, 16:30 Central European Summer Time
+      (Copenhagen)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20160824_agenda
+
+      -  Welcome and agree Agenda (Tobias may be a few minutes late   )
+      -  github issue of the day - suggestions welcome (there is a
+         github label now)
+      -  further items for NIAC (or code camp) to prepare
+      -  THG involvment in Code Camp and NIAC
+      -  NAPI update
+      -  web site redesign
+      -  Next meeting
+      -  AOB
+
+      .. rubric:: Minutes
+         :name: Telco_20160824_minutes
+
+      Present: EW, HJB, TSR, MK, FAA, AB
+
+      .. rubric:: Github and NAPI update
+         :name: Telco_20160824_github-and-napi-update
+
+      Nothing flagged. The longer running problem with the C++ API for
+      the legacy backends is (mostly) resolved and Mantid would like an
+      update release. Eugen will attempt to schedule that for next week,
+
+      .. rubric:: NIAC Meeting Preparations
+         :name: Telco_20160824_niac-meeting-preparations
+
+      Mark has written a draft and welcomes feedback. It   s in the ticket
+      for now, because Tobias forgot to give anyone write access to the
+      NIAC repository. (Now fixed.)
+
+      .. rubric:: THG
+         :name: thg
+
+      THG has been in contact and we   re asking them to provide us an
+      update on the current plans of THG at the upcoming code camp.
+      Other topics are OpneMP support, filter repositories and status.
+
+      .. rubric:: web site
+         :name: web-site
+
+      No Ray, no update.
+
+      .. rubric:: AOB
+         :name: Telco_20160824_aob
+
+      Meeting in Basel is on the 2nd at 9:00 in room 102. HJB is in
+      charge of the sandwich supply.
+
+      RDA: There was a sort of survey by THG send round to RDA people on
+      the use of    hdf5 in the wild   . Forwarded to the committee mailing
+      list.
+
+      .. rubric:: Next Meeting
+         :name: Telco_20160824_next-meeting
+
+      `Telco 20160907 <Telco_20160907.html>`__

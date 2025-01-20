@@ -1,0 +1,48 @@
+=================
+Telco 20150408
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20150408
+         :name: telco-20150408
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20150408_date
+
+      Wednesday, 8th April, 12:00 BST
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/g2pa6t2hnwkox4jgjl2p72nqkea
+      (link updated)
+
+      .. rubric:: Agenda
+         :name: Telco_20150408_agenda
+
+      -  Welcome
+      -  Check minutes of last meeting
+      -  NXmx update
+      -  CMake update
+      -  Next meeting
+      -  AOB
+
+      .. rubric:: Minutes
+         :name: Telco_20150408_minutes
+
+      Small meeting. Just EW, HJB and TR.
+
+      Discussions on the future of MX detectors.
+
+      Some progress made on cmake build for the definitions and
+      documentation.
+
+      Need to get NAPI release out. The current one is outdated (more
+      than two years old) and master has new features. During that we
+      found some ancient download content on the WIKI and non-editable
+      on download.nexformat.org. Need to update or remove. Eugen to look
+      into.
+
+      Will look for good slot for next meeting.

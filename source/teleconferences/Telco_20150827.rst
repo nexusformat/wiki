@@ -1,0 +1,61 @@
+=================
+Telco 20150827
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20150827
+         :name: telco-20150827
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20150827_date
+
+      Thursday, 27th August, 8am PST, (5pm CEST, 4pm BST, 11am NY, 10am
+      IL+TN)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/g2e2ayoq57srpi2g4zv2c2ewbua
+
+      .. rubric:: Agenda
+         :name: Telco_20150827_agenda
+
+      -  Welcome
+      -  Generic proposal for spatial and other axes on nD Detectors:
+         (slowest, slow, fast)
+      -  Are base classes complete Does everything that is part of an
+         application definition have to be defined in a base class
+         Question from DLS.
+      -  Documentation update, summary of ticket review
+      -  code (napi) cmake update and release timelime
+      -  Next meeting
+      -  AOB
+
+      .. rubric:: Minutes
+         :name: Telco_20150827_minutes
+
+      Present: MK, HJB, MB, PJ, TSR
+
+      HJB suggests recording these sessions via Hangout On Air. We   ll
+      think about it.
+
+      Detector axes: Some progress made on ideas, but no example yet.
+      TSR to report again next time.
+
+      Completeness of base classes: After some discussion the agreement
+      is that application definitions have a higher value than base
+      classes. Base classes capture the common cases and should not have
+      to carry every domain specific field that might ever come up.
+      There also is the procedural problem that proposing a new
+      application definition might require a base class change first, if
+      that was enforced by software (which would be the case for the
+      code DLS is developing). Encoding this addition explicitly via
+      some tag was rejected. Once application definition can add fields
+      that changes the framework and matching the names to see what
+      needs to be added is simple for software. TSR to contact Peter
+      Chang and edit the manual where PC was mislead.
+
+      Technical problems and other commitments cut the meeting short.
+      Next one is `Telco 20150909 <Telco_20150909.html>`__

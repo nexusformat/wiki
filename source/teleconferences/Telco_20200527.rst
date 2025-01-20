@@ -1,0 +1,66 @@
+=================
+Telco 20200527
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20200527
+         :name: telco-20200527
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20200527_date
+
+      Wednesday, 27 May, 15:00 CEST (+0200)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20200527_agenda
+
+      -  NIAC 2020
+
+      .. rubric:: Minutes
+         :name: Telco_20200527_minutes
+
+      AB, FA, HG, MK, PJ, PC, BW
+
+      .. rubric:: NIAC 2020
+         :name: Telco_20200527_niac-2020
+
+      -  NOBUGS is going to be postponed until next year (probably May)
+      -  Will need to do the meeting remotely if we stick to the October
+         dates.
+      -  Will probably need to run it more like a teleconference with a
+         series of teleconferences to organise the topics and then break
+         up into interest groups.
+      -  Need to have some discussion on the mailing list to make sure
+         everyone is well informed.
+      -  Could still follow the NOBUGS meeting, maybe even doing both an
+         October virtual meeting and a 2021 meeting with NOBUGS.
+      -  MK to check the previous NIAC minutes to clarify email voting
+         procedures.
+
+      .. rubric:: Any Other Business
+         :name: Telco_20200527_any-other-business
+
+      -  AK has a pull request to be examined:
+
+      -  Jungfrau dataset format is now fully NeXus compliant. passes
+         cnxvalidate with no errors.
+
+      -  Soon the AGIP detector for EuXFEL will also be fully compliant.
+
+      -  PJ has created a `milestone
+         NXDL2020.10 <https://github.com/nexusformat/definitions/milestone/9>`__
+         for all issues to be considered for next release of
+         definitions.
+
+      -  PJ poked BW about making further progress on the logo issue.
+         Will set up a repository on dropbox for people to contribute
+
+      -  Next meeting to aim for last week of June. BW will send out a
+         doodle poll in advance to decide the exact date.

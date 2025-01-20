@@ -1,0 +1,83 @@
+=================
+Telco 20180619
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20180619
+         :name: telco-20180619
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20180619_date
+
+      Tuesday, 19 June, 16:30 CEST (+0200)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20180619_agenda
+
+      -  Welcome and agree Agenda
+      -  Tool to convert NXpdb to PDB/CIF
+      -  Preparations for NIAC this year
+      -  Updates on NeXus for pixelated STEM
+      -  Github issue of the day - suggestions welcome (use telco github
+         label)
+
+         -  `definitions PRs & issues marked as
+            'telco' <https://github.com/nexusformat/definitions/labels/telco>`__
+
+      -  Next meeting
+      -  AOB
+
+      .. rubric:: Minutes
+         :name: Telco_20180619_minutes
+
+      Present: AB, HJB, TSR
+
+      .. rubric:: NXpdb tools
+         :name: nxpdb-tools
+
+      PDB to NeXus works, going back still needs some effort. Done in
+      CBFlib.
+
+      .. rubric:: NIAC
+         :name: Telco_20180619_niac
+
+      HJB offered to host the meetings in his living room.
+
+      There is a bit of a backlog of tasks to be worked on in NeXu
+      (documentation and defintions). Code camps in the traditional
+      sequence before a NIAC meeting end up preparing new things for the
+      NIAC to decide. The small congregation today thought that having
+      the NIAC meeting after NOBUGS and the code camp following that
+      would put some more focus on implementing existing NIAC decisions.
+
+      TSR is in contact with SIC and will send out a proposal to the
+      nexus committee mailing list, before fully publishing the event.
+
+      .. rubric:: pixelated STEM
+         :name: Telco_20180619_pixelated-stem
+
+      TSR still needs to update the proposal with NXtransformations
+      instead of the NXpositioners. If someone wants to volunteer to do
+      that earlier, they are welcome to.
+
+      .. rubric:: Github issue
+         :name: Telco_20180619_github-issue
+
+      We're still benefitting from the recent release and there are no
+      marked issues to discuss.
+
+      .. rubric:: Next Meeting
+         :name: Telco_20180619_next-meeting
+
+      There are not many items on the telco agendas at the moment, other
+      than preparing the NIAC. Summer is there with holiday so we skip
+      forward a few weeks before we have the next meeting:
+
+      `Telco 20180814 <Telco_20180814.html>`__

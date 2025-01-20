@@ -1,0 +1,76 @@
+=================
+Telco 20170808
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20170808
+         :name: telco-20170808
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20170808_date
+
+      Tuesday, 8 August, 16:30 CEST (+0200)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20170808_agenda
+
+      -  Welcome and agree Agenda
+      -  PDB Group in NeXus
+      -  Dark Field
+      -  Code Camp or similar activity in 2017
+      -  Github issue of the day - suggestions welcome (use telco github
+         label)
+
+         -  `definitions PRs & issues marked as
+            "telco" <https://github.com/nexusformat/definitions/labels/telco>`__
+
+      -  Next meeting
+
+      .. rubric:: Minutes
+         :name: Telco_20170808_minutes
+
+      Present: HJB, TSR, MK
+
+      .. rubric:: PDB
+         :name: Telco_20170808_pdb
+
+      HJB created a branch. Because the PDB information is encoded in
+      CIF the NeXus base class was named NXcif. The request was raised
+      to rename it to NXpdb to avoid unnecessary confusion. This was
+      completed during the conference call.
+
+      .. rubric:: Dark Field
+         :name: dark-field
+
+      EW requested a dataset for storing dark frames. In extension to
+      how ``NXmx`` has ``flatfield`` the suggestion would be to define
+      ``darkfield``. Since it is important and can be different to the
+      main data acquisition HJB suggested also to define
+      ``darkfield_exposure_time``.
+
+      .. rubric:: Code Camp
+         :name: Telco_20170808_code-camp
+
+      The invite has gone out (to -committee for now). Should be more
+      widely distributed. Staying in the onsite accommodation wasn"t
+      recommended. We"ll get in contact with MB.
+
+      .. rubric:: Github Issue of the Day
+         :name: Telco_20170808_github-issue-of-the-day
+
+      The only issue marked "telco" was already discussed last time.
+      Removed the label.
+
+      .. rubric:: Next Meeting
+         :name: Telco_20170808_next-meeting
+
+      That was it. Short meeting.
+
+      `Telco 20170823 <Telco_20170823.html>`__

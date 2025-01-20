@@ -1,0 +1,81 @@
+=================
+Telco 20170405
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20170405
+         :name: telco-20170405
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20170405_date
+
+      Wednesday, 5 April, 16:30 CEST (+0200)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20170405_agenda
+
+      -  Welcome and agree Agenda
+      -  Cspad to NeXus: changes to NXdetector_module
+      -  Adding PDB tags to NeXus for NXmx (as per Lund HDRMX meeting)
+      -  github issue of the day - suggestions welcome (use telco github
+         label)
+
+         -  `definitions PRs & issues marked as
+            "telco" <https://github.com/nexusformat/definitions/labels/telco>`__
+
+      -  Github `definitions repo stale
+         branches <https://github.com/nexusformat/definitions/branches/stale>`__
+      -  Next meeting
+
+      .. rubric:: Minutes
+         :name: Telco_20170405_minutes
+
+      Present: AB, MK, HJB, PJ, TSR
+
+      .. rubric:: NXdetector_module
+         :name: nxdetector_module
+
+      Unfortunately NXdetector_mdoule is not consistent with NXdetector
+      etc in that it does not use depends_on directly, but as an
+      attribute to module_offset. That does not allow preserving all
+      axis names. The desire was to have something the reflects the
+      hierarchical nature of the CSPAD modules. At least TSR was
+      reluctant to change the existing NXdetector_module for a
+      non-functional improvement.
+
+      The situation will be explored further and a proposal will be
+      created as a ticket, if needed.
+
+      .. rubric:: PDB
+         :name: Telco_20170405_pdb
+
+      All are in agreement that an NXPDB base class would we a good idea
+      and we discussed ways in which we would not have to manually
+      transcribe the definitions. HJB will bring in experts and raise a
+      Github ticket.
+
+      .. rubric:: Github Issues
+         :name: Telco_20170405_github-issues
+
+      All telco labelled issues in the definitions repo have been
+      discussed briefly and the ones that could not be resolved
+      immediately should all be very close to completion.
+
+      .. rubric:: Stale Branches
+         :name: stale-branches
+
+      We had 5. One became a pull request. One deletion. One is
+      recording potential future changes to application definitions.
+      Leaves two to look at at a later point.
+
+      .. rubric:: Next Meeting
+         :name: Telco_20170405_next-meeting
+
+      `Telco 20170426 <Telco_20170426.html>`__

@@ -1,0 +1,91 @@
+=================
+Telco 20170628
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20170628
+         :name: telco-20170628
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20170628_date
+
+      Wednesday, 28 June, 16:30 CEST (+0200)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20170628_agenda
+
+      -  Welcome and agree Agenda
+      -  Code Camp or similar activity in 2017
+      -  SWMR support (HDF5 1.10) - example files
+      -  multiple samples in one NXenty
+      -  NXslit update
+      -  Github HDF5 filters repo
+      -  Github issue of the day - suggestions welcome (use telco github
+         label)
+
+         -  `definitions PRs & issues marked as
+            "telco" <https://github.com/nexusformat/definitions/labels/telco>`__
+
+      -  Next meeting
+      -  AOB
+
+      .. rubric:: Minutes
+         :name: Telco_20170628_minutes
+
+      Present: AB, PJ, TSR, MB, MK, EW
+
+      .. rubric:: Code Camp
+         :name: Telco_20170628_code-camp
+
+      PSI, DESY and DLS look into hosting somethign this year.
+
+      NOBUGS 2018 will be in the US, so having it in Europe again would
+      be okay.
+
+      .. rubric:: SWMR support
+         :name: swmr-support
+
+      We want to encourage users to adopt HDF5 1.10 and hence using SWMR
+      files as examples is fine. But files need to identify themselves
+      as SWMR/HDF5-1.10 so users are not surprised by them not being
+      readable using legacy libraries. README information would be nice,
+      but the filename has a safer way of conveying that information.
+
+      .. rubric:: Multiple Samples in one Measurement
+         :name: multiple-samples-in-one-measurement
+
+      Both ESS and LCLS raise that as a use case. AB will provide an
+      example of how he would suggest to encode that.
+
+      .. rubric:: NXslit
+         :name: Telco_20170628_nxslit
+
+      After some discussion we agreed that having extra terms in the
+      base class is a good solution, because many people many want to
+      record information on individual blades. EW will make a proposal.
+
+      .. rubric:: HDF5 filters
+         :name: hdf5-filters
+
+      EW is making good progress on documenting the repo content and
+      simplifying the build system. More to be see next time.
+
+      .. rubric:: Github Issue of the day
+         :name: Telco_20170628_github-issue-of-the-day
+
+      DLS suggest moving the @target link attribute to the group level
+      in order to find the source location of data linked to NXdata in
+      an external HDF5 linking scenario. MB will produce an example
+      file.
+
+      .. rubric:: Next Meeting
+         :name: Telco_20170628_next-meeting
+
+      `Telco 20170711 <Telco_20170711.html>`__

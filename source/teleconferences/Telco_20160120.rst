@@ -1,0 +1,98 @@
+=================
+Telco 20160120
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20160120
+         :name: telco-20160120
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20160120_date
+
+      Wednesday, 20th January, 16:30 Central European Time (Copenhagen)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20160120_agenda
+
+      -  Welcome and agree Agenda
+      -  CSPAD progress
+      -  cnxvalidate progress
+      -  github issue of the day - suggestions welcome (there is a
+         github label now), otherwise we pick a random one
+      -  version numbers
+      -  Issues in Armando   s emails
+      -  Next meeting
+      -  AOB
+
+      .. rubric:: Minutes
+         :name: Telco_20160120_minutes
+
+      Present: EW, MK, AB (first half), Armando (second half), Ray
+      Osborn, HJB, TSR
+
+      .. rubric:: Agenda
+         :name: Telco_20160120_agenda-1
+
+      revised for the meeting
+
+      .. rubric:: CSPAD
+         :name: Telco_20160120_cspad
+
+      Herbert and Aaron are making some progress. Current files use
+      absolute paths for external links, that could be discouraged.
+
+      .. rubric:: cnxvalidate
+         :name: Telco_20160120_cnxvalidate
+
+      Has 50 tests passing and is ready for testing by friendly users.
+      Tickets to produce a validating tool are to be closed in code and
+      definitions repositories and cnxvalidate has it   s own issue
+      tracking.
+
+      .. rubric:: issue of the day
+         :name: issue-of-the-day
+
+      -  resolved open question about NXtransformations
+      -  EW accepted pull request for trigger additions to NXdetector
+         (plus related ticket)
+      -  closed call for validation tool
+
+      .. rubric:: version numbers for classes
+         :name: version-numbers-for-classes
+
+      While there is version number on the class definition files this
+      is not used in the current infrastructure (and cannot easily be
+      used). This should be discussed at the next NIAC.
+
+      There was also a discussion about a process to make simple
+      editorial changes to classes or backward compatible additions.
+      Consensus was that formal criteria enforced by a tool (like three
+      votes on the issue tracker) would not be a good solution. For the
+      moment we will do this by consensus in the telco and via pull
+      requests to be accepted by a second person. Also to be discussed
+      at the NIAC.
+
+      .. rubric:: issues raised by Armando
+         :name: issues-raised-by-armando
+
+      There are two problems: subentries and NXdata.
+
+      NXdata appears to have some documentation problems which Ray will
+      confirm and raise a ticket for.
+
+      Subentries are compatible with what Armando wants. Ray will send a
+      summary of the discussion to the mailing list separately for a
+      wider audience.
+
+      .. rubric:: Next meeting
+         :name: Telco_20160120_next-meeting
+
+      Eugen did not like Wednesdays: `Telco
+      20160202 <Telco_20160202.html>`__

@@ -1,0 +1,326 @@
+=================
+NIAC2022
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: NIAC2022
+         :name: NIAC2022_niac2022
+         :class: page-title
+
+      The NIAC2022 meeting will be held as a hybrid event hosted by the
+      `Paul Scherrer Institute <https://www.psi.ch>`__ on September
+      14-16th, which is the week before the `2022 NOBUGS
+      conference <https://indico.psi.ch/event/12738/>`__.
+
+      As COVID19 continues to be a concern, people will be able to
+      participate both onsite and online (via Zoom). In order to better
+      overlap with other time zones (especially in the Americas), the
+      meeting sessions will be shorter and later in the day (CEST) over
+      3 days (instead of the usual 2 days).
+
+      .. rubric:: Venue and Accommodation
+         :name: NIAC2022_venue-and-accommodation
+
+      PSI is a major research institute in `northern
+      Switzerland <https://goo.gl/maps/pfBDWUdopjhdeWFQ6>`__ hosting a
+      number of `large-scale
+      facilities <https://www.psi.ch/de/science/large-research-facilities>`__
+      and `specialised research
+      laboratories <https://www.psi.ch/de/science/research-departments-and-labs>`__.
+      It is easy to `reach by public
+      transport <https://www.psi.ch/en/visit/how-to-find-us>`__. The
+      `PSI Pocket web-app <https://pocket.psi.ch/home>`__ provides lots
+      of useful information for visitors. Public transport in
+      Switzerland is very good and reliable and thus is highly
+      recommended. Trains, busses and ferries all share the same
+      ticketing system so that a single ticket covers a journey that may
+      utilise a combination of vehicles. While the tickets are typically
+      based on zones being traversed, most ticket purchases are
+      organised by simply stating the start and end points. Journeys can
+      be streamlined by using the `SBB Mobile
+      app <https://www.sbb.ch/en/timetable/mobile-apps/sbb-mobile.html>`__,
+      which provides time tables, ticket purchasing and holds tickets
+      (only have to show the ticket if asked by a train conductor).
+      Trips can be `planned online <https://www.sbb.ch/en/>`__ with
+      links to purchase tickets in advance to be downloaded to a phone
+      or as PDF.
+
+      The `PSI guest house <https://www.psi.ch/de/guesthouse>`__ is
+      conveniently situated on site, and is probably the cheapest option
+      but is considered basic by many. The PSI guest house also has
+      limited availability and so should be booked as early as possible.
+      Other `nearby
+      hotels <https://www.psi.ch/de/guesthouse/nearby-hotels>`__ are a
+      short bus ride away (such busses typically run every half hour).
+
+      The
+      `climate <https://en.wikipedia.org/wiki/Z%C3%BCrich#Climate>`__ in
+      mid-September is generally cool to mild with overcast, foggy
+      mornings being common.
+
+      .. rubric:: Registration
+         :name: NIAC2022_registration
+
+      `Registration
+      Form <https://indico.psi.ch/event/13249/registrations/1773/>`__
+
+      `One Page Overview <https://indico.psi.ch/event/13249/?print=1>`__
+
+      We ask that all participants register for the meeting, regardless
+      of whether they will be joining in person or online so that
+      sufficient resources can be organised. People outside of the NIAC
+      are invited to join discussions and register for the meeting but
+      voting will be restricted to committee members only.
+
+      .. rubric:: COVID19 Precautions
+         :name: NIAC2022_covid19-precautions
+
+      There are currently no coronavirus restrictions in place at
+      `PSI <https://www.psi.ch/en/useroffice>`__ or by the `Swiss
+      government <https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/empfehlungen-fuer-reisende.html>`__.
+      However, the situation could change, especially as the weather
+      gets cooler, and we encourage attendees to consider both their own
+      safety and the safety of others with appropriate hygiene, testing
+      and vaccination.
+
+      .. rubric:: Agenda
+         :name: NIAC2022_agenda
+
+      The meeting agenda will be based on a `Github
+      project <https://github.com/orgs/nexusformat/projects/2>`__ so
+      that it is accessible to all particpants. Any proposal to be
+      discussed and voted on should be documented as an issue in the
+      `nexusformat/NIAC
+      repository <https://github.com/nexusformat/NIAC/issues>`__.
+
+      .. rubric:: Minutes
+         :name: NIAC2022_minutes
+
+      `NIAC2022 minutes <NIAC2022_minutes.html>`__
+
+      .. rubric:: Schedule
+         :name: NIAC2022_schedule
+
+      The meeting will have sets of 2 hour sessions with 30 minute
+      breaks. 3 sessions per day for 3 days.
+
+      `Zoom
+      link <https://psich.zoom.us/j/61992829752?pwd=VWs5eXluSUxRNTNWT3JhdXRFSnhHZz09>`__
+
+      ID: 619 9282 9752
+
+      passcode: nexus
+
+      +-----------------------------------+-----------------------------------+
+      | Session                           | Local Start Times                 |
+      +-----------------------------------+-----------------------------------+
+      | A                                 | ============= =========           |
+      | September 14th                    | Tokyo         Thu 19:00           |
+      | 10:00-12:00 UTC                   | San Francisco Thu 03:00           |
+      |                                   | New York      Thu 06:00           |
+      |                                   | London        Thu 11:00           |
+      |                                   | Z rich        Thu 12:00           |
+      |                                   | ============= =========           |
+      +-----------------------------------+-----------------------------------+
+      | B                                 | ============= =========           |
+      | September 14th                    | Tokyo         Fri 21:30           |
+      | 12:30-14:30 UTC                   | San Francisco Thu 5:30            |
+      |                                   | New York      Thu 8:30            |
+      |                                   | London        Thu 13:30           |
+      |                                   | Z rich        Thu 14:30           |
+      |                                   | ============= =========           |
+      +-----------------------------------+-----------------------------------+
+      | C                                 | ============= =========           |
+      | September 14th                    | Tokyo         Fri 00:00           |
+      | 15:00-17:00 UTC                   | San Francisco Fri 08:00           |
+      |                                   | New York      Fri 11:00           |
+      |                                   | London        Fri 16:00           |
+      |                                   | Z rich        Fri 17:00           |
+      |                                   | ============= =========           |
+      +-----------------------------------+-----------------------------------+
+
+      +-----------------------------------+-----------------------------------+
+      | Session                           | Local Start Times                 |
+      +-----------------------------------+-----------------------------------+
+      | D                                 | ============= =========           |
+      | September 15th                    | Tokyo         Thu 19:00           |
+      | 10:00-12:00 UTC                   | San Francisco Thu 03:00           |
+      |                                   | New York      Thu 06:00           |
+      |                                   | London        Thu 11:00           |
+      |                                   | Z rich        Thu 12:00           |
+      |                                   | ============= =========           |
+      +-----------------------------------+-----------------------------------+
+      | E                                 | ============= =========           |
+      | September 15th                    | Tokyo         Fri 21:30           |
+      | 12:30-14:30 UTC                   | San Francisco Thu 5:30            |
+      |                                   | New York      Thu 8:30            |
+      |                                   | London        Thu 13:30           |
+      |                                   | Z rich        Thu 14:30           |
+      |                                   | ============= =========           |
+      +-----------------------------------+-----------------------------------+
+      | F                                 | ============= =========           |
+      | September 15th                    | Tokyo         Fri 00:00           |
+      | 15:00-17:00 UTC                   | San Francisco Fri 08:00           |
+      |                                   | New York      Fri 11:00           |
+      |                                   | London        Fri 16:00           |
+      |                                   | Z rich        Fri 17:00           |
+      |                                   | ============= =========           |
+      +-----------------------------------+-----------------------------------+
+
+      +-----------------------------------+-----------------------------------+
+      | Session                           | Local Start Times                 |
+      +-----------------------------------+-----------------------------------+
+      | G                                 | ============= =========           |
+      | September 16th                    | Tokyo         Thu 19:00           |
+      | 10:00-12:00 UTC                   | San Francisco Thu 03:00           |
+      |                                   | New York      Thu 06:00           |
+      |                                   | London        Thu 11:00           |
+      |                                   | Z rich        Thu 12:00           |
+      |                                   | ============= =========           |
+      +-----------------------------------+-----------------------------------+
+      | H                                 | ============= =========           |
+      | September 16th                    | Tokyo         Fri 21:30           |
+      | 12:30-14:30 UTC                   | San Francisco Thu 5:30            |
+      |                                   | New York      Thu 8:30            |
+      |                                   | London        Thu 13:30           |
+      |                                   | Z rich        Thu 14:30           |
+      |                                   | ============= =========           |
+      +-----------------------------------+-----------------------------------+
+      | I                                 | ============= =========           |
+      | September 16th                    | Tokyo         Fri 00:00           |
+      | 15:00-17:00 UTC                   | San Francisco Fri 08:00           |
+      |                                   | New York      Fri 11:00           |
+      |                                   | London        Fri 16:00           |
+      |                                   | Z rich        Fri 17:00           |
+      |                                   | ============= =========           |
+      +-----------------------------------+-----------------------------------+
+
+      .. rubric:: Official Decisions and Statements
+         :name: NIAC2022_official-decisions-and-statements
+
+      +-----------------+-----------------+-----------------+-----------------+
+      | Proposal (link  | Discussion      | Implementation  | Decision        |
+      | to voting)      |                 |                 | (for/a          |
+      |                 |                 |                 | gainst/abstain) |
+      +=================+=================+=================+=================+
+      | `Flux           | `issue#98       | `pull#10        | Accepted        |
+      | definitions for | 6 <https://gith | 35 <https://git | (11/0/0)        |
+      | NXmx <https     | ub.com/nexusfor | hub.com/nexusfo |                 |
+      | ://github.com/n | mat/definitions | rmat/definition |                 |
+      | exusformat/defi | /issues/986>`__ | s/pull/1035>`__ |                 |
+      | nitions/pull/10 |                 |                 |                 |
+      | 35#issuecomment |                 |                 |                 |
+      | -1248232346>`__ |                 |                 |                 |
+      +-----------------+-----------------+-----------------+-----------------+
+      | `Math in NXDL   | `issue#1084     | Statement       | Accepted        |
+      | symbol          | <https://githu  |                 | (8/0/0)         |
+      | tables <https:/ | b.com/nexusform |                 |                 |
+      | /github.com/nex | at/definitions/ |                 |                 |
+      | usformat/defini | issues/1084>`__ |                 |                 |
+      | tions/issues/10 |                 |                 |                 |
+      | 84#issuecomment |                 |                 |                 |
+      | -1249411564>`__ |                 |                 |                 |
+      +-----------------+-----------------+-----------------+-----------------+
+      | `Review of      | `issue#52       | `pull#11        | Accepted        |
+      | NXsas           | 2 <https://gith | 94 <https://git | (8/0/0)         |
+      | <https://githu  | ub.com/nexusfor | hub.com/nexusfo |                 |
+      | b.com/nexusform | mat/definitions | rmat/definition |                 |
+      | at/NIAC/issues/ | /issues/522>`__ | s/pull/1194>`__ |                 |
+      | 58#issuecomment |                 |                 |                 |
+      | -1249513045>`__ |                 |                 |                 |
+      +-----------------+-----------------+-----------------+-----------------+
+      | `Elect          |                 | Aaron Brewster  | Accepted        |
+      | Chair           |                 |                 | (13/0/0)        |
+      | <https://github |                 |                 |                 |
+      | .com/nexusforma |                 |                 |                 |
+      | t/NIAC/issues/1 |                 |                 |                 |
+      | 37#issuecomment |                 |                 |                 |
+      | -1248281424>`__ |                 |                 |                 |
+      +-----------------+-----------------+-----------------+-----------------+
+      | `Elect          |                 | Sandor          | Accepted        |
+      | Executive       |                 | Brockhauser     | (11/0/1)        |
+      | Secretary       |                 |                 |                 |
+      | <https://github |                 |                 |                 |
+      | .com/nexusforma |                 |                 |                 |
+      | t/NIAC/issues/1 |                 |                 |                 |
+      | 37#issuecomment |                 |                 |                 |
+      | -1248285986>`__ |                 |                 |                 |
+      +-----------------+-----------------+-----------------+-----------------+
+      | `Elect          |                 | Mark Koennecke  | Accepted        |
+      | Technical       |                 |                 | (12/0/0)        |
+      | Manager         |                 |                 |                 |
+      | <https://github |                 |                 |                 |
+      | .com/nexusforma |                 |                 |                 |
+      | t/NIAC/issues/1 |                 |                 |                 |
+      | 37#issuecomment |                 |                 |                 |
+      | -1248291142>`__ |                 |                 |                 |
+      +-----------------+-----------------+-----------------+-----------------+
+      | `Elect          |                 | Peter Chang     | Accepted        |
+      | Definitions     |                 |                 | (12/0/0)        |
+      | Release         |                 |                 |                 |
+      | Manager         |                 |                 |                 |
+      | <https://github |                 |                 |                 |
+      | .com/nexusforma |                 |                 |                 |
+      | t/NIAC/issues/1 |                 |                 |                 |
+      | 37#issuecomment |                 |                 |                 |
+      | -1248292805>`__ |                 |                 |                 |
+      +-----------------+-----------------+-----------------+-----------------+
+      | `NeXus ontology | `i              | Statement       | Accepted        |
+      | development     | ssue#136 <https |                 | (10/0/0)        |
+      | <https://github | ://github.com/n |                 |                 |
+      | .com/nexusforma | exusformat/NIAC |                 |                 |
+      | t/NIAC/issues/1 | /issues/136>`__ |                 |                 |
+      | 36#issuecomment |                 |                 |                 |
+      | -1246777030>`__ |                 |                 |                 |
+      +-----------------+-----------------+-----------------+-----------------+
+      | `Support        | `i              | `pull#11        | Accepted        |
+      | "recommended"   | ssue#140 <https | 83 <https://git | (10/0/0)        |
+      | property for    | ://github.com/n | hub.com/nexusfo |                 |
+      | attributes      | exusformat/NIAC | rmat/definition |                 |
+      | <https://github | /issues/140>`__ | s/pull/1183>`__ |                 |
+      | .com/nexusforma |                 |                 |                 |
+      | t/NIAC/issues/1 |                 |                 |                 |
+      | 40#issuecomment |                 |                 |                 |
+      | -1246721024>`__ |                 |                 |                 |
+      +-----------------+-----------------+-----------------+-----------------+
+      | Improvements    | issue 1170      | pull 11         | Accepted        |
+      | to              | <https://github | <https://github | (9/0/0)         |
+      | NXxas           | .com/nexusform  | .com/nexusform  |                 |
+      | ://github.com/  | at/definitions/ | at/definitions/ |                 |
+      | nexusformat/defi| issues/1170>__  | s/pull/1190>__  |                 |
+      | nitions/pull/11 |                 |                 |                 |
+      | 90#issuecomment |                 |                 |                 |
+      | -1248133885>__  |                 |                 |                 |
+      +-----------------+-----------------+-----------------+-----------------+
+      | `Clarify data   | `i              |                 | Accepted        |
+      | types:          | ssue#142 <https |                 | (12/0/0)        |
+      | ``NX_           | ://github.com/n |                 |                 |
+      | CHAR_XOR_NUM``  | exusformat/NIAC |                 |                 |
+      | <https://github | /issues/142>`__ |                 |                 |
+      | .com/nexusforma |                 |                 |                 |
+      | t/NIAC/issues/1 |                 |                 |                 |
+      | 42#issuecomment |                 |                 |                 |
+      | -1247951551>`__ |                 |                 |                 |
+      +-----------------+-----------------+-----------------+-----------------+
+      | `Clarify data   | `i              |                 | Accepted        |
+      | types:          | ssue#142 <https |                 | (13/0/0)        |
+      | ``NX_NUMBER``   | ://github.com/n |                 |                 |
+      | <https://github | exusformat/NIAC |                 |                 |
+      | .com/nexusforma | /issues/142>`__ |                 |                 |
+      | t/NIAC/issues/1 |                 |                 |                 |
+      | 42#issuecomment |                 |                 |                 |
+      | -1247957679>`__ |                 |                 |                 |
+      +-----------------+-----------------+-----------------+-----------------+
+      | `Clarify data   | `i              |                 | Rejected        |
+      | types:          | ssue#142 <https |                 | (0/11/1)        |
+      | `               | ://github.com/n |                 |                 |
+      | `NX_COMPOUND``  | exusformat/NIAC |                 |                 |
+      | <https://github | /issues/142>`__ |                 |                 |
+      | .com/nexusforma |                 |                 |                 |
+      | t/NIAC/issues/1 |                 |                 |                 |
+      | 42#issuecomment |                 |                 |                 |
+      | -1247961708>`__ |                 |                 |                 |
+      +-----------------+-----------------+-----------------+-----------------+

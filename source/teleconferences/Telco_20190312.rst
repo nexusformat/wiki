@@ -1,0 +1,58 @@
+=================
+Telco 20190312
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20190312
+         :name: telco-20190312
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20190312_date
+
+      Tuesday, 12 March, 15:00 CET (+0100)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20190312_agenda
+
+      -  NeXus for XFELs
+      -  Dectris NeXus
+      -  Implementing NeXus at Spring8
+
+      .. rubric:: Minutes
+         :name: Telco_20190312_minutes
+
+      Present: BW, MK, HJB, TM, AB
+
+      .. rubric:: NeXus for FELs
+         :name: Telco_20190312_nexus-for-fels
+
+      AB reports that work has been progressing on implementing NeXus
+      for single shot crystallography experiments at the European XFEL
+      (and SwissFEL). While still a work-in-progress, the code has
+      already had a first use in an experiment at the Europeean XFEL.
+      HJB commented on an issue that a requirement for an extra geometry
+      file wasn't properly documented. AB noted that it is because of a
+      shortcut (reusing existing code) that will be fixed soon.
+
+      .. rubric:: Dectris NeXus
+         :name: dectris-nexus
+
+      HJB and AB continue to work on improving the NeXus output of
+      Dectris detectors.
+
+      .. rubric:: Implementing NeXus at Spring8
+         :name: implementing-nexus-at-spring8
+
+      TM reports that work is progressing at Spring8 for the
+      implementation of NeXus at the beamlines.
+
+      BW to organise the next telco using another poll, aiming for the
+      end of April. `Poll for April
+      Telco <https://doodle.com/poll/6ad77ubsfytfnstc>`__

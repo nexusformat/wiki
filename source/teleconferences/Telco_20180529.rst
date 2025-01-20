@@ -1,0 +1,78 @@
+=================
+Telco 20180529
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20180529
+         :name: telco-20180529
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20180529_date
+
+      Tuesday, 29 May, 16:30 CEST (+0200)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20180529_agenda
+
+      -  Welcome and agree Agenda
+      -  Feedback from the Definitions Release
+      -  Preparations for NIAC this year
+      -  Updates on NeXus for pixelated STEM
+      -  Github issue of the day - suggestions welcome (use telco github
+         label)
+
+         -  `definitions PRs & issues marked as
+            'telco' <https://github.com/nexusformat/definitions/labels/telco>`__
+
+      -  Next meeting
+      -  AOB
+
+      .. rubric:: Minutes
+         :name: Telco_20180529_minutes
+
+      Present: PJ, TSR, AB, Dieter Weber
+
+      .. rubric:: Celebrate the release
+         :name: celebrate-the-release
+
+      The release was a success. No problems were encountered. Thanks go
+      to PJ.
+
+      .. rubric:: Pixelated STEM
+         :name: Telco_20180529_pixelated-stem
+
+      Interested parties had a productive Telco meeting earlier today.
+      STEM community is implementing a file writing scheme that follows
+      what was developed at the meeting.
+
+      There will be some adjustments as the suggested use of
+      NXpositonier is not widely adopted in NeXus. NXtransformations
+      work better for encoding the geometry. There are some open
+      questions regarding scanning, which could be addressed with the
+      new NXlog scheme or the standard scan rules.
+
+      Other areas of interest are default plots (NXdata), for which a
+      solution exists, and OS level thumbnails which hopefully can be
+      distributed soon. See:
+      https://github.com/nexusformat/definitions/issues/381
+
+      Dieter will send out a new draft pixelated STEM file to the NeXus
+      mailing list to gather feedback and develop a next iteration.
+
+      .. rubric:: NIAC
+         :name: Telco_20180529_niac
+
+      Still no update from the organisers on exact dates NOBUGS and
+      related events. Making other arrangements is becoming more likely.
+
+      .. rubric:: Next Meeting
+         :name: Telco_20180529_next-meeting
+
+      `Telco 20180619 <Telco_20180619.html>`__

@@ -1,0 +1,66 @@
+=================
+Telco 20160809
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20160809
+         :name: telco-20160809
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20160809_date
+
+      Tuesday, 9th August, 16:30 Central European Summer Time
+      (Copenhagen)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20160809_agenda
+
+      -  Welcome and agree Agenda
+      -  github issue of the day - suggestions welcome (there is a
+         github label now)
+      -  changing the dims type in the NAPI from int to hsize_t or
+         uint64_t
+      -  items for NIAC (or code camp) to prepare
+      -  Next meeting
+      -  AOB
+
+      .. rubric:: Minutes
+         :name: Telco_20160809_minutes
+
+      Present: EW, MK, AB, TSR, HJB (last half)
+
+      .. rubric:: Github
+         :name: Telco_20160809_github
+
+      C++ API broken for non-HDF5 - TSR hopefully has time to address
+      that soon
+
+      .. rubric:: dimensions data type
+         :name: dimensions-data-type
+
+      All API calls consuming data dimensions have a 64 bit version
+      already (ex: nxputslab64). Except possibly the ones dealing with
+      attribute arrays. No action required.
+
+      .. rubric:: NIAC
+         :name: Telco_20160809_niac
+
+      Changes made to the tickets:
+      https://github.com/nexusformat/NIAC/issues
+
+      .. rubric:: Next Meeting
+         :name: Telco_20160809_next-meeting
+
+      `Telco 20160824 <Telco_20160824.html>`__
+
+      .. rubric:: AOB
+         :name: Telco_20160809_aob
+
+      None

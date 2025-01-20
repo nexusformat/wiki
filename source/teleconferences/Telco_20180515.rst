@@ -1,0 +1,72 @@
+=================
+Telco 20180515
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20180515
+         :name: telco-20180515
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20180515_date
+
+      Tuesday, 15 May, 16:30 CEST (+0200)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20180515_agenda
+
+      -  Welcome and agree Agenda
+      -  Review of tickets for the upcoming NXDL
+         `milestone <https://github.com/nexusformat/definitions/milestones>`__
+      -  Github issue of the day - suggestions welcome (use telco github
+         label)
+
+         -  `definitions PRs & issues marked as
+            'telco' <https://github.com/nexusformat/definitions/labels/telco>`__
+
+      -  Preparations for NIAC this year
+      -  Next meeting
+      -  AOB
+
+      .. rubric:: Minutes
+         :name: Telco_20180515_minutes
+
+      Present: HJB, TSR, MK, PJ
+
+      .. rubric:: Milestone and Github Issues
+         :name: Telco_20180515_milestone-and-github-issues
+
+      All is ready to go ahead with the release. We merged three final
+      tickets in the meeting and PJ is doing the remaining manual steps
+      probably today.
+
+      Ambitious plan for the next release was August. That way we have
+      two releases a year and can get some known issues out of the way
+      before the NIAC meeting. Release after that should be early next
+      year, which allows time address new things that may come out of
+      the NIAC.
+
+      .. rubric:: NIAC @ NOBUGS
+         :name: Telco_20180515_niac--nobugs
+
+      Resent communications indicated that NOBUGS may not happen on the
+      dates originally circulated. We do not rule out having the NIAC at
+      either dates, but would like clarity soon. People at BNL have been
+      contacted to help.
+
+      .. rubric:: Next Meeting
+         :name: Telco_20180515_next-meeting
+
+      `Telco 20180529 <Telco_20180529.html>`__
+
+      .. rubric:: AOB
+         :name: Telco_20180515_aob
+
+      The NeXus website (hosting these minutes) is now accessible via
+      SSL/TLS. Thanks to GitHub and LetsEncrypt!

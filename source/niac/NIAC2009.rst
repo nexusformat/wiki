@@ -1,0 +1,54 @@
+=================
+NIAC2009
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: NIAC2009
+         :name: NIAC2009_niac2009
+         :class: page-title
+
+      .. rubric:: 2009 NeXus Code Camp
+         :name: 2009-nexus-code-camp
+
+      .. rubric:: Purpose
+         :name: NIAC2009_purpose
+
+      Develop NeXus software components through intense effort by small
+      groups working on specific projects and tasks. It is expected that
+      those attending the 2009 NeXus Code Camp will already have strong
+      foundation and understanding in aspects of the NeXus software and
+      come ready with knowledge, tools, and ideas to make significant
+      progress during the event. The specific projects and tasks, as
+      well as the list of participants, are described on this wiki and
+      will be revised as the event draws near.
+
+      (For more info on code camps, try searching Google for "code camp"
+      or "codeathon". Events such as the `EPICS
+      Codeathon <http://www.aps.anl.gov/epics/meetings/codeathon.php>`__
+      would be reasonable templates for this first NeXus code camp.)
+
+      .. rubric:: Dates
+         :name: NIAC2009_dates
+
+      -  October 16-18, 2009 (Friday - Sunday)
+
+      .. rubric:: Agenda
+         :name: NIAC2009_agenda
+
+      .. rubric:: Business Matters
+         :name: NIAC2009_business-matters
+
+      Since this is not to be a meeting of the full NIAC, no business
+      matters can be resolved.
+
+      .. rubric:: Projects and Tasks
+         :name: NIAC2009_projects-and-tasks
+
+      These items are sorted in order of priority that they be finished.
+      Only items that currently exist in the project plan are being
+      worked on.
+
+      #. NXDL - NeXus Definition Language

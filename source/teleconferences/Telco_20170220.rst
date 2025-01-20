@@ -1,0 +1,94 @@
+=================
+Telco 20170220
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20170220
+         :name: telco-20170220
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20170220_date
+
+      Monday, 20th February, 16:30 Brussels Time
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20170220_agenda
+
+      -  Welcome and agree Agenda
+      -  NeXus website
+
+         -  `#486: web site
+            redesign <https://github.com/nexusformat/definitions/issues/486>`__
+            demo planned
+         -  wiki replacement, see https://nexusformat.github.io/wiki/ -
+            could that work for the website as well
+
+      -  `#511: pixel as NX_length
+         update <https://github.com/nexusformat/definitions/issues/511>`__
+         look at work in branch
+         https://github.com/nexusformat/definitions/compare/NXmx_multimodule_and_dectris_changes
+      -  HDRMX Lund meeting
+      -  RDA ALBA satellite
+      -  AOB
+
+      .. rubric:: Minutes
+         :name: Telco_20170220_minutes
+
+      Present: MK, MB, PJ, HJB, TSR, FAA, AB, RO
+
+      .. rubric:: Website
+         :name: website
+
+      The Github Pages redesign was well received. Action on FAA and TSR
+      to liaise on making this the replacement of the current wiki *and*
+      main website.
+
+      .. rubric:: NXMX update
+         :name: Telco_20170220_nxmx-update
+
+      EW sent in his approval. TSR would prefer not to change non-NXMX
+      application definitions, as they have not asked for a change. This
+      will be dropped. MK had some issues with the new wording to be
+      clearer about what kind of length are allowed. He will edit this
+      and MB will merge the pull request.
+
+      .. rubric:: HDRMX meeting
+         :name: hdrmx-meeting
+
+      `HDRMX event in
+      Lund <https://indico.maxiv.lu.se/event/233/overview>`__ - Herbert
+      co-hosts, let him know if you want to join.
+
+      .. rubric:: RDA and similar events
+         :name: rda-and-similar-events
+
+      Ray would like to see some NeXus participation at one of the
+      following events:
+
+      -  https://docs.google.com/document/d/1RDxpWLxzeOX1FknPHsu7ivnbPDAxOTSMOoCW7uPzG4c/edit#heading=h.5tid0eo8bky8
+      -  https://indico.cells.es/indico/event/97/overview
+
+      People will give it some good thought.
+
+      .. rubric:: AOB
+         :name: Telco_20170220_aob
+
+      -  Unfortunately EW missed deadlines for inclusion of latest NAPI
+         et al into Debian.
+      -  AB has some interest by FEL people to potentially join the
+         NIAC. They would be very welcome to join.
+      -  MD may have some interest by an electron microscope vendor to
+         join discussions. This is also very welcome. For the moment DLS
+         can facilitate this. Partcipation in Telcos is open as well.
+
+      .. rubric:: Next meeting
+         :name: Telco_20170220_next-meeting
+
+      `Telco 20170308 <Telco_20170308.html>`__
