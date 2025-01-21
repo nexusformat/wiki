@@ -30,7 +30,7 @@ Telco 20221026
       -  Discuss how NeXus operates and answer questions from LNLS
          synchrotron in Brazil
       -  Review previous meeting minutes and actions: `August
-         Telco <Telco_20220824.md>`__
+         Telco <Telco_20220824.html>`__
       -  Review the `NIAC
          meeting <../niac/NIAC2022.html>`__
       -  Recent issues on Github (especially those labelled with

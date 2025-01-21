@@ -451,7 +451,7 @@ Teleconferences
       .. rubric:: October
          :name: october-2
 
-      `NIAC2016 <NIAC2016.html>`__
+      `NIAC2016 <../niac/NIAC2016.html>`__
 
       .. rubric:: September
          :name: september-4

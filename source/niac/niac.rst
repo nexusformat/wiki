@@ -218,13 +218,13 @@ NIAC
          hosted by DESY, Hamburg, Germany, November 2015 (no minutes)
       -  `NIAC 2014 <NIAC2014.html>`__ NeXus Code Camp and NIAC Meeting,
          hosted by APS, Chicago, USA, December 2014
-         (`minutes <NIAC2014_Meeting#Minutes.html>`__)
+         (`Minutes <NIAC2014_Meeting.html#NIAC2014_Meeting_minutes>`__)
       -  `NIAC 2012 <NIAC2012.html>`__ NeXus Code Camp and NIAC Meeting,
          hosted by ISIS and Diamond at RAL, Oxfordshire, UK, September
-         2012 (`minutes <NIAC2012#Meeting_Minutes.html>`__)
+         2012 (`minutes <NIAC2012.html#meeting-minutes>`__)
       -  `NIAC 2011 <NIAC2011_CodeCamp.html>`__ NeXus Code Camp and NIAC
          Meeting, APS, October 2011
-         (`minutes <NIAC2011_CodeCamp#Final_Report.html>`__)
+         (`minutes <NIAC2011_CodeCamp.html#final-report>`__)
       -  `NIAC 2010 <NIAC2010.html>`__ NeXus Code Camp and NIAC Meeting,
          ORNL, October 2010
          (`minutes <../pdfs/Minutes_of_NeXus_Committee_2010.pdf>`__)
@@ -272,7 +272,7 @@ NIAC
       teleconference meetings has been retired. In the interest of being
       inclusive and approachable the sessions are now open to all
       interested parties. See the
-      `Teleconferences <teleconferences/Teleconferences.html>`__ page for agendas,
+      `Teleconferences <../teleconferences/teleconferences.html>`__ page for agendas,
       minutes, and how to join.
 
 .. toctree::

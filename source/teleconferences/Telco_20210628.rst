@@ -29,7 +29,7 @@ Telco 20210628
 
       -  Welcome new members
       -  Review previous meeting minutes and actions: `May
-         Telco <Telco_20210505.md>`__
+         Telco <Telco_20210505.html>`__
       -  The NeXus ontology and scripts are now on
          `github <https://github.com/nexusformat/NeXusOntology>`__
       -  The `European HDF5 users online

@@ -93,7 +93,7 @@ previous meetings
 
       `[NIACOrg] <NIACOrg.html>`_
 
-      `[NIAC] <NIAC.html>`_
+      `[NIAC] <../niac/niac.html>`_
 
 .. toctree::
    :maxdepth: 1

@@ -14,7 +14,7 @@ NIAC2022 spring
       2022. It aims to provide some decisions and feedback requested by
       the community. Since it is not the "ordinary" biennial NIAC meeting
       (which will be `held in September <NIAC2022.html>`__), the
-      `constitution <NIAC.html>`__ lays out stricter rules for making decisions:
+      `constitution <../niac/niac.html>`__ lays out stricter rules for making decisions:
 
       "Voting outside of the biennial NIAC meetings can take two forms.
       Firstly, memberships can be approved by email ballot. All other

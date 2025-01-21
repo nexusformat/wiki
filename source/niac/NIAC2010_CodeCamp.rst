@@ -21,9 +21,9 @@ NIAC2010 CodeCamp
       **Do not write in this table. This is to indicate the list of
       people we know are attending**
 
-      If you want to attend please email either `Stuart
-      Campbell <User%3AStuart_Campbell.html>`__ or `Peter
-      Peterson <User%3APeter_Peterson.html>`__.
+      If you want to attend please email either Stuart
+      Campbell <Stuart_Campbell.html> or Peter
+      Peterson <Peter_Peterson.html>.
 
       | **It is important that if entering the US on a Visa Waiver to
         ensure that you get a VWB (Visa Waiver Business) and NOT a
@@ -38,16 +38,16 @@ NIAC2010 CodeCamp
       |           |           | ISIS      |           | approved  |   |
       | Frederick |           | Facility, |           |           |   |
       | Aker      |           | R         |           |           |   |
-      | oyd <User |           | utherford |           |           |   |
-      | %3AFreddi |           | Appleton  |           |           |   |
+      | oyd <     |           | utherford |           |           |   |
+      | Freddi    |           | Appleton  |           |           |   |
       | e_Akeroyd |           | La        |           |           |   |
       | .html>    |           | boratory, |           |           |   |
       |           |           | UK        |           |           |   |
       +-----------+-----------+-----------+-----------+-----------+---+
       | Stuart    |           | ORNL, USA |           | approved  | 2 |
       | Campb     |           |           |           |           |   |
-      | ell <User |           |           |           |           |   |
-      | %3AStuart |           |           |           |           |   |
+      | ell <     |           |           |           |           |   |
+      | Stuart    |           |           |           |           |   |
       | _Campbell |           |           |           |           |   |
       | .html>    |           |           |           |           |   |
       +-----------+-----------+-----------+-----------+-----------+---+
@@ -58,22 +58,22 @@ NIAC2010 CodeCamp
       +-----------+-----------+-----------+-----------+-----------+---+
       | Pete      |           | APS, ANL, |           | approved  |   |
       | Jemian <  |           | USA       |           |           |   |
-      | User%3APe |           |           |           |           |   |
+      | Pe        |           |           |           |           |   |
       | te_Jemian |           |           |           |           |   |
       | .html>    |           |           |           |           |   |
       +-----------+-----------+-----------+-----------+-----------+---+
       | Jens-Uwe  |           | Helmholtz |           | approved  |   |
       | Hoffman   |           | Zentrum   |           |           |   |
-      | n <User%3 |           | Berlin    |           |           |   |
-      | AJens-Uwe |           | (renamed  |           |           |   |
+      | n <       |           | Berlin    |           |           |   |
+      | Jens-Uwe  |           | (renamed  |           |           |   |
       | _Hoffmann |           | HMI),     |           |           |   |
       | .html>    |           | Germany   |           |           |   |
       +-----------+-----------+-----------+-----------+-----------+---+
       | Mark      |           | PSI,      |           | approved  |   |
       | Koenn     |           | Sw        |           |           |   |
-      | ecke <Use |           | itzerland |           |           |   |
-      | r%3AMark_ |           |           |           |           |   |
-      | Koennecke |           |           |           |           |   |
+      | ecke <    |           | itzerland |           |           |   |
+      | Mark      |           |           |           |           |   |
+      | _Koennecke|           |           |           |           |   |
       | .html>    |           |           |           |           |   |
       +-----------+-----------+-----------+-----------+-----------+---+
       | Peter     |           | ORNL, USA |           | approved  | 3 |
@@ -88,8 +88,8 @@ NIAC2010 CodeCamp
       +-----------+-----------+-----------+-----------+-----------+---+
       | Tobias    |           | Diamond   |           | approved  |   |
       | Ric       |           | Light     |           |           |   |
-      | hter <Use |           | Source,   |           |           |   |
-      | r%3ATobia |           | UK        |           |           |   |
+      | hter <    |           | Source,   |           |           |   |
+      | Tobia     |           | UK        |           |           |   |
       | s_Richter |           |           |           |           |   |
       | .html>    |           |           |           |           |   |
       +-----------+-----------+-----------+-----------+-----------+---+
@@ -100,8 +100,8 @@ NIAC2010 CodeCamp
       |           |           | itzerland |           |           |   |
       +-----------+-----------+-----------+-----------+-----------+---+
       | Marie     |           | ORNL, USA |           | approved  |   |
-      | Yao <Use  |           |           |           |           |   |
-      | r%3AMarie |           |           |           |           |   |
+      | Yao <     |           |           |           |           |   |
+      | Marie     |           |           |           |           |   |
       | .html>    |           |           |           |           |   |
       +-----------+-----------+-----------+-----------+-----------+---+
       |           |           |           |           |           |   |

@@ -29,7 +29,7 @@ Telco 20210505
 
       -  Welcome new members
       -  Review previous meeting minutes and actions: `March
-         Telco <Telco_20210303.md>`__
+         Telco <Telco_20210303.html>`__
       -  Discuss the proposed NeXus ontology, including:
 
          -  use of the namespace http://purl.org/nexusformat/definitions

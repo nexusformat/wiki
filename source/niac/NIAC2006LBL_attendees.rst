@@ -13,81 +13,81 @@ NIAC2006LBL attendees
       .. rubric:: NIAC 2006 at LBL List of Attendees
          :name: NIAC2006LBL_attendees_niac-2006-at-lbl-list-of-attendees
 
-      Attendees of the `2006 NIAC Meeting <NIAC2006LBL.html>`__ at
+      Attendees of the `2006 NIAC Meeting <NIAC2006LBL.html>`__    at
       Lawrence Berkeley Laboratory, Berkeley, CA, USA.
 
       +-------------------+---+-------------------+---+-------------------+
-      | `Freddie          |   | CCLRC ISIS        |   | DoubleTree        |
+      | Freddie           |   | CCLRC ISIS        |   | DoubleTree        |
       | Akeroy            |   | facility          |   |                   |
-      | d <User%3AFreddie |   |                   |   |                   |
-      | _Akeroyd.html>`__ |   |                   |   |                   |
+      | d <Freddie        |   |                   |   |                   |
+      | _Akeroyd.html>    |   |                   |   |                   |
       +===================+===+===================+===+===================+
-      | `Stuart           |   | Diamond Light     |   | DoubleTree        |
+      | Stuart            |   | Diamond Light     |   | DoubleTree        |
       | Campbel           |   | Source            |   |                   |
-      | l <User%3AStuart_ |   |                   |   |                   |
-      | Campbell.html>`__ |   |                   |   |                   |
+      | l <Stuart         |   |                   |   |                   |
+      | _Campbell.html>   |   |                   |   |                   |
       +-------------------+---+-------------------+---+-------------------+
       | Matthias Drochner |   | Forschungzentrum  |   |                   |
       |                   |   | J lich            |   |                   |
       +-------------------+---+-------------------+---+-------------------+
-      | `Andrew           |   | European          |   | DoubleTree        |
-      | Gotz <User%3AA    |   | Synchrotron       |   |                   |
-      | ndy_Gotz.html>`__ |   | Radiation         |   |                   |
+      | Andrew            |   | European          |   | DoubleTree        |
+      | Gotz <A           |   | Synchrotron       |   |                   |
+      | ndy_Gotz.html>    |   | Radiation         |   |                   |
       |                   |   | Facility          |   |                   |
       +-------------------+---+-------------------+---+-------------------+
-      | `Nick             |   | Australian        |   | Durant            |
+      | Nick              |   | Australian        |   | Durant            |
       | Hauser <Use       |   | Nuclear Science   |   |                   |
-      | r%3ANick.html>`__ |   | and Technology    |   |                   |
+      | r%3ANick.html>    |   | and Technology    |   |                   |
       |                   |   | Organisation      |   |                   |
       +-------------------+---+-------------------+---+-------------------+
       | Jens-Uwe Hoffman  |   | Hahn              |   |                   |
       |                   |   | -Meitner-Institut |   |                   |
       +-------------------+---+-------------------+---+-------------------+
-      | `Pete             |   | Advanced Photon   |   |                   |
+      | Pete              |   | Advanced Photon   |   |                   |
       | J                 |   | Source, Argonne   |   |                   |
-      | emian <User%3APet |   | National          |   |                   |
-      | e_Jemian.html>`__ |   | Laboratory        |   |                   |
+      | emian <Pet        |   | National          |   |                   |
+      | e_Jemian.html>    |   | Laboratory        |   |                   |
       +-------------------+---+-------------------+---+-------------------+
       | Paul Kienzle      |   | National          |   |                   |
       |                   |   | Institute of      |   |                   |
       |                   |   | Standards and     |   |                   |
       |                   |   | Technology        |   |                   |
       +-------------------+---+-------------------+---+-------------------+
-      | `Przemek          |   | National          |   |                   |
+      | Przemek           |   | National          |   |                   |
       | Klosowski         |   | Institute of      |   |                   |
-      | <User%3APrzemek_K |   | Standards and     |   |                   |
-      | losowski.html>`__ |   | Technology        |   |                   |
+      | <Przemek_K        |   | Standards and     |   |                   |
+      | losowski.html>    |   | Technology        |   |                   |
       +-------------------+---+-------------------+---+-------------------+
-      | `Mark             |   | Paul Scherrer     |   |                   |
+      | Mark              |   | Paul Scherrer     |   |                   |
       | Koennec           |   | Institut          |   |                   |
-      | ke <User%3AMark_K |   |                   |   |                   |
-      | oennecke.html>`__ |   |                   |   |                   |
+      | ke <Mark_K        |   |                   |   |                   |
+      | oennecke.html>    |   |                   |   |                   |
       +-------------------+---+-------------------+---+-------------------+
-      | `Laurent          |   | Rutherford        |   | Durant            |
-      | Lerusse <User%3AL |   | Appleton          |   |                   |
-      | .lerusse.html>`__ |   | Laboratory ,      |   |                   |
+      | Laurent           |   | Rutherford        |   | Durant            |
+      | Lerusse <L        |   | Appleton          |   |                   |
+      | .lerusse.html>    |   | Laboratory ,      |   |                   |
       |                   |   | e-Science         |   |                   |
       +-------------------+---+-------------------+---+-------------------+
-      | `Mike             |   | CalTech           |   |                   |
-      | McKerns <http:/   |   |                   |   |                   |
-      | /www.its.caltech. |   |                   |   |                   |
-      | edu/~mmckerns>`__ |   |                   |   |                   |
+      | Mike              |   | CalTech           |   |                   |
+      | McKerns           |   |                   |   |                   |
+      |                   |   |                   |   |                   |
+      |                   |   |                   |   |                   |
       +-------------------+---+-------------------+---+-------------------+
-      | `Ray              |   | Intense Pulsed    |   | DoubleTree        |
-      | Osborn <User%3ARa |   | Neutron Source,   |   |                   |
-      | y_Osborn.html>`__ |   | Argonne National  |   |                   |
+      | Ray               |   | Intense Pulsed    |   | DoubleTree        |
+      | Osborn <Ra        |   | Neutron Source,   |   |                   |
+      | y_Osborn.html>    |   | Argonne National  |   |                   |
       |                   |   | Laboratory        |   |                   |
       +-------------------+---+-------------------+---+-------------------+
-      | `Peter            |   | Spallation        |   | DoubleTree        |
+      | Peter             |   | Spallation        |   | DoubleTree        |
       | Peters            |   | Neutron Source,   |   |                   |
-      | on <User%3APeter_ |   | Oak Ridge         |   |                   |
-      | Peterson.html>`__ |   | National          |   |                   |
+      | on <Peter         |   | Oak Ridge         |   |                   |
+      | _Peterson.html>   |   | National          |   |                   |
       |                   |   | Laboratory        |   |                   |
       +-------------------+---+-------------------+---+-------------------+
-      | `Thomas           |   | Los Alamos        |   | Berkeley          |
+      | Thomas            |   | Los Alamos        |   | Berkeley          |
       | Proff             |   | National          |   | Travelodge, 1820  |
-      | en <User%3AThomas |   | Laboratory        |   | University Ave.   |
-      | _Proffen.html>`__ |   |                   |   |                   |
+      | en <Thomas        |   | Laboratory        |   | University Ave.   |
+      | _Proffen.html>    |   |                   |   |                   |
       +-------------------+---+-------------------+---+-------------------+
       | Jiro Suzuki       |   | J-Parc            |   |                   |
       +-------------------+---+-------------------+---+-------------------+

@@ -18,10 +18,7 @@ Codecamps
 
    Code_Camp_2015
    Code_Camp_2017
-   CodeCamp2020-2
-   CodeCamp2020-attendees
    CodeCamp2020
-   CodeCamp2020-topics
    CodeCamp2021-1
    CodeCamp2022
    CodeCampJune2023

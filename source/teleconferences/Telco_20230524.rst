@@ -41,7 +41,7 @@ Telco 20230524
          :name: Telco_20230524_minutes
 
       -  Codecamp Agreed period: June 15-16 & 20-21, 2023 Info: `Code
-         Camp June 2023 <CodeCampJune2023.html>`__
+         Camp June 2023 <../codecamps/CodeCampJune2023.html>`__
 
       -  Next NIAC 2024 with NOBUGS at ESRF
 

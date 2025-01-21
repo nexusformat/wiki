@@ -69,11 +69,10 @@ Telco 20230314
            `#1247 <https://github.com/nexusformat/definitions/issues/1247>`__
          | discussion deferred until next time.
 
-      -  WdN
-         `#1212 <https://github.com/nexusformat/definitions/issues/1212>`__
-         WdN: presented ambiguities around the interpretation of
-         NXdata/@AXISNAME_indices
-
+         - WdN
+           `#1212 <https://github.com/nexusformat/definitions/issues/1212>`__
+           WdN: Presented ambiguities around the interpretation of
+           ``NXdata/@AXISNAME_indices``.
          -  Use Case 1:
             axes=[[xp,xq],y,[z,time]] referreing to a 3D dataset
             where the 1st axis can be labeled by both xp, and xq, the

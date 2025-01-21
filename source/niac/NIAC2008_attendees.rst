@@ -16,49 +16,49 @@ NIAC2008 attendees
       +----------------------+----------------------+----------------------+
       | Name                 | Company/Institute    |                      |
       +======================+======================+======================+
-      | `Peter Peterson      |                      | Oak Ridge National   |
-      | (Chair) <User%3APet  |                      | Laboratory, USA      |
-      | er_Peterson.html>`__ |                      |                      |
+      | Peter Peterson       |                      | Oak Ridge National   |
+      | (Chair) <Pet         |                      | Laboratory, USA      |
+      | er_Peterson.html>    |                      |                      |
       +----------------------+----------------------+----------------------+
-      | `Freddie Akeroyd     |                      | ISIS, UK             |
+      | Freddie Akeroyd      |                      | ISIS, UK             |
       | (Secretary)          |                      |                      |
-      | <User%3AFreddie_Akero|                      |                      |
-      | yd.html>`__          |                      |                      |
+      | <Freddie_Akero       |                      |                      |
+      | yd.html>             |                      |                      |
       +----------------------+----------------------+----------------------+
-      | `Nick                |                      | Australian Nuclear   |
-      | Hauser <User%3A      |                      | Science and          |
-      | Nick_Hauser.html>`__ |                      | Technology           |
+      | Nick                 |                      | Australian Nuclear   |
+      | Hauser <             |                      | Science and          |
+      | Nick_Hauser.html>    |                      | Technology           |
       |                      |                      | Organisation,        |
       |                      |                      | Australia            |
       +----------------------+----------------------+----------------------+
-      | `Jens-Uwe            |                      | Helmholtz Zentrum    |
+      | Jens-Uwe             |                      | Helmholtz Zentrum    |
       | Hof                  |                      | Berlin (HMI before), |
-      | fmann <User%3AJens-U |                      | Germany              |
-      | we_Hoffmann.html>`__ |                      |                      |
+      | fmann <Jens-U        |                      | Germany              |
+      | we_Hoffmann.html>    |                      |                      |
       +----------------------+----------------------+----------------------+
-      | `Mark                |                      | Paul Scherrer        |
+      | Mark                 |                      | Paul Scherrer        |
       | K                    |                      | Institut             |
-      | oennecke <User%3AMar |                      |                      |
-      | k_Koennecke.html>`__ |                      |                      |
+      | oennecke <Mar        |                      |                      |
+      | k_Koennecke.html>    |                      |                      |
       +----------------------+----------------------+----------------------+
       | Peter Lewis          |                      | Australian           |
       |                      |                      | Synchrotron          |
       +----------------------+----------------------+----------------------+
-      | `Jiro                |                      | KEK, Japan           |
-      | Suzuki <User%3A      |                      |                      |
-      | Jiro_Suzuki.html>`__ |                      |                      |
+      | Jiro                 |                      | KEK, Japan           |
+      | Suzuki <             |                      |                      |
+      | Jiro_Suzuki.html>    |                      |                      |
       +----------------------+----------------------+----------------------+
-      | `Pete                |                      | Argonne National     |
-      | Jemian <User%3A      |                      | Laboratory, USA      |
-      | Pete_Jemian.html>`__ |                      |                      |
+      | Pete                 |                      | Argonne National     |
+      | Jemian <             |                      | Laboratory, USA      |
+      | Pete_Jemian.html>    |                      |                      |
       +----------------------+----------------------+----------------------+
       | Paul Lewis           | Los Alamos National  |                      |
       |                      | Laboratory           |                      |
       +----------------------+----------------------+----------------------+
-      | `Matthias            | Juelich              |                      |
+      | Matthias             | Juelich              |                      |
       | Dro                  |                      |                      |
-      | chner <User%3AMatthi |                      |                      |
-      | as_Drochner.html>`__ |                      |                      |
+      | chner <Matthi        |                      |                      |
+      | as_Drochner.html>    |                      |                      |
       +----------------------+----------------------+----------------------+
 
       |photo of NIAC 2008 attendees| |Rydges Cronulla Sydney hotel, site

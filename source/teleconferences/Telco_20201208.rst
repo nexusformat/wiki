@@ -30,8 +30,8 @@ Telco 20201208
 
       -  Welcome new members
       -  Review previous meeting minutes and actions: `September
-         Telco <Telco_20200930.md>`__, `NIAC
-         2020 <NIAC2020minutes_concluding.md>`__
+         Telco <Telco_20200930.html>`__, `NIAC
+         2020 <../niac/NIAC2020minutes_concluding.html>`__
       -  Discuss responses to `Future of NAPI
          questionaire <https://lists.nexusformat.org/pipermail/nexus/2020/001140.html>`__
       -  Issues on Github labelled with "telco"

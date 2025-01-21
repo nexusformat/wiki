@@ -79,8 +79,10 @@ def fix_encoding(input_dir, output_dir):
 
 if __name__ == '__main__':
     # Directory containing HTML files
-    input_directory = r'C:\Users\bergr\github\branches\test\gen_rst\source\niac'
-    output_directory = r'C:\Users\bergr\github\branches\test\gen_rst\source\niac-fix'
+    # input_directory = r'C:\Users\bergr\github\branches\test\gen_rst\source\niac'
+    # output_directory = r'C:\Users\bergr\github\branches\test\gen_rst\source\niac-fix'
+    input_directory = r'C:\Users\bergr\github\branches\11\conv_files\fixed'
+    output_directory = r'C:\Users\bergr\github\branches\11\conv_files\fixed\encfixed'
 
     fix_encoding(input_directory, output_directory)
 

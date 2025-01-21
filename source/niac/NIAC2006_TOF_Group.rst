@@ -13,12 +13,12 @@ NIAC2006 TOF Group
       .. rubric:: Time-of-Flight Working Group
          :name: time-of-flight-working-group
 
-      -  `Freddie Akeroyd <User%3AFreddie_Akeroyd.html>`__
-      -  `Franck Cecillon <User%3AFranck_Cecillon.html>`__
-      -  `Ray Osborn <User%3ARay_Osborn.html>`__
-      -  `Peter Peterson <User%3APeter_Peterson.html>`__
-      -  `Thomas Proffen <User%3AThomas_Proffen.html>`__
-      -  `Jiro Suzuki <User%3AJiro_Suzuki.html>`__
+      -  Freddie Akeroyd <Freddie_Akeroyd.html>
+      -  Franck Cecillon <Franck_Cecillon.html>
+      -  Ray Osborn <Ray_Osborn.html>
+      -  Peter Peterson <Peter_Peterson.html>
+      -  Thomas Proffen <Thomas_Proffen.html>
+      -  Jiro Suzuki <Jiro_Suzuki.html>
 
       This group was charged with discussing matters arising from the
       [NXTOFRW
@@ -27,14 +27,14 @@ NIAC2006 TOF Group
          case)](TOFRaw.html "wikilink") proposal in preparation for a
          full group discussion.
 
-      .. rubric:: Summary of main proposals in `TOFRaw <TOFRaw.html>`__
+      .. rubric:: Summary of main proposals in `TOFRaw <../content/TOFRaw.html>`__
          :name: summary-of-main-proposals-in-tofraw
 
       #. Some new meta-data names in NXentry for archiving and
          cataloguing of data
       #. Some thoughts about scans (now moved to
-         `NXTOFRWSC <TOFRawScan.html>`__ and being considered by the
-         `Scanning Group <Scanning_Group.html>`__)
+         `NXTOFRWSC <../content/TOFRawScan.html>`__ and being considered by the
+         Scanning Group <Scanning_Group.html>)
       #. General and Area detector specific NXdetector
       #. Additional options for specifying pixel geometry with area
          detectors (edges, corners, etc.)
@@ -50,8 +50,8 @@ NIAC2006 TOF Group
       time-of-flight instruments. One new member of type NXgeometry
       called **origin** is introduced into all NXdetectors - this member
       is used to define a logical centre of the detector and its
-      `NXshape <NXshape.html>`__ member defines a bounding box for the
-      whole detector bank/array. If the `NXgeometry <NXgeometry.html>`__
+      NXshape <NXshape.html> member defines a bounding box for the
+      whole detector bank/array. If the NXgeometry <NXgeometry.html>
       instance **geometry** within NXdetector is used to specify pixel
       locations, it should be define positions relative to this detector
       origin.
@@ -81,22 +81,22 @@ NIAC2006 TOF Group
          :name: nxgeometry-revisited
 
       Before giving the definitions a quick recap of
-      `NXgeometry <NXgeometry.html>`__ is in order. This class, through
-      its members `NXtranslation <NXtranslation.html>`__,
-      `NXorientation <NXorientation.html>`__ and
-      `NXshape <NXshape.html>`__, allows the position, orientation and
+      NXgeometry <NXgeometry.html> is in order. This class, through
+      its members NXtranslation <NXtranslation.html>,
+      NXorientation <NXorientation.html> and
+      NXshape <NXshape.html>, allows the position, orientation and
       physical extent (size) of an object, or set of objects, to be
       specified. Translation and orientation can be relative i.e. with
       respect to an arbitrary origin whihc is just another
-      `NXgeometry <NXgeometry.html>`__ object which defines a point in
+      NXgeometry <NXgeometry.html> object which defines a point in
       space and a set of default axes directions. When we write
       **NXgeometry[i]** in the definitions below we do not mean an array
       of NXgeometry object (which is not allowed by NeXus) - instead we
       are using this as shorthand for indexing the **numobj** array
-      dimension the `NXtranslation <NXtranslation.html>`__,
-      `NXorientation <NXorientation.html>`__ and
-      `NXshape <NXshape.html>`__ objects within the
-      `NXgeometry <NXgeometry.html>`__
+      dimension the NXtranslation <NXtranslation.html>,
+      NXorientation <NXorientation.html> and
+      NXshape <NXshape.html> objects within the
+      NXgeometry <NXgeometry.html>
 
       .. rubric:: Type 1: Point Detector
          :name: type-1-point-detector
@@ -178,7 +178,7 @@ NIAC2006 TOF Group
       .. rubric:: Hardware detector ganging
          :name: hardware-detector-ganging
 
-      `TOFRaw <TOFRaw.html>`__ originally suggested using an
+      `TOFRaw <../content/TOFRaw.html>`__ originally suggested using an
       **\_unganged** suffix on the ungrouped elements e.g.
       polar_angle_unganged. It was decided that creating a substructure
       within the NXdetector and putting the information there was better
@@ -199,16 +199,15 @@ NIAC2006 TOF Group
          mapping)
 
       -  An alternative is the gang_count and gang_index method in
-         `TOFRaw <TOFRaw.html>`__, but this does require sorting of the
+         `TOFRaw <../content/TOFRaw.html>`__, but this does require sorting of the
          polar_angle etc. arrays prior to writing to the file
 
       .. rubric:: Proposals
          :name: NIAC2006_TOF_Group_proposals
 
       #. That the new data items in required in NXentry and NXuser for
-         archiving be ratified. `Laurent
-         Lerusse <User%3AL.lerusse.html>`__ has volunteered to produce a
-         description such that any instruement definition that wishes
+         archiving be ratified. Laurent Lerusse <L.lerusse.html> has volunteered to produce a
+         description such that any instrument definition that wishes
          can "conform to" this.
       #. That NeXus implement inheritance in definitions and classes by
          a method yet to be finalised.

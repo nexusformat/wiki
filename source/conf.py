@@ -43,7 +43,6 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx_tabs.tabs',
     'contrib_ext',
-    'myst_parser',
 ]
 
 # Show `.. todo` directives in the output
@@ -90,11 +89,8 @@ html_sidebars = {
     ],
 }
 
-# html_extra_path = ['pdfs']
-
 def setup(app):
     print("Sphinx setup() function is being called")
-
     def copy_asset(source_dir, target_dir):
         if not os.path.exists(source_dir):
             print(f"WARNING: The directory {source_dir} does not exist.")
@@ -107,18 +103,9 @@ def setup(app):
         copy_asset(os.path.join(app.srcdir, 'extra_files'), os.path.join(app.outdir, 'extra_files'))
         copy_asset(os.path.join(app.srcdir, 'pdfs'), os.path.join(app.outdir, 'pdfs'))
 
-
-    
-    
-    def copy_extra_files(app, exception):
-        print("Sphinx copy_extra_files() function is being called")
-        if exception:
-            return
-
     app.connect('build-finished', lambda app, exception: do_copy())
     app.add_css_file('details_summary_hide.css')
-    # Sapp.connect('build-finished', copy_extra_files)
-    
+
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.

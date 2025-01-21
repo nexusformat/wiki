@@ -29,7 +29,7 @@ Telco 20210728
 
       -  Welcome new members
       -  Review previous meeting minutes and actions: `June
-         Telco <Telco_20210628.md>`__
+         Telco <Telco_20210628.html>`__
       -  Issues on Github labelled with "telco"
 
          -  `definitions <https://github.com/nexusformat/definitions/issuesq=is%3Aopen+is%3Aissue+label%3Atelco>`__

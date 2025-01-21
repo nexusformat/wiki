@@ -7,9 +7,7 @@ FAQ
    .. container:: page
 
       This is a list of commonly asked questions concerning the NeXus
-      data format. If you wish to suggest any more questions to include
-      on this page, please visit the `discussion page <Talk:FAQ.html>`__
-      and add an entry.
+      data format.
 
       .. rubric:: How many facilities use NeXus
          :name: how-many-facilities-use-nexus
@@ -100,10 +98,10 @@ FAQ
       The first thing is to check whether the instrument you are
       interested in is already being defined by an instrument editor.
       Check the list on the NeXus Instruments page. The `NeXus
-      International Advisory Committee <NIAC.html>`__ is responsible for
+      International Advisory Committee <../niac/niac.html>`__ is responsible for
       appointing editors of special interest groups that wish to become
       a part of the standard, so contact the `Executive
-      Secretary <NIAC.html>`__, if a group does not yet exist. Of
+      Secretary <../niac/niac.html>`__, if a group does not yet exist. Of
       course, if you want to produce your own private definition for
       personal use, you are free to do so without our approval although
       we encourage people to share what they are doing . If you are an
@@ -122,7 +120,7 @@ FAQ
          in analyzing data from your instrument.
 
       Insert the relevant grep character, as defined in the `NeXus
-      Meta-DTD format <Metaformat.html>`__ to denote the number of
+      Meta-DTD format <../content/Metaformat.html>`__ to denote the number of
       occurrences. If the item is optional (“?” or “\*”), then it does
       not need to be added to your definition.
 
@@ -136,5 +134,4 @@ FAQ
       .. rubric:: What coordinate system does NeXus use?
          :name: what-coordinate-system-does-nexus-use
 
-      This is described on the
-      `Coordinate_Systems <Coordinate_Systems.html>`__ page
+      This is described on the Coordinate_Systems <Coordinate_Systems.html> page

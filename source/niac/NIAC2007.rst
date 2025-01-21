@@ -14,7 +14,7 @@ NIAC2007
          :name: NIAC2007_niac-meeting---september-2007
 
       The next meeting of the `NeXus International Advisory
-      Committee <NIAC.html>`__ will be held at the
+      Committee <../niac/niac.html>`__ will be held at the
       `Hahn-Meitner-Institut <http://www.hmi.de>`__ in Berlin, Germany.
       The meeting is planned for September 24-26, 2007.
 
@@ -36,8 +36,8 @@ NIAC2007
       Wannsee <http://www.hmi.de/hmi/standorte_en.html#Wannsee>`__. The
       rate for a single room is for the first overnight stay 34  and 24 
       for every following one (double room 52 /34 ). *It is not possible
-      to pay with credit card, sorry.* `Jens-Uwe
-      Hoffmann <User%3AJens-Uwe_Hoffmann.html>`__
+      to pay with credit card, sorry.* Jens-Uwe
+      Hoffmann <Jens-Uwe_Hoffmann.html>
       `1 <mailto:hoffmann-j@hmi.de>`__ is you local contact for
       reservation and access authorization, please send your name,
       address and your **passport number**. It is not possible to pay by
@@ -80,8 +80,8 @@ NIAC2007
          :name: NIAC2007_list-of-attendees
 
       If you are interested in attending (and not already on the `list
-      of attendees <NIAC2007_attendees.html>`__), contact `Jens-Uwe
-      Hoffmann <User%3AJens-Uwe_Hoffmann.html>`__.
+      of attendees <NIAC2007_attendees.html>`__), contact Jens-Uwe
+      Hoffmann <Jens-Uwe_Hoffmann.html>.
 
       .. rubric:: Proposed Agenda
          :name: NIAC2007_proposed-agenda
@@ -180,7 +180,7 @@ NIAC2007
          -  metaDTD vs Schema (XSD)
          -  Definition URL declaration
          -  Object oriented definitions, `Marks
-            suggestion <Media:NeXusOBJ.pdf.html>`__
+            suggestion <../pdfs/NeXusOBJ.pdf>`__
          -  NeXusBeans
 
       .. rubric:: Unscheduled
@@ -189,7 +189,7 @@ NIAC2007
       .. rubric:: Geometry
          :name: geometry
 
-      -  Ratify `Coordinate Systems <Coordinate_Systems.html>`__
+      -  Ratify Coordinate Systems <Coordinate_Systems.html>
       -  Explicit geometry definition in base class definition
       -  New shapes
 
@@ -199,7 +199,7 @@ NIAC2007
       .. rubric:: Tech Group Meeting
          :name: tech-group-meeting
 
-      Led by `Akeroyd <User%3AFreddie_Akeroyd.html>`__
+      Led by Akeroyd <Freddie_Akeroyd.html>
 
       -  Definition URL discussion
       -  NXtranslate
@@ -225,10 +225,10 @@ NIAC2007
          :name: ratify-definitions
 
       -  Archive
-      -  ScanRaw (`G"tz <User%3AAndy_Gotz.html>`__)
-      -  Muon instruments (`Cottrell <User%3ASteve_Cottrell.html>`__)
-      -  `Event Data <NXevent_data.html>`__ - lessons learned
-         (`Peterson <User%3APeter_Peterson.html>`__)
+      -  ScanRaw (Gotz <Andy_Gotz.html>)
+      -  Muon instruments (Cottrell <Steve_Cottrell.html>)
+      -  Event Data <NXevent_data.html> lessons learned
+         (Peterson <Peter_Peterson.html>)
 
       .. rubric:: Break-out Groups
          :name: break-out-groups
@@ -244,7 +244,7 @@ NIAC2007
       .. rubric:: Suggested Discussion Topics
          :name: suggested-discussion-topics
 
-      .. rubric:: `Jens <User%3AJens-Uwe_Hoffmann.html>`__
+      .. rubric:: Jens <Jens-Uwe_Hoffmann.html>
          :name: -jens
 
       -  Flat-Cone Diffractometer Definition
@@ -258,7 +258,7 @@ NIAC2007
 
       -  Visit Reactor BER II
 
-      .. rubric:: `Steve <User%3ASteve_Cottrell.html>`__
+      .. rubric:: Steve <Steve_Cottrell.html>
          :name: -steve
 
       -  Definitions for Muon Instruments
@@ -266,7 +266,7 @@ NIAC2007
 
          -  Extensions to NXtranslate
 
-      .. rubric:: `Nick <User%3ANick_Hauser.html>`__
+      .. rubric:: Nick <Nick_Hauser.html>
          :name: -nick
 
       -  Ratify the Coordinate Systems definition from Freddie.
@@ -278,7 +278,7 @@ NIAC2007
 
       Proposals to follow
 
-      .. rubric:: `Mark <User%3AMark_Koennecke.html>`__
+      .. rubric:: Mark <Mark_Koennecke.html>
          :name: -mark
 
       -  Future of IDL-NeXus API
@@ -289,16 +289,16 @@ NIAC2007
          And so did I. But if we have more pressing business to attent
          too, then this has lower priority.
 
-      .. rubric:: `Freddie <User%3AFreddie_Akeroyd.html>`__
+      .. rubric:: Freddie <Freddie_Akeroyd.html>
          :name: -freddie
 
       -  New API routines for handling chunked datasets:
          NXchunkmakedata, NXgetchunk, NXputchunk
 
-      .. rubric:: `Laurent <User%3AL.lerusse.html>`__
+      .. rubric:: Laurent <L.lerusse.html>
          :name: -laurent
 
-      -  `Archive Definition <Archive_Definition.html>`__
+      -  `Archive Definition <../content/Archive_Definition.html>`__
       -  nxingest a tool to extract metadata from a NeXus files and
          store it into a reformated xml document.
       -  Status of NeXus/imgCif usage in the facilities (who is using
@@ -370,7 +370,7 @@ NIAC2007
          :name: NIAC2007_minutes
 
       These are available `online <NIAC2007_Minutes.html>`__ or in `pdf
-      format <Media:NIAC2007HMI_minutes.pdf.html>`__.
+      format <../pdfs/NIAC2007HMI_minutes.pdf>`__.
 
       .. rubric:: NIAC2007 photos
          :name: NIAC2007_niac2007-photos

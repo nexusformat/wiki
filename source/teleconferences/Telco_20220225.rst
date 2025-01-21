@@ -28,7 +28,7 @@ Telco 20220225
 
       -  Welcome new members
       -  Review previous meeting minutes and actions: `January
-         Telco <Telco_20220131.md>`__
+         Telco <Telco_20220131.html>`__
       -  Recent issues on Github (especially those labelled with
          "telco")
 

@@ -11,7 +11,7 @@ CodeCamp2020-topics
          :class: page-title
 
       Gather and prioritize issues to be resolved at the `2020 NeXus
-      Code Camp <https://www.nexusformat.org/CodeCamp2020.html>`__.
+      Code Camp <CodeCamp2020.html>`__.
 
       .. rubric:: Topics and Prioritizations
          :name: topics-and-prioritizations

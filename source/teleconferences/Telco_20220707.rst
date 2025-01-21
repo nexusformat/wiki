@@ -28,7 +28,7 @@ Telco 20220707
 
       -  Welcome guests and new members
       -  Review previous meeting minutes and actions: `June
-         Telco <Telco_20220602.md>`__, `Code
+         Telco <Telco_20220602.html>`__, `Code
          Camp <../codecamps/CodeCamp2022.html>`__
       -  Recent issues on Github (especially those labelled with
          "telco")

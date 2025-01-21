@@ -32,9 +32,8 @@ CodeCamp2020
       tracker <https://github.com/nexusformat/definitions/milestones>`__.
       Issues for consideration at 2020 NeXus Code Camp will be added to
       the Code Camp's `Topics
-      page <https://www.nexusformat.org/CodeCamp2020-topics.html>`__
-      (`edit
-      here <https://github.com/nexusformat/wiki/edit/master/content/CodeCamp2020-topics.md>`__).
+      page <CodeCamp2020-topics.html>`__
+      (`edit here <../../source/codecamps/CodeCamp2020-topics.rst>`__).
       These issues will be prioritized on the first day for handling at
       the Code Camp.
 
@@ -47,7 +46,7 @@ CodeCamp2020
          :name: attendees
 
       The list of Attendees is
-      `here <https://www.nexusformat.org/CodeCamp2020-attendees.html>`__.
+      `here <CodeCamp2020-attendees.html>`__.
 
       .. rubric:: Remote Attendees
          :name: remote-attendees
@@ -741,4 +740,12 @@ CodeCamp2020
       |             | definitions/pull/751>`__ |                         |
       +-------------+--------------------------+-------------------------+
 
-      page source: `GitHub link <https://github.com/nexusformat/wiki/blob/master/content/CodeCamp2020.md>`__
+      page source: `GitHub link <https://github.com/nexusformat/wiki/blob/master/codecamps/CodeCamp2020.rst>`__
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   CodeCamp2020-attendees
+   CodeCamp2020-topics
+   CodeCamp2020-2

@@ -30,7 +30,7 @@ Telco 20210120
 
       -  Welcome new members
       -  Review previous meeting minutes and actions: `December
-         Telco <Telco_20201208.md>`__
+         Telco <Telco_20201208.html>`__
       -  Discuss `upcoming code
          camp <https://lists.nexusformat.org/pipermail/nexus-committee/2020/001044.html>`__
          format and `date <https://doodle.com/poll/b2f8qbpu6sedeccm>`__

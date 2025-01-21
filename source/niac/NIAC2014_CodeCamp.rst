@@ -33,7 +33,7 @@ NIAC2014 CodeCamp
          posted on the `NeXus GitHub <https://github.com/nexusformat>`__
          repository
       -  Proposals and other topics listed on the
-         `Discussions <Discussions.html>`__ page
+         Discussions <Discussions.html> page
       -  Close issues that are of minor importance and not of particular
          concern to anybody and not likely to be resolved any soon.
 
@@ -54,10 +54,10 @@ NIAC2014 CodeCamp
                implement difference in rules between base classes and
                application definitions
 
-         -  Discuss `NeXus interfaces <Objects_or_Interfaces.html>`__
+         -  Discuss `NeXus interfaces <../content/Objects_or_Interfaces.html>`__
          -  `How to avoid name clashes during future extensions of the
             Nexus
-            standard <How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard.html>`__
+            standard <../content/How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard.html>`__
          -  Optional contents in application definitions?
          -  Discuss lightweight tags versus application definitions
          -  Rules for multi file NeXus files

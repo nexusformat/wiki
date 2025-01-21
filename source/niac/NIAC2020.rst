@@ -25,7 +25,7 @@ NIAC2020
       and published here before October 1st.
 
       Voting on changes to the NeXus standard is reserved for `committee
-      members <NIAC.html>`__, but any
+      members <../niac/niac.html>`__, but any
       interested parties are welcome to observe and stimulate
       discussions. Topics for the NIAC meeting should be registered as
       `issues <https://github.com/nexusformat/NIAC/issues>`__ in the

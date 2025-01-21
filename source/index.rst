@@ -38,10 +38,10 @@ Discussion and Development:
    * Next Meetings: `[Autumn NIAC2024] <niac/NIAC2024.html>`_
    * Most recent meetings: `[Code Camp 2023] <codecamps/CodeCampJune2023.html>`_ `[Autumn NIAC2022] <niac/NIAC2022.html>`_
    * `[Previous Meetings:] <niac/previous_meetings.html>`_
-   * `[Tele   conferences] <teleconferences/Teleconferences.html>`_
-   * `[Current Active Projects] <active_projects/ActiveProjects.html>`_
-   * `[NeXus International Advisory Committee] <niac/NIAC.html>`_
-   * `[Bug/Issue Reporting] <extra_files/IssueReporting.html>`_
+   * `[Tele   conferences] <teleconferences/teleconferences.html>`_
+   * `[Current Active Projects] <active_projects/active_projects.html>`_
+   * `[NeXus International Advisory Committee] <niac/niac.html>`_
+   * `[Bug/Issue Reporting] <content/IssueReporting.html>`_
    * `[Mailing Lists] <https://manual.nexusformat.org/mailinglist.html>`_
    * `[Show and Tell] <https://indico.desy.de/category/1080/>`_ - Series of meetings, each dedicated to a specific NeXus adoption topic
 

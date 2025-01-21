@@ -14,7 +14,7 @@ NIAC2008
          :name: NIAC2008_niac-meeting---october-2008
 
       The next meeting of the `NeXus International Advisory
-      Committee <NIAC.html>`__ will be held at `Rydges Cronulla Beach
+      Committee <../niac/niac.html>`__ will be held at `Rydges Cronulla Beach
       Hotel <http://www.rydges.com/hotel/0/RNCRON/Rydges-Cronulla-Sydney.htm>`__
       in `Sydney Australia <http://www.sydneyaustralia.com/en/>`__ on
       October 30-31, 2008. This is a satellite meeting of the `NOBUGS
@@ -30,8 +30,8 @@ NIAC2008
          :name: NIAC2008_list-of-attendees
 
       If you are interested in attending (and not already on the `list
-      of attendees <NIAC2008_attendees.html>`__), contact `Nick
-      Hauser <User%3ANick_Hauser.html>`__.
+      of attendees <NIAC2008_attendees.html>`__), contact Nick
+      Hauser <Nick_Hauser.html>.
 
       .. rubric:: Proposed Agenda
          :name: NIAC2008_proposed-agenda
@@ -54,7 +54,7 @@ NIAC2008
       -  `Renew members <Membership_Dates.html>`__
       -  Elect chair, executive secretary, and technical committee chair
       -  Discus what topics are most important
-      -  `Mission statement <Mission.html>`__
+      -  Mission statement <Mission.html>
 
       Lunch
 
@@ -103,7 +103,7 @@ NIAC2008
       -  Objective: why schema? - validation, tools e.g. IDE.
          Informative session.
       -  Pros and cons of xsd and rng
-      -  Review of `current work <Schema.html>`__. (Overview)
+      -  Review of current work <Schema.html>. (Overview)
       -  Vote on use of xsd.
       -  schema as a path to O-O NeXus
 

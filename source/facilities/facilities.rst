@@ -24,10 +24,10 @@ Facilities
       producing and using NeXus files on its `muon
       spectrometers <https://www.isis.stfc.ac.uk/Pages/Muon-spectroscopy.aspx>`__
       for many years now (see
-      `Muon_Time_Differential <Muon_Time_Differential.html>`__
+      `Muon_Time_Differential <../content/Muon_Time_Differential.html>`__
       definition). The current definition is in the process of being
       updated to allow it to store more complex experiments and also to
-      make it more similar to the `TOFRaw <TOFRaw.html>`__ definition
+      make it more similar to the `TOFRaw <../content/TOFRaw.html>`__ definition
       used on the ISIS neutron instruments.
 
       .. rubric:: X-ray Facilities
@@ -97,11 +97,11 @@ Facilities
       **ISIS Neutron Facility, STFC Rutherford Appleton Laboratory,
       UK**: Instruments on the `ISIS second target
       station <https://www.isis.stfc.ac.uk/>`__ are now generating NeXus
-      files as per the `TOFRaw <TOFRaw.html>`__ definition in parallel
+      files as per the `TOFRaw <../content/TOFRaw.html>`__ definition in parallel
       with old ISIS RAW format files. Currently most data analysis is
       carried out using the ISIS RAW files, but the new `Mantid data
       analysis framework <http://www.mantidproject.org/>`__ supports
-      `TOFRaw <TOFRaw.html>`__ NeXus files and is being increasingly
+      `TOFRaw <../content/TOFRaw.html>`__ NeXus files and is being increasingly
       used. The long term goal is to entirely replace the old ISIS RAW
       file format on both the first and second target stations with
       NeXus files; the rate determining step for this is the updating of
@@ -111,7 +111,7 @@ Facilities
       Laboratory <http://lansce.lanl.gov/lujan>`__\ **, USA**: The Lujan
       Center is generating NeXus files on all instruments. We are in the
       process of making the files consistent with the emerging
-      standards, especially `TOFRaw <TOFRaw.html>`__. The facility hosts
+      standards, especially `TOFRaw <../content/TOFRaw.html>`__. The facility hosts
       about 65,000 NeXus files and the number is growing.
 
       **Materials and Life Science Facility,**
@@ -153,7 +153,7 @@ Facilities
 
       **Spallation Neutron Source**
       `SNS <http://neutrons.ornl.gov/>`__\ **, Oak Ridge, TN, USA**: SNS
-      is using `TOFRaw <TOFRaw.html>`__ for storing histogram based data
+      is using `TOFRaw <../content/TOFRaw.html>`__ for storing histogram based data
       from all instruments. We are working towards storing the raw event
       data in NeXus instead as the data acquisition saves data in that
       form already.

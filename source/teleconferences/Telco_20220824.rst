@@ -28,7 +28,7 @@ Telco 20220824
 
       -  Welcome guests and new members
       -  Review previous meeting minutes and actions: `July
-         Telco <Telco_20220824.md>`__
+         Telco <Telco_20220824.html>`__
       -  Please register asap for the `NIAC
          meeting <../niac/NIAC2022.html>`__
       -  Recent issues on Github (especially those labelled with
@@ -107,11 +107,11 @@ Telco 20220824
       get a set of transformations for each component. AB will write it
       up so that it can be discussed in the NIAC.
 
-      AB talked about the `estimated time <issue%20#1143>`__ at the ACA
+      AB talked about the estimated time <issue#1143> at the ACA
       meeting and there was strong agreement the fields should be kept
       as "required". SB had similar issues that it would be useful to
       have something between "required" and "optional", namely
-      "reccommended". "reccommended" would be be treated as "optional"
+      "recommended". "recommended" would be be treated as "optional"
       by a validator, except that it would give a warning if missing.
 
       Since we have the NIAC in mid-September, BW will run a `poll for a

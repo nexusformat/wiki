@@ -29,7 +29,7 @@ Telco 20160412
          -  Eugen: I suggest we continue #414 in the NAPI repository -
             need to decide how to deal with internal functions
 
-      -  reminder to update `Latest News <Latest_News.html>`__
+      -  reminder to update `Latest News <../content/Latest_News.html>`__
       -  Dectris Eiger JSON format - Andreas to present
       -  http://nexusformat.org main landing page update
       -  Next meeting

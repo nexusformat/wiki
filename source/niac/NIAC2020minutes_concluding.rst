@@ -10,7 +10,7 @@ NIAC2020minutes concluding
          :name: NIAC2020minutes_concluding_niac-2020-concluding-session-minutes
          :class: page-title
 
-      The following `NIAC <NIAC.html>`__
+      The following `NIAC <../niac/niac.html>`__
       members were present: SC, FA, HB, RB, PJ, AB, PC, BW, WG, AS, TM,
       MJ, RO, MK, HG
 

@@ -226,7 +226,6 @@ NIAC2016Minutes
       above. We trust Aaron to apply the changes.
 
       .. rubric:: NXsample
-         :name: nxsample
 
       Tobias Richter presents suggested changes to NXsample.
 

@@ -13,11 +13,11 @@ NIAC2006 Scanning Group
       Definitions for some measurement classes:
 
       -  Triple axis definition:
-         `NXmonotas-NIAC2006 <NXmonotas-NIAC2006.html>`__
+         `NXmonotas-NIAC2006 <../content/NXmonotas-NIAC2006.html>`__
       -  Reflectometry definition:
-         `NXmonoref-NIAC2006 <NXmonoref-NIAC2006.html>`__
+         `NXmonoref-NIAC2006 <../content/NXmonoref-NIAC2006.html>`__
       -  TOF Reflectometry definition:
-         `NXtofnref-NIAC2006 <NXtofnref-NIAC2006.html>`__
+         `NXtofnref-NIAC2006 <../content/NXtofnref-NIAC2006.html>`__
 
       .. rubric:: Session 1
          :name: session-1

@@ -50,8 +50,8 @@ def fix_title(fpath, output_directory):
 
 if __name__ == '__main__':
     # Directory containing HTML files
-    input_directory = r'C:\Users\bergr\github\branches\test\gen_rst\source\content'
-    output_directory = r'C:\Users\bergr\github\branches\test\gen_rst\source\content-fix'
+    input_directory = r'C:\Users\bergr\github\branches\11\conv_files'
+    output_directory = r'C:\Users\bergr\github\branches\11\conv_files\fixed'
 
     # Ensure output directory exists
     #os.makedirs(output_directory, exist_ok=True)
@@ -59,5 +59,5 @@ if __name__ == '__main__':
     #basedir = os.path.join(os.getcwd(),'codecamps-fix')
     files = get_all_files_and_subdirs(input_directory)
     for file in files:
-        if file.find('.bak') == -1:
+        if file.find('.rst') > -1:
             fix_title(file, output_directory)

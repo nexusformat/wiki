@@ -28,7 +28,7 @@ Telco 20220426
 
       -  Welcome guests and new members
       -  Review previous meeting minutes and actions: `February
-         Telco <Telco_20220225.md>`__, `Spring virtual
+         Telco <Telco_20220225.html>`__, `Spring virtual
          NIAC <../niac/NIAC2022_spring.html>`__
       -  Review of the recent `NFDI
          workshop <https://events.hifis.net/event/323/>`__

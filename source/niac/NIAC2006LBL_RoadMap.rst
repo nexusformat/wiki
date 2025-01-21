@@ -20,24 +20,23 @@ NIAC2006LBL RoadMap
          -  Monochromatic Neutron and X-ray Single Crystal
             Diffractometers
 
-            -  `MonoXPSD <MonoXPSD.html>`__ Monochromatic Single Crystal
+            -  `MonoXPSD <../content/MonoXPSD.html>`__ Monochromatic Single Crystal
                Diffractometer with Position Sensitive Detector
-            -  `MonoXSingle <MonoXSingle.html>`__ Monochromatic Single
+            -  `MonoXSingle <../content/MonoXSingle.html>`__ Monochromatic Single
                Crystal Diffractometer with Single Detector
 
-         -  `Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer <Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html>`__
-         -  `Archive_Definition <Archive_Definition.html>`__
+         -  Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer <Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html>
+         -  `Archive_Definition <../content/Archive_Definition.html>`__
 
       -  priority 2
 
-         -  `Time-of-Flight_Neutron_Powder_Diffraction <Time-of-Flight_Neutron_Powder_Diffraction.html>`__
-         -  `Monochromatic Neutron and X-ray Small Angle
-            Scattering <SAS.html>`__
+         -  `Time-of-Flight_Neutron_Powder_Diffraction <../content/Time-of-Flight_Neutron_Powder_Diffraction.html>`__
+         -  `Monochromatic Neutron and X-ray Small Angle Scattering <../content/SAS.html>`__
          -  Time-of-Flight Small Angle Scattering
 
       -  priority 3
 
-         -  `Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer <Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer.html>`__
+         -  Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer <Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer.html>
          -  Time-of-Flight Neutron Direct Geometry Spectrometer
 
       -  priority 4
@@ -61,8 +60,7 @@ NIAC2006LBL RoadMap
       When looking at a geometry is the orientation applied before the
       translation or the other way around.
 
-      .. rubric:: `XESraw <XESraw.html>`__
-         :name: xesraw
+      .. rubric:: `XESraw <../content//XESraw.html>`__
 
       .. rubric:: scanning environment variables
          :name: scanning-environment-variables
@@ -102,4 +100,4 @@ NIAC2006LBL RoadMap
       -  (*working*) SCAN definition similar to TOFRAW definition
       -  (*working*) NXcharacterization needs to be formalized
       -  (*working*) Finalize `archive
-         definition <Archive_Definition.html>`__
+         definition <../content/Archive_Definition.html>`__

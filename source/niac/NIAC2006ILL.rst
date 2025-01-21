@@ -14,7 +14,7 @@ NIAC2006ILL
          :name: NIAC2006ILL_niac-meeting---february-2006
 
       The next meeting of the `NeXus International Advisory
-      Committee <NIAC.html>`__ will be held at the `Institut Laue
+      Committee <../niac/niac.html>`__ will be held at the `Institut Laue
       Langevin <http://www.ill.fr>`__ in Grenoble, France. The meeting
       will be held from February 1 to 3, 2006, preceded by an informal
       workshop to prepare agenda items on January 30-31, 2006.
@@ -30,22 +30,17 @@ NIAC2006ILL
       .. rubric:: Proposed Agenda
          :name: NIAC2006ILL_proposed-agenda
 
-      Please add suggestions for agenda items here in `bullet
-      form <Help:Editing#Lists.html>`__. If you want to add extended
-      comments concerning any agenda item, please use this Wiki page"s
-      `Talk Page <Talk:NIAC_Meetings.html>`__.
-
       -  Welcome and Introduction
       -  Review of NIAC"2005 minutes
       -  `Renew members <Membership_Dates.html>`__
       -  Add additional member - Pete Jemian Advanced Photon Source, USA
-      -  Elect `chair and executive
-         secretary <Nominees_for_officers.html>`__ - effective at the
+      -  Elect chair and executive
+         secretary effective at the
          end of the meeting
       -  Amend constitution to state that all officers, including
          technical chair, are elected at each meeting, effective at the
          end of the meeting
-      -  Discuss and vote on `TOF raw file definition <TOFRaw.html>`__
+      -  Discuss and vote on `TOF raw file definition <../content/TOFRaw.html>`__
 
       .. rubric:: General Information
          :name: NIAC2006ILL_general-information
@@ -94,7 +89,7 @@ NIAC2006ILL
       **technical programming the api**
 
       "'"instruments-1
-      3-axis/reflection/`SAS <SAS.html>`__/polarised/muons """
+      3-axis/reflection/`SAS <../content/SAS.html>`__/polarised/muons """
 
       -  (step-scanning/multi-detector/X-ray/neutron)
       -  examples 
@@ -111,7 +106,7 @@ NIAC2006ILL
       -  prototype treated data 1D,2D data
       -  rebinning, constant (Q,w)
 
-      `Synchrotron_Group <Synchrotron_Group.html>`__ **(Andy G"tz)**
+      Synchrotron_Group **(Andy Goetz)**
 
       -  this group will meet separately on the second and third days,
          and may be expected to offer objective feedback and criticism
@@ -224,10 +219,8 @@ NIAC2006ILL
       .. rubric:: Working Groups
          :name: NIAC2006ILL_working-groups
 
-      -  `Synchrotron_Group <Synchrotron_Group.html>`__ (Andy G"tz)
-      -  `TOF Group <TOF_Group.html>`__ (Freddie Akeroyd)
-      -  `Scanning Group <Scanning_Group.html>`__ (Paul Kienzle)
-      -  `Technical Computing/API
-         Group <Technical_Computing/API_Group.html>`__ (Nick
-         Maliszewskyj)
-      -  `Small-Angle Scattering Group <SAS.html>`__ (Ron Ghosh)
+      -  Synchrotron_Group <Synchrotron_Group.html> (Andy Gotz)
+      -  TOF Group <TOF_Group.html> (Freddie Akeroyd)
+      -  Scanning Group <Scanning_Group.html> (Paul Kienzle)
+      -  Technical Computing/APIGroup <Technical_Computing/API_Group.html> (Nick Maliszewskyj)
+      -  `Small-Angle Scattering Group <../content/SAS.html>`__ (Ron Ghosh)

@@ -51,9 +51,9 @@ NIAC2010
       **Do not write in this table. This is to indicate the list of
       people we know are attending**
 
-      If you want to attend please email either `Stuart
-      Campbell <User%3AStuart_Campbell.html>`__ or `Peter
-      Peterson <User%3APeter_Peterson.html>`__.
+      If you want to attend please email either Stuart
+      Campbell <Stuart_Campbell.html> or Peter
+      Peterson <Peter_Peterson.html>.
 
       | **It is important that if entering the US on a Visa Waiver to
         ensure that you get a VWB (Visa Waiver Business) and NOT a
@@ -67,35 +67,35 @@ NIAC2010
       +-------------------------------------------------------+---------------------------------------------------+------------------------+------------------------+------------------------+------------------------+
       | Name                                                  | Company/Institute                                 | ORNL Pass              | NOBUGS?                | Registration           | ANL gate pass?         |
       +=======================================================+===================================================+========================+========================+========================+========================+
-      | `Frederick Akeroyd <User%3AFreddie_Akeroyd.html>`__   | ISIS Facility, Rutherford Appleton Laboratory, UK | approved               | YES                    |                        |                        |
+      | Frederick Akeroyd <Freddie_Akeroyd.html>              | ISIS Facility, Rutherford Appleton Laboratory, UK | approved               | YES                    |                        |                        |
       +-------------------------------------------------------+---------------------------------------------------+------------------------+------------------------+------------------------+------------------------+
-      | `Stuart Campbell <User%3AStuart_Campbell.html>`__     | ORNL, USA                                         | approved               | YES                    |                        |                        |
+      |  Stuart Campbell <Stuart_Campbell.html>               | ORNL, USA                                         | approved               | YES                    |                        |                        |
       +-------------------------------------------------------+---------------------------------------------------+------------------------+------------------------+------------------------+------------------------+
       | Peter Chang                                           | Diamond Light Source, UK                          | approved               | YES                    |                        |                        |
       +-------------------------------------------------------+---------------------------------------------------+------------------------+------------------------+------------------------+------------------------+
-      | `Steve Cottrell <User%3ASteve_Cottrell.html>`__       | Rutherford Appleton Laboratory, UK                | approved               | YES                    |                        |                        |
+      |  Steve Cottrell <Steve_Cottrell.html>                 | Rutherford Appleton Laboratory, UK                | approved               | YES                    |                        |                        |
       +-------------------------------------------------------+---------------------------------------------------+------------------------+------------------------+------------------------+------------------------+
       | Matthias Drochner                                     | Julich, Germany                                   | approved               | YES                    |                        |                        |
       +-------------------------------------------------------+---------------------------------------------------+------------------------+------------------------+------------------------+------------------------+
-      | `Nick Hauser <User%3ANick_Hauser.html>`__             | ANSTO, Australia                                  | approved               | YES                    |                        |                        |
+      |  Nick Hauser <Nick_Hauser.html>                       | ANSTO, Australia                                  | approved               | YES                    |                        |                        |
       +-------------------------------------------------------+---------------------------------------------------+------------------------+------------------------+------------------------+------------------------+
-      | `Jens-Uwe Hoffmann <User%3AJens-Uwe_Hoffmann.html>`__ | Helmholtz Zentrum Berlin (renamed HMI), Germany   | approved               | YES                    |                        |                        |
+      |  Jens-Uwe Hoffmann <Jens-Uwe_Hoffmann.html>           | Helmholtz Zentrum Berlin (renamed HMI), Germany   | approved               | YES                    |                        |                        |
       +-------------------------------------------------------+---------------------------------------------------+------------------------+------------------------+------------------------+------------------------+
-      | `Pete Jemian <User%3APete_Jemian.html>`__             | APS, ANL, USA                                     | approved               | **NO**                 |                        |                        |
+      |  Pete Jemian <Pete_Jemian.html>                       | APS, ANL, USA                                     | approved               | **NO**                 |                        |                        |
       +-------------------------------------------------------+---------------------------------------------------+------------------------+------------------------+------------------------+------------------------+
       | Suzuki Jiro                                           | J-PARC, Japan                                     | approved               | YES                    |                        |                        |
       +-------------------------------------------------------+---------------------------------------------------+------------------------+------------------------+------------------------+------------------------+
-      | `Mark Koennecke <User%3AMark_Koennecke.html>`__       | PSI, Switzerland                                  | approved               | YES                    |                        |                        |
+      |  Mark Koennecke <Mark_Koennecke.html>                 | PSI, Switzerland                                  | approved               | YES                    |                        |                        |
       +-------------------------------------------------------+---------------------------------------------------+------------------------+------------------------+------------------------+------------------------+
-      | `Ray Osborn <User%3ARay_Osborn.html>`__               | ANL, USA                                          | approved               | **NO**                 |                        |                        |
+      |  Ray Osborn <Ray_Osborn.html>                         | ANL, USA                                          | approved               | **NO**                 |                        |                        |
       +-------------------------------------------------------+---------------------------------------------------+------------------------+------------------------+------------------------+------------------------+
-      | `Peter Peterson <User%3APeter_Peterson.html>`__       | ORNL, USA                                         | approved               | YES                    |                        |                        |
+      |  Peter Peterson <Peter_Peterson.html>                 | ORNL, USA                                         | approved               | YES                    |                        |                        |
       +-------------------------------------------------------+---------------------------------------------------+------------------------+------------------------+------------------------+------------------------+
-      | `Tobias Richter <User%3ATobias_Richter.html>`__       | Diamond Light Source, UK                          | approved               | YES                    |                        |                        |
+      |  Tobias Richter <Tobias_Richter.html>                 | Diamond Light Source, UK                          | approved               | YES                    |                        |                        |
       +-------------------------------------------------------+---------------------------------------------------+------------------------+------------------------+------------------------+------------------------+
       | Claude Saunders                                       | APS, ANL, USA                                     | approved               | YES                    |                        |                        |
       +-------------------------------------------------------+---------------------------------------------------+------------------------+------------------------+------------------------+------------------------+
-      | `Armando Sole <User%3AArmando_Sole.html>`__           | European Synchrotron Radiation Facility, France   | approved               | YES                    |                        |                        |
+      |  Armando Sole <Armando_Sole.html>                     | European Synchrotron Radiation Facility, France   | approved               | YES                    |                        |                        |
       +-------------------------------------------------------+---------------------------------------------------+------------------------+------------------------+------------------------+------------------------+
       | Benjamin Watts                                        | Swiss Light Source, Switzerland                   | approved               | **NO**                 |                        |                        |
       +-------------------------------------------------------+---------------------------------------------------+------------------------+------------------------+------------------------+------------------------+

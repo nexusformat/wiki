@@ -10,7 +10,7 @@ NIAC2007 Minutes
          :name: NIAC2007_Minutes_niac2007-minutes
          :class: page-title
 
-      Version in `PDF <Media:NIAC2007HMI_minutes.pdf.html>`__ format
+      Version in `PDF <../pdfs/NIAC2007HMI_minutes.pdf>`__ format
 
       .. rubric:: NIAC meeting " HMI, Berlin (Germany) 24, 25, 26
          September 2007
@@ -55,17 +55,17 @@ NIAC2007 Minutes
          orientation.
       -  Mark Koennecke mentioned that he had also prepared a talk on
          object orientation.
-      -  It was also noted that the `NXgeometry <NXgeometry.html>`__
+      -  It was also noted that the NXgeometry <NXgeometry.html>
          class supported boxes and cylinders.
       -  Nexus paper: Mark Koennecke noted that there is a publication
          on Nexus which appeared as part of the ICNS proceedings
          *Physica B 385-386 (2006) 1343-1345*
       -  There was a short discussion on scans and the role of
-         `TOFRawScan <TOFRawScan.html>`__. Nick Hauser wanted to know if
+         `TOFRawScan <../content/TOFRawScan.html>`__. Nick Hauser wanted to know if
          there was a Nexus scan object
 
       ACTION : Nick Hauser to take over the
-      `NXgenericScan <GenericScan.html>`__ definition
+      `NXgenericScan <../content/GenericScan.html>`__ definition
 
       .. rubric:: Thanks
          :name: thanks
@@ -120,7 +120,7 @@ NIAC2007 Minutes
       but input from other NIAC members is required on naming of
       instrument definitions before moving them too. This leads onto the
       open question of how to name definitions like
-      `TOFRaw <TOFRaw.html>`__ " should all definitions have an NX
+      `TOFRaw <../content/TOFRaw.html>`__ " should all definitions have an NX
       prefix like base classes or not?
 
       Pete Jemian suggests differentiating names between Instruments +
@@ -207,7 +207,7 @@ NIAC2007 Minutes
       .. rubric:: From 2006 ILL Meeting
          :name: from-2006-ill-meeting
 
-      -  Unassigned - `NXcharacterization <NXcharacterization.html>`__
+      -  Unassigned - NXcharacterization <NXcharacterization.html>
          needs to be formalized and ratified - this has been repeated in
          #11
       -  Unassigned - Synchronize the website definitions with those in
@@ -500,7 +500,6 @@ NIAC2007 Minutes
       subversion.
 
       .. rubric:: NXGeometry
-         :name: nxgeometry
 
       Mark presents simple coordinate system + polar coordinate system.
       Ray corrected Mark"s notion of polar angle, Ray says polar angle

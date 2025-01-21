@@ -14,7 +14,7 @@ NIAC2006LBL
          :name: NIAC2006LBL_niac-meeting---october-2006
 
       The next meeting of the `NeXus International Advisory
-      Committee <NIAC.html>`__ will be held at the `Lawrence Berkeley
+      Committee <../niac/niac.html>`__ will be held at the `Lawrence Berkeley
       National Laboratory <http://www.lbl.gov>`__ near San Francisco,
       California, USA. The meeting will be held from October 5 to 6,
       2006, immediately following `NOBUGS
@@ -25,7 +25,7 @@ NIAC2006LBL
 
       If you are interested in attending (and are not already on the
       `list of attendees <NIAC2006LBL_attendees.html>`__), contact
-      `Andrew G"tz <User%3AAndy_Gotz.html>`__.
+      Andrew Gotz <Andy_Gotz.html>.
 
       .. rubric:: Start of the Meeting
          :name: start-of-the-meeting
@@ -59,12 +59,12 @@ NIAC2006LBL
          NeXus.
       -  SCAN definition similar to TOFRAW definition
       -  NXcharacterization needs to be formalized
-      -  Finalize `archive definition <Archive_Definition.html>`__
+      -  Finalize `archive definition <../content/Archive_Definition.html>`__
 
       .. rubric:: Tabled Until Next Time
          :name: tabled-until-next-time
 
-      -  Moving from `Meta-DTDs <Metaformat.html>`__ to XML Schema. see
+      -  Moving from `Meta-DTDs <../content/Metaformat.html>`__ to XML Schema. see
          `NeXML proposal <http://www.webel.com.au/nexml>`__
 
       .. rubric:: October 5
@@ -101,23 +101,23 @@ NIAC2006LBL
          -  Examine classes for ratification
 
             -  `X-ray Experimental (Synchrotron) raw NeXus
-               data <XESraw.html>`__
-            -  `Archive_Definition <Archive_Definition.html>`__
+               data <../content/XESraw.html>`__
+            -  `Archive_Definition <../content/Archive_Definition.html>`__
 
       -  
 
          -  Examine instruments for ratification
 
             -  `Monochromatic Neutron and X-ray Small-Angle
-               Scattering <SAS.html>`__
+               Scattering <../content/SAS.html>`__
             -  Reflectometry
-            -  `Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer <Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer.html>`__
-            -  `Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer <Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html>`__
-            -  `Time-of-Flight_Neutron_Powder_Diffraction <Time-of-Flight_Neutron_Powder_Diffraction.html>`__
-            -  `Muon_Time_Differential <Muon_Time_Differential.html>`__
-            -  `MonoXPSD <MonoXPSD.html>`__ Monochromatic Single Crystal
+            -  Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer <Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer.html>
+            -  Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer <Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html>
+            -  `Time-of-Flight_Neutron_Powder_Diffraction <../content/Time-of-Flight_Neutron_Powder_Diffraction.html>`__
+            -  `Muon_Time_Differential <../content/Muon_Time_Differential.html>`__
+            -  `MonoXPSD <../content/MonoXPSD.html>`__ Monochromatic Single Crystal
                Diffractometer with Position Sensitive Detector
-            -  `MonoXSingle <MonoXSingle.html>`__ Monochromatic Single
+            -  `MonoXSingle <../content/MonoXSingle.html>`__ Monochromatic Single
                Crystal Diffractometer with Single Detector
 
       -  ??:?? Triage
@@ -193,11 +193,10 @@ NIAC2006LBL
          :name: NIAC2006LBL_minutes
 
       Here are the minutes in `pdf
-      format <../pdfs/NIAC2006LBL_minutes.pdf>`__ or `MS-Word
-      format <NIAC2006LBL_minutes.doc>`__.
+      format <../pdfs/NIAC2006LBL_minutes.pdf>`__.
 
       .. rubric:: Photos
          :name: photos
 
       -  `Group photos <NIAC2006LBL_photos.html>`__
-      -  `other photos <NIAC2006LBL_photos_other.html>`__
+      -  other photos <NIAC2006LBL_photos_other.html>

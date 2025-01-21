@@ -82,7 +82,7 @@ Telco 20230213
             documentation in the nxdl file, but refferrng to 2010 NIAC.
             See:
             `minutes of 2010
-            NIAC <https://github.com/nexusformat/wiki/blob/master/content/NIAC2010.md>`__
+            NIAC <https://github.com/nexusformat/wiki/blob/master/content/NIAC2010.html>`__
             and
             `all NIAC
             meetings <../niac/NIAC.html>`__ and

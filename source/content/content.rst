@@ -16,7 +16,6 @@ Content
 
    2014_axes_and_uncertainties
    2014_How_to_find_default_data
-   ActiveProjects
    Archive_Definition
    Associating_Axes_with_Data
    ConcordanceDiscussion
@@ -27,8 +26,6 @@ Content
    DLSraw
    Download
    Extension_of_NeXus_Coordinate_Systems
-   Facilities
-   FAQ
    File_id_attribute_for_Nexus_files
    GenericScan
    Group_Attributes
@@ -86,3 +83,11 @@ Content
    Scaled_Data
    Scans
    Storing_Event_Data
+   Thumbnails_for_Nexus_files
+   Time-of-Flight_Neutron_Powder_Diffraction
+   TOFRaw
+   TOFRawScan
+   Update_for_NXflou_application_definition
+   Utilities
+   Workshop_PSI_2010
+   XESraw

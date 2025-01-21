@@ -30,7 +30,7 @@ Telco 20210303
 
       -  Welcome new members
       -  Review previous meeting minutes and actions: `January
-         Telco <Telco_20210120.md>`__
+         Telco <Telco_20210120.html>`__
       -  Discuss upcoming code camp
       -  Issues on Github labelled with "telco"
 
