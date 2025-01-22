@@ -13,7 +13,7 @@ CodeCamp2020-2
       The 2020-2 NeXus Code Camp is scheduled for 2 days in October
       2020: October 19 (Monday) - 20 (Tuesday). It is taking place one
       week after the `2020 NIAC
-      meeting <https://www.nexusformat.org/NIAC2020.html>`__. It was
+      meeting <../niac/NIAC2020.html>`__. It was
       originally planned to be immediately after the `NOBUGS 2020
       conference <https://tiny.cc/nobugs2020>`__, hosted by the
       `European XFEL <https://www.xfel.eu/>`__, but NOBUGS has been
@@ -27,7 +27,7 @@ CodeCamp2020-2
       from core NeXus developers, e.g. writing an application definition
       or writing a NeXus file correctly. The Tuesday will be more for
       the core NeXus developers to work on implementing `NIAC
-      decisions <https://www.nexusformat.org/NIAC2020.html>`__
+      decisions <../niac/NIAC2020.html>`__
 
       If you have a topic you wish to discuss/cover in the Monday code
       camp, please add it as a comment to this `GitHub

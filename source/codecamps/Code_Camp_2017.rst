@@ -126,7 +126,7 @@ Code Camp 2017
          :name: versioning
 
       -  Looking at the versioning concept as in the
-         `document <http://www.nexusformat.org/NIAC2016Minutes.html>`__
+         `document <../niac/NIAC2016Minutes.html>`__
       -  Big discussion about the complexity of local vrs. global
          versioning, i.e version on baseclasses vrs. versioning on the
          file.

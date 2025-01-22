@@ -267,7 +267,7 @@ CodeCamp2020
 
       -  Check-in, Welcome, and introductions
       -  Decide which
-         `topics <https://www.nexusformat.org/CodeCamp2020-topics.html>`__
+         `topics <CodeCamp2020-topics.html>`__
          to work on and resolve during this code camp.
 
          -  this took longer than expected (about 90 minutes)
