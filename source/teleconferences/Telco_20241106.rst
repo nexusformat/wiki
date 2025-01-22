@@ -1,0 +1,136 @@
+==============
+Telco_20241106
+==============
+
+Date
+----
+
+Wednesday, 6th Nov, 15:00 UTC
+
+Connect
+-------
+
+-  ZOOM VC link:
+   https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09
+-  Meeting ID: 652 7209 1306
+-  Passcode: nexus
+
+Agenda
+------
+
+follow up on the NIAC meeting in Sept
+
+Present
+-------
+
+AB, SB, PM, RO, PC, FS, PJ, RB, TC, HB
+
+Minutes
+-------
+
+-  | review of NIAC results
+   | AB: Project Board shows all issues done, the ones still in queue,
+     and those which has been discussed, but needs implementation
+   | SB: FAIRmat contributions are boundled, so they can be reviewed in
+     smaller chunks
+   | RO: let us label those PRs which needs NIAC vote
+   | AB: let us put links of votes to the 2024 NIAC minutes, too
+   | SB: volunteered to do that
+
+-  | PR etiquette
+   | AB: PR should have a summary on top as proposed by RO
+   | SB: also issues can be connected to PRs to explain them in details
+     and allow discussions
+   | RO: indeed, issue shall also be connected to PRs, but a Summary
+     telling why we have this PR is still needed
+   | AB: discussion in PR should be just fine without necessarily an
+     issue associated
+   | PM: where do we want to have discussion? In the PR and/or in Issue?
+     We could have a file describing Contribution rules
+   | TC: some projects are strong on requiring issues associated to PRs.
+     It may be enough to open an issue when PR becomes big.
+   | PJ: it is important to have a record on WHY we have this
+     modification?
+   | PM: yes, it is important.
+
+-  | Issues/PRs
+   | AB: let us check those issues which still need a PR to be approved,
+     so online voting can be set up for them
+
+   -  https://github.com/nexusformat/definitions/issues/1442
+      AB: volunteered to set up a PR which implements the voted
+      modifications in the documentation
+      RO: related PRs:
+
+      -  NXobject to hold groups which can be placed into any groups:
+         `pull
+         #1507 <https://github.com/nexusformat/definitions/pull/1507>`__
+         SB: if these groups are also inheriting NXobject, unlimited
+         circular nesting is allowed. Is it the intention?
+         RO: Yes, it works fine.
+         PM, AB: we may want to be carefull with this. Not sure if it is
+         needed to be formalised as such
+         RO: It is just implementing the convention which was anyway
+         written in the standard
+      -  NXroot not to inherit from NXobject to force NXentry to be the
+         only entry groups: `pull
+         1505 <https://github.com/nexusformat/definitions/pull/1505>`__
+         SB: Although @NX_class is indicated optional (as all other
+         elements in a base class), it is anyway needed just like in all
+         other groups to be able to identify NXroot group as an
+         intentional root of a NeXus file.
+         RO: NXroot is just an artifact for being able to hold some file
+         level attributes, but it is not a real base class.
+         Documentation is missleading.
+         PJ: The entry for any NeXus content is actually NXentry.
+         RO: Yes, and NXentry must be in the root and only this NeXus
+         group can be in the root.
+         TC: What happends where NeXus content is built from multiple
+         hdf5 files with their respective roots?
+         SB: NeXus interpretation and annotation is connected to a given
+         root. Interpreter starts from that root and wals along all
+         available groups/fields/attributes which may use external links
+         and drives to a specific lovcation of a different hdf5 file.
+         The root of those linked h5 files are not necessarily
+         interpreted and certainly not as NXroot. They are interpreted
+         (actually as NXroot) if and only if NeXus annotation starts
+         with that file.
+         RO: Actually, hdf5 roots shall not be interpreted as a normal
+         base class group according to NXroot definition, but only
+         attributes listed in NXroot can be interpreted. Even @NX_class
+         shall not necessarily be present.
+         SB: Documentaion may be missleading, but according to that, a
+         NeXus file shall contain a valid and proper NXroot in its root
+         which hosts all NXentries.
+         HB: We may start the design from scratch, so clear
+         documentation and implementation will not be blocked by legacy
+         issues.
+         AB: The standrd is stable for long years, we shall find the way
+         to clarify the documentation and the intentional use, so
+         validators can apply it. Let us try to improve it in the PR
+         offline.
+
+   -  https://github.com/nexusformat/definitions/issues/1467
+      AB: Let us resolve conversations in the pending `PR
+      1419 <https://github.com/nexusformat/definitions/pull/1419>`__
+      SB: indentifiers meeds finalisation and so #1467 is being blocked
+      by the PR adding identifierNAME to NXobject
+   -  https://github.com/nexusformat/definitions/pull/1486
+      AB, RO: documentation is overwhelming for a base class, like
+      NXobject
+      SB: documentation for specific identifier type is actually crutial
+      for the interpretation
+      TC: Yes, it vital
+      SB: collecting the individual docs into a single block will render
+      them being collapsed into a single line in HTML.
+      AB: that solves the problem
+      RO: keeping NXidentifier as a base class, it could host its own
+      documentation and we would need to add a single line to NXobject.
+      SB: yes, it is also an alternative, although we voted for
+      implementing the identifier not as a Group, but an Attribute
+      (which we seem to be able to implement only as a Field because we
+      cannot assign an attribute to an attribute).
+      RO: why is it identifierNAME and not identifier_NAME?
+      SB, AB: we discussed, and agreed on this to support the
+      possibility to declare an element called ‘identifier’ without any
+      extra suffix (when NAME is substituted by an empty string).

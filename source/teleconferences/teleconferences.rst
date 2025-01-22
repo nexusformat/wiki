@@ -46,6 +46,9 @@ Teleconferences
       `Telco 20241127 <Telco_20241127.html>`__ Wednesday, 27th Nov, 15:00
       UTC
 
+      `Telco 20241106 <Telco_20241106.html>`__ Wednesday, 6th Nov, 15:00
+      UTC
+
       `Telco 20240820 <Telco_20240820.html>`__ Tuesday, 20th Aug, 15:00
       UTC
 
@@ -755,6 +758,7 @@ Teleconferences
    Telco_20240626
    Telco_20240717
    Telco_20240820
+   Telco_20241106
    Telco_20241127
    Telco_20241209
    Telco_20241218
