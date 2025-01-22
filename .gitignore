@@ -1,3 +1,4 @@
 /.idea
-./dev_tools/ext/__pycache__/
+dev_tools/ext/__pycache__/
+dev_tools/__pycache__/
 *.pyc
