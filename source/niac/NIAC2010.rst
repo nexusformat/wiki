@@ -17,7 +17,7 @@ NIAC2010
 
       Currently the tentative dates are:
 
-      -  `NeXus code camp <NIAC2010_CodeCamp.html>`__ -> 5th / 6th
+      -  `NeXus code camp <../codecamps/CodeCamp2010.html>`__ -> 5th / 6th
          October 2010
       -  NIAC Meeting -> 7th / 8th October 2010
       -  NeXus workshop -> 10th October

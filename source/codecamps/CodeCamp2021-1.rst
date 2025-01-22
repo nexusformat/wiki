@@ -60,5 +60,4 @@ CodeCamp2021-1
       `Session
       times <https://docs.google.com/spreadsheets/d/11WXNBxEaCdM9BsyDylEhFB5v5yd4F_bNMDejWB1FM6I/edit?usp=sharing>`__
 
-      `Project on
-      Github <https://github.com/nexusformat/NIAC/projects/3>`__
+      `Project on Github <https://github.com/nexusformat/NIAC/projects/3>`__

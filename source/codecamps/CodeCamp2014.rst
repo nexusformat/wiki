@@ -14,7 +14,7 @@ NIAC2014 CodeCamp
       together on developing software or resolving particular NeXus
       design issues.
 
-      See `NIAC2014 <NIAC2014.html>`__ for administrative details about
+      See `NIAC2014 <../niac/NIAC2014.html>`__ for administrative details about
       this meeting.
 
       .. rubric:: Planned Schedule (subject to change)

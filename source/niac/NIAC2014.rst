@@ -390,7 +390,7 @@ NIAC2014
       .. rubric:: NeXus Code Camp
          :name: NIAC2014_nexus-code-camp
 
-      See `NIAC2014_CodeCamp <NIAC2014_CodeCamp.html>`__ for specific
+      See `NIAC2014_CodeCamp <../codecamps/CodeCamp2014.html>`__ for specific
       Agenda and notes
 
       .. rubric:: NIAC Meeting

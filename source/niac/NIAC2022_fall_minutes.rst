@@ -32,7 +32,7 @@ NIAC2022 fall minutes
       proposal was voted on and approved.
 
       SB preseted issue 3 (Allow NXdata dimension variables to contain a
-      list of strings https://github.com/nexusformat/NIAC/issues/945),
+      list of strings https://github.com/nexusformat/definitions/issues/945),
       SB this would be an array of strings PC this issue was voted on
       and approved back at the spring NIAC PJ the changes need to be
       made, will set for next release

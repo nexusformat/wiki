@@ -222,9 +222,9 @@ NIAC
       -  `NIAC 2012 <NIAC2012.html>`__ NeXus Code Camp and NIAC Meeting,
          hosted by ISIS and Diamond at RAL, Oxfordshire, UK, September
          2012 (`minutes <NIAC2012.html#meeting-minutes>`__)
-      -  `NIAC 2011 <NIAC2011_CodeCamp.html>`__ NeXus Code Camp and NIAC
+      -  `NIAC 2011 <../codecamps/CodeCamp2011.html>`__ NeXus Code Camp and NIAC
          Meeting, APS, October 2011
-         (`minutes <NIAC2011_CodeCamp.html#final-report>`__)
+         (`minutes <../codecamps/CodeCamp2011.html#final-report>`__)
       -  `NIAC 2010 <NIAC2010.html>`__ NeXus Code Camp and NIAC Meeting,
          ORNL, October 2010
          (`minutes <../pdfs/Minutes_of_NeXus_Committee_2010.pdf>`__)

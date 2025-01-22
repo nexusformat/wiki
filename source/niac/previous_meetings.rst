@@ -39,15 +39,15 @@ previous meetings
 
       `[NIAC2009] <NIAC2009.html>`_
 
-      `[NIAC2010_CodeCamp] <NIAC2010_CodeCamp.html>`_
+      `[NIAC2010_CodeCamp] <../codecamps/CodeCamp2010.html>`_
 
       `[NIAC2010] <NIAC2010.html>`_
 
-      `[NIAC2011_CodeCamp] <NIAC2011_CodeCamp.html>`_
+      `[NIAC2011_CodeCamp] <../codecamps/CodeCamp2011.html>`_
 
       `[NIAC2012] <NIAC2012.html>`_
 
-      `[NIAC2014_CodeCamp] <NIAC2014_CodeCamp.html>`_
+      `[NIAC2014_CodeCamp] <../codecamps/CodeCamp2014.html>`_
 
       `[NIAC2014_Meeting] <NIAC2014_Meeting.html>`_
 
@@ -114,11 +114,8 @@ previous meetings
    NIAC2008_attendees
    NIAC2008
    NIAC2009
-   NIAC2010_CodeCamp
    NIAC2010
-   NIAC2011_CodeCamp
    NIAC2012
-   NIAC2014_CodeCamp
    NIAC2014_Meeting
    NIAC2014
    NIAC2016Minutes
