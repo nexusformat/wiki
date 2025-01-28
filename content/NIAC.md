@@ -149,6 +149,8 @@ Special Interest Groups: The NeXus International Advisory Committee will appoint
 Meetings
 --------
 
+-   [NIAC2024](NIAC2024.html) NIAC Meeting, (hybrid)
+    hosted by the European Synchrotron Radiation Facility, Grenoble, France, September 2024
 -   [Code Camp June 2023](https://www.nexusformat.org/CodeCampJune2023.html): Code Camp, (virtual)
 -   [NIAC 2022](NIAC2022.html) NIAC Meeting, (hybrid)
     hosted by the Paul Scherrer Institute, Switzerland, September 2022
