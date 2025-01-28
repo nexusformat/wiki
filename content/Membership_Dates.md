@@ -14,7 +14,6 @@ stated in the [constitution](NIAC.html "wikilink").
 
 ### Expire July, 2023
 -   Ray Osborn,  Argonne National Laboratory (non-facility representative)
--   Tobias Richter, European Spallation Source, Sweden
 
 ### Expire August, 2023
 -   Majid Ounsy, Synchrotron Soleil, France
@@ -51,7 +50,6 @@ stated in the [constitution](NIAC.html "wikilink").
 ### Expire April 2026
 
 -   Benjamin Watts, SLS, Switzerland
--   Mark Könnecke, PSI, Switzerland
 
 ### Expire August 2026
 
