@@ -12,7 +12,7 @@ Current Members
 -   Benjamin Watts, Swiss Light Source, Switzerland
 -   Herbert Bernstein, CIF (*non-facility member*)
 -   Thomas Caswell, Brookhaven National Laboratory/NSLS-II, USA
--   Bjørn Clausen, Los Alamos National Laboratory, USA
+-   _Bjørn Clausen, Los Alamos National Laboratory, USA_
 -   Heike Görzig, Helmholtz Zentrum Berlin, Germany
 -   Pete Jemian, Advanced Photon Source, USA
 -   Raymond Osborn, Argonne National Laboratory, USA (*non-facility member*)
@@ -20,7 +20,7 @@ Current Members
 -   Takahiro Matsumoto, Spring8, Japan
 -   Balázs Bagó, the Extreme Light Infrastructure, Czech Republic, Hungary and Romania
 -   Russ Berg, Canadian Light Source, Canada
--   Majid Ounsy, Synchrotron Soleil, France
+-   _Majid Ounsy, Synchrotron Soleil, France_
 -   Chen Zhang, Oak Ridge National Laboratory (SNS/HFIR), USA
 -   Luca Geliso, European XFEL, Germany
 -   Paul Millar, DESY, Germany
