@@ -1,0 +1,89 @@
+=================
+Telco 20160315
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20160315
+         :name: telco-20160315
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20160315_date
+
+      Wednesday, 15th March, 16:30 Central European Time (Copenhagen)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20160315_agenda
+
+      -  Welcome and agree Agenda
+      -  http://nexusformat.org main landing page update
+      -  github issue of the day - suggestions welcome (there is a
+         github label now), otherwise we pick a random one
+      -  github branches - prune stale ones
+      -  Dectris Eiger JSON format
+      -  cnxvalidate testing
+      -  NAPI release and download webpages (including definitions
+         kits), Debian packages
+      -  Next meeting
+      -  AOB
+
+      .. rubric:: Minutes
+         :name: Telco_20160315_minutes
+
+      Present: AB, PJ, MK, HJB, TSR, EW
+
+      .. rubric:: Main Landing Page
+         :name: main-landing-page
+
+      RO is preparing something, no update today
+
+      .. rubric:: Github Issues
+         :name: Telco_20160315_github-issues
+
+      Closed a few that on short inspection didn   t require any more
+      more.
+
+      Recent work on updating copyright notices was welcome
+
+      Stale Branches: Identified some candidates for deletion and some
+      that have valuable commits.
+
+      .. rubric:: Eiger JSON Streaming Format
+         :name: eiger-json-streaming-format
+
+      Eiger has three outputs: NeXus/HDF5, Monitor and Streaming
+      (zeroMQ)
+
+      For the streaming the detector uses some JSON for metadata (plus
+      binary blob). The JSON string labels are short without hierarchy.
+
+      After a discussion: There is nothing we can do to help their
+      broken mapping. JSON could be fixed easily, but maybe for their
+      needs that is good enough as well. Will pick up the discussion if
+      there is input or a proposal from Dectris or another party
+      interested to engage.
+
+      .. rubric:: cnxvalidate
+         :name: Telco_20160315_cnxvalidate
+
+      No testing reported - PJ was happy to hear about the tool though.
+
+      .. rubric:: NAPI release
+         :name: napi-release
+
+      All releases downloadable from d.n.o/kits should be on github.
+      Same is true for definitions. d.n.o/kits can go (redirect to
+      github).
+
+      Debian: Eugen is planning to make progress some time this year.
+
+      .. rubric:: Next meeting
+         :name: Telco_20160315_next-meeting
+
+      `Telco 20160329 <Telco_20160329.html>`__

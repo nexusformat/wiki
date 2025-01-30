@@ -1,0 +1,61 @@
+=================
+Telco 20200323
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20200323
+         :name: telco-20200323
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20200323_date
+
+      Monday, 23 March, 15:00 CET (+0100)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20200323_agenda
+
+      -  2020 NIAC and Code Camp dates included in
+         `NOBUGS2020 <https://indico.desy.de/indico/event/24321/overview>`__
+         website
+      -  Concordance of data integrity metadata with CIF community
+      -  COVID-19 (everyone else is talking about it!)
+
+      .. rubric:: Minutes
+         :name: Telco_20200323_minutes
+
+      Present: HB, TM, MK, PJ, AB, BW, TR, FA
+
+      .. rubric:: 2020 NIAC and Code Camp
+         :name: 2020-niac-and-code-camp
+
+      -  registration live on NOBUGS
+      -  What detail should be published
+      -  BW suggests opening the CC to informal Q&A and training
+      -  MK asks that email be given to indicate numbers and intended
+         tasks
+      -  PJ requests separation of the open and in-house sections of the
+         CC
+      -  Maybe need an extra room, and should plan for combination of
+         in-person and remote attendance.
+
+      .. rubric:: Concordance with CIF
+         :name: concordance-with-cif
+
+      -  BW asks if NXpdb is sufficient
+      -  HB says NXpdb needs more detail and it is in progress with the
+         NXmx article
+      -  HB would like to discuss these issues and get it settled in the
+         summer meetings, but  COVID-19 
+      -  HB and AB say it also affects the XFEL data.
+
+      .. rubric:: Any Other Business
+         :name: Telco_20200323_any-other-business
+
+      -  Next meeting after Easter.

@@ -1,0 +1,71 @@
+=================
+Telco 20180220
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20180220
+         :name: telco-20180220
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20180220_date
+
+      Tuesday, 20 February, 16:30 CET (+0100)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20180220_agenda
+
+      -  Welcome and agree Agenda
+      -  Review of NXDL
+         `milestone <https://github.com/nexusformat/definitions/milestones>`__
+
+         -  `Release
+            Procedure <https://github.com/nexusformat/definitions/wiki/Release-Procedure>`__
+            posted on the wiki
+
+      -  Github issue of the day - suggestions welcome (use telco github
+         label)
+
+         -  `definitions PRs & issues marked as
+            'telco' <https://github.com/nexusformat/definitions/labels/telco>`__
+
+      -  Next meeting
+      -  AOB
+
+      .. rubric:: Minutes
+         :name: Telco_20180220_minutes
+
+      Present: MB, MK, HJB, TSR
+
+      Relatively short meeting as some originally planned agenda items
+      would have required RO or AB.
+
+      .. rubric:: Definitions Release
+         :name: definitions-release
+
+      Closed a couple of issues and attempted to have most open ones
+      assigned to a person now.
+
+      .. rubric:: Telco tagged Tickets
+         :name: telco-tagged-tickets
+
+      One had been discussed and the tag could be taken off. The other
+      item was RO's proposed NXdata changes.
+
+      .. rubric:: Next Meeting
+         :name: Telco_20180220_next-meeting
+
+      `Telco 20180313 <Telco_20180313.html>`__
+
+      .. rubric:: AOB
+         :name: Telco_20180220_aob
+
+      Short heads up on this meeting:
+      https://www.helmholtz-berlin.de/events/scientific-data-management/index_en.html
+      As well as minor ones and upcoming grant proposals.

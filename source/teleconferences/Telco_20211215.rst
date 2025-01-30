@@ -1,0 +1,112 @@
+=================
+Telco 20211215
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20211215
+         :name: telco-20211215
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20211215_date
+
+      Wednesday, 15th December, 14:00 UTC
+
+      .. rubric:: Connect
+         :name: Telco_20211215_connect
+
+      -  ZOOM VC link:
+         https://psich.zoom.us/j/65356830562pwd=VFJ1R2ROUzU2bWZ1MjloOERYVy9mUT09
+      -  Meeting ID: 653 5683 0562
+      -  Passcode: 387565
+
+      .. rubric:: Agenda
+         :name: Telco_20211215_agenda
+
+      -  Welcome new members
+      -  Review previous meeting minutes and actions: `November
+         Telco <Telco_20211115.html>`__
+      -  Next release of definitions : when (was scheduled for 2021-10)
+      -  Recent issues on Github (especially those labelled with
+         "telco")
+
+         -  `definitions <https://github.com/nexusformat/definitions/issuesq=is%3Aopen+is%3Aissue>`__
+         -  `code <https://github.com/nexusformat/code/issuesq=is%3Aopen+is%3Aissue>`__
+
+      .. rubric:: Present
+         :name: Telco_20211215_present
+
+      BW, HG, LG, RB, CZ, SB, PJ, PC, WdN, AB, HB
+
+      .. rubric:: Minutes
+         :name: Telco_20211215_minutes
+
+      .. rubric:: New Members
+         :name: new-members
+
+      -  WdN is new ESRF rep where there is a new data acquistion that
+         writes HDF5/NeXus
+      -  LG is new rep for Eu XFEL, also NeXus compliant
+      -  SB presents FAIRmat infrastructure project that he is working
+         in and producing lots of new draft base classes and application
+         definitions.
+      -  SB asks LG about links between ontology and data files.
+      -  CZ is new rep from ORNL (had some technical issues with
+         microphone volume), primarily workin with Neutron sources.
+
+      .. rubric:: Issues
+         :name: issues
+
+      -  PJ asks if we still need an environment.yml file in the
+         documentation repo
+
+         -  noone sees a need for it
+
+      -  HG NFDI project would want to coordinate with FAIRmat, rather
+         than working in parallel.
+
+      .. rubric:: Next Release
+         :name: next-release
+
+      -  PJ aims to have a somewhat annual release of the definitions
+      -  Schedule releae for March 2022
+
+      .. rubric:: Issues
+         :name: issues-1
+
+      -  PJ suggest dropping support for python <3.7 since 2.6 is at the
+         end of its support period.
+
+         -  PC suggests also removing any use of the six module since it
+            shouldn"t be need when there shouldn"t be any Python2 code
+         -  PC further suggests switching to h5py version3 - PJ thinks
+            it may not be needed (happens automatically)
+
+      -  PJ asks if we are ready to cut the cord from the Jenkins
+         server PC thinks yes. PJ waiting for acknowledgement from FA.
+      -  PJ discusses adopting Github workflow
+
+         -  Github (branch, not yet main) will autonatically build the
+            docs on every push and will publish it if there is a release
+            tag provided.
+         -  Will wait for FA before implementing it in main.
+
+      -  HG asks for details about the yml file that PJ asked her to
+         create for the ontology repo
+
+         -  PJ says it is mostly for setting up the appropriate
+            python/conda environment required to run the code.
+
+      -  PC presents PR#957 for describing a POI.
+
+         -  mostly complete, but still an issue with declaring which
+            fields are optional.
+
+      -  PC has also been working on NXbeam to define the reference
+         plane of the polarisation.
+
+      Next meeting to be in the second half of January, 2022.
+      `poll <https://doodle.com/poll/u4bpr3tzwz8cnw2h>`__

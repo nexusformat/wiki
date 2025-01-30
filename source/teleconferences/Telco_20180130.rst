@@ -1,0 +1,63 @@
+=================
+Telco 20180130
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20180130
+         :name: telco-20180130
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20180130_date
+
+      Tuesday, 30 January, 16:30 CET (+0100)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20180130_agenda
+
+      -  Welcome and agree Agenda
+      -  Update on multiple detector modules
+      -  Review of NXDL
+         `milestone <https://github.com/nexusformat/definitions/milestones>`__
+
+         -  `Release
+            Procedure <https://github.com/nexusformat/definitions/wiki/Release-Procedure>`__
+            posted on the wiki
+
+      -  Next meeting
+      -  AOB
+
+      .. rubric:: Minutes
+         :name: Telco_20180130_minutes
+
+      Present: AB, MB, PJ, RO, MK, TSR, HJB
+
+      .. rubric:: multiple detector modules
+         :name: Telco_20180130_multiple-detector-modules
+
+      AB committed some changes to pixel sizes. Would be worth someone
+      reviewing. More changes upcoming.
+
+      .. rubric:: Review of Milestone Release
+         :name: review-of-milestone-release
+
+      Took most of the time of the meeting. Discussions are mostly
+      captured in the github tickets.
+
+      .. rubric:: Next Meeting
+         :name: Telco_20180130_next-meeting
+
+      `Telco 20180220 <Telco_20180220.html>`__
+
+      .. rubric:: AOB
+         :name: Telco_20180130_aob
+
+      Auxilary signals: RO to reply to the mailing list that this Telco
+      has no objections to optionally introducing multiple signals in
+      NXdata, provided they share the same axes.

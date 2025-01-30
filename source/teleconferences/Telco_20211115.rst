@@ -1,0 +1,88 @@
+=================
+Telco 20211115
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20211115
+         :name: telco-20211115
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20211115_date
+
+      Monday, 15th November, 14:00 UTC
+
+      .. rubric:: Connect
+         :name: Telco_20211115_connect
+
+      -  ZOOM VC link:
+         https://psich.zoom.us/j/69154353855pwd=RW00eXRGa09tNWRHU202SDdLaTJzZz09
+      -  Meeting ID: 691 5435 3855
+      -  Passcode: 16022
+
+      .. rubric:: Agenda
+         :name: Telco_20211115_agenda
+
+      -  Welcome new members
+      -  Review previous meeting minutes and actions: `September
+         Telco <Telco_20210915.html>`__
+      -  Recent issues on Github (especially those labelled with
+         "telco")
+
+         -  `definitions <https://github.com/nexusformat/definitions/issuesq=is%3Aopen+is%3Aissue>`__
+         -  `code <https://github.com/nexusformat/code/issuesq=is%3Aopen+is%3Aissue>`__
+
+      .. rubric:: Present
+         :name: Telco_20211115_present
+
+      BW, RO, RB, MK, TM, PC, HB
+
+      .. rubric:: Minutes
+         :name: Telco_20211115_minutes
+
+      PC presented proposal for describing a ROI in `issue
+      #944 <https://github.com/nexusformat/definitions/issues/944>`__
+
+      -  BW asks about representing a different use case where the
+         "parent" dataset is not recorded (e.g. the detector output is
+         limited to a subset of pixels and only this subset is
+         recorded).
+      -  MK asks if this really belongs in NXdetector since it looks
+         more like processed data than raw data
+      -  Would be better to be described more generally than only as a
+         child of NXdetector
+
+      BW describes discussions with Dectris about `issue
+      #940 <https://github.com/nexusformat/definitions/issues/940>`__
+      (`summary <https://github.com/nexusformat/definitions/issues/940#issuecomment-968922229>`__)
+
+      -  RO likes restricting data variable labels to NX_NUMBER but is
+         not opposed to `issue
+         #945 <https://github.com/nexusformat/definitions/issues/945>`__
+      -  Different types of link are already
+         `allowed <https://github.com/nexusformat/NIAC/issues/77#issuecomment-716643766>`__
+         and their target can be discovered in HDF5. Perhaps we need to
+         document and advertise which calls can/should be used
+
+      Draft `application definition for
+      XPCS <https://github.com/nexusformat/definitions/issues/943>`__
+
+      -  MK thinks that the variables are not very descriptive (e.g.
+         g2), but PC says that it is standard nomenclature in the field
+      -  the scripts from RB could be useful to illustrate the structure
+         of a proposed application definition
+      -  BW suggests that the scripts from RB could be added to the
+         nexus_format package to make it more easily available to people
+         planning new application definitions
+      -  RB will try to make his script more resilient against minor
+         issues often found in contributed application definitions
+
+      Should we have another virtual NIAC in Spring 2022 There are
+      plans for a hybrid NOBUGS in Autumn 2022. BW suggests encouraging
+      more discussion on github before starting video discussions so
+      that we can be more time-efficient.
+
+      Next meeting in mid December

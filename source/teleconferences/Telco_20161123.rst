@@ -1,0 +1,93 @@
+=================
+Telco 20161123
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20161123
+         :name: telco-20161123
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20161123_date
+
+      Wednesday, 23rd November, 16:30 Brussels Time
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20161123_agenda
+
+      -  Welcome and agree Agenda
+      -  Discuss topics from code camp and NIAC meeting, check minutes
+
+         -  Here are the `minutes <../niac/NIAC2016Minutes.html>`__ of NIAC 2016
+
+      -  github issue of the day
+
+         -  `Pull Request: NXdata is now optional, as of
+            NIAC2016 <https://github.com/nexusformat/definitions/pull/496>`__
+         -  `add NXDL_contact
+            attribute <https://github.com/nexusformat/definitions/issues/451>`__
+         -  `remove unused
+            attributes <https://github.com/nexusformat/definitions/issues/330>`__
+         -  `make distinction between required and optional content in
+            manual <https://github.com/nexusformat/definitions/issues/277>`__
+
+      -  pixel as NX_length
+      -  web site redesign - future of wiki
+      -  Can we rename the ``uncertainties`` attribute (such as in
+         NXdata) to be the singular ``uncertainty``
+      -  AOB
+
+      .. rubric:: Minutes
+         :name: Telco_20161123_minutes
+
+      Present: MK, HJB, EW, AF, AB, PJ, RO
+
+      .. rubric:: Minutes from NIAC
+         :name: Telco_20161123_minutes-from-niac
+
+      Generally accepted with minor corrections. All action items should
+      be understood and covered in tickets or already done.
+
+      Versioning is ongoing with good progress. A lot of the workflow
+      will smooth out overtime and become clearer with use, we hope.
+
+      .. rubric:: Github issues
+         :name: Telco_20161123_github-issues
+
+      Pull request accepted with minor changes.
+
+      NXDL contact attribute idea was rejected as detracting from proper
+      forums like mailing lists and NIAC.
+
+      Unused attributes: ref and refindex seem to be unused indeed. They
+      should be deprecated now. (and exercise in versioning as well.)
+
+      .. rubric:: pixels as length
+         :name: pixels-as-length
+
+      Not a great idea, but follows current practice at experiments.
+      Should be accepted. Will figure out a way to allow that and what
+      the proper unit name for pixels is.
+
+      .. rubric:: Postponed Items
+         :name: postponed-items
+
+      We ran out of time on:
+
+      -  web site redesign - future of wiki
+      -  Can we rename the ``uncertainties`` attribute (such as in
+         NXdata) to be the singular ``uncertainty``
+
+      They have been put on the next meetings    agenda with some other
+      items that came up.
+
+      .. rubric:: Next Meeting
+         :name: Telco_20161123_next-meeting
+
+      `Telco 20161213 <Telco_20161213.html>`__

@@ -1,0 +1,75 @@
+=================
+Telco 20180905
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20180905
+         :name: telco-20180905
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20180905_date
+
+      Wednesday, 5 September, 16:30 CEST (+0200)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20180905_agenda
+
+      -  Welcome and agree Agenda
+      -  DOIs for definition versions (Zenodo)
+      -  NIAC Preparations
+      -  AOB
+      -  Next meeting
+
+      .. rubric:: Minutes
+         :name: Telco_20180905_minutes
+
+      Present: RO, PJ, TSR, MB
+
+      .. rubric:: DOIs via Zenodo
+         :name: dois-via-zenodo
+
+      The suggestion to create DOIs for definition releases was
+      converted to a ticket. Seems like a good idea.
+
+      .. rubric:: NIAC & NOBUGS Preparations
+         :name: Telco_20180905_niac--nobugs-preparations
+
+      TSR to submit a state-of-the-union talk. Topics would be:
+
+      -  (no longer so) new website/wiki
+      -  OFF geometry
+      -  Mantid Geometry support - weights
+      -  Axes (Diamond)
+      -  STEM NeXus
+      -  Grants
+      -  PDB, if ready
+
+      For the NIAC MB has two more topics than what is already
+      registered as NIAC tickets:
+
+      -  NXtyco
+      -  CSG volumes
+
+      New officers need to be elected.
+
+      .. rubric:: AOB
+         :name: Telco_20180905_aob
+
+      The 2018.8 milestone release had no real improvements commited
+      against it. We move all open and closed ticket to the next one
+      (2019.1).
+
+      The NIAC can decide on priorties for the open tickets and
+      establish a roadmap for NeXus for the slightly longer term.
+
+      .. rubric:: Next Meeting
+         :name: Telco_20180905_next-meeting
+
+      `Telco 20180926 <Telco_20180926.html>`__

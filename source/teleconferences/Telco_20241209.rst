@@ -1,0 +1,131 @@
+==============
+Telco 20241209
+==============
+
+Date
+----
+
+Monday, 9th Dec, 15:00 UTC
+
+Connect
+-------
+
+-  ZOOM VC link:
+   https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09
+-  Meeting ID: 652 7209 1306
+-  Passcode: nexus
+
+Agenda
+------
+
+-  domain names
+-  canSAS?
+-  PRs
+   `1517 <https://github.com/nexusformat/definitions/pull/1517>`__
+   `1518 <https://github.com/nexusformat/definitions/pull/1518>`__
+   `1407 <https://github.com/nexusformat/definitions/pull/1407>`__
+   `1486 <https://github.com/nexusformat/definitions/pull/1486>`__
+   `1408 <https://github.com/nexusformat/definitions/pull/1408>`__
+   `1410 <https://github.com/nexusformat/definitions/pull/1410>`__
+   `1414 <https://github.com/nexusformat/definitions/pull/1414>`__
+   `1419 <https://github.com/nexusformat/definitions/pull/1419>`__
+   `1413 <https://github.com/nexusformat/definitions/pull/1413>`__
+   `1415 <https://github.com/nexusformat/definitions/pull/1415>`__
+   `1420 <https://github.com/nexusformat/definitions/pull/1420>`__
+   `1424 <https://github.com/nexusformat/definitions/pull/1424>`__
+
+Present
+-------
+
+SB, AB, RB, HB, FS, WdN, BB, RO, BW, PC + Lukas P., Markus K., Ron H.,
+Rubel M. (FAIRmat)
+
+Minutes
+-------
+
+-  | domain names
+   | AB: We have been contacted from China that our domain.cn
+   | HB: we should say no to that
+   | AB: will ask LBL leagal team
+
+-  | PRs
+   | `1517 <https://github.com/nexusformat/definitions/pull/1517>`__
+   | AB: PC has reviewed and approved it, so we can merge it in
+   | `1518 <https://github.com/nexusformat/definitions/pull/1518>`__
+   | AB: HB has approved,
+   | RO: spelling mistakes
+   | AB: will resolve remaining comments, but no further requests.
+   | `1407 <https://github.com/nexusformat/definitions/pull/1407>`__
+   | AB: the idea of the possibility for opening up enumerations is also
+     relevant here
+   | HB: note that enum items should be intorduced with documentation
+   | AB: this has been approved in its current form, so let us do the
+     documentation improvmenet in a separate step
+   | RO: we need both option of closed and open enumerations
+   | AB: subclassing is approved, but Lukas reported that it may not
+     solve the problem without supporting multiple inheritance
+   | BW: a new vote is not necessary to revoke the request for
+     subclassing, as it has just turned out that the implementation of
+     the previous vote would result in a contradiction.
+   | AB: Let us accept it and release this requieremnt of using
+     subclasses
+   | AB: NXlens_em must be approved itself before we use it in other
+     approved definitions
+   | LP: It is fine to take it to a spearate PR
+   | AB: with these decisions, we can merge this in
+   | `1486 <https://github.com/nexusformat/definitions/pull/1486>`__
+   | RO: documenttaion is too long and could be separated out
+   | AB: rendering hides the long doc and shows it collapesd
+   | RO: that looks good
+   | AB: let us remove type_oter also from here (assuming open
+     enumerations will be supported)
+   | AB: after all conversations have been resolved, let us start an
+     online vote.
+   | `1507 <https://github.com/nexusformat/definitions/pull/1507>`__
+   | SB: FIELDNAME_xxx require the presence of a field with name
+     FIELDNAME
+   | AB: clarification could be added
+   | AB: is this need a vote? or ot os just an implementatin of the
+     convention?
+   | Telco participants decided that we do not need a vote here
+   | AB: let people not being on telco respond that, otherwise let merge
+     it.
+   | RM: do we realy want to support nested groups?
+   | SB: yes, it might read confusing, but indeed the proposal supports
+     nested groups for all those listed
+   | `1408 <https://github.com/nexusformat/definitions/pull/1408>`__
+   | AB: fields from NXmx are pulled to the base class now, so it can be
+     resued by others, too.
+   | AB: copied extra documentation (to energy from wavelength) could be
+     replaced by simple reference.
+   | LP: Yes, it is OK
+   | PC: Are previous/next deivces needed?
+   | SB: Yes, we use them to store information on optical setups where
+     \*-like relations are between optical devices
+   | AB: let us bring this to a vote
+   | AB: Additionally to them, there are lots of new fields, like
+     fluence, etc. Shall we do not put them to AppDefs
+   | BW: We should collect them in the base class and let AppDefs select
+     whiuch one they need in a specific case
+   | HB: Ben is right. For a controlled vocabulary, it is good to
+     collect faivoured names into base classes. Incident is needed to
+     understand why and how we need new defs
+   | LP: +1
+   | AB: what about ultra-short pulse related charscteristics? Can we
+     have then by using sbclassing
+   | LP: Yes, it is a reasonable choice
+   | MK: beam is not at all a straght line in EM
+   | AB: might not be neede to do subclassing
+   | WdN: are the units too restrictive
+   | SB: only examples are provided here
+   | RO: In neutron scattering, the incident polarisation, we use in %
+     rather.
+   | BW: The concept defines electro-magnatic polarisation
+   | AB: let us go back to use the units NX_ANY fr incident and final
+     polarisation.
+   | All accepted that.
+   | SB: Note that these are different concepts, so we may want to call
+     them differently
+   | AB: In fact, we should have clear concepts
+   | BW: incident_polarisation_stokes is indeed defined in NXbeam
+   | AB: let us bring it to a vote with the comments

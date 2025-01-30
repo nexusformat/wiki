@@ -1,0 +1,171 @@
+=================
+NIAC2008
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: NIAC2008
+         :name: NIAC2008_niac2008
+         :class: page-title
+
+      .. rubric:: NIAC meeting - October 2008
+         :name: NIAC2008_niac-meeting---october-2008
+
+      The next meeting of the `NeXus International Advisory
+      Committee <../niac/niac.html>`__ will be held at `Rydges Cronulla Beach
+      Hotel <http://www.rydges.com/hotel/0/RNCRON/Rydges-Cronulla-Sydney.htm>`__
+      in `Sydney Australia <http://www.sydneyaustralia.com/en/>`__ on
+      October 30-31, 2008. This is a satellite meeting of the `NOBUGS
+      2008 <http://www.nbi.ansto.gov.au/cgi-bin/nobugs2008/overview.ws3>`__
+      conference.
+
+      .. rubric:: Conference Fee
+         :name: NIAC2008_conference-fee
+
+      venue.
+
+      .. rubric:: List of Attendees
+         :name: NIAC2008_list-of-attendees
+
+      If you are interested in attending (and not already on the `list
+      of attendees <NIAC2008_attendees.html>`__), contact Nick
+      Hauser <Nick_Hauser.html>.
+
+      .. rubric:: Proposed Agenda
+         :name: NIAC2008_proposed-agenda
+
+      .. rubric:: Thursday, October 30
+         :name: NIAC2008_thursday-october-30
+
+      09:00 Meeting commences
+
+      .. rubric:: General Business
+         :name: general-business
+
+      -  Welcome and Introduction
+      -  Review of `NIAC"2007HMI minutes <NIAC2007_Minutes.html>`__
+
+         -  `NIAC Action Items <NIACActionItems.html>`__
+         -  `Open
+            tickets <http://trac.nexusformat.org/definitions/report/3>`__
+
+      -  `Renew members <Membership_Dates.html>`__
+      -  Elect chair, executive secretary, and technical committee chair
+      -  Discus what topics are most important
+      -  Mission statement <Mission.html>
+
+      Lunch
+
+      .. rubric:: CIF
+         :name: cif
+
+      -  presentation by James Hester on lessons learned from CIF
+         standardisation
+
+      .. rubric:: Discussion of technology for describing base classes
+         and instrument definitions
+         :name: discussion-of-technology-for-describing-base-classes-and-instrument-definitions
+
+      -  Review Darren Kelly"s latest work. Provide feedback to Darren.
+         - limited to one hour total
+
+      .. rubric:: Other items
+         :name: NIAC2008_other-items
+
+      18:00 Adjourn for dinner
+
+      .. rubric:: Friday, October 31
+         :name: NIAC2008_friday-october-31
+
+      09:00 Meeting commences
+
+      18:00 Meeting adjourns
+
+      .. rubric:: Discussion Items
+         :name: discussion-items
+
+      -  Roadmap for NeXus
+
+      .. rubric:: Instrument definitions
+         :name: instrument-definitions
+
+      -  Should we store pixel corners rather than centres?
+      -  Extending NXshape to handle `Constructive Solid Geometry
+         (CSG) <http://en.wikipedia.org/wiki/Constructive_solid_geometry>`__
+         descriptions of the instrument (see last part of
+         `MantidNeXusWorkspaceFormat <../pdfs/MantidNexusWorkspaceFormat.pdf>`__)
+
+      .. rubric:: XML schema definitions
+         :name: xml-schema-definitions
+
+      -  Objective: why schema? - validation, tools e.g. IDE.
+         Informative session.
+      -  Pros and cons of xsd and rng
+      -  Review of current work <Schema.html>. (Overview)
+      -  Vote on use of xsd.
+      -  schema as a path to O-O NeXus
+
+      .. rubric:: Reduced data storage
+         :name: reduced-data-storage
+
+      -  `review of canSAS 1-D v1.0 XML data
+         format <http://www.smallangles.net/wgwiki/index.php/cansas1d_documentation>`__
+         for reduced Small-Angle Scattering data.
+
+         -  Objective
+         -  Why not use NeXus?
+         -  How to merge/nudge community towards NeXus?
+         -  Next steps
+
+            -  2-D and higher-dimensionality **reduced** data sets
+            -  How to standardize storage of results from data analysis
+               steps and provenance
+
+      -  Is the next big priority after schema to provide reduced data
+         formats for all instrument classes?
+      -  Proposal for storage of reduced data by the `Mantid
+         project <http://www.mantidproject.org/>`__ (see
+         `MantidNeXusWorkspaceFormat <../pdfs/MantidNexusWorkspaceFormat.pdf>`__)
+
+      .. rubric:: Tech Group Breakout
+         :name: tech-group-breakout
+
+      -  review minutes/decision of last NIAC and tech teleconferences
+      -  Features for NeXus API 4.3
+      -  XML schema review and implementation
+      -  Review `open
+         tickets <http://trac.nexusformat.org/code/report/3>`__
+      -  Python bindings:
+
+         -  `Paul Kienzle"s new high level
+            interface <http://lists.nexusformat.org/pipermail/nexus-developers/2008/000791.html>`__
+         -  Developing a "Open GENIE like" NeXus python application
+
+      -  C++ bindings
+      -  "Object oriented" NeXus
+
+      .. rubric:: Documentation breakout
+         :name: documentation-breakout
+
+      -  review minutes/decision of last NIAC
+      -  ACTION (from 2007 NIAC): How is the offline documentation
+         produced?
+      -  Is the proposed system of a snapshot of relevant mediawiki
+         pages into DocBook at the time of a definition release
+         acceptable?
+      -  Discuss issues with mediawiki to DocBook converter
+      -  Decide which mediawiki pages are required in DocBook format
+         e.g. do we include the FAQ page?
+      -  Is there documentation that is uniquely offline or online? This
+         will become clearer with the mapping in the previous item
+      -  should the representation of the base classes in the appendices
+         be UML and/or table version?
+      -  html to DocBook transform post processing - are these steps
+         acceptable?
+
+         -  documentation transformed from mediawiki to DocBook, edited
+            where necessary, chapters concatenated, and converted to pdf
+         -  pdf bundled with napi release and versions available at
+            `Download <../general_content/Download.html>`__

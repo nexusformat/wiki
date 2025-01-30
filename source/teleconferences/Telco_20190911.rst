@@ -1,0 +1,93 @@
+=================
+Telco 20190911
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20190911
+         :name: telco-20190911
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20190911_date
+
+      Wednesday, 11 September, 15:00 CEST (+0200)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20190911_agenda
+
+      -  Code camp options (Diamond is no-go)
+      -  (From August) definitions: `next
+         release <https://github.com/nexusformat/definitions/milestone/8>`__
+         (`releases <https://github.com/nexusformat/definitions/releases>`__)
+         : new:
+         `base/NXpdb <https://github.com/nexusformat/definitions/blob/master/base_classes/NXpdb.nxdl.xml>`__
+         &
+         `contributed_definitions/NXcxi_ptycho <https://github.com/nexusformat/definitions/blob/master/contributed_definitions/NXcxi_ptycho.nxdl.xml>`__
+      -  Issues to raise at HDF5 workshop next week
+      -  Prune stale branches from
+         `definitions <https://github.com/nexusformat/definitions/branches/stale>`__
+
+      .. rubric:: Minutes
+         :name: Telco_20190911_minutes
+
+      Present: BW, TM, PJ, AB, SC
+
+      .. rubric:: Release
+         :name: release
+
+      Release issues to be worked on before we make the next release:
+      https://github.com/nexusformat/definitions/milestone/8
+
+      -  Aim for February/March release.
+      -  Why are
+         `PDB <https://github.com/nexusformat/definitions/pull/614/files>`__
+         and
+         `NXptycho <https://github.com/nexusformat/definitions/pull/628/files>`__
+         not visible in the current master
+
+         -  they **are** in current master but neither are in
+            applications
+         -  `base/NXpdb <https://github.com/nexusformat/definitions/blob/master/base_classes/NXpdb.nxdl.xml>`__
+         -  `contributed_definitions/NXcxi_ptycho <https://github.com/nexusformat/definitions/blob/master/contributed_definitions/NXcxi_ptycho.nxdl.xml>`__
+            `Release
+            Procedure <https://github.com/nexusformat/definitions/wiki/Release-Procedure>`__
+
+      AB points out that his recent changes to
+      `NXmx <https://github.com/nexusformat/definitions/commit/6e837341abbe3f61a68b65f6d441f9f77c4228de>`__
+      adds further detail to beam_center_x and beam_center_y than is
+      present in
+      `NXdetector <https://manual.nexusformat.org/classes/base_classes/NXdetector.html>`__.
+      BW responded that while it is not ideal to have diverging
+      documentation, an application definition can make some deviations
+      when needed.
+
+      .. rubric:: Prune Stale Branches
+         :name: prune-stale-branches
+
+      Branches that are not ahead of master at all give no value and
+      have now been deleted.
+
+      .. rubric:: Code Camp
+         :name: Telco_20190911_code-camp
+
+      Maybe PJ can organise something at Argonne in mid-November.
+      Otherwise we should organise a virtual event. We certainly should
+      do plenty of cleaning up in github for the next release.
+
+      .. rubric:: HDF5 Workshop
+         :name: Telco_20190911_hdf5-workshop
+
+      No further specific issues.
+
+      .. rubric:: Other Business
+         :name: Telco_20190911_other-business
+
+      -  SC to get some more graphic design input for a new logo,
+         especially with more "corporate" colours and including a mu.
+      -  Next meeting aiming for mid-October.
