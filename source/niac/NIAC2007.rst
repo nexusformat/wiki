@@ -298,7 +298,7 @@ NIAC2007
       .. rubric:: Laurent <L.lerusse.html>
          :name: -laurent
 
-      -  `Archive Definition <../content/Archive_Definition.html>`__
+      -  `Archive Definition <../general_content/Archive_Definition.html>`__
       -  nxingest a tool to extract metadata from a NeXus files and
          store it into a reformated xml document.
       -  Status of NeXus/imgCif usage in the facilities (who is using

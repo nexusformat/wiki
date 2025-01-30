@@ -120,7 +120,7 @@ FAQ
          in analyzing data from your instrument.
 
       Insert the relevant grep character, as defined in the `NeXus
-      Meta-DTD format <../content/Metaformat.html>`__ to denote the number of
+      Meta-DTD format <../general_content/Metaformat.html>`__ to denote the number of
       occurrences. If the item is optional (“?” or “\*”), then it does
       not need to be added to your definition.
 

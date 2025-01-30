@@ -54,10 +54,10 @@ NIAC2014 CodeCamp
                implement difference in rules between base classes and
                application definitions
 
-         -  Discuss `NeXus interfaces <../content/Objects_or_Interfaces.html>`__
+         -  Discuss `NeXus interfaces <../general_content/Objects_or_Interfaces.html>`__
          -  `How to avoid name clashes during future extensions of the
             Nexus
-            standard <../content/How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard.html>`__
+            standard <../general_content/How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard.html>`__
          -  Optional contents in application definitions?
          -  Discuss lightweight tags versus application definitions
          -  Rules for multi file NeXus files

@@ -74,13 +74,13 @@ NIAC2014 Meeting
       -  NXdata:
 
          -  proposal: describe `how to find the default
-            data <../content/2014_How_to_find_default_data.html>`__
+            data <../general_content/2014_How_to_find_default_data.html>`__
          -  proposal: describe how data are related (particularly: `axes
-            and uncertainties <../content/2014_axes_and_uncertainties.html>`__)
+            and uncertainties <../general_content/2014_axes_and_uncertainties.html>`__)
 
       -  NXformula
       -  `Update for NXflou application
-         definition <../content/Update_for_NXflou_application_definition.html>`__
+         definition <../general_content/Update_for_NXflou_application_definition.html>`__
 
       .. rubric:: NIAC Agenda
          :name: NIAC2014_Meeting_niac-agenda
@@ -173,7 +173,7 @@ NIAC2014 Meeting
       Vote on proposal for NXdata axes with indices attribute only
       required when required to resolve ambiguity. All in favour. Vote
       on proposal with indices required as in
-      `2014_axes_and_uncertainties <../content/2014_axes_and_uncertainties.html>`__.
+      `2014_axes_and_uncertainties <../general_content/2014_axes_and_uncertainties.html>`__.
       Accepted: 9 in favour. Strong disagreement by Ray Osborn as
       adoption is noted: "Adoption of NeXus will be hampered by
       additional complexity being required unnecessarily". Ben Watts
@@ -199,7 +199,7 @@ NIAC2014 Meeting
       Ratification of new and amended base classes and definitions.
 
       NXfluo
-      `Update_for_NXflou_application_definition <../content/Update_for_NXflou_application_definition.html>`__
+      `Update_for_NXflou_application_definition <../general_content/Update_for_NXflou_application_definition.html>`__
       Resolution: Proposal is in agreement with existing scan rules. No
       vote required. Further amendments to the application definition
       may be required, but that needs to be refined. Mark B and Eugen W

@@ -168,4 +168,4 @@ NIAC2008
          -  documentation transformed from mediawiki to DocBook, edited
             where necessary, chapters concatenated, and converted to pdf
          -  pdf bundled with napi release and versions available at
-            `Download <../content/Download.html>`__
+            `Download <../general_content/Download.html>`__

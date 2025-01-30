@@ -61,11 +61,11 @@ NIAC2007 Minutes
          on Nexus which appeared as part of the ICNS proceedings
          *Physica B 385-386 (2006) 1343-1345*
       -  There was a short discussion on scans and the role of
-         `TOFRawScan <../content/TOFRawScan.html>`__. Nick Hauser wanted to know if
+         `TOFRawScan <../general_content/TOFRawScan.html>`__. Nick Hauser wanted to know if
          there was a Nexus scan object
 
       ACTION : Nick Hauser to take over the
-      `NXgenericScan <../content/GenericScan.html>`__ definition
+      `NXgenericScan <../general_content/GenericScan.html>`__ definition
 
       .. rubric:: Thanks
          :name: thanks
@@ -120,7 +120,7 @@ NIAC2007 Minutes
       but input from other NIAC members is required on naming of
       instrument definitions before moving them too. This leads onto the
       open question of how to name definitions like
-      `TOFRaw <../content/TOFRaw.html>`__ " should all definitions have an NX
+      `TOFRaw <../general_content/TOFRaw.html>`__ " should all definitions have an NX
       prefix like base classes or not?
 
       Pete Jemian suggests differentiating names between Instruments +

@@ -27,13 +27,13 @@ NIAC2006 TOF Group
          case)](TOFRaw.html "wikilink") proposal in preparation for a
          full group discussion.
 
-      .. rubric:: Summary of main proposals in `TOFRaw <../content/TOFRaw.html>`__
+      .. rubric:: Summary of main proposals in `TOFRaw <../general_content/TOFRaw.html>`__
          :name: summary-of-main-proposals-in-tofraw
 
       #. Some new meta-data names in NXentry for archiving and
          cataloguing of data
       #. Some thoughts about scans (now moved to
-         `NXTOFRWSC <../content/TOFRawScan.html>`__ and being considered by the
+         `NXTOFRWSC <../general_content/TOFRawScan.html>`__ and being considered by the
          Scanning Group <Scanning_Group.html>)
       #. General and Area detector specific NXdetector
       #. Additional options for specifying pixel geometry with area
@@ -178,7 +178,7 @@ NIAC2006 TOF Group
       .. rubric:: Hardware detector ganging
          :name: hardware-detector-ganging
 
-      `TOFRaw <../content/TOFRaw.html>`__ originally suggested using an
+      `TOFRaw <../general_content/TOFRaw.html>`__ originally suggested using an
       **\_unganged** suffix on the ungrouped elements e.g.
       polar_angle_unganged. It was decided that creating a substructure
       within the NXdetector and putting the information there was better
@@ -199,7 +199,7 @@ NIAC2006 TOF Group
          mapping)
 
       -  An alternative is the gang_count and gang_index method in
-         `TOFRaw <../content/TOFRaw.html>`__, but this does require sorting of the
+         `TOFRaw <../general_content/TOFRaw.html>`__, but this does require sorting of the
          polar_angle etc. arrays prior to writing to the file
 
       .. rubric:: Proposals

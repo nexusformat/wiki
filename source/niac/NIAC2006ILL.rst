@@ -40,7 +40,7 @@ NIAC2006ILL
       -  Amend constitution to state that all officers, including
          technical chair, are elected at each meeting, effective at the
          end of the meeting
-      -  Discuss and vote on `TOF raw file definition <../content/TOFRaw.html>`__
+      -  Discuss and vote on `TOF raw file definition <../general_content/TOFRaw.html>`__
 
       .. rubric:: General Information
          :name: NIAC2006ILL_general-information
@@ -89,7 +89,7 @@ NIAC2006ILL
       **technical programming the api**
 
       "'"instruments-1
-      3-axis/reflection/`SAS <../content/SAS.html>`__/polarised/muons """
+      3-axis/reflection/`SAS <../general_content/SAS.html>`__/polarised/muons """
 
       -  (step-scanning/multi-detector/X-ray/neutron)
       -  examples 
@@ -223,4 +223,4 @@ NIAC2006ILL
       -  TOF Group <TOF_Group.html> (Freddie Akeroyd)
       -  Scanning Group <Scanning_Group.html> (Paul Kienzle)
       -  Technical Computing/APIGroup <Technical_Computing/API_Group.html> (Nick Maliszewskyj)
-      -  `Small-Angle Scattering Group <../content/SAS.html>`__ (Ron Ghosh)
+      -  `Small-Angle Scattering Group <../general_content/SAS.html>`__ (Ron Ghosh)

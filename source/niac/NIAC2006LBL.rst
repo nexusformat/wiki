@@ -59,12 +59,12 @@ NIAC2006LBL
          NeXus.
       -  SCAN definition similar to TOFRAW definition
       -  NXcharacterization needs to be formalized
-      -  Finalize `archive definition <../content/Archive_Definition.html>`__
+      -  Finalize `archive definition <../general_content/Archive_Definition.html>`__
 
       .. rubric:: Tabled Until Next Time
          :name: tabled-until-next-time
 
-      -  Moving from `Meta-DTDs <../content/Metaformat.html>`__ to XML Schema. see
+      -  Moving from `Meta-DTDs <../general_content/Metaformat.html>`__ to XML Schema. see
          `NeXML proposal <http://www.webel.com.au/nexml>`__
 
       .. rubric:: October 5
@@ -101,23 +101,23 @@ NIAC2006LBL
          -  Examine classes for ratification
 
             -  `X-ray Experimental (Synchrotron) raw NeXus
-               data <../content/XESraw.html>`__
-            -  `Archive_Definition <../content/Archive_Definition.html>`__
+               data <../general_content/XESraw.html>`__
+            -  `Archive_Definition <../general_content/Archive_Definition.html>`__
 
       -  
 
          -  Examine instruments for ratification
 
             -  `Monochromatic Neutron and X-ray Small-Angle
-               Scattering <../content/SAS.html>`__
+               Scattering <../general_content/SAS.html>`__
             -  Reflectometry
             -  Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer <Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer.html>
             -  Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer <Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html>
-            -  `Time-of-Flight_Neutron_Powder_Diffraction <../content/Time-of-Flight_Neutron_Powder_Diffraction.html>`__
-            -  `Muon_Time_Differential <../content/Muon_Time_Differential.html>`__
-            -  `MonoXPSD <../content/MonoXPSD.html>`__ Monochromatic Single Crystal
+            -  `Time-of-Flight_Neutron_Powder_Diffraction <../general_content/Time-of-Flight_Neutron_Powder_Diffraction.html>`__
+            -  `Muon_Time_Differential <../general_content/Muon_Time_Differential.html>`__
+            -  `MonoXPSD <../general_content/MonoXPSD.html>`__ Monochromatic Single Crystal
                Diffractometer with Position Sensitive Detector
-            -  `MonoXSingle <../content/MonoXSingle.html>`__ Monochromatic Single
+            -  `MonoXSingle <../general_content/MonoXSingle.html>`__ Monochromatic Single
                Crystal Diffractometer with Single Detector
 
       -  ??:?? Triage

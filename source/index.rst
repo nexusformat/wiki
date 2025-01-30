@@ -57,6 +57,6 @@ Discussion and Development:
    niac/niac
    faq/faq
    facilities/facilities
-   content/content
+   general_content/content
 
 

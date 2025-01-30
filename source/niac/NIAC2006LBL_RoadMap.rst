@@ -20,18 +20,18 @@ NIAC2006LBL RoadMap
          -  Monochromatic Neutron and X-ray Single Crystal
             Diffractometers
 
-            -  `MonoXPSD <../content/MonoXPSD.html>`__ Monochromatic Single Crystal
+            -  `MonoXPSD <../general_content/MonoXPSD.html>`__ Monochromatic Single Crystal
                Diffractometer with Position Sensitive Detector
-            -  `MonoXSingle <../content/MonoXSingle.html>`__ Monochromatic Single
+            -  `MonoXSingle <../general_content/MonoXSingle.html>`__ Monochromatic Single
                Crystal Diffractometer with Single Detector
 
          -  Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer <Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html>
-         -  `Archive_Definition <../content/Archive_Definition.html>`__
+         -  `Archive_Definition <../general_content/Archive_Definition.html>`__
 
       -  priority 2
 
-         -  `Time-of-Flight_Neutron_Powder_Diffraction <../content/Time-of-Flight_Neutron_Powder_Diffraction.html>`__
-         -  `Monochromatic Neutron and X-ray Small Angle Scattering <../content/SAS.html>`__
+         -  `Time-of-Flight_Neutron_Powder_Diffraction <../general_content/Time-of-Flight_Neutron_Powder_Diffraction.html>`__
+         -  `Monochromatic Neutron and X-ray Small Angle Scattering <../general_content/SAS.html>`__
          -  Time-of-Flight Small Angle Scattering
 
       -  priority 3
@@ -60,7 +60,7 @@ NIAC2006LBL RoadMap
       When looking at a geometry is the orientation applied before the
       translation or the other way around.
 
-      .. rubric:: `XESraw <../content//XESraw.html>`__
+      .. rubric:: `XESraw <../general_content//XESraw.html>`__
 
       .. rubric:: scanning environment variables
          :name: scanning-environment-variables
@@ -100,4 +100,4 @@ NIAC2006LBL RoadMap
       -  (*working*) SCAN definition similar to TOFRAW definition
       -  (*working*) NXcharacterization needs to be formalized
       -  (*working*) Finalize `archive
-         definition <../content/Archive_Definition.html>`__
+         definition <../general_content/Archive_Definition.html>`__
