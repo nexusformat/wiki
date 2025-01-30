@@ -3,8 +3,7 @@ Muon Time Differential
 ======================
 
 
---- title: Muon Time Differential permalink: Muon_Time_Differential.html
-layout: wiki --- The Instrument Definition for the Muon instruments has
+The Instrument Definition for the Muon instruments has
 evolved from that proposed in 2001 to the more robust definition
 outlined in the linked discussion document (pdfs/Muon_V2R7.pdf). For
 completeness both are discussed in this document; however, the NIAC are

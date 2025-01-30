@@ -2,12 +2,6 @@
 Monochromatic Neutron and X-ray Reflectometry
 =============================================
 
----
-title: Monochromatic Neutron and X-ray Reflectometry
-permalink: Monochromatic_Neutron_and_X-ray_Reflectometry.html
-layout: wiki
----
-
 **Please add comments to the discussion tab of this page and sign them**
 
 This proposed instrument definition adds a new class (NXspin) and also incorporates a few additions to existing base classes.

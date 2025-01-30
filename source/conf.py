@@ -109,7 +109,9 @@ def setup(app):
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-html_favicon = "../common/NeXus_Logo_square.png"
+#html_favicon = "../common/NeXus_Logo_square.svg"
+html_favicon = "../common/NeXus_Logo_dark_square_256.png"
+
     
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'NeXusManualdoc'

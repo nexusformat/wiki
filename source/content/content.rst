@@ -30,7 +30,6 @@ Content
    GenericScan
    Group_Attributes
    How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard
-   index
    IndirectDiscuss
    Indirect_Time-of-Flight_and_Coordinates
    Instruments

@@ -2,11 +2,6 @@
 MonoXPSD
 ========
 
-
---- title: MonoXPSD permalink: MonoXPSD.html layout: wiki ---
-Monochromatic Single Crystal Diffractometer with Position Sensitive
-Detector
-----------------------------------------------------------------------------
 Instrument definition for a single crystal diffractometer at a
 monochromatic neutron or X-ray beam. This is the version for a position
 sensitive detector. Such an instrument can be used in various ways: In
@@ -26,20 +21,42 @@ feel free to add them. If you think something is missing which is
 required for standard data reduction tasks, please contact the
 maintainer of this definition. If you to choose to store PSD scans in
 separate files or separate entries, it is the users responsibility to
-process the data in the right order. NP is again the number of scan
-points
-+
-{Title of the experiment}
-{start time of measurement} {nominal wavelength selected} + {Polar
-Angle, or two theta as an array with values for each scan point} {The
-counts detected in the area detector, np is the number of scan points}
-{distance to sample position} {offsets of each pixels centers x-value to
-the detector center} {offsets of each pixels centers y-value to the
-detector center} monitor \| timer {preset value for monitor or timer}
-{Monitor counts at each scan point} {Descriptive name of sample} {
-Sample rotation, also known as omega } { chi angle } { phi angle }
-{Orientation matrix of single crystal according to conventions
-established by Busing, Levy, 1967 } ? { Miller indices of the target
-reflection} + {Link to detector counts in NXdetector} {Link to polar
-angle data in NXdetector} {Link to pixel_offset_x in NXdetector} {Link
-to pixel_offset_y in NXdetector}
+process the data in the right order. NP is again the number of scan points
+
+.. code-block:: xml
+
+    <Experiment>
+        <Title>{Title of the experiment}</Title>
+        <StartTime>{start time of measurement}</StartTime>
+        <NominalWavelength>{nominal wavelength selected}</NominalWavelength>
+        <PolarAngle>{Polar Angle, or two theta as an array with values for each scan point}</PolarAngle>
+        <DetectorCounts>
+            <Counts>{The counts detected in the area detector, np is the number of scan points}</Counts>
+        </DetectorCounts>
+        <Sample>
+            <DistanceToSample>{distance to sample position}</DistanceToSample>
+            <PixelOffsets>
+                <X>{offsets of each pixel's centers x-value to the detector center}</X>
+                <Y>{offsets of each pixel's centers y-value to the detector center}</Y>
+            </PixelOffsets>
+            <MonitorTimer>
+                <Type>monitor | timer</Type>
+                <Preset>{preset value for monitor or timer}</Preset>
+                <Counts>{Monitor counts at each scan point}</Counts>
+            </MonitorTimer>
+            <DescriptiveName>{Descriptive name of sample}</DescriptiveName>
+            <Rotation>
+                <Omega>{Sample rotation, also known as omega}</Omega>
+                <Chi>{chi angle}</Chi>
+                <Phi>{phi angle}</Phi>
+            </Rotation>
+            <OrientationMatrix>{Orientation matrix of single crystal according to conventions established by Busing, Levy, 1967}</OrientationMatrix>
+            <MillerIndices>{Miller indices of the target reflection}</MillerIndices>
+        </Sample>
+        <Links>
+            <DetectorCounts>{Link to detector counts in NXdetector}</DetectorCounts>
+            <PolarAngleData>{Link to polar angle data in NXdetector}</PolarAngleData>
+            <PixelOffsetX>{Link to pixel_offset_x in NXdetector}</PixelOffsetX>
+            <PixelOffsetY>{Link to pixel_offset_y in NXdetector}</PixelOffsetY>
+        </Links>
+    </Experiment>

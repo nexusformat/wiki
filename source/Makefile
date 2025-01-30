@@ -12,11 +12,14 @@ BUILDDIR      = _build
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-# fetch-logo:
-# 	wget -O _static/RUSS_logo.png https://raw.githubusercontent.com/nexusformat/definitions/main/manual/source/img/NeXus-logo.png
+fetch-logo:
+#	wget -O ../common/NeXus-logo.png https://raw.githubusercontent.com/nexusformat/definitions/main/manual/source/img/NeXus-logo.png
+	wget -O ../common/NeXus_Logo.svg https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo.svg
+	wget -O ../common/NeXus_Logo_dark.svg https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg
+	wget -O ../common/NeXus_Logo_dark_square.svg https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg
+	wget -O ../common/NeXus_Logo_square.svg https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_square.svg
 
-#html: fetch-logo
-html:
+html: fetch-logo
 	# sphinx-build -b html source build/html
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 

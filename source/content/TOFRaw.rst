@@ -68,20 +68,20 @@ TOFRaw
 
          .. container:: highlight
 
-            NXroot
-            NXdata
-            NXdetector
-            NXentry
-            NXgeometry
-            NXinstrument
-            NXlog
-            NXmoderator
-            NXmonitor
-            NXsample
-            NXuser
-            NXevent_data
-            NXsource
-            NXdetector_group (proposed)
+            - NXroot
+            - NXdata
+            - NXdetector
+            - NXentry
+            - NXgeometry
+            - NXinstrument
+            - NXlog
+            - NXmoderator
+            - NXmonitor
+            - NXsample
+            - NXuser
+            - NXevent_data
+            - NXsource
+            - NXdetector_group (proposed)
 
       Some of these classes, such as NXgeometry, are taken directly from
       what was ratified by the `NIAC <../niac/niac.html>`__.

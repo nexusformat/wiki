@@ -3,7 +3,6 @@ IssueReporting
 ==============
 
 
---- title: IssueReporting permalink: IssueReporting.html layout: wiki
 --- NeXus Instrument/Base Class Definitions
 --------------------------------------- - [View current
 issues](https://github.com/nexusformat/definitions/issues) - [Timeline

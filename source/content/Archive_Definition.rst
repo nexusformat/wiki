@@ -2,86 +2,88 @@
 Archive Definition
 ==================
 
+*Title: Archive Definition*
+*Permalink: Archive_Definition.html*
+*Layout: wiki*
 
---- title: Archive Definition permalink: Archive_Definition.html layout:
-wiki --- Introduction ------------ This 'NeXus Archive Definition'
-proposal is similar to an 'Instrument Definition' but it describe the
-required information for neXus files that are meant to be centrally
-archived. It contains important information that will not be found in
-the instrument definition as they are not needed for data analysis. The
-Instrument Definitions should allow the creation of archiving software
-that are common among several instruments and/or facilities. With the
-Archive Definition, the aim is to allow shared data management tools. It
-also emphasize important information that will be useful for search and
-retrieve of the data once stored in the archive. The Instrument
-Definitions and the Archive definition should not interfere with each
-other. To analyze the data of an instrument, you don't need to know the
-owner of the data or the name of the sample. Before archiving and
-indexing the data, we need to define the granularity with which to do
-it. HDF 5 should allow a user to extract only one group from a file
-stored in a SRB system. I doubt that it would be very practical to
-catalogue the data so finely, at least not at a facility level. This
-definition assumes an indexing at the file level. Part of the definition
-are optional parameters for information that are highly recommended but
-not required . It is build with RAW file in mind. other parameters may
-be needed for processed / result or simulation files Multiple NXentry
-issue ---------------------- A NeXus file may contain several NXentry
-that needs to be indexed separately. But it may also occur that not all
-NXentry has to be indexed (e.g. when one entry contains the events data
-and the other the histograms for the same measurement. ) The entry that
-has to be indexed will have the attribute 'index' with the value 'yes'.
-The one which doesn't have to be indexed, will have the value 'no'. If
-some of the NXentry doesn't have to be indexed, they will have the value
-'no'. Those NXentry may be associated to one of the indexed NXentry with
-the attribute 'index\\_group'. If there is only one entry or if it does
-not matter which entry will be indexed (all metadata are the same in all
-entries) then there is no need to put the attribute 'index' or
-'index\\_group'. Parameter Names --------------- When extracting the
-metadata, we will not be limited to the one in this list. Facility,
-Instrument, Sample specific information may be extracted. It would then
-be useful to chose names that are descriptive and have a constant
-meaning between experiments. It is preferable to use temp\\_control and
-temp\\_sample than temp\\_1 and temp\\_2 with the sample temperature
-being sometimes temp\\_1, sometimes temp\\_2. Too much metadata is
-better than too little ------------------------------------------- You
-can't extract information that are not there. DTD definition
+Introduction
+------------
+
+The **NeXus Archive Definition** proposal is similar to an **Instrument Definition** but describes the required information for NeXus files intended for central archival. It includes essential information not found in the instrument definition, as it is not required for data analysis.
+
+The Instrument Definitions should enable the creation of archiving software shared among multiple instruments or facilities. The Archive Definition aims to facilitate shared data management tools and emphasizes information useful for data search and retrieval from the archive. The Instrument Definitions and Archive Definition are complementary and do not interfere with each other.
+
+For data analysis, information such as the data owner's name or the sample's name is not necessary. However, before archiving and indexing data, it is essential to define the granularity for indexing. While HDF5 allows extracting a single group from a file in an SRB system, cataloging data at such a fine level may not be practical at a facility level. This definition assumes indexing occurs at the file level.
+
+Optional parameters are provided for highly recommended but not required information. The definition is primarily designed for **RAW files**, though additional parameters may be necessary for **processed/result** or **simulation files**.
+
+Multiple NXentry Issue
+----------------------
+
+A NeXus file may contain several NXentry groups, each requiring separate indexing. However, not all NXentry groups need to be indexed. For instance, one entry may contain event data while another holds histograms for the same measurement.
+
+- NXentry groups requiring indexing will have the attribute `index="yes"`.
+- NXentry groups not requiring indexing will have `index="no"`.
+- Non-indexed NXentry groups can be associated with an indexed NXentry group using the attribute `index_group`.
+
+If there is only one NXentry group, or if all metadata are identical across entries, the `index` or `index_group` attribute is unnecessary.
+
+Parameter Names
+---------------
+
+When extracting metadata, users are not limited to the parameters listed here. Facility, instrument, or sample-specific information may also be extracted.
+
+Descriptive and consistently meaningful parameter names are preferable. For example, use `temp_control` and `temp_sample` rather than `temp_1` and `temp_2`, which may vary in meaning across experiments.
+
+Too Much Metadata Is Better Than Too Little
+-------------------------------------------
+
+Missing information cannot be extracted later. Providing as much metadata as possible ensures future usability.
+
+DTD Definition
 --------------
-+
-{Extended title for file}
-{unique identifier for the experiment, defined by the facility, possibly
-linked to the proposals (see : proposal_identifier below)} {Brief
-summary of the experiment, including key objectives.} {Description of
-the full experiment (document in pdf, latex, )}? {User or Data
-Acquisition defined group of NeXus files or NXentry}? {Brief summary of
-the collection, including grouping criteria.}? {unique identifier for
-the measurement, defined by the facility.}? {Starting time of
-measurement} {Ending time of measurement} {Duration of measurement
-(end_time - start_time)}? {Time transpired actually collecting data i.e.
-taking out time when collection was suspended due to e.g. temperature
-out of range}? {}? { Revision id of the file due to re-calibration,
-reprocessing, new analysis, new instrument definition format, ... }
-{Name of entry DTD} {Name of entry DTD}? {Name of program used to
-generate this file} + {Name of user responsible for this entry} {role of
-user responsible for this entry, comma separated list} {Suggested roles
-are "local_contact", "principal_investigator", "proposer",
-"experimenter", "funding_agency"} {Facility based unique identifier for
-this person e.g. their identification code on the facility
-address/contact database, should allow owner identification by the
-archive system.} {Name of instrument} {Brief description of the
-instrument}? {Name of source} {"Spallation Neutron Source"\|"Pulsed
-Reactor Neutron Source"\| "Reactor Neutron Source"\|"Synchrotron X-ray
-Source"\| "Pulsed Muon Source"\|"Rotating Anode X-ray"\|"Fixed Tube
-X-ray"} neutron|x-ray|muon|electron {Descriptive name of sample} {Unique
-identifier for the sample in the experiment.} {Description of the
-sample}? { sample \| sample+can \| can \| calibration sample \|
-normalisation sample \| simulated data \| none \| sample environment }
-{The chemical formula specified using CIF conventions.}? {Date of
-preparation of the sample}? { air \| vacuum \| inert atmosphere \|
-oxidising atmosphere \| reducing atmosphere \| sealed can \| other }
-{The atmosphere will be one of the components, which is where its
-details will be stored; the relevant components will be indicated by the
-entry in the sample_component member.}? {Sample temperature. }? {Applied
-electric field}? {Applied magnetic field}? {External stress}? {Applied
-pressure}? {Sample temperature. }? {Sample magnetic_field. }? {Sample
-electric_field. }? {Sample stress_field. }? {Sample pressure. }? { Date
-of the public release of the data. (file_time + X years)}?
+
+- `{Extended title for file}`
+- `{Unique identifier for the experiment, defined by the facility, possibly linked to proposals (see: proposal_identifier below)}`
+- `{Brief summary of the experiment, including key objectives.}`
+- `{Description of the full experiment (document in PDF, LaTeX, etc.)}?`
+- `{User or Data Acquisition-defined group of NeXus files or NXentry}?`
+- `{Brief summary of the collection, including grouping criteria.}?`
+- `{Unique identifier for the measurement, defined by the facility.}?`
+- `{Starting time of measurement}`
+- `{Ending time of measurement}`
+- `{Duration of measurement (end_time - start_time)}?`
+- `{Actual data collection time, excluding suspensions (e.g., temperature out of range)}?`
+- `{Revision ID of the file (e.g., due to re-calibration, reprocessing, new analysis, new instrument definition format)}`
+- `{Name of entry DTD}`
+- `{Name of entry DTD}?`
+- `{Name of program used to generate this file}`
+
+### User Information
+- `{Name of user responsible for this entry}`
+- `{Role of user (comma-separated list, e.g., "local_contact", "principal_investigator", "proposer", "experimenter", "funding_agency")}`
+- `{Facility-based unique identifier for this person (e.g., identification code in the facility's address/contact database)}`
+
+### Instrument Information
+- `{Name of instrument}`
+- `{Brief description of the instrument}?`
+- `{Name of source}`
+- `{Source type: "Spallation Neutron Source" | "Pulsed Reactor Neutron Source" | "Reactor Neutron Source" | "Synchrotron X-ray Source" | "Pulsed Muon Source" | "Rotating Anode X-ray" | "Fixed Tube X-ray"}`
+- `{Radiation type: neutron | x-ray | muon | electron}`
+
+### Sample Information
+- `{Descriptive name of the sample}`
+- `{Unique identifier for the sample in the experiment}`
+- `{Description of the sample}?`
+- `{Sample type: sample | sample+can | can | calibration sample | normalization sample | simulated data | none | sample environment}`
+- `{Chemical formula (using CIF conventions)}?`
+- `{Date of sample preparation}?`
+- `{Atmosphere during experiment: air | vacuum | inert atmosphere | oxidizing atmosphere | reducing atmosphere | sealed can | other}`
+- `{Sample temperature}?`
+- `{Applied electric field}?`
+- `{Applied magnetic field}?`
+- `{External stress}?`
+- `{Applied pressure}?`
+
+### Additional Metadata
+- `{Public release date of the data (e.g., file_time + X years)}?`
