@@ -175,13 +175,13 @@ Meetings
     by DESY, Hamburg, Germany, November 2015 (no minutes)
 -   [NIAC 2014](NIAC2014.html "wikilink") NeXus Code Camp and NIAC Meeting,
     hosted by APS, Chicago, USA, December 2014
-    ([minutes](NIAC2014_Meeting#Minutes.html "wikilink"))
+    ([minutes](NIAC2014_Meeting.html#minutes "wikilink"))
 -   [NIAC 2012](NIAC2012.html "wikilink") NeXus Code Camp and NIAC Meeting,
     hosted by ISIS and Diamond at RAL, Oxfordshire, UK, September 2012
-    ([minutes](NIAC2012#Meeting_Minutes.html "wikilink"))
+    ([minutes](NIAC2012.html#meeting-minutes "wikilink"))
 -   [NIAC 2011](NIAC2011_CodeCamp.html "wikilink") NeXus Code Camp and NIAC
     Meeting, APS, October 2011
-    ([minutes](NIAC2011_CodeCamp#Final_Report.html "wikilink"))
+    ([minutes](NIAC2011_CodeCamp.html#final-report "wikilink"))
 -   [NIAC 2010](NIAC2010.html "wikilink") NeXus Code Camp and NIAC Meeting,
     ORNL, October 2010
     ([minutes](pdfs/Minutes_of_NeXus_Committee_2010.pdf "wikilink"))
