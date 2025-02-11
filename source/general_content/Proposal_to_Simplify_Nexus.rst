@@ -19,16 +19,27 @@ NeXus *raison d'être*
 =====================
 
 - NeXus is an exchange format for all neutron, X-ray, and muon scattering techniques in large facilities.
+
 - This implicitly limits the scope of NeXus to all that is common to these techniques, while excluding instrument/technique peculiarities. Further descriptions (instrument details) are in principle out of scope, but may be specified as extensions to the basic requirements.
+
 - The scientific data set is intrinsically the most important to physicists, compared with the exact instrument definition (which is essentially relevant for instrument debugging and simulation purposes). The official 'base' NeXus format should focus on the former rather than the latter.
+
 - NeXus must be easy to use.
+
   - This means that there is an efficient API (and this is the case, thanks to Mark K.)
+
   - At the same time, NeXus should be flexible enough to potentially evolve from HDF and XML towards other physical storage formats (Open Document, ...)
+
 - NeXus must be appealing for people to voluntarily use it (in programs).
+
   - This means that the format structure must be clear, simple, and easy to understand. This is probably the most important point, otherwise it will push people to develop their own NeXus format, or even use their own non-NeXus format (based on HDF or not).
+
 - The NeXus web server must present usage examples and distribute associated software.
+
 - NeXus must be flexible and expandable.
+
   - This means that there should be a recommended mechanism for extension of the 'base' NeXus into 'proprietary' NeXus. At the same time, a clear statement must be made concerning a limited number of absolute requirements, as well as 'official' recommendations for extensions.
+
 - The scientific data must be immediately visible in the NeXus structure, as well as essential parameters for the data analysis. This means that the NXdata must be directly in the NXentry, and that essential parameters should be there as well (in an NXparameters class, see below). Further information (NXinstrument, ...) is optional.
 
 Format requirements
@@ -37,9 +48,13 @@ Format requirements
 ### Proposal R1: Simplified NeXus hierarchy
 
 The base NeXus format should contain the following hierarchy:
+
 - `NXentry`
+
 - `NXdata`
+
 - `NXsample`
+
 - `NXparameters`
 
 Other classes should be mentioned as optional, even though NXmonitor and NXuser are recommended.
@@ -47,7 +62,9 @@ Other classes should be mentioned as optional, even though NXmonitor and NXuser 
 ### Proposal R2: simplified NXdata
 
 - Rename `long_name` into `label` in variable
+
 - Suppress `first_good` and `last_good`
+
 - Add a `range` attribute to variable so that it can be given as a regularly sampled range.
 
 ### Proposal R3: scanning mechanism (dim <= 3)

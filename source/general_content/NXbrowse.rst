@@ -3,12 +3,16 @@ NXbrowse
 ========
 
 
---- title: NXbrowse permalink: NXbrowse.html layout: wiki --- NXbrowse
+NXbrowse
 is a terminal browser that provides a simple command-line interface to
 view the contents of NeXus files. Datasets within the NeXus file can be
 dumped to an ASCII file. If you have any questions/comments/bug reports
-email [Ray Osborn](mailto:ROsborn@anl.gov). Usage ----- A simple
-terminal browser written in ISO C (replacing the earlier version in
+email [Ray Osborn](mailto:ROsborn@anl.gov).
+
+Usage
+-----
+
+A simple terminal browser written in ISO C (replacing the earlier version in
 Fortran 90). When compiled and linked with the NeXus API, it can be run
 interactively to list the directories of each group within a NeXus file.
 If used from a terminal (and installed in the default PATH
@@ -51,10 +55,10 @@ commands. The following commands may be given in upper or lower case
 | help               | List the available commands.                    |
 +--------------------+-------------------------------------------------+
 
-Installation ------------ NXbrowse is now installed as part of the
-standard NeXus installation. See the [NeXus Downloads
-section](Application_Program_Interface#Downloads.html "wikilink") for
+Installation
+------------
+
+NXbrowse is now installed as part of the
+standard NeXus installation. See the [NeXus Downloads section](Application_Program_Interface#Downloads.html "wikilink") for
 more details. If you encounter any bugs, please report them using the
-[NeXus
-bugzilla](Application_Program_Interface#Reporting_Bugs_in_the_NeXus_API.html
-"wikilink").
+[NeXus bugzilla](Application_Program_Interface#Reporting_Bugs_in_the_NeXus_API.html "wikilink").

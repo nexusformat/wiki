@@ -2,7 +2,6 @@
 Containers and Inheritance
 ==========================
 
---- title: Containers and Inheritance permalink: Containers_and_Inheritance.html layout: wiki ---
 *Currently Under Construction - will be linked to the discussion page when reviewed and completed*
 This page presents how neXus could benefit from an object/container-orientated approach to its user
 defined instrument definitions. By allowing base user definitions for components, datasets from full

@@ -3,18 +3,16 @@ Java API
 ========
 
 
---- title: Java API permalink: Java_API.html layout: wiki --- The NeXus
-for Java API Download and Information Page
----------------------------------------------------- NeXus for Java is
-an API which provides access to NeXus data files to programs written in
+The NeXus for Java API Download and Information Page
+----------------------------------------------------
+NeXus for Java is an API which provides access to NeXus data files to programs written in
 the programming language Java. This API was implemented by Java code
 calling the original C language NeXus API through the Java Native
 Methods Interface. ### Documentation The following documentation is
 browsable online: 1. The [NeXus for Java API](japinotes.html "wikilink")
 general instructions including installation notes, instructions for
 running NeXus for Java programs and a brief introduction to the API. 2.
-The
-[Source](https://github.com/nexusformat/code/tree/master/bindings/java/)
+The [Source](https://github.com/nexusformat/code/tree/master/bindings/java/)
 documentation 3. A verbose tutorial for the NeXus for Java API. 4. The
 API Reference. 5. Finally, the source code for the test driver for the
 API which also serves as a documented usage example. ### Acknowledgement
@@ -30,6 +28,7 @@ WITH NO WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED. In no event
 shall the Author or the Contributors be liable for any damages suffered
 by the users arising out of the use of this software, even if advised of
 the possibility of such damage.
+
 ------------------------------------------------------------------------
 Binary Packages for the Java NeXus API 1.3x These packages are based on
 version 1.3.x of the NeXus-API and support only HDF-4. System type

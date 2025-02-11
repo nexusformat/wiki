@@ -2,8 +2,6 @@
 Detector Geometry
 =================
 
---- title: Detector Geometry permalink: Detector_Geometry.html layout: wiki ---
-
 Issue
 -----
 

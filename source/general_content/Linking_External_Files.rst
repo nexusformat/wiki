@@ -2,17 +2,17 @@
 Linking External Files
 ======================
 
-
---- title: Linking External Files permalink: Linking_External_Files.html
-layout: wiki --- Linking External Files ---------------------- This
-discussion is on how to access external files from within a given NeXus
+This discussion is on how to access external files from within a given NeXus
 files. This defeats one guiding principle of NeXus: to have everything
 in one file, somewhat. However, having everything in one file can mean
 replicating large time-of-flight empty can or vanadium datasets in each
 data file. In such cases it would be nice to access transparently an
 external file holding such data. This page discusses some of the
-implementation issues of such a scheme. ### Storing External File
-Information Somehow the information that an external file has to be
+implementation issues of such a scheme.
+
+**Storing External File Information Somehow**
+
+the information that an external file has to be
 accessed must be stored within the parent NeXus file. Given the feature
 set of NeXus, I suggest storing this information as an attribute of a
 NeXus object. It would be sensible to restrict this attribute to NeXus
@@ -23,8 +23,11 @@ the fashion of the day but also gives a lot of freedom to implement
 various file access strategies and even file formats. As it might be
 necessary to specify alternative locations for a given external file, I
 suggest allowing multiple URLs separated by :: It must be :: because a
-single colon can be part of a valid URL. ### Implementing External File
-Access At The NAPI Level Various issues have to be adressed when
+single colon can be part of a valid URL.
+
+**Implementing External File**
+
+Access At The NAPI Level Various issues have to be addressed when
 implementing external file access. The most important one is how to
 transparently navigate the file hierarchy resulting from external
 linking. In order to handle this, I suggest changing NXhandle. Currently
@@ -39,8 +42,11 @@ has to check if it is leaving a mounted file and if this is the case,
 has to close the file and to pop the expired pNexusFunction structure
 from the stack. If we choose to implement external linking on datasets
 too a similar scheme would have to be implemented for NXopendata and
-NXclosedata. ### Actually Accessing The External File This section is
-about schemes for actually opening an external file as specified by a
+NXclosedata.
+
+**Actually Accessing The External File**
+
+This section is about schemes for actually opening an external file as specified by a
 URL. Accessing an external NeXus file within the same file system is the
 easiest case: just open the path! It becomes moderately more complex
 when accessing NeXus files which are available through the http or ftp
@@ -67,23 +73,48 @@ cause stability and maintainance problems due to the reliance on many
 shared libraries. ### Summary And Open Issues Summing it up,
 implementing external linking is definitely possible and implementable
 within a reasonable amount of time. Group attributes would have to be
-implemented first though. Open questions include: - Do we restrict
-external linking to groups? - Is the suggested path to an implementation
-acceptable? There might be others. - Which level do we implement? -
-Local NeXus files only? - Download, cache, access through a library
-included with the NeXus-API? Which library then? - cURL? - Download and
-cache delegated to external programs? - Dynamically loadable URL
-Handlers? - Dynamically loadable physical file format handlers? - Your
-question here! My two cents worth of opinion: shared libraries always
-annoy me, I like big statically built things, especially as disk space
-is cheap these days. I would implement a local disk access version first
-in order to get the mechanics right, followed by a version implementing
-the download, cache and access NeXus files scheme using cURL. Both
-versions would restrict external linking to groups. Decisions NIAC 2006,
-ILL, February 2006 --------------------------------------- - mount
-becomes napimount - NXinquirefile, which file we are actually - nxdir
-expanded to print and copy dependencies - Files are searched in
-NX\\_LOAD\\_PATH - getenv becomes napigetenv in order to address
-platform problems with getenv - External linking will only implement
-local linking first. - If network linking is implemented, the use of
-libcurl is preferred. - network linking is deferred, may be indefinitly
+implemented first though. Open questions include:
+
+- Do we restrict external linking to groups?
+
+- Is the suggested path to an implementation acceptable? There might be others.
+
+- Which level do we implement?
+
+- Local NeXus files only?
+
+- Download, cache, access through a library included with the NeXus-API? Which library then?
+
+- cURL?
+
+- Download and cache delegated to external programs?
+
+- Dynamically loadable URL Handlers?
+
+- Dynamically loadable physical file format handlers?
+
+- Your question here! My two cents worth of opinion: shared libraries always
+    annoy me, I like big statically built things, especially as disk space
+    is cheap these days. I would implement a local disk access version first
+    in order to get the mechanics right, followed by a version implementing
+    the download, cache and access NeXus files scheme using cURL. Both
+    versions would restrict external linking to groups.
+
+Decisions NIAC 2006, ILL, February 2006
+---------------------------------------
+
+- mount becomes napimount
+
+- NXinquirefile, which file we are actually
+
+- nxdir expanded to print and copy dependencies
+
+- Files are searched in NX\\_LOAD\\_PATH
+
+- getenv becomes napigetenv in order to address platform problems with getenv
+
+- External linking will only implement local linking first.
+
+- If network linking is implemented, the use of libcurl is preferred.
+
+- network linking is deferred, may be indefinitly
