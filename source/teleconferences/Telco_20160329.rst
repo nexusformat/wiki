@@ -1,0 +1,84 @@
+=================
+Telco 20160329
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20160329
+         :name: telco-20160329
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20160329_date
+
+      Tuesday, 29th March, 16:30 Central European Summer Time
+      (Copenhagen)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20160329_agenda
+
+      -  Welcome and agree Agenda
+      -  github issue of the day - suggestions welcome (there is a
+         github label now), otherwise we pick a random one
+      -  Dectris Eiger JSON format - if participation from Dectris
+      -  Metadata collection sites
+         http://www.dcc.ac.uk/resources/metadata-standards
+         http://rd-alliance.github.io/metadata-directory/
+      -  http://nexusformat.org main landing page update
+      -  cnxvalidate testing
+      -  Next meeting
+      -  AOB
+
+      .. rubric:: Minutes
+         :name: Telco_20160329_minutes
+
+      Present: HJB, MK, TSR, EW, PJ, AF, AB
+
+      .. rubric:: GIOTD (Github Issue of the Day)
+         :name: giotd-github-issue-of-the-day
+
+      Triggered progress on
+      https://github.com/nexusformat/code/issues/414 which had been
+      dropped.
+
+      .. rubric:: Dectris JSON
+         :name: Telco_20160329_dectris-json
+
+      Thankfully Andreas joined can could be convinced to present the
+      system next time.
+
+      .. rubric:: Metadata
+         :name: metadata
+
+      Listing there seen as a good idea. Issue now created:
+      https://github.com/nexusformat/definitions/issues/461
+
+      .. rubric:: Landing Page
+         :name: Telco_20160329_landing-page
+
+      Waiting for Ray who is currently busy travelling.
+
+      .. rubric:: cnxvalidate
+         :name: Telco_20160329_cnxvalidate
+
+      No further test reports so far.
+
+      .. rubric:: Next meeting
+         :name: Telco_20160329_next-meeting
+
+      `Telco 20160412 <Telco_20160412.html>`__
+
+      .. rubric:: AOB
+         :name: Telco_20160329_aob
+
+      NIAC and Code Camp to be announced for October in Copenhagen.
+
+      HJB still working on MX/NeXus publication.
+
+      Recent addition of flow charts for data rules in the manual are
+      very well received.

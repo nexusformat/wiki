@@ -1,0 +1,58 @@
+=================
+Telco 20180926
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20180926
+         :name: telco-20180926
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20180926_date
+
+      Wednesday, 26 September, 16:30 CEST (+0200)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20180926_agenda
+
+      -  Welcome and agree Agenda
+      -  NIAC Agenda
+      -  Github issue of the day - suggestions welcome (use telco github
+         label)
+
+         -  `definitions PRs & issues marked as
+            'telco' <https://github.com/nexusformat/definitions/labels/telco>`__
+
+      -  Next meeting
+      -  AOB
+
+      .. rubric:: Minutes
+         :name: Telco_20180926_minutes
+
+      Present: MB, TSR, HJB, PJ, AB
+
+      .. rubric:: NIAC Agenda
+         :name: Telco_20180926_niac-agenda
+
+      https://github.com/nexusformat/definitions/issuesq=is%3Aissue+is%3Aopen+label%3A%22discussion+needed%22
+
+      https://github.com/nexusformat/NIAC/issues
+
+      Steve
+
+      Flattening out
+
+      Invite: Dectris, ANSTO, DESY
+
+      Catering
+
+      .. rubric:: Next Meeting
+         :name: Telco_20180926_next-meeting
+
+      `Telco 20181015 <Telco_20181015.html>`__

@@ -1,0 +1,77 @@
+=================
+Telco 20160628
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20160628
+         :name: telco-20160628
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20160628_date
+
+      Tuesday, 28th June, 16:30 Central European Summer Time
+      (Copenhagen)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20160628_agenda
+
+      -  Welcome and agree Agenda
+      -  github issue of the day - suggestions welcome (there is a
+         github label now)
+
+         -  `PR #478 (NXspecdata as contributed
+            definition) <https://github.com/nexusformat/definitions/pull/478>`__
+
+      -  items for NIAC (or code camp) to prepare
+      -  Next meeting
+      -  AOB
+
+         -  look at `new
+            text <https://manual.nexusformat.org/classes/index.html>`__
+            in the manual
+         -  phrase search the manual: `signal
+            data <https://duckduckgo.com/q=%22signal+data%22+site%3Ahttp%3A%2F%2Fdownload.nexusformat.org%2Fdoc%2Fhtml&t=ffsb&ia=web>`__:
+            https://duckduckgo.com/q=%22signal+data%22+site%3Ahttp%3A%2F%2Fdownload.nexusformat.org%2Fdoc%2Fhtml&t=ffsb&ia=web
+
+      .. rubric:: Minutes
+         :name: Telco_20160628_minutes
+
+      Present: HJB, PJ, AB (first 10 min), TSR
+
+      .. rubric:: NXspecdata
+         :name: nxspecdata
+
+      The idea is that eventually SPEC may write NeXus. Most fields are
+      mappings of what core macros write out. The usage of the files
+      isn   t quite in alignment with NeXus traditions, for example with
+      respect to the relationships between files and NXentries. And
+      there are other open comments, but contributed definitions can be
+      work in progress. Merged
+
+      .. rubric:: NIAC items
+         :name: Telco_20160628_niac-items
+
+      Recorded here: https://github.com/nexusformat/NIAC/issues
+
+      .. rubric:: Next Telco
+         :name: Telco_20160628_next-telco
+
+      `Telco 20160712 <Telco_20160712.html>`__
+
+      .. rubric:: AOB
+         :name: Telco_20160628_aob
+
+      Herbert mentions this web site on HDR MX http://hdrmx.medsbio.org/
+
+      PJ brings the next wording on the base classes to our attention.
+      We all agree, but find actually developing a base class has
+      implications on the technical infrastructure. Ticket in NIAC
+      opened. Also: The search on the manual pages is not as useful as
+      it could be.

@@ -1,0 +1,93 @@
+=================
+Telco 20160106
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20160106
+         :name: telco-20160106
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20160106_date
+
+      Wednesday, 6th January, 16:30 Central European Time (Copenhagen)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20160106_agenda
+
+      -  Welcome and agree Agenda
+      -  teleconference reminders - fate of nexus-tech
+      -  sample container proposal - DLS
+      -  recording scan intent proposal - DLS
+      -  CXI update (Mark B) this time with better microphone and legal
+         advise
+      -  NAPI release and download webpages (including definitions
+         kits), debian packages
+      -  cnxvalidate update
+      -  features update
+      -  Next meeting
+      -  AOB
+
+      .. rubric:: Minutes
+         :name: Telco_20160106_minutes
+
+      Present: RO, HJB, TSR, MK
+
+      .. rubric:: nexus-tech
+         :name: Telco_20160106_nexus-tech
+
+      -  now open for subscriptions
+      -  moderated to only allow notifications about teleconferences
+
+      https://github.com/nexusformat/definitions/issues/429
+
+      .. rubric:: DLS reports and NAPI
+         :name: dls-reports-and-napi
+
+      no update due to lack of relevant people
+
+      .. rubric:: cnxvalidate
+         :name: Telco_20160106_cnxvalidate
+
+      discussion of status and purpose
+
+      alpha software, but ready for tests
+
+      running agains existing example files is outstanding
+
+      .. rubric:: features update
+         :name: features-update
+
+      internal tests for issuing feature ids have started
+
+      more on that hopefully next time
+
+      .. rubric:: upcoming meetings
+         :name: upcoming-meetings
+
+      BNL/NSLSII meeting for Dectris/Eiger data processing, 26-28 May
+      2016
+
+      workshops at either ACA or ECM for general MX data
+
+      .. rubric:: AOB
+         :name: Telco_20160106_aob
+
+      This year marks 20 years of NeXus. We   ll need to celebrate at the
+      NIAC.
+
+      Github issues was discussed for electronic discussions. To
+      initiate a discussion face to face or video appears to be required
+      for the moment. We will however focus on resolving or at least
+      discussing one github issue per telco.
+
+      .. rubric:: Next meeting
+         :name: Telco_20160106_next-meeting
+
+      `Telco 20160120 <Telco_20160120.html>`__

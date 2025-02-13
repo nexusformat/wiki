@@ -1,0 +1,102 @@
+==============
+Telco 20241218
+==============
+
+Date
+----
+
+Wednesday, 18th Dec, 15:00 UTC
+
+Connect
+-------
+
+-  ZOOM VC link:
+   https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09
+-  Meeting ID: 652 7209 1306
+-  Passcode: nexus
+
+Agenda
+------
+
+-  canSAS?
+-  PRs
+   `1410 <https://github.com/nexusformat/definitions/pull/1410>`__
+   `1414 <https://github.com/nexusformat/definitions/pull/1414>`__
+   `1419 <https://github.com/nexusformat/definitions/pull/1419>`__
+   `1413 <https://github.com/nexusformat/definitions/pull/1413>`__
+   `1415 <https://github.com/nexusformat/definitions/pull/1415>`__
+   `1420 <https://github.com/nexusformat/definitions/pull/1420>`__
+   `1424 <https://github.com/nexusformat/definitions/pull/1424>`__
+
+Present
+-------
+
+SB, AB, HB, FS, PC, BW + LukasP, MarkusK (FAIRmat)
+
+Minutes
+-------
+
+-  | feedback on copyright with different dates:
+     `1437 <https://github.com/nexusformat/definitions/issues/1437>`__
+   | Global copyright can be the date for the fiorst release
+   | Individual definitions shall have they initial date spelled out,
+     together with the data of the latest release they have been
+     boundled with.
+
+-  | FS: questions on NXxas documentation is not clear on what is what.
+     e.g. incoming_beam/data
+   | SB: there is a NXxas workgroup, please join this effort on making
+     this AppDef better
+   | AB: also open a corresponding issue, so we can track progress
+
+-  | PRs under vote:
+   | `1408 <https://github.com/nexusformat/definitions/pull/1408>`__
+   | `1486 <https://github.com/nexusformat/definitions/pull/1486>`__
+
+-  | PRs
+   | `1507 <https://github.com/nexusformat/definitions/pull/1507>`__ -
+     ready for merge
+   | AB: accepted, get merged
+   | `1410 <https://github.com/nexusformat/definitions/pull/1410>`__ -
+     for Vote
+   | AB: documentation should be made more clear
+   | BW: do we need such attribute for the group itself?
+   | AB: it requires a vote, let us put it up for it after the suggested
+     changes are implemented.
+   | `1414 <https://github.com/nexusformat/definitions/pull/1414>`__ -
+     only Review needed
+   | AB: After removing the not yet reviewed class, it contains now only
+     proposal which has already been reviewed. As it has been voted and
+     accepted, after fixing the requested changes, it can be merged in.
+   | AB: SB could open a new issue on updating the original and
+     potentially outdated documentation of NXenvironment to be more
+     clear.
+   | `1419 <https://github.com/nexusformat/definitions/pull/1419>`__ -
+     only Review is needed
+   | After 1486, this can be also merged.
+   | `1420 <https://github.com/nexusformat/definitions/pull/1420>`__ -
+     only Review is needed
+   | AB: has already been voted. Restructuring was asked to use
+     inheritance. PR depends on PRs in vote.
+   | LP: we can remove NXcalibration from here and then it can be merged
+     immediate after review.
+   | AB: NXregistration shall also subclass NXprocess. This needs to be
+     addressed first, and then merge is possible.
+   | `1522 <https://github.com/nexusformat/definitions/pull/1522>`__ -
+     further discussion needed
+   | LP: PR needs to be updated
+   | `1519 <https://github.com/nexusformat/definitions/pull/1519>`__ -
+     further discussion needed
+   | AB: We could make NXcomponent a superclass of lots of instrument
+     components. This can be addressed in a separate PR.
+   | HB: NXcomponent properties could be part of NXobject
+   | AB: Alternative: keep NXlens_em separate from NXcomponent if it
+     shall be merged before making a decision on NXcomponent.
+
+Jan Telco(s)
+------------
+
+Please help to `choose the date by responding to the
+poll <https://doodle.com/meeting/participate/id/bq62ky0d>`__ by Dec 31.
+We are planning to hold the telco in the regular slot of UTC 15:00.
+Check your local time to avoid scheduling surprises!

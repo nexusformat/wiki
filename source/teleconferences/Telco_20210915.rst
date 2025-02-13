@@ -1,0 +1,71 @@
+=================
+Telco 20210915
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20210915
+         :name: telco-20210915
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20210915_date
+
+      Wednesday, 15th September, 13:00 UTC
+
+      .. rubric:: Connect
+         :name: Telco_20210915_connect
+
+      -  ZOOM VC link:
+         https://psich.zoom.us/j/69308827429pwd=M2ZEYk5yREdZUWlEeHgwc0gxdXdwUT09
+      -  Meeting ID: 693 0882 7429
+      -  Password: 314539
+      -  Dial in number details: https://psich.zoom.us/u/cbMgHelbOz
+
+      .. rubric:: Agenda
+         :name: Telco_20210915_agenda
+
+      -  Welcome new members
+      -  Review previous meeting minutes and actions: `July
+         Telco <Telco_20210728.html>`__
+      -  Recent issues on Github (especially those labelled with
+         "telco")
+
+         -  `definitions <https://github.com/nexusformat/definitions/issuesq=is%3Aopen+is%3Aissue>`__
+         -  `code <https://github.com/nexusformat/code/issuesq=is%3Aopen+is%3Aissue>`__
+
+      .. rubric:: Present
+         :name: Telco_20210915_present
+
+      BW, AB, PJ, PC, HB, MK, UH, RB, SP
+
+      .. rubric:: Minutes
+         :name: Telco_20210915_minutes
+
+      -  UH presented some further info on photoemission spectroscopy of
+         liquid surfaces (using synchrotron excitation sources on
+         microjet targets). The NXarpes application definition has many
+         required elements, but is not fitting in some ways requiring
+         some extra data dimensions and missing important sample
+         information (liquid jet).
+
+         -  Advice is to write a new application definition and new or
+            amended base classes.
+         -  For the description of light polarisation, the Stokes
+            parameters are recommended and HB will present something on
+            the topic at the next telco.
+
+      -  RC asks if anyone had used `NXdector_module to describe a
+         ROI <https://github.com/nexusformat/definitions/issues/939>`__
+      -  Dectris would like to be able to add an extra `"channel"
+         dimension <https://github.com/nexusformat/definitions/issues/940>`__
+         to the data array that their detectors record. The issue seems
+         to be driven by the feature of automatic thresholding where the
+         gain settings of a pixel self-adjusts based on its rate of
+         charge acquisition and therefore the gain and offset that
+         should be applied depends on which thresholds were exceeded.
+         More discussion is probably needed as the proposal indtroduces
+         new complexity to some fundamental parts of NeXus.
+      -  "axes" as a dataset attribute should be marked as "deprecated"
