@@ -110,7 +110,7 @@ def setup(app):
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
 #html_favicon = "../common/NeXus_Logo_square.svg"
-html_favicon = "../common/NeXus_Logo_dark_square_256.png"
+html_favicon = "../common/NeXus_Logo_dark_square.svg"
 
     
 # Output file base name for HTML help builder.

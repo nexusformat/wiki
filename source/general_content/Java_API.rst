@@ -29,7 +29,6 @@ shall the Author or the Contributors be liable for any damages suffered
 by the users arising out of the use of this software, even if advised of
 the possibility of such damage.
 
-------------------------------------------------------------------------
 Binary Packages for the Java NeXus API 1.3x These packages are based on
 version 1.3.x of the NeXus-API and support only HDF-4. System type
 Creation Date DigitalUnix4.0D October, 19, 2000 Redhat Linux 6.2 Intel
