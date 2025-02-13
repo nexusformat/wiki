@@ -15,5 +15,6 @@ in that case each reflection should have its own entry in the file.
 There are actually two DTD's which differ only in the NXdetector group:
 
 - `[Four Circle with Single Detector] <MonoXSingle.html>`__
+
 - `[Four Circle with Position Sensitive Detector] <MonoXPSD.html>`__
 

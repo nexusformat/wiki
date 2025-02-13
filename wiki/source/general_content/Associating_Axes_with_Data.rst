@@ -2,12 +2,6 @@
 Associating Axes with Data
 ==========================
 
----
-title: Associating Axes with Data
-permalink: Associating_Axes_with_Data.html
-layout: wiki
----
-
 Associating Axes with Data
 --------------------------
 

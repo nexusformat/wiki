@@ -15,6 +15,7 @@ Public License.
 
 External Libraries
 ==================
+
 Since NeXus uses HDF as the main underlying binary format, it is necessary
 first to install the HDF subroutine libraries and include files before
 installing the NeXus API. It is not usually necessary to download the

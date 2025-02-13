@@ -1,12 +1,6 @@
 ConcordanceDiscussion
 =====================
 
----
-title: ConcordanceDiscussion
-permalink: ConcordanceDiscussion.html
-layout: wiki
----
-
 Concordance Summary
 ===================
 Last update: July, 10, 2013, Mark Koennecke

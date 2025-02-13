@@ -1,6 +1,6 @@
 /.idea
-wiki/source/dev_tools/ext/__pycache__/
-wiki/source/dev_tools/__pycache__/
+dev_tools/ext/__pycache__/
+dev_tools/__pycache__/
 *.pyc
 source/_build/
 wiki/source/_static/

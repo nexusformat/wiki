@@ -18,7 +18,7 @@ suppress_warnings = ['misc']
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 # add the abs path to the custom extension for collecting the contributor variables from the rst files
-sys.path.insert(0, os.path.abspath('dev_tools/ext'))
+sys.path.insert(0, os.path.abspath('../../dev_tools/ext'))
 # -- Project information -----------------------------------------------------
 
 project = 'nexusformat_wiki'      
@@ -109,7 +109,7 @@ def setup(app):
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-html_favicon = "./common/NeXus_Logo_dark_square.svg"
+html_favicon = "../../common/NeXus_Logo_dark_square.svg"
 
     
 # Output file base name for HTML help builder.

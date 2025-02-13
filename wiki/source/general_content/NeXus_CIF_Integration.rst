@@ -2,7 +2,9 @@
 NeXus CIF Integration
 =====================
 
-NeXus CIF Integration =====================
+NeXus CIF Integration
+=====================
+
 At August 22, 2013, some members of the NIAC will meet with representatives of the CIF community and the IUCR in order to discuss a possible merger or collaboration between NeXus and CIF. This wiki page is meant as a forum to discuss the NIAC's position towards this integration. The initial reaction was quite positive.
 
 Some Issues and Differences

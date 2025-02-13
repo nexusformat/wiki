@@ -5,8 +5,7 @@ Metaformat
 Metaformat
 ----------
 
-*Work is currently in progress to replace Meta-DTDs with*
-[XML schema](Schema.html "wikilink").
+*Work is currently in progress to replace Meta-DTDs with* [XML schema](Schema.html "wikilink").
 
 The contents of NeXus files are defined using XML. The hierarchical structure of NeXus files maps very conveniently into XML files with NeXus groups and items as the XML entities, and data attributes as XML attributes. NeXus utilities are being developed to help people determine whether their files are standard-conforming. However, formal XML format definitions (DTDs) are difficult for the non-expert to read, so we have produced a much simpler meta-DTD format, which produces well-formed (DTD-less) XML files that will be converted into DTD files.
 

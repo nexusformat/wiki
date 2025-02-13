@@ -2,10 +2,6 @@
 Archive Definition
 ==================
 
-*Title: Archive Definition*
-*Permalink: Archive_Definition.html*
-*Layout: wiki*
-
 Introduction
 ------------
 

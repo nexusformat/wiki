@@ -2,12 +2,6 @@
 2014 axes and uncertainties
 ===========================
 
----
-title: 2014 axes and uncertainties
-permalink: 2014_axes_and_uncertainties.html
-layout: wiki
----
-
 (written for NIAC2014_Meeting)
 
 In developing the canSAS standard for storing multidimensional reduced small-angle scattering data, a new method for

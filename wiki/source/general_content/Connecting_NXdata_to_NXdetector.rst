@@ -1,12 +1,6 @@
 Connecting NXdata to NXdetector
 ===============================
 
----
-title: Connecting NXdata to NXdetector
-permalink: Connecting_NXdata_to_NXdetector.html
-layout: wiki
----
-
 This is an attempt to summarize the various proposals that have been discussed on this page. Proposal 1 is, I believe
 (`Ray Osborn <User:Ray_Osborn.html>`_), the original proposal when NeXus was first designed (although we didn't link the
 data item itself as Freddie has sensibly suggested). If anyone thinks that the remaining proposals have been incorrectly
