@@ -31,7 +31,8 @@ def main(argv=None):
     impatient_app.impatient_args(impatient_parser)
     dir_app.dir_args(impatient_parser)
 
-    nxtest_parser = subparsers.add_parser("nxtest", help="Test definition files")
+    nxtest_parser = subparsers.add_parser("nxtest",
+                                          help="Test definition files")
     test_app.nxtest_args(nxtest_parser)
     dir_app.dir_args(nxtest_parser)
 
