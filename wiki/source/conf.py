@@ -19,7 +19,6 @@ suppress_warnings = ["misc"]
 #
 # add the abs path to the custom extension for collecting the contributor
 # variables from the rst files
-sys.path.insert(0, os.path.abspath("../../dev_tools/ext"))
 # -- Project information -----------------------------------------------------
 
 project = "nexusformat_wiki"
@@ -43,7 +42,6 @@ extensions = [
     "sphinx.ext.githubpages",
     "sphinx.ext.todo",
     "sphinx_tabs.tabs",
-    "contrib_ext",
 ]
 
 # Show `.. todo` directives in the output

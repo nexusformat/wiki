@@ -65,11 +65,7 @@ jobs:
         run: |
           make style
 
-      - name: Run Tests
-        run: |
-          make test
-
-      - name: Install LaTeX
+#     - name: Install LaTeX
         run: |
           sudo apt-get update -y && \
           sudo apt-get install -y \

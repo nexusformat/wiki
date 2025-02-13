@@ -44,9 +44,6 @@ autoformat ::
 	$(PYTHON) -m black dev_tools
 	$(PYTHON) -m isort dev_tools
 
-test ::
-	$(PYTHON) -m pytest dev_tools
-
 clean ::
 	$(RM) -rf ./wiki/source/$(BUILD_DIR)
 
