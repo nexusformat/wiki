@@ -82,7 +82,7 @@ test ::
 	$(PYTHON) -m pytest dev_tools
 
 clean ::
-	$(RM) -rf $(BUILD_DIR)
+	$(RM) -rf ./wiki/source/$(BUILD_DIR)
 
 prepare ::
 	$(PYTHON) -m dev_tools wiki --prepare --build-root $(BUILD_DIR)
@@ -92,7 +92,7 @@ prepare ::
 # 	cp $(BUILD_DIR)/manual/build/latex/nexus.pdf $(BUILD_DIR)/wiki/source/_static/NeXusManual.pdf
 
 html: fetch-logo
-	$(SPHINX) -b html -W . $(BUILD_DIR)/html
+	$(SPHINX) -b html -W ./wiki/source/ ./wiki/source/$(BUILD_DIR)/html
 
 # for developer's use on local build host
 local ::
@@ -101,10 +101,10 @@ local ::
 	$(MAKE) html
 
 fetch-logo:
-	wget -O ./common/NeXus_Logo.svg https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo.svg
-	wget -O ./common/NeXus_Logo_dark.svg https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg
-	wget -O ./common/NeXus_Logo_dark_square.svg https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg
-	wget -O ./common/NeXus_Logo_square.svg https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_square.svg
+	wget -O ./wiki/source/common/NeXus_Logo.svg https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo.svg
+	wget -O ./wiki/source/common/NeXus_Logo_dark.svg https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg
+	wget -O ./wiki/source/common/NeXus_Logo_dark_square.svg https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg
+	wget -O ./wiki/source/common/NeXus_Logo_square.svg https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_square.svg
 
 all ::
 	$(MAKE) clean
