@@ -70,7 +70,7 @@ such a sense. The following sections provide some possible definitions
 of these primitives along with the layout of their parameters stored in
 the *size* attribute of *NXshape*.
 
-.. image:: ../extra_files/nxflat_image.png
+.. image:: ../extra_files/Nxflat_image.png
    :alt: Shape and coordinate frame for an *nxflat*
 
 .. image:: ../extra_files/Nxcylinder.png
@@ -109,13 +109,13 @@ nxbox
 
 ``NXshape::size[3]={length,width,height}``
 
-.. image:: ../extra_files/nxsphere_image.png
+.. image:: ../extra_files/Nxsphere_image.png
    :alt: Shape and coordinate frame for an *nxsphere*
 
-.. image:: ../extra_files/nxcone.png
+.. image:: ../extra_files/Nxcone.png
    :alt: Shape and coordinate frame for an *nxsphere*
 
-.. image:: ../extra_files/nxeliptical_image.png
+.. image:: ../extra_files/Nxeliptical_image.png
    :alt: Shape and coordinate frame for an *nxelliptical*
 
 nxsphere
@@ -139,13 +139,13 @@ nxelliptical
 I have no idea what the other two parameters *pole* and *angle of major
 axis* are good for. Maybe we can drop them.
 
-.. image:: ../extra_files/nxtoroidal.png
+.. image:: ../extra_files/Nxtoroidal.png
    :alt: Shape and coordinate frame for an *nxtoroidal*
 
-.. image:: ../extra_files/nxparabolic.png
+.. image:: ../extra_files/Nxparabolic.png
    :alt: Shape and coordinate frame for an *nxparabolic*
 
-.. image:: ../extra_files/nxpolynomial.png
+.. image:: ../extra_files/Nxpolynomial.png
    :alt: Shape and coordinate frame for an *nxpolynomial*
 
 nxtoroidal

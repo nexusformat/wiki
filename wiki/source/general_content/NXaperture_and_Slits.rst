@@ -22,7 +22,7 @@ Introducing new classes
 Pinholes - *NXpinhole*
 ======================
 
-.. figure:: ../extra_files/pinhole_2.png
+.. figure:: ../extra_files/Pinhole_2.png
    :align: center
    :width: 300px
    :alt: A pinhole in the beam.
@@ -40,7 +40,7 @@ The first parameter, *diameter*, describes the diameter of the pinhole, while *d
 Slits - *NXslit*
 ================
 
-.. figure:: ../extra_files/slit.png
+.. figure:: ../extra_files/Slit.png
    :align: center
    :width: 300px
    :alt: A four-blade slit system.
