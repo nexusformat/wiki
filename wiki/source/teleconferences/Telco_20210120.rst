@@ -1,0 +1,109 @@
+=================
+Telco 20210120
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20210120
+         :name: telco-20210120
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20210120_date
+
+      Wednesday, 20th January, 14:00 UTC
+
+      .. rubric:: Connect
+         :name: Telco_20210120_connect
+
+      -  ZOOM VC link:
+         https://ukri.zoom.us/j/94744239709pwd=WE9qakVzQkZzV29KTjV4WmV0SEhwQT09
+      -  Meeting ID: 947 4423 9709
+      -  Password: 540966
+      -  Dial in number details: https://ukri.zoom.us/u/abmDsHyAE5
+      -  Test connection: https://ukri.zoom.us/test
+
+      .. rubric:: Agenda
+         :name: Telco_20210120_agenda
+
+      -  Welcome new members
+      -  Review previous meeting minutes and actions: `December
+         Telco <Telco_20201208.html>`__
+      -  Discuss `upcoming code
+         camp <https://lists.nexusformat.org/pipermail/nexus-committee/2020/001044.html>`__
+         format and `date <https://doodle.com/poll/b2f8qbpu6sedeccm>`__
+      -  Issues on Github labelled with "telco"
+
+         -  `definitions <https://github.com/nexusformat/definitions/issuesq=is%3Aopen+is%3Aissue+label%3Atelco>`__
+         -  `code <https://github.com/nexusformat/code/issuesq=is%3Aopen+is%3Aissue+label%3Atelco>`__
+
+      .. rubric:: Present
+         :name: Telco_20210120_present
+
+      BC, FA, HB, MK, RB, HG, BW, PJ, SB, PC, RO, SC, MO, WG
+
+      .. rubric:: Minutes
+         :name: Telco_20210120_minutes
+
+      The committee welcomed BC, who gave a brief overview of NeXus
+      usage at LANL. Their current system is linux based and using an
+      old version of NAPI to write HDF4. There are plans to update this
+      at a future time.
+
+      PJ had been working with HG on the generation of html anchors and
+      references to link to an ontology, see `persistent identifiers
+      (PIDs) <https://github.com/nexusformat/NIAC/issues/73>`__. They
+      have also been talking to the `ExPaNDS
+      project <https://expands.eu/>`__ about how this might be used. PJ
+      demonstrated how a table of anchors was now generated and
+      displayed at the end of each class, there is not currently a table
+      showing all of these in one place, but it could be added. HG
+      suggested that references could be used in packages such as iCAT.
+      HB would love to see a keyword and context document, mapping CIF
+      to NeXus terms, that made use of these links. HG commented that
+      terms would need an associated PID to maintain a unique context
+      and not fix usage to any particular class link. It was agreed that
+      the current work was complete enough to be merged, but PIDs would
+      be looked at next - maybe some could be created, registered, and
+      linked to anchors. Using
+      `ePICs <https://www.pidconsortium.net/>`__ was suggested, see also
+      `here <http://dtr-test.pidconsortium.eu/#urls/intro.html>`__. RO
+      suggested that this may be something that could be linked with the
+      `Research Data
+      Alliance <https://en.wikipedia.org/wiki/Research_Data_Alliance>`__.
+
+      The upcoming code camp was discussed next. Best dates from the
+      `Doodle poll <https://doodle.com/poll/b2f8qbpu6sedeccm>`__ look to
+      be 22 March or sometime April, we will discuss next meeting after
+      dates for a few other potentialy clashing events will be known
+      then. Last time this event was held a rolling set of VCs was
+      arranged. FA suggested that we may be able to use Guest accounts
+      on the STFC Microsoft Teams instance, he is investigating this for
+      another meeting and will report back. The problem with just ZOOM
+      is that chats are not persistent. Other options could be:
+
+      -  Use Github discussions on nexusformat for persistent chats,
+         google docs for a progress spreadsheet, plus zoom (or other vc)
+         with breakout rooms for meeting wwhen required
+      -  Use `zoom
+         channels <https://support.zoom.us/hc/en-us/articles/200912909-Creating-and-using-channels>`__
+         for chat as these are persistent, plus ZOOM for meetings.
+      -  If we felt ambitious, set up a `Discourse
+         instance <https://www.discourse.org/about>`__
+
+      It was agreed that PJ should now proceed with the change from
+      ``master`` to ``main`` as the default git branch on our
+      repositories
+
+      .. rubric:: Actions
+         :name: Telco_20210120_actions
+
+      FA to report back on using MS Teams for code camp
+
+      .. rubric:: Next Meeting
+         :name: Telco_20210120_next-meeting
+
+      End of February - `Doodle
+      poll <https://doodle.com/poll/snhd4zdrrmvh8vgy>`__

@@ -1,0 +1,36 @@
+==============
+Telco 20250213
+==============
+
+Date
+----
+
+Thursday, 13th Feb, 15:00 UTC
+
+
+Connect
+-------
+* ZOOM VC link: [https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09] <https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09)
+* Meeting ID: 652 7209 1306
+* Passcode: nexus
+
+Agenda
+------
+* canSAS?
+* PRs
+
+- `1424 <https://github.com/nexusformat/definitions/pull/1424>`__
+
+- `1423 <https://github.com/nexusformat/definitions/pull/1423>`__
+
+- `1422 <https://github.com/nexusformat/definitions/pull/1422>`__
+
+- `1425 <https://github.com/nexusformat/definitions/pull/1425>`__
+
+Present
+-------
+
+SB, AB,  + LukasP, MarkusK (FAIRmat)
+
+Minutes
+-------

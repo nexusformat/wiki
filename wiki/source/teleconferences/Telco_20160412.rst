@@ -1,0 +1,94 @@
+=================
+Telco 20160412
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20160412
+         :name: telco-20160412
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20160412_date
+
+      Tuesday, 12th April, 16:30 Central European Summer Time
+      (Copenhagen)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20160412_agenda
+
+      -  Welcome and agree Agenda
+      -  github issue of the day - suggestions welcome (there is a
+         github label now), otherwise we pick a random one
+
+         -  Eugen: I suggest we continue #414 in the NAPI repository -
+            need to decide how to deal with internal functions
+
+      -  reminder to update `Latest News <../general_content/Latest_News.html>`__
+      -  Dectris Eiger JSON format - Andreas to present
+      -  http://nexusformat.org main landing page update
+      -  Next meeting
+      -  AOB
+
+      .. rubric:: Minutes
+         :name: Telco_20160412_minutes
+
+      Present: AB, EW, FA, HJB, MK, TSR, RO
+
+      .. rubric:: Welcome
+         :name: Telco_20160412_welcome
+
+      Hi.
+
+      .. rubric:: Github Issue
+         :name: Telco_20160412_github-issue
+
+      All agree those removed functions are not only for internal use
+      and must be available to external code. Eugen will take care of
+      that.
+
+      .. rubric:: Lastest News
+         :name: lastest-news
+
+      The page is a little under used and not even linked from the home
+      page. If use does not pick up, we may drop it.
+
+      .. rubric:: Dectris JSON
+         :name: Telco_20160412_dectris-json
+
+      No show from Andreas this time. We hope for the next meeting.
+
+      .. rubric:: Landing Page
+         :name: Telco_20160412_landing-page
+
+      No update. Ray will restart efforts.
+
+      .. rubric:: Next Meeting
+         :name: Telco_20160412_next-meeting
+
+      Will be `Telco 20160426 <Telco_20160426.html>`__
+
+      .. rubric:: AOB
+         :name: Telco_20160412_aob
+
+      .. rubric:: Remote Links
+         :name: remote-links
+
+      Ray says there is interest in linking remote NeXus files to read
+      trees and not all of the data. It   s not as simple as having a URL
+      scheme for links (which we do), there also needs to be an API. He
+      has that with remote python. HDF Group have something similar with
+      a RESTful interface
+      https://hdfgroup.org/wp/2015/04/hdf5-for-the-web-hdf-server/ That
+      may be a better bandwaogn to jump on.
+
+      .. rubric:: HDFGroup
+         :name: hdfgroup
+
+      They have lost of key members of staff. There is some concern
+      about the future.

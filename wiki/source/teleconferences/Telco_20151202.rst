@@ -1,0 +1,90 @@
+=================
+Telco 20151202
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20151202
+         :name: telco-20151202
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20151202_date
+
+      Wednesday, 2nd December, 17:00 Central European Time (Copenhagen)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20151202_agenda
+
+      -  Welcome and agree Agenda
+      -  HDF exploratory work at SLAC
+      -  canSAS axes arrays vs. string parsing
+      -  sample container proposal - DLS
+      -  recording scan intent proposal - DLS
+      -  CXI update (Mark B) this time with better microphone and legal
+         advise
+      -  Update from NAPI code and GitHub:
+
+         -  Python code has been moved to its own repository
+         -  Next NAPI release 4.4.1 scheduled for Friday 11, 2015
+         -  HDF5 external filter plugin repository is online on
+            nexusformat
+
+      -  Next meeting
+      -  AOB
+
+      .. rubric:: Minutes
+         :name: Telco_20151202_minutes
+
+      Present: FAA, HJB, EW, AB, TSR
+
+      -  HDF exploratory work at SLAC
+
+      Aaron mentioned some strong interest in file formats at SLAC
+      recently and that he can dedicate some time for proof of concept
+      work in relation to the CIF-NeXus concordance. Herbert agreed to
+      work with him. If other help is needed Aaron will let us know.
+
+      -  canSAS axes arrays vs. string parsing
+
+      It was agreed that there was no need to allow CVS axes in the
+      newly defined axes attribute to groups. One of the design goals
+      was to remove that source of trouble and not introduce more
+      legacy. We   ll revert the change to the features repository and
+      review the documentation to make that clear.
+
+      -  sample container proposal - DLS
+      -  recording scan intent proposal - DLS
+      -  CXI update (Mark B) this time with better microphone and legal
+         advise
+
+      No representation from DLS. No report.
+
+      -  Update from NAPI code and GitHub:
+
+         -  Python code has been moved to its own repository
+         -  Next NAPI release 4.4.1 scheduled for Friday 11, December
+            2015
+         -  HDF5 external filter plugin repository is online on
+            nexusformat
+
+      All happily acknowledged. There was a discussion on the various
+      download pages. Github may be a place where we can offer binary
+      packages in the future. EW will investigate. The goal should be
+      that you cannot download an old version from a page under our
+      influence without being informed that there is a new release out.
+      So far only the mailing list knows and if you happen to find the
+      tarball on gitub.
+
+      -  Next meeting
+
+      Is `Telco 20151215 <Telco_20151215.html>`__
+
+      -  AOB
+
+      None

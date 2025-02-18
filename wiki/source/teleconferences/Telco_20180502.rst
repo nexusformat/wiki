@@ -1,0 +1,77 @@
+=================
+Telco 20180502
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20180502
+         :name: telco-20180502
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20180502_date
+
+      Wednesday, 2 May, 16:30 CEST (+0200)
+
+      Hangout Link:
+      https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua
+
+      .. rubric:: Agenda
+         :name: Telco_20180502_agenda
+
+      -  Welcome and agree Agenda
+      -  NeXus for STEM
+      -  Review of tickets for the upcoming NXDL
+         `milestone <https://github.com/nexusformat/definitions/milestones>`__
+      -  Preparations for NIAC this year
+      -  Next meeting
+      -  AOB
+
+      .. rubric:: Minutes
+         :name: Telco_20180502_minutes
+
+      Present: HJB, MK, TSR, AB
+
+      .. rubric:: STEM
+         :name: Telco_20180502_stem
+
+      People in J'lich have created a script that generates an example
+      file. This has been posted to the NeXus mailing list with a doodle
+      poll to discuss things further. All are invited to participate in
+      the poll and the following Hangout call.
+
+      .. rubric:: NXDL Milestone
+         :name: nxdl-milestone
+
+      We should aim to release soon, even if a good number of tickets
+      are still outstanding. At this point we only consider tickets that
+      have code committed against them or that are required for the
+      release procedure are. TSR to move all tickets to a new milestone.
+      PJ can decide if there are show stoppers for the release process
+      that need to be included.
+
+      Removed the NXdata suggestion from the milestone and dropped the
+      Telco tag.
+
+      .. rubric:: NIAC at NOBUGS
+         :name: Telco_20180502_niac-at-nobugs
+
+      Unfortunately no one joined from BNL and the dates are not yet
+      set. NOBUGS planning for themes is in progress, though. For the
+      moment we wait until dates for the main conference and satellite
+      meetings are set and decide then.
+
+      Brief discussion on whether we should hold a training session like
+      we used to until (including) NOBUGS 2012. A lot of emphasis was on
+      writing application definitions from scratch and using NAPI.
+      Neither are good topics for beginners today.
+
+      We will submit a presentation to the main programme of NOBUGS to
+      keep advertising us and HDF5, obviously.
+
+      .. rubric:: Next Meeting
+         :name: Telco_20180502_next-meeting
+
+      `Telco 20180515 <Telco_20180515.html>`__

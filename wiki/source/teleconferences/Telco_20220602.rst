@@ -1,0 +1,85 @@
+=================
+Telco 20220602
+=================
+
+.. container:: content
+
+   .. container:: page
+
+      .. rubric:: Telco 20220602
+         :name: telco-20220602
+         :class: page-title
+
+      .. rubric:: Date
+         :name: Telco_20220602_date
+
+      Thursday, 2nd June, 14:00 UTC
+
+      .. rubric:: Connect
+         :name: Telco_20220602_connect
+
+      -  ZOOM VC link:
+         https://psich.zoom.us/j/68256289400pwd=WUJ3TmRObVA1S2k2NFdBbDE1Y3BYdz09
+      -  Meeting ID: 682 5628 9400
+      -  Passcode: nexus
+
+      .. rubric:: Agenda
+         :name: Telco_20220602_agenda
+
+      -  Welcome guests and new members
+      -  Review previous meeting minutes and actions: `April
+         Telco <Telco_20220426.html>`__
+      -  Discuss format of `Code
+         Camp <../codecamps/CodeCamp2022.html>`__
+      -  Recent issues on Github (especially those labelled with
+         "telco")
+
+         -  `definitions <https://github.com/nexusformat/definitions/issuesq=is%3Aopen+is%3Aissue>`__
+         -  `code <https://github.com/nexusformat/code/issuesq=is%3Aopen+is%3Aissue>`__
+
+      .. rubric:: Present
+         :name: Telco_20220602_present
+
+      BW, HB, AB, TM, CZ, PJ
+
+      .. rubric:: Minutes
+         :name: Telco_20220602_minutes
+
+      -  BW apologises for last week and in future will turn off the
+         setting that requires attendees be admitted by the host in
+         order to avoid repeting the issue.
+      -  BW points again to
+         https://bmaranville.github.io/cnxvalidate-web/
+      -  BW asks about CC format, especially how often tele-meetings
+         should be scheduled. PJ likes the 2 hour blocks we used
+         previously.
+      -  BW calls vote to make telcos an hour later: All agree.
+      -  Web page is running again after having some configuration
+         issues that were discovered yesterday.
+      -  HB has philosophical issue. MX field has changed considerably
+         recently and models are often available before MX experiments.
+
+         -  BW doesn"t see why that should be an issue. The concern that
+            some people have is being able to archive data and so it is
+            only adding things to files at later times that is the
+            issue, not adding info that is present from the beginning.
+         -  AB asks if this would be an update to NXmx - HB says yes.
+         -  BW says that nano-magnetism experiments are also often
+            simulated before the experiment is run.
+
+      -  PJ fed our "writer" example from the manual into the web
+         cnxvalidate and it came up with two errors:
+
+         -  does not have a valid app def
+         -  HDF version attribute is required but not present
+
+      -  Why are these errors and not warnings Unanimous agreement that
+         this a bug in cnxvalidate. This could be examined in the code
+         camp.
+      -  BW points out that the HDF version doesn"t make sense in XML
+         files.
+      -  HB says that the HDF version is definitely useful since it
+         cannot always be queried from the file. H5check is the utility
+         that would give the best indication of the HDF version.
+      -  BW will make a poll for the next telco with dates in the first
+         half of July.
