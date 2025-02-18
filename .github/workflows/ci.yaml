@@ -47,13 +47,13 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
-      - name: Deploy Information
-        if: ${{ github.event.inputs.deploy && env.python_version == env.python_deploy_version }}
-        run: |
-          echo "The HTML NeXus Wiki will be pushed to"
-          echo " https://github.com/nexusformat/wiki/tree/gh-pages"
-          echo "The HTML NeXus Wiki will be deployed on"
-          echo " https://nexusformat.github.io/wiki/"
+#      - name: Deploy Information
+#        if: ${{ github.event.inputs.deploy && env.python_version == env.python_deploy_version }}
+#        run: |
+#          echo "The HTML NeXus Wiki will be pushed to"
+#          echo " https://github.com/nexusformat/wiki/tree/gh-pages"
+#          echo "The HTML NeXus Wiki will be deployed on"
+#          echo " https://nexusformat.github.io/wiki/"
 
       - name: Install Requirements
         run: |
@@ -61,33 +61,29 @@ jobs:
           make install
           python3 -m pip list
 
-      - name: Check Code Style
-        run: |
-          make style
+#      - name: Install LaTeX
+#        run: |
+#          sudo apt-get update -y && \
+#          sudo apt-get install -y \
+#            latexmk \
+#            texlive-latex-recommended \
+#            texlive-latex-extra \
+#            texlive-fonts-recommended
+#          tex --version
 
-      - name: Install LaTeX
-        run: |
-          sudo apt-get update -y && \
-          sudo apt-get install -y \
-            latexmk \
-            texlive-latex-recommended \
-            texlive-latex-extra \
-            texlive-fonts-recommended
-          tex --version
-
-      - name: Generate build files
-        env:
-          GH_TOKEN: ${{ (env.python_version == env.python_deploy_version && (github.event.inputs.deploy || github.event.inputs.upload)) || 'NONE' }}
-        run: |
-          make prepare
-
+#      - name: Build Wiki
+#        run: |
+#          make pdf
+#          make html
+#          ls -lAFgh build/manual/build/html/index.html
+#          mkdir -p build/html
+#          mv build/manual/build/html/* build/html
       - name: Build Wiki
         run: |
-          make pdf
           make html
-          ls -lAFgh build/manual/build/html/index.html
+          ls -lAFgh wiki/source/build/html/index.html
           mkdir -p build/html
-          mv build/manual/build/html/* build/html
+          mv wiki/source/build/html/* build/html
 
 #      - name: Deploy Wiki
 #        if: ${{ github.event.inputs.deploy && env.python_version == env.python_deploy_version }}

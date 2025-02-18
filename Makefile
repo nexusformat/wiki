@@ -1,7 +1,7 @@
 # File: Makefile
 
 # purpose:
-#	build resources in NeXus definitions tree
+#	build resources in NeXus Wiki
 
 PYTHON = python3
 SPHINX = sphinx-build
@@ -15,13 +15,10 @@ help ::
 	@echo ""
 
 	@echo "make install            Install all requirements to run tests and builds."
-	@echo "make style              Check python coding style."
-	@echo "make autoformat         Format all files to the coding style conventions."
-	@echo "make test               Run documentation tests."
 	@echo "make clean              Remove all build files."
-	@echo "make prepare            (Re)create all build files."
+#	@echo "make prepare            (Re)create all build files."
 	@echo "make html               Build HTML version of manual. Requires prepare first."
-	@echo "make pdf                Build PDF version of manual. Requires prepare first."
+#	@echo "make pdf                Build PDF version of manual. Requires prepare first."
 	@echo "make fetch-logo         Copy the official logo files from the manual repository."
 	@echo "make all                Builds complete web site for the wiki (in build directory)."
 	@echo "make local              (Developer use) Test, prepare and build the HTML wiki."
@@ -35,32 +32,22 @@ help ::
 install ::
 	$(PYTHON) -m pip install -r requirements.txt
 
-style ::
-	$(PYTHON) -m black --check dev_tools
-	$(PYTHON) -m flake8 dev_tools
-	$(PYTHON) -m isort --check dev_tools
-
-autoformat ::
-	$(PYTHON) -m black dev_tools
-	$(PYTHON) -m isort dev_tools
-
 clean ::
 	$(RM) -rf ./wiki/source/$(BUILD_DIR)
 
-prepare ::
-	$(PYTHON) -m dev_tools wiki --prepare --build-root $(BUILD_DIR)
+#prepare ::
+#	$(PYTHON) -m wiki --prepare --build-root $(BUILD_DIR)
 
-# pdf ::
-# 	$(SPHINX) -M latexpdf $(BUILD_DIR)/wiki/source/ $(BUILD_DIR)/wiki/build
-# 	cp $(BUILD_DIR)/manual/build/latex/nexus.pdf $(BUILD_DIR)/wiki/source/_static/NeXusManual.pdf
+pdf ::
+	$(SPHINX) -M latexpdf ./wiki/source/ ./wiki/$(BUILD_DIR)
+	cp $(BUILD_DIR)/wiki/build/latex/nexus.pdf $(BUILD_DIR)/wiki/source/_static/NeXusWiki.pdf
 
 html: fetch-logo
 	$(SPHINX) -b html -W ./wiki/source/ ./wiki/source/$(BUILD_DIR)/html
 
 # for developer's use on local build host
 local ::
-	$(MAKE) test
-	$(MAKE) prepare
+#	$(MAKE) prepare
 	$(MAKE) html
 
 fetch-logo:
@@ -71,10 +58,10 @@ fetch-logo:
 
 all ::
 	$(MAKE) clean
-	$(MAKE) prepare
-	$(MAKE) pdf
+#	$(MAKE) prepare
+#	$(MAKE) pdf
 	$(MAKE) html
-	@echo "HTML built: `ls -lAFgh $(BUILD_DIR)/wiki/build/html/index.html`"
+	@echo "HTML built: `ls -lAFgh wiki/build/html/index.html`"
 
 
 
