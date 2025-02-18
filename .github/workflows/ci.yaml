@@ -1,0 +1,99 @@
+name: Documentation build
+
+on:
+  push:
+    branches:
+      - 11-cicd-test   # push commit to the main branch
+  pull_request:
+    branches:
+      - 11-cicd-test   # pull request to the main branch
+  workflow_dispatch:   # allow manual triggering
+    inputs:
+      deploy:
+        description: 'Deploy wiki documentation'
+        type: boolean
+        required: true
+        default: false
+      upload:
+        description: 'Upload documentation (pdfs in _static/)'
+        type: boolean
+        required: true
+        default: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build-linux:
+    name: CI py${{ matrix.python-version }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.12']
+      max-parallel: 5
+    env:
+      python_version: ${{ matrix.python-version }}
+      python_deploy_version: '3.8' # version to use for deployment
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+#      - name: Deploy Information
+#        if: ${{ github.event.inputs.deploy && env.python_version == env.python_deploy_version }}
+#        run: |
+#          echo "The HTML NeXus Wiki will be pushed to"
+#          echo " https://github.com/nexusformat/wiki/tree/gh-pages"
+#          echo "The HTML NeXus Wiki will be deployed on"
+#          echo " https://nexusformat.github.io/wiki/"
+
+      - name: Install Requirements
+        run: |
+          python3 -m pip install --upgrade pip setuptools
+          make install
+          python3 -m pip list
+
+#      - name: Install LaTeX
+#        run: |
+#          sudo apt-get update -y && \
+#          sudo apt-get install -y \
+#            latexmk \
+#            texlive-latex-recommended \
+#            texlive-latex-extra \
+#            texlive-fonts-recommended
+#          tex --version
+
+#      - name: Build Wiki
+#        run: |
+#          make pdf
+#          make html
+#          ls -lAFgh build/manual/build/html/index.html
+#          mkdir -p build/html
+#          mv build/manual/build/html/* build/html
+      - name: Build Wiki
+        run: |
+          make html
+          ls -lAFgh wiki/source/build/html/index.html
+          mkdir -p build/html
+          mv wiki/source/build/html/* build/html
+
+#      - name: Deploy Wiki
+#        if: ${{ github.event.inputs.deploy && env.python_version == env.python_deploy_version }}
+#        uses: JamesIves/github-pages-deploy-action@v4
+#        with:
+#          folder: build/html
+#
+#      - name: Upload the Wiki
+#        if: ${{ github.event.inputs.upload && env.python_version == env.python_deploy_version }}
+#        uses: actions/upload-artifact@v4
+#        with:
+#          name: nexus-wiki-docs
+#          path: build/html
