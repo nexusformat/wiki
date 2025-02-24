@@ -1,12 +1,10 @@
-.. nexusformat_wiki documentation master file, created by
-   sphinx-quickstart on Sat Sep 28 16:51:17 2024.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
-.. image:: ../../common/NeXus_Logo_dark.svg
+
+.. image:: ../common/NeXus_Logo_dark.svg
   :width: 400
   :alt: Alternative text
-  
+
+===========================
 About the NeXus Data Format
 ===========================
   
@@ -49,7 +47,7 @@ Discussion and Development:
 
 .. toctree::
    :maxdepth: 1
-   :caption: Sections:
+   :caption: Content:
 
    active_projects/active_projects
    codecamps/codecamps

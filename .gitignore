@@ -3,5 +3,5 @@ dev_tools/ext/__pycache__/
 dev_tools/__pycache__/
 *.pyc
 source/_build/
-wiki/source/_static/
+source/_static/
 

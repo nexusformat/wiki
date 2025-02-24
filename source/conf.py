@@ -21,7 +21,7 @@ suppress_warnings = ["misc"]
 # variables from the rst files
 # -- Project information -----------------------------------------------------
 
-project = "nexusformat_wiki"
+project = "nexus wiki"
 copyright = "2025, nexus"
 author = "nexus"
 release = "1"
@@ -42,7 +42,17 @@ extensions = [
     "sphinx.ext.githubpages",
     "sphinx.ext.todo",
     "sphinx_tabs.tabs",
+    "sphinx.ext.autodoc",
 ]
+
+autodoc_default_options = {
+    'members': True,
+    'undoc-members': True,
+    'private-members': True,
+    'special-members': '__init__',
+    'inherited-members': True,
+    'show-inheritance': True,
+}
 
 # Show `.. todo` directives in the output
 # todo_include_todos = True
@@ -85,6 +95,7 @@ html_sidebars = {
         "sourcelink.html",
         "searchbox.html",
         "google_search.html",
+        "nexus.html",
     ],
 }
 
@@ -114,7 +125,7 @@ def setup(app):
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-html_favicon = "../../common/NeXus_Logo_dark_square.svg"
+html_favicon = "../common/NeXus_Logo_dark_square.svg"
 
 
 # Output file base name for HTML help builder.
