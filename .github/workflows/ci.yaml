@@ -61,29 +61,12 @@ jobs:
           make install
           python3 -m pip list
 
-#      - name: Install LaTeX
-#        run: |
-#          sudo apt-get update -y && \
-#          sudo apt-get install -y \
-#            latexmk \
-#            texlive-latex-recommended \
-#            texlive-latex-extra \
-#            texlive-fonts-recommended
-#          tex --version
-
-#      - name: Build Wiki
-#        run: |
-#          make pdf
-#          make html
-#          ls -lAFgh build/manual/build/html/index.html
-#          mkdir -p build/html
-#          mv build/manual/build/html/* build/html
       - name: Build Wiki
         run: |
           make html
-          ls -lAFgh wiki/source/build/html/index.html
+          ls -lAFgh source/build/html/index.html
           mkdir -p build/html
-          mv wiki/source/build/html/* build/html
+          mv source/build/html/* build/html
 
 #      - name: Deploy Wiki
 #        if: ${{ github.event.inputs.deploy && env.python_version == env.python_deploy_version }}

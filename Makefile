@@ -16,9 +16,7 @@ help ::
 
 	@echo "make install            Install all requirements to run tests and builds."
 	@echo "make clean              Remove all build files."
-#	@echo "make prepare            (Re)create all build files."
 	@echo "make html               Build HTML version of manual. Requires prepare first."
-#	@echo "make pdf                Build PDF version of manual. Requires prepare first."
 	@echo "make fetch-logo         Copy the official logo files from the manual repository."
 	@echo "make all                Builds complete web site for the wiki (in build directory)."
 	@echo "make local              (Developer use) Test, prepare and build the HTML wiki."
@@ -33,17 +31,10 @@ install ::
 	$(PYTHON) -m pip install -r requirements.txt
 
 clean ::
-	$(RM) -rf ./wiki/source/$(BUILD_DIR)
-
-#prepare ::
-#	$(PYTHON) -m wiki --prepare --build-root $(BUILD_DIR)
-
-pdf ::
-	$(SPHINX) -M latexpdf ./wiki/source/ ./wiki/$(BUILD_DIR)
-	cp $(BUILD_DIR)/wiki/build/latex/nexus.pdf $(BUILD_DIR)/wiki/source/_static/NeXusWiki.pdf
+	$(RM) -rf ./source/$(BUILD_DIR)
 
 html: fetch-logo
-	$(SPHINX) -b html -W ./wiki/source/ ./wiki/source/$(BUILD_DIR)/html
+	$(SPHINX) -b html -W ./source/ ./source/$(BUILD_DIR)/html
 
 # for developer's use on local build host
 local ::
@@ -58,8 +49,6 @@ fetch-logo:
 
 all ::
 	$(MAKE) clean
-#	$(MAKE) prepare
-#	$(MAKE) pdf
 	$(MAKE) html
 	@echo "HTML built: `ls -lAFgh wiki/build/html/index.html`"
 
