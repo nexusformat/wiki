@@ -1,6 +1,6 @@
 
 
-.. image:: ../common/NeXus_Logo_dark.svg
+.. image:: https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg
   :width: 400
   :alt: Alternative text
 

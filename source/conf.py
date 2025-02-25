@@ -75,9 +75,8 @@ exclude_patterns = []
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-#
-# html_theme = 'alabaster'
 html_theme = "sphinxdoc"
+html_use_index = False
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -125,8 +124,8 @@ def setup(app):
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-html_favicon = "../common/NeXus_Logo_dark_square.svg"
-
+# html_favicon = "../common/NeXus_Logo_dark_square.svg"
+html_favicon = "https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = "NeXusWikidoc"
