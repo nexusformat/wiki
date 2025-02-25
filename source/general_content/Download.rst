@@ -2,8 +2,6 @@
 Download
 ========
 
-
-
 The use of the NeXus-API (NAPI) is \**not*\* mandatory in order to write
 perfectly valid NeXus files. > Using a direct binding to HDF5 (like
 h5py) or [NeXpy](NeXpy.html) should be a better choice for new projects.

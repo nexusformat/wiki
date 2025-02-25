@@ -2,7 +2,6 @@
 Object Oriented Interface
 =========================
 
-
 For object oriented languages (C++, Java, and Python) it would be good
 if there were a common object oriented way of working with NeXus files.
 This page is set up for determining the public methods of a “NeXusFile”
