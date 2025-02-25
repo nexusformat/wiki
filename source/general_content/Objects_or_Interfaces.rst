@@ -2,12 +2,6 @@
 Objects or Interfaces
 =====================
 
----
-title: Objects or Interfaces
-permalink: Objects_or_Interfaces.html
-layout: wiki
----
-
 Objects or Interfaces
 =====================
 

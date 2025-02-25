@@ -2,12 +2,6 @@
 Proposal to Simplify Nexus
 ==========================
 
----
-title: Proposal to Simplify Nexus
-permalink: Proposal_to_Simplify_Nexus.html
-layout: wiki
----
-
 Proposal to simplify NeXus
 ==========================
 

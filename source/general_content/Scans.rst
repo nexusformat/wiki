@@ -2,12 +2,6 @@
 Scans
 =====
 
----
-title: Scans
-permalink: Scans.html
-layout: wiki
----
-
 This page is currently under construction
 -----------------------------------------
 

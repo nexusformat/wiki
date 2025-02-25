@@ -2,12 +2,6 @@
 Proposal NeXus Errors
 =====================
 
----
-title: Proposal NeXus Errors
-permalink: Proposal_NeXus_Errors.html
-layout: wiki
----
-
 The current definition for the NXdata group (which, incidentally, is misleading on the wiki since it implies that the data SDS should be called data) defines an error SDS with the name errors (in this case, the name *is* fixed). This is a workable solution when there is only one signal. However, the original plan for NXdata groups (again, not particularly clear on the wiki) was that they could contain more than one data SDS. The primary one has the attribute signal=1, but secondary data sets with signal=2, etc., were to be allowed. This is of particular importance to the synchrotron community, who frequently measure, for example, fluorescence counts in addition to the main detector counts. In principle, each one of these could have their own errors, but there is no way in the current scheme to associate different SDSs with those errors.
 
 Proposal

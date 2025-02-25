@@ -2,12 +2,6 @@
 Proposal NeXus Coordinates
 ==========================
 
----
-title: Proposal NeXus Coordinates
-permalink: Proposal_NeXus_Coordinates.html
-layout: wiki
----
-
 The current definition for NXdata groups assumes that the data (or signal) SDS is, in general, a multidimensional
 array that can be plotted against one or more independent axes, equal in number to the rank of the signal SDS.
 These axes are defined through the axes attribute. However, there are cases where the data represent a set of pixels
