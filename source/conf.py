@@ -45,15 +45,6 @@ extensions = [
     "sphinx.ext.autodoc",
 ]
 
-autodoc_default_options = {
-    'members': True,
-    'undoc-members': True,
-    'private-members': True,
-    'special-members': '__init__',
-    'inherited-members': True,
-    'show-inheritance': True,
-}
-
 # Show `.. todo` directives in the output
 # todo_include_todos = True
 source_encoding = "utf-8-sig"
@@ -81,8 +72,7 @@ html_use_index = False
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-# html_static_path = ["_static"]
-# html_extra_path = ['md']
+html_static_path = ["_static"]
 
 # Add extra files
 # html_extra_path = ['CNAME']
@@ -130,12 +120,3 @@ html_favicon = "https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_
 # Output file base name for HTML help builder.
 htmlhelp_basename = "NeXusWikidoc"
 
-# -- Options for Latex output -------------------------------------------------
-latex_elements = {
-    "maxlistdepth": 25,  # some application definitions are deeply nested
-    "preamble": r"""
-    \usepackage{amsbsy}
-    \DeclareUnicodeCharacter{1F517}{X}
-    \DeclareUnicodeCharacter{2906}{<=}
-    \listfiles""",
-}
