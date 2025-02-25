@@ -20,8 +20,7 @@ NIAC2020
       October, the week after NIAC 2020. A final short NIAC session is
       planned for October 20th in order to deal with new issues
       discovered during the code camp. Precise details will be discussed
-      at the `NeXus
-      teleconferences <../teleconferences/Teleconferences.html>`__
+      at the `NeXus teleconferences <../teleconferences/teleconferences.html>`__
       and published here before October 1st.
 
       Voting on changes to the NeXus standard is reserved for `committee

@@ -26,7 +26,7 @@ was released. 2015
 November:
 =========
 
-`[Code Camp 2015] <Code_Camp_2015.html>`__ happened 16th - 18th at DESY in Hamburg January: As a result
+`[Code Camp 2015] <../codecamps/Code_Camp_2015.html>`__ happened 16th - 18th at DESY in Hamburg January: As a result
 of `[NIAC2014] <../niac/NIAC2014.html>`__ the `[Teleconferences] <../teleconferences/teleconferences.html>`__ are now open to the
 whole community. Dates and joining instructions are to be published on
 the wiki page. 2014 
@@ -34,7 +34,7 @@ the wiki page. 2014
 December:
 =========
 
-`[NIAC2014] <../niac/NIAC2014.html>`__ has happened. The `[Code Camp] <../codecamps/NIAC2014_CodeCamp.html>`__ had a
+`[NIAC2014] <../niac/NIAC2014.html>`__ has happened. The `[Code Camp] <../codecamps/CodeCamp2014.html>`__ had a
 meeting with the HDF Group, but was largely a preparation for the `[NIAC meeting] <../niac/NIAC2014_Meeting.html>`__.
 The NIAC elected new members and officers and there were many fruitful discussions. Important items
 and decisions are recorded in the
@@ -53,7 +53,7 @@ subcommittee. 2012
 A `[NeXus code camp] <../niac/NIAC2012.html>`__
 happened 18th / 19th September 2012 with a `[NIAC] <../niac/NIAC2012.html>`__ meeting to follow on 20th / 21th September 2012. These
 meetings are the week before the [NOBUGS conference] <https://www.nobugsconference.org/) on 24th-26th September
-2012 See `[NIAC: meetings] <../niac/NIAC.html#Meetings>`__ for historical
+2012 See `[NIAC: meetings] <../niac/niac.html#Meetings>`__ for historical
 information about the NIAC meetings and Code Camps.
 
 **Wednesday, March 6, 2012**:
@@ -188,7 +188,7 @@ September 26, 2006: The NeXus WIKI has been moved to new site at
 **Monday, November 7, 2005**:
 
 We are planning the next meeting of the
-`[NeXus International Advisory Committee] <../niac/NIAC.html>`__. The
+`[NeXus International Advisory Committee] <../niac/niac.html>`__. The
 current proposal is to hold it in Grenoble in the first week of
 February, but details will be announced as they are finalized. In the
 meantime, check the `[NeXus Wiki pages] <../niac/NIAC2006ILL.html>`__ for
@@ -246,7 +246,7 @@ format, that we hope is easier to read. This is generated automatically
 from the XML file so will reflect the latest version at all times. There
 is still a little cleaning up of the documentation of these classes,
 with the final CVS uploads occurring at the upcoming meeting of the
-`[NeXus International Advisory Committee] <../niac/NIAC.html>`__. If you
+`[NeXus International Advisory Committee] <../niac/niac.html>`__. If you
 find any errors, please contact the chair (Ray Osborn) or executive
 secretary (Peter Peterson) of NIAC.
 

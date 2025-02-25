@@ -41,7 +41,7 @@ NIAC2014 Meeting
       -  Votes on new members
       -  Electing new officers, candidates get ready!
       -  Revise Constitution `Terms of
-         Reference <NIAC.html#terms-of-reference>`__ :
+         Reference <niac.html#terms-of-reference>`__ :
 
          -  item 3: change wording of "instrument and group class
             definitions" to contemporary terms (base classes and

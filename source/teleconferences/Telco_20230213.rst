@@ -85,7 +85,7 @@ Telco 20230213
             NIAC <https://github.com/nexusformat/wiki/blob/master/content/NIAC2010.html>`__
             and
             `all NIAC
-            meetings <../niac/NIAC.html>`__ and
+            meetings <../niac/niac.html>`__ and
             `specific details of 2010
             NIAC <http://lns00.psi.ch/nexus2010/>`__
             PJ: it seems it was used for something like

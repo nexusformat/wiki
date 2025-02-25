@@ -24,7 +24,7 @@ NIAC2022 minutes
       learning more about NeXus, it was suggested that the monthly NeXus
       teleconferences would be good from this perspective. They are
       listed on the
-      `Teleconferences <../teleconferences/Teleconferences.html>`__
+      `Teleconferences <../teleconferences/teleconferences.html>`__
       page and to be notified of their dates you can join the
       `nexus-tech <https://lists.nexusformat.org/mailman/listinfo/nexus-tech>`__
       mailing list. There is also the `nexus

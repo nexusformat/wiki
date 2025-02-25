@@ -31,9 +31,8 @@ CodeCamp2020
       Specific projects and tasks are described on the `GitHub issue
       tracker <https://github.com/nexusformat/definitions/milestones>`__.
       Issues for consideration at 2020 NeXus Code Camp will be added to
-      the Code Camp's `Topics
-      page <CodeCamp2020-topics.html>`__
-      (`edit here <../../source/codecamps/CodeCamp2020-topics.rst>`__).
+      the Code Camp's `Topics page <CodeCamp2020-topics.html>`__
+      (edit here <../../source/codecamps/CodeCamp2020-topics.rst>).
       These issues will be prioritized on the first day for handling at
       the Code Camp.
 

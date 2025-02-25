@@ -2,7 +2,7 @@ Connecting NXdata to NXdetector
 ===============================
 
 This is an attempt to summarize the various proposals that have been
-discussed on this page. Proposal 1 is, I believe (`Ray Osborn <UserRay_Osborn.html>`_), the original proposal when NeXus
+discussed on this page. Proposal 1 is, I believe (Ray Osborn <UserRay_Osborn.html>), the original proposal when NeXus
 was first designed (although we didn't link the data item itself as
 Freddie has sensibly suggested). If anyone thinks that the remaining
 proposals have been incorrectly summarized, please let the NeXus

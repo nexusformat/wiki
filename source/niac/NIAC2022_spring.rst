@@ -92,7 +92,7 @@ NIAC2022 spring
       `here <NIAC2022_spring_minutes.html>`__.
       A chorum was achieved in session **C** and below is a summary of
       proposals that were voted on. As per the
-      `constitution <NIAC.html#constitution>`__,
+      `constitution <niac.html#constitution>`__,
       voting shall remain open for a week (in practice, until the final
       session). NIAC members can cast their vote by following the link
       in the "proposal" column and then adding an emoji reaction

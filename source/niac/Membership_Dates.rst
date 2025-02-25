@@ -5,7 +5,7 @@ Team Members
 The members of the NIAC, with the expiration of their
 membership are listed below. If a member wishes to be renewed, they must
 provide a letter of support from the facility and be approved by the
-NIAC as stated in the [constitution](NIAC.html "wikilink").
+NIAC as stated in the `[constitution] <niac.html#Constitution>`__.
 
 Expire July, 2023
 =================

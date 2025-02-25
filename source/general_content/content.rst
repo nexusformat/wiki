@@ -1,6 +1,6 @@
-==========
-Content
-==========
+===============
+General Content
+===============
 
    This is the page that contains links to the rest of the contents of the wiki in alphabetical order.
 

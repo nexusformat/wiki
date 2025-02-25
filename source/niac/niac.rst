@@ -13,31 +13,31 @@ NIAC
       .. rubric:: Current Members
          :name: current-members
 
-      -  Aaron Brewster, Lawrence Berkeley Laboratory, USA (*Chair*)
-      -  Sandor Brockhauser, Center for Materials Science Data (HU
+      -  **Aaron Brewster**, Lawrence Berkeley Laboratory, USA (*Chair*)
+      -  **Sandor Brockhauser**, Center for Materials Science Data (HU
          Berlin), Germany (*Executive Secretary*)
-      -  Peter Chang, Diamond Light Source, UK (*Documentation Release
+      -  **Peter Chang**, Diamond Light Source, UK (*Documentation Release
          Manager*)
-      -  Benjamin Watts, Swiss Light Source, Switzerland
-      -  Mark Könnecke, PSI, Switzerland
-      -  Herbert Bernstein, CIF (*non-facility member*)
-      -  Thomas Caswell, Brookhaven National Laboratory/NSLS-II, USA
-      -  Bjørn Clausen, Los Alamos National Laboratory, USA
-      -  Heike Görzig, Helmholtz Zentrum Berlin, Germany
-      -  Pete Jemian, Advanced Photon Source, USA
-      -  Raymond Osborn, Argonne National Laboratory, USA (*non-facility
+      -  **Benjamin Watts**, Swiss Light Source, Switzerland
+      -  **Mark Könnecke**, PSI, Switzerland
+      -  **Herbert Bernstein**, CIF (*non-facility member*)
+      -  **Thomas Caswell**, Brookhaven National Laboratory/NSLS-II, USA
+      -  **Bjørn Clausen**, Los Alamos National Laboratory, USA
+      -  **Heike Görzig**, Helmholtz Zentrum Berlin, Germany
+      -  **Pete Jemian**, Advanced Photon Source, USA
+      -  **Raymond Osborn**, Argonne National Laboratory, USA (*non-facility
          member*)
-      -  Wout de Nolf, European Synchrotron Radiation Facility, France
-      -  Takahiro Matsumoto, Spring8, Japan
-      -  Balázs Bagó, the Extreme Light Infrastructure, Czech Republic,
+      -  **Wout de Nolf**, European Synchrotron Radiation Facility, France
+      -  **Takahiro Matsumoto**, Spring8, Japan
+      -  **Balázs Bagó**, the Extreme Light Infrastructure, Czech Republic,
          Hungary and Romania
-      -  Russ Berg, Canadian Light Source, Canada
-      -  Majid Ounsy, Synchrotron Soleil, France
-      -  Chen Zhang, Oak Ridge National Laboratory (SNS/HFIR), USA
-      -  Luca Geliso, European XFEL, Germany
-      -  Paul Millar, DESY, Germany
-      -  Zdenek Matej, MAX IV, Sweden
-      -  Fernan Saiz, ALBA, Spain
+      -  **Russ Berg**, Canadian Light Source, Canada
+      -  **Majid Ounsy**, Synchrotron Soleil, France
+      -  **Chen Zhang**, Oak Ridge National Laboratory (SNS/HFIR), USA
+      -  **Luca Geliso**, European XFEL, Germany
+      -  **Paul Millar**, DESY, Germany
+      -  **Zdenek Matej**, MAX IV, Sweden
+      -  **Fernan Saiz**, ALBA, Spain
 
       See the page with the `expiration dates <Membership_Dates.html>`__
       for when the current terms of the various members end and we

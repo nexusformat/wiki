@@ -3,7 +3,7 @@ IndirectDiscuss
 ===============
 
 This file is from the old SWIKI and a starting point for discussion. The idea is to come up with a definition
-based on inheritance from other definitions such as `TOFRaw <TOFRaw>`__, NXtofnigs.xml.
+based on inheritance from other definitions such as `TOFRaw <TOFRaw.html>`__, NXtofnigs.xml.
 
 NXtofnigs.xml
 

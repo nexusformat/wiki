@@ -28,7 +28,7 @@ Documentation:
          * `[contributed definitions] <https://manual.nexusformat.org/classes/contributed_definitions/index.html>`_ propositions from the community
       * `[Utilities] <https://manual.nexusformat.org/utilities.html>`_ Software applications that browse, plot, and analyze NeXus data
       * `[FAQ] <https://manual.nexusformat.org/faq.html>`_ Commonly asked questions about NeXus
-   * `[Facilities] <facilities/Facilities.html>`_ using NeXus
+   * `[Facilities] <facilities/facilities.html>`_ using NeXus
 
 Discussion and Development:
 ---------------------------
@@ -39,7 +39,7 @@ Discussion and Development:
    * `[Tele   conferences] <teleconferences/teleconferences.html>`_
    * `[Current Active Projects] <active_projects/active_projects.html>`_
    * `[NeXus International Advisory Committee] <niac/niac.html>`_
-   * `[Bug/Issue Reporting] <content/IssueReporting.html>`_
+   * `[Bug/Issue Reporting] <general_content/IssueReporting.html>`_
    * `[Mailing Lists] <https://manual.nexusformat.org/mailinglist.html>`_
    * `[Show and Tell] <https://indico.desy.de/category/1080/>`_ - Series of meetings, each dedicated to a specific NeXus adoption topic
 
@@ -51,10 +51,10 @@ Discussion and Development:
 
    active_projects/active_projects
    codecamps/codecamps
-   teleconferences/teleconferences
-   niac/niac
-   faq/faq
    facilities/facilities
+   faq/faq
    general_content/content
+   niac/niac
+   teleconferences/teleconferences
 
 
