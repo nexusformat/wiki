@@ -7,7 +7,7 @@ PYTHON = python3
 SPHINX = sphinx-build
 BUILD_DIR = build
 
-.PHONY: help install style autoformat test clean prepare html pdf impatient-guide all local nxdl nyaml
+.PHONY: help install clean html all local
 
 help ::
 	@echo ""
@@ -17,7 +17,6 @@ help ::
 	@echo "make install            Install all requirements to run tests and builds."
 	@echo "make clean              Remove all build files."
 	@echo "make html               Build HTML version of manual. Requires prepare first."
-	@echo "make fetch-logo         Copy the official logo files from the manual repository."
 	@echo "make all                Builds complete web site for the wiki (in build directory)."
 	@echo "make local              (Developer use) Test, prepare and build the HTML wiki."
 	@echo ""
@@ -33,7 +32,7 @@ install ::
 clean ::
 	$(RM) -rf ./source/$(BUILD_DIR)
 
-html: fetch-logo
+html:
 	$(SPHINX) -b html -W ./source/ ./source/$(BUILD_DIR)/html
 
 # for developer's use on local build host
@@ -41,16 +40,10 @@ local ::
 #	$(MAKE) prepare
 	$(MAKE) html
 
-fetch-logo:
-	wget -O ./common/NeXus_Logo.svg https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo.svg
-	wget -O ./common/NeXus_Logo_dark.svg https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg
-	wget -O ./common/NeXus_Logo_dark_square.svg https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg
-	wget -O ./common/NeXus_Logo_square.svg https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_square.svg
-
 all ::
 	$(MAKE) clean
 	$(MAKE) html
-	@echo "HTML built: `ls -lAFgh wiki/build/html/index.html`"
+	@echo "HTML built: `ls -lAFgh source/build/html/index.html`"
 
 
 
@@ -58,7 +51,7 @@ all ::
 
 # NeXus - Neutron and X-ray Common Data Format
 #
-# Copyright (C) 2008-2024 NeXus International Advisory Committee (NIAC)
+# Copyright (C) 2008-2025 NeXus International Advisory Committee (NIAC)
 #
 # This library is free software; you can redistribute it and/or
 # modify it under the terms of the GNU Lesser General Public
