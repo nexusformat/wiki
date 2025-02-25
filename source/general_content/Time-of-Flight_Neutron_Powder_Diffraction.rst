@@ -3,33 +3,25 @@ Time-of-Flight Neutron Powder Diffraction
 =========================================
 
 
-.. container:: content
+.. rubric:: Comments
+ :name: comments
 
-   .. container:: page
+-  Discussion items
 
-      .. rubric:: Time-of-Flight Neutron Powder Diffraction
-         :name: time-of-flight-neutron-powder-diffraction
-         :class: page-title
+ -  time_focusing_type (e.g. difc, cubic, ..)
+ -  time_focusing_parameters [ndetector,nparameters]
+ -  Definition of groups for binning in NeXus file or via
+    NXdetector ?
+ -  Deadtime correction information (in combination with
+    gang.)
+ -  Profile types and starting parameters
+ -  Incident spectrum (here in NXcharacterization, alternative
+    analytical description ?)
 
-      .. rubric:: Comments
-         :name: comments
+-  Other
 
-      -  Discussion items
+ -  Binned data back in NeXus - this actually is used in
+    Rietveld.
 
-         -  time_focusing_type (e.g. difc, cubic, ..)
-         -  time_focusing_parameters [ndetector,nparameters]
-         -  Definition of groups for binning in NeXus file or via
-            NXdetector ?
-         -  Deadtime correction information (in combination with
-            gang.)
-         -  Profile types and starting parameters
-         -  Incident spectrum (here in NXcharacterization, alternative
-            analytical description ?)
-
-      -  Other
-
-         -  Binned data back in NeXus - this actually is used in
-            Rietveld.
-
-      .. rubric:: Proposal
-         :name: proposal
+.. rubric:: Proposal
+ :name: proposal

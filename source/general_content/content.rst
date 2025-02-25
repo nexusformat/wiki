@@ -2,13 +2,7 @@
 Content
 ==========
 
-.. container:: content
-
-   .. container:: page
-
-      .. rubric:: Content
-         :name: content
-         :class: page-title
+   This is the page that contains links to the rest of the contents of the wiki in alphabetical order.
 
 .. toctree::
    :maxdepth: 2

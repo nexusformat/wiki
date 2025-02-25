@@ -3,14 +3,6 @@ Workshop PSI 2010
 =================
 
 
-.. container:: content
-
-   .. container:: page
-
-      .. rubric:: Workshop PSI 2010
-         :name: workshop-psi-2010
-         :class: page-title
-
       .. rubric:: NeXus Workshop at PSI (May 10 - 12, 2010)
          :name: nexus-workshop-at-psi-may-10---12-2010
 
