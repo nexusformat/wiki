@@ -66,7 +66,7 @@ To Discuss
 CIF-NeXus Presentation
 ----------------------
 
-The draft for the NeXus CIF presentation can be downloaded here: [CIFNeXus.pdf](pdfs/CIFNexus.pdf "wikilink"). May be we get a chance to discuss this on the next Telco. Details of how NeXus and CDF might be mapped are contained on the [ConcordanceDiscussion](ConcordanceDiscussion.html "wikilink") page.
+The draft for the NeXus CIF presentation can be downloaded here: `[CIFNeXus.pdf] <../pdfs/CIFNexus.pdf>`__. May be we get a chance to discuss this on the next Telco. Details of how NeXus and CDF might be mapped are contained on the `[ConcordanceDiscussion] <ConcordanceDiscussion.html>`__ page.
 
 Conclusion
 ----------

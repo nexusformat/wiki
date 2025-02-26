@@ -10,7 +10,7 @@ NIAC2011 CodeCamp
          :name: NIAC2011_CodeCamp_niac2011-codecamp
          :class: page-title
 
-      |logo for the 2011 NeXus Code Camp|
+      .. image:: ../extra_files/NeXusCodeCamp2011-logo.png
 
       .. rubric:: Purpose
          :name: NIAC2011_CodeCamp_purpose
@@ -72,8 +72,8 @@ NIAC2011 CodeCamp
 
       (\*) speakers for the working lunch include:
 
-      -  Chris Jacobsen, APS (scientific lead, APS Data Exchange format)
-         |image1|
+      -  Chris Jacobsen, APS (scientific lead, APS Data Exchange format) `2011_10_20_nexus_heretics_v5 PDF <../pdfs/2011_10_20_nexus_heretics_v5.pdf>`__
+
       -  Mark Koennecke, PSI (NeXus, chairman of NIAC)
 
       .. rubric:: Friday, 2011 October 21
@@ -166,7 +166,7 @@ NIAC2011 CodeCamp
          :name: NIAC2011_CodeCamp_presentations
 
       #. presentation about **cmake** (Freddie Akeroyd or Pete Peterson)
-      #. about **sphinx** for documentation (Pete Jemian) |PDF|
+      #. about **sphinx** for documentation (Pete Jemian) `PDF <../pdfs/2011-10-20_NeXus_manual_in_sphinx.pdf>`__
       #. about **parallel HDF** (Mark Koennecke, anyone else with more
          experience?)
       #. assessment of work to migrate from HDF 1.6 to HDF 1.8 (Freddie
@@ -408,7 +408,3 @@ NIAC2011 CodeCamp
       HDF5. Also discussed were current APS plans to store data in HDF5
       files but, for performance reasons as well as simplicity, not
       necessarily in compliance with NeXus.
-
-.. |logo for the 2011 NeXus Code Camp| image:: ../extra_files/NeXusCodeCamp2011-logo.png
-.. |image1| image:: ../pdfs/2011_10_20_nexus_heretics_v5.pdf
-.. |PDF| image:: ../pdfs/2011-10-20_NeXus_manual_in_sphinx.pdf
