@@ -3,19 +3,14 @@ name: Documentation build
 on:
   push:
     branches:
-      - 11-cicd-test   # push commit to the main branch
+      - 11-harmonize-the-nexus-web-pages-convert-the-current-wiki-to-use-sphinx-same-as-the-main-nexus-documentation
   pull_request:
     branches:
-      - 11-cicd-test   # pull request to the main branch
+      - 11-harmonize-the-nexus-web-pages-convert-the-current-wiki-to-use-sphinx-same-as-the-main-nexus-documentation
   workflow_dispatch:   # allow manual triggering
     inputs:
       deploy:
         description: 'Deploy wiki documentation'
-        type: boolean
-        required: true
-        default: false
-      upload:
-        description: 'Upload documentation (pdfs in _static/)'
         type: boolean
         required: true
         default: false
@@ -47,13 +42,13 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
-#      - name: Deploy Information
-#        if: ${{ github.event.inputs.deploy && env.python_version == env.python_deploy_version }}
-#        run: |
-#          echo "The HTML NeXus Wiki will be pushed to"
-#          echo " https://github.com/nexusformat/wiki/tree/gh-pages"
-#          echo "The HTML NeXus Wiki will be deployed on"
-#          echo " https://nexusformat.github.io/wiki/"
+      - name: Deploy Information
+        if: ${{ github.event.inputs.deploy && env.python_version == env.python_deploy_version }}
+        run: |
+          echo "The HTML NeXus Wiki will be pushed to"
+          echo " https://github.com/nexusformat/wiki/tree/gh-pages"
+          echo "The HTML NeXus Wiki will be deployed on"
+          echo " https://nexusformat.github.io/wiki/"
 
       - name: Install Requirements
         run: |
@@ -65,18 +60,15 @@ jobs:
         run: |
           make html
           ls -lAFgh source/build/html/index.html
-          mkdir -p build/html
-          mv source/build/html/* build/html
+          mkdir -p build
+          mv source/build/html/* build
 
-#      - name: Deploy Wiki
-#        if: ${{ github.event.inputs.deploy && env.python_version == env.python_deploy_version }}
-#        uses: JamesIves/github-pages-deploy-action@v4
-#        with:
-#          folder: build/html
-#
-#      - name: Upload the Wiki
-#        if: ${{ github.event.inputs.upload && env.python_version == env.python_deploy_version }}
-#        uses: actions/upload-artifact@v4
-#        with:
-#          name: nexus-wiki-docs
-#          path: build/html
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/11-harmonize-the-nexus-web-pages-convert-the-current-wiki-to-use-sphinx-same-as-the-main-nexus-documentation' }}
+        with:
+          publish_branch: gh-pages-tst
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build/
+          force_orphan: true
+
