@@ -3,10 +3,10 @@ name: Documentation build
 on:
   push:
     branches:
-      - 11-harmonize-the-nexus-web-pages-convert-the-current-wiki-to-use-sphinx-same-as-the-main-nexus-documentation
+      - main
   pull_request:
     branches:
-      - 11-harmonize-the-nexus-web-pages-convert-the-current-wiki-to-use-sphinx-same-as-the-main-nexus-documentation
+      - main
   workflow_dispatch:   # allow manual triggering
     inputs:
       deploy:
@@ -65,9 +65,9 @@ jobs:
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/11-harmonize-the-nexus-web-pages-convert-the-current-wiki-to-use-sphinx-same-as-the-main-nexus-documentation' }}
+        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
         with:
-          publish_branch: gh-pages-tst
+          publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: build/
           force_orphan: true
