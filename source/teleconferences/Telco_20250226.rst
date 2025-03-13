@@ -1,8 +1,6 @@
----
-title: Telco 20250226
-permalink: Telco_20250226.html
-layout: wiki
----
+==============
+Telco 20250226
+==============
 
 Date
 ----
