@@ -28,7 +28,7 @@ Agenda
 Present
 -------
 
-SB, AB, + LukasP, MarkusK (FAIRmat)
+SB, AB, RB, HB, FS, PC, BW, WdN, ZM, PM + LukasP, MarkusK (FAIRmat)
 
 Minutes
 -------
