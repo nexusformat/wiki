@@ -28,6 +28,12 @@ Teleconferences
       .. rubric:: 2025
          :name: 2025
 
+      `Telco 20250324 <Telco_20250324.html>`__ Monday, 24th March, 15:00
+      UTC
+
+      `Telco 20250312 <Telco_20250312.html>`__ Wednesday, 12th March, 15:00
+      UTC
+
       `Telco 20250226 <Telco_20250226.html>`__ Wednesday, 26th Feb, 15:00
       UTC
 
