@@ -72,5 +72,5 @@ additional information. This allows experiments that only require a
 basic component definition to also use datasets that have additional
 data appended.
 
---[Greg Sonnenfeld](User%3AGreg_Sonnenfeld.html "wikilink") 15:22, 27 January
+--[Greg Sonnenfeld] (Greg_Sonnenfeld.html "wikilink") 15:22, 27 January
 2007 (UTC)

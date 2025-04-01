@@ -31,7 +31,7 @@ Instrument Definitions List
 
 ### TRAC
 
-[Pete](User%3APete_Jemian.html "wikilink") 15:49, 14 December 2009 (UTC):
+[Pete] (Pete_Jemian.html "wikilink") 15:49, 14 December 2009 (UTC):
 [NeXus definitions TRAC ticket
 \#3](http://trac.nexusformat.org/definitions/ticket/3) was created to
 describe the items on this page. Classes that were not already described
@@ -46,16 +46,16 @@ These have been voted on by the [NIAC](NIAC.html "wikilink") and so are
 official NeXus definitions
 
 -   [NXTOFRaw: Time-of-Flight Raw Data](TOFRaw.html "wikilink") Editors:
-    [Freddie Akeroyd](User%3AFreddie_Akeroyd.html "wikilink"), [Peter
-    Peterson](User%3APeter_Peterson.html "wikilink")
+    [Freddie Akeroyd] (Freddie_Akeroyd.html "wikilink"), [Peter
+    Peterson] (Peter_Peterson.html "wikilink")
 -   [Monochromatic Neutron and X-ray Powder
     Diffraction](Monochromatic_Neutron_and_X-ray_Powder_Diffraction.html "wikilink")
-    Editor: [Mark Könnecke](User%3AMark_Koennecke.html "wikilink"), PSI
+    Editor: [Mark Könnecke] (Mark_Koennecke.html "wikilink"), PSI
 -   [Generic Scanning Instrument](GenericScan.html "wikilink") Editor: [Mark
-    Könnecke](User%3AMark_Koennecke.html "wikilink"), PSI
+    Könnecke] (Mark_Koennecke.html "wikilink"), PSI
 -   [Monochromatic Neutron and X-ray Triple-Axis
     Spectrometer](Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html "wikilink")
-    Editor: [Nicholas Maliszewskyj](User%3ANickm.html "wikilink") (NIST
+    Editor: [Nicholas Maliszewskyj] (Nickm.html "wikilink") (NIST
     Center for Neutron Research, USA).
 
 ### Proposed
@@ -67,21 +67,21 @@ place; however the definition has not yet been voted on by the
 
 -   [Monochromatic Neutron and X-ray Single Crystal
     Diffractometer](Monochromatic_Neutron_and_X-ray_Single_Crystal_Diffractometer.html "wikilink")
-    Editor: [Mark Könnecke](User%3AMark_Koennecke.html "wikilink"), PSI
+    Editor: [Mark Könnecke] (Mark_Koennecke.html "wikilink"), PSI
 -   [Archive Definition](Archive_Definition.html "wikilink") Editor: [Laurent
-    Lerusse](User%3AL.lerusse.html "wikilink") (CCLRC - Rutherford Appleton
+    Lerusse] (L.lerusse.html "wikilink") (CCLRC - Rutherford Appleton
     Laboratory, e-Science, UK)
 -   [Monochromatic Neutron and X-ray Small Angle
     Scattering](SAS.html "wikilink") Editor: Ron Ghosh (Institut Laue
     Langevin, France).
 -   [Processed Data](Processed_Data.html "wikilink") Editor: [Ray
-    Osborn](User%3ARay_Osborn.html "wikilink") (Argonne National Laboratory,
+    Osborn] (Ray_Osborn.html "wikilink") (Argonne National Laboratory,
     USA)
 -   [X-Ray Synchrotron Raw](XESraw.html "wikilink") Editor: [Stuart
-    Campbell](User%3AStuart_Campbell.html "wikilink") (Diamond Light Source,
+    Campbell] (Stuart_Campbell.html "wikilink") (Diamond Light Source,
     UK)
 -   [Muon Time Differential](Muon_Time_Differential.html "wikilink") Editor:
-    [Steve Cottrell](User%3ASteve_Cottrell.html "wikilink") (ISIS, UK)
+    [Steve Cottrell] (Steve_Cottrell.html "wikilink") (ISIS, UK)
 
 ### Planned
 
@@ -93,7 +93,7 @@ into the *Proposed* category above.
     -   Protein Crystallography
     -   [Time-of-Flight Neutron Powder
         Diffraction](Time-of-Flight_Neutron_Powder_Diffraction.html "wikilink"),
-        Editor: [Peter Peterson](User%3APfpeterson.html "wikilink")
+        Editor: [Peter Peterson] (Pfpeterson.html "wikilink")
         (Spallation Neutron Source, USA).
     -   [Time-of-Flight Neutron Single Crystal
         Diffractometer](Time-of-Flight_Neutron_Single_Crystal_Diffractometer.html "wikilink"),
@@ -115,7 +115,7 @@ into the *Proposed* category above.
         Editor: Stephen King (ISIS Pulsed Neutron and Muon Source, UK)
     -   Ultra-Small-Angle Neutron Scattering, Editor: TBA
     -   Ultra-Small-Angle X-ray Scattering, Editor: [User%3APete
-        Jemian](User%3APete_Jemian.html "wikilink") (Advanced Photon Source,
+        Jemian] (Pete_Jemian.html "wikilink") (Advanced Photon Source,
         USA)
 -   Spectrometers
     -   [Time-of-Flight Neutron Direct Geometry

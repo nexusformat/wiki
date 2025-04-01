@@ -58,7 +58,7 @@ of the modifications necessary to fix it.
 New Features
 ------------
 
-### C++ Interface (provided by [Freddie Akeroyd](User%3AFreddie_Akeroyd.html "wikilink") and [Peter Peterson](User%3APeter_Peterson.html "wikilink"))
+### C++ Interface (provided by [Freddie Akeroyd] (Freddie_Akeroyd.html "wikilink") and [Peter Peterson] (Peter_Peterson.html "wikilink"))
 
 See the [doxygen
 documentation](http://download.nexusformat.org/doxygen/html/classNeXus_1_1File.html)
@@ -86,7 +86,7 @@ an IOSteam like interface and allow you to type
 See also the [NeXus API test
 program](http://svn.nexusformat.org/code/branches/4.2/test/napi_test_cpp.cxx)
 
-### IDL Interface (provided by Jussi Kauppila and [Mark Koennecke](User%3AMark_Koennecke.html "wikilink"))
+### IDL Interface (provided by Jussi Kauppila and [Mark Koennecke] (Mark_Koennecke.html "wikilink"))
 
 There is a new interface to RSI's Interactive Data Language, IDL for
 NeXus. This interface has to be considered beta. Nevertheless it is
@@ -97,7 +97,7 @@ working most of the time. Known issues include:
 
 ### Python Interface
 
-There is now, thanks to [Paul Kienzle](User%3APaul_Kienzle.html "wikilink"),
+There is now, thanks to [Paul Kienzle] (Paul_Kienzle.html "wikilink"),
 a supported interface for the python scripting language. Arrays are
 stored in numpy arrays and thus allow for efficient data manipulations.
 

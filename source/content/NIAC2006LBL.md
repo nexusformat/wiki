@@ -17,7 +17,7 @@ following [NOBUGS 2006](http://nobugs2006.lbl.gov/).
 
 If you are interested in attending (and are not already on the [list of
 attendees](NIAC2006LBL_attendees.html "wikilink")), contact [Andrew
-Götz](User%3AAndy_Gotz.html "wikilink").
+Götz] (Andy_Gotz.html "wikilink").
 
 ### Start of the Meeting
 

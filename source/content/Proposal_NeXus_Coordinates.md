@@ -70,7 +70,7 @@ I propose to present this for discussion and a possible vote at the
 upcoming NIAC meeting at the SNS on October 7-8.
 
   
-[Ray](User%3ARay_Osborn.html "wikilink") 19:08, 29 September 2010 (UTC)
+[Ray] (Ray_Osborn.html "wikilink") 19:08, 29 September 2010 (UTC)
 
 Conclusion
 ----------

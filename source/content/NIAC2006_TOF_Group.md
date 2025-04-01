@@ -9,12 +9,12 @@ NIAC2006 TOF Group
 Time-of-Flight Working Group
 ----------------------------
 
--   [Freddie Akeroyd](User%3AFreddie_Akeroyd.html "wikilink")
--   [Franck Cecillon](User%3AFranck_Cecillon.html "wikilink")
--   [Ray Osborn](User%3ARay_Osborn.html "wikilink")
--   [Peter Peterson](User%3APeter_Peterson.html "wikilink")
--   [Thomas Proffen](User%3AThomas_Proffen.html "wikilink")
--   [Jiro Suzuki](User%3AJiro_Suzuki.html "wikilink")
+-   [Freddie Akeroyd] (Freddie_Akeroyd.html "wikilink")
+-   [Franck Cecillon] (Franck_Cecillon.html "wikilink")
+-   [Ray Osborn] (Ray_Osborn.html "wikilink")
+-   [Peter Peterson] (Peter_Peterson.html "wikilink")
+-   [Thomas Proffen] (Thomas_Proffen.html "wikilink")
+-   [Jiro Suzuki] (Jiro_Suzuki.html "wikilink")
 
 This group was charged with discussing matters arising from the [NXTOFRW
 - NeXus Time-of-Flight Raw File Format (simple sit and count
@@ -193,7 +193,7 @@ Proposals
 
 1.  That the new data items in required in NXentry and NXuser for
     archiving be ratified. [Laurent
-    Lerusse](User%3AL.lerusse.html "wikilink") has volunteered to produce a
+    Lerusse] (L.lerusse.html "wikilink") has volunteered to produce a
     description such that any instruement definition that wishes can
     “conform to” this.
 2.  That NeXus implement inheritance in definitions and classes by a

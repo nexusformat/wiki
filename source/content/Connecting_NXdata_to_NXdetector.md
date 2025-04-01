@@ -8,7 +8,7 @@ Connecting NXdata to NXdetector
 
 This is an attempt to summarize the various proposals that have been
 discussed on this page. Proposal 1 is, I believe ([Ray
-Osborn](User%3ARay_Osborn.html "wikilink")), the original proposal when NeXus
+Osborn] (Ray_Osborn.html "wikilink")), the original proposal when NeXus
 was first designed (although we didn't link the data item itself as
 Freddie has sensibly suggested). If anyone thinks that the remaining
 proposals have been incorrectly summarized, please let the NeXus

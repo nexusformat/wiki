@@ -33,7 +33,7 @@ object.
                                &dimensions, const compress comp_type=COMP_NONE);
     };
 
-[Peter Peterson](User%3APfpeterson.html "wikilink"), SNS
+[Peter Peterson] (Pfpeterson.html "wikilink"), SNS
 
 Conclusion
 ----------

@@ -139,7 +139,7 @@ Friday, July 15, 2005:The technical committee is pleased to announce the officia
 
   
 The distribution now includes [Peter
-Peterson's](User%3APfpeterson.html "wikilink")
+Peterson's] (Pfpeterson.html "wikilink")
 [NXtranslate](NXtranslate.html "wikilink") utility to map data in existing
 files to NeXus format via XML “translation files”. This application will
 aid developers to write NeXus reading applications by converting real
