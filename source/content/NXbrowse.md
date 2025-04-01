@@ -80,8 +80,8 @@ Installation
 ------------
 
 NXbrowse is now installed as part of the standard NeXus installation.
-See the [NeXus Downloads section](Application_Program_Interface.html#Downloads "wikilink") for more
+See the [NeXus Downloads section] (Application_Program_Interface.html#Downloads "wikilink") for more
 details.
 
 If you encounter any bugs, please report them using the 
-[NeXus bugzilla](Application_Program_Interface.html#Reporting_Bugs_in_the_NeXus_API "wikilink").
+[NeXus bugzilla] (Application_Program_Interface.html#Reporting_Bugs_in_the_NeXus_API "wikilink").

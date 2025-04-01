@@ -88,8 +88,8 @@ Götz] (Andy_Gotz.html "wikilink").
         -   [ Monochromatic Neutron and X-ray Small-Angle
             Scattering](SAS.html "wikilink")
         -   Reflectometry
-        -   [Time-of-Flight\_Neutron\_Indirect\_Geometry\_Spectrometer](Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer.html "wikilink")
-        -   [Monochromatic\_Neutron\_and\_X-ray\_Triple-Axis\_Spectrometer](Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html "wikilink")
+        -   [Time-of-Flight\_Neutron\_Indirect\_Geometry\_Spectrometer] (Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer.html "wikilink")
+        -   [Monochromatic\_Neutron\_and\_X-ray\_Triple-Axis\_Spectrometer] (Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html "wikilink")
         -   [Time-of-Flight\_Neutron\_Powder\_Diffraction](Time-of-Flight_Neutron_Powder_Diffraction.html "wikilink")
         -   [Muon\_Time\_Differential](Muon_Time_Differential.html "wikilink")
         -   [MonoXPSD](MonoXPSD.html "wikilink") Monochromatic Single Crystal
@@ -154,11 +154,11 @@ Minutes
 
 Here are the minutes in [pdf
 format](../pdfs/NIAC2006LBL_minutes.pdf "wikilink") or [MS-Word
-format](NIAC2006LBL_minutes.doc "wikilink").
+format](../pdfs/NIAC2006LBL_minutes.doc "wikilink").
 
 Photos
 ------
 
 -   [ Group photos](NIAC2006LBL_photos.html "wikilink")
--   [ other photos](NIAC2006LBL_photos_other.html "wikilink")
+-   [ other photos] (NIAC2006LBL_photos_other.html "wikilink")
 

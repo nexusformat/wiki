@@ -19,7 +19,7 @@ and discussions from [TOFRawScan](TOFRawScan.html "wikilink"),
 In its broadest sense, a scan is a set of measurements where parameters
 have been varied in a systematic way. These separate measurements may
 all be stored in the same file (via an additional array dimension or
-additional separate [NXentry](NXentry.html "wikilink")), several files or a
+additional separate [NXentry] (NXentry.html "wikilink")), several files or a
 mixture of the two schemes.
 
 Issues

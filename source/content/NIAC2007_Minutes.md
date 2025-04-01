@@ -46,7 +46,7 @@ List of attendees
     orientation.
 -   Mark Koennecke mentioned that he had also prepared a talk on object
     orientation.
--   It was also noted that the [NXgeometry](NXgeometry.html "wikilink") class
+-   It was also noted that the [NXgeometry] (NXgeometry.html "wikilink") class
     supported boxes and cylinders.
 -   Nexus paper: Mark Koennecke noted that there is a publication on
     Nexus which appeared as part of the ICNS proceedings *Physica B
@@ -160,7 +160,7 @@ ACTION : Freddie Akeroyd to add missing TOF base class to SVN
 
 #### From 2006 ILL Meeting
 
--   Unassigned - [NXcharacterization](NXcharacterization.html "wikilink")
+-   Unassigned - [NXcharacterization] (NXcharacterization.html "wikilink")
     needs to be formalized and ratified - this has been repeated in \#11
 -   Unassigned - Synchronize the website definitions with those in cvs
     (the website are considered more correct) - this is formalized as an

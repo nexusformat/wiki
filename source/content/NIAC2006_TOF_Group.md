@@ -28,7 +28,7 @@ Summary of main proposals in [TOFRaw](TOFRaw.html "wikilink")
     data
 2.  Some thoughts about scans (now moved to
     [NXTOFRWSC](TOFRawScan.html "wikilink") and being considered by the
-    [Scanning Group](Scanning_Group.html "wikilink"))
+    [Scanning Group] (Scanning_Group.html "wikilink"))
 3.  General and Area detector specific NXdetector
 4.  Additional options for specifying pixel geometry with area detectors
     (edges, corners, etc.)
@@ -43,9 +43,9 @@ In all the definitions below we will leave out the Time-of-flight array
 index as what we are discussing is equally valid for non time-of-flight
 instruments. One new member of type NXgeometry called **origin** is
 introduced into all NXdetectors - this member is used to define a
-logical centre of the detector and its [NXshape](NXshape.html "wikilink")
+logical centre of the detector and its [NXshape] (NXshape.html "wikilink")
 member defines a bounding box for the whole detector bank/array. If the
-[NXgeometry](NXgeometry.html "wikilink") instance **geometry** within
+[NXgeometry] (NXgeometry.html "wikilink") instance **geometry** within
 NXdetector is used to specify pixel locations, it should be define
 positions relative to this detector origin.
 
@@ -71,22 +71,22 @@ have an NXdetector with the **layout** variable indicating the type
 ### NXgeometry revisited
 
 Before giving the definitions a quick recap of
-[NXgeometry](NXgeometry.html "wikilink") is in order. This class, through its
-members [NXtranslation](NXtranslation.html "wikilink"),
-[NXorientation](NXorientation.html "wikilink") and
-[NXshape](NXshape.html "wikilink"), allows the position, orientation and
+[NXgeometry](NXgeometry_and_NXshape_-_documentation_and_review.html "wikilink") is in order. This class, through its
+members [NXtranslation] (NXtranslation.html "wikilink"),
+[NXorientation] (NXorientation.html "wikilink") and
+[NXshape](NXgeometry_and_NXshape_-_documentation_and_review.html "wikilink"), allows the position, orientation and
 physical extent (size) of an object, or set of objects, to be specified.
 Translation and orientation can be relative i.e. with respect to an
 arbitrary origin whihc is just another
-[NXgeometry](NXgeometry.html "wikilink") object which defines a point in
+[NXgeometry](NXgeometry_and_NXshape_-_documentation_and_review.html "wikilink") object which defines a point in
 space and a set of default axes directions. When we write
 **NXgeometry\[i\]** in the definitions below we do not mean an array of
 NXgeometry object (which is not allowed by NeXus) - instead we are using
 this as shorthand for indexing the **numobj** array dimension the
-[NXtranslation](NXtranslation.html "wikilink"),
-[NXorientation](NXorientation.html "wikilink") and
-[NXshape](NXshape.html "wikilink") objects within the
-[NXgeometry](NXgeometry.html "wikilink")
+[NXtranslation] (NXtranslation.html "wikilink"),
+[NXorientation] (NXorientation.html "wikilink") and
+[NXshape] (NXgeometry_and_NXshape_-_documentation_and_review.html "wikilink") objects within the
+[NXgeometry] (NXgeometry_and_NXshape_-_documentation_and_review.html "wikilink")
 
 ### Type 1: Point Detector
 

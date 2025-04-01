@@ -11,7 +11,7 @@ constructed. They provide the glossary of items that could, in
 principle, be stored in a standard-conforming NeXus file (other items
 may be inserted into the file if the author wishes, but they won't be
 part of the standard). If you are going to include a particular piece of
-metadata, consult the [class definitions](Design.html "wikilink") to find out
+metadata, consult the [class definitions] (Design.html "wikilink") to find out
 what to call it. However, to assist those writing data analysis
 software, it is useful to provide more than a glossary; it is important
 to define the required contents of NeXus files that contain data from
@@ -54,7 +54,7 @@ official NeXus definitions
 -   [Generic Scanning Instrument](GenericScan.html "wikilink") Editor: [Mark
     Könnecke] (Mark_Koennecke.html "wikilink"), PSI
 -   [Monochromatic Neutron and X-ray Triple-Axis
-    Spectrometer](Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html "wikilink")
+    Spectrometer] (Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html "wikilink")
     Editor: [Nicholas Maliszewskyj] (Nickm.html "wikilink") (NIST
     Center for Neutron Research, USA).
 
@@ -74,7 +74,7 @@ place; however the definition has not yet been voted on by the
 -   [Monochromatic Neutron and X-ray Small Angle
     Scattering](SAS.html "wikilink") Editor: Ron Ghosh (Institut Laue
     Langevin, France).
--   [Processed Data](Processed_Data.html "wikilink") Editor: [Ray
+-   [Processed Data] (Processed_Data.html "wikilink") Editor: [Ray
     Osborn] (Ray_Osborn.html "wikilink") (Argonne National Laboratory,
     USA)
 -   [X-Ray Synchrotron Raw](XESraw.html "wikilink") Editor: [Stuart
@@ -96,11 +96,11 @@ into the *Proposed* category above.
         Editor: [Peter Peterson] (Pfpeterson.html "wikilink")
         (Spallation Neutron Source, USA).
     -   [Time-of-Flight Neutron Single Crystal
-        Diffractometer](Time-of-Flight_Neutron_Single_Crystal_Diffractometer.html "wikilink"),
+        Diffractometer] (Time-of-Flight_Neutron_Single_Crystal_Diffractometer.html "wikilink"),
         Editor: TBA
 -   Reflectometry
     -   [Time-of-Flight Neutron
-        Reflectometry](Time-of-Flight_Neutron_Reflectometry.html "wikilink"),
+        Reflectometry] (Time-of-Flight_Neutron_Reflectometry.html "wikilink"),
         Editor: Robert Dalgliesh (ISIS Pulsed Neutron and Muon Source,
         UK)
     -   [Monochromatic Neutron and X-ray
@@ -111,7 +111,7 @@ into the *Proposed* category above.
 -   Small-Angle Scattering
     -   Grazing Incidence Small-Angle X-ray Scattering, Editor: TBA
     -   [Time-of-Flight Small Angle
-        Scattering](Time-of-Flight_Small_Angle_Scattering.html "wikilink"),
+        Scattering] (Time-of-Flight_Small_Angle_Scattering.html "wikilink"),
         Editor: Stephen King (ISIS Pulsed Neutron and Muon Source, UK)
     -   Ultra-Small-Angle Neutron Scattering, Editor: TBA
     -   Ultra-Small-Angle X-ray Scattering, Editor: [User%3APete
@@ -119,16 +119,16 @@ into the *Proposed* category above.
         USA)
 -   Spectrometers
     -   [Time-of-Flight Neutron Direct Geometry
-        Spectrometer](Time-of-Flight_Neutron_Direct_Geometry_Spectrometer.html "wikilink"),
+        Spectrometer] (Time-of-Flight_Neutron_Direct_Geometry_Spectrometer.html "wikilink"),
         Editor: Toby Perring (ISIS Pulsed Neutron and Muon Source, UK)
     -   [Time-of-Flight Neutron Indirect Geometry
-        Spectrometer](Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer.html "wikilink"),
+        Spectrometer] (Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer.html "wikilink"),
         Editor: Martyn Bull (ISIS Pulsed Neutron and Muon Source, UK)
     -   XAS: X-ray Absorption Spectroscopy
     -   XPCS: X-ray Photon Correlation Spectroscopy
 -   Spin-Echo
-    -   [Neutron Spin Echo](Neutron_Spin_Echo.html "wikilink"), Editor:
+    -   [Neutron Spin Echo] (Neutron_Spin_Echo.html "wikilink"), Editor:
         Robert Georgii (FRM-II, Germany)
     -   [Time-of-Flight Neutron Spin
-        Echo](Time-of-Flight_Neutron_Spin_Echo.html "wikilink"), Editor: TBA
+        Echo] (Time-of-Flight_Neutron_Spin_Echo.html "wikilink"), Editor: TBA
 

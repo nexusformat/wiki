@@ -7,7 +7,7 @@ Storing Event Data
 ==================
 
 This discussion concerns a proposal from [NIAC2008](NIAC2008.html "wikilink")
-to rename [NXevent\_data](NXevent_data.html "wikilink") as NXtofevent\_data.
+to rename [NXevent\_data] (NXevent_data.html "wikilink") as NXtofevent\_data.
 When this proposal was passed to the full committee, a number of issues
 were raised and it was decided that a further round of discussion was
 required.
@@ -21,7 +21,7 @@ REASONS FOR
 -----------
 
 -   NXtofevent\_data better describes the content of the object, given
-    that [NXevent\_data](NXevent_data.html "wikilink") has a
+    that [NXevent\_data] (NXevent_data.html "wikilink") has a
     “time\_of\_flight” member
 
 REASONS AGAINST

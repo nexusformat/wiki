@@ -27,14 +27,14 @@ as soon as possible.
 Please add suggestions for agenda items here in [ bullet
 form]((Editing#Lists.html "wikilink"). If you want to add extended
 comments concerning any agenda item, please use this Wiki page's 
-[ Talk Page](NIAC_Meetings.html "wikilink").
+[ Talk Page] (NIAC_Meetings.html "wikilink").
 
 -   Welcome and Introduction
 -   Review of NIAC'2005 minutes
 -   [Renew members](Membership_Dates.html "wikilink")
 -   Add additional member - Pete Jemian Advanced Photon Source, USA
 -   Elect [chair and executive
-    secretary](Nominees_for_officers.html "wikilink") - effective at the end
+    secretary] (Nominees_for_officers.html "wikilink") - effective at the end
     of the meeting
 -   Amend constitution to state that all officers, including technical
     chair, are elected at each meeting, effective at the end of the
@@ -96,7 +96,7 @@ Such groups might be
 -   prototype treated data 1D,2D data
 -   rebinning, constant (Q,w)
 
-**[Synchrotron\_Group](Synchrotron_Group.html "wikilink") (Andy Götz)**
+**[Synchrotron\_Group] (Synchrotron_Group.html "wikilink") (Andy Götz)**
 
 -   this group will meet separately on the second and third days, and
     may be expected to offer objective feedback and criticism on the
@@ -212,10 +212,10 @@ ILL directors, and one is invited to the opening of the meeting.
 
 ### Working Groups
 
--   [Synchrotron\_Group](Synchrotron_Group.html "wikilink") (Andy Götz)
--   [TOF Group](TOF_Group.html "wikilink") (Freddie Akeroyd)
--   [Scanning Group](Scanning_Group.html "wikilink") (Paul Kienzle)
+-   [Synchrotron\_Group] (Synchrotron_Group.html "wikilink") (Andy Götz)
+-   [TOF Group] (TOF_Group.html "wikilink") (Freddie Akeroyd)
+-   [Scanning Group] (Scanning_Group.html "wikilink") (Paul Kienzle)
 -   [Technical Computing/API
-    Group](Technical_Computing/API_Group.html "wikilink") (Nick Maliszewskyj)
+    Group] (Technical_Computing/API_Group.html "wikilink") (Nick Maliszewskyj)
 -   [Small-Angle Scattering Group](SAS.html "wikilink") (Ron Ghosh)
 

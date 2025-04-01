@@ -18,7 +18,7 @@ NIAC2006LBL RoadMap
             Diffractometer with Position Sensitive Detector
         -   [MonoXSingle](MonoXSingle.html "wikilink") Monochromatic Single
             Crystal Diffractometer with Single Detector
-    -   [Monochromatic\_Neutron\_and\_X-ray\_Triple-Axis\_Spectrometer](Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html "wikilink")
+    -   [Monochromatic\_Neutron\_and\_X-ray\_Triple-Axis\_Spectrometer] (Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html "wikilink")
     -   [Archive\_Definition](Archive_Definition.html "wikilink")
 
 <!-- -->
@@ -32,7 +32,7 @@ NIAC2006LBL RoadMap
 <!-- -->
 
 -   priority 3
-    -   [Time-of-Flight\_Neutron\_Indirect\_Geometry\_Spectrometer](Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer.html "wikilink")
+    -   [Time-of-Flight\_Neutron\_Indirect\_Geometry\_Spectrometer] (Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer.html "wikilink")
     -   Time-of-Flight Neutron Direct Geometry Spectrometer
 
 <!-- -->

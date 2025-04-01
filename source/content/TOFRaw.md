@@ -477,7 +477,7 @@ of the individual detectors that have been ganged together. An initial
 proposal was that these additional arrays would be stored with the
 “\_unganged” suffix e.g. “Polar\_angle\_unganged”, “distance\_unganged”,
 “detector\_number\_unganged”. However after discussions of [TOF
-Group](TOF_Group.html "wikilink") if was decided to move these arrays into a
+Group] (TOF_Group.html "wikilink") if was decided to move these arrays into a
 substructure of NXdetector so we would have NXdetector.polar\_angle and
 NXdetector.distance for the ganed values;
 NXdetector.unganged.polar\_angle and NXdetector.unganged.distance for

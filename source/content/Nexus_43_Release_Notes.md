@@ -14,7 +14,7 @@ page](http://download.nexusformat.org/kits/nx43testing.shtml). Issues
 reported with this release [can be found
 here](http://trac.nexusformat.org/code/query?status=new&status=assigned&status=reopened&status=closed&version=4.3.0-rc1&order=priority)
 and results to testing on
-[NeXus\_43\_Testing](NeXus_43_Testing.html "wikilink")
+[NeXus\_43\_Testing] (NeXus_43_Testing.html "wikilink")
 
 New Features
 ------------

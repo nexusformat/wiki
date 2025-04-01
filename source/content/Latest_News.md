@@ -38,7 +38,7 @@ A [NeXus code camp](NIAC2012.html "wikilink") happened 18th / 19th September 201
 See [ NIAC: meetings](NIAC.html#Meetings "wikilink") for historical
 information about the NIAC meetings and Code Camps.
 
-Wednesday, March 6, 2012: Release candidates for NeXus 4.3 are now available from [NeXus\_43\_Testing](NeXus_43_Testing.html "wikilink")  
+Wednesday, March 6, 2012: Release candidates for NeXus 4.3 are now available from [NeXus\_43\_Testing] (NeXus_43_Testing.html "wikilink")  
 
 2010
 ----
@@ -70,7 +70,7 @@ Tuesday, March 9, 2010: A [NeXus Workshop](Workshop_PSI_2010.html "wikilink") wi
 
 <!-- -->
 
-Thursday, February 25, 2010: NeXus API 4.2 Release Candidate 5 (candidate for 4.2.1) is now [available for testing](NeXus_42_Testing.html "wikilink")  
+Thursday, February 25, 2010: NeXus API 4.2 Release Candidate 5 (candidate for 4.2.1) is now [available for testing] (NeXus_42_Testing.html "wikilink")  
 
 2009
 ----
@@ -80,8 +80,8 @@ Tuesday, May 5, 2009: [NeXus API 4.2.0 released](http://lists.nexusformat.org/pi
 2008
 ----
 
-Wednesday, December 3, 2008:NeXus API 4.2 Release Candidate 2 (candidate for 4.2.0) is now [available for testing](NeXus_42_Testing.html "wikilink")  
-Wednesday, August 27, 2008:Work is currently in progress to convert NeXus definitions from [Meta-DTDs](Metaformat.html "wikilink") into [XML Schema](http://www.w3.org/XML/Schema) - for more details see the [NeXus schema](Schema.html "wikilink") page.  
+Wednesday, December 3, 2008:NeXus API 4.2 Release Candidate 2 (candidate for 4.2.0) is now [available for testing] (NeXus_42_Testing.html "wikilink")  
+Wednesday, August 27, 2008:Work is currently in progress to convert NeXus definitions from [Meta-DTDs](Metaformat.html "wikilink") into [XML Schema](http://www.w3.org/XML/Schema) - for more details see the [NeXus schema] (Schema.html "wikilink") page.  
 
 2007
 ----
@@ -96,7 +96,7 @@ Source code, binary packages, and example code can be downloaded from
 
 <!-- -->
 
-Tuesday, September 11, 2007: The upcoming 4.1 release of the NeXus API is now undergoing testing. More details can be found on the [testing site](NeXus_41_Testing.html "wikilink") as well as [provisional release notes](Nexus_41_Release_Notes.html "wikilink")  
+Tuesday, September 11, 2007: The upcoming 4.1 release of the NeXus API is now undergoing testing. More details can be found on the [testing site] (NeXus_41_Testing.html "wikilink") as well as [provisional release notes](Nexus_41_Release_Notes.html "wikilink")  
 
 <!-- -->
 
@@ -119,14 +119,14 @@ Notes](http://trac.nexusformat.org/code/browser/tags/4.0.0/NEWS)
 
 <!-- -->
 
-Friday, March 16, 2007: The upcoming 4.0 release of the NeXus API is now undergoing testing. More details can be found on the [testing site](NeXus_4_Testing.html "wikilink") as well as [provisional release notes](Nexus_4_Release_Notes.html "wikilink")  
+Friday, March 16, 2007: The upcoming 4.0 release of the NeXus API is now undergoing testing. More details can be found on the [testing site] (NeXus_4_Testing.html "wikilink") as well as [provisional release notes](Nexus_4_Release_Notes.html "wikilink")  
 
 2006
 ----
 
 Thursday, December 7, 2006: Site updated to MediaWiki 1.8.2  
 Tuesday, November 28, 2006: A NeXus install kit for Microsoft Windows is [now available](http://download.nexusformat.org/kits/windows) The kit includes the standard NeXus applications as well as libraries for building applications with both [MinGW](http://www.mingw.org/) and Microsoft Visual Studio.  
-Tuesday, November 21, 2006: The NeXus [MailingLists](mailinglist.html "wikilink") have been moved to a [new server](http://lists.nexusformat.org). Future postings should be made to *listname*@nexusformat.org rather than to *listname*@anl.gov  
+Tuesday, November 21, 2006: The NeXus [MailingLists] (mailinglist.html "wikilink") have been moved to a [new server](http://lists.nexusformat.org). Future postings should be made to *listname*@nexusformat.org rather than to *listname*@anl.gov  
 Tuesday, September 26, 2006: The NeXus WIKI has been moved to new site at [<https://www.nexusformat.org/>](https://www.nexusformat.org/) and updated to MediaWiki 1.7.1  
 
 2005

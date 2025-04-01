@@ -29,7 +29,7 @@ Current Discussions
     files](file_id_attribute_for_Nexus_files.html "wikilink")
 -   [Scaled Data](Scaled_Data.html "wikilink")
 -   [NXmonochromator and
-    inheritance](NXmonochromator_and_inheritance.html "wikilink")
+    inheritance] (NXmonochromator_and_inheritance.html "wikilink")
 
 Coma Discussions
 ----------------
@@ -39,7 +39,7 @@ These are issues which have not been attended too for a long time.
 -   [Containers and
     Inheritance](Containers_and_Inheritance.html "wikilink") - XLST and
     Reusable definitions
--   [Units](Units.html "wikilink")
+-   [Units] (Units.html "wikilink")
 
 Closed Discussions
 ------------------
@@ -53,7 +53,7 @@ Closed Discussions
     a proposal for the 2014 NIAC meeting
 -   [Proposal: NeXus
     Coordinates](Proposal_NeXus_Coordinates.html "wikilink")
--   [Coordinate Systems](Coordinate_Systems.html "wikilink")
+-   [Coordinate Systems] (Coordinate_Systems.html "wikilink")
 -   [Extension of NeXus Coordinate
     Systems](Extension_of_NeXus_Coordinate_Systems.html "wikilink")
 -   [Indirect Time-of-Flight and
@@ -67,7 +67,7 @@ Closed Discussions
     -   [ConcordanceDiscussion](ConcordanceDiscussion.html "wikilink")
 -   [Connecting NXdata to
     NXdetector](Connecting_NXdata_to_NXdetector.html "wikilink")
--   [Double Linking](Double_Linking.html "wikilink")
+-   [Double Linking] (Double_Linking.html "wikilink")
 -   [NXmeasurement](NXmeasurement.html "wikilink")
 -   [Proposal: NeXus Errors](Proposal_NeXus_Errors.html "wikilink")
 -   [Storing Event Data](Storing_Event_Data.html "wikilink")

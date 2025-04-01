@@ -48,7 +48,7 @@ two theta between analyzer and detector into the tilt angle.
 ------------------------------------------------------------------------
 
 May be I am just confused about [Coordinate
-Systems](Coordinate_Systems.html "wikilink") here. ----
+Systems] (Coordinate_Systems.html "wikilink") here. ----
 
 ------------------------------------------------------------------------
 
