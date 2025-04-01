@@ -23,7 +23,7 @@ definition comes from discussions between [SNS](https://neutrons.ornl.gov/sns/),
 in having a unified base for all instruments to allow for low level
 instrument debugging tools to be used, without change, in a given
 facility. Further discussions occured in the [TOF Breakout Group at NIAC
-2006](TOF_Group.html "wikilink")
+2006](NIAC2006_TOF_Group.html "wikilink")
 
 An example file is available in [HDF4
 (2MB)](http://download.nexusformat.org/TOFRAW/examples/hrp08639.nx4),
