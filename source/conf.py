@@ -118,9 +118,6 @@ suppress_warnings = [
     'myst.crossref.target_not_found',
     'myst.header',
 ]
-
-
-
 # html_extra_path = ['pdfs']
 
 def setup(app):

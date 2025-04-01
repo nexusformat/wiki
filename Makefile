@@ -5,7 +5,7 @@
 
 PYTHON = python3
 SPHINX = sphinx-build
-BUILD_DIR = build
+BUILD_DIR = _build
 
 .PHONY: help install clean html all local
 
@@ -27,7 +27,7 @@ help ::
 	@echo ""
 
 install ::
-	$(PYTHON) -m pip install -r requirements.txt
+	$(PYTHON) -m pip install -r ./source/requirements.txt
 
 clean ::
 	$(RM) -rf ./source/$(BUILD_DIR)
@@ -43,7 +43,7 @@ local ::
 all ::
 	$(MAKE) clean
 	$(MAKE) html
-	@echo "HTML built: `ls -lAFgh source/build/html/index.html`"
+	@echo "HTML built: `ls -lAFgh source/_build/html/index.html`"
 
 
 

@@ -8,11 +8,9 @@ sphinx>=5
 sphinx-tabs
 sphinx-toolbox
 chios
-myst-parser
 linkify-it-py
+myst-parser>=4.0.1
 
-# Testing
-pytest
 
 # Code style and auto-formatting
 black>=22.3
