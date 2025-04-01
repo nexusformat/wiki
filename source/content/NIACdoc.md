@@ -55,3 +55,9 @@ LGPL licence
 NIAC 2012??: obviously we decided in some stage to provide the
 documentation in Restructured Text and use sphinx for generating
 documents. This, however, I either missed or was not properly recorded.
+
+NIAC 2024:  [issue 1472](https://github.com/nexusformat/definitions/issues/1472>) was created in *definitions* repo to Harmonize the NeXus web pages so that the Wiki would look and feel like the [NeXus manual](https://manual.nexusformat.org/user_manual.html).
+1. [Issue 11](https://github.com/nexusformat/wiki/issues/11) in the [wiki repository](https://github.com/nexusformat/wiki) was created to address this.
+2. Wiki now built with sphinx.
+3. Wiki documents will be kept as markdown files and sphinx will translate to html during build.
+4. NeXus logos in wiki linked from [NIAC repository](https://github.com/nexusformat/NIAC)
