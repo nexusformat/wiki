@@ -17,7 +17,7 @@ them as properties of the data. Now, this limitation of HDF has since
 long fallen. Moreover there are a number of use cases which are not well
 covered by what we do today. Thus this page describes how to improve.
 Discussion comments should be placed on the [
-discussion](Talk:Associating_Axes_with_Data.html "wikilink") page.
+discussion](Associating_Axes_with_Data.html "wikilink") page.
 
 ### Requirements
 

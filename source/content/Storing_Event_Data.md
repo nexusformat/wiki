@@ -13,7 +13,7 @@ were raised and it was decided that a further round of discussion was
 required.
 
 Please comment on the proposals below on the [discussion
-page](Talk:Storing_Event_Data.html "wikilink")
+page](Storing_Event_Data.html "wikilink")
 
 Listed below are some of the main reasons cited for and against:
 

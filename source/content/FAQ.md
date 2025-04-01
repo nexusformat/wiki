@@ -8,7 +8,7 @@ FAQ
 
 This is a list of commonly asked questions concerning the NeXus data
 format. If you wish to suggest any more questions to include on this
-page, please visit the [discussion page](Talk:FAQ.html "wikilink") and add an
+page, please visit the [discussion page](FAQ.html "wikilink") and add an
 entry.
 
 How many facilities use NeXus

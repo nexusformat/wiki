@@ -27,7 +27,7 @@ as soon as possible.
 Please add suggestions for agenda items here in [ bullet
 form](Help:Editing#Lists.html "wikilink"). If you want to add extended
 comments concerning any agenda item, please use this Wiki page's [ Talk
-Page](Talk:NIAC_Meetings.html "wikilink").
+Page](NIAC_Meetings.html "wikilink").
 
 -   Welcome and Introduction
 -   Review of NIAC'2005 minutes
