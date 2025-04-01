@@ -69,6 +69,6 @@ Closed Discussions
     NXdetector](Connecting_NXdata_to_NXdetector.html "wikilink")
 -   [Double Linking](Double_Linking.html "wikilink")
 -   [NXmeasurement](NXmeasurement.html "wikilink")
--   [Proposal: NeXus Errors](Proposal:_NeXus_Errors.html "wikilink")
+-   [Proposal: NeXus Errors](Proposal_NeXus_Errors.html "wikilink")
 -   [Storing Event Data](Storing_Event_Data.html "wikilink")
 -   [NXdetector documentation](NXdetector_documentation.html "wikilink")
