@@ -15,7 +15,7 @@ this meeting.
 Planned Schedule (subject to change)
 ------------------------------------
 
-<img src="2014-CodeCamp-Schedule-MTW.png" title="2014-CodeCamp-Schedule-MTW.png" alt="2014-CodeCamp-Schedule-MTW.png" width="600" />
+![2014-CodeCamp-Schedule-MTW.png](2014-CodeCamp-Schedule-MTW.png "2014-CodeCamp-Schedule-MTW.png")
 
 Topics to be Considered
 -----------------------
@@ -27,7 +27,7 @@ Walk through
 -   [Issues](https://github.com/nexusformat/definitions/issues) posted
     on the [NeXus GitHub](https://github.com/nexusformat) repository
 -   Proposals and other topics listed on the
-    [Discussions](Discussions.html "wikilink") page
+    [Discussions] (Discussions.html "wikilink") page
 -   Close issues that are of minor importance and not of particular
     concern to anybody and not likely to be resolved any soon.
 
