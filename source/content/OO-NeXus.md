@@ -47,7 +47,7 @@ NeXus-API and object oriented definitions:
 This means to perform a full object oriented analysis of the NeXus base
 classes using polymorphism and inheritance. This was suggested by Darren
 Kelly at the NIAC meeting 2006 at ILL. An example of a [possible class
-hierarchy](media:NeXusOBJ.pdf.html "wikilink") was given by Mark Koennecke at
+hierarchy](../pdfs/NeXusOBJ.pdf "wikilink") was given by Mark Koennecke at
 the NIAC meeting 2007 at HMI. There are some advantages to this
 approach:
 
