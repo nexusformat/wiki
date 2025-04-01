@@ -8,7 +8,7 @@ Design Issues
 
 If you have a specific subject concerning the NeXus format design,
 please add it to the following list and start a new page (see the [help
-pages](Help:Contents.html "wikilink") for instructions on adding new pages).
+pages]((Contents.html "wikilink") for instructions on adding new pages).
 If you want others to participate, you should announce the new
 discussion on the [NeXus Mailing
 List](http://lists.nexusformat.org/mailman/listinfo/nexus).

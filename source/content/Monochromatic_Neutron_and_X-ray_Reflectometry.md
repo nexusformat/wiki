@@ -7,7 +7,7 @@ Monochromatic Neutron and X-ray Reflectometry
 =============================================
 
 **Please add comments to the discussion tab of this page and [sign
-them](Help:Contents#Signatures.html "wikilink")**
+them]((Contents#Signatures.html "wikilink")**
 
 This proposed instrument definition adds a new class (NXspin) and also
 incorporates a few additions to existing base classes.

@@ -45,7 +45,7 @@ compilation).
 
 Some common usages are:
 
--   Print the online help:
+-   Print the online (
         nxdir --help
 
 -   List the everything at the root level of the file:
