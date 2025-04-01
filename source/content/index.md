@@ -3,7 +3,8 @@ permalink: index.html
 layout: page
 ---
 
-![NeXus Logo](https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg)
+[//]: # (![NeXus Logo]&#40;https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg&#41;)
+<img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus Logo" width="500">
 
 About the NeXus Data Format
 ===========================
