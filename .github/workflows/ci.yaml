@@ -59,9 +59,9 @@ jobs:
       - name: Build Wiki
         run: |
           make html
-          ls -lAFgh source/build/html/index.html
-          mkdir -p build
-          mv source/build/html/* build
+          ls -lAFgh source/_build/html/index.html
+          mkdir -p docs
+          rsync -av --delete source/_build/html/ docs/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
@@ -69,6 +69,7 @@ jobs:
         with:
           publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: build/
+          #publish_dir: source/_build/html/
+          publish_dir: docs
           force_orphan: true
 
