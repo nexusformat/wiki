@@ -3,8 +3,8 @@ title: Japinotes
 permalink: Japinotes.html
 layout: wiki
 ---
-Japinotes
-=========
+Japi notes
+==========
 
 The NeXus API for Java
 ======================

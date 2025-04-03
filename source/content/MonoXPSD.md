@@ -3,8 +3,8 @@ title: MonoXPSD
 permalink: MonoXPSD.html
 layout: wiki
 ---
-MonoXPSD
-========
+Mono XPSD
+=========
 
 Monochromatic Single Crystal Diffractometer with Position Sensitive Detector
 ----------------------------------------------------------------------------

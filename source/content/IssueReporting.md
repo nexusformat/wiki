@@ -3,8 +3,8 @@ title: IssueReporting
 permalink: IssueReporting.html
 layout: wiki
 ---
-IssueReporting
-==============
+Issue Reporting
+===============
 
 NeXus Instrument/Base Class Definitions
 ---------------------------------------

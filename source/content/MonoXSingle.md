@@ -3,8 +3,8 @@ title: MonoXSingle
 permalink: MonoXSingle.html
 layout: wiki
 ---
-MonoXSingle
-===========
+MonoX Single
+============
 
 Monochromatic Single Crystal Diffractometer with Single Detector
 ----------------------------------------------------------------

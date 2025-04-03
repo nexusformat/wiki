@@ -6,9 +6,6 @@ layout: wiki
 Linking External Files
 ======================
 
-Linking External Files
-----------------------
-
 This discussion is on how to access external files from within a given
 NeXus files. This defeats one guiding principle of NeXus: to have
 everything in one file, somewhat. However, having everything in one file

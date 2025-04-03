@@ -6,9 +6,6 @@ layout: wiki
 Monochromatic Neutron and X-ray Single Crystal Diffractometer
 =============================================================
 
-Monochromatic Neutron and X-Ray Single Crystal Diffractometer
--------------------------------------------------------------
-
 This is the instrument definition for a single crystal diffractometer at
 a monochromatic beam port, be it X-ray or neutrons. A eulerian cradle is
 assumed as the sample positioner. However, with the exchange of a few
