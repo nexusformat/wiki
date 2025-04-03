@@ -74,9 +74,18 @@ such a sense. The following sections provide some possible definitions
 of these primitives along with the layout of their parameters stored in
 the *size* attribute of *NXshape*.
 
-<File:nxflat_image.png> | Shape and coordinate frame for an *nxflat*
-<File:Nxcylinder.png> | An *nxcylinder* in its local frame
-<File:Nxbox_image.png> | An *nxbox* in its local frame
+![Nxflat_image](Nxflat_image.png) 
+
+Shape and coordinate frame for an *nxflat*
+
+![Nxcylinder](Nxcylinder.png) 
+
+An *nxcylinder* in its local frame
+
+![Nxbox_image](Nxbox_image.png) 
+
+An *nxbox* in its local frame
+
 
 #### nxflat
 
@@ -105,10 +114,17 @@ axis of the cylinder.
 
 `NXshape::size[3] = {length,width,height}`
 
-<File:nxsphere_image.png> | Shape and coordinate frame for an *nxsphere*
-<File:nxcone.png> | Shape and coordinate frame for an *nxsphere*
-<File:nxeliptical_image.png> | Shape and coordinate frame for an
-*nxelliptical*
+![nxsphere](Nxsphere_image.png) 
+
+Shape and coordinate frame for an *nxsphere*
+
+![nxcone](Nxcone.png)  
+
+Shape and coordinate frame for an *nxsphere*
+
+![nxeliptical](Nxeliptical_image.png) 
+
+Shape and coordinate frame for an *nxelliptical* 
 
 #### nxsphere
 
@@ -128,9 +144,19 @@ tip of the cylinder (no direction cosines or something else fancy).
 I have no idea what the other two parameters *pole* and *angle of major
 axis* are good for. Maybe we can drop them.
 
-<File:nxtoroidal.png> | Shape and coordinate frame for an *nxtoroidal*
-<File:nxparabolic.png> | Shape and coordinate frame for an *nxparabolic*
-<File:nxpolynomial.png> | Shape and coordinate frame for an
+![nxtoroidal](Nxtoroidal.png) 
+
+Shape and coordinate frame for an *nxtoroidal*
+
+![nxparabolic](Nxparabolic.png) 
+
+Shape and coordinate frame for an *nxparabolic*
+
+
+![nxpolynomial](Nxpolynomial.png) 
+
+Shape and coordinate frame for an
+
 *nxpolynomial*
 
 #### nxtoroidal

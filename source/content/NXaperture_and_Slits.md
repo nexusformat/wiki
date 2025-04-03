@@ -30,7 +30,7 @@ Introducing new classes
 #### Pinholes - *NXpinhole*
 
 ![c|A pinhold in the
-beam.](pinhole_2.png "fig:c|A pinhold in the beam.") Pinholes are most
+beam.](Pinhole_2.png "fig:c|A pinhold in the beam.") Pinholes are most
 probably the simplest apertures available. The only parameter of
 importance is the diameter of the pinhole and its position with respect
 to the beam (as shown in the image). From this sketch one could easily
@@ -46,7 +46,7 @@ transformations to position the center of the pinhole.
 
 #### Slits - *NXslit*
 
-![A four-blade slit system.](slit.png "fig:A four-blade slit system.")
+![A four-blade slit system.](Slit.png "fig:A four-blade slit system.")
 Two or four blade slits are the most common apertures used at
 synchrotrons. In this example a 4-blade slit is shown. The most
 important parameter for such a system is the size of the aperture
