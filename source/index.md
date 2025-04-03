@@ -104,9 +104,7 @@ content/NIAC2008_attendees.md
 content/NIAC2008.md
 content/NIAC2009.md
 content/NIAC2010.md
-content/NIAC2011_CodeCamp.md
 content/NIAC2012.md
-content/NIAC2014_CodeCamp.md
 content/NIAC2014.md
 content/NIAC2014_Meeting.md
 content/NIAC2016.md
