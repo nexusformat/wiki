@@ -32,31 +32,18 @@ copyright = '2025, nexus'
 author = 'nexus'
 release = '1'
 
-# # The full version, including alpha/beta/rc tags
-# version = u'unknown NXDL version'
-# release = u'unknown NXDL release'
-# nxdl_version = open('../../NXDL_VERSION').read().strip()
-# if nxdl_version is not None:
-#     version = nxdl_version.split('.')[0]
-#     release = nxdl_version
-#
-#
 # -- General configuration ---------------------------------------------------
-
-# https://github.com/nexusformat/definitions/issues/659#issuecomment-577438319
 needs_sphinx = '2.3'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx_toolbox.collapse',
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
     'sphinx.ext.todo',
-    'sphinx_tabs.tabs',
     'contrib_ext',
     'myst_parser',
 ]
@@ -82,6 +69,9 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 html_theme = 'sphinxdoc'
+html_title = ''
+# Disable the generation of genindex.html
+html_use_index = False
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -95,7 +85,6 @@ html_file_suffix = ".html"
 html_sidebars = {
     '**': [
         'localtoc.html',
-        'relations.html',
         'sourcelink.html',
         'searchbox.html',
         'google_search.html',
