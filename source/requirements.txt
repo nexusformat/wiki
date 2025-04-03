@@ -4,10 +4,6 @@ pyyaml
 nyaml
 
 # Documentation building
-sphinx>=5
-sphinx-tabs
-sphinx-toolbox
-chios
 linkify-it-py
 myst-parser>=4.0.1
 
