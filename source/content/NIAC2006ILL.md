@@ -25,7 +25,7 @@ as soon as possible.
 ### Proposed Agenda
 
 Please add suggestions for agenda items here in [ bullet
-form]((Editing#Lists.html "wikilink"). If you want to add extended
+form] (Editing#Lists.html "wikilink"). If you want to add extended
 comments concerning any agenda item, please use this Wiki page's 
 [ Talk Page] (NIAC_Meetings.html "wikilink").
 
