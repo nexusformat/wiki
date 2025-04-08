@@ -6,530 +6,2643 @@ certain conditions. Look at the file `LICENSE' within this distribution.
 Read the documentation at https://linkchecker.github.io/linkchecker/
 Write comments and bugs to https://github.com/linkchecker/linkchecker/issues
 
-Start checking at 2025-04-01 12:11:31-006
+Start checking at 2025-04-08 09:08:53-006
 
-URL        `NIAC2024_minutes.md'
-Name       `NIAC2024 minutes'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2024.html, line 95, col 4
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2024_minutes.md
-Check time 0.008 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2024_minutes.md'>
+URL        `http://www.cansas.org/formats/canSAS2012/1.0/doc/'
+Name       `canSAS standard for storing multidimensional reduced\nsmall-angle scattering\ndata'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/2014_axes_and_uncertainties.html, line 47, col 22
+Real URL   https://www.cansas.org/formats/canSAS2012/1.0/doc/
+Check time 3.173 seconds
+Size       5KB
+Info       Redirected to
+           `https://www.cansas.org/formats/canSAS2012/1.0/doc/'.
+Result     Error: 404 Not Found
 
-URL        `NIAC2022_minutes.md'
-Name       `NIAC2022 minutes'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2022.html, line 75, col 4
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2022_minutes.md
-Check time 0.002 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2022_minutes.md'>
+URL        `http://www.cansas.org/formats/canSAS2012/1.0/doc/implementation.html#algorithm-to-identify-values-given-a-set-of-indices-on-the-i-data'
+Name       `related\naxes'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/2014_axes_and_uncertainties.html, line 50, col 21
+Real URL   https://www.cansas.org/formats/canSAS2012/1.0/doc/implementation.html#algorithm-to-identify-values-given-a-set-of-indices-on-the-i-data
+Check time 3.472 seconds
+Size       5KB
+Info       Redirected to
+           `https://www.cansas.org/formats/canSAS2012/1.0/doc/implementation.html#algorithm-to-identify-values-given-a-set-of-indices-on-the-i-data'.
+Result     Error: 404 Not Found
 
-URL        `NIAC2012#Meeting_Minutes.html'
-Name       `minutes'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC.html, line 218, col 2
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2012
-Check time 0.009 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2012'>
+URL        `http://www.cells.es'
+Name       `Alba'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Facilities.html, line 62, col 61
+Real URL   http://www.cells.es
+Check time 0.291 seconds
+Result     Error: ConnectionError: HTTPConnectionPool(host='www.cells.es', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6de0dcc150>: Failed to establish a new connection: [Errno 11...
 
-URL        `NIAC2011_CodeCamp#Final_Report.html'
-Name       `minutes'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC.html, line 221, col 2
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2011_CodeCamp
-Check time 0.003 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2011_CodeCamp'>
+URL        `http://www.diamond.ac.uk'
+Name       `Diamond'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Facilities.html, line 58, col 174
+Real URL   https://www.diamond.ac.uk/
+Check time 0.437 seconds
+Info       Redirected to `https://www.diamond.ac.uk/'.
+Result     Error: 403 Forbidden
 
-URL        `Coordinate_Systems.html'
-Name       `Coordinate_Systems'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/FAQ.html, line 165, col 1
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Coordinate_Systems.html
-Check time 0.002 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Coordinate_Systems.html'>
+URL        `http://lansce.lanl.gov/lujan'
+Name       `Los Alamos National Laboratory'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Facilities.html, line 70, col 45
+Real URL   http://lansce.lanl.gov/lujan
+Check time 0.276 seconds
+Result     Error: ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 
-URL        `2014-CodeCamp-Schedule-MTW.png'
-Name       `2014-CodeCamp-Schedule-MTW.png'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2014_CodeCamp.html, line 58, col 1
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/2014-CodeCamp-Schedule-MTW.png
-Check time 0.006 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/2014-CodeCamp-Schedule-MTW.png'>
+URL        `http://www.cansas.org/formats/canSAS2012/1.0/doc/examples.html#representing-uncertainty-components'
+Name       `http://www.cansas.org/formats/canSAS2012/1.0/doc/examples.html#representing-uncertainty-components'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/2014_axes_and_uncertainties.html, line 182, col 1
+Real URL   https://www.cansas.org/formats/canSAS2012/1.0/doc/examples.html#representing-uncertainty-components
+Check time 6.718 seconds
+Size       5KB
+Info       Redirected to
+           `https://www.cansas.org/formats/canSAS2012/1.0/doc/examples.html#representing-uncertainty-components'.
+Result     Error: 404 Not Found
 
-URL        `Discussions.html'
-Name       `Discussions'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2014_CodeCamp.html, line 68, col 1
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Discussions.html
-Check time 0.002 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Discussions.html'>
+URL        `http://www.cansas.org/formats/canSAS2012/1.0/doc/framework.html#index-5'
+Name       `uncertainties'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/2014_axes_and_uncertainties.html, line 53, col 1
+Real URL   https://www.cansas.org/formats/canSAS2012/1.0/doc/framework.html#index-5
+Check time 8.257 seconds
+Size       5KB
+Info       Redirected to
+           `https://www.cansas.org/formats/canSAS2012/1.0/doc/framework.html#index-5'.
+Result     Error: 404 Not Found
 
-URL        `NIAC#Terms_of_Reference.html'
-Name       `Terms of Reference'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2014_Meeting.html, line 76, col 28
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC
-Check time 0.004 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC'>
+URL        `http://www.ill.eu/instruments-support/computing-for-science/cs-software/all-software/lamp/'
+Name       `LAMP'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Facilities.html, line 76, col 709
+Real URL   https://www.ill.eu/instruments-support/computing-for-science/cs-software/all-software/lamp/
+Check time 1.265 seconds
+Info       Redirected to
+           `https://www.ill.eu/instruments-support/computing-for-science/cs-software/all-software/lamp/'.
+Result     Error: 404 Not Found
 
-URL        `TOF_Group.html'
-Name       `TOF Breakout Group at NIAC\n2006'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/TOFRaw.html, line 65, col 46
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/TOF_Group.html
-Check time 0.006 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/TOF_Group.html'>
+URL        `http://www.europeanspallationsource.se'
+Name       `ESS'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Facilities.html, line 84, col 39
+Real URL   http://www.europeanspallationsource.se
+Check time 0.223 seconds
+Result     Error: ConnectionError: HTTPConnectionPool(host='www.europeanspallationsource.se', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6de0c43fd0>: Failed to establish a new co...
 
-URL        `Design.html'
-Name       `class definitions'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Instruments.html, line 56, col 23
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Design.html
-Check time 0.005 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Design.html'>
+URL        `https://www.psi.ch/en/visit/how-to-find-us'
+Name       `reach by public transport'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022.html, line 50, col 435
+Real URL   https://www.psi.ch/en/visit/how-to-find-us
+Check time 3.337 seconds
+Size       189.54KB
+Result     Error: 404 Not Found
 
-URL        `Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html'
-Name       `Monochromatic Neutron and X-ray Triple-Axis\nSpectrometer'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Instruments.html, line 95, col 8
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html
-Check time 0.007 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html'>
+URL        `https://github.com/nexusformat/definitions/issues/986'
+Name       `issue#986'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022.html, line 181, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/986
+Check time 0.890 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Processed_Data.html'
-Name       `Processed Data'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Instruments.html, line 117, col 8
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Processed_Data.html
-Check time 0.002 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Processed_Data.html'>
+URL        `https://github.com/nexusformat/definitions/issues/1084#issuecomment-1249411564'
+Name       `Math in NXDL symbol tables'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022.html, line 185, col 28
+Real URL   https://github.com/nexusformat/definitions/issues/1084#issuecomment-1249411564
+Check time 1.059 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Time-of-Flight_Neutron_Single_Crystal_Diffractometer.html'
-Name       `Time-of-Flight Neutron Single Crystal\nDiffractometer'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Instruments.html, line 140, col 8
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Time-of-Flight_Neutron_Single_Crystal_Diffractometer.html
-Check time 0.005 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Time-of-Flight_Neutron_Single_Crystal_Diffractometer.html'>
+URL        `https://github.com/nexusformat/NIAC/issues/58#issuecomment-1249513045'
+Name       `Review of NXsas'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022.html, line 190, col 29
+Real URL   https://github.com/nexusformat/NIAC/issues/58#issuecomment-1249513045
+Check time 0.922 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Time-of-Flight_Neutron_Reflectometry.html'
-Name       `Time-of-Flight Neutron\nReflectometry'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Instruments.html, line 147, col 8
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Time-of-Flight_Neutron_Reflectometry.html
-Check time 0.006 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Time-of-Flight_Neutron_Reflectometry.html'>
+URL        `https://github.com/nexusformat/definitions/issues/522'
+Name       `issue#522'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022.html, line 191, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/522
+Check time 1.120 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Time-of-Flight_Small_Angle_Scattering.html'
-Name       `Time-of-Flight Small Angle\nScattering'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Instruments.html, line 164, col 8
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Time-of-Flight_Small_Angle_Scattering.html
-Check time 0.007 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Time-of-Flight_Small_Angle_Scattering.html'>
+URL        `https://github.com/nexusformat/NIAC/issues/137#issuecomment-1248281424'
+Name       `Elect Chair'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022.html, line 195, col 28
+Real URL   https://github.com/nexusformat/NIAC/issues/137#issuecomment-1248281424
+Check time 1.295 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Time-of-Flight_Neutron_Direct_Geometry_Spectrometer.html'
-Name       `Time-of-Flight Neutron Direct Geometry\nSpectrometer'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Instruments.html, line 175, col 8
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Time-of-Flight_Neutron_Direct_Geometry_Spectrometer.html
-Check time 0.003 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Time-of-Flight_Neutron_Direct_Geometry_Spectrometer.html'>
+URL        `https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/empfehlungen-fuer-reisende.html'
+Name       `Swiss government'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022.html, line 62, col 152
+Real URL   https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/empfehlungen-fuer-reisende.html
+Check time 4.623 seconds
+Size       61.47KB
+Result     Error: 404 Not Found
 
-URL        `Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer.html'
-Name       `Time-of-Flight Neutron Indirect Geometry\nSpectrometer'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Instruments.html, line 178, col 8
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer.html
-Check time 0.003 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer.html'>
+URL        `http://www.nexusformat.org/index.php?title=NIAC2009'
+Name       `http://www.nexusformat.org/index.php?title=NIAC2009'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2011_CodeCamp.html, line 61, col 8
+Real URL   http://www.nexusformat.org/index.php?title=NIAC2009
+Check time 0.256 seconds
+Size       1KB
+Result     Error: 404 Not Found
 
-URL        `Neutron_Spin_Echo.html'
-Name       `Neutron Spin Echo'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Instruments.html, line 187, col 8
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Neutron_Spin_Echo.html
-Check time 0.002 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Neutron_Spin_Echo.html'>
+URL        `http://trac.nexusformat.org/code/ticket/258'
+Name       `http://trac.nexusformat.org/code/ticket/258'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2011_CodeCamp.html, line 248, col 2
+Real URL   http://trac.nexusformat.org/code/ticket/258
+Check time 0.501 seconds
+Size       288B
+Result     Error: 404 Not Found
 
-URL        `Time-of-Flight_Neutron_Spin_Echo.html'
-Name       `Time-of-Flight Neutron Spin\nEcho'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Instruments.html, line 189, col 8
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Time-of-Flight_Neutron_Spin_Echo.html
-Check time 0.004 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Time-of-Flight_Neutron_Spin_Echo.html'>
+URL        `https://www.aps.anl.gov/About/Visiting/visitor_registration.php'
+Name       `https://www.aps.anl.gov/About/Visiting/visitor_registration.php'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2011_CodeCamp.html, line 338, col 14
+Real URL   https://www.aps.anl.gov/About/Visiting/visitor_registration.php
+Check time 0.342 seconds
+Size       59.83KB
+Result     Error: 404 Not Found
 
-URL        `NXevent_data.html'
-Name       `NXevent_data'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Storing_Event_Data.html, line 52, col 11
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NXevent_data.html
-Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NXevent_data.html'>
+URL        `http://www.diamond.ac.uk/'
+Name       `Diamond'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2011_CodeCamp.html, line 489, col 8
+Real URL   https://www.diamond.ac.uk/
+Check time 0.398 seconds
+Info       Redirected to `https://www.diamond.ac.uk/'.
+Result     Error: 403 Forbidden
 
-URL        `NIAC2020minutes.md'
-Name       `Initial Sessions'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2020.html, line 72, col 4
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2020minutes.md
-Check time 0.008 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2020minutes.md'>
+URL        `http://msd.anl.gov/'
+Name       `MSD/ANL'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2011_CodeCamp.html, line 517, col 8
+Real URL   http://msd.anl.gov/
+Check time 0.026 seconds
+Result     Error: ConnectionError: HTTPConnectionPool(host='msd.anl.gov', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6df81b8dd0>: Failed to establish a new connection: [Errno -5]...
 
-URL        `NIAC2020minutes_concluding.md'
-Name       `Concluding Session'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2020.html, line 72, col 82
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2020minutes_concluding.md
-Check time 0.002 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2020minutes_concluding.md'>
+URL        `https://github.com/nexusformat/definitions/issues/230'
+Name       `#230'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2014_CodeCamp.html, line 111, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/230
+Check time 0.763 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `NIAC2018Minutes.md'
-Name       `separately'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2018.html, line 182, col 41
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2018Minutes.md
-Check time 0.005 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2018Minutes.md'>
+URL        `https://www.bluejeans.com'
+Name       `Bluejeans'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 81, col 1
+Real URL   https://www.bluejeans.com
+Check time 0.162 seconds
+Result     Error: ConnectionError: HTTPSConnectionPool(host='www.bluejeans.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6dcb8d3950>: Failed to establish a new connection: [...
 
-URL        `NIAC2014#List_of_Attendees.html'
-Name       `list of attendees'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2014.html, line 132, col 51
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2014
-Check time 0.002 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2014'>
+URL        `https://www.bluejeans.com/premium-numbers'
+Name       `https://www.bluejeans.com/premium-numbers'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 92, col 24
+Real URL   https://www.bluejeans.com/premium-numbers
+Check time 0.295 seconds
+Result     Error: ConnectionError: HTTPSConnectionPool(host='www.bluejeans.com', port=443): Max retries exceeded with url: /premium-numbers (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6dcb8d0550>: Failed to establish a ne...
 
-URL        `NXmonochromator_and_inheritance.html'
-Name       `NXmonochromator and\ninheritance'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Design_Issues.html, line 78, col 8
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NXmonochromator_and_inheritance.html
-Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NXmonochromator_and_inheritance.html'>
+URL        `https://bluejeans.com/150847021'
+Name       `https://bluejeans.com/150847021'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 90, col 13
+Real URL   https://bluejeans.com/150847021
+Check time 0.401 seconds
+Result     Error: ConnectionError: HTTPSConnectionPool(host='bluejeans.com', port=443): Max retries exceeded with url: /150847021 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6dcb8d3690>: Failed to establish a new connecti...
 
-URL        `Units.html'
-Name       `Units'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Design_Issues.html, line 89, col 8
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Units.html
-Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Units.html'>
+URL        `https://bluejeans.com/111'
+Name       `https://bluejeans.com/111'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 94, col 44
+Real URL   https://bluejeans.com/111
+Check time 0.570 seconds
+Result     Error: ConnectionError: HTTPSConnectionPool(host='bluejeans.com', port=443): Max retries exceeded with url: /111 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6de0a18950>: Failed to establish a new connection: [E...
 
-URL        `Dalek.jpg'
-Name       `Pete Jemian's physical avatar at the meeting'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2012.html, line 276, col 1
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Dalek.jpg
-Check time 0.002 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Dalek.jpg'>
+URL        `http://www.airportexpress.com/shuttles/ohare.html'
+Name       `http://www.airportexpress.com/shuttles/ohare.html'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2011_CodeCamp.html, line 388, col 21
+Real URL   https://www.airportexpress.com/shuttles/ohare.html
+Check time 7.242 seconds
+Info       Redirected to
+           `https://airportexpress.com/shuttles/ohare.html'.
+           Redirected to
+           `https://www.airportexpress.com/shuttles/ohare.html'.
+Result     Error: 404 Not Found
 
-URL        `Double_Linking.html'
-Name       `Double Linking'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Design_Issues.html, line 121, col 8
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Double_Linking.html
-Check time 0.002 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Double_Linking.html'>
+URL        `http://www.aps.anl.gov/About/Visiting/'
+Name       `Visiting the APS'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 152, col 22
+Real URL   https://www.aps.anl.gov/About/Visiting/
+Check time 0.397 seconds
+Size       59.83KB
+Info       Redirected to
+           `https://www.aps.anl.gov/About/Visiting/'.
+Result     Error: 404 Not Found
 
-URL        `NeXusCodeCamp2009-logo.png'
-Name       `logo for the 2009 NeXus Code Camp'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2009.html, line 53, col 1
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NeXusCodeCamp2009-logo.png
-Check time 0.002 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NeXusCodeCamp2009-logo.png'>
+URL        `https://github.com/nexusformat/definitions/issues/693'
+Name       `release of NXDL'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 238, col 17
+Real URL   https://github.com/nexusformat/definitions/issues/693
+Check time 0.802 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Mission.html'
-Name       `Mission statement'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2008.html, line 86, col 8
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Mission.html
-Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Mission.html'>
+URL        `https://github.com/nexusformat/definitions/issues/663'
+Name       `publish the manual through GitHub Pages'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 350, col 26
+Real URL   https://github.com/nexusformat/definitions/issues/663
+Check time 0.832 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Schema.html'
-Name       `current work'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2008.html, line 135, col 18
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Schema.html
-Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Schema.html'>
+URL        `https://github.com/nexusformat/definitions/issues/307'
+Name       `NXDL data type vs NAPI type vs NeXus data type: clarify and simplify!'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 367, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/307
+Check time 0.708 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `NXgeometry.html'
-Name       `NXgeometry'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2007_Minutes.html, line 90, col 35
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NXgeometry.html
-Check time 0.020 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NXgeometry.html'>
+URL        `https://github.com/nexusformat/definitions/issues/370'
+Name       `more prominently document existing scheme for uncertainties'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 371, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/370
+Check time 0.957 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `NXcharacterization.html'
-Name       `NXcharacterization'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2007_Minutes.html, line 203, col 21
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NXcharacterization.html
-Check time 0.047 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NXcharacterization.html'>
+URL        `https://github.com/nexusformat/definitions/issues/503'
+Name       `Recording time-stamped data'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 375, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/503
+Check time 0.924 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `NIAC2006LBL_minutes.doc'
-Name       `MS-Word\nformat'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2006LBL.html, line 256, col 15
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2006LBL_minutes.doc
-Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2006LBL_minutes.doc'>
+URL        `https://github.com/nexusformat/definitions/issues/553'
+Name       `Create structure to incorporate PDB definitions into NeXus'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 379, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/553
+Check time 0.937 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `NIAC2006LBL_photos_other.html'
-Name       `other photos'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2006LBL.html, line 263, col 8
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2006LBL_photos_other.html
-Check time 0.002 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2006LBL_photos_other.html'>
+URL        `https://github.com/nexusformat/definitions/issues/562'
+Name       `use consistent terms when names are flexible'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 383, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/562
+Check time 0.689 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `NIAC_Meetings.html'
-Name       `Talk\nPage'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2006ILL.html, line 66, col 66
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC_Meetings.html
-Check time 0.002 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC_Meetings.html'>
+URL        `https://github.com/nexusformat/definitions/issues/634'
+Name       `NIAC has decided about how to report errors/uncertainties'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 387, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/634
+Check time 1.032 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Nominees_for_officers.html'
-Name       `chair and executive\nsecretary'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2006ILL.html, line 73, col 14
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Nominees_for_officers.html
-Check time 0.002 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Nominees_for_officers.html'>
+URL        `https://github.com/nexusformat/definitions/issues/665'
+Name       `[DOC] C example uses old style NXdata'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 391, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/665
+Check time 1.528 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Synchrotron_Group.html'
-Name       `Synchrotron_Group'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2006ILL.html, line 128, col 12
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Synchrotron_Group.html
-Check time 0.005 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Synchrotron_Group.html'>
+URL        `https://github.com/nexusformat/definitions/issues/667'
+Name       `How to specify per-shot wavelength'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 399, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/667
+Check time 2.266 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Scanning_Group.html'
-Name       `Scanning Group'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2006ILL.html, line 256, col 8
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Scanning_Group.html
-Check time 0.003 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Scanning_Group.html'>
+URL        `https://github.com/nexusformat/definitions/issues/680'
+Name       `close branch pixel_as_length_issue_511'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 403, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/680
+Check time 2.526 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Technical_Computing/API_Group.html'
-Name       `Technical Computing/API\nGroup'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2006ILL.html, line 257, col 8
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Technical_Computing/API_Group.html
-Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Technical_Computing/API_Group.html'>
+URL        `https://github.com/nexusformat/exampledata/issues/10'
+Name       `Can we remove the file trees from the readme files as they are out of date and need to be manually updated'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 415, col 8
+Real URL   https://github.com/nexusformat/exampledata/issues/10
+Check time 2.822 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `SubversionServer.html'
-Name       `SubversionServer'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Metaformat.html, line 78, col 1
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/SubversionServer.html
-Check time 0.002 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/SubversionServer.html'>
+URL        `https://github.com/nexusformat/exampledata/issues/3'
+Name       `separate out non-compliant data files'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 419, col 8
+Real URL   https://github.com/nexusformat/exampledata/issues/3
+Check time 2.381 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Telco_20220824.md'
-Name       `August Telco'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20221026.html, line 69, col 53
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20220824.md
-Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20220824.md'>
+URL        `https://github.com/nexusformat/definitions/issues/532'
+Name       `add “uncertainties” attribute to fieldType in nxdl.xsd'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 431, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/532
+Check time 2.286 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Telco_20220602.md'
-Name       `June Telco'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20220707.html, line 69, col 53
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20220602.md
-Check time 0.002 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20220602.md'>
+URL        `https://github.com/nexusformat/definitions/issues/629'
+Name       `“Are there examples of NeXus data?” - asked at Nobugs 2018'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 435, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/629
+Check time 2.675 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Telco_20220426.md'
-Name       `April Telco'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20220602.html, line 69, col 53
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20220426.md
-Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20220426.md'>
+URL        `https://github.com/nexusformat/definitions/issues/630'
+Name       `“Are there examples of code that reads NeXus data?” - asked at Nobugs 2018'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 439, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/630
+Check time 2.825 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Telco_20220131.md'
-Name       `January Telco'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20220225.html, line 69, col 53
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20220131.md
-Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20220131.md'>
+URL        `https://github.com/nexusformat/definitions/issues/531'
+Name       `docs: add text when a group name is suggested'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 443, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/531
+Check time 2.381 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Telco_20220225.md'
-Name       `February Telco'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20220426.html, line 69, col 53
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20220225.md
-Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20220225.md'>
+URL        `https://github.com/nexusformat/definitions/issues/563'
+Name       `can NXscan be extended to include 1-D data?'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 447, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/563
+Check time 2.376 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Telco_20211215.md'
-Name       `December Telco'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20220131.html, line 69, col 53
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20211215.md
-Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20211215.md'>
+URL        `https://github.com/nexusformat/definitions/issues/659'
+Name       `update Sphinx config'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 451, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/659
+Check time 2.550 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Telco_20210915.md'
-Name       `September Telco'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20211115.html, line 69, col 53
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20210915.md
-Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20210915.md'>
+URL        `https://github.com/nexusformat/definitions/issues/450'
+Name       `examples of axes/AXISNAME_indices attributes'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 459, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/450
+Check time 2.865 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Telco_20211115.md'
-Name       `November Telco'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20211215.html, line 69, col 53
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20211115.md
-Check time 0.002 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20211115.md'>
+URL        `https://github.com/nexusformat/definitions/issues/541'
+Name       `datarules.rst contains information on 2014 discussions'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 463, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/541
+Check time 2.793 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Telco_20210728.md'
-Name       `July Telco'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20210915.html, line 70, col 53
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20210728.md
-Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20210728.md'>
+URL        `https://github.com/nexusformat/definitions/issues/544'
+Name       `clarify how to name fields and groups'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 467, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/544
+Check time 3.134 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Telco_20210628.md'
-Name       `June Telco'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20210728.html, line 70, col 53
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20210628.md
-Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20210628.md'>
+URL        `https://github.com/nexusformat/definitions/issues/700'
+Name       `Is use of UPPER case names described in the manual?'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 479, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/700
+Check time 3.230 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Telco_20210505.md'
-Name       `May Telco'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20210628.html, line 70, col 53
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20210505.md
-Check time 0.005 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20210505.md'>
+URL        `https://github.com/nexusformat/definitions/issues/705'
+Name       `Need new links to h5toText program'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 483, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/705
+Check time 3.238 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Telco_20210303.md'
-Name       `March Telco'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20210505.html, line 70, col 53
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20210303.md
-Check time 0.005 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20210303.md'>
+URL        `https://github.com/nexusformat/definitions/issues/695'
+Name       `Slow/fast axis inconsistent in NXdetector_module'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 491, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/695
+Check time 3.615 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Telco_20201208.md'
-Name       `December Telco'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20210120.html, line 71, col 53
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20201208.md
+URL        `https://github.com/nexusformat/definitions/issues/712'
+Name       `update copyright date to 2020'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 499, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/712
+Check time 3.492 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/714'
+Name       `some unit tests fail since flexible names are UPPER case'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 507, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/714
+Check time 2.517 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/721'
+Name       `DATASET_errors naming convention should appear in manual'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 523, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/721
+Check time 3.027 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/696'
+Name       `NXmx has fields that may not have to be required'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 515, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/696
+Check time 4.003 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/720'
+Name       `PDF manual does not build'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 527, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/720
+Check time 2.611 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/699'
+Name       `Remove references to NAPI from schema and documentation'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 531, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/699
+Check time 2.911 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/725'
+Name       `cleanup in nxdl.xsd'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 543, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/725
+Check time 2.764 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/732'
+Name       `Makefile can’t build the PDF manual'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 555, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/732
+Check time 2.667 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/733'
+Name       `editing needed in datarules.rst new content'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 559, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/733
+Check time 2.814 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/697'
+Name       `Clarify the nature of NeXus application definitions'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 563, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/697
+Check time 3.122 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/728'
+Name       `GitHub API authentication has changed : affects the release process'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 571, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/728
+Check time 2.553 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/729'
+Name       `create_release_notes.py should use SHA credentials'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 579, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/729
+Check time 2.145 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/730'
+Name       `NXstxm nxdl does not specify a type for the energy field for [/NXentry/NXinstrument/NXmonochromator/energy]'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 587, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/730
+Check time 2.764 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/738'
+Name       `adjust doc string in NXcxi_ptycho'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 603, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/738
+Check time 3.071 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/739'
+Name       `writer_2_1 example broken'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 607, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/739
+Check time 3.160 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/740'
+Name       `Bad indentation in NXcxi_ptycho'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 611, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/740
+Check time 3.537 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/741'
+Name       `add h5py example reader using attributes to find default plottable data'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 615, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/741
+Check time 3.452 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/749'
+Name       `in release notes, TOC link to each subsection'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020.html, line 631, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/749
+Check time 3.031 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/38'
+Name       `GitHub issue'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020-2.html, line 52, col 110
+Real URL   https://github.com/nexusformat/NIAC/issues/38
+Check time 2.582 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/projects/2'
+Name       `Agenda on Github'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2020-2.html, line 78, col 4
+Real URL   https://github.com/nexusformat/NIAC/projects/2
+Check time 0.972 seconds
+Size       9B
+Result     Error: 404 Not Found
+
+URL        `https://github.com/nexusformat/NIAC/issues/82'
+Name       `GitHub issue'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2021-1.html, line 53, col 101
+Real URL   https://github.com/nexusformat/NIAC/issues/82
+Check time 1.142 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/projects/3'
+Name       `Project on Github'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2021-1.html, line 82, col 4
+Real URL   https://github.com/nexusformat/NIAC/projects/3
+Check time 0.406 seconds
+Size       9B
+Result     Error: 404 Not Found
+
+URL        `https://github.com/orgs/nexusformat/projects/1?add_cards_query=is%3Aopen'
+Name       `add additional issues and pull\nrequests'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/CodeCamp2022.html, line 54, col 24
+Real URL   https://github.com/orgs/nexusformat/projects/1?add_cards_query=is:open
+Check time 0.444 seconds
+Size       40B
+Result     Error: 404 Not Found
+
+URL        `http://www.opengda.org/'
+Name       `GDA'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Facilities.html, line 58, col 88
+Real URL   http://www.opengda.org/
+Check time 60.286 seconds
+Result     Error: ReadTimeout: HTTPConnectionPool(host='www.opengda.org', port=80): Read timed out. (read timeout=60)
+
+URL        `http://trac.nexusformat.org/definitions/ticket/3'
+Name       `NeXus definitions TRAC ticket\n#3'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Instruments.html, line 69, col 1
+Real URL   http://trac.nexusformat.org/definitions/ticket/3
+Check time 0.250 seconds
+Size       288B
+Result     Error: 404 Not Found
+
+URL        `https://wildwoodrestaurants.co.uk/restaurant/abingdon/'
+Name       `wildwood'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Code_Camp_2017.html, line 112, col 33
+Real URL   https://wildwoodrestaurants.co.uk/restaurant/abingdon/
+Check time 5.464 seconds
+Result     Error: 404 Not Found
+
+URL        `http://trac.nexusformat.org/definitions/newticket'
+Name       `new TRAC\nticket'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Instruments.html, line 74, col 36
+Real URL   http://trac.nexusformat.org/definitions/newticket
+Check time 0.573 seconds
+Size       288B
+Result     Error: 404 Not Found
+
+URL        `http://j-parc.jp/researcher/MatLife/en/meetings/nobugs2014'
+Name       `2014 NOBUGS conference'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Latest_News.html, line 63, col 340
+Real URL   http://j-parc.jp/researcher/MatLife/en/meetings/nobugs2014
+Check time 0.696 seconds
+Result     Error: 404 Not Found
+
+URL        `https://manual.nexusformat.org/pdf/NeXusManual.pdf'
+Name       `User Manual'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Latest_News.html, line 74, col 605
+Real URL   https://manual.nexusformat.org/pdf/NeXusManual.pdf
+Check time 2.910 seconds
+Size       5KB
+Result     Error: 404 Not Found
+
+URL        `http://trac.nexusformat.org/code/browser/tags/4.1.0/NEWS'
+Name       `Release Notes'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Latest_News.html, line 102, col 519
+Real URL   http://trac.nexusformat.org/code/browser/tags/4.1.0/NEWS
+Check time 0.251 seconds
+Size       288B
+Result     Error: 404 Not Found
+
+URL        `http://trac.nexusformat.org/code/browser/tags/4.0.0/NEWS'
+Name       `Release\nNotes'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Latest_News.html, line 120, col 27
+Real URL   http://trac.nexusformat.org/code/browser/tags/4.0.0/NEWS
+Check time 0.476 seconds
+Size       288B
+Result     Error: 404 Not Found
+
+URL        `http://www.nexus.anl.gov/nexus_api.html#download'
+Name       `version 3.0.0 of the NeXus API'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Latest_News.html, line 135, col 94
+Real URL   http://www.nexus.anl.gov/nexus_api.html#download
+Check time 0.293 seconds
+Result     Error: ConnectionError: HTTPConnectionPool(host='www.nexus.anl.gov', port=80): Max retries exceeded with url: /nexus_api.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6de0eb8e90>: Failed to establish a new co...
+
+URL        `http://download.nexusformat.org/doc/html/Tutorial.html'
+Name       `tutorial on constructing new NXDL\ndefinitions'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Latest_News.html, line 81, col 36
+Real URL   https://manual.nexusformat.org/Tutorial.html
+Check time 3.789 seconds
+Size       5KB
+Info       Redirected to
+           `https://manual.nexusformat.org/Tutorial.html'.
+Result     Error: 404 Not Found
+
+URL        `ftp://ftp.neutron.anl.gov/nexus'
+Name       `ftp://ftp.neutron.anl.gov/nexus'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Latest_News.html, line 175, col 105
+Real URL   ftp://ftp.neutron.anl.gov/nexus
+Check time 0.138 seconds
+Result     Error: Hostname not found
+
+URL        `ftp://ftp.neutron.anl.gov/nexus/'
+Name       `ftp://ftp.neutron.anl.gov/nexus/'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Latest_News.html, line 263, col 126
+Real URL   ftp://ftp.neutron.anl.gov/nexus/
+Check time 0.012 seconds
+Result     Error: Hostname not found
+
+URL        `https://manual.nexusformat.org/doxygen/html-c/'
+Name       `Doxygen generated\ndocumentation'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NAPI_Routines.html, line 48, col 58
+Real URL   https://manual.nexusformat.org/doxygen/html-c/
+Check time 0.116 seconds
+Size       5KB
+Result     Error: 404 Not Found
+
+URL        `ftp://coral.pns.anl.gov/pub/NeXus'
+Name       `ftp://coral.pns.anl.gov/pub/NeXus'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Latest_News.html, line 267, col 62
+Real URL   ftp://coral.pns.anl.gov/pub/NeXus
+Check time 0.554 seconds
+Result     Error: Hostname not found
+
+URL        `http://trac.nexusformat.org/code/ticket/87'
+Name       `details'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Nexus_41_Release_Notes.html, line 82, col 1
+Real URL   http://trac.nexusformat.org/code/ticket/87
+Check time 0.271 seconds
+Size       288B
+Result     Error: 404 Not Found
+
+URL        `http://trac.nexusformat.org/code/ticket/86'
+Name       `details'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Nexus_41_Release_Notes.html, line 84, col 1
+Real URL   http://trac.nexusformat.org/code/ticket/86
+Check time 0.517 seconds
+Size       288B
+Result     Error: 404 Not Found
+
+URL        `http://trac.nexusformat.org/code/ticket/68'
+Name       `details\nhere'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Nexus_41_Release_Notes.html, line 99, col 48
+Real URL   http://trac.nexusformat.org/code/ticket/68
+Check time 0.912 seconds
+Size       288B
+Result     Error: 404 Not Found
+
+URL        `http://trac.nexusformat.org/code/ticket/83'
+Name       `bug\nreport'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Nexus_41_Release_Notes.html, line 103, col 15
+Real URL   http://trac.nexusformat.org/code/ticket/83
+Check time 1.122 seconds
+Size       288B
+Result     Error: 404 Not Found
+
+URL        `http://trac.nexusformat.org/code/ticket/84'
+Name       `bug\nreport'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Nexus_41_Release_Notes.html, line 105, col 24
+Real URL   http://trac.nexusformat.org/code/ticket/84
+Check time 0.963 seconds
+Size       288B
+Result     Error: 404 Not Found
+
+URL        `http://trac.nexusformat.org/code/ticket/91'
+Name       `bug\nreport'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Nexus_41_Release_Notes.html, line 107, col 34
+Real URL   http://trac.nexusformat.org/code/ticket/91
+Check time 1.007 seconds
+Size       288B
+Result     Error: 404 Not Found
+
+URL        `http://trac.nexusformat.org/code/ticket/92'
+Name       `bug\nreport'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Nexus_41_Release_Notes.html, line 109, col 46
+Real URL   http://trac.nexusformat.org/code/ticket/92
+Check time 1.163 seconds
+Size       288B
+Result     Error: 404 Not Found
+
+URL        `http://trac.nexusformat.org/code/ticket/93'
+Name       `bug\nreport'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Nexus_41_Release_Notes.html, line 111, col 65
+Real URL   http://trac.nexusformat.org/code/ticket/93
+Check time 1.533 seconds
+Size       288B
+Result     Error: 404 Not Found
+
+URL        `http://download.nexusformat.org/doxygen/html/classNeXus_1_1File.html'
+Name       `doxygen\ndocumentation'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Nexus_42_Release_Notes.html, line 97, col 12
+Real URL   https://manual.nexusformat.org/doxygen/html/classNeXus_1_1File.html
+Check time 1.381 seconds
+Size       5KB
+Info       Redirected to
+           `https://manual.nexusformat.org/doxygen/html/classNeXus_1_1File.html'.
+Result     Error: 404 Not Found
+
+URL        `http://trac.nexusformat.org/code/query?status=new&amp;status=assigned&amp;status=reopened&amp;status=closed&amp;version=4.3.0-rc1&amp;order=priority'
+Name       `can be found\nhere'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Nexus_43_Release_Notes.html, line 50, col 28
+Real URL   http://trac.nexusformat.org/code/query?status=new&amp;status=assigned&amp;status=reopened&amp;status=closed&amp;version=4.3.0-rc1&amp;order=priority
+Check time 1.373 seconds
+Size       288B
+Result     Error: 404 Not Found
+
+URL        `http://svn.nexusformat.org/code/branches/4.2/test/napi_test_cpp.cxx'
+Name       `NeXus API test\nprogram'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Nexus_42_Release_Notes.html, line 99, col 5
+Real URL   http://svn.nexusformat.org/code/branches/4.2/test/napi_test_cpp.cxx
+Check time 1.742 seconds
+Result     Error: 401 Unauthorized
+
+URL        `http://trac.nexusformat.org/code/query?status=new&amp;status=assigned&amp;status=reopened&amp;status=closed&amp;version=4.0.0&amp;order=priority'
+Name       `all\nreported 4.0.0\nissues'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Nexus_4_Release_Notes.html, line 106, col 68
+Real URL   http://trac.nexusformat.org/code/query?status=new&amp;status=assigned&amp;status=reopened&amp;status=closed&amp;version=4.0.0&amp;order=priority
+Check time 1.241 seconds
+Size       288B
+Result     Error: 404 Not Found
+
+URL        `http://coastwatch.noaa.gov/helparc/software/msg00069.html'
+Name       `http://coastwatch.noaa.gov/helparc/software/msg00069.html'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Nexus_41_Release_Notes.html, line 73, col 1
+Real URL   https://coastwatch.noaa.gov/helparc/software/msg00069.html
+Check time 5.283 seconds
+Size       196B
+Info       Redirected to
+           `https://coastwatch.noaa.gov/helparc/software/msg00069.html'.
+Result     Error: 404 Not Found
+
+URL        `http://www.lbl.gov/Workplace/near-our-shuttle.html'
+Name       `http://www.lbl.gov/Workplace/near-our-shuttle.html'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2006LBL.html, line 175, col 1
+Real URL   https://www.lbl.gov/Workplace/near-our-shuttle.html
+Check time 0.956 seconds
+Info       Redirected to
+           `https://www.lbl.gov/Workplace/near-our-shuttle.html'.
+Result     Error: 404 Not Found
+
+URL        `http://www.esrf.fr/AboutUs/CompanyInfo/Access'
+Name       `http://www.esrf.fr/AboutUs/CompanyInfo/Access'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2006ILL.html, line 83, col 4
+Real URL   https://www.esrf.fr/AboutUs/CompanyInfo/Access
+Check time 1.553 seconds
+Size       1KB
+Info       Redirected to
+           `https://www.esrf.fr/AboutUs/CompanyInfo/Access'.
+Result     Error: 404 Not Found
+
+URL        `http://www.lbl.gov/Workplace/lab-site-map.html_LBL_campus_map.html'
+Name       `http://www.lbl.gov/Workplace/lab-site-map.html LBL campus\nmap'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2006LBL.html, line 181, col 8
+Real URL   https://www.lbl.gov/Workplace/lab-site-map.html_LBL_campus_map.html
+Check time 0.450 seconds
+Info       Redirected to
+           `https://www.lbl.gov/Workplace/lab-site-map.html_LBL_campus_map.html'.
+Result     Error: 404 Not Found
+
+URL        `http://www.ill.fr/pages/science/User/UGuide.html'
+Name       `http://www.ill.fr/pages/science/User/UGuide.html'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2006ILL.html, line 81, col 4
+Real URL   https://www.ill.eu/pages/science/User/UGuide.html
+Check time 2.496 seconds
+Info       Redirected to
+           `https://www.ill.eu/pages/science/User/UGuide.html'.
+Result     Error: 404 Not Found
+
+URL        `http://svn.nexusformat.org/code'
+Name       `http://svn.nexusformat.org/code'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2006LBL.html, line 235, col 1
+Real URL   http://svn.nexusformat.org/code
+Check time 0.253 seconds
+Result     Error: 401 Unauthorized
+
+URL        `http://www.strainet.org'
+Name       `STRAINET'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2007_attendees.html, line 150, col 8
+Real URL   http://www.strainet.org
+Check time 0.063 seconds
+Result     Error: ConnectionError: HTTPConnectionPool(host='www.strainet.org', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6df82ee310>: Failed to establish a new connection: [Errn...
+
+URL        `mailto:hoffmann-j%40hmi.de'
+Name       `1'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2007.html, line 66, col 1
+Real URL   mailto:hoffmann-j@hmi.de
+Check time 0.279 seconds
+Warning    [mail-no-mx-host] No MX mail host for hmi.de found.
+Result     Error: No host for hmi.de found.
+
+URL        `http://www.webel.com.au/nexml'
+Name       `NeXML proposal'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2006LBL.html, line 95, col 1
+Real URL   https://www.webel.com.au/nexml/
+Check time 6.696 seconds
+Info       Redirected to `https://www.webel.com.au/nexml'.
+           Redirected to `https://www.webel.com.au/nexml/'.
+Result     Error: 404 Not Found
+
+URL        `http://www.hmi.de/hmi/gebaeudeplan.pdf'
+Name       `map of the area'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2007.html, line 52, col 11
+Real URL   https://www.helmholtz-berlin.de/hmi/gebaeudeplan.pdf
+Check time 5.893 seconds
+Info       Redirected to
+           `https://www.helmholtz-berlin.de/hmi/gebaeudeplan.pdf'.
+Result     Error: 404 Not Found
+
+URL        `http://www.hmi.de/hmi/standorte_en.html#Wannsee'
+Name       `HMI campus\nWannsee'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2007.html, line 60, col 56
+Real URL   https://www.helmholtz-berlin.de/hmi/standorte_en.html#Wannsee
+Check time 5.474 seconds
+Info       Redirected to
+           `https://www.helmholtz-berlin.de/hmi/standorte_en.html#Wannsee'.
+Result     Error: 404 Not Found
+
+URL        `http://trac.nexusformat.org/definitions/report/3'
+Name       `Open tickets'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2007.html, line 166, col 8
+Real URL   http://trac.nexusformat.org/definitions/report/3
+Check time 0.252 seconds
+Size       288B
+Result     Error: 404 Not Found
+
+URL        `http://www.hmi.de/hmi/wegwannsee_en.html'
+Name       `to Berlin\nWannsee'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2007.html, line 69, col 25
+Real URL   https://www.helmholtz-berlin.de/hmi/wegwannsee_en.html
+Check time 5.757 seconds
+Info       Redirected to
+           `https://www.helmholtz-berlin.de/hmi/wegwannsee_en.html'.
+Result     Error: 404 Not Found
+
+URL        `http://www.hmi.de/bensc/misc/flat-cone/nexus/NIACinfo.html'
+Name       `http://www.hmi.de/bensc/misc/flat-cone/nexus/NIACinfo.html'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2007.html, line 89, col 1
+Real URL   https://www.helmholtz-berlin.de/bensc/misc/flat-cone/nexus/NIACinfo.html
+Check time 1.864 seconds
+Info       Redirected to
+           `https://www.helmholtz-berlin.de/bensc/misc/flat-cone/nexus/NIACinfo.html'.
+Result     Error: 404 Not Found
+
+URL        `http://trac.nexusformat.org/code/report/3'
+Name       `open tickets'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2007.html, line 233, col 15
+Real URL   http://trac.nexusformat.org/code/report/3
+Check time 0.250 seconds
+Size       288B
+Result     Error: 404 Not Found
+
+URL        `http://www.nexusformat.org/Coordinate_Systems'
+Name       `http://www.nexusformat.org/Coordinate_Systems'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2007.html, line 305, col 1
+Real URL   http://www.nexusformat.org/Coordinate_Systems
+Check time 0.101 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `http://www.hmi.de/bensc/misc/flat-cone/rebuilding/nexus_en.html'
+Name       `Details'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2007.html, line 278, col 2
+Real URL   https://www.helmholtz-berlin.de/bensc/misc/flat-cone/rebuilding/nexus_en.html
+Check time 0.927 seconds
+Info       Redirected to
+           `https://www.helmholtz-berlin.de/bensc/misc/flat-cone/rebuilding/nexus_en.html'.
+Result     Error: 404 Not Found
+
+URL        `http://www.nexus.anl.gov/'
+Name       `http://www.nexus.anl.gov/'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2007_Minutes.html, line 138, col 15
+Real URL   http://www.nexus.anl.gov/
+Check time 0.035 seconds
+Result     Error: ConnectionError: HTTPConnectionPool(host='www.nexus.anl.gov', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6df8163410>: Failed to establish a new connection: [Err...
+
+URL        `http://www.nexusformat.org/instruments/NXmonotas'
+Name       `http://www.nexusformat.org/instruments/NXmonotas'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2007_Minutes.html, line 279, col 73
+Real URL   http://www.nexusformat.org/instruments/NXmonotas
+Check time 0.122 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `http://svn.nexusformat.org/code/trunk/README.developers'
+Name       `README.developers'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2007_Minutes.html, line 730, col 1
+Real URL   http://svn.nexusformat.org/code/trunk/README.developers
+Check time 0.252 seconds
+Result     Error: 401 Unauthorized
+
+URL        `http://www.nexusformat.org/SQA_Process'
+Name       `http://www.nexusformat.org/SQA_Process'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2007_Minutes.html, line 733, col 1
+Real URL   http://www.nexusformat.org/SQA_Process
+Check time 0.093 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `http://www.sydneyaustralia.com/en/'
+Name       `Sydney Australia'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2008.html, line 49, col 4
+Real URL   http://www.sydneyaustralia.com/en/
+Check time 1.180 seconds
+Result     Error: 410 Gone
+
+URL        `http://www.berlin.de/stadtplan/map.asp?ADR_ZIP=10117&amp;ADR_STREET=Luisenstr'
+Name       `http://www.berlin.de/stadtplan/map.asp?ADR_ZIP=10117&ADR_STREET=Luisenstr'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2007.html, line 366, col 3
+Real URL   https://www.berlin.de/stadtplan/map.asp?ADR_ZIP=10117&amp;ADR_STREET=Luisenstr
+Check time 4.416 seconds
+Size       279B
+Info       Redirected to
+           `https://www.berlin.de/stadtplan/map.asp?ADR_ZIP=10117&amp;ADR_STREET=Luisenstr'.
+Result     Error: 410 Gone
+
+URL        `http://www.nbi.ansto.gov.au/cgi-bin/nobugs2008/overview.ws3'
+Name       `NOBUGS\n2008'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2008.html, line 50, col 49
+Real URL   http://www.nbi.ansto.gov.au/cgi-bin/nobugs2008/overview.ws3
+Check time 0.942 seconds
+Size       229B
+Result     Error: 404 Not Found
+
+URL        `http://www.wein-habel.de/maine.php'
+Name       `Habel\nWeinkultur'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2007.html, line 363, col 45
+Real URL   http://www.wein-habel.de/maine.php
+Check time 7.397 seconds
+Result     Error: 404 Not Found
+
+URL        `http://www.sns.gov'
+Name       `SNS'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2009.html, line 298, col 8
+Real URL   http://www.sns.gov
+Check time 0.241 seconds
+Result     Error: ConnectionError: HTTPConnectionPool(host='www.sns.gov', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6de0660e50>: Failed to establish a new connection: [Errno -2]...
+
+URL        `http://www.smallangles.net/wgwiki/index.php/cansas1d_documentation'
+Name       `review of canSAS 1-D v1.0 XML data\nformat'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2008.html, line 138, col 8
+Real URL   https://www.smallangles.net/wgwiki/index.php/cansas1d_documentation
+Check time 3.815 seconds
+Size       282B
+Info       Redirected to
+           `https://www.smallangles.net/wgwiki/index.php/cansas1d_documentation'.
+Result     Error: 404 Not Found
+
+URL        `http://www.nobugs2012.org/NOBUGS/registration/NeXus.html'
+Name       `NOBUGS conference\nwebsite'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2012.html, line 75, col 28
+Real URL   http://www.nobugs2012.org/NOBUGS/registration/NeXus.html
+Check time 5.353 seconds
+Result     Error: 404 Not Found
+
+URL        `http://www.aps.anl.gov/About/Visiting'
+Name       `http://www.aps.anl.gov/About/Visiting'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2014.html, line 87, col 120
+Real URL   https://www.aps.anl.gov/About/Visiting
+Check time 0.396 seconds
+Size       59.83KB
+Info       Redirected to
+           `https://www.aps.anl.gov/About/Visiting'.
+Result     Error: 404 Not Found
+
+URL        `https://nobugs.esss.se/'
+Name       `NOBUGS'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2016.html, line 50, col 8
+Real URL   https://nobugs.esss.se/
+Check time 1.186 seconds
+Result     Error: ConnectionError: HTTPSConnectionPool(host='nobugs.esss.se', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6de06b5d90>: Failed to establish a new connection: [Err...
+
+URL        `http://www.aps.anl.gov/Users/Site_Access/'
+Name       `http://www.aps.anl.gov/Users/Site_Access/'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2014.html, line 131, col 1
+Real URL   https://www.aps.anl.gov/Users/Site_Access/
+Check time 0.329 seconds
+Size       56.42KB
+Info       Redirected to
+           `https://www.aps.anl.gov/Users/Site_Access/'.
+Result     Error: 404 Not Found
+
+URL        `http://www.oxford.gov.uk/PageRender/decTS/Public_transport_occw.htm'
+Name       `this\npage'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2012.html, line 95, col 27
+Real URL   https://www.oxford.gov.uk/PageRender/decTS/Public_transport_occw.htm
+Check time 5.577 seconds
+Info       Redirected to
+           `https://www.oxford.gov.uk/PageRender/decTS/Public_transport_occw.htm'.
+Result     Error: 404 Not Found
+
+URL        `https://bnl.bluejeans.com/6313445578'
+Name       `https://bnl.bluejeans.com/6313445578'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2018.html, line 131, col 22
+Real URL   https://bnl.bluejeans.com/6313445578
+Check time 0.081 seconds
+Result     Error: ConnectionError: HTTPSConnectionPool(host='bnl.bluejeans.com', port=443): Max retries exceeded with url: /6313445578 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6dcb7a0a50>: Failed to establish a new con...
+
+URL        `https://github.com/nexusformat/NIAC/projects/1'
+Name       `Agenda on Github'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2020.html, line 63, col 4
+Real URL   https://github.com/nexusformat/NIAC/projects/1
+Check time 0.251 seconds
+Size       9B
+Result     Error: 404 Not Found
+
+URL        `http://www.nobugs2012.org/NOBUGS/accommodation.html'
+Name       `reserve and pay for this separately yourself with Coseners\nhouse'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2012.html, line 113, col 1
+Real URL   http://www.nobugs2012.org/NOBUGS/accommodation.html
+Check time 19.507 seconds
+Result     Error: 404 Not Found
+
+URL        `https://github.com/nexusformat/NIAC/issues/53'
+Name       `issue#53'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2020minutes.html, line 65, col 776
+Real URL   https://github.com/nexusformat/NIAC/issues/53
+Check time 0.507 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://support.hdfgroup.org/HDF5/doc/Advanced/UsingUnicode/index.html'
+Name       `HDF5 support is described here'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2020minutes_concluding.html, line 83, col 1219
+Real URL   https://support.hdfgroup.org/HDF5/doc/Advanced/UsingUnicode/index.html
+Check time 3.908 seconds
+Result     Error: 404 Not Found
+
+URL        `https://github.com/nexusformat/definitions/issues/711'
+Name       `mathematical formulas in data files'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2020minutes.html, line 66, col 17
+Real URL   https://github.com/nexusformat/definitions/issues/711
+Check time 0.550 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/47'
+Name       `naming conventions'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2020minutes.html, line 73, col 24
+Real URL   https://github.com/nexusformat/NIAC/issues/47
+Check time 1.125 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/800'
+Name       `issue#802'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2020minutes.html, line 75, col 79
+Real URL   https://github.com/nexusformat/definitions/issues/800
+Check time 1.708 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/769'
+Name       `Reserved prefixes and suffixes'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2020minutes.html, line 76, col 4
+Real URL   https://github.com/nexusformat/definitions/issues/769
+Check time 2.123 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/68'
+Name       `use of NX_DATE_TIME rather than NX_CHAR for file_time and file_update_time in NXroot'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2020minutes.html, line 89, col 18
+Real URL   https://github.com/nexusformat/NIAC/issues/68
+Check time 1.618 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/48'
+Name       `issue#48'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2020minutes.html, line 92, col 26
+Real URL   https://github.com/nexusformat/NIAC/issues/48
+Check time 1.258 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `http://www.neutron.anl.gov:8080/NeXus'
+Name       `Swiki'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Latest_News.html, line 146, col 207
+Real URL   http://www.neutron.anl.gov:8080/NeXus
+Check time 60.326 seconds
+Result     Error: ConnectTimeout: HTTPConnectionPool(host='www.neutron.anl.gov', port=8080): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f6de0e837d0>, 'Connection to www.neutron.an...
+
+URL        `https://github.com/nexusformat/NIAC/issues/69'
+Name       `Specifying precision in nexus files'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2020minutes.html, line 93, col 4
+Real URL   https://github.com/nexusformat/NIAC/issues/69
+Check time 1.794 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/64'
+Name       `future of the NeXus C API (NAPI) was discussed'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2020minutes.html, line 94, col 8
+Real URL   https://github.com/nexusformat/NIAC/issues/64
+Check time 2.024 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/43'
+Name       `issue#43'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2020minutes.html, line 98, col 73
+Real URL   https://github.com/nexusformat/NIAC/issues/43
+Check time 2.048 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/54'
+Name       `mixed use of NXreflections and NXmx'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2020minutes.html, line 100, col 41
+Real URL   https://github.com/nexusformat/NIAC/issues/54
+Check time 2.187 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/97'
+Name       `Allow NXdata dimension variables to contain a list of strings'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_minutes_freddie.html, line 63, col 23
+Real URL   https://github.com/nexusformat/NIAC/issues/97
+Check time 2.146 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/139'
+Name       `Support for non-dimensional coordinates in NXdata'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_minutes_freddie.html, line 64, col 23
+Real URL   https://github.com/nexusformat/NIAC/issues/139
+Check time 2.311 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/138'
+Name       `Group referencing an Application Definition'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_minutes_freddie.html, line 66, col 18
+Real URL   https://github.com/nexusformat/NIAC/issues/138
+Check time 1.812 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/135'
+Name       `base classes always extend NXobject. Can a base class extend another base class?'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_minutes_freddie.html, line 67, col 18
+Real URL   https://github.com/nexusformat/NIAC/issues/135
+Check time 1.809 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/141'
+Name       `symbols to be connected to Field values'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_minutes_freddie.html, line 76, col 18
+Real URL   https://github.com/nexusformat/NIAC/issues/141
+Check time 1.647 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1044'
+Name       `NXdata: errors on auxiliary signals'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_minutes_freddie.html, line 78, col 19
+Real URL   https://github.com/nexusformat/definitions/issues/1044
+Check time 1.612 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1002'
+Name       `Can we have a standard rule in NeXus to validate presence of one item from a list of possibles'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_minutes_freddie.html, line 80, col 186
+Real URL   https://github.com/nexusformat/definitions/issues/1002
+Check time 1.392 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1007'
+Name       `XPCS issue 1007'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_minutes_freddie.html, line 87, col 14
+Real URL   https://github.com/nexusformat/definitions/issues/1007
+Check time 1.161 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1004'
+Name       `1004'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_minutes_freddie.html, line 87, col 279
+Real URL   https://github.com/nexusformat/definitions/issues/1004
+Check time 1.666 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1005'
+Name       `1005'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_minutes_freddie.html, line 87, col 381
+Real URL   https://github.com/nexusformat/definitions/issues/1005
+Check time 1.730 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1006'
+Name       `1006'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_minutes_freddie.html, line 87, col 486
+Real URL   https://github.com/nexusformat/definitions/issues/1006
+Check time 2.046 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/101'
+Name       `ISSUE 101'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_minutes_freddie.html, line 98, col 83
+Real URL   https://github.com/nexusformat/NIAC/issues/101
+Check time 1.837 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/88'
+Name       `ISSUE 88'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_minutes_freddie.html, line 100, col 10
+Real URL   https://github.com/nexusformat/definitions/issues/1191
+Check time 1.656 seconds
+Size       9KB
+Info       Redirected to
+           `https://github.com/nexusformat/definitions/issues/1191'.
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/945'
+Name       `issue 945'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_minutes_freddie.html, line 104, col 22
+Real URL   https://github.com/nexusformat/definitions/issues/945
+Check time 2.058 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1038'
+Name       `issue 1038'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_minutes_freddie.html, line 144, col 48
+Real URL   https://github.com/nexusformat/definitions/issues/1038
+Check time 1.770 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/966'
+Name       `NXmx: Change entry/end_time_estimated from “required” to “recommended”'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_minutes_freddie.html, line 188, col 25
+Real URL   https://github.com/nexusformat/definitions/issues/966
+Check time 1.364 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/63'
+Name       `NXsqom: filenames -> file_name'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_minutes_freddie.html, line 193, col 19
+Real URL   https://github.com/nexusformat/NIAC/issues/63
+Check time 1.478 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `http://nobugs2006.lbl.gov/'
+Name       `NOBUGS 2006'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2006LBL.html, line 50, col 11
+Real URL   http://nobugs2006.lbl.gov/
+Check time 60.173 seconds
+Result     Error: ConnectTimeout: HTTPConnectionPool(host='nobugs2006.lbl.gov', port=80): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f6de0e6fad0>, 'Connection to nobugs2006.lbl.go...
+
+URL        `https://github.com/nexusformat/definitions/issues/940'
+Name       `NXmx: Definitions for multi-channel (thresholds) data'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_minutes_freddie.html, line 227, col 31
+Real URL   https://github.com/nexusformat/definitions/issues/940
+Check time 1.832 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/322'
+Name       `issue 322'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_minutes_freddie.html, line 261, col 20
+Real URL   https://github.com/nexusformat/definitions/issues/322
+Check time 1.702 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/102'
+Name       `Proposal to add ‘angles’ attribute to NXdata groups'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_minutes_freddie.html, line 277, col 28
+Real URL   https://github.com/nexusformat/NIAC/issues/102
+Check time 1.746 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/103'
+Name       `AppDef for Electron Microscopy'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_minutes_freddie.html, line 282, col 19
+Real URL   https://github.com/nexusformat/NIAC/issues/103
+Check time 1.093 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/projects/4'
+Name       `github project'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_spring.html, line 51, col 243
+Real URL   https://github.com/nexusformat/NIAC/projects/4
+Check time 1.482 seconds
+Size       9B
+Result     Error: 404 Not Found
+
+URL        `http://subversion.tigris.org/'
+Name       `Subversion'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2006LBL.html, line 233, col 17
+Real URL   http://subversion.tigris.org/
+Check time 60.470 seconds
+Result     Error: ConnectTimeout: HTTPConnectionPool(host='subversion.tigris.org', port=80): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f6de0ea8210>, 'Connection to subversion.tig...
+
+URL        `https://github.com/nexusformat/NIAC/issues/945'
+Name       `https://github.com/nexusformat/NIAC/issues/945'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_minutes.html, line 59, col 87
+Real URL   https://github.com/nexusformat/NIAC/issues/945
+Check time 1.345 seconds
+Size       9B
+Result     Error: 404 Not Found
+
+URL        `https://github.com/nexusformat/NIAC/issues/95#issuecomment-1059210877'
+Name       `PURL for NeXus Ontology'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_spring.html, line 119, col 29
+Real URL   https://github.com/nexusformat/NIAC/issues/95#issuecomment-1059210877
+Check time 0.277 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/100#issue-1154265378'
+Name       `Clarify gain_setting in NXdetector'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_spring.html, line 124, col 28
+Real URL   https://github.com/nexusformat/NIAC/issues/100#issue-1154265378
+Check time 0.758 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/894'
+Name       `Clarify gain_setting in NXdetector'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_spring.html, line 125, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/894
+Check time 1.094 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/110#issue-1158281367'
+Name       `Reserve field prefix DECTRIS_'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_spring.html, line 129, col 29
+Real URL   https://github.com/nexusformat/NIAC/issues/110#issue-1158281367
+Check time 1.097 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/993'
+Name       `Request'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_spring.html, line 130, col 135
+Real URL   https://github.com/nexusformat/definitions/issues/993
+Check time 1.133 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/94#issuecomment-1059276075'
+Name       `Add virtual_pixel_correction_applied to NXdetector'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_spring.html, line 139, col 29
+Real URL   https://github.com/nexusformat/NIAC/issues/94#issuecomment-1059276075
+Check time 0.845 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/109#issuecomment-1059283549'
+Name       `adding depends_on to various base classes'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_spring.html, line 144, col 28
+Real URL   https://github.com/nexusformat/NIAC/issues/109#issuecomment-1059283549
+Check time 1.224 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `http://www.fahrinfo-berlin.de/Fahrinfo/bin/query.bin/en?from=Flughafen%20Tegel%20%26%23x0028;Berlin%26%23x0029'
+Name       `http://www.fahrinfo-berlin.de/Fahrinfo/bin/query.bin/en?from=Flughafen Tegel %26%23x0028;Berlin%26%23x0029'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2007.html, line 75, col 4
+Real URL   http://www.fahrinfo-berlin.de/Fahrinfo/bin/query.bin/en?from=Flughafen%20Tegel%20%26%23x0028;Berlin%26%23x0029
+Check time 61.010 seconds
+Result     Error: ReadTimeout: HTTPSConnectionPool(host='fahrinfo.bvg.de', port=443): Read timed out. (read timeout=60)
+
+URL        `https://github.com/nexusformat/NIAC/issues/113#issuecomment-1059291945'
+Name       `Protect main branch of repositories'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_spring.html, line 149, col 29
+Real URL   https://github.com/nexusformat/NIAC/issues/113#issuecomment-1059291945
+Check time 1.264 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/111#issuecomment-1059295950'
+Name       `Add image_key to NXdetector'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_spring.html, line 154, col 28
+Real URL   https://github.com/nexusformat/NIAC/issues/111#issuecomment-1059295950
+Check time 0.608 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/tree/1170-nxxas-documentation-improvement'
+Name       `https://github.com/nexusformat/definitions/tree/1170-nxxas-documentation-improvement'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_minutes.html, line 188, col 54
+Real URL   https://github.com/nexusformat/definitions/tree/1170-nxxas-documentation-improvement
+Check time 1.147 seconds
+Result     Error: 404 Not Found
+
+URL        `https://github.com/nexusformat/NIAC/issues/119#issuecomment-1058138059'
+Name       `https://github.com/nexusformat/NIAC/issues/119#issuecomment-1058138059'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_spring_minutes.html, line 59, col 231
+Real URL   https://github.com/nexusformat/definitions/issues/1059#issuecomment-1058138059
+Check time 2.326 seconds
+Size       9KB
+Info       Redirected to
+           `https://github.com/nexusformat/definitions/issues/1059#issuecomment-1058138059'.
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/96'
+Name       `https://github.com/nexusformat/NIAC/issues/96'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_spring_minutes.html, line 133, col 24
+Real URL   https://github.com/nexusformat/NIAC/issues/96
+Check time 1.651 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/112'
+Name       `https://github.com/nexusformat/NIAC/issues/112'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_spring_minutes.html, line 135, col 47
+Real URL   https://github.com/nexusformat/NIAC/issues/112
+Check time 1.111 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/118'
+Name       `https://github.com/nexusformat/NIAC/issues/118'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_spring_minutes.html, line 136, col 13
+Real URL   https://github.com/nexusformat/NIAC/issues/118
+Check time 0.669 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/compare/944-add-NXregion'
+Name       `https://github.com/nexusformat/definitions/compare/944-add-NXregion'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_spring_minutes.html, line 136, col 733
+Real URL   https://github.com/nexusformat/definitions/compare/944-add-NXregion
+Check time 0.380 seconds
+Result     Error: 404 Not Found
+
+URL        `https://github.com/nexusformat/NIAC/issues/115'
+Name       `https://github.com/nexusformat/NIAC/issues/115'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_spring_minutes.html, line 138, col 39
+Real URL   https://github.com/nexusformat/NIAC/issues/115
+Check time 0.336 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/NIAC/issues/99'
+Name       `https://github.com/nexusformat/NIAC/issues/99'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_spring_minutes.html, line 139, col 4
+Real URL   https://github.com/nexusformat/NIAC/issues/99
+Check time 1.119 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/compare/925-nxbeam-geometry'
+Name       `https://github.com/nexusformat/definitions/compare/925-nxbeam-geometry'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_spring_minutes.html, line 138, col 178
+Real URL   https://github.com/nexusformat/definitions/compare/925-nxbeam-geometry
+Check time 1.754 seconds
+Result     Error: 404 Not Found
+
+URL        `https://github.com/nexusformat/definitions/issues/1436'
+Name       `issue #1436'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2024_minutes.html, line 91, col 251
+Real URL   https://github.com/nexusformat/definitions/issues/1436
+Check time 1.241 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1472'
+Name       `issue #1472'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2024_minutes.html, line 100, col 52
+Real URL   https://github.com/nexusformat/definitions/issues/1472
+Check time 1.841 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1434'
+Name       `issue #1434'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2024_minutes.html, line 103, col 99
+Real URL   https://github.com/nexusformat/definitions/issues/1434
+Check time 2.072 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1438'
+Name       `issue #1438'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2024_minutes.html, line 104, col 182
+Real URL   https://github.com/nexusformat/definitions/issues/1438
+Check time 1.889 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1442'
+Name       `issue #1442'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2024_minutes.html, line 123, col 102
+Real URL   https://github.com/nexusformat/definitions/issues/1442
+Check time 2.419 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://areadetector.github.io/master/ADCore/NDPluginROI.html'
+Name       `https://areadetector.github.io/master/ADCore/NDPluginROI.html'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_spring_minutes.html, line 136, col 334
+Real URL   https://areadetector.github.io/master/ADCore/NDPluginROI.html
+Check time 5.351 seconds
+Size       5KB
+Result     Error: 404 Not Found
+
+URL        `https://github.com/nexusformat/definitions/issues/1435'
+Name       `issue #1435'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2024_minutes.html, line 132, col 208
+Real URL   https://github.com/nexusformat/definitions/issues/1435
+Check time 2.410 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://bliss.gitlab-pages.esrf.fr/bliss/master/flint/flint_roi_counters.html'
+Name       `https://bliss.gitlab-pages.esrf.fr/bliss/master/flint/flint_roi_counters.html'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2022_spring_minutes.html, line 136, col 509
+Real URL   https://bliss.gitlab-pages.esrf.fr/bliss/master/flint/flint_roi_counters.html
+Check time 5.712 seconds
+Result     Error: 404 Not Found
+
+URL        `https://github.com/nexusformat/definitions/issues/1446'
+Name       `issue #1446'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2024_minutes.html, line 134, col 48
+Real URL   https://github.com/nexusformat/definitions/issues/1446
+Check time 2.670 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1451'
+Name       `issue #1451'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2024_minutes.html, line 149, col 121
+Real URL   https://github.com/nexusformat/definitions/issues/1451
+Check time 2.114 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1452'
+Name       `issue #1452'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2024_minutes.html, line 158, col 115
+Real URL   https://github.com/nexusformat/definitions/issues/1452
+Check time 1.815 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1039'
+Name       `issue #1039'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2024_minutes.html, line 167, col 73
+Real URL   https://github.com/nexusformat/definitions/issues/1039
+Check time 2.084 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1453'
+Name       `issue #1453'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2024_minutes.html, line 169, col 115
+Real URL   https://github.com/nexusformat/definitions/issues/1453
+Check time 1.690 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1454'
+Name       `issue #1454'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2024_minutes.html, line 170, col 99
+Real URL   https://github.com/nexusformat/definitions/issues/1454
+Check time 2.186 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1459'
+Name       `issue #1459'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2024_minutes.html, line 172, col 74
+Real URL   https://github.com/nexusformat/definitions/issues/1459
+Check time 2.376 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `http://trac.nexusformat.org/definitions/query?status=new&amp;status=assigned&amp;status=reopened&amp;group=owner&amp;keywords=%7ENIAC2006LBL&amp;order=priority'
+Name       `From NIAC 2006\nLBL'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIACActionItems.html, line 51, col 8
+Real URL   http://trac.nexusformat.org/definitions/query?status=new&amp;status=assigned&amp;status=reopened&amp;group=owner&amp;keywords=~NIAC2006LBL&amp;order=priority
+Check time 2.306 seconds
+Size       288B
+Result     Error: 404 Not Found
+
+URL        `ftp://ftp.neutron.anl.gov/nexus/NXdir/NXdir-0.2.5.tar.gz'
+Name       `NXdir-v0.2.5.tar.gz'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NXdir.html, line 114, col 8
+Real URL   ftp://ftp.neutron.anl.gov/nexus/NXdir/NXdir-0.2.5.tar.gz
 Check time 0.014 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20201208.md'>
+Result     Error: Hostname not found
 
-URL        `Telco_20210120.md'
-Name       `January Telco'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20210303.html, line 71, col 53
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20210120.md
-Check time 0.012 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20210120.md'>
+URL        `ftp://ftp.neutron.anl.gov/nexus/NXdir/CHANGES'
+Name       `CHANGES'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NXdir.html, line 118, col 8
+Real URL   ftp://ftp.neutron.anl.gov/nexus/NXdir/CHANGES
+Check time 0.013 seconds
+Result     Error: Hostname not found
 
-URL        `Telco_20200930.md'
-Name       `September Telco'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20201208.html, line 71, col 53
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20200930.md
-Check time 0.012 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20200930.md'>
+URL        `http://trac.nexusformat.org/definitions/query?status=closed&amp;group=owner&amp;keywords=%7ENIAC2006LBL&amp;order=priority'
+Name       `From NIAC 2006\nLBL'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIACActionItems.html, line 58, col 8
+Real URL   http://trac.nexusformat.org/definitions/query?status=closed&amp;group=owner&amp;keywords=~NIAC2006LBL&amp;order=priority
+Check time 2.570 seconds
+Size       288B
+Result     Error: 404 Not Found
 
-URL        `NIAC2014_Meeting#Minutes.html'
-Name       `minutes'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Latest_News.html, line 67, col 504
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2014_Meeting
-Check time 0.015 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2014_Meeting'>
+URL        `http://www.nexus.anl.gov'
+Name       `http://www.nexus.anl.gov'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIACActionItems.html, line 102, col 24
+Real URL   http://www.nexus.anl.gov
+Check time 2.258 seconds
+Result     Error: ConnectionError: HTTPConnectionPool(host='www.nexus.anl.gov', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6de0d5f650>: Failed to establish a new connection: [Err...
 
-URL        `NeXus_43_Testing.html'
-Name       `NeXus_43_Testing'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Latest_News.html, line 75, col 86
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NeXus_43_Testing.html
-Check time 0.002 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NeXus_43_Testing.html'>
+URL        `http://trac.nexusformat.org/code/query?status=new&amp;status=assigned&amp;status=reopened&amp;group=owner&amp;keywords=%7ENIAC2006LBL&amp;order=priority'
+Name       `From NIAC 2006\nLBL'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIACActionItems.html, line 68, col 8
+Real URL   http://trac.nexusformat.org/code/query?status=new&amp;status=assigned&amp;status=reopened&amp;group=owner&amp;keywords=~NIAC2006LBL&amp;order=priority
+Check time 2.682 seconds
+Size       288B
+Result     Error: 404 Not Found
 
-URL        `NeXus_42_Testing.html'
-Name       `available for testing'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Latest_News.html, line 94, col 96
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NeXus_42_Testing.html
+URL        `http://trac.nexusformat.org/code/query?status=closed&amp;group=owner&amp;keywords=%7ENIAC2006LBL&amp;order=priority'
+Name       `From NIAC 2006\nLBL'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIACActionItems.html, line 75, col 8
+Real URL   http://trac.nexusformat.org/code/query?status=closed&amp;group=owner&amp;keywords=~NIAC2006LBL&amp;order=priority
+Check time 2.766 seconds
+Size       288B
+Result     Error: 404 Not Found
+
+URL        `http://trac.nexusformat.org/definitions/ticket/11'
+Name       `#11'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIACActionItems.html, line 150, col 1
+Real URL   http://trac.nexusformat.org/definitions/ticket/11
+Check time 2.897 seconds
+Size       288B
+Result     Error: 404 Not Found
+
+URL        `niac2006:_Scanning_Group'
+Name       `NIAC2006:_Scanning_Group'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Scans.html, line 51, col 1
+Real URL   niac2006:_Scanning_Group
 Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NeXus_42_Testing.html'>
+Result     Error: URLError: <urlopen error unknown url type: niac2006>
 
-URL        `NeXus_41_Testing.html'
-Name       `testing site'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Latest_News.html, line 112, col 135
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NeXus_41_Testing.html
-Check time 0.002 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NeXus_41_Testing.html'>
+URL        `https://github.com/nexusformat/wiki/issues/11'
+Name       `Issue 11'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIACdoc.html, line 80, col 8
+Real URL   https://github.com/nexusformat/wiki/issues/11
+Check time 2.349 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `NeXus_4_Testing.html'
-Name       `testing site'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Latest_News.html, line 128, col 130
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NeXus_4_Testing.html
-Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NeXus_4_Testing.html'>
+URL        `http://www.nexusformat.org/NXdata'
+Name       `NXdata\ngroup'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Proposal_NeXus_Errors.html, line 46, col 35
+Real URL   http://www.nexusformat.org/NXdata
+Check time 2.030 seconds
+Size       1KB
+Result     Error: 404 Not Found
 
-URL        `mailinglist.html'
-Name       `MailingLists'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Latest_News.html, line 134, col 39
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/mailinglist.html
-Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/mailinglist.html'>
+URL        `http://idregistry-nexusformat.rhcloud.com/'
+Name       `http://idregistry-nexusformat.rhcloud.com/'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20150114.html, line 74, col 32
+Real URL   http://idregistry-nexusformat.rhcloud.com/
+Check time 0.120 seconds
+Result     Error: ConnectionError: HTTPConnectionPool(host='idregistry-nexusformat.rhcloud.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6df81073d0>: Failed to establish a new...
 
-URL        `NXsample.html'
-Name       `NXsample'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Monochromatic_Neutron_and_X-ray_Reflectometry.html, line 70, col 36
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NXsample.html
-Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NXsample.html'>
+URL        `http://www.esrf.eu/events/conferences/hdf5-as-hyperspectral-data-analysis-format'
+Name       `HDF-5 as\nhyperspectral\ndataformat'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Workshop_PSI_2010.html, line 55, col 57
+Real URL   https://www.esrf.fr/events/conferences/hdf5-as-hyperspectral-data-analysis-format
+Check time 0.909 seconds
+Size       1KB
+Info       Redirected to
+           `https://www.esrf.fr/events/conferences/hdf5-as-hyperspectral-data-analysis-format'.
+Result     Error: 404 Not Found
 
-URL        `NXmonitor.html'
-Name       `NXmonitor'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Monochromatic_Neutron_and_X-ray_Reflectometry.html, line 122, col 4
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NXmonitor.html
-Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NXmonitor.html'>
+URL        `https://github.com/nexusformat/definitions/pull/1523'
+Name       `DATA vs. AXISNAME - 1523'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20250324.html, line 74, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/1523
+Check time 0.514 seconds
+Size       9KB
+Info       Redirected to
+           `https://github.com/nexusformat/definitions/issues/1523'.
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `NXlog.html'
-Name       `NXlog'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Monochromatic_Neutron_and_X-ray_Reflectometry.html, line 129, col 30
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NXlog.html
-Check time 0.002 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NXlog.html'>
+URL        `https://github.com/nexusformat/definitions/pull/1424%3E'
+Name       `1424'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20250213.html, line 65, col 8
+Real URL   https://github.com/nexusformat/definitions/pull/1424%3E
+Check time 0.260 seconds
+Size       9B
+Result     Error: 404 Not Found
 
-URL        `Telco_20160512.html'
-Name       `Telco 20160512'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20160426.html, line 116, col 7
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20160512.html
-Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Telco_20160512.html'>
+URL        `https://github.com/nexusformat/definitions/pull/1423%3E'
+Name       `1423'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20250213.html, line 66, col 8
+Real URL   https://github.com/nexusformat/definitions/pull/1423%3E
+Check time 0.368 seconds
+Size       40B
+Result     Error: 404 Not Found
 
-URL        `NXentry.html'
-Name       `NXentry'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Scans.html, line 62, col 21
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NXentry.html
-Check time 0.010 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NXentry.html'>
+URL        `https://github.com/nexusformat/definitions/pull/1422%3E'
+Name       `1422'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20250213.html, line 67, col 8
+Real URL   https://github.com/nexusformat/definitions/pull/1422%3E
+Check time 0.389 seconds
+Size       9B
+Result     Error: 404 Not Found
 
-URL        `NXshape.html'
-Name       `NXshape'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2006_TOF_Group.html, line 90, col 40
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NXshape.html
-Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NXshape.html'>
+URL        `http://build.nexusformat.org'
+Name       `http://build.nexusformat.org'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20150114.html, line 91, col 13
+Real URL   https://build.nexusformat.org/
+Check time 8.946 seconds
+Size       441B
+Info       Redirected to `https://build.nexusformat.org/'.
+Result     Error: 503 Service Unavailable
 
-URL        `NXtranslation.html'
-Name       `NXtranslation'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2006_TOF_Group.html, line 117, col 9
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NXtranslation.html
-Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NXtranslation.html'>
+URL        `https://github.com/nexusformat/definitions/pull/1511'
+Name       `1511'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20250116.html, line 95, col 4
+Real URL   https://github.com/nexusformat/definitions/issues/1511
+Check time 0.356 seconds
+Size       9KB
+Info       Redirected to
+           `https://github.com/nexusformat/definitions/issues/1511'.
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Niac2008-attendees.jpg'
-Name       `photo of NIAC 2008 attendees'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2008_attendees.html, line 92, col 1
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Niac2008-attendees.jpg
-Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Niac2008-attendees.jpg'>
+URL        `https://github.com/nexusformat/definitions/issues/1437'
+Name       `1437'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20241218.html, line 80, col 52
+Real URL   https://github.com/nexusformat/definitions/issues/1437
+Check time 0.601 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `NXorientation.html'
-Name       `NXorientation'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2006_TOF_Group.html, line 118, col 1
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NXorientation.html
-Check time 0.001 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NXorientation.html'>
+URL        `https://github.com/nexusformat/definitions/issues/1464'
+Name       `issue 1464'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20241127.html, line 90, col 40
+Real URL   https://github.com/nexusformat/definitions/issues/1464
+Check time 1.981 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Niac2008-hotel.jpg'
-Name       `Rydges Cronulla Sydney hotel, site of NIAC2008 meeting'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2008_attendees.html, line 93, col 1
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Niac2008-hotel.jpg
-Check time 0.002 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Niac2008-hotel.jpg'>
+URL        `https://github.com/nexusformat/definitions/issues/1212'
+Name       `#1212'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20230314.html, line 101, col 12
+Real URL   https://github.com/nexusformat/definitions/issues/1212
+Check time 1.883 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Niac2008-view.jpg'
-Name       `Panorama view of North Cronulla Beach from Rydges Cronulla Sydney hotel, site of NIAC2008 meeting'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NIAC2008_attendees.html, line 94, col 1
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Niac2008-view.jpg
-Check time 0.002 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Niac2008-view.jpg'>
+URL        `https://github.com/nexusformat/definitions/issues/412'
+Name       `#412'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20230314.html, line 118, col 11
+Real URL   https://github.com/nexusformat/definitions/issues/412
+Check time 1.703 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
 
-URL        `Application_Program_Interface#Downloads.html'
-Name       `NeXus Downloads\nsection'
-Parent URL file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/NXbrowse.html, line 120, col 9
-Real URL   file:///mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Application_Program_Interface
-Check time 0.006 seconds
-Result     Error: URLError: <urlopen error [Errno 2] No such file or directory: '/mnt/c/Users/bergr/github/branches/april1/wiki/source/_build/html/content/Application_Program_Interface'>
+URL        `https://github.com/nexusformat/wiki/blob/master/content/NIAC2010.html'
+Name       `minutes of 2010 NIAC'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20230213.html, line 102, col 1
+Real URL   https://github.com/nexusformat/wiki/blob/master/content/NIAC2010.html
+Check time 1.220 seconds
+Result     Error: 404 Not Found
+
+URL        `https://github.com/nexusformat/definitions/issues/1045'
+Name       `also'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20230119.html, line 81, col 255
+Real URL   https://github.com/nexusformat/definitions/issues/1045
+Check time 0.973 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1064'
+Name       `also'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20230119.html, line 81, col 361
+Real URL   https://github.com/nexusformat/definitions/issues/1064
+Check time 1.423 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1232'
+Name       `https://github.com/nexusformat/definitions/issues/1232'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20230119.html, line 94, col 54
+Real URL   https://github.com/nexusformat/definitions/issues/1232
+Check time 1.537 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1043'
+Name       `discussions'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20230119.html, line 98, col 33
+Real URL   https://github.com/nexusformat/definitions/issues/1043
+Check time 1.354 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/395'
+Name       `see also'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20230119.html, line 117, col 37
+Real URL   https://github.com/nexusformat/definitions/issues/395
+Check time 1.499 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1234'
+Name       `regexp enumerations'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20230119.html, line 123, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/1234
+Check time 2.166 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1235'
+Name       `number enumerations'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20230119.html, line 134, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/1235
+Check time 2.018 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1236'
+Name       `default unit category'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20230119.html, line 138, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/1236
+Check time 2.192 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1067'
+Name       `complex unit categories'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20230119.html, line 146, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/1067
+Check time 2.218 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1237'
+Name       `units= vs. units='
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20230119.html, line 151, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/1237
+Check time 2.502 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1228'
+Name       `https://github.com/nexusformat/definitions/issues/1228'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20221202.html, line 80, col 33
+Real URL   https://github.com/nexusformat/definitions/issues/1228
+Check time 1.850 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1021'
+Name       `https://github.com/nexusformat/definitions/issues/1021'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20221202.html, line 85, col 22
+Real URL   https://github.com/nexusformat/definitions/issues/1021
+Check time 1.910 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/1229'
+Name       `https://github.com/nexusformat/definitions/issues/1229'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20221202.html, line 105, col 103
+Real URL   https://github.com/nexusformat/definitions/issues/1229
+Check time 2.177 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://www.unidata.ucar.edu/software/udunits/udunits-2.2.28/udunits2.html'
+Name       `https://www.unidata.ucar.edu/software/udunits/udunits-2.2.28/udunits2.html'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20230119.html, line 147, col 215
+Real URL   https://www.unidata.ucar.edu/software/udunits/udunits-2.2.28/udunits2.html
+Check time 4.653 seconds
+Size       24.58KB
+Result     Error: 404 Not Found
+
+URL        `https://strawpoll.com/polls/NMnQBOYjdg6'
+Name       `poll for a next telco in October'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20220824.html, line 103, col 59
+Real URL   https://strawpoll.com/polls/NMnQBOYjdg6
+Check time 4.232 seconds
+Size       11.53KB
+Result     Error: 404 Not Found
+
+URL        `http://nobugs2006.lbl.gov/index.php?content=Lodging'
+Name       `http://nobugs2006.lbl.gov/index.php?content=Lodging'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/NIAC2006LBL.html, line 177, col 1
+Real URL   http://nobugs2006.lbl.gov/index.php?content=Lodging
+Check time 119.168 seconds
+Result     Error: ConnectTimeout: HTTPConnectionPool(host='nobugs2006.lbl.gov', port=80): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f6dcbe960d0>, 'Connection to nobugs2006.lbl.go...
+
+URL        `https://csmd.ornl.gov/software/adios2'
+Name       `ADIOS'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20220426.html, line 66, col 57
+Real URL   https://csmd.ornl.gov/software/adios2
+Check time 0.230 seconds
+Result     Error: ConnectionError: HTTPSConnectionPool(host='csmd.ornl.gov', port=443): Max retries exceeded with url: /software/adios2 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6de07a3350>: Failed to establish a new co...
+
+URL        `https://github.com/nexusformat/definitions/issues/943'
+Name       `NXxpcs'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20220225.html, line 69, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/943
+Check time 0.243 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/967'
+Name       `NXdetector documentation refers to NXgeometry, which is deprecated'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20220131.html, line 100, col 33
+Real URL   https://github.com/nexusformat/definitions/issues/967
+Check time 0.269 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/944'
+Name       `issue #944'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20211115.html, line 79, col 50
+Real URL   https://github.com/nexusformat/definitions/issues/944
+Check time 0.238 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/939'
+Name       `NXdector_module to describe a ROI?'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20210915.html, line 87, col 35
+Real URL   https://github.com/nexusformat/definitions/issues/939
+Check time 0.235 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/code/issues?q=is%3Aopen+is%3Aissue+label%3Atelco'
+Name       `code'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20210728.html, line 69, col 8
+Real URL   https://github.com/nexusformat/code/issues?q=is:open%20is:issue%20label:telco
+Check time 0.835 seconds
+Size       9B
+Result     Error: 404 Not Found
+
+URL        `https://github.com/nexusformat/definitions/issues?q=is%3Aopen+is%3Aissue+label%3Atelco'
+Name       `definitions'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20210728.html, line 68, col 8
+Real URL   https://github.com/nexusformat/definitions/issues?q=is:open%20is:issue%20label:telco
+Check time 0.911 seconds
+Size       9B
+Result     Error: 404 Not Found
+
+URL        `https://github.com/nexusformat/definitions/issues/933'
+Name       `scanning in NXfluo'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20210728.html, line 83, col 34
+Real URL   https://github.com/nexusformat/definitions/issues/933
+Check time 0.589 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/934'
+Name       `adding MetalJet as a new NXsource type'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20210728.html, line 84, col 25
+Real URL   https://github.com/nexusformat/definitions/issues/934
+Check time 0.794 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://doi.org/10.1063/1.1884186'
+Name       `nitrogen'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20210728.html, line 84, col 465
+Real URL   https://pubs.aip.org/rsi/article/76/4/043503/938416/Liquid-nitrogen-jet-laser-plasma-source-for
+Check time 4.117 seconds
+Info       Redirected to
+           `https://pubs.aip.org/rsi/article/76/4/043503/938416/Liquid-nitrogen-jet-laser-plasma-source-for'.
+Result     Error: 403 Forbidden
+
+URL        `https://doi.org/10.1063/1.4913585'
+Name       `water'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20210728.html, line 84, col 552
+Real URL   https://pubs.aip.org/sdy/article/2/2/024301/365927/Laser-plasma-x-ray-source-for-ultrafast-time
+Check time 4.093 seconds
+Info       Redirected to
+           `https://pubs.aip.org/sdy/article/2/2/024301/365927/Laser-plasma-x-ray-source-for-ultrafast-time'.
+Result     Error: 403 Forbidden
+
+URL        `https://dl.fedoraproject.org/pub/fedora/linux/releases/33/Everything/x86_64/os/Packages/n/nexus-4.4.3-6.fc33.x86_64.rpm'
+Name       `Fedora linux'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20201208.html, line 89, col 100
+Real URL   https://dl.fedoraproject.org/pub/fedora/linux/releases/33/Everything/x86_64/os/Packages/n/nexus-4.4.3-6.fc33.x86_64.rpm
+Check time 0.328 seconds
+Size       196B
+Result     Error: 404 Not Found
+
+URL        `http://purl.org/nexusformat/definitions'
+Name       `http://purl.org/nexusformat/definitions'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20210628.html, line 80, col 196
+Real URL   https://purl.archive.org/nexusformat/definitions
+Check time 10.721 seconds
+Info       Redirected to
+           `https://purl.org/nexusformat/definitions'.
+           Redirected to
+           `https://purl.archive.org/nexusformat/definitions'.
+Result     Error: 404 NOT FOUND
+
+URL        `https://github.com/nexusformat/definitions/issues?q=is%3Aissue+is%3Aopen+label%3Aquestion'
+Name       `Github questions'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20200904.html, line 58, col 8
+Real URL   https://github.com/nexusformat/definitions/issues?q=is:issue%20is:open%20label:question
+Check time 0.362 seconds
+Size       9B
+Result     Error: 404 Not Found
+
+URL        `https://github.com/nexusformat/definitions/issues/748'
+Name       `Issue #748: Mixed use of NXreflections and NXmx telco'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20200424.html, line 57, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/748
+Check time 0.952 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/765'
+Name       `Issue #765: NXcanSAS “radiation” duplicates NXsource “type”'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20200424.html, line 58, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/765
+Check time 0.554 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/762'
+Name       `Issue #762: [NXtomo] Need user flags'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20200424.html, line 59, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/762
+Check time 0.651 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/757'
+Name       `Issue #757: How to add extra attributes and avoid conflicts with NeXus in the future?'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20200424.html, line 60, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/757
+Check time 0.779 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://indico.desy.de/indico/event/24321/overview'
+Name       `NOBUGS2020'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20200224.html, line 57, col 50
+Real URL   https://indico.desy.de/indico/event/24321/overview
+Check time 3.939 seconds
+Size       86.58KB
+Result     Error: 404 NOT FOUND
+
+URL        `https://github.com/nexusformat/definitions/issues/648'
+Name       `https://github.com/nexusformat/definitions/issues/648'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20190424.html, line 57, col 30
+Real URL   https://github.com/nexusformat/definitions/issues/648
+Check time 0.581 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/653'
+Name       `https://github.com/nexusformat/definitions/issues/653'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20190424.html, line 58, col 27
+Real URL   https://github.com/nexusformat/definitions/issues/653
+Check time 1.068 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/651'
+Name       `https://github.com/nexusformat/definitions/issues/651'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20190424.html, line 59, col 30
+Real URL   https://github.com/nexusformat/definitions/issues/651
+Check time 1.434 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://www.bluejeans.com/'
+Name       `https://www.bluejeans.com/'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20190424.html, line 89, col 19
+Real URL   https://www.bluejeans.com/
+Check time 1.208 seconds
+Result     Error: ConnectionError: HTTPSConnectionPool(host='www.bluejeans.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6dcb7e2690>: Failed to establish a new connection: [...
+
+URL        `https://github.com/nexusformat/definitions/issues/656'
+Name       `https://github.com/nexusformat/definitions/issues/656'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20190424.html, line 60, col 34
+Real URL   https://github.com/nexusformat/definitions/issues/656
+Check time 1.509 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/645'
+Name       `variant attribute'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20190207.html, line 74, col 114
+Real URL   https://github.com/nexusformat/definitions/issues/645
+Check time 1.101 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/labels/telco'
+Name       `definitions PRs & issues marked as “telco”'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20180926.html, line 61, col 8
+Real URL   https://github.com/nexusformat/definitions/labels/telco
+Check time 1.199 seconds
+Size       9B
+Result     Error: 404 Not Found
+
+URL        `https://github.com/nexusformat/definitions/issues?q=is%3Aissue+is%3Aopen+label%3A%22discussion+needed%22'
+Name       `https://github.com/nexusformat/definitions/issues?q=is%3Aissue+is%3Aopen+label%3A”discussion+needed”'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20180926.html, line 73, col 4
+Real URL   https://github.com/nexusformat/definitions/issues?q=is:issue%20is:open%20label:%22discussion%20needed%22
+Check time 1.301 seconds
+Size       9B
+Result     Error: 404 Not Found
+
+URL        `https://github.com/nexusformat/definitions/issues/381'
+Name       `https://github.com/nexusformat/definitions/issues/381'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20180529.html, line 89, col 1
+Real URL   https://github.com/nexusformat/definitions/issues/381
+Check time 1.304 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/LiberTEM/LiberTEM/blob/master/fileformat/basic%20pixelated%20STEM.txt'
+Name       `pixelated STEM'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20180403.html, line 58, col 21
+Real URL   https://github.com/LiberTEM/LiberTEM/blob/master/fileformat/basic%20pixelated%20STEM.txt
+Check time 1.246 seconds
+Result     Error: 404 Not Found
+
+URL        `https://github.com/LiberTEM/LiberTEM/blob/master/fileformat/STEM%20application%20definition%20hierarchy.txt'
+Name       `ideas on an application hierarchy to include different kinds of STEM data'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20180403.html, line 58, col 170
+Real URL   https://github.com/LiberTEM/LiberTEM/blob/master/fileformat/STEM%20application%20definition%20hierarchy.txt
+Check time 1.483 seconds
+Result     Error: 404 Not Found
+
+URL        `https://github.com/nexusformat/definitions/issues/597'
+Name       `#597'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20180403.html, line 96, col 20
+Real URL   https://github.com/nexusformat/definitions/issues/597
+Check time 1.851 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/milestones/NXDL%202018.1o'
+Name       `https://github.com/nexusformat/definitions/milestones/NXDL 2018.1o'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20180116.html, line 89, col 4
+Real URL   https://github.com/nexusformat/definitions/milestones/NXDL%202018.1o
+Check time 1.097 seconds
+Size       9B
+Result     Error: 404 Not Found
+
+URL        `https://github.com/nexusformat/definitions/issues/600'
+Name       `https://github.com/nexusformat/definitions/issues/600'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20180116.html, line 106, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/600
+Check time 1.295 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/559'
+Name       `https://github.com/nexusformat/definitions/issues/559'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20170426.html, line 86, col 4
+Real URL   https://github.com/nexusformat/definitions/issues/559
+Check time 1.447 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/524'
+Name       `definitions issue 524'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20170322.html, line 59, col 12
+Real URL   https://github.com/nexusformat/definitions/issues/524
+Check time 1.293 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/486'
+Name       `#486: web site redesign'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20170220.html, line 59, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/486
+Check time 1.307 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/511'
+Name       `#511: pixel as NX_length\nupdate'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20170220.html, line 63, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/511
+Check time 1.373 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://indico.esrf.fr/indico/event/12/'
+Name       `ICALEPCS HDF5 Workshop'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20171107.html, line 58, col 20
+Real URL   https://indico.esrf.fr/indico/event/12/
+Check time 4.383 seconds
+Size       85.62KB
+Result     Error: 404 Not Found
+
+URL        `https://github.com/nexusformat/definitions/compare/NXmx_multimodule_and_dectris_changes'
+Name       `https://github.com/nexusformat/definitions/compare/NXmx_multimodule_and_dectris_changes'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20170220.html, line 66, col 1
+Real URL   https://github.com/nexusformat/definitions/compare/NXmx_multimodule_and_dectris_changes
+Check time 1.701 seconds
+Result     Error: 404 Not Found
+
+URL        `https://github.com/nexusformat/definitions/issues/177'
+Name       `#177: delete NXcharacterization base\nclass'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20170130.html, line 65, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/177
+Check time 0.635 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://indico.cells.es/indico/event/97/overview'
+Name       `https://indico.cells.es/indico/event/97/overview'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20170220.html, line 92, col 8
+Real URL   https://indico.cells.es/indico/event/97/overview
+Check time 0.986 seconds
+Result     Error: SSLError: HTTPSConnectionPool(host='indico.cells.es', port=443): Max retries exceeded with url: /indico/event/97/overview (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:992)')))
+
+URL        `https://github.com/nexusformat/NIAC/issues/21#issuecomment-271126282'
+Name       `examples'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20170117.html, line 59, col 2
+Real URL   https://github.com/nexusformat/NIAC/issues/21#issuecomment-271126282
+Check time 0.662 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/pull/529/commits'
+Name       `PR\n#529'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20170117.html, line 60, col 8
+Real URL   https://github.com/nexusformat/definitions/pull/529/commits
+Check time 1.064 seconds
+Size       157.19KB
+Result     Error: 500 Internal Server Error
+
+URL        `https://github.com/nexusformat/definitions/issues/433'
+Name       `#433: can this be\nclosed?'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20161213.html, line 59, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/433
+Check time 1.066 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/425'
+Name       `#425: can close when 433\ncloses'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20161213.html, line 61, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/425
+Check time 1.138 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/blob/NXcansas-492/applications/NXcanSAS.nxdl.xml#L424'
+Name       `NXcanSAS'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20161213.html, line 75, col 1
+Real URL   https://github.com/nexusformat/definitions/blob/NXcansas-492/applications/NXcanSAS.nxdl.xml#L424
+Check time 1.544 seconds
+Result     Error: 404 Not Found
+
+URL        `https://github.com/nexusformat/definitions/issues/512'
+Name       `unit testing of NXDL\nfiles'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20161213.html, line 88, col 25
+Real URL   https://github.com/nexusformat/definitions/issues/512
+Check time 1.770 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/513'
+Name       `travis-ci'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20161213.html, line 90, col 1
+Real URL   https://github.com/nexusformat/definitions/issues/513
+Check time 1.740 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/451'
+Name       `add NXDL_contact\nattribute'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20161123.html, line 66, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/451
+Check time 2.367 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/330'
+Name       `remove unused\nattributes'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20161123.html, line 68, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/330
+Check time 2.154 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/issues/277'
+Name       `make distinction between required and optional content in\nmanual'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20161123.html, line 70, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/277
+Check time 2.252 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/code/issues/421'
+Name       `https://github.com/nexusformat/code/issues/421'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20160712.html, line 70, col 1
+Real URL   https://github.com/nexusformat/code/issues/421
+Check time 2.053 seconds
+Size       9KB
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/pull/476'
+Name       `issue\n#476'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20160614.html, line 65, col 8
+Real URL   https://github.com/nexusformat/definitions/issues/476
+Check time 2.361 seconds
+Size       9KB
+Info       Redirected to
+           `https://github.com/nexusformat/definitions/issues/476'.
+Warning    [http-rate-limited] Rate limited (Retry-After: None)
+Result     Valid: 429 Too Many Requests
+
+URL        `https://github.com/nexusformat/definitions/labels/NIAC'
+Name       `https://github.com/nexusformat/definitions/labels/NIAC'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20160510.html, line 93, col 14
+Real URL   https://github.com/nexusformat/definitions/labels/NIAC
+Check time 0.239 seconds
+Size       9B
+Result     Error: 404 Not Found
+
+URL        `http://punx.readthedocs.io/en/latest/source_code/analyze.html'
+Name       `http://punx.readthedocs.io/en/latest/source_code/analyze.html'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20160614.html, line 76, col 1
+Real URL   https://punx.readthedocs.io/en/latest/source_code/analyze.html
+Check time 3.813 seconds
+Info       Redirected to
+           `https://punx.readthedocs.io/en/latest/source_code/analyze.html'.
+Result     Error: 404 Not Found
+
+URL        `http://punx.readthedocs.io/en/latest/analyze.html'
+Name       `http://punx.readthedocs.io/en/latest/analyze.html'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20160531.html, line 101, col 13
+Real URL   https://punx.readthedocs.io/en/latest/analyze.html
+Check time 5.288 seconds
+Info       Redirected to
+           `https://punx.readthedocs.io/en/latest/analyze.html'.
+Result     Error: 404 Not Found
+
+URL        `http://arcib.dowling.edu/~yaya/Eiger_22Feb15/'
+Name       `http://arcib.dowling.edu/~yaya/Eiger_22Feb15/'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20150318.html, line 59, col 1
+Real URL   http://arcib.dowling.edu/~yaya/Eiger_22Feb15/
+Check time 0.102 seconds
+Result     Error: ConnectionError: HTTPConnectionPool(host='arcib.dowling.edu', port=80): Max retries exceeded with url: /~yaya/Eiger_22Feb15/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6df8264b90>: Failed to establish a ...
+
+URL        `https://www.dectris.com/eiger.html'
+Name       `https://www.dectris.com/eiger.html'
+Parent URL file:///mnt/c/nexus/11/wiki/source/_build/html/content/Telco_20160426.html, line 75, col 1
+Real URL   https://www.dectris.com/en/eiger.html/
+Check time 4.857 seconds
+Size       8KB
+Info       Redirected to
+           `https://www.dectris.com/en/eiger.html/'.
+Result     Error: 404 Not Found
 
 Statistics:
-Downloaded: 4.16MB.
-Content types: 0 image, 275 text, 0 video, 0 audio, 0 application, 11 mail and 1022 other.
-URL lengths: min=16, max=190, avg=68.
+Downloaded: 3.98MB.
+Content types: 62 image, 1100 text, 0 video, 0 audio, 52 application, 11 mail and 32 other.
+URL lengths: min=16, max=327, avg=60.
 
-That's it. 1308 links in 1308 URLs checked. 0 warnings found. 74 errors found.
-Stopped checking at 2025-04-01 12:11:36-006 (5 seconds)
+That's it. 1257 links in 1436 URLs checked. 165 warnings found. 143 errors found.
+Stopped checking at 2025-04-08 09:13:14-006 (4 minutes, 21 seconds)
