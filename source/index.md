@@ -165,5 +165,4 @@ content/Update_for_NXflou_application_definition.md
 content/Utilities.md
 content/Workshop_PSI_2010.md
 content/XESraw.md
-LICENSE.md
 ```
