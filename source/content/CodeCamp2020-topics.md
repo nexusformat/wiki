@@ -6,7 +6,7 @@ layout: wiki
 NeXus Code Camp - January 2020 -- Topics
 ========================================
 
-[//]: #  https://github.com/nexusformat/wiki/blob/master/content/CodeCamp2020.md
+<!-- #  https://github.com/nexusformat/wiki/blob/master/content/CodeCamp2020.md -->
 
 ## purpose
 

@@ -6,7 +6,7 @@ layout: wiki
 NeXus Code Camp - January 2020 - List of Attendees
 ==================================================
 
-[//]: # https://github.com/nexusformat/wiki/blob/master/content/CodeCamp2020.md
+<!-- # https://github.com/nexusformat/wiki/blob/master/content/CodeCamp2020.md -->
 
 | name | affiliation | country |
 | --- | --- | --- |
@@ -17,4 +17,4 @@ NeXus Code Camp - January 2020 - List of Attendees
 | Peter Chang | Diamond Light Source | United Kingdom |
 | Freddie Akeroyd | UKRI STFC | United Kingdom |
 
-[//]: #  UKRI STFC -was- ISIS Neutron and Muon Source
+<!-- #  UKRI STFC -was- ISIS Neutron and Muon Source -->

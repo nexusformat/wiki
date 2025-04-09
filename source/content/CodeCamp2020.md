@@ -13,11 +13,11 @@ The code camp will take place at the [Advanced Photon Source](https://www.aps.an
 
 (We used an [online poll](https://doodle.com/poll/kf5xvbudzf2ccg6s) to help decide the exact dates.)
 
-[//]: #  https://github.com/nexusformat/wiki/blob/master/content/CodeCamp2020-attendees.md
+<!-- #  https://github.com/nexusformat/wiki/blob/master/content/CodeCamp2020-attendees.md -->
 
-[//]: #  https://github.com/nexusformat/wiki/blob/master/content/CodeCamp2020-topics.md
+<!-- #  https://github.com/nexusformat/wiki/blob/master/content/CodeCamp2020-topics.md -->
 
-[//]: # BTW: this is a comment line (https://stackoverflow.com/a/20885980/1046449)
+<!-- # BTW: this is a comment line (https://stackoverflow.com/a/20885980/1046449) -->
 
 ## Purpose
 
