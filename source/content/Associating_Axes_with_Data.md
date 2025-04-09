@@ -6,9 +6,6 @@ layout: wiki
 Associating Axes with Data
 ==========================
 
-Associating Axes with Data
---------------------------
-
 The current scheme we use in NeXus for associating axes with data was
 mainly devised as a means to work around a limitation of HDF-4. Namely
 the fact that there was one global namespace for dimension scales.
@@ -16,8 +13,8 @@ Dimension scales are HDF way of associating axes with data by storing
 them as properties of the data. Now, this limitation of HDF has since
 long fallen. Moreover there are a number of use cases which are not well
 covered by what we do today. Thus this page describes how to improve.
-Discussion comments should be placed on the [
-discussion](Associating_Axes_with_Data.html "wikilink") page.
+Discussion comments should be placed in the source for this page 
+(`Associating_Axes_with_Data.md`) in the wiki repo.
 
 ### Requirements
 
