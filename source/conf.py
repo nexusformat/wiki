@@ -87,7 +87,6 @@ html_sidebars = {
         'localtoc.html',
         'sourcelink.html',
         'searchbox.html',
-        'google_search.html',
         'nexus.html',
     ],
 }
