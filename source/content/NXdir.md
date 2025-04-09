@@ -16,9 +16,12 @@ If you have any questions/comments/bug reports email Peter Peterson
 News
 ----
 
-May 7, 2004:New version of NXdir is v0.2.5. This version now supports NX\_INT8 and NX\_UINT8 as well as fixes some bugs with reading integers from a nexus file.  
-Apr 15, 2004:New version of NXdir is v0.2.4. The added feature is writing out an NXdata to file (1D and 2D only for now). Let me know if the format should be changed.  
-Mar 17, 2004:New version of NXdir is v0.2.3. This version provides more consistency between abolsute and relative paths. It also allows for anchoring the path at both ends using a “/”.  
+May 7, 2004:New version of NXdir is v0.2.5. This version now supports NX\_INT8 and NX\_UINT8 as well as fixes some bugs with reading integers from a nexus file.
+
+Apr 15, 2004:New version of NXdir is v0.2.4. The added feature is writing out an NXdata to file (1D and 2D only for now). Let me know if the format should be changed.
+
+Mar 17, 2004:New version of NXdir is v0.2.3. This version provides more consistency between abolsute and relative paths. It also allows for anchoring the path at both ends using a “/”.
+
 Mar 01, 2004:First public release of NXdir is v0.2.2 with linux binary here.  
 
 Usage
@@ -28,24 +31,24 @@ NXdir runs on the command line with a variety of arguments. Below is the
 online help information (note that defaults can be changed during
 compilation).
 
-| About NXdir              |
-|--------------------------|
-| -h|--help                |
-| --version                |
-| Node Selection           |
-| -p                       |
-| Output Control           |
-| -o/+o                    |
-| -l|--max-array \[value\] |
-| -t|--tree-mode <value>   |
-| --path-mode <value>      |
-| --data-mode <value>      |
-| --printline <value>      |
-| --write-data <filename>  |
+| About NXdir             |                       |
+|-------------------------|-----------------------|
+| -h                      | --help                |
+| --version               |                       |
+| Node Selection          |                       |
+| -p                      |                       | 
+| Output Control          |                       | 
+| -o/+o                   |                       |
+| -l                      | --max-array \[value\] |
+| -t                      | --tree-mode <value>   |
+| --path-mode <value>     |                       |
+| --data-mode <value>     |                       | 
+| --printline <value>     |                       |
+| --write-data <filename> |                       | 
 
 Some common usages are:
 
--   Print the online (
+-   Print the online 
         nxdir --help
 
 -   List the everything at the root level of the file:

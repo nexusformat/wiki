@@ -155,9 +155,7 @@ Shape and coordinate frame for an *nxparabolic*
 
 ![nxpolynomial](Nxpolynomial.png) 
 
-Shape and coordinate frame for an
-
-*nxpolynomial*
+Shape and coordinate frame for an *nxpolynomial*
 
 #### nxtoroidal
 
