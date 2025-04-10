@@ -91,13 +91,14 @@ html_sidebars = {
     ],
 }
 
-myst_enable_extensions = ["linkify"]
+myst_enable_extensions = ["linkify", "strikethrough"]
 myst_linkify_fuzzy_links = False  # Turn off automatic anchor/bookmark treatment
 myst_all_links_external = True
 myst_url_schemes = ("http", "https", "mailto", "file")  # Allow file paths
 suppress_warnings = [
     'myst.crossref.target_not_found',
     'myst.header',
+    'myst.strikethrough',
 ]
 
 def setup(app):

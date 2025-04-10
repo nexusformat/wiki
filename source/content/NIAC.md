@@ -152,16 +152,19 @@ Special Interest Groups: The NeXus International Advisory Committee will appoint
 Meetings
 --------
 
--   [Code Camp June 2023](https://www.nexusformat.org/CodeCampJune2023.html): Code Camp, (virtual)
+-   [NIAC2024](NIAC2024.html) NIAC Meeting, (hybrid) hosted
+    by ESRF & the Institut Laue-Langevin (ILL), in Grenoble France, September 2024
+-   [Code Camp June 2023](CodeCampJune2023.html): Code Camp, (virtual)
 -   [NIAC 2022](NIAC2022.html) NIAC Meeting, (hybrid)
     hosted by the Paul Scherrer Institute, Switzerland, September 2022
--   [Code Camp 2022](https://www.nexusformat.org/CodeCamp2022.html): Code Camp, (virtual)
+-   [Code Camp 2022](CodeCamp2022.html): Code Camp, (virtual)
 -   [Spring 2022 Virtual NIAC](NIAC2022_spring.html) special NIAC Meeting, (virtual)
+-   [Code Camp 2021](CodeCamp2021-1.html): NeXus Code Camp, (virtual)
 -   [Code Camp 2020-2](CodeCamp2020-2.html) NeXus Code Camp 2020-2, (virtual)
     ~~hosted by the [European XFEL](https://www.xfel.eu/), Hamburg, Germany, October 2020.~~
 -   [NIAC 2020](NIAC2020.html) NIAC Meeting, (virtual)
     ~~hosted by the [European XFEL](https://www.xfel.eu/), Hamburg, Germany, October 2020.~~
-    ([minutes](NIAC2020minutes.html))
+    ([minutes](NIAC2020minutes.html)),([concluding minutes](NIAC2020minutes_concluding.html))
 -   [Code Camp 2020](CodeCamp2020.html): Code camp,
     hosted by APS, Chicago, USA, January 2020
 -   [NIAC 2018](NIAC2018.html): NIAC Meeting,
