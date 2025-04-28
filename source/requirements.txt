@@ -1,0 +1,15 @@
+# Prepare for Documentation
+lxml
+pyyaml
+nyaml
+
+# Documentation building
+sphinx>=5
+linkify-it-py
+myst-parser>=4.0.1
+
+
+# Code style and auto-formatting
+black>=22.3
+flake8>=4
+isort>=5.10
