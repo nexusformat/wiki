@@ -1,7 +1,5 @@
-/.idea
-dev_tools/ext/__pycache__/
-dev_tools/__pycache__/
-*.pyc
-source/_build/
-source/_static/
-
+_site
+.sass-cache
+.jekyll-metadata
+.vagrant
+/.project
