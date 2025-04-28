@@ -1,0 +1,75 @@
+name: Documentation build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:   # allow manual triggering
+    inputs:
+      deploy:
+        description: 'Deploy wiki documentation'
+        type: boolean
+        required: true
+        default: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build-linux:
+    name: CI py${{ matrix.python-version }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.12']
+      max-parallel: 5
+    env:
+      python_version: ${{ matrix.python-version }}
+      python_deploy_version: '3.8' # version to use for deployment
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Deploy Information
+        if: ${{ github.event.inputs.deploy && env.python_version == env.python_deploy_version }}
+        run: |
+          echo "The HTML NeXus Wiki will be pushed to"
+          echo " https://github.com/nexusformat/wiki/tree/gh-pages"
+          echo "The HTML NeXus Wiki will be deployed on"
+          echo " https://nexusformat.github.io/wiki/"
+
+      - name: Install Requirements
+        run: |
+          python3 -m pip install --upgrade pip setuptools
+          make install
+          python3 -m pip list
+
+      - name: Build Wiki
+        run: |
+          make html
+          ls -lAFgh source/_build/html/index.html
+          mkdir -p docs
+          rsync -av --delete source/_build/html/ docs/
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+        with:
+          publish_branch: github-pages
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          #publish_dir: source/_build/html/
+          publish_dir: docs
+          force_orphan: true
+

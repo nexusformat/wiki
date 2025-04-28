@@ -1,0 +1,1287 @@
+LinkChecker 10.5.0
+Copyright (C) 2000-2016 Bastian Kleineidam, 2010-2024 LinkChecker Authors
+LinkChecker comes with ABSOLUTELY NO WARRANTY!
+This is free software, and you are welcome to redistribute it under
+certain conditions. Look at the file `COPYING' within this distribution.
+Read the documentation at https://linkchecker.github.io/linkchecker/
+Write comments and bugs to https://github.com/linkchecker/linkchecker/issues
+
+Start checking at 2025-01-21 11:55:27-006
+
+URL        `Media:NIAC2007HMI_minutes.pdf.html'
+Name       `pdf\nformat'
+Parent URL https://www.nexusformat.org/NIAC2007.html, line 1545, col 90
+Real URL   media:NIAC2007HMI_minutes.pdf.html
+Info       The URL is outside of the domain filter, checked only
+           syntax.
+Result     Error: URL is unrecognized or has invalid syntax
+
+URL        `Media:NeXusOBJ.pdf.html'
+Name       `Marks\nsuggestion'
+Parent URL https://www.nexusformat.org/NIAC2007.html, line 1340, col 40
+Real URL   media:NeXusOBJ.pdf.html
+Info       The URL is outside of the domain filter, checked only
+           syntax.
+Result     Error: URL is unrecognized or has invalid syntax
+
+URL        `Talk:NIAC_Meetings.html'
+Name       `Talk\nPage'
+Parent URL https://www.nexusformat.org/NIAC2006ILL.html, line 1165, col 66
+Real URL   talk:NIAC_Meetings.html
+Info       The URL is outside of the domain filter, checked only
+           syntax.
+Result     Error: URL is unrecognized or has invalid syntax
+
+URL        `Help:Editing#Lists.html'
+Name       `bullet\nform'
+Parent URL https://www.nexusformat.org/NIAC2006ILL.html, line 1163, col 52
+Real URL   help:Editing#Lists.html
+Info       The URL is outside of the domain filter, checked only
+           syntax.
+Result     Error: URL is unrecognized or has invalid syntax
+
+URL        Pete_Jemian
+Name       `Pete Jemian'
+Parent URL https://www.nexusformat.org/NIAC2014.html, line 1348, col 11
+Real URL   https://www.nexusformat.org/User%3APete_Jemian.html
+Check time 3.355 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Herbert_Bernstein.html'
+Name       `Herbert Bernstein'
+Parent URL https://www.nexusformat.org/NIAC2014.html, line 1369, col 11
+Real URL   https://www.nexusformat.org/User%3AHerbert_Bernstein.html
+Check time 3.654 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Mark_Koennecke
+Name       `Mark Koennecke'
+Parent URL https://www.nexusformat.org/NIAC2014.html, line 1390, col 11
+Real URL   https://www.nexusformat.org/User%3AMark_Koennecke.html
+Check time 3.903 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Mark_Basham.html'
+Name       `Mark Basham'
+Parent URL https://www.nexusformat.org/NIAC2014.html, line 1411, col 11
+Real URL   https://www.nexusformat.org/User%3AMark_Basham.html
+Check time 4.156 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Steve_Cottrell.html'
+Name       `Steve Cottrell'
+Parent URL https://www.nexusformat.org/NIAC2014.html, line 1432, col 11
+Real URL   https://www.nexusformat.org/User%3ASteve_Cottrell.html
+Check time 3.873 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Eugenwintersberger.html'
+Name       `Eugen Wintersberger'
+Parent URL https://www.nexusformat.org/NIAC2014.html, line 1453, col 11
+Real URL   https://www.nexusformat.org/User%3AEugenwintersberger.html
+Check time 3.659 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Aaron_Brewster.html'
+Name       `Aaron Brewster'
+Parent URL https://www.nexusformat.org/NIAC2014.html, line 1474, col 11
+Real URL   https://www.nexusformat.org/User%3AAaron_Brewster.html
+Check time 3.432 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Ray_Osborn
+Name       `Ray Osborn'
+Parent URL https://www.nexusformat.org/NIAC2014.html, line 1494, col 11
+Real URL   https://www.nexusformat.org/User%3ARay_Osborn.html
+Check time 3.484 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Jiro_Suzuki.html'
+Name       `Jiro Suzuki'
+Parent URL https://www.nexusformat.org/NIAC2014.html, line 1516, col 11
+Real URL   https://www.nexusformat.org/User%3AJiro_Suzuki.html
+Check time 3.697 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Tobias_Richter.html'
+Name       `Tobias Richter'
+Parent URL https://www.nexusformat.org/NIAC2014.html, line 1537, col 11
+Real URL   https://www.nexusformat.org/User%3ATobias_Richter.html
+Check time 3.601 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `2014-NIAC-Schedule-HF.png'
+Name       `2014-NIAC-Schedule-HF.png'
+Parent URL https://www.nexusformat.org/NIAC2014_Meeting#Minutes.html, line 1160, col 4
+Real URL   https://www.nexusformat.org/2014-NIAC-Schedule-HF.png
+Check time 3.458 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Freddie_Akeroyd
+Name       `Freddie Akeroyd'
+Parent URL https://www.nexusformat.org/NIAC2012.html, line 1252, col 11
+Real URL   https://www.nexusformat.org/User%3AFreddie_Akeroyd.html
+Check time 2.997 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Ben_Watts.html'
+Name       `Ben Watts'
+Parent URL https://www.nexusformat.org/NIAC2012.html, line 1297, col 11
+Real URL   https://www.nexusformat.org/User%3ABen_Watts.html
+Check time 3.262 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Joachim_Wuttke.html'
+Name       `Joachim Wuttke'
+Parent URL https://www.nexusformat.org/NIAC2012.html, line 1327, col 11
+Real URL   https://www.nexusformat.org/User%3AJoachim_Wuttke.html
+Check time 3.630 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Jens-Uwe_Hoffmann.html'
+Name       `Jens-Uwe Hoffmann'
+Parent URL https://www.nexusformat.org/NIAC2012.html, line 1357, col 11
+Real URL   https://www.nexusformat.org/User%3AJens-Uwe_Hoffmann.html
+Check time 3.779 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Eugen_Wintersberger.html'
+Name       `Eugen Wintersberger'
+Parent URL https://www.nexusformat.org/NIAC2012.html, line 1372, col 11
+Real URL   https://www.nexusformat.org/User%3AEugen_Wintersberger.html
+Check time 3.650 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Herbert_J_Bernstein.html'
+Name       `Herbert J Bernstein'
+Parent URL https://www.nexusformat.org/NIAC2012.html, line 1387, col 11
+Real URL   https://www.nexusformat.org/User%3AHerbert_J_Bernstein.html
+Check time 3.705 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Fajin_Yuan.html'
+Name       `Fajin Yuan'
+Parent URL https://www.nexusformat.org/NIAC2012.html, line 1402, col 11
+Real URL   https://www.nexusformat.org/User%3AFajin_Yuan.html
+Check time 3.987 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Graeme_Winter.html'
+Name       `Graeme Winter'
+Parent URL https://www.nexusformat.org/NIAC2012.html, line 1417, col 11
+Real URL   https://www.nexusformat.org/User%3AGraeme_Winter.html
+Check time 3.946 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        David_Mannicke.html'
+Name       `David Mannicke'
+Parent URL https://www.nexusformat.org/NIAC2012.html, line 1432, col 11
+Real URL   https://www.nexusformat.org/User%3ADavid_Mannicke.html
+Check time 3.979 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Peter_Peterson
+Name       `Peter Peterson'
+Parent URL https://www.nexusformat.org/NIAC2012.html, line 1447, col 11
+Real URL   https://www.nexusformat.org/User%3APeter_Peterson.html
+Check time 4.241 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Armando_Sole.html'
+Name       `Armando Sole'
+Parent URL https://www.nexusformat.org/NIAC2012.html, line 1462, col 11
+Real URL   https://www.nexusformat.org/User%3AArmando_Sole.html
+Check time 4.334 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Dalek.jpg'
+Name       `Pete Jemian's physical avatar at the meeting'
+Parent URL https://www.nexusformat.org/NIAC2012.html, line 1509, col 4
+Real URL   https://www.nexusformat.org/Dalek.jpg
+Check time 3.967 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NeXusCodeCamp2011-logo.png'
+Name       ` logo for the 2011 NeXus Code\nCamp'
+Parent URL https://www.nexusformat.org/NIAC2011_CodeCamp.html, line 1145, col 6
+Real URL   https://www.nexusformat.org/NeXusCodeCamp2011-logo.png
+Check time 3.640 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `http://www.nexusformat.org/index.php?title=NIAC2009'
+Name       `http://www.nexusformat.org/index.php?title=NIAC2009'
+Parent URL https://www.nexusformat.org/NIAC2011_CodeCamp.html, line 1163, col 7
+Real URL   http://www.nexusformat.org/index.php?title=NIAC2009
+Check time 3.655 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Paul_Kienzle.html'
+Name       `Paul Kienzle'
+Parent URL https://www.nexusformat.org/NIAC2011_CodeCamp.html, line 1691, col 11
+Real URL   https://www.nexusformat.org/User%3APaul_Kienzle.html
+Check time 3.863 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Stuart_Campbell
+Name       `Stuart\nCampbell'
+Parent URL https://www.nexusformat.org/NIAC2010.html, line 1186, col 46
+Real URL   https://www.nexusformat.org/User%3AStuart_Campbell.html
+Check time 3.642 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Nick_Hauser.html'
+Name       `Nick Hauser'
+Parent URL https://www.nexusformat.org/NIAC2010.html, line 1248, col 11
+Real URL   https://www.nexusformat.org/User%3ANick_Hauser.html
+Check time 3.625 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NeXusCodeCamp2009-logo.png'
+Name       `logo for the 2009 NeXus Code Camp'
+Parent URL https://www.nexusformat.org/NIAC2009.html, line 1149, col 4
+Real URL   https://www.nexusformat.org/NeXusCodeCamp2009-logo.png
+Check time 4.010 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        nick.html'
+Name       `Nick Hauser'
+Parent URL https://www.nexusformat.org/NIAC2009.html, line 1432, col 11
+Real URL   https://www.nexusformat.org/User%3Anick.html
+Check time 3.810 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Nick_Maliszewskyj.html'
+Name       `Nick Maliszewskyj'
+Parent URL https://www.nexusformat.org/NIAC2009.html, line 1439, col 11
+Real URL   https://www.nexusformat.org/User%3ANick_Maliszewskyj.html
+Check time 3.531 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Mission.html'
+Name       `Mission statement'
+Parent URL https://www.nexusformat.org/NIAC2008.html, line 1184, col 7
+Real URL   https://www.nexusformat.org/Mission.html
+Check time 3.563 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Schema.html'
+Name       `current work'
+Parent URL https://www.nexusformat.org/NIAC2008.html, line 1235, col 17
+Real URL   https://www.nexusformat.org/Schema.html
+Check time 3.562 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Coordinate_Systems.html'
+Name       `Coordinate Systems'
+Parent URL https://www.nexusformat.org/NIAC2007.html, line 1352, col 14
+Real URL   https://www.nexusformat.org/Coordinate_Systems.html
+Check time 3.119 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Andy_Gotz
+Name       `Götz'
+Parent URL https://www.nexusformat.org/NIAC2007.html, line 1392, col 16
+Real URL   https://www.nexusformat.org/User%3AAndy_Gotz.html
+Check time 3.156 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NXevent_data.html'
+Name       `Event Data'
+Parent URL https://www.nexusformat.org/NIAC2007.html, line 1394, col 7
+Real URL   https://www.nexusformat.org/NXevent_data.html
+Check time 3.245 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `http://www.nexusformat.org/Coordinate_Systems'
+Name       `http://www.nexusformat.org/Coordinate_Systems'
+Parent URL https://www.nexusformat.org/NIAC2007.html, line 1443, col 1
+Real URL   http://www.nexusformat.org/Coordinate_Systems
+Check time 3.183 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        L.lerusse
+Name       `Laurent'
+Parent URL https://www.nexusformat.org/NIAC2007.html, line 1471, col 19
+Real URL   https://www.nexusformat.org/User%3AL.lerusse.html
+Check time 3.084 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NXgeometry.html'
+Name       `NXgeometry'
+Parent URL https://www.nexusformat.org/NIAC2007_Minutes.html, line 1187, col 34
+Real URL   https://www.nexusformat.org/NXgeometry.html
+Check time 3.400 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NXcharacterization.html'
+Name       `NXcharacterization'
+Parent URL https://www.nexusformat.org/NIAC2007_Minutes.html, line 1308, col 20
+Real URL   https://www.nexusformat.org/NXcharacterization.html
+Check time 3.929 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `http://www.nexusformat.org/instruments/NXmonotas'
+Name       `http://www.nexusformat.org/instruments/NXmonotas'
+Parent URL https://www.nexusformat.org/NIAC2007_Minutes.html, line 1400, col 66
+Real URL   http://www.nexusformat.org/instruments/NXmonotas
+Check time 4.020 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `http://www.nexusformat.org/SQA_Process'
+Name       `http://www.nexusformat.org/SQA_Process'
+Parent URL https://www.nexusformat.org/NIAC2007_Minutes.html, line 1919, col 1
+Real URL   http://www.nexusformat.org/SQA_Process
+Check time 4.071 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer.html'
+Name       `Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer'
+Parent URL https://www.nexusformat.org/NIAC2006LBL.html, line 1257, col 15
+Real URL   https://www.nexusformat.org/Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer.html
+Check time 3.167 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html'
+Name       `Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer'
+Parent URL https://www.nexusformat.org/NIAC2006LBL.html, line 1258, col 15
+Real URL   https://www.nexusformat.org/Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html
+Check time 3.176 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NIAC2006LBL_minutes.doc'
+Name       `MS-Word\nformat'
+Parent URL https://www.nexusformat.org/NIAC2006LBL.html, line 1387, col 15
+Real URL   https://www.nexusformat.org/NIAC2006LBL_minutes.doc
+Check time 2.696 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NIAC2006LBL_photos_other.html'
+Name       `other photos'
+Parent URL https://www.nexusformat.org/NIAC2006LBL.html, line 1394, col 7
+Real URL   https://www.nexusformat.org/NIAC2006LBL_photos_other.html
+Check time 3.328 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Nominees_for_officers.html'
+Name       `chair and executive\nsecretary'
+Parent URL https://www.nexusformat.org/NIAC2006ILL.html, line 1173, col 13
+Real URL   https://www.nexusformat.org/Nominees_for_officers.html
+Check time 3.118 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Synchrotron_Group.html'
+Name       `Synchrotron_Group'
+Parent URL https://www.nexusformat.org/NIAC2006ILL.html, line 1242, col 12
+Real URL   https://www.nexusformat.org/Synchrotron_Group.html
+Check time 3.235 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `TOF_Group.html'
+Name       `TOF Group'
+Parent URL https://www.nexusformat.org/NIAC2006ILL.html, line 1388, col 7
+Real URL   https://www.nexusformat.org/TOF_Group.html
+Check time 3.575 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Scanning_Group.html'
+Name       `Scanning Group'
+Parent URL https://www.nexusformat.org/NIAC2006ILL.html, line 1389, col 7
+Real URL   https://www.nexusformat.org/Scanning_Group.html
+Check time 3.822 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Technical_Computing/API_Group.html'
+Name       `Technical Computing/API\nGroup'
+Parent URL https://www.nexusformat.org/NIAC2006ILL.html, line 1390, col 7
+Real URL   https://www.nexusformat.org/Technical_Computing/API_Group.html
+Check time 3.611 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `public/css/poole.css'
+Parent URL https://www.nexusformat.org/content/NIAC2024_minutes/, line 19, col 3
+Real URL   https://www.nexusformat.org/content/NIAC2024_minutes/public/css/poole.css
+Check time 4.175 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `public/css/syntax.css'
+Parent URL https://www.nexusformat.org/content/NIAC2024_minutes/, line 20, col 3
+Real URL   https://www.nexusformat.org/content/NIAC2024_minutes/public/css/syntax.css
+Check time 3.966 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `public/css/hyde.css'
+Parent URL https://www.nexusformat.org/content/NIAC2024_minutes/, line 21, col 3
+Real URL   https://www.nexusformat.org/content/NIAC2024_minutes/public/css/hyde.css
+Check time 3.704 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `public/apple-touch-icon-144-precomposed.png'
+Parent URL https://www.nexusformat.org/content/NIAC2024_minutes/, line 25, col 3
+Real URL   https://www.nexusformat.org/content/NIAC2024_minutes/public/apple-touch-icon-144-precomposed.png
+Check time 3.714 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `public/favicon.ico'
+Parent URL https://www.nexusformat.org/content/NIAC2024_minutes/, line 26, col 3
+Real URL   https://www.nexusformat.org/content/NIAC2024_minutes/public/favicon.ico
+Check time 3.646 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NIAC.html'
+Name       `NIAC'
+Parent URL https://www.nexusformat.org/content/NIAC2024_minutes/, line 1137, col 20
+Real URL   https://www.nexusformat.org/content/NIAC2024_minutes/NIAC.html
+Check time 3.535 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `issue #1143'
+Name       `estimated time'
+Parent URL https://www.nexusformat.org/Telco_20220824.html, line 1203, col 24
+Real URL   https://www.nexusformat.org/issue%20#1143
+Check time 3.200 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Telco_20160512.html'
+Name       `Telco 20160512'
+Parent URL https://www.nexusformat.org/Telco_20160426.html, line 1212, col 7
+Real URL   https://www.nexusformat.org/Telco_20160512.html
+Check time 3.031 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `2014-CodeCamp-Schedule-MTW.png'
+Name       `2014-CodeCamp-Schedule-MTW.png'
+Parent URL https://www.nexusformat.org/NIAC2014_CodeCamp.html, line 1153, col 4
+Real URL   https://www.nexusformat.org/2014-CodeCamp-Schedule-MTW.png
+Check time 3.068 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Discussions.html'
+Name       `Discussions'
+Parent URL https://www.nexusformat.org/NIAC2014_CodeCamp.html, line 1165, col 1
+Real URL   https://www.nexusformat.org/Discussions.html
+Check time 3.171 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Stuart_Campbell
+Name       `Stuart\nCampbell'
+Parent URL http://www.nexusformat.org/NIAC2010_CodeCamp, line 1154, col 46
+Real URL   http://www.nexusformat.org/User%3AStuart_Campbell.html
+Check time 3.456 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Peter_Peterson
+Name       `Peter\nPeterson'
+Parent URL http://www.nexusformat.org/NIAC2010_CodeCamp, line 1155, col 17
+Real URL   http://www.nexusformat.org/User%3APeter_Peterson.html
+Check time 3.250 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Freddie_Akeroyd
+Name       `Frederick Akeroyd'
+Parent URL http://www.nexusformat.org/NIAC2010_CodeCamp, line 1175, col 11
+Real URL   http://www.nexusformat.org/User%3AFreddie_Akeroyd.html
+Check time 3.458 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Pete_Jemian
+Name       `Pete Jemian'
+Parent URL http://www.nexusformat.org/NIAC2010_CodeCamp, line 1199, col 11
+Real URL   http://www.nexusformat.org/User%3APete_Jemian.html
+Check time 3.409 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Jens-Uwe_Hoffmann.html'
+Name       `Jens-Uwe Hoffmann'
+Parent URL http://www.nexusformat.org/NIAC2010_CodeCamp, line 1207, col 11
+Real URL   http://www.nexusformat.org/User%3AJens-Uwe_Hoffmann.html
+Check time 2.970 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Mark_Koennecke
+Name       `Mark Koennecke'
+Parent URL http://www.nexusformat.org/NIAC2010_CodeCamp, line 1215, col 11
+Real URL   http://www.nexusformat.org/User%3AMark_Koennecke.html
+Check time 3.026 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Tobias_Richter.html'
+Name       `Tobias Richter'
+Parent URL http://www.nexusformat.org/NIAC2010_CodeCamp, line 1239, col 11
+Real URL   http://www.nexusformat.org/User%3ATobias_Richter.html
+Check time 2.643 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Marie.html'
+Name       `Marie Yao'
+Parent URL http://www.nexusformat.org/NIAC2010_CodeCamp, line 1255, col 11
+Real URL   http://www.nexusformat.org/User%3AMarie.html
+Check time 2.899 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Marie.html'
+Name       `Marie Yao'
+Parent URL https://www.nexusformat.org/NIAC2010_CodeCamp.html, line 1255, col 11
+Real URL   https://www.nexusformat.org/User%3AMarie.html
+Check time 3.102 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Matthias_Drochner.html'
+Name       `Matthias Drochner'
+Parent URL https://www.nexusformat.org/NIAC2008_attendees.html, line 1203, col 11
+Real URL   https://www.nexusformat.org/User%3AMatthias_Drochner.html
+Check time 3.113 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Niac2008-attendees.jpg'
+Name       `photo of NIAC 2008 attendees'
+Parent URL https://www.nexusformat.org/NIAC2008_attendees.html, line 1210, col 4
+Real URL   https://www.nexusformat.org/Niac2008-attendees.jpg
+Check time 3.041 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Niac2008-hotel.jpg'
+Name       `Rydges Cronulla Sydney hotel, site of NIAC2008 meeting'
+Parent URL https://www.nexusformat.org/NIAC2008_attendees.html, line 1211, col 1
+Real URL   https://www.nexusformat.org/Niac2008-hotel.jpg
+Check time 3.356 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Niac2008-view.jpg'
+Name       `Panorama view of North Cronulla Beach from Rydges Cronulla Sydney hotel, site of NIAC2008 meeting'
+Parent URL https://www.nexusformat.org/NIAC2008_attendees.html, line 1212, col 1
+Real URL   https://www.nexusformat.org/Niac2008-view.jpg
+Check time 3.238 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Stephane_Poirier.html'
+Name       `Stephane Poirier'
+Parent URL https://www.nexusformat.org/NIAC2007_attendees.html, line 1272, col 11
+Real URL   https://www.nexusformat.org/User%3AStephane_Poirier.html
+Check time 3.387 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Thomas_Proffen
+Name       `Thomas Proffen'
+Parent URL https://www.nexusformat.org/NIAC2007_attendees.html, line 1279, col 11
+Real URL   https://www.nexusformat.org/User%3AThomas_Proffen.html
+Check time 3.170 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Nick.html'
+Name       `Nick Hauser'
+Parent URL https://www.nexusformat.org/NIAC2006LBL_attendees.html, line 1183, col 11
+Real URL   https://www.nexusformat.org/User%3ANick.html
+Check time 3.866 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Przemek_Klosowski
+Name       `Przemek Klosowski'
+Parent URL https://www.nexusformat.org/NIAC2006LBL_attendees.html, line 1211, col 11
+Real URL   https://www.nexusformat.org/User%3APrzemek_Klosowski.html
+Check time 3.919 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `SubversionServer.html'
+Name       `SubversionServer'
+Parent URL https://www.nexusformat.org/Metaformat.html, line 1176, col 1
+Real URL   https://www.nexusformat.org/SubversionServer.html
+Check time 4.112 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NeXus_43_Testing.html'
+Name       `NeXus_43_Testing'
+Parent URL https://www.nexusformat.org/Latest_News.html, line 1172, col 86
+Real URL   https://www.nexusformat.org/NeXus_43_Testing.html
+Check time 3.152 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NeXus_42_Testing.html'
+Name       `available for testing'
+Parent URL https://www.nexusformat.org/Latest_News.html, line 1201, col 96
+Real URL   https://www.nexusformat.org/NeXus_42_Testing.html
+Check time 2.925 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NeXus_41_Testing.html'
+Name       `testing site'
+Parent URL https://www.nexusformat.org/Latest_News.html, line 1223, col 135
+Real URL   https://www.nexusformat.org/NeXus_41_Testing.html
+Check time 3.145 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NeXus_4_Testing.html'
+Name       `testing site'
+Parent URL https://www.nexusformat.org/Latest_News.html, line 1245, col 130
+Real URL   https://www.nexusformat.org/NeXus_4_Testing.html
+Check time 3.450 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `mailinglist.html'
+Name       `MailingLists'
+Parent URL https://www.nexusformat.org/Latest_News.html, line 1251, col 39
+Real URL   https://www.nexusformat.org/mailinglist.html
+Check time 3.737 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        PfPeterson
+Name       `Peter\nPeterson’s'
+Parent URL https://www.nexusformat.org/Latest_News.html, line 1261, col 34
+Real URL   https://www.nexusformat.org/User%3APfpeterson.html
+Check time 3.564 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Nexpy.png'
+Name       `NeXpy|center|800px'
+Parent URL https://www.nexusformat.org/NeXpy.html, line 1284, col 4
+Real URL   https://www.nexusformat.org/Nexpy.png
+Check time 3.921 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NeXPy-Simple_plot.png'
+Name       `A simple NeXpy\nplot|center'
+Parent URL https://www.nexusformat.org/NeXpy.html, line 1546, col 4
+Real URL   https://www.nexusformat.org/NeXPy-Simple_plot.png
+Check time 3.994 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Axis_Limits_Bar.png'
+Name       `Axis Limits\nToolbar|center|600px'
+Parent URL https://www.nexusformat.org/NeXpy.html, line 1561, col 8
+Real URL   https://www.nexusformat.org/Axis_Limits_Bar.png
+Check time 3.988 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Herbert_Bernstein.html'
+Name       `Herbert Bernstein'
+Parent URL http://www.nexusformat.org/NIAC2014.html, line 1369, col 11
+Real URL   http://www.nexusformat.org/User%3AHerbert_Bernstein.html
+Check time 3.466 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Mark_Basham.html'
+Name       `Mark Basham'
+Parent URL http://www.nexusformat.org/NIAC2014.html, line 1411, col 11
+Real URL   http://www.nexusformat.org/User%3AMark_Basham.html
+Check time 3.798 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Steve_Cottrell.html'
+Name       `Steve Cottrell'
+Parent URL http://www.nexusformat.org/NIAC2014.html, line 1432, col 11
+Real URL   http://www.nexusformat.org/User%3ASteve_Cottrell.html
+Check time 3.696 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Eugenwintersberger.html'
+Name       `Eugen Wintersberger'
+Parent URL http://www.nexusformat.org/NIAC2014.html, line 1453, col 11
+Real URL   http://www.nexusformat.org/User%3AEugenwintersberger.html
+Check time 3.955 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Aaron_Brewster.html'
+Name       `Aaron Brewster'
+Parent URL http://www.nexusformat.org/NIAC2014.html, line 1474, col 11
+Real URL   http://www.nexusformat.org/User%3AAaron_Brewster.html
+Check time 3.810 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Ray_Osborn
+Name       `Ray Osborn'
+Parent URL http://www.nexusformat.org/NIAC2014.html, line 1494, col 11
+Real URL   http://www.nexusformat.org/User%3ARay_Osborn.html
+Check time 4.083 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Jiro_Suzuki.html'
+Name       `Jiro Suzuki'
+Parent URL http://www.nexusformat.org/NIAC2014.html, line 1516, col 11
+Real URL   http://www.nexusformat.org/User%3AJiro_Suzuki.html
+Check time 4.163 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `2014-NIAC-Schedule-HF.png'
+Name       `2014-NIAC-Schedule-HF.png'
+Parent URL http://www.nexusformat.org/NIAC2014_Meeting#Minutes.html, line 1160, col 4
+Real URL   http://www.nexusformat.org/2014-NIAC-Schedule-HF.png
+Check time 4.021 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Ben_Watts.html'
+Name       `Ben Watts'
+Parent URL http://www.nexusformat.org/NIAC2012.html, line 1297, col 11
+Real URL   http://www.nexusformat.org/User%3ABen_Watts.html
+Check time 4.129 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Joachim_Wuttke.html'
+Name       `Joachim Wuttke'
+Parent URL http://www.nexusformat.org/NIAC2012.html, line 1327, col 11
+Real URL   http://www.nexusformat.org/User%3AJoachim_Wuttke.html
+Check time 3.925 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Eugen_Wintersberger.html'
+Name       `Eugen Wintersberger'
+Parent URL http://www.nexusformat.org/NIAC2012.html, line 1372, col 11
+Real URL   http://www.nexusformat.org/User%3AEugen_Wintersberger.html
+Check time 3.755 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Herbert_J_Bernstein.html'
+Name       `Herbert J Bernstein'
+Parent URL http://www.nexusformat.org/NIAC2012.html, line 1387, col 11
+Real URL   http://www.nexusformat.org/User%3AHerbert_J_Bernstein.html
+Check time 3.423 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Fajin_Yuan.html'
+Name       `Fajin Yuan'
+Parent URL http://www.nexusformat.org/NIAC2012.html, line 1402, col 11
+Real URL   http://www.nexusformat.org/User%3AFajin_Yuan.html
+Check time 3.470 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Graeme_Winter.html'
+Name       `Graeme Winter'
+Parent URL http://www.nexusformat.org/NIAC2012.html, line 1417, col 11
+Real URL   http://www.nexusformat.org/User%3AGraeme_Winter.html
+Check time 3.600 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        David_Mannicke.html'
+Name       `David Mannicke'
+Parent URL http://www.nexusformat.org/NIAC2012.html, line 1432, col 11
+Real URL   http://www.nexusformat.org/User%3ADavid_Mannicke.html
+Check time 3.670 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Armando_Sole.html'
+Name       `Armando Sole'
+Parent URL http://www.nexusformat.org/NIAC2012.html, line 1462, col 11
+Real URL   http://www.nexusformat.org/User%3AArmando_Sole.html
+Check time 3.701 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Dalek.jpg'
+Name       `Pete Jemian's physical avatar at the meeting'
+Parent URL http://www.nexusformat.org/NIAC2012.html, line 1509, col 4
+Real URL   http://www.nexusformat.org/Dalek.jpg
+Check time 3.348 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NeXusCodeCamp2011-logo.png'
+Name       ` logo for the 2011 NeXus Code\nCamp'
+Parent URL http://www.nexusformat.org/NIAC2011_CodeCamp.html, line 1145, col 6
+Real URL   http://www.nexusformat.org/NeXusCodeCamp2011-logo.png
+Check time 3.429 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Paul_Kienzle.html'
+Name       `Paul Kienzle'
+Parent URL http://www.nexusformat.org/NIAC2011_CodeCamp.html, line 1691, col 11
+Real URL   http://www.nexusformat.org/User%3APaul_Kienzle.html
+Check time 3.774 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Nick_Hauser.html'
+Name       `Nick Hauser'
+Parent URL http://www.nexusformat.org/NIAC2010.html, line 1248, col 11
+Real URL   http://www.nexusformat.org/User%3ANick_Hauser.html
+Check time 3.960 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NeXusCodeCamp2009-logo.png'
+Name       `logo for the 2009 NeXus Code Camp'
+Parent URL http://www.nexusformat.org/NIAC2009.html, line 1149, col 4
+Real URL   http://www.nexusformat.org/NeXusCodeCamp2009-logo.png
+Check time 3.216 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        nick.html'
+Name       `Nick Hauser'
+Parent URL http://www.nexusformat.org/NIAC2009.html, line 1432, col 11
+Real URL   http://www.nexusformat.org/User%3Anick.html
+Check time 3.525 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Nick_Maliszewskyj.html'
+Name       `Nick Maliszewskyj'
+Parent URL http://www.nexusformat.org/NIAC2009.html, line 1439, col 11
+Real URL   http://www.nexusformat.org/User%3ANick_Maliszewskyj.html
+Check time 3.310 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Mission.html'
+Name       `Mission statement'
+Parent URL http://www.nexusformat.org/NIAC2008.html, line 1184, col 7
+Real URL   http://www.nexusformat.org/Mission.html
+Check time 3.166 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Schema.html'
+Name       `current work'
+Parent URL http://www.nexusformat.org/NIAC2008.html, line 1235, col 17
+Real URL   http://www.nexusformat.org/Schema.html
+Check time 2.963 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Coordinate_Systems.html'
+Name       `Coordinate Systems'
+Parent URL http://www.nexusformat.org/NIAC2007.html, line 1352, col 14
+Real URL   http://www.nexusformat.org/Coordinate_Systems.html
+Check time 4.102 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Andy_Gotz
+Name       `Götz'
+Parent URL http://www.nexusformat.org/NIAC2007.html, line 1392, col 16
+Real URL   http://www.nexusformat.org/User%3AAndy_Gotz.html
+Check time 3.933 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NXevent_data.html'
+Name       `Event Data'
+Parent URL http://www.nexusformat.org/NIAC2007.html, line 1394, col 7
+Real URL   http://www.nexusformat.org/NXevent_data.html
+Check time 3.820 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        L.lerusse
+Name       `Laurent'
+Parent URL http://www.nexusformat.org/NIAC2007.html, line 1471, col 19
+Real URL   http://www.nexusformat.org/User%3AL.lerusse.html
+Check time 3.774 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NXgeometry.html'
+Name       `NXgeometry'
+Parent URL http://www.nexusformat.org/NIAC2007_Minutes.html, line 1187, col 34
+Real URL   http://www.nexusformat.org/NXgeometry.html
+Check time 3.931 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NXcharacterization.html'
+Name       `NXcharacterization'
+Parent URL http://www.nexusformat.org/NIAC2007_Minutes.html, line 1308, col 20
+Real URL   http://www.nexusformat.org/NXcharacterization.html
+Check time 3.799 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer.html'
+Name       `Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer'
+Parent URL http://www.nexusformat.org/NIAC2006LBL.html, line 1257, col 15
+Real URL   http://www.nexusformat.org/Time-of-Flight_Neutron_Indirect_Geometry_Spectrometer.html
+Check time 3.480 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html'
+Name       `Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer'
+Parent URL http://www.nexusformat.org/NIAC2006LBL.html, line 1258, col 15
+Real URL   http://www.nexusformat.org/Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html
+Check time 3.851 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NIAC2006LBL_minutes.doc'
+Name       `MS-Word\nformat'
+Parent URL http://www.nexusformat.org/NIAC2006LBL.html, line 1387, col 15
+Real URL   http://www.nexusformat.org/NIAC2006LBL_minutes.doc
+Check time 3.409 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NIAC2006LBL_photos_other.html'
+Name       `other photos'
+Parent URL http://www.nexusformat.org/NIAC2006LBL.html, line 1394, col 7
+Real URL   http://www.nexusformat.org/NIAC2006LBL_photos_other.html
+Check time 2.945 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Nominees_for_officers.html'
+Name       `chair and executive\nsecretary'
+Parent URL http://www.nexusformat.org/NIAC2006ILL.html, line 1173, col 13
+Real URL   http://www.nexusformat.org/Nominees_for_officers.html
+Check time 2.957 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Synchrotron_Group.html'
+Name       `Synchrotron_Group'
+Parent URL http://www.nexusformat.org/NIAC2006ILL.html, line 1242, col 12
+Real URL   http://www.nexusformat.org/Synchrotron_Group.html
+Check time 3.488 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `TOF_Group.html'
+Name       `TOF Group'
+Parent URL http://www.nexusformat.org/NIAC2006ILL.html, line 1388, col 7
+Real URL   http://www.nexusformat.org/TOF_Group.html
+Check time 3.748 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Scanning_Group.html'
+Name       `Scanning Group'
+Parent URL http://www.nexusformat.org/NIAC2006ILL.html, line 1389, col 7
+Real URL   http://www.nexusformat.org/Scanning_Group.html
+Check time 3.461 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Technical_Computing/API_Group.html'
+Name       `Technical Computing/API\nGroup'
+Parent URL http://www.nexusformat.org/NIAC2006ILL.html, line 1390, col 7
+Real URL   http://www.nexusformat.org/Technical_Computing/API_Group.html
+Check time 3.277 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `public/css/poole.css'
+Parent URL http://www.nexusformat.org/content/NIAC2024_minutes/, line 19, col 3
+Real URL   http://www.nexusformat.org/content/NIAC2024_minutes/public/css/poole.css
+Check time 3.677 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `public/css/syntax.css'
+Parent URL http://www.nexusformat.org/content/NIAC2024_minutes/, line 20, col 3
+Real URL   http://www.nexusformat.org/content/NIAC2024_minutes/public/css/syntax.css
+Check time 3.824 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `public/css/hyde.css'
+Parent URL http://www.nexusformat.org/content/NIAC2024_minutes/, line 21, col 3
+Real URL   http://www.nexusformat.org/content/NIAC2024_minutes/public/css/hyde.css
+Check time 3.703 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `public/apple-touch-icon-144-precomposed.png'
+Parent URL http://www.nexusformat.org/content/NIAC2024_minutes/, line 25, col 3
+Real URL   http://www.nexusformat.org/content/NIAC2024_minutes/public/apple-touch-icon-144-precomposed.png
+Check time 3.657 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `public/favicon.ico'
+Parent URL http://www.nexusformat.org/content/NIAC2024_minutes/, line 26, col 3
+Real URL   http://www.nexusformat.org/content/NIAC2024_minutes/public/favicon.ico
+Check time 3.342 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NIAC.html'
+Name       `NIAC'
+Parent URL http://www.nexusformat.org/content/NIAC2024_minutes/, line 1137, col 20
+Real URL   http://www.nexusformat.org/content/NIAC2024_minutes/NIAC.html
+Check time 3.332 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `issue #1143'
+Name       `estimated time'
+Parent URL http://www.nexusformat.org/Telco_20220824.html, line 1203, col 24
+Real URL   http://www.nexusformat.org/issue%20#1143
+Check time 3.375 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Telco_20160512.html'
+Name       `Telco 20160512'
+Parent URL http://www.nexusformat.org/Telco_20160426.html, line 1212, col 7
+Real URL   http://www.nexusformat.org/Telco_20160512.html
+Check time 3.405 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `2014-CodeCamp-Schedule-MTW.png'
+Name       `2014-CodeCamp-Schedule-MTW.png'
+Parent URL http://www.nexusformat.org/NIAC2014_CodeCamp.html, line 1153, col 4
+Real URL   http://www.nexusformat.org/2014-CodeCamp-Schedule-MTW.png
+Check time 3.769 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Discussions.html'
+Name       `Discussions'
+Parent URL http://www.nexusformat.org/NIAC2014_CodeCamp.html, line 1165, col 1
+Real URL   http://www.nexusformat.org/Discussions.html
+Check time 3.366 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Matthias_Drochner.html'
+Name       `Matthias Drochner'
+Parent URL http://www.nexusformat.org/NIAC2008_attendees.html, line 1203, col 11
+Real URL   http://www.nexusformat.org/User%3AMatthias_Drochner.html
+Check time 3.556 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Niac2008-attendees.jpg'
+Name       `photo of NIAC 2008 attendees'
+Parent URL http://www.nexusformat.org/NIAC2008_attendees.html, line 1210, col 4
+Real URL   http://www.nexusformat.org/Niac2008-attendees.jpg
+Check time 3.856 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Niac2008-hotel.jpg'
+Name       `Rydges Cronulla Sydney hotel, site of NIAC2008 meeting'
+Parent URL http://www.nexusformat.org/NIAC2008_attendees.html, line 1211, col 1
+Real URL   http://www.nexusformat.org/Niac2008-hotel.jpg
+Check time 3.696 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Niac2008-view.jpg'
+Name       `Panorama view of North Cronulla Beach from Rydges Cronulla Sydney hotel, site of NIAC2008 meeting'
+Parent URL http://www.nexusformat.org/NIAC2008_attendees.html, line 1212, col 1
+Real URL   http://www.nexusformat.org/Niac2008-view.jpg
+Check time 3.640 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Stephane_Poirier.html'
+Name       `Stephane Poirier'
+Parent URL http://www.nexusformat.org/NIAC2007_attendees.html, line 1272, col 11
+Real URL   http://www.nexusformat.org/User%3AStephane_Poirier.html
+Check time 3.392 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Thomas_Proffen
+Name       `Thomas Proffen'
+Parent URL http://www.nexusformat.org/NIAC2007_attendees.html, line 1279, col 11
+Real URL   http://www.nexusformat.org/User%3AThomas_Proffen.html
+Check time 3.309 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Nick.html'
+Name       `Nick Hauser'
+Parent URL http://www.nexusformat.org/NIAC2006LBL_attendees.html, line 1183, col 11
+Real URL   http://www.nexusformat.org/User%3ANick.html
+Check time 3.407 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        Przemek_Klosowski
+Name       `Przemek Klosowski'
+Parent URL http://www.nexusformat.org/NIAC2006LBL_attendees.html, line 1211, col 11
+Real URL   http://www.nexusformat.org/User%3APrzemek_Klosowski.html
+Check time 3.089 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `SubversionServer.html'
+Name       `SubversionServer'
+Parent URL http://www.nexusformat.org/Metaformat.html, line 1176, col 1
+Real URL   http://www.nexusformat.org/SubversionServer.html
+Check time 3.278 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NeXus_43_Testing.html'
+Name       `NeXus_43_Testing'
+Parent URL http://www.nexusformat.org/Latest_News.html, line 1172, col 86
+Real URL   http://www.nexusformat.org/NeXus_43_Testing.html
+Check time 3.232 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NeXus_42_Testing.html'
+Name       `available for testing'
+Parent URL http://www.nexusformat.org/Latest_News.html, line 1201, col 96
+Real URL   http://www.nexusformat.org/NeXus_42_Testing.html
+Check time 3.556 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NeXus_41_Testing.html'
+Name       `testing site'
+Parent URL http://www.nexusformat.org/Latest_News.html, line 1223, col 135
+Real URL   http://www.nexusformat.org/NeXus_41_Testing.html
+Check time 3.885 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NeXus_4_Testing.html'
+Name       `testing site'
+Parent URL http://www.nexusformat.org/Latest_News.html, line 1245, col 130
+Real URL   http://www.nexusformat.org/NeXus_4_Testing.html
+Check time 4.290 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `mailinglist.html'
+Name       `MailingLists'
+Parent URL http://www.nexusformat.org/Latest_News.html, line 1251, col 39
+Real URL   http://www.nexusformat.org/mailinglist.html
+Check time 4.581 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        PfPeterson
+Name       `Peter\nPeterson’s'
+Parent URL http://www.nexusformat.org/Latest_News.html, line 1261, col 34
+Real URL   http://www.nexusformat.org/User%3APfpeterson.html
+Check time 4.442 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Nexpy.png'
+Name       `NeXpy|center|800px'
+Parent URL http://www.nexusformat.org/NeXpy.html, line 1284, col 4
+Real URL   http://www.nexusformat.org/Nexpy.png
+Check time 4.063 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `NeXPy-Simple_plot.png'
+Name       `A simple NeXpy\nplot|center'
+Parent URL http://www.nexusformat.org/NeXpy.html, line 1546, col 4
+Real URL   http://www.nexusformat.org/NeXPy-Simple_plot.png
+Check time 4.007 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+URL        `Axis_Limits_Bar.png'
+Name       `Axis Limits\nToolbar|center|600px'
+Parent URL http://www.nexusformat.org/NeXpy.html, line 1561, col 8
+Real URL   http://www.nexusformat.org/Axis_Limits_Bar.png
+Check time 3.944 seconds
+Size       1KB
+Result     Error: 404 Not Found
+
+Statistics:
+Downloaded: 7.12MB.
+Content types: 56 image, 589 text, 0 video, 0 audio, 30 application, 7 mail and 732 other.
+URL lengths: min=11, max=162, avg=50.
+
+That's it. 1414 links in 1414 URLs checked. 0 warnings found. 160 errors found.
+Stopped checking at 2025-01-21 11:59:25-006 (3 minutes, 57 seconds)
