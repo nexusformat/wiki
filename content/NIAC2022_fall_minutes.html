@@ -1,0 +1,219 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Minutes of the NIAC2022 Fall Meeting</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="NIACActionItems" href="NIACActionItems.html" />
+    <link rel="prev" title="NIAC2024 Minutes" href="NIAC2024_minutes.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NIACActionItems.html" title="NIACActionItems"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="NIAC2024_minutes.html" title="NIAC2024 Minutes"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Minutes of the NIAC2022 Fall Meeting</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="minutes-of-the-niac2022-fall-meeting">
+<h1>Minutes of the NIAC2022 Fall Meeting<a class="headerlink" href="#minutes-of-the-niac2022-fall-meeting" title="Link to this heading">¶</a></h1>
+<section id="session-b-sept-14th-12-30-utc">
+<h2>Session B: Sept 14th 12:30 UTC<a class="headerlink" href="#session-b-sept-14th-12-30-utc" title="Link to this heading">¶</a></h2>
+<p>NIAC members Present: Sandor Brockhaus (SB), Mark Koennecke (MK), Russ Berg (RB), Ben Watts (BW), Freddie Akeroyd (FA), Peter Chang (PC),
+Heike Gorzig (HG), Wout de Nolf (WD), Pete Jemian (PJ), Luca Geliso (LG), Takahiro Matsumoto (TM), Herbert Bernstein (HB)</p>
+<p>non-NIAC Present: Markus Kunbach (Markus),</p>
+<p>BW proposed voting via github thumbs up/down and it was agreed</p>
+<p>SB presented issue 24, Proposal is to allow the “recommended” property (to complement “optional” which can be true or false) to be applied to attributes. <a class="reference external" href="https://github.com/nexusformat/NIAC/issues/140">https://github.com/nexusformat/NIAC/issues/140</a>
+PJ This “recommended” property has already been approved for fields and groups, so this will just make attributes more consistent.
+PJ suggested to add “Developers” as reviewers for pull requests
+The proposal was voted on and approved.</p>
+<p>SB preseted issue 3 (Allow NXdata dimension variables to contain a list of strings <a class="reference external" href="https://github.com/nexusformat/NIAC/issues/945">https://github.com/nexusformat/NIAC/issues/945</a>),
+SB this would be an array of strings
+PC this issue was voted on and approved back at the spring NIAC
+PJ the changes need to be made, will set for next release</p>
+<p>SB presented issue 23, Support for non-dimensional coordinates in NXdata <a class="reference external" href="https://github.com/nexusformat/NIAC/issues/139">https://github.com/nexusformat/NIAC/issues/139</a>
+MK proposal refers to issues of data processing and thus goes to far for what NEXUS is expected to provide
+BW NEXUS has seen this before, NEXUS shouldnt describe how to produce plot, it should make the data accessble only
+SB proposal is also to propose future axes as well,
+MK this still seems to require more data specializations which
+BW NXdata is recomended to exist for each dataset so it should be kept more general and not be too specific about how to produce plotting which is more in teh realm of data processing
+WD this can be handled using what already exists by just creating a virtual dataset</p>
+<p>SB presented issue 21, NeXus Ontology v2 <a class="reference external" href="https://github.com/nexusformat/NIAC/issues/136">https://github.com/nexusformat/NIAC/issues/136</a>
+BW commented The NIAC is pleased to see further development of the NeXus ontology and we encourage you to continue this work.
+PJ asked when can this work be included in public docmentation, HG said there are some issues with email addrs? FK mentioned a registration that needed to take place for nexusformat.org
+PJ can this be put onto the NEXUS home page,
+SB there are also some rendering issues, but once rendered there will be a link that can be used to link to NEXUS homepage</p>
+<p>SB presented issue 22, Group referencing an Application Definition <a class="reference external" href="https://github.com/nexusformat/NIAC/issues/138">https://github.com/nexusformat/NIAC/issues/138</a>
+MK proposed option D, NXsubentry was created to handle situations like these
+BW clarified the use of NXsubentry, where you have a single NXentry and references to other app defs appears in individual NXsubentries of the NXentry
+PJ offered that what maybe what SB is looking for is NXnote to describe the process that is planned
+BW NXenry is required for each measurement in a sequence, NSsubentry refers to another app def for a simulataneous measurements
+MK suggested that what SB is looking for is a workflow software tool several will be presented at NOBUGS conference next week
+WD suggested a specific example for future discussion
+SB agreed after looking at NXsubentry that it should address this proposal, future discussion likely to follow</p>
+<p>SB presented issue 19, base classes always extend NXobject. Can a base class extend another base class? <a class="reference external" href="https://github.com/nexusformat/NIAC/issues/135">https://github.com/nexusformat/NIAC/issues/135</a>
+MK said that NIAC has discussed this numerous times in the past and has reasons for not adopting inheritance for base class definitions
+PJ asked what base class needs extension
+SB asked if people could reread the issue and continue discussions in next session and/or next week during NOBUGS
+BW closed session</p>
+</section>
+<section id="session-c-sept-14th-15-00-utc">
+<h2>Session C: Sept 14th 15:00 UTC<a class="headerlink" href="#session-c-sept-14th-15-00-utc" title="Link to this heading">¶</a></h2>
+<p>NIAC members Present: Raymond Osborn (RO), Aaron Brewster (AB), Sandor Brockhaus (SB), Mark Koennecke (MK), Russ Berg (RB), Ben Watts (BW),<br />
+Freddie Akeroyd (FA), Peter Chang (PC), Heike Gorzig (HG), Wout de Nolf (WD), Pete Jemian (PJ), Luca Geliso (LG), Herbert Bernstein (HB), CHen Zhang (CZ)</p>
+<p>BW raised question about when we should adress issue 20, Elect Executive Officers <a class="reference external" href="https://github.com/orgs/nexusformat/projects/2/views/1">https://github.com/orgs/nexusformat/projects/2/views/1</a>
+consensus was election to occur in third session tomorrow Sept 15,
+BW to send an email to NIAC list that that is the plan</p>
+<p>SB presented issue 27, symbols to be connected to Field values <a class="reference external" href="https://github.com/nexusformat/NIAC/issues/141">https://github.com/nexusformat/NIAC/issues/141</a>
+MK suggests that a specific example be proposed so that the NIAC would have an actual situation to consider
+HB suggests javascript be used to provide the required structure to do what is being asked in regards to math in documentation, hooks would just need to be added into?
+AB, BW, SB, MK, RO  had discussions trying to clarify the issue,
+PJ, MK reminded everyone that adding executable code into a nexus file is a security issue
+AB would like a way of using math to describe how to take 2 arrays to create a third
+BW there are equations that exist that would produce a denial of service attack on the computer, basically the computation would be so intense as to occupy the entire CPU
+HB this is a common problem, many things can occupy the entire CPU, standard code etc, people know better, and this is a neceisity
+PC if there was a determined list of approved expressions would that give AB, HB what they need
+RB suggested that there be a table called expressions similar to a symbols table, the NXentry would allow expressions to be defined by an applpication definition
+the burden of security of executing the expresion is on the community that is backing the application definition
+PJ the point of NEXUS is to provide data, not data processing
+AB said that at the moment the data isnt 100% useful without the processing so it would be great to find a solution to this
+outcome of discusson of just that raised in issue 27 is: NIAC likes the idea of proposed SB and would like SB to produce specific example for the NIAC to review later</p>
+<p>WD presented issue 102, NXdata: errors on auxiliary signals, <a class="reference external" href="https://github.com/nexusformat/definitions/issues/1044">https://github.com/nexusformat/definitions/issues/1044</a>
+BW sauggests that we should go a step further and deprecate the “errors” attrubte in favor of VARIABLE_errors
+MK in 2018 NIAC decided to deprecate “errors” attribute already, it just hasnt been done yet, so this is more a documentation bug than a change of the standard required
+BW adds a comment to issue : NIAC agrees that this is just a documentation bug that should be fixed. Also the errors field was already decided to be deprecated in 2018.
+WD assigned to this task</p>
+<p>RO issue 14, Proposal to add ‘angles’ attribute to NXdata groups <a class="reference external" href="https://github.com/nexusformat/NIAC/issues/102">https://github.com/nexusformat/NIAC/issues/102</a>
+RO in the last 30 minutes wanted to have a general discussion about the angles and transformations,
+WD would replace the proposal with one that all transformations could be represented by specifying a single transforma matrix
+BW this isnt ready to vote on
+WD will put forward a proposal as mentioned above
+PC requests that there be  a human readable field added to the documentation</p>
+<p>AB presented Can we have a standard rule in NeXus to validate presence of one item from a list of possibles? <a class="reference external" href="https://github.com/nexusformat/definitions/issues/1002">https://github.com/nexusformat/definitions/issues/1002</a>
+AB it is dependant on another issue 1002
+BW was going to do some work on this, it should be possibele to do this, XML will need some crafting, this work doesnt stand in the way of voting on issue 1002
+AB will switch PR to a draft
+BW issue 1002 is about making the definition available so that it can be machine readble and validated</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Minutes of the NIAC2022 Fall Meeting</a><ul>
+<li><a class="reference internal" href="#session-b-sept-14th-12-30-utc">Session B: Sept 14th 12:30 UTC</a></li>
+<li><a class="reference internal" href="#session-c-sept-14th-15-00-utc">Session C: Sept 14th 15:00 UTC</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NIACActionItems.html" title="NIACActionItems"
+             >next</a></li>
+        <li class="right" >
+          <a href="NIAC2024_minutes.html" title="NIAC2024 Minutes"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Minutes of the NIAC2022 Fall Meeting</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

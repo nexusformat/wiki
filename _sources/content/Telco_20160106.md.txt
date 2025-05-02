@@ -1,0 +1,80 @@
+---
+title: Telco 20160106
+permalink: Telco_20160106.html
+layout: wiki
+---
+Telco 20160106
+==============
+
+Date
+----
+
+Wednesday, 6th January, 16:30 Central European Time (Copenhagen)
+
+Hangout Link:
+<https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua>
+
+Agenda
+------
+
+-   Welcome and agree Agenda
+-   teleconference reminders - fate of nexus-tech
+-   sample container proposal - DLS
+-   recording scan intent proposal - DLS
+-   CXI update (Mark B) this time with better microphone and legal
+    advise
+-   NAPI release and download webpages (including definitions kits),
+    debian packages
+-   cnxvalidate update
+-   features update
+-   Next meeting
+-   AOB
+
+Minutes
+-------
+
+Present: RO, HJB, TSR, MK
+
+#### nexus-tech
+
+-   now open for subscriptions
+-   moderated to only allow notifications about teleconferences
+
+<https://github.com/nexusformat/definitions/issues/429>
+
+#### DLS reports and NAPI
+
+no update due to lack of relevant people
+
+#### cnxvalidate
+
+discussion of status and purpose
+
+alpha software, but ready for tests
+
+running agains existing example files is outstanding
+
+#### features update
+
+internal tests for issuing feature ids have started
+
+more on that hopefully next time
+
+#### upcoming meetings
+
+BNL/NSLSII meeting for Dectris/Eiger data processing, 26-28 May 2016
+
+workshops at either ACA or ECM for general MX data
+
+#### AOB
+
+This year marks 20 years of NeXus. We'll need to celebrate at the NIAC.
+
+Github issues was discussed for electronic discussions. To initiate a
+discussion face to face or video appears to be required for the moment.
+We will however focus on resolving or at least discussing one github
+issue per telco.
+
+#### Next meeting
+
+[Telco 20160120](Telco_20160120.html "wikilink")

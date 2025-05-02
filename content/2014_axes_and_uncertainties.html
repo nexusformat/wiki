@@ -1,0 +1,419 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>2014 axes and uncertainties</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="2014 How to find default data" href="2014_How_to_find_default_data.html" />
+    <link rel="prev" title="About the NeXus Data Format" href="../index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="2014_How_to_find_default_data.html" title="2014 How to find default data"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="../index.html" title="About the NeXus Data Format"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">2014 axes and uncertainties</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="axes-and-uncertainties">
+<h1>2014 axes and uncertainties<a class="headerlink" href="#axes-and-uncertainties" title="Link to this heading">¶</a></h1>
+<p>(written for <a class="reference external" href="NIAC2014_Meeting.html" title="wikilink">NIAC2014_Meeting</a>)</p>
+<p>In developing the <a class="reference external" href="http://www.cansas.org/formats/canSAS2012/1.0/doc/">canSAS standard for storing multidimensional reduced
+small-angle scattering
+data</a>, a new method
+for identifying the <a class="reference external" href="http://www.cansas.org/formats/canSAS2012/1.0/doc/implementation.html#algorithm-to-identify-values-given-a-set-of-indices-on-the-i-data">related
+axes</a>
+and
+<a class="reference external" href="http://www.cansas.org/formats/canSAS2012/1.0/doc/framework.html#index-5">uncertainties</a>
+was devised. It is proposed that this will be a good addition to NeXus,
+adding flexibility to data file writers while preserving an obvious path
+from data to axes and uncertainties.</p>
+<section id="proposal-to-describe-n-dimensional-data-axes">
+<h2>Proposal to describe N-dimensional data (Axes)<a class="headerlink" href="#proposal-to-describe-n-dimensional-data-axes" title="Link to this heading">¶</a></h2>
+<p>(see this from canSAS:
+<a class="reference external" href="http://www.cansas.org/formats/canSAS2012/1.0/doc/framework.html">http://www.cansas.org/formats/canSAS2012/1.0/doc/framework.html</a>)</p>
+<p>NeXus needs a robust method to describe and associate the axes of data
+with arbitrary dimensions in files. Particularly, the existing methods
+rely on the concept of HDF dimension scales to describe each of the
+axes. There is no capability in NeXus to describe multi-dimensional axes
+associated with plottable data.</p>
+<p>The current method of identifying the default data in NeXus files by
+adding attributes to datasets does not work in certain important
+situations. For example, with the current specifications, a dataset with
+&#64;signal=1 attribute can not be linked into a group which already has
+such a dataset. Yet, the notion of NXdata to describe the default plot
+implies the specifications are a property of the NXdata group, not the
+component datasets.</p>
+<p>An additional concern is that the method should allow great flexibility
+in the naming of fields.</p>
+<p>The new method should be backwards compatible with and not spoil
+existing methods in NeXus.</p>
+<p>We must also consider and allow for the common situation when <strong>no
+axes</strong> are specified.</p>
+<section id="proposition">
+<h3>Proposition<a class="headerlink" href="#proposition" title="Link to this heading">¶</a></h3>
+<p>Define the specifications of the default data and any associated axes
+using attributes attached to the NXdata group.</p>
+<p>Preserve the simplicity of the signal attribute but provide it at the
+group level.</p>
+<p>Define how to describe slices of multi-dimensional axes associated with
+the default data.</p>
+</section>
+<section id="nxdata-attributes">
+<h3>NXdata Attributes<a class="headerlink" href="#nxdata-attributes" title="Link to this heading">¶</a></h3>
+<p><strong>All attributes potentially containing multiple values (axes and
+_indices) are to be written as integer or string arrays, to avoid
+string parsing in reading applications.</strong></p>
+<p><strong>signal</strong>:</p>
+<p><code class="docutils literal notranslate"><span class="pre">   Defines the name of the default dataset.</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   A field of this name *must* exist.</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   (either dataset or link to dataset)</span></code></p>
+<p><strong>axes</strong>:</p>
+<p><code class="docutils literal notranslate"><span class="pre">   String array that defines the independent data fields used in default plot for all of the </span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   dimensions of the signal field. One entry is provided for every dimension in the signal field.</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">   The field(s) named as values (known as </span></code>“<code class="docutils literal notranslate"><span class="pre">axes</span></code>”<code class="docutils literal notranslate"><span class="pre">) of this attribute must exist.</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   An axis slice is specified using the </span></code><em><code class="docutils literal notranslate"><span class="pre">{axisname}_indices</span></code></em><code class="docutils literal notranslate"><span class="pre"> below.</span></code><br />
+<code class="docutils literal notranslate">&#160;&#160; </code><br />
+<code class="docutils literal notranslate"><span class="pre">   When no default axis is available for a particular dimension of the plottable data,</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   use a </span></code>“<code class="docutils literal notranslate"><span class="pre">.</span></code>”<code class="docutils literal notranslate"><span class="pre"> in that position.  An example below demonstrates this.</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   If there are no axes at all (such as with a stack of images), the</span></code><br />
+<code class="docutils literal notranslate">&#160;&#160; </code><em><code class="docutils literal notranslate"><span class="pre">axes</span></code></em><code class="docutils literal notranslate"><span class="pre"> attribute can be omitted.</span></code></p>
+<p><strong>{axisname}_indices</strong>:</p>
+<p><code class="docutils literal notranslate"><span class="pre">   Integer array that defines the indices of the signal field array which need to be used in the </span></code><br />
+<code class="docutils literal notranslate">&#160;&#160; </code><em><code class="docutils literal notranslate"><span class="pre">{axisname}</span></code></em><code class="docutils literal notranslate"><span class="pre"> dataset in order to reference the corresponding axis value.</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">   This attribute is to be provided in all situations.</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   However, if the indices attributes are missing, file readers are encouraged</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   to make their best efforts to plot the data.  Thus the implementation</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   of the </span></code><em><code class="docutils literal notranslate"><span class="pre">{axis``</span> <span class="pre">``name}_indices</span></code></em><code class="docutils literal notranslate"><span class="pre"> attribute is based on the model of</span></code><br />
+<code class="docutils literal notranslate">&#160;&#160; </code>“<code class="docutils literal notranslate"><span class="pre">strict``</span> <span class="pre">``writer,``</span> <span class="pre">``liberal``</span> <span class="pre">``reader</span></code>”<code class="docutils literal notranslate"><span class="pre">.</span></code></p>
+</section>
+<section id="example-data-structures">
+<h3>Example data structures<a class="headerlink" href="#example-data-structures" title="Link to this heading">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre"> NXroot</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   NXentry</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     NXdata</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;signal=</span></code>“<code class="docutils literal notranslate"><span class="pre">data</span></code>”<code class="docutils literal notranslate"><span class="pre">  --&gt; *names* the default data to be visualized</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;axes=</span></code>“<code class="docutils literal notranslate"><span class="pre">x</span></code>”<code class="docutils literal notranslate"><span class="pre">  --&gt; *names* the default independent data</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;x_indices=0</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       data: float[100]  --&gt; the default dependent data</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       x: float[100]  --&gt; the default independent data</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre"> NXroot</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   NXentry</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     NXdata</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;signal=</span></code>“<code class="docutils literal notranslate"><span class="pre">data</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;axes=</span></code>“<code class="docutils literal notranslate"><span class="pre">time</span></code>”<code class="docutils literal notranslate"><span class="pre">,</span></code>“<code class="docutils literal notranslate"><span class="pre">pressure</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;pressure_indices=1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;temperature_indices=1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;time_indices=0</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       data: float[1000,20]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       pressure: float[20]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       temperature: float[20]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       time: float[1000]</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre"> NXroot</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   NXentry</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     NXdata</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;signal=</span></code>“<code class="docutils literal notranslate"><span class="pre">det</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;axes=</span></code>“<code class="docutils literal notranslate"><span class="pre">pressure</span></code>”<code class="docutils literal notranslate"><span class="pre">,</span></code>“<code class="docutils literal notranslate"><span class="pre">tof</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;pressure_indices=0</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;tof_indices=1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       det: float[100,100000]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       pressure: float[100]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       tof: float[100000]</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre"> NXroot</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   NXentry</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     NXdata</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;signal=</span></code>“<code class="docutils literal notranslate"><span class="pre">det</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;axes=</span></code>“<code class="docutils literal notranslate"><span class="pre">x</span></code>”<code class="docutils literal notranslate"><span class="pre">,</span></code>“<code class="docutils literal notranslate"><span class="pre">y</span></code>”<code class="docutils literal notranslate"><span class="pre">,</span></code>“<code class="docutils literal notranslate"><span class="pre">tof</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;tof_indices=2</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;x_indices=0,1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;y_indices=0,1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       det: float[100,512,100000]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       tof: float[100000]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       x: float[100,512]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       y: float[100,512]</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre"> NXroot</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   NXentry</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     NXdata</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;signal=</span></code>“<code class="docutils literal notranslate"><span class="pre">det1</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;axes=</span></code>“<code class="docutils literal notranslate"><span class="pre">polar_angle_demand</span></code>”<code class="docutils literal notranslate"><span class="pre">,</span></code>“<code class="docutils literal notranslate"><span class="pre">frame_number</span></code>”<code class="docutils literal notranslate"><span class="pre">,</span></code>“<code class="docutils literal notranslate"><span class="pre">.</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;frame_number_indices=1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;polar_angle_rbv_indices=0,1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;time_indices=0,1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;polar_angle_demand_indices=0</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       polar_angle_rbv: [50,5]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       det1: [50,5,1024]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       polar_angle_demand: [50]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       frame_number: [5]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       time: [50,5]</span></code></p>
+</section>
+</section>
+<section id="uncertainties">
+<h2>Uncertainties<a class="headerlink" href="#uncertainties" title="Link to this heading">¶</a></h2>
+<p><strong>NOTE: At NIAC2014, this proposal on uncertainties was not accepted.</strong>
+<em>NIAC will see a proposal when experience has been gained with all
+variations.</em></p>
+<p>(see this from canSAS:
+<a class="reference external" href="http://www.cansas.org/formats/canSAS2012/1.0/doc/examples.html#representing-uncertainty-components">http://www.cansas.org/formats/canSAS2012/1.0/doc/examples.html#representing-uncertainty-components</a>)</p>
+<p>In a scientific data file, it is assumed that uncertainty about the
+value of the data is expressed in an array of the same shape as the
+data. The uncertainty of a datum may be expressed in a single value or
+as derived from several components.</p>
+<p>The way that data uncertainties are described in NeXus data files is
+inconsistent across the base classes and can be improved while also
+being generalized. Currently, the name of these uncertainties is most
+often called “errors” which is incorrect. At best, these are error
+estimates but actually describe an estimate of one’s uncertainty in the
+data.</p>
+<p>While uncertainties are properties of the dataset rather than the
+containing group, it is difficult in some cases such as
+externally-linked datasets, to attach the attributes directly to the
+dataset.</p>
+<section id="id1">
+<h3>Proposition<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h3>
+<p>The attribute-based scheme used to describe the axes (see above) can be
+extended to describe the uncertainties. A subgroup can be created to
+deposit these constituents. It seems that a new base class would be
+needed for this subgroup.</p>
+<p>It is a question for debate whether to attach the attribute to the
+dataset or the NXdata group. We leave that open for now.</p>
+</section>
+<section id="id2">
+<h3>NXdata Attributes<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h3>
+<p>We must consider the description of uncertainty as an attribute of
+either a dataset or the containing NXdata group. The value of the
+attribute should be the same in either case.</p>
+<p>Name of the uncertainty attribute depends on the context:</p>
+<ul class="simple">
+<li><p>parent NXdata group: <strong>{name}_uncertainty</strong></p></li>
+<li><p>dataset: <strong>uncertainty</strong></p></li>
+</ul>
+<p>Value:</p>
+<p><code class="docutils literal notranslate"><span class="pre">   Defines the name of the dataset with the uncertainty to be used.</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   This dataset must exist and have the same shape as the signal dataset.</span></code></p>
+<p><em>Examples</em></p>
+<p><code class="docutils literal notranslate"><span class="pre"> NXroot</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   NXentry</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     NXdata</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;signal=</span></code>“<code class="docutils literal notranslate"><span class="pre">data</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;data_axes=</span></code>“<code class="docutils literal notranslate"><span class="pre">xy</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;data_uncertainty=</span></code>“<code class="docutils literal notranslate"><span class="pre">esd</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">       data: float[300, 300]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       xy: float[300, 300]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       esd: float[300, 300]</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre"> NXroot</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   NXentry</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     NXdata</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;signal=</span></code>“<code class="docutils literal notranslate"><span class="pre">data</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;data_axes=</span></code>“<code class="docutils literal notranslate"><span class="pre">xy</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">       data: float[300, 300]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">         &#64;uncertainty=</span></code>“<code class="docutils literal notranslate"><span class="pre">esd</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">       xy: float[300, 300]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       esd: float[300, 300]</span></code></p>
+<p>Name of the uncertainty components subgroup attribute depends on the
+context:</p>
+<ul class="simple">
+<li><p>parent NXdata group: <strong>{name}_uncertainty_components</strong> where
+<em>{name}</em> is the uncertainty dataset</p>
+<ul>
+<li><p><strong>{name}</strong> must exist as a dataset</p></li>
+</ul>
+</li>
+<li><p>dataset: <em>uncertainty_components</em> attached to uncertainty dataset</p></li>
+</ul>
+<p>Value:</p>
+<p><code class="docutils literal notranslate"><span class="pre">   Defines the name of the NXuncertainty subgroup with the uncertainty components.</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   This subgroup must exist.</span></code></p>
+<p><em>Examples</em></p>
+<p><code class="docutils literal notranslate"><span class="pre"> NXroot</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   NXentry</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     NXdata</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;signal=</span></code>“<code class="docutils literal notranslate"><span class="pre">data</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;data_axes=</span></code>“<code class="docutils literal notranslate"><span class="pre">xy</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;data_uncertainty=</span></code>“<code class="docutils literal notranslate"><span class="pre">esd</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;esd_uncertainty_components=</span></code>“<code class="docutils literal notranslate"><span class="pre">esd_uncertainties</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">       data: float[300, 300]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       xy: float[300, 300]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       esd: float[300, 300]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       esd_uncertainties:NXuncertainty</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">          electronic : float[300, 300]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">             &#64;basis=</span></code>“<code class="docutils literal notranslate"><span class="pre">Johnson``</span> <span class="pre">``noise</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">          counting_statistics: float[300, 300]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">             &#64;basis=</span></code>“<code class="docutils literal notranslate"><span class="pre">shot``</span> <span class="pre">``noise</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">          secondary_standard: float[300, 300]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">             &#64;basis=</span></code>“<code class="docutils literal notranslate"><span class="pre">esd</span></code>”</p>
+<p><code class="docutils literal notranslate"><span class="pre"> NXroot</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   NXentry</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     NXdata</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;signal=</span></code>“<code class="docutils literal notranslate"><span class="pre">data</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;data_axes=</span></code>“<code class="docutils literal notranslate"><span class="pre">xy</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">       data: float[300, 300]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">         &#64;uncertainty=</span></code>“<code class="docutils literal notranslate"><span class="pre">esd</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">       xy: float[300, 300]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       esd: float[300, 300]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">         &#64;uncertainty_components=</span></code>“<code class="docutils literal notranslate"><span class="pre">esd_uncertainties</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">       esd_uncertainties:NXuncertainty</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">          electronic : float[300, 300]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">             &#64;basis=</span></code>“<code class="docutils literal notranslate"><span class="pre">Johnson``</span> <span class="pre">``noise</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">          counting_statistics: float[300, 300]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">             &#64;basis=</span></code>“<code class="docutils literal notranslate"><span class="pre">shot``</span> <span class="pre">``noise</span></code>”<br />
+<code class="docutils literal notranslate"><span class="pre">          secondary_standard: float[300, 300]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">             &#64;basis=</span></code>“<code class="docutils literal notranslate"><span class="pre">esd</span></code>”</p>
+</section>
+<section id="topics-for-discussion-on-this-proposal">
+<h3>Topics for Discussion on this Proposal<a class="headerlink" href="#topics-for-discussion-on-this-proposal" title="Link to this heading">¶</a></h3>
+<p>These are some of the topics to be considered when evaluating this
+proposal.</p>
+<ol class="arabic simple">
+<li><p>. There are known advantages and disadvantages to the decision to
+store attributes on the parent group or on the field itself.</p>
+<ol class="arabic simple">
+<li><p>. Attributes stored on the field will transfer when the field is
+copied or linked</p></li>
+<li><p>. It may not be possible to add or modify a field attribute
+which is linked due to conflicts or write permissions</p></li>
+</ol>
+</li>
+<li><p>. The uncertainty field (and possible complex uncertainties) need to
+be considered when copying or linking</p></li>
+<li><p>. “Uncertainty” is not a popular word to spell. Yet “errors” is not
+correct in this context.</p></li>
+</ol>
+</section>
+<section id="nxuncertainty-base-class">
+<h3><em>NXuncertainty</em> Base Class<a class="headerlink" href="#nxuncertainty-base-class" title="Link to this heading">¶</a></h3>
+<p>TODO: need to write this section</p>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">2014 axes and uncertainties</a><ul>
+<li><a class="reference internal" href="#proposal-to-describe-n-dimensional-data-axes">Proposal to describe N-dimensional data (Axes)</a><ul>
+<li><a class="reference internal" href="#proposition">Proposition</a></li>
+<li><a class="reference internal" href="#nxdata-attributes">NXdata Attributes</a></li>
+<li><a class="reference internal" href="#example-data-structures">Example data structures</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#uncertainties">Uncertainties</a><ul>
+<li><a class="reference internal" href="#id1">Proposition</a></li>
+<li><a class="reference internal" href="#id2">NXdata Attributes</a></li>
+<li><a class="reference internal" href="#topics-for-discussion-on-this-proposal">Topics for Discussion on this Proposal</a></li>
+<li><a class="reference internal" href="#nxuncertainty-base-class"><em>NXuncertainty</em> Base Class</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="2014_How_to_find_default_data.html" title="2014 How to find default data"
+             >next</a></li>
+        <li class="right" >
+          <a href="../index.html" title="About the NeXus Data Format"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">2014 axes and uncertainties</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

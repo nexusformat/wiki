@@ -1,0 +1,677 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>ReflectDiscuss</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Small-Angle Scattering" href="SAS.html" />
+    <link rel="prev" title="Proposal to Simplify Nexus" href="Proposal_to_Simplify_Nexus.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="SAS.html" title="Small-Angle Scattering"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Proposal_to_Simplify_Nexus.html" title="Proposal to Simplify Nexus"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">ReflectDiscuss</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="reflectdiscuss">
+<h1>ReflectDiscuss<a class="headerlink" href="#reflectdiscuss" title="Link to this heading">¶</a></h1>
+<p>Three files as a starting point for discussion … the idea is to come
+up with reflectometer definitions based on inheritance from other
+definitions such as <a class="reference external" href="TOFRaw.html" title="wikilink">TOFRaw</a></p>
+<ul class="simple">
+<li><p>outline the parts of tofraw needed for reflectometry.</p></li>
+<li><p>create a reflectometry base</p></li>
+<li><p>create a TOF reflectometry from base+tofraw</p></li>
+</ul>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="w">    </span><span class="cp">&lt;?xml version=&quot;1.0&quot; ?&gt;</span>
+<span class="w">    </span><span class="cm">&lt;!--</span>
+<span class="cm">    Instrument Definition for Reflectometers.</span>
+<span class="cm">    Editor: Paul Kienzle &lt;pkienzle@nist.gov&gt;</span>
+<span class="cm">    Mangled_by: Nick Maliszewskyj &lt;nickm@nist.gov&gt;</span>
+<span class="cm">    $Id$</span>
+<span class="cm">    See http://www.neutron.anl.gov:8080/NeXus/5 for component definitions.</span>
+
+<span class="cm">    2006-02-03 Refined by NIAC group meetings.</span>
+<span class="cm">    --&gt;</span>
+
+<span class="w">    </span><span class="nt">&lt;NXentry&gt;</span>
+
+<span class="w">      </span><span class="nt">&lt;NXcharacterization</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;intensity#&quot;</span><span class="nt">&gt;</span>*
+<span class="w">        </span><span class="nt">&lt;type&gt;</span>intensity<span class="nt">&lt;/type&gt;</span>
+<span class="w">        </span>{Suggested<span class="w"> </span>spectrum<span class="w"> </span>measurement<span class="w"> </span>for<span class="w"> </span>intensity<span class="w"> </span>vs.<span class="w"> </span>wavelength
+<span class="w">         </span>for<span class="w"> </span>a<span class="w"> </span>given<span class="w"> </span>slit<span class="w"> </span>setting.<span class="w">  </span>Warning:<span class="w"> </span>beam<span class="w"> </span>profile<span class="w"> </span>is<span class="w"> </span>not<span class="w"> </span>
+<span class="w">         </span>regular,<span class="w"> </span>but<span class="w"> </span>this<span class="w"> </span>effect<span class="w"> </span>is<span class="w"> </span>accomodated<span class="w"> </span>in<span class="w"> </span>the<span class="w"> </span>spectrum<span class="w"> </span>measurement.
+<span class="w">         </span>May<span class="w"> </span>measure<span class="w"> </span>monitor<span class="w"> </span>versus<span class="w"> </span>detector<span class="w"> </span>or<span class="w"> </span>monitor<span class="w"> </span>vs.<span class="w"> </span>monitor<span class="w"> </span>or
+<span class="w">         </span>simply<span class="w"> </span>absolute<span class="w"> </span>detector<span class="w"> </span>counts<span class="w"> </span>for<span class="w"> </span>a<span class="w"> </span>particular<span class="w"> </span>slit<span class="w"> </span>setting.}
+<span class="w">      </span><span class="nt">&lt;/NXcharacterization&gt;</span>
+<span class="w">      </span><span class="nt">&lt;NXcharacterization</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;background#&quot;</span><span class="nt">&gt;</span>*
+<span class="w">        </span><span class="nt">&lt;type&gt;</span>background<span class="nt">&lt;/type&gt;</span>
+<span class="w">        </span>{Suggested<span class="w"> </span>background<span class="w"> </span>measurement;<span class="w"> </span>needed<span class="w"> </span>for<span class="w"> </span>point<span class="w"> </span>detector<span class="w"> </span>measurements}
+<span class="w">      </span><span class="nt">&lt;/NXcharacterization&gt;</span>
+<span class="w">      </span><span class="nt">&lt;NXcharacterization</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;background*&quot;</span><span class="nt">&gt;</span>*
+<span class="w">        </span><span class="nt">&lt;type&gt;</span>background<span class="nt">&lt;/type&gt;</span>
+<span class="w">        </span>{Suggested<span class="w"> </span>background<span class="w"> </span>measurement}
+<span class="w">      </span><span class="nt">&lt;/NXcharacterization&gt;</span>
+
+
+<span class="w">      </span><span class="nt">&lt;NXsample</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;sample&quot;</span><span class="nt">&gt;</span>
+<span class="w">        </span><span class="nt">&lt;polar_angle</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[i]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;degrees&quot;</span><span class="nt">&gt;</span>?
+<span class="w">           </span>{Angle<span class="w"> </span>relative<span class="w"> </span>to<span class="w"> </span>the<span class="w"> </span>scattering<span class="w"> </span>plane,<span class="w"> </span>not<span class="w"> </span>to<span class="w"> </span>gravity.}
+<span class="w">        </span><span class="nt">&lt;/polar_angle&gt;</span>
+<span class="w">        </span>{Reflectometry<span class="w"> </span>characterization<span class="w"> </span>of<span class="w"> </span>samples<span class="w"> </span>is<span class="w"> </span>much<span class="w"> </span>more<span class="w"> </span>complex<span class="w"> </span>than
+<span class="w">        </span>given<span class="w"> </span>in<span class="w"> </span>NXsample.}
+<span class="w">      </span><span class="nt">&lt;/NXsample&gt;</span>
+
+
+<span class="w">      </span><span class="nt">&lt;NXinstrument&gt;</span>
+
+<span class="w">        </span><span class="cm">&lt;!-- collimation --&gt;</span>
+<span class="w">        </span><span class="nt">&lt;NXaperture</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;pre[sample|detector]_slit#&quot;</span><span class="nt">&gt;</span>
+<span class="w">          </span><span class="nt">&lt;opening</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;FLOAT32[1|2]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;mm&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+<span class="w">            </span>{Slits<span class="w"> </span>defining<span class="w"> </span>the<span class="w"> </span>beam<span class="w"> </span>width<span class="w"> </span>and<span class="w"> </span>possibly<span class="w"> </span>the<span class="w"> </span>height<span class="w"> </span>relative
+<span class="w">             </span>to<span class="w"> </span>the<span class="w"> </span>surface<span class="w"> </span>of<span class="w"> </span>the<span class="w"> </span>sample.}
+<span class="w">          </span><span class="nt">&lt;distance</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;FLOAT32&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;m&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/NXaperture&gt;</span>
+
+<span class="w">        </span><span class="cm">&lt;!-- </span>
+<span class="cm">          The polarizer-flipper-guidefield combination selects polarization vectors </span>
+<span class="cm">          in and out of the sample.  A number of scans are required to tune the </span>
+<span class="cm">          instrument so that polarization is either &#39;up&#39; or &#39;down&#39; on the sample.  </span>
+<span class="cm">          On correctly tuned instruments the polarization angle selected should </span>
+<span class="cm">          be recorded by the flipper using polar_angle relative to the surface </span>
+<span class="cm">          (0/180 for +/-, or with out of plane polarization, 90/270 for +/-).  </span>
+<span class="cm">          The polarization efficiency must be determined from a spectrum scan</span>
+<span class="cm">          and the appropriate correction applied to the data.</span>
+<span class="cm">          Raw values from the instrument, such as time dependent field applied</span>
+<span class="cm">          to flipper coils or current on the current sheet can be recorded for</span>
+<span class="cm">          specialized reduction programs which know how to handle them.</span>
+
+<span class="cm">          In practice, these fields can be dropped because we are tagging the</span>
+<span class="cm">          data entry with polarization ++, etc.</span>
+<span class="cm">          --&gt;</span>
+<span class="w">        </span><span class="nt">&lt;NXpolarizer</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;presample_polarizer&quot;</span><span class="nt">&gt;</span>?<span class="nt">&lt;/NXpolarizer&gt;</span>
+<span class="w">        </span><span class="nt">&lt;NXflipper</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;presample_flipper&quot;</span><span class="nt">&gt;</span>?<span class="nt">&lt;/NXflipper&gt;</span>
+
+<span class="w">        </span><span class="nt">&lt;NXpolarizer</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;predetector_polarizer&quot;</span><span class="nt">&gt;</span>?<span class="nt">&lt;/NXpolarizer&gt;</span>
+<span class="w">        </span><span class="nt">&lt;NXflipper</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;predetector_flipper&quot;</span><span class="nt">&gt;</span>?<span class="nt">&lt;/NXflipper&gt;</span>
+
+<span class="w">        </span><span class="cm">&lt;!-- detector may be protected by an attenuator and/or a beam stop --&gt;</span>
+<span class="w">        </span><span class="nt">&lt;NXattenuator&gt;</span>?
+<span class="w">          </span><span class="nt">&lt;attenuator_transmission</span><span class="w"> </span><span class="nt">/&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/NXattenuator&gt;</span>
+<span class="w">        </span><span class="nt">&lt;NXbeam_stop&gt;</span>?
+<span class="w">          </span>{<span class="w"> </span>Need<span class="w"> </span>all<span class="w"> </span>fields<span class="w"> </span>so<span class="w"> </span>that<span class="w"> </span>we<span class="w"> </span>can<span class="w"> </span>calculate<span class="w"> </span>shadow<span class="w"> </span>of<span class="w"> </span>beam<span class="w"> </span>stop<span class="w"> </span>on<span class="w"> </span>detector.<span class="w"> </span>}
+<span class="w">        </span><span class="nt">&lt;/NXbeam_stop&gt;</span>
+
+<span class="w">        </span><span class="nt">&lt;NXdetector&gt;</span>
+<span class="w">          </span><span class="nt">&lt;polar_angle</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[np]&quot;</span><span class="nt">&gt;</span>
+<span class="w">            </span>{<span class="w"> </span>Angle<span class="w"> </span>of<span class="w"> </span>the<span class="w"> </span>detector<span class="w"> </span>relative<span class="w"> </span>to<span class="w"> </span>the<span class="w"> </span>scattering<span class="w"> </span>plane.<span class="w"> </span>}
+<span class="w">          </span><span class="nt">&lt;/polar_angle&gt;</span>
+<span class="w">          </span><span class="nt">&lt;azimuthal_angle</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;degrees&quot;</span><span class="nt">&gt;</span>
+<span class="w">            </span>{<span class="w"> </span>Indicate<span class="w"> </span>sense<span class="w"> </span>of<span class="w"> </span>scattering:<span class="w"> </span>0<span class="w"> </span>is<span class="w"> </span>front<span class="w"> </span>surface<span class="w"> </span>of<span class="w"> </span>sample,<span class="w"> </span>
+<span class="w">              </span>180<span class="w"> </span>is<span class="w"> </span>back<span class="w"> </span>surface<span class="w"> </span>of<span class="w"> </span>sample.<span class="w">  </span>If<span class="w"> </span>180,<span class="w"> </span>change<span class="w"> </span>the<span class="w"> </span>sign<span class="w"> </span>of<span class="w"> </span>the
+<span class="w">              </span>reflected<span class="w"> </span>angle<span class="w"> </span>in<span class="w"> </span>the<span class="w"> </span>data.<span class="w">  </span>It<span class="w"> </span>is<span class="w"> </span>also<span class="w"> </span>possible<span class="w"> </span>for<span class="w"> </span>the<span class="w"> </span>beam
+<span class="w">              </span>to<span class="w"> </span>enter<span class="w"> </span>the<span class="w"> </span>substrate<span class="w"> </span>from<span class="w"> </span>the<span class="w"> </span>side<span class="w"> </span>and<span class="w"> </span>reflect<span class="w"> </span>off<span class="w"> </span>the<span class="w"> </span>back<span class="w"> </span>
+<span class="w">              </span>surface<span class="w"> </span>of<span class="w"> </span>a<span class="w"> </span>film,<span class="w"> </span>in<span class="w"> </span>which<span class="w"> </span>case<span class="w"> </span>negative<span class="w"> </span>angles<span class="w"> </span>can<span class="w"> </span>be<span class="w"> </span>
+<span class="w">              </span>interpreted<span class="w"> </span>as<span class="w"> </span>inverting<span class="w"> </span>the<span class="w"> </span>scattering<span class="w"> </span>length<span class="w"> </span>density<span class="w"> </span>profile
+<span class="w">              </span>of<span class="w"> </span>the<span class="w"> </span>film<span class="w"> </span>(after<span class="w"> </span>accounting<span class="w"> </span>for<span class="w"> </span>absorption<span class="w"> </span>in<span class="w"> </span>the<span class="w"> </span>substrate.<span class="w"> </span>}
+<span class="w">          </span><span class="nt">&lt;/azimuthal_angle&gt;</span>
+<span class="w">          </span><span class="nt">&lt;counts</span><span class="w"> </span><span class="nt">/&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/NXdetector&gt;</span>
+
+<span class="w">      </span><span class="nt">&lt;/NXinstrument&gt;</span>
+
+<span class="w">      </span><span class="nt">&lt;NXtimer&gt;</span>?<span class="nt">&lt;/NXtimer&gt;</span>
+
+<span class="w">      </span><span class="nt">&lt;NXdata&gt;</span>
+<span class="w">        </span><span class="cm">&lt;!-- Scan identification tags for the specific measurement type --&gt;</span>
+<span class="w">        </span><span class="nt">&lt;measurement</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span><span class="w"> </span>
+<span class="w">          </span>{<span class="w"> </span>&quot;intensity&quot;|&quot;background&quot;|&quot;specular&quot;|&quot;rock&quot;|&quot;slice&quot;|&quot;area&quot;<span class="w"> </span>}
+<span class="w">        </span><span class="nt">&lt;/measurement&gt;</span>
+<span class="w">        </span><span class="nt">&lt;polarization</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>?
+<span class="w">          </span>{<span class="w"> </span>&quot;++&quot;|&quot;+-&quot;|&quot;-+&quot;|&quot;--&quot;|&quot;+&quot;|&quot;-&quot;<span class="w"> </span>}
+<span class="w">        </span><span class="nt">&lt;/polarization&gt;</span>
+
+<span class="w">        </span><span class="cm">&lt;!-- Counts and monitors --&gt;</span>
+<span class="w">        </span><span class="nt">&lt;data</span><span class="w"> </span><span class="na">NAPIlink=</span><span class="s">&quot;NXentry/NXdetector/data&quot;</span><span class="w"> </span><span class="na">signal=</span><span class="s">&quot;1&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+<span class="w">        </span><span class="nt">&lt;monitor</span><span class="w"> </span><span class="na">NAPIlink=</span><span class="s">&quot;NXentry/NXmonitor/data&quot;</span><span class="nt">&gt;</span>?<span class="nt">&lt;/monitor&gt;</span>
+<span class="w">      </span><span class="nt">&lt;/NXdata&gt;</span>
+
+<span class="w">      </span><span class="nt">&lt;NXlog</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>*
+<span class="w">        </span>{<span class="w"> </span>Various<span class="w"> </span>logs<span class="w"> </span>for<span class="w"> </span>temperature,<span class="w"> </span>field,<span class="w"> </span>etc.<span class="w"> </span>which<span class="w"> </span>are<span class="w"> </span>assumed<span class="w"> </span>to
+<span class="w">          </span>be<span class="w"> </span>constant<span class="w"> </span>over<span class="w"> </span>the<span class="w"> </span>duration<span class="w"> </span>of<span class="w"> </span>the<span class="w"> </span>run.<span class="w">  </span>The<span class="w"> </span>reduction<span class="w"> </span>program
+<span class="w">          </span>should<span class="w"> </span>be<span class="w"> </span>able<span class="w"> </span>to<span class="w"> </span>display<span class="w"> </span>their<span class="w"> </span>values<span class="w"> </span>on<span class="w"> </span>a<span class="w"> </span>parallel<span class="w"> </span>graph.<span class="w">  </span>Note
+<span class="w">          </span>that<span class="w"> </span>logs<span class="w"> </span>are<span class="w"> </span>not<span class="w"> </span>necessarily<span class="w"> </span>sampled<span class="w"> </span>synchronously<span class="w"> </span>with<span class="w"> </span>the
+<span class="w">          </span>data<span class="w"> </span>points.<span class="w"> </span>}
+<span class="w">      </span><span class="nt">&lt;/NXlog&gt;</span>
+
+<span class="w">    </span><span class="nt">&lt;/NXentry&gt;</span>
+
+<span class="w">    </span><span class="nt">&lt;NXentry&gt;</span>
+<span class="w">      </span><span class="nt">&lt;definition</span><span class="w"> </span><span class="na">version=</span><span class="s">&quot;1.0&quot;</span><span class="w"> </span><span class="na">URL=</span><span class="s">&quot;http://www.nexus.anl.gov/instruments/xml/monoref.xml&quot;</span><span class="nt">&gt;</span>
+<span class="w">        </span>NXmonoref
+<span class="w">      </span><span class="nt">&lt;/definition&gt;</span>
+<span class="w">      </span><span class="nt">&lt;start_time</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;ISO8601&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+
+<span class="w">      </span><span class="nt">&lt;NXsample&gt;</span>
+<span class="w">        </span><span class="nt">&lt;momentum_transfer</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[i]&quot;</span><span class="nt">&gt;</span>{|Q|}?<span class="nt">&lt;/momentum_transfer&gt;</span>
+<span class="w">      </span><span class="nt">&lt;/NXsample&gt;</span>
+<span class="w">      </span>
+
+<span class="w">      </span><span class="nt">&lt;NXinstrument&gt;</span>
+<span class="w">        </span><span class="cm">&lt;!-- wavelength selection --&gt;</span>
+<span class="w">        </span><span class="nt">&lt;NXcrystal</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;monochromator&quot;</span><span class="nt">&gt;</span>
+<span class="w">          </span><span class="cm">&lt;!-- May want to include fields required to compute the wavelength L, and spread dL --&gt;</span>
+<span class="w">          </span><span class="nt">&lt;wavelength</span><span class="w"> </span><span class="nt">/&gt;</span>
+<span class="w">          </span><span class="nt">&lt;wavelength_spread</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;Angstrom&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/NXcrystal&gt;</span>
+<span class="w">      </span><span class="nt">&lt;/NXinstrument&gt;</span>
+
+
+<span class="w">      </span><span class="nt">&lt;NXmonitor&gt;</span>?
+<span class="w">        </span><span class="nt">&lt;momentum_transfer</span><span class="w"> </span><span class="na">NAPIlink=</span><span class="s">&quot;NXentry/NXsample/momentum_transfer&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+<span class="w">        </span><span class="nt">&lt;presample_slit1</span><span class="w"> </span><span class="na">NAPIlink=</span><span class="s">&quot;NXentry/presample_slit1/NXgeometry/NXshape/size&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+<span class="w">        </span><span class="nt">&lt;data</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;FLOAT32[np]&quot;</span><span class="w"> </span><span class="na">signal=</span><span class="s">&quot;1&quot;</span><span class="w"> </span><span class="na">axes=</span><span class="s">&quot;momentum_transfer|presample_slit1&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+<span class="w">      </span><span class="nt">&lt;/NXmonitor&gt;</span>
+
+<span class="w">      </span><span class="nt">&lt;NXtimer&gt;</span>?<span class="nt">&lt;/NXtimer&gt;</span>
+
+<span class="w">      </span><span class="nt">&lt;NXdata&gt;</span>
+<span class="w">        </span><span class="cm">&lt;!-- Scan variables</span>
+<span class="cm">           *** Note: these are renamed from their original location, which</span>
+<span class="cm">           *** which is a problem with the current API.</span>
+<span class="cm">           *** Maybe require some of these, e.g., theta, two theta, momentum transfer, presample_slit1.</span>
+<span class="cm">         --&gt;</span>
+<span class="w">        </span><span class="nt">&lt;theta</span><span class="w"> </span><span class="na">NAPIlink=</span><span class="s">&quot;NXentry/NXsample/polar_angle&quot;</span><span class="nt">&gt;</span>?<span class="nt">&lt;/theta&gt;</span>
+<span class="w">        </span><span class="nt">&lt;twotheta</span><span class="w"> </span><span class="na">NAPIlink=</span><span class="s">&quot;NXentry/NXdetector/polar_angle&quot;</span><span class="nt">&gt;</span>?<span class="nt">&lt;/twotheta&gt;</span>
+<span class="w">        </span><span class="nt">&lt;momentum_transfer</span><span class="w"> </span><span class="na">NAPIlink=</span><span class="s">&quot;NXentry/NXsample/momentum_transfer&quot;</span><span class="nt">&gt;</span>?<span class="nt">&lt;/momentum_transfer&gt;</span>
+<span class="w">        </span><span class="nt">&lt;presample_slit1</span><span class="w"> </span><span class="na">NAPIlink=</span><span class="s">&quot;NXentry/presample_slit1/NXgeometry/NXshape/size&quot;</span><span class="nt">&gt;</span>?<span class="nt">&lt;/presample_slit1&gt;</span>
+<span class="w">        </span><span class="nt">&lt;presample_slit2</span><span class="w"> </span><span class="na">NAPIlink=</span><span class="s">&quot;NXentry/presample_slit2/NXgeometry/NXshape/size&quot;</span><span class="nt">&gt;</span>?<span class="nt">&lt;/presample_slit2&gt;</span>
+<span class="w">        </span><span class="nt">&lt;predetector_slit1</span><span class="w"> </span><span class="na">NAPIlink=</span><span class="s">&quot;NXentry/predetector_slit1/NXgeometry/NXshape/size&quot;</span><span class="nt">&gt;</span>?<span class="nt">&lt;/predetector_slit1&gt;</span>
+<span class="w">        </span><span class="nt">&lt;predetector_slit2</span><span class="w"> </span><span class="na">NAPIlink=</span><span class="s">&quot;NXentry/predetector_slit2/NXgeometry/NXshape/size&quot;</span><span class="nt">&gt;</span>?<span class="nt">&lt;/predetector_slit2&gt;</span>
+<span class="w">        </span><span class="nt">&lt;count_start</span><span class="w"> </span><span class="na">NAPIlink=</span><span class="s">&quot;NXentry/NXtimer/start&quot;</span><span class="nt">&gt;</span>?<span class="nt">&lt;/count_start&gt;</span>
+<span class="w">        </span><span class="nt">&lt;count_duration</span><span class="w"> </span><span class="na">NAPIlink=</span><span class="s">&quot;NXentry/NXtimer/duration&quot;</span><span class="nt">&gt;</span>?<span class="nt">&lt;/count_duration&gt;</span>
+
+<span class="w">      </span><span class="nt">&lt;/NXdata&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/NXentry&gt;</span>
+
+<span class="w">    </span><span class="nt">&lt;NXentry&gt;</span>
+<span class="w">      </span><span class="nt">&lt;NXinstrument&gt;</span>
+<span class="w">        </span><span class="nt">&lt;NXchopper</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;[T0_chopper|frame_overlap_chopper]&quot;</span><span class="nt">&gt;</span>?
+<span class="w">          </span><span class="nt">&lt;wavelength_range</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[2]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;Angstrom&quot;</span><span class="nt">&gt;</span>
+<span class="w">            </span>{<span class="w"> </span>Reduction<span class="w"> </span>software<span class="w"> </span>needs<span class="w"> </span>to<span class="w"> </span>ignore<span class="w"> </span>Q<span class="w"> </span>values<span class="w"> </span>outside<span class="w"> </span>the<span class="w"> </span>range
+<span class="w">              </span>defined<span class="w"> </span>by<span class="w"> </span>the<span class="w"> </span>choppers.<span class="w">  </span>The<span class="w"> </span>T0<span class="w"> </span>chopper<span class="w"> </span>is<span class="w"> </span>phased<span class="w"> </span>to<span class="w"> </span>the<span class="w"> </span>source<span class="w"> </span>
+<span class="w">          </span>to<span class="w"> </span>block<span class="w"> </span>fast<span class="w"> </span>neutron<span class="w"> </span>and<span class="w"> </span>gamma<span class="w"> </span>flash.<span class="w">  </span>The<span class="w"> </span>frame<span class="w"> </span>overlap
+<span class="w">          </span>chopper<span class="w"> </span>is<span class="w"> </span>set<span class="w"> </span>to<span class="w"> </span>select<span class="w"> </span>low<span class="w"> </span>wavelength<span class="w"> </span>neutrons<span class="w"> </span>(those<span class="w"> </span>from
+<span class="w">          </span>the<span class="w"> </span>current<span class="w"> </span>pulse)<span class="w"> </span>or<span class="w"> </span>high<span class="w"> </span>wavelength<span class="w"> </span>neutrons<span class="w"> </span>(those<span class="w"> </span>from
+<span class="w">          </span>the<span class="w"> </span>previous<span class="w"> </span>pulse.
+
+<span class="w">          </span>On<span class="w"> </span>a<span class="w"> </span>properly<span class="w"> </span>tuned<span class="w"> </span>instrument,<span class="w"> </span>the<span class="w"> </span>time<span class="w"> </span>bins<span class="w"> </span>recorded<span class="w"> </span>in<span class="w"> </span>
+<span class="w">          </span>the<span class="w"> </span>detector<span class="w"> </span>will<span class="w"> </span>reflect<span class="w"> </span>the<span class="w"> </span>actions<span class="w"> </span>of<span class="w"> </span>the<span class="w"> </span>choppers<span class="w"> </span>and
+<span class="w">          </span>these<span class="w"> </span>fields<span class="w"> </span>can<span class="w"> </span>be<span class="w"> </span>ignored.<span class="w"> </span>}
+<span class="w">          </span><span class="nt">&lt;/wavelength_range&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/NXchopper&gt;</span>
+<span class="w">        </span><span class="nt">&lt;NXmirror</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;frame_overlap_mirror&quot;</span><span class="nt">&gt;</span>?
+<span class="w">          </span><span class="nt">&lt;cutoff_wavelength</span><span class="w"> </span><span class="na">mode=</span><span class="s">&quot;above|below&quot;</span><span class="nt">&gt;</span>
+<span class="w">        </span><span class="cm">&lt;!-- *** This is not part of standard NXmirror --&gt;</span>
+<span class="w">            </span>{<span class="w"> </span>The<span class="w"> </span>frame<span class="w"> </span>overlap<span class="w"> </span>mirror<span class="w"> </span>is<span class="w"> </span>used<span class="w"> </span>to<span class="w"> </span>eliminate<span class="w"> </span>very<span class="w"> </span>long<span class="w"> </span>wavelength<span class="w"> </span>
+<span class="w">          </span>neutrons<span class="w"> </span>from<span class="w"> </span>previous<span class="w"> </span>pulses.<span class="w">  </span>Together<span class="w"> </span>with<span class="w"> </span>the<span class="w"> </span>choppers,<span class="w"> </span>this
+<span class="w">          </span>helps<span class="w"> </span>to<span class="w"> </span>choose<span class="w"> </span>which<span class="w"> </span>pulse<span class="w"> </span>to<span class="w"> </span>use<span class="w"> </span>in<span class="w"> </span>the<span class="w"> </span>TOF<span class="w"> </span>calculations.<span class="w">  </span>On<span class="w"> </span>a<span class="w"> </span>
+<span class="w">          </span>properly<span class="w"> </span>tuned<span class="w"> </span>instrument<span class="w"> </span>the<span class="w"> </span>time<span class="w"> </span>bins<span class="w"> </span>recorded<span class="w"> </span>in<span class="w"> </span>the<span class="w"> </span>detector
+<span class="w">          </span>will<span class="w"> </span>account<span class="w"> </span>for<span class="w"> </span>the<span class="w"> </span>actions<span class="w"> </span>of<span class="w"> </span>the<span class="w"> </span>mirror.
+
+<span class="w">          </span>There<span class="w"> </span>will<span class="w"> </span>be<span class="w"> </span>some<span class="w"> </span>attenuation<span class="w"> </span>but<span class="w"> </span>this<span class="w"> </span>will<span class="w"> </span>be<span class="w"> </span>compensated<span class="w"> </span>for<span class="w"> </span>
+<span class="w">          </span>when<span class="w"> </span>correcting<span class="w"> </span>for<span class="w"> </span>the<span class="w"> </span>spectrum<span class="w"> </span>scan.
+
+<span class="w">          </span>For<span class="w"> </span>an<span class="w"> </span>ab<span class="w"> </span>initio<span class="w"> </span>calculation,<span class="w"> </span>you<span class="w"> </span>would<span class="w"> </span>need<span class="w"> </span>to<span class="w"> </span>store<span class="w"> </span>the<span class="w"> </span>angle<span class="w"> </span>
+<span class="w">          </span>wrt<span class="w"> </span>the<span class="w"> </span>beam<span class="w"> </span>to<span class="w"> </span>compute<span class="w"> </span>the<span class="w"> </span>cutoff<span class="w"> </span>angle<span class="w"> </span>but<span class="w"> </span>often<span class="w"> </span>this<span class="w"> </span>will<span class="w"> </span>not
+<span class="w">          </span>be<span class="w"> </span>explicit<span class="w"> </span>since<span class="w"> </span>the<span class="w"> </span>instrument<span class="w"> </span>is<span class="w"> </span>simply<span class="w"> </span>tuned<span class="w"> </span>to<span class="w"> </span>have<span class="w"> </span>the
+<span class="w">          </span>correct<span class="w"> </span>cutoff.<span class="w"> </span>}
+<span class="w">          </span><span class="nt">&lt;/cutoff_wavelength&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/NXmirror&gt;</span>
+<span class="w">      </span><span class="nt">&lt;/NXinstrument&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/NXentry&gt;</span>
+</pre></div>
+</div>
+<p>also one from the old SWIKI NXtofnref.xml</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="w">    </span><span class="cp">&lt;?xml version=&quot;1.0&quot; ?&gt;</span>
+<span class="w">    </span><span class="cm">&lt;!--</span>
+<span class="cm">    URL: http://www.neutron.anl.gov/nexus/xml/NX.xml</span>
+<span class="cm">    Editor: Robert Dalgliesh &lt;r.m.dalgliesh@rl.ac.uk&gt;</span>
+<span class="cm">    Initial version: October 2004</span>
+<span class="cm">    $Id$</span>
+
+<span class="cm">    Instrument Definition for a Polarised Time of Flight Neutron Reflectometer</span>
+
+<span class="cm">    Please note this is a rough first draft.</span>
+
+<span class="cm">    By removing the polarising elements you should be left with a description for a TOF reflectometer</span>
+<span class="cm">    There are a number of  additional components such as guide fields and other collimation components which I have not included. </span>
+<span class="cm">    --&gt;</span>
+
+<span class="w">    </span><span class="nt">&lt;NXinstrument</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;TOFNIGS&quot;</span><span class="nt">&gt;</span>
+<span class="w">        </span><span class="nt">&lt;name</span><span class="w"> </span><span class="na">short_name=</span><span class="s">&quot;{abbreviated name of instrument}&quot;</span><span class="nt">&gt;</span>{Name<span class="w"> </span>of<span class="w"> </span>instrument}<span class="nt">&lt;/name&gt;</span>
+<span class="w">        </span><span class="cm">&lt;!-- I&#39;m guessing here that &quot;short_name&quot; is something like &#39;CRISP&#39;? --&gt;</span>
+
+<span class="w">        </span><span class="nt">&lt;NXsource</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{Name of facility}&quot;</span><span class="nt">&gt;</span>
+<span class="w">            </span><span class="nt">&lt;NXgeometry</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;geometry&quot;</span><span class="nt">&gt;</span>
+<span class="w">                </span><span class="nt">&lt;NXtranslation</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;value</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[3]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{(x,y,z)<span class="w"> </span>position<span class="w"> </span>coordinates<span class="w"> </span>relative<span class="w"> </span>to<span class="w"> </span>origin<span class="w"> </span>at<span class="w"> </span>sample<span class="w"> </span>position}?<span class="nt">&lt;/value&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXtranslation&gt;</span>
+<span class="w">                </span><span class="nt">&lt;NXorientation</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;value</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[6]&quot;</span><span class="nt">&gt;</span>{The<span class="w"> </span>orientation<span class="w"> </span>information<span class="w"> </span>is<span class="w"> </span>stored<span class="w"> </span>as<span class="w"> </span>direction<span class="w"> </span>cosines<span class="w"> </span>relative<span class="w"> </span>to<span class="w"> </span>origin<span class="w"> </span>at<span class="w"> </span>sample<span class="w"> </span>position.}<span class="nt">&lt;/value&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXorientation&gt;</span>
+<span class="w">                </span><span class="nt">&lt;NXshape</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{name of shape}&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;shape</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{&quot;nxcylinder&quot;,<span class="w"> </span>&quot;nxbox&quot;,<span class="w"> </span>&quot;nxsphere&quot;,<span class="w"> </span>...}?<span class="nt">&lt;/shape&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;size</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[nshapepar]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{<span class="w"> </span>nshapepar<span class="w"> </span>dimensions<span class="w"> </span>for<span class="w"> </span>selected<span class="w"> </span>shape}?<span class="nt">&lt;/size&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXshape&gt;</span>
+<span class="w">                </span><span class="nt">&lt;component_index</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_INT&quot;</span><span class="nt">&gt;</span>{Sequential<span class="w"> </span>order<span class="w"> </span>of<span class="w"> </span>target<span class="w"> </span>along<span class="w"> </span>beam<span class="w"> </span>path}<span class="nt">&lt;/component_index&gt;</span>
+<span class="w">                </span><span class="nt">&lt;description</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{Optional<span class="w"> </span>description/label}?<span class="nt">&lt;/description&gt;</span>
+<span class="w">                </span><span class="nt">&lt;component_index</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_INT&quot;</span><span class="nt">&gt;</span>{Sequential<span class="w"> </span>order<span class="w"> </span>of<span class="w"> </span>component<span class="w"> </span>along<span class="w"> </span>beam<span class="w"> </span>path}?<span class="nt">&lt;/component_index&gt;</span>
+<span class="w">                </span><span class="cm">&lt;!--If using XML Schema instead would be able to denote that &#39;0&#39; cannot be selected for this component--&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/NXgeometry&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/NXsource&gt;</span>
+
+<span class="w">        </span><span class="nt">&lt;NXmoderator</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{Name of moderator}&quot;</span><span class="nt">&gt;</span>
+<span class="w">            </span><span class="nt">&lt;NXgeometry</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;geometry&quot;</span><span class="nt">&gt;</span>{&quot;Engineering&quot;<span class="w"> </span>position<span class="w"> </span>of<span class="w"> </span>moderator}?<span class="nt">&lt;/NXgeometry&gt;</span>
+<span class="w">            </span><span class="nt">&lt;distance</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="nt">&gt;</span>{Effective<span class="w"> </span>distance<span class="w"> </span>as<span class="w"> </span>seen<span class="w"> </span>by<span class="w"> </span>measuring<span class="w"> </span>radiation}?<span class="nt">&lt;/distance&gt;</span>
+<span class="w">                </span><span class="cm">&lt;!-- 2004-10-18 MJB Distance from where? The sample or the target? Can this be combined with NXGeometry? What is engineering position?--&gt;</span>
+<span class="w">            </span><span class="nt">&lt;type</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{<span class="w"> </span>&quot;H20&quot;<span class="w"> </span>|<span class="w"> </span>&quot;D20&quot;<span class="w">  </span>|<span class="w">  </span>&quot;Liquid<span class="w"> </span>H2&quot;<span class="w">  </span>|<span class="w"> </span>&quot;Liquid<span class="w"> </span>CH4&quot;<span class="w"> </span>|<span class="w"> </span>&quot;Liquid<span class="w"> </span>D2&quot;<span class="w"> </span>|<span class="w"> </span>&quot;Solid<span class="w"> </span>D2&quot;<span class="w"> </span>|<span class="w"> </span>&quot;C&quot;<span class="w"> </span>|&quot;Solid<span class="w"> </span>CH4&quot;<span class="w"> </span>|<span class="w"> </span>&quot;Solid<span class="w"> </span>H2&quot;}?<span class="nt">&lt;/type&gt;</span>
+<span class="w">            </span><span class="nt">&lt;poison_depth</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{Poison<span class="w"> </span>depth}?<span class="nt">&lt;/poison_depth&gt;</span>
+<span class="w">            </span><span class="nt">&lt;coupled</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_BOOLEAN&quot;</span><span class="nt">&gt;</span>{whether<span class="w"> </span>the<span class="w"> </span>moderator<span class="w"> </span>is<span class="w"> </span>coupled}?<span class="nt">&lt;/coupled&gt;</span>
+<span class="w">            </span><span class="nt">&lt;poison_material</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{<span class="w"> </span>Gd<span class="w"> </span>|<span class="w"> </span>Cd<span class="w"> </span>|...}<span class="nt">&lt;/poison_material&gt;</span>
+<span class="w">            </span><span class="nt">&lt;temperature</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="w"> </span><span class="na">Units=</span><span class="s">&quot;Kelvin&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{average/nominal<span class="w"> </span>moderator<span class="w"> </span>temperature}<span class="nt">&lt;/temperature&gt;</span>
+<span class="w">            </span><span class="nt">&lt;temperature_log</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NXlog&quot;</span><span class="nt">&gt;</span>{log<span class="w"> </span>file<span class="w"> </span>of<span class="w"> </span>moderator<span class="w"> </span>temperature}<span class="nt">&lt;/temperature_log&gt;</span>
+<span class="w">            </span><span class="nt">&lt;pulse_shape</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NXdata&quot;</span><span class="nt">&gt;</span>{moderator<span class="w"> </span>pulse<span class="w"> </span>shape}<span class="nt">&lt;/pulse_shape&gt;</span>
+<span class="w">            </span><span class="cm">&lt;!--Geometrical properties--&gt;</span>
+<span class="w">            </span><span class="nt">&lt;NXgeometry</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;geometry&quot;</span><span class="nt">&gt;</span>{Position<span class="w"> </span>and<span class="w"> </span>orientation<span class="w"> </span>of<span class="w"> </span>moderator}?
+<span class="w">                </span><span class="nt">&lt;NXtranslation</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;value</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[3]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{(x,y,z)<span class="w"> </span>position<span class="w"> </span>coordinates<span class="w"> </span>relative<span class="w"> </span>to<span class="w"> </span>origin<span class="w"> </span>at<span class="w"> </span>sample<span class="w"> </span>position}?<span class="nt">&lt;/value&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXtranslation&gt;</span>
+<span class="w">                </span><span class="nt">&lt;NXorientation</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;value</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[6]&quot;</span><span class="nt">&gt;</span>{The<span class="w"> </span>orientation<span class="w"> </span>information<span class="w"> </span>is<span class="w"> </span>stored<span class="w"> </span>as<span class="w"> </span>direction<span class="w"> </span>cosines<span class="w"> </span>relative<span class="w"> </span>to<span class="w"> </span>origin<span class="w"> </span>at<span class="w"> </span>sample<span class="w"> </span>position.}<span class="nt">&lt;/value&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXorientation&gt;</span>
+<span class="w">                </span><span class="nt">&lt;NXshape</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{name of shape}&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;shape</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{&quot;nxcylinder&quot;,<span class="w"> </span>&quot;nxbox&quot;,<span class="w"> </span>&quot;nxsphere&quot;,<span class="w"> </span>...}?<span class="nt">&lt;/shape&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;size</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[nshapepar]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{<span class="w"> </span>nshapepar<span class="w"> </span>dimensions<span class="w"> </span>for<span class="w"> </span>selected<span class="w"> </span>shape}?<span class="nt">&lt;/size&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXshape&gt;</span>
+<span class="w">                </span><span class="nt">&lt;component_index</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_INT&quot;</span><span class="nt">&gt;</span>{Sequential<span class="w"> </span>order<span class="w"> </span>of<span class="w"> </span>moderator<span class="w"> </span>along<span class="w"> </span>beam<span class="w"> </span>path}<span class="nt">&lt;/component_index&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/NXgeometry&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/NXmoderator&gt;</span>
+
+<span class="w">        </span><span class="nt">&lt;NXGuide</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{Name of guide section}&quot;</span><span class="nt">&gt;</span>*
+<span class="w">            </span><span class="cm">&lt;!--Guides in total or in segments thgrough to sample position; may be interspersed between other components - Check component index--&gt;</span>
+<span class="w">            </span><span class="cm">&lt;!--Can be nested for guides with multiple straight segments--&gt;</span>
+<span class="w">            </span><span class="nt">&lt;description</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/description&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;incident_angle</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/incident_angle&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;reflectivity</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NXdata&quot;</span><span class="nt">&gt;</span>{Reflectivity<span class="w"> </span>as<span class="w"> </span>function<span class="w"> </span>of<span class="w"> </span>wavelength<span class="w"> </span>[nsurf,i]}<span class="nt">&lt;/reflectivity&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;bend_angle_x</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/bend_angle_x&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;bend_angle_y</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/bend_angle_y&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;interior_atmosphere</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>&quot;vacuum&quot;|&quot;helium&quot;|&quot;argon&quot;<span class="nt">&lt;/interior_atmosphere&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;external_material</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{external<span class="w"> </span>material<span class="w"> </span>outside<span class="w"> </span>substrate}<span class="nt">&lt;/external_material&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;m_value</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[nsurf]&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/m_value&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;substrate_material</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[nsurf]&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/substrate_material&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;substrate_thickness</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[nsurf]&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/substrate_thickness&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;coating_material</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[nsurf]&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/coating_material&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;substrate_roughness</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[nsurf]&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/substrate_roughness&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;coating_roughness</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[nsurf]&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/coating_roughness&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;number_sections</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_INT&quot;</span><span class="nt">&gt;</span>{number<span class="w"> </span>of<span class="w"> </span>substrate<span class="w"> </span>sections}<span class="nt">&lt;/number_sections&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="cm">&lt;!--Geometrical properties--&gt;</span>
+<span class="w">            </span><span class="nt">&lt;NXgeometry</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;geometry&quot;</span><span class="nt">&gt;</span>{Position<span class="w"> </span>and<span class="w"> </span>orientation<span class="w"> </span>of<span class="w"> </span>guide}?
+<span class="w">                </span><span class="nt">&lt;NXtranslation</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;value</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[3]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{(x,y,z)<span class="w"> </span>position<span class="w"> </span>coordinates<span class="w"> </span>relative<span class="w"> </span>to<span class="w"> </span>origin<span class="w"> </span>at<span class="w"> </span>sample<span class="w"> </span>position}?<span class="nt">&lt;/value&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXtranslation&gt;</span>
+<span class="w">                </span><span class="nt">&lt;NXorientation</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;value</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[6]&quot;</span><span class="nt">&gt;</span>{The<span class="w"> </span>orientation<span class="w"> </span>information<span class="w"> </span>is<span class="w"> </span>stored<span class="w"> </span>as<span class="w"> </span>direction<span class="w"> </span>cosines<span class="w"> </span>relative<span class="w"> </span>to<span class="w"> </span>origin<span class="w"> </span>at<span class="w"> </span>sample<span class="w"> </span>position.}<span class="nt">&lt;/value&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXorientation&gt;</span>
+<span class="w">                </span><span class="nt">&lt;NXshape</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{name of shape}&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;shape</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{&quot;nxcylinder&quot;,<span class="w"> </span>&quot;nxbox&quot;,<span class="w"> </span>&quot;nxsphere&quot;,<span class="w"> </span>...}?<span class="nt">&lt;/shape&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;size</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[nshapepar]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{<span class="w"> </span>nshapepar<span class="w"> </span>dimensions<span class="w"> </span>for<span class="w"> </span>selected<span class="w"> </span>shape}?<span class="nt">&lt;/size&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXshape&gt;</span>
+<span class="w">                </span><span class="nt">&lt;component_index</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_INT&quot;</span><span class="nt">&gt;</span>{Sequential<span class="w"> </span>order<span class="w"> </span>of<span class="w"> </span>guide<span class="w"> </span>along<span class="w"> </span>beam<span class="w"> </span>path}<span class="nt">&lt;/component_index&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/NXgeometry&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/NXGuide&gt;</span>
+
+
+<span class="w">        </span><span class="nt">&lt;NXt0_chopper</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{Name of chopper}&quot;</span><span class="nt">&gt;</span>?
+<span class="w">            </span><span class="cm">&lt;!-- 2004-10-18 MJB+RMD This is a T0 blocking chopper phased to the source to block fast neutron and gamma flash.</span>
+<span class="cm">                                              None of the existing chopper types meets this requirement. </span>
+<span class="cm">                                              In fact, why don&#39;t we just have one chopper class?</span>
+<span class="cm">                                              We don&#39;t have different detector classes for different varieties.--&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/NXt0_chopper&gt;</span>
+<span class="w">        </span>
+<span class="w">        </span><span class="nt">&lt;NXdisk_chopper</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{Name of disk chopper}&quot;</span><span class="nt">&gt;</span>
+<span class="w">            </span><span class="cm">&lt;!--Some instruments can have multiple choppers in the incident beam--&gt;</span>
+<span class="w">            </span><span class="nt">&lt;type</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{Chopper<span class="w"> </span>type<span class="w"> </span>single|contra_rotating_pair|synchro_pair}?<span class="nt">&lt;/type&gt;</span>
+<span class="w">            </span><span class="nt">&lt;rotation_speed</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;hertz&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{chopper<span class="w"> </span>rotation<span class="w"> </span>speed}?<span class="nt">&lt;/rotation_speed&gt;</span>
+<span class="w">            </span><span class="nt">&lt;slits</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_INT&quot;</span><span class="nt">&gt;</span>{Number<span class="w"> </span>of<span class="w"> </span>slits}<span class="nt">&lt;/slits&gt;</span>
+<span class="w">           </span><span class="nt">&lt;slit_angle</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;radians&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{angular<span class="w"> </span>opening}<span class="nt">&lt;/slit_angle&gt;</span>
+<span class="w">           </span><span class="nt">&lt;pair_separation</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span><span class="w"> </span>{disc<span class="w"> </span>spacing<span class="w"> </span>in<span class="w"> </span>direction<span class="w"> </span>of<span class="w"> </span>beam}?<span class="nt">&lt;/pair_separation&gt;</span>
+<span class="w">           </span><span class="nt">&lt;radius</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span><span class="w"> </span>{radius<span class="w"> </span>to<span class="w"> </span>centre<span class="w"> </span>of<span class="w"> </span>slit}<span class="nt">&lt;/radius&gt;</span>
+<span class="w">           </span><span class="nt">&lt;slit_height</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span><span class="w"> </span>{total<span class="w"> </span>slit<span class="w"> </span>height}<span class="nt">&lt;/slit_height&gt;</span>
+<span class="w">           </span><span class="nt">&lt;phase</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;radians&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{chopper<span class="w"> </span>phase<span class="w"> </span>angle}?<span class="w"> </span><span class="nt">&lt;/phase&gt;</span>
+<span class="w">           </span><span class="nt">&lt;ratio</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_INT&quot;</span><span class="nt">&gt;</span>{pulse<span class="w"> </span>reduction<span class="w"> </span>factor<span class="w"> </span>of<span class="w"> </span>this<span class="w"> </span>chopper<span class="w"> </span>in<span class="w"> </span>relation<span class="w"> </span>to<span class="w"> </span>other<span class="w"> </span>choppers/fastest<span class="w"> </span>pulse<span class="w"> </span>in<span class="w"> </span>the<span class="w"> </span>instrument}?<span class="nt">&lt;/ratio&gt;</span>
+<span class="w">           </span><span class="nt">&lt;distance</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span><span class="w"> </span>{Effective<span class="w"> </span>distance<span class="w"> </span>to<span class="w"> </span>the<span class="w"> </span>origin}?<span class="nt">&lt;/distance&gt;</span>
+<span class="w">           </span><span class="nt">&lt;wavelength_range</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[2]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{low<span class="w"> </span>and<span class="w"> </span>high<span class="w"> </span>values<span class="w"> </span>of<span class="w"> </span>wavelength<span class="w"> </span>range<span class="w"> </span>transmitted}?<span class="nt">&lt;/wavelength_range&gt;</span>
+<span class="w">            </span><span class="cm">&lt;!--Geometrical properties--&gt;</span>
+<span class="w">            </span><span class="nt">&lt;NXgeometry</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;geometry&quot;</span><span class="nt">&gt;</span>{Position<span class="w"> </span>and<span class="w"> </span>orientation<span class="w"> </span>of<span class="w"> </span>chopper}?
+<span class="w">                </span><span class="nt">&lt;NXtranslation</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;value</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[3]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{(x,y,z)<span class="w"> </span>position<span class="w"> </span>coordinates<span class="w"> </span>relative<span class="w"> </span>to<span class="w"> </span>origin<span class="w"> </span>at<span class="w"> </span>sample<span class="w"> </span>position}?<span class="nt">&lt;/value&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXtranslation&gt;</span>
+<span class="w">                </span><span class="nt">&lt;NXorientation</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;value</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[6]&quot;</span><span class="nt">&gt;</span>{The<span class="w"> </span>orientation<span class="w"> </span>information<span class="w"> </span>is<span class="w"> </span>stored<span class="w"> </span>as<span class="w"> </span>direction<span class="w"> </span>cosines<span class="w"> </span>relative<span class="w"> </span>to<span class="w"> </span>origin<span class="w"> </span>at<span class="w"> </span>sample<span class="w"> </span>position.}<span class="nt">&lt;/value&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXorientation&gt;</span>
+<span class="w">                </span><span class="nt">&lt;NXshape</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{name of shape}&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;shape</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{&quot;nxcylinder&quot;,<span class="w"> </span>&quot;nxbox&quot;,<span class="w"> </span>&quot;nxsphere&quot;,<span class="w"> </span>...}?<span class="nt">&lt;/shape&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;size</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[nshapepar]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{<span class="w"> </span>nshapepar<span class="w"> </span>dimensions<span class="w"> </span>for<span class="w"> </span>selected<span class="w"> </span>shape}?<span class="nt">&lt;/size&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXshape&gt;</span>
+<span class="w">                </span><span class="nt">&lt;component_index</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_INT&quot;</span><span class="nt">&gt;</span>{Sequential<span class="w"> </span>order<span class="w"> </span>of<span class="w"> </span>chopper<span class="w"> </span>along<span class="w"> </span>beam<span class="w"> </span>path}<span class="nt">&lt;/component_index&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/NXgeometry&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/NXdisk_chopper&gt;</span><span class="w">   </span>
+<span class="w">        </span>
+<span class="w">        </span><span class="nt">&lt;NXaperture</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{Name of beamline aperture}&quot;</span><span class="nt">&gt;</span>*<span class="w">        </span>
+<span class="w">            </span><span class="nt">&lt;material</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{Absorbing<span class="w"> </span>material<span class="w"> </span>of<span class="w"> </span>the<span class="w"> </span>aperture}?<span class="nt">&lt;/material&gt;</span>
+<span class="w">            </span><span class="nt">&lt;description</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{Description<span class="w"> </span>of<span class="w"> </span>aperture}?<span class="nt">&lt;/description&gt;</span>
+<span class="w">            </span><span class="cm">&lt;!--Geometrical properties--&gt;</span>
+<span class="w">            </span><span class="nt">&lt;NXgeometry</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;geometry&quot;</span><span class="nt">&gt;</span>{Position<span class="w"> </span>and<span class="w"> </span>orientation<span class="w"> </span>of<span class="w"> </span>aperture}?
+<span class="w">                </span><span class="nt">&lt;NXtranslation</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;value</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[3]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{(x,y,z)<span class="w"> </span>position<span class="w"> </span>coordinates<span class="w"> </span>relative<span class="w"> </span>to<span class="w"> </span>origin<span class="w"> </span>at<span class="w"> </span>sample<span class="w"> </span>position}?<span class="nt">&lt;/value&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXtranslation&gt;</span>
+<span class="w">                </span><span class="nt">&lt;NXorientation</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;value</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[6]&quot;</span><span class="nt">&gt;</span>{The<span class="w"> </span>orientation<span class="w"> </span>information<span class="w"> </span>is<span class="w"> </span>stored<span class="w"> </span>as<span class="w"> </span>direction<span class="w"> </span>cosines<span class="w"> </span>relative<span class="w"> </span>to<span class="w"> </span>origin<span class="w"> </span>at<span class="w"> </span>sample<span class="w"> </span>position.}<span class="nt">&lt;/value&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXorientation&gt;</span>
+<span class="w">                </span><span class="nt">&lt;NXshape</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{name of shape}&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;shape</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{&quot;nxcylinder&quot;,<span class="w"> </span>&quot;nxbox&quot;,<span class="w"> </span>&quot;nxsphere&quot;,<span class="w"> </span>...}?<span class="nt">&lt;/shape&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;size</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[nshapepar]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{<span class="w"> </span>nshapepar<span class="w"> </span>dimensions<span class="w"> </span>for<span class="w"> </span>selected<span class="w"> </span>shape}?<span class="nt">&lt;/size&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXshape&gt;</span>
+<span class="w">                </span><span class="nt">&lt;component_index</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_INT&quot;</span><span class="nt">&gt;</span>{Sequential<span class="w"> </span>order<span class="w"> </span>of<span class="w"> </span>aperture<span class="w"> </span>along<span class="w"> </span>beam<span class="w"> </span>path}<span class="nt">&lt;/component_index&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/NXgeometry&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/NXaperture&gt;</span>
+<span class="w">        </span>
+<span class="w">        </span><span class="nt">&lt;NXmonitor</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{Name of monitor}&quot;</span><span class="nt">&gt;</span>+
+<span class="w">            </span><span class="nt">&lt;type</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>&quot;Fission<span class="w"> </span>Chamber&quot;|&quot;Scintillator&quot;?<span class="nt">&lt;/type&gt;</span>
+<span class="w">            </span><span class="nt">&lt;mode</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>&quot;monitor&quot;|&quot;timer&quot;?<span class="nt">&lt;/mode&gt;</span>
+<span class="w">            </span><span class="nt">&lt;preset</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="nt">&gt;</span>{preset<span class="w"> </span>value<span class="w"> </span>for<span class="w"> </span>time<span class="w"> </span>or<span class="w"> </span>monitor}?<span class="nt">&lt;/preset&gt;</span>
+<span class="w">            </span><span class="nt">&lt;distance</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{Distance<span class="w"> </span>of<span class="w"> </span>monitor<span class="w"> </span>from<span class="w"> </span>sample<span class="w"> </span>position}?<span class="nt">&lt;/distance&gt;</span>
+<span class="w">            </span><span class="nt">&lt;efficiency</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;Nxdata&quot;</span><span class="nt">&gt;</span>{Monitor<span class="w"> </span>efficiency<span class="w"> </span>as<span class="w"> </span>a<span class="w"> </span>function<span class="w"> </span>of<span class="w"> </span>wavelength}?<span class="nt">&lt;/efficiency&gt;</span>
+<span class="w">            </span><span class="nt">&lt;sampled_fraction</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;dimensionless&quot;</span><span class="nt">&gt;</span>{Proportion<span class="w"> </span>of<span class="w"> </span>incident<span class="w"> </span>beam<span class="w"> </span>sampled<span class="w"> </span>by<span class="w"> </span>the<span class="w"> </span>monitor}<span class="nt">&lt;/sampled_fraction&gt;</span>
+<span class="w">            </span><span class="cm">&lt;!--Geometrical properties--&gt;</span>
+<span class="w">            </span><span class="nt">&lt;NXgeometry</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;geometry&quot;</span><span class="nt">&gt;</span>{Position<span class="w"> </span>and<span class="w"> </span>orientation<span class="w"> </span>of<span class="w"> </span>monitor}?
+<span class="w">                </span><span class="nt">&lt;NXtranslation</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;value</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[3]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{(x,y,z)<span class="w"> </span>position<span class="w"> </span>coordinates<span class="w"> </span>relative<span class="w"> </span>to<span class="w"> </span>origin<span class="w"> </span>at<span class="w"> </span>sample<span class="w"> </span>position}?<span class="nt">&lt;/value&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXtranslation&gt;</span>
+<span class="w">                </span><span class="nt">&lt;NXorientation</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;value</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[6]&quot;</span><span class="nt">&gt;</span>{The<span class="w"> </span>orientation<span class="w"> </span>information<span class="w"> </span>is<span class="w"> </span>stored<span class="w"> </span>as<span class="w"> </span>direction<span class="w"> </span>cosines<span class="w"> </span>relative<span class="w"> </span>to<span class="w"> </span>origin<span class="w"> </span>at<span class="w"> </span>sample<span class="w"> </span>position.}<span class="nt">&lt;/value&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXorientation&gt;</span>
+<span class="w">                </span><span class="nt">&lt;NXshape</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{name of shape}&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;shape</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{&quot;nxcylinder&quot;,<span class="w"> </span>&quot;nxbox&quot;,<span class="w"> </span>&quot;nxsphere&quot;,<span class="w"> </span>...}?<span class="nt">&lt;/shape&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;size</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[nshapepar]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{<span class="w"> </span>nshapepar<span class="w"> </span>dimensions<span class="w"> </span>for<span class="w"> </span>selected<span class="w"> </span>shape}?<span class="nt">&lt;/size&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXshape&gt;</span>
+<span class="w">                </span><span class="nt">&lt;component_index</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_INT&quot;</span><span class="nt">&gt;</span>{Sequential<span class="w"> </span>order<span class="w"> </span>of<span class="w"> </span>monitor<span class="w"> </span>along<span class="w"> </span>beam<span class="w"> </span>path}<span class="nt">&lt;/component_index&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/NXgeometry&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/NXmonitor&gt;</span>
+
+<span class="w">        </span><span class="nt">&lt;NXmirror</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{Name of supermirror}&quot;</span><span class="nt">&gt;</span>
+<span class="w">            </span><span class="cm">&lt;!-- Frame overlap mirror --&gt;</span>
+<span class="w">            </span><span class="nt">&lt;description</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/description&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;incident_angle</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/incident_angle&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;reflectivity</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NXdata&quot;</span><span class="nt">&gt;</span>{Reflectivity<span class="w"> </span>as<span class="w"> </span>function<span class="w"> </span>of<span class="w"> </span>wavelength}<span class="nt">&lt;/reflectivity&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;bend_angle_x</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/bend_angle_x&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;bend_angle_y</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/bend_angle_y&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;interior_atmosphere</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>&quot;vacuum&quot;|&quot;helium&quot;|&quot;argon&quot;<span class="nt">&lt;/interior_atmosphere&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;external_material</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{external<span class="w"> </span>material<span class="w"> </span>outside<span class="w"> </span>substrate}<span class="nt">&lt;/external_material&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;m_value</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/m_value&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;substrate_material</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/substrate_material&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;substrate_thickness</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/substrate_thickness&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;coating_material</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/coating_material&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;substrate_roughness</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/substrate_roughness&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;coating_roughness</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/coating_roughness&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="cm">&lt;!--Geometrical properties--&gt;</span>
+<span class="w">            </span><span class="nt">&lt;NXgeometry</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;geometry&quot;</span><span class="nt">&gt;</span>{Position<span class="w"> </span>and<span class="w"> </span>orientation<span class="w"> </span>of<span class="w"> </span>mirror}?
+<span class="w">                </span><span class="nt">&lt;NXtranslation</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;value</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[3]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{(x,y,z)<span class="w"> </span>position<span class="w"> </span>coordinates<span class="w"> </span>relative<span class="w"> </span>to<span class="w"> </span>origin<span class="w"> </span>at<span class="w"> </span>sample<span class="w"> </span>position}?<span class="nt">&lt;/value&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXtranslation&gt;</span>
+<span class="w">                </span><span class="nt">&lt;NXorientation</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;value</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[6]&quot;</span><span class="nt">&gt;</span>{The<span class="w"> </span>orientation<span class="w"> </span>information<span class="w"> </span>is<span class="w"> </span>stored<span class="w"> </span>as<span class="w"> </span>direction<span class="w"> </span>cosines<span class="w"> </span>relative<span class="w"> </span>to<span class="w"> </span>origin<span class="w"> </span>at<span class="w"> </span>sample<span class="w"> </span>position.}<span class="nt">&lt;/value&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXorientation&gt;</span>
+<span class="w">                </span><span class="nt">&lt;NXshape</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{name of shape}&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;shape</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{&quot;nxcylinder&quot;,<span class="w"> </span>&quot;nxbox&quot;,<span class="w"> </span>&quot;nxsphere&quot;,<span class="w"> </span>...}?<span class="nt">&lt;/shape&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;size</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[nshapepar]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{<span class="w"> </span>nshapepar<span class="w"> </span>dimensions<span class="w"> </span>for<span class="w"> </span>selected<span class="w"> </span>shape}?<span class="nt">&lt;/size&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXshape&gt;</span>
+<span class="w">                </span><span class="nt">&lt;component_index</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_INT&quot;</span><span class="nt">&gt;</span>{Sequential<span class="w"> </span>order<span class="w"> </span>of<span class="w"> </span>aperture<span class="w"> </span>along<span class="w"> </span>beam<span class="w"> </span>path}<span class="nt">&lt;/component_index&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/NXgeometry&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/NXmirror&gt;</span>
+
+<span class="w">        </span><span class="nt">&lt;NXpolarizer</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{Name of supermirror}&quot;</span><span class="nt">&gt;</span>*
+<span class="w">            </span><span class="cm">&lt;!-- Polarising Supermirror --&gt;</span>
+<span class="w">            </span><span class="cm">&lt;!-- Not sure how best to deal with this. A polarising supermirror needs the properties of NXmirror</span>
+<span class="cm">            the NXData class should hopefully be able to take care of the polarisation dependent wavelength spectra </span>
+<span class="cm">            In addition the mirror may operate in reflection or transmission geometry which would add the need for an</span>
+<span class="cm">            absorption correction.</span>
+<span class="cm">            --&gt;</span>
+<span class="w">            </span><span class="nt">&lt;description</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/description&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;incident_angle</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/incident_angle&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;reflectivity</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NXdata&quot;</span><span class="nt">&gt;</span>{Reflectivity<span class="w"> </span>as<span class="w"> </span>function<span class="w"> </span>of<span class="w"> </span>wavelength}<span class="nt">&lt;/reflectivity&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;bend_angle_x</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/bend_angle_x&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;bend_angle_y</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/bend_angle_y&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;interior_atmosphere</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>&quot;vacuum&quot;|&quot;helium&quot;|&quot;argon&quot;<span class="nt">&lt;/interior_atmosphere&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;external_material</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{external<span class="w"> </span>material<span class="w"> </span>outside<span class="w"> </span>substrate}<span class="nt">&lt;/external_material&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;m_value</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/m_value&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;substrate_material</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/substrate_material&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;substrate_thickness</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/substrate_thickness&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;coating_material</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/coating_material&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;substrate_roughness</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/substrate_roughness&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="nt">&lt;coating_roughness</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="nt">&gt;</span>{}<span class="nt">&lt;/coating_roughness&gt;</span><span class="w"> </span>
+<span class="w">            </span><span class="cm">&lt;!--Geometrical properties--&gt;</span>
+<span class="w">            </span><span class="nt">&lt;NXgeometry</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;geometry&quot;</span><span class="nt">&gt;</span>{Position<span class="w"> </span>and<span class="w"> </span>orientation<span class="w"> </span>of<span class="w"> </span>polariser}?
+<span class="w">                </span><span class="nt">&lt;NXtranslation</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;value</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[3]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{(x,y,z)<span class="w"> </span>position<span class="w"> </span>coordinates<span class="w"> </span>relative<span class="w"> </span>to<span class="w"> </span>origin<span class="w"> </span>at<span class="w"> </span>sample<span class="w"> </span>position}?<span class="nt">&lt;/value&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXtranslation&gt;</span>
+<span class="w">                </span><span class="nt">&lt;NXorientation</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;value</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[6]&quot;</span><span class="nt">&gt;</span>{The<span class="w"> </span>orientation<span class="w"> </span>information<span class="w"> </span>is<span class="w"> </span>stored<span class="w"> </span>as<span class="w"> </span>direction<span class="w"> </span>cosines<span class="w"> </span>relative<span class="w"> </span>to<span class="w"> </span>origin<span class="w"> </span>at<span class="w"> </span>sample<span class="w"> </span>position.}<span class="nt">&lt;/value&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXorientation&gt;</span>
+<span class="w">                </span><span class="nt">&lt;NXshape</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{name of shape}&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;shape</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{&quot;nxcylinder&quot;,<span class="w"> </span>&quot;nxbox&quot;,<span class="w"> </span>&quot;nxsphere&quot;,<span class="w"> </span>...}?<span class="nt">&lt;/shape&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;size</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[nshapepar]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{<span class="w"> </span>nshapepar<span class="w"> </span>dimensions<span class="w"> </span>for<span class="w"> </span>selected<span class="w"> </span>shape}?<span class="nt">&lt;/size&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXshape&gt;</span>
+<span class="w">                </span><span class="nt">&lt;component_index</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_INT&quot;</span><span class="nt">&gt;</span>{Sequential<span class="w"> </span>order<span class="w"> </span>of<span class="w"> </span>aperture<span class="w"> </span>along<span class="w"> </span>beam<span class="w"> </span>path}<span class="nt">&lt;/component_index&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/NXgeometry&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/NXmirror&gt;</span>
+
+<span class="w">        </span><span class="nt">&lt;NXflipper</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{Name of flipper}&quot;</span><span class="nt">&gt;</span>*
+<span class="w">            </span><span class="cm">&lt;!-- This class may well need to be generalised to include spin manipulation devices such as neutators, precession coils and guide fields</span>
+<span class="cm">            it would also be useful to have room for an NXData section for the wavelength dependent efficiency of the device</span>
+<span class="cm">            --&gt;</span>
+<span class="w">            </span><span class="nt">&lt;type</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{coil|current-sheet}?<span class="nt">&lt;/type&gt;</span>
+<span class="w">            </span><span class="nt">&lt;flip_turns</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="nt">&gt;</span>{Number<span class="w"> </span>of<span class="w"> </span>turns/cm<span class="w"> </span>in<span class="w"> </span>flipping<span class="w"> </span>field<span class="w"> </span>coils}?<span class="nt">&lt;/flip_turns&gt;</span>
+<span class="w">            </span><span class="nt">&lt;comp_turns</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="nt">&gt;</span>{Number<span class="w"> </span>of<span class="w"> </span>turns/cm<span class="w"> </span>in<span class="w"> </span>compensating<span class="w"> </span>field<span class="w"> </span>coils}?<span class="nt">&lt;/comp_turns&gt;</span>
+<span class="w">            </span><span class="nt">&lt;guide_turns</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="nt">&gt;</span>{Number<span class="w"> </span>of<span class="w"> </span>turns/cm<span class="w"> </span>in<span class="w"> </span>guide<span class="w"> </span>field<span class="w"> </span>coils}?<span class="nt">&lt;/guide_turns&gt;</span>
+<span class="w">            </span><span class="nt">&lt;flip_current</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;amperes&quot;</span><span class="nt">&gt;</span>{Flipping<span class="w"> </span>field<span class="w"> </span>coil<span class="w"> </span>current<span class="w"> </span>in<span class="w"> </span>&quot;on&quot;<span class="w"> </span>state&quot;}?<span class="nt">&lt;/flip_current&gt;</span>
+<span class="w">            </span><span class="nt">&lt;comp_current</span><span class="w">  </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;amperes&quot;</span><span class="nt">&gt;</span>{Compensating<span class="w"> </span>field<span class="w"> </span>coil<span class="w"> </span>current<span class="w"> </span>in<span class="w"> </span>&quot;on&quot;<span class="w"> </span>state&quot;}?<span class="nt">&lt;/comp_current&gt;</span>
+<span class="w">            </span><span class="nt">&lt;guide_current</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;amperes&quot;</span><span class="nt">&gt;</span>{Guide<span class="w"> </span>field<span class="w"> </span>coil<span class="w"> </span>current<span class="w"> </span>in<span class="w"> </span>&quot;on&quot;<span class="w"> </span>state&quot;}?<span class="nt">&lt;/guide_current&gt;</span>
+<span class="w">            </span><span class="nt">&lt;thickness</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;cm&quot;</span><span class="nt">&gt;</span>{thickness<span class="w"> </span>along<span class="w"> </span>path<span class="w"> </span>of<span class="w"> </span>neutron<span class="w"> </span>travel}?<span class="nt">&lt;/thickness&gt;</span>
+<span class="w">            </span><span class="cm">&lt;!--Geometrical properties--&gt;</span>
+<span class="w">            </span><span class="nt">&lt;NXgeometry</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;geometry&quot;</span><span class="nt">&gt;</span>{Position<span class="w"> </span>and<span class="w"> </span>orientation<span class="w"> </span>of<span class="w"> </span>flipper}?
+<span class="w">                </span><span class="nt">&lt;NXtranslation</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;value</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[3]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{(x,y,z)<span class="w"> </span>position<span class="w"> </span>coordinates<span class="w"> </span>relative<span class="w"> </span>to<span class="w"> </span>origin<span class="w"> </span>at<span class="w"> </span>sample<span class="w"> </span>position}?<span class="nt">&lt;/value&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXtranslation&gt;</span>
+<span class="w">                </span><span class="nt">&lt;NXorientation</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;value</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[6]&quot;</span><span class="nt">&gt;</span>{The<span class="w"> </span>orientation<span class="w"> </span>information<span class="w"> </span>is<span class="w"> </span>stored<span class="w"> </span>as<span class="w"> </span>direction<span class="w"> </span>cosines<span class="w"> </span>relative<span class="w"> </span>to<span class="w"> </span>origin<span class="w"> </span>at<span class="w"> </span>sample<span class="w"> </span>position.}<span class="nt">&lt;/value&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXorientation&gt;</span>
+<span class="w">                </span><span class="nt">&lt;NXshape</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{name of shape}&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;shape</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{&quot;nxcylinder&quot;,<span class="w"> </span>&quot;nxbox&quot;,<span class="w"> </span>&quot;nxsphere&quot;,<span class="w"> </span>...}?<span class="nt">&lt;/shape&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;size</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[nshapepar]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{<span class="w"> </span>nshapepar<span class="w"> </span>dimensions<span class="w"> </span>for<span class="w"> </span>selected<span class="w"> </span>shape}?<span class="nt">&lt;/size&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXshape&gt;</span>
+<span class="w">                </span><span class="nt">&lt;component_index</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_INT&quot;</span><span class="nt">&gt;</span>{Sequential<span class="w"> </span>order<span class="w"> </span>of<span class="w"> </span>aperture<span class="w"> </span>along<span class="w"> </span>beam<span class="w"> </span>path}<span class="nt">&lt;/component_index&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/NXgeometry&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/NXflipper&gt;</span>
+
+<span class="w">        </span><span class="nt">&lt;NXdetector</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{Name of detector bank}&quot;</span><span class="nt">&gt;</span>+
+<span class="w">            </span><span class="nt">&lt;time_of_flight</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[j+1]&quot;</span><span class="w"> </span><span class="na">axis=</span><span class="s">&quot;1&quot;</span><span class="w"> </span><span class="na">primary=</span><span class="s">&quot;1?&quot;</span>
+<span class="w">          </span><span class="na">long_name=</span><span class="s">&quot;{Axis label}&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;10^-6 second|10^-7 second&quot;</span><span class="w"> </span><span class="na">link=</span><span class="s">&quot;{absolute path to location in NXdetector}&quot;</span><span class="nt">&gt;</span>
+<span class="w">          </span>{Total<span class="w"> </span>time<span class="w"> </span>of<span class="w"> </span>flight}<span class="nt">&lt;/time_of_flight&gt;</span>
+<span class="w">            </span><span class="nt">&lt;detector_number</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_INT[i]&quot;</span><span class="w"> </span><span class="na">axis=</span><span class="s">&quot;2&quot;</span><span class="w"> </span><span class="na">primary=</span><span class="s">&quot;1?&quot;</span><span class="w"> </span><span class="na">long_name=</span><span class="s">&quot;{Axis label}&quot;</span><span class="w"> </span><span class="na">link=</span><span class="s">&quot;{absolute path to location in NXdetector}&quot;</span><span class="nt">&gt;</span>{Identifier<span class="w"> </span>for<span class="w"> </span>detector}?<span class="nt">&lt;/detector_number&gt;</span>
+<span class="w">            </span><span class="nt">&lt;data</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[i,j,k?,l?]|NX_INT[i,j,k?,l?]&quot;</span><span class="w"> </span><span class="na">signal=</span><span class="s">&quot;1&quot;</span><span class="w"> </span><span class="na">axes=</span><span class="s">&quot;[time_of_flight,detector_number,x_offset?,y_offset?]?&quot;</span><span class="w"> </span><span class="na">long_name=</span><span class="s">&quot;{Title of measurement}?&quot;</span>
+<span class="w">          </span><span class="na">check_sum=</span><span class="s">&quot;{Integral of data as check of data</span>
+<span class="s">          integrity} (NX_INT)?&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;number&quot;</span><span class="w">  </span><span class="na">link=</span><span class="s">&quot;{absolute path to location in NXdetector}&quot;</span><span class="nt">&gt;</span>
+<span class="w">          </span>{Data<span class="w"> </span>values}?<span class="nt">&lt;/data&gt;</span>
+<span class="w">            </span><span class="nt">&lt;data_error</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[i,j,k?,l?]|NX_INT[i,j,k?,l?]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;number&quot;</span><span class="w">  </span><span class="na">link=</span><span class="s">&quot;{absolute path to location in NXdetector}&quot;</span><span class="nt">&gt;</span>
+<span class="w">          </span>{Data<span class="w"> </span>values}<span class="nt">&lt;/data_error&gt;</span>
+<span class="w">            </span><span class="nt">&lt;x_offset</span><span class="w"> </span><span class="na">axis=</span><span class="s">&quot;3&quot;</span><span class="w"> </span><span class="na">primary=</span><span class="s">&quot;1?&quot;</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[k+1]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;10^-3</span>
+<span class="s">            meter|10^-2 meter&quot;</span><span class="w"> </span><span class="na">long_name=</span><span class="s">&quot;{Axis label}&quot;</span><span class="w">  </span><span class="na">link=</span><span class="s">&quot;{absolute path to location in NXdetector}&quot;</span><span class="nt">&gt;</span>{offset<span class="w"> </span>from<span class="w"> </span>the
+<span class="w">            </span>detector<span class="w"> </span>center<span class="w"> </span>in<span class="w"> </span>x-direction}?<span class="nt">&lt;/x_offset&gt;</span>
+<span class="w">            </span><span class="nt">&lt;y_offset</span><span class="w"> </span><span class="na">axis=</span><span class="s">&quot;4&quot;</span><span class="w"> </span><span class="na">primary=</span><span class="s">&quot;1?&quot;</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[l+1]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;10^-3</span>
+<span class="s">            meter|10^-2 meter&quot;</span><span class="w"> </span><span class="na">long_name=</span><span class="s">&quot;{Axis label}&quot;</span><span class="w">  </span><span class="na">link=</span><span class="s">&quot;{absolute path to location in NXdetector}&quot;</span><span class="nt">&gt;</span>{offset<span class="w"> </span>from<span class="w"> </span>the
+<span class="w">            </span>detector<span class="w"> </span>center<span class="w"> </span>in<span class="w"> </span>the<span class="w"> </span>y-direction}?<span class="nt">&lt;/y_offset&gt;</span>
+<span class="w">            </span><span class="nt">&lt;distance</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[j,k?,l?]&quot;</span><span class="w"> </span><span class="na">axes=</span><span class="s">&quot;detector_number,x_offset?,y_offset?&quot;</span><span class="nt">&gt;&lt;/distance&gt;</span>
+<span class="w">            </span><span class="nt">&lt;polar_angle</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[j,k?,l?]&quot;</span><span class="w"> </span><span class="na">axes=</span><span class="s">&quot;detector_number,x_offset?,y_offset?&quot;</span><span class="nt">&gt;&lt;/polar_angle&gt;</span>
+<span class="w">            </span><span class="nt">&lt;azimuthal_angle</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[j,k?,l?]&quot;</span><span class="w"> </span><span class="na">axes=</span><span class="s">&quot;detector_number,x_offset?,y_offset?&quot;</span><span class="nt">&gt;&lt;/azimuthal_angle&gt;</span>
+<span class="w">            </span><span class="nt">&lt;description</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{name/manufacturer/model/etc.<span class="w"> </span>information}?<span class="nt">&lt;/description&gt;</span>
+<span class="w">            </span><span class="nt">&lt;NXgeometry</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>{Position<span class="w"> </span>and<span class="w"> </span>orientation<span class="w"> </span>of<span class="w"> </span>detector<span class="w"> </span>element}?<span class="nt">&lt;/NXgeometry&gt;</span>
+<span class="w">            </span><span class="nt">&lt;translation</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[2]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;centimeter&quot;</span><span class="nt">&gt;</span>{translation<span class="w"> </span>normal<span class="w"> </span>to<span class="w"> </span>direct<span class="w"> </span>beam}?<span class="nt">&lt;/translation&gt;</span>
+<span class="w">            </span><span class="nt">&lt;solid_angle</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[i]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;steradians&quot;</span><span class="nt">&gt;</span>{Solid<span class="w"> </span>angle<span class="w"> </span>subtended<span class="w"> </span>by<span class="w"> </span>the<span class="w"> </span>detector<span class="w"> </span>at<span class="w"> </span>the<span class="w"> </span>sample}?<span class="nt">&lt;/solid_angle&gt;</span>
+<span class="w">            </span><span class="nt">&lt;x_pixelsize</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[i?]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;mili*metre&quot;</span><span class="nt">&gt;</span>{Size<span class="w"> </span>of<span class="w"> </span>each<span class="w"> </span>detector<span class="w"> </span>pixel.<span class="w"> </span>If<span class="w"> </span>it<span class="w"> </span>is<span class="w"> </span>scalar<span class="w"> </span>all<span class="w"> </span>pixels<span class="w"> </span>are<span class="w"> </span>the<span class="w"> </span>same<span class="w"> </span>size}?<span class="nt">&lt;/x_pixelsize&gt;</span>
+<span class="w">            </span><span class="nt">&lt;y_pixelsize</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[i?]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;mili*metre&quot;</span><span class="nt">&gt;</span>{Size<span class="w"> </span>of<span class="w"> </span>each<span class="w"> </span>detector<span class="w"> </span>pixel.<span class="w"> </span>If<span class="w"> </span>it<span class="w"> </span>is<span class="w"> </span>scalar<span class="w"> </span>all<span class="w"> </span>pixels<span class="w"> </span>are<span class="w"> </span>the<span class="w"> </span>same<span class="w"> </span>size}?<span class="nt">&lt;/y_pixelsize&gt;</span>
+<span class="w">            </span><span class="nt">&lt;dead_time</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[i]&quot;</span><span class="nt">&gt;</span>{Detector<span class="w"> </span>dead<span class="w"> </span>time}?<span class="nt">&lt;/dead_time&gt;</span>
+<span class="w">            </span><span class="nt">&lt;hold_off</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[i]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;micro.second&quot;</span><span class="nt">&gt;</span>{Delay<span class="w"> </span>in<span class="w"> </span>detector<span class="w"> </span>registering<span class="w"> </span>an<span class="w"> </span>event}?<span class="nt">&lt;/hold_off&gt;</span>
+<span class="w">            </span><span class="nt">&lt;gas_pressure</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[i]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;bars&quot;</span><span class="nt">&gt;</span>{Detector<span class="w"> </span>gas<span class="w"> </span>pressure}?<span class="nt">&lt;/gas_pressure&gt;</span>
+<span class="w">            </span><span class="nt">&lt;detection_gas_path</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;cm&quot;</span><span class="nt">&gt;</span>{maximum<span class="w"> </span>drift<span class="w"> </span>space<span class="w"> </span>dimension}?<span class="nt">&lt;/detection_gas_path&gt;</span>
+<span class="w">            </span><span class="nt">&lt;crate</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_INT[i]&quot;</span><span class="w"> </span><span class="na">local_name=</span><span class="s">&quot;{Equivalent local term}&quot;</span><span class="nt">&gt;</span>{Crate<span class="w"> </span>number<span class="w"> </span>of<span class="w"> </span>detector}?<span class="nt">&lt;/crate&gt;</span>
+<span class="w">            </span><span class="nt">&lt;slot</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_INT[i]&quot;</span><span class="w"> </span><span class="na">local_name=</span><span class="s">&quot;{Equivalent local term}&quot;</span><span class="nt">&gt;</span>{Slot<span class="w"> </span>number<span class="w"> </span>of<span class="w"> </span>detector}?<span class="nt">&lt;/slot&gt;</span>
+<span class="w">            </span><span class="nt">&lt;input</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_INT[i]&quot;</span><span class="w"> </span><span class="na">local_name=</span><span class="s">&quot;{Equivalent local term}&quot;</span><span class="nt">&gt;</span>{Input<span class="w"> </span>number<span class="w"> </span>of<span class="w"> </span>detector}?<span class="nt">&lt;/input&gt;</span>
+<span class="w">            </span><span class="nt">&lt;type</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>&quot;He3<span class="w"> </span>gas<span class="w"> </span>cylinder&quot;|He3<span class="w"> </span>PSD&quot;|&quot;He3<span class="w"> </span>planar<span class="w"> </span>multidetector&quot;|<span class="w"> </span>&quot;He3<span class="w"> </span>curved<span class="w"> </span>multidetector&quot;|<span class="w"> </span>&quot;multi-tube<span class="w"> </span>He3<span class="w"> </span>PSD&quot;|&quot;BF3<span class="w"> </span>gas&quot;|&quot;scintillator&quot;|&quot;fission<span class="w"> </span>chamber&quot;?<span class="nt">&lt;/type&gt;</span>
+<span class="w">            </span><span class="nt">&lt;NXdata</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;efficiency&quot;</span><span class="nt">&gt;</span>{Efficiency<span class="w"> </span>of<span class="w"> </span>detector<span class="w"> </span>with<span class="w"> </span>respect<span class="w"> </span>to<span class="w"> </span>e.g.<span class="w"> </span>wavelength}?<span class="nt">&lt;/NXdata&gt;</span>
+<span class="w">            </span><span class="nt">&lt;calibration_date</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;ISO8601&quot;</span><span class="nt">&gt;</span>{date<span class="w"> </span>of<span class="w"> </span>last<span class="w"> </span>calibration<span class="w"> </span>(geometry<span class="w"> </span>and/or<span class="w"> </span>efficiency)<span class="w">  </span>measurements}?<span class="nt">&lt;/calibration_date&gt;</span>
+<span class="w">            </span><span class="nt">&lt;calibration_method</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NXnote&quot;</span><span class="nt">&gt;</span>{summary<span class="w"> </span>of<span class="w"> </span>conversion<span class="w"> </span>of<span class="w"> </span>array<span class="w"> </span>data<span class="w"> </span>to<span class="w"> </span>pixels<span class="w">  </span>(e.g.
+<span class="w">            </span>polynomial<span class="w"> </span>approximations)<span class="w"> </span>and<span class="w"> </span>location<span class="w"> </span>of<span class="w"> </span>details<span class="w"> </span>of<span class="w"> </span>the<span class="w"> </span>calibrations}?<span class="nt">&lt;/calibration_method&gt;</span>
+<span class="w">            </span><span class="cm">&lt;!--Geometrical properties--&gt;</span>
+<span class="w">            </span><span class="nt">&lt;NXgeometry</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;geometry&quot;</span><span class="nt">&gt;</span>{Position<span class="w"> </span>and<span class="w"> </span>orientation<span class="w"> </span>of<span class="w"> </span>aperture}?
+<span class="w">                </span><span class="nt">&lt;NXtranslation</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;value</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[3]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{(x,y,z)<span class="w"> </span>position<span class="w"> </span>coordinates<span class="w"> </span>relative<span class="w"> </span>to<span class="w"> </span>origin<span class="w"> </span>at<span class="w"> </span>sample<span class="w"> </span>position}?<span class="nt">&lt;/value&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXtranslation&gt;</span>
+<span class="w">                </span><span class="nt">&lt;NXorientation</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;value</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[6]&quot;</span><span class="nt">&gt;</span>{The<span class="w"> </span>orientation<span class="w"> </span>information<span class="w"> </span>is<span class="w"> </span>stored<span class="w"> </span>as<span class="w"> </span>direction<span class="w"> </span>cosines<span class="w"> </span>relative<span class="w"> </span>to<span class="w"> </span>origin<span class="w"> </span>at<span class="w"> </span>sample<span class="w"> </span>position.}<span class="nt">&lt;/value&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXorientation&gt;</span>
+<span class="w">                </span><span class="nt">&lt;NXshape</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{name of shape}&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;shape</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{&quot;nxcylinder&quot;,<span class="w"> </span>&quot;nxbox&quot;,<span class="w"> </span>&quot;nxsphere&quot;,<span class="w"> </span>...}?<span class="nt">&lt;/shape&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;size</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[nshapepar]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="w"> </span><span class="na">exponent=</span><span class="s">&quot;?&quot;</span><span class="nt">&gt;</span>{<span class="w"> </span>nshapepar<span class="w"> </span>dimensions<span class="w"> </span>for<span class="w"> </span>selected<span class="w"> </span>shape}?<span class="nt">&lt;/size&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/NXshape&gt;</span>
+<span class="w">                </span><span class="nt">&lt;component_index</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_INT&quot;</span><span class="nt">&gt;</span>{Sequential<span class="w"> </span>order<span class="w"> </span>of<span class="w"> </span>aperture<span class="w"> </span>along<span class="w"> </span>beam<span class="w"> </span>path}<span class="nt">&lt;/component_index&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/NXgeometry&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/NXdetector&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/NXinstrument&gt;</span>
+</pre></div>
+</div>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="SAS.html" title="Small-Angle Scattering"
+             >next</a></li>
+        <li class="right" >
+          <a href="Proposal_to_Simplify_Nexus.html" title="Proposal to Simplify Nexus"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">ReflectDiscuss</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

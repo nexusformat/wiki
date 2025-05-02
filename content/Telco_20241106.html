@@ -1,0 +1,226 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Telco 20241106</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Telco 20241127" href="Telco_20241127.html" />
+    <link rel="prev" title="Telco 20240820" href="Telco_20240820.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20241127.html" title="Telco 20241127"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Telco_20240820.html" title="Telco 20240820"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" accesskey="U">Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20241106</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="telco-20241106">
+<h1>Telco 20241106<a class="headerlink" href="#telco-20241106" title="Link to this heading">¶</a></h1>
+<section id="date">
+<h2>Date<a class="headerlink" href="#date" title="Link to this heading">¶</a></h2>
+<p>Wednesday, 6th Nov, 15:00 UTC</p>
+</section>
+<section id="connect">
+<h2>Connect<a class="headerlink" href="#connect" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>ZOOM VC link: <a class="reference external" href="https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09">https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09</a></p></li>
+<li><p>Meeting ID: 652 7209 1306</p></li>
+<li><p>Passcode: nexus</p></li>
+</ul>
+</section>
+<section id="agenda">
+<h2>Agenda<a class="headerlink" href="#agenda" title="Link to this heading">¶</a></h2>
+<p>follow up on the NIAC meeting in Sept</p>
+</section>
+<section id="present">
+<h2>Present<a class="headerlink" href="#present" title="Link to this heading">¶</a></h2>
+<p>AB, SB, PM, RO, PC, FS, PJ, RB, TC, HB</p>
+</section>
+<section id="minutes">
+<h2>Minutes<a class="headerlink" href="#minutes" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>review of NIAC results<br />
+AB: Project Board shows all issues done, the ones still in queue, and those which has been discussed, but needs implementation<br />
+SB: FAIRmat contributions are boundled, so they can be reviewed in smaller chunks<br />
+RO: let us label those PRs which needs NIAC vote<br />
+AB: let us put links of votes to the 2024 NIAC minutes, too<br />
+SB: volunteered to do that</p></li>
+<li><p>PR etiquette<br />
+AB: PR should have a summary on top as proposed by RO<br />
+SB: also issues can be connected to PRs to explain them in details and allow discussions<br />
+RO: indeed, issue shall also be connected to PRs, but a Summary telling why we have this PR is still needed<br />
+AB: discussion in PR should be just fine without necessarily an issue associated<br />
+PM: where do we want to have discussion? In the PR and/or in Issue? We could have a file describing Contribution rules<br />
+TC: some projects are strong on requiring issues associated to PRs. It may be enough to open an issue when PR becomes big.<br />
+PJ: it is important to have a record on WHY we have this modification?<br />
+PM: yes, it is important.</p></li>
+<li><p>Issues/PRs<br />
+AB: let us check those issues which still need a PR to be approved, so online voting can be set up  for them</p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/nexusformat/definitions/issues/1442">https://github.com/nexusformat/definitions/issues/1442</a><br />
+AB: volunteered to set up a PR which implements the voted modifications in the documentation<br />
+RO: related PRs:</p>
+<ul>
+<li><p>NXobject to hold groups which can be placed into any groups: <a class="reference external" href="https://github.com/nexusformat/definitions/pull/1507">pull #1507</a><br />
+SB: if these groups are also inheriting NXobject, unlimited circular nesting is allowed. Is it the intention?<br />
+RO: Yes, it works fine.<br />
+PM, AB: we may want to be carefull with this. Not sure if it is needed to be formalised as such<br />
+RO: It is just implementing the convention which was anyway written in the standard</p></li>
+<li><p>NXroot not to inherit from NXobject to force NXentry to be the only entry groups: <a class="reference external" href="https://github.com/nexusformat/definitions/pull/1505">pull 1505</a><br />
+SB: Although &#64;NX_class is indicated optional (as all other elements in a base class), it is anyway needed just like in all other groups to be able to identify NXroot group as an intentional root of a NeXus file.<br />
+RO: NXroot is just an artifact for being able to hold some file level attributes, but it is not a real base class. Documentation is missleading.<br />
+PJ: The entry for any NeXus content is actually NXentry.<br />
+RO: Yes, and NXentry must be in the root and only this NeXus group can be in the root.<br />
+TC: What happends where NeXus content is built from multiple hdf5 files with their respective roots?<br />
+SB: NeXus interpretation and annotation is connected to a given root. Interpreter starts from  that root and wals along all available groups/fields/attributes which may use external links and drives to a specific lovcation of a different hdf5 file. The root of those linked h5 files are not necessarily interpreted and certainly not as NXroot. They are interpreted (actually as NXroot) if and only if NeXus annotation starts with that file.<br />
+RO: Actually, hdf5 roots shall not be interpreted as a normal base class group according to NXroot definition, but only attributes listed in NXroot can be interpreted. Even &#64;NX_class shall not necessarily be present.<br />
+SB: Documentaion may be missleading, but according to that, a NeXus file shall contain a valid and proper NXroot in its root which hosts all NXentries.<br />
+HB: We may start the design from scratch, so clear documentation and implementation will not be blocked by legacy issues.<br />
+AB: The standrd is stable for long years, we shall find the way to clarify the documentation and the intentional use, so validators can apply it. Let us try to improve it in the PR offline.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/nexusformat/definitions/issues/1467">https://github.com/nexusformat/definitions/issues/1467</a><br />
+AB: Let us resolve conversations in the pending <a class="reference external" href="https://github.com/nexusformat/definitions/pull/1419">PR 1419</a><br />
+SB: indentifiers meeds finalisation and so #1467 is being blocked by the PR adding identifierNAME to NXobject</p></li>
+<li><p><a class="reference external" href="https://github.com/nexusformat/definitions/pull/1486">https://github.com/nexusformat/definitions/pull/1486</a><br />
+AB, RO: documentation is overwhelming for a base class, like NXobject<br />
+SB: documentation for specific identifier type is actually crutial for the interpretation<br />
+TC: Yes, it vital<br />
+SB: collecting the individual docs into a single block will render them being collapsed into a single line in HTML.<br />
+AB: that solves the problem<br />
+RO: keeping NXidentifier as a base class, it could host its own documentation and we would need to add a single line to NXobject.<br />
+SB: yes, it is also an alternative, although we voted for implementing the identifier not as a Group, but an Attribute (which we seem to be able to implement only as a Field because we cannot assign an attribute to an attribute).<br />
+RO: why is it identifierNAME and not identifier_NAME?<br />
+SB, AB: we discussed, and agreed on this to support the possibility to declare an element called ‘identifier’ without any extra suffix (when NAME is substituted by an empty string).</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Telco 20241106</a><ul>
+<li><a class="reference internal" href="#date">Date</a></li>
+<li><a class="reference internal" href="#connect">Connect</a></li>
+<li><a class="reference internal" href="#agenda">Agenda</a></li>
+<li><a class="reference internal" href="#present">Present</a></li>
+<li><a class="reference internal" href="#minutes">Minutes</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20241127.html" title="Telco 20241127"
+             >next</a></li>
+        <li class="right" >
+          <a href="Telco_20240820.html" title="Telco 20240820"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" >Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20241106</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

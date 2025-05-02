@@ -1,0 +1,212 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Utilities</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Workshop PSI 2010" href="Workshop_PSI_2010.html" />
+    <link rel="prev" title="Update for NXflou application definition" href="Update_for_NXflou_application_definition.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Workshop_PSI_2010.html" title="Workshop PSI 2010"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Update_for_NXflou_application_definition.html" title="Update for NXflou application definition"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Utilities</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="utilities">
+<h1>Utilities<a class="headerlink" href="#utilities" title="Link to this heading">¶</a></h1>
+<section id="nexus-browsers-and-other-utilities">
+<h2>NeXus Browsers and Other Utilities<a class="headerlink" href="#nexus-browsers-and-other-utilities" title="Link to this heading">¶</a></h2>
+<p><a class="reference external" href="NXbrowse.html" title="wikilink">NXbrowse</a>:A command-line utility for browsing NeXus files.<br />
+NXtoXML:A utility to translate NeXus files to XML, written in ISO C. If used from a terminal (and installed in the default PATH [u**x] or defined as a symbol [VMS]), type</p>
+<!-- -->
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>NXtoXML &lt;NeXus_file&gt; &lt;XML_file&gt;
+</pre></div>
+</div>
+<p>On most systems, NXtoXML is compiled and linked during the standard
+NeXus installation (v2.0 and later). Precompiled binary versions are
+available for a limited number of operating systems (Linux, VMS,
+Macintosh). Please contact Ray Osborn for more information.</p>
+<p>NXtoDTD: A utility to translate NeXus files to XML without including the data values, written in ISO C. This is useful in defining the structure of a NeXus file and can be used to produce the skeleton of a NeXus metaDTD file from an existing NeXus file. If used from a terminal (and installed in the default PATH [u**x] or defined as a symbol [VMS]), type</p>
+<!-- -->
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>NXtoDTD &lt;NeXus_file&gt; &lt;XML_file&gt;
+</pre></div>
+</div>
+<p>On most systems, NXtoDTD is compiled and linked during the standard
+NeXus installation (v2.0 and later). Precompiled binary versions are
+available for a limited number of operating systems (Linux, VMS,
+Macintosh). Please contact Ray Osborn for more information.</p>
+<p><a class="reference external" href="NXdir.html" title="wikilink">NXdir</a>:CLI tool that lists contents of NeXus file and convert selected portions to ASCII.<br />
+NXtree:A utility to output the structure of a NeXus file in a tree structure. It has options to produce either HTML or LaTeX output, with or without data values and attributes.</p>
+<!-- -->
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>NXtree [-[no]attr] [-[no]data] [-html | -latex] &lt;NeXus_file&gt;
+</pre></div>
+</div>
+<p>The file NXtree.tar.gz contains the source code to be used on u**x
+platforms and NXtree-win32.zip contains a binary version for various
+flavors of Windows. It was written by Thomas Proffen
+&lt;tproffen&#64;lanl.gov&gt;</p>
+<p>NXvalid:GUI tool to interactively explore, plot, and validate NeXus files.<br />
+NXtranslate:Anything to NeXus converter<br />
+NDS:NeXus data server, publish NeXus files on TCP/IP, read only (SINQ)<br />
+NNDB:Java program to browse NeXus files published through NDS (SINQ)<br />
+HDFView:Java-based tool for browsing and visualizing HDF4/5 files.<br />
+HDFExplorer:Windows HDF viewer for HDF4, HDF5 and netCDF files from <a class="reference external" href="http://www.space-research.org">http://www.space-research.org</a> offers grid/scalar image/vector images and data export.<br />
+IgorPro HDF5 Browser:Windows and MacOSX HDF viewer for HDF4 and HDF5 files from <a class="reference external" href="http://www.wavemetrics.com">http://www.wavemetrics.com</a> provides views of raw content dumps, tables, plots, and images, and data import.</p>
+</section>
+<section id="plotting-applications">
+<h2>Plotting Applications<a class="headerlink" href="#plotting-applications" title="Link to this heading">¶</a></h2>
+<p><a class="reference external" href="NeXpy.html" title="wikilink">NeXpy</a>: A Python-based approach to interactive data analysis that allows complete data structures to be read into a tree and new data structures to be created using an simple intuitive syntax. The data can be plotted, sliced, manipulated, and saved to a file.<br />
+<a class="reference external" href="http://www.opengenie.org/">Open Genie</a>:Open Genie is an object-oriented data analysis and visualization package developed at the ISIS pulsed neutron facility. The latest version has the ability to load an entire NeXus file into a workspace structure, as well as write NeXus files.<br />
+ISAW:ISAW is a java-based analysis package used to read, manipulate, view, and save neutron scattering data. ISAW can read data from NeXus files and can merge and sort data from separate measurements..<br />
+IDL:Mark Koennecke has written a set of IDL utilities for interfacing to NeXus files.<br />
+LAMP:This is a general purpose neutron data analysis package, developed at ILL and layered on IDL. A run-time version is available for those without an IDL license. It can read and write NeXus files.<br />
+<a class="reference external" href="http://discus.sourceforge.net">KUPLOT</a>:This is a universal data plotting program, that is used to visualize DISCUS or PDFFIT results as well as for other plotting purposes<br />
+NXviewer:OpenDave based viewer (FRM2).<br />
+HDFLook:Motif HDF viewer which has some impressive plotting capabilities. For example, it is possible to plot 2D data sets and then take arbitrary 1D cuts. However, it does not recognize Vgroups, so the NeXus file hierarchy is lost making it hard to identify the plottable data. However, the price is right (i.e. it’s free).<br />
+MATLAB: <a class="reference external" href="http://www.mathworks.com/products/matlab/">MATLAB</a> will read a general <a class="reference external" href="http://www.hdfgroup.org/HDF5/">HDF5</a> format file and so is able to import any NeXus file which used HDF5 as its underlying representation.</p>
+</section>
+<section id="data-analysis">
+<h2>Data Analysis<a class="headerlink" href="#data-analysis" title="Link to this heading">¶</a></h2>
+<p><a class="reference external" href="NeXpy.html" title="wikilink">NeXpy</a>: A Python-based approach to interactive data analysis that allows complete data structures to be read into a tree and new data structures to be created using an simple intuitive syntax. The data can be plotted, sliced, manipulated, and saved to a file.<br />
+<a class="reference external" href="http://www.opengenie.org/">Open Genie</a>: I include Open Genie here as well since it is really more of a data analysis package than a plotting package per se. Support for performing analysis on NeXus files is currently limited, but can be acomplished by mapping parts of the imported NeXus file into a new workspace that to make it resemble an ISIS RAW data file.<br />
+LAMP: LAMP is also designed for analyzing raw data in addition to visualizing the results.<br />
+UDA and WIMDA:General purpose muon scattering analysis packages (ISIS)<br />
+hdfb.sav and h5b.sav:browser for any 1D/2D/3D data saved in HDF (APS)<br />
+GumTree:scientific workbench for instrument control (BI)<br />
+ninx:inx (ILL) adapted to read FOCUS TOF files (SINQ)<br />
+Nathan:TOF data analysis for FOCUS (IDL based) (SINQ)<br />
+anatric, cami4pcd:four circle diffractometer data analysis (SINQ)<br />
+BerSANS:data analysis for SANS through adapter (SINQ)</p>
+<p>fit:home grown fitting program (SINQ)<br />
+addit, subi:programs to add or subtract powder data and write files suitable for Rietveld programs (SINQ)<br />
+Redas:data analysis for Reflectometer, based on Scilab (SINQ)<br />
+Amortool:simple CLI tool for Reflectometer data analysis (SINQ)<br />
+Scilab:general matlab like data analysis tool - with a NeXus interface for that (SINQ)<br />
+<a class="reference external" href="http://www.mantidproject.org/">Mantid</a>: An instrument independant data analysis framework that supports NeXus as an output format and both <a class="reference external" href="TOFRaw.html" title="wikilink">TOFRaw</a> and <a class="reference external" href="Muon_Time_Differential.html" title="wikilink">Muon_Time_Differential</a> as input formats.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Utilities</a><ul>
+<li><a class="reference internal" href="#nexus-browsers-and-other-utilities">NeXus Browsers and Other Utilities</a></li>
+<li><a class="reference internal" href="#plotting-applications">Plotting Applications</a></li>
+<li><a class="reference internal" href="#data-analysis">Data Analysis</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Workshop_PSI_2010.html" title="Workshop PSI 2010"
+             >next</a></li>
+        <li class="right" >
+          <a href="Update_for_NXflou_application_definition.html" title="Update for NXflou application definition"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Utilities</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

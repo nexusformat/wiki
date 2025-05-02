@@ -1,0 +1,220 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Telco 20160614</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Telco 20160628" href="Telco_20160628.html" />
+    <link rel="prev" title="Telco 20160531" href="Telco_20160531.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20160628.html" title="Telco 20160628"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Telco_20160531.html" title="Telco 20160531"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" accesskey="U">Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20160614</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="telco-20160614">
+<h1>Telco 20160614<a class="headerlink" href="#telco-20160614" title="Link to this heading">¶</a></h1>
+<section id="date">
+<h2>Date<a class="headerlink" href="#date" title="Link to this heading">¶</a></h2>
+<p>Tuesday, 14th June, 16:30 Central European Summer Time (Copenhagen)</p>
+<p>Hangout Link:
+<a class="reference external" href="https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua">https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua</a></p>
+</section>
+<section id="agenda">
+<h2>Agenda<a class="headerlink" href="#agenda" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Welcome and agree Agenda</p></li>
+<li><p>github issue of the day - suggestions welcome (there is a github
+label now)</p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/nexusformat/definitions/pull/475">PR #475</a>:
+add
+<a class="reference external" href="https://manual.nexusformat.org/classes/base_classes/NXlog.html">NXlog</a>
+as child group of
+<a class="reference external" href="https://manual.nexusformat.org/classes/base_classes/NXentry.html">NXentry</a></p></li>
+<li><p><a class="reference external" href="https://github.com/nexusformat/definitions/pull/476">issue
+#476</a>: add
+<a class="reference external" href="https://manual.nexusformat.org/classes/base_classes/NXnote.html">NXnote</a>
+as child group of
+<a class="reference external" href="https://manual.nexusformat.org/classes/base_classes/NXentry.html">NXentry</a></p></li>
+</ul>
+</li>
+<li><p>report from high data rate MX meeting at BNL</p></li>
+<li><p>registering for NIAC and potential hotel shortage</p></li>
+<li><p>items for NIAC</p></li>
+<li><p>Look at graph of the base class hierarchy -
+<a class="reference external" href="http://punx.readthedocs.io/en/latest/source_code/analyze.html">http://punx.readthedocs.io/en/latest/source_code/analyze.html</a></p></li>
+<li><p>Next meeting</p></li>
+<li><p>AOB</p></li>
+</ul>
+</section>
+<section id="minutes">
+<h2>Minutes<a class="headerlink" href="#minutes" title="Link to this heading">¶</a></h2>
+<p>Present: AB, AF, EW, HJB, MK, PJ, TSR</p>
+<section id="github-issue-of-the-day">
+<h3>Github Issue of the Day<a class="headerlink" href="#github-issue-of-the-day" title="Link to this heading">¶</a></h3>
+<p>The two issues itemised above are resolved by the general agreement on
+being permissive with base classes. That is while base classes aim to
+cover most use cases, they don’t list all acceptable groups and fields.
+In order to be able to progress the standard additional data is
+acceptable. Validation tools should not treat such additional items not
+covered by a base class as errors, but notes or warnings. Users should
+encouraged to find the best defined location for their information, but
+we understand there is not a defined place for all possible data.</p>
+<p>This may require clarification in the manual.</p>
+<p>Related to that: cnxvalidate currently does no validation for files that
+do not (claim to) conform to an application definition. Just checking
+the use of base classes is another important use case. MK opened a
+ticket to investigate.</p>
+<p>Issue 330 (definitions): Comments left on the ticket. Partial action
+required at most. Could be resolved at the next NIAC.</p>
+</section>
+<section id="mxhdr-meeting-report">
+<h3>MXHDR meeting report<a class="headerlink" href="#mxhdr-meeting-report" title="Link to this heading">¶</a></h3>
+<p><a class="reference external" href="http://medsbio.org/meetings/BNL_May16_HDRMX_Meeting.html">http://medsbio.org/meetings/BNL_May16_HDRMX_Meeting.html</a></p>
+</section>
+<section id="punx">
+<h3>PUNX<a class="headerlink" href="#punx" title="Link to this heading">¶</a></h3>
+<p>PJ shared his latest python project:
+<a class="reference external" href="http://punx.readthedocs.io/en/latest/contents.html">http://punx.readthedocs.io/en/latest/contents.html</a></p>
+<p>It does similar things to cnxvalidate plus additional tooling.</p>
+</section>
+<section id="next-meeting">
+<h3>Next Meeting<a class="headerlink" href="#next-meeting" title="Link to this heading">¶</a></h3>
+<p><a class="reference external" href="Telco_20160628.html" title="wikilink">Telco 20160628</a></p>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Telco 20160614</a><ul>
+<li><a class="reference internal" href="#date">Date</a></li>
+<li><a class="reference internal" href="#agenda">Agenda</a></li>
+<li><a class="reference internal" href="#minutes">Minutes</a><ul>
+<li><a class="reference internal" href="#github-issue-of-the-day">Github Issue of the Day</a></li>
+<li><a class="reference internal" href="#mxhdr-meeting-report">MXHDR meeting report</a></li>
+<li><a class="reference internal" href="#punx">PUNX</a></li>
+<li><a class="reference internal" href="#next-meeting">Next Meeting</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20160628.html" title="Telco 20160628"
+             >next</a></li>
+        <li class="right" >
+          <a href="Telco_20160531.html" title="Telco 20160531"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" >Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20160614</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

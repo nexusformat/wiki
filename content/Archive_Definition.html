@@ -1,0 +1,369 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Archive Definition</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Associating Axes with Data" href="Associating_Axes_with_Data.html" />
+    <link rel="prev" title="Active Projects" href="ActiveProjects.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Associating_Axes_with_Data.html" title="Associating Axes with Data"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="ActiveProjects.html" title="Active Projects"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Archive Definition</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="archive-definition">
+<h1>Archive Definition<a class="headerlink" href="#archive-definition" title="Link to this heading">¶</a></h1>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">¶</a></h2>
+<p>This ‘NeXus Archive Definition’ proposal is similar to an ‘Instrument
+Definition’ but it describe the required information for neXus files
+that are meant to be centrally archived. It contains important
+information that will not be found in the instrument definition as they
+are not needed for data analysis.</p>
+<p>The Instrument Definitions should allow the creation of archiving
+software that are common among several instruments and/or facilities.
+With the Archive Definition, the aim is to allow shared data management
+tools. It also emphasize important information that will be useful for
+search and retrieve of the data once stored in the archive.</p>
+<p>The Instrument Definitions and the Archive definition should not
+interfere with each other. To analyze the data of an instrument, you
+don’t need to know the owner of the data or the name of the sample.</p>
+<p>Before archiving and indexing the data, we need to define the
+granularity with which to do it. HDF 5 should allow a user to extract
+only one group from a file stored in a SRB system. I doubt that it would
+be very practical to catalogue the data so finely, at least not at a
+facility level. This definition assumes an indexing at the file level.</p>
+<p>Part of the definition are optional parameters for information that are
+highly recommended but not required . It is build with RAW file in mind.
+other parameters may be needed for processed / result or simulation
+files</p>
+</section>
+<section id="multiple-nxentry-issue">
+<h2>Multiple NXentry issue<a class="headerlink" href="#multiple-nxentry-issue" title="Link to this heading">¶</a></h2>
+<p>A NeXus file may contain several NXentry that needs to be indexed
+separately. But it may also occur that not all NXentry has to be indexed
+(e.g. when one entry contains the events data and the other the
+histograms for the same measurement. )</p>
+<p>The entry that has to be indexed will have the attribute ‘index’ with
+the value ‘yes’. The one which doesn’t have to be indexed, will have the
+value ‘no’. If some of the NXentry doesn’t have to be indexed, they will
+have the value ‘no’. Those NXentry may be associated to one of the
+indexed NXentry with the attribute ‘index_group’.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span> &lt;NXroot&gt;
+   &lt;NXentry index=&quot;yes&quot; index_group=&quot;sample_01&quot;/
+   &lt;NXentry index=&quot;no&quot; index_group=&quot;sample_01&quot;/&gt;
+   &lt;NXentry index=&quot;yes&quot; index_group=&quot;sample_02&quot;/&gt;
+   &lt;NXentry index=&quot;yes&quot; index_group=&quot;sample_03&quot;/&gt;
+ &lt;/NXroot&gt;
+</pre></div>
+</div>
+<p>If there is only one entry or if it does not matter which entry will be
+indexed (all metadata are the same in all entries) then there is no need
+to put the attribute ‘index’ or ‘index_group’.</p>
+</section>
+<section id="parameter-names">
+<h2>Parameter Names<a class="headerlink" href="#parameter-names" title="Link to this heading">¶</a></h2>
+<p>When extracting the metadata, we will not be limited to the one in this
+list. Facility, Instrument, Sample specific information may be
+extracted. It would then be useful to chose names that are descriptive
+and have a constant meaning between experiments. It is preferable to use
+temp_control and temp_sample than temp_1 and temp_2 with the sample
+temperature being sometimes temp_1, sometimes temp_2.</p>
+</section>
+<section id="too-much-metadata-is-better-than-too-little">
+<h2>Too much metadata is better than too little<a class="headerlink" href="#too-much-metadata-is-better-than-too-little" title="Link to this heading">¶</a></h2>
+<p>You can’t extract information that are not there.</p>
+</section>
+<section id="dtd-definition">
+<h2>DTD definition<a class="headerlink" href="#dtd-definition" title="Link to this heading">¶</a></h2>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!--
+URL:     http://www.nexusformat.gov/classes/xml/NXarchive.xml
+Editor:  NIAC
+NIAC Version: 2.1
+Editor  : L. Lerusse, SciTech e-Science
+
+Definition for RAW data the will be centrally archived by the facilities.
+--&gt;
+&lt;NXroot&gt;
+  &lt;NXentry name=&quot;{Entry Name}&quot; index=&quot;{Should this entry be indexed?}&quot; index_group=&quot;{Group of entry that are not indexed!&quot;&gt;+
+    &lt;title type=&quot;NX_CHAR&quot;&gt;
+        {Extended title for file}
+    &lt;/title&gt; 
+    &lt;experiment_identifier type=&quot;NX_CHAR&quot;&gt;
+        {unique identifier for the experiment, defined by the facility, possibly 
+         linked to the proposals (see : proposal_identifier below)}
+    &lt;/experiment_identifier&gt;
+    &lt;experiment_description type=&quot;NX_CHAR&quot;&gt;
+    {Brief summary of the experiment, including key objectives.}
+    &lt;/description&gt;
+    &lt;experiment_documentation type=&quot;NXNote&quot;&gt;
+    {Description of the full experiment (document in pdf, latex, …)}?
+    &lt;/description_document&gt;
+    &lt;collection_identifier type=&quot;NX_CHAR&quot;&gt;
+         {User or Data Acquisition defined group of NeXus files or NXentry}?
+    &lt;/collection_identifier&gt;
+    &lt;collection_description type=&quot;NX_CHAR&quot;&gt;
+    {Brief summary of the collection, including grouping criteria.}?
+    &lt;/description&gt;
+    &lt;entry_identifier type=&quot;NX_CHAR&quot;&gt;
+        {unique identifier for the measurement, defined by the facility.}?
+    &lt;/entry_identifier&gt;
+    &lt;start_time type=&quot;ISO8601&quot;&gt;
+        {Starting time of measurement}
+    &lt;/start_time&gt;
+    &lt;end_time type=&quot;ISO8601&quot;&gt;
+        {Ending time of measurement}
+    &lt;/end_time&gt;
+    &lt;duration type=&quot;NX_FLOAT&quot; units=&quot;seconds&quot;&gt;
+        {Duration of measurement (end_time - start_time)}?
+    &lt;/duration&gt;
+    &lt;collection_time type=&quot;NX_FLOAT&quot; units=&quot;seconds&quot;&gt;
+        {Time transpired actually collecting data i.e. taking out time when 
+        collection was suspended due to e.g. temperature out of range}?
+    &lt;/collection_time&gt;
+    &lt;run_cycle type=&quot;NX_CHAR&quot;&gt;
+        {}?
+    &lt;/run_cycle&gt;   
+    &lt;revision type=&quot;NX_CHAR&quot; comment=&quot;&quot;&gt;
+        { Revision id of the file due to re-calibration, reprocessing, 
+          new analysis, new instrument definition format, ... }
+    &lt;/revision&gt;
+    &lt;definition type=&quot;NX_CHAR&quot; version=&quot;{DTD version number}&quot; URL=&quot;{URL of DTD file}&quot;&gt;
+        {Name of entry DTD}
+    &lt;/definition&gt;
+    &lt;definition_local type=&quot;NX_CHAR&quot; version=&quot;{DTD version number}&quot; URL=&quot;{URL of DTD file}&quot;&gt;
+        {Name of entry DTD}?
+    &lt;/definition_local&gt;
+    &lt;program_name type=&quot;NX_CHAR&quot; version=&quot;{Program version number}&quot; configuration=&quot;{program configuration information}&quot;&gt;
+        {Name of program used to generate this file}
+    &lt;/program_name&gt;
+    &lt;NXuser name=&quot;user XX&quot;&gt;+
+        &lt;name type=&quot;NX_CHAR&quot;&gt;
+            {Name of user responsible for this entry}
+        &lt;/name&gt;
+        &lt;role type=&quot;NX_CHAR&quot;&gt;
+            {role of user responsible for this entry, comma separated list}
+            {Suggested roles are &quot;local_contact&quot;, &quot;principal_investigator&quot;, 
+            &quot;proposer&quot;, &quot;experimenter&quot;, &quot;funding_agency&quot;}
+        &lt;/role&gt;
+        &lt;facility_user_id type=&quot;NX_CHAR&quot;&gt;
+            {Facility based unique identifier for this person e.g. their 
+            identification code on the facility address/contact database, 
+            should allow owner identification by the archive system.}
+        &lt;/facility_user_id&gt;
+    &lt;/NXuser&gt;
+    &lt;NXinstrument name=&quot;{Name of instrument}&quot;&gt;
+        &lt;name type=&quot;NX_CHAR&quot; short_name=&quot;{abbreviated name of instrument}&quot;&gt;
+            {Name of instrument}
+        &lt;/name&gt;
+    &lt;description type=&quot;NX_CHAR&quot;&gt;
+        {Brief description of the instrument}?
+    &lt;/description_summary&gt;
+        &lt;NXsource name=&quot;{Name of facility}&quot;&gt;
+            &lt;name type=&quot;NX_CHAR&quot;&gt;
+                {Name of source}
+            &lt;/name&gt;
+            &lt;type type=&quot;NX_CHAR&quot;&gt;
+                {&quot;Spallation Neutron Source&quot;|&quot;Pulsed Reactor Neutron Source&quot;| 
+                &quot;Reactor Neutron Source&quot;|&quot;Synchrotron X-ray Source&quot;|
+                &quot;Pulsed Muon Source&quot;|&quot;Rotating Anode X-ray&quot;|&quot;Fixed Tube X-ray&quot;}
+            &lt;/type&gt;
+            &lt;probe type=&quot;NX_CHAR&quot;&gt;
+                neutron|x-ray|muon|electron
+            &lt;/probe&gt;
+        &lt;/NXsource&gt;
+    &lt;/NXinstrument&gt;
+    &lt;NXsample name=&quot;{name of sample}&quot;&gt;
+        &lt;name type=&quot;NX_CHAR&quot;&gt;
+            {Descriptive name of sample}
+        &lt;/name&gt;
+        &lt;sample_id type=&quot;NX_CHAR&quot;&gt;
+            {Unique identifier for the sample in the experiment.}
+        &lt;/sample_id&gt;
+    &lt;description type=&quot;NX_CHAR&quot;&gt;
+            {Description of the sample}?
+        &lt;/description&gt;
+        &lt;type type=&quot;NX_CHAR&quot;&gt;
+        { sample | sample+can | can | calibration sample | 
+              normalisation sample | simulated data | none | sample environment }
+    &lt;/type&gt;
+        &lt;chemical_formula type=&quot;NX_CHAR&quot;&gt;
+            {The chemical formula specified using CIF conventions.}?
+        &lt;/chemical_formula&gt;
+        &lt;preparation_date type=&quot;ISO8601&quot;&gt;
+        {Date of preparation of the sample}?
+    &lt;/preparation_date&gt;
+    &lt;situation type=&quot;NX_CHAR&quot;&gt;
+        { air | vacuum | inert atmosphere | oxidising atmosphere | reducing atmosphere | sealed can | other }
+            {The atmosphere will be one of the components, which is where its details will be stored; 
+            the relevant components will be indicated by the entry in the sample_component member.}?
+    &lt;/situation&gt;
+        &lt;NXlog name=&quot;temperature_log&quot;&gt; 
+            {Sample temperature. }? 
+        &lt;/NXlog&gt;
+        &lt;NXlog name=&quot;electric_field_log&quot;&gt; 
+            {Applied electric field}? 
+        &lt;/NXlog&gt;
+        &lt;NXlog name=&quot;magnetic_field_log&quot;&gt; 
+            {Applied magnetic field}? 
+        &lt;/NXlog&gt;
+        &lt;NXlog name=&quot;stress_field_log&quot;&gt; 
+            {External stress}? 
+        &lt;/NXlog&gt;
+        &lt;NXlog name=&quot;pressure_log&quot;&gt; 
+            {Applied pressure}?  
+        &lt;/NXlog&gt; 
+        &lt;temperature type=&quot;NX_FLOAT&quot; units=&quot;kelvin&quot;&gt;
+            {Sample temperature. }? 
+        &lt;/temperature&gt;
+        &lt;magnetic_field type=&quot;NX_FLOAT&quot; units=&quot;gauss&quot;&gt;
+            {Sample magnetic_field. }? 
+        &lt;/magnetic_field&gt;
+        &lt;electric_field type=&quot;NX_FLOAT&quot; units=&quot;&quot;&gt;
+            {Sample electric_field. }? 
+        &lt;/electric_field&gt;
+        &lt;stress_field type=&quot;NX_FLOAT&quot; units=&quot;&quot;&gt;
+            {Sample stress_field. }? 
+        &lt;/stress_field&gt;
+        &lt;pressure type=&quot;NX_FLOAT&quot; units=&quot;pascal&quot;&gt;
+            {Sample pressure. }? 
+        &lt;/pressure&gt;
+    &lt;/NXsample&gt;
+    &lt;release_date type=&quot;NX_CHAR&quot;&gt;        
+        { Date of the public release of the data. (file_time + X years)}?
+    &lt;/release_date&gt;     
+ &lt;/NXentry&gt;
+&lt;/NXroot&gt;
+</pre></div>
+</div>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Archive Definition</a><ul>
+<li><a class="reference internal" href="#introduction">Introduction</a></li>
+<li><a class="reference internal" href="#multiple-nxentry-issue">Multiple NXentry issue</a></li>
+<li><a class="reference internal" href="#parameter-names">Parameter Names</a></li>
+<li><a class="reference internal" href="#too-much-metadata-is-better-than-too-little">Too much metadata is better than too little</a></li>
+<li><a class="reference internal" href="#dtd-definition">DTD definition</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Associating_Axes_with_Data.html" title="Associating Axes with Data"
+             >next</a></li>
+        <li class="right" >
+          <a href="ActiveProjects.html" title="Active Projects"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Archive Definition</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

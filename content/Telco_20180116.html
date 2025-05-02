@@ -1,0 +1,225 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Telco 20180116</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Telco 20180130" href="Telco_20180130.html" />
+    <link rel="prev" title="Telco 20171128" href="Telco_20171128.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20180130.html" title="Telco 20180130"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Telco_20171128.html" title="Telco 20171128"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" accesskey="U">Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20180116</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="telco-20180116">
+<h1>Telco 20180116<a class="headerlink" href="#telco-20180116" title="Link to this heading">¶</a></h1>
+<section id="date">
+<h2>Date<a class="headerlink" href="#date" title="Link to this heading">¶</a></h2>
+<p>Tuesday, 16 January, 16:30 CET (+0100)</p>
+<!-- end of autogeneration -->
+<p>Hangout Link:
+<a class="reference external" href="https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua">https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua</a></p>
+</section>
+<section id="agenda">
+<h2>Agenda<a class="headerlink" href="#agenda" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Welcome and agree Agenda</p></li>
+<li><p>Suggested NXdata changes by Ray</p></li>
+<li><p>Milestones for NXDL releases</p></li>
+<li><p>Discussion on multiple signals in NXdata</p></li>
+<li><p>Github issue of the day - suggestions welcome (use telco github label)</p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/nexusformat/definitions/labels/telco">definitions PRs &amp; issues marked as “telco”</a></p></li>
+</ul>
+</li>
+<li><p>Next meeting</p></li>
+<li><p>AOB</p>
+<ul>
+<li><p>Mark B has had a question on where the official location for HDF compression algorithms is with respect to the Eiger.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="minutes">
+<h2>Minutes<a class="headerlink" href="#minutes" title="Link to this heading">¶</a></h2>
+<p>Present: TSR, AB, EW, MK, PJ, RO</p>
+<p>Apologies: Mark Basham, FAA</p>
+<section id="welcome">
+<h3>Welcome<a class="headerlink" href="#welcome" title="Link to this heading">¶</a></h3>
+<p>Some mixup with Hangout, session was split for the first 10 minutes.</p>
+</section>
+<section id="nxdata">
+<h3>NXdata<a class="headerlink" href="#nxdata" title="Link to this heading">¶</a></h3>
+<p><a class="reference external" href="https://github.com/nexusformat/definitions/pull/602">https://github.com/nexusformat/definitions/pull/602</a></p>
+<p>Ray will edit and present next time. uncertainties should be perferred over the old _errors.</p>
+</section>
+<section id="milestones">
+<h3>Milestones<a class="headerlink" href="#milestones" title="Link to this heading">¶</a></h3>
+<p><a class="reference external" href="https://github.com/nexusformat/definitions/milestones/NXDL%202018.1o">https://github.com/nexusformat/definitions/milestones/NXDL 2018.1o</a></p>
+<p>Action on all: Resolve all possible issues; at the next meeting advaocate then unresolved tickets that still should be part of the upcoming release. We still establish the target date then.</p>
+</section>
+<section id="multiple-signals-esrf-proposal">
+<h3>multiple signals, ESRF proposal<a class="headerlink" href="#multiple-signals-esrf-proposal" title="Link to this heading">¶</a></h3>
+<p>(This took quite some time, just noting down one strand of the exchange.)</p>
+<p>PJ: Support for generic plotting is a main goal of NeXus.</p>
+<p>RO: Adding multiple signals does not explain to a program what to do with that additional data.</p>
+<p>MK: Could suggest features to solve this.</p>
+<p>TSR: auxiliary_axes is a solved problem. Any number of axes are possible with _indices.</p>
+<p>PJ: That could have been to use with the additional (auxillary) signal.</p>
+<p>TSR: That would generate more problems (indices). Next action?</p>
+<p>PJ: Ball in Armando’s court to provide examples.</p>
+</section>
+<section id="github-issue-of-the-day">
+<h3>Github issue of the day<a class="headerlink" href="#github-issue-of-the-day" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/nexusformat/definitions/issues/600">https://github.com/nexusformat/definitions/issues/600</a> (target attribute) commented</p></li>
+</ul>
+</section>
+<section id="next-meeting">
+<h3>Next meeting<a class="headerlink" href="#next-meeting" title="Link to this heading">¶</a></h3>
+<p><a class="reference external" href="Telco_20180130.html">Telco 20180130</a></p>
+</section>
+<section id="aob">
+<h3>AOB<a class="headerlink" href="#aob" title="Link to this heading">¶</a></h3>
+<p>Mark may mean this: <a class="reference external" href="https://github.com/nexusformat/HDF5-External-Filter-Plugins">https://github.com/nexusformat/HDF5-External-Filter-Plugins</a>
+But if that doesn’t satisfy his needs, bring it up next time (or on the mailing list).</p>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Telco 20180116</a><ul>
+<li><a class="reference internal" href="#date">Date</a></li>
+<li><a class="reference internal" href="#agenda">Agenda</a></li>
+<li><a class="reference internal" href="#minutes">Minutes</a><ul>
+<li><a class="reference internal" href="#welcome">Welcome</a></li>
+<li><a class="reference internal" href="#nxdata">NXdata</a></li>
+<li><a class="reference internal" href="#milestones">Milestones</a></li>
+<li><a class="reference internal" href="#multiple-signals-esrf-proposal">multiple signals, ESRF proposal</a></li>
+<li><a class="reference internal" href="#github-issue-of-the-day">Github issue of the day</a></li>
+<li><a class="reference internal" href="#next-meeting">Next meeting</a></li>
+<li><a class="reference internal" href="#aob">AOB</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20180130.html" title="Telco 20180130"
+             >next</a></li>
+        <li class="right" >
+          <a href="Telco_20171128.html" title="Telco 20171128"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" >Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20180116</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

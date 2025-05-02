@@ -1,0 +1,60 @@
+---
+title: Telco 20240311
+permalink: Telco_20240311.html
+layout: wiki
+---
+Telco 20240311
+==============
+
+Date
+----
+
+Monday, 11th March, 15:00 UTC
+
+
+Connect
+-------
+* ZOOM VC link: [https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09](https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09)
+* Meeting ID: 652 7209 1306
+* Passcode: nexus
+
+Agenda
+------
+* NIAC meeting at ESRF
+* issues
+
+Present
+-------
+AB, 
+
+Minutes
+-------
+- NIAC 2024
+During the meeting, ensure people that are remote are notified that a vote is coming.  Need time for offline people to digest proposals before votes.  
+Use plenary vs working sessions, multiple of each per day
+- NeXus front page says next meeting is code camp 2023
+- Reviewed schema bugfixes in https://github.com/nexusformat/definitions/pull/1370
+  - PM: sidestep by setting up a different way of specifying examples (nxdl namespace for example).
+  - PJ: this is about how to provide examples of unit types in the nexus schema.  Each unit type needs an example to avoid confusionRevisit discussion of general 
+- NXtransformations
+  - AB: NXtransformations that are rotations are full basis transformations: rotation + the vector offsetHJB: non-problem, as transformation type can be omitted, for "general" basis definitions like gravity
+  - PM: is there an example with the current NXtransformations are insufficient?
+- PM: upcoming EU funding may be available from a broad project that includes photons/neutrons.
+  - There are open calls for 1-2 year projects, 1 FTE.  
+  - We could apply for some funding to update toolage.  
+  - Call in spring (opens this friday) and sept.
+  - AB: remember what the NIAC is: specs, docs/examples/validator.  Maybe validator help would be useful?
+  - MK: cnxvalidate could use an update?  Should we have a reimplementation in python?
+  - AB: Touch base with Ray for some NeXpy support?
+  - PM: will think and maybe bring a proposal back
+  - HB: include h5py if working on NeXpy
+  - PM: looking for a library that exposes base class as python types
+  - PJ: punx has this (AB to what extent?): https://github.com/prjemian/punx
+  - RB: has a nxstixm file validator: https://github.com/RussBerg/nxstxm_validator
+  - RB: has code for autogenerating NeXus files
+
+
+April Telco
+--------------
+
+Please help to [choose the date by responding to the poll]() by . We are planning to hold the telco in the regular slot of UTC 15:00. Check your local time to avoid scheduling surprises!

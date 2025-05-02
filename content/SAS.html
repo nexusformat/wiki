@@ -1,0 +1,322 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Small-Angle Scattering</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Scaled Data" href="Scaled_Data.html" />
+    <link rel="prev" title="ReflectDiscuss" href="ReflectDiscuss.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Scaled_Data.html" title="Scaled Data"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="ReflectDiscuss.html" title="ReflectDiscuss"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Small-Angle Scattering</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="small-angle-scattering">
+<h1>Small-Angle Scattering<a class="headerlink" href="#small-angle-scattering" title="Link to this heading">¶</a></h1>
+<section id="id1">
+<h2>2006-04-19<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h2>
+<p>Given the complex requirements for initial data treatment on pulsed
+source SANS instruments there has been general agreement to separate
+these from the much simpler pin-hole geometry cameras used for
+monochromatic X-ray and Neutron SAS studies, shown together below as
+NXmonosas.</p>
+</section>
+<section id="id2">
+<h2>2006-10-05<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h2>
+<p>Effort was made to simplify the definition below, correct errors (such
+as removed fields that did not exist in base classes), and remove
+unnecessary information.</p>
+<p>Suggest that this be called <em>NXsas_mono_area</em> (very cumbersome) since
+the fields are appropriate to SAS instruments with area detectors at
+monochromatics sources. The definition does not match well to other
+types of SAS instrument such as USAS, Kratky, step-scanning, or
+slit-camera with PSD.</p>
+</section>
+<section id="id3">
+<h2>2006-10-06<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h2>
+<p>A description of the wavelength and possibly a spectral description
+(either vague or detailed such as a spectral profile) is needed for
+analysis software to account for not only wavelength but wavelength
+smearing and other spectral effects (high-order harmonics, for example).
+Due to the variety of optics used to provide such a beam, rather than
+define each of those possible optics in the generic instrument
+definition, we define the spectral properties of the beam incident on
+the sample that results from all the upstream optics.</p>
+<p>Two possible ways:</p>
+<ul class="simple">
+<li><p>Object-oriented approach</p>
+<ul>
+<li><p>This needs a new base class since a generic SAS description will
+define wavelength using generic hardware; not everyone has
+helical velocity selector or a crystal monochromator. X-rays are
+admittedly the more tedious case.</p></li>
+<li><p>NXspectrum might be a good choice.</p></li>
+<li><p>NXwavelength_selector is more to the point.</p></li>
+<li><p>NXmonochromator is our choice. This will sit well next to
+NXbending_magnet, NXcrystal, NXinsertion_device, NXmirror,
+NXmoderator, and NXvelocity_selector.</p></li>
+</ul>
+</li>
+</ul>
+<!-- -->
+<ul class="simple">
+<li><p>NXbeam</p>
+<ul>
+<li><p>Imperfect becuase NXbeam was intended for the simulation
+community despite the note in the documentation about beamline
+use. The fields are not entirely appropriate and some questions
+will often arise.</p></li>
+</ul>
+</li>
+</ul>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="w">    </span><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</span>
+<span class="w">    </span><span class="cm">&lt;!--</span>
+<span class="cm">    URL: ?</span>
+<span class="cm">    Name:     NXsas_mono_area (candidate name)</span>
+<span class="cm">    Editor:   Ron Ghosh &lt;ron@ill.fr&gt;</span>
+<span class="cm">    Principal Contributors:  </span>
+<span class="cm">              Steve King &lt;s.m.king@rl.ac.uk&gt;, </span>
+<span class="cm">              Mark Koennecke &lt;Mark.Koennecke@psi.ch&gt;, </span>
+<span class="cm">              P.Jemian APS, </span>
+<span class="cm">              J.Suzuki-san JPARC, </span>
+<span class="cm">              A.Gotz ESRF </span>
+<span class="cm">                             </span>
+<span class="cm">    Valuable comments from </span>
+<span class="cm">              N. Maliszewskyj, </span>
+<span class="cm">              P Kienzle NIST, </span>
+<span class="cm">              N. Terrill DIAMOND</span>
+
+<span class="cm">    Version October 2006</span>
+<span class="cm">    --&gt;</span>
+<span class="w">    </span><span class="nt">&lt;NXroot&gt;</span>
+<span class="w">     </span><span class="nt">&lt;NXentry</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{Entry Name}&quot;</span><span class="nt">&gt;</span>
+<span class="w">      </span><span class="nt">&lt;NXinstrument</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{Name of instrument}&quot;</span><span class="nt">&gt;</span>
+<span class="w">       </span><span class="nt">&lt;name</span><span class="w"> </span><span class="na">short_name=</span><span class="s">&quot;{short name of instrument}&quot;</span><span class="nt">&gt;</span>{Name<span class="w"> </span>of<span class="w"> </span>instrument}?
+<span class="w">       </span><span class="nt">&lt;/name&gt;</span>
+<span class="w">       </span><span class="nt">&lt;NXsource</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{Name of facility}&quot;</span><span class="nt">&gt;</span>
+<span class="w">        </span><span class="nt">&lt;probe</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>&quot;neutron&quot;|&quot;x-ray&quot;<span class="nt">&lt;/probe&gt;</span>
+<span class="w">       </span><span class="nt">&lt;/NXsource&gt;</span>
+
+<span class="w">       </span><span class="nt">&lt;NXattenuator</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{Name of beam attenuator}&quot;</span><span class="nt">&gt;</span>
+<span class="w">        </span><span class="nt">&lt;attenuator_transmission</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="nt">&gt;</span>
+<span class="w">         </span>{The<span class="w"> </span>nominal<span class="w"> </span>fraction<span class="w"> </span>of<span class="w"> </span>the<span class="w"> </span>beam<span class="w"> </span>transmitted<span class="w"> </span>by<span class="w"> </span>the<span class="w"> </span>attenuator}
+<span class="w">        </span><span class="nt">&lt;/attenuator_transmission&gt;</span>
+<span class="w">       </span><span class="nt">&lt;/NXattenuator&gt;</span>
+
+<span class="w">       </span><span class="nt">&lt;NXaperture</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;Name of beamline aperture&quot;</span><span class="nt">&gt;</span>
+<span class="w">        </span><span class="nt">&lt;NXgeometry</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;geometry&quot;</span><span class="nt">&gt;</span>{location<span class="w"> </span>and<span class="w"> </span>shape<span class="w"> </span>of<span class="w"> </span>aperture}<span class="nt">&lt;/NXgeometry&gt;</span>
+<span class="w">       </span><span class="nt">&lt;/NXaperture&gt;</span>
+<span class="w">       </span><span class="nt">&lt;NXcollimator</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;Name of beam collimator&quot;</span><span class="nt">&gt;</span>
+<span class="w">        </span><span class="nt">&lt;NXgeometry</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;geometry&quot;</span><span class="nt">&gt;</span>{location<span class="w"> </span>and<span class="w"> </span>shape<span class="w"> </span>of<span class="w"> </span>collimator}<span class="nt">&lt;/NXgeometry&gt;</span>
+<span class="w">       </span><span class="nt">&lt;/NXcollimator&gt;</span>
+
+<span class="w">      </span><span class="cm">&lt;!-- </span>
+<span class="cm">        A description of the wavelength and possibly a spectral description</span>
+<span class="cm">        (either vague or detailed such as a spectral profile) is needed for </span>
+<span class="cm">        analysis software to account for not only wavelength but wavelength </span>
+<span class="cm">        smearing and other spectral effects (high-order harmonics, for example).</span>
+<span class="cm">        Due to the variety of optics used to provide a generic beam, define </span>
+<span class="cm">        the spectral properties of the beam incident on the sample</span>
+<span class="cm">        that results from all the upstream optics.</span>
+<span class="cm">      --&gt;</span>
+<span class="w">         </span>
+<span class="w">       </span><span class="nt">&lt;NXmonochromator</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;Beam_at_sample&quot;</span><span class="nt">&gt;</span><span class="w"> </span>{characteristics<span class="w"> </span>of<span class="w"> </span>beam<span class="w"> </span>at<span class="w"> </span>sample}
+<span class="w">         </span><span class="nt">&lt;wavelength</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;angstrom&quot;</span><span class="nt">&gt;</span>{selected<span class="w"> </span>wavelength}<span class="nt">&lt;/wavelength&gt;</span>
+<span class="w">         </span><span class="nt">&lt;wavelength_fwhm</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;angstrom&quot;</span><span class="nt">&gt;</span>
+<span class="w">           </span>{wavelength<span class="w"> </span>distribution<span class="w"> </span>full<span class="w"> </span>width<span class="w"> </span>at<span class="w"> </span>half<span class="w"> </span>maximum}?
+<span class="w">         </span><span class="nt">&lt;/wavelength_fwhm&gt;</span>
+<span class="w">         </span><span class="nt">&lt;NXdata</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;wavelength_distribution&quot;</span><span class="nt">&gt;</span>?<span class="nt">&lt;/NXdata&gt;</span>
+<span class="w">       </span><span class="nt">&lt;/NXmonochromator&gt;</span>
+
+<span class="w">       </span><span class="nt">&lt;NXdetector</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{Name(s) of detector(s)}&quot;</span><span class="nt">&gt;</span>
+<span class="w">        </span><span class="nt">&lt;data</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[i,j,...]|NX_INT[i,j,...]&quot;</span><span class="w"> </span><span class="na">signal=</span><span class="s">&quot;1&quot;</span><span class="nt">&gt;</span>
+<span class="w">          </span>{Data<span class="w"> </span>values}?
+<span class="w">        </span><span class="nt">&lt;/data&gt;</span>
+<span class="w">        </span><span class="nt">&lt;distance</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;mm&quot;</span><span class="nt">&gt;</span>
+<span class="w">          </span>{distance<span class="w"> </span>between<span class="w"> </span>sample<span class="w"> </span>and<span class="w"> </span>detector}
+<span class="w">        </span><span class="nt">&lt;/distance&gt;</span>
+<span class="w">        </span><span class="nt">&lt;x_offset</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[k+1]&quot;</span><span class="w"> </span><span class="na">axis=</span><span class="s">&quot;1&quot;</span><span class="nt">&gt;</span>
+<span class="w">          </span>{X-direction<span class="w"> </span>pixel<span class="w"> </span>coordinate<span class="w"> </span>on<span class="w"> </span>the<span class="w"> </span>detector<span class="w"> </span>with<span class="w"> </span>origin<span class="w"> </span>at<span class="w"> </span>detector<span class="w"> </span>center}?
+<span class="w">        </span><span class="nt">&lt;/x_offset&gt;</span>
+<span class="w">        </span><span class="nt">&lt;y_offset</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[l+1]&quot;</span><span class="w"> </span><span class="na">axis=</span><span class="s">&quot;2&quot;</span><span class="nt">&gt;</span>
+<span class="w">          </span>{Y-direction<span class="w"> </span>pixel<span class="w"> </span>coordinate<span class="w"> </span>on<span class="w"> </span>the<span class="w"> </span>detector<span class="w"> </span>with<span class="w"> </span>origin<span class="w"> </span>at<span class="w"> </span>detector<span class="w"> </span>center}?
+<span class="w">        </span><span class="nt">&lt;/y_offset&gt;</span>
+<span class="w">        </span><span class="nt">&lt;quiet_count</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[i,j,...]|NX_INT[i,j,...]&quot;</span><span class="nt">&gt;</span>
+<span class="w">          </span>{signal<span class="w"> </span>from<span class="w"> </span>detector<span class="w"> </span>when<span class="w"> </span>not<span class="w"> </span>illuminated}?
+<span class="w">          </span><span class="cm">&lt;!-- This field needs to be added to NXdetector --&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/quiet_count&gt;</span>
+<span class="w">        </span><span class="nt">&lt;NXgeometry</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;beam_center&quot;</span><span class="nt">&gt;</span>
+<span class="w">          </span>{x,y<span class="w"> </span>position<span class="w"> </span>of<span class="w"> </span>straight-through<span class="w"> </span>beam<span class="w"> </span>(a.k.a.<span class="w"> </span>beam<span class="w"> </span>center)<span class="w"> </span>on<span class="w"> </span>the<span class="w"> </span>detector}?
+<span class="w">        </span><span class="nt">&lt;/NXgeometry&gt;</span>
+<span class="w">       </span><span class="nt">&lt;/NXdetector&gt;</span>
+<span class="w">        </span><span class="nt">&lt;NXbeam_stop</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;Name of beam stop&quot;</span><span class="nt">&gt;</span>
+<span class="w">         </span><span class="nt">&lt;NXgeometry</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;geometry&quot;</span><span class="nt">&gt;</span>{shape,<span class="w"> </span>orientation<span class="w"> </span>and<span class="w"> </span>position<span class="w"> </span>of<span class="w"> </span>the<span class="w"> </span>beam<span class="w"> </span>stop}
+<span class="w">         </span><span class="nt">&lt;/NXgeometry&gt;</span>
+<span class="w">          </span><span class="nt">&lt;status</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>{&quot;in&quot;|&quot;out&quot;}<span class="nt">&lt;/status&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/NXbeam_stop&gt;</span>
+<span class="w">      </span><span class="nt">&lt;/NXinstrument&gt;</span>
+
+<span class="w">      </span><span class="nt">&lt;NXmonitor</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;control {Name of the monitor}&quot;</span><span class="nt">&gt;</span>
+<span class="w">        </span><span class="nt">&lt;mode</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_CHAR&quot;</span><span class="nt">&gt;</span>
+<span class="w">          </span>&quot;monitor&quot;|&quot;timer&quot;?
+<span class="w">        </span><span class="nt">&lt;/mode&gt;</span>
+<span class="w">        </span><span class="nt">&lt;preset</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="nt">&gt;</span>{preset<span class="w"> </span>for<span class="w"> </span>terminating<span class="w"> </span>measurement}<span class="nt">&lt;/preset&gt;</span>
+<span class="w">        </span><span class="nt">&lt;data</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_INT[i]|NX_FLOAT[i]&quot;</span><span class="nt">&gt;</span>
+<span class="w">          </span>{Monitor<span class="w"> </span>value}
+<span class="w">        </span><span class="nt">&lt;/data&gt;</span>
+<span class="w">        </span><span class="nt">&lt;quiet_count</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[i,j,...]|NX_INT[i,j,...]&quot;</span><span class="nt">&gt;</span>
+<span class="w">          </span>{signal<span class="w"> </span>from<span class="w"> </span>monitor<span class="w"> </span>when<span class="w"> </span>not<span class="w"> </span>illuminated}?
+<span class="w">          </span><span class="cm">&lt;!-- This field needs to be added to NXmonitor --&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/quiet_count&gt;</span>
+<span class="w">        </span><span class="nt">&lt;count_time</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;second&quot;</span><span class="nt">&gt;</span>
+<span class="w">           </span>{Elapsed<span class="w"> </span>actual<span class="w"> </span>counting<span class="w"> </span>time,<span class="w"> </span>the<span class="w"> </span>time<span class="w"> </span>the<span class="w"> </span>instrument<span class="w"> </span>
+<span class="w">           </span>was<span class="w"> </span>really<span class="w"> </span>counting,<span class="w"> </span>without<span class="w"> </span>pauses<span class="w"> </span>or<span class="w"> </span>times<span class="w"> </span>lost<span class="w"> </span>due<span class="w"> </span>
+<span class="w">           </span>beam<span class="w"> </span>unavailability}
+<span class="w">        </span><span class="nt">&lt;/count_time&gt;</span>
+<span class="w">      </span><span class="nt">&lt;/NXmonitor&gt;</span>
+
+<span class="w">      </span><span class="nt">&lt;NXsample</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{Name of sample}&quot;</span><span class="nt">&gt;&lt;/NXsample&gt;</span>
+
+<span class="w">      </span><span class="nt">&lt;NXdata</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;Datablock name&quot;</span><span class="nt">&gt;</span>+
+<span class="w">       </span><span class="nt">&lt;data</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_INT[...] | NX_FLOAT[...]&quot;</span><span class="w"> </span><span class="na">signal=</span><span class="s">&quot;1&quot;</span><span class="nt">&gt;</span>
+<span class="w">         </span>{link<span class="w"> </span>to<span class="w"> </span>detector<span class="w"> </span>counts<span class="w"> </span>in<span class="w"> </span>NXdetector}
+<span class="w">       </span><span class="nt">&lt;/data&gt;</span>
+<span class="w">        </span><span class="nt">&lt;x_offset</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[k+1]&quot;</span><span class="nt">&gt;</span>
+<span class="w">          </span>{link<span class="w"> </span>to<span class="w"> </span>x_offset<span class="w"> </span>in<span class="w"> </span>detector<span class="w"> </span>group}
+<span class="w">        </span><span class="nt">&lt;/x_offset&gt;</span>
+<span class="w">        </span><span class="nt">&lt;y_offset</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[l+1]&quot;</span><span class="nt">&gt;</span>
+<span class="w">          </span>{link<span class="w"> </span>to<span class="w"> </span>y_offset<span class="w"> </span>in<span class="w"> </span>detector<span class="w"> </span>group}
+<span class="w">        </span><span class="nt">&lt;/y_offset&gt;</span>
+<span class="w">      </span><span class="nt">&lt;/NXdata&gt;</span>
+<span class="w">     </span><span class="nt">&lt;/NXentry&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/NXroot&gt;</span>
+</pre></div>
+</div>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Small-Angle Scattering</a><ul>
+<li><a class="reference internal" href="#id1">2006-04-19</a></li>
+<li><a class="reference internal" href="#id2">2006-10-05</a></li>
+<li><a class="reference internal" href="#id3">2006-10-06</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Scaled_Data.html" title="Scaled Data"
+             >next</a></li>
+        <li class="right" >
+          <a href="ReflectDiscuss.html" title="ReflectDiscuss"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Small-Angle Scattering</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

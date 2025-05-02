@@ -1,0 +1,308 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>NIAC2014 CodeCamp</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="NeXus Code Camp - January 2020" href="CodeCamp2020.html" />
+    <link rel="prev" title="NIAC2011 CodeCamp" href="NIAC2011_CodeCamp.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="CodeCamp2020.html" title="NeXus Code Camp - January 2020"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="NIAC2011_CodeCamp.html" title="NIAC2011 CodeCamp"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Codecamps.html" accesskey="U">Code Camps</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NIAC2014 CodeCamp</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="niac2014-codecamp">
+<h1>NIAC2014 CodeCamp<a class="headerlink" href="#niac2014-codecamp" title="Link to this heading">¶</a></h1>
+<p>The code camp allows existing NeXus developers to meet and work together
+on developing software or resolving particular NeXus design issues.</p>
+<p>See <a class="reference external" href="NIAC2014.html" title="wikilink">NIAC2014</a> for administrative details about
+this meeting.</p>
+<section id="planned-schedule-subject-to-change">
+<h2>Planned Schedule (subject to change)<a class="headerlink" href="#planned-schedule-subject-to-change" title="Link to this heading">¶</a></h2>
+<p><img alt="2014-CodeCamp-Schedule-MTW.png" src="../_images/2014-CodeCamp-Schedule-MTW.png" /></p>
+</section>
+<section id="topics-to-be-considered">
+<h2>Topics to be Considered<a class="headerlink" href="#topics-to-be-considered" title="Link to this heading">¶</a></h2>
+<p>A subset will be chosen on the first day of the meeting.</p>
+<p>Walk through</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/nexusformat/definitions/issues">Issues</a> posted
+on the <a class="reference external" href="https://github.com/nexusformat">NeXus GitHub</a> repository</p></li>
+<li><p>Proposals and other topics listed on the
+[Discussions] (Discussions.html “wikilink”) page</p></li>
+<li><p>Close issues that are of minor importance and not of particular
+concern to anybody and not likely to be resolved any soon.</p></li>
+</ul>
+<p>Choose topics from the preliminary list below:</p>
+<ul class="simple">
+<li><p>Procedural questions:</p>
+<ul>
+<li><p>How to organize proposals and discussions</p></li>
+<li><p>How to remove ballast, when to break compatibility, versioning
+and validation</p></li>
+</ul>
+</li>
+<li><p>Fundamental design issues:</p>
+<ul>
+<li><p>Clarify rank specification</p>
+<ul>
+<li><p>related to
+<a class="reference external" href="https://github.com/nexusformat/definitions/issues/266">#266</a>:
+implement difference in rules between base classes and
+application definitions</p></li>
+</ul>
+</li>
+<li><p>Discuss <a class="reference external" href="Objects_or_Interfaces.html" title="wikilink">NeXus interfaces</a></p></li>
+<li><p><a class="reference external" href="How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard.html" title="wikilink">How to avoid name clashes during future extensions of the Nexus
+standard</a></p></li>
+<li><p>Optional contents in application definitions?</p></li>
+<li><p>Discuss lightweight tags versus application definitions</p></li>
+<li><p>Rules for multi file NeXus files</p></li>
+</ul>
+</li>
+<li><p>Class specifications:</p>
+<ul>
+<li><p>NXformula?</p></li>
+<li><p>NXdata: Assigning axes to data once more again</p></li>
+<li><p>Prepare contributed definitions for ratification</p></li>
+</ul>
+</li>
+<li><p>Work on software:</p>
+<ul>
+<li><p>validation tools (nxvalidate or NXvalidate): state (cf
+<a class="reference external" href="https://github.com/nexusformat/definitions/issues/169">#169/defs</a>,
+<a class="reference external" href="https://github.com/nexusformat/definitions/issues/251">#251/defs</a>,
+<a class="reference external" href="https://github.com/nexusformat/definitions/issues/300">#300/defs</a>,
+<a class="reference external" href="https://github.com/nexusformat/code/issues/363">#363/code</a>),
+further development, WWW service, use of NeXpy/Python-API for
+validation</p></li>
+<li><p>New NAPI release?</p></li>
+<li><p><a class="reference external" href="https://github.com/nexusformat/definitions/issues/230">#230</a>:
+use cmake to build Sphinx documentation</p></li>
+</ul>
+</li>
+<li><p>Finish support for attribute arrays (who proposed this? please
+provide details!)</p></li>
+<li><p>Off-site excursion to -tba-</p></li>
+</ul>
+</section>
+<section id="agenda">
+<h2>Agenda<a class="headerlink" href="#agenda" title="Link to this heading">¶</a></h2>
+<table>
+<thead>
+<tr class="header">
+<th><p> </p></th>
+<th><p>*Monday*</p></th>
+<th><p>*Tuesday*</p></th>
+<th><ul>
+<li>Wednesday*</li>
+</ul></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>9:00-10:00</p></td>
+<td><p>Review</p></td>
+<td><p>Short procedural</p></td>
+<td><p>NAPI issues</p></td>
+</tr>
+<tr class="even">
+<td><p>10:00-10:30</p></td>
+<td><p>Coffee</p></td>
+<td><p>Coffee</p></td>
+<td><p>Coffee</p></td>
+</tr>
+<tr class="odd">
+<td><p>10:30-12:00</p></td>
+<td><p>Cansas<br />
+Axes<br />
+Error</p></td>
+<td><p>Telco with DECTRIS</p></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><p>12:00-13:00</p></td>
+<td><p>Lunch</p></td>
+<td><p>Lunch</p></td>
+<td><p>Lunch</p></td>
+</tr>
+<tr class="odd">
+<td><p>13:00-15:00</p></td>
+<td><p>DECTRIS,<br />
+NXmx etc</p></td>
+<td><p>nexpy</p></td>
+<td><p>HDF-5 talk</p></td>
+</tr>
+<tr class="even">
+<td><p>15-15:30</p></td>
+<td><p>Coffee</p></td>
+<td><p>Coffee</p></td>
+<td><p>Coffee</p></td>
+</tr>
+<tr class="odd">
+<td><p>15:30-18:00</p></td>
+<td><p>MXmx,<br />
+when time smaller issues</p></td>
+<td><p>Reprioritise for last day<br />
+Lightweight tags and interfaces</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<section id="tuesday">
+<h3>Tuesday<a class="headerlink" href="#tuesday" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>teleconference with Dectris: 10:30 AM</p></li>
+</ul>
+<section id="for-end-of-day-review">
+<h4>for end of day review<a class="headerlink" href="#for-end-of-day-review" title="Link to this heading">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="http://wiki.nexusformat.org/2014_axes_and_uncertainties#Proposal_to_describe_multi-dimensional_data_.28Axes.29">axes</a></p></li>
+<li><p><a class="reference external" href="http://wiki.nexusformat.org/2014_axes_and_uncertainties#Uncertainties">uncertainties</a></p></li>
+</ul>
+</section>
+</section>
+<section id="wednesday">
+<h3>Wednesday<a class="headerlink" href="#wednesday" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>public talk: <em>Current State of HDF5</em>, Elena Pourmal, The HDF Group,
+location: 401/A1100</p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">NIAC2014 CodeCamp</a><ul>
+<li><a class="reference internal" href="#planned-schedule-subject-to-change">Planned Schedule (subject to change)</a></li>
+<li><a class="reference internal" href="#topics-to-be-considered">Topics to be Considered</a></li>
+<li><a class="reference internal" href="#agenda">Agenda</a><ul>
+<li><a class="reference internal" href="#tuesday">Tuesday</a><ul>
+<li><a class="reference internal" href="#for-end-of-day-review">for end of day review</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#wednesday">Wednesday</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="CodeCamp2020.html" title="NeXus Code Camp - January 2020"
+             >next</a></li>
+        <li class="right" >
+          <a href="NIAC2011_CodeCamp.html" title="NIAC2011 CodeCamp"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Codecamps.html" >Code Camps</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NIAC2014 CodeCamp</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>
