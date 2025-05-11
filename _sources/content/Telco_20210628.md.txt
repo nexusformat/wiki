@@ -1,0 +1,51 @@
+---
+title: Telco 20210628
+permalink: Telco_20210628.html
+layout: wiki
+---
+Telco 20210628
+==============
+
+Date
+----
+
+Monday, 28th June, 13:00 UTC
+
+<!-- end of autogeneration -->
+
+Connect
+-------
+* ZOOM VC link: [https://psich.zoom.us/j/62714818737?pwd=V3FJZHVWUWN1TU1IYkU3Z3Y5dlZuQT09](https://psich.zoom.us/j/62714818737?pwd=V3FJZHVWUWN1TU1IYkU3Z3Y5dlZuQT09)
+* Meeting ID:   627 1481 8737
+* Password:     314159265
+* Dial in number details: [https://psich.zoom.us/u/cdW7YV91uK](https://psich.zoom.us/u/cdW7YV91uK)
+
+
+Agenda
+------
+   * Welcome new members
+   * Review previous meeting minutes and actions: [May Telco](Telco_20210505.html)
+   * The NeXus ontology and scripts are now on [github](https://github.com/nexusformat/NeXusOntology)
+   * The [European HDF5 users online meeting](https://www.hdfgroup.org/hug/europeanhug21/) will be held on July 7-8.
+   * Issues on Github labelled with "telco"
+     * [definitions](https://github.com/nexusformat/definitions/issues?q=is%3Aopen+is%3Aissue+label%3Atelco)
+     * [code](https://github.com/nexusformat/code/issues?q=is%3Aopen+is%3Aissue+label%3Atelco)
+
+Present: BW, MK, FA, HG, PC, LS, PJ, RB, WG, AB
+
+Minutes
+-------
+
+At last TC, PC raised the issue with the assumption that beam lies on the Z-axis was problematic and suggested adapting NXbeam to allow description of other geometries. He has not been able to look at this further since then, but will try to. It was suggested that we might want to allow using survey points, but these may be better known to the survey team than the scientists.  
+
+The script to generate the [NeXus ontology](https://github.com/nexusformat/NeXusOntology) is now on Github. A vote of the NIAC is required for use of a   http://purl.org/nexusformat/definitions namespace as the [PURL](https://en.wikipedia.org/wiki/Persistent_uniform_resource_locator) and with summer approaching it looked unlikely to get the necessary discussion quorum as per constitiuion so this is likely to happen september. The external python modules requried to run the script are listed in comments in the script, but it was suggested a `requirements.txt` (or similar) file would be helpful. Currently the scipt version is encoded in the script name, this may make it harder to package/update later. PC offered to do a code review. 
+
+The [European HDF users group summer 2021 meeting](https://www.hdfgroup.org/hug/europeanhug21/) is taking place afternoons of 7-8 July, unfortunately this clashes with the EPICS collaboration meeting. PC and LS indicated they may attend, BW thought it would be useful if there was a NeXus presentation at the meeting and may be able to do this if nobody else was available. AB is unable to attend the meeting due to a clash, but has some HDF5 data rate issues that he would be grateful if somebody could raise, they happen when writing 900000 frames in 5 minutes. There was some discussion about whether the use of subfiles could be avoided, maybe parallel HDF5 would help. WG, PC and AB were going to discuss further. PJ mentioned that people working at US national labs must request authorisation to attend conferences 45 days in advance - even if they are online meetings.
+
+AB mentioned a collaborator who wished to add the definition git commit id as an attribute to his data files. The committe was happy for a proposal to be submitted to extend the definitions, but the person concerned is free to add the value now if they follow [data/prefix rules](https://manual.nexusformat.org/datarules.html#index-4)
+
+A [recent submitted issue](https://github.com/nexusformat/definitions/issues/933) asked about scanning with `NXfluo`. It looks like the definition needs generalising to allow the additional scan `npts` dimension. This probably applies to other definitions too and may be a future code camp topic. In addition, we should document any implied rules that we might have e.g. can always scan an axis with an implied `npts`.
+
+PJ raised the question of whether counts should have a NeXus unit, or just be dimensionless. After discussion and reviewing of https://github.com/nexusformat/definitions/blob/main/nxdlTypes.xsd and https://github.com/nexusformat/definitions/blob/main/nxdlTypes.xsd#L50 it was suggested that `NX_PULSES` fulfills a similar role and maybe deprecating that for a new NX_COUNT is the way to go. PJ suggested that we consider examining a unit-conversion program (such as [pynt](https://github.com/rags/pynt)) to see how others in the scientific community address corner cases like "counts".
+
+Next meeting end of July

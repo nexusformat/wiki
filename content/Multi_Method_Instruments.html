@@ -1,0 +1,247 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Multi Method Instruments</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Muon Time Differential" href="Muon_Time_Differential.html" />
+    <link rel="prev" title="MonoX Single" href="MonoXSingle.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Muon_Time_Differential.html" title="Muon Time Differential"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="MonoXSingle.html" title="MonoX Single"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Multi Method Instruments</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="multi-method-instruments">
+<h1>Multi Method Instruments<a class="headerlink" href="#multi-method-instruments" title="Link to this heading">¶</a></h1>
+<section id="id1">
+<h2>Multi Method Instruments<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h2>
+<p>This suggestion is one of the outcomes of the NeXus for Synchrotrons
+Workshop at PSI: <a class="reference external" href="http://lns00.psi.ch/nexus2010">http://lns00.psi.ch/nexus2010</a></p>
+<section id="the-suggestion">
+<h3>The Suggestion<a class="headerlink" href="#the-suggestion" title="Link to this heading">¶</a></h3>
+<p>Add to NXentry a new class named NXsubentry which has the same structure
+as NXentry. Each NXsubentry is to hold the data or links thereto of a
+single application definition in a multi method instrument.</p>
+</section>
+<section id="the-reasoning">
+<h3>The Reasoning<a class="headerlink" href="#the-reasoning" title="Link to this heading">¶</a></h3>
+<p>Synchrotron beamlines often utilise several different detectors and
+detector types in order to combine multiple techniques in simultaneous
+measurements. NeXus currently asks for separate NXentry groups to be
+written for each technique. This is good if one measurement is written
+to a file. However, there is a second requirement that multiple scans,
+multiple measurements, possibly a whole log of an experimental session
+is written to one NeXus file. Then having different techniques in
+different NXentries will make the files difficult to understand as the
+relationship between different measurements is lost. Thus, in order to
+keep the data from these multiple techniques together, it is desirable
+to have the ability to write it all into a single NXentry in a NeXus.
+The current NeXus application definitions refer to the same names and
+paths and so there are many name collisions when trying to satisfy two
+application definitions in one NXentry in a file. The ability to combine
+application definitions could be enabled by modifying the application
+definitions to refer to new and separate groups inside the main NXentry
+of the NeXus file that refer to the particular application/technique
+name and which contains all of the data (or links to it) that is
+relevant to that application/technique. For an example experiment that
+involves a combination of SAS and Fluorescence, the proposed NeXus
+structure could look like:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>entry:NXentry/
+  definition = &quot;NXSas, NXFluo&quot;
+  user:NXuser/
+  sample:NXsamle/
+  instrument:NXinstument/
+    SASdet:NXdetector/
+    fancyname:NXdetector/
+    fancyname2:NXdetector/
+    ...
+  SAS:NXsubentry/
+    definition = &quot;NXSas&quot;
+    instrument:NXinstrument/
+      detector:link to SASdet
+    data:NXdata/
+  Fluo:NXsubentry/
+    definition = &quot;NXFluo&quot;
+    instrument:NXinstrument/
+      detector:link to fancyname
+      detector2:link to fancyname2
+    data:NXdata/
+</pre></div>
+</div>
+<p>In the above NeXus tree, the entire beamline state could be stored in
+entry/instrument and then any subset of this that is relevant to the SAS
+or Fluorescence techniques would then be linked within the
+entry/SAS/instrument and the entry/Fluo/instrument groups as defined by
+the current application definitions with a minor change in the
+heirarchy. The advantages of this approach are:</p>
+<ul class="simple">
+<li><p>Only minor changes from current practice.</p></li>
+<li><p>The only name collisions to worry about are the names of the
+applications/techniques themselves.</p></li>
+<li><p>Application definitions need not be concerned with the names and
+paths that other application definitions proscribe.</p></li>
+<li><p>The paths for each application remains well defined and an analysis
+program for either technique can find the relevant data without
+having to understand the other techniques present in the file.
+Further, the same analysis programs can read the multi-technique
+files in the same way (i.e. with the same code) exactly the same as
+they read single-technique files.</p></li>
+<li><p>A user inspecting the data manually can find all the relevant
+information for a particular analysis in the one group and so
+doesn’t need to understand the entire beamline.</p></li>
+</ul>
+<p>One drawback of this approach is that the beamline staff would have to
+define many links when configuring the data acquisition software.
+However, this is necessary work regardless of how the data is saved
+since the user must be informed of how the different instrument
+components and detectors relate to the various analyses anyway. In fact,
+NeXus and the above proposal simplifies this task by clearly documenting
+in a formal manner where the relevant information can be read.</p>
+<p>Some examples of beamlines that would benefit from this proposal
+include:</p>
+<ul class="simple">
+<li><p>Fluorescence + Absorption + Diffraction (Beamline L, Doris, Beamline
+P06, PETRA III).</p></li>
+<li><p>PX + fluorescence: In PX often a fluorescence-signal is recorded,
+especially for SAD-/MAD-measurements (PETRA beamlines P11 P13 P14).</p></li>
+<li><p>SAXS+fluorescence: fluorescence is often used as a second signal in
+SAXS (PETRA P03).</p></li>
+<li><p>SAXS + ellipsometry: Beamline BW4, DORIS</p></li>
+</ul>
+<p>Summarizing this discussion, the suggestion is to allow NXentry or
+possibly new NXsubentry groups underneath NXentry. Each of which can
+adhere to a different application definition. All participants agreed
+that a good means of handling multi technique instruments in NeXus is
+essential for the adoption of NeXus at synchrotron facilities. This is a
+MUST HAVE!</p>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Multi Method Instruments</a><ul>
+<li><a class="reference internal" href="#id1">Multi Method Instruments</a><ul>
+<li><a class="reference internal" href="#the-suggestion">The Suggestion</a></li>
+<li><a class="reference internal" href="#the-reasoning">The Reasoning</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Muon_Time_Differential.html" title="Muon Time Differential"
+             >next</a></li>
+        <li class="right" >
+          <a href="MonoXSingle.html" title="MonoX Single"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Multi Method Instruments</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,258 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>NIACClasses</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="NIACDesign" href="NIACDesign.html" />
+    <link rel="prev" title="NIACAPI" href="NIACAPI.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NIACDesign.html" title="NIACDesign"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="NIACAPI.html" title="NIACAPI"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NIACClasses</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="niacclasses">
+<h1>NIACClasses<a class="headerlink" href="#niacclasses" title="Link to this heading">¶</a></h1>
+<section id="niac-decisions-on-nexus-classes">
+<h2>NIAC Decisions on NeXus Classes<a class="headerlink" href="#niac-decisions-on-nexus-classes" title="Link to this heading">¶</a></h2>
+<p>This section records NIAC decisions on NeXus base classes and
+application definitions.</p>
+<p>NIAC 2003: Instrument definitions and base classes will be fully self
+describing</p>
+<p>NIAC 2003: Instrument definitions and base classes to go into CVS</p>
+<p>NIAC 2003: analysis item in NXentry to be replaced with definition</p>
+<p>NIAC 2003: NXroot will be defined as</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;NXroot file_name=&quot;{File name of original NeXus file}&quot;
+     file_time=&quot;{Date and time of file creation}&quot;
+     file_update_time=&quot;{Date and time of last file change at close}&quot;
+     NeXus_version=&quot;{Version of NeXus API used in writing the file}&quot;
+     HDF_version=&quot;?&quot;
+     HDF5_version=&quot;?&quot;
+     creator=&quot;{facility or program where file originated}?&quot;&gt;
+     &lt;NXentry name=&quot;{entry name}&quot;&gt;+&lt;/NXentry&gt;
+&lt;/NXroot&gt;
+</pre></div>
+</div>
+<p>NIAC 2003: base classes and instrument definitions will not define bit
+length for primitives. This means that NX_UINT, NX_INT or NX_FLOAT
+are all that are allowed for numerical items.</p>
+<p>NIAC 2003: The template for NXentry is</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;NXentry name=&quot;{Entry Name}&quot;&gt;
+     &lt;title&gt;{Extended title for entry}&lt;/title&gt;
+     &lt;definition version=&quot;{DTD version number}&quot; URL=&quot;{URL of DTD file}&quot;&gt;{Name of entry DTD}&lt;/definition&gt;
+      &lt;start_time type=&quot;ISO8601&quot;&gt;{Starting time of measurement}&lt;/start_time&gt;
+     &lt;end_time type=&quot;ISO8601&quot;&gt;{Ending time of measurement}&lt;/end_time&gt;
+     &lt;duration type=&quot;NX_INT&quot; units=&quot;seconds&quot;&gt;{Duration of measurement}&lt;/duration&gt;
+     &lt;experiment_identifier
+        type=&quot;NX_CHAR[]&quot;&gt;{}&lt;/experiment_identifier&gt;
+     &lt;run_number type=&quot;NX_INT&quot;&gt;{Number of run or scan stored in this entry}&lt;/run_number&gt;
+     &lt;run_cycle type=&quot;NX_CHAR[]&quot;&gt;{}&lt;/run_cycle&gt;
+     &lt;program_name version=&quot;{Program version number}&quot;&gt;{Name of program used to generate this file}&lt;/program_name&gt;
+     &lt;command_line&gt;{Name of command line used to generate this file}&lt;/command_line&gt;
+     &lt;notes&gt;{Notes describing entry}&lt;/notes&gt;
+     &lt;NXuser name=&quot;{user}&quot;&gt;&lt;/NXuser&gt;
+     &lt;NXsample name=&quot;{sample}&quot;&gt;&lt;/NXsample&gt;
+     &lt;NXinstrument name=&quot;{Name of instrument}&quot;&gt;&lt;/NXinstrument&gt;
+     &lt;NXmonitor name=&quot;{Name of monitor}&quot;&gt;&lt;/NXmonitor&gt;
+     &lt;NXdata name=&quot;{Name of data block}&quot;&gt;&lt;/NXdata&gt;
+&lt;/NXentry&gt;
+</pre></div>
+</div>
+<p>NIAC 2003: NXinstrument template consists of at least the following
+groups</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;NXinstrument&gt; 
+     &lt;name short_name=”{abbreviated name of instrument}”&gt;{name of instrument}&lt;/name&gt; 
+     &lt;NXsource/&gt; 
+      &lt;NXcrystal/&gt; 
+      &lt;NXdisk_chopper/&gt;
+      &lt;NXfermi_chopper/&gt;
+       &lt;NXvelocity_selector/&gt; 
+       &lt;NXguide/&gt; 
+       &lt;NXcollimator/&gt;
+       &lt;NXaperture/&gt;
+       &lt;NXfilter/&gt;
+       &lt;NXattenuator/&gt;
+       &lt;NXpolarizer/&gt;
+        &lt;NXflipper/&gt;
+        &lt;NXmirror/&gt;
+        &lt;NXdetector/&gt; 
+        &lt;NXbeam_stop/&gt; 
+&lt;/NXinstrument&gt;
+</pre></div>
+</div>
+<p>NIAC 2003: Each NXlog will contain information for one variable The
+definition of a NXlog is</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;NXlog name=”{identifier for the log}”&gt; 
+        &lt;description&gt;{longer description of what is logged}&lt;/description&gt;
+        &lt;time start=”{written in ISO8601}” units=””  type=”NX_FLOAT”&gt;{time axis for logged quantity}
+        &lt;/time&gt; 
+       &lt;value units=”{units of logged value}”  type=”NX_FLOAT|NX_INT”&gt;{array of logged value, such as temperature}&lt;/value&gt; 
+       &lt;raw_value units=”{units of raw values}”
+            type=”NX_FLOAT|NX_INT”&gt;{array of raw information, such as voltage on a thermocouple}?&lt;/raw_value&gt; 
+&lt;/NXlog&gt;
+</pre></div>
+</div>
+<p>NIAC 2004: NXcharacterisations is removed from NXentry</p>
+<p>NIAC 2004: End-of-line in NXnote is cr</p>
+<p>NIAC 2005: describe links as NAPIlink in metaDTD</p>
+<p>NIAC 2005: Allow ? and * in definitions to denote groups and fields
+that are desirable but not necessary.</p>
+<p>NIAC 2006: TOF Raw definition ratified</p>
+<p>NIAC 2006: Add synchrotron changes to NXsource</p>
+<p>NIAC 2006: Add NXinsertion_device</p>
+<p>NIAC 2006: Add NXbending_magnet</p>
+<p>NIAC 2007: NXmonopowder ratified</p>
+<p>NIAC 2007: NXpositioner ratified</p>
+<p>NIAC 2007: NXmonitor ratified</p>
+<p>NIAC 2007: All classes ratified will be NeXus 2.0.</p>
+<p>NIAC 2007HMI: ratified NXcone definition (check where this one is)</p>
+<p>NIAC 2007HMI: replace run_number with entry_identifier in NXentry</p>
+<p>NIAC 2007HMI: ratified NXarchive</p>
+<p>NIAC 2007HMI: ratified NXdetector extensions for CCD cameras: 1. extend
+type to include: ccd,pixel,image_plate, cmos 2. add field data_file 3.
+add field flood 4. add field flood_file 5. add field dark 6. add file
+dark_file 7. add field spatial_distortion 8. add field
+spatial_distortion_file</p>
+<p>NIAC 2010: NXcollection ratified</p>
+<p>NIAC 2010: tags scalar, image for datasets</p>
+<p>NIAC 2010: muon application definition ratified with some changes</p>
+<p>NIAC 2012: NXcharacterisation deprecated</p>
+<p>NIAC 2012: add some DECTRICS required fields to NXdetector</p>
+<p>NIAC 2014: NXmx, NXtransformations and variants ratified</p>
+<p>NIAC 2014: Ratified NXarpes, NXCite with addition of URL,
+NXfresnel_zone_plate</p>
+<p>NIAC 2014: Add a default attribute at root and NXentry level to help in
+finding default data to plot</p>
+<p>NIAC 2014: added decimated as a possible enum to acquisition_mode in
+NXdetector</p>
+<p>NIAC 2014: additional field nominal added to NXmonitor to keep the
+nominal flux</p>
+<p>NIAC 2014: “rgbimage”, “rgbaimage”, “hslimage”, “hslaimage”, “cmykimage”
+to be added to the interpretation attribute of datasets to encode 3d
+datasets with colour as added dimension to the 2d image.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">NIACClasses</a><ul>
+<li><a class="reference internal" href="#niac-decisions-on-nexus-classes">NIAC Decisions on NeXus Classes</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NIACDesign.html" title="NIACDesign"
+             >next</a></li>
+        <li class="right" >
+          <a href="NIACAPI.html" title="NIACAPI"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NIACClasses</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

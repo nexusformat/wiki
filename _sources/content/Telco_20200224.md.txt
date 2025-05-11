@@ -1,0 +1,47 @@
+---
+title: Telco 20200224
+permalink: Telco_20200224.html
+layout: wiki
+---
+Telco 20200224
+==============
+
+Date
+----
+
+Monday, 24 February, 15:00 CET (+0100)
+
+<!-- end of autogeneration -->
+
+Hangout Link:
+<https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua>
+
+Agenda
+------
+   * 2020 NIAC and Code Camp dates surrounding [NOBUGS2020](https://indico.desy.de/indico/event/24321/overview) (Oct. 14-16). [Proposed dates](https://doodle.com/poll/7c39uppbs7qwsveh) are:
+      * NIAC meeting on Oct. 12-13th (i.e. Monday-Tuesday just before NOBUGS)
+      * Code Camp on either Oct. 10-11th, or 17-18th (i.e. weekend before, or after)
+
+
+Minutes
+-----
+Present: BW, MK, FA
+
+NIAC
+------
+   * All agreed that the NIAC tradition is to meet together with NOBUGS and that there is no alternatives being proposed.
+   * All agreed that Oct. 12-13th is the obvious best choice for dates adjacent to NOBUGS2020.
+
+Code Camp
+------
+   * MK suggested that Oct. 19-20th could be better dates to avoid working over the weekend. BW would rather not lengthen the travel further than necessary.
+   * All agreed that after the NIAC made more sense than before since it would allow enacting NIAC decisions.
+   * BW suggested that we could advertise the Code Camp as an opportunity for software developers (i.e. NOBUGS attendees) to work through practical NeXus-related problems together with the experts.
+   * After some discussion, all agreed that Oct 17-18th was the better choice.
+
+Other Business
+----
+   * BW disappointed in attendence, considering lots of people answered the poll to decide the telco date. Perhaps this highlights the importance of the Outlook calendar event that was forgotten this time.
+   * Next telco to aim for mid March.
+
+

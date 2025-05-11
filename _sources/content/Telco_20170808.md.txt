@@ -1,0 +1,62 @@
+---
+title: Telco 20170808
+permalink: Telco_20170808.html
+layout: wiki
+---
+Telco 20170808
+==============
+
+Date
+----
+
+Tuesday,  8 August, 16:30 CEST (+0200)
+
+<!-- end of autogeneration -->
+
+Hangout Link:
+<https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua>
+
+
+Agenda
+------
+
+-   Welcome and agree Agenda
+-   PDB Group in NeXus
+-   Dark Field 
+-   Code Camp or similar activity in 2017
+-   Github issue of the day - suggestions welcome (use telco github label)
+    - [definitions PRs & issues marked as "telco"](https://github.com/nexusformat/definitions/labels/telco)
+-   Next meeting
+
+Minutes
+-------
+
+Present: HJB, TSR, MK
+
+### PDB
+
+HJB created a branch. Because the PDB information is encoded in CIF the NeXus base class was named NXcif. 
+The request was raised to rename it to NXpdb to avoid unnecessary confusion. This was completed during the conference call.
+
+### Dark Field
+
+EW requested a dataset for storing dark frames. In extension to how `NXmx` has `flatfield` the suggestion would be to define `darkfield`. Since it is important and can be different to the main data acquisition HJB suggested also to define `darkfield_exposure_time`.
+
+### Code Camp
+
+The invite has gone out (to -committee for now). Should be more widely distributed.
+Staying in the onsite accommodation wasn't recommended. We'll get in contact with MB.
+
+
+### Github Issue of the Day
+
+The only issue marked "telco" was already discussed last time. Removed the label. 
+
+
+
+### Next Meeting
+
+That was it. Short meeting.
+
+[Telco 20170823](Telco_20170823.html)
+

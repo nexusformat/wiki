@@ -1,0 +1,182 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Indirect Time-of-Flight and Coordinates</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Instruments" href="Instruments.html" />
+    <link rel="prev" title="IndirectDiscuss" href="IndirectDiscuss.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Instruments.html" title="Instruments"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="IndirectDiscuss.html" title="IndirectDiscuss"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Indirect Time-of-Flight and Coordinates</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="indirect-time-of-flight-and-coordinates">
+<h1>Indirect Time-of-Flight and Coordinates<a class="headerlink" href="#indirect-time-of-flight-and-coordinates" title="Link to this heading">¶</a></h1>
+<p>I am having some problems describing a indirect time-of-flight
+instrument we are currently building. The name of the instrument is
+MARS. See this image for a schema.</p>
+<p><img alt="MARS|center" src="../_images/Mars.png" /></p>
+<p>The instrument has 12 elastic detectors. These go in a separate NXentry
+group and are covered by the the TOFNPD DTD. However, I missed
+information about choppers in that DTD. This leads to my first question:
+Is TOF-monitors, data and distances really the only items needed for
+data analysis for TOFNPD?</p>
+<p>There are also 12 inelastic detectors. Theya are supposed to go in
+another NXentry group following the to-be-defined TOFNIG-DTD. Each of
+them is mounted on a triffid together with an analyzer. The triffids are
+positioned at various polar_angles with respect to the sample. On each
+triffid the analyzers move upwards and scatter neutrons into the
+detectors below them. In order to make this perfectly clear: scattering
+happens in the vertical plane. There are several problem here:</p>
+<p>I tend to treat both the analyzers and the detectors as a bank each.
+They are usually moved together; any differences can be caught in
+parameter arrays.</p>
+<p>How to describe the analyzer position? The polar_angle is clear. I like
+to think of the polar_angle corresponding to longitude in a polar
+coordinate system with the incoming beam describing the null meridian.
+But the tile angle or latitude is missing from our simple coordinate
+system. What we have is the azimuthal angle. From the use at the triple
+axis I deduce that this is really a rotation around a vector connecting
+the sample and the analyzer. This simply does not cut it. I suggest to
+add a tilt angle out of the instrument plane, corresponding to latitude
+to our simple coordinate system which would then consist of:
+polar_angle, tilt, distance and azimuthal_angle.</p>
+<p>How to describe the scattering between the analyzer and the detector?
+Rather then defining yet another coordinate system, I would like to wrap
+two theta between analyzer and detector into the tilt angle.</p>
+<hr class="docutils" />
+<p>May be I am just confused about [Coordinate
+Systems] (Coordinate_Systems.html “wikilink”) here. —-</p>
+<hr class="docutils" />
+<section id="conclusion">
+<h2>Conclusion<a class="headerlink" href="#conclusion" title="Link to this heading">¶</a></h2>
+<p>01/2015 This page is totally obsolete. I think the problem was resolved
+by changing the scattering plane. Now, the adequate solution is the
+CIF-style description of the axes used.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Indirect Time-of-Flight and Coordinates</a><ul>
+<li><a class="reference internal" href="#conclusion">Conclusion</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Instruments.html" title="Instruments"
+             >next</a></li>
+        <li class="right" >
+          <a href="IndirectDiscuss.html" title="IndirectDiscuss"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Indirect Time-of-Flight and Coordinates</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

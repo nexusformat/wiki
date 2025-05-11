@@ -1,0 +1,956 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>About the NeXus Data Format</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="_static/rubric.css" type="text/css" />
+    <script src="_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="2014 axes and uncertainties" href="content/2014_axes_and_uncertainties.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="content/2014_axes_and_uncertainties.html" title="2014 axes and uncertainties"
+             accesskey="N">next</a></li>
+        <li class="nav-item nav-item-0"><a href="#"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">About the NeXus Data Format</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus Logo" width="500">
+<section id="about-the-nexus-data-format">
+<h1>About the NeXus Data Format<a class="headerlink" href="#about-the-nexus-data-format" title="Link to this heading">¶</a></h1>
+<p>NeXus is a common data format for neutron, x-ray, and muon science. It
+is being developed as an international standard by scientists and
+programmers representing major scientific facilities in order to
+facilitate greater cooperation in the analysis and visualization of
+neutron, x-ray, and muon data.</p>
+<section id="documentation">
+<h2>Documentation:<a class="headerlink" href="#documentation" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Most recent publication to cite:<br />
+<em>J. Appl. Cryst.</em> (2015). <strong>48</strong>, 301-305 <a class="reference external" href="https://doi.org/10.1107/S1600576714027575">doi:10.1107/S1600576714027575</a></p></li>
+<li><p><a class="reference external" href="https://manual.nexusformat.org/user_manual.html">User Manual</a>:</p>
+<ul>
+<li><p><a class="reference external" href="https://manual.nexusformat.org/introduction.html">Introduction</a> to the concepts behind the NeXus data format</p></li>
+<li><p><a class="reference external" href="https://manual.nexusformat.org/design.html">Design</a>: The hierarchical design of NeXus files</p></li>
+<li><p><a class="reference external" href="https://manual.nexusformat.org/classes/index.html">NeXus Class Definitions</a>: description of each NXDL specification</p>
+<ul>
+<li><p><a class="reference external" href="https://manual.nexusformat.org/classes/base_classes/index.html">base classes</a>: components that might be used in any NeXus data file</p></li>
+<li><p><a class="reference external" href="https://manual.nexusformat.org/classes/applications/index.html">application definitions</a>: layout specifications for a specific purpose</p></li>
+<li><p><a class="reference external" href="https://manual.nexusformat.org/classes/contributed_definitions/index.html">contributed definitions</a>: propositions from the community</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://manual.nexusformat.org/utilities.html">Utilities</a>: Software applications that browse, plot, and analyze NeXus data</p></li>
+<li><p><a class="reference external" href="https://manual.nexusformat.org/faq.html">FAQ</a>: Commonly asked questions about NeXus</p></li>
+<li><p><a class="reference external" href="content/Facilities.html" title="wikilink">Facilities</a> using NeXus</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="discussion-and-development">
+<h2>Discussion and Development:<a class="headerlink" href="#discussion-and-development" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Next Meetings:</p></li>
+<li><p>Most recent meetings: <a class="reference external" href="content/NIAC2024.html" title="wikilink">Autumn NIAC2024</a>, <a class="reference external" href="content/CodeCampJune2023.html" title="wikilink">Code Camp 2023</a>, <a class="reference external" href="content/NIAC2022.html" title="wikilink">Autumn NIAC2022</a></p></li>
+<li><p><a class="reference external" href="content/Teleconferences.html" title="wikilink">Teleconferences</a></p></li>
+<li><p><a class="reference external" href="content/ActiveProjects.html" title="wikilink">Current Active Projects</a></p></li>
+<li><p><a class="reference external" href="content/NIAC.html" title="wikilink">NeXus International Advisory Committee</a></p></li>
+<li><p><a class="reference external" href="content/IssueReporting.html" title="wikilink">Bug / Issue Reporting</a></p></li>
+<li><p><a class="reference external" href="https://manual.nexusformat.org/mailinglist.html">Mailing Lists</a></p></li>
+<li><p><a class="reference external" href="https://indico.desy.de/category/1080/">Show and Tell</a> - Series of meetings, each dedicated to a specific NeXus adoption topic</p></li>
+</ul>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="content/2014_axes_and_uncertainties.html">2014 axes and uncertainties</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/2014_axes_and_uncertainties.html#proposal-to-describe-n-dimensional-data-axes">Proposal to describe N-dimensional data (Axes)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/2014_axes_and_uncertainties.html#uncertainties">Uncertainties</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/2014_How_to_find_default_data.html">2014 How to find default data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/2014_How_to_find_default_data.html#proposal">Proposal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/2014_How_to_find_default_data.html#conclusion">Conclusion</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/ActiveProjects.html">Active Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/Archive_Definition.html">Archive Definition</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Archive_Definition.html#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Archive_Definition.html#multiple-nxentry-issue">Multiple NXentry issue</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Archive_Definition.html#parameter-names">Parameter Names</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Archive_Definition.html#too-much-metadata-is-better-than-too-little">Too much metadata is better than too little</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Archive_Definition.html#dtd-definition">DTD definition</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Associating_Axes_with_Data.html">Associating Axes with Data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Associating_Axes_with_Data.html#requirements">Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Associating_Axes_with_Data.html#solution">Solution</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Codecamps.html">Code Camps</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2010_CodeCamp.html">NIAC2010 CodeCamp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2011_CodeCamp.html">NIAC2011 CodeCamp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2014_CodeCamp.html">NIAC2014 CodeCamp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/CodeCamp2020.html">NeXus Code Camp - January 2020</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/CodeCamp2020-2.html">NeXus Code Camp - October 2020</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/CodeCamp2020-attendees.html">NeXus Code Camp - January 2020 - List of Attendees</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/CodeCamp2020-topics.html">NeXus Code Camp - January 2020 – Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/CodeCamp2021-1.html">NeXus Code Camp - March 2021</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/CodeCamp2022.html">NeXus Code Camp - June 2022</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/CodeCampJune2023.html">NeXus Code Camp - June 2023</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Code_Camp_2015.html">Code Camp 2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Code_Camp_2017.html">Code Camp 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Code_Camp_2017.html#nexus-code-camp-24th-to-the-26th-of-october-2017">NeXus Code Camp - 24th to the 26th of October, 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Code_Camp_2017.html#minutes-for-the-meeting">Minutes for the meeting</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/ConcordanceDiscussion.html">ConcordanceDiscussion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/ConcordanceDiscussion.html#concordance-summary">Concordance Summary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/ConcordanceDiscussion.html#the-variant-issue">The Variant Issue</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/ConcordanceDiscussion.html#the-axisset-issue">The Axisset Issue</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/ConcordanceDiscussion.html#the-scan-issue">The Scan Issue</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/ConcordanceDiscussion.html#new-fields">New Fields</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/ConcordanceDiscussion.html#nxgoniometer">NXgoniometer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/Connecting_NXdata_to_NXdetector.html">Connecting NXdata to NXdetector</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Connecting_NXdata_to_NXdetector.html#proposal-1">Proposal 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Connecting_NXdata_to_NXdetector.html#proposal-2">Proposal 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Connecting_NXdata_to_NXdetector.html#proposal-3">Proposal 3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Connecting_NXdata_to_NXdetector.html#proposal-4">Proposal 4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Connecting_NXdata_to_NXdetector.html#criteria-of-a-good-solution">Criteria of a Good Solution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Connecting_NXdata_to_NXdetector.html#update-01-2015">Update 01/2015</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Containers_and_Inheritance.html">Containers and Inheritance</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Containers_and_Inheritance.html#relationship-between-inheritance-and-containers-in-a-nexus-dataset">Relationship between Inheritance and Containers in a neXus dataset</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Containers_and_Inheritance.html#user-defined-component-types-can-be-shared-amoung-multiple-experiment-types">user-defined component types can be shared amoung multiple experiment types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Containers_and_Inheritance.html#user-defined-components-can-be-inherited-by-more-specific-user-components">User-defined components can be inherited by more specific user components</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Design_Issues.html">Design Issues</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Design_Issues.html#current-discussions">Current Discussions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Design_Issues.html#coma-discussions">Coma Discussions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Design_Issues.html#closed-discussions">Closed Discussions</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Detector_Geometry.html">Detector Geometry</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Detector_Geometry.html#issue">Issue</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Detector_Geometry.html#proposal-mcstas">Proposal: McStas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Detector_Geometry.html#proposal-vitess">Proposal: Vitess</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Detector_Geometry.html#conclusion">Conclusion</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/DLSraw.html">DLSraw</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/Download.html">Download</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Download.html#requirements">Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Download.html#nexus-source-code-distribution">NeXus Source Code Distribution</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Extension_of_NeXus_Coordinate_Systems.html">Extension of NeXus Coordinate Systems</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Extension_of_NeXus_Coordinate_Systems.html#extension-of-the-nexus-coordinate-systems">Extension of the NeXus Coordinate Systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Extension_of_NeXus_Coordinate_Systems.html#conclusion">Conclusion</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Facilities.html">Facilities</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Facilities.html#pulsed-muon-facilities">Pulsed Muon Facilities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Facilities.html#x-ray-facilities">X-ray Facilities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Facilities.html#neutron-scattering-facilities">Neutron Scattering Facilities</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/FAQ.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/FAQ.html#how-many-facilities-use-nexus">How many facilities use NeXus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/FAQ.html#nexus-files-are-only-useful-for-archiving-instrumental-data-aren-t-they">NeXus files are only useful for archiving instrumental data, aren’t they?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/FAQ.html#why-aren-t-nxsample-and-nxmonitor-groups-stored-in-the-nxinstrument-group">Why aren’t NXsample and NXmonitor groups stored in the NXinstrument group?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/FAQ.html#how-do-i-identify-the-plottable-data">How do I identify the plottable data?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/FAQ.html#why-are-the-nexus-classes-so-complicated-i-ll-never-store-all-that-information">Why are the NeXus classes so complicated? I’ll never store all that information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/FAQ.html#i-want-to-produce-an-instrument-definition-how-do-i-go-about-it">I want to produce an instrument definition. How do I go about it?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/FAQ.html#what-coordinate-system-does-nexus-use">What coordinate system does NeXus use?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/File_id_attribute_for_Nexus_files.html">File id attribute for Nexus files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/GenericScan.html">GenericScan</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/GenericScan.html#generic-scan-instrument">Generic Scan Instrument</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Group_Attributes.html">Group Attributes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Group_Attributes.html#group-attributes-implementation">Group Attributes Implementation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard.html">How to avoid name clashes during future extensions of the Nexus standard</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard.html#the-problem">The Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard.html#prefixes-for-user-defined-names">Prefixes for user defined names</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard.html#strong-typing-for-fields">Strong typing for fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard.html#using-of-nxcollection">Using of NXcollection</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/IndirectDiscuss.html">IndirectDiscuss</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/Indirect_Time-of-Flight_and_Coordinates.html">Indirect Time-of-Flight and Coordinates</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Indirect_Time-of-Flight_and_Coordinates.html#conclusion">Conclusion</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Instruments.html">Instruments</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Instruments.html#instrument-definitions-list">Instrument Definitions List</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/IssueReporting.html">Issue Reporting</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/IssueReporting.html#nexus-instrument-base-class-definitions">NeXus Instrument/Base Class Definitions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/IssueReporting.html#nexus-library-and-applications">NeXus Library and Applications</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Japinotes.html">Japi notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/Japinotes.html#the-nexus-api-for-java">The NeXus API for Java</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Japinotes.html#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Japinotes.html#acknowledgement">Acknowledgement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Japinotes.html#installation">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Japinotes.html#running-programs-with-the-nexus-api-for-java">Running Programs with the NeXus API for Java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Japinotes.html#programming-with-the-nexus-api-for-java">Programming with the NeXus API for Java.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Japinotes.html#data-writing-and-reading">Data Writing and Reading</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Japinotes.html#known-problems">Known Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Japinotes.html#compiling-the-java-api-for-nexus">Compiling the Java API for NeXus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Japinotes.html#author">Author</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Java_API.html">Java API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Java_API.html#the-nexus-for-java-api-download-and-information-page">The NeXus for Java API Download and Information Page</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Jnexustut.html">Jnexustut</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/Latest_News.html">Latest News</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Latest_News.html#id1">2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Latest_News.html#id2">2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Latest_News.html#id3">2015</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Latest_News.html#id4">2014</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Latest_News.html#id5">2012</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Latest_News.html#id6">2010</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Latest_News.html#id7">2009</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Latest_News.html#id8">2008</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Latest_News.html#id9">2007</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Latest_News.html#id10">2006</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Latest_News.html#id11">2005</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Latest_News.html#id12">2004</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Latest_News.html#id13">2003</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Latest_News.html#id14">2002</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Latest_News.html#id15">2000</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Latest_News.html#id16">1999</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Latest_News.html#id17">1998</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Latest_News.html#id18">1997</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Linking_External_Files.html">Linking External Files</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Linking_External_Files.html#storing-external-file-information">Storing External File Information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Linking_External_Files.html#implementing-external-file-access-at-the-napi-level">Implementing External File Access At The NAPI Level</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Linking_External_Files.html#actually-accessing-the-external-file">Actually Accessing The External File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Linking_External_Files.html#summary-and-open-issues">Summary And Open Issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Linking_External_Files.html#decisions-niac-2006-ill-february-2006">Decisions NIAC 2006, ILL, February 2006</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Membership_Dates.html">Membership Dates</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Membership_Dates.html#expire-july-2023">Expire July, 2023</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Membership_Dates.html#expire-august-2023">Expire August, 2023</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Membership_Dates.html#expire-december-2023">Expire December, 2023</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Membership_Dates.html#expire-november-2024">Expire November, 2024</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Membership_Dates.html#expire-december-2024">Expire December, 2024</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Membership_Dates.html#expire-september-2025">Expire September 2025</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Membership_Dates.html#expire-october-2025">Expire October, 2025</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Membership_Dates.html#expire-february-2026">Expire February 2026</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Membership_Dates.html#expire-april-2026">Expire April 2026</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Membership_Dates.html#expire-august-2026">Expire August 2026</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Membership_Dates.html#expire-february-2027">Expire February 2027</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Metaformat.html">Metaformat</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Metaformat.html#meta-dtd-definition">Meta-DTD Definition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Metaformat.html#example">Example</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Monochromatic_Neutron_and_X-ray_Powder_Diffraction.html">Monochromatic Neutron and X-ray Powder Diffraction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Monochromatic_Neutron_and_X-ray_Powder_Diffraction.html#id1">Monochromatic Neutron and X-Ray Powder Diffraction</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Monochromatic_Neutron_and_X-ray_Reflectometry.html">Monochromatic Neutron and X-ray Reflectometry</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Monochromatic_Neutron_and_X-ray_Reflectometry.html#additions">Additions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Monochromatic_Neutron_and_X-ray_Reflectometry.html#full-definition">Full Definition</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Monochromatic_Neutron_and_X-ray_Single_Crystal_Diffractometer.html">Monochromatic Neutron and X-ray Single Crystal Diffractometer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/MonoXPSD.html">Mono XPSD</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/MonoXPSD.html#monochromatic-single-crystal-diffractometer-with-position-sensitive-detector">Monochromatic Single Crystal Diffractometer with Position Sensitive Detector</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/MonoXSingle.html">MonoX Single</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/MonoXSingle.html#monochromatic-single-crystal-diffractometer-with-single-detector">Monochromatic Single Crystal Diffractometer with Single Detector</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Multi_Method_Instruments.html">Multi Method Instruments</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Multi_Method_Instruments.html#id1">Multi Method Instruments</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Muon_Time_Differential.html">Muon Time Differential</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/NAPI_Routines.html">NAPI Routines</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NAPI_Routines.html#out-of-date">OUT OF DATE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NAPI_Routines.html#general-initialization-and-shutdown">General Initialization and Shutdown</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NAPI_Routines.html#reading-and-writing">Reading and Writing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NAPI_Routines.html#meta-data-routines">Meta-Data Routines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NAPI_Routines.html#memory-allocation">Memory Allocation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NAPI_Routines.html#external-linking">External Linking</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NAPI_Utility_Routines.html">NAPI Utility Routines</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NAPI_Utility_Routines.html#nxuwriteglobals">NXUwriteglobals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NAPI_Utility_Routines.html#nxuwritegroup">NXUwritegroup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NAPI_Utility_Routines.html#nxuwritedata">NXUwritedata</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NAPI_Utility_Routines.html#nxureaddata">NXUreaddata</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NAPI_Utility_Routines.html#nxuwritehistogram">NXUwritehistogram</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NAPI_Utility_Routines.html#nxureadhistogram">NXUreadhistogram</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NAPI_Utility_Routines.html#nxusetcompress">NXUsetcompress</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NAPI_Utility_Routines.html#nxufindgroup">NXUfindgroup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NAPI_Utility_Routines.html#nxufindclass">NXUfindclass</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NAPI_Utility_Routines.html#nxufinddata">NXUfinddata</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NAPI_Utility_Routines.html#nxufindattr">NXUfindattr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NAPI_Utility_Routines.html#nxufindsignal">NXUfindsignal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NAPI_Utility_Routines.html#nxufindaxis">NXUfindaxis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NAPI_Utility_Routines.html#nxufindlink">NXUfindlink</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NAPI_Utility_Routines.html#nxuresumelink">NXUresumelink</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NeXpy.html">NeXpy</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NeXpy.html#installation">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NeXpy.html#running-nexpy">Running NeXpy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NeXpy.html#nexus-interface">NeXus Interface</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Nexus_41_Release_Notes.html">Nexus 41 Release Notes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_41_Release_Notes.html#system-requirements">System Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_41_Release_Notes.html#building-notes">Building Notes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_41_Release_Notes.html#new-features">New Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_41_Release_Notes.html#changed-features">Changed Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_41_Release_Notes.html#known-issues">Known Issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_41_Release_Notes.html#miscellaneous-bug-fixes">Miscellaneous bug fixes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_41_Release_Notes.html#upcoming-features">Upcoming Features</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Nexus_42_Release_Notes.html">Nexus 42 Release Notes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_42_Release_Notes.html#id1">4.2.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_42_Release_Notes.html#id2">4.2.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_42_Release_Notes.html#system-requirements">System Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_42_Release_Notes.html#building-notes">Building Notes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_42_Release_Notes.html#new-features">New Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_42_Release_Notes.html#changed-features">Changed Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_42_Release_Notes.html#known-issues">Known Issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_42_Release_Notes.html#miscellaneous-bug-fixes">Miscellaneous bug fixes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_42_Release_Notes.html#upcoming-features">Upcoming Features</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Nexus_43_Release_Notes.html">Nexus 43 Release Notes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_43_Release_Notes.html#rc1">4.3.0rc1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_43_Release_Notes.html#new-features">New Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_43_Release_Notes.html#changed-features">Changed Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_43_Release_Notes.html#system-requirements">System Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_43_Release_Notes.html#building-notes">Building Notes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_43_Release_Notes.html#known-issues">Known Issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_43_Release_Notes.html#miscellaneous-bug-fixes">Miscellaneous bug fixes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_43_Release_Notes.html#upcoming-features">Upcoming Features</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Nexus_4_Release_Notes.html">Nexus 4 Release Notes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_4_Release_Notes.html#system-requirements">System Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_4_Release_Notes.html#building-notes">Building Notes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_4_Release_Notes.html#new-features">New Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_4_Release_Notes.html#changed-features">Changed Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_4_Release_Notes.html#known-issues">Known Issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_4_Release_Notes.html#miscellaneous-bug-fixes">Miscellaneous bug fixes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Nexus_4_Release_Notes.html#upcoming-features">Upcoming Features</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NeXus_CIF_Integration.html">NeXus CIF Integration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NeXus_CIF_Integration.html#some-issues-and-differences">Some Issues and Differences</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NeXus_CIF_Integration.html#questions">Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NeXus_CIF_Integration.html#the-niac-s-interest">The NIAC’s Interest</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NeXus_CIF_Integration.html#to-discuss">To Discuss</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NeXus_CIF_Integration.html#conclusion">Conclusion</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2006ILL.html">NIAC Meeting - February 2006</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006ILL.html#proposed-agenda">Proposed Agenda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006ILL.html#general-information">General Information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006ILL.html#meeting-layout">Meeting layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006ILL.html#niac-meeting-provisional-timetable">NIAC Meeting Provisional Timetable</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006ILL.html#nexus-presentation">NeXus Presentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006ILL.html#working-groups">Working Groups</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2006LBL_attendees.html">NIAC 2006 at LBL List of Attendees</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2006LBL.html">NIAC Meeting - October 2006</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006LBL.html#list-of-attendees">List of Attendees</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006LBL.html#start-of-the-meeting">Start of the Meeting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006LBL.html#agenda">Agenda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006LBL.html#general-information">General Information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006LBL.html#working-groups">Working Groups</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006LBL.html#minutes">Minutes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006LBL.html#photos">Photos</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2006LBL_photos.html">Photos from NIAC 2006 at LBL</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006LBL_photos.html#niac2006lbl-prj4-jpg">NIAC2006LBL-PRJ4.jpg</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006LBL_photos.html#niac2006lbl-prj5-jpg">NIAC2006LBL-PRJ5.jpg</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006LBL_photos.html#niac2006lbl-prj6-jpg">NIAC2006LBL-PRJ6.jpg</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006LBL_photos.html#niac2006lbl-prj7-jpg">NIAC2006LBL-PRJ7.jpg</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2006LBL_RoadMap.html">NIAC2006LBL RoadMap</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006LBL_RoadMap.html#all-neutron-definitions-done"><strong>ALL</strong> neutron definitions <strong>done</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006LBL_RoadMap.html#small-items">Small Items</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006LBL_RoadMap.html#axis-attributes-on-fields">Axis attributes on fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006LBL_RoadMap.html#geometry-order-of-operations">Geometry order of operations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006LBL_RoadMap.html#xesraw">XESraw</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006LBL_RoadMap.html#scanning-environment-variables">scanning environment variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006LBL_RoadMap.html#later">Later</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006LBL_RoadMap.html#proposed-agenda-items">Proposed Agenda Items</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2006_Scanning_Group.html">NIAC2006 Scanning Group</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006_Scanning_Group.html#session-1">Session 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006_Scanning_Group.html#session-2">Session 2</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2006_Synchrotron_Group.html">NIAC2006 Synchrotron Group</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006_Synchrotron_Group.html#nexus-synchrotron-breakout-group">Nexus – Synchrotron breakout group</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2006_TOF_Group.html">NIAC2006 TOF Group</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006_TOF_Group.html#time-of-flight-working-group">Time-of-Flight Working Group</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006_TOF_Group.html#summary-of-main-proposals-in-tofraw">Summary of main proposals in TOFRaw</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006_TOF_Group.html#general-linear-and-area-detector-specific-nxdetector">General, linear and Area detector specific NXdetector</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006_TOF_Group.html#hardware-detector-ganging">Hardware detector ganging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2006_TOF_Group.html#proposals">Proposals</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2007_attendees.html">NIAC2007 attendees</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2007_attendees.html#niac-2007-at-hmi-list-of-attendees">NIAC 2007 at HMI List of Attendees</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2007.html">NIAC Meeting - September 2007</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2007.html#location">Location</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2007.html#accommodation">Accommodation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2007.html#conference-fee">Conference Fee</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2007.html#list-of-attendees">List of Attendees</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2007.html#proposed-agenda">Proposed Agenda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2007.html#suggested-discussion-topics">Suggested Discussion Topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2007.html#subsequent-talks">Subsequent Talks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2007.html#detail-information">Detail Information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2007.html#public-talk">Public Talk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2007.html#conference-dinner">Conference Dinner</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2007.html#visit-the-ber-ii">Visit the BER II</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2007.html#minutes">Minutes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2007.html#niac2007-photos">NIAC2007 photos</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2007_Minutes.html">NIAC2007 Minutes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2007_Minutes.html#niac-meeting-hmi-berlin-germany-24-25-26-september-2007">NIAC meeting – HMI, Berlin (Germany) 24, 25, 26 September 2007</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2007_photos.html">NIAC2007 photos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2007_photos.html#pete-jemian-s-photos">Pete Jemian’s photos</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2008_attendees.html">NIAC2008 attendees</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2008.html">NIAC meeting - October 2008</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2008.html#conference-fee">Conference Fee</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2008.html#list-of-attendees">List of Attendees</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2008.html#proposed-agenda">Proposed Agenda</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2009.html">2009 NeXus Code Camp</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2009.html#purpose">Purpose</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2009.html#dates">Dates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2009.html#agenda">Agenda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2009.html#practical-matters">Practical Matters</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2010.html">NIAC2010</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2010.html#location">Location</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2010.html#accommodations-and-logistics">Accommodations and logistics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2010.html#niac-list-of-attendees">NIAC List of Attendees</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2010.html#planned-agenda">Planned Agenda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2010.html#talks">Talks</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2012.html">NIAC2012</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2012.html#location-and-accomodation">Location and Accomodation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2012.html#travel">Travel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2012.html#logistics">Logistics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2012.html#list-of-attendees">List of Attendees</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2012.html#agenda">Agenda</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2014.html">NIAC2014</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2014.html#location-and-accommodation">Location and Accommodation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2014.html#practical-matters">Practical Matters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2014.html#list-of-attendees">List of Attendees</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2014.html#agenda">Agenda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2014.html#meetings">Meetings</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2014_Meeting.html">NIAC2014 Meeting</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2014_Meeting.html#niac-meeting">NIAC Meeting</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2016.html">NIAC2016</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2016Minutes.html">NIAC 2016 Minutes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2016Minutes.html#thursday-october-13">Thursday, October, 13</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2016Minutes.html#thursday-afternoon">Thursday afternoon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2016Minutes.html#friday">Friday</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2016Minutes.html#participants">Participants</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2018.html">NIAC2018</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2018.html#registration">Registration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2018.html#site-access">Site Access</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2018.html#attendees">Attendees</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2018.html#location">Location</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2018.html#outline-agenda">Outline Agenda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2018.html#minutes">Minutes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2018Minutes.html">NIAC 2018 Minutes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2018Minutes.html#niac-meeting-2018">NIAC Meeting 2018</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2018Minutes.html#thursday-morning">Thursday Morning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2018Minutes.html#lunch">Lunch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2018Minutes.html#thursday-afternoon">Thursday Afternoon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2018Minutes.html#friday-morning">Friday Morning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2018Minutes.html#friday-afternoon">Friday afternoon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2018Minutes.html#attendees">Attendees</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2020.html">NIAC2020</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020.html#registration">Registration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020.html#video-conference-details">Video Conference details</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020.html#agenda">Agenda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020.html#minutes">Minutes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020.html#decisions">Decisions<A name="decisions"></A></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2020minutes_concluding.html">NIAC 2020 Concluding Session Minutes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020minutes_concluding.html#clarify-naming-conventions-for-groups-and-field">Clarify naming conventions for groups and field</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020minutes_concluding.html#nxmx-application-definition">NXmx application definition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020minutes_concluding.html#creator-version-attribute">&#64;creator_version attribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020minutes_concluding.html#inconsistent-field-naming-conventions">Inconsistent field naming conventions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020minutes_concluding.html#reserving-prefixes">Reserving prefixes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020minutes_concluding.html#elect-officers">Elect officers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020minutes_concluding.html#pids-for-nexus-terminology">PIDs for NeXus terminology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020minutes_concluding.html#constitution-changes">Constitution changes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020minutes_concluding.html#using-soft-links-rather-than-target-attribute">Using soft links rather than target attribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020minutes_concluding.html#nexusformat-python-package">nexusformat python package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020minutes_concluding.html#adding-globally-unique-identifier-to-nxentry">Adding globally unique identifier to NXentry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020minutes_concluding.html#other-items-mentioned">other items mentioned</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020minutes_concluding.html#summary">Summary</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2020minutes.html">NIAC 2020 Minutes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020minutes.html#session-a">Session A</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020minutes.html#session-b">Session B</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020minutes.html#session-c">Session C</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020minutes.html#session-d">Session D</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020minutes.html#sessions-e">Sessions E</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020minutes.html#session-f">Session F</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020minutes.html#session-g">Session G</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020minutes.html#session-h">Session H</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2020minutes.html#session-i">Session I</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2022.html">NIAC2022</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022.html#venue-and-accommodation">Venue and Accommodation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022.html#registration">Registration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022.html#covid19-precautions">COVID19 Precautions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022.html#agenda">Agenda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022.html#minutes">Minutes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022.html#schedule">Schedule</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022.html#official-decisions-and-statements">Official Decisions and Statements</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2022_minutes_freddie.html">NIAC2022 Minutes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_minutes_freddie.html#id1">NIAC2022 Minutes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_minutes_freddie.html#session-c-sept-14th-15-00-utc">Session C: Sept 14th 15:00 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_minutes_freddie.html#session-d-sept-15th-10-00-12-00-utc">Session D: Sept 15th 10:00-12:00 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_minutes_freddie.html#session-e-sept-15th-12-30-14-30-utc">Session E: Sept 15th 12:30-14:30 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_minutes_freddie.html#session-f-sept-15th-15-00-17-00-utc">Session F: Sept 15th 15:00-17:00 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_minutes_freddie.html#session-g-sept-16th-10-00-12-00-utc">Session G: Sept 16th 10:00-12:00 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_minutes_freddie.html#session-h-sept-16th-12-30-14-30-utc">Session H: Sept 16th 12:30-14:30 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_minutes_freddie.html#session-i-sept-16th-15-00-17-00-utc">Session I: Sept 16th 15:00-17:00 UTC</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2022_minutes.html">NIAC2022 Minutes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_minutes.html#session-b-sept-14th-12-30-utc">Session B: Sept 14th 12:30 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_minutes.html#session-c-sept-14th-15-00-utc">Session C: Sept 14th 15:00 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_minutes.html#session-d-sept-15th-10-00-12-00-utc">Session D: Sept 15th 10:00-12:00 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_minutes.html#session-e-sept-15th-12-30-14-30-utc">Session E: Sept 15th 12:30-14:30 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_minutes.html#session-f-sept-15th-15-00-17-00-utc">Session F: Sept 15th 15:00-17:00 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_minutes.html#session-g-sept-16th-10-00-12-00-utc">Session G: Sept 16th 10:00-12:00 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_minutes.html#session-h-sept-16th-12-30-14-30-utc">Session H: Sept 16th 12:30-14:30 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_minutes.html#session-i-sept-16th-15-00-17-00-utc">Session I: Sept 16th 15:00-17:00 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_minutes.html#id1">NIAC2022 Minutes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2022_spring.html">Spring Virtual NIAC 2022</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_spring.html#agenda-and-sessions">Agenda and Sessions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_spring.html#minutes">Minutes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2022_spring_minutes.html">Minutes of the NIAC2022 Spring Meeting</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_spring_minutes.html#session-a-march-3rd-14-00-utc">Session A: March 3rd 14:00 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_spring_minutes.html#session-b-march-3rd-22-00-utc">Session B: March 3rd 22:00 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_spring_minutes.html#session-c-march-4th-14-00-utc">Session C: March 4th 14:00 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_spring_minutes.html#session-d-march-4th-22-00-utc">Session D: March 4th 22:00 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_spring_minutes.html#session-e-march-15-14-00-utc">Session E: March, 15, 14:00 UTC</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2024.html">NIAC2024</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2024.html#venue-and-accommodation">Venue and Accommodation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2024.html#registration">Registration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2024.html#covid19-precautions">COVID19 Precautions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2024.html#agenda">Agenda</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2024.html#minutes">Minutes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2024.html#schedule">Schedule</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2024.html#official-decisions-and-statements">Official Decisions and Statements</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2024_minutes.html">NIAC2024 Minutes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2024_minutes.html#participants">Participants:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2024_minutes.html#id1">NIAC2024 Minutes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2024_minutes.html#session-a-sept-27th-10-00-utc">Session A: Sept 27th 10:00 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2024_minutes.html#session-b-sept-27th-13-30-utc">Session B: Sept 27th 13:30 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2024_minutes.html#session-c-sept-27th-16-00-utc">Session C: Sept 27th 16:00 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2024_minutes.html#joining-participants">Joining participants:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2024_minutes.html#session-d-sept-28th-10-00-utc">Session D: Sept 28th 10:00 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2024_minutes.html#session-e-sept-28th-13-30-utc">Session E: Sept 28th 13:30 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2024_minutes.html#session-f-sept-28th-16-00-utc">Session F: Sept 28th 16:00 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2024_minutes.html#session-g-sept-29th-10-00-utc">Session G: Sept 29th 10:00 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2024_minutes.html#session-h-sept-29th-13-30-utc">Session H: Sept 29th 13:30 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2024_minutes.html#session-i-sept-29th-16-00-utc">Session I: Sept 29th 16:00 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2024_minutes.html#session-j-sept-30th-10-00-utc">Session J: Sept 30th 10:00 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2024_minutes.html#session-k-sept-30th-13-30-utc">Session K: Sept 30th 13:30 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2024_minutes.html#session-l-sept-30th-16-00-utc">Session L: Sept 30th 16:00 UTC</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC2022_fall_minutes.html">Minutes of the NIAC2022 Fall Meeting</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_fall_minutes.html#session-b-sept-14th-12-30-utc">Session B: Sept 14th 12:30 UTC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC2022_fall_minutes.html#session-c-sept-14th-15-00-utc">Session C: Sept 14th 15:00 UTC</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIACActionItems.html">NIACActionItems</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIACActionItems.html#action-items-for-definitions">Action Items for Definitions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIACActionItems.html#action-items-for-code">Action Items for Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIACActionItems.html#generic-action-items">Generic Action Items</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIACAPI.html">NIACAPI</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIACAPI.html#niac-decisions-regarding-the-nexus-api">NIAC Decisions regarding the NeXus API</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIACClasses.html">NIACClasses</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIACClasses.html#niac-decisions-on-nexus-classes">NIAC Decisions on NeXus Classes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIACDesign.html">NIACDesign</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIACDesign.html#niac-decisions-regarding-nexus-design-questions">NIAC Decisions regarding NeXus Design Questions</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIACdoc.html">NIACdoc</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIACdoc.html#niac-decisions-regarding-documentation">NIAC Decisions regarding Documentation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIAC.html">NeXus International Advisory Committee</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC.html#current-members">Current Members</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC.html#how-to-contact-the-niac">How to contact the NIAC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC.html#constitution">Constitution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC.html#meetings">Meetings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC.html#niac-decisions-sorted-by-topic">NIAC Decisions sorted by Topic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC.html#action-items">Action Items</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NIAC.html#sub-committees">Sub-Committees</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NIACOrg.html">NIACOrg</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NIACOrg.html#niac-organsisation">NIAC Organsisation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NXaperture_and_Slits.html">NXaperture and Slits</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NXaperture_and_Slits.html#introducing-new-classes">Introducing new classes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NXbrowse.f90.html">NXbrowse.f90</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/NXbrowse.html">NXbrowse</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NXbrowse.html#usage">Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NXbrowse.html#installation">Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NXdetector_2012_10.html">NXdetector 2012 10</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NXdetector_2012_10.html#on-2012-11-07-mark-koennecke-wrote">on 2012-11-07, Mark Koennecke wrote</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NXdetector_documentation.html">NXdetector documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NXdetector_documentation.html#update-01-2015">Update 01/2015</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NXdir.html">NXdir</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NXdir.html#news">News</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NXdir.html#usage">Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NXdir.html#downloads">Downloads</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NXdir.html#prerequisites">Prerequisites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NXdir.html#installation">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NXdir.html#un-installing">Un-installing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NXdir.html#frequently-asked-questions-faq">Frequently Asked Questions (FAQ)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NXgeometry_and_NXshape_-_documentation_and_review.html">NXgeometry and NXshape - documentation and review</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NXgeometry_and_NXshape_-_documentation_and_review.html#nxgeometry">NXgeometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NXgeometry_and_NXshape_-_documentation_and_review.html#nxtranslation">NXtranslation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NXgeometry_and_NXshape_-_documentation_and_review.html#nxorientation">NXorientation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NXgeometry_and_NXshape_-_documentation_and_review.html#nxshape">NXshape</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NXgeometry_and_NXshape_-_documentation_and_review.html#update-01-2015">Update 01/2015</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NXlrcs.f90.html">NXlrcs.f90</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/NXmeasurement.html">NXmeasurement</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/NXmeasurement.html#id1">NXmeasurement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/NXmeasurement.html#conclusion">Conclusion</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/NXmonoref_example-NIAC2006.html">NXmonoref example-NIAC2006</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/NXmonoref-NIAC2006.html">NXmonoref-NIAC2006</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/NXmonotas_example-NIAC2006.html">NXmonotas example-NIAC2006</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/NXmonotas-NIAC2006.html">NXmonotas-NIAC2006</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/NXnet_Proposal.html">NXnet Proposal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/NXtofnref-NIAC2006.html">NXtofnref-NIAC2006</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/NXtranslate.html">NXtranslate - the anything to NeXus converter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/Object_Oriented_Interface.html">Object Oriented Interface</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Object_Oriented_Interface.html#conclusion">Conclusion</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Objects_or_Interfaces.html">Objects or Interfaces</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Objects_or_Interfaces.html#object-orientation-and-inheritance">Object Orientation and Inheritance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Objects_or_Interfaces.html#interfaces-and-composition">Interfaces and Composition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Objects_or_Interfaces.html#nexus-interfaces-a-possible-implementation">NeXus Interfaces: A Possible Implementation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Objects_or_Interfaces.html#the-problem">The Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Objects_or_Interfaces.html#examples">Examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Objects_or_Interfaces.html#how-to-use-such-interfaces">How to use such Interfaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Objects_or_Interfaces.html#advantages-and-disadvantages">Advantages and Disadvantages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Objects_or_Interfaces.html#nexus-interfaces-and-mapping-to-cif">NeXus Interfaces and Mapping to CIF</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Objects_or_Interfaces.html#where-to-go-from-here">Where To Go From Here?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Objects_or_Interfaces.html#more-on-interfaces">More on Interfaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Objects_or_Interfaces.html#update-01-2015">Update: 01/2015</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/OO-NeXus.html">OO-NeXus</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/OO-NeXus.html#object-oriented-nexus">Object Oriented NeXus</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Proposal_NeXus_Coordinates.html">Proposal NeXus Coordinates</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Proposal_NeXus_Coordinates.html#proposal">Proposal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Proposal_NeXus_Coordinates.html#discussion">Discussion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Proposal_NeXus_Coordinates.html#conclusion">Conclusion</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Proposal_NeXus_Errors.html">Proposal NeXus Errors</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Proposal_NeXus_Errors.html#proposal">Proposal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Proposal_NeXus_Errors.html#discussion">Discussion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Proposal_NeXus_Errors.html#conclusion-01-2015">Conclusion: 01/2015</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Proposal_to_Simplify_Nexus.html">Proposal to Simplify Nexus</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Proposal_to_Simplify_Nexus.html#nexus-raison-d-etre">NeXus <em>raison d’etre</em></a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Proposal_to_Simplify_Nexus.html#format-requirements">Format requirements</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/ReflectDiscuss.html">ReflectDiscuss</a></li>
+<li class="toctree-l1"><a class="reference internal" href="content/SAS.html">Small-Angle Scattering</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/SAS.html#id1">2006-04-19</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/SAS.html#id2">2006-10-05</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/SAS.html#id3">2006-10-06</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Scaled_Data.html">Scaled Data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Scaled_Data.html#the-suggestion">The Suggestion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Scaled_Data.html#the-reasoning">The Reasoning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Scaled_Data.html#update-01-2015">Update 01/2015</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Scans.html">Scans</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Scans.html#this-page-is-currently-under-construction">This page is currently under construction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Scans.html#issues">Issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Scans.html#nxscan-proposal">NXscan proposal</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Storing_Event_Data.html">Storing Event Data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Storing_Event_Data.html#reasons-for">REASONS FOR</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Storing_Event_Data.html#reasons-against">REASONS AGAINST</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Storing_Event_Data.html#proposal-from-paul-kienzle-regarding-contents-of-nxevent-data">PROPOSAL from Paul Kienzle regarding contents of NXevent_data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Storing_Event_Data.html#conclusion">Conclusion</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Teleconferences.html">Teleconferences</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Teleconferences.html#id1">2025</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Teleconferences.html#id2">2024</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Teleconferences.html#id3">2023</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Teleconferences.html#id4">2022</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Teleconferences.html#id5">2021</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Teleconferences.html#id6">2020</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Teleconferences.html#id7">2019</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Teleconferences.html#id14">2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Teleconferences.html#id22">2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Teleconferences.html#id34">2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Teleconferences.html#id47">2015</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Thumbnails_for_Nexus_files.html">Thumbnails for Nexus files</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Thumbnails_for_Nexus_files.html#topics-for-discussion">Topics for discussion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Thumbnails_for_Nexus_files.html#update-01-2015">Update 01/2015</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Time-of-Flight_Neutron_Powder_Diffraction.html">Time-of-Flight Neutron Powder Diffraction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Time-of-Flight_Neutron_Powder_Diffraction.html#comments">Comments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Time-of-Flight_Neutron_Powder_Diffraction.html#proposal">Proposal</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/TOFRaw.html">TOFRaw</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/TOFRaw.html#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/TOFRaw.html#goal-of-the-definition">Goal of the Definition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/TOFRaw.html#conventions-used-in-this-document">Conventions Used in this Document</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/TOFRaw.html#nexus-classes">NeXus Classes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/TOFRawScan.html">TOFRawScan</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/TOFRawScan.html#introduction">Introduction</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Update_for_NXflou_application_definition.html">Update for NXflou application definition</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Update_for_NXflou_application_definition.html#problem">Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Update_for_NXflou_application_definition.html#proposed-modification">Proposed modification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Update_for_NXflou_application_definition.html#status-01-2015">Status 01/2015</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Utilities.html">Utilities</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Utilities.html#nexus-browsers-and-other-utilities">NeXus Browsers and Other Utilities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Utilities.html#plotting-applications">Plotting Applications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content/Utilities.html#data-analysis">Data Analysis</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/Workshop_PSI_2010.html">Workshop PSI 2010</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="content/Workshop_PSI_2010.html#nexus-workshop-at-psi-may-10-12-2010">NeXus Workshop at PSI (May 10 - 12, 2010)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="content/XESraw.html">XESraw</a></li>
+</ul>
+</div>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="#">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">About the NeXus Data Format</a><ul>
+<li><a class="reference internal" href="#documentation">Documentation:</a></li>
+<li><a class="reference internal" href="#discussion-and-development">Discussion and Development:</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="content/2014_axes_and_uncertainties.html" title="2014 axes and uncertainties"
+             >next</a></li>
+        <li class="nav-item nav-item-0"><a href="#"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">About the NeXus Data Format</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

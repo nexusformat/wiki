@@ -1,0 +1,56 @@
+---
+title: Telco 20231121
+permalink: Telco_20231121.html
+layout: wiki
+---
+Telco 20231121
+==============
+
+Date
+----
+
+Tuesday, 21st November, 15:00 UTC
+
+
+Connect
+-------
+* ZOOM VC link: [https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09](https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09)
+* Meeting ID: 652 7209 1306
+* Passcode: nexus
+
+Agenda
+------
+* NIAC 2024/NOBUGS
+* issues
+
+Present
+-------
+HB, AB, SB, MK, CZ, RB, TM, BW, HG, TC, MO, BB, CP, WdN, PJ, PM
+
+Minutes
+-------
+* NIAC 2024/NOBUGS  
+Sep 23-27, 2024 - ESRF  
+3 (or maybe even 4) continuous days before or after NOBUGS
+* https://github.com/nexusformat/NIAC/issues/143  
+voted with 14 yes (2 weeks waiting starts)  
+* https://github.com/nexusformat/definitions/pull/1246  
+merge conflict to be resolved in NXdata
+* https://github.com/nexusformat/definitions/pull/1252  
+merge conflict to be resolved in NXdata
+* NXmx gain discussion:  
+  * AB: SACLA wants to use NXmx with a special gain calibration method which does not fit to the currently described way (see issue #711)  
+  * WdN: scaling factor to support the requested function is defined in NXdata  
+  * BW: offset first vs. scaling first?  
+  * HB: more exact definitions needed which include equation for clarity  
+  * BW: another alternative: NXdetector/acquisition_mode [decimated]
+* https://github.com/nexusformat/definitions/pull/1303  
+new repo in nexusformat for nyaml and then split the PR into 2 using this dependency
+* https://github.com/nexusformat/definitions/pull/1271  
+review needs to be finished and then merge it
+
+
+Dec Telco
+--------------
+
+Please help to [choose the date by responding to the poll](https://doodle.com/meeting/participate/id/e5l1L0Bd) by Dec 6. We are planning to hold the telco in the regular slot of UTC 15:00. Check your local time to avoid scheduling surprises!

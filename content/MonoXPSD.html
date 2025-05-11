@@ -1,0 +1,274 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Mono XPSD</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="MonoX Single" href="MonoXSingle.html" />
+    <link rel="prev" title="Monochromatic Neutron and X-ray Single Crystal Diffractometer" href="Monochromatic_Neutron_and_X-ray_Single_Crystal_Diffractometer.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="MonoXSingle.html" title="MonoX Single"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Monochromatic_Neutron_and_X-ray_Single_Crystal_Diffractometer.html" title="Monochromatic Neutron and X-ray Single Crystal Diffractometer"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Mono XPSD</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="mono-xpsd">
+<h1>Mono XPSD<a class="headerlink" href="#mono-xpsd" title="Link to this heading">¶</a></h1>
+<section id="monochromatic-single-crystal-diffractometer-with-position-sensitive-detector">
+<h2>Monochromatic Single Crystal Diffractometer with Position Sensitive Detector<a class="headerlink" href="#monochromatic-single-crystal-diffractometer-with-position-sensitive-detector" title="Link to this heading">¶</a></h2>
+<p>Instrument definition for a single crystal diffractometer at a
+monochromatic neutron or X-ray beam. This is the version for a position
+sensitive detector. Such an instrument can be used in various ways:</p>
+<p>In one mode the instrument is driven to each reflection individually and
+a short scan is performed in order to measure the reflections intensity.
+In such cases each reflection should be stored in either separate files
+or in separate entries as they constitute separate measurements.</p>
+<p>In another mode a larger range in omega is scanned, saving detector data
+at each step. This is similar to the way PX instruments operate. In such
+a case, omit the Miller indices in the sample group.</p>
+<p>A Eulerian cradle is assumed. If you do not have this, or you are using
+a rotation camera, feel free to adapt the Nxsample group.</p>
+<p>The definition assumes the measurement to be an omega - two-theta or
+omega scan of a given reflection.</p>
+<p>This definition is fairly minimal and shall cater for standard data
+reduction needs. If your most favourite items are missing, feel free to
+add them. If you think something is missing which is required for
+standard data reduction tasks, please contact the maintainer of this
+definition.</p>
+<p>If you to choose to store PSD scans in separate files or separate
+entries, it is the users responsibility to process the data in the right
+order.</p>
+<p>NP is again the number of scan points</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;!--
+URL:
+Editor: Mark Koennecke &lt;Mark.Koennecke@psi.ch&gt;
+version: October 2006
+$Id$
+
+Instrument definition for a single crystal diffractometer at a monochromatic
+neutron or X-ray beam.  This is the version for a position sensitive detector. 
+Such an instrument can be used in various ways:
+
+In one mode the instrument is driven to each reflection individually and a short scan is 
+performed in order to measure the reflections intensity. In such cases each reflection should be 
+stored in either separate files or in separate entries as they constitute separate measurements.
+
+In another mode a larger range in omega is scanned, saving detector data at each step. This is similar to the way 
+PX instruments operate. In such a case, omit the Miller indices in the sample group.
+
+A Eulerian cradle is assumed. If you do not have this, or you are using a rotation camera, feel free 
+to adapt the Nxsample group. 
+
+The definition assumes the measurement to be an omega - two-theta or omega scan of a given reflection. 
+
+This definition is fairly minimal and shall cater for standard data reduction needs. If your most favourite items are missing, feel free to add them. If you think something is missing which is required for standard
+data reduction tasks, please contact the maintainer of this definition.
+
+If you to choose to store PSD scans in separate files or separate entries, it is the users responsibility to process the data in the right order.
+
+NP is again the number of scan points  
+--&gt;
+&lt;NXroot&gt;
+  &lt;NXentry name=&quot;{Entry Name}&quot;&gt;+
+     &lt;title type=&quot;NX_CHAR&quot;&gt;{Title of the experiment}&lt;/title&gt;
+     &lt;start_time type=&quot;ISO8601&quot;&gt;{start time of measurement}
+     &lt;/start_time&gt;
+     &lt;NXinstrument name=&quot;instrument&quot;&gt;
+        &lt;NXcrystal name=&quot;{Name of Monochromator Crystal}&quot;&gt;
+       &lt;wavelength type=&quot;NX_FLOAT32&quot; units=&quot;Angstroems&quot;&gt;
+               {nominal wavelength selected}
+           &lt;/wavelength&gt;
+        &lt;/NXcrystal&gt;
+        &lt;NXdetector name=&quot;{Name of Detector}&quot;&gt;+
+       &lt;polar_angle type=&quot;NX_FLOAT32[np]&quot; axis=&quot;1&quot;&gt;
+             {Polar Angle, or two theta as an array with values for each scan point}
+           &lt;/polar_angle&gt;
+       &lt;data type=&quot;NX_INT32[np,xdim,ydim]&quot; signal=&quot;1&quot; axes=&quot;polar_angle&quot;&gt;
+          {The counts detected in the area detector, np is the 
+                number of scan points}
+       &lt;/data&gt;
+           &lt;distance units=&quot;mm&quot; type=&quot;NX_FLOAT&quot;&gt;
+             {distance to sample position}
+           &lt;/distance&gt;
+           &lt;pixel_offset_x units=&quot;mm&quot; type=&quot;NX_FLOAT[]&quot;&gt;
+            {offsets of each pixels centers x-value  to the detector center}
+           &lt;/pixel_offset_x&gt;
+           &lt;pixel_offset_y units=&quot;mm&quot; type=&quot;NX_FLOAT[]&quot;&gt;
+            {offsets of each pixels centers y-value  to the detector center}
+           &lt;/pixel_offset_y&gt;
+        &lt;/NXdetector&gt;
+     &lt;/NXinstrument&gt;
+     &lt;NXmonitor name=&quot;control&quot;&gt;
+        &lt;mode type=&quot;NX_CHAR&quot;&gt;monitor | timer&lt;/mode&gt;
+        &lt;preset type=&quot;NX_FLOAT32&quot;&gt;
+          {preset value for monitor or timer}
+        &lt;/preset&gt;
+        &lt;data type=&quot;NX_INT32[np]&quot;&gt;
+          {Monitor counts at each scan point}
+        &lt;/data&gt;
+     &lt;/NXmonitor&gt;
+    &lt;NXsample name=&quot;{Name of Sample&quot;&gt;
+     &lt;name type=&quot;NX_CHAR&quot;&gt;
+      {Descriptive name of sample}
+     &lt;/name&gt;
+     &lt;rotation_angle type=&quot;NX_FLOAT[np]&quot; units=&quot;degree&quot;&gt;
+        { Sample rotation, also known as omega }
+     &lt;/rotation&gt;
+     &lt;chi type=&quot;NX_FLOAT[np]&quot; units=&quot;degree&quot;&gt;
+        { chi angle }
+     &lt;/chi&gt;
+     &lt;phi type=&quot;NX_FLOAT[np]&quot; units=&quot;degree&quot;&gt;
+        { phi angle }
+     &lt;/phi&gt;
+     &lt;orientation_matrix type=&quot;NX_FLOAT32[3,3]&quot;&gt;
+       {Orientation matrix of single crystal according to conventions
+        established by Busing, Levy, 1967 }
+      &lt;/orientation_matrix&gt;
+      &lt;miller_indices type=&quot;NX_FLOAT[3]&quot;&gt;?
+       { Miller indices of the target reflection}
+      &lt;/miller_indices&gt;
+   &lt;/NXsample&gt;
+   &lt;NXdata name=&quot;{Name of Data Block}&quot;&gt;+
+      &lt;data type=&quot;NX_INT32[np,xdim,ydim]&quot; signal=&quot;1&quot;&gt;
+         {Link to detector counts in NXdetector}
+      &lt;/data&gt;
+      &lt;polar_angle type=&quot;NX_FLOAT32[np]&quot; axis=&quot;1&quot;&gt;
+         {Link to polar angle data in NXdetector}
+      &lt;/polar_angle&gt;
+      &lt;pixel_offset_x units=&quot;mm&quot; type=&quot;NX_FLOAT[]&quot;&gt;
+          {Link to pixel_offset_x in NXdetector}
+      &lt;/pixel_offset_x&gt;
+       &lt;pixel_offset_y units=&quot;mm&quot; type=&quot;NX_FLOAT[]&quot;&gt;
+          {Link to pixel_offset_y in NXdetector}
+      &lt;/pixel_offset_y&gt;
+   &lt;/NXdata&gt;
+  &lt;/NXentry&gt;
+&lt;/NXroot&gt;
+</pre></div>
+</div>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Mono XPSD</a><ul>
+<li><a class="reference internal" href="#monochromatic-single-crystal-diffractometer-with-position-sensitive-detector">Monochromatic Single Crystal Diffractometer with Position Sensitive Detector</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="MonoXSingle.html" title="MonoX Single"
+             >next</a></li>
+        <li class="right" >
+          <a href="Monochromatic_Neutron_and_X-ray_Single_Crystal_Diffractometer.html" title="Monochromatic Neutron and X-ray Single Crystal Diffractometer"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Mono XPSD</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

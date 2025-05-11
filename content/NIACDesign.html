@@ -1,0 +1,236 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>NIACDesign</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="NIACdoc" href="NIACdoc.html" />
+    <link rel="prev" title="NIACClasses" href="NIACClasses.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NIACdoc.html" title="NIACdoc"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="NIACClasses.html" title="NIACClasses"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NIACDesign</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="niacdesign">
+<h1>NIACDesign<a class="headerlink" href="#niacdesign" title="Link to this heading">¶</a></h1>
+<section id="niac-decisions-regarding-nexus-design-questions">
+<h2>NIAC Decisions regarding NeXus Design Questions<a class="headerlink" href="#niac-decisions-regarding-nexus-design-questions" title="Link to this heading">¶</a></h2>
+<p>This section records NIAC decisions regarding the design of NeXus. With
+design meaning all more general topics reagrding the layout of files,
+how things are done in NeXus, general rules and such.</p>
+<section id="general-rules">
+<h3>General Rules<a class="headerlink" href="#general-rules" title="Link to this heading">¶</a></h3>
+<p>NIAC 2003: Recommendation: use nxs extension for files nut h5, hdf, xml
+and others are prmitted</p>
+<p>NIAC 2003: Physical units will be stored in accordance with the udunits
+utility. Dates and times will be specified in ISO8601 format.</p>
+<p>NIAC 2003: Positions will be stored as effective (physical) positions.
+Motor offsets will be stored as attribute to the data.</p>
+<p>NIAC 2007: When a scan is stored, the scan variable sould be the slowest
+varying variable.</p>
+<p>NIAC 2010: offset/stride mechanism for describing data not in C storage
+order</p>
+<p>NIAC 2014: By default values are readback values. If a set value is
+required, store it with the values name with _set appended.</p>
+</section>
+<hr class="docutils" />
+<section id="base-classes-and-application-definition-general-rules">
+<h3>Base classes and application definition general Rules<a class="headerlink" href="#base-classes-and-application-definition-general-rules" title="Link to this heading">¶</a></h3>
+<p>NIAC 2003: Neither instrument definitions nor base classes will be
+subclassed</p>
+<p>NIAC 2003: When NXdetector is included in a file, there will be a
+one-to-one correspondence between NXdata and NXdetector.</p>
+<p>NIAC 2004: It is a violation of the NeXus standard to use NX in class
+names or fields unless authorized by NIAC</p>
+<p>NIAC 2004: Keep a NIAC version number aligned with the cvs-ID in the the
+header of each base class</p>
+<p>NIAC 2004: When linking, add a source attribute to the data item to
+indicate where it is linked too.</p>
+<p>NIAC 2004: Allow dimension scales to have arbitary dimensions in order
+to cope with non linear coordinate schemes</p>
+<p>NIAC 2005: Inheritance will be done in metaDTD only. This will be
+annotated with a tag conforms_to which contains a list of definitions
+this definitions also conforms too.</p>
+<p>NIAC 2005: characterisation measurements are to referenced by linking in
+another complete NXentry from another file through the external linking
+mechanism.</p>
+<p>NIAC 2008: ratified NXprocess for processed data. File structure plus
+associated groups and fields</p>
+<p>NIAC 2010: NXsubentry was agreed upon</p>
+<p>NIAC 2012: We allow application definitions to be flat and simple</p>
+<p>NIAC 2012: optional fields in application definitions endorsed.</p>
+<p>NIAC 2014: Optional fields in application definitions again ratified.</p>
+</section>
+<hr class="docutils" />
+<section id="coordinate-systems">
+<h3>Coordinate Systems<a class="headerlink" href="#coordinate-systems" title="Link to this heading">¶</a></h3>
+<p>NIAC 2003: A right handed coordinate system is designed with the
+positive z-axis along the beam when facing downstream.</p>
+<p>NIAC 2003: If a simplifed position is needed the entries will be
+polar_angle, azimuthal_angle and distance.</p>
+<p>NIAC 2004: Allow cylindrical and polar coordinates in NXtranslation</p>
+<p>NIAC 2004: every instrument component is to have a distance and
+NXgeometry group. Comment in 2015: this was decided but never
+implemented.</p>
+<p>NIAC 2007: axes follow McStas conventions.</p>
+<p>NIAC 2010: Added meridional_angle axis</p>
+<p>NIAC 2012: accepted CIF style coordinate descriptions with depends_on
+fields and depends_on, vector, transformation_type etc attributes</p>
+<p>NIAC 2014: NXgeometry marked as deprecated. CIF style coordinate
+descriptions are the preferred method.</p>
+</section>
+<hr class="docutils" />
+<section id="errors">
+<h3>Errors<a class="headerlink" href="#errors" title="Link to this heading">¶</a></h3>
+<p>NIAC 2004: Errors to a dataset will be named dataset_error.
+Alterntaively, the dataset can have an attribute, error_formula, which
+specifies how the error is calulated.</p>
+<p>NIAC 2010: Add an uncertainties attribute to any numeric array to
+describe errors</p>
+</section>
+<hr class="docutils" />
+<section id="axes">
+<h3>Axes<a class="headerlink" href="#axes" title="Link to this heading">¶</a></h3>
+<p>NIAC 2003: Two axes schemes: via the axes attribute on the data and via
+the axis=n and primary=n on the dimension scales</p>
+<p>NIAC 2003: Histograms can be specified either by having an extra element
+in the dimension scale or by a histogram_offset attribute on the
+dimension scale</p>
+<p>NIAC 2012: Move axes and signal attribute as attributes of the enclosing
+group</p>
+<p>NIAC 2014: Accepted axes and {axis}_indices group attributes for the
+description of axes in NXdata and other groups.</p>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">NIACDesign</a><ul>
+<li><a class="reference internal" href="#niac-decisions-regarding-nexus-design-questions">NIAC Decisions regarding NeXus Design Questions</a><ul>
+<li><a class="reference internal" href="#general-rules">General Rules</a></li>
+<li><a class="reference internal" href="#base-classes-and-application-definition-general-rules">Base classes and application definition general Rules</a></li>
+<li><a class="reference internal" href="#coordinate-systems">Coordinate Systems</a></li>
+<li><a class="reference internal" href="#errors">Errors</a></li>
+<li><a class="reference internal" href="#axes">Axes</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NIACdoc.html" title="NIACdoc"
+             >next</a></li>
+        <li class="right" >
+          <a href="NIACClasses.html" title="NIACClasses"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NIACDesign</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

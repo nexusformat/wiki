@@ -1,0 +1,342 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>NIAC2006 Scanning Group</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="NIAC2006 Synchrotron Group" href="NIAC2006_Synchrotron_Group.html" />
+    <link rel="prev" title="NIAC2006LBL RoadMap" href="NIAC2006LBL_RoadMap.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NIAC2006_Synchrotron_Group.html" title="NIAC2006 Synchrotron Group"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="NIAC2006LBL_RoadMap.html" title="NIAC2006LBL RoadMap"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NIAC2006 Scanning Group</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="niac2006-scanning-group">
+<h1>NIAC2006 Scanning Group<a class="headerlink" href="#niac2006-scanning-group" title="Link to this heading">¶</a></h1>
+<p>Definitions for some measurement classes:</p>
+<ul class="simple">
+<li><p>Triple axis definition:
+<a class="reference external" href="NXmonotas-NIAC2006.html" title="wikilink">NXmonotas-NIAC2006</a></p></li>
+<li><p>Reflectometry definition:
+<a class="reference external" href="NXmonoref-NIAC2006.html" title="wikilink">NXmonoref-NIAC2006</a></p></li>
+<li><p>TOF Reflectometry definition:
+<a class="reference external" href="NXtofnref-NIAC2006.html" title="wikilink">NXtofnref-NIAC2006</a></p></li>
+</ul>
+<section id="session-1">
+<h2>Session 1<a class="headerlink" href="#session-1" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Paul Kienzle (NIST)</p></li>
+<li><p>Nick Maliszewskyj (NIST)</p></li>
+<li><p>Stephen Cotrell (RAL)</p></li>
+<li><p>Ron Ghosh (ILL)</p></li>
+<li><p>Mark Konnecke (PSI)</p></li>
+<li><p>Laurent Lerusse(RAL)</p></li>
+<li><p>Stefan Flemming (HMI)</p></li>
+<li><p>Jens-Uwe Hoffmann (HMI)</p></li>
+</ul>
+<ol class="arabic simple">
+<li><p>A scan is a set of tuples.</p></li>
+</ol>
+<p>The intention is to associate intensity data with a collection of
+independent variables (e.g., motor positions, tunable physical
+quantities, etc.).</p>
+<p>Scan dimension is the slowest moving dimension, and is of length np
+(number of points).</p>
+<p>Scans can be an extension to “sit and count” measurements and may
+therefore be applied to parametric studies (e.g., varying sample
+temperature).</p>
+<ol class="arabic simple" start="2">
+<li><p>Components of the tuples are stored in separate vectors in the
+instrument definition.</p></li>
+</ol>
+<p>Components/environment parameters which can change during the scan may
+have an additional scan dimension, as will monitors and detectors.
+Scalars become vectors.</p>
+<p>The vectors are stored where they usually are in the instrument
+definition, and linked to from NXdata. We rejected the idea of storing
+an arbitrary state in the instrument definition and storing the vectors
+in a new NXscan class even though this would mean that further entries
+in the file could link to the instrument rather than having to copy all
+the details of the instrument definition.</p>
+<ol class="arabic simple" start="3">
+<li><p>Multidetector systems have an additional dimension, nd the number of
+detectors.</p></li>
+</ol>
+<p>Some instruments have multiple moving detectors, e.g., separated by 5
+degrees. If these are fixed relative to each other and do not have an
+analyzer then the resulting bank of detectors can be treated as a linear
+detector with gaps and no special encoding is needed.</p>
+<p>If the detectors can move relative to each other, or if they have
+separate analyzers, then we need a bank of detectors and analyzers. The
+Q/HKL coordinates are defined in NXsample as usual, but there is an
+additional leading dimension of length nd for each detector angle and
+analyzer. Quantities that can be used as dimension scales must have the
+same dimensionality as the stored dataset (to make the association of
+intensity data with the other members of the measurement tuple).</p>
+<ol class="arabic simple" start="4">
+<li><p>Optional components such as polarizers and analyzers are listed.</p></li>
+</ol>
+<p>Optional components possibly appear on the particular class of
+instrument though not required. Software which claims to fully support
+e.g. monochromatic reflectometers should treat polarizers and analyzers
+correctly.</p>
+<ol class="arabic simple" start="5">
+<li><p>Sample contains optional momentum transfer |Q| for powder data
+samples with no HKL.</p></li>
+<li><p>Agree on the definition of sample.</p></li>
+<li><p>Agree to not included scan range metadata in the file.</p></li>
+</ol>
+<p>Applications which want to help the user select the appropriate runs
+will need to keep track of the range of data in the datafiles
+themselves. This may be part of the data catalogue at the institution
+(but not explicitly in the datafile?).</p>
+</section>
+<section id="session-2">
+<h2>Session 2<a class="headerlink" href="#session-2" title="Link to this heading">¶</a></h2>
+<p>Present: NickM, MarkK, PaulK, MatthiasD, Jens-UweH</p>
+<ul class="simple">
+<li><p>How are detectors associated with detector number in the bank of
+analyzer case? Or is there only one detector with an additional
+dimension? [option 2]</p></li>
+</ul>
+<!-- -->
+<ul class="simple">
+<li><p>Are we using names such as precollimator_analyzer or are we using
+NXgeometry.component_index instead to figure out where things are.
+Latter is slightly more work for reduction, but otherwise better.
+[answer: use symbolic name in NXdata and link to appropriate
+element for varying; can reconstruct order from geometry;
+NXgeometry.component_index is required for each component; names of
+particular components are part of the definition, matching the names
+in the NXdata]</p></li>
+</ul>
+<!-- -->
+<ul class="simple">
+<li><p>What happens with multiple beam paths? [ignore this issue for now
+since we invented analyzer banks]</p></li>
+</ul>
+<!-- -->
+<ul class="simple">
+<li><p>How do we know it is a scan?</p></li>
+<li><p>What about scan intent, such as spec/back/slit and ++/–
+polarization?</p></li>
+<li><p>Where to store start time for each measurement?</p>
+<ul>
+<li><p>NXmonitor? Okay.</p></li>
+<li><p>NXdata? Data doesn’t otherwise contain data.</p></li>
+<li><p>NXentry? Okay.</p></li>
+<li><p>New NXscan class? Too complex, unless needed for other things.</p></li>
+<li><p>NXlog? No synchronization with scan points in general.</p></li>
+<li><p>NXsample? Maybe.</p></li>
+</ul>
+</li>
+</ul>
+<!-- -->
+<ul class="simple">
+<li><p>Definition should list fields and maybe attributes needed for
+standard reduction for that instrument class; others should be
+dropped from definition. [agreed elsewhere]</p></li>
+</ul>
+<!-- -->
+<ul class="simple">
+<li><p>Monitor and detector need efficiency and dead time correction
+information [out of scope]</p></li>
+</ul>
+<!-- -->
+<ul class="simple">
+<li><p>Need NXbeamstop for details such as shadow on the detector.</p></li>
+</ul>
+<!-- -->
+<ul class="simple">
+<li><p>Polarizer/flipper: reduction only wants the angle of incidence on
+the sample, not things such as flipper current from which it is
+derived. Alternatively, use a scan intent tag such as
+polarization=++. [unresolved]</p></li>
+</ul>
+<!-- -->
+<ul class="simple">
+<li><p>Links to calibration files [out of scope]</p></li>
+</ul>
+<!-- -->
+<ul class="simple">
+<li><p>Partial reduction [out of scope]</p>
+<ul>
+<li><p>Summary data</p></li>
+<li><p>treated data</p></li>
+<li><p>excluded data</p></li>
+<li><p>resolution function</p></li>
+</ul>
+</li>
+</ul>
+<!-- -->
+<ul class="simple">
+<li><p>TAS [agreed]</p>
+<ul>
+<li><p>Fewer collimator types available than in NXcollimator…is this
+what we want? Similarly for filter. [use base component as is]</p></li>
+<li><p>HKL in sample rather than detector still feels wrong.
+[overruled]</p></li>
+<li><p>Add efficiency, deadtime and sampled portion to monitor
+description [out of scope]</p></li>
+<li><p>Polarization analysis:</p>
+<ul>
+<li><p>Store cross section measurements in separate NXentries
+[agreed]</p></li>
+<li><p>Need refinements to NXflipper, NXpolarizer base classes
+[deferred]</p></li>
+<li><p>Still need symbolic means of identifying which cross section
+is which [deferred]</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!-- -->
+<ul class="simple">
+<li><p>Reflectometry [good progress]</p>
+<ul>
+<li><p>Generic scan for things which are not reflectometry
+measurements? [out of scope]</p></li>
+<li><p>How to link to background and slit scan? [deferred]</p></li>
+<li><p>NXcrystal is missing wavelength spread [calculate from mosaic]</p></li>
+<li><p>How to store slits; how to reference in-plane and out of plane
+slits? [box or slit; need ‘vertical/horizontal slit’ shapes in
+NXshape]</p></li>
+<li><p>Raw counts may be meaningless without normalization.
+[deferred]</p></li>
+<li><p>Combine spec, back, slit, rock for all +- polarization in one
+entry? Or use separate entries? [separate]</p></li>
+<li><p>Scan start times [in NXlog called ‘timer’]</p></li>
+</ul>
+</li>
+</ul>
+<p>Note: Paul Kienzle added wavelength_spread back into NXcrystal. May
+want to simply list the formula for calculating it from other NXcrystal
+fields instead.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">NIAC2006 Scanning Group</a><ul>
+<li><a class="reference internal" href="#session-1">Session 1</a></li>
+<li><a class="reference internal" href="#session-2">Session 2</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NIAC2006_Synchrotron_Group.html" title="NIAC2006 Synchrotron Group"
+             >next</a></li>
+        <li class="right" >
+          <a href="NIAC2006LBL_RoadMap.html" title="NIAC2006LBL RoadMap"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NIAC2006 Scanning Group</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

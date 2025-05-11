@@ -1,0 +1,108 @@
+---
+title: NIAC2010
+permalink: NIAC2010.html
+layout: wiki
+---
+NIAC2010
+========
+
+Planning is currently underway for the NIAC / Code Camp meeting in 2010.
+This is being organised to take place at the [SNS, ORNL,
+USA](http://neutrons.ornl.gov/) and occur prior to the [NOBUGS
+meeting](https://www.nobugsconference.org/).
+
+Currently the tentative dates are:
+
+-   [NeXus code camp](NIAC2010_CodeCamp.html "wikilink") -&gt; 5th / 6th
+    October 2010
+-   NIAC Meeting -&gt; 7th / 8th October 2010
+-   NeXus workshop -&gt; 10th October
+-   [NoBugs meeting](https://www.nobugsconference.org/) -&gt;
+    11th-13th October
+
+Location
+--------
+
+Spallation Neutron Source, SNS Building 8600 (Main Office Block) C-152
+(Ground Floor)
+
+Accommodations and logistics
+----------------------------
+
+Recommended hotels:
+
+-   [Double
+    Tree](http://doubletree1.hilton.com/en_US/dt/hotel/ORKDTDT-Doubletree-Hotel-Oak-Ridge-Tennessee/index.do)
+
+If you are attending the NOBUGS conference the following week the plan
+is for people to stay in Oak Ridge for October 7-8 and move to the [Park
+Vista](http://doubletree1.hilton.com/en_US/dt/hotel/GKTPVDT-The-Park-Vista-Gatlinburg-a-Doubletree-Hotel-Tennessee/index.do)
+in Gatlinburg during the weekend. We will help facilitate ride sharing
+during the meeting to make the move easier for everybody.
+
+NIAC List of Attendees
+----------------------
+
+**Do not write in this table. This is to indicate the list of people we
+know are attending**
+
+If you want to attend please email either [Stuart
+Campbell] (Stuart_Campbell.html "wikilink") or [Peter
+Peterson] (Peter_Peterson.html "wikilink").
+
+***It is important that if entering the US on a Visa Waiver to ensure
+that you get a VWB (Visa Waiver Business) and NOT a tourist one.***  
+It is likely that you will not be allowed into ORNL with a Tourist
+Visa!  
+
+| Name                                                      | Company/Institute                                   | ORNL Pass status | NOBUGS? |
+|-----------------------------------------------------------|-----------------------------------------------------|------------------|---------|
+| [Frederick Akeroyd] (Freddie_Akeroyd.html "wikilink")    | | ISIS Facility, Rutherford Appleton Laboratory, UK | | approved       | YES     |
+| [Stuart Campbell] (Stuart_Campbell.html "wikilink")      | | ORNL, USA                                         | | approved       | YES     |
+| Peter Chang                                               | | Diamond Light Source, UK                          | | approved       | YES     |
+| [Steve Cottrell] (Steve_Cottrell.html "wikilink")        | | Rutherford Appleton Laboratory, UK                | | approved       | YES     |
+| Matthias Drochner                                         | | Julich, Germany                                   | | approved       | YES     |
+| [Nick Hauser] (Nick_Hauser.html "wikilink")              | | ANSTO, Australia                                  | | approved       | YES     |
+| [ Jens-Uwe Hoffmann] (Jens-Uwe_Hoffmann.html "wikilink") | | Helmholtz Zentrum Berlin (renamed HMI), Germany   | | approved       | YES     |
+| [Pete Jemian] (Pete_Jemian.html "wikilink")              | | APS, ANL, USA                                     | | approved       | **NO**  |
+| Suzuki Jiro                                               | | J-PARC, Japan                                     | | approved       | YES     |
+| [Mark Koennecke] (Mark_Koennecke.html "wikilink")        | | PSI, Switzerland                                  | | approved       | YES     |
+| [Ray Osborn] (Ray_Osborn.html "wikilink")                | | ANL, USA                                          | | approved       | **NO**  |
+| [Peter Peterson] (Peter_Peterson.html "wikilink")        | | ORNL, USA                                         | | approved       | YES     |
+| [Tobias Richter] (Tobias_Richter.html "wikilink")        | | Diamond Light Source, UK                          | | approved       | YES     |
+| Claude Saunders                                           | | APS, ANL, USA                                     | | approved       | YES     |
+| [Armando Sole] (Armando_Sole.html "wikilink")            | | European Synchrotron Radiation Facility, France   | | approved       | YES     |
+| Benjamin Watts                                            | | Swiss Light Source, Switzerland                   | | approved       | **NO**  |
+
+Planned Agenda
+--------------
+
+Agenda for NeXus International Advisory Committee Meeting
+
+**Thursday 7th October 2010**  
+9:00-9:15 Welcome  
+9:15-9:30 Review of minutes from last meeting  
+9:30- 9:45 Break  
+10:00-11:00 Election of Officers  
+11:00-12:00 Report from Code Camp  
+12:00-13:00 Lunch  
+13:00-14:00 Update on NAPI  
+14:00-15:00 Update on Definitions  
+15:00-15:15 Break  
+15:15-17:00 Doc Subgroup & Tech Committee Meetings  
+**Friday 8th October 2010**  
+9:00-9:30 Plan for Day  
+9:30-10:00 Break  
+10:00-12:00 Proposals for Definitions  
+12:00-13:00 Lunch  
+13:00-15:00 Further discussions on Definitions/NAPI  
+15:00-15:15 Break  
+15:15-16:00 Voting on proposed issues  
+16:00-17:00 Meeting Summary  
+
+Talks
+-----
+
+-   [Mark Koennecke](../pdfs/Mark_Nexus_NIAC_2010.pdf "wikilink")
+-   [Ray Osborn](../pdfs/NeXpy.pdf "wikilink")
+

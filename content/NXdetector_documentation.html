@@ -1,0 +1,189 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>NXdetector documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="NXdir" href="NXdir.html" />
+    <link rel="prev" title="NXdetector 2012 10" href="NXdetector_2012_10.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NXdir.html" title="NXdir"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="NXdetector_2012_10.html" title="NXdetector 2012 10"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NXdetector documentation</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="nxdetector-documentation">
+<h1>NXdetector documentation<a class="headerlink" href="#nxdetector-documentation" title="Link to this heading">¶</a></h1>
+<p>There are some flaws in the documentation of NXdetector which we need
+fix</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>NXdetector field</p></th>
+<th class="head"><p>comment</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>distance</p></td>
+<td><p>The distance field still requires documentation</p></td>
+</tr>
+<tr class="row-odd"><td><p>polar_angle</p></td>
+<td><p>I guess here we have a collision with the definition for the canonical ‘polar_angle’ in the user manual. Despite this, the reference manual still mentions that this field requires documentation.</p></td>
+</tr>
+<tr class="row-even"><td><p>azimuthal_angle</p></td>
+<td><p>Same as for polar_angle (collision with definition of canonical rotations as well as missing documentation)</p></td>
+</tr>
+<tr class="row-odd"><td><p>dead_time</p></td>
+<td><p>which dead time. What does term refer to?</p></td>
+</tr>
+<tr class="row-even"><td><p>count_time</p></td>
+<td><p>what do we mean with count time. Is this the time the each pixel was exposed to radiation (or particles)?</p></td>
+</tr>
+<tr class="row-odd"><td><p>acquisition_mode</p></td>
+<td><p>this is somehow confusing: what is the difference between ‘gated’ and ‘triggered’? Is ‘event’ not simply gated/triggered by an event? Why does this have its own mode?</p></td>
+</tr>
+<tr class="row-even"><td><p>angular_calibration</p></td>
+<td><p>we should definitely provide a formula here which explains how to use this numbers? Is a single number per pixel really enough?</p></td>
+</tr>
+<tr class="row-odd"><td><p>countrate_correction__applied</p></td>
+<td><p>are the two underscores a typo or have they been used intentionally? What exactly does this mean? Is this something we have introduced for DECTRIS?</p></td>
+</tr>
+<tr class="row-even"><td><p>frame_time</p></td>
+<td><p>here we should replace the term ‘exposure_time’ with ‘count_time’ to avoid confusion</p></td>
+</tr>
+<tr class="row-odd"><td><p>gain_setting</p></td>
+<td><p>I guess this is something we made for DECTRIS</p></td>
+</tr>
+</tbody>
+</table>
+<p>In order to make things easier we should somehow agree on a coherent
+naming scheme for time values (maybe provide some timing diagram).</p>
+<section id="update-01-2015">
+<h2>Update 01/2015<a class="headerlink" href="#update-01-2015" title="Link to this heading">¶</a></h2>
+<p>The fields listed here have proper documentation now. INHO, this really
+did not belong here but should rather have been an issue on github. But
+may be it did not get enough love there…..</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">NXdetector documentation</a><ul>
+<li><a class="reference internal" href="#update-01-2015">Update 01/2015</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NXdir.html" title="NXdir"
+             >next</a></li>
+        <li class="right" >
+          <a href="NXdetector_2012_10.html" title="NXdetector 2012 10"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NXdetector documentation</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

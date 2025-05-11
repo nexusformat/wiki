@@ -1,0 +1,195 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Containers and Inheritance</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Design Issues" href="Design_Issues.html" />
+    <link rel="prev" title="Connecting NXdata to NXdetector" href="Connecting_NXdata_to_NXdetector.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Design_Issues.html" title="Design Issues"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Connecting_NXdata_to_NXdetector.html" title="Connecting NXdata to NXdetector"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Containers and Inheritance</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="containers-and-inheritance">
+<h1>Containers and Inheritance<a class="headerlink" href="#containers-and-inheritance" title="Link to this heading">¶</a></h1>
+<p><em>Currently Under Construction - will be linked to the discussion page
+when reviewed and completed</em></p>
+<p>This page presents how neXus could benefit from an
+object/container-orientated approach to its user defined instrument
+definitions. By allowing base user definitions for components, datasets
+from from full datasets can be expressed as a sum of components.</p>
+<p>The XSLT standard and XQuery are methods that can possibly realize the
+extraction of data from one or more XML based neXus definition and
+create a new neXus XML document as desired.</p>
+<section id="relationship-between-inheritance-and-containers-in-a-nexus-dataset">
+<h2>Relationship between Inheritance and Containers in a neXus dataset<a class="headerlink" href="#relationship-between-inheritance-and-containers-in-a-nexus-dataset" title="Link to this heading">¶</a></h2>
+<p><img alt="" src="../_images/COP_neXus_slide1.PNG" /></p>
+<p>“Instrument” definitions can be assembled in a multitude of ways using
+the neXus predefined classes. An instrument definitions are most often
+is a superset of discrete components, with additional information which
+that is general to all instrument definitions. The data contained in a
+data set can be described via the “has a”/“is a” relationship
+encountered in object orientated programming.</p>
+<p>Traits that are inherent to all data sets in the neXus format can be
+inherited from a parent class. This would be an “is a” relation, as the
+data set “is a” set of neXus data, and has such properties.</p>
+<p>A dataset is also a container, and thus contain small data subsets,
+usually base neXus classes. This is a “has a” relationship, as a
+container “has a” data subset.</p>
+<hr class="docutils" />
+<p><img alt="" src="../_images/COP_neXus_slide2.PNG" /></p>
+<p>What is of interest in this discussion is the “has a” relationship. A
+parent data set acts as a container for many simpler datasets. If these
+“subsets” are specified independently, a greater deal of compatibility
+and standardization can be achieved between software written by vendors,
+scientists and engineers working on different aspects of a project.</p>
+<p>XLST, Xquery, or a similar XML transform standard can be used to realize
+this type of conversion in practice.</p>
+</section>
+<section id="user-defined-component-types-can-be-shared-amoung-multiple-experiment-types">
+<h2>user-defined component types can be shared amoung multiple experiment types<a class="headerlink" href="#user-defined-component-types-can-be-shared-amoung-multiple-experiment-types" title="Link to this heading">¶</a></h2>
+<p><img alt="" src="../_images/COP_neXus_slide3.PNG" /></p>
+<p>Independent component definitions allow vastly different experiments to
+share common equipment or data, without having to redefine the data type
+for each experiment. An equpiment or data library can have, in itself, a
+standard format.</p>
+</section>
+<section id="user-defined-components-can-be-inherited-by-more-specific-user-components">
+<h2>User-defined components can be inherited by more specific user components<a class="headerlink" href="#user-defined-components-can-be-inherited-by-more-specific-user-components" title="Link to this heading">¶</a></h2>
+<p><img alt="" src="../_images/COP_neXus_slide4.PNG" /></p>
+<p>Should additional data be needed for a more complicated equipment or
+data library, it can inherent the previous definition, and add
+additional information. This allows experiments that only require a
+basic component definition to also use datasets that have additional
+data appended.</p>
+<p>–[Greg Sonnenfeld] (Greg_Sonnenfeld.html “wikilink”) 15:22, 27 January
+2007 (UTC)</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Containers and Inheritance</a><ul>
+<li><a class="reference internal" href="#relationship-between-inheritance-and-containers-in-a-nexus-dataset">Relationship between Inheritance and Containers in a neXus dataset</a></li>
+<li><a class="reference internal" href="#user-defined-component-types-can-be-shared-amoung-multiple-experiment-types">user-defined component types can be shared amoung multiple experiment types</a></li>
+<li><a class="reference internal" href="#user-defined-components-can-be-inherited-by-more-specific-user-components">User-defined components can be inherited by more specific user components</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Design_Issues.html" title="Design Issues"
+             >next</a></li>
+        <li class="right" >
+          <a href="Connecting_NXdata_to_NXdetector.html" title="Connecting NXdata to NXdetector"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Containers and Inheritance</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

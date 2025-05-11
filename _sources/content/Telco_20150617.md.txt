@@ -1,0 +1,122 @@
+---
+title: Telco 20150617
+permalink: Telco_20150617.html
+layout: wiki
+---
+Telco 20150617
+==============
+
+Date
+----
+
+Wednesday, 17th June, 12:00 BST
+
+Hangout Link:
+<https://plus.google.com/hangouts/_/g2e2ayoq57srpi2g4zv2c2ewbua>
+
+Agenda
+------
+
+-   Welcome
+
+<!-- -->
+
+-   NXmx update
+    -   Fill values (NaN)
+    -   start and end angles for shutterless scans
+    -   depends\_on with relative path
+-   Documentation update
+    -   detector origin (1st pixel in stream)
+    -   anything else in need of work? -- look at issues
+-   Plan of future activities (code camp and strategic)
+    -   Validation
+-   code (napi) release update
+-   example files status and plea for added or updated files
+-   Community engagement
+    -   LCLS
+    -   Dectris
+    -   ECM
+-   Next meeting
+-   AOB
+    -   Axis attributes in NXdetector e.g
+
+`   Fluo : NXdetector`  
+`       @signal = data`  
+`       @axes = (,,,energy)`  
+`       @energy_indices = (3)`  
+`       data[10,20,180,1024]`  
+`           @interpretation = spectrum`  
+`       energy[1024]`  
+`           @units = keV`
+
+Minutes
+-------
+
+Present: MK, MB, EW, HJB, TSR, AF (Dectris, from holiday!)
+
+NXmx, fill values
+
+  
+  
+This started from an Dectris Eiger problem of having to write fields
+without knowing values. Those are them meant to be filled in by beamline
+acquisition system. Since as far as NeXus is concerned a fully populated
+file should leave the facility, this is nothing we have a strong opinion
+about. Writing an empty array (dimension 0) would work.
+
+NXmx, shutterless
+
+  
+  
+All resolved to everyone's satisfaction.
+
+NXmx, relative depends\_on path
+
+  
+  
+Not deemed required, for the moment.
+
+Documentation, detector pixel origin
+
+  
+  
+Eugen volunteered to have a look at this. Potentially including detector
+modules and related “new” areas.
+
+Documentation, general review of tickets
+
+  
+  
+Quite a number of tickets are open on the definitions repository, some
+of them very old. A good number of them could potentially be closed.
+Looking through them and at least commenting would help the next person
+make a decision. Action on all.
+
+Plans for Code Camp an future
+
+  
+  
+Eugen will advertise Code Camp on the mailing list shortly. Please have
+a think about ideas to tackle there and what we need to do
+strategically. Ideas so far include validation, NAPI, features.
+
+example file repository
+
+  
+  
+Is in need of new files. This would help developers to find bugs in
+their code and develop common data extraction methods. Maybe a github
+repo is not the best choice, for data size reasons. Might investigate at
+the code camp.
+
+Next meeting will be [Telco 20150630](Telco_20150630.html "wikilink")
+
+AOB
+
+  
+  
+Mark Basham suggests a scheme to attribute detector axes (like for an
+energy dispersive detector) analogue to NXdata. Not all detector must
+have an NXdata, otherwise that could be used directly. MK asserts that
+this looks good and we certainly should not have two schemes (NXdata vs
+NXdetector) to assign axes. Will revisit that at next telco.

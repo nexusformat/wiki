@@ -1,0 +1,229 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Telco 20221026</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Telco 20221202" href="Telco_20221202.html" />
+    <link rel="prev" title="Telco 20220824" href="Telco_20220824.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20221202.html" title="Telco 20221202"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Telco_20220824.html" title="Telco 20220824"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" accesskey="U">Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20221026</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="telco-20221026">
+<h1>Telco 20221026<a class="headerlink" href="#telco-20221026" title="Link to this heading">¶</a></h1>
+<section id="date">
+<h2>Date<a class="headerlink" href="#date" title="Link to this heading">¶</a></h2>
+<p>Wednesday, 26th October, 15:00 UTC</p>
+</section>
+<section id="connect">
+<h2>Connect<a class="headerlink" href="#connect" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>ZOOM VC link: <a class="reference external" href="https://psich.zoom.us/j/67122081089?pwd=RkpvTEo5NFYrRVd3ZDJ4VmhRbExvUT09">https://psich.zoom.us/j/67122081089?pwd=RkpvTEo5NFYrRVd3ZDJ4VmhRbExvUT09</a></p></li>
+<li><p>Meeting ID: 671 2208 1089</p></li>
+<li><p>Passcode: nexus</p></li>
+</ul>
+</section>
+<section id="agenda">
+<h2>Agenda<a class="headerlink" href="#agenda" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Welcome guests and new members</p></li>
+<li><p>Discuss how NeXus operates and answer questions from LNLS synchrotron in Brazil</p></li>
+<li><p>Review previous meeting minutes and actions: <a class="reference external" href="Telco_20220824.html">August Telco</a></p></li>
+<li><p>Review the <a class="reference external" href="https://www.nexusformat.org/NIAC2022.html">NIAC meeting</a></p></li>
+<li><p>Recent issues on Github (especially those labelled with “telco”)</p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/nexusformat/definitions/issues?q=is%3Aopen+is%3Aissue">definitions</a></p></li>
+<li><p><a class="reference external" href="https://github.com/nexusformat/code/issues?q=is%3Aopen+is%3Aissue">code</a></p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="present">
+<h2>Present<a class="headerlink" href="#present" title="Link to this heading">¶</a></h2>
+</section>
+<section id="minutes">
+<h2>Minutes<a class="headerlink" href="#minutes" title="Link to this heading">¶</a></h2>
+<ul>
+<li><p>Welcome guests and new members
+New members:</p>
+<ul class="simple">
+<li><p>Balazs Bago, ELI-ALPS</p></li>
+<li><p>Tom Caswell, NSLSII</p></li>
+</ul>
+<p>LNLS guests</p>
+</li>
+<li><p>Discuss how NeXus operates and answer questions from LNLS synchrotron in Brazil</p>
+<ul class="simple">
+<li><p>How to add new definitions (e.g. IR beamline)?<br />
+nyaml2nxdl (<a class="reference external" href="https://github.com/nomad-coe/nomad-parser-nexus">https://github.com/nomad-coe/nomad-parser-nexus</a>)</p></li>
+<li><p>How can NeXus be compatible to DAQ (field names)?<br />
+a) create NeXus master file and use multiple files if needed via hdf5 links<br />
+b) 3-slider intro: <a class="reference external" href="https://anl.box.com/s/cbaohim9nhnmmy0a3lwsd963if01z641">https://anl.box.com/s/cbaohim9nhnmmy0a3lwsd963if01z641</a><br />
+c) standardized names allows interoperability, but<br />
+d) any other data can also be pushed to the data file</p></li>
+<li><p>How NeXus can be compatible to cataloguing solutions, like SciCAT<br />
+e.g. ingest feeds data from NeXus to ICat (e.g. using h5py)<br />
+only metadata for search is duplicated</p></li>
+<li><p>How to avoid data duplications (metadata stored in NeXus, but also in EPICS archiver)<br />
+archiver is for engineers and beamline staff, while NeXus is for scientists and users</p></li>
+<li><p>What NIAC is for?<br />
+definitions (application, base, contributed)<br />
+validator and tools (C and python for hdf5)</p></li>
+<li><p>Is it possible to deal with multi-dimensional datasets, like time resolved 5D datasets?<br />
+yes, in the contributed definitions MPES (<a class="reference external" href="https://fairmat-experimental.github.io/nexus-fairmat-proposal/">https://fairmat-experimental.github.io/nexus-fairmat-proposal/</a>), we easily work with 6 dimensions. H5Web (<a class="reference external" href="https://h5web.panosc.eu/">https://h5web.panosc.eu/</a>) can be used to display 2D slides and use sliders to walk through the full datasets</p></li>
+<li><p>SIRIUS status<br />
+SIRIUS is using hdf5 and some harminisation between beamlines just started. Next step can be the adaptation of NeXus base classes wherever applicable and then adding new ones if needed. Similarly Application Definitions can be used.</p></li>
+</ul>
+</li>
+<li><p>POSTPONED Items:</p>
+<ul class="simple">
+<li><p>Review previous meeting minutes and actions: August Telco</p></li>
+<li><p>Review the NIAC meeting</p></li>
+<li><p>Recent issues on Github (especially those labelled with “telco”)</p>
+<ul>
+<li><p>definitions</p></li>
+<li><p>code</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="november-telco">
+<h2>November Telco<a class="headerlink" href="#november-telco" title="Link to this heading">¶</a></h2>
+<p>Please help to choose the date by responding to the poll by November 10th (<a class="reference external" href="https://doodle.com/meeting/participate/id/bk8wg7Jd">https://doodle.com/meeting/participate/id/bk8wg7Jd</a>). We are planning to hold the telco in the regular slot of UTC 15:00. Check your local time to avoid scheduling surprises!</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Telco 20221026</a><ul>
+<li><a class="reference internal" href="#date">Date</a></li>
+<li><a class="reference internal" href="#connect">Connect</a></li>
+<li><a class="reference internal" href="#agenda">Agenda</a></li>
+<li><a class="reference internal" href="#present">Present</a></li>
+<li><a class="reference internal" href="#minutes">Minutes</a></li>
+<li><a class="reference internal" href="#november-telco">November Telco</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20221202.html" title="Telco 20221202"
+             >next</a></li>
+        <li class="right" >
+          <a href="Telco_20220824.html" title="Telco 20220824"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" >Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20221026</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,215 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>NXbrowse</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="NXdetector 2012 10" href="NXdetector_2012_10.html" />
+    <link rel="prev" title="NXbrowse.f90" href="NXbrowse.f90.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NXdetector_2012_10.html" title="NXdetector 2012 10"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="NXbrowse.f90.html" title="NXbrowse.f90"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NXbrowse</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="nxbrowse">
+<h1>NXbrowse<a class="headerlink" href="#nxbrowse" title="Link to this heading">¶</a></h1>
+<p>NXbrowse is a terminal browser that provides a simple command-line
+interface to view the contents of NeXus files. Datasets within the NeXus
+file can be dumped to an ASCII file.</p>
+<p>If you have any questions/comments/bug reports email <a class="reference external" href="mailto:ROsborn&#37;&#52;&#48;anl&#46;gov">Ray
+Osborn</a>.</p>
+<section id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Link to this heading">¶</a></h2>
+<p>A simple terminal browser written in ISO C (replacing the earlier
+version in Fortran 90). When compiled and linked with the NeXus API, it
+can be run interactively to list the directories of each group within a
+NeXus file. If used from a terminal (and installed in the default PATH
+[u**x] or defined as a symbol [VMS]), type</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>nxbrowse &lt;file_name&gt;
+</pre></div>
+</div>
+<p>If no file name is given, the user is prompted for the file to be
+opened. NXbrowse then lists the global attributes and prompts for
+further commands. The following commands may be given in upper or lower
+case (although the group and data names are case sensitive) :</p>
+<table>
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Command</p></th>
+<th><p>Command Definition</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>dir</p></td>
+<td><p>List the contents of the currently open group.</p></td>
+</tr>
+<tr class="even">
+<td><p>open <group></p></td>
+<td><p>Open the specified group.</p></td>
+</tr>
+<tr class="odd">
+<td><p>read &lt;data[i,j,...]&gt;</p></td>
+<td><p>Read the contents of the specified data set. If no array indices are specified, the first three elements of the data set are output along with all its attributes. If an array index is specified, only that element is output. Note that the order of the array indices follows the C-convention (the last index is the most-rapidly varying).</p></td>
+</tr>
+<tr class="even">
+<td><p>dump <data> <file></p></td>
+<td><p>Write the entire contents of the specified data set to the specified ASCII file.</p></td>
+</tr>
+<tr class="odd">
+<td><p>byteaschar</p></td>
+<td><p>Toggle the output format for NX_INT8 and NX_UINT8 variables. By default, they are output as integers, but after giving this command, they are printed as character strings.</p></td>
+</tr>
+<tr class="even">
+<td><p>close</p></td>
+<td><p>Close the currently open group. At the root level of the NeXus file, this command is ignored.</p></td>
+</tr>
+<tr class="odd">
+<td><p>exit, quit</p></td>
+<td><p>Exit the program.</p></td>
+</tr>
+<tr class="even">
+<td><p>help</p></td>
+<td><p>List the available commands.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Link to this heading">¶</a></h2>
+<p>NXbrowse is now installed as part of the standard NeXus installation.
+See the [NeXus Downloads section] (Application_Program_Interface.html#Downloads “wikilink”) for more
+details.</p>
+<p>If you encounter any bugs, please report them using the
+[NeXus bugzilla] (Application_Program_Interface.html#Reporting_Bugs_in_the_NeXus_API “wikilink”).</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">NXbrowse</a><ul>
+<li><a class="reference internal" href="#usage">Usage</a></li>
+<li><a class="reference internal" href="#installation">Installation</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NXdetector_2012_10.html" title="NXdetector 2012 10"
+             >next</a></li>
+        <li class="right" >
+          <a href="NXbrowse.f90.html" title="NXbrowse.f90"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NXbrowse</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

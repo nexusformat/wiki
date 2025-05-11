@@ -1,0 +1,212 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Telco 20240515</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Telco 20240626" href="Telco_20240626.html" />
+    <link rel="prev" title="Telco 20240415" href="Telco_20240415.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20240626.html" title="Telco 20240626"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Telco_20240415.html" title="Telco 20240415"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" accesskey="U">Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20240515</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="telco-20240515">
+<h1>Telco 20240515<a class="headerlink" href="#telco-20240515" title="Link to this heading">¶</a></h1>
+<section id="date">
+<h2>Date<a class="headerlink" href="#date" title="Link to this heading">¶</a></h2>
+<p>Wednesday, 15th May, 15:00 UTC</p>
+</section>
+<section id="connect">
+<h2>Connect<a class="headerlink" href="#connect" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>ZOOM VC link: <a class="reference external" href="https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09">https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09</a></p></li>
+<li><p>Meeting ID: 652 7209 1306</p></li>
+<li><p>Passcode: nexus</p></li>
+</ul>
+</section>
+<section id="agenda">
+<h2>Agenda<a class="headerlink" href="#agenda" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>issues</p></li>
+<li><p>contributed defintions</p></li>
+</ul>
+</section>
+<section id="present">
+<h2>Present<a class="headerlink" href="#present" title="Link to this heading">¶</a></h2>
+<p>AB, SB, HB, BW, RB, PJ, WdN, RO, PC, FS, CZ, BB, PM + Arnold Paecklar (ILL)</p>
+</section>
+<section id="minutes">
+<h2>Minutes<a class="headerlink" href="#minutes" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>NOBUGS - registration is open; NIAC meeting attendence needs registration only for in person participation</p>
+<ul>
+<li><p>NIAC2024 webpage: AB starts putting it up, WdN will finalise</p></li>
+<li><p>schedule: similar to that of 2022</p></li>
+</ul>
+</li>
+<li><p>NXstress - <a class="reference external" href="https://github.com/nexusformat/definitions/pull/1039">https://github.com/nexusformat/definitions/pull/1039</a></p>
+<ul>
+<li><p>WdN: easystress consortium is proposing it:
+analysis: diffraction data / ToF / … -&gt; peak fit -&gt; reflection -&gt; strain -&gt; stress (geometry is important)
+beam intensity_profile: is specialised NXbeam</p></li>
+<li><p>AB/AP: description of the scientific use case</p></li>
+<li><p>RO: why peak parameters are inside NXdata</p></li>
+<li><p>WdN: plotable, but not necessary has to be NXdata</p></li>
+<li><p>SB: please note our coming proposal: <a class="reference external" href="https://fairmat-nfdi.github.io/nexus_definitions/classes/contributed_definitions/NXpeak.html#nxpeak">https://fairmat-nfdi.github.io/nexus_definitions/classes/contributed_definitions/NXpeak.html#nxpeak</a></p></li>
+<li><p>RO: there is also a convention to map lmfit parameters inside NXprocess</p></li>
+<li><p>WdN: fit results for all peaks</p></li>
+<li><p>SB: we should talk to see if we can align with our NXpeak. Layout is nice that it does not suggest a group for each peak</p></li>
+<li><p>PJ: peak parameters could be described by NXparameters</p></li>
+<li><p>SB: NXcollection: it is not validated</p></li>
+<li><p>PJ: use NXparameters instead. Note that /NXparameters/term should be TERM (and NX_ANY not NX_CHAR)</p></li>
+<li><p>AB: let us set up a PR. Who can review?</p></li>
+<li><p>SB: I can represent FAIRmat developpers</p></li>
+</ul>
+</li>
+<li><p>Contributed definitions - <a class="reference external" href="https://github.com/orgs/nexusformat/projects/4/views/1">https://github.com/orgs/nexusformat/projects/4/views/1</a></p>
+<ul>
+<li><p>BW: non-fairmat contributions are collected
+NXcxi_ptycho: simplistic, but responds to community need -&gt; AB: should go to a PR for standardisation
+NXcontainer: does not seem to be able to properly describe the use case -&gt; AB: also with others: let us assign proposers for better book-keeping and be able to assign responsibles and ownership</p></li>
+<li><p>SB: FAIRmat deinfitions are collected (2 groups: to be standardised; keep in incubation) -&gt; AB: make a project for those we want to put into the PR for Sept. Let us assign reviewers, so we can prepare the PR early enough.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="june-telco">
+<h2>June Telco<a class="headerlink" href="#june-telco" title="Link to this heading">¶</a></h2>
+<p>Please help to <a class="reference external" href="https://doodle.com/meeting/participate/id/bDJlL65e">choose the date by responding to the poll</a> by June 7. We are planning to hold the telco in the regular slot of UTC 15:00. Check your local time to avoid scheduling surprises!</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Telco 20240515</a><ul>
+<li><a class="reference internal" href="#date">Date</a></li>
+<li><a class="reference internal" href="#connect">Connect</a></li>
+<li><a class="reference internal" href="#agenda">Agenda</a></li>
+<li><a class="reference internal" href="#present">Present</a></li>
+<li><a class="reference internal" href="#minutes">Minutes</a></li>
+<li><a class="reference internal" href="#june-telco">June Telco</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20240626.html" title="Telco 20240626"
+             >next</a></li>
+        <li class="right" >
+          <a href="Telco_20240415.html" title="Telco 20240415"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" >Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20240515</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

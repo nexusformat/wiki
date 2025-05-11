@@ -1,0 +1,274 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Telco 20150909</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Telco 20151001" href="Telco_20151001.html" />
+    <link rel="prev" title="Telco 20150827" href="Telco_20150827.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20151001.html" title="Telco 20151001"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Telco_20150827.html" title="Telco 20150827"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" accesskey="U">Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20150909</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="telco-20150909">
+<h1>Telco 20150909<a class="headerlink" href="#telco-20150909" title="Link to this heading">¶</a></h1>
+<section id="date">
+<h2>Date<a class="headerlink" href="#date" title="Link to this heading">¶</a></h2>
+<p>Wednesday, 9th September, 8am PST, (5pm CEST, 4pm BST, 11am NY, 10am
+IL+TN)</p>
+<p>Hangout Link:
+<a class="reference external" href="https://plus.google.com/hangouts/_/g2e2ayoq57srpi2g4zv2c2ewbua">https://plus.google.com/hangouts/_/g2e2ayoq57srpi2g4zv2c2ewbua</a></p>
+</section>
+<section id="agenda">
+<h2>Agenda<a class="headerlink" href="#agenda" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Welcome</p></li>
+<li><p>Documentation build server status</p></li>
+<li><p>Generic proposal for spatial and other axes on nD Detectors:
+(slowest, slow, fast)</p></li>
+<li><p>Documentation update, summary of ticket review</p></li>
+<li><p>code (napi) cmake update and release timelime</p></li>
+<li><p>CXI format, status report.</p></li>
+<li><p>Next meeting</p></li>
+<li><p>AOB</p></li>
+</ul>
+</section>
+<section id="proposal-example">
+<h2>Proposal Example<a class="headerlink" href="#proposal-example" title="Link to this heading">¶</a></h2>
+<p>2d image + wave length</p>
+<p>raw detector [100,100,256]</p>
+<p>scan over theta and phi and temperature</p>
+<p>outer scan temperature</p>
+<p><code class="docutils literal notranslate"><span class="pre">32 </span></code><br />
+<code class="docutils literal notranslate"><span class="pre">65</span></code></p>
+<p>inner scan combined theta and phi</p>
+<p><code class="docutils literal notranslate"><span class="pre">-15 0.1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">-14 0.3</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">..  ..</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">14  8.4</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">15  8.7</span></code></p>
+<p><strong>File example:</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">entry</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       data</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">               &#64;signal=data</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">               &#64;axes=temperature,theta,firstdim,seconddim,wavelength</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">               &#64;theta_indices=0,1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">               &#64;/entry/sample/temperature_indices=0</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">               ...</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">               # this becomes a bit redunant</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">               ...</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">               data[2,31,100,100,256]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       instrument</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">               detector</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                       &#64;signal=data</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                       &#64;axes=/entry/sample/temperature,theta,firstdim,seconddim,wavelength</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                       &#64;/entry/sample/temperature_indices=0</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                       &#64;theta_indices=0,1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                       &#64;wavelength_indices=2,3,4</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                       &#64;firstdim_indices=2</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                       &#64;seconddim_indices=3</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                       &#64;thirddim_indices=2,3</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                       depends_on=/entry/instrument/detector/seconddim</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                       data[2,31,100,100,256]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                       wavelength[100,100,256]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                               &#64;units=nm</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                       firstdim[100]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                               &#64;depends_on=/entry/instrument/detector/transformations/arm</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                               &#64;transformation_type=translation</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                               &#64;vetcor=0.5,0.5,0</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                       thirddim[100,100]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                               &#64;depends_on=firstdim</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                               &#64;transformation_type=translation</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                               &#64;vetcor=0,0,1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                       seconddim[100]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                               &#64;depends_on=thirddim</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                               &#64;transformation_type=translation</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                               &#64;vetcor=0.5,-0.5,0</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                       transformations</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                               theta[2,31]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                                       &#64;depends_on=.</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                                       &#64;transformation_type=rotation</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                                       &#64;vetcor=1,0,0</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                               arm[1]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                                       &#64;depends_on=theta</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                                       &#64;transformation_type=translation</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                                       &#64;vetcor=0,0,1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       sample</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">               depends_on=/entry/sample/transformations/phi</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">               temperature[2]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                       units=C</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">               transformations</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                       phi[2,31]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                               &#64;depends_on=.</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                               &#64;transformation_type=rotation</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                               &#64;vetcor=0,1,0</span></code></p>
+<p>unsolved problem: pixel size</p>
+<p>relatively straight forward for event mode using pixels_ids instead of
+data</p>
+</section>
+<section id="minutes">
+<h2>Minutes<a class="headerlink" href="#minutes" title="Link to this heading">¶</a></h2>
+<p>Present: HJB, EW, MK, MB, TSR, FA</p>
+<ul class="simple">
+<li><p>Generic proposal for spatial and other axes on nD Detectors:
+(slowest, slow, fast) – new use cases</p></li>
+</ul>
+<p>See above. All reviewed this and found no obvious problems. For the next
+meeting people should gather use cases that might or might not work and
+report back.</p>
+<ul class="simple">
+<li><p>Buildserver hickup</p></li>
+</ul>
+<p>Freddie fixed the configuration and the build now completes
+successfully.</p>
+<ul class="simple">
+<li><p>Documentation update, summary of ticket review</p></li>
+</ul>
+<p>Number of tickets has been close as they had been completed a while
+back. <a class="reference external" href="https://github.com/nexusformat/definitions/issues/266">https://github.com/nexusformat/definitions/issues/266</a> appears to
+be in an unclear state and would benefit from investigation. Freddie
+volunteered.</p>
+<ul class="simple">
+<li><p>code (napi) cmake update and release timelime</p></li>
+</ul>
+<p>During the call Eugen made some progress on the test build.</p>
+<ul class="simple">
+<li><p>CXI format, status report.</p></li>
+</ul>
+<p>Mark B interested. Will contact people in Berkeley.</p>
+<ul class="simple">
+<li><p>Next meeting</p></li>
+</ul>
+<p><a class="reference external" href="Telco_20151001.html" title="wikilink">Telco 20151001</a></p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Telco 20150909</a><ul>
+<li><a class="reference internal" href="#date">Date</a></li>
+<li><a class="reference internal" href="#agenda">Agenda</a></li>
+<li><a class="reference internal" href="#proposal-example">Proposal Example</a></li>
+<li><a class="reference internal" href="#minutes">Minutes</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20151001.html" title="Telco 20151001"
+             >next</a></li>
+        <li class="right" >
+          <a href="Telco_20150827.html" title="Telco 20150827"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" >Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20150909</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

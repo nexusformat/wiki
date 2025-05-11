@@ -1,0 +1,488 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>IndirectDiscuss</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Indirect Time-of-Flight and Coordinates" href="Indirect_Time-of-Flight_and_Coordinates.html" />
+    <link rel="prev" title="How to avoid name clashes during future extensions of the Nexus standard" href="How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Indirect_Time-of-Flight_and_Coordinates.html" title="Indirect Time-of-Flight and Coordinates"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard.html" title="How to avoid name clashes during future extensions of the Nexus standard"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">IndirectDiscuss</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="indirectdiscuss">
+<h1>IndirectDiscuss<a class="headerlink" href="#indirectdiscuss" title="Link to this heading">¶</a></h1>
+<p>This file is from the old SWIKI and a starting point for discussion …
+the idea is to come up with a definition based on inheritance from other
+definitions such as <a class="reference external" href="TOFRaw.html" title="wikilink">TOFRaw</a></p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>NXtofnigs.xml
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!--
+URL: http://http://www.neutron.anl.gov:8080/NeXus/88
+Editor: Martyn Bull (m.j.bull@rl.ac.uk)
+Version 1: 2004-10-18
+$Id$
+
+Instrument Definition for a Time-of-flight Inverse Geometry Spectrometer
+
+One of the interesting things about this definition is the need to
+decouple notions of logical neutron path in describing the instrument,
+and instead to consider the instrument symmetry. This is a very 
+different approach to constructing instrument definition files for 
+Monte Carlo simulations.
+
+The result is that analysers, collimators and filters are considered 
+in much the same way as banks of detectors. This leads to an implied 
+order and relationship between &#39;arms&#39; of the instrument, which is 
+currently not handled by the definition. For example, it is implied 
+that the collimator in position 1 of the collimator bank array is 
+associated with the analyser in position 1 and the detector in 
+position 1. Currently, if these positions are mixed up, then it is 
+only by reconstructing the instrument via the (x,y,z) positions of 
+each element, and visually examining the result that any sense will be 
+made of the description.
+
+
+Primary spectrometer: refers to all components upstream of sample position
+Secondary spectrometer: refers to all components downstream of sample position
+
+      *   Element may occur 0 or more times
+      +   Element may occur one or more times (i.e. at least once)
+      ?   Element may occur 0 or one times (i.e. no more than once)
+
+--&gt;
+
+&lt;NXinstrument name=&quot;TOFNIGS&quot;&gt;
+    &lt;name short_name=&quot;{abbreviated name of instrument}&quot;&gt;{Name of instrument}&lt;/name&gt;
+    &lt;!-- I&#39;m guessing here that &quot;short_name&quot; is something like &#39;IRIS&#39;? --&gt;
+
+    &lt;NXsource name=&quot;{Name of facility}&quot;&gt;
+        &lt;NXgeometry name=&quot;geometry&quot;&gt;
+            &lt;NXtranslation name=&quot;?&quot;&gt;
+                &lt;value type=&quot;NX_FLOAT[3]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{(x,y,z) position coordinates relative to origin at sample position}?&lt;/value&gt;
+            &lt;/NXtranslation&gt;
+            &lt;NXorientation name=&quot;?&quot;&gt;
+                &lt;value type=&quot;NX_FLOAT[6]&quot;&gt;{The orientation information is stored as direction cosines relative to origin at sample position.}&lt;/value&gt;
+            &lt;/NXorientation&gt;
+            &lt;NXshape name=&quot;{name of shape}&quot;&gt;
+                &lt;shape type=&quot;NX_CHAR&quot;&gt;{&quot;nxcylinder&quot;, &quot;nxbox&quot;, &quot;nxsphere&quot;, ...}?&lt;/shape&gt;
+                &lt;size type=&quot;NX_FLOAT[nshapepar]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{ nshapepar dimensions for selected shape}?&lt;/size&gt;
+            &lt;/NXshape&gt;
+            &lt;component_index type=&quot;NX_INT&quot;&gt;{Sequential order of target along beam path}&lt;/component_index&gt;
+            &lt;description type=&quot;NX_CHAR&quot;&gt;{Optional description/label}?&lt;/description&gt;
+            &lt;component_index type=&quot;NX_INT&quot;&gt;{Sequential order of component along beam path}?&lt;/component_index&gt;
+            &lt;!--If using XML Schema instead would be able to denote that &#39;0&#39; cannot be selected for this component--&gt;
+        &lt;/NXgeometry&gt;
+    &lt;/NXsource&gt;
+
+    &lt;NXmoderator name=&quot;{Name of moderator}&quot;&gt;
+        &lt;NXgeometry name=&quot;geometry&quot;&gt;{&quot;Engineering&quot; position of moderator}?&lt;/NXgeometry&gt;
+        &lt;distance type=&quot;NX_FLOAT&quot;&gt;{Effective distance as seen by measuring radiation}?&lt;/distance&gt;
+            &lt;!-- 2004-10-18 MJB Distance from where? The sample or the target? Can this be combined with NXGeometry? What is engineering position?--&gt;
+        &lt;type type=&quot;NX_CHAR&quot;&gt;{ &quot;H20&quot; | &quot;D20&quot;  |  &quot;Liquid H2&quot;  | &quot;Liquid CH4&quot; | &quot;Liquid D2&quot; | &quot;Solid D2&quot; | &quot;C&quot; |&quot;Solid CH4&quot; | &quot;Solid H2&quot;}?&lt;/type&gt;
+        &lt;poison_depth type=&quot;NX_FLOAT&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{Poison depth}?&lt;/poison_depth&gt;
+        &lt;coupled type=&quot;NX_BOOLEAN&quot;&gt;{whether the moderator is coupled}?&lt;/coupled&gt;
+        &lt;poison_material type=&quot;NX_CHAR&quot;&gt;{ Gd | Cd |...}&lt;/poison_material&gt;
+        &lt;temperature type=&quot;NX_FLOAT&quot; Units=&quot;Kelvin&quot; exponent=&quot;?&quot;&gt;{average/nominal moderator temperature}&lt;/temperature&gt;
+        &lt;temperature_log type=&quot;NXlog&quot;&gt;{log file of moderator temperature}&lt;/temperature_log&gt;
+        &lt;pulse_shape type=&quot;NXdata&quot;&gt;{moderator pulse shape}&lt;/pulse_shape&gt;
+        &lt;!--Geometrical properties--&gt;
+        &lt;NXgeometry name=&quot;geometry&quot;&gt;{Position and orientation of moderator}?
+            &lt;NXtranslation name=&quot;?&quot;&gt;
+                &lt;value type=&quot;NX_FLOAT[3]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{(x,y,z) position coordinates relative to origin at sample position}?&lt;/value&gt;
+            &lt;/NXtranslation&gt;
+            &lt;NXorientation name=&quot;?&quot;&gt;
+                &lt;value type=&quot;NX_FLOAT[6]&quot;&gt;{The orientation information is stored as direction cosines relative to origin at sample position.}&lt;/value&gt;
+            &lt;/NXorientation&gt;
+            &lt;NXshape name=&quot;{name of shape}&quot;&gt;
+                &lt;shape type=&quot;NX_CHAR&quot;&gt;{&quot;nxcylinder&quot;, &quot;nxbox&quot;, &quot;nxsphere&quot;, ...}?&lt;/shape&gt;
+                &lt;size type=&quot;NX_FLOAT[nshapepar]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{ nshapepar dimensions for selected shape}?&lt;/size&gt;
+            &lt;/NXshape&gt;
+            &lt;component_index type=&quot;NX_INT&quot;&gt;{Sequential order of moderator along beam path}&lt;/component_index&gt;
+        &lt;/NXgeometry&gt;
+    &lt;/NXmoderator&gt;
+
+    &lt;!--Primary Spectrometer--&gt;
+    
+    &lt;NXGuide name=&quot;{Name of guide section}&quot;&gt;*
+        &lt;!--Guides in total or in segments thgrough to sample position; may be interspersed between other components - Check component index--&gt;
+        &lt;!--Can be nested for guides with multiple straight segments--&gt;
+        &lt;description type=&quot;NX_CHAR&quot;&gt;{}&lt;/description&gt; 
+        &lt;incident_angle type=&quot;NX_FLOAT&quot;&gt;{}&lt;/incident_angle&gt; 
+        &lt;reflectivity type=&quot;NXdata&quot;&gt;{Reflectivity as function of wavelength [nsurf,i]}&lt;/reflectivity&gt; 
+        &lt;bend_angle_x type=&quot;NX_FLOAT&quot;&gt;{}&lt;/bend_angle_x&gt; 
+        &lt;bend_angle_y type=&quot;NX_FLOAT&quot;&gt;{}&lt;/bend_angle_y&gt; 
+        &lt;interior_atmosphere type=&quot;NX_CHAR&quot;&gt;&quot;vacuum&quot;|&quot;helium&quot;|&quot;argon&quot;&lt;/interior_atmosphere&gt; 
+        &lt;external_material type=&quot;NX_CHAR&quot;&gt;{external material outside substrate}&lt;/external_material&gt; 
+        &lt;m_value type=&quot;NX_FLOAT[nsurf]&quot;&gt;{}&lt;/m_value&gt; 
+        &lt;substrate_material type=&quot;NX_FLOAT[nsurf]&quot;&gt;{}&lt;/substrate_material&gt; 
+        &lt;substrate_thickness type=&quot;NX_FLOAT[nsurf]&quot;&gt;{}&lt;/substrate_thickness&gt; 
+        &lt;coating_material type=&quot;NX_FLOAT[nsurf]&quot;&gt;{}&lt;/coating_material&gt; 
+        &lt;substrate_roughness type=&quot;NX_FLOAT[nsurf]&quot;&gt;{}&lt;/substrate_roughness&gt; 
+        &lt;coating_roughness type=&quot;NX_FLOAT[nsurf]&quot;&gt;{}&lt;/coating_roughness&gt; 
+        &lt;number_sections type=&quot;NX_INT&quot;&gt;{number of substrate sections}&lt;/number_sections&gt; 
+        &lt;!--Geometrical properties--&gt;
+        &lt;NXgeometry name=&quot;geometry&quot;&gt;{Position and orientation of guide}?
+            &lt;NXtranslation name=&quot;?&quot;&gt;
+                &lt;value type=&quot;NX_FLOAT[3]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{(x,y,z) position coordinates relative to origin at sample position}?&lt;/value&gt;
+            &lt;/NXtranslation&gt;
+            &lt;NXorientation name=&quot;?&quot;&gt;
+                &lt;value type=&quot;NX_FLOAT[6]&quot;&gt;{The orientation information is stored as direction cosines relative to origin at sample position.}&lt;/value&gt;
+            &lt;/NXorientation&gt;
+            &lt;NXshape name=&quot;{name of shape}&quot;&gt;
+                &lt;shape type=&quot;NX_CHAR&quot;&gt;{&quot;nxcylinder&quot;, &quot;nxbox&quot;, &quot;nxsphere&quot;, ...}?&lt;/shape&gt;
+                &lt;size type=&quot;NX_FLOAT[nshapepar]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{ nshapepar dimensions for selected shape}?&lt;/size&gt;
+            &lt;/NXshape&gt;
+            &lt;component_index type=&quot;NX_INT&quot;&gt;{Sequential order of guide along beam path}&lt;/component_index&gt;
+        &lt;/NXgeometry&gt;
+    &lt;/NXGuide&gt;
+
+
+    &lt;NXt0_chopper name=&quot;{Name of chopper}&quot;&gt;?
+        &lt;!-- 2004-10-18 MJB This is a T0 blocking chopper phased to the source to block fast neutron and gamma flash.
+                                          None of the existing chopper types meets this requirement. 
+                                          In fact, why don&#39;t we just have one chopper class?
+                                          We don&#39;t have different detector classes for different varieties.--&gt;
+    &lt;/NXt0_chopper&gt;
+    
+    &lt;NXdisk_chopper name=&quot;{Name of disk chopper}&quot;&gt;*
+        &lt;!--Some instruments can have multiple choppers in the incident beam--&gt;
+        &lt;type type=&quot;NX_CHAR&quot;&gt;{Chopper type single|contra_rotating_pair|synchro_pair}?&lt;/type&gt;
+        &lt;rotation_speed type=&quot;NX_FLOAT&quot; units=&quot;hertz&quot; exponent=&quot;?&quot;&gt;{chopper rotation speed}?&lt;/rotation_speed&gt;
+        &lt;slits type=&quot;NX_INT&quot;&gt;{Number of slits}&lt;/slits&gt;
+       &lt;slit_angle type=&quot;NX_FLOAT&quot; units=&quot;radians&quot; exponent=&quot;?&quot;&gt;{angular opening}&lt;/slit_angle&gt;
+       &lt;pair_separation type=&quot;NX_FLOAT&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt; {disc spacing in direction of beam}?&lt;/pair_separation&gt;
+       &lt;radius type=&quot;NX_FLOAT&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt; {radius to centre of slit}&lt;/radius&gt;
+       &lt;slit_height type=&quot;NX_FLOAT&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt; {total slit height}&lt;/slit_height&gt;
+       &lt;phase type=&quot;NX_FLOAT&quot; units=&quot;radians&quot; exponent=&quot;?&quot;&gt;{chopper phase angle}? &lt;/phase&gt;
+       &lt;ratio type=&quot;NX_INT&quot;&gt;{pulse reduction factor of this chopper in relation to other choppers/fastest pulse in the instrument}?&lt;/ratio&gt;
+       &lt;distance type=&quot;NX_FLOAT&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt; {Effective distance to the origin}?&lt;/distance&gt;
+       &lt;wavelength_range type=&quot;NX_FLOAT[2]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{low and high values of wavelength range transmitted}?&lt;/wavelength_range&gt;
+        &lt;!--Geometrical properties--&gt;
+        &lt;NXgeometry name=&quot;geometry&quot;&gt;{Position and orientation of chopper}?
+            &lt;NXtranslation name=&quot;?&quot;&gt;
+                &lt;value type=&quot;NX_FLOAT[3]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{(x,y,z) position coordinates relative to origin at sample position}?&lt;/value&gt;
+            &lt;/NXtranslation&gt;
+            &lt;NXorientation name=&quot;?&quot;&gt;
+                &lt;value type=&quot;NX_FLOAT[6]&quot;&gt;{The orientation information is stored as direction cosines relative to origin at sample position.}&lt;/value&gt;
+            &lt;/NXorientation&gt;
+            &lt;NXshape name=&quot;{name of shape}&quot;&gt;
+                &lt;shape type=&quot;NX_CHAR&quot;&gt;{&quot;nxcylinder&quot;, &quot;nxbox&quot;, &quot;nxsphere&quot;, ...}?&lt;/shape&gt;
+                &lt;size type=&quot;NX_FLOAT[nshapepar]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{ nshapepar dimensions for selected shape}?&lt;/size&gt;
+            &lt;/NXshape&gt;
+            &lt;component_index type=&quot;NX_INT&quot;&gt;{Sequential order of chopper along beam path}&lt;/component_index&gt;
+        &lt;/NXgeometry&gt;
+    &lt;/NXdisk_chopper&gt;   
+    
+    &lt;NXaperture name=&quot;{Name of beamline aperture}&quot;&gt;*        
+        &lt;material type=&quot;NX_CHAR&quot;&gt;{Absorbing material of the aperture}?&lt;/material&gt;
+        &lt;description type=&quot;NX_CHAR&quot;&gt;{Description of aperture}?&lt;/description&gt;
+        &lt;!--Geometrical properties--&gt;
+        &lt;NXgeometry name=&quot;geometry&quot;&gt;{Position and orientation of aperture}?
+            &lt;NXtranslation name=&quot;?&quot;&gt;
+                &lt;value type=&quot;NX_FLOAT[3]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{(x,y,z) position coordinates relative to origin at sample position}?&lt;/value&gt;
+            &lt;/NXtranslation&gt;
+            &lt;NXorientation name=&quot;?&quot;&gt;
+                &lt;value type=&quot;NX_FLOAT[6]&quot;&gt;{The orientation information is stored as direction cosines relative to origin at sample position.}&lt;/value&gt;
+            &lt;/NXorientation&gt;
+            &lt;NXshape name=&quot;{name of shape}&quot;&gt;
+                &lt;shape type=&quot;NX_CHAR&quot;&gt;{&quot;nxcylinder&quot;, &quot;nxbox&quot;, &quot;nxsphere&quot;, ...}?&lt;/shape&gt;
+                &lt;size type=&quot;NX_FLOAT[nshapepar]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{ nshapepar dimensions for selected shape}?&lt;/size&gt;
+            &lt;/NXshape&gt;
+            &lt;component_index type=&quot;NX_INT&quot;&gt;{Sequential order of aperture along beam path}&lt;/component_index&gt;
+        &lt;/NXgeometry&gt;
+    &lt;/NXaperture&gt;
+    
+    
+    &lt;NXmonitor name=&quot;{Name of monitor}&quot;&gt;+
+        &lt;type type=&quot;NX_CHAR&quot;&gt;&quot;Fission Chamber&quot;|&quot;Scintillator&quot;?&lt;/type&gt;
+        &lt;mode type=&quot;NX_CHAR&quot;&gt;&quot;monitor&quot;|&quot;timer&quot;?&lt;/mode&gt;
+        &lt;preset type=&quot;NX_FLOAT&quot;&gt;{preset value for time or monitor}?&lt;/preset&gt;
+        &lt;distance type=&quot;NX_FLOAT&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{Distance of monitor from sample position}?&lt;/distance&gt;
+        &lt;efficiency type=&quot;Nxdata&quot;&gt;{Monitor efficiency as a function of wavelength}?&lt;/efficiency&gt;
+        &lt;sampled_fraction type=&quot;NX_FLOAT&quot; units=&quot;dimensionless&quot;&gt;{Proportion of incident beam sampled by the monitor}&lt;/sampled_fraction&gt;
+        &lt;!--Geometrical properties--&gt;
+        &lt;NXgeometry name=&quot;geometry&quot;&gt;{Position and orientation of monitor}?
+            &lt;NXtranslation name=&quot;?&quot;&gt;
+                &lt;value type=&quot;NX_FLOAT[3]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{(x,y,z) position coordinates relative to origin at sample position}?&lt;/value&gt;
+            &lt;/NXtranslation&gt;
+            &lt;NXorientation name=&quot;?&quot;&gt;
+                &lt;value type=&quot;NX_FLOAT[6]&quot;&gt;{The orientation information is stored as direction cosines relative to origin at sample position.}&lt;/value&gt;
+            &lt;/NXorientation&gt;
+            &lt;NXshape name=&quot;{name of shape}&quot;&gt;
+                &lt;shape type=&quot;NX_CHAR&quot;&gt;{&quot;nxcylinder&quot;, &quot;nxbox&quot;, &quot;nxsphere&quot;, ...}?&lt;/shape&gt;
+                &lt;size type=&quot;NX_FLOAT[nshapepar]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{ nshapepar dimensions for selected shape}?&lt;/size&gt;
+            &lt;/NXshape&gt;
+            &lt;component_index type=&quot;NX_INT&quot;&gt;{Sequential order of monitor along beam path}&lt;/component_index&gt;
+        &lt;/NXgeometry&gt;
+    &lt;/NXmonitor&gt;
+
+    &lt;!-- Reference Sample position for clarity. Could be an isolated NXGeometry instance--&gt;
+    &lt;NXsample name=&quot;samplePosition&quot;&gt;
+        &lt;NXgeometry name=&quot;geometry&quot;&gt;
+            &lt;description type=&quot;NX_CHAR&quot;&gt;{Coordinate system reference marker}&lt;/description&gt;
+            &lt;component_index type=&quot;NX_INT&quot;&gt;0&lt;/component_index&gt;
+        &lt;/NXgeometry&gt;
+    &lt;/NXsample&gt;
+
+    &lt;!-- Secondary Spectrometer--&gt;
+    &lt;!-- In secondary spectrometer, index order is assumed to be consistently applied eg analyser 1 will be associated with detector 1, filter 1, collimator 1 etc. --&gt;
+    
+    &lt;NXfilter name=&quot;(Name of filter bank}&quot;&gt;*
+        &lt;!--More than one instance of NXfilter may be needed if filters are placed both before and after analysers, or in incident beam--&gt;
+        &lt;!--Physical properties--&gt;
+        &lt;description type=&quot;NX_CHAR[i]&quot;&gt;{&quot;Beryllium&quot; | &quot;Pyrolytic Graphite&quot; | &quot;Graphite&quot; | &quot;Sapphire&quot; | &quot;Silicon&quot;}?&lt;/description&gt;
+        &lt;status type=&quot;NX_CHAR[i]&quot;&gt; {in | out}?&lt;/status&gt;
+        &lt;transmission type=&quot;NXdata[i]&quot;&gt;{Wavelength transmission profile of filter}?&lt;/transmission&gt;
+        &lt;temperature type=&quot;NX_FLOAT[i]&quot; Units=&quot;Kelvin&quot;&gt;{average/nominal filter temperature}&lt;/temperature&gt;
+        &lt;temperature_log type=&quot;NXlog[i]&quot;&gt;{Linked temperature_log for the filter}?&lt;/temperature_log&gt;
+        &lt;sensor_type type=&quot;NXsensor[i]&quot;&gt;{Sensor(s) used to monitor the filter temperature}?&lt;/sensor_type&gt;
+        &lt;unit_cell type=&quot;NX_FLOAT[i,6])&quot;&gt;{Unit cell parameters for single crystal filter(lengths and angles)}?&lt;/unit_cell&gt;
+        &lt;unit_cell_volume type=&quot;NX_FLOAT[i]&quot; units=&quot;Angstroms3&quot; rank=&quot;1&quot;&gt;{Unit cell}?&lt;/unit_cell_volume&gt;
+        &lt;orientation_matrix type=&quot;NX_FLOAT[i,6]&quot;&gt;{Orientation matrix of single crystal filter}?&lt;/orientation_matrix&gt;
+        &lt;!--Geometrical properties--&gt;
+        &lt;NXgeometry name=&quot;geometry&quot;&gt;{Position and orientation of filters within bank}?
+            &lt;NXtranslation name=&quot;?&quot;&gt;
+                &lt;value type=&quot;NX_FLOAT[i,3]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{(x,y,z) position coordinates relative to origin at sample position}?&lt;/value&gt;
+            &lt;/NXtranslation&gt;
+            &lt;NXorientation name=&quot;?&quot;&gt;
+                &lt;value type=&quot;NX_FLOAT[i,6]&quot;&gt;{The orientation information is stored as direction cosines relative to origin at sample position.}&lt;/value&gt;
+            &lt;/NXorientation&gt;
+            &lt;NXshape name=&quot;{name of shape}&quot;&gt;
+                &lt;shape type=&quot;NX_CHAR[i]&quot;&gt;{&quot;nxcylinder&quot;, &quot;nxbox&quot;, &quot;nxsphere&quot;, ...}?&lt;/shape&gt;
+                &lt;size type=&quot;NX_FLOAT[i,nshapepar]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{ nshapepar dimensions for selected shape}?&lt;/size&gt;
+            &lt;/NXshape&gt;
+            &lt;component_index type=&quot;NX_INT&quot;&gt;{Sequential order of filter bank along beam path}&lt;/component_index&gt;
+        &lt;/NXgeometry&gt;
+    &lt;/NXfilter&gt;
+
+    &lt;NXcollimator name=&quot;{Name of collimator bank}&quot;&gt;*
+        &lt;!--More than one instance of NXcollimator may be needed if collimators are placed both before and after analysers, or in incident beam--&gt;
+        &lt;!--Physical properties--&gt;
+        &lt;type type=&quot;NX_CHAR[i]&quot;&gt;&quot;Soller&quot;|&quot;radial&quot;&lt;/type&gt;
+        &lt;divergence_x type=&quot;NX_FLOAT[i]&quot; units=&quot;radians&quot; exponent=&quot;?&quot;&gt;{divergence of collimator in local x direction}&lt;/divergence_x&gt;
+        &lt;divergence_y type=&quot;NX_FLOAT[i]&quot; units=&quot;radians&quot; exponent=&quot;?&quot;&gt;{divergence of collimator in local y direction}?&lt;/divergence_y&gt;
+        &lt;blade_thickness type=&quot;NX_FLOAT[i]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{thickness of absorbing blades}?&lt;/blade_thickness&gt; 
+        &lt;blade_spacing type=&quot;NX_FLOAT[i]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt; {gap between absorbing blades}?&lt;/blade_spacing&gt; 
+        &lt;absorbing_material type=&quot;NX_CHAR[i]&quot;&gt;{coating on or complete material of blades}?&lt;/absorbing_material&gt; 
+        &lt;transmitting_material type=&quot;NX_CHAR[i]&quot;&gt;{material separating absorbing blades}?&lt;/transmitting_material&gt;
+        &lt;!--Geometrical properties--&gt; 
+        &lt;NXgeometry name=&quot;geometry&quot;&gt;{Position and orientation of collimators within bank}?
+            &lt;NXtranslation name=&quot;?&quot;&gt;
+                &lt;value type=&quot;NX_FLOAT[i,3]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{(x,y,z) position coordinates relative to origin at sample position}?&lt;/value&gt;
+            &lt;/NXtranslation&gt;
+            &lt;NXorientation name=&quot;?&quot;&gt;
+                &lt;value type=&quot;NX_FLOAT[i,6]&quot;&gt;{The orientation information is stored as direction cosines relative to origin at sample position.}&lt;/value&gt;
+            &lt;/NXorientation&gt;
+            &lt;NXshape name=&quot;{name of shape}&quot;&gt;
+                &lt;shape type=&quot;NX_CHAR[i]&quot;&gt;{&quot;nxcylinder&quot;, &quot;nxbox&quot;, &quot;nxsphere&quot;, ...}?&lt;/shape&gt;
+                &lt;size type=&quot;NX_FLOAT[i,nshapepar]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{ nshapepar dimensions for selected shape}?&lt;/size&gt;
+            &lt;/NXshape&gt;
+            &lt;component_index type=&quot;NX_INT&quot;&gt;{Sequential order of collimator bank along beam path}&lt;/component_index&gt;
+        &lt;/NXgeometry&gt;
+    &lt;/NXcollimator&gt;
+
+    &lt;NXcrystal name=&quot;{Name of crystal analyser bank}&quot;&gt;+
+        &lt;!--More than one instance of NXcrystal may be needed for multi-analyser instruments eg. double-analyser instruments--&gt;
+        &lt;!-- Indices are: i - detector number counting integer, x-axis counter; j,k - y,z-axis counters;l - time channel counting integer --&gt;
+        &lt;!-- Units: measurement quantity; Exponent: power of 10 to be applied to values. eg. exponent=&quot;-3&quot; means values are given in millimetres--&gt;
+        &lt;!--Physical properties--&gt;
+        &lt;type type=&quot;NX_CHAR[i]&quot;&gt;{ &quot;PG (Highly Oriented Pyrolytic Graphite)&quot; | &quot;Ge&quot; | &quot;Si&quot; | &quot;Cu&quot; | &quot;Fe3Si&quot; | &quot;CoFe&quot; | &quot;Cu2MnAl (Heusler)&quot; | &quot;Multilayer&quot; }&lt;/type&gt;
+        &lt;mosaic_horizontal type=&quot;NXFLOAT[i]&quot; units=&quot;radians&quot;&gt;{horizontal mosaic Full Width Half Maximum}?&lt;/mosaic_horizontal&gt;
+        &lt;mosaic_vertical type=&quot;NXFLOAT[i]&quot; units=&quot;radians&quot;&gt;{vertical mosaic Full Width Half Maximum}?&lt;/mosaic_vertical&gt;
+        &lt;wavelength type=&quot;NX_FLOAT[i]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{Optimum diffracted wavelength}&lt;/wavelength&gt;
+        &lt;bragg_angle type=&quot;NX_FLOAT[i]&quot; units=&quot;radians&quot;&gt;{Bragg angle of nominal reflection}&lt;/bragg_angle&gt;
+        &lt;lattice_parameter type=&quot;NX_FLOAT[i]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{Lattice parameter of the nominal reflection}?&lt;/lattice_parameter&gt;
+        &lt;scattering_vector type=&quot;NX_FLOAT[i]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{Scattering vector, Q, of nominal reflection}?&lt;/scattering_vector&gt;
+        &lt;unit_cell type=&quot;NX_FLOAT[i,6])&quot;&gt;{Unit cell parameters (lengths and angles)}?&lt;/unit_cell&gt;
+        &lt;unit_cell_volume type=&quot;NX_FLOAT[i]&quot; units=&quot;Angstroms3&quot; rank=&quot;1&quot;&gt;{Volume of the unit cell}?&lt;/unit_cell_volume&gt;
+        &lt;reflection type=&quot;NX_INT[i,3]&quot;&gt;{(hkl) values of nominal reflection}?&lt;/reflection&gt;
+        &lt;temperature type=&quot;NX_FLOAT[i]&quot; Units=&quot;Kelvin&quot;&gt;{average/nominal crystal temperature}?&lt;/temperature&gt;
+        &lt;temperature_log type=&quot;NXlog[i]&quot;&gt;{log file of crystal temperature}?&lt;/temperature_log&gt;
+        &lt;reflectivity type=&quot;NXdata[i]&quot;&gt;{crystal reflectivity versus wavelength}?&lt;/reflectivity&gt;
+        &lt;transmission type=&quot;NXdata[i]&quot;&gt;{crystal transmission versus wavelength}?&lt;/transmission&gt;
+        &lt;!-- Geometrical properties--&gt;
+        &lt;!-- 2004-10-18 MJB Defining properties this way, can cope with a curved array of segments focussed on one detector, and repeated--&gt;
+        &lt;segment_width type=&quot;NX_FLOAT[i]&quot; units=&quot;metre&quot;&gt;{Horizontal width of individual segment}?&lt;/segment_width&gt;
+        &lt;segment_height type=&quot;NX_FLOAT[i]&quot; units=&quot;metre&quot;&gt;{Vertical height of individual segment}?&lt;/segment_height&gt;
+        &lt;segment_thickness type=&quot;NX_FLOAT[i]&quot; units=&quot;metre&quot;&gt;{Thickness of individual segment}?&lt;/segment_thickness&gt;
+        &lt;segment_gap type=&quot;NX_FLOAT[i]&quot; units=&quot;metre&quot;&gt;{Typical gap between adjacent segments}?&lt;/segment_gap&gt;
+        &lt;segment_columns type=&quot;NXFLOAT[i]&quot; units=&quot;metre&quot;&gt;{number of segment columns in horizontal direction}?&lt;/segment_columns&gt;
+        &lt;segment_rows type=&quot;NXFLOAT[i]&quot; units=&quot;metre&quot;&gt;{number of segment rows in vertical direction}?&lt;/segment_rows&gt;
+        &lt;curvature_horizontal type=&quot;NX_FLOAT[i]&quot; units=&quot;radians&quot;&gt;{Horizontal curvature of focusing crystal}?&lt;/curvature_horizontal&gt;
+        &lt;curvature_vertical type=&quot;NX_FLOAT[i]&quot; units=&quot;radians&quot;&gt;{Vertical curvature of focusing crystal}?&lt;/curvature_vertical&gt;
+        &lt;cut_angle type=&quot;NXFLOAT&quot; units=&quot;degrees&quot;&gt;{Cut angle of reflecting Bragg plane and plane of crystal surface}?&lt;/cut_angle&gt;
+        &lt;NXgeometry name=&quot;geometry&quot;&gt;{Position and orientation of crystals within bank}?
+            &lt;NXtranslation name=&quot;?&quot;&gt;
+                &lt;value type=&quot;NX_FLOAT[i,3]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{(x,y,z) position coordinates relative to origin at sample position}?&lt;/value&gt;
+            &lt;/NXtranslation&gt;
+            &lt;NXorientation name=&quot;?&quot;&gt;
+                &lt;value type=&quot;NX_FLOAT[i,6]&quot;&gt;{The orientation information is stored as direction cosines relative to origin at sample position.}&lt;/value&gt;
+            &lt;/NXorientation&gt;
+            &lt;NXshape name=&quot;{name of shape}&quot;&gt;
+                &lt;shape type=&quot;NX_CHAR[i]&quot;&gt;{&quot;nxcylinder&quot;, &quot;nxbox&quot;, &quot;nxsphere&quot;, ...}?&lt;/shape&gt;
+                &lt;size type=&quot;NX_FLOAT[i,nshapepar]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{ nshapepar dimensions for selected shape}?&lt;/size&gt;
+            &lt;/NXshape&gt;
+            &lt;component_index type=&quot;NX_INT&quot;&gt;{Sequential order of analyser bank along beam path}&lt;/component_index&gt;
+        &lt;/NXgeometry&gt;
+    &lt;/NXcrystal&gt;
+
+    &lt;NXdetector name=&quot;{Name of detector bank}&quot;&gt;+
+        &lt;!-- 2004-10-18 MJB Major hacking around of NXdetector to make sense of it.--&gt;
+        &lt;!-- Indices are: i - detector number counting integer, x-axis counter; j,k - y,z-axis counters;l - time channel counting integer --&gt;
+        &lt;!-- Units: measurement quantity; Exponent: power of 10 to be applied to values. eg. exponent=&quot;-3&quot; means values are given in millimetres--&gt;
+        &lt;!--Physical properties--&gt;
+        &lt;detector_number type=&quot;NX_INT[i]&quot;&gt;{Identifier for detector}&lt;/detector_number&gt;
+        &lt;description type=&quot;NX_CHAR[i]&quot;&gt;{name/manufacturer/model/etc. information}?&lt;/description&gt;
+        &lt;gas_pressure type=&quot;NX_FLOAT[i]&quot; units=&quot;pascal&quot; exponent=&quot;?&quot;&gt;{Detector gas pressure}?&lt;/gas_pressure&gt;
+        &lt;detection_gas_path type=&quot;NX_FLOAT&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{maximum drift space dimension}?&lt;/detection_gas_path&gt;
+        &lt;crate type=&quot;NX_INT[i]&quot; local_name=&quot;{Equivalent local term}&quot;&gt;{Crate number of detector}?&lt;/crate&gt;
+        &lt;slot type=&quot;NX_INT[i]&quot; local_name=&quot;{Equivalent local term}&quot;&gt;{Slot number of detector}?&lt;/slot&gt;
+        &lt;input type=&quot;NX_INT[i]&quot; local_name=&quot;{Equivalent local term}&quot;&gt;{Input number of detector}?&lt;/input&gt;
+        &lt;type type=&quot;NX_CHAR[i]&quot;&gt;{&quot;He3 gas cylinder&quot;|He3 PSD&quot;|&quot;He3 planar multidetector&quot;| &quot;He3 curved multidetector&quot;| &quot;multi-tube He3 PSD&quot;|&quot;BF3 gas&quot;|&quot;scintillator&quot;?&lt;/type&gt;
+        &lt;!-- 2004-10-18 MJB A lot of these detector types are replicas of each other--&gt;
+        &lt;!-- Geometrical properties--&gt;
+        &lt;distance type=&quot;NX_FLOAT[i]&quot;&gt;{Total distance from sample position to detector through secondary spectrometer}&lt;/distance&gt;        
+        &lt;NXgeometry name=&quot;geometry&quot;&gt;{Position and orientation of detector elements in bank}?
+            &lt;NXtranslation name=&quot;?&quot;&gt;
+                &lt;value type=&quot;NX_FLOAT[i,3]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{(x,y,z) position coordinates relative to origin at sample position}?&lt;/value&gt;
+            &lt;/NXtranslation&gt;
+            &lt;NXorientation name=&quot;?&quot;&gt;
+                &lt;value type=&quot;NX_FLOAT[i,6]&quot;&gt;{The orientation information is stored as direction cosines relative to origin at sample position.}&lt;/value&gt;
+            &lt;/NXorientation&gt;
+            &lt;NXshape name=&quot;{name of shape}&quot;&gt;
+                &lt;shape type=&quot;NX_CHAR[i]&quot;&gt;{&quot;nxcylinder&quot;, &quot;nxbox&quot;, &quot;nxsphere&quot;, ...}?&lt;/shape&gt;
+                &lt;size type=&quot;NX_FLOAT[i,nshapepar]&quot; units=&quot;metre&quot; exponent=&quot;?&quot;&gt;{ nshapepar dimensions for selected shape}?&lt;/size&gt;
+            &lt;/NXshape&gt;
+            &lt;component_index type=&quot;NX_INT&quot;&gt;{Sequential order of detector bank along beam path}&lt;/component_index&gt;
+         &lt;/NXgeometry&gt;
+        &lt;!--Timing properties--&gt;
+        &lt;time_of_flight type=&quot;NX_FLOAT[l+1]&quot; units=&quot;second&quot; exponent=&quot;?&quot;&gt;{Total time of flight from sample position to detector through secondary spectrometer}&lt;/time_of_flight&gt;
+        &lt;dead_time type=&quot;NX_FLOAT[i]&quot; units=&quot;second&quot; exponent=&quot;?&quot;&gt;{Detector dead time}?&lt;/dead_time&gt;
+        &lt;hold_off type=&quot;NX_FLOAT[i]&quot; units=&quot;second&quot; exponent=&quot;?&quot;&gt;{Delay in detector registering an event}?&lt;/hold_off&gt;
+        &lt;calibration_date type=&quot;ISO8601&quot;&gt;{date of last calibration (geometry and/or efficiency)  measurements}?&lt;/calibration_date&gt;
+        &lt;calibration_method type=&quot;NXnote&quot;&gt;{details of the calibration method}?&lt;/calibration_method&gt;
+        &lt;NXdata name=&quot;efficiency&quot;&gt;{Efficiency of detector with respect to e.g. wavelength}?&lt;/NXdata&gt;
+    &lt;/NXdetector&gt;
+    
+    &lt;NXbeam_stop name=&quot;&quot;&gt;*&lt;/NXbeam_stop&gt;?
+
+&lt;/NXinstrument&gt;
+</pre></div>
+</div>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Indirect_Time-of-Flight_and_Coordinates.html" title="Indirect Time-of-Flight and Coordinates"
+             >next</a></li>
+        <li class="right" >
+          <a href="How_to_avoid_name_clashes_during_future_extensions_of_the_Nexus_standard.html" title="How to avoid name clashes during future extensions of the Nexus standard"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">IndirectDiscuss</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>
