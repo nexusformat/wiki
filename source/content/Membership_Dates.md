@@ -14,24 +14,8 @@ stated in the [constitution](NIAC.html "wikilink").
 
 
 
-### Expire July, 2023
--   Ray Osborn,  Argonne National Laboratory (non-facility representative)
--   Tobias Richter, European Spallation Source, Sweden
-
-### Expire August, 2023
--   Majid Ounsy, Synchrotron Soleil, France
-
-### Expire December, 2023
--   Bjørn Clausen , Los Alamos Neutron Science Center (LANSCE), USA
-
 ### Expire November, 2024
 -   Takahiro Matsumoto, Spring8, Japan
--   Luca Geliso, EuXFEL, Germany
--   Sandor Brockhauser, NOMAD Data Center (HU Berlin), Germany
-
-### Expire December, 2024
--   Wout de Nolf, ESRF, France
--   Chen Zhang, Oak Ridge National Laboratory (SNS/HFIR), USA
 
 ### Expire September 2025
 
@@ -63,4 +47,16 @@ stated in the [constitution](NIAC.html "wikilink").
 
 -   Fernan Saiz, ALBA, Spain
 -   Aaron Brewster, Lawrence Berkeley Laboratory, USA
+
+### Expire May 2028
+-   Ray Osborn,  Argonne National Laboratory (non-facility representative)
+-   Fredrik Bolmsten, European Spallation Source, Sweden
+-   Majid Ounsy, Synchrotron Soleil, France
+-   Bjørn Clausen , Los Alamos Neutron Science Center (LANSCE), USA
+-   Fabio Dall'Antonia, EuXFEL, Germany
+-   Sandor Brockhauser, NOMAD Data Center (HU Berlin), Germany
+-   Wout de Nolf, ESRF, France
+-   Chen Zhang, Oak Ridge National Laboratory (SNS/HFIR), USA
+
+
 
