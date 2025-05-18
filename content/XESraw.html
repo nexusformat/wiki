@@ -1,0 +1,195 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>XESraw</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Workshop PSI 2010" href="Workshop_PSI_2010.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Workshop_PSI_2010.html" title="Workshop PSI 2010"
+             accesskey="P">previous</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">XESraw</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="xesraw">
+<h1>XESraw<a class="headerlink" href="#xesraw" title="Link to this heading">¶</a></h1>
+<p>XESraw is a draft example of a X-Ray Experimental (Synchrotron) raw
+Nexus file.</p>
+<p>It is basically a simple scanning format with a few manditory items
+(mainly NXsource - in order to indicate the originating facility). The
+variables being scanned are inferred from the links for the ‘axis data’
+within the NXdata class(es). For this example they have been shown to
+point to values within NXpositioner classes (which will probably be the
+case for most scan variables in a synchrotron experiment), but they
+counld as easily refer to another place within the NXinstrument
+hierarchy.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!--
+URL:      http://www.nexus.anl.gov/
+Editor:   Stuart Campbell, DLS
+$Id$
+Draft example of a X-Ray Experimental (Synchrotron) raw Nexus file.
+--&gt;
+
+&lt;NXroot&gt;
+    &lt;NXentry name=&quot;Entry1&quot;&gt;
+        &lt;title&gt;&quot;Example Data File&quot;&lt;/title&gt;
+        
+        &lt;NXinstrument name=&quot;I18&quot;&gt;
+                &lt;name&gt;&quot;I18&quot;&lt;/name&gt;
+                &lt;NXsource name=&quot;source&quot;&gt;
+                    &lt;name&gt;&quot;Diamond Light Source&quot;&lt;/name&gt;
+                    &lt;type&gt;&quot;Synchrotron X-ray Source&quot;&lt;/type&gt;
+                    &lt;probe&gt;&quot;x-ray&quot;&lt;/probe&gt;
+                &lt;/NXsource&gt;
+                &lt;NXpositioner name=&quot;sampleX&quot;&gt;
+                    &lt;sampleX&gt;[3001.0, 3002.0, 3003.0]&lt;/value&gt;
+                &lt;/NXpositioner&gt;
+                &lt;NXpositioner name=&quot;time&quot;&gt;
+                    &lt;time&gt;[1.22, 2.34, 3.53]&lt;/time&gt;
+                &lt;/NXpositioner&gt;
+                &lt;NXdetector name=&quot;detector1&quot;&gt;
+                    &lt;description&gt;&quot;Ortec C-TRAIN&quot;&lt;/description&gt;
+                    &lt;type&gt;&quot;Counter Timer&quot;&lt;/type&gt;
+                    &lt;data&gt;[203.0, 245.0, 233.0]&lt;/data&gt;
+                &lt;/NXdetector&gt;
+                &lt;NXdetector name=&quot;detector2&quot;&gt;
+                    &lt;description&gt;&quot;Quantum 315&quot;&lt;/description&gt;
+                    &lt;type&gt;&quot;CCD&quot;&lt;/type&gt;
+                    &lt;data&gt;
+                      {a data array with dimensions[3, nx, ny]}
+                    &lt;/data&gt;
+                &lt;/NXdetector&gt;
+        &lt;/NXinstrument&gt;
+        
+        &lt;NXdata name=&quot;detector1&quot;&gt;
+            &lt;data&gt;{Link to detector1 counts}&lt;/data&gt;
+            &lt;sampleX axis=&quot;1&quot; primary=&quot;1&quot;&gt;
+              {Link to values in NXpositioner}
+            &lt;/sampleX&gt;
+            &lt;time axis=&quot;1&quot; primary=&quot;2&quot;&gt;
+              {Link to values in NXpositioner}
+            &lt;/time&gt;
+        &lt;/NXdata&gt;
+        &lt;NXdata name=&quot;detector2&quot;&gt;
+            &lt;data&gt;{Link to detector2 counts}&lt;/data&gt;
+            &lt;sampleX axis=&quot;1&quot; primary=&quot;1&quot;&gt;
+              {Link to values in NXpositioner}
+            &lt;/sampleX&gt;
+            &lt;time axis=&quot;1&quot; primary=&quot;2&quot;&gt;
+              {Link to values in NXpositioner}
+            &lt;/time&gt;
+        &lt;/NXdata&gt;
+        
+    &lt;/NXentry&gt;
+&lt;/NXroot&gt;
+</pre></div>
+</div>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Workshop_PSI_2010.html" title="Workshop PSI 2010"
+             >previous</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">XESraw</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

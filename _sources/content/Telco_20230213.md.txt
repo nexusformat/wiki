@@ -1,0 +1,83 @@
+---
+title: Telco 20230213
+permalink: Telco_20230213.html
+layout: wiki
+---
+Telco 20230213
+==============
+
+Date
+----
+
+Monday, 13th February, 15:00 UTC
+
+
+Connect
+-------
+* ZOOM VC link: [https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09](https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09)
+* Meeting ID: 652 7209 1306
+* Passcode: nexus
+
+Agenda
+------
+
+* Pump-Probe experiments (HZB)
+* Recent issues on Github (especially those labelled with "telco")
+  * [definitions](https://github.com/nexusformat/definitions/issues?q=is%3Aopen+is%3Aissue)
+  * [code](https://github.com/nexusformat/code/issues?q=is%3Aopen+is%3Aissue)
+
+Present
+-------
+
+SB, HG, PJ, BW, LG, RO, WdN, PC, CZ + Jack Allen (STFC), Sam Tygier(STFC), Christian Schussler(HZB)
+
+Minutes
+-------
+
+* Pump-Probe experiments (HZB)  
+Setup: pump Laser + xray probe @3kHz with adjustable delay times  
+Detector: raw data -> 6-15 paralell on-the-fly processing algorithm (logged as different channels)  
+BW: NeXus is felxible and allows several ways to store data, but the labels should reflect the meaning properly. 2 solutions in Application Definitions:  
+a) define modes and label the data chanles with it  
+b) define different Fields for different operations  
+SB: can help HG with AppDef development
+
+* Tomography (ISIS)  
+  * After processing(!): 3D array of attenuation values  
+They are floatingpoint numbers, so instead of NX_INT, NX_FLOAT would be better for storing them  
+SB: NX_NUMBER?  
+PJ: +1  
+PC: +1  
+Solution: apply modification in the next Code-CAMP following a PR  
+  * imaging data (projections)  
+some processing (e.g. cropping) results could also be stored in the same structure.  
+RO: we have NXprocess for such purpose  
+RO: one can store big data in different files which may not be shipped  
+Conclusion: processing results shall be stored separately, but their structure can be similar to that of the raw data.    
+  * NXtomo_proc/DATA/data: required attributes @offset, @scaling, @transformation, but what are they?  
+SB: documentation is important, NIAC shall not accept poor definition files  
+SB: NXdata base class also has offset and scaling_factor Fields  
+BW: MK added @offset, @scaling, @transformation without documentation in the nxdl file, but refferrng to 2010 NIAC. See:  
+[minutes of 2010 NIAC](https://github.com/nexusformat/wiki/blob/master/content/NIAC2010.html) and  
+[all NIAC meetings](https://www.nexusformat.org/NIAC.html) and  
+[specific details of 2010 NIAC](http://lns00.psi.ch/nexus2010/)  
+PJ: it seems it was used for something like NXtransformations now, but documentation in the nxdl files is necessary for proper understanding  
+SB action point for Code-CAMP: check the original intent and review (maybe depricate it)
+
+* NeXus Features  
+PJ: are they part of the standard?  
+SB: No, this proposal was welcomed by NIAC and some examples were provided, but NIAC never accepted them in form to be officially maintained. Note that  NXentry has a reserved field 'features' for being able to refer to them.  
+SB: symbols require math which shall be supported and JS was chosen for first prototype implementation as JS engines provide secure sandbox runtime environment. Similar can also be achived by python wasm and other techniques, and it woud be great to be able to store machine-interpretable formulas/algortihms/codes attached to NeXus definitions and data. Note that this is also the primary aim of the Features.  
+HG: It would be great to be able to support such features supporting FAIR data pipelines.
+
+* Topics for next meeting:
+  * NXdata: @axes vs. @AXISNAME_indices [see the issue](https://github.com/nexusformat/definitions/issues/1212)
+  * CodeCamp: when to organise the next one?
+
+
+
+
+March Telco
+--------------
+
+Please help to [choose the date by responding to the poll](https://doodle.com/meeting/participate/id/az6or7ra) by Feb 28. We are planning to hold the telco in the regular slot of UTC 15:00. Check your local time to avoid scheduling surprises!

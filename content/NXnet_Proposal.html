@@ -1,0 +1,200 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>NXnet Proposal</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="NXtofnref-NIAC2006" href="NXtofnref-NIAC2006.html" />
+    <link rel="prev" title="NXmonotas-NIAC2006" href="NXmonotas-NIAC2006.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NXtofnref-NIAC2006.html" title="NXtofnref-NIAC2006"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="NXmonotas-NIAC2006.html" title="NXmonotas-NIAC2006"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NXnet Proposal</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="nxnet-proposal">
+<h1>NXnet Proposal<a class="headerlink" href="#nxnet-proposal" title="Link to this heading">¶</a></h1>
+<p>The motivation for NeXus is to allow the exchange of data between
+programs, instruments, establishments and branches of science where the
+neutron, muon and X-ray technologies are the common theme. Recently the
+NeXus community has been greatly (and crucially) occupied with choosing
+what data to store in a file and how it should be described in a common
+fashion.</p>
+<p>This proposal tackles a complementary facet of the broader problem;
+namely the exchange of the data files themselves between the programs,
+operating systems, instruments and establishments.</p>
+<p>Most scientists doing experiments on instruments at different
+establishments will have experienced the joy of trying to copy data off
+a variety of different computer systems, often being forced to network a
+laptop machine at the last minute, write a CD or floppy disk before
+racing to catch a flight, manually select and copy files one at a time
+via ftp and/or negotiate a firewall to get at their data. If very lucky,
+maybe they have been able to download data from a conveniently set up
+web site, where remembering the password has been the only problem.</p>
+<p>If this state of affairs wasn’t bad enough, there are things that are
+even harder to do than read your data. For example, you might want to
+send a few calibration files and sample setup notes to a remote site
+ready for an experiment. This would normally be seen as folly unless you
+have a trusted colleague already on site to help you receive and look
+after the files. And what if you’ve forgotten a file you needed on
+arrival? Wouldn’t it be nice if you could do a bit of data reduction on
+site and then continue at home, all the time saving the reduced files in
+the same directory as the raw data (and with no need to copy the data
+locally). And then permit a colleague to access a few of the files from
+their own laptop whilst at home (by setting permissions like you do on a
+local Unix NFS file system or Windows share)?</p>
+<p>There is really very little reason why we should accept such a desperate
+state of affairs. With the help of the UK’s e-Science centre we have
+been experimenting with the San Diego Supercomputing Centre’s SRB
+(Storage Resource Broker) for several months now. This provides at a
+minimum a very credible and functional globally distributable file
+system.</p>
+<p>The proposal is in three parts.</p>
+<ol class="arabic simple">
+<li><p>We adopt SRB as a working system on which to experiment with
+building a global integrated network for sharing Neutron, Muon and
+X-Ray data between our establishments and our users. We do this
+pragmatically (like we have done with HDF) because it currently
+seems to do the job and support is what standards like this need to
+develop.</p></li>
+<li><p>More fundamentally, we extend our remit of defining and organizing
+data types within the NeXus file to also giving some sort of
+standardisation to the organisation and location of data within a
+global file system. Quite simply, this just avoids things being lost
+by everyone storing things under different names and in different
+places (for example, a naming convention for raw files).</p></li>
+<li><p>Even more fundamentally, we spend some effort defining the sort of
+meta-data which we might associate with each file (possibly not
+contained in the NeXus file itself). This meta-data would enable a
+data portal style search engine, just like a super data-Google
+quickly to find relevant data by searching throughout this global
+file system. Some of this sort of work is already underway but some
+sort of standardization of the type and contents of this metadata is
+very close to the sort of standardization we are aiming at with the
+NeXus file contents and would greatly ease the ability to search and
+find relevant information.</p></li>
+</ol>
+<p>The sheer use-ability of this particular system, especially for quite a
+young technology is staggering. This is not something to be planning for
+next year or the year after, it’s something to be using now – and then
+planning how to build a data storage and access strategy around it.
+NeXus has taken a long time to grow to the point where we are able to
+agree on the most difficult issue of what is common within our data
+files, this is because it’s a really difficult job. Taking some
+responsibility for (2) and (3) in particular is a lot less work but is
+something best tackled early.</p>
+<p>Chris Moreton-Smith</p>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NXtofnref-NIAC2006.html" title="NXtofnref-NIAC2006"
+             >next</a></li>
+        <li class="right" >
+          <a href="NXmonotas-NIAC2006.html" title="NXmonotas-NIAC2006"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NXnet Proposal</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

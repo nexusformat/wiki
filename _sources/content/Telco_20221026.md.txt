@@ -1,0 +1,83 @@
+---
+title: Telco 20221026
+permalink: Telco_20221026.html
+layout: wiki
+---
+Telco 20221026
+==============
+
+Date
+----
+
+Wednesday, 26th October, 15:00 UTC
+
+
+Connect
+-------
+* ZOOM VC link: [https://psich.zoom.us/j/67122081089?pwd=RkpvTEo5NFYrRVd3ZDJ4VmhRbExvUT09](https://psich.zoom.us/j/67122081089?pwd=RkpvTEo5NFYrRVd3ZDJ4VmhRbExvUT09)
+* Meeting ID: 671 2208 1089
+* Passcode: nexus
+
+Agenda
+------
+
+* Welcome guests and new members
+* Discuss how NeXus operates and answer questions from LNLS synchrotron in Brazil
+* Review previous meeting minutes and actions: [August Telco](Telco_20220824.html)
+* Review the [NIAC meeting](https://www.nexusformat.org/NIAC2022.html)
+* Recent issues on Github (especially those labelled with "telco")
+  * [definitions](https://github.com/nexusformat/definitions/issues?q=is%3Aopen+is%3Aissue)
+  * [code](https://github.com/nexusformat/code/issues?q=is%3Aopen+is%3Aissue)
+
+Present
+-------
+
+
+Minutes
+-------
+
+* Welcome guests and new members
+  New members:
+  * Balazs Bago, ELI-ALPS
+  * Tom Caswell, NSLSII
+
+  LNLS guests
+
+* Discuss how NeXus operates and answer questions from LNLS synchrotron in Brazil
+  * How to add new definitions (e.g. IR beamline)?  
+    nyaml2nxdl (https://github.com/nomad-coe/nomad-parser-nexus)  
+
+  * How can NeXus be compatible to DAQ (field names)?  
+    a) create NeXus master file and use multiple files if needed via hdf5 links  
+    b) 3-slider intro: https://anl.box.com/s/cbaohim9nhnmmy0a3lwsd963if01z641   
+    c) standardized names allows interoperability, but  
+    d) any other data can also be pushed to the data file  
+
+  * How NeXus can be compatible to cataloguing solutions, like SciCAT  
+    e.g. ingest feeds data from NeXus to ICat (e.g. using h5py)  
+    only metadata for search is duplicated  
+
+  * How to avoid data duplications (metadata stored in NeXus, but also in EPICS archiver)  
+    archiver is for engineers and beamline staff, while NeXus is for scientists and users  
+
+  * What NIAC is for?  
+    definitions (application, base, contributed)  
+    validator and tools (C and python for hdf5)  
+
+  * Is it possible to deal with multi-dimensional datasets, like time resolved 5D datasets?  
+    yes, in the contributed definitions MPES (https://fairmat-experimental.github.io/nexus-fairmat-proposal/), we easily work with 6 dimensions. H5Web (https://h5web.panosc.eu/) can be used to display 2D slides and use sliders to walk through the full datasets  
+
+  * SIRIUS status  
+    SIRIUS is using hdf5 and some harminisation between beamlines just started. Next step can be the adaptation of NeXus base classes wherever applicable and then adding new ones if needed. Similarly Application Definitions can be used.  
+
+* POSTPONED Items:  
+  * Review previous meeting minutes and actions: August Telco  
+  * Review the NIAC meeting  
+  * Recent issues on Github (especially those labelled with “telco”)  
+    * definitions  
+    * code  
+
+November Telco
+--------------
+
+Please help to choose the date by responding to the poll by November 10th (https://doodle.com/meeting/participate/id/bk8wg7Jd). We are planning to hold the telco in the regular slot of UTC 15:00. Check your local time to avoid scheduling surprises!

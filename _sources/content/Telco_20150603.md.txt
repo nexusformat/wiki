@@ -1,0 +1,54 @@
+---
+title: Telco 20150603
+permalink: Telco_20150603.html
+layout: wiki
+---
+Telco 20150603
+==============
+
+Date
+----
+
+Wednesday, 3rd June, 12:00 BST
+
+Hangout Link:
+<https://plus.google.com/hangouts/_/g2e2ayoq57srpi2g4zv2c2ewbua>
+
+Agenda
+------
+
+-   Welcome
+
+<!-- -->
+
+-   CMake and release update
+    -   Remaining problems
+    -   expected state of master
+    -   merge and pull request strategy
+-   NXmx update
+    -   beam center
+    -   start and end angles for shutterless scans
+-   Next meeting
+
+Minutes
+-------
+
+Present: MK, MB Andreas Foerster, HJB, PJ, TSR, FA, EW, Graeme Winter
+
+Initial problems with hangout not allowing people to join the first two
+participants under the old URL. New Hangout created.
+
+Discussion on CMake: All look well now, except for the Windows build.
+That could be solved by using the cmake inbuilt make. Eugen has updated
+the ticket. In general small fixes can be done in master, larger
+possibly disruptive chunks of work should be merged by an independent
+person using a github pull request. This should be documented somewhere.
+
+NXmx: Discussion on allowing beam\_center in units of pixels, instead of
+official units of length. No real agreement why that would be necessary,
+but also not a strong opposition. shutterless scans: One start and
+either end or interval value would be required. Not more. Encoding could
+be done via naming, or attributes. No consensus for now. A proposal will
+be developed.
+
+Moved remaining other items to next meeting.

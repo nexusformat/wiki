@@ -1,0 +1,258 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>NXmonoref example-NIAC2006</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="NXmonoref-NIAC2006" href="NXmonoref-NIAC2006.html" />
+    <link rel="prev" title="NXmeasurement" href="NXmeasurement.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NXmonoref-NIAC2006.html" title="NXmonoref-NIAC2006"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="NXmeasurement.html" title="NXmeasurement"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NXmonoref example-NIAC2006</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="nxmonoref-example-niac2006">
+<h1>NXmonoref example-NIAC2006<a class="headerlink" href="#nxmonoref-example-niac2006" title="Link to this heading">¶</a></h1>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;NXroot filename=&quot;NXmonoref_example.xml&quot;&gt;
+ &lt;NXentry name=&quot;entry&quot;&gt;
+  &lt;definition version=&quot;1.0&quot; URL=&quot;http://www.nexus.anl.gov/instruments/xml/NXmonoref.xml&quot;&gt;NXmonoref&lt;/definition&gt;
+  &lt;title&gt;Summer-School &#39;02 Group B measurement of unknown sample&lt;/title&gt;
+  &lt;start_time type=&quot;ISO8601&quot;&gt;2002-06-04T15:09:03-0400&lt;/start_time&gt;
+  &lt;end_time type=&quot;ISO8601&quot;&gt;2002-06-04T16:18:28-0400&lt;/end_time&gt;
+  &lt;duration type=&quot;NX_INT&quot; units=&quot;seconds&quot;&gt;4165&lt;/duration&gt;
+  &lt;range name=&quot;Qz&quot;&gt;0.092328 0.18454&lt;/range&gt;
+  &lt;NXuser name=&quot;&quot;&gt;
+    &lt;name type=&quot;NX_CHAR&quot;&gt;SS02 Group B&lt;/name&gt;
+    &lt;affiliation type=&quot;NX_CHAR&quot;&gt;NCNR&lt;/affiliation&gt;
+  &lt;/NXuser&gt;
+
+  &lt;NXsample name=&quot;sample&quot;&gt;
+    &lt;name type=&quot;NX_CHAR&quot;&gt;unknown sample&lt;/name&gt;
+    &lt;polar_angle type=&quot;NX_FLOAT32[51]&quot; units=&quot;degree&quot;&gt;
+      2 2.04 2.08 2.12 2.16 2.2 2.24 2.28 2.32 2.36 2.4 2.44 2.48 
+      2.52 2.56 2.6 2.64 2.68 2.72 2.76 2.8 2.84 2.88 2.92 2.96 3 
+      3.04 3.08 3.12 3.16 3.2 3.24 3.28 3.32 3.36 3.4 3.44 3.48 
+      3.52 3.56 3.6 3.64 3.68 3.72 3.76 3.8 3.84 3.88 3.92 3.96 4
+    &lt;/polar_angle&gt;
+  &lt;/NXsample&gt;
+
+  &lt;NXinstrument name=&quot;instrument&quot;&gt;
+
+   &lt;NXcrystal name=&quot;monochromator&quot;&gt;
+    &lt;wavelength type=&quot;NX_FLOAT&quot; units=&quot;Angstroms&quot;&gt;4.75&lt;/wavelength&gt;
+    &lt;wavelength_spread type &quot;NX_FLOAT&quot;&gt;0.01&lt;/wavelength_spread&gt;
+   &lt;/NXcrystal&gt;
+
+   &lt;NXaperture name=&quot;presample_slit1&quot;&gt;
+    &lt;NXgeometry name=&quot;geometry&quot;&gt;
+     &lt;NXtranslation name=&quot;translation&quot;&gt;
+      &lt;distances type=&quot;NX_FLOAT&quot; units=&quot;mm&quot;&gt;1700&lt;/distances&gt;
+     &lt;/NXtranslation&gt;
+     &lt;NXshape name=&quot;shape&quot;&gt;
+      &lt;type type=&quot;NX_CHAR&quot;&gt;nxslit&lt;/type&gt;
+      &lt;size type=&quot;NX_FLOAT32[51]&quot; units=&quot;mm&quot; filter=&quot;Qx&quot;&gt;
+        1.016 1.0363 1.0566 1.077 1.0973 1.1176 1.1379 1.1582 1.1786 
+        1.1989 1.2192 1.2395 1.2598 1.2802 1.3005 1.3208 1.3411 
+        1.3614 1.3818 1.4021 1.4224 1.4427 1.463 1.4834 1.5037 1.524 
+        1.5443 1.5646 1.585 1.6053 1.6256 1.6459 1.6662 1.6866 1.7069 
+        1.7272 1.7475 1.7678 1.7882 1.8085 1.8288 1.8491 1.8694 1.8898 
+        1.9101 1.9304 1.9507 1.971 1.9914 2.0117 2.032
+     &lt;/size&gt;
+     &lt;/NXshape&gt;
+    &lt;/NXgeometry&gt;
+   &lt;/NXaperture&gt;
+
+   &lt;NXaperture name=&quot;presample_slit2&quot;&gt;
+    &lt;NXgeometry name=&quot;geometry&quot;&gt;
+     &lt;NXtranslation name=&quot;translation&quot;&gt;
+      &lt;distances type=&quot;NX_FLOAT&quot; units=&quot;mm&quot;&gt;200&lt;/distances&gt;
+     &lt;/NXtranslation&gt;
+     &lt;NXshape name=&quot;shape&quot;&gt;
+      &lt;type type=&quot;NX_CHAR&quot;&gt;nxslit&lt;/type&gt;
+      &lt;size type=&quot;NX_FLOAT32[51]&quot; units=&quot;mm&quot; filter=&quot;Qx&quot;&gt;
+        1.016 1.0363 1.0566 1.077 1.0973 1.1176 1.1379 1.1582 1.1786 
+        1.1989 1.2192 1.2395 1.2598 1.2802 1.3005 1.3208 1.3411 
+        1.3614 1.3818 1.4021 1.4224 1.4427 1.463 1.4834 1.5037 1.524 
+        1.5443 1.5646 1.585 1.6053 1.6256 1.6459 1.6662 1.6866 1.7069 
+        1.7272 1.7475 1.7678 1.7882 1.8085 1.8288 1.8491 1.8694 1.8898 
+        1.9101 1.9304 1.9507 1.971 1.9914 2.0117 2.032
+     &lt;/size&gt;
+     &lt;/NXshape&gt;
+    &lt;/NXgeometry&gt;
+   &lt;/NXaperture&gt;
+
+   &lt;NXdetector name=&quot;detector&quot;&gt;
+    &lt;polar_angle type=&quot;NX_FLOAT32[51]&quot; units=&quot;degree&quot;&gt;
+      4 4.08 4.16 4.24 4.32 4.4 4.48 4.56 4.64 4.72 4.8 4.88 4.96 5.04 
+      5.12 5.2 5.28 5.36 5.44 5.52 5.6 5.68 5.76 5.84 5.92 6 6.08 6.16 
+      6.24 6.32 6.4 6.48 6.56 6.64 6.72 6.8 6.88 6.96 7.04 7.12 7.2 
+      7.28 7.36 7.44 7.52 7.6 7.68 7.76 7.84 7.92 8
+    &lt;/polar_angle&gt;
+    &lt;counts type=&quot;NX_INT[51]&quot; axes=&quot;[polar_angle]&quot; units=&quot;count&quot;&gt;
+      194 239 256 319 291 373 393 397 399 381 375 358 331 275 256 242 
+      186 171 132 114 69 64 68 49 43 50 41 61 83 80 102 110 109 143 139 
+      134 138 127 147 134 124 127 106 88 87 70 60 60 49 43 41
+    &lt;/data&gt;
+    &lt;distance type=&quot;NX_FLOAT&quot; units=&quot;mm&quot;&gt;1220&lt;/distance&gt;
+   &lt;/NXdetector&gt;
+
+  &lt;/NXinstrument&gt;
+
+  &lt;NXdata&gt;
+   &lt;presample_slit1 axis=&quot;1&quot; NAPIlink=&quot;NXentry/NXinstrument/presample_slit1/NXgeometry/NXshape/size&quot;/&gt;
+   &lt;presample_slit2 axis=&quot;1&quot; NAPIlink=&quot;NXentry/NXinstrument/presample_slit2/NXgeometry/NXshape/size&quot;/&gt;
+   &lt;theta axis=&quot;1&quot; NAPIlink=&quot;NXentry/NXsample/polar_angle&quot;/&gt;
+   &lt;twotheta axis=&quot;1&quot; NAPIlink=&quot;NXentry/NXinstrument/detector/polar_angle&quot;/&gt;
+   &lt;counts axes=&quot;[twotheta]&quot; NAPIlink=&quot;NXentry/NXinstrument/NXdetector/counts&quot;/&gt;
+   &lt;count_start NAPIlink=&quot;NXentry/timer/time&quot; /&gt;
+   &lt;count_duration NAPIlink=&quot;NXentry/timer/value&quot; /&gt;
+   &lt;count_monitor NAPIlink=&quot;NXentry/monitor/data&quot; /&gt;
+   &lt;scan_type&gt;specular&lt;/specular&gt;
+  &lt;/NXdata&gt;
+  &lt;NXmonitor name=&quot;monitor&quot;&gt;
+   &lt;preset type=&quot;NX_INT&quot;&gt;600000&lt;/preset&gt;
+   &lt;data type=&quot;NX_INT[51]&quot;&gt;
+     600000 600000 600000 600000 600000 600000 600000 600000 600000 
+     600000 600000 600000 600000 600000 600000 600000 600000 600000 
+     600000 600000 600000 600000 600000 600000 600000 600000 600000 
+     600000 600000 600000 600000 600000 600000 600000 600000 600000 
+     600000 600000 600000 600000 600000 600000 600000 600000 600000 
+     600000 600000 600000 600000 600000 600000
+   &lt;/data&gt;
+  &lt;/NXmonitor&gt;
+  &lt;NXlog name=&quot;timer&quot;&gt;
+   &lt;start type=&quot;ISO8601&quot;&gt;2002-06-04T15:09:03-0400&lt;/start&gt;
+   &lt;time type=&quot;NX_FLOAT32[51]&quot; units=&quot;second&quot;&gt;
+     0.0 115.8 228.6 339.6 448.8 555.6 660.6 764.4 865.2 965.4 
+     1063.2 1160.4 1255.2 1348.2 1440 1531.2 1621.2 1710 1797 
+     1882.8 1968 2052 2134.8 2215.8 2296.8 2376.6 2455.8 2533.8 
+     2610.6 2686.8 2761.8 2835.6 2908.8 2982 3052.8 3123.6 3193.8 
+     3264 3333 3400.8 3468.6 3535.8 3601.8 3666.6 3730.8 3795 3858 
+     3919.8 3981.6 4043.4 4104.6
+   &lt;/time&gt;
+   &lt;value type=&quot;NX_FLOAT32[51]&quot; units=&quot;second&quot;&gt;
+     115.8 112.8 111 109.2 106.8 105 103.8 100.8 100.2 97.8 97.2 
+     94.8 93 91.8 91.2 90 88.8 87 85.8 85.2 84 82.8 81 81 79.8 
+     79.2 78 76.8 76.2 75 73.8 73.2 73.2 70.8 70.8 70.2 70.2 69 
+     67.8 67.8 67.2 66 64.8 64.2 64.2 63 61.8 61.8 61.8 61.2 60
+   &lt;/value&gt;
+  &lt;/NXlog&gt;
+ &lt;/NXentry&gt;
+&lt;/NXroot&gt;
+</pre></div>
+</div>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NXmonoref-NIAC2006.html" title="NXmonoref-NIAC2006"
+             >next</a></li>
+        <li class="right" >
+          <a href="NXmeasurement.html" title="NXmeasurement"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NXmonoref example-NIAC2006</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,195 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Detector Geometry</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="DLSraw" href="DLSraw.html" />
+    <link rel="prev" title="Design Issues" href="Design_Issues.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="DLSraw.html" title="DLSraw"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Design_Issues.html" title="Design Issues"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Detector Geometry</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="detector-geometry">
+<h1>Detector Geometry<a class="headerlink" href="#detector-geometry" title="Link to this heading">¶</a></h1>
+<section id="issue">
+<h2>Issue<a class="headerlink" href="#issue" title="Link to this heading">¶</a></h2>
+<p>Defining the location of a detector, or any generic object, is
+potentially challenging. It needs to be agreed upon how to define the
+location of an object, specifically detectors, and their phsyical
+extent. Proposals should be able to define a position unambigiously in a
+way that is easily interpreted by analysis and plotting software.</p>
+</section>
+<section id="proposal-mcstas">
+<h2>Proposal: McStas<a class="headerlink" href="#proposal-mcstas" title="Link to this heading">¶</a></h2>
+<p>Taken from the McStas manual p45:</p>
+<p>The instrument is given a global, absolute coordinate system. In
+addition, every component in the instrument has its own local coordinate
+system that can be given any desired position and orientation (though
+the position and orientatino must remain fixed for the duration of a
+single simulation). By convention, the z axis points in the direction of
+the beam, the x axis is perpendicular to the beam in the horizontal
+plane pointing left as seen from the source, and the y axis points
+upwards (see figure 5.1). Nothin in McStas enforces this convention, but
+if every component used different conventions the user would be faced
+with a severe headacha! It is therefore recommended that this convention
+is followed by users implementing new components.</p>
+</section>
+<section id="proposal-vitess">
+<h2>Proposal: Vitess<a class="headerlink" href="#proposal-vitess" title="Link to this heading">¶</a></h2>
+<section id="determined-from-a-figure-on-p6">
+<h3>Determined from a figure on p6<a class="headerlink" href="#determined-from-a-figure-on-p6" title="Link to this heading">¶</a></h3>
+<p>The x axis points in the direction of the beam, the z axis up, and the y
+axis to the left while facing down-stream to complete the right handed
+coordinate system.</p>
+</section>
+<section id="determined-from-a-figure-on-p22">
+<h3>Determined from a figure on p22<a class="headerlink" href="#determined-from-a-figure-on-p22" title="Link to this heading">¶</a></h3>
+<p>Orientation is given by two angles which define a component’s normal
+direction. phi is the angle between the x axis and the normal, projected
+onto the xy plane. theta is the angle between the xy plane and the
+normal. This does assume that a normal direction is well defined.</p>
+<p>[Peter Peterson] (Pfpeterson.html “wikilink”) Thursday, 28 August 2003,
+12:04:51 pm</p>
+</section>
+</section>
+<section id="conclusion">
+<h2>Conclusion<a class="headerlink" href="#conclusion" title="Link to this heading">¶</a></h2>
+<p>01/2015 This got nowhere. It is also now obsolete as NIAC is under the
+impression that the CIF-style coordinate description allows us to define
+the position and orientation of detector elements in space in an
+adequate and exact way.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Detector Geometry</a><ul>
+<li><a class="reference internal" href="#issue">Issue</a></li>
+<li><a class="reference internal" href="#proposal-mcstas">Proposal: McStas</a></li>
+<li><a class="reference internal" href="#proposal-vitess">Proposal: Vitess</a><ul>
+<li><a class="reference internal" href="#determined-from-a-figure-on-p6">Determined from a figure on p6</a></li>
+<li><a class="reference internal" href="#determined-from-a-figure-on-p22">Determined from a figure on p22</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#conclusion">Conclusion</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="DLSraw.html" title="DLSraw"
+             >next</a></li>
+        <li class="right" >
+          <a href="Design_Issues.html" title="Design Issues"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Detector Geometry</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

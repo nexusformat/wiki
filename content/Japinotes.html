@@ -1,0 +1,449 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Japi notes</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Java API" href="Java_API.html" />
+    <link rel="prev" title="Issue Reporting" href="IssueReporting.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Java_API.html" title="Java API"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="IssueReporting.html" title="Issue Reporting"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Japi notes</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="japi-notes">
+<h1>Japi notes<a class="headerlink" href="#japi-notes" title="Link to this heading">¶</a></h1>
+</section>
+<section id="the-nexus-api-for-java">
+<h1>The NeXus API for Java<a class="headerlink" href="#the-nexus-api-for-java" title="Link to this heading">¶</a></h1>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">¶</a></h2>
+<p>NeXus is a proposal for a common file format for neutron and X-ray
+scattering. NeXus uses HDF as its physical file format. At the last
+NOBUGS conference a strong need for a Java-API to NeXus files was
+expressed. Version 1.0 of this Java API has now (October 2000) become
+available. As recoding the HDF library in Java was no option the Java
+API for NeXus (jnexus) was implemented through the Java Native Methods
+Interface (JNI). This has the consequence that the Java API for NeXus
+cannot be used in applets as the security restrictions for applets
+prohibit downloading of shared libraries and local file access. Applets
+can use a NeXus Data Server in order to access NeXus files in readonly
+mode.</p>
+</section>
+<section id="acknowledgement">
+<h2>Acknowledgement<a class="headerlink" href="#acknowledgement" title="Link to this heading">¶</a></h2>
+<p>This implementation uses classes and native methods from NCSA’s Java HDF
+Interface project. Basically all conversions from native types to Java
+types is done through code from the NCSA HDF group. Without this code
+the implementation of this API would have taken much longer. See NCSA’s
+copyright for more information.</p>
+</section>
+<section id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Link to this heading">¶</a></h2>
+<section id="requirements">
+<h3>Requirements<a class="headerlink" href="#requirements" title="Link to this heading">¶</a></h3>
+<p>For the binary distribution only a JDK1.1 compatible Java runtime is
+required. Suitable runtime environments for Solaris, Linux and Windows32
+can be downloaded from Sun’s Java homepage. This website also holds
+pointers to Java runtime systems for other platforms. Jnexus has not
+been tested with Java 2 but should work with it.</p>
+<p>In order to compile the Java API for NeXus the following components are
+required:</p>
+<ul class="simple">
+<li><p>A Java Development Kit 1.1 or better. For downloads see above.</p></li>
+<li><p>A C compiler for your platform.</p></li>
+<li><p>The HDF libraries version 4.1r3 or better. Can be downloaded from
+NCSA’s HDF homepage.</p></li>
+<li><p>A complete copy of the latest NAPI sources (including jnexus
+sources).</p></li>
+</ul>
+</section>
+<section id="installation-under-windows32-windows-nt-windows-95-98-me">
+<h3>Installation under Windows32 (Windows NT, Windows 95, 98, ME)<a class="headerlink" href="#installation-under-windows32-windows-nt-windows-95-98-me" title="Link to this heading">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Copy the HDF DLL’s (*413m.dll) and the file jnexus.dll to a
+directory in your path. For instance C:\Windows\system32.</p></li>
+<li><p>Copy the jnexus.jar to the place where you usually keep library jar
+files.</p></li>
+</ol>
+</section>
+<section id="installation-under-unix">
+<h3>Installation under Unix<a class="headerlink" href="#installation-under-unix" title="Link to this heading">¶</a></h3>
+<p>Two files are needed: the jnexus.so shared library and the jnexus.jar
+file holding the required Java class. Copy them wherever you like and
+see below for instructions how to run programs using jnexus.</p>
+</section>
+</section>
+<section id="running-programs-with-the-nexus-api-for-java">
+<h2>Running Programs with the NeXus API for Java<a class="headerlink" href="#running-programs-with-the-nexus-api-for-java" title="Link to this heading">¶</a></h2>
+<p>In order to successfully run a program with jnexus the Java runtime
+systems needs to locate two items:</p>
+<ul class="simple">
+<li><p>The shared library implementing the native methods.</p></li>
+<li><p>The nexus.jar file in order to find the Java classes.</p></li>
+</ul>
+<section id="locating-the-shared-library">
+<h3>Locating the shared library<a class="headerlink" href="#locating-the-shared-library" title="Link to this heading">¶</a></h3>
+<p>Of course the method for locating a shared library differ between
+systems. Under Windows32 systems the best method is to copy the
+jnexus.dll and the HDF-libarary DLL’s into a directory in your path. The
+HDF DLL’s have to go there anyway.</p>
+<p>On a unix system the problem can be solved in three different ways:</p>
+<ul class="simple">
+<li><p>Make your system administrator copy the jnexus.so file into the
+systems default shared library directory (usually /usr/sbin).</p></li>
+<li><p>Put the jnexus.so file wherever you see fit and set the
+LD_LIBRARY_PATH environment variable to point to the directory of
+your choice.</p></li>
+<li><p>Specify the full pathname of the jnexus shared library on the java
+command line with the
+-Dneutron.nexus.JNEXUSLIB=full-path-2-shared-library option.</p></li>
+</ul>
+</section>
+<section id="locating-jnexus-jar">
+<h3>Locating jnexus.jar<a class="headerlink" href="#locating-jnexus-jar" title="Link to this heading">¶</a></h3>
+<p>This is easier: just add the the full pathname to jnexus.jar to the
+classpath when starting java. Examples</p>
+<p>A unix example shell script:</p>
+<p><code class="docutils literal notranslate"><span class="pre">#!/sbin/sh</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">java -classpath /usr/lib/classes.zip:../jnexus.jar:. \</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   -Dneutron.nexus.JNEXUSLIB=../bin/du40/libjnexus.so TestJapi</span></code></p>
+<p>A Windows 32 example batch file:</p>
+<p><code class="docutils literal notranslate"><span class="pre">set JL=-Dneutron.nexus.JNEXUSLIB=..\jnexus\bin\win32\jnexus.dll</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">java -classpath C:\jdk1.1.5\lib\classes.zip;..\jnexus.jar;. %JL% TestJapi</span></code></p>
+</section>
+</section>
+<section id="programming-with-the-nexus-api-for-java">
+<h2>Programming with the NeXus API for Java.<a class="headerlink" href="#programming-with-the-nexus-api-for-java" title="Link to this heading">¶</a></h2>
+<p>note: for experienced NeXus API Programmers!</p>
+<p>The NeXus C-API is good enough but for Java a few adaptions of the API
+have been made in order to match the API better to the idioms used by
+Java programmers. In order to understand the Java -API it is useful to
+study the NeXus C-API because many methods work in the same way as their
+C equivalents. A full API documentation is available in Java
+documentation format. For full reference look especially at:</p>
+<ul class="simple">
+<li><p>The interface NeXusFileInterface first. It gives an uncluttered view
+of the API.</p></li>
+<li><p>The implementation NexusFile which gives more details about
+constructors and constants. However this documentation is
+interspersed with information about native methods which should not
+be called by an application programmer as they are not part of the
+standard and might change in future.</p></li>
+</ul>
+<p>Some more general explanation will be given below.</p>
+<section id="general-things">
+<h3>General Things<a class="headerlink" href="#general-things" title="Link to this heading">¶</a></h3>
+<p>See the following code example for opening a file, opening a vGroup and
+closing the file again in order to get a feeling for the API.</p>
+<p><code class="docutils literal notranslate"><span class="pre">    try{</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">          NexusFile nf = new NexusFile(filename,</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                   NexusFile.NXACC_READ);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">          nf.opengroup(</span></code>“<code class="docutils literal notranslate"><span class="pre">entry1</span></code>”<code class="docutils literal notranslate"><span class="pre">,</span></code>“<code class="docutils literal notranslate"><span class="pre">NXentry</span></code>”<code class="docutils literal notranslate"><span class="pre">);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">          nf.finalize();</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    }catch(NexusException ne) {</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">        // Something was wrong!</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    }</span></code></p>
+<p>Some notes on this little example:</p>
+<ul class="simple">
+<li><p>Each NeXus file is represented by a NexusFile object which is
+created through the constructor.</p></li>
+<li><p>The NexusFile object takes care of all file handles for you. So
+there is no need to pass in a handle anymore to each method as in
+the C language API.</p></li>
+<li><p>All error handling is done through the Java exception handling
+mechanism. This saves all the code checking return values in the C
+language API. Most API functions return void.</p></li>
+<li><p>Closing files is tricky. The Java garbage collector is supposed to
+call the finalize method for each object it decides to delete. In
+order to enable this mechanism, the NXclose function was replaced by
+the finalize method. In practice it seems not to be guranteed that
+the garbage collector calls the finalize method. It is safer to call
+finalize yourself in order to properly close a file. Multiple calls
+to the finalize method for the same object are safe and do no harm.</p></li>
+</ul>
+</section>
+</section>
+<section id="data-writing-and-reading">
+<h2>Data Writing and Reading<a class="headerlink" href="#data-writing-and-reading" title="Link to this heading">¶</a></h2>
+<p>Again a code sample which shows how this looks like:</p>
+<p><code class="docutils literal notranslate"><span class="pre">       int idata[][] = new idata[10][20];</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       int iDim[] = new int[2];</span></code><br />
+<code class="docutils literal notranslate">&#160;&#160;&#160;&#160;&#160;&#160; </code><br />
+<code class="docutils literal notranslate"><span class="pre">       // put some data into iData.......</span></code><br />
+<code class="docutils literal notranslate">&#160;&#160;&#160;&#160;&#160;&#160; </code><br />
+<code class="docutils literal notranslate"><span class="pre">       // write iData</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       iDim[0] = 10;</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       iDim[1] = 20;</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       nf.makedata(</span></code>“<code class="docutils literal notranslate"><span class="pre">idata</span></code>”<code class="docutils literal notranslate"><span class="pre">,NexusFile.NX_INT32,2,iDim);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       nf.opendata(</span></code>“<code class="docutils literal notranslate"><span class="pre">idata</span></code>”<code class="docutils literal notranslate"><span class="pre">);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       nf.putdata(idata);</span></code><br />
+<code class="docutils literal notranslate">&#160;&#160;&#160;&#160;&#160;&#160; </code><br />
+<code class="docutils literal notranslate"><span class="pre">       // read idata</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       nf.getdata(idata);</span></code></p>
+<p>The dataset is created as usual with makedata and opened with putdata.
+The trick is in putdata. Java is meant to be type safe. One would think
+then that a putdata method would be required for each Java data type. In
+order to avoid this the data to write is passed into putdata as type
+Object. Then the API proceeds to analyze this object through the Java
+introspection API and convert the data to a byte stream for writing
+through the native method call. This is an elegant solution with one
+drawback: An array is needed at all times. Even if only a single data
+value is written (or read) an array of length one and an appropriate
+type is the required argument.</p>
+<p>Another issue are strings. Strings are first class objects in Java. HDF
+(and NeXus) sees them as dumb arrays of bytes. Thus strings have to be
+converted to and from bytes when reading string data. See a writing
+example:</p>
+<p><code class="docutils literal notranslate"><span class="pre">       String ame = </span></code>“<code class="docutils literal notranslate"><span class="pre">Alle``</span> <span class="pre">``meine``</span> <span class="pre">``Entchen</span></code>”<code class="docutils literal notranslate"><span class="pre">;</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       nf.makedata(</span></code>“<code class="docutils literal notranslate"><span class="pre">string_data</span></code>”<code class="docutils literal notranslate"><span class="pre">,NexusFile.NX_CHAR,</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">               1,ame.length()+2);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       nf.opendata(</span></code>“<code class="docutils literal notranslate"><span class="pre">string_data</span></code>”<code class="docutils literal notranslate"><span class="pre">);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       nf.putdata(ame.getBytes());</span></code></p>
+<p>And reading:</p>
+<p><code class="docutils literal notranslate"><span class="pre">       byte bData[] = new byte[132];</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       nf.opendata(</span></code>“<code class="docutils literal notranslate"><span class="pre">string_data</span></code>”<code class="docutils literal notranslate"><span class="pre">);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       nf.getdata(bData);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       String string_data = new String(bData);</span></code></p>
+<p>The aforementioned holds for all strings written as SDS content or as an
+attribute. SDS or vGroup names do not need this treatment.</p>
+<section id="inquiry-routines">
+<h3>Inquiry Routines<a class="headerlink" href="#inquiry-routines" title="Link to this heading">¶</a></h3>
+<p>Let us compare the C-API and Java-API signatures of the getinfo routine
+or method:</p>
+<p><code class="docutils literal notranslate"><span class="pre">     /* C -API */</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     NXstatus NXgetinfo(NXhandle handle, int *rank, int iDim[], </span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                        int *datatype);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     // Java </span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     void getinfo(int iDim[], int args[]);</span></code></p>
+<p>The problem is that Java passes arguments only by value, which means
+they cannot be modified by the method. Only array arguments can be
+modified. Thus args in the getinfo method holds the rank and datatype
+information passed in separate items in the C-API version. For resolving
+which one is which consult a debugger or the API-reference.</p>
+<p>The attribute and vGroup search routines have been simplified using
+Hashtables. The Hastable returned by groupdir() holds the name of the
+item as a key and the classname or the string SDS as ths stored object
+for the key. Thus the code for a vGroup search looks like this:</p>
+<p><code class="docutils literal notranslate"><span class="pre">        nf.opengroup(group,nxclass);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">        h = nf.groupdir();</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">        e = h.keys();</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">        System.out.println(</span></code>“<code class="docutils literal notranslate"><span class="pre">Found``</span> <span class="pre">``in``</span> <span class="pre">``vGroup``</span> <span class="pre">``entry:</span></code>”<code class="docutils literal notranslate"><span class="pre">);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">        while(e.hasMoreElements())</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">        {</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">           vname = (String)e.nextElement();</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">           vclass = (String)h.get(vname);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">           System.out.println(&quot;     Item: &quot; + vname + &quot; class: &quot; + vclass);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">        }</span></code></p>
+<p>For an attribute search both at global or SDS level the returned
+Hashtable will hold the name as the key and a little class holding the
+type and size information as value. Thus an attribute search looks like
+this in the Java-API:</p>
+<p><code class="docutils literal notranslate"><span class="pre">        Hashtable h = nf.attrdir();</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">        Enumeration e = h.keys();</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">        while(e.hasMoreElements())</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">        {</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">          attname = (String)e.nextElement();</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">          atten = (AttributeEntry)h.get(attname);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">          System.out.println(&quot;Found global attribute: &quot; + attname +</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">            &quot; type: &quot;+ atten.type + &quot; ,length: &quot; + atten.length); </span></code><br />
+<code class="docutils literal notranslate"><span class="pre">        }</span></code></p>
+<p>For more information about the usage of the API routines see the
+reference or the NeXus C-API reference pages. Another good source of
+information is the source code of the test program which exercises each
+API routine. Limitations</p>
+</section>
+</section>
+<section id="known-problems">
+<h2>Known Problems<a class="headerlink" href="#known-problems" title="Link to this heading">¶</a></h2>
+<p>These are a couple of known problems which you might run into:</p>
+<p>Memory: As the Java API for NeXus has to convert between native and Java number types a copy of the data must be made in the process. This means that if you want to read or write 20MB of data your memory requirement will be 40MB! This can be reduced by using getslab/putslab for data transfers.<br />
+Java.lang.OutOfMemoryException: By default the Java runtime has a ceiling of 16MB of memory use. This ceiling can be increased through the -mxXXm option to the Java runtime. An example: java -mx32m ….. starts the Java runtime with a memory ceiling of 32MB.<br />
+DigitalUnix4.0D and LZW compression: An error occurs in the HDF library when trying to compress a dataset with COMP_CODE_LZW. This works just fine on other platforms and also when using the NeXus C language API. The reason for this is still an area for research.<br />
+Maximum 8192 files open: The NeXus API for Java has a fixed buffer for file handles which allows only 8192 NeXus files to be open at the same time. If you ever hit this limit, increase the MAXHANDLE define in native/handle.h and recompile everything.</p>
+</section>
+<section id="compiling-the-java-api-for-nexus">
+<h2>Compiling the Java API for NeXus<a class="headerlink" href="#compiling-the-java-api-for-nexus" title="Link to this heading">¶</a></h2>
+<p>You will need a complete copy of the latest NAPI sources (including
+jnexus sources). See other requirements under installation above.</p>
+<p>For Windows32 a Microsoft Visual C++ 6.0 project file is supplied in the
+jnexus/jnexus directory. Use this project file. You will need to adapt
+the directory settings under Tools/Options/Directories for both include
+and library directories in order to reflect the placement of the HDF
+libraries and the jnexus source code in your directory hierarchy.
+Hitting F7 after that should build the shared library. Hint: Only a
+release build is possible with the HDF library binaries. If a debug
+build is needed you have to recompile the HDF libraries yourself. For a
+recompilation of the Java classes use the compilejava batch file in the
+jnexus main directory.</p>
+<p>For DigitalUnix4.0D and Redhat Linux 6.2 Makefiles are provided
+(Makefile and Make.tux repectively). For these systems everything can be
+build with make du40 of make -f make.tux respectively. If the Makefiles
+do not work edit the directory paths in the configuration section to
+match your installation. If you wish to compile on another unix system,
+create a copy of one of the above mentioned Makefiles and edit the
+configuration section in your copy to match your installation of java
+and the HDF libraries. If you succeed in building the NeXus API for Java
+on a new system, please put back modified sources into the CVS
+repository and make your Makefile and the compiled shared library
+available to the NAPI team in order to provide a new binary
+distribution. Support</p>
+</section>
+<section id="author">
+<h2>Author<a class="headerlink" href="#author" title="Link to this heading">¶</a></h2>
+<p>I’m sure this software contains swarms of bugs. If you manage to find
+one you may send requests either to the NAPI developer mailing list or
+to Mark Könnecke who wrote the Java API for NeXus.</p>
+<p>Author: Mark Könnecke Laboratory for Neutron Scattering Paul Scherrer
+Institut CH-5232-Villigen-PSI Switzerland and the NeXus Design team.
+Last Update: October, 19, 2000</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Japi notes</a></li>
+<li><a class="reference internal" href="#the-nexus-api-for-java">The NeXus API for Java</a><ul>
+<li><a class="reference internal" href="#introduction">Introduction</a></li>
+<li><a class="reference internal" href="#acknowledgement">Acknowledgement</a></li>
+<li><a class="reference internal" href="#installation">Installation</a><ul>
+<li><a class="reference internal" href="#requirements">Requirements</a></li>
+<li><a class="reference internal" href="#installation-under-windows32-windows-nt-windows-95-98-me">Installation under Windows32 (Windows NT, Windows 95, 98, ME)</a></li>
+<li><a class="reference internal" href="#installation-under-unix">Installation under Unix</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#running-programs-with-the-nexus-api-for-java">Running Programs with the NeXus API for Java</a><ul>
+<li><a class="reference internal" href="#locating-the-shared-library">Locating the shared library</a></li>
+<li><a class="reference internal" href="#locating-jnexus-jar">Locating jnexus.jar</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#programming-with-the-nexus-api-for-java">Programming with the NeXus API for Java.</a><ul>
+<li><a class="reference internal" href="#general-things">General Things</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#data-writing-and-reading">Data Writing and Reading</a><ul>
+<li><a class="reference internal" href="#inquiry-routines">Inquiry Routines</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#known-problems">Known Problems</a></li>
+<li><a class="reference internal" href="#compiling-the-java-api-for-nexus">Compiling the Java API for NeXus</a></li>
+<li><a class="reference internal" href="#author">Author</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Java_API.html" title="Java API"
+             >next</a></li>
+        <li class="right" >
+          <a href="IssueReporting.html" title="Issue Reporting"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Japi notes</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

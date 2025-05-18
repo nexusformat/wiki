@@ -1,0 +1,182 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Facilities</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="FAQ" href="FAQ.html" />
+    <link rel="prev" title="Extension of NeXus Coordinate Systems" href="Extension_of_NeXus_Coordinate_Systems.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="FAQ.html" title="FAQ"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Extension_of_NeXus_Coordinate_Systems.html" title="Extension of NeXus Coordinate Systems"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Facilities</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="facilities">
+<h1>Facilities<a class="headerlink" href="#facilities" title="Link to this heading">¶</a></h1>
+<p>Status of NeXus adoption by facility type. As it is very difficult to
+keep the information here current, this page will always at least
+partially be out of date. Please send any updates to the <a class="reference external" href="https://manual.nexusformat.org/mailinglist.html">mailing
+list</a>.</p>
+<section id="pulsed-muon-facilities">
+<h2>Pulsed Muon Facilities<a class="headerlink" href="#pulsed-muon-facilities" title="Link to this heading">¶</a></h2>
+<p><strong>ISIS Muon Facility, STFC Rutherford Appleton Laboratory, UK</strong>: The <a class="reference external" href="https://www.isis.stfc.ac.uk/">ISIS facility</a> has been producing and using NeXus files on its <a class="reference external" href="https://www.isis.stfc.ac.uk/Pages/Muon-spectroscopy.aspx">muon spectrometers</a> for many years now (see <a class="reference external" href="Muon_Time_Differential.html" title="wikilink">Muon_Time_Differential</a> definition). The current definition is in the process of being updated to allow it to store more complex experiments and also to make it more similar to the <a class="reference external" href="TOFRaw.html" title="wikilink">TOFRaw</a> definition used on the ISIS neutron instruments.</p>
+</section>
+<section id="x-ray-facilities">
+<h2>X-ray Facilities<a class="headerlink" href="#x-ray-facilities" title="Link to this heading">¶</a></h2>
+<p><strong>Advanced Photon Source, Argonne National Laboratory, US</strong>: (2015) APS stores some of its data collection in HDF5 files according to different formats, including NeXus. These files are written using either C++ code with HDF5 libraries or python code using the h5py package. No beam lines use the NAPI in their own code. The <a class="reference external" href="http://www.aps.anl.gov/epics">EPICS</a> area detector software has two plug-ins that can write acquired images (and metadata) into NeXus data files. The <strong>HDF5</strong> file writer plug-in uses the HDF5 C/C++ library interface and a user-supplied template file to write NeXus data files. The <strong>NeXus</strong> file writer plug-in uses the NAPI. Note there are plans to deprecate the <strong>NeXus</strong> plug-in in favor of the more generic <strong>HDF5</strong> plug-in. Also, some commercial manufacturers of area detectors in use at the APS now write acquired images into NeXus data files.</p>
+<!-- -->
+<p><strong>Diamond Light Source, Oxfordshire, UK</strong>: The data acquisition system <a class="reference external" href="http://www.opengda.org/">GDA</a> deployed at most <a class="reference external" href="http://www.diamond.ac.uk">Diamond</a> beamlines is capable of writing and reading NeXus. In general beamlines coming online now collect data in NeXus/HDF5 as the primary format from day one. Some existing beamlines have already been migrated, more are following on a case by case basis. It is aimed that all data will be contained in NeXus for long term archiving.</p>
+<!-- -->
+<p><strong>European Synchrotron Radiation Facility, ESRF, FRANCE</strong>: The <a class="reference external" href="http://www.esrf.eu">ESRF</a> is planning on moving to use Nexus/HDF5 for storing all raw data as part of the ambitious <a class="reference external" href="http://www.esrf.eu/Upgrade">ESRF upgrade program</a>. The adoption of Nexus/HDF5 is planned over the time period 2009 to 2012. Currently (2009) the ESRF is actively exploring Nexus and HDF5 to see what the technical implications are for data acquisition and analysis programs. The plan is to where possible adapt data analysis to directly read data generated by data acquisition programs in Nexus/HDF5 format. The current experience shows that Nexus alone is not sufficient and extensions to the standard are required. The extensions are being implemented directly in HDF5.</p>
+<!-- -->
+<p><strong>Alba Synchrotron Light Facility, Spain</strong>: <a class="reference external" href="http://www.cells.es">Alba</a> uses NeXus with HDF5 backend as its main format for storing data on all its beamlines (although scan data may also be duplicated in other formats such as <a class="reference external" href="http://www.certif.com/spec_manual/user_1_4_1.html">SPEC</a> for convenience). NeXus files are normally created by the <a class="reference external" href="http://sardana-controls.org">Sardana</a> control system. Currently (2014) only NXscan (and recently NXtomo) compliant files are created in production, although introduction of other Application Definitions is being tested.</p>
+<!-- -->
+<p><strong>SLS, <a class="reference external" href="http://www.psi.ch/">Paul Scherrer Institut</a>, Switzerland</strong>: The <a class="reference external" href="http://www.psi.ch/sls/">Swiss Light Source</a> is considering NeXus at some beamlines. The PolLux STXM beamline has been developing and using new control software since late 2012 which records all data in NeXus/HDF5 format. This STXM control software (and the NeXus format with it) is propagating to a number of other STXM beamlines around the world. The SLS is encouraging Dectris to have their new detectors (e.g. Eiger) record data in an HDF5 format in order to ease further adoption of NeXus.</p>
+</section>
+<section id="neutron-scattering-facilities">
+<h2>Neutron Scattering Facilities<a class="headerlink" href="#neutron-scattering-facilities" title="Link to this heading">¶</a></h2>
+<p><strong>ISIS Neutron Facility, STFC Rutherford Appleton Laboratory, UK</strong>: Instruments on the <a class="reference external" href="https://www.isis.stfc.ac.uk/">ISIS second target station</a> are now generating NeXus files as per the <a class="reference external" href="TOFRaw.html" title="wikilink">TOFRaw</a> definition in parallel with old ISIS RAW format files. Currently most data analysis is carried out using the ISIS RAW files, but the new <a class="reference external" href="http://www.mantidproject.org/">Mantid data analysis framework</a> supports <a class="reference external" href="TOFRaw.html" title="wikilink">TOFRaw</a> NeXus files and is being increasingly used. The long term goal is to entirely replace the old ISIS RAW file format on both the first and second target stations with NeXus files; the rate determining step for this is the updating of data analysis code to read NeXus files.</p>
+<!-- -->
+<p><strong>Lujan Neutron Scattering Center, <a class="reference external" href="http://lansce.lanl.gov/lujan">Los Alamos National Laboratory</a>, USA</strong>: The Lujan Center is generating NeXus files on all instruments. We are in the process of making the files consistent with the emerging standards, especially <a class="reference external" href="TOFRaw.html" title="wikilink">TOFRaw</a>. The facility hosts about 65,000 NeXus files and the number is growing.</p>
+<!-- -->
+<p><strong>Materials and Life Science Facility, <a class="reference external" href="http://www.j-parc.jp/index-e.html">J-PARC</a>, Japan</strong>: In FY2008, we have successfully received first proton beam and produced pulsed neutron and muon beam at Materials and Life Science Facility (MLF) in J-PARC (<a class="reference external" href="http://www.j-parc.jp/index-e.html">http://www.j-parc.jp/index-e.html</a>). Histogrammed data converted from event-format data and analyzed data are stored in NeXus data format with metadata, and NeXus is common and shared data format among neutron scattering instruments and scientists in MLF. NeXus C-API is utilized through Manyo-Library which is the data analysis framework for neutron scattering experiments. Data analysis softwares for each instrument have been developed with C++ and python on Manyo-Library.</p>
+<!-- -->
+<p><strong>Bragg Institute, <a class="reference external" href="http://www.ansto.gov.au/research/bragg_institute">Australian Nuclear Science and Technology Organisation</a>, Australia</strong>: We are currently writing NeXus files in HDF5 on 5 out of 7 instruments, including Small Angle, Reflectometer, Powder Diffaction and Residual Stress. NeXus is not being used on Triple Axis and Single Crystal Diffraction. The next wave of instruments will be predominantly NeXus.</p>
+<!-- -->
+<p><strong>Institut Laue Langevin <a class="reference external" href="http://www.ill.eu">ILL</a>, Grenoble France</strong>: As of 2008-2009, the ILL has 2 instruments that generate NeXus/HDF5 files as base format: the Disk chopper time-of-flight cold neutrons spectrometer IN5 <a class="reference external" href="http://www.ill.fr/in5">IN5</a> and Time of Flight Neutron Spectrometer for Small Angle Inelastic themal neutron Scattering BRISP <a class="reference external" href="http://www.ill.fr/brisp">BRISP</a>. Volume of data (Gb’s) is substantially higher than what we used to have at the ILL before - because of large PSD detectors - and NeXus was then the only sensible choice for storage. We then use <a class="reference external" href="http://www.ill.eu/instruments-support/computing-for-science/cs-software/all-software/lamp/">LAMP</a>, and Matlab tools (incl. Mslice from Oxford/ISIS) to read and convert data sets. <a class="reference external" href="http://www.mcstas.org">McStas</a> is also used to model these instruments, and may also generate NeXus files.</p>
+<!-- -->
+<p><strong>Spallation Neutron Source <a class="reference external" href="http://neutrons.ornl.gov/">SNS</a>, Oak Ridge, TN, USA</strong>: SNS is using <a class="reference external" href="TOFRaw.html" title="wikilink">TOFRaw</a> for storing histogram based data from all instruments. We are working towards storing the raw event data in NeXus instead as the data acquisition saves data in that form already.</p>
+<!-- -->
+<p><strong>SINQ, <a class="reference external" href="http://www.psi.ch">Paul Scherrer Institute</a>, Switzerland</strong>: At SINQ most data files are stored in NeXus format, as of January, 5, 2009 1104153 files were collected. As PSI pioneered NeXus file writing, most files do not adhere to the newest standards for NeXus files anymore. This will be rectified as soon as more progress on application definitions has been made.</p>
+<!-- -->
+<p><strong>Neutronenquelle Heinz Maier-Leibnitz <a class="reference external" href="http://www.frm2.tum.de">FRM II</a>, Germany</strong>: Introduction of NeXus is under discussion since long; as of 2011, NeXus is used by zero (0) instruments.</p>
+<!-- -->
+<p><strong>European Spallation Source <a class="reference external" href="http://www.europeanspallationsource.se">ESS</a>, Sweden</strong>: Current plans foresee all raw data to be stored in NeXus. Processed data is set to follow that model.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Facilities</a><ul>
+<li><a class="reference internal" href="#pulsed-muon-facilities">Pulsed Muon Facilities</a></li>
+<li><a class="reference internal" href="#x-ray-facilities">X-ray Facilities</a></li>
+<li><a class="reference internal" href="#neutron-scattering-facilities">Neutron Scattering Facilities</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="FAQ.html" title="FAQ"
+             >next</a></li>
+        <li class="right" >
+          <a href="Extension_of_NeXus_Coordinate_Systems.html" title="Extension of NeXus Coordinate Systems"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Facilities</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

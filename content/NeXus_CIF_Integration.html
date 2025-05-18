@@ -1,0 +1,238 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>NeXus CIF Integration</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="NIAC Meeting - February 2006" href="NIAC2006ILL.html" />
+    <link rel="prev" title="Nexus 4 Release Notes" href="Nexus_4_Release_Notes.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NIAC2006ILL.html" title="NIAC Meeting - February 2006"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Nexus_4_Release_Notes.html" title="Nexus 4 Release Notes"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NeXus CIF Integration</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="nexus-cif-integration">
+<h1>NeXus CIF Integration<a class="headerlink" href="#nexus-cif-integration" title="Link to this heading">¶</a></h1>
+<p>At august, 22, 2013 some members of the NIAC will meet with
+representatives of the CIF community and the IUCR in order to discuss a
+possible merger or collaboration between NeXus and CIF. This wiki page
+is meant as a forum to discuss the NIAC’s position towards this
+integration. The initial reaction was quite positive.</p>
+<section id="some-issues-and-differences">
+<h2>Some Issues and Differences<a class="headerlink" href="#some-issues-and-differences" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>NeXus addresses a far greater range of techniques and
+instrumentation then CIF does.</p></li>
+<li><p>NeXus is about hierarchical data storage and arrays</p></li>
+<li><p>CIF so far prefers tables and ASCII.</p></li>
+<li><p>CIF (or Herbert) are very concerned about getting data out of files
+into relational databases. The NeXus position as of now is to store
+the necessary information in a NeXus file and have databases
+populated by external scanners. Thus NeXus makes no assumptions
+about database structures.</p></li>
+<li><p>Both CIF and NeXus have dictionaries of documented names. In many
+cases the dictionaries overlap.</p></li>
+<li><p>NeXus is based on HDF-5 and NXDL, CIF on the star ASCII file format
+and DDL as a dictionary description language. There are many
+versions of DDL.</p></li>
+<li><p>CIF’s ASCII file format is hitting a limit when storing raw data
+from modern high speed detectors. Or sometimes even when storing
+atom positions for huge protein structures.</p></li>
+<li><p>Herbert has demonstrated that it is possible to map CIF into NeXus.
+There are issues but no real show stoppers.</p></li>
+<li><p>DECTRIS is pushing the PX community towards HDF/NeXus through the
+use of NeXus as the format for the upcoming EIGER series of
+detectors</p></li>
+</ul>
+</section>
+<section id="questions">
+<h2>Questions<a class="headerlink" href="#questions" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>How can CIF and NeXus interoperate and integrate?</p></li>
+<li><p>Is CIF ready to expand towards a more general data format?</p></li>
+<li><p>How are the NeXus and CIF dictionaries to be integrated? Or are they
+to be integrated?</p></li>
+<li><p>How will the new integrated file format be used? I assume for
+deposition of data with IUCR journals.</p></li>
+<li><p>What exactly is the interest of the CIF community to collaborate
+with NeXus?</p></li>
+<li><p>Which CIF concepts would need to be included into NeXus to make it
+work?</p></li>
+<li><p>How does CIF solve the issue: we provide for everything</p>
+<ul>
+<li><p>but in most cases really need only 20-30 data items</p></li>
+<li><p>This is the problem NeXus solves with application definitions.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="the-niac-s-interest">
+<h2>The NIAC’s Interest<a class="headerlink" href="#the-niac-s-interest" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>NeXus has always tried to be inclusive: it is no use having a
+standard if everyone has an own one!</p></li>
+<li><p>Recognition by the IUCR would be a selling point for NeXus and
+helpful.</p></li>
+<li><p>Increased interoperability: Interoperability is the raison d’etre of
+NeXus</p></li>
+<li><p>Ideal world: use CIF, HDF5 and NeXus tools on all files.</p></li>
+</ul>
+</section>
+<section id="to-discuss">
+<h2>To Discuss<a class="headerlink" href="#to-discuss" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Anything to add to the statements above?</p></li>
+<li><p>NeXus tries to be inclusive: how far are we prepared to change?
+Presumably this can only be answered after the meeting when we can
+see more clearly what the merger means. It is also crystal clear
+that any changes to NeXus for a CIF merger need proper process:
+discussion and voting.</p></li>
+</ul>
+<section id="cif-nexus-presentation">
+<h3>CIF-NeXus Presentation<a class="headerlink" href="#cif-nexus-presentation" title="Link to this heading">¶</a></h3>
+<p>The draft for the NeXus CIF presentation can be downloaded here:
+<a class="reference external" href="../pdfs/CIFNexus.pdf" title="wikilink">CIFNeXus.pdf</a>. May be we get a chance to discuss
+this on the next Telco.</p>
+<p>Details of how NeXus and CDF might be mapped are contained on the
+<a class="reference external" href="ConcordanceDiscussion.html" title="wikilink">ConcordanceDiscussion</a> page</p>
+</section>
+</section>
+<section id="conclusion">
+<h2>Conclusion<a class="headerlink" href="#conclusion" title="Link to this heading">¶</a></h2>
+<p>01/2015: A NXmx application definition has been designed together with
+COMCIFS. The application definition was tested at diamond and it works.
+This NXmx application definition together with a few changes to NeXus to
+make it work were ratified at NIAC 2014.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">NeXus CIF Integration</a><ul>
+<li><a class="reference internal" href="#some-issues-and-differences">Some Issues and Differences</a></li>
+<li><a class="reference internal" href="#questions">Questions</a></li>
+<li><a class="reference internal" href="#the-niac-s-interest">The NIAC’s Interest</a></li>
+<li><a class="reference internal" href="#to-discuss">To Discuss</a><ul>
+<li><a class="reference internal" href="#cif-nexus-presentation">CIF-NeXus Presentation</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#conclusion">Conclusion</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NIAC2006ILL.html" title="NIAC Meeting - February 2006"
+             >next</a></li>
+        <li class="right" >
+          <a href="Nexus_4_Release_Notes.html" title="Nexus 4 Release Notes"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NeXus CIF Integration</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

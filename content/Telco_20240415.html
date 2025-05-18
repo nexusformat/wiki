@@ -1,0 +1,231 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Telco 20240415</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Telco 20240515" href="Telco_20240515.html" />
+    <link rel="prev" title="Telco 20240311" href="Telco_20240311.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20240515.html" title="Telco 20240515"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Telco_20240311.html" title="Telco 20240311"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" accesskey="U">Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20240415</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="telco-20240415">
+<h1>Telco 20240415<a class="headerlink" href="#telco-20240415" title="Link to this heading">¶</a></h1>
+<section id="date">
+<h2>Date<a class="headerlink" href="#date" title="Link to this heading">¶</a></h2>
+<p>Monday, 15th April, 15:00 UTC</p>
+</section>
+<section id="connect">
+<h2>Connect<a class="headerlink" href="#connect" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>ZOOM VC link: <a class="reference external" href="https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09">https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09</a></p></li>
+<li><p>Meeting ID: 652 7209 1306</p></li>
+<li><p>Passcode: nexus</p></li>
+</ul>
+</section>
+<section id="agenda">
+<h2>Agenda<a class="headerlink" href="#agenda" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>issues</p></li>
+</ul>
+</section>
+<section id="present">
+<h2>Present<a class="headerlink" href="#present" title="Link to this heading">¶</a></h2>
+<p>SB, AB, PM, WdN, PC, BW, LG, PJ,, HG, RO, BB, CZ, FS, HB  + FAIRmat: Markus Kuehbach, Florian Dobener</p>
+</section>
+<section id="minutes">
+<h2>Minutes<a class="headerlink" href="#minutes" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>NIAC Conf: registration is needed for on site attendance, zoom attendance will be offered
+<a class="reference external" href="https://indico.esrf.fr/event/114/">https://indico.esrf.fr/event/114/</a><br />
+<a class="reference external" href="https://indico.esrf.fr/event/114/page/27-satellite-meetings">https://indico.esrf.fr/event/114/page/27-satellite-meetings</a></p></li>
+<li><p>Calls and External fundings</p>
+<ul>
+<li><p>PM: OSCARS calls (<a class="reference external" href="https://oscars-project.eu/">https://oscars-project.eu/</a>)<br />
+potential topic: NeXus libraries, and software environment. Anyone to go with it?</p></li>
+<li><p>PM: webinars: call is open</p></li>
+<li><p>SB: OSCARS also for NeXus Ontology</p></li>
+<li><p>RO: funding for nexpy is also coming in the Summer. Another topic: use of HSDS for cloud storage (IRI is also addressing that. see <a class="reference external" href="https://science.osti.gov/-/media/ascr/ascac/pdf/meetings/202306/Brown_IRI_ASCAC_2023206.pdf">https://science.osti.gov/-/media/ascr/ascac/pdf/meetings/202306/Brown_IRI_ASCAC_2023206.pdf</a>)</p></li>
+</ul>
+</li>
+<li><p>SB: NeXus Ontology v2</p>
+<ul>
+<li><p>HG: it would be great if ESRF could test it</p></li>
+<li><p>WdN: Yes, we shall figure out how to integrate with other ontologies</p></li>
+</ul>
+</li>
+<li><p>Base Class Inheritance</p>
+<ul>
+<li><p>SB: base class inheritance would be appreciated using extends= exactly on the same way as for AppDefs. It would help avoiding copy-pasting. 2 examples are shown: NXem_ebsd (specialising NXem_method) and NXdata_mpes (specialising NXdata). Note that although HTML generation accepts is already, tools like, but cnxvalidate shall probably be updated to support it as registered in a previous issue.</p></li>
+<li><p>PJ: Note that it is not a real OO inheritance with all common concepts, but rather like java interfaces;</p></li>
+<li><p>BW: software tools should also be able to follow the inheritance of the concepts. Is it supported?</p></li>
+<li><p>SB: yes, a python code used for the HTML generation is already implementing it and produces the first reference linking</p></li>
+<li><p>PM: 3D geometry description is another example to support this move and to help avoiding copy-pasting taht happens around NXtransformations. Note that composition is even more powerful than inheritance. How could we combine it? What about multiple inheritance?</p></li>
+<li><p>SB: during composition, we indeed already also “inherit” (auto-copy the interface) and also specialise/extend in one go. Multiple inheritance of interfaces could be great for AppDefs to be used as a comma separated string of AppDef names in NXentry/definition to tell that the given ENTRY implements all those interfaces.</p></li>
+<li><p>PJ (chat): Paul, your observation is correct and it was done with intent, to avoid “being” object designed. It’s high time to fix that. Part of that design included consideration of multiple inheritance, and its consequences.  NIAC was not ready to consider how to handle that in NXDL.</p></li>
+<li><p>RO (chat): <a class="reference external" href="https://www.nexusformat.org/Objects_or_Interfaces.html">https://www.nexusformat.org/Objects_or_Interfaces.html</a></p></li>
+<li><p>RO: In 2011 there was an evaluation of going for OO (MK’s presentation in OO problems in NeXus from 2007: <a class="reference external" href="https://anl.box.com/s/afnrbx4yujjctnciit4bk5olr64usq6n">https://anl.box.com/s/afnrbx4yujjctnciit4bk5olr64usq6n</a>). Note that the sw implementation does use OO, e.g. for NXdata</p></li>
+<li><p>PC (chat): A previous discussion of the NIAC: <a class="reference external" href="https://www.nexusformat.org/NIAC2018Minutes.html">https://www.nexusformat.org/NIAC2018Minutes.html</a></p></li>
+<li><p>PJ (chat): extends - <a class="reference external" href="https://github.com/nexusformat/definitions/blob/main/nxdl.xsd#L237">https://github.com/nexusformat/definitions/blob/main/nxdl.xsd#L237</a>
+The <code class="docutils literal notranslate"><span class="pre">extends</span></code> attribute allows this definition to <em>subclass</em> from another NXDL, otherwise <code class="docutils literal notranslate"><span class="pre">extends=&quot;NXobject&quot;</span></code> should be used.</p></li>
+<li><p>AB: anybody against this?</p></li>
+<li><p>HB: objection against multiple inheritance as it is in C++. This is very problematic! Java style single inheritance would work fine, and also implementations of multiple interfaces as in Java.</p></li>
+<li><p>AB: yes, problems are with multiple inheritances also in python.
+SB, let us set up a github issue to carry on it!</p></li>
+</ul>
+</li>
+<li><p>XAS Working Group</p>
+<ul>
+<li><p>WdN: from XAS working group (<a class="reference external" href="https://indico.esrf.fr/event/114/page/27-satellite-meetings">https://indico.esrf.fr/event/114/page/27-satellite-meetings</a>) reusable list of  enumeration items could be useful</p></li>
+<li><p>MK: EM, APM, XPS also having similar problems, solution may be a corresponding base class, like NXabberation</p></li>
+<li><p>AB: new base class for these could be an overkill, but a new functionality in NXDL or an xml feature which would support that in NXDL could also be a solution</p></li>
+<li><p>HG: what about a reference to external ontology/vocabulary</p></li>
+<li><p>PM: it would be good to have a link between enumerations we use in NeXus at different places</p></li>
+</ul>
+</li>
+<li><p>Promoting Contributed Definitions</p>
+<ul>
+<li><p>AB: list of contributed definitions to be promoted in Sept should be set.</p></li>
+<li><p>3 member committee to do it for May Telco: SB, BW, PC</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="may-telco">
+<h2>May Telco<a class="headerlink" href="#may-telco" title="Link to this heading">¶</a></h2>
+<p>Please help to <a class="reference external" href="https://doodle.com/meeting/participate/id/bDJYq0xe">choose the date by responding to the poll</a> by May 3. We are planning to hold the telco in the regular slot of UTC 15:00. Check your local time to avoid scheduling surprises!</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Telco 20240415</a><ul>
+<li><a class="reference internal" href="#date">Date</a></li>
+<li><a class="reference internal" href="#connect">Connect</a></li>
+<li><a class="reference internal" href="#agenda">Agenda</a></li>
+<li><a class="reference internal" href="#present">Present</a></li>
+<li><a class="reference internal" href="#minutes">Minutes</a></li>
+<li><a class="reference internal" href="#may-telco">May Telco</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20240515.html" title="Telco 20240515"
+             >next</a></li>
+        <li class="right" >
+          <a href="Telco_20240311.html" title="Telco 20240311"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" >Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20240415</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

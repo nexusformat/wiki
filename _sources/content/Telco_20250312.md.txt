@@ -1,0 +1,79 @@
+Telco 20250312
+==============
+
+Date
+----
+
+Wednesday, 12th March, 15:00 UTC
+
+Connect
+-------
+
+- ZOOM VC link: `https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09 <https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09)_
+- Meeting ID: 652 7209 1306
+- Passcode: nexus
+
+Agenda
+------
+
+- PRs
+  
+  - [MPES - 1424](https://github.com/nexusformat/definitions/pull/1424)
+    volunteers for reviewing: PC, FS
+  - [EM - 1423](https://github.com/nexusformat/definitions/pull/1423)
+    volunteers for reviewing: AB, HB
+  - [APM - 1422](https://github.com/nexusformat/definitions/pull/1422)
+    volunteers for reviewing: BW
+  - [OptSpec - 1425](https://github.com/nexusformat/definitions/pull/1425)
+    volunteers for reviewing: WdN, HB
+  - [NXcoordinate_system - 1415](https://github.com/nexusformat/definitions/pull/1415)
+  - [computational geometry - 1421](https://github.com/nexusformat/definitions/pull/1421)
+  - [DATA vs. AXISNAME - 1523](https://github.com/nexusformat/definitions/pull/1523)
+
+Present
+-------
+
+SB, TC, BB, PC, RB, FS, BW, RO, ZM, WdN, HB, AB  + LukasP, MarkusK (FAIRmat)
+
+Minutes
+-------
+
+**MPES**
+[1424](https://github.com/nexusformat/definitions/pull/1424)
+  
+- PC review is in progress; 
+- FS will do it in coming days
+
+**EM**
+[1423](https://github.com/nexusformat/definitions/pull/1423)
+  
+- HB has approved, 
+- AB review is still due
+
+**APM**
+[1422](https://github.com/nexusformat/definitions/pull/1422)
+  
+- BW left suggestions which were accepted by MK. BW also asked technical questions on the method itself which were answered by MK, so BW can provide more comments. 
+- TC also added suggestions.
+
+**OptSpec**
+[1425](https://github.com/nexusformat/definitions/pull/1425)
+reviewers are not present, so skipped
+
+**ambiguity (between DATA, and AXISNAME) when specialising NXdata**
+[1523](https://github.com/nexusformat/definitions/pull/1523)
+  
+- RO argued that since in data processing time, there is a clear rule on how to distinguish between them and how to classify the datasets in NXdata, it is not interesting to know that in advance. Since it would effect also data validators, he asked for a use case where it would indeed matter! Also suggested to use \@signal and \@axis attributes on the FIELDNAMEs.
+
+**NXcoordinate_system**
+[1415](https://github.com/nexusformat/definitions/pull/1415)
+  
+- WdN gave his report and presented his questions. 
+- HB: NXtransformations is coming from CBF where all the possibilities are defined. 
+
+  - https://www.iucr.org/__data/iucr/cifdic_html/2/cif_img.dic/Caxis.html 
+
+  - https://github.com/dials/cbflib.git  
+- LP and MK also answered the questions and explained its use using the attribute depends_on 
+- HB, WdN: also asked the possibility of referencing community conventions
+- WdN: suggested to make an application that uses example data, so it can be demonstrated

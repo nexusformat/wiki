@@ -1,0 +1,222 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Nexus 41 Release Notes</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Nexus 42 Release Notes" href="Nexus_42_Release_Notes.html" />
+    <link rel="prev" title="NeXpy" href="NeXpy.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Nexus_42_Release_Notes.html" title="Nexus 42 Release Notes"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="NeXpy.html" title="NeXpy"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Nexus 41 Release Notes</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="nexus-41-release-notes">
+<h1>Nexus 41 Release Notes<a class="headerlink" href="#nexus-41-release-notes" title="Link to this heading">¶</a></h1>
+<section id="system-requirements">
+<h2>System Requirements<a class="headerlink" href="#system-requirements" title="Link to this heading">¶</a></h2>
+<p><strong>MXML XML Parsing Library</strong></p>
+<p>Version 2.2.2 or higher of mxml is required. Earlier versions have a bug
+and the XML API will not work. This package can be downloded in <a class="reference external" href="http://www.easysw.com/~mike/mxml/software.php">both
+source and binary rpm
+form</a> and is also
+available as part of <a class="reference external" href="http://fedoraproject.org/wiki/Extras/UsingExtras">Fedora
+Extras</a>. IMPORTANT
+NOTE: Debian also provides the mxml package, but it based on 2.0 and
+will not work properly.</p>
+</section>
+<section id="building-notes">
+<h2>Building Notes<a class="headerlink" href="#building-notes" title="Link to this heading">¶</a></h2>
+<section id="nag-f90-f95-compiler">
+<h3>NAG F90/F95 Compiler<a class="headerlink" href="#nag-f90-f95-compiler" title="Link to this heading">¶</a></h3>
+<p>The NAG compiler needs the <strong>-mismatch</strong> flag to be specified or else it
+will not compile NXmodule.f90 This is achieve by running configure with
+the <strong>FCFLAGS</strong> environment variable set to contain the flag e.g.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>env FCFLAGS=&quot;-mismatch&quot; ./configure --with-f90=f95
+</pre></div>
+</div>
+</section>
+<section id="hdf4-on-intel-macs">
+<h3>HDF4 on Intel Macs<a class="headerlink" href="#hdf4-on-intel-macs" title="Link to this heading">¶</a></h3>
+<p>There is a problem with the include file, hdfi.h (normally in
+/usr/local/include). See
+<a class="reference external" href="http://coastwatch.noaa.gov/helparc/software/msg00069.html">http://coastwatch.noaa.gov/helparc/software/msg00069.html</a> for details
+of the modifications necessary to fix it.</p>
+</section>
+</section>
+<section id="new-features">
+<h2>New Features<a class="headerlink" href="#new-features" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>New types NX_INT64 and NX_UINT64 to suppport 64 bit integers (only
+available in HDF5 and XML)
+<a class="reference external" href="http://trac.nexusformat.org/code/ticket/87">details</a>.</p></li>
+<li><p>Python bindings are now included in the Windows install kit
+<a class="reference external" href="http://trac.nexusformat.org/code/ticket/86">details</a></p></li>
+</ul>
+</section>
+<section id="changed-features">
+<h2>Changed Features<a class="headerlink" href="#changed-features" title="Link to this heading">¶</a></h2>
+</section>
+<section id="known-issues">
+<h2>Known Issues<a class="headerlink" href="#known-issues" title="Link to this heading">¶</a></h2>
+</section>
+<section id="miscellaneous-bug-fixes">
+<h2>Miscellaneous bug fixes<a class="headerlink" href="#miscellaneous-bug-fixes" title="Link to this heading">¶</a></h2>
+<p>The following items are bugs reported in previous releases and resolved
+in the 4.1 release.</p>
+<ul class="simple">
+<li><p>The Fortran 90 part of testsuite failed with the Absoft compiler on
+MacOSX (it passed with g95 and gfortran (4.2)) <a class="reference external" href="http://trac.nexusformat.org/code/ticket/68">details
+here</a></p></li>
+<li><p>NXputattr assumed NULL termination of NX_CHAR attributes, which is
+usually the case in C but not true for JAVA. A workaround is to add
+‘\0’ manually <a class="reference external" href="http://trac.nexusformat.org/code/ticket/83">bug
+report</a></p></li>
+<li><p>pkgconfig issue <a class="reference external" href="http://trac.nexusformat.org/code/ticket/84">bug
+report</a></p></li>
+<li><p>Build issue with MXML-2.3 <a class="reference external" href="http://trac.nexusformat.org/code/ticket/91">bug
+report</a></p></li>
+<li><p>XML buffer resizing performance issue <a class="reference external" href="http://trac.nexusformat.org/code/ticket/92">bug
+report</a></p></li>
+<li><p>Documentation is now installed to “datadir” (/usr/share) <a class="reference external" href="http://trac.nexusformat.org/code/ticket/93">bug
+report</a></p></li>
+</ul>
+</section>
+<section id="upcoming-features">
+<h2>Upcoming Features<a class="headerlink" href="#upcoming-features" title="Link to this heading">¶</a></h2>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Nexus 41 Release Notes</a><ul>
+<li><a class="reference internal" href="#system-requirements">System Requirements</a></li>
+<li><a class="reference internal" href="#building-notes">Building Notes</a><ul>
+<li><a class="reference internal" href="#nag-f90-f95-compiler">NAG F90/F95 Compiler</a></li>
+<li><a class="reference internal" href="#hdf4-on-intel-macs">HDF4 on Intel Macs</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#new-features">New Features</a></li>
+<li><a class="reference internal" href="#changed-features">Changed Features</a></li>
+<li><a class="reference internal" href="#known-issues">Known Issues</a></li>
+<li><a class="reference internal" href="#miscellaneous-bug-fixes">Miscellaneous bug fixes</a></li>
+<li><a class="reference internal" href="#upcoming-features">Upcoming Features</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Nexus_42_Release_Notes.html" title="Nexus 42 Release Notes"
+             >next</a></li>
+        <li class="right" >
+          <a href="NeXpy.html" title="NeXpy"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Nexus 41 Release Notes</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

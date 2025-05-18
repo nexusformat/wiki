@@ -1,0 +1,211 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Telco 20190424</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Telco 20190621" href="Telco_20190621.html" />
+    <link rel="prev" title="Telco 20190312" href="Telco_20190312.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20190621.html" title="Telco 20190621"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Telco_20190312.html" title="Telco 20190312"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" accesskey="U">Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20190424</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="telco-20190424">
+<h1>Telco 20190424<a class="headerlink" href="#telco-20190424" title="Link to this heading">¶</a></h1>
+<section id="date">
+<h2>Date<a class="headerlink" href="#date" title="Link to this heading">¶</a></h2>
+<p>Wednesday, 24 April, 15:00 CEST (+0200)</p>
+<!-- end of autogeneration -->
+<p>Hangout Link:
+<a class="reference external" href="https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua">https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua</a></p>
+</section>
+<section id="agenda">
+<h2>Agenda<a class="headerlink" href="#agenda" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Documentation glitch: <a class="reference external" href="https://github.com/nexusformat/definitions/issues/648">https://github.com/nexusformat/definitions/issues/648</a></p></li>
+<li><p>Sparse containers: <a class="reference external" href="https://github.com/nexusformat/definitions/issues/653">https://github.com/nexusformat/definitions/issues/653</a></p></li>
+<li><p>Per-image pixel mask: <a class="reference external" href="https://github.com/nexusformat/definitions/issues/651">https://github.com/nexusformat/definitions/issues/651</a></p></li>
+<li><p>Underload for NXdetector: <a class="reference external" href="https://github.com/nexusformat/definitions/issues/656">https://github.com/nexusformat/definitions/issues/656</a></p></li>
+<li><p>New teleconferencing system</p></li>
+</ul>
+</section>
+<section id="minutes">
+<h2>Minutes<a class="headerlink" href="#minutes" title="Link to this heading">¶</a></h2>
+<p>Present: BW, MK, AB, PJ, HB, TM</p>
+</section>
+<section id="documentation-glitch">
+<h2>Documentation glitch<a class="headerlink" href="#documentation-glitch" title="Link to this heading">¶</a></h2>
+<p>All agree that proposal by AS is sensible and should be accepted. To be implemented by PJ.</p>
+</section>
+<section id="sparse-containers">
+<h2>Sparse containers<a class="headerlink" href="#sparse-containers" title="Link to this heading">¶</a></h2>
+<p>This is a bit special in that it is describing how a dataset is represented, while NeXus tends to concentrate on the physical meaning of datasets. It is, however, similar to NXlog and NXevent_data in this respect and so should definitely be considered. While we think it is probably best dealt with in HDF5, rather than NeXus, the HDF group need money for development and a NeXus solution might be better than the customised h5py code pointed to in the github issue.
+This idea should be further developed into a proposal for the NIAC.</p>
+</section>
+<section id="per-image-pixel-mask">
+<h2>Per-image pixel mask<a class="headerlink" href="#per-image-pixel-mask" title="Link to this heading">¶</a></h2>
+<p>All agree on the value of allowing multiple image masks for various use cases. BW would prefer using systematic naming in order to allow many masks, suggesting ‘pixel_mask_N’ (where N is an integer) for all masks beyond the first, which retains the ‘pixel_mask’ name. AB promised to work on the issue.</p>
+</section>
+<section id="underload-for-nxdetector">
+<h2>Underload for NXdetector<a class="headerlink" href="#underload-for-nxdetector" title="Link to this heading">¶</a></h2>
+<p>All agree it is a reasonable addition. AB to do the implementation.</p>
+</section>
+<section id="new-teleconferencing-system">
+<h2>New teleconferencing system<a class="headerlink" href="#new-teleconferencing-system" title="Link to this heading">¶</a></h2>
+<p>PJ is worried that Google Hangouts might disappear and suggests we consider alternative teleconferencing systems. Suggestions include:</p>
+<ul class="simple">
+<li><p>BlueJeans: <a class="reference external" href="https://www.bluejeans.com/">https://www.bluejeans.com/</a></p></li>
+<li><p>Zoom: <a class="reference external" href="https://zoom.us/">https://zoom.us/</a></p></li>
+<li><p>Skype: <a class="reference external" href="https://www.skype.com">https://www.skype.com</a>
+The issue should be discussed at the next telco.</p></li>
+</ul>
+</section>
+<section id="other-business">
+<h2>Other Business<a class="headerlink" href="#other-business" title="Link to this heading">¶</a></h2>
+<p>AB points out that the ALS is making a concerted effort (through Alexandr Hexemer) to implement NeXus at beamlines. There is interest in using NeXus/XML in order to avoid putting binary files into a database. PJ suggests considering NeXus/JSON, which is already being used by Dectris.</p>
+</section>
+<section id="next-telco">
+<h2>Next Telco<a class="headerlink" href="#next-telco" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Will aim for last week of May or first week of June.</p></li>
+<li><p>HB prefers not Thursday ot Friday.</p></li>
+<li><p>MK will not attend.</p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Telco 20190424</a><ul>
+<li><a class="reference internal" href="#date">Date</a></li>
+<li><a class="reference internal" href="#agenda">Agenda</a></li>
+<li><a class="reference internal" href="#minutes">Minutes</a></li>
+<li><a class="reference internal" href="#documentation-glitch">Documentation glitch</a></li>
+<li><a class="reference internal" href="#sparse-containers">Sparse containers</a></li>
+<li><a class="reference internal" href="#per-image-pixel-mask">Per-image pixel mask</a></li>
+<li><a class="reference internal" href="#underload-for-nxdetector">Underload for NXdetector</a></li>
+<li><a class="reference internal" href="#new-teleconferencing-system">New teleconferencing system</a></li>
+<li><a class="reference internal" href="#other-business">Other Business</a></li>
+<li><a class="reference internal" href="#next-telco">Next Telco</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20190621.html" title="Telco 20190621"
+             >next</a></li>
+        <li class="right" >
+          <a href="Telco_20190312.html" title="Telco 20190312"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" >Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20190424</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

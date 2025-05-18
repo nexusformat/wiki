@@ -1,0 +1,259 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Linking External Files</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Membership Dates" href="Membership_Dates.html" />
+    <link rel="prev" title="Latest News" href="Latest_News.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Membership_Dates.html" title="Membership Dates"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Latest_News.html" title="Latest News"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Linking External Files</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="linking-external-files">
+<h1>Linking External Files<a class="headerlink" href="#linking-external-files" title="Link to this heading">¶</a></h1>
+<p>This discussion is on how to access external files from within a given
+NeXus files. This defeats one guiding principle of NeXus: to have
+everything in one file, somewhat. However, having everything in one file
+can mean replicating large time-of-flight empty can or vanadium datasets
+in each data file. In such cases it would be nice to access
+transparently an external file holding such data. This page discusses
+some of the implementation issues of such a scheme.</p>
+<section id="storing-external-file-information">
+<h2>Storing External File Information<a class="headerlink" href="#storing-external-file-information" title="Link to this heading">¶</a></h2>
+<p>Somehow the information that an external file has to be accessed must be
+stored within the parent NeXus file. Given the feature set of NeXus, I
+suggest storing this information as an attribute of a NeXus object. It
+would be sensible to restrict this attribute to NeXus groups only. As
+the name of the attribute, I suggest <strong>mount</strong> following the example of
+HDF-5. The data content of this attribute should be a URL pointing to
+the requested file. This not only follows the fashion of the day but
+also gives a lot of freedom to implement various file access strategies
+and even file formats. As it might be necessary to specify alternative
+locations for a given external file, I suggest allowing multiple URLs
+separated by :: It must be :: because a single colon can be part of a
+valid URL.</p>
+</section>
+<section id="implementing-external-file-access-at-the-napi-level">
+<h2>Implementing External File Access At The NAPI Level<a class="headerlink" href="#implementing-external-file-access-at-the-napi-level" title="Link to this heading">¶</a></h2>
+<p>Various issues have to be adressed when implementing external file
+access. The most important one is how to transparently navigate the file
+hierarchy resulting from external linking. In order to handle this, I
+suggest changing NXhandle. Currently NXhandle maps to a pNexusFunction
+structure. Navigating the file hierarchy becomes possible when NXhandle
+is modified to become a stack of pNexusFunction structures. All
+functions in napi.c would need to be changed to access the bottom
+element of this stack. NXopengroup would then be modified to check for
+the mount attribute. If the mount attribute is found, NXopengroup would
+open the file specified in the URL and push the new pNexusFunction onto
+the stack. Likewise NXclosegroup has to check if it is leaving a mounted
+file and if this is the case, has to close the file and to pop the
+expired pNexusFunction structure from the stack. If we choose to
+implement external linking on datasets too a similar scheme would have
+to be implemented for NXopendata and NXclosedata.</p>
+</section>
+<section id="actually-accessing-the-external-file">
+<h2>Actually Accessing The External File<a class="headerlink" href="#actually-accessing-the-external-file" title="Link to this heading">¶</a></h2>
+<p>This section is about schemes for actually opening an external file as
+specified by a URL. Accessing an external NeXus file within the same
+file system is the easiest case: just open the path! It becomes
+moderately more complex when accessing NeXus files which are available
+through the http or ftp series of protocols. In that case, I suggest
+downloading such a file through a suitable library and accessing it in
+the cache area. Such a copy and access method would also help minimise
+the download of possibly large files as a cache lookup can be
+implemented to precede an actual download. A good library to choose for
+http and ftp style downloads might be <a class="reference external" href="http://curl.haxx.se/">http://curl.haxx.se/</a> cURL. A
+drawback of such a solution (or any general URL solution) is that
+another meta data API would be required in order to keep such
+information as usernames, passwords and possibly proxy servers.</p>
+<p>The degree of implementation complexity increases when we wish to
+support general URL schemes or wish to support files not in a supported
+NeXus physical file format. In such cases, a means would be needed to
+dynamically add URL handlers to the NeXus-API. However, if we restrict
+ourselves to the copy, cache and access scheme outlined above, another
+easily implemented option is to call external utility programs for
+downloading files into the cache. This solution will appeal to the unix
+crowd (including the Macs who are also unix), but might leave the
+utility deprived Windows users in a tight spot. The most ambitious
+implementation would be to allow loading both file format and URL
+handlers dynamically into the NeXus-API. Both are possible but will
+cause stability and maintainance problems due to the reliance on many
+shared libraries.</p>
+</section>
+<section id="summary-and-open-issues">
+<h2>Summary And Open Issues<a class="headerlink" href="#summary-and-open-issues" title="Link to this heading">¶</a></h2>
+<p>Summing it up, implementing external linking is definitely possible and
+implementable within a reasonable amount of time. Group attributes would
+have to be implemented first though. Open questions include:</p>
+<ul class="simple">
+<li><p>Do we restrict external linking to groups?</p></li>
+<li><p>Is the suggested path to an implementation acceptable? There might
+be others.</p></li>
+<li><p>Which level do we implement?</p>
+<ul>
+<li><p>Local NeXus files only?</p></li>
+<li><p>Download, cache, access through a library included with the
+NeXus-API? Which library then?</p>
+<ul>
+<li><p>cURL?</p></li>
+</ul>
+</li>
+<li><p>Download and cache delegated to external programs?</p></li>
+<li><p>Dynamically loadable URL Handlers?</p></li>
+<li><p>Dynamically loadable physical file format handlers?</p></li>
+</ul>
+</li>
+<li><p>Your question here!</p></li>
+</ul>
+<p>My two cents worth of opinion: shared libraries always annoy me, I like
+big statically built things, especially as disk space is cheap these
+days. I would implement a local disk access version first in order to
+get the mechanics right, followed by a version implementing the
+download, cache and access NeXus files scheme using cURL. Both versions
+would restrict external linking to groups.</p>
+</section>
+<section id="decisions-niac-2006-ill-february-2006">
+<h2>Decisions NIAC 2006, ILL, February 2006<a class="headerlink" href="#decisions-niac-2006-ill-february-2006" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>mount becomes napimount</p></li>
+<li><p>NXinquirefile, which file we are actually</p></li>
+<li><p>nxdir expanded to print and copy dependencies</p></li>
+<li><p>Files are searched in NX_LOAD_PATH</p></li>
+<li><p>getenv becomes napigetenv in order to address platform problems with
+getenv</p></li>
+<li><p>External linking will only implement local linking first.</p></li>
+<li><p>If network linking is implemented, the use of libcurl is preferred.</p></li>
+<li><p>network linking is deferred, may be indefinitly</p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Linking External Files</a><ul>
+<li><a class="reference internal" href="#storing-external-file-information">Storing External File Information</a></li>
+<li><a class="reference internal" href="#implementing-external-file-access-at-the-napi-level">Implementing External File Access At The NAPI Level</a></li>
+<li><a class="reference internal" href="#actually-accessing-the-external-file">Actually Accessing The External File</a></li>
+<li><a class="reference internal" href="#summary-and-open-issues">Summary And Open Issues</a></li>
+<li><a class="reference internal" href="#decisions-niac-2006-ill-february-2006">Decisions NIAC 2006, ILL, February 2006</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Membership_Dates.html" title="Membership Dates"
+             >next</a></li>
+        <li class="right" >
+          <a href="Latest_News.html" title="Latest News"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Linking External Files</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

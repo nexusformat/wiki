@@ -1,0 +1,185 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Telco 20210628</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Telco 20210728" href="Telco_20210728.html" />
+    <link rel="prev" title="Telco 20210505" href="Telco_20210505.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20210728.html" title="Telco 20210728"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Telco_20210505.html" title="Telco 20210505"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" accesskey="U">Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20210628</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="telco-20210628">
+<h1>Telco 20210628<a class="headerlink" href="#telco-20210628" title="Link to this heading">¶</a></h1>
+<section id="date">
+<h2>Date<a class="headerlink" href="#date" title="Link to this heading">¶</a></h2>
+<p>Monday, 28th June, 13:00 UTC</p>
+<!-- end of autogeneration -->
+</section>
+<section id="connect">
+<h2>Connect<a class="headerlink" href="#connect" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>ZOOM VC link: <a class="reference external" href="https://psich.zoom.us/j/62714818737?pwd=V3FJZHVWUWN1TU1IYkU3Z3Y5dlZuQT09">https://psich.zoom.us/j/62714818737?pwd=V3FJZHVWUWN1TU1IYkU3Z3Y5dlZuQT09</a></p></li>
+<li><p>Meeting ID:   627 1481 8737</p></li>
+<li><p>Password:     314159265</p></li>
+<li><p>Dial in number details: <a class="reference external" href="https://psich.zoom.us/u/cdW7YV91uK">https://psich.zoom.us/u/cdW7YV91uK</a></p></li>
+</ul>
+</section>
+<section id="agenda">
+<h2>Agenda<a class="headerlink" href="#agenda" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Welcome new members</p></li>
+<li><p>Review previous meeting minutes and actions: <a class="reference external" href="Telco_20210505.html">May Telco</a></p></li>
+<li><p>The NeXus ontology and scripts are now on <a class="reference external" href="https://github.com/nexusformat/NeXusOntology">github</a></p></li>
+<li><p>The <a class="reference external" href="https://www.hdfgroup.org/hug/europeanhug21/">European HDF5 users online meeting</a> will be held on July 7-8.</p></li>
+<li><p>Issues on Github labelled with “telco”</p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/nexusformat/definitions/issues?q=is%3Aopen+is%3Aissue+label%3Atelco">definitions</a></p></li>
+<li><p><a class="reference external" href="https://github.com/nexusformat/code/issues?q=is%3Aopen+is%3Aissue+label%3Atelco">code</a></p></li>
+</ul>
+</li>
+</ul>
+<p>Present: BW, MK, FA, HG, PC, LS, PJ, RB, WG, AB</p>
+</section>
+<section id="minutes">
+<h2>Minutes<a class="headerlink" href="#minutes" title="Link to this heading">¶</a></h2>
+<p>At last TC, PC raised the issue with the assumption that beam lies on the Z-axis was problematic and suggested adapting NXbeam to allow description of other geometries. He has not been able to look at this further since then, but will try to. It was suggested that we might want to allow using survey points, but these may be better known to the survey team than the scientists.</p>
+<p>The script to generate the <a class="reference external" href="https://github.com/nexusformat/NeXusOntology">NeXus ontology</a> is now on Github. A vote of the NIAC is required for use of a   <a class="reference external" href="http://purl.org/nexusformat/definitions">http://purl.org/nexusformat/definitions</a> namespace as the <a class="reference external" href="https://en.wikipedia.org/wiki/Persistent_uniform_resource_locator">PURL</a> and with summer approaching it looked unlikely to get the necessary discussion quorum as per constitiuion so this is likely to happen september. The external python modules requried to run the script are listed in comments in the script, but it was suggested a <code class="docutils literal notranslate"><span class="pre">requirements.txt</span></code> (or similar) file would be helpful. Currently the scipt version is encoded in the script name, this may make it harder to package/update later. PC offered to do a code review.</p>
+<p>The <a class="reference external" href="https://www.hdfgroup.org/hug/europeanhug21/">European HDF users group summer 2021 meeting</a> is taking place afternoons of 7-8 July, unfortunately this clashes with the EPICS collaboration meeting. PC and LS indicated they may attend, BW thought it would be useful if there was a NeXus presentation at the meeting and may be able to do this if nobody else was available. AB is unable to attend the meeting due to a clash, but has some HDF5 data rate issues that he would be grateful if somebody could raise, they happen when writing 900000 frames in 5 minutes. There was some discussion about whether the use of subfiles could be avoided, maybe parallel HDF5 would help. WG, PC and AB were going to discuss further. PJ mentioned that people working at US national labs must request authorisation to attend conferences 45 days in advance - even if they are online meetings.</p>
+<p>AB mentioned a collaborator who wished to add the definition git commit id as an attribute to his data files. The committe was happy for a proposal to be submitted to extend the definitions, but the person concerned is free to add the value now if they follow <a class="reference external" href="https://manual.nexusformat.org/datarules.html#index-4">data/prefix rules</a></p>
+<p>A <a class="reference external" href="https://github.com/nexusformat/definitions/issues/933">recent submitted issue</a> asked about scanning with <code class="docutils literal notranslate"><span class="pre">NXfluo</span></code>. It looks like the definition needs generalising to allow the additional scan <code class="docutils literal notranslate"><span class="pre">npts</span></code> dimension. This probably applies to other definitions too and may be a future code camp topic. In addition, we should document any implied rules that we might have e.g. can always scan an axis with an implied <code class="docutils literal notranslate"><span class="pre">npts</span></code>.</p>
+<p>PJ raised the question of whether counts should have a NeXus unit, or just be dimensionless. After discussion and reviewing of <a class="reference external" href="https://github.com/nexusformat/definitions/blob/main/nxdlTypes.xsd">https://github.com/nexusformat/definitions/blob/main/nxdlTypes.xsd</a> and <a class="reference external" href="https://github.com/nexusformat/definitions/blob/main/nxdlTypes.xsd#L50">https://github.com/nexusformat/definitions/blob/main/nxdlTypes.xsd#L50</a> it was suggested that <code class="docutils literal notranslate"><span class="pre">NX_PULSES</span></code> fulfills a similar role and maybe deprecating that for a new NX_COUNT is the way to go. PJ suggested that we consider examining a unit-conversion program (such as <a class="reference external" href="https://github.com/rags/pynt">pynt</a>) to see how others in the scientific community address corner cases like “counts”.</p>
+<p>Next meeting end of July</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Telco 20210628</a><ul>
+<li><a class="reference internal" href="#date">Date</a></li>
+<li><a class="reference internal" href="#connect">Connect</a></li>
+<li><a class="reference internal" href="#agenda">Agenda</a></li>
+<li><a class="reference internal" href="#minutes">Minutes</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20210728.html" title="Telco 20210728"
+             >next</a></li>
+        <li class="right" >
+          <a href="Telco_20210505.html" title="Telco 20210505"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" >Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20210628</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,271 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Telco 20200424</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Telco 20200527" href="Telco_20200527.html" />
+    <link rel="prev" title="Telco 20200323" href="Telco_20200323.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20200527.html" title="Telco 20200527"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Telco_20200323.html" title="Telco 20200323"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" accesskey="U">Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20200424</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="telco-20200424">
+<h1>Telco 20200424<a class="headerlink" href="#telco-20200424" title="Link to this heading">¶</a></h1>
+<section id="date">
+<h2>Date<a class="headerlink" href="#date" title="Link to this heading">¶</a></h2>
+<p>Friday, 24 April, 15:00 CET (+0100)</p>
+<!-- end of autogeneration -->
+<p>Hangout Link:
+<a class="reference external" href="https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua">https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua</a></p>
+</section>
+<section id="agenda">
+<h2>Agenda<a class="headerlink" href="#agenda" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/nexusformat/definitions/issues/748">Issue #748: Mixed use of NXreflections and NXmx telco</a></p></li>
+<li><p><a class="reference external" href="https://github.com/nexusformat/definitions/issues/765">Issue #765: NXcanSAS “radiation” duplicates NXsource “type”</a></p></li>
+<li><p><a class="reference external" href="https://github.com/nexusformat/definitions/issues/762">Issue #762: [NXtomo] Need user flags</a></p></li>
+<li><p><a class="reference external" href="https://github.com/nexusformat/definitions/issues/757">Issue #757: How to add extra attributes and avoid conflicts with NeXus in the future?</a></p></li>
+</ul>
+</section>
+<section id="minutes">
+<h2>Minutes<a class="headerlink" href="#minutes" title="Link to this heading">¶</a></h2>
+<p>Present: BW, AB, FA, HG, HB, MK, PJ, PC</p>
+</section>
+<section id="niac">
+<h2>NIAC<a class="headerlink" href="#niac" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>NOBUGS registration is split into separate days for the code camp</p></li>
+<li><p>linking not yet</p></li>
+<li><p>spacing for SD is fine</p></li>
+<li><p>need to make sure teleconferencing is adequate</p></li>
+</ul>
+</section>
+<section id="pull-request-767">
+<h2>Pull Request #767<a class="headerlink" href="#pull-request-767" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>AB notes <a class="reference external" href="https://github.com/nexusformat/definitions/pull/767">PR #767</a> is ready for final review.</p></li>
+<li><p>PJ notes that travis-ci reports a failure (reST syntax encoded within XML).</p></li>
+</ul>
+</section>
+<section id="issue-748">
+<h2>Issue #748<a class="headerlink" href="#issue-748" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>NXreflections describes diffraction spots in a tabular format, having evolved from historical practice of attributing and recording diffraction spots from film-based photographs.</p></li>
+<li><p>it is a base class and not an appdef (currently)</p></li>
+<li><p>Both versions (base class and AppDef) have use cases.</p></li>
+<li><p>An Appdef should be written that has NXreflections as a major component so that it can be used together with NXmx
+AB brings up related Pull Request #767</p></li>
+</ul>
+</section>
+<section id="issue-765">
+<h2>Issue #765<a class="headerlink" href="#issue-765" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>best to mark radiation as deprecated</p></li>
+<li><p>PJ to discuss with canSAS people</p></li>
+</ul>
+</section>
+<section id="issue-762">
+<h2>Issue #762<a class="headerlink" href="#issue-762" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>user def keys should be negative</p></li>
+<li><p>extra (or subgroup of fields) fields (NXnotes) needed to describe user def keys</p>
+<ul>
+<li><p>Need stadardised name for description</p></li>
+</ul>
+</li>
+<li><p>any new positive key should be NIAC approved</p></li>
+</ul>
+<p>AB asks MK: base classes can’t be a subentry?</p>
+<ul class="simple">
+<li><p>subentries must be AppDef</p></li>
+<li><p>entries can also be AppDef</p></li>
+</ul>
+</section>
+<section id="issue-757">
+<h2>Issue #757<a class="headerlink" href="#issue-757" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>HB suggests doing what the PDB community does and have a list of registered prefixes</p></li>
+<li><p>starting with an underscore didn’t work out for PDB</p></li>
+<li><p>NIAC should grant power for approving prefix registration</p></li>
+<li><p>BW suggests prefixes be in uppercase to make them obvious to human readers</p></li>
+<li><p>PJ suggests prefixes be followed by an underscore</p></li>
+<li><p>PJ will post new issue with proposal for the NIAC</p></li>
+</ul>
+</section>
+<section id="any-other-business">
+<h2>Any Other Business<a class="headerlink" href="#any-other-business" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>PC asks NXuser for a group of users</p>
+<ul>
+<li><p>MK suggests using multiple instances of NXuser</p></li>
+</ul>
+</li>
+<li><p>PC ask: is there a way to give numerical precision?</p>
+<ul>
+<li><p>should be applicable to any general field</p></li>
+<li><p>Outside of current scope - someone needs to propose a method - perhaps as an attribute</p></li>
+</ul>
+</li>
+<li><p>HG asks: How has NeXus been approaching ontologies and mapping metadata betwen formats</p>
+<ul>
+<li><p>NeXus predates much of the current academic interest in ontologies</p></li>
+<li><p>PJ suggests talking to a group at the ALS</p></li>
+<li><p>PJ asks if there is a general Ontology that NeXus can fit within</p></li>
+<li><p>HG says that ontologies tend to sit next to each other as peers, rather than under an umbrella ontology</p></li>
+</ul>
+</li>
+<li><p>PJ points to the index of the NeXus definitions as a starting point to mapping the NeXus ontology</p>
+<ul>
+<li><p>HG will create new GitHub issue for a published NeXus ontology</p></li>
+<li><p>PJ proposed using information from the manual’s index as a starting point</p></li>
+<li><p>PJ noted that various items of NeXus structure (group, field, attribute) are automatically indexed</p></li>
+<li><p>MK noted that position in hierarchy is important since some terms (such as <code class="docutils literal notranslate"><span class="pre">name</span></code>) have multiple meanings</p></li>
+<li><p>ontology should include</p>
+<ul>
+<li><p><a class="reference external" href="https://manual.nexusformat.org/design.html#index-15">NeXus class path</a> to specify hierachy position</p></li>
+<li><p>documentation content from the NXDL for each item listed</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Next telco: Mid May, using a poll in the same manner as previously.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Telco 20200424</a><ul>
+<li><a class="reference internal" href="#date">Date</a></li>
+<li><a class="reference internal" href="#agenda">Agenda</a></li>
+<li><a class="reference internal" href="#minutes">Minutes</a></li>
+<li><a class="reference internal" href="#niac">NIAC</a></li>
+<li><a class="reference internal" href="#pull-request-767">Pull Request #767</a></li>
+<li><a class="reference internal" href="#issue-748">Issue #748</a></li>
+<li><a class="reference internal" href="#issue-765">Issue #765</a></li>
+<li><a class="reference internal" href="#issue-762">Issue #762</a></li>
+<li><a class="reference internal" href="#issue-757">Issue #757</a></li>
+<li><a class="reference internal" href="#any-other-business">Any Other Business</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20200527.html" title="Telco 20200527"
+             >next</a></li>
+        <li class="right" >
+          <a href="Telco_20200323.html" title="Telco 20200323"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" >Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20200424</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

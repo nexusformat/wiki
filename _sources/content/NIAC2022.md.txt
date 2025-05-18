@@ -1,0 +1,172 @@
+---
+title: NIAC2022
+permalink: NIAC2022.html
+layout: wiki
+---
+NIAC2022
+========
+
+The NIAC2022 meeting will be held as a hybrid event hosted by the [Paul Scherrer Institute](https://www.psi.ch) on September 14-16th, which is the week before the [2022 NOBUGS conference](https://indico.psi.ch/event/12738/).
+
+As COVID19 continues to be a concern, people will be able to participate both onsite and online (via Zoom). In order to better overlap with other time zones (especially in the Americas), the meeting sessions will be shorter and later in the day (CEST) over 3 days (instead of the usual 2 days).
+
+Venue and Accommodation
+-----------------------
+
+PSI is a major research institute in [northern Switzerland](https://goo.gl/maps/pfBDWUdopjhdeWFQ6) hosting a number of [large-scale facilities](https://www.psi.ch/de/science/large-research-facilities) and [specialised research laboratories](https://www.psi.ch/de/science/research-departments-and-labs). It is easy to [reach by public transport](https://www.psi.ch/en/visit/how-to-find-us). The [PSI Pocket web-app](https://pocket.psi.ch/home) provides lots of useful information for visitors. Public transport in Switzerland is very good and reliable and thus is highly recommended. Trains, busses and ferries all share the same ticketing system so that a single ticket covers a journey that may utilise a combination of vehicles. While the tickets are typically based on zones being traversed, most ticket purchases are organised by simply stating the start and end points. Journeys can be streamlined by using the [SBB Mobile app](https://www.sbb.ch/en/timetable/mobile-apps/sbb-mobile.html), which provides time tables, ticket purchasing and holds tickets (only have to show the ticket if asked by a train conductor). Trips can be [planned online](https://www.sbb.ch/en/) with links to purchase tickets in advance to be downloaded to a phone or as PDF.
+
+The [PSI guest house](https://www.psi.ch/de/guesthouse) is conveniently situated on site, and is probably the cheapest option but is considered basic by many. The PSI guest house also has limited availability and so should be booked as early as possible. Other [nearby hotels](https://www.psi.ch/de/guesthouse/nearby-hotels) are a short bus ride away (such busses typically run every half hour).
+
+The [climate](https://en.wikipedia.org/wiki/Z%C3%BCrich#Climate) in mid-September is generally cool to mild with overcast, foggy mornings being common.
+
+Registration
+------------
+
+[Registration Form](https://indico.psi.ch/event/13249/registrations/1773/)
+
+[One Page Overview](https://indico.psi.ch/event/13249/?print=1)
+
+We ask that all participants register for the meeting, regardless of whether they will be joining in person or online so that sufficient resources can be organised. People outside of the NIAC are invited to join discussions and register for the meeting but voting will be restricted to committee members only.
+
+COVID19 Precautions
+-------------------
+
+There are currently no coronavirus restrictions in place at [PSI](https://www.psi.ch/en/useroffice) or by the [Swiss government](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/empfehlungen-fuer-reisende.html). However, the situation could change, especially as the weather gets cooler, and we encourage attendees to consider both their own safety and the safety of others with appropriate hygiene, testing and vaccination.
+
+Agenda
+------
+
+The meeting agenda will be based on a [Github project](https://github.com/orgs/nexusformat/projects/2) so that it is accessible to all particpants. Any proposal to be discussed and voted on should be documented as an issue in the [nexusformat/NIAC repository](https://github.com/nexusformat/NIAC/issues).
+
+Minutes
+-------
+
+[NIAC2022 minutes](NIAC2022_minutes.html)
+
+
+
+Schedule
+--------
+
+The meeting will have sets of 2 hour sessions with 30 minute breaks. 3 sessions per day for 3 days.
+
+[Zoom link](https://psich.zoom.us/j/61992829752?pwd=VWs5eXluSUxRNTNWT3JhdXRFSnhHZz09)
+
+ID: 619 9282 9752
+
+passcode: nexus
+
+
+<table>
+<TR><TD> Session </TD><TD> Local Start Times </TD></TR>
+<TR><TD> <font size="+10">A</font> <BR>September 14th<BR>10:00-12:00 UTC</TD><TD>
+<table>
+<TR><TD>Tokyo</TD><TD>Thu 19:00</TD></TR>
+<TR><TD>San Francisco</TD><TD>Thu 03:00</TD></TR>
+<TR><TD>New York</TD><TD>Thu 06:00</TD></TR>
+<TR><TD>London</TD><TD>Thu 11:00</TD></TR>
+<TR><TD>Zürich</TD><TD>Thu 12:00</TD></TR>
+</table>
+</TD></TR>
+<TR><TD> <font size="+10">B</font> <BR>September 14th<BR>12:30-14:30 UTC </TD><TD>
+<table>
+<TR><TD>Tokyo</TD><TD>Fri 21:30</TD></TR>
+<TR><TD>San Francisco</TD><TD>Thu 5:30</TD></TR>
+<TR><TD>New York</TD><TD>Thu 8:30</TD></TR>
+<TR><TD>London</TD><TD>Thu 13:30</TD></TR>
+<TR><TD>Zürich</TD><TD>Thu 14:30</TD></TR>
+</table>
+</TD></TR>
+<TR><TD> <font size="+10">C</font> <BR>September 14th<BR>15:00-17:00 UTC</TD><TD>
+<table>
+<TR><TD>Tokyo</TD><TD>Fri 00:00</TD></TR>
+<TR><TD>San Francisco</TD><TD>Fri 08:00</TD></TR>
+<TR><TD>New York</TD><TD>Fri 11:00</TD></TR>
+<TR><TD>London</TD><TD>Fri 16:00</TD></TR>
+<TR><TD>Zürich</TD><TD>Fri 17:00</TD></TR>
+</table>
+</TD></TR>
+</table>
+
+<table>
+<TR><TD> Session </TD><TD> Local Start Times </TD></TR>
+<TR><TD> <font size="+10">D</font> <BR>September 15th<BR>10:00-12:00 UTC</TD><TD>
+<table>
+<TR><TD>Tokyo</TD><TD>Thu 19:00</TD></TR>
+<TR><TD>San Francisco</TD><TD>Thu 03:00</TD></TR>
+<TR><TD>New York</TD><TD>Thu 06:00</TD></TR>
+<TR><TD>London</TD><TD>Thu 11:00</TD></TR>
+<TR><TD>Zürich</TD><TD>Thu 12:00</TD></TR>
+</table>
+</TD></TR>
+<TR><TD> <font size="+10">E</font> <BR>September 15th<BR>12:30-14:30 UTC </TD><TD>
+<table>
+<TR><TD>Tokyo</TD><TD>Fri 21:30</TD></TR>
+<TR><TD>San Francisco</TD><TD>Thu 5:30</TD></TR>
+<TR><TD>New York</TD><TD>Thu 8:30</TD></TR>
+<TR><TD>London</TD><TD>Thu 13:30</TD></TR>
+<TR><TD>Zürich</TD><TD>Thu 14:30</TD></TR>
+</table>
+</TD></TR>
+<TR><TD> <font size="+10">F</font> <BR>September 15th<BR>15:00-17:00 UTC</TD><TD>
+<table>
+<TR><TD>Tokyo</TD><TD>Fri 00:00</TD></TR>
+<TR><TD>San Francisco</TD><TD>Fri 08:00</TD></TR>
+<TR><TD>New York</TD><TD>Fri 11:00</TD></TR>
+<TR><TD>London</TD><TD>Fri 16:00</TD></TR>
+<TR><TD>Zürich</TD><TD>Fri 17:00</TD></TR>
+</table>
+</TD></TR>
+</table>
+
+<table>
+<TR><TD> Session </TD><TD> Local Start Times </TD></TR>
+<TR><TD> <font size="+10">G</font> <BR>September 16th<BR>10:00-12:00 UTC</TD><TD>
+<table>
+<TR><TD>Tokyo</TD><TD>Thu 19:00</TD></TR>
+<TR><TD>San Francisco</TD><TD>Thu 03:00</TD></TR>
+<TR><TD>New York</TD><TD>Thu 06:00</TD></TR>
+<TR><TD>London</TD><TD>Thu 11:00</TD></TR>
+<TR><TD>Zürich</TD><TD>Thu 12:00</TD></TR>
+</table>
+</TD></TR>
+<TR><TD> <font size="+10">H</font> <BR>September 16th<BR>12:30-14:30 UTC </TD><TD>
+<table>
+<TR><TD>Tokyo</TD><TD>Fri 21:30</TD></TR>
+<TR><TD>San Francisco</TD><TD>Thu 5:30</TD></TR>
+<TR><TD>New York</TD><TD>Thu 8:30</TD></TR>
+<TR><TD>London</TD><TD>Thu 13:30</TD></TR>
+<TR><TD>Zürich</TD><TD>Thu 14:30</TD></TR>
+</table>
+</TD></TR>
+<TR><TD> <font size="+10">I</font> <BR>September 16th<BR>15:00-17:00 UTC</TD><TD>
+<table>
+<TR><TD>Tokyo</TD><TD>Fri 00:00</TD></TR>
+<TR><TD>San Francisco</TD><TD>Fri 08:00</TD></TR>
+<TR><TD>New York</TD><TD>Fri 11:00</TD></TR>
+<TR><TD>London</TD><TD>Fri 16:00</TD></TR>
+<TR><TD>Zürich</TD><TD>Fri 17:00</TD></TR>
+</table>
+</TD></TR>
+</table>
+
+Official Decisions and Statements
+---------------------------------
+  
+|    Proposal (link to voting)     |  Discussion  |  Implementation  |   Decision<BR>(for/against/abstain)    |
+| --- | --- | --- | --- |
+| [Flux definitions for NXmx](https://github.com/nexusformat/definitions/pull/1035#issuecomment-1248232346) | [issue#986](https://github.com/nexusformat/definitions/issues/986) | [pull#1035](https://github.com/nexusformat/definitions/pull/1035) | Accepted<BR>(11/0/0) |
+| [Math in NXDL symbol tables](https://github.com/nexusformat/definitions/issues/1084#issuecomment-1249411564) | [issue#1084](https://github.com/nexusformat/definitions/issues/1084) | Statement | Accepted<BR>(8/0/0) |
+| [Review of NXsas](https://github.com/nexusformat/NIAC/issues/58#issuecomment-1249513045) | [issue#522](https://github.com/nexusformat/definitions/issues/522) | [pull#1194](https://github.com/nexusformat/definitions/pull/1194) | Accepted<BR>(8/0/0) |
+| [Elect Chair](https://github.com/nexusformat/NIAC/issues/137#issuecomment-1248281424) | --- | Aaron Brewster | Accepted<BR>(13/0/0) |
+| [Elect Executive Secretary](https://github.com/nexusformat/NIAC/issues/137#issuecomment-1248285986) | --- | Sandor Brockhauser | Accepted<BR>(11/0/1) |
+| [Elect Technical Manager](https://github.com/nexusformat/NIAC/issues/137#issuecomment-1248291142) | --- | Mark Koennecke | Accepted<BR>(12/0/0) |
+| [Elect Definitions Release Manager](https://github.com/nexusformat/NIAC/issues/137#issuecomment-1248292805) | --- | Peter Chang | Accepted<BR>(12/0/0) |
+| [NeXus ontology development](https://github.com/nexusformat/NIAC/issues/136#issuecomment-1246777030) | [issue#136](https://github.com/nexusformat/NIAC/issues/136) | Statement | Accepted<BR>(10/0/0) |
+| [Support "recommended" property for attributes](https://github.com/nexusformat/NIAC/issues/140#issuecomment-1246721024) | [issue#140](https://github.com/nexusformat/NIAC/issues/140) | [pull#1183](https://github.com/nexusformat/definitions/pull/1183) | Accepted<BR>(10/0/0) |
+| [Improvements to NXxas](https://github.com/nexusformat/definitions/pull/1190#issuecomment-1248133885) | [issue#1170](https://github.com/nexusformat/definitions/issues/1170) | [pull#1190](https://github.com/nexusformat/definitions/pull/1190) | Accepted<BR>(9/0/0) |
+| [Clarify data types: `NX_CHAR_XOR_NUM`](https://github.com/nexusformat/NIAC/issues/142#issuecomment-1247951551) | [issue#142](https://github.com/nexusformat/NIAC/issues/142) | --- | Accepted<BR>(12/0/0) |
+| [Clarify data types: `NX_NUMBER`](https://github.com/nexusformat/NIAC/issues/142#issuecomment-1247957679) | [issue#142](https://github.com/nexusformat/NIAC/issues/142) | --- | Accepted<BR>(13/0/0) |
+| [Clarify data types: `NX_COMPOUND`](https://github.com/nexusformat/NIAC/issues/142#issuecomment-1247961708) | [issue#142](https://github.com/nexusformat/NIAC/issues/142) | --- | Rejected<BR>(0/11/1) |
+
+

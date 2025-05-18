@@ -1,0 +1,716 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>NeXpy</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Nexus 41 Release Notes" href="Nexus_41_Release_Notes.html" />
+    <link rel="prev" title="NAPI Utility Routines" href="NAPI_Utility_Routines.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Nexus_41_Release_Notes.html" title="Nexus 41 Release Notes"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="NAPI_Utility_Routines.html" title="NAPI Utility Routines"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NeXpy</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="nexpy">
+<h1>NeXpy<a class="headerlink" href="#nexpy" title="Link to this heading">¶</a></h1>
+<p><a class="reference external" href="https://nexpy.github.io/nexpy/">NeXpy</a> provides a high-level python interface to NeXus data contained
+within a simple GUI. It is designed to provide an intuitive interactive
+toolbox allowing users both to access existing NeXus files and to create
+new NeXus-conforming data structures without expert knowledge of the
+file format.</p>
+<section id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Link to this heading">¶</a></h2>
+<p>WARNING: NeXpy is in the early stages of development, and so there has
+been no stable release yet. It is available for testing purposes only.</p>
+<p>To check out the latest version from the <a class="reference external" href="https://github.com/nexpy/nexpy">GitHub
+repository</a> and install the NeXpy
+package to the standard python site-packages directory,:</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt; git clone </span></code><a class="reference external" href="https://github.com/nexpy/nexpy.git"><code class="docutils literal notranslate"><span class="pre">https://github.com/nexpy/nexpy.git</span></code></a><br />
+<code class="docutils literal notranslate"><span class="pre">&gt; cd nexpy</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt; python setup.py install</span></code></p>
+<p>This assumes that the standard Python script directory is in your
+default path.</p>
+<p>The source code can also be viewed on the <a class="reference external" href="https://github.com/nexpy/nexpy">NeXpy
+GitHub</a>.</p>
+<section id="installation-issues">
+<h3>Installation Issues<a class="headerlink" href="#installation-issues" title="Link to this heading">¶</a></h3>
+<section id="locating-the-nexus-library">
+<h4>Locating the NeXus library<a class="headerlink" href="#locating-the-nexus-library" title="Link to this heading">¶</a></h4>
+<p>NeXpy utilizes the python wrapper to the NeXus C API distributed with
+the standard NeXus distribution. This wrapper needs the location of the
+libNeXus precompiled binary. It looks in the following places in order::</p>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Location</p></th>
+<th><p>Operating System</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>os.environ['NEXUSLIB']</p></td>
+<td><p>All</p></td>
+</tr>
+<tr class="even">
+<td><p>directory containing napi.py</p></td>
+<td><p>All</p></td>
+</tr>
+<tr class="odd">
+<td><p>os.environ['NEXUSDIR']\bin</p></td>
+<td><p>Windows</p></td>
+</tr>
+<tr class="even">
+<td><p>os.environ['LD_LIBRARY_PATH']</p></td>
+<td><p>Unix</p></td>
+</tr>
+<tr class="odd">
+<td><p>os.environ['DYLD_LIBRARY_PATH']</p></td>
+<td><p>Darwin</p></td>
+</tr>
+<tr class="even">
+<td><p>PREFIX/lib</p></td>
+<td><p>Unix and Darwin</p></td>
+</tr>
+<tr class="odd">
+<td><p>/usr/local/lib</p></td>
+<td><p>Unix and Darwin</p></td>
+</tr>
+<tr class="even">
+<td><p>/usr/lib</p></td>
+<td><p>Unix and Darwin</p></td>
+</tr>
+<tr class="odd">
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>On Windows it looks for one of libNeXus.dll or libNeXus-0.dll.</p></li>
+<li><p>On OS X it looks for libNeXus.dylib</p></li>
+<li><p>On Unix it looks for libNeXus.so</p></li>
+</ul>
+<p>NEXUSDIR defaults to r’C:\Program Files\NeXus Data Format’. PREFIX
+defaults to /usr/local, but is replaced by the value of –prefix during
+configure.</p>
+<p>The import will raise an OSError exception if the library wasn’t found
+or couldn’t be loaded. Note that on Windows in particular this may be
+because the supporting HDF5 dlls were not available in the usual places.</p>
+<p>If you are extracting the nexus library from a bundle at runtime, set
+os.environ[‘NEXUSLIB’] to the path where it is extracted before the
+first import of nexpy.</p>
+</section>
+<section id="required-libraries">
+<h4>Required Libraries<a class="headerlink" href="#required-libraries" title="Link to this heading">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="http://www.nexusformat.org">nexus</a></p></li>
+<li><p><a class="reference external" href="https://numpy.org">numpy</a></p></li>
+<li><p><a class="reference external" href="https://scipy.org">scipy</a></p></li>
+<li><p><a class="reference external" href="https://www.h5py.org">h5py</a></p></li>
+<li><p><a class="reference external" href="http://matplotlib.sourceforge.net">matplotlib v1.1.0</a></p></li>
+<li><p><a class="reference external" href="http://www.hdfgroup.org">hdf5</a></p></li>
+<li><p><a class="reference external" href="http://www.minixml.org">mxml</a> (XML NeXus files only)</p></li>
+<li><p><a class="reference external" href="http://www.pyside.org/">PySide v1.1.0</a> (GUI only)</p></li>
+<li><p><a class="reference external" href="http://ipython.org/">iPython v0.13</a> (GUI only)</p></li>
+<li><p><a class="reference external" href="http://pyspec.sourceforge.net">pyspec</a> (SPEC reader only)</p></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="running-nexpy">
+<h2>Running NeXpy<a class="headerlink" href="#running-nexpy" title="Link to this heading">¶</a></h2>
+<p>There are two ways of using the NeXpy interface to NeXus files.</p>
+<ol class="arabic simple">
+<li><p>Within a standard python or ipython shell.</p></li>
+<li><p>Using the GUI shell</p></li>
+</ol>
+<section id="python-shell">
+<h3>Python Shell<a class="headerlink" href="#python-shell" title="Link to this heading">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">$ python</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">Python 2.7.2 (default, Oct 11 2012, 20:14:37) </span></code><br />
+<code class="docutils literal notranslate"><span class="pre">[GCC 4.2.1 Compatible Apple Clang 4.0 (tags/Apple/clang-418.0.60)] on darwin</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">Type </span></code>“<code class="docutils literal notranslate"><span class="pre">help</span></code>”<code class="docutils literal notranslate"><span class="pre">, </span></code>“<code class="docutils literal notranslate"><span class="pre">copyright</span></code>”<code class="docutils literal notranslate"><span class="pre">, </span></code>“<code class="docutils literal notranslate"><span class="pre">credits</span></code>”<code class="docutils literal notranslate"><span class="pre"> or </span></code>“<code class="docutils literal notranslate"><span class="pre">license</span></code>”<code class="docutils literal notranslate"><span class="pre"> for more information.</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; from nexpy.api import nexus</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; a=nexus.load('data/chopper.nxs')</span></code></p>
+</section>
+<section id="gui-shell">
+<h3>GUI Shell<a class="headerlink" href="#gui-shell" title="Link to this heading">¶</a></h3>
+<p>To run the NeXpy GUI, type</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt; nexpy</span></code></p>
+<p><img alt="NeXpy|center|800px" src="../_images/Nexpy.png" /> The GUI
+contains three main panes:</p>
+<p>Tree Pane:This contains the tree structure of NeXus files opened in the File menu and/or any NXroot and NXentry groups created within the shell.<br />
+Plot Pane:Any NXdata or NXmonitor group can be plotted in this pane by right-clicking on the relevant node in the tree.<br />
+Shell Pane:This is a regular python shell, with both Numpy and NeXpy already imported (as * so no prefixes are necessary). Any assignments to items in the tree pane are automatically reflected in the tree pane, and new NXroot, NXentry, or NXdata objects are added to the tree. Currently, it is not possible to plot directly from the shell pane, but this will be added in the future.</p>
+<p>There are a number of useful features available when running NeXpy
+within the GUI shell.</p>
+<ol class="arabic simple">
+<li><p>Data can be loaded with the &lt;File:Open&gt; menu item using a standard
+file browser window.</p></li>
+<li><p>All current NeXus data trees are easy to inspect in the pane on the
+upper left side. Hovering over a data item produces a tooltip
+containing a list of all the item’s children.</p></li>
+<li><p>Newly created group can be added to the tree at any time.</p></li>
+<li><p>Any changes to data sets in the scripting window will be reflected
+within the tree pane, including the creation of new NXroot or
+NXentry groups.</p></li>
+<li><p>NXdata and NXmonitor plots can be displayed by right-clicking and
+choosing ‘Plot’.</p></li>
+<li><p>Axis limits are set by a series of slider bars.</p></li>
+<li><p>The scripting shell provides convenient autocompletion, and
+automatically displays function docstrings as a tooltip when you
+open the function parentheses.</p></li>
+</ol>
+<section id="planned-enhancements">
+<h4>Planned Enhancements<a class="headerlink" href="#planned-enhancements" title="Link to this heading">¶</a></h4>
+<ul class="simple">
+<li><p>Editing data items in the tree within an editor pane.</p></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="nexus-interface">
+<h2>NeXus Interface<a class="headerlink" href="#nexus-interface" title="Link to this heading">¶</a></h2>
+<section id="loading-nexus-data">
+<h3>Loading NeXus Data<a class="headerlink" href="#loading-nexus-data" title="Link to this heading">¶</a></h3>
+<p>The entire tree structure of a NeXus file can be loaded by a single
+command.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; from nexpy.api import nexus</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; a=nexus.load('sns/data/ARCS_7326_tof.nxs')</span></code></p>
+<p>The assigned variable now contains the entire tree structure of the
+file, which can be displayed by printing the ‘tree’ property.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; print a.tree</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">root:NXroot</span></code><br />
+<code class="docutils literal notranslate"><span class="pre"> &#64;HDF5_Version = 1.8.2</span></code><br />
+<code class="docutils literal notranslate"><span class="pre"> &#64;NeXus_version = 4.2.1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre"> &#64;file_name = ARCS_7326_tof.nxs</span></code><br />
+<code class="docutils literal notranslate"><span class="pre"> &#64;file_time = 2010-05-05T01:59:25-05:00</span></code><br />
+<code class="docutils literal notranslate"><span class="pre"> entry:NXentry</span></code><br />
+<code class="docutils literal notranslate">&#160;&#160; </code>[<code class="docutils literal notranslate"><span class="pre">data:NXdata</span></code>](data:NXdata)<br />
+<code class="docutils literal notranslate"><span class="pre">     data = float32(631x461x4x825)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;axes = rotation_angle:tilt_angle:sample_angle:time_of_flight</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;signal = 1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     rotation_angle = float32(632)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;units = degree</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     sample_angle = [ 210.  215.  220.  225.  230.]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;units = degree</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     tilt_angle = float32(462)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;units = degree</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     time_of_flight = float32(826)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;units = microsecond</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   run_number = 7326</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   sample:NXsample</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     pulse_time = 2854.94747365</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;units = microsecond</span></code></p>
+<p>Individual data items are immediately available from the command-line.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; print a.entry.run_number</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">7326</span></code></p>
+<p>Note that only the tree structure and smaller data sets are read into
+memory to avoid using up memory unnecessarily. In the above example,
+only the types and dimensions of the larger data sets are displayed in
+the tree. However, the filename is also stored, so the data can be
+loaded as soon as it is needed, either as a complete array or as a
+series of slabs.</p>
+</section>
+<section id="creating-nexus-data">
+<h3>Creating NeXus Data<a class="headerlink" href="#creating-nexus-data" title="Link to this heading">¶</a></h3>
+<p>It is just as easy to create new NeXus data sets from scratch using
+Numpy arrays. The following example shows the creation of a simple
+function, which is then saved to a file.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; import numpy as np</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; x=y=np.linspace(0,2*np.pi,101)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; X,Y=np.meshgrid(x,y)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; z=np.sin(X)*np.sin(Y)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; a=NXdata(z,[x,y])</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; a.save('function.nxs')</span></code></p>
+<p>This file can then be loaded again.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; b=nexus.load('function.nxs')</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; print b.tree</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">root:NXroot</span></code><br />
+<code class="docutils literal notranslate"><span class="pre"> &#64;HDF5_Version = 1.8.2</span></code><br />
+<code class="docutils literal notranslate"><span class="pre"> &#64;NeXus_version = 4.2.1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre"> &#64;file_name = function.nxs</span></code><br />
+<code class="docutils literal notranslate"><span class="pre"> &#64;file_time = 2010-05-10T17:01:13+01:00</span></code><br />
+<code class="docutils literal notranslate"><span class="pre"> entry:NXentry</span></code><br />
+<code class="docutils literal notranslate">&#160;&#160; </code>[<code class="docutils literal notranslate"><span class="pre">data:NXdata</span></code>](data:NXdata)<br />
+<code class="docutils literal notranslate"><span class="pre">     axis1 = float64(101)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     axis2 = float64(101)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     signal = float64(101x101)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;axes = axis1:axis2</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;signal = 1</span></code></p>
+<p>Note that the save() method automatically wraps any valid NeXus data in
+an NXentry group, in order to produce a standard-compliant file.</p>
+<section id="nexus-fields">
+<h4>NeXus Fields<a class="headerlink" href="#nexus-fields" title="Link to this heading">¶</a></h4>
+<p>NeXus data values are stored in NeXus objects of class ‘NXfield’. The
+NXfield class wraps standard Numpy arrays, scalars, and python strings
+so that data attributes can be associated with them. There are two ways
+to create an NXfield.</p>
+<ul class="simple">
+<li><p>Explicit initialization. The data value is given by the first
+positional argument, and may be a python scalar or string, or a
+Numpy array. In this method, keyword arguments can be used to define
+NXfield attributes.</p></li>
+</ul>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; x = NXfield(np.linspace(0,2*np.pi,101), units='degree')</span></code></p>
+<ul class="simple">
+<li><p>Implicit initialization as the child of a NeXus group. The assigned
+values are automatically converted to an NXfield.</p></li>
+</ul>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; a.entry.sample.temperature=40.0</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; a.entry.sample.temperature</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">NXfield(name=temperature,value=40.0)</span></code></p>
+<p>NXfield attributes can be assigned after creating the NXfield. Note that
+attribute names must not start with ‘nx’ to avoid name clashes.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; a.entry.sample.temperature.units='K'</span></code></p>
+<p>The actual values of an NXfield are stored in the ‘nxdata’ attribute. If
+the NXfield is read in from a data file, this attribute is not input if
+the array size is large to avoid using up memory unnecessarily. It will,
+however, be read in if the value is accessed for plotting or
+manipulating data. If this will cause a memory exception, the data
+should be read in as a series of slabs using the nxget method.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; with root.NXentry[0].data.data as slab:</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">              Ni,Nj,Nk = slab.shape</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">               size = [1,1,Nk]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">               for i in range(Ni):</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                   for j in range(Nj):</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                       value = slab.get([i,j,0],size)</span></code></p>
+<p>Data values can be returned converted to different units if the ‘units’
+attribute has been set.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; phi = x.nxdata_as(units='radian')</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; y = NXfield(np.sin(phi))</span></code></p>
+</section>
+<section id="nexus-groups">
+<h4>NeXus Groups<a class="headerlink" href="#nexus-groups" title="Link to this heading">¶</a></h4>
+<p>NeXus groups are defined as subclasses of the NXgroup class. Apart from
+the class name, they behave identically except for the NXdata,
+NXmonitor, and NXlog groups, which have extra methods defined. The
+initialization parameters can be used to populate the group with other
+predefined NeXus objects, either groups or fields.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; temperature = NXfield(40.0, units='K')</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; sample = NXsample(temperature=temperature)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; print sample.tree</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">sample:NXsample</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">  temperature = 40.0</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">  units = K</span></code></p>
+<p>Note that, in this example, it was necessary to use the keyword form to
+add the NXfield ‘temperature’ since its name is otherwise undefined
+within the NXsample group. This name is set automatically if the NXfield
+is added as an attribute assignment.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; sample = NXsample()</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; sample.temperature=NXfield(40.0, units='K')</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">sample:NXsample</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">  temperature = 40.0</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">  units = K</span></code></p>
+<p>The objects in NeXus groups, which can be NXfields or other NXgroups,
+can also be assigned and referenced as dictionary items.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; sample[</span></code>“<code class="docutils literal notranslate"><span class="pre">temperature</span></code>”<code class="docutils literal notranslate"><span class="pre">] = 40.0</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; sample.keys()</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">['temperature']</span></code></p>
+<p>NXdata Groups<br />
+NXdata groups contain data ready to be plotted. That means that the
+group should consist of an NXfield containing the data and one or more
+NXfields containing the axes. NeXus defines a method of associating axes
+with the appropriate dimension, but NeXpy provides a simple constructor
+that implements this method automatically.</p>
+<p>This was already demonstrated in the example above, reproduced here:</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; import numpy as np</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; x=y=np.linspace(0,2*np.pi,101)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; X,Y=np.meshgrid(y,x)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; z=np.sin(X)*np.sin(Y)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; a=NXdata(z,[x,y])</span></code></p>
+<p>The first positional argument is an NXfield or Numpy array containing
+the data, while the second is a list containing the axes, again as
+NXfields or Numpy arrays. In this example, the names of the arrays have
+not been defined within an NXfield so default names were assigned.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; print a.tree</span></code><br />
+<code class="docutils literal notranslate">&#160;&#160; </code>[<code class="docutils literal notranslate"><span class="pre">data:NXdata</span></code>](data:NXdata)<br />
+<code class="docutils literal notranslate"><span class="pre">     axis1 = float64(101)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     axis2 = float64(101)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     signal = float64(101x101)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;axes = axis1:axis2</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;signal = 1</span></code></p>
+<p>However, names can be assigned explicitly when creating the NXfield
+through the ‘name’ attribute.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; phi=np.linspace(0,2*np.pi,101)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; data=np.sin(phi)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; a=NXdata(NXfield(data,name='intensity'),(NXfield(phi,name='polar_angle')))</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; print a.tree</span></code><br />
+[<code class="docutils literal notranslate"><span class="pre">data:NXdata</span></code>](data:NXdata)<br />
+<code class="docutils literal notranslate"><span class="pre">  intensity = float64(101)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;axes = polar_angle</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;signal = 1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">  polar_angle = float64(101)</span></code></p>
+</section>
+</section>
+<section id="adding-nexus-data-to-the-tree-view">
+<h3>Adding NeXus Data to the Tree View<a class="headerlink" href="#adding-nexus-data-to-the-tree-view" title="Link to this heading">¶</a></h3>
+<p>If you create a NeXus group dynamically in the iPython shell, it can be
+added to the tree view using the tree’s add method.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; a=NXroot()</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; a.entry = NXentry()</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; tree.add(a)</span></code></p>
+<p>If the group is not an NXroot group, the data will be wrapped
+automatically in an NXroot group and given a default name that doesn’t
+conflict with existing tree nodes, e.g., w4.</p>
+</section>
+<section id="plotting-nexus-data">
+<h3>Plotting NeXus Data<a class="headerlink" href="#plotting-nexus-data" title="Link to this heading">¶</a></h3>
+<section id="id1">
+<h4>Python Shell<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h4>
+<p>NXdata, NXmonitor, and NXlog groups all have a plot method, which
+automatically determines what should be plotted.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; data.plot()</span></code></p>
+<p><img alt="A simple NeXpyplot|center" src="../_images/NeXPy-Simple_plot.png" /> If
+the data is one-dimensional, it is possible to overplot more than one
+data set using ‘over=True’. Conventional Matplotlib keywords can be used
+to change markers and colors.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; data.plot(log=True)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; data.plot(over=True, log=True, color='r')</span></code></p>
+</section>
+<section id="id2">
+<h4>GUI Shell<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h4>
+<p>NXdata, NXmonitor, and NXlog data can be plotted by right-clicking on
+the group within the tree. The plot pane contains a toolbar to change
+axis or signal intensity limits. The slider provides a graphical way of
+setting minimum and/or maximum values or they can be typed into the text
+boxes. <img alt="Axis LimitsToolbar|center|600px" src="../_images/Axis_Limits_Bar.png" />
+There are two checkboxes:</p>
+<p>Lock:If the maximum and/or minimum values are not set to the limits, then this checkbox locks the difference between the two. This checkbox disables setting of the minimum value. You can step through the z-values with automatic replots by selecting the maximum box and using the keyboard up and down arrows or by clicking the box arrows.<br />
+Autoscale: When stepping through the z-values, this checkbox determines whether the plot should change the color scale.</p>
+</section>
+</section>
+<section id="manipulating-nexus-data">
+<h3>Manipulating NeXus Data<a class="headerlink" href="#manipulating-nexus-data" title="Link to this heading">¶</a></h3>
+</section>
+<section id="slicing">
+<h3>Slicing<a class="headerlink" href="#slicing" title="Link to this heading">¶</a></h3>
+<section id="nxfield">
+<h4>NXfield<a class="headerlink" href="#nxfield" title="Link to this heading">¶</a></h4>
+<p>A slice of an NXfield can be obtained using the usual python indexing
+syntax.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; x=NXfield(np.linspace(0,2*np.pi,101))</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; print x[0:51]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">[ 0.          0.06283185  0.12566371 ...,  3.01592895  3.0787608 3.14159265]</span></code></p>
+<p>If either of the indices are floats, then the limits are set by the
+values themselves (assuming the array is monotonic).</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; print x[0.5:1.5]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">[ 0.50265482  0.56548668  0.62831853 ...,  1.38230077  1.44513262 1.50796447]</span></code></p>
+</section>
+<section id="nxdata">
+<h4>NXdata<a class="headerlink" href="#nxdata" title="Link to this heading">¶</a></h4>
+<p>It is also possible to slice whole NXdata groups. In this case, the
+slicing works on the multidimensional NXfield, but the full NXdata group
+is returned with both the signal data and the associated axes limited by
+the slice parameters. If either of the limits along any one axis is a
+float, the limits are set by the values of the axis.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; a=NXdata(np.sin(x),x)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; a[1.5:2.5].x</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">NXfield(name=x,value=[ 1.57079633  1.72787596  1.88495559 ...,  2.19911486  2.35619449])</span></code></p>
+<p>Unless the slice reduces one of the axes to a single item, the rank of
+the data remains the same. To project data along one of the axes, and so
+reduce the rank by one, the data can be summed along that axis using the
+nxsum() method. This employs the Numpy array sum() method.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; x=y=NXfield(np.linspace(0,2*np.pi,41))</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; X,Y=np.meshgrid(x,y)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; a=NXdata(np.sin(X)*np.sin(Y), (x,y))</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; print a.tree</span></code><br />
+[<code class="docutils literal notranslate"><span class="pre">data:NXdata</span></code>](data:NXdata)<br />
+<code class="docutils literal notranslate"><span class="pre">  axis1 = float64(41)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">  axis2 = float64(41)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">  signal = float64(41x41)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;axes = axis1:axis2</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;signal = 1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; print a.sum(0).tree</span></code><br />
+[<code class="docutils literal notranslate"><span class="pre">data:NXdata</span></code>](data:NXdata)<br />
+<code class="docutils literal notranslate"><span class="pre">  axis2 = float64(41)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">  signal = float64(41)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;axes = axis2</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;long_name = Integral from 0.0 to 6.28318530718 </span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;signal = 1</span></code></p>
+<p>It is also possible to slice whole NXdata groups. In this case, the
+slicing works on the multidimensional NXfield, but the full NXdata group
+is returned with both the signal data and the associated axes limited by
+the slice parameters. If either of the limits along any one axis is a
+float, the limits are set by the values of the axis.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; a=NXdata(np.sin(x),x)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; a[1.5:2.5].x</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">NXfield(name=x,value=[ 1.57079633  1.72787596  1.88495559 ...,  2.19911486  2.35619449])</span></code></p>
+<p>Unless the slice reduces one of the axes to a single item, the rank of
+the data remains the same. To project data along one of the axes, and so
+reduce the rank by one, the data can be summed along that axis using the
+nxsum() method. This employs the Numpy array sum() method.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; x=y=NXfield(np.linspace(0,2*np.pi,41))</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; X,Y=np.meshgrid(x,y)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; a=NXdata(np.sin(X)*np.sin(Y), (x,y))</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; print a.tree</span></code><br />
+[<code class="docutils literal notranslate"><span class="pre">data:NXdata</span></code>](data:NXdata)<br />
+<code class="docutils literal notranslate"><span class="pre">  axis1 = float64(41)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">  axis2 = float64(41)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">  signal = float64(41x41)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;axes = axis1:axis2</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;signal = 1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; print a.sum(0).tree</span></code><br />
+[<code class="docutils literal notranslate"><span class="pre">data:NXdata</span></code>](data:NXdata)<br />
+<code class="docutils literal notranslate"><span class="pre">  axis2 = float64(41)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">  signal = float64(41)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;axes = axis2</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;long_name = Integral from 0.0 to 6.28318530718 </span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;signal = 1</span></code></p>
+</section>
+</section>
+<section id="arithmetic-operations">
+<h3>Arithmetic Operations<a class="headerlink" href="#arithmetic-operations" title="Link to this heading">¶</a></h3>
+<section id="id3">
+<h4>NXfield<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h4>
+<p>Arithmetic operations can be applied to NXfield objects in much the same
+way as scalars or Numpy arrays that they contain. This includes
+addition, subtraction, multiplication and division, either with other
+NXfield objects or to scalar numbers or Numpy arrays.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; x=NXfield(array((1.5,2.5,3.5),name='x')</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; x</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">NXfield(name=x,value=[ 1.5  2.5  3.5])</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; x+1</span></code></p>
+<p>NXfield(name=x,value=[ 2.5 3.5 4.5])</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; 2*x</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">NXfield(name=x,value=[ 3.  5.  7.])</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; x+x</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">NXfield(name=x,value=[ 3.  5.  7.])</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; x-x</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">NXfield(name=x,value=[ 0.  0.  0.])</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; x/x</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">NXfield(name=x,value=[ 1.  1.  1.])</span></code></p>
+</section>
+<section id="id4">
+<h4>NXdata<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h4>
+<p>Similar operations can also be performed on whole NXdata groups. If two
+NXdata groups are to be added, the rank and dimension sizes of the main
+signal array must match (although the names could be different).</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; y=NXfield(np.sin(x),name='y')</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; y</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">NXfield(name=y,value=[ 0.99749499  0.59847214 -0.35078323])</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; a=NXdata(y,x)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; print a.tree</span></code><br />
+[<code class="docutils literal notranslate"><span class="pre">data:NXdata</span></code>](data:NXdata)<br />
+<code class="docutils literal notranslate"><span class="pre">  x = [ 1.5  2.5  3.5]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">  y = [ 0.99749499  0.59847214 -0.35078323]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;axes = x</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;signal = 1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; print (a+1).tree</span></code><br />
+[<code class="docutils literal notranslate"><span class="pre">data:NXdata</span></code>](data:NXdata)<br />
+<code class="docutils literal notranslate"><span class="pre"> x = [ 1.5  2.5  3.5]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre"> y = [ 1.99749499  1.59847214  0.64921677]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   &#64;axes = x</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   &#64;signal = 1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; print (2*a).tree</span></code><br />
+[<code class="docutils literal notranslate"><span class="pre">data:NXdata</span></code>](data:NXdata)<br />
+<code class="docutils literal notranslate"><span class="pre">  x = [ 1.5  2.5  3.5]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">  y = [ 1.99498997  1.19694429 -0.70156646]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;axes = x</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;signal = 1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; print (a+a).tree</span></code><br />
+[<code class="docutils literal notranslate"><span class="pre">data:NXdata</span></code>](data:NXdata)<br />
+<code class="docutils literal notranslate"><span class="pre">  x = [ 1.5  2.5  3.5]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">  y = [ 1.99498997  1.19694429 -0.70156646]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;axes = x</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;signal = 1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; print (a-a).tree</span></code><br />
+[<code class="docutils literal notranslate"><span class="pre">data:NXdata</span></code>](data:NXdata)<br />
+<code class="docutils literal notranslate"><span class="pre">  x = [ 1.5  2.5  3.5]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">  y = [ 0.  0.  0.]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;axes = x</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;signal = 1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; print (a/2).tree</span></code><br />
+[<code class="docutils literal notranslate"><span class="pre">data:NXdata</span></code>](data:NXdata)<br />
+<code class="docutils literal notranslate"><span class="pre">  x = [ 1.5  2.5  3.5]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">  y = [ 0.49874749  0.29923607 -0.17539161]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;axes = x</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;signal = 1</span></code></p>
+<p>If data errors are included in the NXdata group (with an additional
+array named ‘errors’), then the errors are propagated according to the
+operand.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; print a.tree</span></code><br />
+[<code class="docutils literal notranslate"><span class="pre">data:NXdata</span></code>](data:NXdata)<br />
+<code class="docutils literal notranslate"><span class="pre">  errors = [ 0.99874671  0.77360981  0.59226956]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">  x = [ 1.5  2.5  3.5]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">  y = [ 0.99749499  0.59847214  0.35078323]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;axes = x</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;signal = 1</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">&gt;&gt;&gt; print (a+a).tree</span></code><br />
+[<code class="docutils literal notranslate"><span class="pre">data:NXdata</span></code>](data:NXdata)<br />
+<code class="docutils literal notranslate"><span class="pre">  errors = [ 1.41244114  1.09404949  0.83759564]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">  x = [ 1.5  2.5  3.5]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">  y = [ 1.99498997  1.19694429  0.70156646]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;axes = x</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    &#64;signal = 1</span></code></p>
+</section>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">NeXpy</a><ul>
+<li><a class="reference internal" href="#installation">Installation</a><ul>
+<li><a class="reference internal" href="#installation-issues">Installation Issues</a><ul>
+<li><a class="reference internal" href="#locating-the-nexus-library">Locating the NeXus library</a></li>
+<li><a class="reference internal" href="#required-libraries">Required Libraries</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#running-nexpy">Running NeXpy</a><ul>
+<li><a class="reference internal" href="#python-shell">Python Shell</a></li>
+<li><a class="reference internal" href="#gui-shell">GUI Shell</a><ul>
+<li><a class="reference internal" href="#planned-enhancements">Planned Enhancements</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#nexus-interface">NeXus Interface</a><ul>
+<li><a class="reference internal" href="#loading-nexus-data">Loading NeXus Data</a></li>
+<li><a class="reference internal" href="#creating-nexus-data">Creating NeXus Data</a><ul>
+<li><a class="reference internal" href="#nexus-fields">NeXus Fields</a></li>
+<li><a class="reference internal" href="#nexus-groups">NeXus Groups</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#adding-nexus-data-to-the-tree-view">Adding NeXus Data to the Tree View</a></li>
+<li><a class="reference internal" href="#plotting-nexus-data">Plotting NeXus Data</a><ul>
+<li><a class="reference internal" href="#id1">Python Shell</a></li>
+<li><a class="reference internal" href="#id2">GUI Shell</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#manipulating-nexus-data">Manipulating NeXus Data</a></li>
+<li><a class="reference internal" href="#slicing">Slicing</a><ul>
+<li><a class="reference internal" href="#nxfield">NXfield</a></li>
+<li><a class="reference internal" href="#nxdata">NXdata</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#arithmetic-operations">Arithmetic Operations</a><ul>
+<li><a class="reference internal" href="#id3">NXfield</a></li>
+<li><a class="reference internal" href="#id4">NXdata</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Nexus_41_Release_Notes.html" title="Nexus 41 Release Notes"
+             >next</a></li>
+        <li class="right" >
+          <a href="NAPI_Utility_Routines.html" title="NAPI Utility Routines"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NeXpy</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

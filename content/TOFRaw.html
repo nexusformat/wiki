@@ -1,0 +1,2607 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>TOFRaw</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="TOFRawScan" href="TOFRawScan.html" />
+    <link rel="prev" title="Time-of-Flight Neutron Powder Diffraction" href="Time-of-Flight_Neutron_Powder_Diffraction.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="TOFRawScan.html" title="TOFRawScan"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Time-of-Flight_Neutron_Powder_Diffraction.html" title="Time-of-Flight Neutron Powder Diffraction"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">TOFRaw</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="tofraw">
+<h1>TOFRaw<a class="headerlink" href="#tofraw" title="Link to this heading">¶</a></h1>
+<p>NXTOFRAW - A proposal for a NeXus Time-of-Flight Raw Data File Format</p>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">¶</a></h2>
+<p><a class="reference external" href="http://www.nexusformat.org/">NeXus</a> is moving onto the idea of
+inherited incremental definitions as discussed at the last meeting of
+the <a class="reference external" href="NIAC.html" title="wikilink">NeXus International Advisory Committee (NIAC)</a> –
+for example with powder diffractometers there is a definition for both
+time focussing and total scattering with one being a subset of the
+other; a file can conform to one or both. The initial work on this
+definition comes from discussions between <a class="reference external" href="https://neutrons.ornl.gov/sns/">SNS</a>,
+<a class="reference external" href="http://j-parc.jp/index-e.html">J-PARC</a> and
+<a class="reference external" href="https://www.isis.stfc.ac.uk/">ISIS</a> - the three facilities are interested
+in having a unified base for all instruments to allow for low level
+instrument debugging tools to be used, without change, in a given
+facility. Further discussions occured in the <a class="reference external" href="NIAC2006_TOF_Group.html" title="wikilink">TOF Breakout Group at NIAC
+2006</a></p>
+<p>An example file is available in <a class="reference external" href="http://download.nexusformat.org/TOFRAW/examples/hrp08639.nx4">HDF4
+(2MB)</a>,
+<a class="reference external" href="http://download.nexusformat.org/TOFRAW/examples/hrp08639.nx5">HDF5
+(2MB)</a> and
+<a class="reference external" href="http://download.nexusformat.org/TOFRAW/examples/hrp08639.xml">XML(16MB)</a>
+format as well as a <a class="reference external" href="http://download.nexusformat.org/TOFRAW/examples/TOFRAW.xml">basic
+DTD</a>.</p>
+<p>For historical information see the <a class="reference external" href="../pdfs/Isis_nexus_016.pdf" title="wikilink">draft proposal for an ISIS NeXus
+based RAW data file format</a>.</p>
+</section>
+<section id="goal-of-the-definition">
+<h2>Goal of the Definition<a class="headerlink" href="#goal-of-the-definition" title="Link to this heading">¶</a></h2>
+<p>The definition/format should:</p>
+<ul class="simple">
+<li><p>Be general i.e. not specific to any particular instrument type and
+so can be used as a common root/parent format across all instruments
+at a facility</p></li>
+<li><p>allow the sharing of diagnostic and “first look” data/detector
+display programs between the facilities.</p></li>
+<li><p>provide a common input format to metadata capture programs (such as
+the ISIS ICAT search interface)</p></li>
+</ul>
+<p>With the above in mind the instrument components of most importance are
+the ones related to the detector, data, user, sample and sample
+conditions; other instrument components are, of course, needed for
+analysis but will be covered by specific NeXus instrument definitions.
+The NeXus classes we will ultimately consider are then:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>NXroot
+NXdata
+NXdetector
+NXentry
+NXgeometry
+NXinstrument
+NXlog
+NXmoderator
+NXmonitor
+NXsample
+NXuser
+NXevent_data 
+NXsource
+NXdetector_group (proposed)
+</pre></div>
+</div>
+<p>Some of these classes, such as NXgeometry, are taken directly from what
+was ratified by the <a class="reference external" href="NIAC.html" title="wikilink">NIAC</a>.</p>
+</section>
+<section id="conventions-used-in-this-document">
+<h2>Conventions Used in this Document<a class="headerlink" href="#conventions-used-in-this-document" title="Link to this heading">¶</a></h2>
+<p>A tabular format is used for ease of viewing and printing rather than
+the <a class="reference external" href="Metaformat.html" title="wikilink">NeXus XML meta-DTD format</a>. The Name column
+in a table identifies an item in an instance of a NeXus class. Items can
+have extra “meta data” associated with them, which are called attributes
+– these, if any, are listed in the next few lines in the attributes
+column. Any variables in the attributes column are always attached to
+the previous variable in the Name column above them; if the Name of the
+variable is the same as the class (e.g. NXfile), then the attributes are
+associated with an instance of that class (global) and not to any of its
+specific members.</p>
+<section id="identifying-mandatory-and-optional-components">
+<h3>Identifying Mandatory and Optional Components<a class="headerlink" href="#identifying-mandatory-and-optional-components" title="Link to this heading">¶</a></h3>
+<p>The following convention will be used:</p>
+<ul class="simple">
+<li><p>Variables in <strong>bold</strong> in the Name column of tables are mandatory –
+they must be present in ALL NeXus files; otherwise they are optional
+and their inclusion will depend on the instrument, experiment or
+presence of other items in the class (see the class description of
+usage)</p></li>
+<li><p>Variables in <em>{italics}</em> in the Name column are examples of names
+and any variable name can in fact be used; variable names in normal
+type mean that exact name must be used</p></li>
+<li><p>Anything in <font color=red>red</font> is currently an extension to
+NeXus</p></li>
+</ul>
+<p>This information is also included in a RE column (the name derives from
+the fact that a “Regular Expression” is used here in the <a class="reference external" href="Metaformat.html" title="wikilink">XML DTD
+format</a>). Thus:</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Font/style in Name Column</p></th>
+<th class="head"><p>RE Column</p></th>
+<th class="head"><p>Meaning</p></th>
+<th class="head"><p>XML DTD symbol</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Something</p></td>
+<td><p>0/1</p></td>
+<td><p>A single instance of this variable may be present (optional) – if it is, it must be called “something”</p></td>
+<td><p>?</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Something</strong></p></td>
+<td><p>1</p></td>
+<td><p>A single instance of this variable must be present (mandatory) and called “something”</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><em>{Something}</em></p></td>
+<td><p>0+</p></td>
+<td><p>Zero or more variables of this type/class may be present (optional) and can have any unique name(s)</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>{Something}</strong></p></td>
+<td><p>1+</p></td>
+<td><p>One or more variables of this type/class must be present (mandatory), but can have any name(s)</p></td>
+<td><p>+</p></td>
+</tr>
+</tbody>
+</table>
+<p>The above convention dictates that the name for any item that occurs
+only 0 or 1 times is fixed; this is not required by the current NeXus
+standard, but would add clarity and ease of location if followed.</p>
+</section>
+<section id="naming">
+<h3>Naming<a class="headerlink" href="#naming" title="Link to this heading">¶</a></h3>
+<p>We will try and name logged variables (type NXlog) such that they end in
+the _log suffix</p>
+</section>
+</section>
+<section id="nexus-classes">
+<h2>NeXus Classes<a class="headerlink" href="#nexus-classes" title="Link to this heading">¶</a></h2>
+<section id="nxroot">
+<h3>NXroot<a class="headerlink" href="#nxroot" title="Link to this heading">¶</a></h3>
+<p>The root is not a real class in the NeXus file, it is a convenient name
+under which to group the global attributes of the file. This is taken
+directly from the NeXus technical reference without change.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>RE</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>NeXus_version</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p>HDF_version</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p>HDF5_version</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p>XML_version</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>creator</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>file_name</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>Original file name</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>file_time</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>Original creation time of file</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>file_update_time</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>Last time file contents were changed</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p><font color=red>initial_format</font></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>Initial format file was created in (HDF4,HDF5 or XML)</p></td>
+</tr>
+<tr class="row-odd"><td><p>1+</p></td>
+<td><p>{entry}</p></td>
+<td><p></p></td>
+<td><p>NXentry</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p>unique_id</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>UUID to uniquely identify file (even if name changes .etc). Maybe useful to have it in the NXentry instead so that you can indentify where an entry comes from even if it is copied into a new file?</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="nxentry">
+<h3>NXentry<a class="headerlink" href="#nxentry" title="Link to this heading">¶</a></h3>
+<p>This is the top level group in a file that contains a complete set of
+information (e.g. a “run”) - raw, reduced, and analyzed data can occur
+in the same file, each as a separate NXentry . The definition below is
+taken from the NeXus technical reference changing some elements to be
+required rather an optional. Additional items are highlighted in
+<font color=red>red</font>.</p>
+<p>This definition covers a single run experiment - extensions are proposed
+for <a class="reference external" href="TOFRawScan.html" title="wikilink">scan type experiments</a></p>
+<section id="id1">
+<h4>NXentry<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>RE</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>title</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>run title</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>definition</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>Official NeXus definitions this file conforms to</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>URL</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>version</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p><font color=red>definition_local</font></p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>Local definition this file also conforms to – this will describe the meaning of any additional local data items etc.</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>url</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>version</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>This would correspond to the ISIS Muon IDF_Version</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>start_time</p></td>
+<td><p></p></td>
+<td><p>ISO8601</p></td>
+<td><p></p></td>
+<td><p>Time data collection started</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>end_time</p></td>
+<td><p></p></td>
+<td><p>ISO8601</p></td>
+<td><p></p></td>
+<td><p>Time data collection ended</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>duration</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p></p></td>
+<td><p>wall clock time transpired (end – start)</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>second</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p><font color=red>collection_time</font></p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p></p></td>
+<td><p>Time transpired actually collecting data i.e. taking out time when collection was suspended due to e.g. temperature out of range</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>second</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>proton_charge</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>microAmp*hour</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>raw_frames</p></td>
+<td><p></p></td>
+<td><p>NX_INT</p></td>
+<td><p></p></td>
+<td><p>number of proton pulses on target</p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>good_frames</p></td>
+<td><p></p></td>
+<td><p>NX_INT</p></td>
+<td><p></p></td>
+<td><p>number of proton pulses used (i.e. not vetoed)</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p><font color=red>total_counts</font></p></td>
+<td><p></p></td>
+<td><p>NX_INT</p></td>
+<td><p></p></td>
+<td><p>Total number of detector counts (events)</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>experiment_identifier</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>proposal number</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p><font color=red>discipline </font></p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>Keyword domain (e.g. chemistry, astronomy, ecology, … )</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p><font color=red>info_src</font></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>propsal</p></td>
+<td><p>Source of the information (proposal, updated during experiment, after, …)</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p><font color=red>keyword </font></p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>Keywords defined for this study.</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p><font color=red>info_src</font></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>propsal</p></td>
+<td><p>Source of the information</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p><font color=red>keyword_source</font></p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>A pointer to a reference work providing the definition of the restricted vocabulary of which the keyword list is a subset.</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p><font color=red>info_src </font></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>propsal</p></td>
+<td><p>Source of the information</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p><font color=red>subject </font></p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>Subject categorisations for this study</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p><font color=red>info_src</font></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>propsal</p></td>
+<td><p>Source of the information</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p><font color=red>description_summary</font></p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>Brief summary of the experiment, including key objectives</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p><font color=red>info_src</font></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>propsal</p></td>
+<td><p>Source of the information</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p><font color=red>description</font></p></td>
+<td><p></p></td>
+<td><p>NXnote</p></td>
+<td><p></p></td>
+<td><p>Description of the full experiment (document in pdf, latex, …)</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p><font color=red>info_src </font></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>propsal</p></td>
+<td><p>Source of the information</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p><font color=red>requirement</font></p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>Special requirements of instrument</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p><font color=red>info_src </font></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>propsal</p></td>
+<td><p>Source of the information</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p><font color=red>publications</font></p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>List of publication related to the proposal</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p><font color=red>info_src</font></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>propsal</p></td>
+<td><p>Source of the information</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p><font color=red>facility_access_type</font></p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>Facility access type (normal, rapid access, programme access …)</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p><font color=red>info_src</font></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>propsal</p></td>
+<td><p>Source of the information</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p><font color=red>grant_id </font></p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>Identifier of the funding grant.</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p><font color=red>info_src</font></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>propsal</p></td>
+<td><p>Source of the information</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>run_number</p></td>
+<td><p></p></td>
+<td><p>NX_INT</p></td>
+<td><p></p></td>
+<td><p>Unique number identifying this data collection</p></td>
+</tr>
+<tr class="row-even"><td><p>0 /1</p></td>
+<td><p>run_cycle</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>program_name</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>version</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p>command_line</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p><font color=red>release_date</font></p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>Date of the public release of the data. (file_time + X years)</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p><font color=red>revision</font></p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>Revision id of the file due to re-calibration, reprocessing, new analysis, new instrument definition format, …</p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>notes</p></td>
+<td><p></p></td>
+<td><p><font color=red>NXnote</font></p></td>
+<td><p></p></td>
+<td><p>User notes</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>thumbnail</p></td>
+<td><p></p></td>
+<td><p>NXnote</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>mime_type</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>image/*</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0+</p></td>
+<td><p>{characterisation}</p></td>
+<td><p></p></td>
+<td><p>NXcharacterization</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1+</p></td>
+<td><p>{user1,user2,…}</p></td>
+<td><p></p></td>
+<td><p>NXuser</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>{sample}</p></td>
+<td><p></p></td>
+<td><p>NXsample</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>{instrument}</p></td>
+<td><p></p></td>
+<td><p>NXinstrument</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1+</p></td>
+<td><p>{monitor}</p></td>
+<td><p></p></td>
+<td><p>NXmonitor</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1+</p></td>
+<td><p>{data}</p></td>
+<td><p></p></td>
+<td><p>NXdata</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>{process}</p></td>
+<td><p></p></td>
+<td><p>NXprocess</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="nxuser">
+<h3>NXuser<a class="headerlink" href="#nxuser" title="Link to this heading">¶</a></h3>
+<p>As denoted in NXentry, there can be multiple NXuser, one for each person
+involved with an experiment. This definition of user requires only a
+name and a facility identifier and this is taken directly from the NeXus
+technical reference changing some elements to be required rather an
+optional.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>RE</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>name</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p><font  color="red">info_src</font></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>“proposal”, “updated”, “corrected”, “logging”</p></td>
+<td><p>Source of the information</p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>role</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>“local_contact”,”Principle Investigator”, …</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>affiliation</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>address</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>telephone_number</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>fax_number</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>email</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>facility_user_id</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p><font color="red">affiliation_id</font></p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="nxsample">
+<h3>NXsample<a class="headerlink" href="#nxsample" title="Link to this heading">¶</a></h3>
+<p>This list is limited to items that were desired by the group. See the
+NeXus technical reference for a full list of possible items.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>RE</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Name</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>identifier</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>Identity given to the sample by health physics or sample environment. (Could be a bar code)</p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p>Type</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>e.g.“barcode</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>chemical_formula</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>mass</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>volume</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>geometry</p></td>
+<td><p></p></td>
+<td><p>NXgeometry</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>nature</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>solid</p></td>
+<td><p>powder</p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>preparation</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>Sample handling/preparation prior to experiment</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>changer_position</p></td>
+<td><p></p></td>
+<td><p>NX_INT</p></td>
+<td><p></p></td>
+<td><p>Sample changer position</p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p><font color=red>sample_holder</font></p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p><font color=red>preparation_date</font></p></td>
+<td><p></p></td>
+<td><p>ISO8601</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>thickness</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>temperature</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+<section id="sample-environment-parameters">
+<h4>Sample environment parameters<a class="headerlink" href="#sample-environment-parameters" title="Link to this heading">¶</a></h4>
+<p>By these we mean “temperature”, “magnetic_field” etc. which may be
+considered to be outside of the remit of this document, but we will just
+add a reminder that if the file represents a scan then these values will
+be annotated as described in the NXentry section.</p>
+</section>
+</section>
+<section id="nxinstrument">
+<h3>NXinstrument<a class="headerlink" href="#nxinstrument" title="Link to this heading">¶</a></h3>
+<p>This is the class that contains all information about instrument
+components except the monitors and sample (which are just inside the
+NXentry). This is taken directly from the NeXus technical reference
+changing some elements to be required rather an optional.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>RE</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>name</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>short_name</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>beamline</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>Beamline instrument is attached to</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>NXsource</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0+</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>NXdisk_chopper</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0+</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>NXfermi_chopper</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0+</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>NXvelocity_selector</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0+</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>NXguide</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0+</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>NXcrystal</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0+</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>NXaperature</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0+</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>NXfilter</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0+</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>NXcollimator</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0+</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>NXattenuator</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0+</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>NXpolarizer</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0+</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>NXflipper</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0+</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>NXmirror</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1+</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>NXdetector</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0+</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p><font color="red">NXdetector_group</font></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0+</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>NXbeam_stop</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="nxmonitor">
+<h3>NXmonitor<a class="headerlink" href="#nxmonitor" title="Link to this heading">¶</a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>RE</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>mode</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>monitor</p></td>
+<td><p>timer</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>preset</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>distance</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>metre</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>range</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[2]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>integral</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>integral_log</p></td>
+<td><p></p></td>
+<td><p>NXlog</p></td>
+<td><p></p></td>
+<td><p>Time log of monitor integrals</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>type</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>time_of_flight</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[i+1]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>microsecond</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>efficiency</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[i]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>data</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[i]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>signal</p></td>
+<td><p>NX_INT</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>axes</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>sampled_fraction</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>unitless</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>geometry</p></td>
+<td><p></p></td>
+<td><p>NXgeometry</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p><font color=red>monitor_number</font></p></td>
+<td><p></p></td>
+<td><p>NX_INT</p></td>
+<td><p></p></td>
+<td><p>If monitors are numbered, this is what it is known as</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p><font color=red>detector_number</font></p></td>
+<td><p></p></td>
+<td><p>NX_INT</p></td>
+<td><p></p></td>
+<td><p>Detector/spectrum number for this monitor</p></td>
+</tr>
+</tbody>
+</table>
+<p>Note that for a position sensitive monitor detector_number etc. will
+need to be an array and NXmonitor will have other fields and look more
+like NXdetector.</p>
+</section>
+<section id="nxdetector">
+<h3>NXdetector<a class="headerlink" href="#nxdetector" title="Link to this heading">¶</a></h3>
+<p>We will now look at possible representations of the detector – we will
+start with a general one and then consider the special case of an area
+detector. Though the general (point) detector representation would cover
+all cases, if the detector is physically “rectangular” in nature there
+are advantages in using this symmetry in the representation. Which
+representation is used is recorded in the <font color=red>layout</font>
+attribute</p>
+<section id="point-detector">
+<h4>Point Detector<a class="headerlink" href="#point-detector" title="Link to this heading">¶</a></h4>
+<p>The general representation is to consider a detector as just a group of
+pixels arranged in no particular order. Each pixel will be identified by
+a unique single index i and then the following information will be
+stored:</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>RE</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p><font color=red>layout</font></p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>point</p></td>
+<td><p>How detector is represented</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>detector_number</p></td>
+<td><p></p></td>
+<td><p>NX_INT[i]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>polar_angle</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[i]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>azimuthal_angle</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[i]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>solid_angle</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[i]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>distance</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[i]</p></td>
+<td><p>distance from sample</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>time_of_flight</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[j+1]</p></td>
+<td><p></p></td>
+<td><p>Bin boundaries</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>Micro.second</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>time_of_flight_raw</p></td>
+<td><p></p></td>
+<td><p>NX_INT[j+1]</p></td>
+<td><p></p></td>
+<td><p>in DAQ clock pulses</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>Clock_pulses</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p>frequency</p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p></p></td>
+<td><p>Clock frequency of acquisition system (Hz)</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>data</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[i,j]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>geometry</p></td>
+<td><p></p></td>
+<td><p>NXgeometry[i]</p></td>
+<td><p></p></td>
+<td><p>These will be relative to “Origin” below</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p><font color=red>group_index</font></p></td>
+<td><p></p></td>
+<td><p>NX_INT[i]</p></td>
+<td><p></p></td>
+<td><p>Detector grouping information – see NXdetector_groups class</p></td>
+</tr>
+</tbody>
+</table>
+<p>The detector data would be plotted with axes (detector number, tof) by
+any program. An NXgeometry object included in the detector contains
+arrays that store the position and orientation of each pixel. As this
+detector representation imposes no constraint on the relationship
+between pixels, a single NXdetector could represent the entire
+instrument (so long as all detectors have the same time_of_flight) –
+however in practice an NXdetector and NXdata would be created for each
+bank. The “origin” object provides a reference point for the pixel
+geometries – the “shape” part of origin is the bounding box of the
+entire detector/detector bank.</p>
+</section>
+<section id="linear-detector">
+<h4>Linear Detector<a class="headerlink" href="#linear-detector" title="Link to this heading">¶</a></h4>
+<p>Here we mean a collection of linear straight strips e.g. tubes. We have
+two indicies: <strong>j</strong> will label the strip/tube and <strong>i</strong> the position
+along the tube. All tubes must have the same number of pixels; if not,
+you must use the point detector representation above. The tubes do not
+need to be parallel - they just need to be straight. Thus:</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>RE</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p><font color=red>layout</font></p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>linear</p></td>
+<td><p>How detector is represented</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>detector_number</p></td>
+<td><p></p></td>
+<td><p>NX_INT[i,j]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>polar_angle</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[i,j]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>azimuthal_angle</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[i,j]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>distance</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[i,j]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>time_of_flight</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[k+1]</p></td>
+<td><p></p></td>
+<td><p>Bin boundaries</p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p>Units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>Micro.second</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>raw_time_of_flight</p></td>
+<td><p></p></td>
+<td><p>NX_INT[k+1]</p></td>
+<td><p></p></td>
+<td><p>in DAQ clock pulses</p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p>Units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>Clock_pulses</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p>Frequency</p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p>Clock frequency</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>data</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[i,j,k]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>geometry</p></td>
+<td><p></p></td>
+<td><p>NXgeometry[i]</p></td>
+<td><p></p></td>
+<td><p>These will be relative to “Origin” below</p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>pixel_offset</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[j]</p></td>
+<td><p></p></td>
+<td><p>0 at origin</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>pixel_size</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[j]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+<p>By specifying both size and offset “dead space” between pixels can be
+accounted for.</p>
+<p>This looks similar to a point detector, but with two array indices
+rather than one. However note the geometry information is different - as
+the tubes are straight we need only specify a location of the tube
+centre and an offset along the tube. Thus:</p>
+<ul class="simple">
+<li><p>NXgeometry geometry[i] # defines tube/strip centre; each NXshape
+member give the tube size and shape; each NXorientation member
+rotates the axes such that <strong>x</strong> points along each tube.</p></li>
+<li><p>pixel_offset[j] # offset from tube centre of each pixel centre</p></li>
+<li><p>pixel_size[j] # size of each pixel</p></li>
+</ul>
+</section>
+<section id="area-detector">
+<h4>Area Detector<a class="headerlink" href="#area-detector" title="Link to this heading">¶</a></h4>
+<p>A flat rectangular area detector could be described by the “general”
+representation above, but taking account of the two dimensional symmetry
+of the detector allows several potential savings in the calculation of
+angles and in plotting time of the data. An area detector will have
+indices (i,j) indexing each pixel with i along the local detector “x”
+axis and j along the local detector “y”. In the case of curved detectors
+the offsets and sizes are to be considered as arc lengths along the face
+of the detector. An offset of “0” is the origin of the detector and the
+NXgeometry named “origin” describes the geometry of the entire detector:
+the NXtranslation part describes the position of the detector, the
+NXorientation part defines the local coordinates (local x and y axes)
+with respect to the global position, and the NXshape describe the size
+(bounding box) and topology of the detector as a whole. The NXgeometry
+named “geometry” describes the pixels and their shape (assuming that
+they are uniform). The necessary shapes are: rectangular prism,
+cylindrical slice, and spherical slice.</p>
+<p>Below are the three cases for describing the pixels on a detector.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>RE</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p><font color=red>layout</font></p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>area</p></td>
+<td><p>How detector is represented</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>detector_number</p></td>
+<td><p></p></td>
+<td><p>NX_INT[i,j]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>polar_angle</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[i,j]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>azimuthal_angle</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[i,j]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>distance</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[i,j]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>time_of_flight</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[k+1]</p></td>
+<td><p></p></td>
+<td><p>Bin boundaries</p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p>Units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>Micro.second</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>raw_time_of_flight</p></td>
+<td><p></p></td>
+<td><p>NX_INT[k+1]</p></td>
+<td><p></p></td>
+<td><p>in DAQ clock pulses</p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p>Units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>Clock_pulses</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p>Frequency</p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p>Clock frequency</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>data</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[i,j,k]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>geometry</p></td>
+<td><p></p></td>
+<td><p>NXgeometry[i,j]</p></td>
+<td><p></p></td>
+<td><p>These will be relative to “Origin” below</p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>x_pixel_offset</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[i]</p></td>
+<td><p></p></td>
+<td><p>0 at origin</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>x_pixel_size</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[i]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>y_pixel_offset</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[j]</p></td>
+<td><p></p></td>
+<td><p>0 at origin</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>y_pixel_size</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[j]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p><font color=red>x_radius</font></p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p></p></td>
+<td><p>If we are curved, the radius of curvature ( *_offset above will then be arc lengths)</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p><font color=red>y_radius</font></p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p></p></td>
+<td><p>If we are curved, the radius of curvature ( *_offset above will then be arc lengths)</p></td>
+</tr>
+</tbody>
+</table>
+<p>You can either specify an NXgeometry[i,j] for the pixels or instead
+use the x_pixel_* arrays. By specifying both size and offset “dead
+space” between pixels can be accounted for.</p>
+<p>azimuthal_angle, polar_angle and distance can be left out of
+NXdetector as they can be calculated from the detector geometry</p>
+<p><strong>Hardware ganging of detector elements</strong></p>
+<p>In some cases individual detector elements are ganged together by the
+acquisition system for symmetry reasons or to create a smaller data
+files. In these cases the above formalisms can still be used, but the
+“detector number” does not correspond to a real physical detector and so
+the values of “polar_angle”, “distance”, “azimuthal_angle” are some
+sort of average over the ganged elements. When analysis and simulation
+of the data is performed, it is sometimes necessary to know the details
+of the individual detectors that have been ganged together. An initial
+proposal was that these additional arrays would be stored with the
+“_unganged” suffix e.g. “Polar_angle_unganged”, “distance_unganged”,
+“detector_number_unganged”. However after discussions of [TOF
+Group] (TOF_Group.html “wikilink”) if was decided to move these arrays into a
+substructure of NXdetector so we would have NXdetector.polar_angle and
+NXdetector.distance for the ganed values;
+NXdetector.unganged.polar_angle and NXdetector.unganged.distance for
+the raw values.</p>
+<p>To relate the ganged and unganged arrays, a simple grouping scheme can
+usually be used: detector.unganged.grouping[j] give the value [i]
+detector.polar_angle[i] that this detector contributes to. This
+covers most cases, except for when a detector may have its signal fed
+into more than one place; in which case a more complex mapping scheme is
+needed.</p>
+<p>To cover the general case the “unganged” arrays are arranged so that
+elements that are ganged together appear sequentially and information to
+relate these arrays to the hardware ganged “polar_angle” etc arrays are
+provided by</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>RE</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p><font color=red>gang_count</font></p></td>
+<td><p></p></td>
+<td><p>NX_INT[i]</p></td>
+<td><p>Number of physical detectors elements ganged together</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p><font color=red>gang_index</font></p></td>
+<td><p></p></td>
+<td><p>NX_INT[i]</p></td>
+<td><p>Index of first ganged element</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+<p>Detector_number[i] is ganged from gang_count[i] elements. The
+values of polar_angle[i] was obtained by average the gang_count[i]
+values of polar_angle_unganged[gang_index[i]],
+polar_angle_unganged[gang_index[i]+1], … ,
+polar_angle[gang_index[i]+gang_count[i]-1]</p>
+</section>
+</section>
+<section id="nxdata">
+<h3>NXdata<a class="headerlink" href="#nxdata" title="Link to this heading">¶</a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>RE</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>NXdata</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>data</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[i,j,k,m]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>long_name</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>Title of data</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>time_of_flight</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[k+1]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>x_pixel_offset</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[i]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>y_pixel_offset</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[j]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+<p>The exact format of this will depend on the NXdetector definition used.</p>
+</section>
+<section id="nxmoderator">
+<h3>NXmoderator<a class="headerlink" href="#nxmoderator" title="Link to this heading">¶</a></h3>
+<p>The moderator is the effective source for all time-of-flight
+instruments. This is taken directly from the NeXus technical reference
+changing some elements to be required rather an optional. Additional
+items are in red.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>RE</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>distance</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>type</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>The moderator material</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>poison_depth</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>coupled</p></td>
+<td><p></p></td>
+<td><p>NX_BOOLEAN</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>poison_material</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>temperature</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>Kelvin</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>temperature_log</p></td>
+<td><p></p></td>
+<td><p>NXlog</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>pulse_shape</p></td>
+<td><p></p></td>
+<td><p>NXdata</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>geometry</p></td>
+<td><p></p></td>
+<td><p>NXgeometry</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="nxgeometry">
+<h3>NXgeometry<a class="headerlink" href="#nxgeometry" title="Link to this heading">¶</a></h3>
+<p>This group describes the shape, position, and orientation of a
+component. Almost all of the information is actually stored in
+subgroups. This is taken directly from the NeXus technical reference
+without change.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>RE</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>NXshape</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>NXtranslation</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>NXorientation</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>description</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>component_index</p></td>
+<td><p></p></td>
+<td><p>NX_INT</p></td>
+<td><p></p></td>
+<td><p>Position of component along the beam path.</p></td>
+</tr>
+</tbody>
+</table>
+<p>The sample has a component_index of 0, components upstream have
+negative component_index.</p>
+</section>
+<section id="nxlog">
+<h3>NXlog<a class="headerlink" href="#nxlog" title="Link to this heading">¶</a></h3>
+<p>Contains log information monitored during the run in a timed fashion.
+This can contain the time-stamped values, or the average (with standard
+deviation), minimum, maximum and total time log was taken. This is taken
+directly from the NeXus technical reference without change.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>RE</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>time</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p></p></td>
+<td><p>relative to “start”</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>start</p></td>
+<td><p>ISO8601</p></td>
+<td><p></p></td>
+<td><p>start time of logging</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>value</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT / NX_INT</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>raw_value</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT / NX_INT</p></td>
+<td><p></p></td>
+<td><p>e.g. voltage from thermocouple</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>description</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>average_value</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>average_value_error</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>minimum_value</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>maximum_value</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>duration</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p><font color=red>display_name</font></p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>short name displayed on instrument dashboard</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p><font color=red>software</font></p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>program or software used to measure value</p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p><font color=red>hardware</font></p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>hardware used to measure value</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="nxorientation">
+<h3>NXorientation<a class="headerlink" href="#nxorientation" title="Link to this heading">¶</a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>RE</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>NXgeometry</p></td>
+<td><p></p></td>
+<td><p>Link to another object for relative positioning</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>value</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[numobj,6]</p></td>
+<td><p></p></td>
+<td><p>The orientation information is stored as 6 direction cosines for each object</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="nxshape">
+<h3>NXshape<a class="headerlink" href="#nxshape" title="Link to this heading">¶</a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>RE</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>shape</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>nxcylinder</p></td>
+<td><p>nxbox</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>size</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[numobj, nshapepar]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>metre</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+<p>The interpretation of the “shapepar” depends on the “shape”</p>
+</section>
+<section id="nxtranslation">
+<h3>NXtranslation<a class="headerlink" href="#nxtranslation" title="Link to this heading">¶</a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>RE</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>NXgeometry</p></td>
+<td><p></p></td>
+<td><p>Link to another object for relative positioning</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>distance</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[numobj,3]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>Units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>metre</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="nxevent-data">
+<h3>NXevent_data<a class="headerlink" href="#nxevent-data" title="Link to this heading">¶</a></h3>
+<p>This requires that a Pixel_number field is provided in the NXdetector
+for determining geometry information. While normally this takes the
+place of the NXdata in a NXentry, there is no reason that the two cannot
+coexist. The index I runs over events - the index j runs counts pulses.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>RE</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>time_of_flight</p></td>
+<td><p></p></td>
+<td><p>NX_INT[i]</p></td>
+<td><p></p></td>
+<td><p>A list of time of flight for each event as it comes in. This list is for all pulses with information to attach to a particular pulse located in events_per_pulse</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>Micro.second</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>pixel_number</p></td>
+<td><p></p></td>
+<td><p>NX_INT[i]</p></td>
+<td><p></p></td>
+<td><p>There will be extra information in the NXdetector to convert pixel_number to detector_number. This list is for all pulses with information to attach to a particular pulse located in events_per_pulse</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>pulse_time</p></td>
+<td><p></p></td>
+<td><p>NX_INT[j]</p></td>
+<td><p></p></td>
+<td><p>The time that each pulse started with respect to the offset</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>Units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>Offset</p></td>
+<td><p>ISO8601</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>events_per_pulse</p></td>
+<td><p></p></td>
+<td><p>NX_INT[j]</p></td>
+<td><p></p></td>
+<td><p>This connects the index “i” to the index “j”. The jth element is the number of events in “i” that occured during the jth pulse</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>pulse_height</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[I,k?]</p></td>
+<td><p></p></td>
+<td><p>If voltages from the ends of the detector are read out this is where they go. This list is for all events with information to attach to a particular pulse height. The information to attach to a particular pulse is located in events_per_pulse</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="nxsource">
+<h3>NXsource<a class="headerlink" href="#nxsource" title="Link to this heading">¶</a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>RE</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p></p></td>
+<td><p>NXsource</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Name of source</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>name</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>Facility name</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>type</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>“Spallation Neutron Source”</p></td>
+<td><p>”Pulsed Reactor Source”</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>probe</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>“neutrons”</p></td>
+<td><p>“muons”</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>frequency</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT32</p></td>
+<td><p></p></td>
+<td><p>Frequency of pulsed source at the target “at target” allows for the main proton beam being split with.g. 1 in 5 pulses diverted to another target</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>Hertz</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>period</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p></p></td>
+<td><p>units</p></td>
+<td><p>NX_CHAR</p></td>
+<td><p>microseconds</p></td>
+<td><p>Length of an acquisition frame</p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>notes</p></td>
+<td><p></p></td>
+<td><p>NX_TEXT</p></td>
+<td><p>Source/facility related messages or announcements during the experiment</p></td>
+<td><p>At ISIS, the MCR beam messages</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="nxdetector-groups">
+<h3>NXdetector_groups<a class="headerlink" href="#nxdetector-groups" title="Link to this heading">¶</a></h3>
+<p>This class is used to allow a logical grouping of detector elements
+(e.g. which tube, bank or group of banks) to be recorded in the file. As
+well as allowing you to e.g just select the “left” or “east” detectors,
+it may also be useful for determining which elements belong to the same
+PSD tube and hence have e.g. the same dead time.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>RE</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>RE</p></td>
+<td><p>Name</p></td>
+<td><p>Attribute</p></td>
+<td><p>Type</p></td>
+<td><p>Value</p></td>
+<td><p>Description</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>group_names</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>Comma separated list of name</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>group_index</p></td>
+<td><p></p></td>
+<td><p>NX_INT[i]</p></td>
+<td><p></p></td>
+<td><p>Unique ID for group</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>group_parent</p></td>
+<td><p></p></td>
+<td><p>NX_INT[i]</p></td>
+<td><p>Index of group parent in the hierarchy</p></td>
+<td><p>-1 means no parent i.e. a top level group</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>group_type</p></td>
+<td><p></p></td>
+<td><p>NX_INT[i]</p></td>
+<td><p>Code number for group type</p></td>
+<td><p>e.g. bank=1, tube=2 etc.</p></td>
+</tr>
+</tbody>
+</table>
+<p>For example of we had “bank1” composed of “tube1”, “tube2” and “tube3”
+then Group_names would be the string “bank1, bank1/tube1,
+bank1/tube2,bank1/tube3” Group_index would be {1,2,3,4} Group_parent
+would be {-1,1,1,1}</p>
+<p>The mapping array is interpreted as group 1 is a top level group
+containing groups 2, 3 and 4</p>
+<p>A group_index array in NXdetector give the base group for a detector
+element.</p>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">TOFRaw</a><ul>
+<li><a class="reference internal" href="#introduction">Introduction</a></li>
+<li><a class="reference internal" href="#goal-of-the-definition">Goal of the Definition</a></li>
+<li><a class="reference internal" href="#conventions-used-in-this-document">Conventions Used in this Document</a><ul>
+<li><a class="reference internal" href="#identifying-mandatory-and-optional-components">Identifying Mandatory and Optional Components</a></li>
+<li><a class="reference internal" href="#naming">Naming</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#nexus-classes">NeXus Classes</a><ul>
+<li><a class="reference internal" href="#nxroot">NXroot</a></li>
+<li><a class="reference internal" href="#nxentry">NXentry</a><ul>
+<li><a class="reference internal" href="#id1">NXentry</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#nxuser">NXuser</a></li>
+<li><a class="reference internal" href="#nxsample">NXsample</a><ul>
+<li><a class="reference internal" href="#sample-environment-parameters">Sample environment parameters</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#nxinstrument">NXinstrument</a></li>
+<li><a class="reference internal" href="#nxmonitor">NXmonitor</a></li>
+<li><a class="reference internal" href="#nxdetector">NXdetector</a><ul>
+<li><a class="reference internal" href="#point-detector">Point Detector</a></li>
+<li><a class="reference internal" href="#linear-detector">Linear Detector</a></li>
+<li><a class="reference internal" href="#area-detector">Area Detector</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#nxdata">NXdata</a></li>
+<li><a class="reference internal" href="#nxmoderator">NXmoderator</a></li>
+<li><a class="reference internal" href="#nxgeometry">NXgeometry</a></li>
+<li><a class="reference internal" href="#nxlog">NXlog</a></li>
+<li><a class="reference internal" href="#nxorientation">NXorientation</a></li>
+<li><a class="reference internal" href="#nxshape">NXshape</a></li>
+<li><a class="reference internal" href="#nxtranslation">NXtranslation</a></li>
+<li><a class="reference internal" href="#nxevent-data">NXevent_data</a></li>
+<li><a class="reference internal" href="#nxsource">NXsource</a></li>
+<li><a class="reference internal" href="#nxdetector-groups">NXdetector_groups</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="TOFRawScan.html" title="TOFRawScan"
+             >next</a></li>
+        <li class="right" >
+          <a href="Time-of-Flight_Neutron_Powder_Diffraction.html" title="Time-of-Flight Neutron Powder Diffraction"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">TOFRaw</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

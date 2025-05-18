@@ -1,0 +1,71 @@
+---
+title: Telco 20160329
+permalink: Telco_20160329.html
+layout: wiki
+---
+Telco 20160329
+==============
+
+Date
+----
+
+Tuesday, 29th March, 16:30 Central European Summer Time (Copenhagen)
+
+Hangout Link:
+<https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua>
+
+Agenda
+------
+
+-   Welcome and agree Agenda
+-   github issue of the day - suggestions welcome (there is a github
+    label now), otherwise we pick a random one
+-   Dectris Eiger JSON format - if participation from Dectris
+-   Metadata collection sites
+    <http://www.dcc.ac.uk/resources/metadata-standards>
+    <http://rd-alliance.github.io/metadata-directory/>
+-   <http://nexusformat.org> main landing page update
+-   cnxvalidate testing
+-   Next meeting
+-   AOB
+
+Minutes
+-------
+
+Present: HJB, MK, TSR, EW, PJ, AF, AB
+
+#### GIOTD (Github Issue of the Day)
+
+Triggered progress on <https://github.com/nexusformat/code/issues/414>
+which had been dropped.
+
+#### Dectris JSON
+
+Thankfully Andreas joined can could be convinced to present the system
+next time.
+
+#### Metadata
+
+Listing there seen as a good idea. Issue now created:
+<https://github.com/nexusformat/definitions/issues/461>
+
+#### Landing Page
+
+Waiting for Ray who is currently busy travelling.
+
+#### cnxvalidate
+
+No further test reports so far.
+
+#### Next meeting
+
+[Telco 20160412](Telco_20160412.html "wikilink")
+
+#### AOB
+
+NIAC and Code Camp to be announced for October in Copenhagen.
+
+HJB still working on MX/NeXus publication.
+
+Recent addition of flow charts for data rules in the manual are very
+well received.

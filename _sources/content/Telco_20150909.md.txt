@@ -1,0 +1,149 @@
+---
+title: Telco 20150909
+permalink: Telco_20150909.html
+layout: wiki
+---
+Telco 20150909
+==============
+
+Date
+----
+
+Wednesday, 9th September, 8am PST, (5pm CEST, 4pm BST, 11am NY, 10am
+IL+TN)
+
+Hangout Link:
+<https://plus.google.com/hangouts/_/g2e2ayoq57srpi2g4zv2c2ewbua>
+
+Agenda
+------
+
+-   Welcome
+-   Documentation build server status
+-   Generic proposal for spatial and other axes on nD Detectors:
+    (slowest, slow, fast)
+-   Documentation update, summary of ticket review
+-   code (napi) cmake update and release timelime
+-   CXI format, status report.
+-   Next meeting
+-   AOB
+
+Proposal Example
+----------------
+
+2d image + wave length
+
+raw detector \[100,100,256\]
+
+scan over theta and phi and temperature
+
+outer scan temperature
+
+`32 `  
+`65`
+
+inner scan combined theta and phi
+
+`-15 0.1`  
+`-14 0.3`  
+`..  ..`  
+`14  8.4`  
+`15  8.7`
+
+**File example:**
+
+`entry`  
+`       data`  
+`               @signal=data`  
+`               @axes=temperature,theta,firstdim,seconddim,wavelength`  
+`               @theta_indices=0,1`  
+`               @/entry/sample/temperature_indices=0`  
+`               ...`  
+`               # this becomes a bit redunant`  
+`               ...`  
+`               data[2,31,100,100,256]`  
+`       instrument`  
+`               detector`  
+`                       @signal=data`  
+`                       @axes=/entry/sample/temperature,theta,firstdim,seconddim,wavelength`  
+`                       @/entry/sample/temperature_indices=0`  
+`                       @theta_indices=0,1`  
+`                       @wavelength_indices=2,3,4`  
+`                       @firstdim_indices=2`  
+`                       @seconddim_indices=3`  
+`                       @thirddim_indices=2,3`  
+`                       depends_on=/entry/instrument/detector/seconddim`  
+`                       data[2,31,100,100,256]`  
+`                       wavelength[100,100,256]`  
+`                               @units=nm`  
+`                       firstdim[100]`  
+`                               @depends_on=/entry/instrument/detector/transformations/arm`  
+`                               @transformation_type=translation`  
+`                               @vetcor=0.5,0.5,0`  
+`                       thirddim[100,100]`  
+`                               @depends_on=firstdim`  
+`                               @transformation_type=translation`  
+`                               @vetcor=0,0,1`  
+`                       seconddim[100]`  
+`                               @depends_on=thirddim`  
+`                               @transformation_type=translation`  
+`                               @vetcor=0.5,-0.5,0`  
+`                       transformations`  
+`                               theta[2,31]`  
+`                                       @depends_on=.`  
+`                                       @transformation_type=rotation`  
+`                                       @vetcor=1,0,0`  
+`                               arm[1]`  
+`                                       @depends_on=theta`  
+`                                       @transformation_type=translation`  
+`                                       @vetcor=0,0,1`  
+`       sample`  
+`               depends_on=/entry/sample/transformations/phi`  
+`               temperature[2]`  
+`                       units=C`  
+`               transformations`  
+`                       phi[2,31]`  
+`                               @depends_on=.`  
+`                               @transformation_type=rotation`  
+`                               @vetcor=0,1,0`
+
+unsolved problem: pixel size
+
+relatively straight forward for event mode using pixels\_ids instead of
+data
+
+Minutes
+-------
+
+Present: HJB, EW, MK, MB, TSR, FA
+
+-   Generic proposal for spatial and other axes on nD Detectors:
+    (slowest, slow, fast) -- new use cases
+
+See above. All reviewed this and found no obvious problems. For the next
+meeting people should gather use cases that might or might not work and
+report back.
+
+-   Buildserver hickup
+
+Freddie fixed the configuration and the build now completes
+successfully.
+
+-   Documentation update, summary of ticket review
+
+Number of tickets has been close as they had been completed a while
+back. <https://github.com/nexusformat/definitions/issues/266> appears to
+be in an unclear state and would benefit from investigation. Freddie
+volunteered.
+
+-   code (napi) cmake update and release timelime
+
+During the call Eugen made some progress on the test build.
+
+-   CXI format, status report.
+
+Mark B interested. Will contact people in Berkeley.
+
+-   Next meeting
+
+[Telco 20151001](Telco_20151001.html "wikilink")

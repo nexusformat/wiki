@@ -1,0 +1,355 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Jnexustut</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Latest News" href="Latest_News.html" />
+    <link rel="prev" title="Java API" href="Java_API.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Latest_News.html" title="Latest News"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Java_API.html" title="Java API"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Jnexustut</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="jnexustut">
+<h1>Jnexustut<a class="headerlink" href="#jnexustut" title="Link to this heading">¶</a></h1>
+<p>The NeXus for Java API Tutorial</p>
+<p>This document explains in more detail how to program with the NeXus API
+for Java. The intended audience are Java programmers who do not know the
+C language NeXus API. This document will only explain how to deal with
+NeXus files. For a general description of NeXus see the NeXus WWW-pages.
+For reference,see the jnexus API documentation. Another good source of
+information is the test driver source code for the NeXus API for Java.
+It is a more involved example of API usage. And it is documented!</p>
+<p>Before doing anything with the NeXus for Java API the necessary classes
+need to be imported. This is done with the statement: import
+neutron.nexus.*; at the head of your Java file. A NeXus programmer has
+to deal with the following five concepts:</p>
+<p>NeXus Files</p>
+<p><code class="docutils literal notranslate"><span class="pre">   You should have guessed as much. </span></code></p>
+<p>Groups</p>
+<p><code class="docutils literal notranslate"><span class="pre">   Groups are NeXus means of structuring data in a file. Groups can hold other groups or datsets. The filesystem analogon to groups would be directories. </span></code></p>
+<p>SDS</p>
+<p><code class="docutils literal notranslate"><span class="pre">   SDS are scientific datasets. This is a n-dimensional array of numbers stored in the file. </span></code></p>
+<p>Attributes</p>
+<p><code class="docutils literal notranslate"><span class="pre">   Attributes is auxiliary information stored in the file. Two types of attributes are possible: global file wide attributes and attributes linked to a SDS. </span></code></p>
+<p>Links</p>
+<p><code class="docutils literal notranslate"><span class="pre">   For organisational reasons it might be useful to refer a SDS in more then one group. But it should be avoided to duplicate data. In order to avoid this it is possible to link SDS wherever you want. This concept is quite similar to a symbolic link in a unix file system. </span></code></p>
+<p>All these concepts will be explained in more detail below. A note about
+error handling: A NexusException is thrown whenever an error occurs.
+This implies that all code samples stated below should be included in a
+try-catch block looking like this:</p>
+<p><code class="docutils literal notranslate"><span class="pre">   try{</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     // some NeXus for Java calls.</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   }catch(NexusException ne) {</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">      // analyze and treat the error</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   }</span></code></p>
+<p>For brevity and clarity this will be left out in the following text.</p>
+<p>NeXus Files</p>
+<p>A Nexus File is opened by: NexusFile nf = new NexusFile(name,
+NexusFile.NXACC_CREATE); The first parameter to the constructor is of
+course the name. The second parameter is the access code valid for the
+file: Three access codes are supported:</p>
+<p>NXACC_CREATE</p>
+<p><code class="docutils literal notranslate"><span class="pre">   For creating a new NeXus file. </span></code></p>
+<p>NXACC_RDWR</p>
+<p><code class="docutils literal notranslate"><span class="pre">   For opening an existing NeXus file for modification or for appending. </span></code></p>
+<p>NXACC_READ</p>
+<p><code class="docutils literal notranslate"><span class="pre">   Open a file for reading only. </span></code></p>
+<p>Please note that for all further examples, the name nf is assumed for
+the NexusFile object.</p>
+<p>Closing files is accomplished through the finalize method. This should
+be called automatically by the Java garbage collector but it is safer to
+explicitly call this method when done with a file. nf.finalize() does
+the trick.</p>
+<p>Sometimes it is necessary to flush all buffered data to disk before
+doing for instance something else in a program in order to prevent data
+loss. This can be done with the flush method: nf.flush(); flush has the
+side effect of closing all open SDS.</p>
+<p>Groups</p>
+<p>A group (or vGroup) is the NeXus equivalent of a directory. Alike to a
+directory hierarchy, a hierarchy of groups can be built in a NeXus file.
+In contrast to directory names however, NeXus group names consist of two
+strings: the groupname and the groupclass. Both strings are needed in
+order to address a NeXus group. There are API functions for all
+necessary operations on groups. The first one is group creation:
+nf.makegroup(name, nxclass); This corresponds to a mkdir in a unix
+filesystem.</p>
+<p>In order to use a group we need a means of traversing the group
+hierarchy. For this the methods: nf.opengroup(name,nxclass); and
+nf.closegroup(); are provided. opengroup corresponds to a cd name,class
+and steps into the group name with class nxclass. closegroup corresponds
+to cd .. and steps one group lower in the group hierarchy.</p>
+<p>NeXus is self describing. Clearly a method is needed to find out about
+the contents of the current group. For this the method: Hashtable ha =
+nf.groupdir(); is used. The hashtable returned contains pairs of name,
+class as entries. For datasets the class name is set to SDS. See the
+following code snippet as an example how to print the contents of a
+NeXus group:</p>
+<p><code class="docutils literal notranslate"><span class="pre">        Hashtable h = nf.groupdir();</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">        e = h.keys();</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">        System.out.println(</span></code>“<code class="docutils literal notranslate"><span class="pre">Found``</span> <span class="pre">``in``</span> <span class="pre">``Group</span></code>”<code class="docutils literal notranslate"><span class="pre">);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">        while(e.hasMoreElements())</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    {</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">           vname = (String)e.nextElement();</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">           vclass = (String)h.get(vname);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">           System.out.println(&quot;     Item: &quot; + vname + &quot; class: &quot; + vclass);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">        }</span></code></p>
+<p>SDS SDS are scientific dataset. They are used to store n-dimensional
+arrays of data in a variety of number types in a NeXus file. The
+following number types are allowed in NeXus files:</p>
+<p><code class="docutils literal notranslate"><span class="pre">   NexusFile.NX_INT8:</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   NexusFile.NX_UINT8:</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       NexusFile.NX_CHAR:</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   NexusFile.NX_INT16:</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   NexusFile.NX_UINT16:</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   NexusFile.NX_INT32:</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   NexusFile.NX_UINT32:</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   NexusFile.NX_FLOAT32:</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   NexusFile.NX_FLOAT64:</span></code></p>
+<p>I think the names are self describing. These types are defined as
+constants in NexusFile.java.</p>
+<p>When creating a new file a means is needed for creating a new SDS in the
+NeXus file. A SDS is fully characterized by its name, its number type
+(out of the list above), the number of dimensions it has (its rank) and
+its size in each dimension. With this information a SDS can be created:
+nf.makedata(name,type,rank,iDim); with iDim being an integer array
+holding the size of the dataset in each dimension. A speciality of NeXus
+(and HDF) is that the first dimension can be unlimited. Simpy set the
+dimension 0. Then data can be appended in consecutive steps along this
+dimension. Please note, that makedata does not automatically open the
+SDS. Before writing data to it, a call to opendata is required.</p>
+<p>Analog to a file in a filesystem a SDS must be opened before anything
+can be done with it and closed when processing is finished. The
+appropriate calls are: nf.opendata(name); and nf.closedata(); Please
+note that all methods below this section require an openend SDS for
+proper operation.</p>
+<p>Once a SDS is open data can be read or written to it. Two means of data
+transfer are provided: putdata, getdata write and read all the data in
+one go, whereas putslab, getslab allows to write and read subsets of
+data. There is a trick here though. Java is meant to be type safe. One
+would think then that a data transfer method would be required for each
+Java data type. In order to avoid this the data to transfer is passed
+into the data transfer methods as type Object. Then the API proceeds to
+analyze this object through the Java introspection API and converts the
+data to a byte stream for writing through the native method call. This
+is an elegant solution with one drawback: An array is needed at all
+times. Even if only a single data value is written (or read) an array of
+length one and an appropriate type is the required argument.</p>
+<p>Writing and reading then looks like:</p>
+<p><code class="docutils literal notranslate"><span class="pre">     // example data</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     int iData[][] = new iData[3][10];</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     // write it</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     nf.putdata(iData);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     // read it</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     nf.getdata(iData);</span></code></p>
+<p>Another issue are strings. Strings are first class objects in Java. HDF
+(and NeXus) sees them as dumb arrays of bytes. Thus strings have to be
+converted to and from bytes when reading string data. See a writing
+example:</p>
+<p><code class="docutils literal notranslate"><span class="pre">       String ame = </span></code>“<code class="docutils literal notranslate"><span class="pre">Alle``</span> <span class="pre">``meine``</span> <span class="pre">``Entchen</span></code>”<code class="docutils literal notranslate"><span class="pre">;</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">   nf.makedata(</span></code>“<code class="docutils literal notranslate"><span class="pre">string_data</span></code>”<code class="docutils literal notranslate"><span class="pre">,NexusFile.NX_CHAR,1,</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">                          ame.length()+2);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       nf.opendata(</span></code>“<code class="docutils literal notranslate"><span class="pre">string_data</span></code>”<code class="docutils literal notranslate"><span class="pre">);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       nf.putdata(ame.getBytes());</span></code></p>
+<p>And reading:</p>
+<p><code class="docutils literal notranslate"><span class="pre">       byte bData[] = new byte[132];</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       nf.opendata(</span></code>“<code class="docutils literal notranslate"><span class="pre">string_data</span></code>”<code class="docutils literal notranslate"><span class="pre">);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       nf.getdata(bData);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       String string_data = new String(bData);</span></code></p>
+<p>The aforementioned holds for all strings written as SDS content or as an
+attribute. SDS or vGroup names do not need this treatment.</p>
+<p>When writing a subset of data two more arguments are needed: The first
+is an integer array of size rank which holds the address in the dataset
+where to start the transfer of the subset. The second is another integer
+array of size rank which determines the size of the data subset to
+transfer in each dimension. The methods then look like:</p>
+<p><code class="docutils literal notranslate"><span class="pre">     // example data</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     int iData[][] = new iData[3][10];</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     int iStart[2] = {0,0};</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     int iSize[2] = {3,10};</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     // write it</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     nf.putslab(iStart, iSize,iData);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     // read it</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     nf.getdata(iStart, iSize,iData);</span></code></p>
+<p>This example is a bit contrieved in that it uses the subset API for
+transfering the whole dataset.</p>
+<p>NeXus and HDF support the compression and decompression of data on the
+fly during transfer operations. The only thing which needs to be done is
+to tell NeXus to compress the data before writing data. An example looks
+like this:</p>
+<p><code class="docutils literal notranslate"><span class="pre">     float fData[][] = new float[100][1000];</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     int iDim[] = new int[2];</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     iDim[0] = 100;</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">     iDim[1] = 1000;</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">      nf.makedata(</span></code>“<code class="docutils literal notranslate"><span class="pre">fData</span></code>”<code class="docutils literal notranslate"><span class="pre">,2,NexusFile.NX_FLOAT32,iDim);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">      nf.opendata(</span></code>“<code class="docutils literal notranslate"><span class="pre">fData</span></code>”<code class="docutils literal notranslate"><span class="pre">);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">      nf.compress(NexusFile.COMP_CODE_LZW);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">      nf.putdata(fData);</span></code></p>
+<p>Please note the sequence of calls. The parameter to compress is the
+compression algorithm to use. Permitted values are:</p>
+<p>NexusFile.NX_COMP_NONE</p>
+<p><code class="docutils literal notranslate"><span class="pre">   No compression </span></code></p>
+<p>NexusFile.NX_COMP_RLE</p>
+<p><code class="docutils literal notranslate"><span class="pre">   Run length encoding </span></code></p>
+<p>NexusFile.NX_COMP_LZW</p>
+<p><code class="docutils literal notranslate"><span class="pre">   gzip type compression </span></code></p>
+<p>NexusFile.NX_COMP_HUF</p>
+<p><code class="docutils literal notranslate"><span class="pre">   Huffman compression. </span></code></p>
+<p>Please note that transfers to compressed datasets have to be done
+through the putdata, getdata routines, subset operations are not
+supported with compression.</p>
+<p>When dealing with an unknown NeXus file we might need to find out about
+the characteristics of a SDS. This can be done with:
+nf.getinfo(iDim,args); After this call iDim will hold the size of the
+SDS in each dimension, args[0] will be the rank of the SDS and
+args[1] the number type. Make sure that iDim is large enough to hold
+all dimensions. Hint: 32 is the maximum number of dimensions supported
+by HDF.</p>
+<p>Attributes Attributes are auxiliary information stored in a NeXus file.
+There are two variants: global attributes at file level and attributes
+at SDS level. The attribute part of the API acts on global attributes if
+no SDS is open and on SDS attributes if an SDS has been opened with
+opendata(). Attributes can be written: nf.putattr(name,data,type); name
+is a name, data is a one dimensional array of some data and type is the
+of the data. The same data types as for SDS writing are supported.</p>
+<p>Attributes can be read: nf.getattr(name, data, args); args[0] will
+hold the length of the attribute array, args[1] its type. This must be
+supplied as input. Proper values for these parameters can be inquired
+trough the attribute directory method: Hashtable ha = nf.attrdir(); This
+time the hashtable ha will hold pairs of attribute names and
+AttributeEntry objects. These objects are small classes which hold the
+length and type of the attribute. See an attribute printing example for
+more information:</p>
+<p><code class="docutils literal notranslate"><span class="pre">        AttributeEntry atten;</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">        String attname;</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">        Hashtable h = nf.attrdir();</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">        Enumeration e = h.keys();</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">        while(e.hasMoreElements())</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">    {</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">          attname = (String)e.nextElement();</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">          atten = (AttributeEntry)h.get(attname);</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">          System.out.println(&quot;Found global attribute: &quot; + attname +</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">            &quot; type: &quot;+ atten.type + &quot; ,length: &quot; + atten.length); </span></code><br />
+<code class="docutils literal notranslate"><span class="pre">        }</span></code></p>
+<p>Linking Linking a SDS into more then one group requires some
+precautions. First some internal information needed for linking must be
+retrieved while the SDS ist still open. The call: NXlink nl =
+nf.getdataID(); does just that. Then, after moving to the appropriate
+place for the link in the group hierarchy the call: nf.makelink(nl);
+will actually install the link.</p>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Latest_News.html" title="Latest News"
+             >next</a></li>
+        <li class="right" >
+          <a href="Java_API.html" title="Java API"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Jnexustut</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>
