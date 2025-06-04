@@ -1,0 +1,53 @@
+---
+title: Telco 20190715
+permalink: Telco_20190715.html
+layout: wiki
+---
+Telco 20190715
+==============
+
+Date
+----
+
+Monday, 15 July, 15:00 CEST (+0200)
+
+<!-- end of autogeneration -->
+
+Hangout Link:
+<https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua>
+
+Agenda
+------
+
+   * 2019 NeXus Code Camp
+   * HDF5 European Workshop for Science and Industry (ESRF 17-18 September)
+
+Minutes
+------
+
+Present: BW, MK, HB, AB
+
+
+HDF5 Workshop
+------
+   * BW to attend and represent NeXus.
+   * HB has been seeing many bugs when trying to run the .10 version in high-performance situations. Detectors like the Eiger need a parallel file system (e.g. GPFS) to keep up with the data rate, but the HDF5 library has not been very stable.
+      * We should ask the HDF group to please stabilise the HDF5_1.10 library on parallel file systems.
+      * Perhaps we can help organise facilities to combine efforts?
+
+NeXus Code Camp
+-------
+   * MB to talk to David Hall about code camp dates
+      * Brexit issues (visas for EU citizens)
+      * Check dates
+      
+      
+Other Business
+--------
+   * MK asks HB about how NXmx has been viewed by the community. HB replies that NXmx is a success with ongoing collaborations and millions of images recorded using NXmx.
+   
+   * MB to leave Diamond in December and step down as NeXus Executive Secretary.
+      * Asks for feedback on recent pull request.
+      * BW asked MB to prod Mark Herron regarding discussions about EU projects.
+      
+Poll for August Telco: <https://doodle.com/poll/xvxdcpvfnatt3yuw>

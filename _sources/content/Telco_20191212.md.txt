@@ -1,0 +1,61 @@
+---
+title: Telco 20191212
+permalink: Telco_20191212.html
+layout: wiki
+---
+Telco 20191212
+==============
+
+Date
+----
+
+Thursday, 12 December, 15:00 CET (+0100)
+
+<!-- end of autogeneration -->
+
+Hangout Link:
+<https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua>
+
+Agenda
+------
+   * Code camp details (<https://www.nexusformat.org/CodeCamp2020.html>)
+   * New executive secretary?
+   * Membership renewal voting (<https://www.nexusformat.org/Membership_Dates.html>)
+
+Minutes
+-----
+Present: BW, AB, DW, HB, MK, PJ, FA, PC, HG
+
+Code Camp
+------
+   * PJ suggests making public presentation on NeXus during CC. He will schedule an event.
+   * MK wants us using github issues to make a list of items for the CC.
+   
+Introductions
+------
+   * MK suggests doing a round of introductions since some new people are joining.
+   
+New Executive Secretary
+------
+   * FA volunteers to take up the position.
+   * BW to organise an email vote.
+
+Membership Renewals
+------
+   * BW says renewals are going well, we have 6 votes complete and most of the remainder in progress.
+
+NXmx
+----
+   * HB and AB has made progress is refining the proposed application definition.
+   * Not sure if it will be ready for formal acceptance at the CC, but AB will present the current state at that time.
+   * HB intends to send a revised NXmx document for the new year.
+   
+   
+Other Business
+----
+   * PJ and colleagues are looking to make app def for photon correlation spectroscopy
+   * BW would like to have a vote on a new logo at the next full NIAC meeting.
+      * BW encourages people to develop their preferred logo version in limited groups
+      * PJ suggests sharing logo version on dropbox (to keep them out of the google index)
+   * DW will suggest another participant
+   * Next telco during CC, but maybe have a longer remote session than the usual 1 hour telco. PJ suggests that starting 1 hour later than the usual telco time (ie 16:00 CET) would give best chance for intercontinental collaboration.

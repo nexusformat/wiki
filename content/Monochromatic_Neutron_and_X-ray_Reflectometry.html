@@ -1,0 +1,246 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Monochromatic Neutron and X-ray Reflectometry</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Monochromatic Neutron and X-ray Single Crystal Diffractometer" href="Monochromatic_Neutron_and_X-ray_Single_Crystal_Diffractometer.html" />
+    <link rel="prev" title="Monochromatic Neutron and X-ray Powder Diffraction" href="Monochromatic_Neutron_and_X-ray_Powder_Diffraction.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Monochromatic_Neutron_and_X-ray_Single_Crystal_Diffractometer.html" title="Monochromatic Neutron and X-ray Single Crystal Diffractometer"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Monochromatic_Neutron_and_X-ray_Powder_Diffraction.html" title="Monochromatic Neutron and X-ray Powder Diffraction"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Monochromatic Neutron and X-ray Reflectometry</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="monochromatic-neutron-and-x-ray-reflectometry">
+<h1>Monochromatic Neutron and X-ray Reflectometry<a class="headerlink" href="#monochromatic-neutron-and-x-ray-reflectometry" title="Link to this heading">¶</a></h1>
+<p><strong>Please add comments to the discussion tab of this page and [sign
+them]((Contents#Signatures.html “wikilink”)</strong></p>
+<p>This proposed instrument definition adds a new class (NXspin) and also
+incorporates a few additions to existing base classes.</p>
+<section id="additions">
+<h2>Additions<a class="headerlink" href="#additions" title="Link to this heading">¶</a></h2>
+<section id="new-background-nxcharacterization-nxcharacterization-html-wikilink-type">
+<h3>New background [NXcharacterization] (NXcharacterization.html “wikilink”) type:<a class="headerlink" href="#new-background-nxcharacterization-nxcharacterization-html-wikilink-type" title="Link to this heading">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">     specular_offset_background</span></code></p>
+<p>The two existing backgrounds are isotropic_scatter and
+empty_container. Physically we are moving the detector/sample slightly
+away from the specular reflection condition and measuring the strength
+of the signal rather than putting an isotropic scatter at the sample
+position or leaving it empty.</p>
+<p>Note: this simply identifies the location of the background scan, but
+does not specify how the background was measured.</p>
+</section>
+<section id="need-to-know-the-sample-angle">
+<h3>Need to know the sample angle.<a class="headerlink" href="#need-to-know-the-sample-angle" title="Link to this heading">¶</a></h3>
+<p>Propose adding the following to [NXsample] (NXsample.html “wikilink”):</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>   &lt;polar_angle units=&quot;degrees&quot; type=&quot;NX_FLOAT[np]&quot;&gt;
+   {Polar angle of the sample with respect to the beam incident on
+    the monochromator}
+   &lt;/polar_angle&gt;
+   &lt;azimuthal_angle units=&quot;degress&quot; type=&quot;NX_FLOAT[np]&quot;&gt;
+   {Azimuthal angle of the sample with respect to the beam incident on
+    the monochromator}
+   &lt;/azimuthal_angle&gt;
+   &lt;rotation_angle units=&quot;degrees&quot; type=&quot;NX_FLOAT[np]&quot;&gt;
+   {Rotation angle of the sample}
+   &lt;/rotation_angle&gt;
+</pre></div>
+</div>
+<p>These fields are already used in the ratified
+[NXmonotas] (Monochromatic_Neutron_and_X-ray_Triple-Axis_Spectrometer.html “wikilink”),
+so there should be no problem ratifying them in the base class.</p>
+</section>
+<section id="record-spin-state">
+<h3>Record Spin State<a class="headerlink" href="#record-spin-state" title="Link to this heading">¶</a></h3>
+<p>For polarized neutron reflectometry the control software allows the user
+to select and tune a particular spin state. Expressed in terms of the
+individual filters and flipper currents, it is difficult to determine
+which spin state is desired. Instead the instrument component should
+record the target spin state.</p>
+<p>Propose NXspin class to record the target spin at the sample or at the
+detector:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!--
+URL:    http://definitions.nexusformat.org/NXspin.xml
+Editor: NIAC
+$Id$
+    
+This is a description of the neutron spin state at a point in the
+beam path, as set by the combination of filters and flippers.
+--&gt;
+&lt;NXspin name=&quot;{presample_spin|predetector_spin}&quot;&gt;
+        &lt;azimuthal_angle type=&quot;NX_FLOAT[np]&quot; units=&quot;degrees&quot;&gt;
+        {90 for spin up, -90 for spin down}
+        &lt;/azimuthal_angle&gt;
+        &lt;polar_angle type=&quot;NX_FLOAT[np]&quot; units=&quot;degrees&quot;&gt;
+        {Constant usually ignored. 0 in the direction of the beam path.}
+        &lt;/polar_angle&gt;
+&lt;/NXspin&gt;
+</pre></div>
+</div>
+</section>
+<section id="accurate-record-of-the-start-and-stop-of-every-scan">
+<h3>Accurate record of the start and stop of every scan<a class="headerlink" href="#accurate-record-of-the-start-and-stop-of-every-scan" title="Link to this heading">¶</a></h3>
+<p>We need an accurate record of the start and stop of every measurement in
+a scan (e.g., to normalize by measurement time, and to correct for He3
+polarizer efficiency decay).</p>
+<p>[NXmonitor] (NXmonitor.html “wikilink”) already stores count duration. Propose
+adding count start_time as well:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>     &lt;start_time type=&quot;NX_FLOAT[n]&quot; units=&quot;seconds&quot;&gt;
+        {Start time for each scan point}
+     &lt;/start_time&gt;
+</pre></div>
+</div>
+<p>The alternative is to use [NXlog] (NXlog.html “wikilink”) and assume a
+particularly named log corresponds to the
+[NXmonitor] (NXmonitor.html “wikilink”), with the same length as the measured
+points:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>   &lt;NXlog name=&quot;count_time&quot;&gt;
+      &lt;time start=&quot;{ISO8601}&quot; type=&quot;NX_FLOAT[np]&quot; units=&quot;seconds&quot;&gt;
+        {Start of the measurement of point np}
+      &lt;/time&gt;
+      &lt;value type=&quot;NX_FLOAT[np]&quot; units=&quot;seconds&quot;&gt;
+        {Durations of the measurement point np}
+       &lt;/value&gt;
+   &lt;/NXlog&gt;
+</pre></div>
+</div>
+<p>The first solution is cleaner.</p>
+</section>
+</section>
+<section id="full-definition">
+<h2>Full Definition<a class="headerlink" href="#full-definition" title="Link to this heading">¶</a></h2>
+<p><nxformat file="NXmonoref.xml" tree="yes"></nxformat></p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Monochromatic Neutron and X-ray Reflectometry</a><ul>
+<li><a class="reference internal" href="#additions">Additions</a><ul>
+<li><a class="reference internal" href="#new-background-nxcharacterization-nxcharacterization-html-wikilink-type">New background [NXcharacterization] (NXcharacterization.html “wikilink”) type:</a></li>
+<li><a class="reference internal" href="#need-to-know-the-sample-angle">Need to know the sample angle.</a></li>
+<li><a class="reference internal" href="#record-spin-state">Record Spin State</a></li>
+<li><a class="reference internal" href="#accurate-record-of-the-start-and-stop-of-every-scan">Accurate record of the start and stop of every scan</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#full-definition">Full Definition</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Monochromatic_Neutron_and_X-ray_Single_Crystal_Diffractometer.html" title="Monochromatic Neutron and X-ray Single Crystal Diffractometer"
+             >next</a></li>
+        <li class="right" >
+          <a href="Monochromatic_Neutron_and_X-ray_Powder_Diffraction.html" title="Monochromatic Neutron and X-ray Powder Diffraction"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Monochromatic Neutron and X-ray Reflectometry</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+Telco 20250414
+==============
+
+Date
+----
+
+Monday, 14th April, 15:00 UTC
+
+Connect
+-------
+
+- ZOOM VC link: `https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09 <https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09)_
+- Meeting ID: 652 7209 1306
+- Passcode: nexus
+
+Agenda
+------
+
+- PRs
+  
+  - [MPES - 1424](https://github.com/nexusformat/definitions/pull/1424)
+    volunteers for reviewing: PC, FS
+  - [EM - 1423](https://github.com/nexusformat/definitions/pull/1423)
+    volunteers for reviewing: AB, HB
+  - [APM - 1422](https://github.com/nexusformat/definitions/pull/1422)
+    volunteers for reviewing: BW
+  - [OptSpec - 1425](https://github.com/nexusformat/definitions/pull/1425)
+    volunteers for reviewing: WdN, HB
+  - [NXcoordinate_system - 1415](https://github.com/nexusformat/definitions/pull/1415)
+
+
+Present
+-------
+
+SB, AB, RB, LG, HB, AB, FS, ZM, CZ, PM, WdN  + LukasP, MarkusK, RubelM (FAIRmat)
+
+Minutes
+-------
+
+**Website**
+
+- RB: Issues are mostly addressed. Last touches shall be done in a code camp. Let us wait for green light from PC before merging.
+
+**EuXFEL**
+
+- LG: suggests FdA as replacement
+
+**NXcoordinate_system**
+[1415](https://github.com/nexusformat/definitions/pull/1415) 
+
+- SB: LP made the requested modifications, we could start online voting if the PR is fine in its current state
+- AB: Yes, checking the modifications shows that the requested modification are now done. Let us start a vote on Thr, and now we ask for feedback until the vote starts.
+
+**NXroot**
+[1505](https://github.com/nexusformat/definitions/pull/1505) 
+
+- As agreed, modifications have been implemented. The PR is merged.
+
+**Optical Spectroscopy**
+[1425](https://github.com/nexusformat/definitions/pull/1425)
+
+- AB: Let us review it and resolve the conversations. Do the same as with coordinate systems: ask for feedback and then put it on vote on Thr together with NXcoordinate_system.
+
+**MPES**
+[1424](https://github.com/nexusformat/definitions/pull/1424)
+
+- FS checked and happy with LP's modifications
+- AB: Let us review it and resolve the conversations. Peter needs to resolve a conversation, and we should check the use of "@target" attribute. Attribute "@variant" could be used to label data copying, origin tracking, and descriptive notation.
+- LP: "@target" in NXdata is reusing the attribute from LinkType, but explained it here, to make its use clear
+- ZM: one may even need "@targets" (e.g. when a virtual dataset is used as being composed from multiple sources)
+- HB: overdefinition (and multiple definitions of the same thing) makes it difficult to use them
+- AB: can we reuse target as it is defined for links?
+- SB: Yes. Actually, we could define "@target" for any fields, just like it is done for LinkType.
+- HB: try to make the vocabulary simple as easy to comprehend.
+- AB: Let us do the simplification in nxdl.xsd. Let us do the same as with optical spectroscopy and start the vote on Thr.
+
+**EM**
+[1423](https://github.com/nexusformat/definitions/pull/1423)
+
+- MK: Let us check which concept should be moved to a separate base class, because NXobjects are used here to support collections.
+- AB: Are only groups used inside NXobject-s, and no fields and attributes? We may want to make a specific base class for this purpose, e.g. NXbucket.
+- PM: something like NXbag would do that, but partial name should be used here to avoid ambiguity.
+- MK: What is different between NXbag and NXobject?
+- AB: NXobject may be confusing, because it is too generic, but might actually also be able to serve as a bucket. Let us check what the best solution could be:
+  - 1 : use NXobject as bucket (but asa convention use partial nameType with fixed prefixes to avoid ambiguity)
+  - 2 : make a new base class, e.g. NXbag for this purpose
+  - 3 : avoid such buckets and make (and use) special base classes for this pupose
+

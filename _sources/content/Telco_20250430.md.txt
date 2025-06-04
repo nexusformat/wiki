@@ -1,0 +1,85 @@
+Telco 20250430
+==============
+
+Date
+----
+
+Wednesday, 30th April, 15:00 UTC
+
+Connect
+-------
+
+- ZOOM VC link: `https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09 <https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09)_
+- Meeting ID: 652 7209 1306
+- Passcode: nexus
+
+Agenda
+------
+
+- PRs
+  
+  - [MPES - 1424](https://github.com/nexusformat/definitions/pull/1424)
+    volunteers for reviewing: PC, FS
+  - [EM - 1423](https://github.com/nexusformat/definitions/pull/1423)
+    volunteers for reviewing: AB, HB
+  - [APM - 1422](https://github.com/nexusformat/definitions/pull/1422)
+    volunteers for reviewing: BW
+  - [OptSpec - 1425](https://github.com/nexusformat/definitions/pull/1425)
+    volunteers for reviewing: WdN, HB
+  - [NXcoordinate_system - 1415](https://github.com/nexusformat/definitions/pull/1415)
+
+Present
+-------
+
+SB, AB, RO, FS, HG, HB, PC, RB, BW - LukasP, MarkusK, RubelM (FAIRmat)
+
+Minutes
+-------
+
+**3 voted PRs - MPES, OpSpec, Coordinate_system**
+
+- SB: all has passed with 14,14,15 votes respectively
+- AB: minor modifications and bug fixes to the accepted PRs can be handled without the need of an extra vote. Telco agrees.
+- PC: NXoptical_spectorsopy also contain documentation of dispersion modelling
+- SB: this could be removed from here, we have a separate PR for this.
+- AB: let us remove it from here then
+
+**How to restructure NXem/ NXapm**
+
+- RO: use NXcollection, and allow using NXcollection as an NXbag and allow having valid NeXus content inside and validate its content, just like the content as any other base classes, with the exception that the content is not expected to be brought into NXcolection later.
+- MK: NXcollection is basically the same as NXobject, but the only extra feature that its content is not validated. If this feature is taken away what makes NXcolelction different from NXobejct?
+- RO: validation in AppDefs and Base Classes makes a difference.
+- HG: modelling sample environment could also use NXcollection
+- PC: if we use NXcollection, we should add a flag for making this validated
+- RO: this is the case: if somethiing is defined inside NXcollection in an AppDef, it will actually be validated.
+- AB: let us concentrate on the original 3 options
+- HB: do not make NeXus even more complex. base question: how information is represented in NeXus? only afterwards we can start thinking about reuse of NXobject, NXcollectin or creating NXbag, etc.
+- AB: NeXus is a hierarchically structured information
+- RO: it is not that controversial. AppDefs always allowed Base Class extensions, we could just use this for NXcollection (or NXbag which would serve the same purpose)
+- AB: NXcollection cannot be validate based on the definition as of now
+- RO: yes, the documentation shall be updated.
+- PC: maybe cnxvalidate warning options are related to the current definition of NXcollection
+- HG: why do we need to add new definitions to NeXus and not just to refer to other ontologies?
+- MK: we want Nexus to validate all what is defined in NXem, we may also be able to use NXprocess
+- AB: let us put all the base classes back as base classes. No objections against
+- RO: making the base classes more modular as MK suggested does make sense
+- AB: Base Classes could be grouped to categories (as done in contributed definitions). do it in separate PR.
+- AB: NXem and NXapm will be reviewed again by the subcommittees afer their restructuring
+
+**NXxas**
+- SB: Is not it a problem: NXxas_new:/ENTRY/COLLECTION/columns cannot be a required field (as it is inside NXcollection and is not be validatable)
+- AB: indeed, according to the documentation of NXcollection, this shall not be like this.
+- RO: No, not a problem, at all. Actually our validator will check all content according to the AppDef. It is actually the solution suggested in the beginning of the meeting.
+- HG: enumeration values in NXedge:name, like "K", "L1", "L2", etc. Could they be connected to other ontologies via IRI?
+- SB: Enumeration items, could be mapped to separate concepts (even with their own documentation if provided in the nxdl file), and then they can be connected to concepts from other ontologies.
+- AB: NXobject/identifierNAME (and its @type) can be used also for IRIs
+- SB: note that currently identifierNAME is only defined for Groups, so the given NXedge instance (as an individual) can indeed be connected to external ontologies by providing its IRI and setting the identifierNAME@type to "IRI"
+- MK: Note that NXobject's identifierNAME currently cannot be connected to Fields and Attributes
+
+
+May Telco(s)
+------------
+
+Please help to `choose the date by responding to [the poll](https://doodle.com/group-poll/participate/egMMYB3b) by May 9.
+
+We are planning to hold the telco in the regular slot of UTC 15:00. Check your local time to avoid scheduling surprises!

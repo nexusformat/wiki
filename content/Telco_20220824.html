@@ -1,0 +1,204 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Telco 20220824</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Telco 20221026" href="Telco_20221026.html" />
+    <link rel="prev" title="Telco 20220707" href="Telco_20220707.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20221026.html" title="Telco 20221026"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Telco_20220707.html" title="Telco 20220707"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" accesskey="U">Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20220824</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="telco-20220824">
+<h1>Telco 20220824<a class="headerlink" href="#telco-20220824" title="Link to this heading">¶</a></h1>
+<section id="date">
+<h2>Date<a class="headerlink" href="#date" title="Link to this heading">¶</a></h2>
+<p>Wednesday, 24th August, 15:00 UTC</p>
+</section>
+<section id="connect">
+<h2>Connect<a class="headerlink" href="#connect" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>ZOOM VC link: <a class="reference external" href="https://psich.zoom.us/j/63006091860?pwd=cmR2cnlZQTB2V3Y0YXRTR3hoaXVsdz09">https://psich.zoom.us/j/63006091860?pwd=cmR2cnlZQTB2V3Y0YXRTR3hoaXVsdz09</a></p></li>
+<li><p>Meeting ID: 630 0609 1860</p></li>
+<li><p>Passcode: nexus</p></li>
+</ul>
+</section>
+<section id="agenda">
+<h2>Agenda<a class="headerlink" href="#agenda" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Welcome guests and new members</p></li>
+<li><p>Review previous meeting minutes and actions: <a class="reference external" href="Telco_20220824.html">July Telco</a></p></li>
+<li><p>Please register asap for the <a class="reference external" href="https://www.nexusformat.org/NIAC2022.html">NIAC meeting</a></p></li>
+<li><p>Recent issues on Github (especially those labelled with “telco”)</p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/nexusformat/definitions/issues?q=is%3Aopen+is%3Aissue">definitions</a></p></li>
+<li><p><a class="reference external" href="https://github.com/nexusformat/code/issues?q=is%3Aopen+is%3Aissue">code</a></p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="present">
+<h2>Present<a class="headerlink" href="#present" title="Link to this heading">¶</a></h2>
+<p>BW, CZ, WdN, AB, SB, PJ, TM, HB</p>
+</section>
+<section id="minutes">
+<h2>Minutes<a class="headerlink" href="#minutes" title="Link to this heading">¶</a></h2>
+<p>SB asks about combining multiple eexperiments and processes together.
+BW replies that this is what NXentry is designed to accomplish. Maybe using separate files for each experiment and then have a master file to link them together.
+HB says that this is getting dangerous and the reason why UML was invented. Take the Java inheritance model and stick to that.
+SB asks about implementing sample IDs
+BW remembers there being something already in about <a class="reference external" href="https://manual.nexusformat.org/classes/base_classes/NXentry.html?highlight=uuid#nxentry-entry-identifier-uuid-field">UUIDs</a>.
+PJ says that BlueSky uses UUIDs for each measurement, but it could easily be extended to IDs for anything else.
+Can be useful for tracing issues, such as using detector serial numbers to find correlations of hardware with bad results.
+AB says that UUIDs are 16-digit values so it might not be practical in some cases.</p>
+<p>SB asks about NXgeometry, which is deprecated in favour of NXtransformations. NXgeometry seems like it would be useful to describe shapes, which NXtransformation doesn’t do.
+PJ says it would be good to ask on the mailing list</p>
+<p>SB discusses the NeXus ontology. The ontology is currently flattening everything and doesn’t describe any inheritance. Extension terms from the ADefs are back-ported to the base classes, which makes them huge. The flattening then causes the terms from the ADefs lose some context. Instead of flattening the ontology, we could create further entities to make a more heirarchal ontology.
+PJ would like to see this as a PR and github issue to that others can see the discussion.</p>
+<p>SB says that he has never seen NXint32 being used. PJ suggests that it might be from back in the HDF4 days. BW says that MK probably knows more detail.
+SB asks if it is appropriate for NeXus to be getting into the representation of the numbers that make up the data.
+PJ says that this is an artefact of NeXus being strongly coupled to HDF5 and whatever backends we support.
+AB reminds us that there is some interest in XML/NeXus, especially from people wanting to keep crystallography data in text-based databases.
+BW says that NeXus is tied by our limited resources - we have no philosophical objection to further container formats, but we lack resources to support enough tools to make further container formats “official”.
+SB had heard of wishes for formats like JSON or YAML. PJ replies that the issue is being able to express attributes in such formats - we would need to make some adhoc way to extend the format.
+BW my experience is that people wanting to be able to inspect data files with text editors have very simple files. Once NeXus starts adding lots of metadata, those files start looking much more messy and not so attractive any more.</p>
+<p>AB asks if the NIAC will be online? BW replies that it is hybrid so people can join in person or online. BW encourages everyone to register (even if joining online) so that he can have advanced notice of what resources are needed.</p>
+<p>AB points out a feature in ImageCIF called “equipment_component” that he has been using in NXmx that he had assumed might be generally in NeXus already, but it looks like it isn’t. Is it useful for others? PJ says “yes” and gives an example with defining the geometry of an ad hoc diffractometer.
+AB says that DIALS produces a detector model that is heirarchical, so that you get a set of transformations for each component. AB will write it up so that it can be discussed in the NIAC.</p>
+<p>AB talked about the [estimated time](issue #1143) at the ACA meeting and there was strong agreement the fields should be kept as “required”.
+SB had similar issues that it would be useful to have something between “required” and “optional”, namely “reccommended”. “reccommended” would be be treated as “optional” by a validator, except that it would give a warning if missing.</p>
+<p>Since we have the NIAC in mid-September, BW will run a <a class="reference external" href="https://strawpoll.com/polls/NMnQBOYjdg6">poll for a next telco in October</a>.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Telco 20220824</a><ul>
+<li><a class="reference internal" href="#date">Date</a></li>
+<li><a class="reference internal" href="#connect">Connect</a></li>
+<li><a class="reference internal" href="#agenda">Agenda</a></li>
+<li><a class="reference internal" href="#present">Present</a></li>
+<li><a class="reference internal" href="#minutes">Minutes</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20221026.html" title="Telco 20221026"
+             >next</a></li>
+        <li class="right" >
+          <a href="Telco_20220707.html" title="Telco 20220707"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" >Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20220824</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

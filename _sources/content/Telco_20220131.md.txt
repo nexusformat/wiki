@@ -1,0 +1,59 @@
+---
+title: Telco 20220131
+permalink: Telco_20220131.html
+layout: wiki
+---
+Telco 20220131
+==============
+
+Date
+----
+
+Monday, 31st January, 14:00 UTC
+
+<!-- end of autogeneration -->
+
+Connect
+-------
+* ZOOM VC link: [https://psich.zoom.us/j/65356830562?pwd=dERIbEtvWk5mMDE0c1BBc1RmTC9UUT09](https://psich.zoom.us/j/65356830562?pwd=dERIbEtvWk5mMDE0c1BBc1RmTC9UUT09)
+* Meeting ID: 653 5683 0562
+* Passcode: 602214
+
+
+Agenda
+------
+   * Welcome new members
+   * Review previous meeting minutes and actions: [December Telco](Telco_20211215.html)
+   * Recent issues on Github (especially those labelled with "telco")
+     * [definitions](https://github.com/nexusformat/definitions/issues?q=is%3Aopen+is%3Aissue)
+     * [code](https://github.com/nexusformat/code/issues?q=is%3Aopen+is%3Aissue)
+
+Present
+-------
+BW, WdN, HB, HG, TM, LG, RO, UH, AB, MK, SB, PC
+
+Minutes
+------
+   * PC has moved the ROI base class to contributed and is ready for NIAC review. NXbeam is also ready for review.
+   * SB asks for clarification of NXbeam vs NXsource:
+      * NXbeam - at some position
+      * NXsource - at point of beam production
+   * Dectris asked about [end_time_estimated being a required field](https://github.com/nexusformat/definitions/issues/966). HB says it is needed in order to make sure that something is written about the end-time since the actual end time might be omitted if things go wrong. It reflects the importance of being able to estimate the dose applied to the sample. 
+      * RO suggested including it in the base class for more general use.
+      * SB asked if the FIELD_variant would be a viable alternative. There is general agreement that it would, but that the specific field could carry a more specific meaning than the FIELD_variant system.
+   * SB asks if we should generally be pushing new fields from application definitions into the corresponding base classes. There is general agreement that this is good - we want to bring the application definitions closer together whenever we can and the base classes are our tools for doing so.
+   * SB  aks about showing the candidate changes/additions similar to the contributed application definitions.
+      * HB suggests having future release candidate branches.
+      * BW warns not to muddy the waters. There should be a clear distinction between what is part of the standard and what isn't. It is OK to give informal hints about which proposals are being discussed favourably, but we should not encourage usage of any field that has not yet been approved since there are often last-minute tweaks that could cause already-written fields to contain false information.
+   * Dectris pointed out that [NXdetector documentation refers to NXgeometry, which is deprecated](https://github.com/nexusformat/definitions/issues/967). PC points out that there is already a pull-request pending.
+   * BW asks about NOBUGS and options for the next NIAC:
+      * MK says that the plan is for a 19-22 September hybrid NOBUGS and for a hybrid NIAC the week before.
+      * HB says US people need the NOBUGS info published asap in order to get travel permission (tpyically takes 4-6 months).
+      * Still appetite for a virtual NIAC in March - SB is depending on it for his projects schedule. BW will quickly send out a poll to choose the precise dates.
+
+  * RO says John Wright has working group with IUCR on synchrotron data standardisation and he is recommending NeXus. Newcomers are welcome. (IUCR data reporting)
+  * SB asks about storing complex numbers (HB extends to quaternoins). MK says it hasn't been well defined. PC says that he sets up a composite HDF dataset to match what h5py does.
+  * SB asks about having more than one signal in an NXdata. RO says we have auxilliary_signals and it is implemented in NeXpy.
+
+BW will send out a poll for the [next telco in mid-late February](https://doodle.com/poll/5wz3piy6u6vyyskm) (in addition to a poll on the [March NIAC dates](https://doodle.com/poll/pe5w6n4whvzbdp6h)).
+

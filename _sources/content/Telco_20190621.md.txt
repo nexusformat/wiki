@@ -1,0 +1,59 @@
+---
+title: Telco 20190621
+permalink: Telco_20190621.html
+layout: wiki
+---
+Telco 20190621
+==============
+
+Date
+----
+
+Friday, 21 June, 15:00 CEST (+0200)
+
+<!-- end of autogeneration -->
+
+Hangout Link:
+<https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua>
+
+Agenda
+------
+
+   * Recording NXbeam spectra at XFELs
+   * JSON representation
+   * Possible EU resources
+   * 2019 NeXus Code Camp
+
+Minutes
+------
+
+Present: BW, MK, AB, PJ, HB
+
+
+Recording NXbeam spectra at XFELs
+------
+   * AB raised an issue with recording spectra in NXbeam at an XFEL, where the spectrum delivered can be different for each shot. It can also change between being monochromatic and polychromatic.
+   * PJ pointed out that the NXcanSAS application definition illustrates a possbilbe solution to the issue.
+
+
+JSON representation
+------
+   * HB will be attending a number of meetings over the summer to discuss what data the MX community want Dectris detectors to provide in JSON format. This will culminate in the HDR-MX meeting at Diamond (6-7th November) where he will be seeking a final decision on the issue. This form of data will become common enough to be a kind standard and HB wants to push it towards being NeXus-like.
+   * BW states that the main mission of NeXus is to standardise the organisation of data and that the container format is a secondary concern. HDF5 is currently the preferred container format and where we are putting our development resources. However, we still encourage the use of NeXus principles and definitions for the organisation of data in other container formats such as JSON.
+
+
+Possible EU resources
+------
+   * MK reported that some EU projects on data catalogs and related topics could be interested in providing resources for increasing NeXus adoption by employing a person to help scientists at new facilities to design and write application definitions.
+   * HB notes that it would be important for such a person to be knowledgable in programming in orderto be effective in such a role.
+   * MK and BW will follow up with the responsible people and try to make something happen.
+
+2019 NeXus Code Camp
+------
+   * HB is keen for organisation to begin on the next NeXus Code Camp. He would like to have face-to-face discussions with a group of NeXus committee members about the outcomes of the HDR-MX meeting in November. Therefore, immediately the HDR-MX meeting at Diamond in November could be convenient.
+   * PJ points out that Americans require a long time to get approval for travel outside the USA, so the sooner the code camp is organised, the better.
+   * MK points out that this years NOBUGS conference is in Hamburg, which we traditionally follow.
+
+Next Telco
+------
+   * HB would like to aim for July 15 or 16. Poll: <https://doodle.com/poll/ddvv4x7tz5m3fqek>

@@ -1,0 +1,309 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Telco 20230119</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Telco 20230213" href="Telco_20230213.html" />
+    <link rel="prev" title="Telco 20221202" href="Telco_20221202.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20230213.html" title="Telco 20230213"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Telco_20221202.html" title="Telco 20221202"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" accesskey="U">Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20230119</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="telco-20230119">
+<h1>Telco 20230119<a class="headerlink" href="#telco-20230119" title="Link to this heading">¶</a></h1>
+<section id="date">
+<h2>Date<a class="headerlink" href="#date" title="Link to this heading">¶</a></h2>
+<p>Thursday, 19nd January, 15:00 UTC</p>
+</section>
+<section id="connect">
+<h2>Connect<a class="headerlink" href="#connect" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>ZOOM VC link: <a class="reference external" href="https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09">https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09</a></p></li>
+<li><p>Meeting ID: 652 7209 1306</p></li>
+<li><p>Passcode: nexus</p></li>
+</ul>
+</section>
+<section id="agenda">
+<h2>Agenda<a class="headerlink" href="#agenda" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>XPCS Community Discussion</p></li>
+<li><p>Ontology</p></li>
+<li><p>Recent issues on Github (especially those labelled with “telco”)</p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/nexusformat/definitions/issues?q=is%3Aopen+is%3Aissue">definitions</a></p></li>
+<li><p><a class="reference external" href="https://github.com/nexusformat/code/issues?q=is%3Aopen+is%3Aissue">code</a></p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="present">
+<h2>Present<a class="headerlink" href="#present" title="Link to this heading">¶</a></h2>
+<p>AB, SB PC, PJ, SN, BB, BW, CZ, HG, JW, LG, PM, WdN, AndiBarbour</p>
+</section>
+<section id="minutes">
+<h2>Minutes<a class="headerlink" href="#minutes" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>XPCS: <a class="reference external" href="https://github.com/nexusformat/definitions/issues/1007">https://github.com/nexusformat/definitions/issues/1007</a><br />
+Fundamental problem:<br />
+Let us have 2 optional fields. How to express in NeXus that at least one of them should be provided? Another <a class="reference external" href="https://github.com/nexusformat/definitions/issues/1002">discussion</a> was also initiated on this topic (see <a class="reference external" href="https://github.com/nexusformat/definitions/issues/1045">also</a>, and <a class="reference external" href="https://github.com/nexusformat/definitions/issues/1064">also</a>) showing how it can be solved by using the constract “choice”. Another suggestion was to allow logical expressions on cardinality (optional/required/minOccurs/maxOccurs), similar to that of <a class="reference external" href="https://github.com/nexusformat/definitions/issues/1084">suggested for symbol tables</a>.<br />
+For the moment, the suggestion is:</p></li>
+</ul>
+<ol class="arabic simple">
+<li><p>leave both fields optional</p></li>
+<li><p>use docstrinng to explain the optional/required condition, and</p></li>
+<li><p>use an enums field where it can be chose which data field is provided<br />
+An example for this:<br />
+NXmx/ENTRY/INSTRUMENT/BEAM/flux-attribute: enum choices</p></li>
+</ol>
+<blockquote>
+<div><p>This can be useful solution also for NXxpcs/ENTRY/data/g2-field<br />
+One should use a list of defined enum keys (or apply “open enumeration” with adding the new enum key to the defined list in contributed case ASAP.<br />
+new Issue on: evaluating the use of ‘union’ in NXDL (<a class="reference external" href="https://github.com/nexusformat/definitions/issues/1232">https://github.com/nexusformat/definitions/issues/1232</a>)</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>For issue <a class="reference external" href="https://github.com/nexusformat/definitions/issues/1004">1004</a><br />
+Note that the already connected <a class="reference external" href="https://github.com/nexusformat/definitions/issues/1043">discussions</a> clarified the scopes:<br />
+scan number (deprecated): e.g. spec (no unique ID)<br />
+entry_identifier( required): external ID<br />
+entry_identifier_uuid (optional): unique ID</p></li>
+<li><p>For issue <a class="reference external" href="https://github.com/nexusformat/definitions/issues/1005">1005</a> and <a class="reference external" href="https://github.com/nexusformat/definitions/issues/1006">1006</a><br />
+nothing to discuss here.</p></li>
+<li><p><a class="reference external" href="https://github.com/nexusformat/NIAC/issues/136">Ontology v2</a><br />
+Discussions started on the PR for v2, but also questions popped up which require clarifications.<br />
+Issues shall be created for them:</p></li>
+<li><p>Same names for different type of children of the same(?) concept (Definition/Group/Field)<br />
+NXentry/thumbnail/type-attribute is defined in NXentry, but NXentry/thumbnail-group is referencing NXnote where NXnote/type-field is already defined (for the same purpose). Note that a machine can easily distinguish between them and the NeXus Vocabulary is already prepared for handling such cases by using a clarification postfix (as above), but are they intentionally implement two separated concepts under the same name?<br />
+Should it be really supported?<br />
+Similar, but intentional:<br />
+NXentry/SAMPLE/sample_histrory-group may be defined as NXnote for a generic use, but NXellipsometry/ENTRY/SAMPLE/sample_hisotry-filed may be defined as NX_CHAR for simplicity.<br />
+Is it OK?<br />
+Note another intentional, but controversial use case: The NeXus convention on scanning says that a Field of an NX_NUMBER dataset can be replaced by an NXlog Group with the same name if the values supposed to be stored with timestamps. What happens if this group name is already defined as another concept, so the application of a generic concept leads to a contradiction?</p></li>
+</ul>
+<blockquote>
+<div><p>Normally, it is acceptable to have the same (short) name for different concepts, because they are uniquely identifieable by their (suffixed) full vocabulary name.<br />
+Specifically, for the first example <a class="reference external" href="https://github.com/nexusformat/definitions/issues/395">see also</a>:<br />
+Depricate and Rename: NXnote/type-field to NXnote/mime_type-field<br />
+Depricate: NXentry/thumbnail/type-attribute and use NXentry/thumbnail/mime_type-field instead<br />
+<a class="reference external" href="https://github.com/nexusformat/definitions/pull/396">PR 396</a> to discuss it further</p>
+</div></blockquote>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/nexusformat/definitions/issues/1234">regexp enumerations</a><br />
+NXentry/thumbnail/type-attribute is defined with the “Obligatory value: image/<em>”. Does it mean that it always has to be literaly “image/</em>” or it only means that its actual value shall start with “image/“?<br />
+Is it really an enumeration?<br />
+Shall we enable a regexp as enumeration?</p></li>
+</ul>
+<blockquote>
+<div><p>currently - enums only allow exact match<br />
+Note that the current implementation is not as intended. <a class="reference external" href="https://github.com/nexusformat/definitions/blob/main/base_classes/NXentry.nxdl.xml">see the xml file</a>
+future: maybe the <a class="reference external" href="https://github.com/nexusformat/definitions/issues/1002">use of assert</a> or something else</p>
+</div></blockquote>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/nexusformat/definitions/issues/1235">number enumerations</a><br />
+In some case enumeration refers to numbers (e.g. NXguide/reflectivity/[surface,wavelength]_indices), but because of enumeration, their data type had to be forced to be NX_CHAR. Although they are now overriding the data type of the referenced(?) concept NXdata/AXISNAME_indices-attribute which is defined as NX_INT.<br />
+Note that NXdetector/time_of_flight/axis-attribute (with enumeration value of “3”) is defined as NX_POSINT.<br />
+Shall it be the way to go and allow enumeration for other data types, too, although their string value is given in the nxdl definition?</p></li>
+<li><p><a class="reference external" href="https://github.com/nexusformat/definitions/issues/1236">default unit category</a><br />
+In some cases our definitions do not specify a unit category (e.g. NXdetector/detector_number-field of NX_INT, NXdetector/bit_depth_readout-field of NX_INT, or even NXcapillary/focal_size-field of NX_FLOAT).<br />
+If it is only for convenience, Is there a fallback solution of a default value, like NX_ANY or NX_UNITLESS? The later does apply neither to NXdetector/bit_depth_readout-field, nor to NXcapillary/focal_size-field.</p></li>
+</ul>
+<blockquote>
+<div><p>Or if the given concept (Group/Field/Attribute) is referring to another one (e.g. from a base class as NXmonopd/MONITOR/preset of NX_FLOAT referring to the same(?) concept NXmonitor/preset of NX_NUMBER units=NX_ANY) shall it receive a default unit category, or shall it simply inherit the already defined unit category from the referred concept?</p>
+</div></blockquote>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/nexusformat/definitions/issues/1067">complex unit categories</a><br />
+NeXus has already complex unit categories, like NX_MASS_DENSITY, NX_MOLECULAR_WEIGHT, NX_PER_AREA, NX_PER_LENGTH, NX_WAVENUMBER, etc. but others can also be derived using the Unidata’s Udunits convention (see also <a class="reference external" href="https://www.unidata.ucar.edu/software/udunits/udunits-2.2.28/udunits2.html">https://www.unidata.ucar.edu/software/udunits/udunits-2.2.28/udunits2.html</a>).
+Is there a way to refer to such units or unit categories?<br />
+Is it planed to introduce NX_UDUNITS as unit category, so one can use derived unints according?<br />
+Or is it possible to supply a Udunits derivation as a unit category(!) (e.g. units=”m/s”), so any compatible units, like “km/h” could be used?</p></li>
+<li><p><a class="reference external" href="https://github.com/nexusformat/definitions/issues/1237">units= vs. units=</a><br />
+As an xml tag, units= is used by NXDL to specify unit categories for Fields. units= on the other hand can be used by application definitions to specify enumeration for the dataset attribute &#64;units which specify the actual unit of the data.<br />
+It is at least confusing in NeXus that both a unit category specification and a specific unit in a data file use the same plural form “units”.<br />
+Was it ever discussed?<br />
+Should not it be made clear: “units” for unit categories, and “unit” for the actual unit?</p></li>
+</ul>
+</section>
+<section id="zoom-chat">
+<h2>ZOOM Chat:<a class="headerlink" href="#zoom-chat" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Wout De Nolf (ESRF) to Everyone (19. Jan 2023, 16:09)<br />
+Here is the link for the field: <a class="reference external" href="https://github.com/nexusformat/definitions/blob/9729b2488acc33aebe53f1865fa6c20615e31be0/base_classes/NXnote.nxdl.xml#L41">https://github.com/nexusformat/definitions/blob/9729b2488acc33aebe53f1865fa6c20615e31be0/base_classes/NXnote.nxdl.xml#L41</a></p></li>
+<li><p>Benjamin Watts to Everyone (19. Jan 2023, 16:17)<br />
+the &#64;type was renamed from &#64;mime_type due to issue #395
+<a class="reference external" href="https://github.com/nexusformat/definitions/issues/395">https://github.com/nexusformat/definitions/issues/395</a>
+PeterC had noticed the mistake that we are discussing now, but Tobias misunderstood the issue and didn’t make a good fix</p></li>
+<li><p>Pete Jemian to Everyone (19. Jan 2023, 16:28)<br />
+starts with “image/”
+validItemType (in the nxdl.xsd file) is a regex
+Paul Millar to Everyone (19. Jan 2023, 16:30)
+MIME type is structured, like
+type “/” subtype [“+” suffix] *[“;” parameter]
+Therefore, this constraint is really:
+has <em>type</em> “image”</p></li>
+<li><p>Pete Jemian to Everyone (19. Jan 2023, 16:32)<br />
+This becomes an issue to define clearly how to describe in NXDL.  We intend to match a pattern that starts with “image/”.  Let’s build the issue on that.  and move on from here today.</p></li>
+<li><p>Pete Jemian to Everyone (19. Jan 2023, 16:39)<br />
+XML Schema “assert” seems to be a XML v1.1 feature.  We use v1.0 so this would be a fundamental change.  <a class="reference external" href="https://stackoverflow.com/questions/15573894/xml-schema-1-1-not-recognizing-assert-or-assertion">https://stackoverflow.com/questions/15573894/xml-schema-1-1-not-recognizing-assert-or-assertion</a>
+NXcanSAS has a structure which is either Q as vector or Q as scalar.
+<a class="reference external" href="https://manual.nexusformat.org/classes/applications/NXcanSAS.html#nxcansas-entry-data-q-field">https://manual.nexusformat.org/classes/applications/NXcanSAS.html#nxcansas-entry-data-q-field</a>
+Wout De Nolf (ESRF) to Everyone (19. Jan 2023, 16:42)
+<a class="reference external" href="https://manual.nexusformat.org/classes/applications/NXmx.html#nxmx-entry-instrument-beam-flux-attribute">https://manual.nexusformat.org/classes/applications/NXmx.html#nxmx-entry-instrument-beam-flux-attribute</a>
+&#64;flux can have “flux”, “total_flux”, “flux_integrated”, or “total_flux_integrated”.
+all these are optional fields</p></li>
+<li><p>Aaron Brewster to Everyone (19. Jan 2023, 16:45)<br />
+I have to start walking to my next meeting but I’ll be listening in on my phone</p></li>
+<li><p>Balazs Bago  to Everyone (19. Jan 2023, 16:48)<br />
+I have to leave, Good Bye!</p></li>
+<li><p>Luca Gelisio (EuXFEL) to Everyone (19. Jan 2023, 16:49)<br />
+Dumb question: What about ‘other’? The other two formats are well defined, but this?</p></li>
+<li><p>Paul Millar to Everyone (19. Jan 2023, 16:58)<br />
+Heike, we can organise a meeting of XPCS people.  There’s certainly multiple RIs interested in XPCS within DAPHNE.</p></li>
+<li><p>iPhone t (19. Jan 2023, 17:01)<br />
+Gotta go. &#64;sandor you may want to save the chat log to help with the minutes. Thanks all</p></li>
+<li><p>Luca Gelisio (EuXFEL) to Everyone (19. Jan 2023, 17:03)<br />
+I agree with Sandor.</p></li>
+<li><p>Paul Millar to Everyone (19. Jan 2023, 17:03)<br />
++1 Sandor
+Alternatively, allow an open enumeration
+Suresh Narayanan to Everyone (19. Jan 2023, 17:05)
+Have to go now</p></li>
+</ul>
+</section>
+<section id="fabruary-telco">
+<h2>Fabruary Telco<a class="headerlink" href="#fabruary-telco" title="Link to this heading">¶</a></h2>
+<p>Please help to <a class="reference external" href="https://doodle.com/meeting/participate/id/aQknoq7d">choose the date by responding to the poll</a> by January 30th. We are planning to hold the telco in the regular slot of UTC 15:00. Check your local time to avoid scheduling surprises!</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Telco 20230119</a><ul>
+<li><a class="reference internal" href="#date">Date</a></li>
+<li><a class="reference internal" href="#connect">Connect</a></li>
+<li><a class="reference internal" href="#agenda">Agenda</a></li>
+<li><a class="reference internal" href="#present">Present</a></li>
+<li><a class="reference internal" href="#minutes">Minutes</a></li>
+<li><a class="reference internal" href="#zoom-chat">ZOOM Chat:</a></li>
+<li><a class="reference internal" href="#fabruary-telco">Fabruary Telco</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20230213.html" title="Telco 20230213"
+             >next</a></li>
+        <li class="right" >
+          <a href="Telco_20221202.html" title="Telco 20221202"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" >Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20230119</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

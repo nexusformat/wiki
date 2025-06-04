@@ -1,0 +1,73 @@
+---
+title: Telco 20150520
+permalink: Telco_20150520.html
+layout: wiki
+---
+Telco 20150520
+==============
+
+Date
+----
+
+Wednesday, 20th May, 12:00 BST
+
+Hangout Link:
+<https://plus.google.com/hangouts/_/g2pa6t2hnwkox4jgjl2p72nqkea>
+
+Agenda
+------
+
+-   Welcome
+-   Detector developer contacts
+-   CMake and release update  
+    For the definitions distribution
+    -   which targets should be installed
+    -   removal of xsltproc from the source tree (there is a binary
+        available on the web)
+    -   removal of the validation tool
+-   NXmx update
+-   Plan of future activities (code camp and strategic)
+-   Next meeting
+-   AOB
+
+Minutes
+-------
+
+Present: EW, TSR, HJB, MK, MB, Andreas Foerster, PJ (second half)
+
+Contacts with LCLS II for file formats made. Touch base Skype call
+arranged. Update at next Telco.
+
+CMake: Good progress made by Eugen on Definitions. Removal of items
+agreed. However we do need a roadmap for providing a working validation
+tool. NXFeatures are on the way, but still experimental.
+
+Discussion on foreign pull requests: It is great that we get work done
+for free. We need to be careful though about copyright (notices are
+intact).
+
+NXmx: During code development at DLS question came up to clarify named
+items in nxdl. Handbook says maxOccurs is unbounded, which makes no
+sense for named items. Documentation will be improved (Mark B was
+volunteered). Followup question: What do we do for names of items that
+can have multiple instances? name\_NNNN? Consensus was we mostly should
+not be fixing names in that case. A documentation proposal might be
+coming.
+
+Andreas proposed a single angle increment value for goniometer axes that
+move during shutterless MX scans. Preference was to have a per frame
+value, with separate start\_something and end\_something. There was a
+proposal floating around in Diamond at one point. Mark B to dig out and
+forward to HJB, who will process that into a template proposal for
+Dectris. Will revisit next time.
+
+For those Dectris templates: Can we have a IEEE NaN fill value for data
+that is to be provided outside of the detector later. Looks like we can.
+We'll check.
+
+Clarification: Detector origin is supposed to be the first pixel in the
+data. Needs to be documented prominently. Worth checking documentation
+for other omissions. Task for everyone.
+
+Will discuss other items and relative paths for depends\_on at the next
+meeting, which will be [Telco 20150603](Telco_20150603.html "wikilink")

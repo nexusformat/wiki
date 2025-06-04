@@ -1,0 +1,256 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>NXtofnref-NIAC2006</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="NXtranslate - the anything to NeXus converter" href="NXtranslate.html" />
+    <link rel="prev" title="NXnet Proposal" href="NXnet_Proposal.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NXtranslate.html" title="NXtranslate - the anything to NeXus converter"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="NXnet_Proposal.html" title="NXnet Proposal"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NXtofnref-NIAC2006</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="nxtofnref-niac2006">
+<h1>NXtofnref-NIAC2006<a class="headerlink" href="#nxtofnref-niac2006" title="Link to this heading">¶</a></h1>
+<p>Concerns:</p>
+<ul class="simple">
+<li><p>mono and tof reflectometry must inherit from a common base class;
+the current definition of tofnref inheriting from monoref leaves the
+definition of the monochromator in the TOF definition.</p></li>
+<li><p>SNS Liquids has two monitors, but our definitions only have one.
+Both are not always active.</p></li>
+</ul>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="w">    </span><span class="cp">&lt;?xml version=&quot;1.0&quot; ?&gt;</span>
+<span class="w">    </span><span class="cm">&lt;!--</span>
+
+<span class="cm">    Instrument Definition for a Time of Flight Neutron Reflectometer</span>
+<span class="cm">    Refines monochromatic reflectometer.</span>
+
+<span class="cm">    Editor: Robert Dalgliesh &lt;r.m.dalgliesh@rl.ac.uk&gt;</span>
+<span class="cm">    Initial version: October 2004</span>
+<span class="cm">    $Id$</span>
+
+<span class="cm">    See http://www.neutron.anl.gov:8080/NeXus/5 for component definitions.</span>
+
+<span class="cm">    2005-04-28 Paul Kienzle &lt;pkienzle@nist.gov&gt;</span>
+<span class="cm">    * Only include information that may be used for reduction/analysis</span>
+<span class="cm">    * Make it a subclass of NXmonoref</span>
+<span class="cm">    2006-02-03 Paul Kienzle &lt;pkienzle@nist.gov&gt;</span>
+<span class="cm">    * Inherit more from NXmonoref.</span>
+<span class="cm">    --&gt;</span>
+
+<span class="w">    </span><span class="nt">&lt;NXentry&gt;</span>
+<span class="w">      </span><span class="nt">&lt;definition</span><span class="w"> </span><span class="na">version=</span><span class="s">&quot;1.0&quot;</span><span class="w"> </span><span class="na">URL=</span><span class="s">&quot;http://www.nexus.anl.gov/instruments/xml/NXtofnref.xml&quot;</span><span class="nt">&gt;</span>
+<span class="w">        </span>NXtofnref
+<span class="w">      </span><span class="nt">&lt;/definition&gt;</span>
+
+<span class="w">      </span><span class="nt">&lt;NXinstrument&gt;</span>
+<span class="w">        </span><span class="nt">&lt;NXmoderator</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{Name of moderator}&quot;</span><span class="nt">&gt;</span>
+<span class="w">          </span><span class="nt">&lt;distance</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;metre&quot;</span><span class="nt">&gt;</span>
+<span class="w">            </span>{<span class="w"> </span>Distance<span class="w"> </span>from<span class="w"> </span>T_o<span class="w"> </span>to<span class="w"> </span>sample<span class="w"> </span>along<span class="w"> </span>beam-path.<span class="w">  </span>To<span class="w"> </span>calculate<span class="w"> </span>wavelength:
+<span class="w">              </span>L[i]<span class="w"> </span>=<span class="w"> </span>wavelength<span class="w"> </span>at<span class="w"> </span>time<span class="w"> </span>T[i]
+<span class="w">              </span>T[i]<span class="w"> </span>=<span class="w"> </span>time<span class="w"> </span>of<span class="w"> </span>flight<span class="w"> </span>for<span class="w"> </span>point<span class="w"> </span>i.
+<span class="w">              </span>d1<span class="w"> </span>=<span class="w"> </span>distance<span class="w"> </span>from<span class="w"> </span>moderator<span class="w"> </span>to<span class="w"> </span>sample<span class="w"> </span>along<span class="w"> </span>beam<span class="w"> </span>path
+<span class="w">              </span>d2<span class="w"> </span>=<span class="w"> </span>distance<span class="w"> </span>from<span class="w"> </span>detector<span class="w"> </span>to<span class="w"> </span>sample<span class="w"> </span>along<span class="w"> </span>beam<span class="w"> </span>path
+<span class="w">              </span>h<span class="w"> </span>=<span class="w"> </span>Planck&#39;s<span class="w"> </span>constant
+<span class="w">              </span>m_n<span class="w"> </span>=<span class="w"> </span>mass<span class="w"> </span>of<span class="w"> </span>the<span class="w"> </span>neutron
+<span class="w">                </span>
+<span class="w">              </span>L[i]<span class="w"> </span>=<span class="w"> </span>h/m_n<span class="w"> </span>*<span class="w"> </span>T[i]/(d1+d2)
+<span class="w">            </span>}
+<span class="w">          </span><span class="nt">&lt;/distance&gt;</span>
+<span class="w">          </span><span class="nt">&lt;pulse_shape</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NXdata&quot;</span><span class="nt">&gt;</span>
+<span class="w">            </span>{<span class="w"> </span>Find<span class="w"> </span>the<span class="w"> </span>center<span class="w"> </span>of<span class="w"> </span>mass<span class="w"> </span>of<span class="w"> </span>the<span class="w"> </span>pulse<span class="w"> </span>shape<span class="w"> </span>and<span class="w"> </span>use<span class="w"> </span>that
+<span class="w">          </span>as<span class="w"> </span>the<span class="w"> </span>T0<span class="w"> </span>offset<span class="w"> </span>with<span class="w"> </span>respect<span class="w"> </span>to<span class="w"> </span>the<span class="w"> </span>protons<span class="w"> </span>hitting<span class="w"> </span>the<span class="w"> </span>target.
+<span class="w">          </span>The<span class="w"> </span>TOF<span class="w"> </span>from<span class="w"> </span>target<span class="w"> </span>(which<span class="w"> </span>is<span class="w"> </span>the<span class="w"> </span>real<span class="w"> </span>T0)<span class="w"> </span>to<span class="w"> </span>the<span class="w"> </span>moderator<span class="w"> </span>is<span class="w"> </span>
+<span class="w">          </span>insignficant<span class="w"> </span>compared<span class="w"> </span>to<span class="w"> </span>the<span class="w"> </span>uncertainty<span class="w"> </span>from<span class="w"> </span>the<span class="w"> </span>pulse<span class="w"> </span>shape<span class="w"> </span>and
+<span class="w">          </span>so<span class="w"> </span>can<span class="w"> </span>be<span class="w"> </span>ignored.
+<span class="w">        </span>}
+<span class="w">          </span><span class="nt">&lt;/pulse_shape&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/NXmoderator&gt;</span>
+
+<span class="w">        </span><span class="nt">&lt;NXguide</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;{Name of guide section}&quot;</span><span class="nt">&gt;</span>*
+<span class="w">          </span>{<span class="w"> </span>Guides<span class="w"> </span>in<span class="w"> </span>total<span class="w"> </span>or<span class="w"> </span>in<span class="w"> </span>segments<span class="w"> </span>thgrough<span class="w"> </span>to<span class="w"> </span>sample<span class="w"> </span>position;<span class="w"> </span>may<span class="w"> </span>be<span class="w"> </span>
+<span class="w">            </span>interspersed<span class="w"> </span>between<span class="w"> </span>other<span class="w"> </span>components<span class="w"> </span>-<span class="w"> </span>Check<span class="w"> </span>component<span class="w"> </span>index.
+<span class="w">            </span>Can<span class="w"> </span>be<span class="w"> </span>nested<span class="w"> </span>for<span class="w"> </span>guides<span class="w"> </span>with<span class="w"> </span>multiple<span class="w"> </span>straight<span class="w"> </span>segments.
+
+<span class="w">        </span>Affects<span class="w"> </span>wavelength<span class="w"> </span>spectrum,<span class="w"> </span>both<span class="w"> </span>in<span class="w"> </span>divergence<span class="w"> </span>and<span class="w"> </span>intensity.<span class="w">  </span>The
+<span class="w">        </span>spectrum<span class="w"> </span>scan<span class="w"> </span>will<span class="w"> </span>automatically<span class="w"> </span>compensate<span class="w"> </span>for<span class="w"> </span>intensity<span class="w"> </span>effects.
+<span class="w">        </span>To<span class="w"> </span>compute<span class="w"> </span>divergence<span class="w"> </span>effects,<span class="w"> </span>detailed<span class="w"> </span>information<span class="w"> </span>about<span class="w"> </span>the<span class="w"> </span>guide
+<span class="w">        </span>geometry<span class="w"> </span>will<span class="w"> </span>be<span class="w"> </span>required.
+<span class="w">          </span>}
+<span class="w">        </span><span class="nt">&lt;/NXguide&gt;</span>
+
+<span class="w">        </span><span class="cm">&lt;!-- </span>
+<span class="cm">          Some instruments will require gravitational corrections.  Neutrons</span>
+<span class="cm">          travel on a parabolic trajectory.  For long wavelength neutrons</span>
+<span class="cm">          this changes incident and reflected angle and results in the</span>
+<span class="cm">          neutron appearing on a lower detector pixel than expected.  The</span>
+<span class="cm">          information required for these corrections comes from the instrument</span>
+<span class="cm">          geometry.</span>
+<span class="cm">          --&gt;</span>
+
+<span class="w">        </span><span class="nt">&lt;NXchopper</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;[T0_chopper|frame_overlap_chopper]&quot;</span><span class="nt">&gt;</span>?
+<span class="w">          </span><span class="nt">&lt;wavelength_range</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[2]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;Angstrom&quot;</span><span class="nt">&gt;</span>
+<span class="w">            </span>{<span class="w"> </span>Reduction<span class="w"> </span>software<span class="w"> </span>needs<span class="w"> </span>to<span class="w"> </span>ignore<span class="w"> </span>Q<span class="w"> </span>values<span class="w"> </span>outside<span class="w"> </span>the<span class="w"> </span>range
+<span class="w">              </span>defined<span class="w"> </span>by<span class="w"> </span>the<span class="w"> </span>choppers.<span class="w">  </span>The<span class="w"> </span>T0<span class="w"> </span>chopper<span class="w"> </span>is<span class="w"> </span>phased<span class="w"> </span>to<span class="w"> </span>the<span class="w"> </span>source<span class="w"> </span>
+<span class="w">          </span>to<span class="w"> </span>block<span class="w"> </span>fast<span class="w"> </span>neutron<span class="w"> </span>and<span class="w"> </span>gamma<span class="w"> </span>flash.<span class="w">  </span>The<span class="w"> </span>frame<span class="w"> </span>overlap
+<span class="w">          </span>chopper<span class="w"> </span>is<span class="w"> </span>set<span class="w"> </span>to<span class="w"> </span>select<span class="w"> </span>low<span class="w"> </span>wavelength<span class="w"> </span>neutrons<span class="w"> </span>(those<span class="w"> </span>from
+<span class="w">          </span>the<span class="w"> </span>current<span class="w"> </span>pulse)<span class="w"> </span>or<span class="w"> </span>high<span class="w"> </span>wavelength<span class="w"> </span>neutrons<span class="w"> </span>(those<span class="w"> </span>from
+<span class="w">          </span>the<span class="w"> </span>previous<span class="w"> </span>pulse.
+
+<span class="w">          </span>On<span class="w"> </span>a<span class="w"> </span>properly<span class="w"> </span>tuned<span class="w"> </span>instrument,<span class="w"> </span>the<span class="w"> </span>time<span class="w"> </span>bins<span class="w"> </span>recorded<span class="w"> </span>in<span class="w"> </span>
+<span class="w">          </span>the<span class="w"> </span>detector<span class="w"> </span>will<span class="w"> </span>reflect<span class="w"> </span>the<span class="w"> </span>actions<span class="w"> </span>of<span class="w"> </span>the<span class="w"> </span>choppers<span class="w"> </span>and
+<span class="w">          </span>these<span class="w"> </span>fields<span class="w"> </span>can<span class="w"> </span>be<span class="w"> </span>ignored.<span class="w"> </span>}
+<span class="w">          </span><span class="nt">&lt;/wavelength_range&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/NXchopper&gt;</span>
+<span class="w">        </span><span class="nt">&lt;NXmirror</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;frame_overlap_mirror&quot;</span><span class="nt">&gt;</span>?
+<span class="w">          </span><span class="nt">&lt;cutoff_wavelength</span><span class="w"> </span><span class="na">mode=</span><span class="s">&quot;above|below&quot;</span><span class="nt">&gt;</span>
+<span class="w">        </span><span class="cm">&lt;!-- *** This is not part of standard NXmirror --&gt;</span>
+<span class="w">            </span>{<span class="w"> </span>The<span class="w"> </span>frame<span class="w"> </span>overlap<span class="w"> </span>mirror<span class="w"> </span>is<span class="w"> </span>used<span class="w"> </span>to<span class="w"> </span>eliminate<span class="w"> </span>very<span class="w"> </span>long<span class="w"> </span>wavelength<span class="w"> </span>
+<span class="w">          </span>neutrons<span class="w"> </span>from<span class="w"> </span>previous<span class="w"> </span>pulses.<span class="w">  </span>Together<span class="w"> </span>with<span class="w"> </span>the<span class="w"> </span>choppers,<span class="w"> </span>this
+<span class="w">          </span>helps<span class="w"> </span>to<span class="w"> </span>choose<span class="w"> </span>which<span class="w"> </span>pulse<span class="w"> </span>to<span class="w"> </span>use<span class="w"> </span>in<span class="w"> </span>the<span class="w"> </span>TOF<span class="w"> </span>calculations.<span class="w">  </span>On<span class="w"> </span>a<span class="w"> </span>
+<span class="w">          </span>properly<span class="w"> </span>tuned<span class="w"> </span>instrument<span class="w"> </span>the<span class="w"> </span>time<span class="w"> </span>bins<span class="w"> </span>recorded<span class="w"> </span>in<span class="w"> </span>the<span class="w"> </span>detector
+<span class="w">          </span>will<span class="w"> </span>account<span class="w"> </span>for<span class="w"> </span>the<span class="w"> </span>actions<span class="w"> </span>of<span class="w"> </span>the<span class="w"> </span>mirror.
+
+<span class="w">          </span>There<span class="w"> </span>will<span class="w"> </span>be<span class="w"> </span>some<span class="w"> </span>attenuation<span class="w"> </span>but<span class="w"> </span>this<span class="w"> </span>will<span class="w"> </span>be<span class="w"> </span>compensated<span class="w"> </span>for<span class="w"> </span>
+<span class="w">          </span>when<span class="w"> </span>correcting<span class="w"> </span>for<span class="w"> </span>the<span class="w"> </span>spectrum<span class="w"> </span>scan.
+
+<span class="w">          </span>For<span class="w"> </span>an<span class="w"> </span>ab<span class="w"> </span>initio<span class="w"> </span>calculation,<span class="w"> </span>you<span class="w"> </span>would<span class="w"> </span>need<span class="w"> </span>to<span class="w"> </span>store<span class="w"> </span>the<span class="w"> </span>angle<span class="w"> </span>
+<span class="w">          </span>wrt<span class="w"> </span>the<span class="w"> </span>beam<span class="w"> </span>to<span class="w"> </span>compute<span class="w"> </span>the<span class="w"> </span>cutoff<span class="w"> </span>angle<span class="w"> </span>but<span class="w"> </span>often<span class="w"> </span>this<span class="w"> </span>will<span class="w"> </span>not
+<span class="w">          </span>be<span class="w"> </span>explicit<span class="w"> </span>since<span class="w"> </span>the<span class="w"> </span>instrument<span class="w"> </span>is<span class="w"> </span>simply<span class="w"> </span>tuned<span class="w"> </span>to<span class="w"> </span>have<span class="w"> </span>the
+<span class="w">          </span>correct<span class="w"> </span>cutoff.<span class="w"> </span>}
+<span class="w">          </span><span class="nt">&lt;/cutoff_wavelength&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/NXmirror&gt;</span>
+<span class="w">        </span>
+<span class="w">        </span><span class="nt">&lt;NXdetector</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;detector&quot;</span><span class="nt">&gt;</span>
+<span class="w">          </span><span class="nt">&lt;time_of_flight</span><span class="w"> </span>
+<span class="w">            </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[l+1]&quot;</span>
+<span class="w">            </span><span class="na">units=</span><span class="s">&quot;10^-6 second|10^-7 second&quot;</span><span class="nt">&gt;</span>
+<span class="w">            </span>{<span class="w"> </span>Total<span class="w"> </span>time<span class="w"> </span>of<span class="w"> </span>flight<span class="w"> </span>}
+<span class="w">          </span><span class="nt">&lt;/time_of_flight&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/NXdetector&gt;</span>
+<span class="w">      </span><span class="nt">&lt;/NXinstrument&gt;</span>
+
+<span class="w">      </span><span class="nt">&lt;NXdata&gt;</span>
+<span class="w">        </span><span class="nt">&lt;time_of_flight</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;NX_FLOAT[k]&quot;</span><span class="w"> </span><span class="na">units=</span><span class="s">&quot;second&quot;</span><span class="w"> </span>
+<span class="w">          </span><span class="na">NAPIlink=</span><span class="s">&quot;entry/instrument/detector/time_of_flight&quot;</span><span class="nt">/&gt;</span>
+<span class="w">      </span><span class="nt">&lt;/NXdata&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/NXentry&gt;</span>
+</pre></div>
+</div>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NXtranslate.html" title="NXtranslate - the anything to NeXus converter"
+             >next</a></li>
+        <li class="right" >
+          <a href="NXnet_Proposal.html" title="NXnet Proposal"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NXtofnref-NIAC2006</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

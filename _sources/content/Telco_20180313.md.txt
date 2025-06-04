@@ -1,0 +1,57 @@
+---
+title: Telco 20180313
+permalink: Telco_20180313.html
+layout: wiki
+---
+Telco 20180313
+==============
+
+Date
+----
+
+Tuesday, 13 March, 16:30 CET (+0100)
+
+<!-- end of autogeneration -->
+
+Hangout Link:
+<https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua>
+
+
+Agenda
+------
+
+-   Welcome and agree Agenda
+-   Update on multiple detector modules
+-   Presentation on Ray's proposed changes to NXdata
+-   Review of NXDL [milestone](https://github.com/nexusformat/definitions/milestones)
+    - [Release Procedure](https://github.com/nexusformat/definitions/wiki/Release-Procedure) posted on the wiki
+-   Next meeting
+-   AOB
+
+Minutes
+-------
+
+Present: MK, AB, HJB, TSR, RO, Dieter Weber, Alexander Clausen
+
+### NeXus for (ST)EM
+
+Dieter and Alexander presented their ideas and motivation behind proposing NeXus additions for electron microscopy. They were encouraged to share technical detail with the mailing list for comments.
+It was general consensus that including EM support would make sense. RO pointed out that the "e" in NeXus is currently unused.
+
+### Multiple Detector Modules
+
+AB presented a file that uses the envisioned transformation hierarchy which can be displayed with the correct geometry in DIALS. Some additional attributes have been used (equipment), which may or may not be necessary, but could be helpful for refinement. Once AB is in a position to share the file, he will commit it to the examples repository with a clue what the expected geometry is.
+AB was interested in learning what cnxvalidate would say to the file.
+
+### NXdata
+
+Presentation postponed, hopeing to have PJ on board for it next time.
+
+### Milestone
+
+There are still 17 issues lined up for the upcoming milestone. That may not be realistic in the remaining planned time frame.
+
+We did discuss the NXpdb. The work on the NXDL is minimal and mostly complete. To be able to work out what to put into the file we need to have a well defined conversion into PDB/CIF. This will be discussed next time.
+
+### Next Meeting
+[Telco 20180403](Telco_20180403.html)

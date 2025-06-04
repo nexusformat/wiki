@@ -1,0 +1,375 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>TOFRawScan</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Update for NXflou application definition" href="Update_for_NXflou_application_definition.html" />
+    <link rel="prev" title="TOFRaw" href="TOFRaw.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Update_for_NXflou_application_definition.html" title="Update for NXflou application definition"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="TOFRaw.html" title="TOFRaw"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">TOFRawScan</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="tofrawscan">
+<h1>TOFRawScan<a class="headerlink" href="#tofrawscan" title="Link to this heading">¶</a></h1>
+<p>NXTOFRWSC - proposed extensions to NXTOFRW to provide a NeXus
+Time-Of-Flight Raw Data File Scan Format</p>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">¶</a></h2>
+<p>This document defines extensions to the <a class="reference external" href="TOFRaw.html" title="wikilink">single run
+format</a> to deal with scans and ISIS period type
+experiments; the same conventions used there apply here.</p>
+<section id="nxentry">
+<h3>NXentry<a class="headerlink" href="#nxentry" title="Link to this heading">¶</a></h3>
+<p>One question that is the subject of much debate is whether a single
+NXentry should only describe a single measurement or whether it could
+contain several measurements. The single measurement case is outlined in
+<a class="reference external" href="TOFRaw.html" title="wikilink">TOFRaw</a> and we outline here two possible methods of
+storing multiple measurements.</p>
+<section id="type-1-linking-entries-to-describe-scans">
+<h4>Type 1: linking entries to describe scans<a class="headerlink" href="#type-1-linking-entries-to-describe-scans" title="Link to this heading">¶</a></h4>
+<p>Often each scan point will be written as an NXentry in a separate file
+e.g. the scan is controlled by some external script. In this case all
+that is needed is:</p>
+<ol class="arabic simple">
+<li><p>a way to identify which files belong together</p></li>
+<li><p>preferably, a way to quickly identify what is changing during the
+scan without having to compare all items in the file</p></li>
+</ol>
+<p>A suggestion for (1) is to have a “scan_id” variable so that all files
+with the same value of “scan_id” will form part of the same scan; the
+element scan_point will indicate the scan point (1, 2, 3, …). If
+scan_id is set to the “run_number” of the first scan point, it will be
+guaranteed not to conflict with any other scans or run as the run number
+is unique for a given file (and often part of the file name).</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>RE</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p><font color=red>Scan_id</font></p></td>
+<td><p></p></td>
+<td><p>NX_INT</p></td>
+<td><p></p></td>
+<td><p>Allows Entries that are part of the same scan to be identified. This could be the run number of the first scan point</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p><font color=red>Scan_point</font></p></td>
+<td><p></p></td>
+<td><p>NX_INT</p></td>
+<td><p></p></td>
+<td><p>the point within a scan. 1=first, 2=second etc</p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p><font color=red>Scan_total</font></p></td>
+<td><p></p></td>
+<td><p>NX_INT</p></td>
+<td><p></p></td>
+<td><p>Number of points in this scan i.e. number of separate NXentries making up the scan</p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p><font color=red>Scan_labels</font></p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+<td><p></p></td>
+<td><p>comma separated list of titles/labels for each scan point</p></td>
+</tr>
+</tbody>
+</table>
+<p>For (2) above there are two choices: either tag each variable that is
+being varied with an extra attribute called e.g. “scanned”, or link all
+the variables that are being scanned into an “NXscan” structure. If an
+NXscan structure is decided on, then scan_id above should probably be
+moved into this rather than be in NXentry.</p>
+<p>In the case of a scan of two variables, we could set scanned=1 for the
+fastest varying variable and scanned=2 for the second fastest etc. Note
+that the notion of “fastest varying” depends, of course, on the order
+that you read the files in - this notion tells you which is varying
+fastest if the files are read in numerical run number order. Note that
+the “scanned variable” is a hint to the reading program and tells you
+what is being scanned over the whole measurement - if you just picked
+two files at random then only one of the many marked “scanned” variables
+would have changed and it is up to the reading program to work out which
+one.</p>
+<p>If several NXentry objects are written to the same file to describe scan
+points, it would be useful to have a naming convention so that they
+could be ordered quickly. NeXus convention is that entries are called
+“entry1”, “entry2”, … maybe for scans this could be extended to
+“entry1_1”, “entry1_2” for scan points 1 and 2 etc.</p>
+</section>
+<section id="type-2-containing-multiple-measurements">
+<h4>Type 2: containing multiple measurements<a class="headerlink" href="#type-2-containing-multiple-measurements" title="Link to this heading">¶</a></h4>
+<p><em>Note: we are considering splitting “single measurement” and “scan” into
+separate definitions - see the <strong>discussion</strong> tab for more information</em></p>
+<p>Sometimes a scan is set up and directed by the data acquisition
+electronics itself. An example would be when you want to perform a very
+rapid scan of e.g. temperature or to rapidly swap between two states
+(e.g. laser on and laser off). What is different about this situation
+compared to above is that no data is transferred from the acquisition
+system (and so no file written) until the scan is complete. Such a
+situation could be treated by the same mechanism as above, but has
+traditionally been done by adding an extra array dimension to the data
+and the varying variables rather than writing additional files.</p>
+<p>To illustrate this rather than having “entry1.sample.temperature”,
+“entry1.detector.counts[i]”, “entry2.sample.temperature” and
+“entry2.detector.counts[i]” we would just have
+“entry1.sample.temperature[j]” and “entry1.detector.counts[i,j]”
+where j indexes the scan point. Advantages of this scheme over writing
+seapare NXentries to a single file are:</p>
+<ul class="simple">
+<li><p>If you have very many scan points, you don’t get a huge number of
+NXentry structures that you need to search to get the list of
+scanned values</p></li>
+<li><p>Your scanned variables are already stored as arrays and so can
+easily be plotted i.e. counts[1,j] against temperature[j]</p></li>
+<li><p>You don’t have a huge number of linked entries in the file - links
+can cause wasted memory if all the objects in the file are loaded
+into computer memory by a language that cannot represent the links
+internally and so must create copies.</p></li>
+<li><p>you don’t have to think about having multiple copies of, or how to
+split, any time dependent NXlog objects bewteen NXentries</p></li>
+<li><p>you can easily load all the data for all scans into memory in one go</p></li>
+<li><p>data analysis is more straightforward</p></li>
+</ul>
+<p>You still need a mechanism to indicate scanned variables (either a
+scanned attribute or an NXscan structure as described above). Several of
+the above variables in NXentry will also become arrays of size (number
+of scan points, scan_total) e.g. raw_frames, good_frames,
+scan_point. As the counts array that appears within NXdata now depends
+on the the scan index [j], you will need to link in additional
+axis/axes to the NXdata to indicate this dependence. For this you could
+link in the scan_point[j] array or the individual temperature[j],
+magnetic_field[j] etc. arrays depending on how you want to plot your
+data.</p>
+<p>As as it is possible cycle rounds the scans and continue counting a
+particular scan point at a later stage, the following new variable is
+introduced:</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+<th class="head"><p></p></th>
+<th class="head"><p></p></th>
+<th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p><font color=red>scan_cycles</font></p></td>
+<td><p></p></td>
+<td><p>NX_INT[j]</p></td>
+<td><p></p></td>
+<td><p>Number of times a data acquisition was initiated for this scan point</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="nxsample">
+<h3>NXsample<a class="headerlink" href="#nxsample" title="Link to this heading">¶</a></h3>
+<p>Some variables describing sample environment parameters may become
+arrays with a Type 2 NXentry e.g.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>RE</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>temperature</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[nscan]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="nxdetector">
+<h3>NXdetector<a class="headerlink" href="#nxdetector" title="Link to this heading">¶</a></h3>
+<p>If detetor angles are scanned, an extra array dimension may be present
+with a Type 2 NXentry e.g.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>RE</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>Attribute</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Polar_angle</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[i,nscan]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>0/1</p></td>
+<td><p>Azimuthal_angle</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[i,nscan]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>0/1</p></td>
+<td><p>Distance</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT[i,nscan]</p></td>
+<td><p>distance from sample</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">TOFRawScan</a><ul>
+<li><a class="reference internal" href="#introduction">Introduction</a><ul>
+<li><a class="reference internal" href="#nxentry">NXentry</a><ul>
+<li><a class="reference internal" href="#type-1-linking-entries-to-describe-scans">Type 1: linking entries to describe scans</a></li>
+<li><a class="reference internal" href="#type-2-containing-multiple-measurements">Type 2: containing multiple measurements</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#nxsample">NXsample</a></li>
+<li><a class="reference internal" href="#nxdetector">NXdetector</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Update_for_NXflou_application_definition.html" title="Update for NXflou application definition"
+             >next</a></li>
+        <li class="right" >
+          <a href="TOFRaw.html" title="TOFRaw"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">TOFRawScan</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

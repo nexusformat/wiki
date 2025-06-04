@@ -1,0 +1,69 @@
+---
+title: Telco 20180403
+permalink: Telco_20180403.html
+layout: wiki
+---
+Telco 20180403
+==============
+
+Date
+----
+
+Tuesday,  3 April, 16:30 CEST (+0200)
+
+<!-- end of autogeneration -->
+
+Hangout Link:
+<https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua>
+
+
+Agenda
+------
+
+-   Welcome and agree Agenda
+-   Comments on  [pixelated STEM](https://github.com/LiberTEM/LiberTEM/blob/master/fileformat/basic%20pixelated%20STEM.txt) and [ideas on an application hierarchy to include different kinds of STEM data](https://github.com/LiberTEM/LiberTEM/blob/master/fileformat/STEM%20application%20definition%20hierarchy.txt)
+-   Tool to convert NXpdb to PDB/CIF
+-   Review of NXDL [milestone](https://github.com/nexusformat/definitions/milestones)
+    - [Release Procedure](https://github.com/nexusformat/definitions/wiki/Release-Procedure) posted on the wiki
+-   Github issue of the day - suggestions welcome (use telco github label)
+    - [definitions PRs & issues marked as "telco"](https://github.com/nexusformat/definitions/labels/telco)
+-   Next meeting
+-   AOB
+
+Minutes
+-------
+
+Present: HJB, PJ, MK, AB, TSR
+
+### STEM
+
+The proposed STEM structure is a promising early draft that required more detail.
+Some discussion of the proposed NeXus structure took place in the LiberTEM ticket system.
+We should aim to keep this in view of the NeXus community. TSR to send out a reply.
+
+### NXpdb to PDB converter
+
+That is work in progress, existing as a branch in cbflib.
+Some discussion on the difference between NXcollection and NXpdb.
+The only common point is that both have no validation in NXDL.
+NXpdb, however, has a full validation route, all content is standardised
+(outside of NXDL) and can be consumed by analysis software.
+None of that is true for NXcollection content. We have two different base classes
+to make the distinction as clear as possible.
+
+### Release Procedure
+
+Was presented as linked above. Some edits were done to also tick boxes in the
+definitions ticket [#597](https://github.com/nexusformat/definitions/issues/597)
+for the new versioning scheme.
+
+Not enough time was left to discuss the tickets going into the next milestone.
+
+
+### Next Meeting
+
+[Telco 20180418](Telco_20180418.html)
+
+### AOB
+
+None.

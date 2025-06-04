@@ -1,0 +1,49 @@
+---
+title: Telco 20180130
+permalink: Telco_20180130.html
+layout: wiki
+---
+Telco 20180130
+==============
+
+Date
+----
+
+Tuesday, 30 January, 16:30 CET (+0100)
+
+<!-- end of autogeneration -->
+
+Hangout Link:
+<https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua>
+
+
+Agenda
+------
+
+-   Welcome and agree Agenda
+-   Update on multiple detector modules
+-   Review of NXDL [milestone](https://github.com/nexusformat/definitions/milestones)
+    - [Release Procedure](https://github.com/nexusformat/definitions/wiki/Release-Procedure) posted on the wiki
+-   Next meeting
+-   AOB
+
+Minutes
+-------
+
+Present: AB, MB, PJ, RO, MK, TSR, HJB
+
+### multiple detector modules
+
+AB committed some changes to pixel sizes. Would be worth someone reviewing. More changes upcoming.
+
+### Review of Milestone Release
+
+Took most of the time of the meeting. Discussions are mostly captured in the github tickets.
+
+### Next Meeting
+[Telco 20180220](Telco_20180220.html)
+
+### AOB
+
+Auxilary signals: RO to reply to the mailing list that this Telco has no objections to optionally introducing multiple signals in NXdata, provided they share the same axes. 
+
