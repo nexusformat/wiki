@@ -1,0 +1,238 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Telco 20150617</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Telco 20150630" href="Telco_20150630.html" />
+    <link rel="prev" title="Telco 20150603" href="Telco_20150603.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20150630.html" title="Telco 20150630"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Telco_20150603.html" title="Telco 20150603"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" accesskey="U">Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20150617</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="telco-20150617">
+<h1>Telco 20150617<a class="headerlink" href="#telco-20150617" title="Link to this heading">¶</a></h1>
+<section id="date">
+<h2>Date<a class="headerlink" href="#date" title="Link to this heading">¶</a></h2>
+<p>Wednesday, 17th June, 12:00 BST</p>
+<p>Hangout Link:
+<a class="reference external" href="https://plus.google.com/hangouts/_/g2e2ayoq57srpi2g4zv2c2ewbua">https://plus.google.com/hangouts/_/g2e2ayoq57srpi2g4zv2c2ewbua</a></p>
+</section>
+<section id="agenda">
+<h2>Agenda<a class="headerlink" href="#agenda" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Welcome</p></li>
+</ul>
+<!-- -->
+<ul class="simple">
+<li><p>NXmx update</p>
+<ul>
+<li><p>Fill values (NaN)</p></li>
+<li><p>start and end angles for shutterless scans</p></li>
+<li><p>depends_on with relative path</p></li>
+</ul>
+</li>
+<li><p>Documentation update</p>
+<ul>
+<li><p>detector origin (1st pixel in stream)</p></li>
+<li><p>anything else in need of work? – look at issues</p></li>
+</ul>
+</li>
+<li><p>Plan of future activities (code camp and strategic)</p>
+<ul>
+<li><p>Validation</p></li>
+</ul>
+</li>
+<li><p>code (napi) release update</p></li>
+<li><p>example files status and plea for added or updated files</p></li>
+<li><p>Community engagement</p>
+<ul>
+<li><p>LCLS</p></li>
+<li><p>Dectris</p></li>
+<li><p>ECM</p></li>
+</ul>
+</li>
+<li><p>Next meeting</p></li>
+<li><p>AOB</p>
+<ul>
+<li><p>Axis attributes in NXdetector e.g</p></li>
+</ul>
+</li>
+</ul>
+<p><code class="docutils literal notranslate"><span class="pre">   Fluo : NXdetector</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;signal = data</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;axes = (,,,energy)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       &#64;energy_indices = (3)</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       data[10,20,180,1024]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">           &#64;interpretation = spectrum</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">       energy[1024]</span></code><br />
+<code class="docutils literal notranslate"><span class="pre">           &#64;units = keV</span></code></p>
+</section>
+<section id="minutes">
+<h2>Minutes<a class="headerlink" href="#minutes" title="Link to this heading">¶</a></h2>
+<p>Present: MK, MB, EW, HJB, TSR, AF (Dectris, from holiday!)</p>
+<p>NXmx, fill values</p>
+<p>This started from an Dectris Eiger problem of having to write fields
+without knowing values. Those are them meant to be filled in by beamline
+acquisition system. Since as far as NeXus is concerned a fully populated
+file should leave the facility, this is nothing we have a strong opinion
+about. Writing an empty array (dimension 0) would work.</p>
+<p>NXmx, shutterless</p>
+<p>All resolved to everyone’s satisfaction.</p>
+<p>NXmx, relative depends_on path</p>
+<p>Not deemed required, for the moment.</p>
+<p>Documentation, detector pixel origin</p>
+<p>Eugen volunteered to have a look at this. Potentially including detector
+modules and related “new” areas.</p>
+<p>Documentation, general review of tickets</p>
+<p>Quite a number of tickets are open on the definitions repository, some
+of them very old. A good number of them could potentially be closed.
+Looking through them and at least commenting would help the next person
+make a decision. Action on all.</p>
+<p>Plans for Code Camp an future</p>
+<p>Eugen will advertise Code Camp on the mailing list shortly. Please have
+a think about ideas to tackle there and what we need to do
+strategically. Ideas so far include validation, NAPI, features.</p>
+<p>example file repository</p>
+<p>Is in need of new files. This would help developers to find bugs in
+their code and develop common data extraction methods. Maybe a github
+repo is not the best choice, for data size reasons. Might investigate at
+the code camp.</p>
+<p>Next meeting will be <a class="reference external" href="Telco_20150630.html" title="wikilink">Telco 20150630</a></p>
+<p>AOB</p>
+<p>Mark Basham suggests a scheme to attribute detector axes (like for an
+energy dispersive detector) analogue to NXdata. Not all detector must
+have an NXdata, otherwise that could be used directly. MK asserts that
+this looks good and we certainly should not have two schemes (NXdata vs
+NXdetector) to assign axes. Will revisit that at next telco.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Telco 20150617</a><ul>
+<li><a class="reference internal" href="#date">Date</a></li>
+<li><a class="reference internal" href="#agenda">Agenda</a></li>
+<li><a class="reference internal" href="#minutes">Minutes</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20150630.html" title="Telco 20150630"
+             >next</a></li>
+        <li class="right" >
+          <a href="Telco_20150603.html" title="Telco 20150603"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" >Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20150617</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

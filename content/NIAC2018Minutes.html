@@ -1,0 +1,504 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>NIAC 2018 Minutes</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="NIAC2020" href="NIAC2020.html" />
+    <link rel="prev" title="NIAC2018" href="NIAC2018.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NIAC2020.html" title="NIAC2020"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="NIAC2018.html" title="NIAC2018"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NIAC 2018 Minutes</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="niac-2018-minutes">
+<h1>NIAC 2018 Minutes<a class="headerlink" href="#niac-2018-minutes" title="Link to this heading">¶</a></h1>
+</section>
+<section id="niac-meeting-2018">
+<h1>NIAC Meeting 2018<a class="headerlink" href="#niac-meeting-2018" title="Link to this heading">¶</a></h1>
+<p>Brookhaven National Laboratory, October 25-26, 2018</p>
+<section id="thursday-morning">
+<h2>Thursday Morning<a class="headerlink" href="#thursday-morning" title="Link to this heading">¶</a></h2>
+<p>We started by a group activity of arranging tables.</p>
+<p>Round table introduction</p>
+<p>Mark Basham’s membership had expired. A letter of support from Diamond light source was provided. We voted on confirming Mark Basham as representative for Diamond: All YES</p>
+<section id="finding-an-agenda">
+<h3>Finding an Agenda<a class="headerlink" href="#finding-an-agenda" title="Link to this heading">¶</a></h3>
+<p>Suggested Topics:</p>
+<ul class="simple">
+<li><p>NeXus as logbook format, #37, 3</p></li>
+<li><p>NXptycho, #36, 5</p></li>
+<li><p>Attribute mask, #35, 2</p></li>
+<li><p>Attribute Normalisation, #34, 2</p></li>
+<li><p>McStas-NAPI, #33, 2</p></li>
+<li><p>HDF5 XMP, #32, 5</p></li>
+<li><p>Messy, #37, 5</p></li>
+<li><p>NXquadric, #30, 3</p></li>
+<li><p>NXdata plottype, #29, 2</p></li>
+<li><p>Extended default, #28, 2</p></li>
+<li><p>Uncertainties, #27, 4</p></li>
+<li><p>NXdiffractometer, NXgoniometer, #26, 6</p></li>
+<li><p>NXdata, aux signal, #25, 2</p></li>
+<li><p>Voting, #22, 2</p></li>
+<li><p>2014 Attributes, #4, 4</p></li>
+<li><p>Interfaces/Features/App Def, example data, #3, 8</p></li>
+<li><p>NXslit, #585,</p></li>
+<li><p>NXData, NXdet, #583, 5</p></li>
+<li><p>NXenvironment, #471, 1</p></li>
+<li><p>Rarely used NXDL #331, 0</p></li>
+<li><p>NXsample nature, #327, 0</p></li>
+<li><p>Branding, 4,</p></li>
+</ul>
+<p>The #numbers point to issues on either the NIAC github or the NeXus definitions. The other numbers are votes on importance in the first pass.</p>
+<p>We decided to put a time limit on discussions. Per default this is 20 minutes.</p>
+</section>
+<section id="interfaces-features-application-definitions-example-data">
+<h3>Interfaces, Features, Application Definitions, Example Data<a class="headerlink" href="#interfaces-features-application-definitions-example-data" title="Link to this heading">¶</a></h3>
+<p>Clarification of what Interfaces and Features are. The Interfaces are a better way to organize base classes, Features are more fine grained application definitions and are set to replace them.</p>
+<p>In this first round we did not come to a conclusion. The issues at stake where unclear to most attendees. We decided to defer  this discussions to after lunch. By then presentations on both topics will be presented by Mark Koennecke and Mark Basham.</p>
+</section>
+<section id="nxdiffractometer-nxgoniometer">
+<h3><A name="decision_diffractometer"></A>NXdiffractometer, NXgoniometer<a class="headerlink" href="#nxdiffractometer-nxgoniometer" title="Link to this heading">¶</a></h3>
+<p>This is about having a special group in NXinstrument which describes a diffractometer. There is a lot of overlap with the content of NXtransformation.</p>
+<p>We voted on: we add a group to NXinstrument named diffractometer which is of type NXtransformation. Voting result: All YES, no NO, no abstain.</p>
+</section>
+<section id="break">
+<h3>Break<a class="headerlink" href="#break" title="Link to this heading">¶</a></h3>
+</section>
+<section id="nxdiffractometer-continuation">
+<h3>NXdiffractometer, continuation<a class="headerlink" href="#nxdiffractometer-continuation" title="Link to this heading">¶</a></h3>
+<p>We reopened NXdiffractometer because some attendees did not understand what they voted for.</p>
+<p>For vote: a group of no specified name in NXinstrument
+of type NXtransformation which describes a diffractometer. Result: 7 for, 4 abstain</p>
+</section>
+<section id="uncertainties">
+<h3>Uncertainties<a class="headerlink" href="#uncertainties" title="Link to this heading">¶</a></h3>
+<p>Uncertainties is the name the NIAC agreed upon for discussing the storage of experimental or statistical errors associated with a dataset in a NeXus file.</p>
+<p>This is more a discussion about a clarification of what the actual way of describing uncertainties is. There was a proposal to annotate uncertainties in 2014 but we did not arrive at a conclusion.</p>
+<p>Pete Jemian will research this topic and bring up a proposal in the afternoon.</p>
+</section>
+<section id="nxdata-nxdetector">
+<h3>NXdata, NXdetector<a class="headerlink" href="#nxdata-nxdetector" title="Link to this heading">¶</a></h3>
+<p>In NXdata NeXus collects data to be plotted. In order to do perform more thorough data processing it is useful to link back from NXdata to the NXdetector group which describes the detector and data more fully. Up to now, NeXus uses the target attribute on the dataset for this function.</p>
+<p>Mark Basham pointed out that the target attribute pointing to the original data in NXdetector  from NXdata is broken when the data pointed to is an linked external file. We may not even have the right to open the external file and add the target attribute to the dataset.</p>
+<p>Proposal from Mark B: The attribute DATASETNAME_target can be used in the same way as the attribute target to a dataset is used but it is attached to the parent group.</p>
+<p>Extending the target to annotate the target pointing to an external file does not work because the attribute may be attached to a dataset in an external file which we do not have control over.</p>
+<p>There is a general problem relating data in different files with each other.</p>
+<p>Armando suggests to have a DATASETNAME_target field which is a soft link to the group containing the dataset.</p>
+<p>No conclusion was reached. We closed by defining an
+action item as follows: Armando and Mark Basham work out together how to do this in a proper way. Both taking into account NeXus ways of doing things and the technical possibilities of HDF5. They come back at a later stage with a documented proposal with examples.</p>
+</section>
+<section id="nxptycho">
+<h3><A name="decision_NXcxi_ptycho"></A>NXptycho<a class="headerlink" href="#nxptycho" title="Link to this heading">¶</a></h3>
+<p>This is coming from the CXI community who actual took NeXus, liked it but decided that reading and writing attributes is impossible. Mark Basham put the attributes back again. The resulting files are compatible with both CXI and NeXus.</p>
+<p>A prerequisite for this application definition is an additional filed in the NXbeam base class which describes the extent of the beam. This change was proposed and voted for with:</p>
+<p>For 7, 3 abstain, 0 against</p>
+<p>NXptycho renamed to NXcxi and accepted. This is basically an application definition coming from an interested community.</p>
+<p>Results of the vote: All in favor.</p>
+</section>
+</section>
+<section id="lunch">
+<h2>Lunch<a class="headerlink" href="#lunch" title="Link to this heading">¶</a></h2>
+</section>
+<section id="thursday-afternoon">
+<h2>Thursday Afternoon<a class="headerlink" href="#thursday-afternoon" title="Link to this heading">¶</a></h2>
+<section id="nxptycho-again">
+<h3>NXptycho again<a class="headerlink" href="#nxptycho-again" title="Link to this heading">¶</a></h3>
+<p>Mark Basham pointed out that CXI describes more methods then ptychography. Thus we need to be more specific  with the name of the application definition.</p>
+<p>The proposal then is to rename NXcxi to  NXcxi_ptycho. Result: All in favor</p>
+</section>
+<section id="hdf5xmp">
+<h3>HDF5XMP<a class="headerlink" href="#hdf5xmp" title="Link to this heading">¶</a></h3>
+<p>The NIAC agreed in an earlier meeting that it would be nice if file managers could show a sensible thumbnail when encountering NeXus files. A suitable approach to achieve this was implemented by Ben Watts with the help of some funds from PSI.</p>
+<p>Ben Watts informed the NISC about what has been done. It is possible to have a user block in a HDF5 file, before the actual HDF5 content starts. The approach is to place meta data and thumbnails in there.  There will be our own magic string which describes the content of our meta data in XMP format. This is a few keywords and a thumbnail. There are already plugins for most major file browsers on different OS which can work with this extra information. These plugins will be fed upstream into OS distributions.  There is python code to add thumbnails  and XMP data to the HDF5 file. Sidecar files with the xmp extension are also supported. The size of that user block has to be defined when opening the file.</p>
+<p>The NIAC thanks Ben Watts and PSI for implementing this.</p>
+</section>
+<section id="uncertainties-continuation">
+<h3><A name="decision__errors"></A>Uncertainties, continuation<a class="headerlink" href="#uncertainties-continuation" title="Link to this heading">¶</a></h3>
+<p>Pete Jemian demonstrates his proposal. He proposes an uncertainties attribute to a dataset which as a value holds the name of another dataset containing the uncertainties. With the same shape as the original dataset.</p>
+<p>Comment by Mark Basham: this does not work for linked datasets as you cannot add the attribute to the dataset in the external file. DATASETNAME_errors will work because in itself it can be a link.</p>
+<p>Proposals:</p>
+<p>Ben: uncertainties go into a dataset called DATASETNAME_error. We remove the error and uncertainties field from NXdata.</p>
+<p>Armando: DATASETNAME_errors to be used as a general pattern when an error field is required.</p>
+<p>Armando’s proposal accepted with all YES</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">errors</span></code> field and <code class="docutils literal notranslate"><span class="pre">uncertainties</span></code> attribute in NXdata to be marked deprecated, 8 YES</p>
+</section>
+<section id="attribute-mask-and-normalisation">
+<h3>Attribute Mask and Normalisation<a class="headerlink" href="#attribute-mask-and-normalisation" title="Link to this heading">¶</a></h3>
+<p>We started the discussion by clarifying that NXdata is not only for plotting. It is used as a container for a data object. Especially in processed data.  It was noted that NXprocess is intended for processed data.</p>
+<p><A name="decision__mask"></A>At times, there are invalid pixels in an array holding data from a detector. A means is needed to identify such pixels. This is commonly done with a mask field.</p>
+<p>Proposal: DATASETNAME_mask as a general way to specify a mask. We use the conventions as described for NXdetector/pixel_mask with the option to use less that 32 bit.</p>
+<p>1 against, all others(10) YES</p>
+<p><A name="decision__weights"></A>It occurs that there is a need to divide a dataset with another one to normalize it.</p>
+<p>Ray’s proposal: DATASETNAME_weights anywhere in a NeXus file. If it exists and has the same shape as the dataset, you are supposed to divide the data by the weights.</p>
+<p>9 for, abstain 1,</p>
+<p>Armando proposal: weights as an attribute to NXdata which denotes a dataset which the signal dataset has to be divided by.   This dataset can have one value or as many values as items of the signal to be normalized. The signal can specify its type by the interpretation attribute.</p>
+<p>1 in favor, 5 against, rest abstain, NOT accepted</p>
+</section>
+<section id="review-of-the-agenda">
+<h3>Review of the agenda<a class="headerlink" href="#review-of-the-agenda" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Base vs Interfaces, 4
+– app def versus interface, 5</p></li>
+<li><p>example data, 2</p></li>
+<li><p>NXdata aux signals, 5</p></li>
+<li><p>2014 attributes, close the ticket</p></li>
+<li><p>NXslit,</p></li>
+<li><p>NXenv, 2</p></li>
+<li><p>Rarely used NXDL, close the ticket,</p></li>
+<li><p>NXsample nature, not at this meeting</p></li>
+<li><p>NeXus as a logbook, 4</p></li>
+<li><p>McStas-NAPI, 4</p></li>
+<li><p>Voting, 1</p></li>
+<li><p>Messy specifications, 6</p></li>
+<li><p>NXquadric, 2</p></li>
+<li><p>Plottype, 1</p></li>
+<li><p>Extended default, 2</p></li>
+<li><p>Branding, 5</p></li>
+</ul>
+<p>The numbers after the comma are the votes of importance.</p>
+</section>
+<section id="branding">
+<h3>Branding<a class="headerlink" href="#branding" title="Link to this heading">¶</a></h3>
+<p>Some NIAC members felt that the NeXus logo looks outdated.
+Stuart Cambell suggested to drop the NeXus graphics to the BNL design team for reevaluation.  They will create a set of suggestions which the NIAC  will discuss at a later stage.</p>
+</section>
+<section id="messy-specifications">
+<h3><A name="decision_string"></A>Messy Specifications<a class="headerlink" href="#messy-specifications" title="Link to this heading">¶</a></h3>
+<p>Over time, strings have become  a messy affair in NeXus:</p>
+<ul class="simple">
+<li><p>We started with arrays of bytes. Which later became NX_CHAR.</p></li>
+<li><p>HDF5 introduced variable length strings. Unfortunately, the popular h5py API for writing HDF5 files stores strings per default as such variable length strings. NeXus decided to support this, though the HDF-5 API for reading/writing such strings is of low quality</p></li>
+<li><p>After some pressure from the community, arrays of strings were introduced. Now there is a choice to store a string as  a string or as an array of strings of length 1.</p></li>
+</ul>
+<p>After some discussion we arrived at the following proposal:</p>
+<p>Array of strings are not allowed in situations where a single string is expected. Cnxvalidate should flag that. Result of the vote: All YES</p>
+</section>
+<section id="nxdata-auxiliary-signals">
+<h3><A name="decision_auxiliary_signals"></A>NXdata auxiliary signals<a class="headerlink" href="#nxdata-auxiliary-signals" title="Link to this heading">¶</a></h3>
+<p>This is a recovery of the signal=1, signal=2, signal=n feature which we used to have in the old way of handling axes.</p>
+<p>Proposal: additional group level attribute auxiliary_signals which is an array of strings holding the names of additional signals to be plotted with the signal. They all need to be of the same shape.</p>
+<p>All in favor.</p>
+</section>
+<section id="extended-use-of-the-defaults-attribute">
+<h3><A name="decision_default"></A>Extended Use of the Defaults Attribute<a class="headerlink" href="#extended-use-of-the-defaults-attribute" title="Link to this heading">¶</a></h3>
+<p>Currently we have a <code class="docutils literal notranslate"><span class="pre">default</span></code> attribute at root level which points to the default data. Currently this is restricted to NXroot, NXentry, NXsubentry.</p>
+<p>Proposal: allow the <code class="docutils literal notranslate"><span class="pre">default</span></code> attribute for any NeXus group which contains a plotable NXdata.</p>
+<p>All in favor</p>
+</section>
+</section>
+<section id="friday-morning">
+<h2>Friday Morning<a class="headerlink" href="#friday-morning" title="Link to this heading">¶</a></h2>
+<p>Building #741, Room 156</p>
+<section id="election-of-officers">
+<h3>Election of Officers<a class="headerlink" href="#election-of-officers" title="Link to this heading">¶</a></h3>
+<p>Stuart Campbell to be the technical release manager: All in favour</p>
+<p>Pete Jemian as documentation release manager: All in favour</p>
+<p>Ben Watts as NIAC Executive secretary: All in favour</p>
+<p>Ben Watts steps back as NIAC executive secretary</p>
+<p>Mark Basham as executive NIAC secretary: All in favour</p>
+<p>Ben Watts as NIAC Chairman, All in favour</p>
+</section>
+<section id="voting">
+<h3><A name="decision_voting"></A>Voting<a class="headerlink" href="#voting" title="Link to this heading">¶</a></h3>
+<p>The NIAC constitution forces NIAC votes to be done by email. It is unclear however what the acceptance criteria for such email voting is. It happened often that not enough NIAC members actually voted. Moreover, there is a danger that the email vote is badly understood and the NIAC ends up with bad decisions. On the other hand, the NIAC meets only every two years. A means to vote on issues when there is a dire need is good to have. For the discussion resulted the following proposal:</p>
+<p>Email voting as used up to 2018 only for membership renewals</p>
+<p>For issues other then membership renewals the following rule applies: we vote by teleconference where the proposal can be discussed. At least 2/3 of the NIAC have to be present at the teleconference. Then normal majority vote of the attendees applies. Teleconference decisions need to be published on the NIAC mailing list. NIAC Members not attending the teleconference have a one week period in which they can add their vote to the tally. Those not responding in that week are counted as abstained.</p>
+<p>Results of the vote: 11 in favor, 1 abstain, 0 against</p>
+</section>
+<section id="id1">
+<h3>Review of the agenda<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>NeXus as logbook, 7</p></li>
+<li><p>OFF-geometry, 4</p></li>
+<li><p>NXquadric,3</p></li>
+<li><p>NXdata plottype, 2</p></li>
+<li><p>NXslit,</p></li>
+<li><p>NXenv,1</p></li>
+<li><p>NXpdb, 3</p></li>
+<li><p>Base CL v Interfaces, 6</p></li>
+<li><p>App Def vs Features, 6</p></li>
+<li><p>Example data, 3</p></li>
+<li><p>NeXus &#64; Accelerators, 2</p></li>
+<li><p>Target: NXdetector/NXdata, 2</p></li>
+</ul>
+<p>The numbers after the comma are the voted importance values.</p>
+</section>
+<section id="nexus-as-logbook">
+<h3>NeXus as Logbook<a class="headerlink" href="#nexus-as-logbook" title="Link to this heading">¶</a></h3>
+<p>Presentation by Mark Koennecke about how to store logbook information in a NeXus file. The added value is that a suitable tool can interact with the logbook data.</p>
+<p>Results of some discussion: Nice idea, but not in the NeXus  scope.  Nothing is stopping us to use NeXus in this way, however. No new features in NeXus are required.</p>
+</section>
+<section id="interfaces">
+<h3><A name="decision_interfaces"></A>Interfaces<a class="headerlink" href="#interfaces" title="Link to this heading">¶</a></h3>
+<p>Presentation about using interfaces for structuring the base classes better by Mark Koennecke.</p>
+<p>Result: We bury the idea. It adds more complexity to NeXus then it is worth.  We look at the github branch for interfaces for ideas on structuring  the documentation of the base classes better. We add some documentation on inheritance and interfaces into the design section of the manual to the tune: we thought about it and stepped back from it because of the additional complexity introduced by this.</p>
+<p>Voting results: 1 against, 2 abstain, rest in favor</p>
+</section>
+<section id="application-definitions-vs-features">
+<h3><A name="decision_features"></A>Application Definitions vs. Features<a class="headerlink" href="#application-definitions-vs-features" title="Link to this heading">¶</a></h3>
+<p>Mark Basham presents on features. Features can also test logic. Features can also be used to select software to process a file.</p>
+<p>Clarification: Application definitions stay.</p>
+<p>Features provide an example of reading and writing files and also do some validation.</p>
+<p>Proposal:</p>
+<p>We will make features available through the NeXus-WWW site as technical preview and encourage contributions from NIAC members. We accept the feature  attribute as official.</p>
+<p>9 in favor, 2 abstain, rest against</p>
+</section>
+<section id="off-geometry">
+<h3><A name="decision_NXoff"></A>OFF geometry<a class="headerlink" href="#off-geometry" title="Link to this heading">¶</a></h3>
+<p>This is about the mesh geometry as described in NXoff and discussed multiple times in the NIAC.</p>
+<p>Proposal: accept NXoff into NeXus</p>
+<p>3 abstains, rest in favor, accepted</p>
+</section>
+<section id="nxquadric">
+<h3>NXquadric<a class="headerlink" href="#nxquadric" title="Link to this heading">¶</a></h3>
+<p>A quadric is a 10 parameter functions which defines sheets in space. This would go into infinity: CSG needed to limit it. This is more precise then the mesh representation in NXoff. This is also the motivation for introducing it.</p>
+<p>Result of the discussion: This stays in the contributed definitions for the time being.</p>
+</section>
+</section>
+<section id="friday-afternoon">
+<h2>Friday afternoon<a class="headerlink" href="#friday-afternoon" title="Link to this heading">¶</a></h2>
+<section id="nxpdb">
+<h3><A name="decision_NXpdb"></A>NXpdb<a class="headerlink" href="#nxpdb" title="Link to this heading">¶</a></h3>
+<p>Herbert Bernstein presents the proposal. There are tools to convert pdb data to NeXus and back again. This code is in CBFlib.</p>
+<p>Proposal: we merge this when the tool is available as a standalone program. We also want example data. At least a  pdb and a converted file.</p>
+<p>All in favor</p>
+</section>
+<section id="example-data">
+<h3><A name="decision_examples"></A>Example data<a class="headerlink" href="#example-data" title="Link to this heading">¶</a></h3>
+<p>There are two types of files in the NeXus example data repository: files suitable as a reference and NeXus files as seen in the wild.</p>
+<p>Discussion if github is the right place to store the possibly large NeXus files. No good alternative was named.</p>
+<p>Closed with: reorganize this into reference and nexus-in-the-wild examples. We encourage facilities to add more example files.</p>
+<p>No vote required</p>
+</section>
+<section id="nxdata-plottype-attribute">
+<h3><A name="decision_plotting"></A>NXdata Plottype  Attribute<a class="headerlink" href="#nxdata-plottype-attribute" title="Link to this heading">¶</a></h3>
+<p>This is about describing in more detail how the data is to be plotted. Color maps, linear or logarithmic axis etc. This could be achieved by having a plottype attribute at group level which contains keywords hinting at the intended presentation style.</p>
+<p>After some discussion the NIAC came up with this<br />
+proposal: NeXus is about how to find and annotate the data to be plotted but not to describe how the data is to be plotted.</p>
+<p>Voting results: All in favor</p>
+<p>This is to be placed into the documentation.</p>
+</section>
+<section id="nexus-target-attribute">
+<h3><A name="decision_target"></A>NeXus Target Attribute<a class="headerlink" href="#nexus-target-attribute" title="Link to this heading">¶</a></h3>
+<p>The <code class="docutils literal notranslate"><span class="pre">target</span></code> attribute denoting the origin of a linked data item is broken as it only works for internal links.</p>
+<p>We discussed this a little but could not come to an agreement. The technical issues raised by this problems need to be looked at in more detail.</p>
+<p>Thus this Proposal: While the NIAC is working at the problem of the broken <code class="docutils literal notranslate"><span class="pre">target</span></code> attribute for external links, we document the problem with it.</p>
+<p>7 in favor, 0 abstains, 0 no</p>
+</section>
+<section id="nexus-at-accelerators">
+<h3>NeXus at Accelerators<a class="headerlink" href="#nexus-at-accelerators" title="Link to this heading">¶</a></h3>
+<p>Feedback from the controls groups at PSI about storing data from accelerators in NeXus:</p>
+<ul class="simple">
+<li><p>They like NeXus</p></li>
+<li><p>They  stumbled over the NXsample because they do not have a sample. And NXsample defines the origin of the NeXus coordinate system.</p></li>
+</ul>
+<p>The situation is that they are using NeXus look alike things to describe an accelerator. They share some with other facilities.
+NeXus is not built for accelerators, thus there is a case for a new tree of groups including one which describes the origin. The suggestion is to continue working on this and when they are ready to standardize, to come back to the NIAC.</p>
+</section>
+<section id="nxenvironment">
+<h3><A name="decision__log"></A>NXenvironment<a class="headerlink" href="#nxenvironment" title="Link to this heading">¶</a></h3>
+<p>Proposal: In NXsample, mark <code class="docutils literal notranslate"><span class="pre">magnetic_field_log</span></code> and <code class="docutils literal notranslate"><span class="pre">temperature_log</span></code> as deprecated. To be replaced with NXlog classes with <code class="docutils literal notranslate"><span class="pre">_log</span></code> dropped from the name.</p>
+<p>1 abstain, rest in favor</p>
+</section>
+<section id="nxslit">
+<h3>NXslit<a class="headerlink" href="#nxslit" title="Link to this heading">¶</a></h3>
+<p>After some discussion we concluded that the  NXslit definition is sufficient. The slit can always be transformed to wherever it should go.</p>
+</section>
+<section id="end-of-niac">
+<h3>End of NIAC<a class="headerlink" href="#end-of-niac" title="Link to this heading">¶</a></h3>
+</section>
+</section>
+<section id="attendees">
+<h2>Attendees<a class="headerlink" href="#attendees" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Mark Basham, Diamond Light Source</p></li>
+<li><p>Stuart Campbell, NSLS-2</p></li>
+<li><p>Ben Watts, PSI, SLS</p></li>
+<li><p>Jiro Suzuki, JPARC</p></li>
+<li><p>Michele Brambilla, PSI, (Guest)</p></li>
+<li><p>Mark Koennecke, PSI, SINQ</p></li>
+<li><p>Takahiro Matsumoto, Spring-9, Japan, (Guest)</p></li>
+<li><p>Pete Jemian, APS</p></li>
+<li><p>Armando Sole, ESRF</p></li>
+<li><p>Herbert Weinstein, CIF,</p></li>
+<li><p>Andy Moesch, DECTRIS, (Guest)</p></li>
+<li><p>Matt Clarke, DMSC, (Guest)</p></li>
+<li><p>Ray Osborn, Member at large, (Thursday)</p></li>
+<li><p>Freddie Akeroyd, ISIS, (remotely)</p></li>
+<li><p>Jens Hoffman, HZB, (remotely)</p></li>
+<li><p>Marie XingXing Yao, APS, (Friday morning, guest)</p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">NIAC 2018 Minutes</a></li>
+<li><a class="reference internal" href="#niac-meeting-2018">NIAC Meeting 2018</a><ul>
+<li><a class="reference internal" href="#thursday-morning">Thursday Morning</a><ul>
+<li><a class="reference internal" href="#finding-an-agenda">Finding an Agenda</a></li>
+<li><a class="reference internal" href="#interfaces-features-application-definitions-example-data">Interfaces, Features, Application Definitions, Example Data</a></li>
+<li><a class="reference internal" href="#nxdiffractometer-nxgoniometer"><A name="decision_diffractometer"></A>NXdiffractometer, NXgoniometer</a></li>
+<li><a class="reference internal" href="#break">Break</a></li>
+<li><a class="reference internal" href="#nxdiffractometer-continuation">NXdiffractometer, continuation</a></li>
+<li><a class="reference internal" href="#uncertainties">Uncertainties</a></li>
+<li><a class="reference internal" href="#nxdata-nxdetector">NXdata, NXdetector</a></li>
+<li><a class="reference internal" href="#nxptycho"><A name="decision_NXcxi_ptycho"></A>NXptycho</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#lunch">Lunch</a></li>
+<li><a class="reference internal" href="#thursday-afternoon">Thursday Afternoon</a><ul>
+<li><a class="reference internal" href="#nxptycho-again">NXptycho again</a></li>
+<li><a class="reference internal" href="#hdf5xmp">HDF5XMP</a></li>
+<li><a class="reference internal" href="#uncertainties-continuation"><A name="decision__errors"></A>Uncertainties, continuation</a></li>
+<li><a class="reference internal" href="#attribute-mask-and-normalisation">Attribute Mask and Normalisation</a></li>
+<li><a class="reference internal" href="#review-of-the-agenda">Review of the agenda</a></li>
+<li><a class="reference internal" href="#branding">Branding</a></li>
+<li><a class="reference internal" href="#messy-specifications"><A name="decision_string"></A>Messy Specifications</a></li>
+<li><a class="reference internal" href="#nxdata-auxiliary-signals"><A name="decision_auxiliary_signals"></A>NXdata auxiliary signals</a></li>
+<li><a class="reference internal" href="#extended-use-of-the-defaults-attribute"><A name="decision_default"></A>Extended Use of the Defaults Attribute</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#friday-morning">Friday Morning</a><ul>
+<li><a class="reference internal" href="#election-of-officers">Election of Officers</a></li>
+<li><a class="reference internal" href="#voting"><A name="decision_voting"></A>Voting</a></li>
+<li><a class="reference internal" href="#id1">Review of the agenda</a></li>
+<li><a class="reference internal" href="#nexus-as-logbook">NeXus as Logbook</a></li>
+<li><a class="reference internal" href="#interfaces"><A name="decision_interfaces"></A>Interfaces</a></li>
+<li><a class="reference internal" href="#application-definitions-vs-features"><A name="decision_features"></A>Application Definitions vs. Features</a></li>
+<li><a class="reference internal" href="#off-geometry"><A name="decision_NXoff"></A>OFF geometry</a></li>
+<li><a class="reference internal" href="#nxquadric">NXquadric</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#friday-afternoon">Friday afternoon</a><ul>
+<li><a class="reference internal" href="#nxpdb"><A name="decision_NXpdb"></A>NXpdb</a></li>
+<li><a class="reference internal" href="#example-data"><A name="decision_examples"></A>Example data</a></li>
+<li><a class="reference internal" href="#nxdata-plottype-attribute"><A name="decision_plotting"></A>NXdata Plottype  Attribute</a></li>
+<li><a class="reference internal" href="#nexus-target-attribute"><A name="decision_target"></A>NeXus Target Attribute</a></li>
+<li><a class="reference internal" href="#nexus-at-accelerators">NeXus at Accelerators</a></li>
+<li><a class="reference internal" href="#nxenvironment"><A name="decision__log"></A>NXenvironment</a></li>
+<li><a class="reference internal" href="#nxslit">NXslit</a></li>
+<li><a class="reference internal" href="#end-of-niac">End of NIAC</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#attendees">Attendees</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NIAC2020.html" title="NIAC2020"
+             >next</a></li>
+        <li class="right" >
+          <a href="NIAC2018.html" title="NIAC2018"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NIAC 2018 Minutes</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

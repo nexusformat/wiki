@@ -1,0 +1,68 @@
+---
+title: Telco 20160224
+permalink: Telco_20160224.html
+layout: wiki
+---
+Telco 20160224
+==============
+
+Date
+----
+
+Wednesday, 24th February, 16:30 Central European Time (Copenhagen)
+
+Hangout Link:
+<https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua>
+
+Agenda
+------
+
+-   Welcome and agree Agenda
+-   ECM30 workshop
+    <http://ecm30.ecanews.org/satellitemeetings/high-data-rate-mx-satellite-meeting.html>
+-   <http://nexusformat.org> main landing page update
+-   github issue of the day - suggestions welcome (there is a github
+    label now), otherwise we pick a random one
+-   github branches - prune stale ones?
+-   definitions PR:
+    <https://github.com/nexusformat/definitions/pull/448> (update
+    app-defs and con-defs for new
+    default/default/signal/axes/AXISNAME\_indices)
+-   Next meeting
+-   AOB
+
+Minutes
+-------
+
+Present: RO, HJB, AB, TSR, PJ
+
+### ECM 30 Workshop
+
+MK can go, participants need to email HJB for seats
+
+### Landing Page
+
+Discussions took place, more progress expected next time
+
+### Github issues
+
+#### 448 (PR)
+
+[Changes](https://github.com/nexusformat/definitions/issues/447) to
+application definitions require individual approval. This will not be
+merged as a whole, but is a useful reference for future updates to these
+definitions.
+
+#### 443
+
+Is a dramatic improvement to the manual and should be merged to master
+as is so more eyes can provide feedback.
+
+### AOB
+
+Clarified that NXdata is currently required for a valid NeXus file.
+There was 50:50 general agreement whether that this is necessary.
+
+### Next telco
+
+[Telco 20160315](Telco_20160315.html "wikilink")

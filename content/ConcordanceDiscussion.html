@@ -1,0 +1,302 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>ConcordanceDiscussion</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Connecting NXdata to NXdetector" href="Connecting_NXdata_to_NXdetector.html" />
+    <link rel="prev" title="Code Camp 2017" href="Code_Camp_2017.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Connecting_NXdata_to_NXdetector.html" title="Connecting NXdata to NXdetector"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Code_Camp_2017.html" title="Code Camp 2017"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">ConcordanceDiscussion</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="concordancediscussion">
+<h1>ConcordanceDiscussion<a class="headerlink" href="#concordancediscussion" title="Link to this heading">¶</a></h1>
+</section>
+<section id="concordance-summary">
+<h1>Concordance Summary<a class="headerlink" href="#concordance-summary" title="Link to this heading">¶</a></h1>
+<p>Last update: July, 10, 2013, Mark Koennecke</p>
+<p>This document summarizes the problems occurring when mapping CBF to
+NeXus how I see them from the discussion with Herbert. In the following
+discussion all groups which are not NeXus yet will be prefixed with TBD
+for To Be Discussed. This is the version updated after the July, 10
+teleconference.</p>
+<p>Further details on <a class="reference external" href="https://sites.google.com/site/nexuscbf/">NeXus/HDF5/CBF
+Integration</a></p>
+</section>
+<section id="the-variant-issue">
+<h1>The Variant Issue<a class="headerlink" href="#the-variant-issue" title="Link to this heading">¶</a></h1>
+<p>CBF has the concept of variants for fields. For example there is a field
+beam_center_x. This has somehow been determined and written to file.
+Later this is refined in another way. CBF stores this then as
+beam_center_x_variant. This concept of variants is missing in NeXus.
+Another way to understand this is to see it as a version control for
+values. However, as this is rarely used, a complicated solution is not
+desirable. Another requirement is that it must be possible to put
+similar tags on variables which change at the same time.</p>
+<p>So far there are three options to remedy this:</p>
+<ul class="simple">
+<li><p>A TBDvariant group which can occur in all other groups and contains
+the variant values with the same field names as in the parent group.
+This is felt to be overkill.</p></li>
+<li><p>Simply append _variant to the existing NeXus name. If there is more
+then one variant append another qualifier to _variant. For example:
+beam_center_x_variant_refined</p></li>
+<li><p>As the request can rather be understood as a means to keep track of
+old versions of values, another option is this rule: When updating a
+value, update the value with the NeXus name. Store the old value in
+a new field labelled with nexusname_old_timestamp. Where nexusname
+is the original name of the field, for example beam_center_x, and
+timestamp is a: timestamp like 2013-05-23. Great care has to be
+taken to create a timestamp format which does not break the
+usability of the name as a field name in a programming language.</p></li>
+<li><p>Another idea is to append _var_N where N is a number to the
+original NeXus field name and store the time stamp as an attribute
+to the field.</p></li>
+<li><p>Yet another idea: do not create new fields but rather store the old
+values as variant attributes to the original field.</p></li>
+</ul>
+</section>
+<section id="the-axisset-issue">
+<h1>The Axisset Issue<a class="headerlink" href="#the-axisset-issue" title="Link to this heading">¶</a></h1>
+<p>NeXus chooses to document axis names with a predefined meanings. The CBF
+people learned that this did not work for them as people were using axes
+differently, could not be bothered to even look which conventions others
+used etc. Thus they choose rather to document axes by the way how they
+operate. And a given component may even have more then one axes
+description associated with it.</p>
+<p>NeXus goes a long way to support this with the recently added offset,
+type, vector and depends_on attributes.</p>
+<p>But mapping the full CBF scheme would require a TBDaxisset group which
+can occur in any component which we care to place (sample, detector,…)
+This group could look like this:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>TBDaxisset
+   axis-name-or-id[NA]
+   offset[3,NA]
+   type[NA]
+   vector[3,NA]
+   depends_on[NA]
+</pre></div>
+</div>
+<p>with NA being the number of axes.</p>
+<p>I can see that such a scheme would also allow NeXus to neatly describe a
+given data set in terms of different axis types: instrument coordinates,
+q coordinates or whatever.</p>
+<p>At the Telco the agreement was that the current NeXus scheme is
+sufficient to do the CBF mapping. But for further use, it might be a
+good idea to reserve the namespace for axisset. It was also felt that
+there to many ways to describe axes in NeXus and we should discuss and
+aggree on a preferred way to do axes in an upcoming NIAC meeting.</p>
+</section>
+<section id="the-scan-issue">
+<h1>The Scan Issue<a class="headerlink" href="#the-scan-issue" title="Link to this heading">¶</a></h1>
+<p>NeXus chooses to store scans as it is done, with the positions of
+components as read from the hardware in arrays. CBF chooses to rather
+store the intent of the scan: i.e. the axis moved, their start and
+increments etc. NeXus lacks such a intent description. This already
+caused us problems because the intent axes are nice for plotting and the
+actual positions as read are necessary for detailed DA.</p>
+<p>Thus to capture the CBF description a new group may be required:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>TBDscan_intent
+   axis-name-or-id[NSA]
+   start[NSA]
+   increment[NSA]
+   NP
+</pre></div>
+</div>
+<p>with NSA being the Number of Scan Axes and NP the number of points in
+the scan. May be some more fields.</p>
+<p>The agreement on the NeXus Telco was that the recently aggreed upon axes
+scheme with the attributes on the NX group is sufficient to do the CBF
+mapping. Again, it might be worth to reserve the namespace.</p>
+</section>
+<section id="new-fields">
+<h1>New Fields<a class="headerlink" href="#new-fields" title="Link to this heading">¶</a></h1>
+<p>This may be a bit easier: the CBF mapping asks for a couple of fields to
+be added to the NeXus base classes:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>NXxray_tube
+   radiation_type         
+   radiation_xray_symbol
+</pre></div>
+</div>
+<p>Radiation_type is different to probe. Probe gives a very general
+description like neutrons, x-ray etc. This gives the type of radiation
+like Cu Kalpha, Mo etc. The situation is further complicated by the fact
+that even at synchrotrons wavelengths are selected which match the
+characteristics of well known x-ray tube anode materials. Thus, a
+NXxray_tube group may not be the appropriate place.</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>NXcollimator
+   div_x_y_source
+   radiation_filter_edge    # May belong into a NXfilter
+   radiation_inhomegeneity  # May belong into NXsource or NXmonochromator
+</pre></div>
+</div>
+<p>CBF stores polarisation information of the beam in NXmonochromator. It
+is an open question where this belongs: NXbeam, NXpolariser or
+NXmonochromator being candidates. The fields:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>polarisation_norm
+polarisation_ratio
+polarisation_source_norm
+polarisation_source_ratio
+
+NXdetector
+  gain
+  gain_esd
+  linerarity
+  offset
+  scaling
+  overload
+  undefined_value
+</pre></div>
+</div>
+<p>Some of these fields address the computed data value issue which we
+discussed some time ago. The last state on this was that Armando was to
+make a proposal for calculated data. Which, as far as I am aware, did
+not happen.</p>
+<p>CBF also has a structure to describe the elements of a multi component
+detector. We discussed something similar recently with the DECTRIS
+module . This was then added a s a non NeXus standard group. May be we
+need to revise this with input from CBF?</p>
+<p>The good news is that the proposed fields come with documentation which
+we may directly copy from the CBF documents.</p>
+</section>
+<section id="nxgoniometer">
+<h1>NXgoniometer<a class="headerlink" href="#nxgoniometer" title="Link to this heading">¶</a></h1>
+<p>Consider the situaton when a sample is mounted on some sort of
+positioning device: x-y tables, eulerian cradle goniometer or such. The
+current NeXus convention is to store the values coming from such
+positioning devices in the NXsample group. The rationale is that their
+purpose is to position the sample. Now, the suggestion is to separate
+such values out into a NXgoniometer group. This unloads the sample group
+somewhat and makes for a cleaner separation. Where in the NeXus
+hierarchy a NXgoniometer will be positioned is another question to be
+discussed: NXsample or NXinstrument both being good candidates.</p>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">ConcordanceDiscussion</a></li>
+<li><a class="reference internal" href="#concordance-summary">Concordance Summary</a></li>
+<li><a class="reference internal" href="#the-variant-issue">The Variant Issue</a></li>
+<li><a class="reference internal" href="#the-axisset-issue">The Axisset Issue</a></li>
+<li><a class="reference internal" href="#the-scan-issue">The Scan Issue</a></li>
+<li><a class="reference internal" href="#new-fields">New Fields</a></li>
+<li><a class="reference internal" href="#nxgoniometer">NXgoniometer</a></li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Connecting_NXdata_to_NXdetector.html" title="Connecting NXdata to NXdetector"
+             >next</a></li>
+        <li class="right" >
+          <a href="Code_Camp_2017.html" title="Code Camp 2017"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">ConcordanceDiscussion</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

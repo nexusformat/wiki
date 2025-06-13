@@ -1,0 +1,311 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>NXmonoref-NIAC2006</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="NXmonotas example-NIAC2006" href="NXmonotas_example-NIAC2006.html" />
+    <link rel="prev" title="NXmonoref example-NIAC2006" href="NXmonoref_example-NIAC2006.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NXmonotas_example-NIAC2006.html" title="NXmonotas example-NIAC2006"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="NXmonoref_example-NIAC2006.html" title="NXmonoref example-NIAC2006"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NXmonoref-NIAC2006</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="nxmonoref-niac2006">
+<h1>NXmonoref-NIAC2006<a class="headerlink" href="#nxmonoref-niac2006" title="Link to this heading">¶</a></h1>
+<p>The following is the proposed monochromatic reflectometry definition.</p>
+<p>Concerns:</p>
+<ul class="simple">
+<li><p>Using classes rather than names in links (e.g., NXdetector) will
+break if the user adds another detector group to the entry.</p></li>
+<li><p>I don’t record whether the reflectometer is horizontal or vertical
+geometry, but with slit and angles defined relative to the sample
+surface this doesn’t matter.</p></li>
+<li><p>I’m asking the control software to write the wavelength divergence
+into the file so that the user can read it off directly without
+performing calculations.</p></li>
+<li><p>Not recording “region of interest” used to measure count duration.
+Could create a virtual detector for this.</p></li>
+<li><p>Normalization by monitor/timer not currently supported</p></li>
+<li><p>For backgrounds, don’t know if the nominal Qz should be calculated
+from the theta or twotheta. The “correct” choice depends on the
+source of background.</p></li>
+</ul>
+<p>Example:
+<a class="reference external" href="NXmonoref_example-NIAC2006.html" title="wikilink">NXmonoref_example-NIAC2006</a></p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;?xml version=&quot;1.0&quot; ?&gt;
+&lt;!--
+Instrument Definition for Monochromatic Source Reflectometers.
+Editor: Paul Kienzle &lt;pkienzle@nist.gov&gt;
+Mangled_by: Nick Maliszewskyj &lt;nickm@nist.gov&gt;
+$Id$
+See http://www.neutron.anl.gov:8080/NeXus/5 for component definitions.
+
+2006-02-03 Refined by NIAC group meetings.
+--&gt;
+
+&lt;NXentry&gt;
+
+  &lt;definition version=&quot;1.0&quot; URL=&quot;http://www.nexus.anl.gov/instruments/xml/monoref.xml&quot;&gt;
+    NXmonoref
+  &lt;/definition&gt;
+  &lt;start_time type=&quot;ISO8601&quot; /&gt;
+
+  &lt;NXcharacterization name=&quot;intensity&quot;&gt;*
+    {Suggested spectrum measurement for intensity vs. wavelength
+     for a given slit setting.  Warning: beam profile is not 
+     regular, but this effect is accomodated in the spectrum measurement}
+  &lt;/NXcharacterization&gt;
+  &lt;NXcharacterization name=&quot;background&quot;&gt;*
+    {Suggested background measurement}
+  &lt;/NXcharacterization&gt;
+
+
+  &lt;NXsample&gt;
+    &lt;polar_angle type=&quot;NX_FLOAT[i]&quot; units=&quot;degrees&quot;&gt;?
+       {Angle relative to the scattering plane, not to gravity.}
+    &lt;/polar_angle&gt;
+    &lt;momentum_transfer type=&quot;NX_FLOAT[i]&quot;&gt;{|Q|}?&lt;/momentum_transfeer&gt;
+  &lt;/NXsample&gt;
+
+
+  &lt;NXinstrument&gt;
+
+    &lt;!-- wavelength selection --&gt;
+    &lt;NXcrystal name=&quot;monochromator&quot;&gt;
+      &lt;!-- May want to include fields required to compute the wavelength L, and spread dL --&gt;
+      &lt;wavelength /&gt;
+      &lt;wavelength_spread type=&quot;NX_FLOAT&quot; units=&quot;Angstrom&quot; /&gt;
+    &lt;/NXcrystal&gt;
+
+    &lt;!-- collimation --&gt;
+    &lt;NXaperture name=&quot;pre[sample|detector]_slit#&quot;&gt;
+      &lt;NXgeometry name=&quot;geometry&quot;&gt;?
+        &lt;NXtranslation name=&quot;translation&quot;&gt;
+          &lt;distances type=&quot;NX_FLOAT&quot; units=&quot;mm&quot;&gt;
+            { Location of slit along beamline (midway between slits 
+              if slits are not coplanar).  This is required to compute 
+              instrument resolution. }
+          &lt;/distances&gt;          
+        &lt;/NXtranslation&gt;
+        &lt;NXshape name=&quot;shape&quot;&gt;
+          &lt;shape&gt;
+            { Need to add &quot;nxslit&quot; to list of possible shapes.  If the
+              shape is a box, first dimension changes the sample footprint. }
+          &lt;/shape&gt;
+          &lt;size type=&quot;NX_FLOAT[nshapepars,np]&quot; units=&quot;mm&quot; /&gt;
+        &lt;/NXshape&gt;
+      &lt;/NXgeometry&gt;
+    &lt;/NXaperture&gt;
+
+    &lt;!-- 
+      The polarizer-flipper-guidefield combination selects polarization vectors 
+      in and out of the sample.  A number of scans are required to tune the 
+      instrument so that polarization is either &#39;up&#39; or &#39;down&#39; on the sample.  
+      On correctly tuned instruments the polarization angle selected should 
+      be recorded by the flipper using polar_angle relative to the surface 
+      (0/180 for +/-, or with out of plane polarization, 90/270 for +/-).  
+      The polarization efficiency must be determined from a spectrum scan
+      and the appropriate correction applied to the data.
+      Raw values from the instrument, such as time dependent field applied
+      to flipper coils or current on the current sheet can be recorded for
+      specialized reduction programs which know how to handle them.
+
+      In practice, these fields can be dropped because we are tagging the
+      data entry with polarization ++, etc.
+      --&gt;
+    &lt;NXpolarizer name=&quot;presample_polarizer&quot;&gt;?&lt;/NXpolarizer&gt;
+    &lt;NXflipper name=&quot;presample_flipper&quot;&gt;?&lt;/NXflipper&gt;
+
+    &lt;NXpolarizer name=&quot;predetector_polarizer&quot;&gt;?&lt;/NXpolarizer&gt;
+    &lt;NXflipper name=&quot;predetector_flipper&quot;&gt;?&lt;/NXflipper&gt;
+
+    &lt;!-- detector may be protected by an attenuator and/or a beam stop --&gt;
+    &lt;NXattenuator&gt;?
+      &lt;attenuator_transmission /&gt;
+    &lt;/NXattenuator&gt;
+    &lt;NXbeam_stop&gt;?
+      { Need all fields so that we can calculate shadow of beam stop on detector. }
+    &lt;/NXbeam_stop&gt;
+
+    &lt;NXdetector&gt;
+      &lt;polar_angle type=&quot;NX_FLOAT[np]&gt;
+        { Angle of the detector relative to the scattering plane. }
+      &lt;/polar_angle&gt;
+      &lt;azimuthal_angle type=&quot;NX_FLOAT&quot; units=&quot;degrees&quot;&gt;
+        { Indicate sense of scattering: 0 is front surface of sample, 
+          180 is back surface of sample.  If 180, change the sign of the
+          reflected angle in the data.  It is also possible for the beam
+          to enter the substrate from the side and reflect off the back 
+          surface of a film, in which case negative angles can be 
+          interpreted as inverting the scattering length density profile
+          of the film (after accounting for absorption in the substrate. }
+      &lt;/azimuthal_angle&gt;
+      &lt;counts /&gt;
+    &lt;/NXdetector&gt;
+
+  &lt;/NXinstrument&gt;
+
+  &lt;NXmonitor&gt;?
+    &lt;momentum_transfer NAPIlink=&quot;NXentry/NXsample/momentum_transfer&quot; /&gt;
+    &lt;presample_slit1 NAPIlink=&quot;NXentry/presample_slit1/NXgeometry/NXshape/size&quot; /&gt;
+    &lt;data type=&quot;FLOAT32[np]&quot; signal=1 axes=&quot;momentum_transfer|presample_slit1&quot; /&gt;
+  &lt;/NXmonitor&gt;
+
+  &lt;NXtimer&gt;?&lt;/NXtimer&gt;
+
+  &lt;NXdata&gt;
+    &lt;!-- Scan identification tags for the specific measurement type --&gt;
+    &lt;scan_type type=&quot;NX_CHAR&quot;&gt; 
+      { &quot;intensity&quot;|&quot;background&quot;|&quot;specular&quot;|&quot;rock&quot;|&quot;slice&quot;|&quot;area&quot; }
+    &lt;/scan_type&gt;
+    &lt;polarization_crosssection type=&quot;NX_CHAR&quot;&gt;?
+      { &quot;++&quot;|&quot;+-&quot;|&quot;-+&quot;|&quot;--&quot;|&quot;+&quot;|&quot;-&quot; }
+    &lt;/polarization_crosssection&gt;
+
+    &lt;!-- Scan variables
+       *** Note: these are renamed from their original location, which
+       *** which is a problem with the current API.
+       *** Maybe require some of these, e.g., theta, two theta, momentum transfer, presample_slit1.
+     --&gt;
+    &lt;theta NAPIlink=&quot;NXentry/NXsample/polar_angle&quot;&gt;?&lt;/theta&gt;
+    &lt;twotheta NAPIlink=&quot;NXentry/NXdetector/polar_angle&quot;&gt;?&lt;/twotheta&gt;
+    &lt;momentum_transfer NAPIlink=&quot;NXentry/NXsample/momentum_transfer&quot;&gt;?&lt;/momentum_transfer&gt;
+    &lt;presample_slit1 NAPIlink=&quot;NXentry/presample_slit1/NXgeometry/NXshape/size&quot;&gt;?&lt;/presample_slit1&gt;
+    &lt;presample_slit2 NAPIlink=&quot;NXentry/presample_slit2/NXgeometry/NXshape/size&quot;&gt;?&lt;/presample_slit2&gt;
+    &lt;predetector_slit1 NAPIlink=&quot;NXentry/predetector_slit1/NXgeometry/NXshape/size&quot;&gt;?&lt;predetector_slit1&gt;
+    &lt;predetector_slit2&quot; NAPIlink=&quot;NXentry/predetector_slit2/NXgeometry/NXshape/size&quot;&gt;?&lt;predetector_slit2&gt;
+
+    &lt;!-- Counts and monitors --&gt;
+    &lt;counts NAPIlink=&quot;NXentry/NXdetector/counts&quot; signal=&quot;1&quot; axes=&quot;momentum_transfer|presample_slit1&quot; /&gt;
+    &lt;count_start NAPIlink=&quot;NXentry/NXtimer/start&quot;&gt;?&lt;/count_start&gt;
+    &lt;count_duration NAPIlink=&quot;NXentry/NXtimer/duration&quot;&gt;?&lt;/count_duration&gt;
+    &lt;monitor NAPIlink=&quot;NXentry/NXmonitor/data&quot;&gt;?&lt;/count_monitor&gt;
+  &lt;/NXdata&gt;
+
+  &lt;NXlog name=&quot;&quot;&gt;*
+    { Various logs for temperature, field, etc. which are assumed to
+      be constant over the duration of the run.  The reduction program
+      should be able to display their values on a parallel graph.  Note
+      that logs are not necessarily sampled synchronously with the
+      data points. }
+  &lt;/NXlog&gt;
+
+&lt;/NXentry&gt;
+</pre></div>
+</div>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NXmonotas_example-NIAC2006.html" title="NXmonotas example-NIAC2006"
+             >next</a></li>
+        <li class="right" >
+          <a href="NXmonoref_example-NIAC2006.html" title="NXmonoref example-NIAC2006"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NXmonoref-NIAC2006</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

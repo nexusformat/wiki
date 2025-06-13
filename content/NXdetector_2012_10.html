@@ -1,0 +1,309 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>NXdetector 2012 10</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="NXdetector documentation" href="NXdetector_documentation.html" />
+    <link rel="prev" title="NXbrowse" href="NXbrowse.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NXdetector_documentation.html" title="NXdetector documentation"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="NXbrowse.html" title="NXbrowse"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NXdetector 2012 10</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="nxdetector-2012-10">
+<h1>NXdetector 2012 10<a class="headerlink" href="#nxdetector-2012-10" title="Link to this heading">¶</a></h1>
+<p>This is from an discussion about additions/modifications to NXdetector
+to help Dectris as it decides to write raw image data into HDF5/NeXus
+format.</p>
+<section id="on-2012-11-07-mark-koennecke-wrote">
+<h2>on 2012-11-07, Mark Koennecke wrote<a class="headerlink" href="#on-2012-11-07-mark-koennecke-wrote" title="Link to this heading">¶</a></h2>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Hi,
+
+at the last teleconference we agreed that I do a summary of the state and 
+options on the DECTRIS/detector_element issue. Well, this is it.
+
+In the meantime the information came in that DECTRIS is joining the two 
+planned workshops with a date in mid-january. Thus I assume we have a little 
+more time to sort this out. 
+
+First the more political part: [...omitted...]
+
+Now the more technical part: let us start with a description of the problem:
+
+The EIGER (and other) detector is composed of multiple modules. All is fine 
+as long as these modules are arranged on a regular grid in order to form one 
+joint image. This can be easily stored in one NXdetector group. A mask stored 
+with the data gives information which pixels are valied and which are boundaries. 
+
+The problem starts when the individual modules are arranged in an irregular 
+arrangement: for example on a half sphere. Then there are two requirements:
+- The user still wants to see an image merged from the individual modules 
+  in order to quickly get an overview of the data. This requirement is best 
+  fulfilled by keeping the data in one fat array. 
+- For proper data analysis, more information on each individual module is 
+  needed. This is:
+  
+  * The position of the module within the pixel array, offset and size
+  * The physical position and orientation of the module with respect to
+    the detector as a whole
+    
+In order to handle this, there are several propositions.
+
+
+Use NXgeometry
+================
+
+NXdetector
+  module01,NXgeometry
+       NXtranslation
+       NXorientation
+
+   module02,NXgeometry
+       NXtranslation
+       NXorientation
+
+.....
+This option is missing the index information. I am not sure if we want
+to add that to NXgeometry. I am also not sure if we still wish to
+advocate the use of NXgeometry. IMHO, the CIF mapping is better and
+NXgeometry may be deprecated soon.. But is not yet....
+
+
+NXdetector_element
+======================
+
+The second option would be a new group: NXdetector_element looking like
+this:
+
+NXdetector
+     distance
+     module01,NXdetector_element
+       x[nx]
+         @transformation_type=translation
+         @offset=x,y,z 
+         @vector= ...
+     depends_on=/entry/instrument/detector/distance 
+       y[ny]
+         @transformation_type=translation
+         @offset=0,0,0
+         @vector=....
+     depends_on=x
+       pixel_offset[2]=x,y
+       
+The x any y arrays describe the pixels of the module. This is wasting 
+space as it is for example for x: x[0]=0*pixelsize, x[1] = 1*pixelsize,... 
+The offset and vector attributes the position and orientation in space. 
+The start indices go into the pixel_offset
+
+   
+Tobias Suggestion
+=====================
+
+A variant based on the way CIF handles the same problem
+
+detector:NXdetector
+     data[j,k,l] = [....]
+     detector_arm[1] = [250]
+         @transformation=translation
+         @vector={1,0,0}
+         @units=cm
+         @depends_on=/entry/instrument/something/brick
+     depends_on=detector_arm
+     module:NXdetector_module
+         data_origin[2] = [l,m]
+         data_size[2] = [n,o]
+         module_offset[1] = [250]
+             @transformation=translation
+             @vector={0,1,1}
+             @units=mm
+             @depends_on=&quot;../detector_arm&quot;
+         fast_pixel_direction[1] = [0.172]
+             @transformation=translation
+             @vector={1,0,0}
+             @units=mm
+             @depends_on=&quot;module_offset&quot;
+         slow_pixel_direction[1] = [0.172]
+             @transformation=translation
+             @vector={0,1,0}
+             @units=mm
+             @depends_on=&quot;module_offset&quot;
+     module:NXdetector_module
+         ....
+
+This uses less space.
+
+
+SNS Usage
+==============
+
+SNS had a similar problem and has resolved the issue by storing each detector 
+module in a separate NXdetector group. This works perfectly and would require 
+no change on our side. However, this would mean that DECTRIS would need to 
+change their data writing for this case. And vieweing the total image cannot be 
+done easily anymore without a reconstruction in SW or a duplication of data.
+
+This looks like:
+
+module01,NXdetector
+      data[NP,i,j]
+      distance
+      ......
+module02,NXdetector
+      data[NP,ij]
+      distance...
+....
+
+
+The General Case
+====================
+
+What also works is the existing facility in NeXus to describe each 
+pixel individually. Any pixel gets an ID and there are arrays for 
+distance, coordinates etc which are nPixel long. With nPixel being  
+the total number of pixels. But this would again destroy the image.
+
+This looks like:
+
+detector,NXdetector
+     data[NP,nPixel]
+     distance[nPixel]
+     x_pixel_offset[nPixel]
+     y_pixel_offset[nPixel]
+     ....
+     
+Of course they may be many more options. But I hope these are enough 
+to find a solution
+
+
+Best Regards,
+
+          Mark Koennecke
+</pre></div>
+</div>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">NXdetector 2012 10</a><ul>
+<li><a class="reference internal" href="#on-2012-11-07-mark-koennecke-wrote">on 2012-11-07, Mark Koennecke wrote</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NXdetector_documentation.html" title="NXdetector documentation"
+             >next</a></li>
+        <li class="right" >
+          <a href="NXbrowse.html" title="NXbrowse"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NXdetector 2012 10</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

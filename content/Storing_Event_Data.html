@@ -1,0 +1,217 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Storing Event Data</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Teleconferences" href="Teleconferences.html" />
+    <link rel="prev" title="Scans" href="Scans.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Teleconferences.html" title="Teleconferences"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Scans.html" title="Scans"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Storing Event Data</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="storing-event-data">
+<h1>Storing Event Data<a class="headerlink" href="#storing-event-data" title="Link to this heading">¶</a></h1>
+<p>This discussion concerns a proposal from <a class="reference external" href="NIAC2008.html" title="wikilink">NIAC2008</a>
+to rename [NXevent_data] (NXevent_data.html “wikilink”) as NXtofevent_data.
+When this proposal was passed to the full committee, a number of issues
+were raised and it was decided that a further round of discussion was
+required.</p>
+<p>Please comment on the proposals below on the <a class="reference external" href="Storing_Event_Data.html" title="wikilink">discussion
+page</a></p>
+<p>Listed below are some of the main reasons cited for and against:</p>
+<section id="reasons-for">
+<h2>REASONS FOR<a class="headerlink" href="#reasons-for" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>NXtofevent_data better describes the content of the object, given
+that [NXevent_data] (NXevent_data.html “wikilink”) has a
+“time_of_flight” member</p></li>
+</ul>
+</section>
+<section id="reasons-against">
+<h2>REASONS AGAINST<a class="headerlink" href="#reasons-against" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Event data is potentially of importance to the other communities and
+therefore it would be good to ensure that the definition name for
+event data is as general as possible. Event data is not always
+measured against “time_of_flight” - it may be e.g. muon decay time
+and so a more general “event_time” axis may be applicable</p></li>
+</ul>
+<!-- -->
+<ul class="simple">
+<li><p>I’m not sure why the addition of “tof” is necessary. Pulsed source
+and chopped continuous source event data can be represented in ways
+that are substantially the same. By renaming the fields we can
+handle different kinds of events in the same manner, so there is no
+need to change the group name to be specific to time of flight</p></li>
+</ul>
+<!-- -->
+<ul class="simple">
+<li><p>NXtofevent_data is an ugly name. NXtof_event_data is a better
+name, or just NXevent_data</p></li>
+</ul>
+</section>
+<section id="proposal-from-paul-kienzle-regarding-contents-of-nxevent-data">
+<h2>PROPOSAL from Paul Kienzle regarding contents of NXevent_data<a class="headerlink" href="#proposal-from-paul-kienzle-regarding-contents-of-nxevent-data" title="Link to this heading">¶</a></h2>
+<p>First note that either pulse_height or pulse_time is the wrong name.</p>
+<ul class="simple">
+<li><p>pulse_height[i,k?] refers to the voltage pulse measured by the
+detector</p></li>
+<li><p>pulse_time[j] refers to the time that the neutron pulse reached
+the moderator</p></li>
+</ul>
+<p>The description of the pulse_height field is confusing. It refer to
+events_per_pulse, which has length j but it’s own index is of length
+i, so something is screwy.</p>
+<p>I suggest renaming time_of_flight to event_time and pulse_time to
+frame_time and you have something that can be used either for
+continuous or pulsed sources.</p>
+<ul class="simple">
+<li><p>event_time[i]: time relative to the start of the frame</p></li>
+<li><p>pixel_number[i]: detector which registered the event</p></li>
+<li><p>frame_time[j]: time relative to the start of the measurement</p></li>
+<li><p>events_per_frame[j]: as before</p></li>
+<li><p>pulse_height[i,k?]: detector voltages</p></li>
+</ul>
+<p>The frame_time for continuous sources presumably refers to the time
+when the detector was turned on after moving the motors during a scan
+for multi-point scans. When scanning continously (a potentially useful
+measurement during alignment operations), the frame time would more
+likely refer to the pulses from the motor position detectors.</p>
+</section>
+<section id="conclusion">
+<h2>Conclusion<a class="headerlink" href="#conclusion" title="Link to this heading">¶</a></h2>
+<p>01/2015: There was no activity on this for a long time. There is a
+NXevent_data base class and both SNS and ISIS are writing data files
+using that base class. Please consult the documentation of the base
+class for the current state.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Storing Event Data</a><ul>
+<li><a class="reference internal" href="#reasons-for">REASONS FOR</a></li>
+<li><a class="reference internal" href="#reasons-against">REASONS AGAINST</a></li>
+<li><a class="reference internal" href="#proposal-from-paul-kienzle-regarding-contents-of-nxevent-data">PROPOSAL from Paul Kienzle regarding contents of NXevent_data</a></li>
+<li><a class="reference internal" href="#conclusion">Conclusion</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Teleconferences.html" title="Teleconferences"
+             >next</a></li>
+        <li class="right" >
+          <a href="Scans.html" title="Scans"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Storing Event Data</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

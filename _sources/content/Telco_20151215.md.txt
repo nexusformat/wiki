@@ -1,0 +1,55 @@
+---
+title: Telco 20151215
+permalink: Telco_20151215.html
+layout: wiki
+---
+Telco 20151215
+==============
+
+Date
+----
+
+Tuesday, 15th December, 16:30 Central European Time (Copenhagen)
+
+Hangout Link:
+<https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua>
+
+Agenda
+------
+
+-   Welcome and agree Agenda
+-   sample container proposal - DLS
+-   recording scan intent proposal - DLS
+-   CXI update (Mark B) this time with better microphone and legal
+    advise
+-   NAPI release and download webpages
+-   Next meeting
+-   AOB
+
+Minutes
+-------
+
+Present: HJB, AB, FAA, EW, MK, TSR
+
+First three agenda items require MB, skipping.
+
+Other business: Lz4 bit shuffle oddities reported by HJB.
+
+HJB will push to filter github repo when done testing.
+
+The HDF Group is already advertising our filters repo on their mailing
+list.
+
+NAPI release and downloads: Github download next to working.
+
+Thanks go to Freddie and Stu for the Windows and RW build fixes.
+
+EW will upload legacy NAPI binaries to github tomorrow, so we can remove
+download.nexusformat.org/kits. Only useful stuff remaining there would
+be the definitions installers. TSR will contact PJ to migrate those to
+github or volunteer himself.
+
+HJB: BNL will host MX workshop in May in collaboration with Dectris. EW
+is going. Other presence will be at ACA and ECM 2016.
+
+Next meeting is: [Telco 20160106](Telco_20160106.html "wikilink")

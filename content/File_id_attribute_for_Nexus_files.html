@@ -1,0 +1,163 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>File id attribute for Nexus files</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="GenericScan" href="GenericScan.html" />
+    <link rel="prev" title="FAQ" href="FAQ.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="GenericScan.html" title="GenericScan"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="FAQ.html" title="FAQ"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">File id attribute for Nexus files</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="file-id-attribute-for-nexus-files">
+<h1>File id attribute for Nexus files<a class="headerlink" href="#file-id-attribute-for-nexus-files" title="Link to this heading">¶</a></h1>
+<p>In its current definition of <code class="docutils literal notranslate"><span class="pre">NXroot</span></code> no attribute is provided to hold a
+unique ID for a file. Though there is one for the filename, this might
+not be unique and can change over time. Several facilities are planning
+to store files on large storage systems to which access is provided not
+only via a file system but also via web applications. The latter ones
+typically rely on a database holding an index of the files on the
+storage. In such cases a file on the storage system is typically
+associated with an ID which acts as a primary key for the file.
+Currently this ID is only stored in the database. Thus if the names or
+locations of files on the storage system change there is no way to
+rebuild the map between IDs and files.</p>
+<p>I thus suggest to add an attribute <code class="docutils literal notranslate"><span class="pre">file_id</span></code> to the <code class="docutils literal notranslate"><span class="pre">NXroot</span></code> class which
+allows facilities to store such a unique key for a file directly to the
+Nexus file. The other ID values available are related to a particular
+instance of <code class="docutils literal notranslate"><span class="pre">NXentry</span></code> and are thus not feasible to identify a file. In
+particular if several instances of <code class="docutils literal notranslate"><span class="pre">NXentry</span></code> are stored in a single file
+(this would make sense for archiving purposes as tape libraries can
+usually handle large files much better than very small ones).</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>NXroot (base class, version 1.0)
+  @NX_class
+  @file_time
+  @file_name
+  @file_update_time
+  @NeXus_version
+  @HDF_version
+  @HDF5_Version
+  @XML_version
+  @creator
+  @file_id 
+  NXentry
+</pre></div>
+</div>
+<p>The <code class="docutils literal notranslate"><span class="pre">file_id</span></code> attribute should be of type <code class="docutils literal notranslate"><span class="pre">NX_CHAR</span></code>.</p>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="GenericScan.html" title="GenericScan"
+             >next</a></li>
+        <li class="right" >
+          <a href="FAQ.html" title="FAQ"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">File id attribute for Nexus files</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

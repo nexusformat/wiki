@@ -1,0 +1,65 @@
+---
+title: Telco 20240214
+permalink: Telco_20240214.html
+layout: wiki
+---
+Telco 20240214
+==============
+
+Date
+----
+
+Wednesday, 14th February, 15:00 UTC
+
+
+Connect
+-------
+* ZOOM VC link: [https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09](https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09)
+* Meeting ID: 652 7209 1306
+* Passcode: nexus
+
+Agenda
+------
+* NIAC meeting at ESRF
+* release
+* issues
+
+Present
+-------
+SB, HB, WdN, TC, CZ, PJ, FS, PC, MK, BB, TM, RO, PM, HG, RO
+
+Minutes
+-------
+
+* release  
+  PC summarised and announced the new NeXus release 2024.02
+
+* NIAC Meeting  
+  WdN: NIAC meeting is in place, no problem with having access to the rooms on the week-end 
+  - in person participation is indicated by 7 people from the call
+  - 3 persons requested remote access
+  - formal invitation letter is requested by US participants
+
+* topics for the meeting  
+  - SB: FAIRmat (standardisation of NXmpes, NXellipsometry…)
+  - PM: Sample Environment workgroup SECoP@HMC, Liquid Reflectometry
+  - WdN: NXstress (https://github.com/nexusformat/definitions/pull/1039) for stress-strain analysis, and NXxas review (ongoing effort in XAS working group)
+  - HG: NeXus Ontology (PR for v2 should use and reference the official NeXus repo)
+
+* NXtransformations  
+  - SB: extending NXtransformation to be able to cover more than just translation and rotation, e.g. a matrix for generic base change
+  - HB: yes, we need a “general” transformation as it is called and supported in CIF. Note that it should also be open for more dimensions
+  - MK: non-orthogonal axis can be defined using factors.
+
+* NeXus Ontology  
+  - PM: connection between NeXus and PaNet ontologies and to other ontologies is initiated at ESRF. Implementation uses rule based classification methods (e.g. if theta_max is smaller than xxx than it is SAX experiment)
+  - SB: we also work on references to ISO standards and ontology terms, but only in doc strings yet. 
+  - HG: PID could also be put somewhere
+  - HB: reference-list should be added explicitly in definitions
+  - SB: NXDL could be extended to be able to describe such reference list
+
+
+March Telco
+--------------
+
+Please help to [choose the date by responding to the poll](https://doodle.com/meeting/participate/id/b4WyzZna) by Feb 29. We are planning to hold the telco in the regular slot of UTC 15:00. Check your local time to avoid scheduling surprises!

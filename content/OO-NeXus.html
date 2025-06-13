@@ -1,0 +1,267 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>OO-NeXus</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Proposal NeXus Coordinates" href="Proposal_NeXus_Coordinates.html" />
+    <link rel="prev" title="Objects or Interfaces" href="Objects_or_Interfaces.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Proposal_NeXus_Coordinates.html" title="Proposal NeXus Coordinates"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Objects_or_Interfaces.html" title="Objects or Interfaces"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">OO-NeXus</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="oo-nexus">
+<h1>OO-NeXus<a class="headerlink" href="#oo-nexus" title="Link to this heading">¶</a></h1>
+<section id="object-oriented-nexus">
+<h2>Object Oriented NeXus<a class="headerlink" href="#object-oriented-nexus" title="Link to this heading">¶</a></h2>
+<p>This is a page to discuss the various options we have for defining both
+object oriented instrument definitions and an object oriented NeXus-API.
+The initial content of this page results from discussions at the NIAC
+meeting 2007 at HMI, Berlin and between Mark Koennecke and Nick Hauser
+later on.</p>
+<section id="summary-of-oo-discussions-at-the-niac-meeting-2007-at-hmi">
+<h3>Summary of OO Discussions at the NIAC Meeting 2007 at HMI<a class="headerlink" href="#summary-of-oo-discussions-at-the-niac-meeting-2007-at-hmi" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>People seem to be happy to use a NeXusFile object with methods like
+nf.makegroup(..), nf.opengroup(..) etc. as a low level object
+oriented API for NeXus files. This approach only encapsulates the
+file object and has already been implemented in the Java NeXus API.</p></li>
+<li><p>A higher level NeXus OO-API should give access to the NeXus classes
+as defined in the instrument definitions.</p></li>
+</ul>
+</section>
+<section id="current-state-of-the-nexus-base-classes">
+<h3>Current State of the NeXus Base Classes<a class="headerlink" href="#current-state-of-the-nexus-base-classes" title="Link to this heading">¶</a></h3>
+<p>The current NeXus base classes used for instrument definitions are not
+really base classes. They are rather dictionaries or templates which
+define names for data items which may be present in a NeXus base class
+depending on the actual configuration of the instrument. As such these
+NeXus base classes contain lots of fields and concepts which often
+confuse both the initiated and the uninitiated.</p>
+</section>
+<section id="oo-nexus-two-paths-into-the-future">
+<h3>OO-NeXus: Two Paths into the Future<a class="headerlink" href="#oo-nexus-two-paths-into-the-future" title="Link to this heading">¶</a></h3>
+<p>As things are we have two ways how to proceed with an object oriented
+NeXus-API and object oriented definitions:</p>
+<ul class="simple">
+<li><p>Rework the NeXus base classes in a fully object oriented way using
+polymorphism and inheritance.</p></li>
+<li><p>A direct mapping of current neXus base classes to objects.</p></li>
+</ul>
+</section>
+<section id="path-1-oo-rework-of-the-nexus-classes">
+<h3>Path 1: OO Rework of the NeXus Classes<a class="headerlink" href="#path-1-oo-rework-of-the-nexus-classes" title="Link to this heading">¶</a></h3>
+<p>This means to perform a full object oriented analysis of the NeXus base
+classes using polymorphism and inheritance. This was suggested by Darren
+Kelly at the NIAC meeting 2006 at ILL. An example of a <a class="reference external" href="../pdfs/NeXusOBJ.pdf" title="wikilink">possible class
+hierarchy</a> was given by Mark Koennecke at
+the NIAC meeting 2007 at HMI. There are some advantages to this
+approach:</p>
+<ul class="simple">
+<li><p>Different things, like different detectors, have different names and
+this makes the base classes easier to understand. It is easier to
+select NXtofareadetector rather then locate all the fields necessary
+for such a detector from a dictionary.</p></li>
+<li><p>The use of inheritance makes the definitions easier to maintain
+because duplications can be avoided through inheritance.</p></li>
+<li><p>Choices in the definitions, like the choice of coordinate system or
+shapes, can be made explicit by abstract classes and polymorphism.</p></li>
+<li><p>Fully OO definitions can be mapped to appropriate classes in <em>all</em>
+object oriented programming languages.</p></li>
+</ul>
+<p>But there are serious drawbacks to this approach as well:</p>
+<ul class="simple">
+<li><p>We need a much extended set of classes.</p></li>
+<li><p>Most importantly: we break backwards compatability: OO-NeXus files
+would have a deeper nesting structure and other classes.</p></li>
+</ul>
+</section>
+<section id="path-2-map-the-current-nexus-classes-to-objects">
+<h3>Path 2: Map the current NeXus Classes to Objects<a class="headerlink" href="#path-2-map-the-current-nexus-classes-to-objects" title="Link to this heading">¶</a></h3>
+<p>This means that we directly map the current NeXus base classes hook,
+line and sinker into objects in an OO programming language. This has the
+huge advantage of backwards compatability: Old and new NeXus files look
+alike. We also would not need to vote on new base classes. But there are
+disadvantages to this approach, too:</p>
+<ul class="simple">
+<li><p>We loose the improved maintainability and clarity of the full
+OO-approach. But this can be overcome by using the full OO-classes
+plus some production rules as a tool for filling the actual NeXus
+base classes. An example: you have a TOF area detector? Then suck
+all fields for that class plus the inherited ones into your
+NXdetector class. Make decisions on choices like coordinate system
+on the way.</p></li>
+<li><p>The resulting API classes become ambiguous: i.e. different API
+detector classes loaded from different files will have different
+contents. This is less of a problem for dynamic object systems like
+the ones in python, CLOS and smalltalk. Dynamic object system in
+this context means that fields can be added at runtime. But there
+are many interesting OO programming languages which do not feature
+such an open type system: most notably C++ and Java. The problem
+with such languages can be solved in a number of ways:</p>
+<ul>
+<li><p>NeXus base classes become catchalls: i.e. they have fields for
+all data items which may possibly be there. And throw errors
+when an access for an field without data is attempted. This is
+ugly.</p></li>
+<li><p>Use some form of RunTime Type Information (RTTI). This can take
+the form of a group attribute with a possible name like subtype.
+Then the OO-API can read this attribute and create an
+appropriate class for this NeXus base class as on Path 1.
+Example: the subtype is NXtofareadetector. Then create a
+NXtofareadetector API class and fill its data fields from the
+content of the file.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="questions">
+<h3>Questions?<a class="headerlink" href="#questions" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Where do we go? Path 1? Path 2? Or a yet to be defined Path 3?</p></li>
+<li><p>Do we have more options?</p></li>
+</ul>
+</section>
+<section id="conclusion">
+<h3>Conclusion<a class="headerlink" href="#conclusion" title="Link to this heading">¶</a></h3>
+<p>01/2015: This discussion is obsolete. At NIAC 2014 it was decided to
+accept interfaces as an experimental feature instead. But this text
+still serves as valid statements about the difficulties which the NIAC
+encountered when considering to implement OO in NeXus</p>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">OO-NeXus</a><ul>
+<li><a class="reference internal" href="#object-oriented-nexus">Object Oriented NeXus</a><ul>
+<li><a class="reference internal" href="#summary-of-oo-discussions-at-the-niac-meeting-2007-at-hmi">Summary of OO Discussions at the NIAC Meeting 2007 at HMI</a></li>
+<li><a class="reference internal" href="#current-state-of-the-nexus-base-classes">Current State of the NeXus Base Classes</a></li>
+<li><a class="reference internal" href="#oo-nexus-two-paths-into-the-future">OO-NeXus: Two Paths into the Future</a></li>
+<li><a class="reference internal" href="#path-1-oo-rework-of-the-nexus-classes">Path 1: OO Rework of the NeXus Classes</a></li>
+<li><a class="reference internal" href="#path-2-map-the-current-nexus-classes-to-objects">Path 2: Map the current NeXus Classes to Objects</a></li>
+<li><a class="reference internal" href="#questions">Questions?</a></li>
+<li><a class="reference internal" href="#conclusion">Conclusion</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Proposal_NeXus_Coordinates.html" title="Proposal NeXus Coordinates"
+             >next</a></li>
+        <li class="right" >
+          <a href="Objects_or_Interfaces.html" title="Objects or Interfaces"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">OO-NeXus</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,248 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>GenericScan</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Group Attributes" href="Group_Attributes.html" />
+    <link rel="prev" title="File id attribute for Nexus files" href="File_id_attribute_for_Nexus_files.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Group_Attributes.html" title="Group Attributes"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="File_id_attribute_for_Nexus_files.html" title="File id attribute for Nexus files"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">GenericScan</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="genericscan">
+<h1>GenericScan<a class="headerlink" href="#genericscan" title="Link to this heading">¶</a></h1>
+<section id="generic-scan-instrument">
+<h2>Generic Scan Instrument<a class="headerlink" href="#generic-scan-instrument" title="Link to this heading">¶</a></h2>
+<p>This is a DTD for an example generic instrument which performs scans.
+This example is for an omega-two-theta (rotation_angle polar_angle in
+NeXus notation) scan and serves to highlight NeXus scan data storage
+principles:</p>
+<ul class="simple">
+<li><p>Assume np to be the number of scan points</p></li>
+<li><p>Variable data (such as motors) which can vary during the scan are
+stored as arrays of length np at their proper place in the
+NXinstrument hierarchy.</p></li>
+<li><p>In NXdata links to all varied positions and the dectector counts are
+created. This provides for easy access to the popular table format
+for scans.</p></li>
+<li><p>In the case of multi dimensional detectors, the PSD data must be
+stored with the scan variable being the fastest varying
+dimension(the first) for technical reasons.</p></li>
+<li><p>If you to choose to store PSD scans in separate files or separate
+entries, it is the users responsibility to process the data in the
+right order.</p></li>
+</ul>
+<!-- -->
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;?xml version=&quot;1.0&quot; ?&gt;
+&lt;!--
+URL: http://www.neutron.anl.gov/nexus/xml/NXscan.xml
+Editor: Mark Koennecke
+Version: October 2006
+
+Instrument Definition example for a simple two axis scan. This example is for 
+an omega-two-theta (rotation_angle polar_angle in NeXus notation)
+scan and serves to highlight NeXus scan data storage principles:
+- Assume np to be the number of scan points 
+- Variable data (such as motors) which can vary during the scan are stored as arrays of length np at 
+  their proper place in the NXinstrument hierarchy.
+- In NXdata links to all varied positions and the dectector counts are created. This
+  provides for easy access to the popular table format for scans. 
+- In the case of multi dimensional detectors, the PSD data must be stored with the scan 
+  variable being the fastest varying dimension(the first) for technical reasons.
+- If you to choose to store PSD scans in separate files or separate entries, it is the users
+  responsibility to process the data in the right order.  
+
+Note:
+This example is fairly minimal. Feel free to add whatever you think necessary. However, if
+items are missing which are required for standard data reduction tasks, please consult the
+editor of this example.
+
+--&gt;
+
+&lt;NXroot&gt;
+   &lt;NXentry name=&quot;{Entry name}&quot;&gt;+
+        &lt;title&gt;{Extended title for entry}&lt;/title&gt;
+        &lt;NXsample name=&quot;{sample}&quot;&gt;
+            &lt;name&gt;{Descriptive name of sample}&lt;/name&gt;
+            &lt;environment&gt;{Type of sample environment}&lt;/environment&gt;
+            &lt;polar_angle type=&quot;NX_FLOAT32[np]&quot;&gt;
+               {polar_angle to monochromator}
+            &lt;/polar_angle&gt;
+            &lt;rotation_angle type=&quot;NX_FLOAT32[np]&quot;&gt;
+               { sample rotation}
+            &lt;/rotation_angle&gt;
+        &lt;/NXsample&gt;
+        &lt;NXinstrument name=&quot;{name}&quot;&gt;
+            &lt;name&gt;{name of instrument}&lt;/name&gt;
+            &lt;NXsource name=&quot;{name}&quot;&gt;
+                &lt;name&gt;{name of facility}&lt;/name&gt;
+
+                &lt;type&gt;&quot;Reactor&quot;&lt;/type&gt;
+                &lt;power units=&quot;MW&quot; type=&quot;NX_FLOAT32&quot;&gt;{reactor power}&lt;/power&gt;
+            &lt;/NXsource&gt;
+            &lt;NXcrystal name=&quot;monochromator&quot;&gt;
+                &lt;wavelength units=&quot;Angstrom&quot; type=&quot;NX_FLOAT32[np]&quot;&gt;
+                  {wavelength at each scan position}
+                &lt;/wavelength&gt;
+            &lt;/NXcrystal&gt;
+            &lt;NXdetector name=&quot;primary&quot;&gt;
+              &lt;data type=&quot;NX_INT32[np]&quot; signal=&quot;1&quot;&gt;
+                {Detector counts for each scan position}
+              &lt;/data&gt;
+              &lt;polar_angle type=&quot;NX_FLOAT32[np]&quot; axis=&quot;1&quot;&gt;
+                 {polar angle for each scan position}
+              &lt;/polar_angle&gt;
+            &lt;/NXdetector&gt;
+        &lt;/NXinstrument&gt;
+        &lt;NXmonitor name=&quot;control&quot;&gt;
+           &lt;mode type=&quot;NX_CHAR&quot;&gt;monitor | timer&lt;/mode&gt;
+           &lt;preset type=&quot;NX_FLOAT32&quot;&gt;
+              {preset value for monitor or timer}
+            &lt;/preset&gt;
+            &lt;data type=&quot;NX_INT32[np]&quot;&gt;
+               {Monitor counts for each scan position}
+            &lt;/data&gt;
+        &lt;/NXmonitor&gt;
+        &lt;NXdata name=&quot;{data}&quot;&gt;
+            &lt;data type=&quot;NX_INT32[np]&quot; signal=&quot;1&quot;&gt;
+              {Link to detector counts}
+            &lt;/data&gt;
+            &lt;polar_angle axis=&quot;1&quot; primary=&quot;2&quot;&gt;
+              {Link to detector polar_angle}
+           &lt;/polar_angle&gt;
+           &lt;rotation_angle axis=&quot;1&quot; primary=&quot;1&quot;&gt;
+              {Link to sample rotation_angle}
+           &lt;/rotation_angle&gt;
+        &lt;/NXdata&gt;
+    &lt;/NXentry&gt;
+&lt;/NXroot&gt;
+</pre></div>
+</div>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">GenericScan</a><ul>
+<li><a class="reference internal" href="#generic-scan-instrument">Generic Scan Instrument</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Group_Attributes.html" title="Group Attributes"
+             >next</a></li>
+        <li class="right" >
+          <a href="File_id_attribute_for_Nexus_files.html" title="File id attribute for Nexus files"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">GenericScan</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

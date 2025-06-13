@@ -1,0 +1,203 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Telco 20150520</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Telco 20150603" href="Telco_20150603.html" />
+    <link rel="prev" title="Telco 20150506" href="Telco_20150506.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20150603.html" title="Telco 20150603"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Telco_20150506.html" title="Telco 20150506"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" accesskey="U">Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20150520</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="telco-20150520">
+<h1>Telco 20150520<a class="headerlink" href="#telco-20150520" title="Link to this heading">¶</a></h1>
+<section id="date">
+<h2>Date<a class="headerlink" href="#date" title="Link to this heading">¶</a></h2>
+<p>Wednesday, 20th May, 12:00 BST</p>
+<p>Hangout Link:
+<a class="reference external" href="https://plus.google.com/hangouts/_/g2pa6t2hnwkox4jgjl2p72nqkea">https://plus.google.com/hangouts/_/g2pa6t2hnwkox4jgjl2p72nqkea</a></p>
+</section>
+<section id="agenda">
+<h2>Agenda<a class="headerlink" href="#agenda" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Welcome</p></li>
+<li><p>Detector developer contacts</p></li>
+<li><p>CMake and release update<br />
+For the definitions distribution</p>
+<ul>
+<li><p>which targets should be installed</p></li>
+<li><p>removal of xsltproc from the source tree (there is a binary
+available on the web)</p></li>
+<li><p>removal of the validation tool</p></li>
+</ul>
+</li>
+<li><p>NXmx update</p></li>
+<li><p>Plan of future activities (code camp and strategic)</p></li>
+<li><p>Next meeting</p></li>
+<li><p>AOB</p></li>
+</ul>
+</section>
+<section id="minutes">
+<h2>Minutes<a class="headerlink" href="#minutes" title="Link to this heading">¶</a></h2>
+<p>Present: EW, TSR, HJB, MK, MB, Andreas Foerster, PJ (second half)</p>
+<p>Contacts with LCLS II for file formats made. Touch base Skype call
+arranged. Update at next Telco.</p>
+<p>CMake: Good progress made by Eugen on Definitions. Removal of items
+agreed. However we do need a roadmap for providing a working validation
+tool. NXFeatures are on the way, but still experimental.</p>
+<p>Discussion on foreign pull requests: It is great that we get work done
+for free. We need to be careful though about copyright (notices are
+intact).</p>
+<p>NXmx: During code development at DLS question came up to clarify named
+items in nxdl. Handbook says maxOccurs is unbounded, which makes no
+sense for named items. Documentation will be improved (Mark B was
+volunteered). Followup question: What do we do for names of items that
+can have multiple instances? name_NNNN? Consensus was we mostly should
+not be fixing names in that case. A documentation proposal might be
+coming.</p>
+<p>Andreas proposed a single angle increment value for goniometer axes that
+move during shutterless MX scans. Preference was to have a per frame
+value, with separate start_something and end_something. There was a
+proposal floating around in Diamond at one point. Mark B to dig out and
+forward to HJB, who will process that into a template proposal for
+Dectris. Will revisit next time.</p>
+<p>For those Dectris templates: Can we have a IEEE NaN fill value for data
+that is to be provided outside of the detector later. Looks like we can.
+We’ll check.</p>
+<p>Clarification: Detector origin is supposed to be the first pixel in the
+data. Needs to be documented prominently. Worth checking documentation
+for other omissions. Task for everyone.</p>
+<p>Will discuss other items and relative paths for depends_on at the next
+meeting, which will be <a class="reference external" href="Telco_20150603.html" title="wikilink">Telco 20150603</a></p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Telco 20150520</a><ul>
+<li><a class="reference internal" href="#date">Date</a></li>
+<li><a class="reference internal" href="#agenda">Agenda</a></li>
+<li><a class="reference internal" href="#minutes">Minutes</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20150603.html" title="Telco 20150603"
+             >next</a></li>
+        <li class="right" >
+          <a href="Telco_20150506.html" title="Telco 20150506"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" >Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20150520</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

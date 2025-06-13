@@ -1,0 +1,206 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Proposal NeXus Coordinates</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Proposal NeXus Errors" href="Proposal_NeXus_Errors.html" />
+    <link rel="prev" title="OO-NeXus" href="OO-NeXus.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Proposal_NeXus_Errors.html" title="Proposal NeXus Errors"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="OO-NeXus.html" title="OO-NeXus"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Proposal NeXus Coordinates</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="proposal-nexus-coordinates">
+<h1>Proposal NeXus Coordinates<a class="headerlink" href="#proposal-nexus-coordinates" title="Link to this heading">¶</a></h1>
+<p>The current definition for NXdata groups assumes that the data (or
+signal) SDS is, in general, a multidimensional array that can be plotted
+against one or more independent axes, equal in number to the rank of the
+signal SDS. These axes are defined through the “axes” attribute.
+However, there are cases where the data represent a set of pixels that
+are defined by their coordinates, <em>i.e.</em>, they do not form a
+contiguous array. The data would then consist of a one-dimensional
+array. At present, such data can only be plotted against a single
+one-dimensional axis even if it is distributed in two-, three-, or
+higher-dimensional space. If we are to have a standard method of
+plotting such data, we need to have a way of identifying the pixel
+coordinates.</p>
+<section id="proposal">
+<h2>Proposal<a class="headerlink" href="#proposal" title="Link to this heading">¶</a></h2>
+<p>An extra attribute be defined for a data (or signal) SDS called
+“coordinates”, which would consist of a text string containing the names
+of one or more SDSs that represent the coordinates of the signal SDS.
+The names will be separated by the same delimiters allowed for the
+“axes” attribute. The signal SDS must be one-dimensional.</p>
+<p>There are two scenarios:</p>
+<ol class="arabic simple">
+<li><p>The coordinates represent the centre of each pixel, so each
+coordinate SDS is also one-dimensional of the same length as the
+signal SDS.</p></li>
+<li><p>The coordinates represent the vertices of each pixel, so each
+coordinate SDS would be two-dimensional, with the slower changing
+dimension having the same length as the signal SDS and the faster
+changing dimension having length of the number of vertices
+(=2<sup><em>n</em></sup> for cartesian coordinates, where <em>n</em>
+is the number of coordinate SDSs. In that case, an attribute
+“number_vertices” containing an integer specifying the number of
+vertices will be added to the signal SDS.</p></li>
+</ol>
+</section>
+<section id="discussion">
+<h2>Discussion<a class="headerlink" href="#discussion" title="Link to this heading">¶</a></h2>
+<p>Here is an example NXdata group:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;NXdata name=&quot;data&quot;&gt;
+   &lt;data signal=&quot;1&quot; coordinates=&quot;polar_angle:azimuthal_angle&quot; number_vertices=&quot;8&quot;&gt;...&lt;/data&gt;
+   &lt;polar_angle&gt;...&lt;/polar_angle&gt;
+   &lt;azimuthal_angle&gt;...&lt;/azimuthal_angle&gt;
+&lt;/NXdata&gt;
+</pre></div>
+</div>
+<p>One problem is that the coordinates are not necessarily orthogonal. This
+is the case for the above example, in which the spherical polar
+coordinates, polar_angle and azimuthal_angle, are not orthogonal. Any
+plotting program will have to know that SDSs with those particular names
+have to be treated differently from those that are orthogonal. There may
+be a case for the standard stating how to handle a number of specific
+instances,<em>e.g.</em>, spherical polar coordinates, reciprocal-space
+coordinates in symmetries lower than orthorhombic, <em>etc</em>.</p>
+<p>In cases where the plotting program is only able to handle pixel
+centres, but vertices are provided, the pixel centres would have to be
+approximated by the average value of the vertices for each coordinate.</p>
+<p>I propose to present this for discussion and a possible vote at the
+upcoming NIAC meeting at the SNS on October 7-8.</p>
+<p>[Ray] (Ray_Osborn.html “wikilink”) 19:08, 29 September 2010 (UTC)</p>
+</section>
+<section id="conclusion">
+<h2>Conclusion<a class="headerlink" href="#conclusion" title="Link to this heading">¶</a></h2>
+<p>01/2015: This has been superseded by the new axes annotation scheme
+decided at NIAC 2014</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Proposal NeXus Coordinates</a><ul>
+<li><a class="reference internal" href="#proposal">Proposal</a></li>
+<li><a class="reference internal" href="#discussion">Discussion</a></li>
+<li><a class="reference internal" href="#conclusion">Conclusion</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Proposal_NeXus_Errors.html" title="Proposal NeXus Errors"
+             >next</a></li>
+        <li class="right" >
+          <a href="OO-NeXus.html" title="OO-NeXus"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Proposal NeXus Coordinates</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

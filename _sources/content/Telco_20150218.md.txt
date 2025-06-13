@@ -1,0 +1,67 @@
+---
+title: Telco 20150218
+permalink: Telco_20150218.html
+layout: wiki
+---
+Telco 20150218
+==============
+
+Date
+----
+
+Wednesday, 18th Feb, 12:00 GMT
+
+Hangout Link:
+<https://plus.google.com/hangouts/_/g5yh5mixmcvnwuek4rpuuihglqa> (the
+eternal link)
+
+Agenda
+------
+
+-   Welcome
+-   NXdetector origin
+-   depends\_on offset (renaming existing offset), Minuting of Telcos
+-   Next NAPI release
+-   Dates for Code Camp
+-   Progress on features, NXmx validation, flexible NXtomo
+
+  
+  
+Something is evolving here: <http://idregistry-nexusformat.rhcloud.com/>
+
+-   Letter to detector vendors
+-   Logo
+
+  
+  
+For discussion:
+<https://www.dropbox.com/sh/n9sd8foejy43hzq/AABhDHPkmS9kpqIRJnFoJTcoa?dl=0>
+
+Avoid looking like any of these:
+<https://www.google.dk/search?q=nexus+logo&espv=2&biw=1280&bih=1021&tbm=isch&tbo=u&source=univ&sa=X&ei=1WS2VOnkCOr4ywODwoLoCA&ved=0CDQQ7Ak>
+
+-   Next meeting
+-   AOB
+
+Minutes
+-------
+
+Present: MB, MK, PJ, HJB, TSR
+
+NXdetector origin and depends\_on clarified. Herbert sent out an email
+to the discussion list: Depends\_on point to the centre of any object
+unless otherwise specified. The most important (and only for the moment)
+“otherwise specified” case being NXdetector, where the depends\_on
+locates the first pixel. The first one being the first one in the data.
+Otherwise there is some documentation missing or not sufficiently
+referenced in the manual describing the CIF geometry. To that end Ticket
+273 is assigned to Tobias for now.
+
+NAPI release, Code Camp & Logo: Not discussed due to lack of relevant
+people.
+
+AOB: SNS representative elected, email will go out shortly. Use of
+application definitions should be surveyed more frequently, could come
+out of feature development.
+
+Next meeting will be [Telco 20150302](Telco_20150302.html "wikilink")
