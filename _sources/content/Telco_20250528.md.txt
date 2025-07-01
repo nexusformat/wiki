@@ -1,0 +1,87 @@
+Telco 20250528
+==============
+
+Date
+----
+
+Wednesday, 28th May, 15:00 UTC
+
+Connect
+-------
+
+- ZOOM VC link: `https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09 <https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09)_
+- Meeting ID: 652 7209 1306
+- Passcode: nexus
+
+Agenda
+------
+
+- NXxas
+- PRs
+  
+  - [EM - 1423](https://github.com/nexusformat/definitions/pull/1423)
+    volunteers for reviewing: AB, HB
+  - [APM - 1422](https://github.com/nexusformat/definitions/pull/1422)
+    volunteers for reviewing: BW
+
+Present
+-------
+
+SB, AB, TC, HG, FB, PC, PM, HB, BW, RB, FS, CZ - MarkusK (FAIRmat), XAS: PorterD (Diamond), NewvilleM (APS), GlansA (ALS), SchlesigerC (TUB, DAPHNE), EM: ErciusP (LBNL), McRaynoldsD (ALS), ArbiolJ (ICN2)  
+
+Minutes
+-------
+- APM - https://github.com/nexusformat/definitions/pull/1422
+  - BW: few comments still need to be resolved
+  - MK: actually, they are addressed. The new changes have been prepared in a separate PR.
+  - BW: please merge it to the main PR
+  - MK: also a 2-pager and mapping table is prepared. Where to put it?
+  - BW: could be put as an appendix to the paper
+  - PM: could a cheatsheet, but also be added to NeXus Ontology 
+  - BW: let us finalise it and present it on the next telco
+  - AB: let make the next Telco dedicated to APM next week.
+- XAS - https://github.com/nexusformat/definitions/pull/1352
+  - MN: 
+    - old NXxas is very much outdated, a new committee is working on an update for 2 years. Proposal is ready, but advice if it is aligned to NeXus in general is appreciated. 
+    - Processed data should be in, but raw data should also be able to be put in. 
+    - Element and Element Edge are the most important metadata. 
+    - Energy is only nearly well done in general. 
+    - Sample with CAS number would be good, too.
+  - MK: NXatom is in its way to the standard (from NXem, and NXapm)
+  - BW: absorption edge is not covered by NXatom. Soft-xray spectroscopy has further difficulties, like carbon edges.
+  - SB: NXxps is also deals with elements and element edges in data processing, so it makes sense to talk to LukasP.
+  - PD: next to separated edges, edge-combinations may also need to be modelled.
+  - PD: for XMCD, polarisation could be added via using NXbeam
+  - AG: I am ready to check the PR if it can cover our use cases, too. Raw data and Processed can be separated.
+  - MN: data share purposes would require that data has properly been prepared and normalized.
+  - SB: do not you want to use NXprocess for represneting the outcome of the processed data (which may integrate raw data from even multiple scans)
+  - AB: what is next? Who can review?
+  - BW: ready for review, and has already started
+  - DP: ready for contribute
+  - AG: +1
+- EM - https://github.com/nexusformat/definitions/pull/1423
+  - PE: TEM needs to be equally represented
+  - MK: proposal is representing the instrumentation. Scanning /focused Ion Beams scanning, or Trasmission/ mode is a use of it. We do not focus on a specific mode to detail, but rather propoised NXem as a generic AppDef for EM experiments in general. 
+  - AB: Figures are needed for the communities (SEM, TEM, fIB) to quickly understand what is supported.
+  - MK: danger is that users may see the images and mistakenly conclude that NXem can only support those specific configurations covered by the figures. Let us make separate figures and highlight that those are just examples.
+  - AB: for each figure, a Nexus pseudocode on how to populate a corresponding nexus file would be useful
+  - PE: How to read the nexus pseudocode?
+  - AB: two threads to accomplish
+    - NXem technical completeness
+    - documentation to support NXem usability for the community (a paper on NXem)
+  - MK: documentation at the level of supporting the review of the technical completeness is useful.
+  - HB: unification of nexus descriptions in databases would be an important step which we have missed so far.
+  - PE: It is not clear where to put a TEM image. 
+  - MK: Image or Detector can hold respective data for 
+  - PE: Example data would solve.
+  - SB: We could attach such example to the example figures we discussed before.
+  - PE: +1
+  - AB: technical correctness probably need those figures and examples.
+
+
+June Telco(s)
+-------------
+
+Please help to `choose the date by responding to [the poll](https://doodle.com/group-poll/participate/dPWVm74b) by June 1st.
+
+We are planning to hold the telco in the regular slot of UTC 15:00. Check your local time to avoid scheduling surprises!

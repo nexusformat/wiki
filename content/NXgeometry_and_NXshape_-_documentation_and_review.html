@@ -1,0 +1,302 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>NXgeometry and NXshape - documentation and review</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="NXlrcs.f90" href="NXlrcs.f90.html" />
+    <link rel="prev" title="NXdir" href="NXdir.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NXlrcs.f90.html" title="NXlrcs.f90"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="NXdir.html" title="NXdir"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NXgeometry and NXshape - documentation and review</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="nxgeometry-and-nxshape-documentation-and-review">
+<h1>NXgeometry and NXshape - documentation and review<a class="headerlink" href="#nxgeometry-and-nxshape-documentation-and-review" title="Link to this heading">¶</a></h1>
+<section id="nxgeometry">
+<h2>NXgeometry<a class="headerlink" href="#nxgeometry" title="Link to this heading">¶</a></h2>
+<p><img alt=" upright | frame | right | c | UML diagramm of the relations betweenthe different geometry related base classes." src="../_images/Nxgeometry_uml.png" /></p>
+<p>Geometries in Nexus are described using the
+<em><a class="reference external" href="https://manual.nexusformat.org/classes/base_classes/NXgeometry.html">NXgeometry</a></em>
+base class. As shown in the UML diagramm on the right side this class
+consists basically of three other base classes (composition): <em>NXshape</em>,
+<em>NXtranslation</em>, and <em>NXorientation</em>. As far as I understand the
+<em>NXgeometry</em> class it describes a single shape (geometric object). This
+fact makes the dimensionality of several attributes of the the other
+classes a bit odd (see below). However, aside from this <em>NXgeometry</em> is
+quite ok.</p>
+<p>Note: the NeXus User Guide describes the coordinate system here:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://manual.nexusformat.org/design.html#nexus-coordinate-systems">https://manual.nexusformat.org/design.html#nexus-coordinate-systems</a></p></li>
+</ul>
+</section>
+<section id="nxtranslation">
+<h2>NXtranslation<a class="headerlink" href="#nxtranslation" title="Link to this heading">¶</a></h2>
+<p><em><a class="reference external" href="https://manual.nexusformat.org/classes/base_classes/NXtranslation.html">NXtranslation</a></em>
+has an attribute <em>distances</em> of shape <code class="docutils literal notranslate"><span class="pre">[numobj,3]</span></code>. If, as stated above,
+<em>NXgeometry</em> seems to describe only a single shape the first dimension
+has no meaning. A dimensionality of <code class="docutils literal notranslate"><span class="pre">[3]</span></code> would be enough for this
+field.</p>
+</section>
+<section id="nxorientation">
+<h2>NXorientation<a class="headerlink" href="#nxorientation" title="Link to this heading">¶</a></h2>
+<p><em><a class="reference external" href="https://manual.nexusformat.org/classes/base_classes/NXorientation.html">NXorientation</a></em>
+has an attribute <em>value</em> of shape <code class="docutils literal notranslate"><span class="pre">[numobj,6]</span></code>. If, as stated above,
+<em>NXgeometry</em> seems to describe only a single shape the first dimension
+has no meaning. A dimensionality of <code class="docutils literal notranslate"><span class="pre">[6]</span></code> would be enough for this
+field.</p>
+</section>
+<section id="nxshape">
+<h2>NXshape<a class="headerlink" href="#nxshape" title="Link to this heading">¶</a></h2>
+<p><em><a class="reference external" href="https://manual.nexusformat.org/classes/base_classes/NXshape.html">NXshape</a></em></p>
+<p>This is where all the problems start. In fact there are three issues
+with this class:</p>
+<ol class="arabic simple">
+<li><p>as for <em>NXtranslation</em> and <em>NXorientation</em> the first dimension of
+the <em>size</em> attribute (<code class="docutils literal notranslate"><span class="pre">numobj</span></code>) has no meaning</p></li>
+<li><p>what is the attribute <em>direction</em> good for (its values <em>convex</em> and
+<em>concave</em> are not defined)</p></li>
+<li><p>last but not least: the shapes are not defined well (this is the
+major issue)</p></li>
+</ol>
+<p>The last problem will be discussed in more detail in the following
+sections.</p>
+<section id="definition-of-geometric-primitives">
+<h3>Definition of geometric primitives<a class="headerlink" href="#definition-of-geometric-primitives" title="Link to this heading">¶</a></h3>
+<p>Every geometric primitive requires a local coordinate frame. All
+translations applied on a primitive will act on the origin of this local
+frame. Additionally, the origin of this frame of reference will act as a
+center for all rotations applied on the primitive. Unfortunately, the 9
+geometric primitives currently available in Nexus are not defined in
+such a sense. The following sections provide some possible definitions
+of these primitives along with the layout of their parameters stored in
+the <em>size</em> attribute of <em>NXshape</em>.</p>
+<p><img alt="Nxflat_image" src="../_images/Nxflat_image.png" /></p>
+<p>Shape and coordinate frame for an <em>nxflat</em></p>
+<p><img alt="Nxcylinder" src="../_images/Nxcylinder.png" /></p>
+<p>An <em>nxcylinder</em> in its local frame</p>
+<p><img alt="Nxbox_image" src="../_images/Nxbox_image.png" /></p>
+<p>An <em>nxbox</em> in its local frame</p>
+<section id="nxflat">
+<h4>nxflat<a class="headerlink" href="#nxflat" title="Link to this heading">¶</a></h4>
+<p><em>nxflag</em> can be considered as a flat plane. The plane defines the
+x-y-plane of its local coordinate frame. The z-axis of this system is
+oriented so that the resulting reference frame is a right-handed one.
+The shape has two parameters: its <em>height</em> and <em>width</em> which will be
+stored in the <em>size</em> attribute of <em>NXshape</em> as follows</p>
+<p><code class="docutils literal notranslate"><span class="pre">NXshape::size[2]={width,height}</span></code></p>
+</section>
+<section id="nxcylinder">
+<h4>nxcylinder<a class="headerlink" href="#nxcylinder" title="Link to this heading">¶</a></h4>
+<p>The origin of the local coordinate frame for <em>nxcylinder</em> is in the
+center of its bottom. An <em>nxcylinder</em> has 5 parameters: radius, height,
+and the three components of the direction vector v (see the figure
+above). These parameters are stored in the <em>size</em>attribute of <em>NXshape</em>
+as follows</p>
+<p><code class="docutils literal notranslate"><span class="pre">NXshape::size[5] = {radius,height,vx,vy,vz}</span></code></p>
+<p>v is here simply a unit vector pointing in the direction of the main
+axis of the cylinder.</p>
+</section>
+<section id="nxbox">
+<h4>nxbox<a class="headerlink" href="#nxbox" title="Link to this heading">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">NXshape::size[3] = {length,width,height}</span></code></p>
+<p><img alt="nxsphere" src="../_images/Nxsphere_image.png" /></p>
+<p>Shape and coordinate frame for an <em>nxsphere</em></p>
+<p><img alt="nxcone" src="../_images/Nxcone.png" /></p>
+<p>Shape and coordinate frame for an <em>nxsphere</em></p>
+<p><img alt="nxeliptical" src="../_images/Nxeliptical_image.png" /></p>
+<p>Shape and coordinate frame for an <em>nxelliptical</em></p>
+</section>
+<section id="nxsphere">
+<h4>nxsphere<a class="headerlink" href="#nxsphere" title="Link to this heading">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">NXshape::size[1] = {radius}</span></code></p>
+</section>
+<section id="nxcone">
+<h4>nxcone<a class="headerlink" href="#nxcone" title="Link to this heading">¶</a></h4>
+<p>Like for NXcylinder the vector v is simply a unit vector pointing to the
+tip of the cylinder (no direction cosines or something else fancy).</p>
+<p><code class="docutils literal notranslate"><span class="pre">NXshape::size[4] = {radius,vx,vy,vz}</span></code></p>
+</section>
+<section id="nxelliptical">
+<h4>nxelliptical<a class="headerlink" href="#nxelliptical" title="Link to this heading">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">NXshape::size[2] = {semi-major axis,semi-minor axis}</span></code></p>
+<p>I have no idea what the other two parameters <em>pole</em> and <em>angle of major
+axis</em> are good for. Maybe we can drop them.</p>
+<p><img alt="nxtoroidal" src="../_images/Nxtoroidal.png" /></p>
+<p>Shape and coordinate frame for an <em>nxtoroidal</em></p>
+<p><img alt="nxparabolic" src="../_images/Nxparabolic.png" /></p>
+<p>Shape and coordinate frame for an <em>nxparabolic</em></p>
+<p><img alt="nxpolynomial" src="../_images/Nxpolynomial.png" /></p>
+<p>Shape and coordinate frame for an <em>nxpolynomial</em></p>
+</section>
+<section id="nxtoroidal">
+<h4>nxtoroidal<a class="headerlink" href="#nxtoroidal" title="Link to this heading">¶</a></h4>
+<p><code class="docutils literal notranslate"><span class="pre">NXshape::size[2] = {minor radius,major radius}</span></code></p>
+</section>
+<section id="nxparabolic">
+<h4>nxparabolic<a class="headerlink" href="#nxparabolic" title="Link to this heading">¶</a></h4>
+<p>This is a poorly designed shape. Only the parapolic parameter <em>a</em> is
+defined in the current documentation. I included here at least the
+height of the parabola. However it is indeed not clear whether or not
+this should be a 2D object or a 3D object. We definitely have to discuss
+this.</p>
+</section>
+<section id="nxpolynomial">
+<h4>nxpolynomial<a class="headerlink" href="#nxpolynomial" title="Link to this heading">¶</a></h4>
+<p>Like <em>nxparabolic</em> this shape is rather poorly designed. Besides the
+coefficients of the polynomial at least the bounds of the interval on
+which the polynomial should be evaluated are required to define the
+geometry. Also, like with <em>nxparabolic</em>, it is not clear if this is a 2D
+or 3D object - both would be possible. We need to define this more
+thoroughly.</p>
+</section>
+</section>
+</section>
+<section id="update-01-2015">
+<h2>Update 01/2015<a class="headerlink" href="#update-01-2015" title="Link to this heading">¶</a></h2>
+<p>At NIAC 2014 it was decided to deprecate NXgeometry. But this can still
+serve to document NXgeometry better.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">NXgeometry and NXshape - documentation and review</a><ul>
+<li><a class="reference internal" href="#nxgeometry">NXgeometry</a></li>
+<li><a class="reference internal" href="#nxtranslation">NXtranslation</a></li>
+<li><a class="reference internal" href="#nxorientation">NXorientation</a></li>
+<li><a class="reference internal" href="#nxshape">NXshape</a><ul>
+<li><a class="reference internal" href="#definition-of-geometric-primitives">Definition of geometric primitives</a><ul>
+<li><a class="reference internal" href="#nxflat">nxflat</a></li>
+<li><a class="reference internal" href="#nxcylinder">nxcylinder</a></li>
+<li><a class="reference internal" href="#nxbox">nxbox</a></li>
+<li><a class="reference internal" href="#nxsphere">nxsphere</a></li>
+<li><a class="reference internal" href="#nxcone">nxcone</a></li>
+<li><a class="reference internal" href="#nxelliptical">nxelliptical</a></li>
+<li><a class="reference internal" href="#nxtoroidal">nxtoroidal</a></li>
+<li><a class="reference internal" href="#nxparabolic">nxparabolic</a></li>
+<li><a class="reference internal" href="#nxpolynomial">nxpolynomial</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#update-01-2015">Update 01/2015</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NXlrcs.f90.html" title="NXlrcs.f90"
+             >next</a></li>
+        <li class="right" >
+          <a href="NXdir.html" title="NXdir"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NXgeometry and NXshape - documentation and review</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

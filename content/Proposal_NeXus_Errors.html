@@ -1,0 +1,194 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Proposal NeXus Errors</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Proposal to Simplify Nexus" href="Proposal_to_Simplify_Nexus.html" />
+    <link rel="prev" title="Proposal NeXus Coordinates" href="Proposal_NeXus_Coordinates.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Proposal_to_Simplify_Nexus.html" title="Proposal to Simplify Nexus"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Proposal_NeXus_Coordinates.html" title="Proposal NeXus Coordinates"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Proposal NeXus Errors</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="proposal-nexus-errors">
+<h1>Proposal NeXus Errors<a class="headerlink" href="#proposal-nexus-errors" title="Link to this heading">¶</a></h1>
+<p>The current definition for the <a class="reference external" href="http://www.nexusformat.org/NXdata">NXdata
+group</a> (which, incidentally, is
+misleading on the wiki since it implies that the data SDS should be
+called “data”) defines an error SDS with the name “errors” (in this
+case, the name <em>is</em> fixed). This is a workable solution when
+there is only one signal. However, the original plan for NXdata groups
+(again, not particularly clear on the wiki) was that they could contain
+more than one data SDS. The primary one has the attribute “signal=1”,
+but secondary data sets with “signal=2”, etc., were to be allowed. This
+is of particular importance to the synchrotron community, who frequently
+measure, for example, fluorescence counts in addition to the main
+detector counts. In principle, each one of these could have their own
+errors, but there is no way in the current scheme to associate different
+SDSs with those errors.</p>
+<section id="proposal">
+<h2>Proposal<a class="headerlink" href="#proposal" title="Link to this heading">¶</a></h2>
+<p>An extra attribute be defined for each data (or signal) SDS called
+“errors”, which would be a text string defining the name of the SDS
+within the same NXdata group to contain the errors SDS. The rank and
+dimensions of the errors SDS must match the signal SDS. The original
+method, <em>i.e.</em>, associating an SDS with the name “errors” with
+the primary signal SDS will be allowed in cases where there is no
+ambiguity, and for reasons of backward compatibility.</p>
+</section>
+<section id="discussion">
+<h2>Discussion<a class="headerlink" href="#discussion" title="Link to this heading">¶</a></h2>
+<p>This is analogous to the use of the “axes” attribute to define the
+independent axes associated with each signal SDS. However, this
+attribute will only ever contain one name, since there is no reason to
+associate more than one error array with a single signal array.</p>
+<p>Here is an example NXdata group using the proposed new attribute:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;NXdata name=&quot;data&quot;&gt;
+    &lt;primary_data signal=&quot;1&quot; axes=&quot;x1:y1&quot; errors=&quot;e1&quot;&gt;...&lt;/primary_data&gt;
+    &lt;x&gt;...&lt;/x&gt;
+    &lt;y&gt;...&lt;/y&gt;
+    &lt;e1&gt;...&lt;/e1&gt;
+    &lt;secondary_data signal=&quot;2&quot; axes=&quot;x:y&quot; errors=&quot;e2&quot;&gt;...&lt;/secondary_data&gt;
+    &lt;e2&gt;...&lt;/e2&gt;
+&lt;/NXdata&gt;
+</pre></div>
+</div>
+<p>I propose to present this for discussion and a possible vote at the
+upcoming NIAC meeting at the SNS on October 7-8.</p>
+<p>[Ray] (Ray_Osborn.html “wikilink”) 16:29, 29 September 2010 (UTC)</p>
+</section>
+<section id="conclusion-01-2015">
+<h2>Conclusion: 01/2015<a class="headerlink" href="#conclusion-01-2015" title="Link to this heading">¶</a></h2>
+<p>At NIAC 2014, the NIAC ratified a scheme for describing uncertainties.
+See
+<a class="reference external" href="2014_axes_and_uncertainties.html" title="wikilink">2014_axes_and_uncertainties</a>
+and, in a short while, the NeXus manual.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Proposal NeXus Errors</a><ul>
+<li><a class="reference internal" href="#proposal">Proposal</a></li>
+<li><a class="reference internal" href="#discussion">Discussion</a></li>
+<li><a class="reference internal" href="#conclusion-01-2015">Conclusion: 01/2015</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Proposal_to_Simplify_Nexus.html" title="Proposal to Simplify Nexus"
+             >next</a></li>
+        <li class="right" >
+          <a href="Proposal_NeXus_Coordinates.html" title="Proposal NeXus Coordinates"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Proposal NeXus Errors</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

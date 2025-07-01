@@ -1,0 +1,345 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>NIAC2006 Synchrotron Group</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="NIAC2006 TOF Group" href="NIAC2006_TOF_Group.html" />
+    <link rel="prev" title="NIAC2006 Scanning Group" href="NIAC2006_Scanning_Group.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NIAC2006_TOF_Group.html" title="NIAC2006 TOF Group"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="NIAC2006_Scanning_Group.html" title="NIAC2006 Scanning Group"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NIAC2006 Synchrotron Group</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="niac2006-synchrotron-group">
+<h1>NIAC2006 Synchrotron Group<a class="headerlink" href="#niac2006-synchrotron-group" title="Link to this heading">¶</a></h1>
+<section id="nexus-synchrotron-breakout-group">
+<h2>Nexus – Synchrotron breakout group<a class="headerlink" href="#nexus-synchrotron-breakout-group" title="Link to this heading">¶</a></h2>
+<p>These are notes from our first discussion on 2006-02-01</p>
+<p>present : AG (ESRF), RW (ESRF), PJ (APS), CM (Soleil), SP (Soleil), SC
+(Diamond), LL (CCLRC,RAL)</p>
+<p>RW – ESRF has their own format but willing to adopt</p>
+<p>PJ – need an international collaborative effort, EPICS low level</p>
+<p>SP – Soleil has adopted Nexus, need tools, developed a tango generic
+system store data in Nexus, NO DATA to store yet, need to start quickly
+to store data, do not need a complete DTD</p>
+<p>SC – committed to Nexus, MX beamlines will store imageCIF, prefer to
+store data in Nexus in the long term, EPICS low level simulators, simple
+classes to start with</p>
+<p>LL – working on catalogue information, TOF meta-data definition, data
+portal to access different type of data for modelled and measured data</p>
+<p>PJ – basic questions about which class contains which ?</p>
+<section id="proposed-classes">
+<h3>PROPOSED CLASSES<a class="headerlink" href="#proposed-classes" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>COMMON</p>
+<ul>
+<li><p>source</p></li>
+<li><p>insertion device</p></li>
+<li><p>bending magnet</p></li>
+</ul>
+</li>
+</ul>
+<!-- -->
+<ul class="simple">
+<li><p>INSTRUMENTS</p>
+<ul>
+<li><p>tomography</p></li>
+<li><p>pin hole saxs</p></li>
+<li><p>exafs</p></li>
+<li><p>powder diffraction</p></li>
+<li><p>single crystal diffraction</p></li>
+<li><p>protein crystallography</p></li>
+</ul>
+</li>
+</ul>
+<!-- -->
+<ul class="simple">
+<li><p>BEAMLINE COMPONENTS</p>
+<ul>
+<li><p>bpm</p></li>
+<li><p>goniometer</p></li>
+</ul>
+</li>
+</ul>
+<!-- -->
+<ul class="simple">
+<li><p>DETECTORS</p>
+<ul>
+<li><p>ccd</p></li>
+<li><p>psd</p></li>
+<li><p>ionisation chamber</p></li>
+<li><p>opaque data (image plates, other large data slugs)</p></li>
+</ul>
+</li>
+</ul>
+<section id="nxsource-additions">
+<h4>NXsource additions<a class="headerlink" href="#nxsource-additions" title="Link to this heading">¶</a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>mode</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+</tr>
+<tr class="row-odd"><td><p>top_up</p></td>
+<td><p></p></td>
+<td><p>NX_BOOLEAN</p></td>
+</tr>
+</tbody>
+</table>
+<p><i>NXsource is more like NXfacility for us</i></p>
+</section>
+<section id="nxinsertion-device">
+<h4>NXinsertion_device<a class="headerlink" href="#nxinsertion-device" title="Link to this heading">¶</a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>name</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+</tr>
+<tr class="row-odd"><td><p>type</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+</tr>
+<tr class="row-even"><td><p>gap</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+</tr>
+<tr class="row-odd"><td><p>taper</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+</tr>
+<tr class="row-even"><td><p>phase</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+</tr>
+<tr class="row-odd"><td><p>poles</p></td>
+<td><p></p></td>
+<td><p>NX_INT</p></td>
+</tr>
+<tr class="row-even"><td><p>length</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+</tr>
+<tr class="row-odd"><td><p>power</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+</tr>
+<tr class="row-even"><td><p>energy</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+</tr>
+<tr class="row-odd"><td><p>bandwidth</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+</tr>
+<tr class="row-even"><td><p>harmonic</p></td>
+<td><p></p></td>
+<td><p>NX_INT</p></td>
+</tr>
+<tr class="row-odd"><td><p>spectrum</p></td>
+<td><p></p></td>
+<td><p>NXdata</p></td>
+</tr>
+<tr class="row-even"><td><p>geometry</p></td>
+<td><p></p></td>
+<td><p>NXgeometry</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="nxbending-magnet">
+<h4>NXbending_magnet<a class="headerlink" href="#nxbending-magnet" title="Link to this heading">¶</a></h4>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>name</p></td>
+<td><p></p></td>
+<td><p>NX_CHAR</p></td>
+</tr>
+<tr class="row-odd"><td><p>critical energy</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+</tr>
+<tr class="row-even"><td><p>bending radius</p></td>
+<td><p></p></td>
+<td><p>NX_FLOAT</p></td>
+</tr>
+<tr class="row-odd"><td><p>spectrum</p></td>
+<td><p></p></td>
+<td><p>NXdata</p></td>
+</tr>
+<tr class="row-even"><td><p>geometry</p></td>
+<td><p></p></td>
+<td><p>NXgeometry</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="questions">
+<h3>Questions<a class="headerlink" href="#questions" title="Link to this heading">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Can we have NX_BOOLEAN ?</p></li>
+<li><p>Do we have to use microamp units for current ?</p></li>
+<li><p>Why is NXmonitor not NXdata ?</p></li>
+</ol>
+</section>
+<section id="ideas">
+<h3>IDEAS<a class="headerlink" href="#ideas" title="Link to this heading">¶</a></h3>
+<p>NXbeam_position_monitor could be a separate class (subclass of NXlog)
+?</p>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">NIAC2006 Synchrotron Group</a><ul>
+<li><a class="reference internal" href="#nexus-synchrotron-breakout-group">Nexus – Synchrotron breakout group</a><ul>
+<li><a class="reference internal" href="#proposed-classes">PROPOSED CLASSES</a><ul>
+<li><a class="reference internal" href="#nxsource-additions">NXsource additions</a></li>
+<li><a class="reference internal" href="#nxinsertion-device">NXinsertion_device</a></li>
+<li><a class="reference internal" href="#nxbending-magnet">NXbending_magnet</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#questions">Questions</a></li>
+<li><a class="reference internal" href="#ideas">IDEAS</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NIAC2006_TOF_Group.html" title="NIAC2006 TOF Group"
+             >next</a></li>
+        <li class="right" >
+          <a href="NIAC2006_Scanning_Group.html" title="NIAC2006 Scanning Group"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NIAC2006 Synchrotron Group</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,189 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Download</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Extension of NeXus Coordinate Systems" href="Extension_of_NeXus_Coordinate_Systems.html" />
+    <link rel="prev" title="DLSraw" href="DLSraw.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Extension_of_NeXus_Coordinate_Systems.html" title="Extension of NeXus Coordinate Systems"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="DLSraw.html" title="DLSraw"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Download</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="download">
+<h1>Download<a class="headerlink" href="#download" title="Link to this heading">¶</a></h1>
+<blockquote>
+<div><p>Note:
+The use of the NeXus-API (NAPI) is <strong>not</strong> mandatory in order to write perfectly valid NeXus files.
+Using a direct binding to HDF5 (like h5py) or <a class="reference external" href="NeXpy.html">NeXpy</a> should be a better choice for new projects.</p>
+</div></blockquote>
+<p>The NeXus API is distributed under the terms of the GNU Lesser General
+Public License.</p>
+<section id="requirements">
+<h2>Requirements<a class="headerlink" href="#requirements" title="Link to this heading">¶</a></h2>
+<section id="external-libraries">
+<h3>External Libraries<a class="headerlink" href="#external-libraries" title="Link to this heading">¶</a></h3>
+<p>Since NeXus uses HDF as the main underlying binary format, it is
+necessary first to install the HDF subroutine libraries and include
+files before installing the NeXus API. It is not usually necessary to
+download the HDF source code since precompiled object libraries exist
+for a variety of operating systems including Windows, Mac OS X, Linux,
+and various other flavors of Unix. Check the HDF web pages for more
+information:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="http://www.hdfgroup.org/">http://www.hdfgroup.org/</a></p></li>
+</ul>
+<p>The NeXus API also supports using XML as the underlying on-disk format.
+This uses the Mini-XML library, developed by Michael Sweet, which is
+also available as a precompiled binary library for several operating
+systems. Please ensure that you install version 2.2.2 or later. Check
+the Mini-XML web pages for more information:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="http://www.minixml.org/">http://www.minixml.org/</a></p></li>
+</ul>
+</section>
+</section>
+<section id="nexus-source-code-distribution">
+<h2>NeXus Source Code Distribution<a class="headerlink" href="#nexus-source-code-distribution" title="Link to this heading">¶</a></h2>
+<p>The source code distribution can be obtained from GitHub. One can either
+checkout the git repositories to get access to the most recent
+development code. To clone the definitions repository use</p>
+<p><code class="docutils literal notranslate"><span class="pre"> git clone </span></code><a class="reference external" href="https://github.com/nexusformat/definitions.git"><code class="docutils literal notranslate"><span class="pre">https://github.com/nexusformat/definitions.git</span></code></a><code class="docutils literal notranslate"><span class="pre"> definitions</span></code></p>
+<p>or for the NAPI</p>
+<p><code class="docutils literal notranslate"><span class="pre"> git clone </span></code><a class="reference external" href="https://github.com/nexusformat/code.git"><code class="docutils literal notranslate"><span class="pre">https://github.com/nexusformat/code.git</span></code></a><code class="docutils literal notranslate"><span class="pre"> code</span></code></p>
+<p>For release tarballs go to the release page for the
+<a class="reference external" href="https://github.com/nexusformat/code/releases">NAPI</a> or the
+<a class="reference external" href="https://github.com/nexusformat/definitions/releases">definitions</a>. For
+the definitions it is recommended to work on the current git repository
+as the available release is outdated.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Download</a><ul>
+<li><a class="reference internal" href="#requirements">Requirements</a><ul>
+<li><a class="reference internal" href="#external-libraries">External Libraries</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#nexus-source-code-distribution">NeXus Source Code Distribution</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Extension_of_NeXus_Coordinate_Systems.html" title="Extension of NeXus Coordinate Systems"
+             >next</a></li>
+        <li class="right" >
+          <a href="DLSraw.html" title="DLSraw"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Download</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

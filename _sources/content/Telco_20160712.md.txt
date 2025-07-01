@@ -1,0 +1,62 @@
+---
+title: Telco 20160712
+permalink: Telco_20160712.html
+layout: wiki
+---
+Telco 20160712
+==============
+
+Date
+----
+
+Tuesday, 12th July, 16:30 Central European Summer Time (Copenhagen)
+
+Hangout Link:
+<https://plus.google.com/hangouts/_/j72qwlvegiojjpt3a36pfhow5ua>
+
+Agenda
+------
+
+-   Welcome and agree Agenda
+-   github issue of the day - suggestions welcome (there is a github
+    label now)
+-   items for NIAC (or code camp) to prepare
+-   Next meeting
+-   AOB
+
+Minutes
+-------
+
+Present: FAA, HJB, MK, AB, EW, TSR
+
+### Github Issue
+
+Support for HDF5 1.10 in NAPI:
+<https://github.com/nexusformat/code/issues/421>
+
+If the test run that should be good enough to merge. Release 4.4.2 can
+go out after that merge, without the changes to fix attribute arrays on
+HDF4 and XML in C++.
+
+This adds support for reading SWMR files that are closed and VDS. This
+is great. Further support for these advanced features in writing data or
+reading while writing would require changes to the API and or how the
+library is used. For example in SMWR you cannot create new objects once
+in SWMR mode. Adding VDS support would be even harder. Eugen's PNI
+library currently has support for neither.
+
+So for the moment that will be the extend of 1.10 support we offer, for
+NAPI in maintenance mode - unless there are convincing cases presented
+by the community,
+
+### Preparations for NIAC and code camp
+
+Not all able to attend the whole week.
+
+Will need to elect new officers and re-confirm NIAC members. Letters of
+support need to be produced ahed of the meeting (September) for this.
+
+### Next Meeting
+
+Bit of a summer break, due to leave. So the next one will be [Telco
+20160809](Telco_20160809.html "wikilink")

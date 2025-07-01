@@ -1,0 +1,296 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Proposal to Simplify Nexus</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="ReflectDiscuss" href="ReflectDiscuss.html" />
+    <link rel="prev" title="Proposal NeXus Errors" href="Proposal_NeXus_Errors.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="ReflectDiscuss.html" title="ReflectDiscuss"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Proposal_NeXus_Errors.html" title="Proposal NeXus Errors"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Proposal to Simplify Nexus</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="proposal-to-simplify-nexus">
+<h1>Proposal to Simplify Nexus<a class="headerlink" href="#proposal-to-simplify-nexus" title="Link to this heading">¶</a></h1>
+<p><em>E. Farhi (ILL), A. Gotz (ESRF), R. Ghosh (ILL), D. Richard (ILL), M.
+Johnson (ILL), R. Wilcke (ESRF)</em></p>
+<p>This document presents conclusions and proposals from the NeXus ILL/ESRF
+Local Advisory Committee (NLAC).</p>
+<section id="nexus-raison-d-etre">
+<h2>NeXus <em>raison d’etre</em><a class="headerlink" href="#nexus-raison-d-etre" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>NeXus is an exchange format to all n,X,muon scattering techniques in
+large facilities.</p>
+<ul>
+<li><p>This implicitely limits the scope of NeXus to all that is common
+to these techniques, while excluding instrument/technique
+peculiarities. Further descriptions (instrument details) are in
+principle out of scope, but may be specified as extensions to
+the basis requirements.</p></li>
+<li><p>The scientific data set is intrinsically the most important to
+physicists, compared with the exact instrument definition (which
+is essentially relevant for instrument debugging and simulation
+purposes). The official ‘base’ NeXus format should focus on the
+former rather than the latter.</p></li>
+</ul>
+</li>
+<li><p>NeXus must be easy to use.</p>
+<ul>
+<li><p>This means that there is an efficient API (and this is the case,
+thanks Mark K.)</p></li>
+<li><p>At the same time, NeXus should be flexible enough to potentially
+evolve from HDF and XML towards other physical storage format
+(Open Document, …)</p></li>
+</ul>
+</li>
+<li><p>NeXus must be appealing for people to voluntarily use it (in
+programs).</p>
+<ul>
+<li><p>This means that the format structure must be clear, simple and
+easy to understand. This is probably the most important point,
+otherwise it will push people to develop their own NeXus format,
+or event use their own non-NeXus format (based on HDF or not)</p></li>
+<li><p>The NeXus web server must present usage examples and distribute
+associated software.</p></li>
+</ul>
+</li>
+<li><p>NeXus must be flexible and expandible.</p>
+<ul>
+<li><p>This means that there should be a recommanded mechanism for
+extension of the ‘base’ NeXus into ‘proprietary’ NeXus. At the
+same time, a clear statement must be done concerning a limited
+number of absolute requirements, as well as ‘official’
+recommandations for extensions.</p></li>
+</ul>
+</li>
+<li><p>The scientific Data must be immediately visible in the NeXus
+structure, as well as essential parameters for the data analysis.
+This means that the NXData must be directly in the NXentry, that
+essential parameters should be as well there (in an NXparameters
+class, see below). Further information (NXinstrument, …) is
+optional.</p></li>
+</ul>
+</section>
+<section id="format-requirements">
+<h2>Format requirements<a class="headerlink" href="#format-requirements" title="Link to this heading">¶</a></h2>
+<section id="proposal-r1-simplified-nexus-hierarchy">
+<h3>Proposal R1: Simplified NeXus hierarchy<a class="headerlink" href="#proposal-r1-simplified-nexus-hierarchy" title="Link to this heading">¶</a></h3>
+<p>The base NeXus format should contain the following hierarchy:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>NXentry  
+   NXdata  
+   NXsample  
+   NXparameters
+</pre></div>
+</div>
+<p>Other classes should be mentioned as optional, eventhough NXmonitor and
+NXuser are recommanded.</p>
+</section>
+<section id="proposal-r2-simplified-nxdata">
+<h3>Proposal R2: simplified NXdata<a class="headerlink" href="#proposal-r2-simplified-nxdata" title="Link to this heading">¶</a></h3>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>   * rename &#39;long_name&#39; into &#39;label&#39; in &#39;variable&#39;  
+   * suppress &#39;first_good&#39; and &#39;last_good&#39;  
+   * add a &#39;range&#39; attribute to &#39;variable&#39; so that it can be given as a regularly sampled range.
+</pre></div>
+</div>
+</section>
+<section id="proposal-r3-scanning-mechanism-dim-3">
+<h3>Proposal R3: scanning mechanism (dim &lt;= 3)<a class="headerlink" href="#proposal-r3-scanning-mechanism-dim-3" title="Link to this heading">¶</a></h3>
+<p>For low dimensionality data sets (dim &lt;= 3), the scan may be stored
+as a array in the NXdata, with associated axis.</p>
+</section>
+<section id="proposal-r4-scanning-mechanism-general-nxgroup">
+<h3>Proposal R4: scanning mechanism (general): NXgroup<a class="headerlink" href="#proposal-r4-scanning-mechanism-general-nxgroup" title="Link to this heading">¶</a></h3>
+<p>As an alternative, or for higher dimensionality, each scan step is
+stored as a single NXdata, with one ‘master’ NXgroup describing how to
+assemble scan steps into series. The assembling mechanism is to be
+discussed further.</p>
+</section>
+<section id="proposal-r5-the-nxparameters-class">
+<h3>Proposal R5: the NXparameters class<a class="headerlink" href="#proposal-r5-the-nxparameters-class" title="Link to this heading">¶</a></h3>
+<p>As an alternative to the NXinstrument, which brings usually too much
+information as required for a basic data analysis, a new NXparameters
+class should be defined next to the NXdata, and gather ‘important’
+parameters to be used by scientists. The NXparameter is a kind of
+‘abstract’ of NXinstrument. The list of these parameters should be
+defined per class of instrument, based on requirements from existing
+data analysis programs (FullProf, INX, Sqw, Dave, Isaw, Nathan, …), to
+be discussed further. Format extensions (optional)</p>
+</section>
+<section id="proposal-e1-nxinstrument-is-optional">
+<h3>Proposal E1: NXinstrument is optional<a class="headerlink" href="#proposal-e1-nxinstrument-is-optional" title="Link to this heading">¶</a></h3>
+<p>The NXinstrument class is optional. No NXinstrument class should be
+specifically defined as ‘official’. However, some examples per class of
+instrument will be available to programmers. Indeed, as all instruments
+as essentially unique, no description can cope with all of them. The
+usage of NXinstrument usually concerns instrument simulations (McStas,
+Vitess, NISP, ResTrax, IDEAS, …) as well as exact configuration (e.g.
+for repeating experiment and debuging purposes).</p>
+</section>
+<section id="proposal-e2-nxinstrument-vs-nxdata-and-redudancy">
+<h3>Proposal E2: NXinstrument vs NXdata and redudancy<a class="headerlink" href="#proposal-e2-nxinstrument-vs-nxdata-and-redudancy" title="Link to this heading">¶</a></h3>
+<p>If present, NXinstrument should contain all the relevant information
+concerning the instrument parameters. In order to prevent redundancy for
+the data set (in detector and NXdata), the usage of links is required. A
+NXsample class should better appear in the NXinstrument as a link to the
+NXentry/NXsample. One or more NXmonitor class should better appear in
+the NXinstrument as a link to the NXentry/NXmonitor.</p>
+</section>
+<section id="proposal-e3-positioning-and-distances">
+<h3>Proposal E3: positioning and distances<a class="headerlink" href="#proposal-e3-positioning-and-distances" title="Link to this heading">¶</a></h3>
+<p>The ‘official’ mechanism for distance/geometry specification is
+NXgeometry. It derives from McStas positioning system. Other distance
+specification attributes defined within NXinstrument objects should be
+avoided.</p>
+</section>
+<section id="proposal-e4-no-object-definition">
+<h3>Proposal E4: no object definition<a class="headerlink" href="#proposal-e4-no-object-definition" title="Link to this heading">¶</a></h3>
+<p>The usage of objects and inheritance is not envisaged as it bring too
+much complexity in the associated definitions. We rather promote a
+simplification of the existing NeXus.</p>
+</section>
+<section id="proposal-e5-grouping-of-equivalent-elements">
+<h3>Proposal E5: grouping of equivalent elements<a class="headerlink" href="#proposal-e5-grouping-of-equivalent-elements" title="Link to this heading">¶</a></h3>
+<p>The NXgroup class could be used to assemble other items than scan steps
+in order to define super-classes, e.g. sets of detectors and
+monochromators.</p>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Proposal to Simplify Nexus</a><ul>
+<li><a class="reference internal" href="#nexus-raison-d-etre">NeXus <em>raison d’etre</em></a></li>
+<li><a class="reference internal" href="#format-requirements">Format requirements</a><ul>
+<li><a class="reference internal" href="#proposal-r1-simplified-nexus-hierarchy">Proposal R1: Simplified NeXus hierarchy</a></li>
+<li><a class="reference internal" href="#proposal-r2-simplified-nxdata">Proposal R2: simplified NXdata</a></li>
+<li><a class="reference internal" href="#proposal-r3-scanning-mechanism-dim-3">Proposal R3: scanning mechanism (dim &lt;= 3)</a></li>
+<li><a class="reference internal" href="#proposal-r4-scanning-mechanism-general-nxgroup">Proposal R4: scanning mechanism (general): NXgroup</a></li>
+<li><a class="reference internal" href="#proposal-r5-the-nxparameters-class">Proposal R5: the NXparameters class</a></li>
+<li><a class="reference internal" href="#proposal-e1-nxinstrument-is-optional">Proposal E1: NXinstrument is optional</a></li>
+<li><a class="reference internal" href="#proposal-e2-nxinstrument-vs-nxdata-and-redudancy">Proposal E2: NXinstrument vs NXdata and redudancy</a></li>
+<li><a class="reference internal" href="#proposal-e3-positioning-and-distances">Proposal E3: positioning and distances</a></li>
+<li><a class="reference internal" href="#proposal-e4-no-object-definition">Proposal E4: no object definition</a></li>
+<li><a class="reference internal" href="#proposal-e5-grouping-of-equivalent-elements">Proposal E5: grouping of equivalent elements</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="ReflectDiscuss.html" title="ReflectDiscuss"
+             >next</a></li>
+        <li class="right" >
+          <a href="Proposal_NeXus_Errors.html" title="Proposal NeXus Errors"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Proposal to Simplify Nexus</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

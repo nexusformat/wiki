@@ -1,0 +1,200 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Scaled Data</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Scans" href="Scans.html" />
+    <link rel="prev" title="Small-Angle Scattering" href="SAS.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Scans.html" title="Scans"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="SAS.html" title="Small-Angle Scattering"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Scaled Data</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="scaled-data">
+<h1>Scaled Data<a class="headerlink" href="#scaled-data" title="Link to this heading">¶</a></h1>
+<p>This suggestion is one of the outcomes of the NeXus for Synchrotrons
+Workshop at PSI: <a class="reference external" href="http://lns00.psi.ch/nexus2010">http://lns00.psi.ch/nexus2010</a></p>
+<section id="the-suggestion">
+<h2>The Suggestion<a class="headerlink" href="#the-suggestion" title="Link to this heading">¶</a></h2>
+<p>NeXus STRONGLY suggests to store data as arrays of physical values in C
+storage order. However, for cases where this is not possible or would
+cause an efficiency concern when writing allow to store raw data. Such
+data must be annotated with additional attributes as described below in
+order to allow reading software to reconstruct the true physical value.</p>
+</section>
+<section id="the-reasoning">
+<h2>The Reasoning<a class="headerlink" href="#the-reasoning" title="Link to this heading">¶</a></h2>
+<p>The data rates possible at synchrotron facilities and the new pixel
+detectors test current computing technology to their limits. There may
+not be enough time to scale or convert data on the fly before writing to
+disk. In some occasions significant space savings can be obtained by
+storing data as short integers and scaling them to the desired floating
+point values.</p>
+<p>In the formulas below Vtrue denotes the true value of the data item,
+Vraw the one which is stored in the data element on file. The attributes
+are:</p>
+<ul class="simple">
+<li><p>transform: This is the indicator that a transformation of the Vraw
+data is necessary. Transform can have one the following values:</p>
+<ul>
+<li><p>offset: Vtrue = Vraw + offset</p></li>
+<li><p>scaling: Vtrue = Vraw * scaling</p></li>
+<li><p>scaling_offset: both an offset and scaling is applied. Vtrue =
+Vraw*scaling + offset</p></li>
+<li><p>sqrt_scaled: Vtrue = (Vraw/scaling)*(Vraw/scaling)</p></li>
+<li><p>logarithmic_scaled: Vtrue = (Vraw/scaling)**10</p></li>
+<li><p>polynomial: Vtrue = p1 + p2*Vraw + p3*Vraw*Vraw +
+p4*Vraw*Vraw*Vraw ….</p></li>
+</ul>
+</li>
+<li><p>offset: The offset to apply</p></li>
+<li><p>scaling: The scale factor to apply</p></li>
+<li><p>direction: a komma separated list of length ndim which specifies for
+each dimension if it is increasing or decreasing. If this attribute
+is missing, increasing is implied.</p></li>
+<li><p>precedence: a komma separated list of length ndim which gives the
+rank order in which array indexes change with respect to other
+indexes. A precedence of 1 denotes the fastest changing index. If
+this attribute is missing, C storage order is implied.</p></li>
+<li><p>coefficients, a komma separated list of the polynomial coefficients
+to use for a polynomial transform</p></li>
+</ul>
+</section>
+<section id="update-01-2015">
+<h2>Update 01/2015<a class="headerlink" href="#update-01-2015" title="Link to this heading">¶</a></h2>
+<p>There was some discussion on this at NIAC 2010 and 2012. IMHO, the
+result was that all fixed schemes fall over in some point when people
+come up with new scaling schemes. It was decided to devise a NXformula
+base class to solve this problem. There was some further discussion on
+scaling in 2014 in the mailing list and on the teleconferences. At NIAC
+2014 it was decided to accept a NXformula base class as suggested by Ben
+Watts as an experimental feature.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Scaled Data</a><ul>
+<li><a class="reference internal" href="#the-suggestion">The Suggestion</a></li>
+<li><a class="reference internal" href="#the-reasoning">The Reasoning</a></li>
+<li><a class="reference internal" href="#update-01-2015">Update 01/2015</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Scans.html" title="Scans"
+             >next</a></li>
+        <li class="right" >
+          <a href="SAS.html" title="Small-Angle Scattering"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Scaled Data</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

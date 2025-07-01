@@ -1,0 +1,60 @@
+Telco 20250604
+==============
+
+Date
+----
+
+Wednesday, 4th Jun, 15:00 UTC
+
+Connect
+-------
+
+- ZOOM VC link: `https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09 <https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09)_
+- Meeting ID: 652 7209 1306
+- Passcode: nexus
+
+Agenda
+------
+
+- PRs
+  
+  - [APM - 1422](https://github.com/nexusformat/definitions/pull/1422)
+    volunteers for reviewing: BW
+
+Present  
+-------
+SB, WdN, HB, FdA, BW, FS, ZM, PC - MarkusK, LukasP (FAIRmat), 
+
+Minutes  
+-------
+- APM - https://github.com/nexusformat/definitions/pull/1422
+  - BW: APM is now in finally in a very good shape, congrats to MK. We shall present NXapm, so NIAC members can learn about it, and how such big application definition can also be organised in NeXus
+  - MK presented the PR and the structure of NXapm supporting both measured and simulated experiments
+  - PC: NXprocess is ised to record data processing settings
+  - WdN: at ESRF, we also store processing results in NXprocess
+  - PC: It can be make clear in the documentation that NXprocess can hold the processing results, too
+  - FdA: What is typical file size
+  - MK: typical size is 1-2GB, but can easily go up to 16-20GB.
+  - SB: remaining questions can be now clearified
+  - BW: For describing regions, there is NXregion prepared, which does not seem to be compatible with NXroi
+  - MK: NXroi is a bag-like collecting base class, like NXcollection, but also want to allow data annotation and verification below. NXregion makes a selection of a data array, but it is not the same of selecting ROI of a real specimen.
+  - PC: NXroi should have clear description and purpose, like subvolume or area description e.g. of a sample.
+  - PC: NXprocess has NXdata, so it is not needed to declare another instance in NXroi
+  - PC: NXroi could be subclasse from NXprocess, like NXroi_process(NXprocess)
+  - MK: sure, thanks
+  - BW: nucleii hash: in case of 0 number of neutrons (e.g. H) it can result in problems. Maybe 255 could be a better special value. Example of binary shift could then be helpful.
+  - MK: yes, agreed.
+  - BW: instead of min increment, number of bins could be specified.
+  - MK: NXdata can be used, but we would need a specialisation of NXdata where axes are specialised and fixed. NXimage, NXspectrum could also be, but currently we cannot define AXISNAME specialisation in NeXus.
+  - BW: data validation arguments are clear, so we shall accept this solution here.
+  - BW: only tiny changes needed what we discussed today, so vote could be started by Aaron at any time.
+  - MK: I can finish all chagnes, we can resolve comments, so we can update the PR by merging te recently changed main branch back, and then we can let Aaron know that vote can start.
+- LK: PR merge - shall we use squash commits or no?
+  - PC: we should go for squash commit (anyway, individual commits would not serve a valid status)
+  - BW: +1
+  - HB: if history would be needed to be maintained, this can be done by keeping a special archive fork with the branch of all commits
+  - PC: default settings for merge will be changed for squashing
+  - LK: history could be cleared because the bad commit just happened before the meeting.
+  - PC: let us do the necessary changes immediately, so APM PR can also progress.
+  - WdN: pull-rebase is always a good habit (https://www.codewrecks.com/post/github/git-pull-rebase/)
+  - BW: send a message to the general mailing list on history mangling and the need of pull-rebase.

@@ -1,0 +1,274 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>NXmonotas-NIAC2006</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="NXnet Proposal" href="NXnet_Proposal.html" />
+    <link rel="prev" title="NXmonotas example-NIAC2006" href="NXmonotas_example-NIAC2006.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NXnet_Proposal.html" title="NXnet Proposal"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="NXmonotas_example-NIAC2006.html" title="NXmonotas example-NIAC2006"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NXmonotas-NIAC2006</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="nxmonotas-niac2006">
+<h1>NXmonotas-NIAC2006<a class="headerlink" href="#nxmonotas-niac2006" title="Link to this heading">¶</a></h1>
+<p>Example:
+<a class="reference external" href="NXmonotas_example-NIAC2006.html" title="wikilink">NXmonotas_example-NIAC2006</a></p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;!--
+URL:     http://www.nexus.anl.gov/classes/xml/NXmonotas.xml
+Editor:  NIAC
+NIAC Version: 0.1
+$Id: monotas.docbook,v 1.1 2005/06/14 16:50:35 pfp Exp $
+Template of a generic NeXus file containing neutron or x-ray triple-axis data.--&gt;
+
+&lt;NXentry name=&quot;{Name of entry}&quot;&gt;
+
+  &lt;title /&gt;
+  &lt;definition URL=&quot;http://www.nexus.anl.gov/instruments/xml/NXmonotas.xml&quot;
+      version=&quot;1.0&quot;&gt;
+    NXmonotas
+  &lt;/definition&gt;
+  &lt;start_time /&gt;
+
+  &lt;NXsample name=&quot;sample&quot;&gt;
+    &lt;name /&gt;
+    &lt;unit_cell /&gt;
+    &lt;orientation_matrix /&gt;
+    &lt;sample_orientation /&gt;
+    &lt;plane_vector_0 type=&quot;NX_FLOAT32[3]&quot;&gt;
+      {Reciprocal space vector of primary reflection in the scattering plane}
+    &lt;/plane_vector_0&gt;
+    &lt;plane_vector_1 type=&quot;NX_FLOAT32[3]&quot;&gt;
+      {Reciprocal space vector of secondary reflection in the scattering plane}
+    &lt;/plane_vector_1&gt;
+    &lt;polar_angle units=&quot;degree&quot; type=&quot;NX_FLOAT32[:,np]&quot;&gt;
+      {Polar angle of the sample with respect to the beam incident on the monochromator}
+    &lt;/polar_angle&gt;
+    &lt;azimuthal_angle units=&quot;degree&quot; type=&quot;NX_FLOAT32&quot;&gt;
+      {Azimuthal angle of the sample with respect to the beam incident on the
+      monochromator}
+    &lt;/azimuthal_angle&gt;
+    &lt;rotation_angle units=&quot;degree&quot; type=&quot;NX_FLOAT32[:,np]&quot;&gt;
+      {Rotation angle of the sample}
+    &lt;/rotation_angle&gt;
+    &lt;Q type=&quot;NX_Float32[nd,np]&quot;&gt;
+     {Magnitude of momemtum transfer vector}?
+     &lt;/Q&gt;
+    &lt;Qh type=&quot;NX_FLOAT32[nd,np]&quot;&gt;
+      {Reciprocal space component of scan}?
+    &lt;/Qh&gt;
+    &lt;Qk type=&quot;NX_FLOAT32[nd,np]&quot;&gt;
+      {Reciprocal space component of scan}?
+    &lt;/Qk&gt;
+    &lt;Ql type=&quot;NX_FLOAT32[nd,np]&quot;&gt;
+      {Reciprocal space component of scan}?
+    &lt;/Ql&gt;
+    &lt;energy_transfer units=&quot;meV&quot; type=&quot;NX_FLOAT32[nd,np]&quot;&gt;
+      {Energy transfer of scan}
+    &lt;/energy_transfer&gt;
+  &lt;/NXsample&gt;
+
+  &lt;NXinstrument name=&quot;{Name of instrument}&quot;&gt;
+
+    &lt;NXcollimator name=&quot;premonochromator_collimator&quot;&gt;?
+      &lt;type /&gt;
+      &lt;soller_angle /&gt;
+    &lt;/NXcollimator&gt;
+    &lt;NXfilter name=&quot;premonochromator_filter&quot;&gt;?
+      &lt;description /&gt;
+    &lt;/NXfilter&gt;
+    &lt;NXcrystal name=&quot;monochromator&quot;&gt;
+      &lt;type /&gt;
+      &lt;energy units=&quot;meV&quot; type=&quot;NX_FLOAT32[np]&quot;&gt;
+        {Optimum diffracted energy}
+      &lt;/energy&gt;
+      &lt;d_spacing units=&quot;Angstrom&quot; type=&quot;NX_FLOAT32&quot;&gt;
+        {The planar spacing of the nominal reflection}
+      &lt;/d_spacing&gt;
+      &lt;rotation_angle units=&quot;degree&quot; type=&quot;NX_FLOAT32[np]&quot;&gt;
+        {Rotation angle of the monochromator}
+      &lt;/rotation_angle&gt;
+    &lt;/NXcrystal&gt;
+    &lt;NXcollimator name=&quot;presample_collimator&quot;&gt;?&lt;/NXcollimator&gt;
+    &lt;NXfilter name=&quot;presample_filter&quot;&gt;?&lt;/NXfilter&gt;
+    &lt;NXcollimator name=&quot;preanalyzer_collimator&quot;&gt;?&lt;/NXcollimator&gt;
+    &lt;NXfilter name=&quot;preanalyzer_filter&quot;&gt;?&lt;/NXfilter&gt;
+    &lt;NXcrystal name=&quot;analyzer&quot;&gt;
+      &lt;type /&gt;
+      &lt;energy type=&quot;NX_FLOAT32[nd,np]&quot; /&gt;
+        {Optimum diffracted energy for each analyzer}
+      &lt;/energy&gt;
+      &lt;d_spacing /&gt;
+      &lt;rotation_angle type=&quot;NX_FLOAT32[nd,np]&quot; /&gt;
+    &lt;/NXcrystal&gt;
+    &lt;NXcollimator name=&quot;predetector_collimator&quot;&gt;?&lt;/NXcollimator&gt;
+    &lt;NXdetector name=&quot;detector&quot;&gt;
+      &lt;counts signal=&quot;1&quot; axes=&quot;energy_transfer|Qh|Qk|Ql&quot; type=&quot;NX_INT32[:]&quot;&gt;
+        {Integer counts}
+      &lt;/counts&gt;
+      &lt;polar_angle units=&quot;degree&quot; type=&quot;NX_FLOAT32[:]&quot;&gt;
+        {Polar angle of the detector with respect to the beam incident on the
+        monochromator}
+      &lt;/polar_angle&gt;
+      &lt;azimuthal_angle units=&quot;degree&quot; type=&quot;NX_FLOAT32&quot;&gt;
+        {Azimuthal angle of the detector with respect to the beam incident on
+        the analyzer}
+      &lt;/azimuthal_angle&gt;
+    &lt;/NXdetector&gt;
+
+  &lt;/NXinstrument&gt;
+
+  &lt;NXmonitor&gt;
+    &lt;data type=&quot;FLOAT32[np]&quot; /&gt;
+  &lt;/NXmonitor&gt;
+
+  &lt;NXtimer&gt;
+    &lt;preset type=&quot;FLOAT32[1|np]&quot; units=&quot;second&quot;&gt;
+     {Preset timer value. This may be a vector if your control software
+      can allow different points in the sequence to be counted for different
+      lengths.  The measured duration is not necessarily equal to the preset
+      since the monitor or detector may reach their presets earlier}?
+    &lt;/preset&gt;
+    &lt;start type=&quot;FLOAT32[np]&quot; units=&quot;second&quot;&gt;
+     {Start times of the individual measurements relative to the start of
+      the scan.  This field is recommend so that for example NXlog entries
+      can be plotted on the same scale as individual points, but it is
+      not required since many old data sets do not store it.}?
+    &lt;/start&gt;
+    &lt;duration type=&quot;FLOAT32[np]&quot; units=&quot;second&quot;&gt;
+     {Duration of the individual measurements in the scan. If absent, then
+      the duration is assumed to be the value of the preset.}?
+    &lt;/duration&gt;
+  &lt;/NXtimer&gt;
+
+  &lt;NXdata name=&quot;data&quot;&gt;
+    &lt;Qh NAPIlink=&quot;NXentry/NXsample/Qh&quot; /&gt;
+    &lt;Qk NAPIlink=&quot;NXentry/NXsample/Qk&quot; /&gt;
+    &lt;Ql NAPIlink=&quot;NXentry/NXsample/Ql&quot; /&gt;
+    &lt;energy_transfer NAPIlink=&quot;NXentry/NXsample/energy_transfer&quot; /&gt;
+    &lt;counts NAPIlink=&quot;NXentry/NXinstrument/detector/counts&quot; /&gt;
+    &lt;count_start NAPIlink=&quot;NXentry/NXtimer/start&quot; /&gt;
+    &lt;count_duration NAPIlink=&quot;NXentry/NXtimer/duration&quot; /&gt;
+    &lt;count_monitor NAPIlink=&quot;NXentry/NXmonitor/data&quot; /&gt;
+    &lt;energy NAPIlink=&quot;NXentry/NXinstrument/analyzer/energy&quot; /&gt;
+  &lt;/NXdata&gt;
+
+&lt;/NXentry&gt;
+</pre></div>
+</div>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NXnet_Proposal.html" title="NXnet Proposal"
+             >next</a></li>
+        <li class="right" >
+          <a href="NXmonotas_example-NIAC2006.html" title="NXmonotas example-NIAC2006"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NXmonotas-NIAC2006</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+Telco 20250516
+==============
+
+Date
+----
+
+Friday, 16th May, 15:00 UTC
+
+Connect
+-------
+
+- ZOOM VC link: `https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09 <https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09)_
+- Meeting ID: 652 7209 1306
+- Passcode: nexus
+
+Agenda
+------
+
+- PRs
+  
+  - [EM - 1423](https://github.com/nexusformat/definitions/pull/1423)
+    volunteers for reviewing: AB, HB
+  - [APM - 1422](https://github.com/nexusformat/definitions/pull/1422)
+    volunteers for reviewing: BW
+
+Present
+-------
+
+SB, AB, RO, FS, PC, - MarkusK (FAIRmat) 
+
+Minutes
+-------
+
+**NXprocess - https://github.com/nexusformat/definitions/pull/1559**
+
+  - AB: IS tere any open conversations?
+  - MK: No, everything is fine
+  - RO: Can we merge it as is?
+  - AB: It is a clarification of documentation, so it does not require a vote and can be merged
+  - Telco all agreed
+  - MK: Can an NXprocess contain another NXprocess
+  - PC: sequence_id shall be used for stating the order
+  - MK: yes, the processes at the same level can be sequenced, like this, but if there are subprocesses
+  - RO: Yes, the sequence shall be interpeted within the grop containing the processes
+  - PC: please put a clarification on this to the docuementation of sequence
+  - RO: Sure, and then the merge will be done
+
+**NXparameters - https://github.com/nexusformat/definitions/pull/1560**
+
+  - MK: NXparameters is a nice concept to hold parameters for algorithms of any type
+  - RO: statements on least-square fitting parameters could be phrased so that it does not exclude other use cases
+  - PC: NXfit (as subclass of NXprocess) is coming to the standard and could also be used for specific use cases. NXpeak, NXbackground are also coming
+  - RO: I should check NXfit and the new options coming in now, so we may not need both solutions co-existing.
+  - MK: How to handle the units for attributes
+  - SB: there is the convention of using @attrname_units to be able to specify the units for @attrname
+  - RO: if not given the unit of the hosting Field should be inherited (applied) automatically
+  - AB: another open question is on 'TERM'
+  - PC: a fix for this problem is coming in MPES PR, where renaming and clarification will solve this issue
+
+**NXtransformation (handedness) - https://github.com/nexusformat/definitions/pull/1563**
+
+  - PC: described the problem, that handedness of the coordinate syste to be bale to properly interpret a rotation angle.
+  - AB: the NXtransformations chain (via @depends_on) tells which coordinate system we are in
+  - PC: the wording in NXtransformations documentation needs to be changed to be able to support left-handed rotations, too
+  - AB: OK, conversations are actually resolved. If approved, can be merged
+  - PC: approved
+  - AB: bug fix is done, so we do not need another vote
+  - Telco agreed
+
+**APM - https://github.com/nexusformat/definitions/pull/1422**
+
+  - SB: reorganisation is done as requested
+  - AB: originally reviewed by BW, so let us ask him again for another review
+
+**EM - https://github.com/nexusformat/definitions/pull/1423**
+
+  - SB: restructuring is done
+  - AB: dependencies are resolved. New reviewer from NCEM (Peter Ercius) is invited. Next steps suggested:
+    - MK could compile a 2 page overview including a figure on how NXem file should be composed
+    - enabling Peter to review the proposal
+  - SB: this should lead not only to an accepted standard, but also to a common publication for the EM community
+  - AB: NeXus supports and NXem should also be useful for:
+    - data exchange between data collection and data processing
+    - data provenance for describing experiment details
+  - SB: what is the expected timeline for the extended review process?
+  - AB: few weeks should be enough for the extended review
+- Membership Votes
+  - requests for votes are out, responses received, for the next meeting we can have our new members also invited.

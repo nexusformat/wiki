@@ -1,0 +1,64 @@
+Telco 20250616
+==============
+
+Date
+----
+
+Monday, 16th Jun, 15:00 UTC
+
+Connect
+-------
+
+- ZOOM VC link: `https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09 <https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09)_
+- Meeting ID: 652 7209 1306
+- Passcode: nexus
+
+Agenda
+------
+
+- PRs
+  
+  - [EM - 1423](https://github.com/nexusformat/definitions/pull/1423)
+    volunteers for reviewing: AB, HB
+  - Computational Geometry - [1421](https://github.com/nexusformat/definitions/pull/1421), [1532](https://github.com/nexusformat/definitions/pull/1532)
+  - [FAIRmat update on Contributed Definitions - 1424](https://github.com/nexusformat/definitions/pull/1424)
+  - NeXus Papers
+
+Present
+-------
+
+AB, PC, RO, FdA, HB, FS, RB, BW, WdN, ZM + MArkusK, LukasP (FAIRmat)
+
+Minutes
+-------
+
+- NXprocess: discussion on 1559 and NXafm 1422.
+  
+  - PC: NXprocess holding NXdata is a change that should be explicit.  NXtomoproc and other *proc app defs have NXdata and NXprocess as siblings.
+  - RO: this is a good evolution of NXprocess.
+  - AB: asks RO to change relevant paragraph in manual that requires NXprocess for processed data.
+  - RO: rewritten.
+  - PC: approved.
+  - AB: will move 1559 and 1422 to online vote  
+
+- EM - https://github.com/nexusformat/definitions/pull/1423
+
+  - MK review of figures and example data.
+  - AB: asked for them to be merged into main NXem PR 1423.
+
+- Computational Geometry
+  - MK: 1421 and 1532: two computational geometry PRs. Would like these to move these out of contributed definitions, even though they aren't used yet in app defs. That way they can start being used without the extra burden of reviewing the computational geometry classes themselves
+
+- new NeXus paper
+  - MK: new NeXus paper with fairmat contributions coming.  Will send to AB for initial review.
+
+- new NeXus release
+  - AB: Next NeXus release soon after these changes all go through!
+
+
+July Telco
+----------
+
+Please help to `choose the date by responding to [the poll](https://doodle.com/group-poll/participate/e3V86Drd) by Jun 26.
+
+We are planning to hold the telco in the regular slot of UTC 15:00. Check your local time to avoid scheduling surprises!

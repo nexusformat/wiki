@@ -1,0 +1,61 @@
+---
+title: Telco 20231019
+permalink: Telco_20231019.html
+layout: wiki
+---
+Telco 20231019
+==============
+
+Date
+----
+
+Thursday, 19th October, 15:00 UTC
+
+
+Connect
+-------
+* ZOOM VC link: [https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09](https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09)
+* Meeting ID: 652 7209 1306
+* Passcode: nexus
+
+Agenda
+------
+* NIAC 2024
+* issues
+
+Present
+-------
+HB, WdN, AB, SB, PC, HG, BW, LG, BB, CZ, RO
+
+
+Minutes
+-------
+* 2024 NIAC with NOBUGS at ESRF for 2 days https://indico.esrf.fr/event/114/ 
+* https://github.com/nexusformat/definitions/pull/1246  
+AB: default_slice NX_CHAR_OR_NUMBER
+* https://github.com/nexusformat/definitions/pull/1039  
+reviewed quiickly, some suggestions added
+* https://github.com/nexusformat/definitions/pull/1213  
+(https://github.com/nexusformat/definitions/pull/1213#issuecomment-1600934279)  
+  * AB: only change in documentation, no vote is needed
+  * WdN: merge it first
+  * AB: let us review it by the sub-committee (WdN, AB, RO, SB and HB). 
+  * BW: further reviews are welcome
+  * AB: by Nov 2
+* https://github.com/nexusformat/definitions/pull/1303
+  * AB: NIAC role icludes ontology, validator, example
+  * PC: pyprojecxt.toml might be too much
+  * AB: agreed to remove it; important to keep scope clear
+  * AB: extra note: nxdl is our contract; it must stay the single source of truth; nyaml and nxdl shall not coexists
+  * HG: nyaml is a nice a needed option
+  * SB: pyproject.toml can be removed as requested
+* https://github.com/nexusformat/definitions/pull/1272  
+AB: close this as 1303 is covering that, too
+* https://github.com/nexusformat/definitions/pull/1282  
+SB: covered by 1303
+
+
+Nov Telco
+--------------
+
+Please help to [choose the date by responding to the poll](https://doodle.com/meeting/participate/id/bD0W8Gqb) by Nov 6. We are planning to hold the telco in the regular slot of UTC 15:00. Check your local time to avoid scheduling surprises!

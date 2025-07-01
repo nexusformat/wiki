@@ -1,0 +1,253 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Scans</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=29a6c3e3"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Storing Event Data" href="Storing_Event_Data.html" />
+    <link rel="prev" title="Scaled Data" href="Scaled_Data.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Storing_Event_Data.html" title="Storing Event Data"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Scaled_Data.html" title="Scaled Data"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Scans</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="scans">
+<h1>Scans<a class="headerlink" href="#scans" title="Link to this heading">¶</a></h1>
+<section id="this-page-is-currently-under-construction">
+<h2>This page is currently under construction<a class="headerlink" href="#this-page-is-currently-under-construction" title="Link to this heading">¶</a></h2>
+<p>When completed, this page will be used as the basis of a discussion on
+how to represent scans within a NeXus file. It will bring together ideas
+and discussions from <a class="reference external" href="TOFRawScan.html" title="wikilink">TOFRawScan</a>,
+<a class="reference external" href="NIAC2006:_Scanning_Group">NIAC2006:_Scanning_Group</a> and <a class="reference external" href="GenericScan.html" title="wikilink">GenericScan</a></p>
+<section id="what-is-a-scan">
+<h3>What is a Scan<a class="headerlink" href="#what-is-a-scan" title="Link to this heading">¶</a></h3>
+<p>In its broadest sense, a scan is a set of measurements where parameters
+have been varied in a systematic way. These separate measurements may
+all be stored in the same file (via an additional array dimension or
+additional separate [NXentry] (NXentry.html “wikilink”)), several files or a
+mixture of the two schemes.</p>
+</section>
+</section>
+<section id="issues">
+<h2>Issues<a class="headerlink" href="#issues" title="Link to this heading">¶</a></h2>
+<p>The goal is to be able to identify what parameters have been varied as
+part of the scan. Some of the issues to consider are:</p>
+<ul class="simple">
+<li><p>How to build parametric scans such as 10 temperatures for 5 fields.</p></li>
+<li><p>How to identify all files associated with a scan.</p></li>
+<li><p>How to identify whether a particular file is associated with a scan.</p></li>
+<li><p>What to do if a part of the scan is missing?</p></li>
+<li><p>What if the scan is not rectilinear?</p></li>
+</ul>
+</section>
+<section id="nxscan-proposal">
+<h2>NXscan proposal<a class="headerlink" href="#nxscan-proposal" title="Link to this heading">¶</a></h2>
+<p>Three proposals:</p>
+<section id="nxscan-proposal-mark">
+<h3>NXscan proposal - Mark<a class="headerlink" href="#nxscan-proposal-mark" title="Link to this heading">¶</a></h3>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;NXscan&gt;
+   &lt;scan_dimensions type=&quot;NX_INT[dim]&quot;/&gt;
+   &lt;slice_start type=&quot;NX_INT[dim]&quot;/&gt;
+   &lt;slice_end type=&quot;NX_INT[dim]&quot;/&gt;
+   &lt;scanvars type=&quot;NX_CHAR&quot;&gt;
+      {comma separated list of scanned variables}
+   &lt;/scanvars&gt;
+   &lt;scanlinks type=&quot;NX_CHAR&quot;&gt;
+      {comma separated list of path strings to the scan variables in the file}
+   &lt;/scanlinks&gt;
+&lt;/NXscan&gt;
+</pre></div>
+</div>
+</section>
+<section id="nxscan-proposal-paul">
+<h3>NXscan proposal - Paul<a class="headerlink" href="#nxscan-proposal-paul" title="Link to this heading">¶</a></h3>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>  &lt;NXscan&gt;
+    &lt;variable label=&quot;&quot; units=&quot;&quot; type=FLOAT[2] dims=[ndims] slice=[ndims,2] 
+        index=&quot;&quot; value=&quot;&quot; axis=&quot;&quot; primary=&quot;0|1&quot;&gt;
+      {value store is the minimum and maximum of variable range.  
+ 
+       label and units help you create the axis labels for the plot.
+ 
+       num_points is the number of points intended in the scan (the 
+       actual value may be less if the scan was aborted).  The intended 
+       number may be indefinite, in which case it is absent.
+ 
+       index is the position in the scan if the scan spans multiple 
+       entries, or it is absent if all scan points are within this entry.  
+       index is 1-orgin.
+ 
+       if index is specified, it has an associated value, otherwise the
+       values will need to be stored elsewhere in the entry.  where?
+       Can value be the name of a field?
+ 
+       For raster scans axis will be 1, 2, 3, ... and primary will be 0
+       For each axis there should be a single primary.
+ 
+       For dependent variables axis will be the 1, 2, 3, ... for the variable
+       it is dependent upon and primary will be 1.  You can have any number
+       of dependents.
+      }
+    &lt;/variable&gt;
+  &lt;/NXscan&gt;
+
+
+  &lt;-- Example temperature scan --&gt;
+  &lt;NXscan&gt;
+    &lt;temperature label=&quot;T&quot; units=&quot;K&quot; type=FLOAT[2] num_points=25 index=3&gt;
+      10,100
+    &lt;/temperature&gt;
+  &lt;/NXscan&gt;
+
+  &lt;-- Example raster scan --&gt;
+  &lt;NXscan&gt;
+     &lt;x name=&quot;x&quot; type=FLOAT[2] num_points=11 index 4&gt;
+         0,10
+     &lt;/x&gt;
+     &lt;y name=&quot;y&quot; type=FLOAT[2] num_points=4 index 3&gt;
+         5,8
+     &lt;/y&gt;
+   &lt;/NXscan&gt;
+</pre></div>
+</div>
+</section>
+<section id="nxscan-ray">
+<h3>NXscan - Ray<a class="headerlink" href="#nxscan-ray" title="Link to this heading">¶</a></h3>
+<p>Link entry to next entry in the scan in some way so that the system can
+find all the pieces by itself.</p>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Scans</a><ul>
+<li><a class="reference internal" href="#this-page-is-currently-under-construction">This page is currently under construction</a><ul>
+<li><a class="reference internal" href="#what-is-a-scan">What is a Scan</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#issues">Issues</a></li>
+<li><a class="reference internal" href="#nxscan-proposal">NXscan proposal</a><ul>
+<li><a class="reference internal" href="#nxscan-proposal-mark">NXscan proposal - Mark</a></li>
+<li><a class="reference internal" href="#nxscan-proposal-paul">NXscan proposal - Paul</a></li>
+<li><a class="reference internal" href="#nxscan-ray">NXscan - Ray</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/definitions/issues/new">Get help</a></p>
+    <ul class="this-page-menu">
+    <style>
+		  .avatar-container {
+		    display: flex;
+		    align-items: center;
+		  }
+		
+		  .avatar {
+		    width: 32px;
+		    height: 32px;
+		    border-radius: 50%;
+		    margin-right: 5px;
+		  }
+		</style>
+		
+    
+    
+		<div class="avatar-container">
+      
+    </ul>
+   </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><!DOCTYPE html>
+<html lang="en">
+<br>
+<head>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+</head>
+<body>
+ <br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.</h3>
+</body>
+
+ <br><a href="http://www.nexusformat.org/">Home</a>
+ <br><a href="https://github.com/nexusformat">GitHub Organisation</a></br>
+ © 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC </html>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Storing_Event_Data.html" title="Storing Event Data"
+             >next</a></li>
+        <li class="right" >
+          <a href="Scaled_Data.html" title="Scaled Data"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Scans</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, nexus.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>
