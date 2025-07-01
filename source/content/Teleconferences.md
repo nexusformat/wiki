@@ -20,6 +20,10 @@ We aim to publish an agenda a few days in advance of the meetings.
 
 ### 2025
 
+[Telco 20250716](Telco_20250716.html "wikilink") Wednesday, 16th Jul, 15:00 UTC
+
+[Telco 20250707](Telco_20250707.html "wikilink") Monday, 7th Jul, 15:00 UTC
+
 [Telco 20250616](Telco_20250616.html "wikilink") Monday, 16th Jun, 15:00 UTC
 
 [Telco 20250604](Telco_20250604.html "wikilink") Wednesday, 4th Jun, 15:00 UTC
