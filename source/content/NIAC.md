@@ -188,24 +188,24 @@ Meetings
     ([minutes](NIAC2011_CodeCamp.html#Final_Report "wikilink"))
 -   [NIAC 2010](NIAC2010.html "wikilink") NeXus Code Camp and NIAC Meeting,
     ORNL, October 2010
-    ([minutes](../pdfs/Minutes_of_NeXus_Committee_2010.pdf "wikilink"))
+    ([minutes](pdfs/Minutes_of_NeXus_Committee_2010.pdf "wikilink"))
 -   [October 16-18 2009](NIAC2009.html "wikilink") NeXus Code Camp, hosted by
     APS, Chicago (Evanston, Illinois) (no minutes)
 -   [October 30-31, 2008](NIAC2008.html "wikilink") at ANSTO, Australia
-    ([minutes](../pdfs/NIAC2008_minutes.pdf "wikilink"))
+    ([minutes](pdfs/NIAC2008_minutes.pdf "wikilink"))
 -   [September 24-26, 2007](NIAC2007.html "wikilink") at HMI, Berlin, Germany
     ([online](NIAC2007_Minutes.html "wikilink") and [pdf
-    format](../pdfs/NIAC2007HMI_minutes.pdf "wikilink") minutes)
+    format](pdfs/NIAC2007HMI_minutes.pdf "wikilink") minutes)
 -   [October 5-6, 2006](NIAC2006LBL.html "wikilink") at LBL, Berkeley, CA,
-    USA ([minutes](../pdfs/NIAC2006LBL_minutes.pdf "wikilink"))
+    USA ([minutes](pdfs/NIAC2006LBL_minutes.pdf "wikilink"))
 -   [February 1-3, 2006](NIAC2006ILL.html "wikilink") at ILL, Grenoble,
-    France ([minutes](../pdfs/NIAC2006minutes.pdf "wikilink"))
+    France ([minutes](pdfs/NIAC2006minutes.pdf "wikilink"))
 -   April 26-28, 2005 at Bishops Lodge in Sante Fe, NM, USA
-    ([minutes](../pdfs/NIAC2005minutes.pdf "wikilink"))
+    ([minutes](pdfs/NIAC2005minutes.pdf "wikilink"))
 -   October 21-22, 2004 at PSI, Villigen, Switzerland
-    ([minutes](../pdfs/NeXusMinutes-Oct2004.pdf "wikilink"))
+    ([minutes](pdfs/NeXusMinutes-Oct2004.pdf "wikilink"))
 -   September 8-10, 2003 at Pasadena, CA, USA
-    ([minutes](../pdfs/NIAC2003Minutes.pdf "wikilink"))
+    ([minutes](pdfs/NIAC2003Minutes.pdf "wikilink"))
 
 NIAC Decisions sorted by Topic
 ------------------------------

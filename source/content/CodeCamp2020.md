@@ -13,9 +13,9 @@ The code camp will take place at the [Advanced Photon Source](https://www.aps.an
 
 (We used an [online poll](https://doodle.com/poll/kf5xvbudzf2ccg6s) to help decide the exact dates.)
 
-<!-- #  https://github.com/nexusformat/wiki/blob/master/content/CodeCamp2020-attendees.md -->
+<!-- #  https://github.com/nexusformat/wiki/blob/master/source/content/CodeCamp2020-attendees.md -->
 
-<!-- #  https://github.com/nexusformat/wiki/blob/master/content/CodeCamp2020-topics.md -->
+<!-- #  https://github.com/nexusformat/wiki/blob/master/source/content/CodeCamp2020-topics.md -->
 
 <!-- # BTW: this is a comment line (https://stackoverflow.com/a/20885980/1046449) -->
 
@@ -33,7 +33,7 @@ Specific projects and tasks are described on the
 [GitHub issue tracker](https://github.com/nexusformat/definitions/milestones).
 Issues for consideration at 2020 NeXus Code Camp will be added to the Code Camp's
 [Topics page](https://www.nexusformat.org/CodeCamp2020-topics.html)
-([edit here](https://github.com/nexusformat/wiki/edit/master/content/CodeCamp2020-topics.md)).
+([edit here](https://github.com/nexusformat/wiki/edit/master/source/content/CodeCamp2020-topics.md)).
 These issues will be prioritized on the first day for handling at the Code Camp.
 
 (For more info on code camps, try searching Google for “code camp” or
@@ -317,4 +317,4 @@ definitions | [in release notes TOC, add link to each subsection](https://github
 
 -----------------------
 
-page source: [GitHub link](https://github.com/nexusformat/wiki/blob/master/content/CodeCamp2020.md)
+page source: [GitHub link](https://github.com/nexusformat/wiki/blob/master/source/content/CodeCamp2020.md)

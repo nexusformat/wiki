@@ -6,7 +6,7 @@ layout: wiki
 NeXus Code Camp - January 2020 - List of Attendees
 ==================================================
 
-<!-- # https://github.com/nexusformat/wiki/blob/master/content/CodeCamp2020.md -->
+<!-- # https://github.com/nexusformat/wiki/blob/master/source/content/CodeCamp2020.md -->
 
 | name | affiliation | country |
 | --- | --- | --- |

@@ -17,7 +17,7 @@ Location and Accommodation
 The event will take place at the [DESY
 Campus](https://www.openstreetmap.org/#map=17/53.57749/9.87851) in
 Hamburg. A PDF version of our site map can be found
-[here](../pdfs/NexusCodeCamp2015_map.pdf "wikilink").
+[here](pdfs/NexusCodeCamp2015_map.pdf "wikilink").
 
 ### Traveling
 

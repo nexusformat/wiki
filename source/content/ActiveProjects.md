@@ -7,7 +7,7 @@ Active Projects
 ===============
 
 Developers are encouraged to list ongoing projects around NeXus on this page to enable collaboration in the active phase.
-Just issue a corresponding pull reguest to [this page](https://github.com/nexusformat/wiki/blob/master/content/ActiveProjects.md).
+Just issue a corresponding pull reguest to [this page](https://github.com/nexusformat/wiki/blob/master/source/content/ActiveProjects.md).
 Please also advertise your project on the
 [NeXus Mailing List](https://manual.nexusformat.org/mailinglist.html) for
 wider visibility.

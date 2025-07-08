@@ -33,7 +33,7 @@ clean ::
 	$(RM) -rf ./source/$(BUILD_DIR)
 
 html:
-	$(SPHINX) -b html -W ./source/ ./source/$(BUILD_DIR)/html
+	$(SPHINX) -b html -W ./source/content ./source/$(BUILD_DIR)/html
 
 # for developer's use on local build host
 local ::
