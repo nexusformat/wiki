@@ -19,8 +19,7 @@ import sys
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 # add the abs path to the custom extension for collecting the contributor variables from the rst files
-sys.path.insert(0, os.path.abspath('../dev_tools/ext'))
-sys.path.insert(0, os.path.abspath("content"))
+sys.path.insert(0, os.path.abspath('../../dev_tools/ext'))
 
 # Specify the master document
 master_doc = "index"  # Path relative to the source directory
@@ -57,7 +56,7 @@ source_suffix = {
 }
 
 # Add any paths that contain _templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ['../_templates']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -76,7 +75,7 @@ html_use_index = False
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+html_static_path = ['../_static']
 html_file_suffix = ".html"
 
 # Add extra files

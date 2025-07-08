@@ -153,8 +153,8 @@ Minutes
 -------
 
 Here are the minutes in [pdf
-format](../pdfs/NIAC2006LBL_minutes.pdf "wikilink") or [MS-Word
-format](../pdfs/NIAC2006LBL_minutes.doc "wikilink").
+format](pdfs/NIAC2006LBL_minutes.pdf "wikilink") or [MS-Word
+format](pdfs/NIAC2006LBL_minutes.doc "wikilink").
 
 Photos
 ------
