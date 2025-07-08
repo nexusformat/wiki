@@ -19,7 +19,6 @@ import sys
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 # add the abs path to the custom extension for collecting the contributor variables from the rst files
-sys.path.insert(0, os.path.abspath('../../dev_tools/ext'))
 
 # Specify the master document
 master_doc = "index"  # Path relative to the source directory
@@ -27,7 +26,7 @@ master_doc = "index"  # Path relative to the source directory
 # -- Project information -----------------------------------------------------
 
 project = 'nexusformat_wiki'
-copyright = '2025, nexus'
+copyright = '2025, NIAC'
 author = 'nexus'
 release = '1'
 
@@ -43,7 +42,6 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
     'sphinx.ext.todo',
-    'contrib_ext',
     'myst_parser',
 ]
 
@@ -71,6 +69,7 @@ html_theme = 'sphinxdoc'
 html_title = ''
 # Disable the generation of genindex.html
 html_use_index = False
+html_copy_source = False
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
