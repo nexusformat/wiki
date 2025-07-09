@@ -245,7 +245,7 @@ general agreement that an object oriented type api is the way to go.
 Pete Petersons's talk – on URL's URI – version, implementation version
 e.g.
 
-`    `[`http://www.nexusformat.org/instruments/NXmonotas`](http://www.nexusformat.org/instruments/NXmonotas)
+> <https://www.nexusformat.org/NXmonotas-NIAC2006.html>
 
 Laurent suggested do not include the version in the uri. Freddie wanted
 to have a url and uri.
