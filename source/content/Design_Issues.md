@@ -25,8 +25,8 @@ Current Discussions
     -   [Associating Axes with
         Data](Associating_Axes_with_Data.html "wikilink")
 -   [Thumbnails for Nexus files](Thumbnails_for_Nexus_files.html "wikilink")
--   [file\_id attribute for Nexus
-    files](file_id_attribute_for_Nexus_files.html "wikilink")
+-   [File\_id attribute for Nexus
+    files](File_id_attribute_for_Nexus_files.html "wikilink")
 -   [Scaled Data](Scaled_Data.html "wikilink")
 -   [NXmonochromator and
     inheritance] (NXmonochromator_and_inheritance.html "wikilink")
