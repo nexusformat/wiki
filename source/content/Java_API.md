@@ -18,7 +18,7 @@ through the Java Native Methods Interface.
 
 The following documentation is browsable online:
 
-1.  The [NeXus for Java API](japinotes.html "wikilink") general instructions
+1.  The [NeXus for Java API](Japinotes.html "wikilink") general instructions
     including installation notes, instructions for running NeXus for
     Java programs and a brief introduction to the API.
 2.  The [Source](https://github.com/nexusformat/code/tree/master/bindings/java/)

@@ -23,8 +23,8 @@ event draws near.
 
 See previous NeXus Code Camps:
 
--   <http://www.nexusformat.org/NIAC2010_CodeCamp>
--   <http://www.nexusformat.org/index.php?title=NIAC2009>
+-   [NIAC2010](NIAC2010_CodeCamp.html)
+-   [NIAC2009](NIAC2009.html)
 
 Dates
 -----
