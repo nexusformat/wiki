@@ -1,0 +1,241 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Telco 20251020</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="_static/rubric.css" type="text/css" />
+    <script src="_static/documentation_options.js?v=b08bce9f"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Telco 20251118" href="Telco_20251118.html" />
+    <link rel="prev" title="Telco 20250923" href="Telco_20250923.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20251118.html" title="Telco 20251118"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Telco_20250923.html" title="Telco 20250923"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" accesskey="U">Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20251020</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="telco-20251020">
+<h1>Telco 20251020<a class="headerlink" href="#telco-20251020" title="Link to this heading">¶</a></h1>
+<section id="date">
+<h2>Date<a class="headerlink" href="#date" title="Link to this heading">¶</a></h2>
+<p>Monday, 20th Oct, 15:00 UTC</p>
+</section>
+<section id="connect">
+<h2>Connect<a class="headerlink" href="#connect" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>ZOOM VC link: <a class="reference external" href="https://eu02web.zoom-x.de/j/67593699249?pwd=GPvAopqNNsikUS36NltUb4q695YsCG.1">https://eu02web.zoom-x.de/j/67593699249?pwd=GPvAopqNNsikUS36NltUb4q695YsCG.1</a></p></li>
+<li><p>Meeting ID: 675 9369 9249</p></li>
+<li><p>Passcode: nexus</p></li>
+</ul>
+</section>
+<section id="agenda">
+<h2>Agenda<a class="headerlink" href="#agenda" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>PRs for the Release</p></li>
+</ul>
+</section>
+<section id="present">
+<h2>Present<a class="headerlink" href="#present" title="Link to this heading">¶</a></h2>
+<p>SB, WdN, FdA, PM, PC, RO, FS, BW, ZM, AB, CZ, FA - MarkusK, LukasP (FAIRmat)</p>
+</section>
+<section id="minutes">
+<h2>Minutes<a class="headerlink" href="#minutes" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>PM: use of PIDs in Nexus as motivated by the use of PANET IDs (as PIDs refering to experiment techniques)</p>
+<ul>
+<li><p>MK: could/should be included in the NeXus documentation as a best practice, but the use of identifiers can be extended at a later stage also to Fields and Attributes and not only to Groups as supported now.</p></li>
+<li><p>RO: it is always important to produce examples which show how to use in practice the different elements in NeXus</p></li>
+<li><p>MK: attribute of attributes is not supported in HDF5 which causes a practical problem when trying to extend identifiers to Attributes.</p></li>
+<li><p>RO: this limitation can be overcome by the use of prefixes in Attribute names.</p></li>
+</ul>
+</li>
+<li><p>WdN: NXxas (<a class="reference external" href="https://github.com/nexusformat/definitions/pull/1352#issuecomment-3422349124">https://github.com/nexusformat/definitions/pull/1352#issuecomment-3422349124</a> ) has a tricky question: the meaning of certain fields (and their being required) depend on the actual mode in use.</p>
+<ul>
+<li><p>SB: maybe one can use ChoiceType</p></li>
+<li><p>BW: it would not support situations when multiple modes are used simultanously. Hard and Soft Xray XAS can have different needs, so it is not a problem to have even multiple application definitions which fulfills the need of respective communities. Alternatively, different detectors could be kept optional and inside respective detector definitions for the different modes, can one specify what is required.</p></li>
+<li><p>RO: ChoiceType could be revisited to make it more useful.</p></li>
+</ul>
+</li>
+<li><p>PRs for new release</p>
+<ul>
+<li><p>PR #1577 on Azimuthal integration:</p>
+<ul>
+<li><p>ZM: current status is robust, but future extensions shall still be possible.</p></li>
+<li><p>RO: another issue: nameType=”any” (by using ALL CAPS) is dangerous for NXprocess groups, please give a specific name.</p></li>
+<li><p>ZM: accepted that it should be lower case. Let us discuss with the community again.</p></li>
+</ul>
+</li>
+<li><p>PR #1427 on updating on contributed definitions to make them consistent with the latest and accepted state of base classes.</p>
+<ul>
+<li><p>AB: as it is contributed, let us just go for these fixes. It is too much to check them all individually.</p></li>
+<li><p>MK: let us check again and then we can merge it.</p></li>
+<li><p>AB: we can already accept it now.</p></li>
+<li><p>Telco agrees.</p></li>
+</ul>
+</li>
+<li><p>PR #1412 on extending NXentry</p>
+<ul>
+<li><p>AB: did not pass the vote</p></li>
+<li><p>LK: let us skip it for now</p></li>
+<li><p>MK: +1</p></li>
+</ul>
+</li>
+<li><p>PR #1587 on wavelength shifter: vote accepted</p>
+<ul>
+<li><p>AB: let us merge it</p></li>
+</ul>
+</li>
+<li><p>PR #1560 on NXparameter documentation</p>
+<ul>
+<li><p>AB: GitHub conflicts are still blocking</p></li>
+<li><p>LP: it would be nice to harmonize with NXfit_function. A corresponding modification can be adde to this PR.</p></li>
+<li><p>MK: LMFIT specific fields could be put into a specialized NXparameters specialized for LMFIT.</p></li>
+<li><p>AB: we can bring it in only if we have universal agreement.</p></li>
+<li><p>RO: NXparameter was and is in use even before NXfit_function existed.</p></li>
+<li><p>WdN: this is used a lot, but looking it one can assume that it is only for fitting</p></li>
+<li><p>AB: what is the expected behavior of a NeXus validator if derived class is provided when a superclass is expected? In NeXus we only used inheritance for subclassing, but we have not fully defined the expected behavior of validotors. This should be done in the future.</p></li>
+<li><p>ZM: refineable and static parameters are not separated here at all which can cause confusions.</p></li>
+<li><p>AB: with these confusions, let us bring this in to the follow up release and not to the coming one at the end of October.</p></li>
+</ul>
+</li>
+<li><p>PR #1428 on grouping definitions in documentation</p>
+<ul>
+<li><p>SB: is it possible to list the definitions for each groups, just as a simple list below.</p></li>
+<li><p>AB: it is nice as is. As it is only documentation, it does not need a vote. Further improvements can be made subsequently. After suggestion added, we can merge it.</p></li>
+</ul>
+</li>
+<li><p>PR #1582 on spell checking</p>
+<ul>
+<li><p>AB: approved by PC, can be merged in</p></li>
+</ul>
+</li>
+<li><p>PR #1561 on NXgoniometer</p>
+<ul>
+<li><p>RO: suggestions are taken, so NXtransofmration and reference to it has also been added.</p></li>
+<li><p>AB: It looks nor OK</p></li>
+<li><p>PC: +1</p></li>
+<li><p>RO: doc generation is currently failing.</p></li>
+</ul>
+</li>
+<li><p>Release:</p>
+<ul>
+<li><p>AB: either we wait until Nov 3, or postpone those still needs vote?</p></li>
+<li><p>RO: let us start a vote and if enough votes come on time, we could keep for the next release</p></li>
+<li><p>AB: this is against the constitution because people can also change their vote in the 2 weeks period.</p></li>
+<li><p>PC: we can do the release either next week, or later the week after.</p></li>
+<li><p>LP: it should be acceptable</p></li>
+<li><p>MK: +1</p></li>
+<li><p>AB: RO/ZM shall make the PRs ready for vote, so vote can start ASAP.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="nov-telco">
+<h2>Nov Telco<a class="headerlink" href="#nov-telco" title="Link to this heading">¶</a></h2>
+<p>Please help to <a class="reference external" href="https://doodle.com/group-poll/participate/bq8WPKpa">choose the date by responding to the poll</a> by Nov 7th.</p>
+<p>We are planning to hold the telco in the regular slot of UTC 15:00. Check your local time to avoid scheduling surprises!</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Telco 20251020</a><ul>
+<li><a class="reference internal" href="#date">Date</a></li>
+<li><a class="reference internal" href="#connect">Connect</a></li>
+<li><a class="reference internal" href="#agenda">Agenda</a></li>
+<li><a class="reference internal" href="#present">Present</a></li>
+<li><a class="reference internal" href="#minutes">Minutes</a></li>
+<li><a class="reference internal" href="#nov-telco">Nov Telco</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/wiki/issues/new">Get help</a></p>
+  </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><p>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+<br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.
+<br><a href="http://www.nexusformat.org/">Home</a>
+<br><a href="https://github.com/nexusformat">GitHub Organisation</a>
+<br>© 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC</a>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20251118.html" title="Telco 20251118"
+             >next</a></li>
+        <li class="right" >
+          <a href="Telco_20250923.html" title="Telco 20250923"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" >Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20251020</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, NIAC.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
+    </div>
+  </body>
+</html>

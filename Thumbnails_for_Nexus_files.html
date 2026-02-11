@@ -1,0 +1,146 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Thumbnails for Nexus files</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="_static/rubric.css" type="text/css" />
+    <script src="_static/documentation_options.js?v=b08bce9f"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Time-of-Flight Neutron Powder Diffraction" href="Time-of-Flight_Neutron_Powder_Diffraction.html" />
+    <link rel="prev" title="Telco 20260211" href="Telco_20260211.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Time-of-Flight_Neutron_Powder_Diffraction.html" title="Time-of-Flight Neutron Powder Diffraction"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Telco_20260211.html" title="Telco 20260211"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Thumbnails for Nexus files</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="thumbnails-for-nexus-files">
+<h1>Thumbnails for Nexus files<a class="headerlink" href="#thumbnails-for-nexus-files" title="Link to this heading">¶</a></h1>
+<p>Thumbnails that a file browser (or even a web browser) can use to render
+a Nexus file shall be stored in an instance of NXnote directly below
+NXentry</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>entry:NXentry
+  thumbnail:NXnote
+    data:NX_BINARY
+    type:NX_CHAR
+    description:NX_CHAR
+</pre></div>
+</div>
+<p>The data field contains the binary data of the thumbail image. The image
+type is determined by the type field. We currently recommend the image
+to be stored as PNG. The description field can be used to store
+provenance data which may show up as a tool-tip when the mouse pointer
+hovers over the files icon.</p>
+<section id="topics-for-discussion">
+<h2>Topics for discussion<a class="headerlink" href="#topics-for-discussion" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>should it go to NXroot or NXentry?</p></li>
+<li><p>restrict the image type to PNG or leave this open?</p></li>
+<li><p>shall we restrict the size of the thumbnail image?</p></li>
+</ul>
+<p>Windows for instance uses 96x96 jpeg images.</p>
+</section>
+<section id="update-01-2015">
+<h2>Update 01/2015<a class="headerlink" href="#update-01-2015" title="Link to this heading">¶</a></h2>
+<p>This topic was discussed at NIAC 2014. As a directory may contain
+thousands of files, there are performance issues to be solved here. It
+was deemed to slow to open each file and extract the thumbnail from a
+NXnote. There are ideas to embed the thumbnail in the HDF5 file at a low
+level. Some experimentation is needed before this can be resolved.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Thumbnails for Nexus files</a><ul>
+<li><a class="reference internal" href="#topics-for-discussion">Topics for discussion</a></li>
+<li><a class="reference internal" href="#update-01-2015">Update 01/2015</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/wiki/issues/new">Get help</a></p>
+  </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><p>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+<br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.
+<br><a href="http://www.nexusformat.org/">Home</a>
+<br><a href="https://github.com/nexusformat">GitHub Organisation</a>
+<br>© 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC</a>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Time-of-Flight_Neutron_Powder_Diffraction.html" title="Time-of-Flight Neutron Powder Diffraction"
+             >next</a></li>
+        <li class="right" >
+          <a href="Telco_20260211.html" title="Telco 20260211"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Thumbnails for Nexus files</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, NIAC.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,216 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Telco 20260211</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="_static/rubric.css" type="text/css" />
+    <script src="_static/documentation_options.js?v=b08bce9f"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Thumbnails for Nexus files" href="Thumbnails_for_Nexus_files.html" />
+    <link rel="prev" title="Telco 20260120" href="Telco_20260120.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Thumbnails_for_Nexus_files.html" title="Thumbnails for Nexus files"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Telco_20260120.html" title="Telco 20260120"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" accesskey="U">Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20260211</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="telco-20260211">
+<h1>Telco 20260211<a class="headerlink" href="#telco-20260211" title="Link to this heading">¶</a></h1>
+<section id="date">
+<h2>Date<a class="headerlink" href="#date" title="Link to this heading">¶</a></h2>
+<p>Wednesday, 11th Feb, 15:00 UTC</p>
+</section>
+<section id="connect">
+<h2>Connect<a class="headerlink" href="#connect" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>ZOOM VC link: <a class="reference external" href="https://eu02web.zoom-x.de/j/67593699249?pwd=GPvAopqNNsikUS36NltUb4q695YsCG.1">https://eu02web.zoom-x.de/j/67593699249?pwd=GPvAopqNNsikUS36NltUb4q695YsCG.1</a></p></li>
+<li><p>Meeting ID: 675 9369 9249</p></li>
+<li><p>Passcode: nexus</p></li>
+</ul>
+</section>
+<section id="agenda">
+<h2>Agenda<a class="headerlink" href="#agenda" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>NeXus Ontology update</p></li>
+<li><p>Release</p></li>
+</ul>
+</section>
+<section id="present">
+<h2>Present<a class="headerlink" href="#present" title="Link to this heading">¶</a></h2>
+<p>SB, WdN, BW, PC, FdA, FS, HG, RB, TC, RO, ZM - MarkusK, LukasP (FAIRmat)</p>
+</section>
+<section id="minutes">
+<h2>Minutes<a class="headerlink" href="#minutes" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>NXxas_new</p>
+<ul>
+<li><p>WdN: presented the current status, and the problem of having too many different measurement modes with their respective speficities</p></li>
+<li><p>BW: proposed based classes show a good direction</p></li>
+<li><p>MK: NXelement, NXedge might use already accepted base classes, like NXpeak. What about covering EELS? Do we need to harmonize with EELS used in EM?</p></li>
+<li><p>BW: at the stage of contribution, it might be just enough to enable the community. Harmoinisation may come as a next step, but the priority is enabling the community.</p></li>
+<li><p>TC: All kinds of different instrumentation may require different parameters. Instead of having only a generic description, we may want to allow optional emelements and base classes capturing all specific.</p></li>
+<li><p>WdN: more and more hdf5 is used and so NXxas is long waited now, but the proposal has not been finalised. Any contribution is welcome. Still the question is shall we use different base classes for modes or extend a common AppDef.</p></li>
+<li><p>Suggestion from the Telco: 1. extend application definitions from NXxas 2. use base classes as modes in NXxas
+1: 6
+2: 5
+1 or 2: 3
+SB: It is clear 50-50 situation, so both directions seems to be OK and acceptable.</p></li>
+<li><p>HG: option 1 also allows easi connection to PaNET ontology.</p></li>
+</ul>
+</li>
+<li><p>Patch release</p>
+<ul>
+<li><p>PC: revoew of the status</p></li>
+<li><p>SB: 2 PRs need vote. During the Telco required votes were provided. Both PRs got accepted with 14 votes.</p></li>
+<li><p>RO: What is the information on PR #1561</p>
+<ul>
+<li><p>SB: AB expected example be included, but in Jan it was not provided, so this PR was not pushed any further</p></li>
+<li><p>RO: instead of a full and proper NXtransformation, it can be enough to record the angles only. The PR is addressing this use case.</p></li>
+<li><p>PC: NXmx uses NXtransformations to register the actual rotations and trsnalations</p></li>
+<li><p>RO: sometimes the full setup is not (or not properly) known.</p></li>
+<li><p>SB: an assumption for being able to interpret properly the rotation angle needs to know the rotation axis. NXtransfotrmation registers both axis and angle as a starting point for data analysis</p></li>
+<li><p>RO: there are always mistakes in the data and conventions are good to understand where to start the refinements.</p></li>
+<li><p>BW: NeXus Constructer from ESS could be a good tool for setting up a model of the beamline for NeXus</p></li>
+<li><p>TC: if motor positions are registered anyway somewhere what does NXgoniometer adds if the angles are not interpretable better  than in those other places.</p></li>
+<li><p>RO: Indeed, the use of NXcollection could have been another option instead of using NXgoniometer, problem that NXcollection is not meant to be well-defined for machine reading.</p></li>
+<li><p>WdN: why not NXmotors? (SB: NXactuator is already existing for this purpose)</p></li>
+<li><p>RO: Indeed, it could be. It is nice to have a reference to paper where the motor conventions are described.</p></li>
+<li><p>BW: Why not adding it to an NXnote?</p></li>
+<li><p>RO: it could be used like this, but it may result a too loose connection between the goniometer angle and the convention in which it was used. If there is any problem, it is more difficult to find where it is coming from if a whole chain of transformations needs to be investigated.</p></li>
+<li><p>SB: We may need to demonstrate the use NXtransofmreation, so Ray can better point out what he is lacking in it</p></li>
+<li><p>RO: angles are registered anyway, but they might also be put separately to NXtransformation. NXgoniometer would allow the users to know where to start looking for goniometer positions. Such a middle ground could also be viable.</p></li>
+<li><p>WdN: Would a DOI in NXtransformation would help?</p></li>
+<li><p>SB: we support it already. IDENTIFIER is available in every group.</p></li>
+<li><p>RO: problem is that transformation chains in NXtransformation is difficult to decouple and understand what belongs is what. E.g what is</p></li>
+<li><p>PC: NXgoniometer is a fixed set of pareameters, it is very similar to NXtransoformation. Transformations of different elements shall not be necessarily mixed.</p></li>
+<li><p>RO: writing NXtransformation requires more entry to be written, which makes its use uncomfortable.</p></li>
+<li><p>SB: we could organise a demo where NXtransformation and its use is demonstrated. It shall cover simple use cases, like goniometer motors, and allow questions about its practical usability.</p></li>
+<li><p>RO: Sure, an example would help to clarify if and what is missing compared to the proposed NXgoniometer.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>NeXus Ontology</p>
+<ul>
+<li><p>HG: we are moving from purl to w3id.</p></li>
+<li><p>SB: we need a contact person. Any nominations? If not, I nominate HG.</p></li>
+<li><p>WdN: +1</p></li>
+<li><p>HG: accepted the nomination</p></li>
+<li><p>SB: AB can then start a vote.</p></li>
+<li><p>MK: In w3id, we should name our ontology: ‘NeXus’.</p></li>
+</ul>
+</li>
+<li><p>NIAC 2026 meeting</p>
+<ul>
+<li><p>FdA: organisation has been started as a sattelite to NOBUGS on Sep 25-27, 2026.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="march-telco">
+<h2>March Telco<a class="headerlink" href="#march-telco" title="Link to this heading">¶</a></h2>
+<p>Please help to choose the date by responding to <a class="reference external" href="https://doodle.com/group-poll/participate/bYYMxPpb">the poll</a> by Feb 20.</p>
+<p>We are planning to hold the telco in the regular slot of UTC 15:00. Check your local time to avoid scheduling surprises!</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Telco 20260211</a><ul>
+<li><a class="reference internal" href="#date">Date</a></li>
+<li><a class="reference internal" href="#connect">Connect</a></li>
+<li><a class="reference internal" href="#agenda">Agenda</a></li>
+<li><a class="reference internal" href="#present">Present</a></li>
+<li><a class="reference internal" href="#minutes">Minutes</a></li>
+<li><a class="reference internal" href="#march-telco">March Telco</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/wiki/issues/new">Get help</a></p>
+  </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><p>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+<br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.
+<br><a href="http://www.nexusformat.org/">Home</a>
+<br><a href="https://github.com/nexusformat">GitHub Organisation</a>
+<br>© 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC</a>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Thumbnails_for_Nexus_files.html" title="Thumbnails for Nexus files"
+             >next</a></li>
+        <li class="right" >
+          <a href="Telco_20260120.html" title="Telco 20260120"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" >Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20260211</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, NIAC.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
+    </div>
+  </body>
+</html>
