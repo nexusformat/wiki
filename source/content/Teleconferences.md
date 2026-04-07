@@ -20,6 +20,8 @@ We aim to publish an agenda a few days in advance of the meetings.
 
 ### 2026
 
+[Telco 20260429](Telco_20260429.html "wikilink") Wednesday, 29th Apr, 15:00 UTC
+
 [Telco 20260318](Telco_20260318.html "wikilink") Wednesday, 18th Mar, 15:00 UTC
 
 [Telco 20260211](Telco_20260211.html "wikilink") Wednesday, 11th Feb, 15:00 UTC
