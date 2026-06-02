@@ -152,6 +152,7 @@ Special Interest Groups: The NeXus International Advisory Committee will appoint
 Meetings
 --------
 
+-   [NIAC2026](NIAC2026.html) NIAC Meeting, (hybrid) hosted
 -   [NIAC2024](NIAC2024.html) NIAC Meeting, (hybrid) hosted
     by ESRF & the Institut Laue-Langevin (ILL), in Grenoble France, September 2024
 -   [Code Camp June 2023](CodeCampJune2023.html): Code Camp, (virtual)
