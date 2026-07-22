@@ -16,7 +16,6 @@ Current Members
 -   Thomas Caswell, Brookhaven National Laboratory/NSLS-II, USA
 -   Bjørn Clausen, Los Alamos National Laboratory, USA
 -   Heike Görzig, Helmholtz Zentrum Berlin, Germany
--   Pete Jemian, Advanced Photon Source, USA
 -   Raymond Osborn, Argonne National Laboratory, USA (*non-facility member*)
 -   Wout de Nolf, European Synchrotron Radiation Facility, France
 -   _Takahiro Matsumoto, Spring8, Japan_
@@ -28,7 +27,9 @@ Current Members
 -   Paul Millar, DESY, Germany
 -   Zdenek Matej, MAX IV, Sweden
 -   Fernan Saiz, ALBA, Spain
--   Fredrik Bolmsten, ESS, Sweden
+-   Gregory Tucker, ESS, Sweden
+-   Mark Wolfman, Advanced Photon Source, USA
+
 
 See the page with the [expiration dates](Membership_Dates.html "wikilink") for when the current terms of the various members end and we require a new facility endorsement and vote (see below).
 
