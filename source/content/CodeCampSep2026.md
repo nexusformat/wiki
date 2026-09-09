@@ -10,7 +10,7 @@ The Sept 2026 NeXus Code Camp is scheduled on Sep 9th as preparatory session bef
 
 ## Issues and pull requests
 
-To help the upcoming code camp organize and track its work, a [GitHub project][https://github.com/orgs/nexusformat/projects/6) has
+To help the upcoming code camp organize and track its work, a [GitHub project](https://github.com/orgs/nexusformat/projects/6) has
 been created. 
 
 ## Meetings Schedule
@@ -21,4 +21,3 @@ We will use the same Zoom meeting:
 * https://eu02web.zoom-x.de/j/67593699249?pwd=GPvAopqNNsikUS36NltUb4q695YsCG.1
 * Meeting ID: 675 9369 9249
 * Password: nexus
-* 
