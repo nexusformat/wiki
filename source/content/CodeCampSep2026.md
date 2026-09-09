@@ -8,10 +8,14 @@ NeXus Code Camp - Sept 2026
 
 The Sept 2026 NeXus Code Camp is scheduled on Sep 9th as preparatory session before the in person NIAC 2026 Meeting, and will focus on cleaning up and prioritizing issues for the meeting.
 
+## Participants
+
+SB, AB, RB, BW, PC, WdN, GT, MW, HB, RO, ZM - FAIRmat: MK, LP
+
 ## Issues and pull requests
 
 To help the upcoming code camp organize and track its work, a [GitHub project](https://github.com/orgs/nexusformat/projects/6) has
-been created.  
+been created with prioritized columns.  
 Contributed definitions are reviewed under the [issue #1639](https://github.com/nexusformat/definitions/issues/1639)
 
 ## Meetings Schedule
