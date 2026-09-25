@@ -13,7 +13,7 @@ Participants:
 - online:  + 
 
 
-## NIAC2024 Minutes
+## NIAC2026 Minutes
 
 Session A: Sept 25th 08:00 UTC
 ------------------------------
