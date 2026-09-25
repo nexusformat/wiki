@@ -16,6 +16,7 @@ Participants:
   - Andre Costa
   - Renee Helfert
   - Christopher Philip Schleisinger
+  - Celine Durniak
   - Erika McPhillips - SLAC
   - Mustafa Alzubi - SESAME
   - Marius Retegan - ESRF
@@ -35,13 +36,14 @@ Participants:
   - Peter Braun - HZB
   - Hector Perez Ponce - HZB
   - Sonal Patel - HZB
-  - Sarah Foxley - ISIS
+  - Sarah Foxley - ISIS, Mantid Team Lead (sarah.foxley@stfc.ac.uk)
   - Yannick Meinerzhagen - RWTH Aachen
   - Meghdad Yazdi - MAX IV
+  - Jeremy Metz - MAX IV
   - Clemens Vonrhein - Global Phasing
   - Patrick Pereira - SOLEIL
   - Daniel Eriksson - Australian Synchrotron
-  - Abhjeet Gaur - KIT
+  - Abhijeet Gaur - KIT
   - Florin Boariu - Uni Potsdam
 
 
@@ -142,6 +144,7 @@ Session B: Sept 25th 11:30 UTC
       - how to deal with only partial data?
     - how to extend the schema?
     - NXDL is a blocker; NYAML helps, but still uncomfortable unconvential rules e.g. PARTIAL names
+    - generic concepts are not enough to know what is the role of a specific NXslit. use specific readable name? is it enough? external link to a specification or ontology concept? documentation in datafile? feature?...) 
   - what is the role of NIAC:
     - stear the definitions
     - also tutorials and facilitaion (better documentation) of working with NeXus? 
@@ -149,10 +152,66 @@ Session B: Sept 25th 11:30 UTC
 Session C: Sept 25th 14:00 UTC
 ------------------------------
 - HO (HZB):
+  - NeXus Creator with NXDL guided placement of (meta)data
+  - questions/proposals:
+    - NXDL could have better descripotions/hints for what a specific definition is for. Maybe aliases (generic choice for the name)?
+    - what is the preferred way to create a file? Master file with slaves or a big file with mutiple entry or one big entry?
+    - How to put description to a NeXus file (to document a specific element)?
+    - No AppDef yet for operando_eis
 - YM (RWTH):
+  - NX Appdef for TOF powder diffraction (POWTEX instrument for multidimensional measurements) following the structure of NXsnsevent
+  - plan:
+    - Mantid data analysis input and output results shold also go back to the NeXus file
+    - instrument parameters should be in NeXus
+  - problem/question:
+    - NeXus validation issues when creating a file manually (or with NXcreator)
+      - cnxvalidate does not recognise partial names
+      - NeXpy also shows error regarding the incorrect use of symbols
+    - use of curved detectors?  
 - MY (MaxIV):
+  - NXazint[12]d (result of azimuthal integration type of data processing): detectors -> NeXus
+  - plan:
+    - NeXus for MPES techniques
+  - questions:
+    - what is the minimal necessary data in a NeXus file? Maybe: all what is needed by data analysis tools intended to be used by the community. Consult with local and external developpers!
+    - multiple subentries in a single entry. Shall an AppDef ask for Subentries with specific Application Defintion?
 - MR (ESRF):
-
+  - AppDef family for XAS to cover all kinds of XAS based experiments with light processing
+  - ESRF DAQ produced h5 files can be processed to NXxas... files after data processing
+  - AI can interpret perfectly these NeXus files
+  - IXAS and XAS committee of IUCr are positive
+  - problems with NXxas NXxasproc:
+    - not used by the community
+    - rigid structure not supporting the actual experiment types
+    - why two separate AppDefs? this could fit in one file
+  - questions/suggestions:
+    - raw data could go to NXcollection
+    - NXprocess fields could reference data in NXcollection
+    - What to do with data in ESRF DAQ produced hdf5 files
+    - how to manage multi detection experiments
+    - how deprication works?
+    - how reference is modelled?
+    - what about sample preparation? generic sample vs. actual sample?
+- discussion:
+  - suggestion for new definitions
+    - make prototypes (current status and additions)
+    - try in the community
+    - form a proposal
+    - socialize it to NIAC
+      - issue
+      - PR
+      - Telco
+      - email lists
+    - Ratification
+      - Change -> NIAC vote
+      - new contributions go to contributed definiotions, when ready -> NIAC vote
+  - New format: well accepted
+  - potential new communication channels: discord, slac, matrix, zulib
+  - examples and tutorials
+    - mock data vs. real data
+    - correct data should be available and maintained by the community
+    - AI knows about NeXus and can also efficiently asked
+  
 Session D: Sept 26th 18:00 UTC
 ------------------------------
 
