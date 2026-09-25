@@ -9,12 +9,13 @@ NIAC2026 Minutes
 
 Participants:
 -------------
-- NIAC in person: AB, SB, FdA, RB, HG, WdN, PM, MW, ZM, PC, RO, BB, HG, (TM) 
+- NIAC in person: AB, SB, FdA, RB, HG, WdN, PM, MW, ZM, PC, RO, BB, HG, MO, (TM) 
 - NIAC online: HB, BW, BB, GT
 - other participants:
   - Aaron Finke
   - Andre Costa
   - Renee Helfert
+  - Christopher Philip Schleisinger
   - Erika McPhillips - SLAC
   - Mustafa Alzubi - SESAME
   - Marius Retegan - ESRF
@@ -38,6 +39,10 @@ Participants:
   - Yannick Meinerzhagen - RWTH Aachen
   - Meghdad Yazdi - MAX IV
   - Clemens Vonrhein - Global Phasing
+  - Patrick Pereira - SOLEIL
+  - Daniel Eriksson - Australian Synchrotron
+  - Abhjeet Gaur - KIT
+
 
 ## NIAC2026 Minutes
 
@@ -80,7 +85,10 @@ Session A: Sept 25th 08:00 UTC
 
 Session B: Sept 25th 11:30 UTC
 ------------------------------
-
+- EMcP (SLAC):
+- LP (FAIRmat):
+- IL (FRM II):
+- PB (HZB):
 
 Session C: Sept 25th 14:00 UTC
 ------------------------------
