@@ -42,6 +42,7 @@ Participants:
   - Patrick Pereira - SOLEIL
   - Daniel Eriksson - Australian Synchrotron
   - Abhjeet Gaur - KIT
+  - Florin Boariu - Uni Potsdam
 
 
 ## NIAC2026 Minutes
@@ -81,18 +82,76 @@ Session A: Sept 25th 08:00 UTC
 - MA (SESAME):
   - no NeXus yet, but hdf5 writer is accepting template which could be NeXus
   - aim: uniform data format (e.g. NeXus: NXxas, NXmonopd, NXtomo,...)
-  - bottlneck: efficient support from NIAC can  
+  - bottleneck: efficient support from NIAC can  
 
 Session B: Sept 25th 11:30 UTC
 ------------------------------
 - EMcP (SLAC):
+  - data compression in NXmx (compression level and read is good, but not ideal)
+  - question: any better and standardised way?
+  - saprse data: could HDF5 lib cover it? what about looking at it as event data? or as data processing/reduction result?
 - LP (FAIRmat):
+  - NeXus in NOMAD
+  - NeXus Ontology to place NeXus Metadata into semantic ontology world
+  - plan: more flexible experiment description, incl. multi-model experiments
+  - need:
+    - improve and clarify NXDL to describe semantics better
+    - use of PIDs
+    - link NeXus to external knowledge (e.g. ontologies)
+    - multimodel experiments
+    - how wide NeXus coverage shall be in terms of experiment techniques 
 - IL (FRM II):
+  - zoo of data formats
+  - plan:
+    - move to NeXus (and use it with Mantid, Miezepy, OpenHKL, Steca, Ufit, BerSANS...)
+    - use NXtransofmration for complex geometry detector description
+    - store simulation data in NeXus, too
+    - also processed/reduced data should go to NeXus (like NX in Mantid)
+  - questions:
+    - how to best create new application definitinos
+    - shall we propose new defintion or rather (miss)use not 100% fitting base classes
+    - where to put unnecessary Nicos (DAQ) parameters? may be difficult to decide what is needed what is not.
+    - shall we use master-file and original raw data to separate files
+    - multi-modal experiments
+    - how to use PIDs
+    - new definitinos shall have only proper description , or name must also be  descriptive?
+    - needs of the TAS (Triple Axis Spectroscopy) community? will name harmonisation needed?
+    - next to new AppDefs, new base classes are also needed
 - PB (HZB):
+  - SECoP (Sample Environment) -> NeXus, and now more generic needs for Operando (measured during operation) experiments
+  - needs:
+    - multi-modal experiments
+    - hardware setup description
+    - link to external knowledge
+    - supporting 'identifier's for fields, too, not only for groups
+  - questions/comments:
+    - measurements may go parallel or subsequential or overalpping
+    - shall we have an NXmass_spectrometry or just describe things in NXenvironment? or somewhere else in the NeXus tree?
+    - global timestamps for all subexperiments
+    - global view (during the full experiment) for sensors/stages (not only in a subtechnique)
+    - instead of AppDefs, maybe base classes with runtime annotation with ontology links
+    - how to link a definition (and not a data item) to an ontology concept?
+    - what about chemical formula which also changes during operando
+- discussion:
+  - what is a blocker with NeXus
+    - availability of tools
+    - how to use NeXus at all?
+    - what to do when an application (architecture/structure) misses information
+      - archiver format? interchange format?
+      - sematic definition being independent from actual binary representation?
+      - how to deal with only partial data?
+    - how to extend the schema?
+    - NXDL is a blocker; NYAML helps, but still uncomfortable unconvential rules e.g. PARTIAL names
+  - what is the role of NIAC:
+    - stear the definitions
+    - also tutorials and facilitaion (better documentation) of working with NeXus? 
 
 Session C: Sept 25th 14:00 UTC
 ------------------------------
-
+- HO (HZB):
+- YM (RWTH):
+- MY (MaxIV):
+- MR (ESRF):
 
 Session D: Sept 26th 18:00 UTC
 ------------------------------
