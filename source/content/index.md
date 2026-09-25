@@ -123,6 +123,7 @@ NIAC2024.md
 NIAC2024_minutes.md
 NIAC2022_fall_minutes.md
 NIAC2026.md
+NIAC2026_minutes.md
 NIACActionItems.md
 NIACAPI.md
 NIACClasses.md
