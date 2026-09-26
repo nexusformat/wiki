@@ -338,12 +338,27 @@ Session E: Sept 26th 11:30 UTC
     - 5 App Def
     - 16 Base Classes
     - rendered documentation is under https://fairmat-nfdi.github.io/nexus_definitions/classes/contributed_definitions/spm-structure.html
-  - XAS
+  - XAS PR#1619
   - @target 
 
 Session F: Sept 26th 14:00 UTC
 ------------------------------
-
+- PR#1619 XAS (see also PR#1352)
+  - AB: community needs NXatom and NXelement as separate concepts
+  - SB: NXelement: why do we have long enum list with docuemtation repeating well known physics standard?
+  - BW: NXauger_line/NXemission_line: why an enum list rather than a regexp?
+  - WdN: auger lines do not seem to be a complete list
+  - PC: The list in current base class does not support properly neutron spectroscopy
+  - BW: next to element, a separate definition is needed for isotopes
+  - AB: Would not it be enough to add mass number to NXelement?
+  - HG: enumeration allows ontology mapping to external knowledge base.
+  - NIAC suggestions and questions are posted to the PR
+  - WdN: request was to keep it in contributed
+  - AB: if community agrees, this could go to the standard base classes directly
+  - accepted with the notes (12/0/1)
+- PR #1640 XAS
+  - WdN: AppDefs are requested to stay contributed for the time being
+  - NIAC discussed several topics and put suggestions into the PR
 
 Session G: Sept 27th 08:00 UTC
 ------------------------------
