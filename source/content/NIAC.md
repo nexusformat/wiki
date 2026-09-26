@@ -30,6 +30,7 @@ Current Members
 -   Gregory Tucker, ESS, Sweden
 -   Mark Wolfman, Advanced Photon Source, USA
 
+_non voting members are written in italic_
 
 See the page with the [expiration dates](Membership_Dates.html "wikilink") for when the current terms of the various members end and we require a new facility endorsement and vote (see below).
 
@@ -89,7 +90,9 @@ representation of the international community. It will consist of at
 most one voting representative from each major neutron, synchrotron
 x-ray, and muon facility. Membership would normally be for a three year
 renewable term. Members will be nominated by each facility through the
-facility director and approved by the existing committee. Each member
+facility director and approved by the existing committee. 
+If the nomination of a voting member expires, the status changes 
+automatically to non-voting membership for a year. Each member
 can appoint a substitute to attend a particular meeting.
 
 The committee reserves the right to appoint additional members for a
@@ -120,7 +123,7 @@ executive officers:
 All of these officers will be elected for a two year term. The incumbent
 chair and executive secretary are limited to two consecutive terms.
 
-Voting: Only members of the NeXus International Advisory Committee will 
+Voting: Only voting members of the NeXus International Advisory Committee will 
 be able to vote on specific proposals that come under the remit of the 
 committee. However, all debates will be conducted publicly and 
 non-committee members are both allowed and encouraged to participate.  
