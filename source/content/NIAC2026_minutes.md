@@ -221,8 +221,8 @@ Staurday Participants:
 
 Session D: Sept 26th 18:00 UTC
 ------------------------------
-- Topics
-  - NIAC2026 Project board #6
+- Agenda points
+  - NIAC2026 Project board https://github.com/orgs/nexusformat/projects/6/views/1
     - Ready for vote
     - Ready for final check
     - Ready
@@ -237,47 +237,50 @@ Session D: Sept 26th 18:00 UTC
     - MW: tutorials, documentaion
     - LP: target attribute, ontology
     - ZM: cleaning the documentation, NXazint
-- Has the NIAC the right size? Are we agile enough?
+- AB: Has the NIAC the right size? Are we agile enough?
   - at the moment:
     - 20 voting members at the moment
     - 2/3 requirement: 13 votes
     - some inactive members
-  - BW: more contributing members would be better, but inactive members are a bottleneck. Clear advertisement of the needs. Maybe: setting up a new role: contributing NIAC members? (e.g. MK, LP, etc.) and have NIAC voting member.
-  - AB: add expertise and interests.
-  - AB: corum requirement to be reduced. 50%?
-  - BW: rather voting and non voting members
-- New NIAC responsibility?
+  - BW: more contributing members would be better, but inactive members are a bottleneck. Clear advertisement of the expectations. Maybe: setting up a new role those who want to be involved, but shallnot necessary hold a volting right: contributing NIAC members? (e.g. MK, LP, etc.) and have specific category for NIAC voting member.
+  - AB: member list could also include the expertise and interests of specific contributing members.
+  - AB: corum requirement should be reduced. 50%?
+  - BW: rather separate the voting and non-voting members
+- AB: do we need a new NIAC responsibility?
   - now: spec, examples, validator
   - new: turorial?
-  - AB: do we miss a medium level tutorial?
-  - IL: working, facility examples with explanation why they are put together as they are
-  - LP: how to write definition and how to contribute
-  - HG: how to start with something new, like pump-probe
+  - AB: do we miss medium level tutorials?
+  - IL: working, real facility examples with explanation why they are put together as they are
+  - LP: how to write new definition and how to contribute to NeXus
+  - HG: how to start with something new, like pump-probe experiments
   - MW: separation between Using and Developping NeXus
-  - RB: AI prompt?
+  - RB: maybe an AI prompt on top of the documentation?
   - WdN: move away from XML and use pydantic
   - AB: cleaner and simplified documentation (e.g. doctree is full with unrelevant topics)
     - LP: https://fairmat-nfdi.github.io/pynxtools/tutorial/writing-an-application-definition.html
     - HG: https://hz-b.github.io/2026_BESSYII_Datathon/
   - HB: SQL ontology is needed for human tracibility
   - AB: let us create an issue for this
-- make examples more visible
+- AB: make examples more visible
   - Examples on the main page
   - Examples for each App Def
   - More community examples (links?)
-  - NeXus file interpretor (tool to connect NeXud groups/fields/attrs to Vocabulary Item)
-  - github actio for checking defintions against known example data files
-  - diataxis
+  - NeXus file interpretor (tool to connect NeXud groups/fields/attrs in a data file to Vocabulary Items of the NeXus definitions)
+  - github action for checking defintions (and definitions changes) against known example data files
+  - diataxis for examples and documentation in general
   - Code-Camp for it
 - NIAC Roles
   - Technical Manager
-    - NAPI is not there anynore
+    - existing, but unfilled role for NAPI that is not there anymore
     - instead, an official validator could be added as a task for this role
-    - RO: cnxvalidate is there but not developped any more. Python API could be strangthened by more contributors: e.g. with pynxtools
-    - BW: single source of truth in NeXus is the defintion in NXDL. It shall not be the validator which provides the truth. A validator is good, but it should follow the NXDL definitions. A single person should be responsible for guaranteeing integrity between definitinnosn and validation.
+    - RO: cnxvalidate is there but not developped any longer. Python API could be strangthened by more contributors (e.g. with pynxtools)
+    - BW: single source of truth in NeXus is the defintion in NXDL. It shall not be the validator which provides the truth. A validator is good, but it should follow the NXDL definitions. Can a single person be responsible for guaranteeing integrity between definitions and validation? Tech manager shall be responsible for the validation tool and we also need one for managing NXDL.
     - HB: NeXus connectivity to databases should be enabled. Database referential integrity should be maintained via normalisation.
-      - AB: we need a specific example to demonstrate the probelm
+      - SB,LP: NOMAD (in FAIRmat) solves the probelm using mongoDB
+      - HG: ontology, triplets and SPARQL is also a way (DAPHNE is looking at) 
+      - AB: we need a specific example to demonstrate the actual probelm
   - Ontology Manager
+    - it can be defined as an official role
     - ensures the relationship with semantic world
   - NIAC Executive Chair
     - FdA is volunteering
@@ -296,7 +299,7 @@ Session D: Sept 26th 18:00 UTC
     - accepted (13/0/0)
 - PR #1331
   - BW: allowing multiple mirrors, we may want to give an attribute for the role of the mirror
-  - PC,SB: NXcomponent allows the description of even complex beam paths, so even more than the role can already now be described
+  - PC,SB: NXcomponent already allows the description of even complex beam paths, so even more than just a role can already now be described
   - GT: it is not clear why NXmonochromator exists at all if NXcomponent would be just enough
   - AB: put the questions into an issue
   - accepted (11/0/2)
