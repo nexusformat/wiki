@@ -219,7 +219,7 @@ Saturday Participants:
 - NIAC online: HB, BW, GT
 - other participants: IL, JK, LP, SP, RM, GON
 
-Session D: Sept 26th 18:00 UTC
+Session D: Sept 26th 08:00 UTC
 ------------------------------
 - Agenda points
   - NIAC2026 Project board https://github.com/orgs/nexusformat/projects/6/views/1
@@ -306,7 +306,40 @@ Session D: Sept 26th 18:00 UTC
 
 Session E: Sept 26th 11:30 UTC
 ------------------------------
-
+- PR #1327
+  - RO: why not an NXenvironment for (every) NXcomponent
+  - LP: yes, but specializing an NXinstrument with special description provides a possibility for a recepie how to describe its environment
+  - WdN: Warning! NXenvironment has NXcomponents, so an NXcomponent would have NXcomponents inside.
+  - AB: just take it as is. Note that if a subcomponent has an environemnt already defined (e.g. Sample) than that this environemnt should be used instead.
+  - BW: an environemnt should be external to the component it is providing environment for.
+  - SB: Can an NXinstrument has another NXinstrument inside? Similarly, an NXcomponent another NXcomponent inside?
+  - AB: We can support the specific requests as they are coming.
+  - BW: +1, We can now add where it is now requested and if new request comes, we can then add there, too.
+  - HG: Operando project is addressing this question, so we may wait until the request is clarified.
+  - SP: as BW said, we can add it to both places
+  - GON: be carefull with its use
+  - AB: go for it with clear description
+  - RO,SB: specialisation of excluding the possibility to have an NXenvironemnt in /NXcomponent/NXsensor and NXactuator is not needed.
+  - accepted (11/1/1)
+- PR #1330
+  - accepted (13/0/0)
+  - BW: documentation could be further clarified that both funtion and/or mechanism can be described here.
+  - AB: this documentaion improvment does not need a special vote
+- PR #1654
+  - SB: original aim was to warn people not to write free text, but rather reference existing documentation (e.g. ISO standard, Instrument manual, etc.) if possible. This is actually a general rule, and can be made clear as a general idea in the documentaion, rather then writing it everywhere. 
+  - accepted (12/0/1)
+- PR #1653
+  - PC: Is is needed at Diamond and shall be used in NXdetector
+  - RO: It is like a view definition. Is not this definition too specific?
+  - PC: Indeed, if it needs to be extended, it can be done.
+  - GON: signal and aux_signal in NXdata shall be consistant. Different downsampling requires multiple NXdata results.
+- What is in front of us:
+  - AFM/SPM PR#1632
+    - 5 App Def
+    - 16 Base Classes
+    - rendered documentation is under https://fairmat-nfdi.github.io/nexus_definitions/classes/contributed_definitions/spm-structure.html
+  - XAS
+  - @target 
 
 Session F: Sept 26th 14:00 UTC
 ------------------------------
