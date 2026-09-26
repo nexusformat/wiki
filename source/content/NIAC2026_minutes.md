@@ -213,7 +213,7 @@ Session C: Sept 25th 14:00 UTC
     - AI knows about NeXus and can also efficiently asked
   
 
-Staurday Participants:
+Saturday Participants:
 ----------------------
 - NIAC in person: AB, SB, FdA, HG, WdN, ZM, MW, RB, PC, RO, (TM)
 - NIAC online: HB, BW, GT
