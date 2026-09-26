@@ -9,7 +9,7 @@ NIAC2026 Minutes
 
 Participants:
 -------------
-- NIAC in person: AB, SB, FdA, RB, HG, WdN, PM, MW, ZM, PC, RO, BB, HG, MO, (TM) 
+- NIAC in person: AB, SB, FdA, RB, HG, WdN, PM, MW, ZM, PC, RO, MO, (TM) 
 - NIAC online: HB, BW, BB, GT
 - other participants:
   - Aaron Finke
@@ -212,9 +212,94 @@ Session C: Sept 25th 14:00 UTC
     - correct data should be available and maintained by the community
     - AI knows about NeXus and can also efficiently asked
   
+
+Staurday Participants:
+----------------------
+- NIAC in person: AB, SB, FdA, HG, WdN, ZM, MW, RB, PC, RO, (TM)
+- NIAC online: HB, BW, GT
+- other participants: IL, JK, LP, SP, RM, GON
+
 Session D: Sept 26th 18:00 UTC
 ------------------------------
-
+- Topics
+  - NIAC2026 Project board #6
+    - Ready for vote
+    - Ready for final check
+    - Ready
+    - Litle to do
+    - Medium to do
+    - Major to do
+  - Further wishes to be discussed
+    - WdN: NXxas
+    - HG: Operando related questions
+    - RB: example repo and its visibility
+    - FdA: community wishes, communication
+    - MW: tutorials, documentaion
+    - LP: target attribute, ontology
+    - ZM: cleaning the documentation, NXazint
+- Has the NIAC the right size? Are we agile enough?
+  - at the moment:
+    - 20 voting members at the moment
+    - 2/3 requirement: 13 votes
+    - some inactive members
+  - BW: more contributing members would be better, but inactive members are a bottleneck. Clear advertisement of the needs. Maybe: setting up a new role: contributing NIAC members? (e.g. MK, LP, etc.) and have NIAC voting member.
+  - AB: add expertise and interests.
+  - AB: corum requirement to be reduced. 50%?
+  - BW: rather voting and non voting members
+- New NIAC responsibility?
+  - now: spec, examples, validator
+  - new: turorial?
+  - AB: do we miss a medium level tutorial?
+  - IL: working, facility examples with explanation why they are put together as they are
+  - LP: how to write definition and how to contribute
+  - HG: how to start with something new, like pump-probe
+  - MW: separation between Using and Developping NeXus
+  - RB: AI prompt?
+  - WdN: move away from XML and use pydantic
+  - AB: cleaner and simplified documentation (e.g. doctree is full with unrelevant topics)
+    - LP: https://fairmat-nfdi.github.io/pynxtools/tutorial/writing-an-application-definition.html
+    - HG: https://hz-b.github.io/2026_BESSYII_Datathon/
+  - HB: SQL ontology is needed for human tracibility
+  - AB: let us create an issue for this
+- make examples more visible
+  - Examples on the main page
+  - Examples for each App Def
+  - More community examples (links?)
+  - NeXus file interpretor (tool to connect NeXud groups/fields/attrs to Vocabulary Item)
+  - github actio for checking defintions against known example data files
+  - diataxis
+  - Code-Camp for it
+- NIAC Roles
+  - Technical Manager
+    - NAPI is not there anynore
+    - instead, an official validator could be added as a task for this role
+    - RO: cnxvalidate is there but not developped any more. Python API could be strangthened by more contributors: e.g. with pynxtools
+    - BW: single source of truth in NeXus is the defintion in NXDL. It shall not be the validator which provides the truth. A validator is good, but it should follow the NXDL definitions. A single person should be responsible for guaranteeing integrity between definitinnosn and validation.
+    - HB: NeXus connectivity to databases should be enabled. Database referential integrity should be maintained via normalisation.
+      - AB: we need a specific example to demonstrate the probelm
+  - Ontology Manager
+    - ensures the relationship with semantic world
+  - NIAC Executive Chair
+    - FdA is volunteering
+    - SB secunded
+    - noone else volunteered
+    - accepted (13/0/0)
+  - NIAC Executive Secretary  
+    - RB is volunteering
+    - RO secunded 
+    - noone else volunteered
+    - accepted (13/0/0)
+  - NIAC Definition Release Manager  
+    - PC is volunteering
+    - RB secunded 
+    - noone else volunteered
+    - accepted (13/0/0)
+- PR #1331
+  - BW: allowing multiple mirrors, we may want to give an attribute for the role of the mirror
+  - PC,SB: NXcomponent allows the description of even complex beam paths, so even more than the role can already now be described
+  - GT: it is not clear why NXmonochromator exists at all if NXcomponent would be just enough
+  - AB: put the questions into an issue
+  - accepted (11/0/2)
 
 Session E: Sept 26th 11:30 UTC
 ------------------------------
