@@ -1,0 +1,690 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>NIAC2026 Minutes</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="_static/rubric.css" type="text/css" />
+    <script src="_static/documentation_options.js?v=b08bce9f"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="NIACActionItems" href="NIACActionItems.html" />
+    <link rel="prev" title="NIAC2026" href="NIAC2026.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NIACActionItems.html" title="NIACActionItems"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="NIAC2026.html" title="NIAC2026"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NIAC2026 Minutes</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="niac2026-minutes">
+<h1>NIAC2026 Minutes<a class="headerlink" href="#niac2026-minutes" title="Link to this heading">¶</a></h1>
+<section id="participants">
+<h2>Participants:<a class="headerlink" href="#participants" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>NIAC in person: AB, SB, FdA, RB, HG, WdN, PM, MW, ZM, PC, RO, MO, (TM)</p></li>
+<li><p>NIAC online: HB, BW, BB, GT</p></li>
+<li><p>other participants:</p>
+<ul>
+<li><p>Aaron Finke</p></li>
+<li><p>Andre Costa</p></li>
+<li><p>Renee Helfert</p></li>
+<li><p>Christopher Philip Schleisinger</p></li>
+<li><p>Celine Durniak</p></li>
+<li><p>Erika McPhillips - SLAC</p></li>
+<li><p>Mustafa Alzubi - SESAME</p></li>
+<li><p>Marius Retegan - ESRF</p></li>
+<li><p>George O’Neill - ESS</p></li>
+<li><p>Mridul Sath - ESS</p></li>
+<li><p>Diego Gaemperle - DECTRIS</p></li>
+<li><p>Jonas Fortmann - ZBT</p></li>
+<li><p>Iryna Lypova - FRM II / TUM</p></li>
+<li><p>Jan Kotanski - DESY</p></li>
+<li><p>Loas Kron-Batenburg - RDL IUCrData</p></li>
+<li><p>Markus Kuehbach - FAIRmat</p></li>
+<li><p>Rubel Mozumder - FAIRmat</p></li>
+<li><p>Lukas Pilsticker - FAIRmat</p></li>
+<li><p>Oleksii Turkot - EuXFEL</p></li>
+<li><p>Paulo Mausbach - SIRIUS</p></li>
+<li><p>Eva Lott - HZB</p></li>
+<li><p>Peter Braun - HZB</p></li>
+<li><p>Hector Perez Ponce - HZB</p></li>
+<li><p>Sonal Patel - HZB</p></li>
+<li><p>Sarah Foxley - ISIS, Mantid Team Lead (<a class="reference external" href="mailto:sarah&#46;foxley&#37;&#52;&#48;stfc&#46;ac&#46;uk">sarah<span>&#46;</span>foxley<span>&#64;</span>stfc<span>&#46;</span>ac<span>&#46;</span>uk</a>)</p></li>
+<li><p>Yannick Meinerzhagen - RWTH Aachen</p></li>
+<li><p>Meghdad Yazdi - MAX IV</p></li>
+<li><p>Jeremy Metz - MAX IV</p></li>
+<li><p>Clemens Vonrhein - Global Phasing</p></li>
+<li><p>Patrick Pereira - SOLEIL</p></li>
+<li><p>Daniel Eriksson - Australian Synchrotron</p></li>
+<li><p>Abhijeet Gaur - KIT</p></li>
+<li><p>Florin Boariu - Uni Potsdam</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="id1">
+<h2>NIAC2026 Minutes<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h2>
+</section>
+<section id="session-a-sept-25th-08-00-utc">
+<h2>Session A: Sept 25th 08:00 UTC<a class="headerlink" href="#session-a-sept-25th-08-00-utc" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>GON (ESS):</p>
+<ul>
+<li><p>Status</p>
+<ul>
+<li><p>JSON on top of NeXus;</p></li>
+<li><p>only base classes;</p></li>
+<li><p>users not understand the sandard details;</p></li>
+<li><p>JSON walk &amp; SCIPP: NXtransformation viewer;</p></li>
+<li><p>most used: NXevent_data, NXdata, NXlog, NXtextlog</p></li>
+</ul>
+</li>
+<li><p>plan:</p>
+<ul>
+<li><p>NeXus in the center;</p></li>
+<li><p>easy XML definition extensions;</p></li>
+<li><p>smoother acquistion/writer,</p></li>
+<li><p>better visualisation,</p></li>
+<li><p>more NX contribution,</p></li>
+<li><p>integration with McStas;</p></li>
+<li><p>improvments for geometries</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>JK (DESY):</p>
+<ul>
+<li><p>h5cpp, pninexus, pythin-pninexus writer</p></li>
+<li><p>NeXpy viewer</p></li>
+<li><p>AppDefs started to be used (NXmpes)</p></li>
+<li><p>Need:</p>
+<ul>
+<li><p>not all required fields are available, but it is now better because requirements are more relaxed</p></li>
+<li><p>hdf5 performance issue with simultanious write and read</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>EL (HZB):</p>
+<ul>
+<li><p>bluesky - NeXus (to NOMAD)</p></li>
+<li><p>device definitions to NeXus</p></li>
+<li><p>needs</p>
+<ul>
+<li><p>mapping to App defs (pydentic model from NXDL)</p></li>
+<li><p>referencing external asset documents</p></li>
+<li><p>Tile integration</p></li>
+<li><p>NXcollection -&gt; NXbag?</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>MA (SESAME):</p>
+<ul>
+<li><p>no NeXus yet, but hdf5 writer is accepting template which could be NeXus</p></li>
+<li><p>aim: uniform data format (e.g. NeXus: NXxas, NXmonopd, NXtomo,…)</p></li>
+<li><p>bottleneck: efficient support from NIAC can</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="session-b-sept-25th-11-30-utc">
+<h2>Session B: Sept 25th 11:30 UTC<a class="headerlink" href="#session-b-sept-25th-11-30-utc" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>EMcP (SLAC):</p>
+<ul>
+<li><p>data compression in NXmx (compression level and read is good, but not ideal)</p></li>
+<li><p>question: any better and standardised way?</p></li>
+<li><p>saprse data: could HDF5 lib cover it? what about looking at it as event data? or as data processing/reduction result?</p></li>
+</ul>
+</li>
+<li><p>LP (FAIRmat):</p>
+<ul>
+<li><p>NeXus in NOMAD</p></li>
+<li><p>NeXus Ontology to place NeXus Metadata into semantic ontology world</p></li>
+<li><p>plan: more flexible experiment description, incl. multi-model experiments</p></li>
+<li><p>need:</p>
+<ul>
+<li><p>improve and clarify NXDL to describe semantics better</p></li>
+<li><p>use of PIDs</p></li>
+<li><p>link NeXus to external knowledge (e.g. ontologies)</p></li>
+<li><p>multimodel experiments</p></li>
+<li><p>how wide NeXus coverage shall be in terms of experiment techniques</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>IL (FRM II):</p>
+<ul>
+<li><p>zoo of data formats</p></li>
+<li><p>plan:</p>
+<ul>
+<li><p>move to NeXus (and use it with Mantid, Miezepy, OpenHKL, Steca, Ufit, BerSANS…)</p></li>
+<li><p>use NXtransofmration for complex geometry detector description</p></li>
+<li><p>store simulation data in NeXus, too</p></li>
+<li><p>also processed/reduced data should go to NeXus (like NX in Mantid)</p></li>
+</ul>
+</li>
+<li><p>questions:</p>
+<ul>
+<li><p>how to best create new application definitinos</p></li>
+<li><p>shall we propose new defintion or rather (miss)use not 100% fitting base classes</p></li>
+<li><p>where to put unnecessary Nicos (DAQ) parameters? may be difficult to decide what is needed what is not.</p></li>
+<li><p>shall we use master-file and original raw data to separate files</p></li>
+<li><p>multi-modal experiments</p></li>
+<li><p>how to use PIDs</p></li>
+<li><p>new definitinos shall have only proper description , or name must also be  descriptive?</p></li>
+<li><p>needs of the TAS (Triple Axis Spectroscopy) community? will name harmonisation needed?</p></li>
+<li><p>next to new AppDefs, new base classes are also needed</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>PB (HZB):</p>
+<ul>
+<li><p>SECoP (Sample Environment) -&gt; NeXus, and now more generic needs for Operando (measured during operation) experiments</p></li>
+<li><p>needs:</p>
+<ul>
+<li><p>multi-modal experiments</p></li>
+<li><p>hardware setup description</p></li>
+<li><p>link to external knowledge</p></li>
+<li><p>supporting ‘identifier’s for fields, too, not only for groups</p></li>
+</ul>
+</li>
+<li><p>questions/comments:</p>
+<ul>
+<li><p>measurements may go parallel or subsequential or overalpping</p></li>
+<li><p>shall we have an NXmass_spectrometry or just describe things in NXenvironment? or somewhere else in the NeXus tree?</p></li>
+<li><p>global timestamps for all subexperiments</p></li>
+<li><p>global view (during the full experiment) for sensors/stages (not only in a subtechnique)</p></li>
+<li><p>instead of AppDefs, maybe base classes with runtime annotation with ontology links</p></li>
+<li><p>how to link a definition (and not a data item) to an ontology concept?</p></li>
+<li><p>what about chemical formula which also changes during operando</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>discussion:</p>
+<ul>
+<li><p>what is a blocker with NeXus</p>
+<ul>
+<li><p>availability of tools</p></li>
+<li><p>how to use NeXus at all?</p></li>
+<li><p>what to do when an application (architecture/structure) misses information</p>
+<ul>
+<li><p>archiver format? interchange format?</p></li>
+<li><p>sematic definition being independent from actual binary representation?</p></li>
+<li><p>how to deal with only partial data?</p></li>
+</ul>
+</li>
+<li><p>how to extend the schema?</p></li>
+<li><p>NXDL is a blocker; NYAML helps, but still uncomfortable unconvential rules e.g. PARTIAL names</p></li>
+<li><p>generic concepts are not enough to know what is the role of a specific NXslit. use specific readable name? is it enough? external link to a specification or ontology concept? documentation in datafile? feature?…)</p></li>
+</ul>
+</li>
+<li><p>what is the role of NIAC:</p>
+<ul>
+<li><p>stear the definitions</p></li>
+<li><p>also tutorials and facilitaion (better documentation) of working with NeXus?</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="session-c-sept-25th-14-00-utc">
+<h2>Session C: Sept 25th 14:00 UTC<a class="headerlink" href="#session-c-sept-25th-14-00-utc" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>HO (HZB):</p>
+<ul>
+<li><p>NeXus Creator with NXDL guided placement of (meta)data</p></li>
+<li><p>questions/proposals:</p>
+<ul>
+<li><p>NXDL could have better descripotions/hints for what a specific definition is for. Maybe aliases (generic choice for the name)?</p></li>
+<li><p>what is the preferred way to create a file? Master file with slaves or a big file with mutiple entry or one big entry?</p></li>
+<li><p>How to put description to a NeXus file (to document a specific element)?</p></li>
+<li><p>No AppDef yet for operando_eis</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>YM (RWTH):</p>
+<ul>
+<li><p>NX Appdef for TOF powder diffraction (POWTEX instrument for multidimensional measurements) following the structure of NXsnsevent</p></li>
+<li><p>plan:</p>
+<ul>
+<li><p>Mantid data analysis input and output results shold also go back to the NeXus file</p></li>
+<li><p>instrument parameters should be in NeXus</p></li>
+</ul>
+</li>
+<li><p>problem/question:</p>
+<ul>
+<li><p>NeXus validation issues when creating a file manually (or with NXcreator)</p>
+<ul>
+<li><p>cnxvalidate does not recognise partial names</p></li>
+<li><p>NeXpy also shows error regarding the incorrect use of symbols</p></li>
+</ul>
+</li>
+<li><p>use of curved detectors?</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>MY (MaxIV):</p>
+<ul>
+<li><p>NXazint[12]d (result of azimuthal integration type of data processing): detectors -&gt; NeXus</p></li>
+<li><p>plan:</p>
+<ul>
+<li><p>NeXus for MPES techniques</p></li>
+</ul>
+</li>
+<li><p>questions:</p>
+<ul>
+<li><p>what is the minimal necessary data in a NeXus file? Maybe: all what is needed by data analysis tools intended to be used by the community. Consult with local and external developpers!</p></li>
+<li><p>multiple subentries in a single entry. Shall an AppDef ask for Subentries with specific Application Defintion?</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>MR (ESRF):</p>
+<ul>
+<li><p>AppDef family for XAS to cover all kinds of XAS based experiments with light processing</p></li>
+<li><p>ESRF DAQ produced h5 files can be processed to NXxas… files after data processing</p></li>
+<li><p>AI can interpret perfectly these NeXus files</p></li>
+<li><p>IXAS and XAS committee of IUCr are positive</p></li>
+<li><p>problems with NXxas NXxasproc:</p>
+<ul>
+<li><p>not used by the community</p></li>
+<li><p>rigid structure not supporting the actual experiment types</p></li>
+<li><p>why two separate AppDefs? this could fit in one file</p></li>
+</ul>
+</li>
+<li><p>questions/suggestions:</p>
+<ul>
+<li><p>raw data could go to NXcollection</p></li>
+<li><p>NXprocess fields could reference data in NXcollection</p></li>
+<li><p>What to do with data in ESRF DAQ produced hdf5 files</p></li>
+<li><p>how to manage multi detection experiments</p></li>
+<li><p>how deprication works?</p></li>
+<li><p>how reference is modelled?</p></li>
+<li><p>what about sample preparation? generic sample vs. actual sample?</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>discussion:</p>
+<ul>
+<li><p>suggestion for new definitions</p>
+<ul>
+<li><p>make prototypes (current status and additions)</p></li>
+<li><p>try in the community</p></li>
+<li><p>form a proposal</p></li>
+<li><p>socialize it to NIAC</p>
+<ul>
+<li><p>issue</p></li>
+<li><p>PR</p></li>
+<li><p>Telco</p></li>
+<li><p>email lists</p></li>
+</ul>
+</li>
+<li><p>Ratification</p>
+<ul>
+<li><p>Change -&gt; NIAC vote</p></li>
+<li><p>new contributions go to contributed definiotions, when ready -&gt; NIAC vote</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>New format: well accepted</p></li>
+<li><p>potential new communication channels: discord, slac, matrix, zulib</p></li>
+<li><p>examples and tutorials</p>
+<ul>
+<li><p>mock data vs. real data</p></li>
+<li><p>correct data should be available and maintained by the community</p></li>
+<li><p>AI knows about NeXus and can also efficiently asked</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="saturday-participants">
+<h2>Saturday Participants:<a class="headerlink" href="#saturday-participants" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>NIAC in person: AB, SB, FdA, HG, WdN, ZM, MW, RB, PC, RO, (TM)</p></li>
+<li><p>NIAC online: HB, BW, GT</p></li>
+<li><p>other participants: IL, JK, LP, SP, RM, GON</p></li>
+</ul>
+</section>
+<section id="session-d-sept-26th-08-00-utc">
+<h2>Session D: Sept 26th 08:00 UTC<a class="headerlink" href="#session-d-sept-26th-08-00-utc" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Agenda points</p>
+<ul>
+<li><p>NIAC2026 Project board <a class="reference external" href="https://github.com/orgs/nexusformat/projects/6/views/1">https://github.com/orgs/nexusformat/projects/6/views/1</a></p>
+<ul>
+<li><p>Ready for vote</p></li>
+<li><p>Ready for final check</p></li>
+<li><p>Ready</p></li>
+<li><p>Litle to do</p></li>
+<li><p>Medium to do</p></li>
+<li><p>Major to do</p></li>
+</ul>
+</li>
+<li><p>Further wishes to be discussed</p>
+<ul>
+<li><p>WdN: NXxas</p></li>
+<li><p>HG: Operando related questions</p></li>
+<li><p>RB: example repo and its visibility</p></li>
+<li><p>FdA: community wishes, communication</p></li>
+<li><p>MW: tutorials, documentaion</p></li>
+<li><p>LP: target attribute, ontology</p></li>
+<li><p>ZM: cleaning the documentation, NXazint</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>AB: Has the NIAC the right size? Are we agile enough?</p>
+<ul>
+<li><p>at the moment:</p>
+<ul>
+<li><p>20 voting members at the moment</p></li>
+<li><p>2/3 requirement: 13 votes</p></li>
+<li><p>some inactive members</p></li>
+</ul>
+</li>
+<li><p>BW: more contributing members would be better, but inactive members are a bottleneck. Clear advertisement of the expectations. Maybe: setting up a new role those who want to be involved, but shallnot necessary hold a volting right: contributing NIAC members? (e.g. MK, LP, etc.) and have specific category for NIAC voting member.</p></li>
+<li><p>AB: member list could also include the expertise and interests of specific contributing members.</p></li>
+<li><p>AB: corum requirement should be reduced. 50%?</p></li>
+<li><p>BW: rather separate the voting and non-voting members</p></li>
+</ul>
+</li>
+<li><p>AB: do we need a new NIAC responsibility?</p>
+<ul>
+<li><p>now: spec, examples, validator</p></li>
+<li><p>new: turorial?</p></li>
+<li><p>AB: do we miss medium level tutorials?</p></li>
+<li><p>IL: working, real facility examples with explanation why they are put together as they are</p></li>
+<li><p>LP: how to write new definition and how to contribute to NeXus</p></li>
+<li><p>HG: how to start with something new, like pump-probe experiments</p></li>
+<li><p>MW: separation between Using and Developping NeXus</p></li>
+<li><p>RB: maybe an AI prompt on top of the documentation?</p></li>
+<li><p>WdN: move away from XML and use pydantic</p></li>
+<li><p>AB: cleaner and simplified documentation (e.g. doctree is full with unrelevant topics)</p>
+<ul>
+<li><p>LP: <a class="reference external" href="https://fairmat-nfdi.github.io/pynxtools/tutorial/writing-an-application-definition.html">https://fairmat-nfdi.github.io/pynxtools/tutorial/writing-an-application-definition.html</a></p></li>
+<li><p>HG: <a class="reference external" href="https://hz-b.github.io/2026_BESSYII_Datathon/">https://hz-b.github.io/2026_BESSYII_Datathon/</a></p></li>
+</ul>
+</li>
+<li><p>HB: SQL ontology is needed for human tracibility</p></li>
+<li><p>AB: let us create an issue for this</p></li>
+</ul>
+</li>
+<li><p>AB: make examples more visible</p>
+<ul>
+<li><p>Examples on the main page</p></li>
+<li><p>Examples for each App Def</p></li>
+<li><p>More community examples (links?)</p></li>
+<li><p>NeXus file interpretor (tool to connect NeXud groups/fields/attrs in a data file to Vocabulary Items of the NeXus definitions)</p></li>
+<li><p>github action for checking defintions (and definitions changes) against known example data files</p></li>
+<li><p>diataxis for examples and documentation in general</p></li>
+<li><p>Code-Camp for it</p></li>
+</ul>
+</li>
+<li><p>NIAC Roles</p>
+<ul>
+<li><p>Technical Manager</p>
+<ul>
+<li><p>existing, but unfilled role for NAPI that is not there anymore</p></li>
+<li><p>instead, an official validator could be added as a task for this role</p></li>
+<li><p>RO: cnxvalidate is there but not developped any longer. Python API could be strangthened by more contributors (e.g. with pynxtools)</p></li>
+<li><p>BW: single source of truth in NeXus is the defintion in NXDL. It shall not be the validator which provides the truth. A validator is good, but it should follow the NXDL definitions. Can a single person be responsible for guaranteeing integrity between definitions and validation? Tech manager shall be responsible for the validation tool and we also need one for managing NXDL.</p></li>
+<li><p>HB: NeXus connectivity to databases should be enabled. Database referential integrity should be maintained via normalisation.</p>
+<ul>
+<li><p>SB,LP: NOMAD (in FAIRmat) solves the probelm using mongoDB</p></li>
+<li><p>HG: ontology, triplets and SPARQL is also a way (DAPHNE is looking at)</p></li>
+<li><p>AB: we need a specific example to demonstrate the actual probelm</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Ontology Manager</p>
+<ul>
+<li><p>it can be defined as an official role</p></li>
+<li><p>ensures the relationship with semantic world</p></li>
+</ul>
+</li>
+<li><p>NIAC Executive Chair</p>
+<ul>
+<li><p>FdA is volunteering</p></li>
+<li><p>SB secunded</p></li>
+<li><p>noone else volunteered</p></li>
+<li><p>accepted (13/0/0)</p></li>
+</ul>
+</li>
+<li><p>NIAC Executive Secretary</p>
+<ul>
+<li><p>RB is volunteering</p></li>
+<li><p>RO secunded</p></li>
+<li><p>noone else volunteered</p></li>
+<li><p>accepted (13/0/0)</p></li>
+</ul>
+</li>
+<li><p>NIAC Definition Release Manager</p>
+<ul>
+<li><p>PC is volunteering</p></li>
+<li><p>RB secunded</p></li>
+<li><p>noone else volunteered</p></li>
+<li><p>accepted (13/0/0)</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>PR #1331</p>
+<ul>
+<li><p>BW: allowing multiple mirrors, we may want to give an attribute for the role of the mirror</p></li>
+<li><p>PC,SB: NXcomponent already allows the description of even complex beam paths, so even more than just a role can already now be described</p></li>
+<li><p>GT: it is not clear why NXmonochromator exists at all if NXcomponent would be just enough</p></li>
+<li><p>AB: put the questions into an issue</p></li>
+<li><p>accepted (11/0/2)</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="session-e-sept-26th-11-30-utc">
+<h2>Session E: Sept 26th 11:30 UTC<a class="headerlink" href="#session-e-sept-26th-11-30-utc" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>PR #1327</p>
+<ul>
+<li><p>RO: why not an NXenvironment for (every) NXcomponent</p></li>
+<li><p>LP: yes, but specializing an NXinstrument with special description provides a possibility for a recepie how to describe its environment</p></li>
+<li><p>WdN: Warning! NXenvironment has NXcomponents, so an NXcomponent would have NXcomponents inside.</p></li>
+<li><p>AB: just take it as is. Note that if a subcomponent has an environemnt already defined (e.g. Sample) than that this environemnt should be used instead.</p></li>
+<li><p>BW: an environemnt should be external to the component it is providing environment for.</p></li>
+<li><p>SB: Can an NXinstrument has another NXinstrument inside? Similarly, an NXcomponent another NXcomponent inside?</p></li>
+<li><p>AB: We can support the specific requests as they are coming.</p></li>
+<li><p>BW: +1, We can now add where it is now requested and if new request comes, we can then add there, too.</p></li>
+<li><p>HG: Operando project is addressing this question, so we may wait until the request is clarified.</p></li>
+<li><p>SP: as BW said, we can add it to both places</p></li>
+<li><p>GON: be carefull with its use</p></li>
+<li><p>AB: go for it with clear description</p></li>
+<li><p>RO,SB: specialisation of excluding the possibility to have an NXenvironemnt in /NXcomponent/NXsensor and NXactuator is not needed.</p></li>
+<li><p>accepted (11/1/1)</p></li>
+</ul>
+</li>
+<li><p>PR #1330</p>
+<ul>
+<li><p>accepted (13/0/0)</p></li>
+<li><p>BW: documentation could be further clarified that both funtion and/or mechanism can be described here.</p></li>
+<li><p>AB: this documentaion improvment does not need a special vote</p></li>
+</ul>
+</li>
+<li><p>PR #1654</p>
+<ul>
+<li><p>SB: original aim was to warn people not to write free text, but rather reference existing documentation (e.g. ISO standard, Instrument manual, etc.) if possible. This is actually a general rule, and can be made clear as a general idea in the documentaion, rather then writing it everywhere.</p></li>
+<li><p>accepted (12/0/1)</p></li>
+</ul>
+</li>
+<li><p>PR #1653</p>
+<ul>
+<li><p>PC: Is is needed at Diamond and shall be used in NXdetector</p></li>
+<li><p>RO: It is like a view definition. Is not this definition too specific?</p></li>
+<li><p>PC: Indeed, if it needs to be extended, it can be done.</p></li>
+<li><p>GON: signal and aux_signal in NXdata shall be consistant. Different downsampling requires multiple NXdata results.</p></li>
+</ul>
+</li>
+<li><p>What is in front of us:</p>
+<ul>
+<li><p>AFM/SPM PR#1632</p>
+<ul>
+<li><p>5 App Def</p></li>
+<li><p>16 Base Classes</p></li>
+<li><p>rendered documentation is under <a class="reference external" href="https://fairmat-nfdi.github.io/nexus_definitions/classes/contributed_definitions/spm-structure.html">https://fairmat-nfdi.github.io/nexus_definitions/classes/contributed_definitions/spm-structure.html</a></p></li>
+</ul>
+</li>
+<li><p>XAS PR#1619</p></li>
+<li><p>&#64;target</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="session-f-sept-26th-14-00-utc">
+<h2>Session F: Sept 26th 14:00 UTC<a class="headerlink" href="#session-f-sept-26th-14-00-utc" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>PR#1619 XAS (see also PR#1352)</p>
+<ul>
+<li><p>AB: community needs NXatom and NXelement as separate concepts</p></li>
+<li><p>SB: NXelement: why do we have long enum list with docuemtation repeating well known physics standard?</p></li>
+<li><p>BW: NXauger_line/NXemission_line: why an enum list rather than a regexp?</p></li>
+<li><p>WdN: auger lines do not seem to be a complete list</p></li>
+<li><p>PC: The list in current base class does not support properly neutron spectroscopy</p></li>
+<li><p>BW: next to element, a separate definition is needed for isotopes</p></li>
+<li><p>AB: Would not it be enough to add mass number to NXelement?</p></li>
+<li><p>HG: enumeration allows ontology mapping to external knowledge base.</p></li>
+<li><p>NIAC suggestions and questions are posted to the PR</p></li>
+<li><p>WdN: request was to keep it in contributed</p></li>
+<li><p>AB: if community agrees, this could go to the standard base classes directly</p></li>
+<li><p>accepted with the notes (12/0/1)</p></li>
+</ul>
+</li>
+<li><p>PR #1640 XAS</p>
+<ul>
+<li><p>WdN: AppDefs are requested to stay contributed for the time being</p></li>
+<li><p>NIAC discussed several topics and put suggestions into the PR</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="session-g-sept-27th-08-00-utc">
+<h2>Session G: Sept 27th 08:00 UTC<a class="headerlink" href="#session-g-sept-27th-08-00-utc" title="Link to this heading">¶</a></h2>
+</section>
+<section id="session-h-sept-27th-11-30-utc">
+<h2>Session H: Sept 27th 11:30 UTC<a class="headerlink" href="#session-h-sept-27th-11-30-utc" title="Link to this heading">¶</a></h2>
+</section>
+<section id="session-i-sept-27th-14-00-utc">
+<h2>Session I: Sept 27th 14:00 UTC<a class="headerlink" href="#session-i-sept-27th-14-00-utc" title="Link to this heading">¶</a></h2>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">NIAC2026 Minutes</a><ul>
+<li><a class="reference internal" href="#participants">Participants:</a></li>
+<li><a class="reference internal" href="#id1">NIAC2026 Minutes</a></li>
+<li><a class="reference internal" href="#session-a-sept-25th-08-00-utc">Session A: Sept 25th 08:00 UTC</a></li>
+<li><a class="reference internal" href="#session-b-sept-25th-11-30-utc">Session B: Sept 25th 11:30 UTC</a></li>
+<li><a class="reference internal" href="#session-c-sept-25th-14-00-utc">Session C: Sept 25th 14:00 UTC</a></li>
+<li><a class="reference internal" href="#saturday-participants">Saturday Participants:</a></li>
+<li><a class="reference internal" href="#session-d-sept-26th-08-00-utc">Session D: Sept 26th 08:00 UTC</a></li>
+<li><a class="reference internal" href="#session-e-sept-26th-11-30-utc">Session E: Sept 26th 11:30 UTC</a></li>
+<li><a class="reference internal" href="#session-f-sept-26th-14-00-utc">Session F: Sept 26th 14:00 UTC</a></li>
+<li><a class="reference internal" href="#session-g-sept-27th-08-00-utc">Session G: Sept 27th 08:00 UTC</a></li>
+<li><a class="reference internal" href="#session-h-sept-27th-11-30-utc">Session H: Sept 27th 11:30 UTC</a></li>
+<li><a class="reference internal" href="#session-i-sept-27th-14-00-utc">Session I: Sept 27th 14:00 UTC</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/wiki/issues/new">Get help</a></p>
+  </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><p>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+<br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.
+<br><a href="http://www.nexusformat.org/">Home</a>
+<br><a href="https://github.com/nexusformat">GitHub Organisation</a>
+<br>© 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC</a>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="NIACActionItems.html" title="NIACActionItems"
+             >next</a></li>
+        <li class="right" >
+          <a href="NIAC2026.html" title="NIAC2026"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NIAC2026 Minutes</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, NIAC.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
+    </div>
+  </body>
+</html>
