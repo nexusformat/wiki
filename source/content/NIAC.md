@@ -121,9 +121,9 @@ executive officers:
     release of NeXus definitions and documentation. The person that
     holds the position does not need to be an existing member of the
     NIAC, and does not vote unless he/she is a regular member.
--   Ontology Technical Manager: to be responsible for connecting the NeXus specification to larger
-    ontologies in the scientific communities, both registering NeXus in these communities
-    and providing ways in NeXus files to link to these ontologies.
+-   Ontology Technical Manager: to be responsible for integrating the NeXus specification to related
+    terminologies in the scientific communities, both maintaining the registration of NeXus in
+    wider terminologies and providing ways in NeXus specifications to link to these terminologies.
 
 All of these officers will be elected for a two year term. The incumbent
 chair and executive secretary are limited to two consecutive terms.
