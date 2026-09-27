@@ -110,16 +110,21 @@ executive officers:
     person that holds the position does not need to be an existing
     member of the NIAC, and does not vote unless he/she is a regular
     member.
--   Technical Manager with the responsibility to oversee the NeXus API.
-    The tasks of the manager are to coordinate tests, manage and
-    announce releases, and promote code from the contributed directory
-    to the regular release build. The person that holds the position
-    does not need to be an existing member of the NIAC, and does not
-    vote unless he/she is a regular member.
--   Definition Release Manager with the responsibility to oversee the
+-   Technical Manager: validation to be responsible to oversee validation tools.
+    The tasks of this manager are to maintain validation code, ensure validation accurately
+    tests the NeXus standard against NeXus files, and build regression tests that validate
+    known example data. The person that holds the position does not need to be an existing
+    member of the NIAC, and does not vote unless he/she is a regular member.
+-   Technical Manager: NXDL to be responsibile for ensuring the NXDL language its usage
+    in the NeXus definitions is correct. This includes verifying the language is both
+    internally consistent and that it can express the intent of the NeXus specification.
+-   Definition Release Manager to be responsibile to oversee the
     release of NeXus definitions and documentation. The person that
     holds the position does not need to be an existing member of the
     NIAC, and does not vote unless he/she is a regular member.
+-   Ontology manager to be responsible for connecting the NeXus specification to larger
+    ontologies in the scientific communities, both registering NeXus in these communities
+    and providing ways in NeXus files to link to these ontologies.
 
 All of these officers will be elected for a two year term. The incumbent
 chair and executive secretary are limited to two consecutive terms.
