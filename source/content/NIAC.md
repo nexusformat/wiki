@@ -87,7 +87,8 @@ the following plan:
 
 The NeXus International Advisory Committee will seek balanced
 representation of the international community. It will consist of at
-most one voting representative from each major neutron, synchrotron
+most one voting representative and additional non-voting representatives 
+as needed from each major neutron, synchrotron
 x-ray, and muon facility. Membership would normally be for a three year
 renewable term. Members will be nominated by each facility through the
 facility director and approved by the existing committee. 
