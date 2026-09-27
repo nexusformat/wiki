@@ -115,7 +115,7 @@ executive officers:
     tests the NeXus standard against NeXus files, and build regression tests that validate
     known example data. The person that holds the position does not need to be an existing
     member of the NIAC, and does not vote unless he/she is a regular member.
--   Technical Manager: NXDL to be responsibile for ensuring the NXDL language its usage
+-   Technical Manager: NXDL to be responsibile for ensuring the NXDL language and its usage
     in the NeXus definitions is correct. This includes verifying the language is both
     internally consistent and that it can express the intent of the NeXus specification.
 -   Definition Release Manager to be responsibile to oversee the
