@@ -90,8 +90,7 @@ representation of the international community. It will consist of at
 most one voting representative and additional non-voting representatives 
 as needed from each major neutron, synchrotron
 x-ray, and muon facility. Membership would normally be for a three year
-renewable term. Members will be nominated by their facility and instiution leaders through the
-and approved by the existing committee. 
+renewable term. Members will be nominated by their facility or institution leaders and then approved by the existing committee.
 If the nomination of a voting member expires, the status changes 
 automatically to non-voting membership for a year. Each member
 can appoint a substitute to attend a particular meeting.
