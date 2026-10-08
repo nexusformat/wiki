@@ -113,6 +113,19 @@ def setup(app):
     def do_copy():
         print("Sphinx do_copy() function is being called")
         copy_asset(os.path.join(app.srcdir, 'pdfs'), os.path.join(app.outdir, 'pdfs'))
+        
+        # Copy individual image files from content to output
+        content_dir = app.srcdir
+        output_dir = app.outdir
+        image_extensions = ['.jpg', '.jpeg', '.png', '.gif', '.svg', '.webp', '.JPG', '.JPEG', '.PNG', '.GIF']
+        
+        for filename in os.listdir(content_dir):
+            if any(filename.lower().endswith(ext) for ext in image_extensions):
+                src = os.path.join(content_dir, filename)
+                dst = os.path.join(output_dir, filename)
+                if os.path.isfile(src):
+                    print(f"Copying image {filename} to {output_dir}")
+                    shutil.copy2(src, dst)
 
     app.connect('build-finished', lambda app, exception: do_copy())
     app.add_css_file('details_summary_hide.css')
