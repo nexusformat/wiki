@@ -1,0 +1,621 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>DLSraw</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="_static/rubric.css" type="text/css" />
+    <script src="_static/documentation_options.js?v=b08bce9f"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Download" href="Download.html" />
+    <link rel="prev" title="Detector Geometry" href="Detector_Geometry.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Download.html" title="Download"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Detector_Geometry.html" title="Detector Geometry"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">DLSraw</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="dlsraw">
+<h1>DLSraw<a class="headerlink" href="#dlsraw" title="Link to this heading">¶</a></h1>
+<p>* –&gt; Zero or many + –&gt; One or more ? –&gt; 0 or 1</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!--
+URL:      http://www.nexus.anl.gov/
+Editor:   Stuart Campbell, DLS
+$Id$
+Draft definition of a Diamond Light Source raw Nexus file.
+--&gt;
+&lt;NXroot file_name="{File name of original NeXus file}" 
+        file_time="{Date and time of file creation}" 
+        file_update_time="{Date and time of last file change at close}" 
+        NeXus_version="{Version of NeXus API used in writing the file}" 
+        HDF_version="?" 
+        HDF5_version="?" 
+        XML_version="?"
+        initial_format="{Initial format for file}"
+        creator="{facility or program where file originated}?"
+        unique_id="{unique file identifier}"&gt;
+
+   &lt;NXentry name="{Name of entry}"&gt;
+   
+        &lt;!--Identification metadata --&gt;
+        &lt;title&gt;{Extended title for entry}?&lt;/title&gt;
+        &lt;experiment_identifier type="NX_CHAR[]"&gt;
+            {unique identifier for the experiment, defined by the facility, possibly 
+            linked to the proposals}?
+        &lt;/experiment_identifier&gt;
+        &lt;run_number type="NX_INT"&gt;
+            {Number of run or scan stored in this entry}?
+        &lt;/run_number&gt;
+        &lt;run_cycle type="NX_CHAR[]"&gt;
+            {}?
+        &lt;/run_cycle&gt;
+      
+        &lt;!-- Data Management metadata--&gt;
+        &lt;release_date type="NX_CHAR"&gt;
+            { Date of the public release of the data. (file_time + X years)}
+        &lt;/release_date&gt;
+        &lt;revision type="NX_CHAR"&gt;
+            { Revision id of the file due to re-calibration, reprocessing
+            new analysis, new instrument definition format, ... }
+        &lt;/revision&gt;
+        &lt;revision_comment type="NX_CHAR"&gt;
+            { Reason for the new revision. (e.g. first revision, re-calibration, ) }
+        &lt;/revision_comment&gt;
+        
+        &lt;!--NeXus format information--&gt;
+        &lt;definition type="NX_CHAR" version="{DTD version number}" URL="{URL of DTD file}"&gt;
+            {Name of entry DTD}?
+        &lt;/definition&gt;      
+        &lt;archive_definition type="NX_CHAR" version="{DTD version number}" URL="{URL of DTD file}"&gt;
+            {Name of entry DTD}?
+        &lt;/archive_definition&gt;      
+        &lt;local_definition type="NX_CHAR" version="{DTD version number}" URL="{URL of DTD file}"&gt;
+            {Name of entry DTD}?
+        &lt;/local_definition&gt;  
+        
+        &lt;!--Timing metadata
+                start_time and end_time are mandatory
+                duration and/or collection_time would be nice to have
+        --&gt;
+        &lt;start_time type="ISO8601"&gt;
+            {Starting time of measurement}?
+        &lt;/start_time&gt;
+        &lt;end_time type="ISO8601"&gt;
+            {Ending time of measurement}?
+        &lt;/end_time&gt;
+        &lt;duration type="NX_INT" units="seconds"&gt;
+            {Duration of measurement (end_time - start_time)}?
+        &lt;/duration&gt;     
+        &lt;collection_time type="NX_FLOAT" units="seconds"&gt;
+            {Time transpired actually collecting data i.e. taking out time when
+            collection was suspended due to e.g. temperature out of range}?
+        &lt;/collection_time&gt;
+        
+        &lt;!--Reliability metadata
+                Having the wrong information may be worst than having no information. 
+                The accuracy of the information provided by the experimenter may be 
+                difficult to determine. The minimum we can do is determine in which 
+                condition the information was filled. 
+        --&gt;
+        &lt;info_reliability type="NX_CHAR"&gt;
+            {information on the reliability/source of the information provided by
+            the experimenter. (e.g.: From proposal, updated at experiment time, ...}
+        &lt;/info_reliability&gt;
+        
+        &lt;!--Experiment metadata--&gt;
+        &lt;discipline type="NX_CHAR"&gt;
+            {Keyword domain (e.g. chemistry, astronomy, ecology, ...)}?
+        &lt;/discipline&gt;
+        &lt;keyword type="NX_CHAR"&gt;
+            {Keywords defined for this study}?
+        &lt;/keyword&gt;
+        &lt;keyword_source type="NX_CHAR"&gt;
+            {A pointer to a reference work providing the definition of the
+            restricted vocabulary of which the keyword list is a subset}?
+        &lt;/keyword_source&gt;
+        &lt;subject type="NX_CHAR"&gt;
+            {Subject categorisations for this study}?
+        &lt;/subject&gt;
+        &lt;description_summary type="NX_CHAR"&gt;
+            {Brief summary of the experiment, including key objectives}?
+        &lt;/description_summary&gt;
+        &lt;description type="NXnote"&gt;
+            {Description of the full experiment (document in pdf, latex, ...)}?
+        &lt;/description&gt;
+        &lt;requirement type="NX_CHAR"&gt;
+            {Special requirements of instrument}?
+        &lt;/requirement&gt;
+        &lt;publications type="NX_CHAR"&gt;
+            {List of publications related to the proposal}?
+        &lt;/publications&gt;
+        &lt;facility_access_type type="NX_CHAR"&gt;
+            {Facility access type (normal, rapid access, program access, ...)}?
+        &lt;/facility_access_type&gt;
+        &lt;grant_id type="NX_CHAR"&gt;
+            {Identifier of the funding grant}?
+        &lt;/grant_id&gt;
+        
+        
+        &lt;!--Software metadata
+                may be useful to retrieve all data from a versioning case of problem
+                related to a specific version of the acquisition/analysis program.
+        --&gt;
+        &lt;program_name type="NX_CHAR" version="{Program version number}"&gt;
+            {Name of program used to generate this file}?
+        &lt;/program_name&gt;
+        &lt;command_line type="NX_CHAR"&gt;
+            {Name of command line used to generate this file}?
+        &lt;/command_line&gt;
+      
+      
+        &lt;!-- External reference   
+                To archive processed data, you need to be able to point to the input 
+                data that were used.
+        
+                This class is not an official neXus class. When the NIAC decide for 
+                a way to link to external resources. ; it will have to be replaced by 
+                its official equivalent.
+        --&gt;
+            &lt;external_reference name="input data XX"&gt;+
+            &lt;name type="NX_CHAR" &gt;
+                {Descriptive name of the input data}
+            &lt;/name&gt;
+            &lt;uri type="NX_CHAR"&gt;
+                {Uniform Resource Identifier of the input data}
+            &lt;/uri&gt;
+        &lt;/external_reference&gt;
+      
+        &lt;notes&gt;
+            {Notes describing entry}?
+        &lt;/notes&gt;
+        &lt;thumbnail type="NXnote" mime_type="{image/*}"&gt;
+            {An small image that is representative of the entry.} {An example of
+            this is a 640x480 jpeg image automatically produced by a low resolution
+            plot of the NXdata.}?
+        &lt;/thumbnail&gt;
+
+
+        &lt;!-- User metadata
+                At least one user with role 'principal_investigator' must be present to 
+                define the owner of the data. 
+                    
+                Other important roles are :
+                    'experimenter' to know who physically made the experiment,
+                    'local_contact' for any instrument configuration questions,
+        
+                Nice to have would be 'funding_agency', it may help to get money for 
+                the next experiments. 
+        
+                I think that the users with role 'principal_investigator', 'proposer'  
+                and 'experimenter' should be given access to the data. 
+                To be define in the data right policy of the facility.
+        --&gt;     
+        &lt;NXuser name="{user}"&gt;1+
+            &lt;name type="NX_CHAR"&gt;
+                {Name of user responsible for this entry}
+            &lt;/name&gt;
+            &lt;role type="NX_CHAR"&gt;
+                {role of user responsible for this entry, comma separated list}
+                {Suggested roles are "local_contact", "principal_investigator", 
+                "proposer", "experimenter", "funding_agency"}
+            &lt;/role&gt;
+            &lt;affiliation type="NX_CHAR"&gt;
+                {Affiliation of user}?
+            &lt;/affiliation&gt;
+            &lt;address type="NX_CHAR"&gt;
+                {Address of user}?
+            &lt;/address&gt;
+            &lt;telephone_number type="NX_CHAR"&gt;
+                {Telephone number of user}?
+            &lt;/telephone_number&gt;
+            &lt;fax_number type="NX_CHAR"&gt;
+                {Fax number of user}?
+            &lt;/fax_number&gt;
+            &lt;email type="NX_CHAR"&gt;
+                {Email of user}?
+            &lt;/email&gt;
+            &lt;facility_user_id type="NX_CHAR"&gt;
+                {Facility based unique identifier for this person e.g. their 
+                identification code on the facility address/contact database, 
+                should allow owner identification by the archive system.}
+            &lt;/facility_user_id&gt;
+            &lt;affiliation_id type="NX_CHAR"&gt;
+                {Affiliation unique identifier.}?
+            &lt;/affiliation_id&gt;
+        &lt;/NXuser&gt;
+        
+
+        &lt;NXsample name="{sample}"&gt;
+            &lt;name type="NX_CHAR"&gt;
+                {Descriptive name of sample}
+            &lt;/name&gt;
+            &lt;sample_id type="NX_CHAR"&gt;
+                {Sample identifier}
+            &lt;/sample_id&gt;
+            &lt;chemical_formula type="NX_CHAR"&gt;
+                {The chemical formula specified using CIF conventions.}{Abbreviated
+                version of CIF standard: 
+                1. Only recognized element symbols may be used.
+                2. Each element symbol is followed by a 'count' number. A count 
+                   of '1' may be omitted. 
+                3. A space or parenthesis must separate each cluster of (element 
+                   symbol + count). 
+                4. Where a group of elements is enclosed in parentheses, the 
+                   multiplier for the group must follow the closing parentheses. That 
+                   is, all element and group multipliers are assumed to be printed as 
+                   subscripted numbers. 
+                5. Unless the elements are ordered in a manner that corresponds to 
+                   their chemical structure, the order of the elements within any group 
+                   or moiety depends on whether or not carbon is present. If carbon is 
+                   present, the order should be: C, then H, then the other elements in 
+                   alphabetical order of their symbol. If carbon is not present, the 
+                   elements are listed purely in alphabetic order of their symbol. This 
+                   is the 'Hill' system used by Chemical Abstracts.}
+            &lt;/chemical_formula&gt;
+            &lt;description type="NX_CHAR"&gt;
+                {Description of the sample}?
+            &lt;/description&gt;
+            &lt;short_title type="NX_CHAR"&gt;
+                {20 character fixed length sample description for legends}?
+            &lt;/short_title&gt;        
+
+            &lt;!-- Sample Environment metadata
+                    These parameters are to give an idea of the sample environment. 
+                    One value may seems too limited but it is mostly to understand under 
+                    which type of condition the experiment occurs (high, low, very      
+                    high, very low temperature, pressure, ...) Very few experiment will         
+                    go from 5 to 5000 Kelvin in one scan.           
+                    For actual analysis, time dependent measurement, the 
+                    data are stored in an NXlog (e.g temperature_log, ..). 
+            --&gt;
+            &lt;temperature type="NX_FLOAT" param_type="fixed|scanned|free" 
+                         sampled="start|end|middle|average"&gt;
+                {Sample temperature.}?
+            &lt;/temperature&gt;
+            &lt;electric_field type="NX_FLOAT" param_type="fixed|scanned|free"     
+                            direction="x|y|z" sampled="start|end|middle|average"&gt;
+                {Applied electric field}?
+            &lt;/electric_field&gt;
+            &lt;magnetic_field type="NX_FLOAT" param_type="fixed|scanned|free"         
+                            direction="x|y|z" sampled="start|end|middle|average"&gt;
+                {Applied magnetic field}?
+            &lt;/magnetic_field&gt;
+            &lt;stress_field type="NX_FLOAT" param_type="fixed|scanned|free" 
+                          direction="x|y|z" sampled="start|end|middle|average"&gt;
+                {External stress}?
+            &lt;/stress_field&gt;
+            &lt;pressure type="NX_FLOAT" param_type="fixed|scanned|free" 
+                      sampled="start|end|middle|average"&gt;
+                {Applied pressure}?
+            &lt;/pressure&gt;
+        &lt;/NXsample&gt;
+
+
+        &lt;!-- Instruments metadata
+                The instrument name should be descriptive as much as possible, 
+                telling in which mode the instrument was working.
+        --&gt;
+        &lt;NXinstrument name="{Name of instrument}"&gt;
+            &lt;name type="NX_CHAR" short_name="{addreviated name of instrument}"&gt;
+                {Name of instrument}
+            &lt;/name&gt;
+            &lt;NXsource name="{Name of facility}"&gt;
+                &lt;name type="NX_CHAR"&gt;
+                    {Name of source}?
+                &lt;/name&gt;
+                &lt;type type="NX_CHAR"&gt;
+                    "Spallation Neutron Source"|"Pulsed Reactor Neutron Source"|
+                    "Reactor Neutron Source"|"Synchrotron X-ray Source"|
+                    "Pulsed Muon Source"|"Rotating Anode X-ray"|Fixed Tube X-ray"
+                &lt;/type&gt;
+                &lt;probe type="NX_CHAR"&gt;
+                    neutron|x-ray|muon|electron?
+                &lt;/probe&gt;
+
+                &lt;distance type="NX_FLOAT" units="m"&gt;
+                    {Effective distance from sample}{Distance as seen by radiation from 
+                    sample.  This number should be negative to signify that it is upstream 
+                    of the sample.}?
+                &lt;/distance&gt;
+                &lt;power type="NX_FLOAT" units="MW"&gt;
+                    {Source power}?
+                &lt;/power&gt;
+                &lt;current type="NX_FLOAT" units="milliamps"&gt;
+                    {Accelerator current}?
+                &lt;/current&gt;
+                &lt;voltage type="NX_FLOAT" units="MeV"&gt;
+                    {Accelerator voltage}?
+                &lt;/voltage&gt;
+                &lt;notes type="NX_CHAR"&gt;
+                    {any source/facility related messages/events that occurred during the 
+                    experiment}?
+                &lt;/notes&gt;
+                &lt;mode type="NX_CHAR"&gt;
+                    {synchrotron operating mode}{"Single Bunch"|"Multi Bunch"}?
+                &lt;/mode&gt;
+                &lt;top_up type="NX_BOOLEAN"&gt;
+                    {Is the synchrotron operating in top_up mode}?
+                &lt;/top_up&gt;
+                &lt;NXgeometry name=""&gt;
+                    {"Engineering" location of source}?
+                &lt;/NXgeometry&gt;
+            &lt;/NXsource&gt;
+            
+            &lt;!--
+                Usually we will either include NXbending_magnet or NXinsertion_device.
+            --&gt;
+            &lt;NXbending_magnet name="{name of bending magnet}"&gt;
+                    &lt;critical_energy type="NX_FLOAT"&gt;
+                        {critical energy}?
+                    &lt;/critical_energy&gt;
+                    &lt;bending_radius type="NX_FLOAT"&gt;
+                        {bending radius}?
+                    &lt;/bending_radius&gt;
+                    &lt;spectrum type="NXdata"&gt;
+                        {spectrum of bending magnet}?
+                    &lt;/spectrum&gt;
+                    &lt;NXgeometry name=""&gt;
+                        {"Engineering" position of bending magnet}?
+                    &lt;/NXgeometry&gt;
+            &lt;/NXbending_magnet&gt;
+            
+            &lt;NXinsertion_device name="{Name of insertion device}"&gt;
+                &lt;type type="NX_CHAR"&gt;
+                    {"undulator"|"wiggler"|...}?
+                &lt;/type&gt;
+                &lt;gap type="NX_FLOAT" units="milimetre"&gt;
+                    {gap}?
+                &lt;/gap&gt;
+                &lt;taper type="NX_FLOAT" units="milimetre"&gt;
+                    {taper}?
+                &lt;/taper&gt;
+                &lt;phase type="NX_FLOAT" units="degrees"&gt;
+                    {phase}?
+                &lt;/phase&gt;
+                &lt;poles type="NX_INT"&gt;
+                    {number of poles}?
+                &lt;/poles&gt;
+                &lt;length type="NX_FLOAT" units="mili*metre"&gt;
+                    {length of insertion device}?
+                &lt;/length&gt;
+                &lt;power type="NX_FLOAT"&gt;
+                    {total power delivered by insertion device}?
+                &lt;/power&gt;
+                &lt;energy type="NX_FLOAT"&gt;
+                    {energy of peak}?
+                &lt;/energy&gt;
+                &lt;bandwidth type="NX_FLOAT"&gt;
+                    {bandwidth of peak energy}?
+                &lt;/bandwidth&gt;
+                &lt;harmonic type="NX_INT"&gt;
+                    {harmonic of peak}?
+                &lt;/harmonic&gt;
+                &lt;spectrum type="NXdata"&gt;
+                    {spectrum of insertion device}?
+                &lt;/spectrum&gt;
+                &lt;NXgeometry name=""&gt;
+                    {"Engineering" position of insertion device}?
+                &lt;/NXgeometry&gt;
+            &lt;/NXinsertion_device&gt;
+            
+            &lt;!--
+                We would include a different NXmotor entry for each 'scannable' or
+                motor/variable that we want to record the position of at each scan point.
+            --&gt;
+            &lt;NXpositioner name="{Name of scannable}"&gt;+
+                &lt;value type="NX_FLOAT[n]" units="{}"&gt;
+                    {value of motor - need [n] as may be scanned}
+                &lt;/value&gt;
+                &lt;controller_record type="NX_CHAR"&gt;
+                    {Hardware device record, e.g. EPICS process variable, taco/tango ...}
+                &lt;/controller_record&gt;
+            &lt;/NXpositioner&gt;
+
+
+            &lt;NXdetector name="{Name of detector}"&gt;1+
+                &lt;data type="NX_FLOAT[nx?,ny?,n]|NX_INT[nx?,ny?,n]" signal="1" units="number" axes="{...}"
+                      check_sum="{Integral of data as check of data integrity} (NX_INT)?" link="{absolute path to location}"&gt;
+                    {Data values}
+                &lt;/data&gt;
+                &lt;data_error type="NX_FLOAT[i,j,k?,l?]|NX_INT[i,j,k?,l?]" units="number" link="{absolute path to location}"&gt;
+                    {Data values}
+                &lt;/data_error&gt;               
+                &lt;description type="NX_CHAR"&gt;
+                    {name/manufacturer/model/etc. information}?
+                &lt;/description&gt;
+                            
+                &lt;type type="NX_CHAR"&gt;
+                    "He3 gas cylinder"|He3 PSD"|"He3 planar multidetector"| "He3 curved multidetector"| 
+                    "multi-tube He3 PSD"|"BF3 gas"|"scintillator"|"fission chamber"|"CCD"|...?
+                &lt;/type&gt;             
+                
+                &lt;detector_number type="NX_INT[i]" axis="2" primary="1?" long_name="{Axis label}" link="{absolute path to location}"&gt;
+                    {Identifier for detector}?
+                &lt;/detector_number&gt;
+                &lt;x_offset axis="3" primary="1?" type="NX_FLOAT[k+1]" units="10^-3 meter|10^-2 meter" 
+                            long_name="{Axis label}" link="{absolute path to location in NXdetector}"&gt;
+                    {offset from the detector center in x-direction}?
+                &lt;/x_offset&gt;
+                &lt;y_offset axis="4" primary="1?" type="NX_FLOAT[l+1]" units="10^-3 meter|10^-2 meter" 
+                            long_name="{Axis label}" link="{absolute path to location in NXdetector}"&gt;
+                    {offset from the detector center in the y-direction}?
+                &lt;/y_offset&gt;
+                &lt;x_pixelsize type="NX_FLOAT[i?]" units="mili*metre"&gt;
+                    {Size of each detector pixel. If it is scalar all pixels are the same size}?
+                &lt;/x_pixelsize&gt;
+                &lt;y_pixelsize type="NX_FLOAT[i?]" units="mili*metre"&gt;
+                    {Size of each detector pixel. If it is scalar all pixels are the same size}?
+                &lt;/y_pixelsize&gt;              
+                
+                
+                &lt;distance type="NX_FLOAT[j,k?,l?]" axes="detector_number,x_offset?,y_offset?"&gt;
+                    {Distance}?
+                &lt;/distance&gt;
+                &lt;polar_angle type="NX_FLOAT[j,k?,l?]" axes="detector_number,x_offset?,y_offset?"&gt;
+                    {Polar Angle}?
+                &lt;/polar_angle&gt;
+                &lt;azimuthal_angle type="NX_FLOAT[j,k?,l?]" axes="detector_number,x_offset?,y_offset?"&gt;
+                    {Azimuthal Angle}?
+                &lt;/azimuthal_angle&gt;
+                &lt;NXgeometry name=""&gt;
+                    {Position and orientation of detector element}?
+                &lt;/NXgeometry&gt;
+                &lt;translation type="NX_FLOAT[2]" units="centimeter"&gt;
+                    {translation normal to direct beam}?
+                &lt;/translation&gt;
+                &lt;solid_angle type="NX_FLOAT[i]" units="steradians"&gt;
+                    {Solid angle subtended by the detector at the sample}?
+                &lt;/solid_angle&gt;  
+                
+                &lt;dead_time type="NX_FLOAT[i]"&gt;
+                    {Detector dead time}?
+                &lt;/dead_time&gt;
+                &lt;hold_off type="NX_FLOAT[i]" units="micro.second"&gt;
+                    {Delay in detector registering an event}?
+                &lt;/hold_off&gt;
+                &lt;gas_pressure type="NX_FLOAT[i]" units="bars"&gt;
+                    {Detector gas pressure}?
+                &lt;/gas_pressure&gt;
+                &lt;detection_gas_path type="NX_FLOAT" units="cm"&gt;
+                    {maximum drift space dimension}?
+                &lt;/detection_gas_path&gt;               
+                
+                &lt;crate type="NX_INT[i]" local_name="{Equivalent local term}"&gt;
+                    {Crate number of detector}?
+                &lt;/crate&gt;
+                &lt;slot type="NX_INT[i]" local_name="{Equivalent local term}"&gt;
+                    {Slot number of detector}?
+                &lt;/slot&gt;
+                &lt;input type="NX_INT[i]" local_name="{Equivalent local term}"&gt;
+                    {Input number of detector}?
+                &lt;/input&gt; 
+                
+            
+                &lt;NXdata name="efficiency"&gt;
+                    {Efficiency of detector with respect to e.g. wavelength}?
+                &lt;/NXdata&gt;
+                &lt;calibration_date type="ISO8601"&gt;
+                    {date of last calibration (geometry and/or efficiency) measurements}?
+                &lt;/calibration_date&gt;
+                &lt;calibration_method type="NXnote"&gt;
+                    {summary of conversion of array data to pixels (e.g. polynomial approximations) and location of details of the calibrations}?
+                &lt;/calibration_method&gt;                   
+            &lt;/NXdetector&gt;
+
+        
+        &lt;/NXinstrument&gt;
+
+        &lt;!--
+            The data section contains links back to the actual data which is contained within the 
+            NXdetector and NXmotor entries.
+        --&gt;
+        &lt;NXdata name="{Name of data block}"&gt;1+
+        
+            &lt;data NAPIlink="{absolute path to location in NXdetector}" signal="1" 
+                  axes="{...}" long_name="{Title of data}"&gt;
+                {Data Values}?
+            &lt;/data&gt;
+            &lt;errors type="NX_FLOAT[:...]" NAPIlink="{absolute path to location in NXdetector}"&gt;
+                {Standard deviations of data values - the data array is identified by the attribute signal="1". This array must have the same dimensions as the data}?
+            &lt;/errors&gt;
+            &lt;variable type="NX_FLOAT[:]|NX_INT[:]" long_name="{Axis label}" distribution="0|1" first_good="{Index of first good value}" 
+                      last_good="{Index of last good value}" NAPIlink="{absolute path to location}"&gt;
+                {Dimension scale defining an axis of the data}?
+            &lt;/variable&gt;
+            &lt;variable_errors type="NX_FLOAT[:]|NX_INT[:]" NAPIlink="{absolute path to location}"&gt;
+                {Errors associated with axis "variable"}?
+            &lt;/variable_errors&gt;          
+                    
+        &lt;/NXdata&gt;
+
+
+
+   &lt;/NXentry&gt;
+&lt;/NXroot&gt;
+</pre></div>
+</div>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/wiki/issues/new">Get help</a></p>
+  </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><p>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+<br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.
+<br><a href="http://www.nexusformat.org/">Home</a>
+<br><a href="https://github.com/nexusformat">GitHub Organisation</a>
+<br>© 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC</a>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Download.html" title="Download"
+             >next</a></li>
+        <li class="right" >
+          <a href="Detector_Geometry.html" title="Detector Geometry"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">DLSraw</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, NIAC.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
+    </div>
+  </body>
+</html>

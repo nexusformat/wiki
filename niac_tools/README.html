@@ -1,0 +1,182 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>NIAC Tools</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="../_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="../_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/rubric.css" type="text/css" />
+    <script src="../_static/documentation_options.js?v=b08bce9f"></script>
+    <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="XESraw" href="../XESraw.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../XESraw.html" title="XESraw"
+             accesskey="P">previous</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NIAC Tools</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="niac-tools">
+<h1>NIAC Tools<a class="headerlink" href="#niac-tools" title="Link to this heading">¶</a></h1>
+<p>This folder is meant to contain tools helpful to NIAC members so that as new executive assume roles any tools that
+are convenient to the role can be passed on in a formal location.</p>
+<section id="ics-telco-meeting-reminder-file-generator">
+<h2>ICS telco meeting reminder file generator<a class="headerlink" href="#ics-telco-meeting-reminder-file-generator" title="Link to this heading">¶</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">ics_creator.py</span></code> is a small telco-specific helper which can be used to generate .ics
+meeting files that mail recipients can add to their calendars as a convenience.</p>
+<p>The intent is simple:</p>
+<ul class="simple">
+<li><p>only the start date/time changes</p></li>
+<li><p>sometimes the Zoom link changes</p></li>
+<li><p>everything else stays on a fixed template</p></li>
+<li><p>every generated <code class="docutils literal notranslate"><span class="pre">.ics</span></code> gets a fresh event <code class="docutils literal notranslate"><span class="pre">UID</span></code> by default</p></li>
+<li><p>if you are updating an existing invite, reuse that event <code class="docutils literal notranslate"><span class="pre">UID</span></code></p></li>
+</ul>
+<p><em>ics_creator.py</em> is a small Python script that generates an <code class="docutils literal notranslate"><span class="pre">.ics</span></code> file for a recurring telco
+meeting. It allows you to specify the start time and Zoom link, while keeping other details
+constant.</p>
+</section>
+<section id="minimum-command-line-usage">
+<h2>Minimum command-line usage<a class="headerlink" href="#minimum-command-line-usage" title="Link to this heading">¶</a></h2>
+<p>Only these arguments are required:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">--output</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">--start</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">--zoom-link</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">--meeting-id</span></code></p></li>
+</ul>
+<p>Example:</p>
+<div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="nb">Set-Location</span> <span class="s2">"~/github/wiki/source/content/niac_tools"</span>
+<span class="n">python</span> <span class="p">./</span><span class="n">ics_creator</span><span class="p">.</span><span class="n">py</span> <span class="p">-</span><span class="n">-output</span> <span class="p">./</span><span class="n">telco</span><span class="p">.</span><span class="n">ics</span> <span class="p">-</span><span class="n">-start</span> <span class="s2">"2026-10-15T15:00:00+00:00"</span> <span class="p">-</span><span class="n">-zoom-link</span> <span class="s2">"https://example.com/zoom"</span> <span class="p">-</span><span class="n">-meeting-id</span> <span class="s2">"408 741 2505"</span>
+</pre></div>
+</div>
+<p>That command uses these defaults automatically:</p>
+<ul class="simple">
+<li><p>title: <code class="docutils literal notranslate"><span class="pre">NeXus</span> <span class="pre">Telco</span></code></p></li>
+<li><p>duration: <code class="docutils literal notranslate"><span class="pre">60</span></code> minutes from the CLI default</p></li>
+<li><p>password: <code class="docutils literal notranslate"><span class="pre">nexus</span></code></p></li>
+<li><p>calendar name: <code class="docutils literal notranslate"><span class="pre">Export</span></code></p></li>
+<li><p>timezone label: <code class="docutils literal notranslate"><span class="pre">UTC</span></code></p></li>
+<li><p>reminder: <code class="docutils literal notranslate"><span class="pre">30</span></code> minutes</p></li>
+<li><p>UID: generated automatically, for example <code class="docutils literal notranslate"><span class="pre">163a6e67-c7db-4992-b9b9-0aa608172ca8&#64;nexusformat.org</span></code></p></li>
+<li><p>sequence: <code class="docutils literal notranslate"><span class="pre">0</span></code></p></li>
+</ul>
+</section>
+<section id="python-usage">
+<h2>Python usage<a class="headerlink" href="#python-usage" title="Link to this heading">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">datetime</span><span class="w"> </span><span class="kn">import</span> <span class="n">UTC</span><span class="p">,</span> <span class="n">datetime</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">ics_creator</span><span class="w"> </span><span class="kn">import</span> <span class="n">write_telco_ics</span>
+
+<span class="n">write_telco_ics</span><span class="p">(</span>
+    <span class="s2">"telco.ics"</span><span class="p">,</span>
+    <span class="n">start</span><span class="o">=</span><span class="n">datetime</span><span class="p">(</span><span class="mi">2026</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">tzinfo</span><span class="o">=</span><span class="n">UTC</span><span class="p">),</span>
+    <span class="n">zoom_link</span><span class="o">=</span><span class="s2">"https://example.com/zoom"</span><span class="p">,</span>
+    <span class="n">meeting_id</span><span class="o">=</span><span class="s2">"408 741 2505"</span><span class="p">,</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>Optional values:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">end</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">duration</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">title</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">password</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">uid</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sequence</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">reminder_email</span></code></p></li>
+</ul>
+<p>Update an existing invite for the same event by reusing the same <code class="docutils literal notranslate"><span class="pre">UID</span></code> and increasing <code class="docutils literal notranslate"><span class="pre">sequence</span></code>:</p>
+<div class="highlight-powershell notranslate"><div class="highlight"><pre><span></span><span class="nb">Set-Location</span> <span class="s2">"/github/wiki/source/content/niac_tools"</span>
+<span class="n">python</span> <span class="p">./</span><span class="n">ics_creator</span><span class="p">.</span><span class="n">py</span> <span class="p">-</span><span class="n">-output</span> <span class="p">./</span><span class="n">telco</span><span class="p">.</span><span class="n">ics</span> <span class="p">-</span><span class="n">-start</span> <span class="s2">"2026-10-15T16:00:00+00:00"</span> <span class="p">-</span><span class="n">-zoom-link</span> <span class="s2">"https://example.com/zoom"</span> <span class="p">-</span><span class="n">-meeting-id</span> <span class="s2">"408 741 2505"</span> <span class="p">-</span><span class="n">-uid</span> <span class="s2">"163a6e67-c7db-4992-b9b9-0aa608172ca8@nexusformat.org"</span> <span class="p">-</span><span class="n">-sequence</span> <span class="n">1</span>
+</pre></div>
+</div>
+<p>For a brand-new invite, do not pass <code class="docutils literal notranslate"><span class="pre">--uid</span></code>; the script will generate one automatically.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">NIAC Tools</a><ul>
+<li><a class="reference internal" href="#ics-telco-meeting-reminder-file-generator">ICS telco meeting reminder file generator</a></li>
+<li><a class="reference internal" href="#minimum-command-line-usage">Minimum command-line usage</a></li>
+<li><a class="reference internal" href="#python-usage">Python usage</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/wiki/issues/new">Get help</a></p>
+  </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><p>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+<br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.
+<br><a href="http://www.nexusformat.org/">Home</a>
+<br><a href="https://github.com/nexusformat">GitHub Organisation</a>
+<br>© 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC</a>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../XESraw.html" title="XESraw"
+             >previous</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html"></a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">NIAC Tools</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, NIAC.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
+    </div>
+  </body>
+</html>

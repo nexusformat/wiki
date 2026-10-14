@@ -1,0 +1,212 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Telco 20251118</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="_static/rubric.css" type="text/css" />
+    <script src="_static/documentation_options.js?v=b08bce9f"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Telco 20251209" href="Telco_20251209.html" />
+    <link rel="prev" title="Telco 20251020" href="Telco_20251020.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20251209.html" title="Telco 20251209"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Telco_20251020.html" title="Telco 20251020"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" accesskey="U">Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20251118</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="telco-20251118">
+<h1>Telco 20251118<a class="headerlink" href="#telco-20251118" title="Link to this heading">¶</a></h1>
+<section id="date">
+<h2>Date<a class="headerlink" href="#date" title="Link to this heading">¶</a></h2>
+<p>Tuesday, 18th Nov, 15:00 UTC</p>
+</section>
+<section id="connect">
+<h2>Connect<a class="headerlink" href="#connect" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>ZOOM VC link: <a class="reference external" href="https://eu02web.zoom-x.de/j/67593699249?pwd=GPvAopqNNsikUS36NltUb4q695YsCG.1">https://eu02web.zoom-x.de/j/67593699249?pwd=GPvAopqNNsikUS36NltUb4q695YsCG.1</a></p></li>
+<li><p>Meeting ID: 675 9369 9249</p></li>
+<li><p>Passcode: nexus</p></li>
+</ul>
+</section>
+<section id="agenda">
+<h2>Agenda<a class="headerlink" href="#agenda" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>NIAC status</p></li>
+<li><p>Release</p></li>
+</ul>
+</section>
+<section id="present">
+<h2>Present<a class="headerlink" href="#present" title="Link to this heading">¶</a></h2>
+<p>SB, AB, HB, BW, PC, RB, FdA, CZ, ZM, HG, FS - MarkusK, LukasP (FAIRmat)</p>
+</section>
+<section id="minutes">
+<h2>Minutes<a class="headerlink" href="#minutes" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Release v2025.11</p>
+<ul>
+<li><p>PC: release went fine, quite some definitions are still left in contributed</p></li>
+<li><p>MK: drafting the NeXus paper is also in its finish.</p></li>
+<li><p>LP: NeXus Ontology needs to be also updated</p></li>
+<li><p>AB: our release cycle should also include the update of the ontology</p></li>
+<li><p>PC: CI/CD could be added to generate/update the ontology automatically</p></li>
+<li><p>Some PRs still needs to be merged and a patched release could include them</p></li>
+<li><p>LP: can we release only regularly (e.g. once per year)</p></li>
+<li><p>AB/BW: No, we could release at any time. RO should be also asked.</p></li>
+</ul>
+</li>
+<li><p>PRs:</p>
+<ul>
+<li><p>NXparameter - PR #1560</p>
+<ul>
+<li><p>MK: CI/CD was failing which required an Attribute ‘model’ to be moved to be a Field because ‘model was also defined as a Field. (Sphinx script handles Attribute names and Field names under the same namespaces)</p></li>
+<li><p>CP: this fix is problematic, because it can always happen that a Field has the same name as an Attribute or a filename matches an Attribute name pattern (e.g. nameType partial). Rather, the sphinx script needs to be fixed.</p></li>
+<li><p>MK volunteered to make a separate issue on this.</p></li>
+<li><p>AB: model could be removed from the base class and can be defined by whoever needs it.</p></li>
+<li><p>SB: let us check it also with RO as it was his PR.</p></li>
+</ul>
+</li>
+<li><p>Voting process and NXgoniometer - PR #1561</p>
+<ul>
+<li><p>Vote did not pass, and a cleaner voting process may be needed.</p></li>
+<li><p>AB: a possibility is: to define a 1 week commenting time, and then start a 1 week vote where no more comments are expected.</p></li>
+<li><p>BW: specifically this PR could handle conventions differently. More discussion could be useful.</p></li>
+<li><p>FdA: why not stay as now, voting starts, but comments could come in still</p></li>
+<li><p>AB: this does not solve the process issue</p></li>
+<li><p>HB: Let us go back to definitions and agree on: What is NeXus?</p></li>
+<li><p>AB: 1) self-descriptive machine-readable standard? 2) community agreement? - In general (2) for App Defs, and more towards (1) for base classes.</p></li>
+<li><p>BW: process may not be wrong, but more discussion is needed.</p></li>
+<li><p>LP: while 1+1 is an option, actual experience shows that long-planned/discussed topics are still bringing issues to reviewers.</p></li>
+<li><p>AB: Contributed definitions could/should be considered as a discussion period.</p></li>
+<li><p>LP: Especially when a PRs is brought up to bring it to the standard.</p></li>
+<li><p>AB: Let us make a suggestion for improving the constitution. What about 1+1w?</p></li>
+<li><p>PC: 1w is enough for comments</p></li>
+<li><p>BW: it would not make any difference</p></li>
+<li><p>SB: a) it works already like this. b) 1w would not be long enough for actual vote</p></li>
+<li><p>AB: actually, we did make modifications as a result of comments and merged not what the vote actually started on.</p></li>
+<li><p>MK: we may not need to try stop commenting, but voting should be considered seriously; 1w is too short for vote.</p></li>
+<li><p>BW: instead of 1+1w, let us call for comments and suggest a specific date for starting a vote.</p></li>
+<li><p>SB: allow shortening the vote time if the vote is already certain.</p></li>
+<li><p>HG: not everyone can follow all PRs and  check if it really fits to local beamline needs. Not to vote, “Obstain” or “No” : not always clear what to do.</p></li>
+<li><p>AB: more and more obtains are arriving. It is normal. We should all add opinions together. We can do it actually by voting.</p></li>
+<li><p>HB: we need a strong agreement on the constitution and it shall be followed, or alternative processes could be proposed.</p></li>
+<li><p>AB: consensus was and shall always be a priority.</p></li>
+<li><p>RO: if comments make it obvious voting could be cancelled.</p></li>
+<li><p>FdA: good to note that obstaining is not the same as simply not voting.</p></li>
+<li><p>AB: No, obtaining is an important contribution.</p></li>
+<li><p>HG: Thank you for the clarifications. it is convincing.</p></li>
+<li><p>BW: a failing vote and restarting is a vote is actually is the same</p></li>
+<li><p>RO: important to understand well the value of Obstaining compared to simply not voting.</p></li>
+</ul>
+</li>
+<li><p>Remaining PRs moved to milestone ‘’NXDL 2026’ and reviewed if they can go to a patch release ‘NXDL 2026.01’ by Jan 9, 2026.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="dec-telco">
+<h2>Dec Telco<a class="headerlink" href="#dec-telco" title="Link to this heading">¶</a></h2>
+<p>Please help to choose the date by responding to <a class="reference external" href="https://doodle.com/group-poll/participate/avJ3GlVa">the poll</a> by Nov 28.</p>
+<p>We are planning to hold the telco in the regular slot of UTC 15:00. Check your local time to avoid scheduling surprises!</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Telco 20251118</a><ul>
+<li><a class="reference internal" href="#date">Date</a></li>
+<li><a class="reference internal" href="#connect">Connect</a></li>
+<li><a class="reference internal" href="#agenda">Agenda</a></li>
+<li><a class="reference internal" href="#present">Present</a></li>
+<li><a class="reference internal" href="#minutes">Minutes</a></li>
+<li><a class="reference internal" href="#dec-telco">Dec Telco</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/wiki/issues/new">Get help</a></p>
+  </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><p>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+<br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.
+<br><a href="http://www.nexusformat.org/">Home</a>
+<br><a href="https://github.com/nexusformat">GitHub Organisation</a>
+<br>© 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC</a>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20251209.html" title="Telco 20251209"
+             >next</a></li>
+        <li class="right" >
+          <a href="Telco_20251020.html" title="Telco 20251020"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" >Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20251118</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, NIAC.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
+    </div>
+  </body>
+</html>

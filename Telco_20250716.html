@@ -1,0 +1,298 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Telco 20250716</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="_static/rubric.css" type="text/css" />
+    <script src="_static/documentation_options.js?v=b08bce9f"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Telco 20250811" href="Telco_20250811.html" />
+    <link rel="prev" title="Telco 20250707" href="Telco_20250707.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20250811.html" title="Telco 20250811"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Telco_20250707.html" title="Telco 20250707"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" accesskey="U">Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20250716</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="telco-20250716">
+<h1>Telco 20250716<a class="headerlink" href="#telco-20250716" title="Link to this heading">¶</a></h1>
+<section id="date">
+<h2>Date<a class="headerlink" href="#date" title="Link to this heading">¶</a></h2>
+<p>Wednesday, 16th Jul, 15:00 UTC</p>
+</section>
+<section id="connect">
+<h2>Connect<a class="headerlink" href="#connect" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>ZOOM VC link: `<a class="reference external" href="https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09">https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09</a> &lt;<a class="reference external" href="https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09">https://hu-berlin.zoom.us/j/65272091306?pwd=WUxEa0ZtVXp1ZHlsSlVjU2lmclMrQT09</a>)_</p></li>
+<li><p>Meeting ID: 652 7209 1306</p></li>
+<li><p>Passcode: nexus</p></li>
+</ul>
+</section>
+<section id="agenda">
+<h2>Agenda<a class="headerlink" href="#agenda" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>PRs</p></li>
+</ul>
+</section>
+<section id="present">
+<h2>Present<a class="headerlink" href="#present" title="Link to this heading">¶</a></h2>
+<p>SB, AB, FdA, FS, HB, RO, PC, WdN - MarkusK, LukasP, RubelM (FAIRmat), GerritG (HMC)</p>
+</section>
+<section id="minutes">
+<h2>Minutes<a class="headerlink" href="#minutes" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Computational Geometry PRs - 1421 (1532)</p>
+<ul>
+<li><p>AB: vote is ongoing</p></li>
+</ul>
+</li>
+<li><p>EM - 1423 volunteers for reviewing: AB, HB</p>
+<ul>
+<li><p>MK: feedbacks from Alba have been addressed. Ready for vote</p></li>
+<li><p>AB: we can start the vote tomorrow</p></li>
+<li><p>RO: suffix vs prefix needs to be cleaned. Eg.NXlens_em?</p></li>
+<li><p>MK: yes, we can rename it to NXelectromagnetic_lens</p></li>
+<li><p>AB: also modify NXscanbox_em</p></li>
+</ul>
+</li>
+<li><p>OptSpec: 1425</p>
+<ul>
+<li><p>MK: PR is accepted, but still few comments to be resolved before
+merge</p></li>
+<li><p>PC: all resolved already</p></li>
+<li><p>AB: we can merge</p></li>
+<li><p>LP: there were suggestion for pulling some definitions from AppDef
+to new Base calsses. This can be done in a PR later</p></li>
+</ul>
+</li>
+<li><p>dictionary for spellchecking the defintions</p>
+<ul>
+<li><p>LP: a PR could be set up a dictionary, so we run a spell checker on
+definitions when building the documentation</p></li>
+<li><p>AB: it is valuable, let us prepare such PR</p></li>
+</ul>
+</li>
+<li><p>PR to update contributed definitions</p>
+<ul>
+<li><p>SB: FAIRmat defintions are moved to AppDef, BaseClassdes or kept in
+contributed, but got updated</p></li>
+<li><p>AB: it is fine to merge when cleaned.</p></li>
+</ul>
+</li>
+<li><p>SECoP PR</p>
+<ul>
+<li><p>GG: NeXus allows a basic mapping of SECoP data, but next to
+temperature, and magnetic_field, others would be needed. Eg. humidity,
+viscosity, concentration should also be added to NXsample and NXsensor.
+Multiple sensors can measure at different positions, but maybe one
+needs to be a dedicated one for describing the Sample state, so field
+in NXsample would be nice for those measurements, too.</p></li>
+<li><p>MK: It would also be nice to connect these terms to external
+otologies, like <a class="reference external" href="https://www.qudt.org">https://www.qudt.org</a></p></li>
+<li><p>RO: Is SECoP implemented by manufacturers?</p></li>
+<li><p>GG: Pickup is in progress. Unfortunately, NeXus base classes give
+too much freedom in mapping these terms to NeXus fields/groups, so
+files from different facilities could look different although they
+supposed to contain the same information.</p></li>
+<li><p>RO: it would be nice to have a stable documentation of the terms
+and definitions from SECoP</p></li>
+<li><p>LP: Why do we need separate Field, next to the sensors?</p></li>
+<li><p>GG: we use a softlink to the corresponding sensors’s value Field.</p></li>
+<li><p>LP: This could be added to the documentaion, that a link could be
+used here</p></li>
+<li><p>GG: Sure! Regarding ontology links, it would be needed for those
+sensors which are not yet defined precisely in NeXus, but we could link
+them to an external ontology term.</p></li>
+<li><p>MK: definitions are nice that define clearly the terms. Open
+enumerations can be used if arbitrary new fields could be supported</p></li>
+<li><p>AB: terms clearly defined in SECoP could be taken by NeXus, we need
+a clear definition page</p></li>
+<li><p>AB: do we want to just add more and more fields, or rather we could
+reorganise NXsample</p></li>
+<li><p>MK: exactly, unit_cell is another example in NXsample where better
+structure is now available compared to the original flat list of
+unit_cell parameters. Similar improvements could be applied to Sample
+Environment, too.</p></li>
+<li><p>RO: Symbols here (n_comp) is incompatible with the proposed use of
+the fields here. Note that the use of symbols are more and more
+problematic when used in base classes.</p></li>
+<li><p>AB: After clarifications in documentation, we could move it to a
+vote</p></li>
+</ul>
+</li>
+<li><p>PR 1574: FIELDNAME to NXobject (and PR 1569 - self-description for
+non-NeXus terms)</p>
+<ul>
+<li><p>GG: &#64;datatype (similarly to &#64;units) could be added.
+&#64;ontology_concept link would also be neede to be able to connect
+metadata to external defintions</p></li>
+<li><p>SB: datatype is covered by hdf5 datatype (so no additional
+attribute is needed). Ontology links: This is supported for Groups via
+identifierNAME, but NIAC decided not to support it for Fields yet</p></li>
+<li><p>MK: could be nice even for Attributes</p></li>
+<li><p>RO: It is intentional not to support validating undefined fields.</p></li>
+<li><p>LP: With this change every field becomes “defined” even if there
+was no real definition attached. This is a bigger change in the
+standard</p></li>
+<li><p>SB: A PR to be considered would need more description also
+detailing better the impact, modification of the standard, and the new
+expected use (e.g. how validators would operation on new nexus field
+types). Discussion should continue in this PR, and when</p></li>
+</ul>
+</li>
+<li><p>NXparameter - PR 1560</p>
+<ul>
+<li><p>RO: it is an improvement of the documentation with extra attributes</p></li>
+<li><p>MK: NXparameters could be used for any analysis, not only for
+fitting, so documentation could state it clearly.</p></li>
+<li><p>LP: &#64;min, &#64;max, etc. is all nice, but shall &#64;model not be defined
+somewhere else?</p></li>
+<li><p>RO: each model shall have a separate parameters group with
+respective parameters inside. It is good to be agnostic to analysis
+package, but wanted to properly cover lmfit.</p></li>
+<li><p>SB: what about having a generic NXparameters, and a specialisation
+of NXlmfit_parameters</p></li>
+<li><p>LP: NXfit_function does similar. We could harmonise e.g. names,
+like min/max vs. min_value/max_value, we could take your name
+convention.</p></li>
+<li><p>RO: I can change to be compatible to NXfit_fucntion</p></li>
+</ul>
+</li>
+<li><p>NXgoniometer - PR 1561</p>
+<ul>
+<li><p>RO: no NXtransformation is used here, but it would allow defining
+goniometer conventions (rotations, transformations)</p></li>
+<li><p>PC: it does not support machine readibality. An Application
+Definition could specify which convention to be used and the use of
+this application definition would actually be machine readable, but it
+would be useful only together with NXtransformations.</p></li>
+<li><p>RO: One can reference a paper where the convention is defined.</p></li>
+<li><p>HB: Even if people may not use NXtransformations, please include
+how NXtransformations could be coupled with the current proposal.</p></li>
+<li><p>PC: to avoid duplications, NXtransfomrations fields would use links
+to the here specified fields, but their attributes are in
+contradiction. Alternatively, NXpositioners could also be used.</p></li>
+<li><p>RO: it is problematic to encode the full transformation chain in a
+file, because what is written may not be fully implemented on the
+beamline, and it results in a wrong/incorrect file.</p></li>
+<li><p>HB: recording value without metadata describing its meaning is not
+good. Machine readable metadata is needed.</p></li>
+<li><p>RO: happy to connect it to NXtransformations. Any proposals are
+welcome.</p></li>
+<li><p>WdN: NXtransformations would look in NexPy exactly as NXgoniometer
+(with the exception of the required &#64;vector).</p></li>
+<li><p>SB: we could compare the two solutions visually. RO can provide
+demo data, and WdN could model it using NXtransformations.</p></li>
+<li><p>HB: vector is needed for clarifying the handedness of the
+goniometer.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="aug-telco">
+<h2>Aug Telco<a class="headerlink" href="#aug-telco" title="Link to this heading">¶</a></h2>
+<p>Please help to `choose the date by responding to <a class="reference external" href="https://doodle.com/group-poll/participate/bqLg0yka">the poll</a> by July 24.</p>
+<p>We are planning to hold the telco in the regular slot of UTC 15:00. Check your local time to avoid scheduling surprises!</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Telco 20250716</a><ul>
+<li><a class="reference internal" href="#date">Date</a></li>
+<li><a class="reference internal" href="#connect">Connect</a></li>
+<li><a class="reference internal" href="#agenda">Agenda</a></li>
+<li><a class="reference internal" href="#present">Present</a></li>
+<li><a class="reference internal" href="#minutes">Minutes</a></li>
+<li><a class="reference internal" href="#aug-telco">Aug Telco</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/wiki/issues/new">Get help</a></p>
+  </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><p>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+<br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.
+<br><a href="http://www.nexusformat.org/">Home</a>
+<br><a href="https://github.com/nexusformat">GitHub Organisation</a>
+<br>© 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC</a>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Telco_20250811.html" title="Telco 20250811"
+             >next</a></li>
+        <li class="right" >
+          <a href="Telco_20250707.html" title="Telco 20250707"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" >Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20250716</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, NIAC.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
+    </div>
+  </body>
+</html>
