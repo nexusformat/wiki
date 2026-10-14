@@ -8,7 +8,9 @@ from __future__ import annotations
 
 from argparse import ArgumentParser
 from datetime import UTC, datetime, timedelta
+from html import escape
 from pathlib import Path
+from uuid import uuid4
 
 
 DEFAULT_TITLE = "NeXus Telco"
@@ -16,8 +18,7 @@ DEFAULT_DURATION = timedelta(hours=1)
 DEFAULT_PRODID = "-//NeXus Telco//Meeting Invite//EN"
 DEFAULT_CALENDAR_NAME = "Export"
 DEFAULT_CALENDAR_TIMEZONE = "UTC"
-DEFAULT_UID = "163a6e67-c7db-4992-b9b9-0aa608172ca8@nexusformat.org"
-DEFAULT_MEETING_ID = "652 7209 1306"
+DEFAULT_UID_DOMAIN = "nexusformat.org"
 DEFAULT_PASSWORD = "nexus"
 DEFAULT_REMINDER_MINUTES = 30
 DEFAULT_STATUS = "CONFIRMED"
@@ -25,16 +26,13 @@ DEFAULT_TRANSPARENCY = "TRANSPARENT"
 DEFAULT_MEETING_LEN_MINUTES = 60
 
 
-def _html_escape(value: str) -> str:
-	return (
-		value.replace("&", "&amp;")
-		.replace("<", "&lt;")
-		.replace(">", "&gt;")
-		.replace('"', "&quot;")
-	)
+def _generate_uid(domain: str = DEFAULT_UID_DOMAIN) -> str:
+	clean_domain = domain.strip()
+	if not clean_domain:
+		raise ValueError("UID domain must not be empty.")
+	return f"{uuid4()}@{clean_domain}"
 
-
-def _escape_text(value: str) -> str:
+def _escape_ical_text(value: str) -> str:
 	return (
 		value.replace("\\", "\\\\")
 		.replace("\r\n", "\\n")
@@ -82,17 +80,17 @@ def _alarm_trigger(minutes: int) -> str:
 
 def build_description(
 	zoom_link: str,
-	meeting_id: str = DEFAULT_MEETING_ID,
+	meeting_id: str,
 	password: str = DEFAULT_PASSWORD,
 ) -> str:
 	clean_link = zoom_link.strip()
 	if not clean_link:
 		raise ValueError("zoom_link is required.")
 	return (
-		f'<a href="{_html_escape(clean_link)}" target="_blank">'
-		f"{_html_escape(clean_link)}</a><br>"
-		f"Meeting ID: {_html_escape(meeting_id)}<br>"
-		f"Password: {_html_escape(password)}"
+		f'<a href="{escape(clean_link)}" target="_blank">'
+		f"{escape(clean_link)}</a><br>"
+		f"Meeting ID: {escape(meeting_id)}<br>"
+		f"Password: {escape(password)}"
 	)
 
 
@@ -100,10 +98,11 @@ def create_telco_ics(
 	*,
 	start: datetime,
 	zoom_link: str,
+	uid: str | None = None,
 	end: datetime | None = None,
 	duration: timedelta = DEFAULT_DURATION,
 	title: str = DEFAULT_TITLE,
-	meeting_id: str = DEFAULT_MEETING_ID,
+	meeting_id: str,
 	password: str = DEFAULT_PASSWORD,
 	sequence: int = 0,
 	dtstamp: datetime | None = None,
@@ -118,6 +117,9 @@ def create_telco_ics(
 		raise ValueError("end must be later than start.")
 
 	stamp = dtstamp or datetime.now(UTC)
+	event_uid = uid.strip() if uid else _generate_uid()
+	if not event_uid:
+		raise ValueError("uid must not be empty if provided.")
 	trigger = _alarm_trigger(reminder_minutes)
 	lines = [
 		"BEGIN:VCALENDAR",
@@ -125,17 +127,17 @@ def create_telco_ics(
 		"VERSION:2.0",
 		"CALSCALE:GREGORIAN",
 		"METHOD:PUBLISH",
-		f"X-WR-CALNAME:{_escape_text(calendar_name)}",
-		f"X-WR-TIMEZONE:{_escape_text(calendar_timezone)}",
+		f"X-WR-CALNAME:{_escape_ical_text(calendar_name)}",
+		f"X-WR-TIMEZONE:{_escape_ical_text(calendar_timezone)}",
 		"BEGIN:VEVENT",
 		f"DTSTART:{_format_datetime(start)}",
 		f"DTEND:{_format_datetime(end)}",
 		f"DTSTAMP:{_format_datetime(stamp)}",
-		f"UID:{DEFAULT_UID}",
-		f"DESCRIPTION:{_escape_text(build_description(zoom_link, meeting_id, password))}",
+		f"UID:{event_uid}",
+		f"DESCRIPTION:{_escape_ical_text(build_description(zoom_link, meeting_id, password))}",
 		f"SEQUENCE:{sequence}",
 		f"STATUS:{DEFAULT_STATUS}",
-		f"SUMMARY:{_escape_text(title)}",
+		f"SUMMARY:{_escape_ical_text(title)}",
 		f"TRANSP:{DEFAULT_TRANSPARENCY}",
 	]
 
@@ -182,8 +184,9 @@ def main() -> None:
 	parser.add_argument("--end", help="Optional end timestamp in ISO-8601 format.")
 	parser.add_argument("--duration-minutes", type=int, default=DEFAULT_MEETING_LEN_MINUTES, help="Meeting duration in minutes.")
 	parser.add_argument("--zoom-link", required=True, help="Zoom or meeting URL.")
+	parser.add_argument("--uid", default="", help="Optional event UID. Reuse an existing UID when updating a previously sent invite.")
 	parser.add_argument("--summary", default=DEFAULT_TITLE, help="Meeting title.")
-	parser.add_argument("--meeting-id", default=DEFAULT_MEETING_ID, help="Meeting ID text.")
+	parser.add_argument("--meeting-id", required=True, help="Meeting ID text.")
 	parser.add_argument("--password", default=DEFAULT_PASSWORD, help="Meeting password text.")
 	parser.add_argument("--calendar-name", default=DEFAULT_CALENDAR_NAME, help="Calendar name.")
 	parser.add_argument("--calendar-timezone", default=DEFAULT_CALENDAR_TIMEZONE, help="Calendar timezone label.")
@@ -198,6 +201,7 @@ def main() -> None:
 		end=_parse_iso_datetime(args.end) if args.end else None,
 		duration=timedelta(minutes=args.duration_minutes),
 		zoom_link=args.zoom_link,
+		uid=args.uid or None,
 		title=args.summary,
 		meeting_id=args.meeting_id,
 		password=args.password,

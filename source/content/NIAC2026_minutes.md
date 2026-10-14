@@ -61,7 +61,7 @@ Session A: Sept 25th 08:00 UTC
   - Status
     - JSON on top of NeXus;
     - only base classes;
-    - users not understand the sandard details;
+    - users not understand the standard details;
     - JSON walk & SCIPP: NXtransformation viewer;
     - most used: NXevent_data, NXdata, NXlog, NXtextlog
   - plan:
@@ -116,13 +116,13 @@ Session B: Sept 25th 11:30 UTC
     - store simulation data in NeXus, too
     - also processed/reduced data should go to NeXus (like NX in Mantid)
   - questions:
-    - how to best create new application definitinos
-    - shall we propose new defintion or rather (miss)use not 100% fitting base classes
+    - how to best create new application definitions
+    - shall we propose new definition or rather (miss)use not 100% fitting base classes
     - where to put unnecessary Nicos (DAQ) parameters? may be difficult to decide what is needed what is not.
     - shall we use master-file and original raw data to separate files
     - multi-modal experiments
     - how to use PIDs
-    - new definitinos shall have only proper description , or name must also be  descriptive?
+    - new definitions shall have only proper description , or name must also be  descriptive?
     - needs of the TAS (Triple Axis Spectroscopy) community? will name harmonisation needed?
     - next to new AppDefs, new base classes are also needed
 - PB (HZB):
@@ -133,10 +133,10 @@ Session B: Sept 25th 11:30 UTC
     - link to external knowledge
     - supporting 'identifier's for fields, too, not only for groups
   - questions/comments:
-    - measurements may go parallel or subsequential or overalpping
+    - measurements may go parallel or sequential or over lapping
     - shall we have an NXmass_spectrometry or just describe things in NXenvironment? or somewhere else in the NeXus tree?
     - global timestamps for all subexperiments
-    - global view (during the full experiment) for sensors/stages (not only in a subtechnique)
+    - global view (during the full experiment) for sensors/stages (not only in a sub technique)
     - instead of AppDefs, maybe base classes with runtime annotation with ontology links
     - how to link a definition (and not a data item) to an ontology concept?
     - what about chemical formula which also changes during operando
@@ -149,25 +149,25 @@ Session B: Sept 25th 11:30 UTC
       - sematic definition being independent from actual binary representation?
       - how to deal with only partial data?
     - how to extend the schema?
-    - NXDL is a blocker; NYAML helps, but still uncomfortable unconvential rules e.g. PARTIAL names
-    - generic concepts are not enough to know what is the role of a specific NXslit. use specific readable name? is it enough? external link to a specification or ontology concept? documentation in datafile? feature?...) 
+    - NXDL is a blocker; NYAML helps, but still uncomfortable unconventional rules e.g. PARTIAL names
+    - generic concepts are not enough to know what is the role of a specific NXslit. use specific readable name? is it enough? external link to a specification or ontology concept? documentation in datafile? feature?... 
   - what is the role of NIAC:
-    - stear the definitions
-    - also tutorials and facilitaion (better documentation) of working with NeXus? 
+    - steer the definitions
+    - also tutorials and examples (better documentation) of working with NeXus?
 
 Session C: Sept 25th 14:00 UTC
 ------------------------------
 - HO (HZB):
   - NeXus Creator with NXDL guided placement of (meta)data
   - questions/proposals:
-    - NXDL could have better descripotions/hints for what a specific definition is for. Maybe aliases (generic choice for the name)?
-    - what is the preferred way to create a file? Master file with slaves or a big file with mutiple entry or one big entry?
+    - NXDL could have better descriptions/hints for what a specific definition is for. Maybe aliases (generic choice for the name)?
+    - what is the preferred way to create a file? Master file with slaves or a big file with multiple entry or one big entry?
     - How to put description to a NeXus file (to document a specific element)?
     - No AppDef yet for operando_eis
 - YM (RWTH):
   - NX Appdef for TOF powder diffraction (POWTEX instrument for multidimensional measurements) following the structure of NXsnsevent
   - plan:
-    - Mantid data analysis input and output results shold also go back to the NeXus file
+    - Mantid data analysis input and output results should also go back to the NeXus file
     - instrument parameters should be in NeXus
   - problem/question:
     - NeXus validation issues when creating a file manually (or with NXcreator)
@@ -179,8 +179,8 @@ Session C: Sept 25th 14:00 UTC
   - plan:
     - NeXus for MPES techniques
   - questions:
-    - what is the minimal necessary data in a NeXus file? Maybe: all what is needed by data analysis tools intended to be used by the community. Consult with local and external developpers!
-    - multiple subentries in a single entry. Shall an AppDef ask for Subentries with specific Application Defintion?
+    - what is the minimal necessary data in a NeXus file? Maybe: all what is needed by data analysis tools intended to be used by the community. Consult with local and external developers!
+    - multiple subentries in a single entry. Shall an AppDef ask for Subentries with specific Application Definition?
 - MR (ESRF):
   - AppDef family for XAS to cover all kinds of XAS based experiments with light processing
   - ESRF DAQ produced h5 files can be processed to NXxas... files after data processing
@@ -195,7 +195,7 @@ Session C: Sept 25th 14:00 UTC
     - NXprocess fields could reference data in NXcollection
     - What to do with data in ESRF DAQ produced hdf5 files
     - how to manage multi detection experiments
-    - how deprication works?
+    - how depreciation works?
     - how reference is modelled?
     - what about sample preparation? generic sample vs. actual sample?
 - discussion:
@@ -210,7 +210,7 @@ Session C: Sept 25th 14:00 UTC
       - email lists
     - Ratification
       - Change -> NIAC vote
-      - new contributions go to contributed definiotions, when ready -> NIAC vote
+      - new contributions go to contributed definitions, when ready -> NIAC vote
   - New format: well accepted
   - potential new communication channels: discord, slac, matrix, zulib
   - examples and tutorials
@@ -240,7 +240,7 @@ Session D: Sept 26th 08:00 UTC
     - HG: Operando related questions
     - RB: example repo and its visibility
     - FdA: community wishes, communication
-    - MW: tutorials, documentaion
+    - MW: tutorials, documentation
     - LP: target attribute, ontology
     - ZM: cleaning the documentation, NXazint
 - AB: Has the NIAC the right size? Are we agile enough?
@@ -259,32 +259,32 @@ Session D: Sept 26th 08:00 UTC
   - IL: working, real facility examples with explanation why they are put together as they are
   - LP: how to write new definition and how to contribute to NeXus
   - HG: how to start with something new, like pump-probe experiments
-  - MW: separation between Using and Developping NeXus
+  - MW: separation between Using and Developing NeXus
   - RB: maybe an AI prompt on top of the documentation?
   - WdN: move away from XML and use pydantic
-  - AB: cleaner and simplified documentation (e.g. doctree is full with unrelevant topics)
+  - AB: cleaner and simplified documentation (e.g. doctree is full with irrelevant topics)
     - LP: https://fairmat-nfdi.github.io/pynxtools/tutorial/writing-an-application-definition.html
     - HG: https://hz-b.github.io/2026_BESSYII_Datathon/
-  - HB: SQL ontology is needed for human tracibility
+  - HB: SQL ontology is needed for human traceability
   - AB: let us create an issue for this
 - AB: make examples more visible
   - Examples on the main page
   - Examples for each App Def
   - More community examples (links?)
   - NeXus file interpretor (tool to connect NeXud groups/fields/attrs in a data file to Vocabulary Items of the NeXus definitions)
-  - github action for checking defintions (and definitions changes) against known example data files
+  - github action for checking definitions (and definitions changes) against known example data files
   - diataxis for examples and documentation in general
   - Code-Camp for it
 - NIAC Roles
   - Technical Manager
     - existing, but unfilled role for NAPI that is not there anymore
     - instead, an official validator could be added as a task for this role
-    - RO: cnxvalidate is there but not developped any longer. Python API could be strangthened by more contributors (e.g. with pynxtools)
-    - BW: single source of truth in NeXus is the defintion in NXDL. It shall not be the validator which provides the truth. A validator is good, but it should follow the NXDL definitions. Can a single person be responsible for guaranteeing integrity between definitions and validation? Tech manager shall be responsible for the validation tool and we also need one for managing NXDL.
+    - RO: cnxvalidate is there but not developed any longer. Python API could be strengthened by more contributors (e.g. with pynxtools)
+    - BW: single source of truth in NeXus is the definition in NXDL. It shall not be the validator which provides the truth. A validator is good, but it should follow the NXDL definitions. Can a single person be responsible for guaranteeing integrity between definitions and validation? Tech manager shall be responsible for the validation tool and we also need one for managing NXDL.
     - HB: NeXus connectivity to databases should be enabled. Database referential integrity should be maintained via normalisation.
-      - SB,LP: NOMAD (in FAIRmat) solves the probelm using mongoDB
+      - SB,LP: NOMAD (in FAIRmat) solves the problem using mongoDB
       - HG: ontology, triplets and SPARQL is also a way (DAPHNE is looking at) 
-      - AB: we need a specific example to demonstrate the actual probelm
+      - AB: we need a specific example to demonstrate the actual problem
   - Ontology Manager
     - it can be defined as an official role
     - ensures the relationship with semantic world
@@ -316,16 +316,16 @@ Session E: Sept 26th 11:30 UTC
   - RO: why not an NXenvironment for (every) NXcomponent
   - LP: yes, but specializing an NXinstrument with special description provides a possibility for a recepie how to describe its environment
   - WdN: Warning! NXenvironment has NXcomponents, so an NXcomponent would have NXcomponents inside.
-  - AB: just take it as is. Note that if a subcomponent has an environemnt already defined (e.g. Sample) than that this environemnt should be used instead.
-  - BW: an environemnt should be external to the component it is providing environment for.
+  - AB: just take it as is. Note that if a subcomponent has an environment already defined (e.g. Sample) than that this environment should be used instead.
+  - BW: an environment should be external to the component it is providing environment for.
   - SB: Can an NXinstrument has another NXinstrument inside? Similarly, an NXcomponent another NXcomponent inside?
   - AB: We can support the specific requests as they are coming.
   - BW: +1, We can now add where it is now requested and if new request comes, we can then add there, too.
   - HG: Operando project is addressing this question, so we may wait until the request is clarified.
   - SP: as BW said, we can add it to both places
-  - GON: be carefull with its use
+  - GON: be careful with its use
   - AB: go for it with clear description
-  - RO,SB: specialisation of excluding the possibility to have an NXenvironemnt in /NXcomponent/NXsensor and NXactuator is not needed.
+  - RO,SB: specialisation of excluding the possibility to have an NXenvironment in /NXcomponent/NXsensor and NXactuator is not needed.
   - accepted (11/1/1)
 - PR #1330
   - accepted (13/0/0)
@@ -338,7 +338,7 @@ Session E: Sept 26th 11:30 UTC
   - PC: Is is needed at Diamond and shall be used in NXdetector
   - RO: It is like a view definition. Is not this definition too specific?
   - PC: Indeed, if it needs to be extended, it can be done.
-  - GON: signal and aux_signal in NXdata shall be consistant. Different downsampling requires multiple NXdata results.
+  - GON: signal and aux_signal in NXdata shall be consistent. Different downsampling requires multiple NXdata results.
 - What is in front of us:
   - AFM/SPM PR#1632
     - 5 App Def
@@ -351,7 +351,7 @@ Session F: Sept 26th 14:00 UTC
 ------------------------------
 - PR#1619 XAS (see also PR#1352)
   - AB: community needs NXatom and NXelement as separate concepts
-  - SB: NXelement: why do we have long enum list with docuemtation repeating well known physics standard?
+  - SB: NXelement: why do we have long enum list with documentation repeating well known physics standard?
   - BW: NXauger_line/NXemission_line: why an enum list rather than a regexp?
   - WdN: auger lines do not seem to be a complete list
   - PC: The list in current base class does not support properly neutron spectroscopy
