@@ -8,7 +8,6 @@ from __future__ import annotations
 
 from argparse import ArgumentParser
 from datetime import UTC, datetime, timedelta
-from html import escape
 from pathlib import Path
 from uuid import uuid4
 
@@ -87,10 +86,9 @@ def build_description(
 	if not clean_link:
 		raise ValueError("zoom_link is required.")
 	return (
-		f'<a href="{escape(clean_link)}" target="_blank">'
-		f"{escape(clean_link)}</a><br>"
-		f"Meeting ID: {escape(meeting_id)}<br>"
-		f"Password: {escape(password)}"
+		f"Zoom link: {clean_link}\n"
+		f"Meeting ID: {meeting_id}\n"
+		f"Password: {password}"
 	)
 
 
