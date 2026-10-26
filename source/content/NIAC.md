@@ -30,6 +30,7 @@ Current Members
 -   Gregory Tucker, ESS, Sweden
 -   Mark Wolfman, Advanced Photon Source, USA
 
+_non-voting members are written in italic_
 
 See the page with the [expiration dates](Membership_Dates.html "wikilink") for when the current terms of the various members end and we require a new facility endorsement and vote (see below).
 
@@ -86,10 +87,12 @@ the following plan:
 
 The NeXus International Advisory Committee will seek balanced
 representation of the international community. It will consist of at
-most one voting representative from each major neutron, synchrotron
+most one voting representative and additional non-voting representatives 
+as needed from each major neutron, synchrotron
 x-ray, and muon facility. Membership would normally be for a three year
-renewable term. Members will be nominated by each facility through the
-facility director and approved by the existing committee. Each member
+renewable term. Members will be nominated by their facility or institution leaders and then approved by the existing committee.
+If the nomination of a voting member expires, the status changes 
+automatically to non-voting membership for a year. Each member
 can appoint a substitute to attend a particular meeting.
 
 The committee reserves the right to appoint additional members for a
@@ -106,21 +109,26 @@ executive officers:
     person that holds the position does not need to be an existing
     member of the NIAC, and does not vote unless he/she is a regular
     member.
--   Technical Manager with the responsibility to oversee the NeXus API.
-    The tasks of the manager are to coordinate tests, manage and
-    announce releases, and promote code from the contributed directory
-    to the regular release build. The person that holds the position
-    does not need to be an existing member of the NIAC, and does not
-    vote unless he/she is a regular member.
--   Definition Release Manager with the responsibility to oversee the
+-   Validation Technical Manager: to be responsible to oversee validation tools.
+    The tasks of this manager are to maintain validation code, ensure validation accurately
+    tests the NeXus standard against NeXus files, and build regression tests that validate
+    known example data. The person that holds the position does not need to be an existing
+    member of the NIAC, and does not vote unless he/she is a regular member.
+-   NXDL Technical Manager: to be responsibile for ensuring the NXDL language and its usage
+    in the NeXus definitions is correct. This includes verifying the language is both
+    internally consistent and that it can express the intent of the NeXus specification.
+-   Definition Release Manager: to be responsibile to oversee the
     release of NeXus definitions and documentation. The person that
     holds the position does not need to be an existing member of the
     NIAC, and does not vote unless he/she is a regular member.
+-   Ontology Technical Manager: to be responsible for integrating the NeXus specification to related
+    terminologies in the scientific communities, both maintaining the registration of NeXus in
+    wider terminologies and providing ways in NeXus specifications to link to these terminologies.
 
 All of these officers will be elected for a two year term. The incumbent
 chair and executive secretary are limited to two consecutive terms.
 
-Voting: Only members of the NeXus International Advisory Committee will 
+Voting: Only voting members of the NeXus International Advisory Committee will 
 be able to vote on specific proposals that come under the remit of the 
 committee. However, all debates will be conducted publicly and 
 non-committee members are both allowed and encouraged to participate.  
