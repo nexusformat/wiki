@@ -10,7 +10,7 @@ Teleconferences
 These were originally born out of the idea of opening the meetings of the former
 Technical Subcommittee to the wider community. All interested parties are welcome.
 If you wish to know the date and time in advance, join the
-[nexus-tech](https://lists.nexusformat.org/mailman/listinfo/nexus-tech) mailing list.
+[nexus](https://lists.nexusformat.org/mailman/listinfo/nexus) mailing list.
 
 Currently we use Zoom as the video conferencing technology, which works reasonably well for everyone. 
 A new link is generated for each meeting and is published
