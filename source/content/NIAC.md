@@ -13,6 +13,7 @@ Current Members
 -   Peter Chang, Diamond Light Source, UK (*Documentation Release Manager*)
 -   Wout de Nolf, European Synchrotron Radiation Facility, France (*NXDL Technical Manager*)
 -   Heike Görzig, Helmholtz Zentrum Berlin, Germany (*Ontology Technical Manager*)
+-   _George O'Neill, European Spallation Source, Sweden_ (*Validation Technical Manager*)
 -   Aaron Brewster, Lawrence Berkeley Laboratory, USA
 -   Sandor Brockhauser, Center for Materials Science Data (HU Berlin), Germany
 -   Benjamin Watts, Swiss Light Source, Switzerland
