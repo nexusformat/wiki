@@ -20,16 +20,16 @@ stated in the [constitution](NIAC.html "wikilink").
 ### Expire September 2025
 
 -   Herbert Bernstein, CIF community (non-facility representative)
--   Thomas Caswell, BNL/NSLS-2, USA
-
-### Expire February 2026
-
--   Paul Millar, DESY, Germany
 
 ### Expire February 2027
 
--   Fernan Saiz, ALBA, Spain
 -   Aaron Brewster, Lawrence Berkeley Laboratory, USA
+
+### Expire September 2027
+
+-   Thomas Caswell, BNL/NSLS-2, USA
+-   Paul Millar, DESY, Germany
+
 
 ### Expire May 2028
 
