@@ -18,16 +18,15 @@ Current Members
 -   Sandor Brockhauser, Center for Materials Science Data (HU Berlin), Germany
 -   Benjamin Watts, Swiss Light Source, Switzerland
 -   Herbert Bernstein, CIF (*non-facility member*)
--   Thomas Caswell, Brookhaven National Laboratory/NSLS-II, USA
+-   _Thomas Caswell, Brookhaven National Laboratory/NSLS-II, USA_
 -   Bjørn Clausen, Los Alamos National Laboratory, USA
 -   Raymond Osborn, Argonne National Laboratory, USA (*non-facility member*)
 -   _Takahiro Matsumoto, Spring8, Japan_
 -   Balázs Bagó, the Extreme Light Infrastructure, Czech Republic, Hungary and Romania
 -   Majid Ounsy, Synchrotron Soleil, France
 -   Chen Zhang, Oak Ridge National Laboratory (SNS/HFIR), USA
--   Paul Millar, DESY, Germany
+-   _Paul Millar, DESY, Germany_
 -   Zdenek Matej, MAX IV, Sweden
--   Fernan Saiz, ALBA, Spain
 -   Gregory Tucker, ESS, Sweden
 -   Mark Wolfman, Advanced Photon Source, USA
 
