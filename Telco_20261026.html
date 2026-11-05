@@ -1,0 +1,232 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Telco 20261026</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="_static/rubric.css" type="text/css" />
+    <script src="_static/documentation_options.js?v=b08bce9f"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Thumbnails for Nexus files" href="Thumbnails_for_Nexus_files.html" />
+    <link rel="prev" title="Telco 20260826" href="Telco_20260826.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Thumbnails_for_Nexus_files.html" title="Thumbnails for Nexus files"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Telco_20260826.html" title="Telco 20260826"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" accesskey="U">Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20261026</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="telco-20261026">
+<h1>Telco 20261026<a class="headerlink" href="#telco-20261026" title="Link to this heading">¶</a></h1>
+<section id="date">
+<h2>Date<a class="headerlink" href="#date" title="Link to this heading">¶</a></h2>
+<p>Monday, 26th Oct, 15:00 UTC</p>
+</section>
+<section id="connect">
+<h2>Connect<a class="headerlink" href="#connect" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>ZOOM VC link: <a class="reference external" href="https://xfel.zoom.us/j/4087412505?pwd=MVBOVGQ5b04vbE91QTAxZk5FcWFqQT09">https://xfel.zoom.us/j/4087412505?pwd=MVBOVGQ5b04vbE91QTAxZk5FcWFqQT09</a></p></li>
+<li><p>Meeting ID: 408 741 2505</p></li>
+<li><p>Passcode: Bragg</p></li>
+</ul>
+</section>
+<section id="agenda">
+<h2>Agenda<a class="headerlink" href="#agenda" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Validator demo (RO)</p></li>
+<li><p>NXxas</p></li>
+<li><p>PRs</p></li>
+<li><p>is there anyone that the NIAC thinks should be invited to the Zulip channel that hasn’t been?</p></li>
+</ul>
+</section>
+<section id="present">
+<h2>Present<a class="headerlink" href="#present" title="Link to this heading">¶</a></h2>
+<p>NIAC - RB, FD, RO, WdN, AB, HB,
+Other - Marius Retegen, Sebastian Busch, Iryna Lypova, Lukas P</p>
+</section>
+<section id="minutes">
+<h2>Minutes<a class="headerlink" href="#minutes" title="Link to this heading">¶</a></h2>
+</section>
+</section>
+<section id="wdn-nxdl-technical-sub-meeting">
+<h1>1. WdN: NXDL technical sub meeting<a class="headerlink" href="#wdn-nxdl-technical-sub-meeting" title="Link to this heading">¶</a></h1>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>- motivation is dont want to bog down general NIAC meeting to talk about technical NXDL topics
+- Zulip will be used to take a poll of when interested parties can meet, and then a meeting will be scheduled
+</pre></div>
+</div>
+</section>
+<section id="ro-demo-of-validator-in-in-builtin-api-of-nexpy">
+<h1>2. RO: Demo of validator in in builtin api of NeXpy<a class="headerlink" href="#ro-demo-of-validator-in-in-builtin-api-of-nexpy" title="Link to this heading">¶</a></h1>
+<ul class="simple">
+<li><p>demo’d interactive validate, from NeXypy and also has nxvalidate CLI tool</p></li>
+</ul>
+</section>
+<section id="followup-on-in-person-meeting-regarding-nxxas">
+<h1>3. Followup on in person meeting regarding NXxas<a class="headerlink" href="#followup-on-in-person-meeting-regarding-nxxas" title="Link to this heading">¶</a></h1>
+<ul class="simple">
+<li><p>NXxas</p>
+<ul>
+<li><p>WdN: review of NXxas discussion from in face to face meeting</p></li>
+<li><p>MR: How do we move forward from the old definition to the new</p>
+<ul>
+<li><p>first create a file that validated against current NXxas definition</p></li>
+<li><p>Used nxvalidate that RO just presented to validate the file</p>
+<ul>
+<li><p>element and edge which did not exist in old definition, but now exist in new definition</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>WdN: names that do/dont exist in the old and new definitions</p></li>
+<li><p>AB: we need to deprecate fields that no longer have desired meaning in new definition</p></li>
+<li><p>HB: all defs have meaning over time, defs will exist with deprecated fields forever</p>
+<ul>
+<li><p>validators will need to be able to handle deprecated fields by indicating what should be done with the deprecated fields</p></li>
+<li><p>should be a way to find all deprecated fields in our files and indicate what to do with them, maybe in the docstring for the deprecated field</p></li>
+</ul>
+</li>
+<li><p>MR: how does a file generated with the old definition get validated against the new definition</p></li>
+<li><p>AB: we asked back at the face to face “is anyone using this current def”? and we found out there was</p></li>
+<li><p>FD: we could indicate that older files (with deprecated fields) will not validate against the new definition,</p></li>
+<li><p>HB: there shouldnt be “old “ and “new” there should be a single “always changing def” and the validator should inform the user</p>
+<ul>
+<li><p>there should be documentation to telling the user how to deal with deprecated field</p></li>
+</ul>
+</li>
+<li><p>AB: we would use the “reason” field</p></li>
+<li><p>AB: this will all voted on at the face to face so as soon as comments are resolved it can be merged</p></li>
+<li><p>MR: AB can you resolve your comments on this PR</p></li>
+<li><p>AB: will do in next day or two</p></li>
+</ul>
+</li>
+<li><p>MR: NXcollection is used for raw_data because it is not validated, we would like to keep raw_data and keep the processing step because it adds meaning to the raw_data</p>
+<ul>
+<li><p>so both need to exist, so this is my question can we use NXcollection for this purpose</p></li>
+</ul>
+</li>
+<li><p>AB: nothing I have heard negates the use of NXdata for this purpose because it is not structured</p></li>
+<li><p>MR: I want to store the output of the computational code, the format is unknown</p></li>
+<li><p>AB: ok its a binary blob so maybe NXcollection is the right choice, if down the road you find a pattern in its use over the next 10 years you could move this into something that
+has meaning because it is understood then</p></li>
+</ul>
+</section>
+<section id="fd-backlog-from-f2f-meeting">
+<h1>4. FD: Backlog from f2f meeting<a class="headerlink" href="#fd-backlog-from-f2f-meeting" title="Link to this heading">¶</a></h1>
+<ul class="simple">
+<li><p>are there things that are here that need a vote or can be merged?</p></li>
+<li><p>PR #28 <a class="reference external" href="https://github.com/nexusformat/wiki/pull/28">https://github.com/nexusformat/wiki/pull/28</a> is now merged</p></li>
+<li><p>PR #1679 <a class="reference external" href="https://github.com/nexusformat/definitions/pull/1679">https://github.com/nexusformat/definitions/pull/1679</a> now merged</p></li>
+<li><p>FD: frequency and duration of meetings?</p>
+<ul>
+<li><p>are we happy with the current frequency of meetings?</p>
+<ul>
+<li><p>there will be quests from SAX community for a future contributed definition</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li></li>
+</ul>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Telco 20261026</a><ul>
+<li><a class="reference internal" href="#date">Date</a></li>
+<li><a class="reference internal" href="#connect">Connect</a></li>
+<li><a class="reference internal" href="#agenda">Agenda</a></li>
+<li><a class="reference internal" href="#present">Present</a></li>
+<li><a class="reference internal" href="#minutes">Minutes</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#wdn-nxdl-technical-sub-meeting">1. WdN: NXDL technical sub meeting</a></li>
+<li><a class="reference internal" href="#ro-demo-of-validator-in-in-builtin-api-of-nexpy">2. RO: Demo of validator in in builtin api of NeXpy</a></li>
+<li><a class="reference internal" href="#followup-on-in-person-meeting-regarding-nxxas">3. Followup on in person meeting regarding NXxas</a></li>
+<li><a class="reference internal" href="#fd-backlog-from-f2f-meeting">4. FD: Backlog from f2f meeting</a></li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/wiki/issues/new">Get help</a></p>
+  </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><p>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+<br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.
+<br><a href="http://www.nexusformat.org/">Home</a>
+<br><a href="https://github.com/nexusformat">GitHub Organisation</a>
+<br>© 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC</a>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Thumbnails_for_Nexus_files.html" title="Thumbnails for Nexus files"
+             >next</a></li>
+        <li class="right" >
+          <a href="Telco_20260826.html" title="Telco 20260826"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" >Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20261026</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, NIAC.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.1.
+    </div>
+  </body>
+</html>
