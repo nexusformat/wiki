@@ -29,6 +29,7 @@ Current Members
 -   Zdenek Matej, MAX IV, Sweden
 -   Gregory Tucker, ESS, Sweden
 -   Mark Wolfman, Advanced Photon Source, USA
+-   _Nicolas Soler, ALBA, Spain_
 
 _non-voting members are written in italic_
 
