@@ -1,0 +1,200 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Telco 20261118</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinxdoc.css?v=34905f61" />
+    <link rel="stylesheet" type="text/css" href="_static/details_summary_hide.css?v=30df4bca" />
+    <link rel="stylesheet" href="_static/blockquote.css" type="text/css" />
+    <link rel="stylesheet" href="_static/rubric.css" type="text/css" />
+    <script src="_static/documentation_options.js?v=b08bce9f"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <link rel="icon" href="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark_square.svg"/>
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Thumbnails for Nexus files" href="Thumbnails_for_Nexus_files.html" />
+    <link rel="prev" title="Telco 20261026" href="Telco_20261026.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Thumbnails_for_Nexus_files.html" title="Thumbnails for Nexus files"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="Telco_20261026.html" title="Telco 20261026"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" accesskey="U">Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20261118</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="telco-20261118">
+<h1>Telco 20261118<a class="headerlink" href="#telco-20261118" title="Link to this heading">¶</a></h1>
+<section id="date">
+<h2>Date<a class="headerlink" href="#date" title="Link to this heading">¶</a></h2>
+<p>Wednesday, 18th Nov, 15:00 UTC</p>
+</section>
+<section id="connect">
+<h2>Connect<a class="headerlink" href="#connect" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Zoom videoconference</p></li>
+</ul>
+</section>
+<section id="agenda">
+<h2>Agenda<a class="headerlink" href="#agenda" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Scanning probe microscopy (SPM): follow-up from the Hamburg face-to-face meeting</p></li>
+<li><p>NXDL technical meetings: group names, classes, and validation rules</p></li>
+<li><p>Validation working group</p></li>
+<li><p>Crystallographic base classes for neutron time-of-flight powder diffraction</p></li>
+<li><p>Pull request review and future agendas</p></li>
+</ul>
+</section>
+<section id="present">
+<h2>Present<a class="headerlink" href="#present" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><strong>NIAC</strong>: FD (Fabio Dall’Antonia), RB (Russ Berg), AB (Aaron Brewster), SB (Sandor Brockhauser), WD (Wout de Nolf), RO (Raymond Osborn), BW (Benjamin Watts), PC (Peter Chang), AB (Aaron Brewster), HG (Heike Görzig), IL(Iryana Lypova), BW (Ben Watts), SB (Sandor Brockhauser), RO (Ray Osborn), WdN (Wout de Nolf)</p></li>
+<li><p><strong>Other</strong>: LP (Lukas Pielsticker), RM (Rubel Mozumder), SeB (Seb Busch)</p></li>
+</ul>
+</section>
+<section id="minutes">
+<h2>Minutes<a class="headerlink" href="#minutes" title="Link to this heading">¶</a></h2>
+<section id="scanning-probe-microscopy-spm-application-definitions">
+<h3>1. Scanning probe microscopy (SPM) application definitions<a class="headerlink" href="#scanning-probe-microscopy-spm-application-definitions" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><strong>RM:</strong> Presented the changes to <a class="reference external" href="https://github.com/nexusformat/definitions/pull/1632">nexusformat/definitions#1632</a> following the Hamburg review. The scanner frame is the root reference frame; the scan, probe, stage, and sample frames describe the geometry where available. The stage frame accommodates Bruker files that distinguish the stage from the scanner. Sample and probe geometry is not always available from the instrument files.</p></li>
+<li><p><strong>LP:</strong> Explained that the optional <code class="docutils literal notranslate"><span class="pre">NXcoordinate_system</span></code> information lets users describe how components relate without requiring metadata they do not have. Offered converted example datasets for reviewers and noted that project partners already use the definitions in their labs.</p></li>
+<li><p><strong>RM:</strong> Reported that the converter handles five instrument file variants. After manually checking hundreds of datasets, the team is building a pipeline to convert public SPM data from Zenodo to NeXus for NOMAD.</p></li>
+<li><p><strong>AB:</strong> Asked reviewers to revisit and resolve the outstanding comments they had raised. Proposed that a NIAC member finish the review and, if the PR is ready, put it to an online vote before merging it into the main application definitions.</p></li>
+<li><p><strong>SB:</strong> Suggested inviting an SPM specialist to answer questions and participate as a community reviewer. <strong>LP</strong> noted that project specialists could help answer questions but would be reviewing work they had helped develop. <strong>FD</strong> said an independent opinion would be valuable for a standard application definition, and <strong>AB</strong> argued that NIAC should now complete its own review.</p></li>
+<li><p><strong>FD:</strong> Volunteered to review the changes against the original comments and resolve those that had been addressed. A second reviewer would be welcome. No vote was taken.</p></li>
+</ul>
+</section>
+<section id="nxdl-technical-meetings-and-group-validity">
+<h3>2. NXDL technical meetings and group validity<a class="headerlink" href="#nxdl-technical-meetings-and-group-validity" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><strong>WD:</strong> Summarized <a class="reference external" href="https://github.com/nexusformat/definitions/issues/1687">nexusformat/definitions#1687</a>. Proposed distinguishing properties (what an item is, such as a group’s name or NeXus class) from attributes (what it has). HDF5 stores the class as <code class="docutils literal notranslate"><span class="pre">NX_class</span></code>, but that storage detail does not make it an ordinary attribute in the data model.</p></li>
+<li><p><strong>WD:</strong> Presented a questionnaire, linked from Zulip, on how to handle group names and classes, including missing values and special cases at the root. The technical group covered the first three questions at its most recent meeting. The goal is to reach consensus in the technical meetings and submit a documentation PR; whether to encode the rules in NXDL is a separate question.</p></li>
+<li><p><strong>WD:</strong> Distinguished <em>coverage</em> (whether NeXus rules apply) from <em>validity</em> (whether covered content meets them). Presented a preliminary assessment of the impact on readers, writers, and validators, for tool maintainers to check. Emphasized that compatibility with existing NeXus files should carry more weight than the cost of changing tools.</p></li>
+<li><p><strong>AB:</strong> Suggested that validators ignore non-root groups without <code class="docutils literal notranslate"><span class="pre">NX_class</span></code>, since authors may intentionally include non-NeXus content. <strong>WD</strong> presented allowing such groups with a warning as another option. No rule was adopted.</p></li>
+<li><p><strong>WD:</strong> Will send a poll for the next NXDL technical meeting and invited participants to add their answers to the shared questionnaire. <strong>FD</strong> asked that the technical group continue to report progress to NIAC.</p></li>
+</ul>
+</section>
+<section id="validation-working-group">
+<h3>3. Validation working group<a class="headerlink" href="#validation-working-group" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><strong>FD:</strong> Suggested coordinating validator development with the NXDL work and raised <code class="docutils literal notranslate"><span class="pre">nxvalidate</span></code> as a possible tool to focus on. Noted that a validation channel is available in Zulip.</p></li>
+<li><p><strong>LP:</strong> Recommended deferring alignment between validators until the NXDL discussions are further along.</p></li>
+<li><p><strong>RB:</strong> Relayed that <strong>RO</strong> was unable to speak because of a concurrent meeting. There was no further working-group discussion or decision.</p></li>
+</ul>
+</section>
+<section id="crystallographic-base-classes">
+<h3>4. Crystallographic base classes<a class="headerlink" href="#crystallographic-base-classes" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><strong>FD:</strong> Flagged <a class="reference external" href="https://github.com/nexusformat/definitions/issues/1677">nexusformat/definitions#1677</a> and the related <a class="reference external" href="https://github.com/nexusformat/definitions/pull/1678">nexusformat/definitions#1678</a>, prompted by YM’s work on neutron time-of-flight powder diffraction. The PR proposes using <code class="docutils literal notranslate"><span class="pre">NXphase</span></code> and <code class="docutils literal notranslate"><span class="pre">NXunit_cell</span></code> in <code class="docutils literal notranslate"><span class="pre">NXsample</span></code> and <code class="docutils literal notranslate"><span class="pre">NXsample_component</span></code> and deprecating overlapping flat fields.</p></li>
+<li><p><strong>FD:</strong> Noted earlier input from <strong>LP</strong> and <strong>PJ</strong> and invited further comments on the PR. <strong>FD</strong> may invite <strong>YM</strong> to a future call.</p></li>
+</ul>
+</section>
+<section id="community-updates-and-future-agendas">
+<h3>5. Community updates and future agendas<a class="headerlink" href="#community-updates-and-future-agendas" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><strong>LP:</strong> Reported plans to expand work on X-ray diffraction (XRD) beyond the existing contributed definition and invited interested collaborators.</p></li>
+<li><p><strong>FD:</strong> Deferred the reflectivity item until the initiative and the Open Reflectometry Standards Organisation (ORSO) align on a proposal.</p></li>
+<li><p><strong>FD:</strong> Invited members to flag items that need decisions and noted that votes can also take place between meetings. <strong>WD</strong> suggested selecting a small number of PRs for decisions. <strong>AB</strong> described starting with the most recent or active PRs when no items had been submitted in advance. <strong>FD</strong> encouraged contributors to flag older PRs that need attention.</p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Telco 20261118</a><ul>
+<li><a class="reference internal" href="#date">Date</a></li>
+<li><a class="reference internal" href="#connect">Connect</a></li>
+<li><a class="reference internal" href="#agenda">Agenda</a></li>
+<li><a class="reference internal" href="#present">Present</a></li>
+<li><a class="reference internal" href="#minutes">Minutes</a><ul>
+<li><a class="reference internal" href="#scanning-probe-microscopy-spm-application-definitions">1. Scanning probe microscopy (SPM) application definitions</a></li>
+<li><a class="reference internal" href="#nxdl-technical-meetings-and-group-validity">2. NXDL technical meetings and group validity</a></li>
+<li><a class="reference internal" href="#validation-working-group">3. Validation working group</a></li>
+<li><a class="reference internal" href="#crystallographic-base-classes">4. Crystallographic base classes</a></li>
+<li><a class="reference internal" href="#community-updates-and-future-agendas">5. Community updates and future agendas</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <p>Have a Question? <a href="https://github.com/nexusformat/wiki/issues/new">Get help</a></p>
+  </div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><p>
+ <a href="http://www.nexusformat.org/">
+   <img src="https://raw.githubusercontent.com/nexusformat/NIAC/master/NeXus_Logo/NeXus_Logo_dark.svg" alt="NeXus"
+        width="150"
+        height="50"
+   >
+</a>
+<br>NeXus is developed as an international standard by scientists and programmers representing major scientific
+ facilities in Europe, Asia, Australia, and North America in order to facilitate greater cooperation in the
+ analysis and visualization of neutron, x-ray, and muon data.
+<br><a href="http://www.nexusformat.org/">Home</a>
+<br><a href="https://github.com/nexusformat">GitHub Organisation</a>
+<br>© 2025 <a href="http://www.nexusformat.org/NIAC.html">NIAC</a>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="Thumbnails_for_Nexus_files.html" title="Thumbnails for Nexus files"
+             >next</a></li>
+        <li class="right" >
+          <a href="Telco_20261026.html" title="Telco 20261026"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html"></a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="Teleconferences.html" >Teleconferences</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Telco 20261118</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2025, NIAC.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.1.
+    </div>
+  </body>
+</html>
